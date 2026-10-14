@@ -1,0 +1,181 @@
+/* Self-hosted script face for stylised titles (font-script). Bundled and served
+   from our own origin; browsers only fetch it on pages that use it. */
+@import "@fontsource-variable/dancing-script";
+@import "@fontsource/cabin-sketch";
+@import "@fontsource/cabin-sketch/700.css";
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Tailwind v4 only scans this app's src/ — also scan the shared UI package. */
+@source "../../../packages/ui/src";
+@import "@cv/ui/tokens.css";
+@import "tw-animate-css";
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar {
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Faint dot grid used on navy bands. */
+  .dot-grid {
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0.12) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .dot-grid-dark {
+    background-image: radial-gradient(circle, rgb(4 29 64 / 0.08) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  /* Navy hero band with a soft butter glow. */
+  .hero-navy {
+    background:
+      radial-gradient(60rem 30rem at 85% -10%, rgb(255 239 170 / 0.22), transparent 60%),
+      radial-gradient(40rem 24rem at 0% 110%, rgb(245 184 20 / 0.16), transparent 60%),
+      linear-gradient(160deg, #041d40 0%, #072b5c 55%, #041d40 100%);
+  }
+  .card-hover {
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+  .card-hover:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px -12px rgb(4 29 64 / 0.25);
+  }
+}
+
+/* A soft bubble of pale-yellow light that glides along a bottom edge, left to
+   right, forever — used on the main navbar and on navy banner cards.
+   edge-bubble-track clips the glow to its parent instead of letting it spill
+   past rounded corners or onto the page below. The parent needs `relative`
+   (and `overflow-hidden` if it has rounded corners). */
+@keyframes edge-bubble {
+  0% {
+    left: -8%;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    left: 104%;
+    opacity: 0;
+  }
+}
+.edge-bubble-track {
+  /* Centred on the border line itself (bottom: -3px + height/2 = 0), not floating above or below it. */
+  position: absolute;
+  inset: auto 0 -3px 0;
+  height: 6px;
+  overflow: hidden;
+  pointer-events: none;
+}
+.edge-bubble {
+  position: absolute;
+  top: 0;
+  width: 180px;
+  height: 100%;
+  border-radius: 9999px;
+  transform: translateX(-50%);
+  background: radial-gradient(closest-side, rgb(255 239 170 / 0.95), rgb(255 239 170 / 0.4) 55%, transparent 80%);
+  animation: edge-bubble 9s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .edge-bubble {
+    animation: none;
+    opacity: 0;
+  }
+}
+
+/* A bright comet of light that sweeps all the way around a card's border —
+   left, top, right, bottom, back to the start — over a dim resting ring,
+   forever. Apply `perimeter-glow` to a `relative` element with its own
+   `border-radius` and no border of its own (the ring replaces it, matching
+   the radius via `border-radius: inherit`).
+
+   Two layers, both the classic padding + two-layer-mask ring trick:
+     ::before — a faint always-on base ring, so the border reads even if
+                @property or masking isn't supported.
+     ::after  — the moving comet: mostly transparent, with one short bright
+                arc, so the motion is obvious rather than a soft blend.
+   The var() fallback (0deg) keeps ::after visible (just not spinning) on
+   browsers that don't support @property. */
+@property --perimeter-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes perimeter-spin {
+  to {
+    --perimeter-angle: 360deg;
+  }
+}
+.perimeter-glow {
+  position: relative;
+}
+.perimeter-glow::before,
+.perimeter-glow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 4px;
+  pointer-events: none;
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+.perimeter-glow::before {
+  z-index: 1;
+  background: rgb(255 239 170 / 0.3);
+}
+.perimeter-glow::after {
+  z-index: 2;
+  background: conic-gradient(
+    from var(--perimeter-angle, 0deg),
+    rgb(255 239 170 / 0) 0deg,
+    rgb(255 239 170 / 0.95) 8deg,
+    rgb(245 184 20 / 1) 22deg,
+    rgb(245 158 11 / 0.9) 36deg,
+    rgb(255 239 170 / 0) 58deg,
+    rgb(255 239 170 / 0) 360deg
+  );
+  filter: drop-shadow(0 0 9px rgb(245 184 20 / 0.9));
+  animation: perimeter-spin 7s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .perimeter-glow::after {
+    animation: none;
+  }
+}
+
+/* Tiptap placeholder (editors). */
+.tiptap p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+  color: var(--muted-foreground);
+}

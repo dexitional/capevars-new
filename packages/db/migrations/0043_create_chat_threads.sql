@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS chat_threads (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  type ENUM('direct', 'forum', 'group', 'course') NOT NULL,
+  direct_key VARCHAR(24) NULL,
+  ref_id INT UNSIGNED NULL,
+  title VARCHAR(150) NULL,
+  slug VARCHAR(170) NULL,
+  description VARCHAR(500) NULL,
+  icon VARCHAR(40) NULL,
+  created_by INT UNSIGNED NULL,
+  is_public TINYINT(1) NOT NULL DEFAULT 0,
+  is_locked TINYINT(1) NOT NULL DEFAULT 0,
+  message_count INT UNSIGNED NOT NULL DEFAULT 0,
+  last_message_at DATETIME NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_chat_threads_direct (direct_key),
+  UNIQUE KEY uq_chat_threads_slug (slug),
+  UNIQUE KEY uq_chat_threads_ref (type, ref_id),
+  KEY idx_chat_threads_type (type, last_message_at),
+  CONSTRAINT fk_chat_threads_creator FOREIGN KEY (created_by) REFERENCES users (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

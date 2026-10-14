@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS rental_requests (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  rental_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NOT NULL,
+  start_date DATE NOT NULL,
+  end_date DATE NOT NULL,
+  pickup_location VARCHAR(200) NOT NULL,
+  destination VARCHAR(200) NOT NULL,
+  passengers SMALLINT UNSIGNED NOT NULL,
+  purpose VARCHAR(500) NULL,
+  contact_phone VARCHAR(30) NOT NULL,
+  quoted_amount DECIMAL(10, 2) NULL,
+  status ENUM('requested', 'quoted', 'confirmed', 'declined', 'cancelled', 'completed') NOT NULL DEFAULT 'requested',
+  seller_note VARCHAR(1000) NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_rental_requests_rental (rental_id, status),
+  KEY idx_rental_requests_user (user_id),
+  CONSTRAINT fk_rental_requests_rental FOREIGN KEY (rental_id) REFERENCES bus_rentals (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_rental_requests_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

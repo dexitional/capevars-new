@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS enrollments (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  course_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NOT NULL,
+  status ENUM('pending_payment', 'active', 'completed', 'revoked') NOT NULL DEFAULT 'active',
+  amount_paid DECIMAL(10, 2) NOT NULL DEFAULT 0,
+  payment_id INT UNSIGNED NULL,
+  progress_percent TINYINT UNSIGNED NOT NULL DEFAULT 0,
+  last_lesson_id INT UNSIGNED NULL,
+  certificate_code VARCHAR(20) NULL,
+  completed_at DATETIME NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_enrollments (course_id, user_id),
+  UNIQUE KEY uq_enrollments_certificate (certificate_code),
+  KEY idx_enrollments_user (user_id, status),
+  CONSTRAINT fk_enrollments_course FOREIGN KEY (course_id) REFERENCES courses (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_enrollments_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_enrollments_payment FOREIGN KEY (payment_id) REFERENCES payments (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

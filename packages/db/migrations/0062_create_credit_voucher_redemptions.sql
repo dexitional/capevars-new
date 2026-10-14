@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS credit_voucher_redemptions (
+  voucher_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (voucher_id, user_id),
+  CONSTRAINT fk_cvr_voucher FOREIGN KEY (voucher_id) REFERENCES credit_vouchers (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_cvr_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

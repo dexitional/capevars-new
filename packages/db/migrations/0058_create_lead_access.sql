@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS lead_access (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  list_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NOT NULL,
+  voucher_code VARCHAR(16) NOT NULL,
+  source ENUM('owner', 'free', 'purchase', 'share', 'admin') NOT NULL,
+  amount_paid DECIMAL(10, 2) NOT NULL DEFAULT 0,
+  owner_earning DECIMAL(10, 2) NOT NULL DEFAULT 0,
+  payment_id INT UNSIGNED NULL,
+  status ENUM('pending', 'active', 'revoked') NOT NULL DEFAULT 'active',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_lead_access (list_id, user_id),
+  UNIQUE KEY uq_lead_access_voucher (voucher_code),
+  KEY idx_lead_access_user (user_id, status),
+  CONSTRAINT fk_lead_access_list FOREIGN KEY (list_id) REFERENCES lead_lists (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_lead_access_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_lead_access_payment FOREIGN KEY (payment_id) REFERENCES payments (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

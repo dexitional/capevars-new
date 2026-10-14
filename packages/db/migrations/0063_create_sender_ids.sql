@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS sender_ids (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  user_id INT UNSIGNED NOT NULL,
+  channel ENUM('sms', 'email') NOT NULL,
+  sender VARCHAR(80) NOT NULL,
+  reply_to VARCHAR(150) NULL,
+  purpose VARCHAR(500) NOT NULL,
+  sample_message VARCHAR(500) NULL,
+  status ENUM('pending', 'approved', 'rejected') NOT NULL DEFAULT 'pending',
+  status_reason VARCHAR(500) NULL,
+  reviewed_by INT UNSIGNED NULL,
+  reviewed_at DATETIME NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_sender_ids (user_id, channel, sender),
+  KEY idx_sender_ids_status (status),
+  CONSTRAINT fk_sender_ids_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_sender_ids_admin FOREIGN KEY (reviewed_by) REFERENCES admins (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
