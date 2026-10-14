@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS payments (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  reference VARCHAR(40) NOT NULL,
+  user_id INT UNSIGNED NULL,
+  purpose ENUM('order', 'ticket', 'enrollment', 'donation', 'booth') NOT NULL,
+  target_ids JSON NOT NULL,
+  amount DECIMAL(12, 2) NOT NULL,
+  currency CHAR(3) NOT NULL DEFAULT 'GHS',
+  provider ENUM('paystack', 'manual') NOT NULL DEFAULT 'manual',
+  status ENUM('pending', 'success', 'failed') NOT NULL DEFAULT 'pending',
+  channel VARCHAR(30) NULL,
+  email VARCHAR(150) NULL,
+  return_path VARCHAR(300) NULL,
+  paid_at DATETIME NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_payments_reference (reference),
+  KEY idx_payments_user (user_id, created_at),
+  KEY idx_payments_status (status, created_at),
+  CONSTRAINT fk_payments_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

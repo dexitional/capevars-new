@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS bus_trips (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  seller_id INT UNSIGNED NOT NULL,
+  origin VARCHAR(100) NOT NULL,
+  destination VARCHAR(100) NOT NULL,
+  pickup_point VARCHAR(200) NULL,
+  departs_at DATETIME NOT NULL,
+  arrives_at DATETIME NULL,
+  bus_type VARCHAR(60) NULL,
+  amenities JSON NULL,
+  seats_total SMALLINT UNSIGNED NOT NULL,
+  seats_booked SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  price DECIMAL(10, 2) NOT NULL,
+  status ENUM('scheduled', 'cancelled', 'completed', 'blocked') NOT NULL DEFAULT 'scheduled',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_bus_trips_route (origin, destination, departs_at),
+  KEY idx_bus_trips_seller (seller_id, departs_at),
+  CONSTRAINT fk_bus_trips_seller FOREIGN KEY (seller_id) REFERENCES sellers (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

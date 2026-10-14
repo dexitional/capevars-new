@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS course_lessons (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  course_id INT UNSIGNED NOT NULL,
+  section_id INT UNSIGNED NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  type ENUM('video', 'article', 'infographic', 'quiz', 'assignment', 'resource') NOT NULL DEFAULT 'video',
+  content MEDIUMTEXT NULL,
+  video_url VARCHAR(500) NULL,
+  file_url VARCHAR(500) NULL,
+  image_url VARCHAR(500) NULL,
+  duration_minutes SMALLINT UNSIGNED NOT NULL DEFAULT 0,
+  pass_mark TINYINT UNSIGNED NOT NULL DEFAULT 70,
+  is_preview TINYINT(1) NOT NULL DEFAULT 0,
+  sort_order INT NOT NULL DEFAULT 0,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_course_lessons_section (section_id, sort_order),
+  KEY idx_course_lessons_course (course_id),
+  CONSTRAINT fk_course_lessons_course FOREIGN KEY (course_id) REFERENCES courses (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_course_lessons_section FOREIGN KEY (section_id) REFERENCES course_sections (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

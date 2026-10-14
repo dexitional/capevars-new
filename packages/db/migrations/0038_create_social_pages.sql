@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS social_pages (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  owner_id INT UNSIGNED NOT NULL,
+  name VARCHAR(150) NOT NULL,
+  slug VARCHAR(170) NOT NULL,
+  category VARCHAR(60) NOT NULL,
+  about TEXT NULL,
+  avatar_url VARCHAR(500) NULL,
+  cover_url VARCHAR(500) NULL,
+  website VARCHAR(255) NULL,
+  phone VARCHAR(30) NULL,
+  email VARCHAR(150) NULL,
+  follower_count INT UNSIGNED NOT NULL DEFAULT 0,
+  is_verified TINYINT(1) NOT NULL DEFAULT 0,
+  status ENUM('active', 'suspended') NOT NULL DEFAULT 'active',
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_social_pages_slug (slug),
+  KEY idx_social_pages_owner (owner_id),
+  FULLTEXT KEY ft_social_pages_search (name, about),
+  CONSTRAINT fk_social_pages_owner FOREIGN KEY (owner_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

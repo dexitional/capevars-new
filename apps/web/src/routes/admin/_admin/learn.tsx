@@ -1,0 +1,28 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { AdminPageHeader } from "#/components/admin/ui";
+import { ModerationTable } from "#/components/admin/moderation-table";
+import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
+import { COURSE_LEVELS } from "#/lib/labels";
+import { formatDuration } from "#/lib/money";
+
+export const Route = createFileRoute("/admin/_admin/learn")({ component: Learn });
+
+function Learn() {
+  return (
+    <div className="space-y-6">
+      <AdminPageHeader title="OpenLearn" description="Review courses against the creation guidelines before they go live. Open a course to inspect its content." />
+      <ModerationTable
+        entity="courses"
+        defaultStatus="in_review"
+        columns={[
+          { label: "Course", render: (r) => <TitleCell title={r.title} sub={`${r.instructor_name} · ${r.category_name ?? "Uncategorised"}`} image={r.cover_url} /> },
+          { label: "Content", render: (r) => <span className="text-xs">{r.lesson_count} lessons · {formatDuration(r.duration_minutes)} · {COURSE_LEVELS[r.level]}</span> },
+          { label: "Price", render: (r) => <MoneyCell value={r.price} free /> },
+          { label: "Learners", render: (r) => <span className="text-xs">{r.enrollment_count}{r.rating_avg ? ` · ★ ${r.rating_avg}` : ""}</span> },
+          { label: "Submitted", render: (r) => <DateCell value={r.submitted_at} time /> },
+          { label: "Status", render: (r) => <StatusCell row={r} /> },
+        ]}
+      />
+    </div>
+  );
+}

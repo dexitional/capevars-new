@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS group_donations (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  campaign_id INT UNSIGNED NOT NULL,
+  user_id INT UNSIGNED NULL,
+  donor_name VARCHAR(150) NOT NULL,
+  amount DECIMAL(12, 2) NOT NULL,
+  message VARCHAR(500) NULL,
+  is_anonymous TINYINT(1) NOT NULL DEFAULT 0,
+  method ENUM('online', 'momo_direct') NOT NULL DEFAULT 'online',
+  momo_reference VARCHAR(60) NULL,
+  status ENUM('pending', 'confirmed', 'rejected') NOT NULL DEFAULT 'pending',
+  payment_id INT UNSIGNED NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_group_donations_campaign (campaign_id, status, created_at),
+  CONSTRAINT fk_group_donations_campaign FOREIGN KEY (campaign_id) REFERENCES group_campaigns (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_group_donations_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT fk_group_donations_payment FOREIGN KEY (payment_id) REFERENCES payments (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

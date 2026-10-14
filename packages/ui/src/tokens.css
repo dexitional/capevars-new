@@ -1,0 +1,140 @@
+/*
+ * Capevars brand tokens, sampled from files/logo.webp: the bulb-and-C mark in
+ * deep navy #041D40 on butter cream #FFEFAA. Navy carries text, primary
+ * actions and the dark bands; the butter family (cream → gold) carries
+ * highlights and calls to action on navy. Each of the five systems also gets
+ * an identity colour used for its icon chips and section accents (six systems).
+ *
+ * Fonts: the platform's own system fonts (San Francisco on Apple devices,
+ * Segoe UI on Windows, Roboto on Android, ...). Nothing to download, so text
+ * renders instantly and looks native everywhere. Headings use the same sans
+ * stack at heavier weights. The one exception is --font-script (Dancing
+ * Script, self-hosted from apps/web/src/styles.css) for stylised titles such
+ * as the platform name in the secondary navigation: system script faces
+ * differ too much between devices to carry the brand. --font-hero (Cabin
+ * Sketch, also self-hosted) is the hand-drawn display face for the homepage
+ * hero heading only.
+ */
+:root {
+  --background: #ffffff;
+  --foreground: #0b1730;
+  --card: #ffffff;
+  --card-foreground: #0b1730;
+  --popover: #ffffff;
+  --popover-foreground: #0b1730;
+  --primary: #041d40;
+  --primary-foreground: #ffffff;
+  --primary-dark: #021229;
+  --primary-soft: #e8edf6;
+  --secondary: #f3f5f9;
+  --secondary-foreground: #041d40;
+  --muted: #f6f7fa;
+  --muted-foreground: #5a6478;
+  --accent: #fff7d6;
+  --accent-foreground: #041d40;
+  --brand-cream: #ffefaa;
+  --brand-butter: #ffe27a;
+  --brand-gold: #f5b814;
+  --brand-amber: #d99a00;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --success: #059669;
+  --success-foreground: #ffffff;
+  --warning: #d97706;
+  --warning-foreground: #451a03;
+  --info: #2563eb;
+  --info-foreground: #ffffff;
+  --border: #e4e8ef;
+  --input: #d7dce6;
+  --ring: #041d40;
+  --radius: 0.75rem;
+
+  /* System identity colours */
+  --sys-market: #f59e0b;
+  --sys-finder: #0d9488;
+  --sys-groups: #7c3aed;
+  --sys-social: #2563eb;
+  --sys-learn: #e11d48;
+  --sys-leadgen: #0891b2;
+
+  /* Admin sidebar */
+  --sidebar: #031631;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #ffefaa;
+  --sidebar-accent: #0b2a55;
+  --sidebar-border: #0e2b52;
+}
+
+@theme inline {
+  --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-display: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-script: "Dancing Script Variable", "Dancing Script", "Segoe Script", "Snell Roundhand", cursive;
+  --font-hero: "Cabin Sketch", var(--font-display);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-soft: var(--primary-soft);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-brand-cream: var(--brand-cream);
+  --color-brand-butter: var(--brand-butter);
+  --color-brand-gold: var(--brand-gold);
+  --color-brand-amber: var(--brand-amber);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-info: var(--info);
+  --color-info-foreground: var(--info-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sys-market: var(--sys-market);
+  --color-sys-finder: var(--sys-finder);
+  --color-sys-groups: var(--sys-groups);
+  --color-sys-social: var(--sys-social);
+  --color-sys-learn: var(--sys-learn);
+  --color-sys-leadgen: var(--sys-leadgen);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-border: var(--sidebar-border);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  .font-display {
+    font-family: var(--font-display);
+  }
+}

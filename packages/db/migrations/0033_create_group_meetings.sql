@@ -1,0 +1,19 @@
+CREATE TABLE IF NOT EXISTS group_meetings (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  group_id INT UNSIGNED NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  agenda TEXT NULL,
+  starts_at DATETIME NOT NULL,
+  ends_at DATETIME NULL,
+  location VARCHAR(200) NULL,
+  meeting_url VARCHAR(500) NULL,
+  members_only TINYINT(1) NOT NULL DEFAULT 1,
+  rsvp_count INT UNSIGNED NOT NULL DEFAULT 0,
+  created_by INT UNSIGNED NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_group_meetings_group (group_id, starts_at),
+  CONSTRAINT fk_group_meetings_group FOREIGN KEY (group_id) REFERENCES campus_groups (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_group_meetings_user FOREIGN KEY (created_by) REFERENCES users (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
