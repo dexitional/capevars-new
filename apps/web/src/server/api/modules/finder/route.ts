@@ -7,7 +7,7 @@ import { getPool } from "@cv/db";
 import type { RowDataPacket } from "mysql2";
 import { memberOrNull, optionalMember, requireMember } from "#/server/member-session-core";
 import { validate } from "../../lib/validate.js";
-import { optionalText, optionalUrl } from "../../lib/fields.js";
+import { optionalText, optionalUrl, urlListSchema } from "../../lib/fields.js";
 import { pageQuerySchema, paging } from "../../lib/query.js";
 import { textSearch } from "../../lib/search.js";
 import { toColumns, insertSql, updateSql } from "../../lib/columns.js";
@@ -24,7 +24,7 @@ const listingSchema = z.object({
   category: optionalText(80),
   coverUrl: optionalUrl,
   logoUrl: optionalUrl,
-  images: z.array(z.string().url().max(500)).max(12).optional(),
+  images: urlListSchema(12).optional(),
   address: optionalText(255),
   area: optionalText(100),
   city: optionalText(100),

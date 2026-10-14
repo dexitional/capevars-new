@@ -8,7 +8,7 @@ import type { ResultSetHeader, RowDataPacket } from "mysql2";
 import { memberOrNull, optionalMember, requireMember } from "#/server/member-session-core";
 import type { SessionMember } from "#/server/member-session-core";
 import { validate } from "../../lib/validate.js";
-import { optionalText, optionalUrl } from "../../lib/fields.js";
+import { optionalText, optionalUrl, urlListSchema } from "../../lib/fields.js";
 import { toColumns, insertSql, updateSql } from "../../lib/columns.js";
 import { uniqueSlug } from "../../lib/slug.js";
 import { AppError } from "../../middleware/error-handler.js";
@@ -19,7 +19,7 @@ const REACTIONS = ["like", "love", "celebrate", "insightful", "funny"] as const;
 
 const postSchema = z.object({
   body: optionalText(5000),
-  images: z.array(z.string().url().max(500)).max(10).optional(),
+  images: urlListSchema(10).optional(),
   linkUrl: optionalUrl,
   visibility: z.enum(["public", "friends", "only_me"]).default("public"),
   pageId: z.number().int().positive().optional(),
