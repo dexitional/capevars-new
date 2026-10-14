@@ -23,8 +23,29 @@ export const linkSchema = z
   );
 export const optionalLink = optionalField(linkSchema);
 
-export const urlSchema = z.string().trim().url().max(700);
+// A file in this site's own storage. Local uploads are stored with relative
+// URLs (a domain is a deploy setting, never saved), so image and file fields
+// must accept them.
+const STORED_FILE = /^\/files\/[a-z0-9][a-z0-9._/-]*$/i;
+
+function isWebUrl(v: string) {
+  try {
+    const { protocol } = new URL(v);
+    return protocol === "https:" || protocol === "http:";
+  } catch {
+    return false;
+  }
+}
+
+// An absolute http(s) URL or an uploaded file ("/files/..."). Other schemes
+// (javascript:, data:, ...) are refused, since these values end up in src and href.
+export const urlSchema = z
+  .string()
+  .trim()
+  .max(700)
+  .refine((v) => STORED_FILE.test(v) || isWebUrl(v), "Enter a valid link (https://...) or upload a file");
 export const optionalUrl = optionalField(urlSchema);
+export const urlListSchema = (max: number) => z.array(urlSchema).max(max);
 
 export const dateSchema = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, "Use YYYY-MM-DD");
 export const optionalDate = optionalField(dateSchema);

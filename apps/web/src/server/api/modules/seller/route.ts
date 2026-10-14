@@ -8,7 +8,7 @@ import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
 import { requireMember, requireSeller } from "#/server/member-session-core";
 import { validate } from "../../lib/validate.js";
-import { optionalText, optionalUrl } from "../../lib/fields.js";
+import { optionalText, optionalUrl, urlListSchema } from "../../lib/fields.js";
 import { toColumns, insertSql, updateSql } from "../../lib/columns.js";
 import { uniqueSlug } from "../../lib/slug.js";
 import { AppError } from "../../middleware/error-handler.js";
@@ -21,7 +21,7 @@ const dateTime = z
   .string()
   .regex(/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}(:\d{2})?$/, "Use a valid date and time")
   .transform((v) => (v.replace("T", " ").length === 16 ? `${v.replace("T", " ")}:00` : v.replace("T", " ")));
-const imageList = z.array(z.string().url().max(500)).max(10);
+const imageList = urlListSchema(10);
 
 const storeSchema = z.object({
   storeName: z.string().trim().min(2).max(150),
