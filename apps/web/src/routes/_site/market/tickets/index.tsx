@@ -25,12 +25,15 @@ function TicketsHome() {
     <div className="pb-16">
       <PageHero system="market" eyebrow="E-Tickets" title="Events, buses and rentals — booked in seconds." text="SRC and association events, campus shows, private parties, intercity bus seats and bus hire.">
         <BusSearchForm />
-        <div className="mt-4 flex flex-wrap gap-2">
-          <Link to="/market/tickets/events" className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3.5 py-1.5 text-sm hover:bg-white/20">
-            <Ticket className="size-4" /> All events
+        <div className="mt-6 flex flex-wrap gap-3">
+          <Link to="/market/tickets/events" className="btn-pop">
+            <Ticket className="size-[1.1em]" strokeWidth={2.5} /> All events
           </Link>
-          <Link to="/market/tickets/rentals" className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3.5 py-1.5 text-sm hover:bg-white/20">
-            <Users className="size-4" /> Hire a bus
+          <Link to="/market/tickets/bus" className="btn-pop">
+            <Bus className="size-[1.1em]" strokeWidth={2.5} /> Book a seat
+          </Link>
+          <Link to="/market/tickets/rentals" className="btn-pop">
+            <Users className="size-[1.1em]" strokeWidth={2.5} /> Hire a bus
           </Link>
         </div>
       </PageHero>

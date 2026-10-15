@@ -3,8 +3,27 @@ import { getPool } from "@cv/db";
 import type { RowDataPacket } from "mysql2";
 import { requirePermission } from "../../middleware/require-auth.js";
 
+const QUEUES_SQL = `SELECT (SELECT COUNT(*) FROM sellers WHERE status = 'pending') AS sellers,
+         (SELECT COUNT(*) FROM ticket_events WHERE status = 'pending') AS events,
+         (SELECT COUNT(*) FROM jobs WHERE status = 'pending') AS jobs,
+         (SELECT COUNT(*) FROM exhibitions WHERE status = 'pending') AS exhibitions,
+         (SELECT COUNT(*) FROM finder_listings WHERE status = 'pending') AS listings,
+         (SELECT COUNT(*) FROM campus_groups WHERE status = 'pending') AS groups_count,
+         (SELECT COUNT(*) FROM courses WHERE status = 'in_review') AS courses,
+         (SELECT COUNT(*) FROM reports WHERE status = 'open') AS reports,
+         (SELECT COUNT(*) FROM lead_lists WHERE status = 'pending') AS lead_lists,
+         (SELECT COUNT(*) FROM sender_ids WHERE status = 'pending') AS sender_ids,
+         (SELECT COUNT(*) FROM lead_payouts WHERE status = 'requested') AS payouts`;
+
 // Platform-wide numbers and the approval queues waiting for a moderator.
-export const dashboardRoute = new Hono().get("/", requirePermission("dashboard", "view"), async (c) => {
+export const dashboardRoute = new Hono()
+  // Just the queue counts, for the sidebar badges on every admin page (the
+  // full dashboard below is far heavier).
+  .get("/queues", requirePermission("dashboard", "view"), async (c) => {
+    const [rows] = await getPool().query<RowDataPacket[]>(QUEUES_SQL);
+    return c.json({ queues: rows[0] });
+  })
+  .get("/", requirePermission("dashboard", "view"), async (c) => {
   const pool = getPool();
   const [[totals], [queues], [signups], [revenue], [recent]] = await Promise.all([
     pool.query<RowDataPacket[]>(
@@ -24,19 +43,7 @@ export const dashboardRoute = new Hono().get("/", requirePermission("dashboard",
          (SELECT COUNT(*) FROM lead_lists WHERE status = 'published') AS lead_lists,
          (SELECT COALESCE(SUM(sent_count), 0) FROM broadcasts) AS messages_sent`,
     ),
-    pool.query<RowDataPacket[]>(
-      `SELECT (SELECT COUNT(*) FROM sellers WHERE status = 'pending') AS sellers,
-         (SELECT COUNT(*) FROM ticket_events WHERE status = 'pending') AS events,
-         (SELECT COUNT(*) FROM jobs WHERE status = 'pending') AS jobs,
-         (SELECT COUNT(*) FROM exhibitions WHERE status = 'pending') AS exhibitions,
-         (SELECT COUNT(*) FROM finder_listings WHERE status = 'pending') AS listings,
-         (SELECT COUNT(*) FROM campus_groups WHERE status = 'pending') AS groups_count,
-         (SELECT COUNT(*) FROM courses WHERE status = 'in_review') AS courses,
-         (SELECT COUNT(*) FROM reports WHERE status = 'open') AS reports,
-         (SELECT COUNT(*) FROM lead_lists WHERE status = 'pending') AS lead_lists,
-         (SELECT COUNT(*) FROM sender_ids WHERE status = 'pending') AS sender_ids,
-         (SELECT COUNT(*) FROM lead_payouts WHERE status = 'requested') AS payouts`,
-    ),
+    pool.query<RowDataPacket[]>(QUEUES_SQL),
     pool.query<RowDataPacket[]>(
       `SELECT DATE(created_at) AS day, COUNT(*) AS n FROM users WHERE created_at >= CURDATE() - INTERVAL 29 DAY
        GROUP BY DATE(created_at) ORDER BY day`,
@@ -50,4 +57,4 @@ export const dashboardRoute = new Hono().get("/", requirePermission("dashboard",
     ),
   ]);
   return c.json({ totals: totals[0], queues: queues[0], signups, revenue, recent });
-});
+  });

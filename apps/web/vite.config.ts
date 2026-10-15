@@ -21,6 +21,14 @@ export default defineConfig(({ mode }) => {
     },
     // Optional override, e.g. when node_modules/.vite isn't writable.
     cacheDir: process.env.VITE_CACHE_DIR,
+    // Dev only: compile the admin portal and site pages in the background as
+    // soon as the server starts, instead of on the first visit to each page
+    // (which made first clicks around the admin take ~2s each).
+    server: {
+      warmup: {
+        clientFiles: ["./src/routes/admin/**/*.tsx", "./src/components/admin/**/*.tsx", "./src/routes/_site/**/*.tsx"],
+      },
+    },
     resolve: { tsconfigPaths: true },
     plugins: [
       devtools(),

@@ -743,7 +743,7 @@ export function TopBar() {
   const href = useRouterState({ select: (s) => s.location.href });
   const onAuthPage = /^\/(login|signup)/.test(href);
   return (
-    <div className="bg-brand-cream text-primary">
+    <div className="bg-brand-cream text-primary [view-transition-name:site-topbar]">
       <div className="mx-auto flex h-7 max-w-7xl items-center gap-4 px-4 text-xs font-normal sm:px-6 lg:px-8">
         <p className="hidden truncate italic md:block">
           One account for Marketplace, Finder, Groups, SocialNet, OpenLearn & LeadGen
@@ -824,7 +824,7 @@ export function SiteHeader() {
     "relative flex size-10 items-center justify-center rounded-full text-primary transition hover:bg-secondary";
 
   return (
-    <header className="sticky top-0 z-40 shadow-[0_10px_30px_-14px_rgb(4_29_64/0.6)]">
+    <header className="sticky top-0 z-40 shadow-[0_10px_30px_-14px_rgb(4_29_64/0.6)] [view-transition-name:site-header]">
       {/* Brand row, on white: logo, search, account. */}
       <div className="border-b border-border bg-white">
         <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-2 px-4 sm:px-6 lg:px-8">
@@ -1003,7 +1003,7 @@ export function SystemNav({
 }) {
   const system = SYSTEMS.find((s) => s.key === systemKey)!;
   return (
-    <div className="border-b border-border bg-white">
+    <div className="border-b border-border bg-white [view-transition-name:system-nav]">
       <div className="no-scrollbar mx-auto flex max-w-7xl items-center gap-1 overflow-x-auto px-4 sm:px-6 lg:px-8">
         <Link
           to={system.to}

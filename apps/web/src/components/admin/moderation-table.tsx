@@ -2,7 +2,8 @@
 // paging, and the actions the API offers for each entity (with a reason
 // prompt where the owner is told why).
 import { useState } from "react";
-import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import { keepPreviousData, queryOptions, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
+import type { QueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { ExternalLink, Loader2, Trash2 } from "lucide-react";
 import { api } from "#/lib/api-client";
@@ -26,6 +27,25 @@ interface ModResponse {
   statuses: Array<string>;
   actions: Record<string, string>;
   deletable: boolean;
+}
+
+// One page of a moderation list. Shared by the table and the route loaders
+// that prefetch it, so both hit the same cache entry.
+export function moderationQuery(entity: string, status = "", q = "", page = 1) {
+  return queryOptions({
+    queryKey: ["admin-mod", entity, status, q, page],
+    queryFn: () => api.get<ModResponse>(`/admin/mod/${entity}`, { status, q, page, pageSize: 25 }),
+    staleTime: 30_000,
+  });
+}
+
+// For admin route loaders: start loading a page's first list while its code
+// loads, or on hover before the click (the router preloads on intent). Not
+// awaited, so it never holds up navigation; skipped during SSR, where the
+// result wouldn't reach the browser.
+export function prefetchModeration(queryClient: QueryClient, entity: string, status = "") {
+  if (typeof window === "undefined") return;
+  void queryClient.prefetchQuery(moderationQuery(entity, status));
 }
 
 // Actions that tell the owner why — they open a reason box.
@@ -82,6 +102,7 @@ export function ModerationTable({
   extra,
   readOnly,
   onRowClick,
+  onDelete,
 }: {
   entity: string;
   columns: Array<Column>;
@@ -89,6 +110,8 @@ export function ModerationTable({
   extra?: (row: Row, refresh: () => void) => React.ReactNode;
   readOnly?: boolean;
   onRowClick?: (row: Row) => void;
+  /** A page's own delete flow (e.g. members, with its safety check), shown in the standard delete slot. */
+  onDelete?: (row: Row) => void;
 }) {
   const queryClient = useQueryClient();
   const [status, setStatus] = useState(defaultStatus);
@@ -97,15 +120,11 @@ export function ModerationTable({
   const [pending, setPending] = useState<{ row: Row; action: string; label: string } | null>(null);
   const [reason, setReason] = useState("");
   const [deleting, setDeleting] = useState<Row | null>(null);
-  const key = ["admin-mod", entity, status, q, page];
-  const { data, isLoading } = useQuery({
-    queryKey: key,
-    queryFn: () => api.get<ModResponse>(`/admin/mod/${entity}`, { status, q, page, pageSize: 25 }),
-    placeholderData: keepPreviousData,
-  });
+  const { data, isLoading } = useQuery({ ...moderationQuery(entity, status, q, page), placeholderData: keepPreviousData });
   const refresh = () => {
     void queryClient.invalidateQueries({ queryKey: ["admin-mod", entity] });
     void queryClient.invalidateQueries({ queryKey: ["admin-dashboard"] });
+    void queryClient.invalidateQueries({ queryKey: ["admin-queues"] });
   };
   const act = useMutation({
     mutationFn: ({ row, action, why }: { row: Row; action: string; why?: string }) => api.post(`/admin/mod/${entity}/${row.id}/${action}`, { reason: why }),
@@ -188,8 +207,8 @@ export function ModerationTable({
                             </a>
                           </Button>
                         )}
-                        {data.deletable && (
-                          <Button size="icon-xs" variant="ghost" onClick={() => setDeleting(row)} aria-label="Delete">
+                        {(data.deletable || onDelete) && (
+                          <Button size="icon-xs" variant="ghost" onClick={() => (onDelete ? onDelete(row) : setDeleting(row))} aria-label="Delete" title="Delete">
                             <Trash2 />
                           </Button>
                         )}

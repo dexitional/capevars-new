@@ -7,7 +7,7 @@ import { api } from "#/lib/api-client";
 import { formatDateTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
 import { AdminPageHeader, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { Button } from "#/components/ui/button";
@@ -16,7 +16,8 @@ import { Input } from "#/components/ui/input";
 type Row = Record<string, any>;
 type Tab = "lists" | "senders" | "broadcasts" | "payouts" | "vouchers" | "wallets" | "status";
 
-export const Route = createFileRoute("/admin/_admin/leadgen")({ component: LeadGenAdmin });
+export const Route = createFileRoute("/admin/_admin/leadgen")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "lead-lists", "pending"), component: LeadGenAdmin });
 
 function LeadGenAdmin() {
   const [tab, setTab] = useState<Tab>("lists");

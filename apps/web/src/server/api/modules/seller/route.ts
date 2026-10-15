@@ -1,6 +1,7 @@
 // Seller Center: a member opens a store (admin approves it), then manages
 // products / food menu, orders, events and tickets, bus trips, bus rentals
 // and exhibitions — each gated by the store's approved capabilities.
+import { analyticsQuerySchema, productAnalytics } from "../../lib/product-analytics.js";
 import { Hono } from "hono";
 import type { Context } from "hono";
 import { z } from "zod";
@@ -61,7 +62,7 @@ const STORE_FIELDS = {
   isOpen: "is_open",
 };
 
-const productSchema = z.object({
+export const productSchema = z.object({
   kind: z.enum(["product", "food"]).optional(),
   title: z.string().trim().min(2).max(200),
   categoryId: z.number().int().positive().nullable().optional(),
@@ -75,7 +76,7 @@ const productSchema = z.object({
   tags: z.array(z.string().trim().min(1).max(30)).max(15).optional(),
   status: z.enum(["active", "draft", "hidden"]).optional(),
 });
-const PRODUCT_FIELDS = {
+export const PRODUCT_FIELDS = {
   kind: "kind",
   title: "title",
   categoryId: "category_id",
@@ -104,7 +105,7 @@ const ticketTypeSchema = z.object({
   quantity: z.number().int().min(1).max(100_000),
   maxPerOrder: z.number().int().min(1).max(50).default(10),
 });
-const eventSchema = z.object({
+export const eventSchema = z.object({
   title: z.string().trim().min(3).max(200),
   category: z.enum(["src", "association", "campus", "private", "concert", "conference", "sports", "other"]),
   summary: optionalText(300),
@@ -118,7 +119,19 @@ const eventSchema = z.object({
   submit: z.boolean().optional(),
 });
 
-const tripSchema = z.object({
+export const EVENT_FIELDS = {
+  title: "title",
+  category: "category",
+  summary: "summary",
+  description: "description",
+  coverUrl: "cover_url",
+  venue: "venue",
+  city: "city",
+  startsAt: "starts_at",
+  endsAt: "ends_at",
+};
+
+export const tripSchema = z.object({
   origin: z.string().trim().min(2).max(100),
   destination: z.string().trim().min(2).max(100),
   pickupPoint: optionalText(200),
@@ -130,7 +143,7 @@ const tripSchema = z.object({
   price: z.number().min(0).max(100_000),
   status: z.enum(["scheduled", "cancelled", "completed"]).optional(),
 });
-const TRIP_FIELDS = {
+export const TRIP_FIELDS = {
   origin: "origin",
   destination: "destination",
   pickupPoint: "pickup_point",
@@ -143,7 +156,7 @@ const TRIP_FIELDS = {
   status: "status",
 };
 
-const rentalSchema = z.object({
+export const rentalSchema = z.object({
   title: z.string().trim().min(2).max(150),
   vehicleType: z.string().trim().min(2).max(60),
   capacity: z.number().int().min(1).max(100),
@@ -153,7 +166,7 @@ const rentalSchema = z.object({
   features: z.array(z.string().trim().max(40)).max(15).optional(),
   status: z.enum(["active", "hidden"]).optional(),
 });
-const RENTAL_FIELDS = {
+export const RENTAL_FIELDS = {
   title: "title",
   vehicleType: "vehicle_type",
   capacity: "capacity",
@@ -224,7 +237,7 @@ async function update(table: string, id: number, input: object, fields: Record<s
   ]);
 }
 
-async function saveTicketTypes(eventId: number, types: Array<z.infer<typeof ticketTypeSchema>>) {
+export async function saveTicketTypes(eventId: number, types: Array<z.infer<typeof ticketTypeSchema>>) {
   const pool = getPool();
   const [existing] = await pool.execute<RowDataPacket[]>("SELECT id, sold FROM ticket_types WHERE event_id = ?", [eventId]);
   const keep = new Set(types.map((t) => t.id).filter(Boolean));
@@ -317,6 +330,11 @@ export const sellerRoute = new Hono()
       daily,
       tickets: events[0],
     });
+  })
+  // Sales and views analytics for this store's products and food.
+  .get("/analytics", requireSeller(), async (c) => {
+    const q = analyticsQuerySchema.parse(c.req.query());
+    return c.json(await productAnalytics({ ...q, sellerId: sellerId(c) }));
   })
   // ---- Products & food menu ----------------------------------------------------
   .get("/products", requireSeller(), async (c) => {
@@ -445,7 +463,7 @@ export const sellerRoute = new Hono()
     const id = await insert(
       "ticket_events",
       input,
-      { title: "title", category: "category", summary: "summary", description: "description", coverUrl: "cover_url", venue: "venue", city: "city", startsAt: "starts_at", endsAt: "ends_at" },
+      EVENT_FIELDS,
       { seller_id: sellerId(c), slug, status: input.submit === false ? "draft" : "pending" },
     );
     await saveTicketTypes(id, input.ticketTypes);
@@ -462,7 +480,7 @@ export const sellerRoute = new Hono()
       "ticket_events",
       id,
       input,
-      { title: "title", category: "category", summary: "summary", description: "description", coverUrl: "cover_url", venue: "venue", city: "city", startsAt: "starts_at", endsAt: "ends_at" },
+      EVENT_FIELDS,
       extra,
     );
     if (input.ticketTypes) await saveTicketTypes(id, input.ticketTypes);

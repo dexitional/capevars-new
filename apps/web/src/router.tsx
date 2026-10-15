@@ -13,6 +13,9 @@ export function getRouter() {
     scrollRestoration: true,
     defaultPreload: "intent",
     defaultPreloadStaleTime: 0,
+    // Page transitions via the View Transitions API (styles.css); browsers
+    // without it navigate instantly as before.
+    defaultViewTransition: true,
   });
 
   setupRouterSsrQueryIntegration({ router, queryClient: context.queryClient });

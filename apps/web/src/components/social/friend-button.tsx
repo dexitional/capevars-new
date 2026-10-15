@@ -1,10 +1,11 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useNavigate } from "@tanstack/react-router";
 import { toast } from "sonner";
-import { Check, Clock, MessageCircle, UserMinus, UserPlus } from "lucide-react";
+import { Check, Clock, Loader2, MessageCircle, UserMinus, UserPlus } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { useRequireMember } from "#/hooks/useMember";
 import { Button } from "#/components/ui/button";
+import { cn } from "#/lib/utils";
 
 // Add friend / Cancel / Accept / Friends + Message, for a given member.
 export function FriendButton({ userId, status, direction, size = "sm", onChange }: { userId: number; status: string | null; direction?: "incoming" | "outgoing"; size?: "sm" | "default"; onChange?: () => void }) {
@@ -57,8 +58,14 @@ export function FriendButton({ userId, status, direction, size = "sm", onChange 
     );
   }
   return (
-    <Button size={size} className="bg-sys-social" onClick={() => requireMember(() => add.mutate())} disabled={add.isPending}>
-      <UserPlus /> Add friend
-    </Button>
+    <button
+      type="button"
+      className={cn("btn-shine", size === "sm" ? "text-xs" : "text-[13px]")}
+      onClick={() => requireMember(() => add.mutate())}
+      disabled={add.isPending}
+    >
+      {add.isPending ? "Sending…" : "Add friend"}
+      {add.isPending ? <Loader2 className="btn-shine-icon animate-spin" /> : <UserPlus className="btn-shine-icon" strokeWidth={2.5} />}
+    </button>
   );
 }

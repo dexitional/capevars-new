@@ -1,9 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AdminPageHeader } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 
-export const Route = createFileRoute("/admin/_admin/reports")({ component: Reports });
+export const Route = createFileRoute("/admin/_admin/reports")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "reports", "open"), component: Reports });
 
 const LINKS: Record<string, (id: number) => string> = {
   post: (id) => `/social/post/${id}`,

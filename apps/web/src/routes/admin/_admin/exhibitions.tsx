@@ -1,9 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AdminPageHeader } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 
-export const Route = createFileRoute("/admin/_admin/exhibitions")({ component: Exhibitions });
+export const Route = createFileRoute("/admin/_admin/exhibitions")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "exhibitions", "pending"), component: Exhibitions });
 
 function Exhibitions() {
   return (
