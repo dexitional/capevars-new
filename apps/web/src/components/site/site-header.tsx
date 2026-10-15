@@ -366,13 +366,62 @@ function MegaMenu({
   active: boolean;
   align: "left" | "center" | "right";
 }) {
+  // Open/closed is managed here rather than with :hover/:focus-within CSS:
+  // a clicked tab keeps focus, which pinned its panel open while hovering a
+  // neighbour opened a second one. Now: hover opens after a short pause,
+  // leaving closes, any click inside closes (and stays closed until the
+  // pointer leaves), keyboard focus opens, and Escape or tabbing away closes.
+  const [open, setOpen] = useState(false);
+  const suppressed = useRef(false);
+  const timer = useRef<number | undefined>(undefined);
+  const pathname = useRouterState({ select: (s) => s.location.pathname });
+  const hide = () => {
+    window.clearTimeout(timer.current);
+    setOpen(false);
+  };
+  useEffect(() => hide(), [pathname]);
+  useEffect(() => () => window.clearTimeout(timer.current), []);
   return (
-    <div className="group relative shrink-0">
+    <div
+      className="relative shrink-0"
+      onMouseEnter={() => {
+        if (suppressed.current) return;
+        window.clearTimeout(timer.current);
+        timer.current = window.setTimeout(() => setOpen(true), 150);
+      }}
+      onMouseLeave={(e) => {
+        // A page transition briefly covers the page, which reports a leave
+        // (and a re-enter) while the pointer hasn't moved off the tab. Only a
+        // real exit clears the click-to-dismiss.
+        const r = e.currentTarget.getBoundingClientRect();
+        if (e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom) return;
+        suppressed.current = false;
+        hide();
+      }}
+      onClickCapture={(e) => {
+        if ((e.target as HTMLElement).closest("a")) {
+          suppressed.current = true;
+          hide();
+        }
+      }}
+      onFocus={(e) => {
+        if ((e.target as HTMLElement).matches(":focus-visible")) {
+          window.clearTimeout(timer.current);
+          setOpen(true);
+        }
+      }}
+      onBlur={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget)) hide();
+      }}
+      onKeyDown={(e) => {
+        if (e.key === "Escape") hide();
+      }}
+    >
       <NavTab system={system.key} label={system.short} to={system.to} active={active} />
       <div
         className={cn(
-          "invisible absolute top-full z-50 hidden w-[680px] translate-y-1 pt-3 opacity-0 transition-[opacity,transform,visibility] duration-150 lg:block",
-          "group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-hover:delay-150",
+          "absolute top-full z-50 hidden w-[680px] pt-3 transition-[opacity,transform,visibility] duration-150 lg:block",
+          open ? "visible translate-y-0 opacity-100" : "pointer-events-none invisible translate-y-1 opacity-0",
           { left: "left-0", center: "left-1/2 -translate-x-1/2", right: "right-0" }[align],
         )}
       >
