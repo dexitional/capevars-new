@@ -35,7 +35,8 @@ function Certificate() {
           <Printer /> Print / save as PDF
         </Button>
       </div>
-      <div className="relative mx-auto aspect-[1.414/1] max-w-4xl overflow-hidden rounded-xl border-[10px] border-primary bg-white p-10 text-center shadow-xl sm:p-16">
+      {/* print-root: when printing, only this prints (styles.css, "Printing"). */}
+      <div className="print-root print-certificate relative mx-auto aspect-[1.414/1] max-w-4xl overflow-hidden rounded-xl border-[10px] border-primary bg-white p-10 text-center shadow-xl sm:p-16">
         <div className="absolute inset-3 rounded border-2 border-brand-gold" aria-hidden="true" />
         <img src={asset("logo-mark.png")} alt="" className="mx-auto h-14 w-auto" />
         <p className="mt-4 text-xs font-bold tracking-[0.4em] text-brand-amber uppercase">Certificate of completion</p>
