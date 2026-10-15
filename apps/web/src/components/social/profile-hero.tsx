@@ -42,7 +42,7 @@ function Layer({ z, className, children }: { z: number; className?: string; chil
 
 function Chip({ icon: Icon, children, delay }: { icon: typeof MapPin; children: React.ReactNode; delay: number }) {
   return (
-    <span className="profile-hero-chip inline-flex items-center gap-1.5 rounded-full border border-white/25 bg-white/15 px-3 py-1.5 text-xs font-semibold text-white shadow-lg backdrop-blur-md" style={{ animationDelay: `${delay}s` }}>
+    <span className="profile-hero-chip inline-flex items-center gap-1.5 rounded-full border-2 border-white/[0.18] bg-primary/75 px-3 py-1.5 text-xs font-semibold text-brand-cream shadow-lg backdrop-blur-sm" style={{ animationDelay: `${delay}s` }}>
       <Icon className="size-3.5 text-brand-cream" /> {children}
     </span>
   );
@@ -50,7 +50,7 @@ function Chip({ icon: Icon, children, delay }: { icon: typeof MapPin; children: 
 
 function Stat({ icon: Icon, label, value, children }: { icon: typeof Users; label: string; value: number; children?: React.ReactNode }) {
   return (
-    <div className="rounded-2xl border border-white/20 bg-white/10 px-4 py-2.5 text-white shadow-xl backdrop-blur-md">
+    <div className="rounded-2xl border-2 border-white/[0.18] bg-primary/75 px-4 py-2.5 text-white shadow-xl backdrop-blur-sm">
       <div className="flex items-center gap-1.5 text-[11px] font-semibold tracking-wider text-white/70 uppercase">
         <Icon className="size-3.5 text-brand-gold" /> {label}
       </div>
@@ -97,10 +97,12 @@ export function ProfileHero({ username, fallbackName, fallbackAvatar }: { userna
   };
 
   return (
-    <section className="profile-hero-stage" aria-label="Your profile">
-      <div ref={card} className="profile-hero-card relative h-[22rem] sm:h-[19rem]" onPointerMove={onMove} onPointerLeave={onLeave}>
-        {/* Back plane: the cover, clipped to the card, drifting slightly against the tilt. */}
-        <div className="absolute inset-0 overflow-hidden rounded-[2rem] bg-primary shadow-[0_40px_80px_-30px_rgb(4_29_64/0.7)]">
+    <section className="profile-hero-stage mb-3" aria-label="Your profile">
+      <div ref={card} className="profile-hero-card relative h-[16rem] sm:h-[13.5rem]" onPointerMove={onMove} onPointerLeave={onLeave}>
+        {/* Back plane: the cover, clipped to the card, drifting slightly against the tilt.
+            It ignores the pointer: once the card tilts, 3D hit-testing would otherwise
+            hand clicks meant for the front-layer links to this plane. */}
+        <div className="pointer-events-none absolute inset-0 overflow-hidden rounded-[2rem] bg-primary shadow-[0_40px_80px_-30px_rgb(4_29_64/0.7)]">
           <div className="profile-hero-parallax absolute -inset-8">
             {cover ? (
               <OptimizedImage src={cover} alt="" priority sizes="(min-width: 1280px) 1280px, 100vw" className="profile-hero-cover size-full object-cover" />
@@ -191,10 +193,10 @@ export function ProfileHero({ username, fallbackName, fallbackAvatar }: { userna
               <Stat icon={UsersRound} label="Groups" value={data?.groups.length ?? 0} />
             </div>
             <div className="flex gap-2">
-              <Link to="/account" className="btn-shine bg-white/15! backdrop-blur-md">
+              <Link to="/account" className="btn-shine bg-primary/75! backdrop-blur-sm">
                 <Pencil className="btn-shine-icon" /> Edit profile
               </Link>
-              <Link to="/u/$username" params={{ username }} className="btn-shine">
+              <Link to="/u/$username" params={{ username }} className="btn-shine bg-primary/75! backdrop-blur-sm">
                 View profile
               </Link>
             </div>
@@ -203,7 +205,7 @@ export function ProfileHero({ username, fallbackName, fallbackAvatar }: { userna
 
         {/* Small screens: actions under the name. */}
         <Layer z={32} className="top-5 right-6 flex gap-2 lg:hidden">
-          <Link to="/u/$username" params={{ username }} className="btn-shine">
+          <Link to="/u/$username" params={{ username }} className="btn-shine bg-primary/75! backdrop-blur-sm">
             View profile
           </Link>
         </Layer>

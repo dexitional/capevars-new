@@ -155,7 +155,7 @@ function FinderSearch() {
   );
   return (
     <div className="pb-16">
-      <div className="bg-gradient-to-br from-[#041d40] to-[#0d4f4a] py-6">
+      <div className="bg-gradient-to-br from-[#041d40] to-[#0d4f4a] py-10 sm:py-12">
         <Container>
           <FinderSearchBox key={`${s.type}-${s.q}-${s.city}`} initial={{ type: s.type, q: s.q, city: s.city }} cities={settings?.finder.cities} />
         </Container>

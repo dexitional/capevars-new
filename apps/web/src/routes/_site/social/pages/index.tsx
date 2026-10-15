@@ -32,36 +32,31 @@ function Pages() {
     },
   });
   return (
-    <Container className="grid gap-6 py-8 lg:grid-cols-[260px_1fr]">
-      <aside className="space-y-4">
-        <Button asChild className="w-full bg-sys-social">
-          <Link to="/social/pages/new">
-            <Plus /> Create a page
-          </Link>
-        </Button>
-        {mine && mine.owned.length > 0 && (
-          <section className="rounded-2xl border bg-white p-4">
-            <h3 className="mb-2 text-sm font-bold">Pages you manage</h3>
-            {mine.owned.map((p) => (
-              <Link key={p.id} to="/social/pages/$slug" params={{ slug: p.slug }} className="flex items-center gap-2 rounded-lg p-1.5 text-sm hover:bg-muted">
-                <Avatar src={p.avatar_url} name={p.name} size="sm" /> {p.name}
-              </Link>
-            ))}
-          </section>
-        )}
-        {mine && mine.following.length > 0 && (
-          <section className="rounded-2xl border bg-white p-4">
-            <h3 className="mb-2 text-sm font-bold">Following</h3>
-            {mine.following.map((p) => (
-              <Link key={p.id} to="/social/pages/$slug" params={{ slug: p.slug }} className="flex items-center gap-2 rounded-lg p-1.5 text-sm hover:bg-muted">
-                <Avatar src={p.avatar_url} name={p.name} size="sm" /> {p.name}
-              </Link>
-            ))}
-          </section>
-        )}
-      </aside>
+    <Container className="py-8">
       <div>
-        <h1 className="text-2xl font-black text-primary">Discover pages</h1>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h1 className="text-2xl font-black text-primary">Discover pages</h1>
+          <Link to="/social/pages/new" className="btn-shine text-[13px]">
+            <Plus className="btn-shine-icon" strokeWidth={2.5} /> Create a page
+          </Link>
+        </div>
+        {/* Your pages: the ones you manage, then the ones you follow. */}
+        {mine && mine.owned.length + mine.following.length > 0 && (
+          <div className="no-scrollbar mt-4 flex items-center gap-2 overflow-x-auto">
+            <span className="shrink-0 text-xs font-bold tracking-wider text-muted-foreground uppercase">Your pages</span>
+            {[...mine.owned.map((p): Row => ({ ...p, manage: true })), ...mine.following.filter((f) => !mine.owned.some((o) => o.id === f.id))].map((p) => (
+              <Link
+                key={p.id}
+                to="/social/pages/$slug"
+                params={{ slug: p.slug }}
+                className="flex shrink-0 items-center gap-2 rounded-full border bg-white py-1 pr-3 pl-1 text-sm font-medium transition hover:border-primary/30 hover:text-primary"
+              >
+                <Avatar src={p.avatar_url} name={p.name} size="xs" /> {p.name}
+                {p.manage ? <span className="rounded-full bg-brand-cream px-1.5 py-0.5 text-[10px] font-bold text-primary">Manage</span> : null}
+              </Link>
+            ))}
+          </div>
+        )}
         <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search pages" className="mt-4 bg-white" />
         <div className="no-scrollbar my-4 flex gap-2 overflow-x-auto">
           <Chip active={!category} onClick={() => setCategory("")}>

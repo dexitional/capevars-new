@@ -29,7 +29,7 @@ export function FriendButton({ userId, status, direction, size = "sm", onChange 
   if (status === "accepted") {
     return (
       <div className="flex gap-2">
-        <Button size={size} className="bg-sys-social" onClick={() => message.mutate()}>
+        <Button size={size} className="bg-primary text-brand-cream hover:bg-primary/90" onClick={() => message.mutate()}>
           <MessageCircle /> Message
         </Button>
         <Button size={size} variant="outline" onClick={() => confirm("Remove this friend?") && remove.mutate()} title="Unfriend">
@@ -41,7 +41,7 @@ export function FriendButton({ userId, status, direction, size = "sm", onChange 
   if (status === "pending" && direction === "incoming") {
     return (
       <div className="flex gap-2">
-        <Button size={size} className="bg-sys-social" onClick={() => respond.mutate(true)}>
+        <Button size={size} className="bg-primary text-brand-cream hover:bg-primary/90" onClick={() => respond.mutate(true)}>
           <Check /> Accept
         </Button>
         <Button size={size} variant="outline" onClick={() => respond.mutate(false)}>
