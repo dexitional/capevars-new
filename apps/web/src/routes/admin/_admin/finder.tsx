@@ -7,7 +7,7 @@ import { api } from "#/lib/api-client";
 import { FINDER_TYPES } from "#/lib/labels";
 import type { FinderType } from "#/lib/labels";
 import { AdminPageHeader, Segmented, Switch, errorToast } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { ListingForm, emptyListing, listingPayload } from "#/components/finder/listing-form";
 import type { ListingValues } from "#/components/finder/listing-form";
@@ -17,7 +17,8 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from "#/components/u
 
 type Row = Record<string, any>;
 
-export const Route = createFileRoute("/admin/_admin/finder")({ component: Finder });
+export const Route = createFileRoute("/admin/_admin/finder")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "listings", "pending"), component: Finder });
 
 function ListingEditor({ id, onClose }: { id: number | null; onClose: () => void }) {
   const queryClient = useQueryClient();

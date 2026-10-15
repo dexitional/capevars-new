@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, Outlet, createFileRoute, redirect, useNavigate, useRouterState } from "@tanstack/react-router";
-import { useQuery } from "@tanstack/react-query";
+import { useQuery, useQueryClient } from "@tanstack/react-query";
+import { ADMIN_SESSION_KEY } from "#/lib/admin-session";
+import type { QueryClient } from "@tanstack/react-query";
 import {
   Activity,
   BookOpen,
@@ -42,9 +44,25 @@ function moduleForPath(pathname: string): AdminModule | null {
   return match?.[0] ?? null;
 }
 
+// The signed-in admin, remembered for a few minutes so moving between admin
+// pages doesn't wait on a server round trip each time. Every API call is
+// still authorised on the server; this only decides what the UI shows. A
+// signed-out result is never cached, so signing in takes effect at once.
+const ADMIN_SESSION_FRESH_MS = 5 * 60_000;
+
+async function currentAdmin(queryClient: QueryClient) {
+  type Admin = Awaited<ReturnType<typeof getAdminSession>>;
+  const state = queryClient.getQueryState<Admin>(ADMIN_SESSION_KEY);
+  if (state?.data && Date.now() - state.dataUpdatedAt < ADMIN_SESSION_FRESH_MS) return state.data;
+  const admin = await getAdminSession();
+  if (admin) queryClient.setQueryData(ADMIN_SESSION_KEY, admin);
+  else queryClient.removeQueries({ queryKey: ADMIN_SESSION_KEY });
+  return admin;
+}
+
 export const Route = createFileRoute("/admin/_admin")({
-  beforeLoad: async ({ location }) => {
-    const admin = await getAdminSession();
+  beforeLoad: async ({ context, location }) => {
+    const admin = await currentAdmin(context.queryClient);
     if (!admin) throw redirect({ to: "/admin/login" });
     const area = moduleForPath(location.pathname);
     if (area && !canView(admin.role, area)) {
@@ -113,14 +131,18 @@ function AdminLayout() {
   const pathname = useRouterState({ select: (s) => s.location.pathname });
   const [mobileOpen, setMobileOpen] = useState(false);
   useEffect(() => setMobileOpen(false), [pathname]);
+  const queryClient = useQueryClient();
+  // Only the queue counts for the sidebar badges (not the whole dashboard).
   const { data: dash } = useQuery({
-    queryKey: ["admin-dashboard"],
-    queryFn: () => api.get<{ queues: Record<Queue, number> }>("/admin/dashboard"),
+    queryKey: ["admin-queues"],
+    queryFn: () => api.get<{ queues: Record<Queue, number> }>("/admin/dashboard/queues"),
     enabled: canView(admin.role, "dashboard"),
+    staleTime: 30_000,
     refetchInterval: 60_000,
   });
   const logout = async () => {
     await api.post("/admin/auth/logout");
+    queryClient.removeQueries({ queryKey: ADMIN_SESSION_KEY });
     await navigate({ to: "/admin/login" });
   };
   const sidebar = (

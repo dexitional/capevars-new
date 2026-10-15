@@ -11,6 +11,9 @@ import { dashboardRoute } from "./dashboard.js";
 import { catalogRoute } from "./catalog.js";
 import { moderationRoute } from "./moderation.js";
 import { adminLeadgenRoute } from "./leadgen.js";
+import { adminProductsRoute } from "./products.js";
+import { adminMembersRoute } from "./members.js";
+import { adminTicketsRoute } from "./tickets.js";
 import { requirePermission } from "../../middleware/require-auth.js";
 import { pageQuerySchema, paging } from "../../lib/query.js";
 
@@ -40,4 +43,7 @@ export const adminRoute = new Hono()
   .route("/activity", activityRoute)
   .route("/catalog", catalogRoute)
   .route("/leadgen", adminLeadgenRoute)
+  .route("/products", adminProductsRoute)
+  .route("/members", adminMembersRoute)
+  .route("/tickets", adminTicketsRoute)
   .route("/mod", moderationRoute);

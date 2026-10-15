@@ -192,7 +192,25 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
 
 // ---- Products & menu items --------------------------------------------------------------------
 
-export function ProductEditor({ product, kind, open, onClose, onSaved }: { product: Row | null; kind: "product" | "food"; open: boolean; onClose: () => void; onSaved: () => void }) {
+export function ProductEditor({
+  product,
+  kind,
+  open,
+  onClose,
+  onSaved,
+  endpoint = "/seller/products",
+  moderator = false,
+}: {
+  product: Row | null;
+  kind: "product" | "food";
+  open: boolean;
+  onClose: () => void;
+  onSaved: () => void;
+  /** Where it saves: the seller's own products, or /admin/products for moderators. */
+  endpoint?: string;
+  /** Admin editing: "Blocked" is a status option and is kept as it is. */
+  moderator?: boolean;
+}) {
   const { data: cats } = useQuery({ queryKey: ["market-categories"], queryFn: () => api.get<{ categories: Array<Row> }>("/market/categories"), staleTime: 300_000 });
   const [f, setF] = useState(() => ({
     title: product?.title ?? "",
@@ -205,10 +223,10 @@ export function ProductEditor({ product, kind, open, onClose, onSaved }: { produ
     itemCondition: product?.item_condition ?? "new",
     images: (product?.images ?? []) as Array<string>,
     tags: (product?.tags ?? []) as Array<string>,
-    status: product?.status === "blocked" ? "hidden" : (product?.status ?? "active"),
+    status: product?.status === "blocked" && !moderator ? "hidden" : (product?.status ?? "active"),
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave("/seller/products", product?.id, () => (onSaved(), onClose()), "Saved");
+  const save = useSave(endpoint, product?.id, () => (onSaved(), onClose()), "Saved");
   const all = cats?.categories ?? [];
   const options: Array<[string, string]> = [
     ["", "— Category —"],
@@ -266,7 +284,11 @@ export function ProductEditor({ product, kind, open, onClose, onSaved }: { produ
           <Input inputMode="numeric" value={f.stock} onChange={(e) => set("stock", e.target.value)} />
         </Field>
         <Field label="Visibility">
-          <Select value={f.status} onChange={(v) => set("status", v)} options={[["active", "Live"], ["draft", "Draft"], ["hidden", "Hidden"]]} />
+          <Select
+            value={f.status}
+            onChange={(v) => set("status", v)}
+            options={[["active", "Live"], ["draft", "Draft"], ["hidden", "Hidden"], ...(moderator ? [["blocked", "Blocked"] as [string, string]] : [])]}
+          />
         </Field>
         <Field label="Description" className="sm:col-span-2">
           <Textarea rows={5} value={f.description} onChange={(e) => set("description", e.target.value)} />
@@ -299,7 +321,22 @@ interface TicketType {
   sold?: number;
 }
 
-export function EventEditor({ event, types, open, onClose, onSaved }: { event: Row | null; types: Array<Row>; open: boolean; onClose: () => void; onSaved: () => void }) {
+export function EventEditor({
+  event,
+  types,
+  open,
+  onClose,
+  onSaved,
+  endpoint = "/seller/events",
+}: {
+  event: Row | null;
+  types: Array<Row>;
+  open: boolean;
+  onClose: () => void;
+  onSaved: () => void;
+  /** Where it saves: the organiser's own events, or /admin/tickets/events for moderators. */
+  endpoint?: string;
+}) {
   const [f, setF] = useState(() => ({
     title: event?.title ?? "",
     category: event?.category ?? "campus",
@@ -317,7 +354,7 @@ export function EventEditor({ event, types, open, onClose, onSaved }: { event: R
       : [{ name: "Regular", description: "", price: "0", quantity: "100", maxPerOrder: "10" }],
   );
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave("/seller/events", event?.id, () => (onSaved(), onClose()), event ? "Event saved" : "Event submitted for review");
+  const save = useSave(endpoint, event?.id, () => (onSaved(), onClose()), event ? "Event saved" : "Event submitted for review");
   return (
     <EditorDialog open={open} onClose={onClose} title={event ? "Edit event" : "New event"} wide>
       <form
@@ -395,7 +432,20 @@ export function EventEditor({ event, types, open, onClose, onSaved }: { event: R
 
 // ---- Bus trips ------------------------------------------------------------------------------
 
-export function TripEditor({ trip, open, onClose, onSaved }: { trip: Row | null; open: boolean; onClose: () => void; onSaved: () => void }) {
+export function TripEditor({
+  trip,
+  open,
+  onClose,
+  onSaved,
+  endpoint = "/seller/trips",
+}: {
+  trip: Row | null;
+  open: boolean;
+  onClose: () => void;
+  onSaved: () => void;
+  /** Where it saves: the operator's own trips, or /admin/tickets/trips for moderators. */
+  endpoint?: string;
+}) {
   const [f, setF] = useState(() => ({
     origin: trip?.origin ?? "",
     destination: trip?.destination ?? "",
@@ -409,7 +459,7 @@ export function TripEditor({ trip, open, onClose, onSaved }: { trip: Row | null;
     status: trip?.status ?? "scheduled",
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave("/seller/trips", trip?.id, () => (onSaved(), onClose()), "Trip saved");
+  const save = useSave(endpoint, trip?.id, () => (onSaved(), onClose()), "Trip saved");
   return (
     <EditorDialog open={open} onClose={onClose} title={trip ? "Edit trip" : "New bus trip"}>
       <form
@@ -466,7 +516,23 @@ export function TripEditor({ trip, open, onClose, onSaved }: { trip: Row | null;
 
 // ---- Bus rentals ----------------------------------------------------------------------------
 
-export function RentalEditor({ rental, open, onClose, onSaved }: { rental: Row | null; open: boolean; onClose: () => void; onSaved: () => void }) {
+export function RentalEditor({
+  rental,
+  open,
+  onClose,
+  onSaved,
+  endpoint = "/seller/rentals",
+  moderator = false,
+}: {
+  rental: Row | null;
+  open: boolean;
+  onClose: () => void;
+  onSaved: () => void;
+  /** Where it saves: the operator's own rentals, or /admin/tickets/rentals for moderators. */
+  endpoint?: string;
+  /** Admin editing: "Blocked" is a status option and is kept as it is. */
+  moderator?: boolean;
+}) {
   const [f, setF] = useState(() => ({
     title: rental?.title ?? "",
     vehicleType: rental?.vehicle_type ?? "",
@@ -475,10 +541,10 @@ export function RentalEditor({ rental, open, onClose, onSaved }: { rental: Row |
     description: rental?.description ?? "",
     images: (rental?.images ?? []) as Array<string>,
     features: (rental?.features ?? []) as Array<string>,
-    status: rental?.status === "blocked" ? "hidden" : (rental?.status ?? "active"),
+    status: rental?.status === "blocked" && !moderator ? "hidden" : (rental?.status ?? "active"),
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave("/seller/rentals", rental?.id, () => (onSaved(), onClose()), "Rental saved");
+  const save = useSave(endpoint, rental?.id, () => (onSaved(), onClose()), "Rental saved");
   return (
     <EditorDialog open={open} onClose={onClose} title={rental ? "Edit rental" : "New bus rental"}>
       <form
@@ -504,7 +570,11 @@ export function RentalEditor({ rental, open, onClose, onSaved }: { rental: Row |
           <Input inputMode="decimal" value={f.pricePerDay} onChange={(e) => set("pricePerDay", e.target.value)} required />
         </Field>
         <Field label="Visibility">
-          <Select value={f.status} onChange={(v) => set("status", v)} options={[["active", "Listed"], ["hidden", "Hidden"]]} />
+          <Select
+            value={f.status}
+            onChange={(v) => set("status", v)}
+            options={[["active", "Listed"], ["hidden", "Hidden"], ...(moderator ? [["blocked", "Blocked"] as [string, string]] : [])]}
+          />
         </Field>
         <Field label="Description" className="sm:col-span-2">
           <Textarea rows={4} value={f.description} onChange={(e) => set("description", e.target.value)} />

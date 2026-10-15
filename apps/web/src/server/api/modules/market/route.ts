@@ -207,6 +207,10 @@ export const marketRoute = new Hono()
     const product = rows[0];
     if (!product) throw new AppError("Product not found.", 404);
     void pool.execute("UPDATE products SET view_count = view_count + 1 WHERE id = ?", [product.id]);
+    // Per-day views for seller/admin analytics (all-time total stays in view_count).
+    void pool
+      .execute("INSERT INTO product_daily_views (product_id, day, views) VALUES (?, CURDATE(), 1) ON DUPLICATE KEY UPDATE views = views + 1", [product.id])
+      .catch(() => undefined);
     const [[reviews], [related], [more]] = await Promise.all([
       pool.query<RowDataPacket[]>(
         `SELECT r.id, r.rating, r.body, r.created_at, u.full_name, u.avatar_url, u.username FROM product_reviews r

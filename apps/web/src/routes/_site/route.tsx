@@ -20,7 +20,7 @@ function NoticeBar() {
   const notice = data?.notice;
   if (!notice?.enabled || !notice.text) return null;
   return (
-    <div className="bg-primary text-brand-cream">
+    <div className="bg-primary text-brand-cream [view-transition-name:site-notice]">
       <div className="mx-auto flex max-w-7xl items-center justify-center gap-2 px-4 py-2 text-center text-sm font-medium">
         <Megaphone className="size-4 shrink-0" aria-hidden="true" />
         <span>{notice.text}</span>
@@ -40,7 +40,8 @@ function SiteLayout() {
       <NoticeBar />
       <TopBar />
       <SiteHeader />
-      <main className="flex-1">
+      {/* site-main: page transitions and scroll reveals apply inside (styles.css). */}
+      <main className="site-main flex-1">
         <Outlet />
       </main>
       <SiteFooter />

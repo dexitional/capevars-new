@@ -10,6 +10,7 @@ import { PersonRow } from "#/components/site/cards";
 import { Composer } from "#/components/social/composer";
 import { PostFeed } from "#/components/social/feed";
 import { FriendButton } from "#/components/social/friend-button";
+import { ProfileHero } from "#/components/social/profile-hero";
 
 type Row = Record<string, any>;
 
@@ -29,7 +30,9 @@ function Feed() {
   const { data: people } = useQuery({ queryKey: ["people", ""], queryFn: () => api.get<{ items: Array<Row> }>("/social/people") });
   const { data: pages } = useQuery({ queryKey: ["pages-suggest"], queryFn: () => api.get<{ items: Array<Row> }>("/social/pages") });
   return (
-    <Container className="grid gap-6 py-6 lg:grid-cols-[240px_1fr_300px]">
+    <Container className="py-6">
+      <ProfileHero username={me.username} fallbackName={me.fullName} fallbackAvatar={me.avatarUrl} />
+      <div className="mt-6 grid gap-6 lg:grid-cols-[240px_1fr_300px]">
       <aside className="hidden h-fit space-y-2 lg:sticky lg:top-24 lg:block">
         <Link to="/u/$username" params={{ username: me.username }} className="flex items-center gap-3 rounded-xl p-2 hover:bg-white">
           <Avatar src={me.avatarUrl} name={me.fullName} />
@@ -55,7 +58,16 @@ function Feed() {
         <Composer onPosted={() => void queryClient.invalidateQueries({ queryKey: ["feed"] })} />
         <div className="flex gap-2">
           {(["following", "discover"] as const).map((s) => (
-            <button key={s} type="button" onClick={() => setScope(s)} className={cn("rounded-full px-4 py-1.5 text-sm font-semibold", scope === s ? "bg-sys-social text-white" : "bg-white")}>
+            <button
+              key={s}
+              type="button"
+              onClick={() => setScope(s)}
+              aria-pressed={scope === s}
+              className={cn(
+                "rounded-full border px-4 py-1.5 text-sm font-semibold transition-colors",
+                scope === s ? "border-primary bg-primary text-brand-cream shadow-sm" : "border-border bg-white text-muted-foreground hover:border-primary/30 hover:text-primary",
+              )}
+            >
               {s === "following" ? "Following" : "Discover"}
             </button>
           ))}
@@ -121,6 +133,7 @@ function Feed() {
           </section>
         )}
       </aside>
+      </div>
     </Container>
   );
 }

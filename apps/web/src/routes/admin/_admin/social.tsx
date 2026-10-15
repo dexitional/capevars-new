@@ -1,11 +1,12 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { AdminPageHeader } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { Segmented } from "#/components/admin/ui";
 
-export const Route = createFileRoute("/admin/_admin/social")({ component: Social });
+export const Route = createFileRoute("/admin/_admin/social")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "posts"), component: Social });
 
 function Social() {
   const [tab, setTab] = useState<"posts" | "pages">("posts");

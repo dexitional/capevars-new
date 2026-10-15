@@ -1,7 +1,7 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { z } from "zod";
-import { ArrowRight, Bus, Clock, MapPin, Users } from "lucide-react";
+import { Armchair, ArrowRight, Bus, Clock, MapPin, Users } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDate, formatTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
@@ -34,7 +34,7 @@ function BusSearchPage() {
           <div className="space-y-3">
             <p className="text-sm text-muted-foreground">{data.items.length} trips</p>
             {data.items.map((t) => (
-              <Link key={t.id} to="/market/tickets/bus/$id" params={{ id: String(t.id) }} className="card-hover grid items-center gap-4 rounded-2xl border bg-white p-5 sm:grid-cols-[auto_1fr_auto]">
+              <Link key={t.id} to="/market/tickets/bus/$id" params={{ id: String(t.id) }} className="card-hover group grid items-center gap-4 rounded-2xl border bg-white p-5 sm:grid-cols-[auto_1fr_auto]">
                 <Img src={t.operator_logo} className="size-14 rounded-xl" fallback={<Bus className="size-6" />} />
                 <div>
                   <p className="flex items-center gap-2 text-lg font-black text-primary">
@@ -59,7 +59,13 @@ function BusSearchPage() {
                 </div>
                 <div className="text-right">
                   <p className="text-2xl font-black text-primary">{formatMoney(t.price)}</p>
-                  <span className="mt-1 inline-block rounded-full bg-primary px-4 py-1.5 text-sm font-bold text-white">{t.seats_left > 0 ? "Select seat" : "Full"}</span>
+                  {t.seats_left > 0 ? (
+                    <span className="btn-pop btn-pop-ink btn-pop-sm mt-1.5">
+                      <Armchair className="size-[1.1em]" strokeWidth={2.5} /> Select seat
+                    </span>
+                  ) : (
+                    <span className="mt-1.5 inline-block rounded-[0.45em] border-2 border-slate-300 bg-slate-100 px-[0.75em] py-[0.32em] text-xs font-black text-slate-400">Full</span>
+                  )}
                 </div>
               </Link>
             ))}

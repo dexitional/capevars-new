@@ -204,7 +204,7 @@ export function SectionHeader({
   className?: string;
 }) {
   return (
-    <div className={cn("mb-5 flex flex-wrap items-end justify-between gap-3", className)}>
+    <div className={cn("reveal mb-5 flex flex-wrap items-end justify-between gap-3", className)}>
       <div>
         <h2 className="text-xl font-black tracking-tight text-primary sm:text-2xl">{title}</h2>
         {text && <p className="mt-1 text-sm text-muted-foreground">{text}</p>}
@@ -430,7 +430,7 @@ export function ImageUpload({
     <div className={cn("relative overflow-hidden border-2 border-dashed border-input bg-muted/60", round ? "rounded-full" : "rounded-xl", aspect, className)}>
       {value ? (
         <>
-          <img src={value} alt="" className="size-full object-cover" />
+          <Img src={value} sizes="(min-width: 768px) 640px, 100vw" className="size-full" />
           <div className="absolute top-2 right-2 flex gap-1">
             <button type="button" onClick={() => ref.current?.click()} className="rounded-full bg-white/90 p-1.5 shadow" aria-label="Replace image">
               <ImagePlus className="size-4" />
@@ -473,7 +473,7 @@ export function GalleryUpload({ value, onChange, folder, max = 8 }: { value: Arr
     <div className="grid grid-cols-3 gap-3 sm:grid-cols-4">
       {value.map((url, i) => (
         <div key={url} className="group relative aspect-square overflow-hidden rounded-xl border">
-          <img src={url} alt="" className="size-full object-cover" />
+          <Img src={url} sizes="200px" className="size-full" />
           {i === 0 && <span className="absolute bottom-1.5 left-1.5 rounded bg-primary px-1.5 py-0.5 text-[10px] font-bold text-white">Cover</span>}
           <div className="absolute top-1.5 right-1.5 flex gap-1 opacity-0 transition group-hover:opacity-100">
             {i > 0 && (

@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { createFileRoute, useRouter } from "@tanstack/react-router";
-import { useMutation, useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { api } from "#/lib/api-client";
 import { ROLE_LABELS } from "#/lib/permissions";
+import { ADMIN_SESSION_KEY } from "#/lib/admin-session";
 import { AdminPageHeader, Field, Panel, errorToast } from "#/components/admin/ui";
 import { ImageField } from "#/components/admin/media-fields";
 import { Button } from "#/components/ui/button.tsx";
@@ -41,6 +42,7 @@ function AccountPage() {
 
 function ProfileCard({ me }: { me: Me }) {
   const router = useRouter();
+  const queryClient = useQueryClient();
   const [form, setForm] = useState({
     fullName: me.full_name,
     position: me.position ?? "",
@@ -52,6 +54,8 @@ function ProfileCard({ me }: { me: Me }) {
     mutationFn: () => api.patch("/admin/auth/me", form),
     onSuccess: () => {
       toast.success("Profile updated.");
+      // Drop the cached session so the layout re-reads the new name/photo.
+      queryClient.removeQueries({ queryKey: ADMIN_SESSION_KEY });
       void router.invalidate();
     },
     onError: errorToast("Couldn't update your profile."),

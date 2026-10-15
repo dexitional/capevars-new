@@ -1,11 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { AdminPageHeader } from "#/components/admin/ui";
-import { ModerationTable } from "#/components/admin/moderation-table";
+import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { COURSE_LEVELS } from "#/lib/labels";
 import { formatDuration } from "#/lib/money";
 
-export const Route = createFileRoute("/admin/_admin/learn")({ component: Learn });
+export const Route = createFileRoute("/admin/_admin/learn")({
+  loader: ({ context }) => prefetchModeration(context.queryClient, "courses", "in_review"), component: Learn });
 
 function Learn() {
   return (
