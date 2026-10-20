@@ -1,3 +1,4 @@
+import React from "react";
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { z } from "zod";
@@ -19,7 +20,17 @@ export const Route = createFileRoute("/_site/market/tickets/bus/")({
 
 function BusSearchPage() {
   const s = Route.useSearch();
-  const { data } = useQuery({ queryKey: ["trips", s], queryFn: () => api.get<{ items: Array<Row>; places: Array<string> }>("/tickets/trips", s) });
+  const { data, error } = useQuery({ queryKey: ["trips", s], queryFn: () => api.get<{ items: Array<Row>; places: Array<string> }>("/tickets/trips", s) });
+  React.useEffect(() => {
+    if (data) {
+      console.log('Trips data received:', data);
+    }
+  }, [data]);
+  React.useEffect(() => {
+    if (error) {
+      console.error('Trips query error:', error);
+    }
+  }, [error]);
   return (
     <div className="pb-16">
       <PageHero system="market" eyebrow="Bus tickets" title="Pick your bus and your seat." className="[&_h1]:text-3xl">

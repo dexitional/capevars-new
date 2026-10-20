@@ -19,7 +19,7 @@ function SellerEvents() {
   if (!data) return <Loading />;
   return (
     <div>
-      <div className="mb-5 flex items-center justify-between">
+      <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-black text-primary">Events & tickets</h1>
         <Button onClick={() => setCreating(true)}>
           <Plus /> New event

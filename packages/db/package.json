@@ -11,7 +11,9 @@
     "db:seed-content": "tsx scripts/seed-content.ts",
     "typecheck": "tsc --noEmit",
     "db:seed-demo": "tsx scripts/seed-demo.ts",
-    "db:import-hostels": "tsx scripts/import-capevars-hostels.ts"
+    "db:import-hostels": "tsx scripts/import-capevars-hostels.ts",
+    "db:import-kidi-basic3": "tsx scripts/import-kidi-basic3.ts",
+    "db:import-kidi": "tsx scripts/import-kidi-packages.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

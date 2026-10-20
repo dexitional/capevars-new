@@ -1,0 +1,6 @@
+kokoro-onnx==0.4.9
+onnxruntime==1.31.0
+numpy==2.5.4
+soundfile==0.14.0
+imageio-ffmpeg==0.6.0
+pillow==13.0.0

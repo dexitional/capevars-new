@@ -30,6 +30,7 @@ const USAGE: Array<[string, string, Array<string>]> = [
   ["Course", "SELECT id, title AS label FROM courses WHERE cover_url = ? OR promo_video_url = ?", ["url", "url"]],
   ["Lesson", "SELECT id, title AS label FROM course_lessons WHERE video_url = ? OR file_url = ? OR image_url = ? OR content LIKE ?", ["url", "url", "url", "like"]],
   ["Member", "SELECT id, full_name AS label FROM users WHERE avatar_url = ? OR cover_url = ?", ["url", "url"]],
+  ["Child profile", "SELECT c.id, c.display_name AS label FROM kidi_children c JOIN kidi_child_photos p ON p.child_id = c.id JOIN media_assets m ON m.id = p.asset_id WHERE m.url = ?", ["url"]],
   ["Post", "SELECT id, LEFT(COALESCE(body, 'photo'), 60) AS label FROM social_posts WHERE CAST(images AS CHAR) LIKE ?", ["like"]],
   ["Setting", "SELECT setting_key AS id, setting_key AS label FROM site_settings WHERE CAST(value AS CHAR) LIKE ?", ["like"]],
 ];

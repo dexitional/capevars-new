@@ -1,9 +1,11 @@
-import { Link, Outlet, createFileRoute } from "@tanstack/react-router";
+import { Link, Outlet, createFileRoute, useRouterState } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { Megaphone } from "lucide-react";
 import { SiteHeader, TopBar } from "#/components/site/site-header";
 import { SiteFooter, settingsQuery } from "#/components/site/site-footer";
 import { memberQuery } from "#/hooks/useMember";
+import { api } from "#/lib/api-client";
+import type { KidiSession } from "#/lib/kidilearn/family";
 
 export const Route = createFileRoute("/_site")({
   // Resolve the session during SSR so the header renders signed-in state
@@ -35,6 +37,11 @@ function NoticeBar() {
 }
 
 function SiteLayout() {
+  const inKidi = useRouterState({ select: s => s.location.pathname.startsWith('/learn/kidilearn') });
+  const session = useQuery({ queryKey: ['kidilearn', 'session'], queryFn: () => api.get<KidiSession>('/learn/kidilearn/session'), enabled: inKidi, staleTime: 30_000 });
+  if (inKidi && session.data?.mode === 'child') return <div className="min-h-screen bg-[#f5f9f6]">
+    <main><Outlet /></main>
+  </div>;
   return (
     <div className="flex min-h-screen flex-col bg-muted/50">
       <NoticeBar />

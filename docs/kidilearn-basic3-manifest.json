@@ -1,0 +1,38 @@
+[
+  {
+    "subject": "english",
+    "level": "b3",
+    "source": "NACCA_English_Basic_3_Video_Typography_v15.zip",
+    "sourceHash": "91af135876f4fa6da5afb58141bbabca8fae138c956d1b47dbe577a2d0482320",
+    "pdf": "/kidilearn/b3/english/NACCA_English_Basic_3_Learners_Guide_Print.pdf",
+    "epub": "/kidilearn/b3/english/NACCA_English_Basic_3_Learners_Guide.epub",
+    "mediaCount": 242,
+    "lessons": 40,
+    "practiceQuestions": 400,
+    "challengeQuestions": 1000
+  },
+  {
+    "subject": "mathematics",
+    "level": "b3",
+    "source": "NACCA_Mathematics_Basic_3_Video_Typography_v15.zip",
+    "sourceHash": "b13d036b3ad47f53557b65507c21a4a1c34e0caae3ba83072b5b1e93789d8df3",
+    "pdf": "/kidilearn/b3/mathematics/NACCA_Mathematics_Basic_3_Learners_Guide_Print.pdf",
+    "epub": "/kidilearn/b3/mathematics/NACCA_Mathematics_Basic_3_Learners_Guide.epub",
+    "mediaCount": 353,
+    "lessons": 39,
+    "practiceQuestions": 390,
+    "challengeQuestions": 975
+  },
+  {
+    "subject": "science",
+    "level": "b3",
+    "source": "NACCA_Science_Basic_3_Video_Typography_v15.zip",
+    "sourceHash": "0dae7f42d17729e58fad016c5fc210cd9c7b0f3a0edca55bd02763ba9d7ddc49",
+    "pdf": "/kidilearn/b3/science/NACCA_Science_Basic_3_Learners_Guide_Print.pdf",
+    "epub": "/kidilearn/b3/science/NACCA_Science_Basic_3_Learners_Guide.epub",
+    "mediaCount": 127,
+    "lessons": 25,
+    "practiceQuestions": 250,
+    "challengeQuestions": 625
+  }
+]

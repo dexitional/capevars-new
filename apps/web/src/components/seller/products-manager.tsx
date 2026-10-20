@@ -36,8 +36,8 @@ export function ProductsManager({ kind }: { kind: "product" | "food" }) {
     <div>
       <div className="mb-5 flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-black text-primary">{kind === "food" ? "Food menu" : "Products"}</h1>
-        <div className="flex gap-2">
-          <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search…" className="w-48 bg-white" />
+        <div className="flex w-full min-w-0 gap-2 sm:w-auto">
+          <Input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search…" className="min-w-0 flex-1 bg-white sm:w-48 sm:flex-none" />
           <Button onClick={() => setEditing("new")}>
             <Plus /> {kind === "food" ? "Add item" : "Add product"}
           </Button>
