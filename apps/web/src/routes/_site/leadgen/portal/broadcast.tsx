@@ -3,10 +3,10 @@ import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { z } from "zod";
 import { toast } from "sonner";
-import { CalendarClock, Coins, Loader2, Mail, MessageSquareText, Plus, Send, Users, X } from "lucide-react";
+import { AlertTriangle, CalendarClock, Coins, Loader2, Mail, MessageSquareText, Plus, Send, Users, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
-import { Loading } from "#/components/site/kit";
+import { EmptyState, Loading } from "#/components/site/kit";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Field } from "#/components/admin/ui";
@@ -53,9 +53,11 @@ function Composer() {
   const [schedule, setSchedule] = useState(false);
   const [scheduledAt, setScheduledAt] = useState("");
 
-  const { data: access } = useQuery({ queryKey: ["leadgen", "access"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/access") });
-  const { data: senders } = useQuery({ queryKey: ["leadgen", "senders"], queryFn: () => api.get<{ items: Array<Row>; defaults: { sms: string; email: string } }>("/leadgen/portal/senders") });
-  const lists = (access?.items ?? []).filter((l) => l.access_status === "active");
+  const accessQuery = useQuery({ queryKey: ["leadgen", "access"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/access") });
+  const sendersQuery = useQuery({ queryKey: ["leadgen", "senders"], queryFn: () => api.get<{ items: Array<Row>; defaults: { sms: string; email: string } }>("/leadgen/portal/senders") });
+  const { data: access } = accessQuery;
+  const { data: senders } = sendersQuery;
+  const lists = useMemo(() => (access?.items ?? []).filter((l) => l.access_status === "active"), [access]);
   const approvedSenders = (senders?.items ?? []).filter((s) => s.channel === channel && s.status === "approved");
   useEffect(() => setSenderId(null), [channel]);
 
@@ -100,11 +102,25 @@ function Composer() {
     },
     onError: (e) => toast.error(e.message),
   });
+  const setupError = (!access && accessQuery.error) || (!senders && sendersQuery.error);
+  if (setupError) {
+    const retrying = accessQuery.isFetching || sendersQuery.isFetching;
+    return (
+      <div role="alert">
+        <EmptyState
+          icon={AlertTriangle}
+          title="Couldn't load the broadcast composer"
+          text={setupError.message}
+          action={<Button disabled={retrying} onClick={() => { void accessQuery.refetch(); void sendersQuery.refetch(); }}>{retrying ? "Retrying…" : "Try again"}</Button>}
+        />
+      </div>
+    );
+  }
   if (!access || !senders) return <Loading />;
   const short = est.data ? est.data.cost > est.data.balance : false;
   return (
-    <div className="grid gap-6 xl:grid-cols-[1fr_320px]">
-      <div className="space-y-5">
+    <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
+      <div className="min-w-0 space-y-5">
         <h1 className="text-2xl font-black text-primary">New broadcast</h1>
         <section className="rounded-2xl border bg-white p-5">
           <p className="mb-3 text-sm font-bold text-primary">1. Channel & sender</p>
@@ -115,14 +131,14 @@ function Composer() {
                 ["email", "Bulk email", Mail],
               ] as const
             ).map(([key, label, Icon]) => (
-              <button key={key} type="button" onClick={() => setChannel(key)} className={cn("flex items-center gap-3 rounded-xl border-2 p-4 text-left", channel === key ? "border-sys-leadgen bg-cyan-50" : "border-border")}>
-                <Icon className="size-5 text-cyan-700" />
+              <button key={key} type="button" onClick={() => setChannel(key)} className={cn("flex min-w-0 flex-col items-start gap-2 rounded-xl border-2 p-3 text-left sm:flex-row sm:items-center sm:gap-3 sm:p-4", channel === key ? "border-sys-leadgen bg-cyan-50" : "border-border")}>
+                <Icon className="size-5 shrink-0 text-cyan-700" />
                 <span className="font-semibold">{label}</span>
               </button>
             ))}
           </div>
           <Field label={channel === "sms" ? "Sender ID" : "Sender name"} className="mt-4" hint={<Link to="/leadgen/portal/senders" className="underline">Register your own sender</Link>}>
-            <select value={senderId ?? ""} onChange={(e) => setSenderId(e.target.value ? Number(e.target.value) : null)} className="h-9 rounded-md border border-input bg-white px-3 text-sm">
+            <select value={senderId ?? ""} onChange={(e) => setSenderId(e.target.value ? Number(e.target.value) : null)} className="h-9 w-full min-w-0 max-w-full rounded-md border border-input bg-white px-3 text-sm">
               <option value="">{channel === "sms" ? senders.defaults.sms : senders.defaults.email} (Capevars default)</option>
               {approvedSenders.map((s) => (
                 <option key={s.id} value={s.id}>
@@ -150,10 +166,10 @@ function Composer() {
                 const checked = accessIds.includes(l.access_id);
                 return (
                   <li key={l.access_id}>
-                    <label className={cn("flex cursor-pointer items-center gap-3 rounded-xl border p-3", checked && "border-sys-leadgen bg-cyan-50", !count && "opacity-50")}>
+                    <label className={cn("flex cursor-pointer flex-wrap items-center gap-3 rounded-xl border p-3", checked && "border-sys-leadgen bg-cyan-50", !count && "opacity-50")}>
                       <input
                         type="checkbox"
-                        className="size-4 accent-cyan-700"
+                        className="size-4 shrink-0 accent-cyan-700"
                         disabled={!count}
                         checked={checked}
                         onChange={(e) => setAccessIds(e.target.checked ? [...accessIds, l.access_id] : accessIds.filter((id) => id !== l.access_id))}
@@ -164,7 +180,7 @@ function Composer() {
                           {Number(count).toLocaleString()} {channel === "sms" ? "phones" : "emails"} · {l.is_owner ? "yours" : l.source}
                         </span>
                       </span>
-                      <span className="rounded-md bg-muted px-2 py-1 font-mono text-[11px] font-bold">{l.voucher_code}</span>
+                      <span className="max-w-full rounded-md bg-muted px-2 py-1 font-mono text-[11px] font-bold break-all">{l.voucher_code}</span>
                     </label>
                   </li>
                 );
@@ -190,9 +206,9 @@ function Composer() {
             {vouchers.length > 0 && (
               <div className="mt-2 flex flex-wrap gap-1.5">
                 {vouchers.map((v) => (
-                  <span key={v} className="inline-flex items-center gap-1 rounded-full bg-secondary px-2.5 py-1 font-mono text-xs">
-                    {v}
-                    <button type="button" onClick={() => setVouchers(vouchers.filter((x) => x !== v))} aria-label={`Remove ${v}`}>
+                  <span key={v} className="inline-flex max-w-full items-center gap-1 rounded-full bg-secondary px-2.5 py-1 font-mono text-xs">
+                    <span className="min-w-0 break-all">{v}</span>
+                    <button type="button" className="shrink-0" onClick={() => setVouchers(vouchers.filter((x) => x !== v))} aria-label={`Remove ${v}`}>
                       <X className="size-3" />
                     </button>
                   </span>
@@ -202,8 +218,8 @@ function Composer() {
           </div>
           <div className="mt-4">
             {uploaded ? (
-              <div className="flex items-center justify-between rounded-xl bg-muted p-3 text-sm">
-                <span>
+              <div className="flex flex-wrap items-center justify-between gap-2 rounded-xl bg-muted p-3 text-sm">
+                <span className="min-w-0 [overflow-wrap:anywhere]">
                   <Users className="mr-1.5 inline size-4" />
                   {uploaded.contacts.length.toLocaleString()} contacts from <strong>{uploaded.name}</strong>
                 </span>
@@ -253,7 +269,7 @@ function Composer() {
         </section>
       </div>
 
-      <aside className="h-fit space-y-4 xl:sticky xl:top-24">
+      <aside className="h-fit min-w-0 space-y-4 xl:sticky xl:top-24">
         <div className="rounded-2xl border bg-white p-5">
           <h2 className="flex items-center gap-2 font-bold text-primary">
             <Coins className="size-5" /> Summary
@@ -261,7 +277,7 @@ function Composer() {
           {!hasAudience ? (
             <p className="mt-3 text-sm text-muted-foreground">Choose who to send to.</p>
           ) : est.isError ? (
-            <p className="mt-3 text-sm text-destructive">{(est.error as Error).message}</p>
+            <p className="mt-3 text-sm text-destructive">{est.error.message}</p>
           ) : !est.data ? (
             <p className="mt-3 flex items-center gap-2 text-sm text-muted-foreground">
               <Loader2 className="size-4 animate-spin" /> Counting recipients…
@@ -314,7 +330,7 @@ function Composer() {
         </div>
         <div className="rounded-2xl border bg-white p-5 text-sm">
           <p className="font-bold text-primary">Preview</p>
-          <div className={cn("mt-3 rounded-2xl p-3 text-sm whitespace-pre-wrap", channel === "sms" ? "rounded-bl-sm bg-slate-100" : "border")}>
+          <div className={cn("mt-3 rounded-2xl p-3 text-sm whitespace-pre-wrap [overflow-wrap:anywhere]", channel === "sms" ? "rounded-bl-sm bg-slate-100" : "border")}>
             {channel === "email" && <p className="mb-2 font-semibold">{subject.replace(/\{name\}/gi, "Ama") || "(subject)"}</p>}
             {body.replace(/\{name\}/gi, "Ama") || "Your message appears here."}
           </div>

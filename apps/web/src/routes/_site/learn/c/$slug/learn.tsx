@@ -20,8 +20,10 @@ type Player = { course: Row; sections: Array<Row & { lessons: Array<Row> }>; enr
 
 export const Route = createFileRoute("/_site/learn/c/$slug/learn")({
   validateSearch: z.object({ lesson: z.coerce.number().optional().catch(undefined) }),
-  beforeLoad: ({ context, location }) => {
+  beforeLoad: ({ context, location, params }) => {
     if (!context.member) throw redirect({ to: "/login", search: { next: location.href } });
+    const imported = /^kidilearn-basic-([1-9])-(english|mathematics|science)$/.exec(params.slug);
+    if (imported) throw redirect({ to: "/learn/kidilearn/subjects/$level/$subject", params: { level: `b${imported[1]}`, subject: imported[2]! } });
   },
   head: () => ({ meta: [{ title: "Learning | OpenLearn" }] }),
   component: PlayerPage,

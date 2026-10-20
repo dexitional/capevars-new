@@ -219,7 +219,7 @@ export const leadgenRoute = new Hono()
     const [rows] = await pool.execute<RowDataPacket[]>(
       `SELECT l.*, u.full_name AS owner_name, u.username AS owner_username, u.avatar_url AS owner_avatar, u.is_verified AS owner_verified
        FROM lead_lists l LEFT JOIN users u ON u.id = l.user_id WHERE l.slug = ?`,
-      [c.req.param("slug") ?? ""],
+      [c.req.param("slug")],
     );
     const list = rows[0];
     const isOwner = Boolean(member && list?.user_id === member.id);
@@ -310,7 +310,7 @@ export const leadgenRoute = new Hono()
     const pool = getPool();
     const [[recent], [lists], [senders], [stats]] = await Promise.all([
       pool.query<RowDataPacket[]>("SELECT id, channel, subject, LEFT(body, 120) AS preview, recipient_count, sent_count, failed_count, status, created_at FROM broadcasts WHERE user_id = ? ORDER BY id DESC LIMIT 6", [id]),
-      pool.query<RowDataPacket[]>("SELECT COUNT(*) AS accessible, COALESCE(SUM(l.contact_count), 0) AS contacts FROM lead_access a JOIN lead_lists l ON l.id = a.list_id WHERE a.user_id = ? AND a.status = 'active'", [id]),
+      pool.query<RowDataPacket[]>("SELECT COUNT(*) AS `accessible`, COALESCE(SUM(l.contact_count), 0) AS contacts FROM lead_access a JOIN lead_lists l ON l.id = a.list_id WHERE a.user_id = ? AND a.status = 'active'", [id]),
       pool.query<RowDataPacket[]>("SELECT channel, sender, status FROM sender_ids WHERE user_id = ? ORDER BY status = 'approved' DESC, id DESC", [id]),
       pool.query<RowDataPacket[]>(
         "SELECT COUNT(*) AS broadcasts, COALESCE(SUM(sent_count), 0) AS sent, COALESCE(SUM(cost_credits - refunded_credits), 0) AS spent FROM broadcasts WHERE user_id = ?",
@@ -430,7 +430,7 @@ export const leadgenRoute = new Hono()
     if (list.user_id !== member.id && !list.allow_download) throw new AppError("The owner allows broadcasting to this list, but not downloading it.", 403);
     const [contacts] = await getPool().query<RowDataPacket[]>("SELECT name, phone, email, organization, role, location FROM lead_contacts WHERE list_id = ? ORDER BY id", [id]);
     const lines = [["Name", "Phone", "Email", "Organisation", "Role", "Location"].join(","), ...contacts.map((r) => [r.name, r.phone, r.email, r.organization, r.role, r.location].map(csvCell).join(","))];
-    return c.body(`﻿${lines.join("\r\n")}`, 200, {
+    return c.body(`\uFEFF${lines.join("\r\n")}`, 200, {
       "Content-Type": "text/csv; charset=utf-8",
       "Content-Disposition": `attachment; filename="${list.slug}.csv"`,
     });

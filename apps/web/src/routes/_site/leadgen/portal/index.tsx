@@ -12,7 +12,14 @@ type Row = Record<string, any>;
 export const Route = createFileRoute("/_site/leadgen/portal/")({ component: PortalHome });
 
 function PortalHome() {
-  const { data } = useQuery({ queryKey: ["leadgen", "summary"], queryFn: () => api.get<Record<string, any>>("/leadgen/portal/summary") });
+  const { data, error, isFetching, refetch } = useQuery({ queryKey: ["leadgen", "summary"], queryFn: () => api.get<Record<string, any>>("/leadgen/portal/summary") });
+  if (!data && error) {
+    return (
+      <div role="alert">
+        <EmptyState icon={AlertTriangle} title="Couldn't load the broadcast dashboard" text={error.message} action={<Button onClick={() => void refetch()} disabled={isFetching}>{isFetching ? "Retrying…" : "Try again"}</Button>} />
+      </div>
+    );
+  }
   if (!data) return <Loading />;
   const m = data.messaging;
   return (
@@ -48,8 +55,8 @@ function PortalHome() {
         ))}
       </div>
       <RedeemBox />
-      <div className="grid gap-6 xl:grid-cols-[1fr_300px]">
-        <section className="rounded-2xl border bg-white">
+      <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_300px]">
+        <section className="min-w-0 rounded-2xl border bg-white">
           <div className="flex items-center justify-between border-b px-5 py-3">
             <h2 className="font-bold text-primary">Recent broadcasts</h2>
             <Link to="/leadgen/portal/broadcasts" className="text-sm font-semibold text-primary hover:underline">
@@ -84,8 +91,8 @@ function PortalHome() {
           ) : (
             <ul className="mt-3 space-y-2">
               {data.senders.map((s: Row) => (
-                <li key={`${s.channel}-${s.sender}`} className="flex items-center justify-between text-sm">
-                  <span>
+                <li key={`${s.channel}-${s.sender}`} className="flex flex-wrap items-center justify-between gap-2 text-sm">
+                  <span className="min-w-0 [overflow-wrap:anywhere]">
                     <span className="mr-2 rounded bg-muted px-1.5 py-0.5 text-[10px] font-bold uppercase">{s.channel}</span>
                     {s.sender}
                   </span>

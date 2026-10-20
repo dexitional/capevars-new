@@ -111,16 +111,19 @@ function TrendChart({ data, metric }: { data: Array<Day>; metric: Metric }) {
         {/* Hover columns: one per day, each with its own readout. */}
         <div className="absolute inset-y-0 right-0 left-16 flex">
           {data.map((d, i) => (
-            <div key={d.day} className="group relative flex-1">
-              <span className="absolute inset-y-0 left-1/2 w-px bg-primary/30 opacity-0 group-hover:opacity-100" />
-              <span
-                className="absolute left-1/2 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white bg-primary opacity-0 shadow group-hover:opacity-100"
-                style={{ top: `${(points[i]![1] / H) * 100}%` }}
-              />
+            <div key={d.day} className="group flex-1 sm:relative">
+              <div className="relative h-full">
+                <span className="absolute inset-y-0 left-1/2 w-px bg-primary/30 opacity-0 group-hover:opacity-100" />
+                <span
+                  className="absolute left-1/2 size-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full border-2 border-white bg-primary opacity-0 shadow group-hover:opacity-100"
+                  style={{ top: `${(points[i]![1] / H) * 100}%` }}
+                />
+              </div>
+              {/* On phones, keep readouts within the plot instead of extending from a narrow day column. */}
               <span
                 className={cn(
-                  "pointer-events-none absolute -top-2 z-10 -translate-y-full rounded-lg bg-primary px-2.5 py-1.5 text-[11px] whitespace-nowrap text-white opacity-0 shadow-lg group-hover:opacity-100",
-                  i > data.length / 2 ? "right-1/2" : "left-1/2",
+                  "pointer-events-none absolute inset-x-0 -top-2 z-10 hidden -translate-y-full rounded-lg bg-primary px-2.5 py-1.5 text-[11px] text-white shadow-lg group-hover:block sm:inset-x-auto sm:whitespace-nowrap",
+                  i > data.length / 2 ? "sm:right-1/2" : "sm:left-1/2",
                 )}
               >
                 <span className="block font-semibold">{shortDate(d.day)}</span>

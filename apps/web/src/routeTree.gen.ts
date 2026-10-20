@@ -45,6 +45,7 @@ import { Route as SiteLeadgenBrowseRouteImport } from './routes/_site/leadgen/br
 import { Route as SiteLeadgenPortalRouteRouteImport } from './routes/_site/leadgen/portal/route'
 import { Route as SiteLearnIndexRouteImport } from './routes/_site/learn/index'
 import { Route as SiteLearnCoursesRouteImport } from './routes/_site/learn/courses'
+import { Route as SiteLearnKidilearnRouteRouteImport } from './routes/_site/learn/kidilearn/route'
 import { Route as SiteLearnMyRouteImport } from './routes/_site/learn/my'
 import { Route as SiteMarketIndexRouteImport } from './routes/_site/market/index'
 import { Route as SiteMarketBrowseRouteImport } from './routes/_site/market/browse'
@@ -101,6 +102,9 @@ import { Route as SiteLeadgenPortalEarningsRouteImport } from './routes/_site/le
 import { Route as SiteLeadgenPortalSendersRouteImport } from './routes/_site/leadgen/portal/senders'
 import { Route as SiteLeadgenPortalWalletRouteImport } from './routes/_site/leadgen/portal/wallet'
 import { Route as SiteLearnCertificateCodeRouteImport } from './routes/_site/learn/certificate/$code'
+import { Route as SiteLearnKidilearnIndexRouteImport } from './routes/_site/learn/kidilearn/index'
+import { Route as SiteLearnKidilearnFamilyRouteImport } from './routes/_site/learn/kidilearn/family'
+import { Route as SiteLearnKidilearnLoginRouteImport } from './routes/_site/learn/kidilearn/login'
 import { Route as SiteLearnTeachIndexRouteImport } from './routes/_site/learn/teach/index'
 import { Route as SiteLearnTeachIdRouteImport } from './routes/_site/learn/teach/$id'
 import { Route as SiteMarketExhibitionsIndexRouteImport } from './routes/_site/market/exhibitions/index'
@@ -134,12 +138,14 @@ import { Route as SiteLeadgenPortalLeadsIdRouteImport } from './routes/_site/lea
 import { Route as SiteLeadgenPortalLeadsNewRouteImport } from './routes/_site/leadgen/portal/leads/new'
 import { Route as SiteLearnCSlugIndexRouteImport } from './routes/_site/learn/c/$slug/index'
 import { Route as SiteLearnCSlugLearnRouteImport } from './routes/_site/learn/c/$slug/learn'
+import { Route as SiteLearnKidilearnQuizIdRouteImport } from './routes/_site/learn/kidilearn/quiz/$id'
 import { Route as SiteMarketJobsManageIdRouteImport } from './routes/_site/market/jobs/manage/$id'
 import { Route as SiteMarketTicketsBusIndexRouteImport } from './routes/_site/market/tickets/bus/index'
 import { Route as SiteMarketTicketsBusIdRouteImport } from './routes/_site/market/tickets/bus/$id'
 import { Route as SiteMarketTicketsESlugRouteImport } from './routes/_site/market/tickets/e/$slug'
 import { Route as SiteMarketTicketsRentalsIndexRouteImport } from './routes/_site/market/tickets/rentals/index'
 import { Route as SiteMarketTicketsRentalsIdRouteImport } from './routes/_site/market/tickets/rentals/$id'
+import { Route as SiteLearnKidilearnSubjectsLevelSubjectRouteImport } from './routes/_site/learn/kidilearn/subjects/$level/$subject'
 
 const SiteRouteRoute = SiteRouteRouteImport.update({
   id: '/_site',
@@ -318,6 +324,11 @@ const SiteLearnIndexRoute = SiteLearnIndexRouteImport.update({
 const SiteLearnCoursesRoute = SiteLearnCoursesRouteImport.update({
   id: '/courses',
   path: '/courses',
+  getParentRoute: () => SiteLearnRouteRoute,
+} as any)
+const SiteLearnKidilearnRouteRoute = SiteLearnKidilearnRouteRouteImport.update({
+  id: '/kidilearn',
+  path: '/kidilearn',
   getParentRoute: () => SiteLearnRouteRoute,
 } as any)
 const SiteLearnMyRoute = SiteLearnMyRouteImport.update({
@@ -604,6 +615,22 @@ const SiteLearnCertificateCodeRoute =
     path: '/certificate/$code',
     getParentRoute: () => SiteLearnRouteRoute,
   } as any)
+const SiteLearnKidilearnIndexRoute = SiteLearnKidilearnIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => SiteLearnKidilearnRouteRoute,
+} as any)
+const SiteLearnKidilearnFamilyRoute =
+  SiteLearnKidilearnFamilyRouteImport.update({
+    id: '/family',
+    path: '/family',
+    getParentRoute: () => SiteLearnKidilearnRouteRoute,
+  } as any)
+const SiteLearnKidilearnLoginRoute = SiteLearnKidilearnLoginRouteImport.update({
+  id: '/login',
+  path: '/login',
+  getParentRoute: () => SiteLearnKidilearnRouteRoute,
+} as any)
 const SiteLearnTeachIndexRoute = SiteLearnTeachIndexRouteImport.update({
   id: '/teach/',
   path: '/teach/',
@@ -778,6 +805,12 @@ const SiteLearnCSlugLearnRoute = SiteLearnCSlugLearnRouteImport.update({
   path: '/c/$slug/learn',
   getParentRoute: () => SiteLearnRouteRoute,
 } as any)
+const SiteLearnKidilearnQuizIdRoute =
+  SiteLearnKidilearnQuizIdRouteImport.update({
+    id: '/quiz/$id',
+    path: '/quiz/$id',
+    getParentRoute: () => SiteLearnKidilearnRouteRoute,
+  } as any)
 const SiteMarketJobsManageIdRoute = SiteMarketJobsManageIdRouteImport.update({
   id: '/jobs/manage/$id',
   path: '/jobs/manage/$id',
@@ -811,6 +844,12 @@ const SiteMarketTicketsRentalsIdRoute =
     path: '/tickets/rentals/$id',
     getParentRoute: () => SiteMarketRouteRoute,
   } as any)
+const SiteLearnKidilearnSubjectsLevelSubjectRoute =
+  SiteLearnKidilearnSubjectsLevelSubjectRouteImport.update({
+    id: '/subjects/$level/$subject',
+    path: '/subjects/$level/$subject',
+    getParentRoute: () => SiteLearnKidilearnRouteRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof SiteIndexRoute
@@ -831,6 +870,7 @@ export interface FileRoutesByFullPath {
   '/api/$': typeof ApiSplatRoute
   '/groups/$slug': typeof SiteGroupsSlugRouteRouteWithChildren
   '/leadgen/portal': typeof SiteLeadgenPortalRouteRouteWithChildren
+  '/learn/kidilearn': typeof SiteLearnKidilearnRouteRouteWithChildren
   '/social/chats': typeof SiteSocialChatsRouteRouteWithChildren
   '/account/favourites': typeof SiteAccountFavouritesRoute
   '/account/orders': typeof SiteAccountOrdersRoute
@@ -902,6 +942,8 @@ export interface FileRoutesByFullPath {
   '/leadgen/portal/senders': typeof SiteLeadgenPortalSendersRoute
   '/leadgen/portal/wallet': typeof SiteLeadgenPortalWalletRoute
   '/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
+  '/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
+  '/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
   '/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -919,6 +961,7 @@ export interface FileRoutesByFullPath {
   '/social/post/$id': typeof SiteSocialPostIdRoute
   '/groups/$slug/': typeof SiteGroupsSlugIndexRoute
   '/leadgen/portal/': typeof SiteLeadgenPortalIndexRoute
+  '/learn/kidilearn/': typeof SiteLearnKidilearnIndexRoute
   '/learn/teach/': typeof SiteLearnTeachIndexRoute
   '/market/exhibitions/': typeof SiteMarketExhibitionsIndexRoute
   '/market/food/': typeof SiteMarketFoodIndexRoute
@@ -933,6 +976,7 @@ export interface FileRoutesByFullPath {
   '/leadgen/portal/leads/$id': typeof SiteLeadgenPortalLeadsIdRoute
   '/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
+  '/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
   '/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -943,6 +987,7 @@ export interface FileRoutesByFullPath {
   '/learn/c/$slug/': typeof SiteLearnCSlugIndexRoute
   '/market/tickets/bus/': typeof SiteMarketTicketsBusIndexRoute
   '/market/tickets/rentals/': typeof SiteMarketTicketsRentalsIndexRoute
+  '/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
 }
 export interface FileRoutesByTo {
   '/login': typeof SiteLoginRoute
@@ -1022,6 +1067,8 @@ export interface FileRoutesByTo {
   '/leadgen/portal/senders': typeof SiteLeadgenPortalSendersRoute
   '/leadgen/portal/wallet': typeof SiteLeadgenPortalWalletRoute
   '/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
+  '/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
+  '/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
   '/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -1039,6 +1086,7 @@ export interface FileRoutesByTo {
   '/social/post/$id': typeof SiteSocialPostIdRoute
   '/groups/$slug': typeof SiteGroupsSlugIndexRoute
   '/leadgen/portal': typeof SiteLeadgenPortalIndexRoute
+  '/learn/kidilearn': typeof SiteLearnKidilearnIndexRoute
   '/learn/teach': typeof SiteLearnTeachIndexRoute
   '/market/exhibitions': typeof SiteMarketExhibitionsIndexRoute
   '/market/food': typeof SiteMarketFoodIndexRoute
@@ -1053,6 +1101,7 @@ export interface FileRoutesByTo {
   '/leadgen/portal/leads/$id': typeof SiteLeadgenPortalLeadsIdRoute
   '/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
+  '/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
   '/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -1063,6 +1112,7 @@ export interface FileRoutesByTo {
   '/learn/c/$slug': typeof SiteLearnCSlugIndexRoute
   '/market/tickets/bus': typeof SiteMarketTicketsBusIndexRoute
   '/market/tickets/rentals': typeof SiteMarketTicketsRentalsIndexRoute
+  '/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -1085,6 +1135,7 @@ export interface FileRoutesById {
   '/_site/': typeof SiteIndexRoute
   '/_site/groups/$slug': typeof SiteGroupsSlugRouteRouteWithChildren
   '/_site/leadgen/portal': typeof SiteLeadgenPortalRouteRouteWithChildren
+  '/_site/learn/kidilearn': typeof SiteLearnKidilearnRouteRouteWithChildren
   '/_site/social/chats': typeof SiteSocialChatsRouteRouteWithChildren
   '/_site/account/favourites': typeof SiteAccountFavouritesRoute
   '/_site/account/orders': typeof SiteAccountOrdersRoute
@@ -1156,6 +1207,8 @@ export interface FileRoutesById {
   '/_site/leadgen/portal/senders': typeof SiteLeadgenPortalSendersRoute
   '/_site/leadgen/portal/wallet': typeof SiteLeadgenPortalWalletRoute
   '/_site/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
+  '/_site/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
+  '/_site/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
   '/_site/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/_site/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/_site/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -1173,6 +1226,7 @@ export interface FileRoutesById {
   '/_site/social/post/$id': typeof SiteSocialPostIdRoute
   '/_site/groups/$slug/': typeof SiteGroupsSlugIndexRoute
   '/_site/leadgen/portal/': typeof SiteLeadgenPortalIndexRoute
+  '/_site/learn/kidilearn/': typeof SiteLearnKidilearnIndexRoute
   '/_site/learn/teach/': typeof SiteLearnTeachIndexRoute
   '/_site/market/exhibitions/': typeof SiteMarketExhibitionsIndexRoute
   '/_site/market/food/': typeof SiteMarketFoodIndexRoute
@@ -1187,6 +1241,7 @@ export interface FileRoutesById {
   '/_site/leadgen/portal/leads/$id': typeof SiteLeadgenPortalLeadsIdRoute
   '/_site/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/_site/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
+  '/_site/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
   '/_site/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/_site/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/_site/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -1197,6 +1252,7 @@ export interface FileRoutesById {
   '/_site/learn/c/$slug/': typeof SiteLearnCSlugIndexRoute
   '/_site/market/tickets/bus/': typeof SiteMarketTicketsBusIndexRoute
   '/_site/market/tickets/rentals/': typeof SiteMarketTicketsRentalsIndexRoute
+  '/_site/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -1219,6 +1275,7 @@ export interface FileRouteTypes {
     | '/api/$'
     | '/groups/$slug'
     | '/leadgen/portal'
+    | '/learn/kidilearn'
     | '/social/chats'
     | '/account/favourites'
     | '/account/orders'
@@ -1290,6 +1347,8 @@ export interface FileRouteTypes {
     | '/leadgen/portal/senders'
     | '/leadgen/portal/wallet'
     | '/learn/certificate/$code'
+    | '/learn/kidilearn/family'
+    | '/learn/kidilearn/login'
     | '/learn/teach/$id'
     | '/market/exhibitions/$slug'
     | '/market/food/$slug'
@@ -1307,6 +1366,7 @@ export interface FileRouteTypes {
     | '/social/post/$id'
     | '/groups/$slug/'
     | '/leadgen/portal/'
+    | '/learn/kidilearn/'
     | '/learn/teach/'
     | '/market/exhibitions/'
     | '/market/food/'
@@ -1321,6 +1381,7 @@ export interface FileRouteTypes {
     | '/leadgen/portal/leads/$id'
     | '/leadgen/portal/leads/new'
     | '/learn/c/$slug/learn'
+    | '/learn/kidilearn/quiz/$id'
     | '/market/jobs/manage/$id'
     | '/market/tickets/bus/$id'
     | '/market/tickets/e/$slug'
@@ -1331,6 +1392,7 @@ export interface FileRouteTypes {
     | '/learn/c/$slug/'
     | '/market/tickets/bus/'
     | '/market/tickets/rentals/'
+    | '/learn/kidilearn/subjects/$level/$subject'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/login'
@@ -1410,6 +1472,8 @@ export interface FileRouteTypes {
     | '/leadgen/portal/senders'
     | '/leadgen/portal/wallet'
     | '/learn/certificate/$code'
+    | '/learn/kidilearn/family'
+    | '/learn/kidilearn/login'
     | '/learn/teach/$id'
     | '/market/exhibitions/$slug'
     | '/market/food/$slug'
@@ -1427,6 +1491,7 @@ export interface FileRouteTypes {
     | '/social/post/$id'
     | '/groups/$slug'
     | '/leadgen/portal'
+    | '/learn/kidilearn'
     | '/learn/teach'
     | '/market/exhibitions'
     | '/market/food'
@@ -1441,6 +1506,7 @@ export interface FileRouteTypes {
     | '/leadgen/portal/leads/$id'
     | '/leadgen/portal/leads/new'
     | '/learn/c/$slug/learn'
+    | '/learn/kidilearn/quiz/$id'
     | '/market/jobs/manage/$id'
     | '/market/tickets/bus/$id'
     | '/market/tickets/e/$slug'
@@ -1451,6 +1517,7 @@ export interface FileRouteTypes {
     | '/learn/c/$slug'
     | '/market/tickets/bus'
     | '/market/tickets/rentals'
+    | '/learn/kidilearn/subjects/$level/$subject'
   id:
     | '__root__'
     | '/_site'
@@ -1472,6 +1539,7 @@ export interface FileRouteTypes {
     | '/_site/'
     | '/_site/groups/$slug'
     | '/_site/leadgen/portal'
+    | '/_site/learn/kidilearn'
     | '/_site/social/chats'
     | '/_site/account/favourites'
     | '/_site/account/orders'
@@ -1543,6 +1611,8 @@ export interface FileRouteTypes {
     | '/_site/leadgen/portal/senders'
     | '/_site/leadgen/portal/wallet'
     | '/_site/learn/certificate/$code'
+    | '/_site/learn/kidilearn/family'
+    | '/_site/learn/kidilearn/login'
     | '/_site/learn/teach/$id'
     | '/_site/market/exhibitions/$slug'
     | '/_site/market/food/$slug'
@@ -1560,6 +1630,7 @@ export interface FileRouteTypes {
     | '/_site/social/post/$id'
     | '/_site/groups/$slug/'
     | '/_site/leadgen/portal/'
+    | '/_site/learn/kidilearn/'
     | '/_site/learn/teach/'
     | '/_site/market/exhibitions/'
     | '/_site/market/food/'
@@ -1574,6 +1645,7 @@ export interface FileRouteTypes {
     | '/_site/leadgen/portal/leads/$id'
     | '/_site/leadgen/portal/leads/new'
     | '/_site/learn/c/$slug/learn'
+    | '/_site/learn/kidilearn/quiz/$id'
     | '/_site/market/jobs/manage/$id'
     | '/_site/market/tickets/bus/$id'
     | '/_site/market/tickets/e/$slug'
@@ -1584,6 +1656,7 @@ export interface FileRouteTypes {
     | '/_site/learn/c/$slug/'
     | '/_site/market/tickets/bus/'
     | '/_site/market/tickets/rentals/'
+    | '/_site/learn/kidilearn/subjects/$level/$subject'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -1845,6 +1918,13 @@ declare module '@tanstack/react-router' {
       path: '/courses'
       fullPath: '/learn/courses'
       preLoaderRoute: typeof SiteLearnCoursesRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
+    '/_site/learn/kidilearn': {
+      id: '/_site/learn/kidilearn'
+      path: '/kidilearn'
+      fullPath: '/learn/kidilearn'
+      preLoaderRoute: typeof SiteLearnKidilearnRouteRouteImport
       parentRoute: typeof SiteLearnRouteRoute
     }
     '/_site/learn/my': {
@@ -2239,6 +2319,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteLearnCertificateCodeRouteImport
       parentRoute: typeof SiteLearnRouteRoute
     }
+    '/_site/learn/kidilearn/': {
+      id: '/_site/learn/kidilearn/'
+      path: '/'
+      fullPath: '/learn/kidilearn/'
+      preLoaderRoute: typeof SiteLearnKidilearnIndexRouteImport
+      parentRoute: typeof SiteLearnKidilearnRouteRoute
+    }
+    '/_site/learn/kidilearn/family': {
+      id: '/_site/learn/kidilearn/family'
+      path: '/family'
+      fullPath: '/learn/kidilearn/family'
+      preLoaderRoute: typeof SiteLearnKidilearnFamilyRouteImport
+      parentRoute: typeof SiteLearnKidilearnRouteRoute
+    }
+    '/_site/learn/kidilearn/login': {
+      id: '/_site/learn/kidilearn/login'
+      path: '/login'
+      fullPath: '/learn/kidilearn/login'
+      preLoaderRoute: typeof SiteLearnKidilearnLoginRouteImport
+      parentRoute: typeof SiteLearnKidilearnRouteRoute
+    }
     '/_site/learn/teach/': {
       id: '/_site/learn/teach/'
       path: '/teach'
@@ -2470,6 +2571,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteLearnCSlugLearnRouteImport
       parentRoute: typeof SiteLearnRouteRoute
     }
+    '/_site/learn/kidilearn/quiz/$id': {
+      id: '/_site/learn/kidilearn/quiz/$id'
+      path: '/quiz/$id'
+      fullPath: '/learn/kidilearn/quiz/$id'
+      preLoaderRoute: typeof SiteLearnKidilearnQuizIdRouteImport
+      parentRoute: typeof SiteLearnKidilearnRouteRoute
+    }
     '/_site/market/jobs/manage/$id': {
       id: '/_site/market/jobs/manage/$id'
       path: '/jobs/manage/$id'
@@ -2511,6 +2619,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/market/tickets/rentals/$id'
       preLoaderRoute: typeof SiteMarketTicketsRentalsIdRouteImport
       parentRoute: typeof SiteMarketRouteRoute
+    }
+    '/_site/learn/kidilearn/subjects/$level/$subject': {
+      id: '/_site/learn/kidilearn/subjects/$level/$subject'
+      path: '/subjects/$level/$subject'
+      fullPath: '/learn/kidilearn/subjects/$level/$subject'
+      preLoaderRoute: typeof SiteLearnKidilearnSubjectsLevelSubjectRouteImport
+      parentRoute: typeof SiteLearnKidilearnRouteRoute
     }
   }
 }
@@ -2655,7 +2770,31 @@ const SiteLeadgenRouteRouteChildren: SiteLeadgenRouteRouteChildren = {
 const SiteLeadgenRouteRouteWithChildren =
   SiteLeadgenRouteRoute._addFileChildren(SiteLeadgenRouteRouteChildren)
 
+interface SiteLearnKidilearnRouteRouteChildren {
+  SiteLearnKidilearnFamilyRoute: typeof SiteLearnKidilearnFamilyRoute
+  SiteLearnKidilearnLoginRoute: typeof SiteLearnKidilearnLoginRoute
+  SiteLearnKidilearnIndexRoute: typeof SiteLearnKidilearnIndexRoute
+  SiteLearnKidilearnQuizIdRoute: typeof SiteLearnKidilearnQuizIdRoute
+  SiteLearnKidilearnSubjectsLevelSubjectRoute: typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
+}
+
+const SiteLearnKidilearnRouteRouteChildren: SiteLearnKidilearnRouteRouteChildren =
+  {
+    SiteLearnKidilearnFamilyRoute: SiteLearnKidilearnFamilyRoute,
+    SiteLearnKidilearnLoginRoute: SiteLearnKidilearnLoginRoute,
+    SiteLearnKidilearnIndexRoute: SiteLearnKidilearnIndexRoute,
+    SiteLearnKidilearnQuizIdRoute: SiteLearnKidilearnQuizIdRoute,
+    SiteLearnKidilearnSubjectsLevelSubjectRoute:
+      SiteLearnKidilearnSubjectsLevelSubjectRoute,
+  }
+
+const SiteLearnKidilearnRouteRouteWithChildren =
+  SiteLearnKidilearnRouteRoute._addFileChildren(
+    SiteLearnKidilearnRouteRouteChildren,
+  )
+
 interface SiteLearnRouteRouteChildren {
+  SiteLearnKidilearnRouteRoute: typeof SiteLearnKidilearnRouteRouteWithChildren
   SiteLearnCoursesRoute: typeof SiteLearnCoursesRoute
   SiteLearnMyRoute: typeof SiteLearnMyRoute
   SiteLearnIndexRoute: typeof SiteLearnIndexRoute
@@ -2667,6 +2806,7 @@ interface SiteLearnRouteRouteChildren {
 }
 
 const SiteLearnRouteRouteChildren: SiteLearnRouteRouteChildren = {
+  SiteLearnKidilearnRouteRoute: SiteLearnKidilearnRouteRouteWithChildren,
   SiteLearnCoursesRoute: SiteLearnCoursesRoute,
   SiteLearnMyRoute: SiteLearnMyRoute,
   SiteLearnIndexRoute: SiteLearnIndexRoute,

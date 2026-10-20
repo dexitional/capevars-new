@@ -1,0 +1,54 @@
+/* Original course typography, served locally for reliable classroom use. */
+@font-face {
+  font-family: 'Kidi Sour Gummy';
+  src: url('/kidilearn/fonts/sourgummy.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kidi Fredoka';
+  src: url('/kidilearn/fonts/fredoka.ttf') format('truetype');
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Kidi Fredericka';
+  src: url('/kidilearn/fonts/frederickathegreat.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.kidilearn {
+  font-family: 'Kidi Fredoka', 'Trebuchet MS', sans-serif;
+  font-weight: 400;
+  font-synthesis: none;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.kidilearn :is(h1, h2) {
+  font-family: 'Kidi Fredericka', Georgia, serif;
+  font-weight: 400;
+}
+
+.kidilearn :is(h3, h4) {
+  font-family: 'Kidi Sour Gummy', 'Kidi Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+.kidilearn :is(button, input, select, textarea) {
+  font-family: inherit;
+}
+
+.kidilearn legend {
+  font-weight: 400;
+}
+
+.kidilearn label:has(input[type='radio']) {
+  font-weight: 500;
+}

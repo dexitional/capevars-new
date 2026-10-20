@@ -44,24 +44,24 @@ function SellerLayout() {
   }
   return (
     <Container className="py-6">
-      <div className="grid gap-6 lg:grid-cols-[240px_1fr]">
-        <aside className="h-fit space-y-3 lg:sticky lg:top-24">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[240px_minmax(0,1fr)]">
+        <aside className="min-w-0 h-fit space-y-3 lg:sticky lg:top-24">
           <Link to="/market/store/$slug" params={{ slug: store.slug }} className="flex items-center gap-3 rounded-2xl border bg-white p-3">
-            <Img src={store.logo_url} className="size-11 rounded-xl" fallback={<Store className="size-5" />} />
+            <Img src={store.logo_url} className="size-11 shrink-0 rounded-xl" fallback={<Store className="size-5" />} />
             <span className="min-w-0">
               <span className="block truncate font-bold text-primary">{store.store_name}</span>
               <StatusBadge status={store.is_open ? "active" : "closed"} label={store.is_open ? "Open" : "Closed"} />
             </span>
           </Link>
-          <nav className="no-scrollbar flex gap-1 overflow-x-auto rounded-2xl border bg-white p-2 lg:flex-col">
+          <nav aria-label="Seller Center" className="no-scrollbar flex gap-1 overflow-x-auto rounded-2xl border bg-white p-2 lg:flex-col">
             {NAV.filter((n) => !n.kind || kinds.includes(n.kind)).map((n) => (
               <Link
                 key={n.to}
                 to={n.to}
                 activeOptions={{ exact: n.exact ?? false }}
-                className="flex shrink-0 items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium text-muted-foreground hover:bg-muted hover:text-primary [&.active]:bg-primary [&.active]:text-white"
+                className="flex shrink-0 items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium whitespace-nowrap text-muted-foreground hover:bg-muted hover:text-primary [&.active]:bg-primary [&.active]:text-white"
               >
-                <n.icon className="size-4" /> {n.label}
+                <n.icon className="size-4 shrink-0" /> {n.label}
               </Link>
             ))}
           </nav>

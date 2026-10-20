@@ -101,6 +101,8 @@ export async function memberFromToken(token: string | undefined): Promise<Sessio
 }
 
 export async function startMemberSession(c: Context, userId: number) {
+  // A parent sign-in replaces child mode on a shared browser.
+  deleteCookie(c, "cv_kidi_child", { path: "/" });
   setCookie(c, MEMBER_SESSION_COOKIE, await signMemberToken(userId), {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",

@@ -248,6 +248,12 @@ export const SYSTEMS: Array<NavSystem> = [
         icon: BookOpenCheck,
       },
       {
+        to: "/learn/kidilearn",
+        label: "kidiLearn",
+        text: "Your learning journey, KG to Basic 9",
+        icon: BookOpen,
+      },
+      {
         to: "/learn/teach",
         label: "Teach on OpenLearn",
         text: "Create and sell a course",
@@ -480,7 +486,7 @@ function HeaderSearch({ onOpen }: { onOpen: () => void }) {
         if (q.trim().length >= 2) void navigate({ to: "/search", search: { q: q.trim() } });
         else onOpen();
       }}
-      className="mx-2 hidden max-w-2xl flex-1 items-center overflow-hidden rounded-full border-2 border-primary/15 bg-muted/60 text-foreground transition focus-within:border-primary focus-within:bg-white md:flex lg:mx-6"
+      className="mx-2 hidden min-w-0 max-w-2xl flex-1 items-center overflow-hidden rounded-full border-2 border-primary/15 bg-muted/60 text-foreground transition focus-within:border-primary focus-within:bg-white md:flex lg:mx-6"
     >
       <Search className="ml-4 size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
       <input
@@ -533,7 +539,7 @@ function SearchDialog({ open, onClose }: { open: boolean; onClose: () => void })
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Search products, hostels, groups, courses, people…"
-            className="flex-1 bg-transparent text-lg outline-none"
+            className="min-w-0 flex-1 bg-transparent text-lg outline-none"
             aria-label="Search Capevars"
           />
           <button
@@ -695,7 +701,7 @@ function Popover({
     };
   }, [open, onOpenChange]);
   return (
-    <div ref={ref} className="relative">
+    <div ref={ref} className="shrink-0 sm:relative">
       <button
         type="button"
         onClick={() => onOpenChange(!open)}
@@ -808,9 +814,9 @@ export function TopBar() {
             Bulk SMS & Email
           </Link>
         </nav>
-        <div className="ml-auto flex items-center gap-1">
+        <div className="ml-auto flex min-w-0 items-center gap-1">
           {member ? (
-            <Link to="/account" className="rounded-full px-2.5 py-0.5 font-semibold hover:bg-primary/10">
+            <Link to="/account" className="truncate rounded-full px-2.5 py-0.5 font-semibold hover:bg-primary/10">
               Hi, {member.fullName.split(" ")[0]}
             </Link>
           ) : (
@@ -870,7 +876,7 @@ export function SiteHeader() {
   }, []);
 
   const iconButton =
-    "relative flex size-10 items-center justify-center rounded-full text-primary transition hover:bg-secondary";
+    "relative flex size-10 shrink-0 items-center justify-center rounded-full text-primary transition hover:bg-secondary";
 
   return (
     <header className="sticky top-0 z-40 shadow-[0_10px_30px_-14px_rgb(4_29_64/0.6)] [view-transition-name:site-header]">
@@ -886,10 +892,10 @@ export function SiteHeader() {
             <Menu className="size-5" />
           </button>
           <Link to="/" className="shrink-0" aria-label="Capevars home">
-            <Logo />
+            <Logo wordmarkClassName="hidden sm:block" />
           </Link>
           <HeaderSearch onOpen={() => setSearchOpen(true)} />
-          <div className="ml-auto flex items-center gap-0.5">
+          <div className="relative ml-auto flex shrink-0 items-center gap-0.5">
             <button
               type="button"
               onClick={() => setSearchOpen(true)}

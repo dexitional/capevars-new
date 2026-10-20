@@ -28,12 +28,23 @@ import { OptimizedImage } from "./optimized-image";
 
 // ---- Brand ----------------------------------------------------------------------------
 
-export function Logo({ light = false, className, compact = false }: { light?: boolean; className?: string; compact?: boolean }) {
+export function Logo({
+  light = false,
+  className,
+  compact = false,
+  wordmarkClassName,
+}: {
+  light?: boolean;
+  className?: string;
+  compact?: boolean;
+  /** e.g. "hidden sm:block" to show only the mark on phones. */
+  wordmarkClassName?: string;
+}) {
   return (
     <span className={cn("inline-flex items-center gap-2", className)}>
       <img src={asset(light ? "logo-mark-light.png" : "logo-mark.png")} alt="" className="h-8 w-auto" />
       {!compact && (
-        <span className="leading-none">
+        <span className={cn("leading-none", wordmarkClassName)}>
           <span className={cn("block font-display text-[19px] font-black tracking-[0.12em]", light ? "text-brand-cream" : "text-primary")}>
             CAPEVARS
           </span>
@@ -409,6 +420,7 @@ export function ImageUpload({
   label = "Upload image",
   className,
   round,
+  onUploadingChange,
 }: {
   value: string | null | undefined;
   onChange: (url: string | null) => void;
@@ -417,14 +429,20 @@ export function ImageUpload({
   label?: string;
   className?: string;
   round?: boolean;
+  onUploadingChange?: (uploading: boolean) => void;
 }) {
   const ref = useRef<HTMLInputElement>(null);
   const { progress, upload } = useMemberUpload(folder);
   const pick = async (file: File | undefined) => {
     if (!file) return;
-    const asset = await upload(file);
-    if (asset) onChange(asset.url);
-    if (ref.current) ref.current.value = "";
+    onUploadingChange?.(true);
+    try {
+      const asset = await upload(file);
+      if (asset) onChange(asset.url);
+    } finally {
+      onUploadingChange?.(false);
+      if (ref.current) ref.current.value = "";
+    }
   };
   return (
     <div className={cn("relative overflow-hidden border-2 border-dashed border-input bg-muted/60", round ? "rounded-full" : "rounded-xl", aspect, className)}>
