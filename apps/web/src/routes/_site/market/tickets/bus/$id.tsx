@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Armchair, Bus, CalendarDays, CheckCircle2, ChevronLeft, Clock, Loader2, MapPin, Sparkles, X } from "lucide-react";
+import { Armchair, Bus, CalendarDays, CheckCircle2, ChevronLeft, Clock, Loader2, MapPin, QrCode, Sparkles, X } from "lucide-react";
 import { ApiError, api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { formatLongDate, formatTime } from "#/lib/format";
@@ -141,6 +141,9 @@ function TripPage() {
                 {a}
               </span>
             ))}
+            <Link to="/market/tickets/bus/$id/flyer" params={{ id }} className="inline-flex items-center gap-1.5 rounded-full bg-brand-gold px-3 py-1.5 text-primary hover:bg-brand-gold/90">
+              <QrCode className="size-3.5" /> Share flyer
+            </Link>
           </div>
         </div>
         <BusRoadScene operator={t.operator} className="-mt-2" />

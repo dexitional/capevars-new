@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+import { Link, createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Pencil, Plus, Truck } from "lucide-react";
+import { Pencil, Plus, QrCode, Truck } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDate } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
@@ -115,9 +115,18 @@ function SellerRentals() {
                   </p>
                   <StatusBadge status={r.status} className="mt-2" />
                 </div>
-                <Button size="icon-sm" variant="ghost" onClick={() => setEditing(r)} aria-label="Edit" disabled={r.status === "blocked"}>
-                  <Pencil />
-                </Button>
+                <div className="flex flex-col items-end gap-1">
+                  <Button size="icon-sm" variant="ghost" onClick={() => setEditing(r)} aria-label="Edit" disabled={r.status === "blocked"}>
+                    <Pencil />
+                  </Button>
+                  {r.status === "active" && (
+                    <Button asChild size="icon-sm" variant="ghost" aria-label="Printable flyer">
+                      <Link to="/market/tickets/rentals/$id/flyer" params={{ id: String(r.id) }} target="_blank">
+                        <QrCode />
+                      </Link>
+                    </Button>
+                  )}
+                </div>
               </div>
             ))}
           </div>

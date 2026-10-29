@@ -31,7 +31,9 @@ export async function uniqueSlug(
     | "courses"
     | "market_categories"
     | "course_categories"
-    | "lead_lists",
+    | "lead_lists"
+    | "qb_courses"
+    | "qb_tags",
   base: string,
   scope: { column: "group_id"; value: number } | null,
   excludeId?: number,

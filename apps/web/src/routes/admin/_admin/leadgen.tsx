@@ -9,13 +9,13 @@ import { formatMoney } from "#/lib/money";
 import { AdminPageHeader, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
-import { CreateSender, PrivateLists } from "#/components/admin/leadgen-tools";
+import { CreateSender, CreditPayments, PrivateLists } from "#/components/admin/leadgen-tools";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
 
 type Row = Record<string, any>;
-type Tab = "lists" | "private" | "senders" | "broadcasts" | "payouts" | "vouchers" | "wallets" | "status";
+type Tab = "lists" | "private" | "senders" | "broadcasts" | "momo" | "payouts" | "vouchers" | "wallets" | "status";
 
 export const Route = createFileRoute("/admin/_admin/leadgen")({
   loader: ({ context }) => prefetchModeration(context.queryClient, "lead-lists", "pending"), component: LeadGenAdmin });
@@ -25,7 +25,7 @@ function LeadGenAdmin() {
   const [tab, setTab] = useState<Tab>("lists");
   return (
     <div className="space-y-6">
-      <AdminPageHeader title="LeadGen" description="Lead lists, sender IDs, broadcasts, credits and payouts." />
+      <AdminPageHeader title="LeadGen" description="Lead lists, sender IDs, broadcasts, credit payments and payouts." />
       <Segmented
         value={tab}
         onChange={setTab}
@@ -34,6 +34,7 @@ function LeadGenAdmin() {
           { value: "private", label: "Private lists" },
           { value: "senders", label: "Sender IDs" },
           { value: "broadcasts", label: "Broadcasts" },
+          { value: "momo", label: "MoMo payments" },
           { value: "payouts", label: "Payouts" },
           { value: "vouchers", label: "Credit vouchers" },
           { value: "wallets", label: "Wallets" },
@@ -77,6 +78,7 @@ function LeadGenAdmin() {
         </>
       )}
       {tab === "broadcasts" && <Broadcasts />}
+      {tab === "momo" && <CreditPayments />}
       {tab === "payouts" && (
         <ModerationTable
           key="payouts"
@@ -104,17 +106,29 @@ function Broadcasts() {
     onSuccess: () => toast.success("Cancelled and refunded"),
     onError: errorToast("Couldn't cancel."),
   });
+  const stopSeries = useMutation({
+    mutationFn: (seriesId: number) => api.post(`/admin/leadgen/series/${seriesId}/cancel`),
+    onSuccess: () => toast.success("Repeats stopped"),
+    onError: errorToast("Couldn't stop the repeats."),
+  });
   return (
     <ModerationTable
       key="broadcasts"
       entity="broadcasts"
-      extra={(r, refresh) =>
-        ["queued", "scheduled"].includes(r.status) ? (
-          <Button size="xs" variant="outline" className="text-destructive" onClick={() => confirm("Cancel this broadcast and refund the member?") && cancel.mutate(r.id, { onSuccess: refresh })}>
-            Cancel & refund
-          </Button>
-        ) : null
-      }
+      extra={(r, refresh) => (
+        <div className="flex flex-col items-end gap-1">
+          {["queued", "scheduled"].includes(r.status) && (
+            <Button size="xs" variant="outline" className="text-destructive" onClick={() => confirm("Cancel this broadcast and refund the member?") && cancel.mutate(r.id, { onSuccess: refresh })}>
+              Cancel & refund
+            </Button>
+          )}
+          {["active", "paused"].includes(r.series_status) && (
+            <Button size="xs" variant="outline" className="text-destructive" onClick={() => confirm("Stop all future repeats of this broadcast?") && stopSeries.mutate(r.series_id, { onSuccess: refresh })}>
+              Stop repeats
+            </Button>
+          )}
+        </div>
+      )}
       columns={[
         {
           label: "Broadcast",
@@ -124,6 +138,7 @@ function Broadcasts() {
               <div>
                 <p className="font-semibold">
                   #{r.id} · {r.sender_label}
+                  {r.series_id && <span className="ml-2 rounded-full bg-cyan-50 px-2 py-0.5 text-[10px] font-bold text-cyan-800">repeats · {r.series_status}</span>}
                 </p>
                 <p className="line-clamp-2 text-xs text-muted-foreground">{r.subject ? `${r.subject} — ` : ""}{r.preview}</p>
               </div>

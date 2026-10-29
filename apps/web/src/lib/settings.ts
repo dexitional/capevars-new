@@ -3,6 +3,8 @@
 // new field never needs a migration and an empty database still renders a
 // site. Client-safe: the admin forms validate with these same schemas.
 import { z } from "zod";
+import { MOMO_NETWORKS } from "./credits";
+import type { MomoNetwork } from "./credits";
 
 const link = z
   .string()
@@ -66,6 +68,15 @@ export const settingsSchemas = {
     emailDailyLimit: z.number().int().min(1).max(100_000),
     maxRecipients: z.number().int().min(10).max(500_000),
     terms: text(4000),
+    momoAccounts: z
+      .array(
+        z.object({
+          network: z.enum(Object.keys(MOMO_NETWORKS) as [MomoNetwork, ...Array<MomoNetwork>]),
+          name: text(100).min(3),
+          number: z.string().trim().regex(/^0\d{9}$/, "Use a 10-digit number like 0241234567"),
+        }),
+      )
+      .max(4),
   }),
   learn: z.object({
     instructorGuidelines: text(8000),
@@ -128,6 +139,10 @@ export const DEFAULT_SETTINGS: SiteSettings = {
     maxRecipients: 20000,
     terms:
       "Only upload, share or sell contacts you have the right to use, collected with the people's consent, in line with Ghana's Data Protection Act, 2012 (Act 843). No spam, scams, adult content, or messages that impersonate others. Every email carries an unsubscribe link and opted-out contacts are never messaged again. Capevars may suspend lists, sender IDs and accounts that break these rules.",
+    momoAccounts: [
+      { network: "mtn", name: "Ebenezer Kwabena Blay Ackah", number: "0558641826" },
+      { network: "telecel", name: "Ebenezer Kwabena Blay Ackah", number: "0204468229" },
+    ],
   },
   learn: {
     instructorGuidelines: [

@@ -5,6 +5,8 @@ import { createHmac } from "node:crypto";
 import { z } from "zod";
 import { getPool } from "@cv/db";
 import type { PoolConnection, ResultSetHeader, RowDataPacket } from "mysql2/promise";
+import { networkName } from "#/lib/credits";
+import type { MomoAccount } from "#/lib/credits";
 import { DEFAULT_SETTINGS, mergeSetting } from "#/lib/settings";
 import type { SiteSettings } from "#/lib/settings";
 import { AppError } from "../middleware/error-handler.js";
@@ -12,7 +14,7 @@ import { randomCode } from "./codes.js";
 import { notify } from "./notify.js";
 import { money } from "./search.js";
 import { withTransaction } from "./tx.js";
-import { normalizeEmail, normalizePhone, sendEmail, sendSms, smsSegments } from "./messaging.js";
+import { messagingStatus, normalizeEmail, normalizePhone, sendEmail, sendSms, smsSegments } from "./messaging.js";
 
 export type Channel = "sms" | "email";
 
@@ -73,6 +75,123 @@ export async function redeemCreditVoucher(userId: number, code: string) {
     const balance = await moveCredits(conn, userId, Number(v.credits), "voucher", { reference: v.code, note: "Voucher redeemed" });
     return { credits: Number(v.credits), balance };
   });
+}
+
+// ---- Mobile money top-ups ------------------------------------------------------------------
+// A member picks one of the payout wallets in settings and the request is
+// logged with a reference to quote. They send the money by hand, then enter the
+// transaction ID; that SMSes the receiving number so someone checks the
+// wallet, and an admin approval adds the credits.
+
+export const OPEN_CREDIT_REQUESTS = 5;
+const ALERT_SENDER = "ehub";
+
+export async function createCreditRequest(userId: number, credits: number, amount: number, account: MomoAccount) {
+  const [open] = await getPool().execute<RowDataPacket[]>("SELECT COUNT(*) AS n FROM credit_requests WHERE user_id = ? AND status IN ('awaiting', 'submitted')", [userId]);
+  if (Number(open[0]?.n) >= OPEN_CREDIT_REQUESTS) throw new AppError("You have several payments waiting already. Finish or cancel one first.", 409);
+  for (let attempt = 0; ; attempt++) {
+    const reference = `CR${randomCode(6)}`;
+    try {
+      const [res] = await getPool().execute<ResultSetHeader>(
+        "INSERT INTO credit_requests (user_id, reference, credits, amount_ghs, network, account_name, account_number) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        [userId, reference, credits, amount, account.network, account.name, account.number],
+      );
+      return { id: res.insertId, reference, status: "awaiting", credits, amount_ghs: amount, network: account.network, account_name: account.name, account_number: account.number };
+    } catch (err) {
+      if ((err as { code?: string }).code !== "ER_DUP_ENTRY" || attempt >= 4) throw err;
+    }
+  }
+}
+
+const REQUEST_WITH_MEMBER = "SELECT r.*, u.full_name, u.phone, u.email FROM credit_requests r JOIN users u ON u.id = r.user_id WHERE r.id = ?";
+
+export async function submitCreditRequest(userId: number, id: number, transactionId: string, payerPhone: string | null) {
+  const [rows] = await getPool().execute<RowDataPacket[]>(`${REQUEST_WITH_MEMBER} AND r.user_id = ?`, [id, userId]);
+  const r = rows[0];
+  if (!r) throw new AppError("Payment request not found.", 404);
+  if (r.status !== "awaiting") throw new AppError(r.status === "submitted" ? "You've already sent this payment's transaction ID." : "This payment request is closed.", 409);
+  try {
+    await getPool().execute("UPDATE credit_requests SET transaction_id = ?, payer_phone = ?, status = 'submitted', submitted_at = UTC_TIMESTAMP() WHERE id = ? AND status = 'awaiting'", [
+      transactionId,
+      payerPhone,
+      id,
+    ]);
+  } catch (err) {
+    if ((err as { code?: string }).code === "ER_DUP_ENTRY") throw new AppError("That transaction ID has already been used for a credit purchase. Check it and try again.", 409);
+    throw err;
+  }
+  void alertPayee({ ...r, transaction_id: transactionId, payer_phone: payerPhone });
+}
+
+// Tells the receiving wallet's owner a payment is claimed, so they can check
+// their mobile money statement before an admin approves it.
+async function alertPayee(r: RowDataPacket): Promise<string> {
+  let status: string;
+  try {
+    const to = normalizePhone(r.account_number);
+    if (!to) throw new Error("bad payee number");
+    const contact = r.phone ?? r.email;
+    const from = r.payer_phone && r.payer_phone !== normalizePhone(r.phone) ? `${contact}, paid from ${r.payer_phone}` : contact;
+    const text =
+      `Capevars credit purchase ${r.reference}: ${r.full_name} (${from}) says they sent GHS ${money(r.amount_ghs).toFixed(2)} ` +
+      `to your ${networkName(r.network)} for ${Number(r.credits).toLocaleString("en-US")} credits. ` +
+      `Txn ID: ${r.transaction_id}. Verify, then approve in Admin > LeadGen > MoMo payments.`;
+    // Platform alerts never go out under a member's sender ID: the default
+    // sender, falling back to "ehub" if that's blank or rejected.
+    const senders = [...new Set([(await leadgenSettings()).defaultSmsSender.trim() || ALERT_SENDER, ALERT_SENDER])];
+    status = "failed: unknown";
+    for (const sender of senders) {
+      const [result] = await sendSms(sender, text, [{ number: to }]);
+      if (result?.ok) {
+        status = `sent as ${sender}`;
+        break;
+      }
+      status = `failed: ${result?.error ?? "unknown"}`;
+    }
+  } catch (err) {
+    status = `failed: ${err instanceof Error ? err.message : String(err)}`;
+  }
+  await getPool()
+    .execute("UPDATE credit_requests SET alert_status = ? WHERE id = ?", [status.slice(0, 100), r.id])
+    .catch((err: unknown) => console.error("Failed to record the payment alert:", err));
+  return status;
+}
+
+// For an alert that didn't go out, e.g. before the sender ID was registered.
+export async function resendCreditAlert(id: number) {
+  const [rows] = await getPool().execute<RowDataPacket[]>(REQUEST_WITH_MEMBER, [id]);
+  const r = rows[0];
+  if (!r) throw new AppError("Payment request not found.", 404);
+  if (r.status !== "submitted") throw new AppError("Only payments waiting for confirmation can be re-alerted.", 409);
+  return alertPayee(r);
+}
+
+// Approving adds the credits once: the request row is locked and must still be open.
+export async function approveCreditRequest(id: number, adminId: number, note: string | null) {
+  return withTransaction(async (conn) => {
+    const [rows] = await conn.execute<RowDataPacket[]>("SELECT * FROM credit_requests WHERE id = ? FOR UPDATE", [id]);
+    const r = rows[0];
+    if (!r) throw new AppError("Payment request not found.", 404);
+    if (!["awaiting", "submitted"].includes(r.status)) throw new AppError(`This request is already ${r.status}.`, 409);
+    await moveCredits(conn, r.user_id, Number(r.credits), "purchase", {
+      amountGhs: money(r.amount_ghs),
+      reference: r.transaction_id ?? r.reference,
+      note: `${networkName(r.network)} transfer · ${r.reference}`,
+    });
+    await conn.execute("UPDATE credit_requests SET status = 'approved', admin_note = ?, handled_by = ?, handled_at = UTC_TIMESTAMP() WHERE id = ?", [note, adminId, id]);
+    return r;
+  });
+}
+
+export async function rejectCreditRequest(id: number, adminId: number, reason: string) {
+  const [rows] = await getPool().execute<RowDataPacket[]>("SELECT * FROM credit_requests WHERE id = ?", [id]);
+  if (!rows[0]) throw new AppError("Payment request not found.", 404);
+  const [res] = await getPool().execute<ResultSetHeader>(
+    "UPDATE credit_requests SET status = 'rejected', admin_note = ?, handled_by = ?, handled_at = UTC_TIMESTAMP() WHERE id = ? AND status IN ('awaiting', 'submitted')",
+    [reason, adminId, id],
+  );
+  if (!res.affectedRows) throw new AppError(`This request is already ${rows[0].status}.`, 409);
+  return rows[0];
 }
 
 // ---- Lead list contacts ------------------------------------------------------------------
@@ -282,6 +401,7 @@ export async function estimate(channel: Channel, body: string, recipientCount: n
 // recipients, then nudges the worker. Failed recipients are refunded later.
 export async function createBroadcast(input: {
   userId: number;
+  seriesId?: number | null;
   channel: Channel;
   senderId: number | null;
   senderLabel: string;
@@ -296,10 +416,10 @@ export async function createBroadcast(input: {
   const est = await estimate(input.channel, input.body, input.recipients.length);
   const id = await withTransaction(async (conn) => {
     const [res] = await conn.execute<ResultSetHeader>(
-      `INSERT INTO broadcasts (user_id, channel, sender_id, sender_label, reply_to, subject, body, audience, recipient_count, units_per_message, cost_credits, status, scheduled_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      `INSERT INTO broadcasts (user_id, series_id, channel, sender_id, sender_label, reply_to, subject, body, audience, recipient_count, units_per_message, cost_credits, status, scheduled_at)
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       [
-        input.userId, input.channel, input.senderId, input.senderLabel, input.replyTo, input.subject, input.body,
+        input.userId, input.seriesId ?? null, input.channel, input.senderId, input.senderLabel, input.replyTo, input.subject, input.body,
         JSON.stringify(input.audience), input.recipients.length, est.segments, est.cost,
         input.scheduledAt ? "scheduled" : "queued", input.scheduledAt,
       ],
@@ -327,6 +447,173 @@ export async function cancelBroadcast(userId: number | null, id: number) {
   const b = rows[0]!;
   await addCredits(b.user_id, Number(b.cost_credits), "refund", { broadcastId: id, note: `Broadcast #${id} cancelled` });
   await pool.execute("UPDATE broadcasts SET refunded_credits = cost_credits WHERE id = ?", [id]);
+  // Cancelling the first broadcast of a repeating series stops the repeats too.
+  await pool.execute("UPDATE broadcast_series SET status = 'cancelled', next_run_at = NULL WHERE source_broadcast_id = ? AND status IN ('active', 'paused')", [id]);
+}
+
+// ---- Repeating broadcasts ------------------------------------------------------------------
+//
+// A series repeats a broadcast every N hours/days/weeks/months until an end
+// date and/or a number of sends. The first broadcast is the template: each
+// repeat copies its message, sender and recipients (minus new opt-outs),
+// re-checks list access and the sender ID, and is charged when it goes out.
+// Repeat k falls at starts_at + k × interval so monthly repeats don't drift
+// after short months, and slots missed while paused or offline are skipped
+// rather than sent in a burst.
+
+export type RepeatUnit = "hour" | "day" | "week" | "month";
+export interface Repeat {
+  every: number;
+  unit: RepeatUnit;
+  endsOn: string | null;
+  times: number | null;
+}
+export const MAX_SERIES_RUNS = 500;
+const UNIT_SQL: Record<RepeatUnit, string> = { hour: "HOUR", day: "DAY", week: "WEEK", month: "MONTH" };
+interface SeriesTiming {
+  starts_at: string;
+  every_n: number;
+  unit: RepeatUnit;
+  ends_at: string | null;
+  max_runs: number | null;
+}
+type SeriesRow = RowDataPacket & SeriesTiming;
+
+// The first slot after slot `after` that is still in the future.
+async function nextSlot(s: Pick<SeriesTiming, "starts_at" | "every_n" | "unit">, after: number) {
+  const pool = getPool();
+  const unit = UNIT_SQL[s.unit];
+  const every = Number(s.every_n);
+  const [elapsed] = await pool.query<RowDataPacket[]>(`SELECT TIMESTAMPDIFF(${unit}, ?, NOW()) AS n`, [s.starts_at]);
+  let slot = Math.max(after + 1, Math.floor(Number(elapsed[0]?.n ?? 0) / every) + 1);
+  for (;;) {
+    const [rows] = await pool.query<RowDataPacket[]>(`SELECT DATE_ADD(?, INTERVAL ? ${unit}) AS at, DATE_ADD(?, INTERVAL ? ${unit}) > NOW() AS future`, [
+      s.starts_at,
+      slot * every,
+      s.starts_at,
+      slot * every,
+    ]);
+    if (rows[0]?.future) return { slot, at: String(rows[0].at) };
+    slot++;
+  }
+}
+
+// No send is due after this one: the run limit is reached or the next slot is past the end date.
+const seriesDone = (s: Pick<SeriesTiming, "max_runs" | "ends_at">, runCount: number, nextAt: string) =>
+  Boolean((s.max_runs && runCount >= s.max_runs) || (s.ends_at && nextAt > s.ends_at));
+
+// Checks a repeat plan before anything is charged; `startsAt` is the first
+// send (null = now).
+export async function planSeries(startsAt: string | null, repeat: Repeat) {
+  const [now] = await getPool().query<RowDataPacket[]>("SELECT NOW() AS now");
+  const plan = {
+    starts_at: startsAt ?? String(now[0]!.now),
+    every_n: repeat.every,
+    unit: repeat.unit,
+    ends_at: repeat.endsOn ? `${repeat.endsOn} 23:59:59` : null,
+    max_runs: Math.min(repeat.times ?? MAX_SERIES_RUNS, MAX_SERIES_RUNS),
+  };
+  const next = await nextSlot(plan, 0);
+  if (plan.ends_at && next.at > plan.ends_at) throw new AppError("The end date comes before the first repeat. Pick a later end date or repeat more often.", 422);
+  return { ...plan, next };
+}
+
+export async function createSeries(userId: number, broadcastId: number, plan: Awaited<ReturnType<typeof planSeries>>) {
+  const pool = getPool();
+  const [res] = await pool.execute<ResultSetHeader>(
+    `INSERT INTO broadcast_series (user_id, source_broadcast_id, every_n, unit, starts_at, ends_at, max_runs, next_slot, next_run_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    [userId, broadcastId, plan.every_n, plan.unit, plan.starts_at, plan.ends_at, plan.max_runs, plan.next.slot, plan.next.at],
+  );
+  await pool.execute("UPDATE broadcasts SET series_id = ? WHERE id = ?", [res.insertId, broadcastId]);
+  return res.insertId;
+}
+
+// Sends one repeat of a series as a new broadcast.
+async function sendRepeat(s: RowDataPacket) {
+  const pool = getPool();
+  const [rows] = await pool.execute<RowDataPacket[]>("SELECT * FROM broadcasts WHERE id = ?", [s.source_broadcast_id]);
+  const src = rows[0];
+  if (!src) throw new AppError("The original broadcast no longer exists.", 404);
+  if (!messagingStatus()[src.channel as Channel]) throw new AppError("Sending isn't available on the server right now.", 409);
+  const accessIds = (src.audience as { accessIds?: Array<number> } | null)?.accessIds ?? [];
+  if (accessIds.length) {
+    const [live] = await pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS n FROM lead_access a WHERE a.id IN (?) AND a.user_id = ? AND ${LIVE_ACCESS}`, [accessIds, s.user_id]);
+    if (Number(live[0]?.n ?? 0) < accessIds.length) throw new AppError("Your access to one of its lead lists has ended.", 403);
+  }
+  let senderLabel = String(src.sender_label);
+  if (src.sender_id) {
+    const [senders] = await pool.execute<RowDataPacket[]>("SELECT status FROM sender_ids WHERE id = ?", [src.sender_id]);
+    if (senders[0]?.status !== "approved") throw new AppError(`Sender ID "${senderLabel}" is no longer approved.`, 409);
+  } else {
+    const settings = await leadgenSettings();
+    senderLabel = src.channel === "sms" ? settings.defaultSmsSender : settings.defaultEmailSender;
+  }
+  const [recipients] = await pool.query<RowDataPacket[]>(
+    `SELECT r.address, r.name FROM broadcast_recipients r
+     LEFT JOIN broadcast_optouts o ON o.channel = ? AND o.address = r.address
+     WHERE r.broadcast_id = ? AND o.address IS NULL ORDER BY r.id`,
+    [src.channel, src.id],
+  );
+  await createBroadcast({
+    userId: s.user_id,
+    seriesId: s.id,
+    channel: src.channel,
+    senderId: src.sender_id,
+    senderLabel,
+    replyTo: src.reply_to,
+    subject: src.subject,
+    body: src.body,
+    audience: src.audience,
+    recipients: recipients.map((r) => ({ address: r.address as string, name: r.name as string | null })),
+    scheduledAt: null,
+  });
+}
+
+export async function runDueSeries() {
+  const pool = getPool();
+  const [due] = await pool.query<Array<SeriesRow>>("SELECT * FROM broadcast_series WHERE status = 'active' AND next_run_at <= NOW() ORDER BY next_run_at LIMIT 20");
+  for (const s of due) {
+    // Move the series on before sending, so a second worker can't send the same slot.
+    const runCount = Number(s.run_count) + 1;
+    const next = await nextSlot(s, Number(s.next_slot));
+    const done = seriesDone(s, runCount, next.at);
+    const [claim] = await pool.execute<ResultSetHeader>(
+      "UPDATE broadcast_series SET run_count = ?, next_slot = ?, next_run_at = ?, status = ? WHERE id = ? AND status = 'active' AND next_run_at = ?",
+      [runCount, next.slot, done ? null : next.at, done ? "completed" : "active", s.id, s.next_run_at],
+    );
+    if (!claim.affectedRows) continue;
+    try {
+      await sendRepeat(s);
+    } catch (err) {
+      const reason = (err instanceof Error ? err.message : String(err)).slice(0, 300);
+      await pool.execute("UPDATE broadcast_series SET status = 'paused', status_reason = ?, run_count = run_count - 1, next_run_at = NULL WHERE id = ?", [reason, s.id]);
+      notify(s.user_id, { kind: "leadgen", title: "A repeating broadcast was paused", body: reason, link: `/leadgen/portal/broadcasts/${s.source_broadcast_id}` });
+    }
+  }
+}
+
+// Pause, resume or stop a series (`userId` null = an admin acting).
+export async function setSeriesStatus(userId: number | null, id: number, action: "pause" | "resume" | "cancel") {
+  const pool = getPool();
+  const [rows] = await pool.execute<Array<SeriesRow>>(`SELECT * FROM broadcast_series WHERE id = ? ${userId ? "AND user_id = ?" : ""}`, userId ? [id, userId] : [id]);
+  const s = rows[0];
+  if (!s) throw new AppError("Repeating broadcast not found.", 404);
+  if (action === "pause") {
+    if (s.status !== "active") throw new AppError("Only active repeats can be paused.", 409);
+    await pool.execute("UPDATE broadcast_series SET status = 'paused', status_reason = NULL, next_run_at = NULL WHERE id = ?", [id]);
+  } else if (action === "cancel") {
+    if (!["active", "paused"].includes(s.status)) throw new AppError("These repeats have already ended.", 409);
+    await pool.execute("UPDATE broadcast_series SET status = 'cancelled', next_run_at = NULL WHERE id = ?", [id]);
+  } else {
+    if (s.status !== "paused") throw new AppError("Only paused repeats can be resumed.", 409);
+    const next = await nextSlot(s, Number(s.next_slot) - 1);
+    if (seriesDone(s, Number(s.run_count), next.at)) {
+      await pool.execute("UPDATE broadcast_series SET status = 'completed', next_run_at = NULL WHERE id = ?", [id]);
+      throw new AppError("These repeats have reached their end, so there's nothing left to resume.", 409);
+    }
+    await pool.execute("UPDATE broadcast_series SET status = 'active', status_reason = NULL, next_slot = ?, next_run_at = ? WHERE id = ?", [next.slot, next.at, id]);
+  }
 }
 
 // ---- Unsubscribe ----------------------------------------------------------------------------
@@ -480,6 +767,8 @@ export async function runBroadcastQueue() {
   if (worker.__cvBroadcastRunning) return;
   worker.__cvBroadcastRunning = true;
   try {
+    // Due repeats become queued broadcasts, which the loop below then sends.
+    await runDueSeries().catch((err) => console.error("broadcast series:", err));
     for (;;) {
       const b = await claimNext();
       if (!b) break;

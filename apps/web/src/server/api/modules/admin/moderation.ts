@@ -48,6 +48,13 @@ interface Entity {
 
 const recalc = (sql: string) => (row: RowDataPacket) => getPool().execute(sql, [row.parent_id, row.parent_id]);
 
+// Quizbank questions show how many visible comments they have.
+const recountDiscussions = (row: RowDataPacket) =>
+  getPool().execute("UPDATE qb_questions SET discussion_count = (SELECT COUNT(*) FROM qb_discussions WHERE question_id = ? AND status = 'visible') WHERE id = ?", [
+    row.question_id,
+    row.question_id,
+  ]);
+
 const feature: Record<string, Action> = {
   feature: { label: "Feature", set: { is_featured: 1 }, log: "updated" },
   unfeature: { label: "Unfeature", set: { is_featured: 0 }, log: "updated" },
@@ -326,6 +333,20 @@ export const ENTITIES: Record<string, Entity> = {
     deletable: true,
     link: (r) => `/social/post/${r.id}`,
   },
+  "qb-discussions": {
+    module: "learn",
+    table: "qb_discussions",
+    select: `SELECT t.id, t.kind, t.body, t.status, t.helpful_count, t.created_at, t.question_id, t.user_id AS owner_id, LEFT(t.body, 120) AS title,
+      u.full_name AS author_name, u.email AS author_email, LEFT(q.body, 160) AS question_body
+      FROM qb_discussions t JOIN users u ON u.id = t.user_id JOIN qb_questions q ON q.id = t.question_id`,
+    search: ["t.body", "u.full_name", "q.body"],
+    statusColumn: "t.status",
+    statuses: ["visible", "hidden"],
+    actions: {
+      hide: { label: "Hide", set: { status: "hidden" }, log: "suspended", after: recountDiscussions },
+      show: { label: "Show", set: { status: "visible" }, log: "updated", after: recountDiscussions },
+    },
+  },
   courses: {
     module: "learn",
     table: "courses",
@@ -401,9 +422,10 @@ export const ENTITIES: Record<string, Entity> = {
   broadcasts: {
     module: "leadgen",
     table: "broadcasts",
-    select: `SELECT t.id, CONCAT(UPPER(t.channel), ' · ', t.sender_label) AS title, t.channel, t.sender_label, t.subject, LEFT(t.body, 200) AS preview,
+    select: `SELECT t.id, CONCAT(UPPER(t.channel), ' · ', t.sender_label) AS title, t.series_id, t.channel, t.sender_label, t.subject, LEFT(t.body, 200) AS preview,
       t.recipient_count, t.sent_count, t.failed_count, t.cost_credits, t.refunded_credits, t.status, t.scheduled_at, t.created_at, t.error,
-      t.user_id AS owner_id, u.full_name AS owner_name FROM broadcasts t JOIN users u ON u.id = t.user_id`,
+      t.user_id AS owner_id, u.full_name AS owner_name,
+      (SELECT status FROM broadcast_series s WHERE s.id = t.series_id) AS series_status FROM broadcasts t JOIN users u ON u.id = t.user_id`,
     search: ["t.sender_label", "t.subject", "t.body", "u.full_name"],
     statusColumn: "t.status",
     statuses: ["scheduled", "queued", "sending", "sent", "failed", "cancelled"],
