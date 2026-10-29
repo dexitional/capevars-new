@@ -1,15 +1,17 @@
-// Admin-side LeadGen tools: creating sender IDs for members, and Capevars'
-// own private lead lists shared with chosen members, each until their own
-// expiry date.
+// Admin-side LeadGen tools: creating sender IDs for members, Capevars' own
+// private lead lists shared with chosen members (each until their own expiry
+// date), and confirming members' mobile money top-ups.
 import { useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { ArrowLeft, Plus, Trash2, UserPlus, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDate } from "#/lib/format";
-import { Field, Panel, SearchInput, StatusPill, Switch, errorToast } from "#/components/admin/ui";
+import { Field, Panel, SearchInput, Segmented, StatusPill, Switch, errorToast } from "#/components/admin/ui";
 import { DateCell, TitleCell } from "#/components/admin/cells";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
+import { networkLabel } from "#/components/leadgen/momo-checkout";
+import { StatusBadge } from "#/components/site/kit";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Button } from "#/components/ui/button";
@@ -404,6 +406,138 @@ function PrivateListDetail({ id, onBack }: { id: number; onBack: () => void }) {
           </table>
           {data.shares.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">Not shared with anyone yet.</p>}
         </div>
+      </div>
+    </div>
+  );
+}
+
+// ---- Mobile money top-ups -------------------------------------------------------------------
+
+const REQUEST_STATUSES = [
+  { value: "submitted", label: "To confirm" },
+  { value: "awaiting", label: "Not paid yet" },
+  { value: "approved", label: "Approved" },
+  { value: "rejected", label: "Rejected" },
+  { value: "cancelled", label: "Cancelled" },
+  { value: "all", label: "All" },
+] as const;
+type RequestStatus = (typeof REQUEST_STATUSES)[number]["value"];
+
+// Members' manual mobile money transfers: check the payment arrived on the
+// receiving wallet (the payee gets an SMS when one is claimed), then approve
+// to add the credits, or reject with a reason the member sees.
+export function CreditPayments() {
+  const [status, setStatus] = useState<RequestStatus>("submitted");
+  const [q, setQ] = useState("");
+  const { data, refetch } = useQuery({
+    queryKey: ["admin-credit-requests", status, q],
+    queryFn: () => api.get<{ items: Array<Row>; counts: Record<string, number> }>("/admin/leadgen/credit-requests", { status, q }),
+  });
+  const act = useMutation({
+    mutationFn: ({ id, action, body }: { id: number; action: "approve" | "reject"; body: Record<string, string> }) => api.post(`/admin/leadgen/credit-requests/${id}/${action}`, body),
+    onSuccess: (_, v) => {
+      toast.success(v.action === "approve" ? "Credits added to the member's wallet" : "Payment rejected");
+      void refetch();
+    },
+    onError: errorToast("Couldn't update the payment."),
+  });
+  const resend = useMutation({
+    mutationFn: (id: number) => api.post<{ status: string }>(`/admin/leadgen/credit-requests/${id}/alert`),
+    onSuccess: (r) => toast.success(`SMS alert ${r.status}`),
+    onError: errorToast("Couldn't send the SMS alert."),
+    onSettled: () => void refetch(),
+  });
+  const counts = data?.counts ?? {};
+  return (
+    <div className="space-y-4">
+      <div className="flex flex-wrap items-center gap-3">
+        <Segmented
+          value={status}
+          onChange={setStatus}
+          options={REQUEST_STATUSES.map((s) => ({ ...s, count: s.value === "all" ? undefined : (counts[s.value] ?? 0) }))}
+        />
+        <SearchInput value={q} onChange={setQ} placeholder="Reference, transaction ID, member" className="w-72" />
+      </div>
+      <div className="overflow-x-auto rounded-xl border bg-white">
+        <table className="w-full text-sm">
+          <thead className="bg-muted/60 text-left text-xs text-muted-foreground uppercase">
+            <tr>
+              <th className="px-4 py-3">Payment</th>
+              <th className="px-4 py-3">Member</th>
+              <th className="px-4 py-3">Paid to</th>
+              <th className="px-4 py-3">Transaction</th>
+              <th className="px-4 py-3">Status</th>
+              <th className="px-4 py-3 text-right" />
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            {data?.items.map((r) => (
+              <tr key={r.id} className="align-top">
+                <td className="px-4 py-3">
+                  <p className="font-bold">GH₵ {Number(r.amount_ghs).toFixed(2)}</p>
+                  <p className="text-xs text-muted-foreground">
+                    {Number(r.credits).toLocaleString()} credits · <span className="font-mono">{r.reference}</span>
+                  </p>
+                  <DateCell value={r.submitted_at ?? r.created_at} time />
+                </td>
+                <td className="px-4 py-3">
+                  <TitleCell title={r.full_name} sub={[r.email, r.phone].filter(Boolean).join(" · ")} />
+                </td>
+                <td className="px-4 py-3 text-xs">
+                  <p className="font-semibold">{networkLabel(r.network)}</p>
+                  <p>
+                    {r.account_number} · {r.account_name}
+                  </p>
+                </td>
+                <td className="px-4 py-3 text-xs">
+                  {r.transaction_id ? <p className="font-mono text-sm font-bold">{r.transaction_id}</p> : <p className="text-muted-foreground">Not entered yet</p>}
+                  {r.payer_phone && <p>From {r.payer_phone}</p>}
+                  {r.alert_status && <p className={r.alert_status.startsWith("sent") ? "text-muted-foreground" : "text-destructive"}>SMS alert {r.alert_status}</p>}
+                  {r.status === "submitted" && r.alert_status?.startsWith("failed") && (
+                    <button type="button" className="mt-0.5 font-semibold text-primary underline disabled:opacity-50" disabled={resend.isPending} onClick={() => resend.mutate(r.id)}>
+                      Resend alert
+                    </button>
+                  )}
+                </td>
+                <td className="px-4 py-3 text-xs">
+                  <StatusBadge status={r.status} label={REQUEST_STATUSES.find((s) => s.value === r.status)?.label} />
+                  {r.admin_note && <p className="mt-1 max-w-48 text-muted-foreground">{r.admin_note}</p>}
+                  {r.handled_by_name && <p className="mt-1 text-muted-foreground">by {r.handled_by_name}</p>}
+                </td>
+                <td className="px-4 py-3 text-right whitespace-nowrap">
+                  {(r.status === "submitted" || r.status === "awaiting") && (
+                    <div className="flex justify-end gap-1">
+                      <Button
+                        size="xs"
+                        disabled={act.isPending}
+                        onClick={() => {
+                          if (confirm(`Add ${Number(r.credits).toLocaleString()} credits to ${r.full_name}? Only approve once GH₵ ${Number(r.amount_ghs).toFixed(2)} has arrived on ${r.account_number}.`)) {
+                            act.mutate({ id: r.id, action: "approve", body: {} });
+                          }
+                        }}
+                      >
+                        Approve
+                      </Button>
+                      <Button
+                        size="xs"
+                        variant="ghost"
+                        className="text-destructive"
+                        disabled={act.isPending}
+                        onClick={() => {
+                          const reason = prompt("Why? The member sees this.", "We couldn't find this payment. Check the transaction ID.");
+                          if (reason && reason.trim().length >= 3) act.mutate({ id: r.id, action: "reject", body: { reason } });
+                        }}
+                      >
+                        Reject
+                      </Button>
+                    </div>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        {data?.items.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">No payments here.</p>}
       </div>
     </div>
   );

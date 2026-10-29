@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Eye, Pencil, XCircle } from "lucide-react";
+import { Eye, Pencil, QrCode, XCircle } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDateTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
@@ -55,6 +55,13 @@ function SellerEvent() {
             <Button asChild size="sm" variant="outline">
               <Link to="/market/tickets/e/$slug" params={{ slug: e.slug }}>
                 <Eye /> View
+              </Link>
+            </Button>
+          )}
+          {e.status === "published" && (
+            <Button asChild size="sm" variant="outline">
+              <Link to="/market/tickets/e/$slug/flyer" params={{ slug: e.slug }} target="_blank">
+                <QrCode /> Flyer
               </Link>
             </Button>
           )}

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+import { Link, createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { ArrowRight, Bus, ChevronDown, Pencil, Plus } from "lucide-react";
+import { ArrowRight, Bus, ChevronDown, Pencil, Plus, QrCode } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDateTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
@@ -80,6 +80,11 @@ function SellerTrips() {
                 <StatusBadge status={t.status} />
                 <Button size="icon-sm" variant="ghost" onClick={() => setEditing(t)} aria-label="Edit">
                   <Pencil />
+                </Button>
+                <Button asChild size="sm" variant="outline">
+                  <Link to="/market/tickets/bus/$id/flyer" params={{ id: String(t.id) }} target="_blank">
+                    <QrCode /> Flyer
+                  </Link>
                 </Button>
                 <Button size="sm" variant="outline" onClick={() => setOpen(open === t.id ? null : t.id)}>
                   Passengers <ChevronDown />

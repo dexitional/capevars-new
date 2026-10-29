@@ -3,13 +3,14 @@
 import { useState } from "react";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Loader2, Plus, Trash2 } from "lucide-react";
+import { Loader2, LocateFixed, Plus, Trash2 } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { toInputDateTime } from "#/lib/format";
 import { EVENT_CATEGORIES, SELLER_KINDS } from "#/lib/labels";
 import { FileUpload, GalleryUpload, ImageUpload } from "#/components/site/kit";
 import { TagInput } from "#/components/site/tag-input";
+import { formatPin, parsePin, pickupMapUrl } from "#/components/market/trip-pin";
 import { Field, Switch } from "#/components/admin/ui";
 import { Input } from "#/components/ui/input";
 import { Textarea } from "#/components/ui/textarea";
@@ -450,6 +451,7 @@ export function TripEditor({
     origin: trip?.origin ?? "",
     destination: trip?.destination ?? "",
     pickupPoint: trip?.pickup_point ?? "",
+    pickupPin: formatPin(trip?.pickup_lat, trip?.pickup_lng),
     departsAt: toInputDateTime(trip?.departs_at),
     arrivesAt: toInputDateTime(trip?.arrives_at),
     busType: trip?.bus_type ?? "",
@@ -460,13 +462,36 @@ export function TripEditor({
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
   const save = useSave(endpoint, trip?.id, () => (onSaved(), onClose()), "Trip saved");
+  const pin = parsePin(f.pickupPin);
+  const pinError =
+    f.pickupPin.trim() && !pin ? "Enter coordinates like 5.1036, -1.2825, or a full Google Maps link (open a short maps.app.goo.gl link first, then copy the address bar)." : undefined;
+  const [locating, setLocating] = useState(false);
+  const useMyLocation = () => {
+    if (!("geolocation" in navigator)) return toast.error("This browser can't share your location.");
+    setLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (p) => (setLocating(false), set("pickupPin", `${p.coords.latitude.toFixed(6)}, ${p.coords.longitude.toFixed(6)}`)),
+      () => (setLocating(false), toast.error("Couldn't get your location. Allow location access, or paste a map link.")),
+      { enableHighAccuracy: true, timeout: 15_000 },
+    );
+  };
   return (
     <EditorDialog open={open} onClose={onClose} title={trip ? "Edit trip" : "New bus trip"}>
       <form
         className="grid gap-4 sm:grid-cols-2"
         onSubmit={(e) => {
           e.preventDefault();
-          save.mutate({ ...f, arrivesAt: f.arrivesAt || null, seatsTotal: Number(f.seatsTotal), price: Number(f.price), status: trip ? f.status : undefined });
+          if (pinError) return;
+          const { pickupPin: _, ...rest } = f;
+          save.mutate({
+            ...rest,
+            pickupLat: pin?.lat ?? null,
+            pickupLng: pin?.lng ?? null,
+            arrivesAt: f.arrivesAt || null,
+            seatsTotal: Number(f.seatsTotal),
+            price: Number(f.price),
+            status: trip ? f.status : undefined,
+          });
         }}
       >
         <Field label="From">
@@ -477,6 +502,27 @@ export function TripEditor({
         </Field>
         <Field label="Pickup point" className="sm:col-span-2">
           <Input value={f.pickupPoint} onChange={(e) => set("pickupPoint", e.target.value)} placeholder="e.g. UCC Science bus stop" />
+        </Field>
+        <Field
+          label="Pickup map pin (optional)"
+          className="sm:col-span-2"
+          error={pinError}
+          hint={
+            pin ? (
+              <a href={pickupMapUrl({ pickup_lat: pin.lat, pickup_lng: pin.lng })} target="_blank" rel="noreferrer" className="underline">
+                Check this pin on Google Maps
+              </a>
+            ) : (
+              "Paste a Google Maps link or coordinates, or stand at the pickup point and use your location. The trip flyer's QR code gives passengers directions here."
+            )
+          }
+        >
+          <div className="flex gap-2">
+            <Input value={f.pickupPin} onChange={(e) => set("pickupPin", e.target.value)} placeholder="5.1036, -1.2825 or a Google Maps link" />
+            <Button type="button" variant="outline" onClick={useMyLocation} disabled={locating}>
+              {locating ? <Loader2 className="animate-spin" /> : <LocateFixed />} My location
+            </Button>
+          </div>
         </Field>
         <Field label="Departs">
           <Input type="datetime-local" value={f.departsAt} onChange={(e) => set("departsAt", e.target.value)} required />

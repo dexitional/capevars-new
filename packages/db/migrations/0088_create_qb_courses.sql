@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS qb_courses (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  slug VARCHAR(140) NOT NULL,
+  title VARCHAR(200) NOT NULL,
+  code VARCHAR(40) NULL,
+  level VARCHAR(20) NOT NULL,
+  description TEXT NULL,
+  cover_url VARCHAR(500) NULL,
+  exam_questions SMALLINT UNSIGNED NOT NULL DEFAULT 20,
+  exam_minutes SMALLINT UNSIGNED NOT NULL DEFAULT 30,
+  status ENUM('draft', 'published') NOT NULL DEFAULT 'draft',
+  question_count INT UNSIGNED NOT NULL DEFAULT 0,
+  board_count INT UNSIGNED NOT NULL DEFAULT 0,
+  created_by INT UNSIGNED NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_qb_courses_slug (slug),
+  KEY idx_qb_courses_level (status, level)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

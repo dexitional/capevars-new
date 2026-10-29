@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { CalendarDays, CheckCircle2, Clock, Loader2, MapPin, Minus, Plus, Share2, Ticket } from "lucide-react";
+import { CalendarDays, CheckCircle2, Clock, Loader2, MapPin, Minus, Plus, QrCode, Share2, Ticket } from "lucide-react";
 import { ApiError, api } from "#/lib/api-client";
 import { formatDate, formatEventRange, formatLongDate, formatTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
@@ -143,6 +143,15 @@ function EventPage() {
               >
                 <Share2 className="size-4" />
               </button>
+              <Link
+                to="/market/tickets/e/$slug/flyer"
+                params={{ slug }}
+                className="flex size-9 items-center justify-center rounded-full border"
+                aria-label="Printable flyer"
+                title="Printable flyer"
+              >
+                <QrCode className="size-4" />
+              </Link>
             </div>
           </div>
           {done ? (

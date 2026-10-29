@@ -780,6 +780,27 @@ html {
   page: certificate;
 }
 
+/* A trip flyer fills one portrait A4 sheet; its contents are sized in
+   container units, so they scale with it. */
+@media print {
+  .print-flyer {
+    width: 210mm !important;
+    height: 297mm !important;
+    max-width: none !important;
+    aspect-ratio: auto !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+}
+@page flyer {
+  size: A4 portrait;
+  margin: 0;
+}
+.print-flyer {
+  page: flyer;
+}
+
 /* Tiptap placeholder (editors). */
 .tiptap p.is-editor-empty:first-child::before {
   content: attr(data-placeholder);

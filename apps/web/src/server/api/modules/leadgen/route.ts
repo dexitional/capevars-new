@@ -16,23 +16,30 @@ import { uniqueSlug } from "../../lib/slug.js";
 import { AppError } from "../../middleware/error-handler.js";
 import { notify } from "../../lib/notify.js";
 import { createPayment, paystackEnabled } from "../../lib/payments.js";
-import { messagingStatus, normalizeEmail } from "../../lib/messaging.js";
+import { messagingStatus, normalizeEmail, normalizePhone } from "../../lib/messaging.js";
+import { MAX_CREDIT_PURCHASE, MIN_CREDIT_PURCHASE, creditPrice, creditsFor } from "#/lib/credits";
 import {
   ACCESS_STATUS,
   CATEGORIES,
   LIVE_ACCESS,
+  MAX_SERIES_RUNS,
   activateLeadAccess,
   buildRecipients,
   cancelBroadcast,
   contactsSchema,
   createBroadcast,
+  createCreditRequest,
+  createSeries,
   estimate,
   grantAccess,
   insertContacts,
   leadgenSettings,
   optoutToken,
+  planSeries,
   recountList,
   redeemCreditVoucher,
+  setSeriesStatus,
+  submitCreditRequest,
   uniqueVoucher,
   walletBalance,
 } from "../../lib/leadgen.js";
@@ -49,6 +56,19 @@ const listSchema = z.object({
   allowDownload: z.boolean().optional(),
   consentConfirmed: z.boolean().optional(),
 });
+// A listed bundle, or any number of credits priced from the bundles' rates.
+const purchaseSchema = z.union([z.object({ bundle: z.number().int().min(0).max(20) }), z.object({ credits: z.number().int().min(1).max(MAX_CREDIT_PURCHASE) })]);
+
+async function pricePurchase(input: z.infer<typeof purchaseSchema>) {
+  const s = await leadgenSettings();
+  const bundle = "bundle" in input ? s.bundles[input.bundle] : { credits: input.credits, price: creditPrice(s.bundles, input.credits) };
+  if (!bundle) throw new AppError("Pick a credit bundle.", 422);
+  if (bundle.price < MIN_CREDIT_PURCHASE) {
+    throw new AppError(`The smallest top-up is GHS ${MIN_CREDIT_PURCHASE.toFixed(2)} (${creditsFor(s.bundles, MIN_CREDIT_PURCHASE)} credits).`, 422);
+  }
+  return bundle;
+}
+
 const LIST_FIELDS: Record<string, string> = {
   title: "title",
   category: "category",
@@ -67,6 +87,15 @@ const audienceSchema = z.object({
   vouchers: z.array(z.string().trim().min(4).max(16)).max(50).default([]),
   contacts: contactsSchema.default([]),
 });
+// Send again every N units, until a number of sends (counting the first) and/or an end date.
+const repeatSchema = z
+  .object({
+    every: z.number().int().min(1).max(365),
+    unit: z.enum(["hour", "day", "week", "month"]),
+    endsOn: z.union([z.string().regex(/^\d{4}-\d{2}-\d{2}$/), z.literal(""), z.null()]).optional().transform((v) => v || null),
+    times: z.number().int().min(2).max(MAX_SERIES_RUNS).nullish().transform((v) => v ?? null),
+  })
+  .refine((r) => r.endsOn || r.times, "Choose when the repeats end: after a number of sends or on a date");
 const broadcastSchema = z.object({
   channel: z.enum(["sms", "email"]),
   senderId: z.number().int().positive().nullable().optional(),
@@ -77,6 +106,7 @@ const broadcastSchema = z.object({
     .union([z.string().regex(/^\d{4}-\d{2}-\d{2}[ T]\d{2}:\d{2}/), z.literal(""), z.null()])
     .optional()
     .transform((v) => (v ? `${v.replace("T", " ").slice(0, 16)}:00` : null)),
+  repeat: repeatSchema.nullish(),
 });
 
 const senderSchema = z.object({
@@ -409,25 +439,87 @@ export const leadgenRoute = new Hono()
   .get("/portal/wallet", requireMember, async (c) => {
     const id = c.get("member").id;
     const [items] = await getPool().query<RowDataPacket[]>("SELECT * FROM credit_transactions WHERE user_id = ? ORDER BY id DESC LIMIT 200", [id]);
+    const [requests] = await getPool().query<RowDataPacket[]>(
+      `SELECT id, reference, credits, amount_ghs, network, account_name, account_number, transaction_id, status, admin_note, submitted_at, handled_at, created_at
+       FROM credit_requests WHERE user_id = ? AND (status IN ('awaiting', 'submitted') OR created_at > UTC_TIMESTAMP() - INTERVAL 30 DAY)
+       ORDER BY id DESC LIMIT 20`,
+      [id],
+    );
     const s = await leadgenSettings();
-    return c.json({ balance: await walletBalance(id), transactions: items, bundles: s.bundles, smsCreditCost: s.smsCreditCost, emailCreditCost: s.emailCreditCost, onlinePayments: paystackEnabled() });
-  })
-  .post("/portal/wallet/buy", requireMember, validate("json", z.object({ bundle: z.number().int().min(0).max(20) })), async (c) => {
-    const member = c.get("member");
-    const s = await leadgenSettings();
-    const bundle = s.bundles[c.req.valid("json").bundle];
-    if (!bundle) throw new AppError("Pick a credit bundle.", 422);
-    const payment = await createPayment({
-      userId: member.id,
-      email: member.email,
-      purpose: "credits",
-      targetIds: [],
-      amount: bundle.price,
-      returnPath: "/leadgen/portal/wallet",
-      meta: { credits: bundle.credits },
+    return c.json({
+      balance: await walletBalance(id),
+      transactions: items,
+      requests,
+      bundles: s.bundles,
+      smsCreditCost: s.smsCreditCost,
+      emailCreditCost: s.emailCreditCost,
+      onlinePayments: paystackEnabled(),
+      momoAccounts: s.momoAccounts,
     });
-    if (!payment.authorizationUrl) throw new AppError("Online payment isn't available yet. Redeem a credit voucher, or contact support to top up.", 400);
-    return c.json(payment);
+  })
+  .post(
+    "/portal/wallet/buy",
+    requireMember,
+    validate("json", purchaseSchema),
+    async (c) => {
+      const member = c.get("member");
+      const bundle = await pricePurchase(c.req.valid("json"));
+      const payment = await createPayment({
+        userId: member.id,
+        email: member.email,
+        purpose: "credits",
+        targetIds: [],
+        amount: bundle.price,
+        returnPath: "/leadgen/portal/wallet",
+        meta: { credits: bundle.credits },
+      });
+      if (!payment.authorizationUrl) throw new AppError("Online payment isn't available yet. Pay by mobile money transfer instead.", 400);
+      return c.json(payment);
+    },
+  )
+  // Manual mobile money: log the request against a chosen wallet, then the member
+  // sends the money and enters its transaction ID.
+  .post(
+    "/portal/wallet/momo",
+    requireMember,
+    validate("json", z.intersection(purchaseSchema, z.object({ account: z.number().int().min(0).max(10) }))),
+    async (c) => {
+      const input = c.req.valid("json");
+      const account = (await leadgenSettings()).momoAccounts[input.account];
+      if (!account) throw new AppError("Pick a mobile money account to pay into.", 422);
+      const bundle = await pricePurchase(input);
+      return c.json({ request: await createCreditRequest(c.get("member").id, bundle.credits, bundle.price, account) }, 201);
+    },
+  )
+  .post(
+    "/portal/wallet/momo/:id/sent",
+    requireMember,
+    validate(
+      "json",
+      z.object({
+        transactionId: z
+          .string()
+          .trim()
+          .transform((v) => v.replace(/\s+/g, "").toUpperCase())
+          .pipe(z.string().regex(/^[A-Z0-9.-]{5,40}$/, "Enter the transaction ID from your payment confirmation SMS")),
+        payerPhone: z.string().trim().max(20).optional(),
+      }),
+    ),
+    async (c) => {
+      const input = c.req.valid("json");
+      const payerPhone = input.payerPhone ? normalizePhone(input.payerPhone) : null;
+      if (input.payerPhone && !payerPhone) throw new AppError("Enter the number you paid from, like 0241234567.", 422);
+      await submitCreditRequest(c.get("member").id, Number(c.req.param("id")), input.transactionId, payerPhone);
+      return c.json({ ok: true });
+    },
+  )
+  .post("/portal/wallet/momo/:id/cancel", requireMember, async (c) => {
+    const [res] = await getPool().execute<ResultSetHeader>("UPDATE credit_requests SET status = 'cancelled' WHERE id = ? AND user_id = ? AND status = 'awaiting'", [
+      Number(c.req.param("id")),
+      c.get("member").id,
+    ]);
+    if (!res.affectedRows) throw new AppError("Only a payment you haven't sent yet can be cancelled.", 409);
+    return c.json({ ok: true });
   })
   // ---- Sender IDs ---------------------------------------------------------------------------
   .get("/portal/senders", requireMember, async (c) => {
@@ -490,6 +582,9 @@ export const leadgenRoute = new Hono()
     if (input.scheduledAt && new Date(`${input.scheduledAt.replace(" ", "T")}Z`).getTime() < Date.now() - 60_000) {
       throw new AppError("Pick a time in the future (times are GMT).", 422);
     }
+    if (input.repeat && input.channel !== "sms") throw new AppError("Repeating broadcasts are available for SMS only.", 422);
+    // Check the repeat plan before anything is charged.
+    const plan = input.repeat ? await planSeries(input.scheduledAt, input.repeat) : null;
     const accessIds = await resolveAudience(member.id, input.audience.accessIds, input.audience.vouchers);
     const r = await buildRecipients(member.id, input.channel, accessIds, input.audience.contacts, s.maxRecipients);
     const created = await createBroadcast({
@@ -504,11 +599,25 @@ export const leadgenRoute = new Hono()
       recipients: r.recipients,
       scheduledAt: input.scheduledAt,
     });
-    return c.json(created, 201);
+    const seriesId = plan ? await createSeries(member.id, created.id, plan) : null;
+    return c.json({ ...created, seriesId }, 201);
+  })
+  .get("/portal/series", requireMember, async (c) => {
+    const [items] = await getPool().query<RowDataPacket[]>(
+      `SELECT s.*, b.sender_label, LEFT(b.body, 140) AS preview, b.recipient_count, b.cost_credits
+       FROM broadcast_series s JOIN broadcasts b ON b.id = s.source_broadcast_id
+       WHERE s.user_id = ? ORDER BY s.status IN ('active', 'paused') DESC, s.id DESC LIMIT 100`,
+      [c.get("member").id],
+    );
+    return c.json({ items });
+  })
+  .post("/portal/series/:id/:action{pause|resume|cancel}", requireMember, async (c) => {
+    await setSeriesStatus(c.get("member").id, Number(c.req.param("id")), c.req.param("action") as "pause" | "resume" | "cancel");
+    return c.json({ ok: true });
   })
   .get("/portal/broadcasts", requireMember, async (c) => {
     const [items] = await getPool().query<RowDataPacket[]>(
-      "SELECT id, channel, sender_label, subject, LEFT(body, 140) AS preview, recipient_count, sent_count, failed_count, cost_credits, refunded_credits, status, scheduled_at, created_at, finished_at, error FROM broadcasts WHERE user_id = ? ORDER BY id DESC LIMIT 200",
+      "SELECT id, series_id, channel, sender_label, subject, LEFT(body, 140) AS preview, recipient_count, sent_count, failed_count, cost_credits, refunded_credits, status, scheduled_at, created_at, finished_at, error FROM broadcasts WHERE user_id = ? ORDER BY id DESC LIMIT 200",
       [c.get("member").id],
     );
     return c.json({ items });
@@ -522,7 +631,8 @@ export const leadgenRoute = new Hono()
       `SELECT name, address, status, provider_status, error, sent_at FROM broadcast_recipients WHERE broadcast_id = ? ${status ? "AND status = ?" : ""} ORDER BY id LIMIT 500`,
       status ? [b.id, status] : [b.id],
     );
-    return c.json({ broadcast: b, recipients });
+    const [series] = b.series_id ? await getPool().execute<RowDataPacket[]>("SELECT * FROM broadcast_series WHERE id = ?", [b.series_id]) : [[]];
+    return c.json({ broadcast: b, recipients, series: series[0] ?? null });
   })
   .post("/portal/broadcasts/:id/cancel", requireMember, async (c) => {
     await cancelBroadcast(c.get("member").id, Number(c.req.param("id")));

@@ -105,6 +105,7 @@ import { Route as SiteLearnCertificateCodeRouteImport } from './routes/_site/lea
 import { Route as SiteLearnKidilearnIndexRouteImport } from './routes/_site/learn/kidilearn/index'
 import { Route as SiteLearnKidilearnFamilyRouteImport } from './routes/_site/learn/kidilearn/family'
 import { Route as SiteLearnKidilearnLoginRouteImport } from './routes/_site/learn/kidilearn/login'
+import { Route as SiteLearnQuizbankIndexRouteImport } from './routes/_site/learn/quizbank/index'
 import { Route as SiteLearnTeachIndexRouteImport } from './routes/_site/learn/teach/index'
 import { Route as SiteLearnTeachIdRouteImport } from './routes/_site/learn/teach/$id'
 import { Route as SiteMarketExhibitionsIndexRouteImport } from './routes/_site/market/exhibitions/index'
@@ -139,6 +140,9 @@ import { Route as SiteLeadgenPortalLeadsNewRouteImport } from './routes/_site/le
 import { Route as SiteLearnCSlugIndexRouteImport } from './routes/_site/learn/c/$slug/index'
 import { Route as SiteLearnCSlugLearnRouteImport } from './routes/_site/learn/c/$slug/learn'
 import { Route as SiteLearnKidilearnQuizIdRouteImport } from './routes/_site/learn/kidilearn/quiz/$id'
+import { Route as SiteLearnQuizbankCSlugRouteImport } from './routes/_site/learn/quizbank/c/$slug'
+import { Route as SiteLearnQuizbankExamIdRouteImport } from './routes/_site/learn/quizbank/exam/$id'
+import { Route as SiteLearnQuizbankSIdRouteImport } from './routes/_site/learn/quizbank/s/$id'
 import { Route as SiteMarketJobsManageIdRouteImport } from './routes/_site/market/jobs/manage/$id'
 import { Route as SiteMarketTicketsBusIndexRouteImport } from './routes/_site/market/tickets/bus/index'
 import { Route as SiteMarketTicketsBusIdRouteImport } from './routes/_site/market/tickets/bus/$id'
@@ -146,6 +150,10 @@ import { Route as SiteMarketTicketsESlugRouteImport } from './routes/_site/marke
 import { Route as SiteMarketTicketsRentalsIndexRouteImport } from './routes/_site/market/tickets/rentals/index'
 import { Route as SiteMarketTicketsRentalsIdRouteImport } from './routes/_site/market/tickets/rentals/$id'
 import { Route as SiteLearnKidilearnSubjectsLevelSubjectRouteImport } from './routes/_site/learn/kidilearn/subjects/$level/$subject'
+import { Route as SiteLearnQuizbankCSlugStudyRouteImport } from './routes/_site/learn/quizbank/c/$slug_.study'
+import { Route as SiteMarketTicketsBusIdFlyerRouteImport } from './routes/_site/market/tickets/bus/$id_.flyer'
+import { Route as SiteMarketTicketsESlugFlyerRouteImport } from './routes/_site/market/tickets/e/$slug_.flyer'
+import { Route as SiteMarketTicketsRentalsIdFlyerRouteImport } from './routes/_site/market/tickets/rentals/$id_.flyer'
 
 const SiteRouteRoute = SiteRouteRouteImport.update({
   id: '/_site',
@@ -631,6 +639,11 @@ const SiteLearnKidilearnLoginRoute = SiteLearnKidilearnLoginRouteImport.update({
   path: '/login',
   getParentRoute: () => SiteLearnKidilearnRouteRoute,
 } as any)
+const SiteLearnQuizbankIndexRoute = SiteLearnQuizbankIndexRouteImport.update({
+  id: '/quizbank/',
+  path: '/quizbank/',
+  getParentRoute: () => SiteLearnRouteRoute,
+} as any)
 const SiteLearnTeachIndexRoute = SiteLearnTeachIndexRouteImport.update({
   id: '/teach/',
   path: '/teach/',
@@ -811,6 +824,21 @@ const SiteLearnKidilearnQuizIdRoute =
     path: '/quiz/$id',
     getParentRoute: () => SiteLearnKidilearnRouteRoute,
   } as any)
+const SiteLearnQuizbankCSlugRoute = SiteLearnQuizbankCSlugRouteImport.update({
+  id: '/quizbank/c/$slug',
+  path: '/quizbank/c/$slug',
+  getParentRoute: () => SiteLearnRouteRoute,
+} as any)
+const SiteLearnQuizbankExamIdRoute = SiteLearnQuizbankExamIdRouteImport.update({
+  id: '/quizbank/exam/$id',
+  path: '/quizbank/exam/$id',
+  getParentRoute: () => SiteLearnRouteRoute,
+} as any)
+const SiteLearnQuizbankSIdRoute = SiteLearnQuizbankSIdRouteImport.update({
+  id: '/quizbank/s/$id',
+  path: '/quizbank/s/$id',
+  getParentRoute: () => SiteLearnRouteRoute,
+} as any)
 const SiteMarketJobsManageIdRoute = SiteMarketJobsManageIdRouteImport.update({
   id: '/jobs/manage/$id',
   path: '/jobs/manage/$id',
@@ -849,6 +877,30 @@ const SiteLearnKidilearnSubjectsLevelSubjectRoute =
     id: '/subjects/$level/$subject',
     path: '/subjects/$level/$subject',
     getParentRoute: () => SiteLearnKidilearnRouteRoute,
+  } as any)
+const SiteLearnQuizbankCSlugStudyRoute =
+  SiteLearnQuizbankCSlugStudyRouteImport.update({
+    id: '/quizbank/c/$slug_/study',
+    path: '/quizbank/c/$slug/study',
+    getParentRoute: () => SiteLearnRouteRoute,
+  } as any)
+const SiteMarketTicketsBusIdFlyerRoute =
+  SiteMarketTicketsBusIdFlyerRouteImport.update({
+    id: '/tickets/bus/$id_/flyer',
+    path: '/tickets/bus/$id/flyer',
+    getParentRoute: () => SiteMarketRouteRoute,
+  } as any)
+const SiteMarketTicketsESlugFlyerRoute =
+  SiteMarketTicketsESlugFlyerRouteImport.update({
+    id: '/tickets/e/$slug_/flyer',
+    path: '/tickets/e/$slug/flyer',
+    getParentRoute: () => SiteMarketRouteRoute,
+  } as any)
+const SiteMarketTicketsRentalsIdFlyerRoute =
+  SiteMarketTicketsRentalsIdFlyerRouteImport.update({
+    id: '/tickets/rentals/$id_/flyer',
+    path: '/tickets/rentals/$id/flyer',
+    getParentRoute: () => SiteMarketRouteRoute,
   } as any)
 
 export interface FileRoutesByFullPath {
@@ -962,6 +1014,7 @@ export interface FileRoutesByFullPath {
   '/groups/$slug/': typeof SiteGroupsSlugIndexRoute
   '/leadgen/portal/': typeof SiteLeadgenPortalIndexRoute
   '/learn/kidilearn/': typeof SiteLearnKidilearnIndexRoute
+  '/learn/quizbank/': typeof SiteLearnQuizbankIndexRoute
   '/learn/teach/': typeof SiteLearnTeachIndexRoute
   '/market/exhibitions/': typeof SiteMarketExhibitionsIndexRoute
   '/market/food/': typeof SiteMarketFoodIndexRoute
@@ -977,6 +1030,9 @@ export interface FileRoutesByFullPath {
   '/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
   '/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
+  '/learn/quizbank/c/$slug': typeof SiteLearnQuizbankCSlugRoute
+  '/learn/quizbank/exam/$id': typeof SiteLearnQuizbankExamIdRoute
+  '/learn/quizbank/s/$id': typeof SiteLearnQuizbankSIdRoute
   '/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -988,6 +1044,10 @@ export interface FileRoutesByFullPath {
   '/market/tickets/bus/': typeof SiteMarketTicketsBusIndexRoute
   '/market/tickets/rentals/': typeof SiteMarketTicketsRentalsIndexRoute
   '/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
+  '/learn/quizbank/c/$slug/study': typeof SiteLearnQuizbankCSlugStudyRoute
+  '/market/tickets/bus/$id/flyer': typeof SiteMarketTicketsBusIdFlyerRoute
+  '/market/tickets/e/$slug/flyer': typeof SiteMarketTicketsESlugFlyerRoute
+  '/market/tickets/rentals/$id/flyer': typeof SiteMarketTicketsRentalsIdFlyerRoute
 }
 export interface FileRoutesByTo {
   '/login': typeof SiteLoginRoute
@@ -1087,6 +1147,7 @@ export interface FileRoutesByTo {
   '/groups/$slug': typeof SiteGroupsSlugIndexRoute
   '/leadgen/portal': typeof SiteLeadgenPortalIndexRoute
   '/learn/kidilearn': typeof SiteLearnKidilearnIndexRoute
+  '/learn/quizbank': typeof SiteLearnQuizbankIndexRoute
   '/learn/teach': typeof SiteLearnTeachIndexRoute
   '/market/exhibitions': typeof SiteMarketExhibitionsIndexRoute
   '/market/food': typeof SiteMarketFoodIndexRoute
@@ -1102,6 +1163,9 @@ export interface FileRoutesByTo {
   '/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
   '/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
+  '/learn/quizbank/c/$slug': typeof SiteLearnQuizbankCSlugRoute
+  '/learn/quizbank/exam/$id': typeof SiteLearnQuizbankExamIdRoute
+  '/learn/quizbank/s/$id': typeof SiteLearnQuizbankSIdRoute
   '/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -1113,6 +1177,10 @@ export interface FileRoutesByTo {
   '/market/tickets/bus': typeof SiteMarketTicketsBusIndexRoute
   '/market/tickets/rentals': typeof SiteMarketTicketsRentalsIndexRoute
   '/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
+  '/learn/quizbank/c/$slug/study': typeof SiteLearnQuizbankCSlugStudyRoute
+  '/market/tickets/bus/$id/flyer': typeof SiteMarketTicketsBusIdFlyerRoute
+  '/market/tickets/e/$slug/flyer': typeof SiteMarketTicketsESlugFlyerRoute
+  '/market/tickets/rentals/$id/flyer': typeof SiteMarketTicketsRentalsIdFlyerRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -1227,6 +1295,7 @@ export interface FileRoutesById {
   '/_site/groups/$slug/': typeof SiteGroupsSlugIndexRoute
   '/_site/leadgen/portal/': typeof SiteLeadgenPortalIndexRoute
   '/_site/learn/kidilearn/': typeof SiteLearnKidilearnIndexRoute
+  '/_site/learn/quizbank/': typeof SiteLearnQuizbankIndexRoute
   '/_site/learn/teach/': typeof SiteLearnTeachIndexRoute
   '/_site/market/exhibitions/': typeof SiteMarketExhibitionsIndexRoute
   '/_site/market/food/': typeof SiteMarketFoodIndexRoute
@@ -1242,6 +1311,9 @@ export interface FileRoutesById {
   '/_site/leadgen/portal/leads/new': typeof SiteLeadgenPortalLeadsNewRoute
   '/_site/learn/c/$slug/learn': typeof SiteLearnCSlugLearnRoute
   '/_site/learn/kidilearn/quiz/$id': typeof SiteLearnKidilearnQuizIdRoute
+  '/_site/learn/quizbank/c/$slug': typeof SiteLearnQuizbankCSlugRoute
+  '/_site/learn/quizbank/exam/$id': typeof SiteLearnQuizbankExamIdRoute
+  '/_site/learn/quizbank/s/$id': typeof SiteLearnQuizbankSIdRoute
   '/_site/market/jobs/manage/$id': typeof SiteMarketJobsManageIdRoute
   '/_site/market/tickets/bus/$id': typeof SiteMarketTicketsBusIdRoute
   '/_site/market/tickets/e/$slug': typeof SiteMarketTicketsESlugRoute
@@ -1253,6 +1325,10 @@ export interface FileRoutesById {
   '/_site/market/tickets/bus/': typeof SiteMarketTicketsBusIndexRoute
   '/_site/market/tickets/rentals/': typeof SiteMarketTicketsRentalsIndexRoute
   '/_site/learn/kidilearn/subjects/$level/$subject': typeof SiteLearnKidilearnSubjectsLevelSubjectRoute
+  '/_site/learn/quizbank/c/$slug_/study': typeof SiteLearnQuizbankCSlugStudyRoute
+  '/_site/market/tickets/bus/$id_/flyer': typeof SiteMarketTicketsBusIdFlyerRoute
+  '/_site/market/tickets/e/$slug_/flyer': typeof SiteMarketTicketsESlugFlyerRoute
+  '/_site/market/tickets/rentals/$id_/flyer': typeof SiteMarketTicketsRentalsIdFlyerRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -1367,6 +1443,7 @@ export interface FileRouteTypes {
     | '/groups/$slug/'
     | '/leadgen/portal/'
     | '/learn/kidilearn/'
+    | '/learn/quizbank/'
     | '/learn/teach/'
     | '/market/exhibitions/'
     | '/market/food/'
@@ -1382,6 +1459,9 @@ export interface FileRouteTypes {
     | '/leadgen/portal/leads/new'
     | '/learn/c/$slug/learn'
     | '/learn/kidilearn/quiz/$id'
+    | '/learn/quizbank/c/$slug'
+    | '/learn/quizbank/exam/$id'
+    | '/learn/quizbank/s/$id'
     | '/market/jobs/manage/$id'
     | '/market/tickets/bus/$id'
     | '/market/tickets/e/$slug'
@@ -1393,6 +1473,10 @@ export interface FileRouteTypes {
     | '/market/tickets/bus/'
     | '/market/tickets/rentals/'
     | '/learn/kidilearn/subjects/$level/$subject'
+    | '/learn/quizbank/c/$slug/study'
+    | '/market/tickets/bus/$id/flyer'
+    | '/market/tickets/e/$slug/flyer'
+    | '/market/tickets/rentals/$id/flyer'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/login'
@@ -1492,6 +1576,7 @@ export interface FileRouteTypes {
     | '/groups/$slug'
     | '/leadgen/portal'
     | '/learn/kidilearn'
+    | '/learn/quizbank'
     | '/learn/teach'
     | '/market/exhibitions'
     | '/market/food'
@@ -1507,6 +1592,9 @@ export interface FileRouteTypes {
     | '/leadgen/portal/leads/new'
     | '/learn/c/$slug/learn'
     | '/learn/kidilearn/quiz/$id'
+    | '/learn/quizbank/c/$slug'
+    | '/learn/quizbank/exam/$id'
+    | '/learn/quizbank/s/$id'
     | '/market/jobs/manage/$id'
     | '/market/tickets/bus/$id'
     | '/market/tickets/e/$slug'
@@ -1518,6 +1606,10 @@ export interface FileRouteTypes {
     | '/market/tickets/bus'
     | '/market/tickets/rentals'
     | '/learn/kidilearn/subjects/$level/$subject'
+    | '/learn/quizbank/c/$slug/study'
+    | '/market/tickets/bus/$id/flyer'
+    | '/market/tickets/e/$slug/flyer'
+    | '/market/tickets/rentals/$id/flyer'
   id:
     | '__root__'
     | '/_site'
@@ -1631,6 +1723,7 @@ export interface FileRouteTypes {
     | '/_site/groups/$slug/'
     | '/_site/leadgen/portal/'
     | '/_site/learn/kidilearn/'
+    | '/_site/learn/quizbank/'
     | '/_site/learn/teach/'
     | '/_site/market/exhibitions/'
     | '/_site/market/food/'
@@ -1646,6 +1739,9 @@ export interface FileRouteTypes {
     | '/_site/leadgen/portal/leads/new'
     | '/_site/learn/c/$slug/learn'
     | '/_site/learn/kidilearn/quiz/$id'
+    | '/_site/learn/quizbank/c/$slug'
+    | '/_site/learn/quizbank/exam/$id'
+    | '/_site/learn/quizbank/s/$id'
     | '/_site/market/jobs/manage/$id'
     | '/_site/market/tickets/bus/$id'
     | '/_site/market/tickets/e/$slug'
@@ -1657,6 +1753,10 @@ export interface FileRouteTypes {
     | '/_site/market/tickets/bus/'
     | '/_site/market/tickets/rentals/'
     | '/_site/learn/kidilearn/subjects/$level/$subject'
+    | '/_site/learn/quizbank/c/$slug_/study'
+    | '/_site/market/tickets/bus/$id_/flyer'
+    | '/_site/market/tickets/e/$slug_/flyer'
+    | '/_site/market/tickets/rentals/$id_/flyer'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -2340,6 +2440,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteLearnKidilearnLoginRouteImport
       parentRoute: typeof SiteLearnKidilearnRouteRoute
     }
+    '/_site/learn/quizbank/': {
+      id: '/_site/learn/quizbank/'
+      path: '/quizbank'
+      fullPath: '/learn/quizbank/'
+      preLoaderRoute: typeof SiteLearnQuizbankIndexRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
     '/_site/learn/teach/': {
       id: '/_site/learn/teach/'
       path: '/teach'
@@ -2578,6 +2685,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteLearnKidilearnQuizIdRouteImport
       parentRoute: typeof SiteLearnKidilearnRouteRoute
     }
+    '/_site/learn/quizbank/c/$slug': {
+      id: '/_site/learn/quizbank/c/$slug'
+      path: '/quizbank/c/$slug'
+      fullPath: '/learn/quizbank/c/$slug'
+      preLoaderRoute: typeof SiteLearnQuizbankCSlugRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
+    '/_site/learn/quizbank/exam/$id': {
+      id: '/_site/learn/quizbank/exam/$id'
+      path: '/quizbank/exam/$id'
+      fullPath: '/learn/quizbank/exam/$id'
+      preLoaderRoute: typeof SiteLearnQuizbankExamIdRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
+    '/_site/learn/quizbank/s/$id': {
+      id: '/_site/learn/quizbank/s/$id'
+      path: '/quizbank/s/$id'
+      fullPath: '/learn/quizbank/s/$id'
+      preLoaderRoute: typeof SiteLearnQuizbankSIdRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
     '/_site/market/jobs/manage/$id': {
       id: '/_site/market/jobs/manage/$id'
       path: '/jobs/manage/$id'
@@ -2626,6 +2754,34 @@ declare module '@tanstack/react-router' {
       fullPath: '/learn/kidilearn/subjects/$level/$subject'
       preLoaderRoute: typeof SiteLearnKidilearnSubjectsLevelSubjectRouteImport
       parentRoute: typeof SiteLearnKidilearnRouteRoute
+    }
+    '/_site/learn/quizbank/c/$slug_/study': {
+      id: '/_site/learn/quizbank/c/$slug_/study'
+      path: '/quizbank/c/$slug/study'
+      fullPath: '/learn/quizbank/c/$slug/study'
+      preLoaderRoute: typeof SiteLearnQuizbankCSlugStudyRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
+    '/_site/market/tickets/bus/$id_/flyer': {
+      id: '/_site/market/tickets/bus/$id_/flyer'
+      path: '/tickets/bus/$id/flyer'
+      fullPath: '/market/tickets/bus/$id/flyer'
+      preLoaderRoute: typeof SiteMarketTicketsBusIdFlyerRouteImport
+      parentRoute: typeof SiteMarketRouteRoute
+    }
+    '/_site/market/tickets/e/$slug_/flyer': {
+      id: '/_site/market/tickets/e/$slug_/flyer'
+      path: '/tickets/e/$slug/flyer'
+      fullPath: '/market/tickets/e/$slug/flyer'
+      preLoaderRoute: typeof SiteMarketTicketsESlugFlyerRouteImport
+      parentRoute: typeof SiteMarketRouteRoute
+    }
+    '/_site/market/tickets/rentals/$id_/flyer': {
+      id: '/_site/market/tickets/rentals/$id_/flyer'
+      path: '/tickets/rentals/$id/flyer'
+      fullPath: '/market/tickets/rentals/$id/flyer'
+      preLoaderRoute: typeof SiteMarketTicketsRentalsIdFlyerRouteImport
+      parentRoute: typeof SiteMarketRouteRoute
     }
   }
 }
@@ -2800,9 +2956,14 @@ interface SiteLearnRouteRouteChildren {
   SiteLearnIndexRoute: typeof SiteLearnIndexRoute
   SiteLearnCertificateCodeRoute: typeof SiteLearnCertificateCodeRoute
   SiteLearnTeachIdRoute: typeof SiteLearnTeachIdRoute
+  SiteLearnQuizbankIndexRoute: typeof SiteLearnQuizbankIndexRoute
   SiteLearnTeachIndexRoute: typeof SiteLearnTeachIndexRoute
   SiteLearnCSlugLearnRoute: typeof SiteLearnCSlugLearnRoute
+  SiteLearnQuizbankCSlugRoute: typeof SiteLearnQuizbankCSlugRoute
+  SiteLearnQuizbankExamIdRoute: typeof SiteLearnQuizbankExamIdRoute
+  SiteLearnQuizbankSIdRoute: typeof SiteLearnQuizbankSIdRoute
   SiteLearnCSlugIndexRoute: typeof SiteLearnCSlugIndexRoute
+  SiteLearnQuizbankCSlugStudyRoute: typeof SiteLearnQuizbankCSlugStudyRoute
 }
 
 const SiteLearnRouteRouteChildren: SiteLearnRouteRouteChildren = {
@@ -2812,9 +2973,14 @@ const SiteLearnRouteRouteChildren: SiteLearnRouteRouteChildren = {
   SiteLearnIndexRoute: SiteLearnIndexRoute,
   SiteLearnCertificateCodeRoute: SiteLearnCertificateCodeRoute,
   SiteLearnTeachIdRoute: SiteLearnTeachIdRoute,
+  SiteLearnQuizbankIndexRoute: SiteLearnQuizbankIndexRoute,
   SiteLearnTeachIndexRoute: SiteLearnTeachIndexRoute,
   SiteLearnCSlugLearnRoute: SiteLearnCSlugLearnRoute,
+  SiteLearnQuizbankCSlugRoute: SiteLearnQuizbankCSlugRoute,
+  SiteLearnQuizbankExamIdRoute: SiteLearnQuizbankExamIdRoute,
+  SiteLearnQuizbankSIdRoute: SiteLearnQuizbankSIdRoute,
   SiteLearnCSlugIndexRoute: SiteLearnCSlugIndexRoute,
+  SiteLearnQuizbankCSlugStudyRoute: SiteLearnQuizbankCSlugStudyRoute,
 }
 
 const SiteLearnRouteRouteWithChildren = SiteLearnRouteRoute._addFileChildren(
@@ -2845,6 +3011,9 @@ interface SiteMarketRouteRouteChildren {
   SiteMarketTicketsRentalsIdRoute: typeof SiteMarketTicketsRentalsIdRoute
   SiteMarketTicketsBusIndexRoute: typeof SiteMarketTicketsBusIndexRoute
   SiteMarketTicketsRentalsIndexRoute: typeof SiteMarketTicketsRentalsIndexRoute
+  SiteMarketTicketsBusIdFlyerRoute: typeof SiteMarketTicketsBusIdFlyerRoute
+  SiteMarketTicketsESlugFlyerRoute: typeof SiteMarketTicketsESlugFlyerRoute
+  SiteMarketTicketsRentalsIdFlyerRoute: typeof SiteMarketTicketsRentalsIdFlyerRoute
 }
 
 const SiteMarketRouteRouteChildren: SiteMarketRouteRouteChildren = {
@@ -2871,6 +3040,9 @@ const SiteMarketRouteRouteChildren: SiteMarketRouteRouteChildren = {
   SiteMarketTicketsRentalsIdRoute: SiteMarketTicketsRentalsIdRoute,
   SiteMarketTicketsBusIndexRoute: SiteMarketTicketsBusIndexRoute,
   SiteMarketTicketsRentalsIndexRoute: SiteMarketTicketsRentalsIndexRoute,
+  SiteMarketTicketsBusIdFlyerRoute: SiteMarketTicketsBusIdFlyerRoute,
+  SiteMarketTicketsESlugFlyerRoute: SiteMarketTicketsESlugFlyerRoute,
+  SiteMarketTicketsRentalsIdFlyerRoute: SiteMarketTicketsRentalsIdFlyerRoute,
 }
 
 const SiteMarketRouteRouteWithChildren = SiteMarketRouteRoute._addFileChildren(

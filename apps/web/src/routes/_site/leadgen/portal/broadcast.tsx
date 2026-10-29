@@ -3,10 +3,12 @@ import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { z } from "zod";
 import { toast } from "sonner";
-import { AlertTriangle, CalendarClock, Coins, Loader2, Mail, MessageSquareText, Plus, Send, Users, X } from "lucide-react";
+import { AlertTriangle, CalendarClock, Coins, Loader2, Mail, MessageSquareText, Plus, Repeat, Send, Users, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { EmptyState, Loading } from "#/components/site/kit";
+import { MAX_SENDS, REPEAT_UNITS, repeatLabel, sendsUntil } from "#/components/leadgen/repeat";
+import type { RepeatUnit } from "#/components/leadgen/repeat";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Field } from "#/components/admin/ui";
@@ -52,6 +54,19 @@ function Composer() {
   const [showUpload, setShowUpload] = useState(false);
   const [schedule, setSchedule] = useState(false);
   const [scheduledAt, setScheduledAt] = useState("");
+  const [repeat, setRepeat] = useState(false);
+  const [every, setEvery] = useState("1");
+  const [unit, setUnit] = useState<RepeatUnit>("week");
+  const [endMode, setEndMode] = useState<"times" | "date">("times");
+  const [times, setTimes] = useState("4");
+  const [endsOn, setEndsOn] = useState("");
+  const repeating = repeat && channel === "sms";
+  const sends = !repeating
+    ? 1
+    : endMode === "times"
+      ? Math.min(Number(times) || 0, MAX_SENDS)
+      : sendsUntil(schedule && scheduledAt ? new Date(`${scheduledAt}Z`) : new Date(), endsOn, Number(every), unit);
+  const repeatReady = !repeating || (Number(every) >= 1 && sends >= 2);
 
   const accessQuery = useQuery({ queryKey: ["leadgen", "access"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/access") });
   const sendersQuery = useQuery({ queryKey: ["leadgen", "senders"], queryFn: () => api.get<{ items: Array<Row>; defaults: { sms: string; email: string } }>("/leadgen/portal/senders") });
@@ -94,9 +109,12 @@ function Composer() {
         body,
         audience,
         scheduledAt: schedule ? scheduledAt : null,
+        repeat: repeating
+          ? { every: Number(every), unit, times: endMode === "times" ? Number(times) : null, endsOn: endMode === "date" ? endsOn : null }
+          : null,
       }),
     onSuccess: (r) => {
-      toast.success(schedule ? "Broadcast scheduled" : "Broadcast queued — sending now");
+      toast.success(repeating ? `Repeating broadcast set up — ${repeatLabel(Number(every), unit)}` : schedule ? "Broadcast scheduled" : "Broadcast queued — sending now");
       void queryClient.invalidateQueries({ queryKey: ["leadgen"] });
       void navigate({ to: "/leadgen/portal/broadcasts/$id", params: { id: String(r.id) } });
     },
@@ -262,9 +280,47 @@ function Composer() {
             <CalendarClock className="size-4" /> Schedule for later
           </label>
           {schedule && (
-            <Field label="Send at (GMT)" className="mt-2 max-w-xs">
+            <Field label={repeating ? "First send at (GMT)" : "Send at (GMT)"} className="mt-2 max-w-xs">
               <Input type="datetime-local" value={scheduledAt} onChange={(e) => setScheduledAt(e.target.value)} />
             </Field>
+          )}
+          {channel === "sms" && (
+            <label className="mt-4 flex items-center gap-2 text-sm font-medium">
+              <input type="checkbox" checked={repeat} onChange={(e) => setRepeat(e.target.checked)} className="accent-cyan-700" />
+              <Repeat className="size-4" /> Repeat this message
+            </label>
+          )}
+          {repeating && (
+            <div className="mt-2 space-y-3 rounded-xl border bg-muted/30 p-4">
+              <div className="flex flex-wrap items-center gap-2 text-sm">
+                <span>Send again every</span>
+                <Input inputMode="numeric" value={every} onChange={(e) => setEvery(e.target.value.replace(/\D/g, ""))} className="w-16" aria-label="Repeat interval" />
+                <select value={unit} onChange={(e) => setUnit(e.target.value as RepeatUnit)} className="h-9 rounded-md border border-input bg-white px-3 text-sm" aria-label="Repeat unit">
+                  {REPEAT_UNITS.map((u) => (
+                    <option key={u} value={u}>
+                      {Number(every) === 1 ? u : `${u}s`}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div className="space-y-2 text-sm">
+                <label className="flex flex-wrap items-center gap-2">
+                  <input type="radio" name="repeat-end" checked={endMode === "times"} onChange={() => setEndMode("times")} className="accent-cyan-700" />
+                  Stop after
+                  <Input inputMode="numeric" value={times} onChange={(e) => setTimes(e.target.value.replace(/\D/g, ""))} onFocus={() => setEndMode("times")} className="w-20" aria-label="Number of sends" />
+                  sends in total
+                </label>
+                <label className="flex flex-wrap items-center gap-2">
+                  <input type="radio" name="repeat-end" checked={endMode === "date"} onChange={() => setEndMode("date")} className="accent-cyan-700" />
+                  Stop on
+                  <Input type="date" value={endsOn} onChange={(e) => setEndsOn(e.target.value)} onFocus={() => setEndMode("date")} className="w-44" aria-label="End date" />
+                </label>
+              </div>
+              <p className="text-xs text-muted-foreground">
+                {sends >= 2 ? `${sends} sends, ${repeatLabel(Number(every), unit)}. ` : "Choose at least 2 sends. "}
+                The first send is charged now; each repeat is charged when it goes out. Repeats pause if your credits run low. Up to {MAX_SENDS} sends.
+              </p>
+            </div>
           )}
         </section>
       </div>
@@ -305,9 +361,15 @@ function Composer() {
                 <dd>{est.data.perRecipient}</dd>
               </div>
               <div className="flex justify-between border-t pt-2 text-base font-black text-primary">
-                <dt>Total cost</dt>
+                <dt>{repeating ? "Cost per send" : "Total cost"}</dt>
                 <dd>{est.data.cost.toLocaleString()} credits</dd>
               </div>
+              {repeating && sends >= 2 && (
+                <div className="flex justify-between text-muted-foreground">
+                  <dt>All {sends} sends</dt>
+                  <dd>≈ {(est.data.cost * sends).toLocaleString()} credits</dd>
+                </div>
+              )}
               <div className={cn("flex justify-between", short ? "text-destructive" : "text-muted-foreground")}>
                 <dt>Your balance</dt>
                 <dd>{Number(est.data.balance).toLocaleString()}</dd>
@@ -321,10 +383,16 @@ function Composer() {
           )}
           <Button
             className="mt-4 h-11 w-full rounded-xl bg-sys-leadgen hover:bg-sys-leadgen/90"
-            disabled={!est.data?.recipients || !body.trim() || short || send.isPending || (channel === "email" && !subject.trim()) || (schedule && !scheduledAt)}
-            onClick={() => confirm(`Send to ${est.data?.recipients.toLocaleString()} recipients for ${est.data?.cost} credits?`) && send.mutate()}
+            disabled={!est.data?.recipients || !body.trim() || short || send.isPending || (channel === "email" && !subject.trim()) || (schedule && !scheduledAt) || !repeatReady}
+            onClick={() =>
+              confirm(
+                repeating
+                  ? `Send to ${est.data?.recipients.toLocaleString()} recipients ${sends} times, ${repeatLabel(Number(every), unit)}, for ${est.data?.cost} credits per send?`
+                  : `Send to ${est.data?.recipients.toLocaleString()} recipients for ${est.data?.cost} credits?`,
+              ) && send.mutate()
+            }
           >
-            {send.isPending ? <Loader2 className="animate-spin" /> : <Send />} {schedule ? "Schedule broadcast" : "Send now"}
+            {send.isPending ? <Loader2 className="animate-spin" /> : repeating ? <Repeat /> : <Send />} {repeating ? "Set up repeats" : schedule ? "Schedule broadcast" : "Send now"}
           </Button>
           <p className="mt-3 text-[11px] text-muted-foreground">Credits for failed deliveries are refunded automatically. Only message people who expect to hear from you.</p>
         </div>

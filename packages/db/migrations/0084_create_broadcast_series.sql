@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS broadcast_series (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  user_id INT UNSIGNED NOT NULL,
+  source_broadcast_id INT UNSIGNED NOT NULL,
+  every_n SMALLINT UNSIGNED NOT NULL,
+  unit ENUM('hour', 'day', 'week', 'month') NOT NULL,
+  starts_at DATETIME NOT NULL,
+  ends_at DATETIME NULL,
+  max_runs SMALLINT UNSIGNED NULL,
+  run_count SMALLINT UNSIGNED NOT NULL DEFAULT 1,
+  next_slot SMALLINT UNSIGNED NOT NULL DEFAULT 1,
+  next_run_at DATETIME NULL,
+  status ENUM('active', 'paused', 'completed', 'cancelled') NOT NULL DEFAULT 'active',
+  status_reason VARCHAR(300) NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_broadcast_series_due (status, next_run_at),
+  KEY idx_broadcast_series_user (user_id, id),
+  CONSTRAINT fk_broadcast_series_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT fk_broadcast_series_source FOREIGN KEY (source_broadcast_id) REFERENCES broadcasts (id) ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

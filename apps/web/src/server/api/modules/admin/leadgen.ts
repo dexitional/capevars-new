@@ -1,5 +1,5 @@
 // Admin tools for LeadGen beyond the moderation queues: credit vouchers,
-// manual wallet adjustments, gateway status, cancelling broadcasts, sender IDs
+// manual wallet adjustments, confirming mobile money top-ups, gateway status, cancelling broadcasts, sender IDs
 // created for members, and Capevars' own private lead lists shared with
 // chosen members until a per-member expiry date.
 import { Hono } from "hono";
@@ -17,10 +17,14 @@ import { uniqueSlug } from "../../lib/slug.js";
 import {
   CATEGORIES,
   addCredits,
+  approveCreditRequest,
   cancelBroadcast,
   contactsSchema,
   insertContacts,
   recountAccess,
+  rejectCreditRequest,
+  resendCreditAlert,
+  setSeriesStatus,
   shareList,
   uniqueVoucher,
   walletBalance,
@@ -123,10 +127,63 @@ export const adminLeadgenRoute = new Hono()
       return c.json({ balance: await walletBalance(userId) });
     },
   )
+  // ---- Mobile money top-ups -------------------------------------------------------------------
+  .get("/credit-requests", requirePermission("leadgen", "view"), async (c) => {
+    const status = c.req.query("status") ?? "submitted";
+    const q = (c.req.query("q") ?? "").trim();
+    const where = ["(? = 'all' OR r.status = ?)"];
+    const params: Array<string> = [status, status];
+    if (q) {
+      where.push("(r.reference LIKE ? OR r.transaction_id LIKE ? OR r.payer_phone LIKE ? OR u.full_name LIKE ? OR u.email LIKE ?)");
+      params.push(...Array<string>(5).fill(`%${q}%`));
+    }
+    const pool = getPool();
+    const [[items], [counts]] = await Promise.all([
+      pool.query<RowDataPacket[]>(
+        `SELECT r.*, u.full_name, u.email, u.phone, h.full_name AS handled_by_name
+         FROM credit_requests r JOIN users u ON u.id = r.user_id LEFT JOIN users h ON h.id = r.handled_by
+         WHERE ${where.join(" AND ")} ORDER BY r.id DESC LIMIT 200`,
+        params,
+      ),
+      pool.query<RowDataPacket[]>("SELECT status, COUNT(*) AS n FROM credit_requests GROUP BY status"),
+    ]);
+    return c.json({ items, counts: Object.fromEntries(counts.map((r) => [r.status, Number(r.n)])) });
+  })
+  .post("/credit-requests/:id/approve", requirePermission("leadgen", "manage"), validate("json", z.object({ note: optionalText(300) })), async (c) => {
+    const admin = c.get("admin");
+    const r = await approveCreditRequest(Number(c.req.param("id")), admin.id, c.req.valid("json").note ?? null);
+    notify(r.user_id, {
+      kind: "leadgen",
+      title: `${Number(r.credits).toLocaleString("en-US")} credits added to your wallet`,
+      body: `Your mobile money payment ${r.reference} was confirmed.`,
+      link: "/leadgen/portal/wallet",
+    });
+    logActivity(admin.id, "approved", "credit_requests", r.id, `Approved MoMo top-up ${r.reference}: ${r.credits} credits for GHS ${r.amount_ghs}`);
+    return c.json({ ok: true, balance: await walletBalance(r.user_id) });
+  })
+  .post("/credit-requests/:id/alert", requirePermission("leadgen", "manage"), async (c) => {
+    const status = await resendCreditAlert(Number(c.req.param("id")));
+    if (!status.startsWith("sent")) throw new AppError(`The SMS alert failed again (${status.replace(/^failed: /, "")}).`, 409);
+    return c.json({ status });
+  })
+  .post("/credit-requests/:id/reject", requirePermission("leadgen", "manage"), validate("json", z.object({ reason: z.string().trim().min(3).max(300) })), async (c) => {
+    const admin = c.get("admin");
+    const { reason } = c.req.valid("json");
+    const r = await rejectCreditRequest(Number(c.req.param("id")), admin.id, reason);
+    notify(r.user_id, { kind: "leadgen", title: `Your credit payment ${r.reference} wasn't confirmed`, body: reason, link: "/leadgen/portal/wallet" });
+    logActivity(admin.id, "rejected", "credit_requests", r.id, `Rejected MoMo top-up ${r.reference} — ${reason}`);
+    return c.json({ ok: true });
+  })
   .post("/broadcasts/:id/cancel", requirePermission("leadgen", "manage"), async (c) => {
     const id = Number(c.req.param("id"));
     await cancelBroadcast(null, id);
     logActivity(c.get("admin").id, "suspended", "broadcasts", id, `Cancelled broadcast #${id} (credits refunded)`);
+    return c.json({ ok: true });
+  })
+  .post("/series/:id/cancel", requirePermission("leadgen", "manage"), async (c) => {
+    const id = Number(c.req.param("id"));
+    await setSeriesStatus(null, id, "cancel");
+    logActivity(c.get("admin").id, "suspended", "broadcast_series", id, `Stopped repeating broadcast series #${id}`);
     return c.json({ ok: true });
   })
   // ---- Member picker -----------------------------------------------------------------------

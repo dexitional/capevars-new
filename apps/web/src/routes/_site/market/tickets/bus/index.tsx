@@ -8,6 +8,7 @@ import { formatDate, formatTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
 import { Container, EmptyState, Img, Loading, PageHero } from "#/components/site/kit";
 import { BusSearchForm } from "#/components/market/bus-search";
+import { ShareTripButton } from "#/components/market/share-trip";
 
 type Row = Record<string, any>;
 const search = z.object({ from: z.string().optional().catch(undefined), to: z.string().optional().catch(undefined), date: z.string().optional().catch(undefined) });
@@ -45,12 +46,14 @@ function BusSearchPage() {
           <div className="space-y-3">
             <p className="text-sm text-muted-foreground">{data.items.length} trips</p>
             {data.items.map((t) => (
-              <Link key={t.id} to="/market/tickets/bus/$id" params={{ id: String(t.id) }} className="card-hover group grid items-center gap-4 rounded-2xl border bg-white p-5 sm:grid-cols-[auto_1fr_auto]">
+              // The title link stretches over the whole card, so the card opens the trip
+              // while the Share button above it stays its own control.
+              <div key={t.id} className="card-hover group relative grid items-center gap-4 rounded-2xl border bg-white p-5 sm:grid-cols-[auto_1fr_auto]">
                 <Img src={t.operator_logo} className="size-14 rounded-xl" fallback={<Bus className="size-6" />} />
                 <div>
-                  <p className="flex items-center gap-2 text-lg font-black text-primary">
+                  <Link to="/market/tickets/bus/$id" params={{ id: String(t.id) }} className="flex items-center gap-2 text-lg font-black text-primary after:absolute after:inset-0 after:rounded-2xl">
                     {t.origin} <ArrowRight className="size-4" /> {t.destination}
-                  </p>
+                  </Link>
                   <p className="mt-1 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
                     <span className="flex items-center gap-1">
                       <Clock className="size-4" /> {formatDate(t.departs_at)} · {formatTime(t.departs_at)}
@@ -77,8 +80,11 @@ function BusSearchPage() {
                   ) : (
                     <span className="mt-1.5 inline-block rounded-[0.45em] border-2 border-slate-300 bg-slate-100 px-[0.75em] py-[0.32em] text-xs font-black text-slate-400">Full</span>
                   )}
+                  <div className="relative z-10 mt-2 flex justify-end">
+                    <ShareTripButton trip={t} />
+                  </div>
                 </div>
-              </Link>
+              </div>
             ))}
           </div>
         )}

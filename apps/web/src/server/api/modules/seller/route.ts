@@ -135,6 +135,9 @@ export const tripSchema = z.object({
   origin: z.string().trim().min(2).max(100),
   destination: z.string().trim().min(2).max(100),
   pickupPoint: optionalText(200),
+  // The pickup point's map pin; the trip flyer turns it into a directions QR code.
+  pickupLat: z.number().min(-90).max(90).nullable().optional(),
+  pickupLng: z.number().min(-180).max(180).nullable().optional(),
   departsAt: dateTime,
   arrivesAt: dateTime.nullable().optional(),
   busType: optionalText(60),
@@ -147,6 +150,8 @@ export const TRIP_FIELDS = {
   origin: "origin",
   destination: "destination",
   pickupPoint: "pickup_point",
+  pickupLat: "pickup_lat",
+  pickupLng: "pickup_lng",
   departsAt: "departs_at",
   arrivesAt: "arrives_at",
   busType: "bus_type",

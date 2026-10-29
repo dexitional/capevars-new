@@ -2,7 +2,9 @@ import { useState } from "react";
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
+import { Repeat } from "lucide-react";
 import { api } from "#/lib/api-client";
+import { SeriesActions, SeriesStatus, seriesSummary } from "#/components/leadgen/series-actions";
 import { cn } from "#/lib/utils";
 import { formatDateTime } from "#/lib/format";
 import { Chip, Loading, StatusBadge } from "#/components/site/kit";
@@ -17,7 +19,7 @@ function BroadcastDetail() {
   const [filter, setFilter] = useState<"" | "sent" | "failed" | "queued">("");
   const { data, refetch } = useQuery({
     queryKey: ["leadgen", "broadcast", id, filter],
-    queryFn: () => api.get<{ broadcast: Row; recipients: Array<Row> }>(`/leadgen/portal/broadcasts/${id}`, { status: filter }),
+    queryFn: () => api.get<{ broadcast: Row; recipients: Array<Row>; series: Row | null }>(`/leadgen/portal/broadcasts/${id}`, { status: filter }),
     refetchInterval: (q) => (["queued", "sending", "scheduled"].includes(q.state.data?.broadcast.status) ? 4000 : false),
   });
   const cancel = useMutation({
@@ -48,12 +50,28 @@ function BroadcastDetail() {
           <div className="flex items-center gap-2">
             <StatusBadge status={b.status} />
             {["queued", "scheduled"].includes(b.status) && (
-              <Button size="sm" variant="outline" onClick={() => confirm("Cancel and refund this broadcast?") && cancel.mutate()}>
+              <Button size="sm" variant="outline" onClick={() => confirm(data.series?.source_broadcast_id === b.id ? "Cancel and refund this broadcast? Its repeats are stopped too." : "Cancel and refund this broadcast?") && cancel.mutate()}>
                 Cancel
               </Button>
             )}
           </div>
         </div>
+        {data.series && (
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-cyan-200 bg-cyan-50 p-3 text-sm">
+            <div className="min-w-0">
+              <p className="flex items-center gap-2 font-semibold text-cyan-900">
+                <Repeat className="size-4" /> Repeats {seriesSummary(data.series)} <SeriesStatus s={data.series} />
+              </p>
+              {data.series.status === "paused" && data.series.status_reason && <p className="mt-1 text-xs text-amber-800">{data.series.status_reason}</p>}
+              {data.series.source_broadcast_id !== b.id && (
+                <Link to="/leadgen/portal/broadcasts/$id" params={{ id: String(data.series.source_broadcast_id) }} className="mt-1 block text-xs text-cyan-800 underline">
+                  View the first send
+                </Link>
+              )}
+            </div>
+            <SeriesActions s={data.series} onDone={() => void refetch()} />
+          </div>
+        )}
         <p className="mt-4 rounded-xl bg-muted p-4 text-sm whitespace-pre-wrap">{b.body}</p>
         <div className="mt-5">
           <div className="h-2.5 overflow-hidden rounded-full bg-muted">

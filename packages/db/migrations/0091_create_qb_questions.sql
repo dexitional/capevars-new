@@ -1,0 +1,20 @@
+CREATE TABLE IF NOT EXISTS qb_questions (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  type ENUM('choice', 'text') NOT NULL DEFAULT 'choice',
+  body TEXT NOT NULL,
+  media JSON NULL,
+  options JSON NULL,
+  correct_index TINYINT UNSIGNED NULL,
+  answer TEXT NULL,
+  explanation TEXT NULL,
+  hint VARCHAR(1000) NULL,
+  difficulty ENUM('easy', 'medium', 'hard') NOT NULL DEFAULT 'medium',
+  marks DECIMAL(5, 2) NOT NULL DEFAULT 1,
+  status ENUM('draft', 'published') NOT NULL DEFAULT 'published',
+  discussion_count INT UNSIGNED NOT NULL DEFAULT 0,
+  created_by INT UNSIGNED NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  KEY idx_qb_questions_status (status, id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

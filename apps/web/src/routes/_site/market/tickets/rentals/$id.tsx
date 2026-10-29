@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { CheckCircle2, Users } from "lucide-react";
+import { CheckCircle2, QrCode, Users } from "lucide-react";
 import { ApiError, api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { formatMoney } from "#/lib/money";
@@ -81,6 +81,9 @@ function RentalPage() {
             {formatMoney(r.price_per_day)} <span className="text-sm font-medium text-muted-foreground">/ day</span>
           </p>
           <p className="text-xs text-muted-foreground">Final price is quoted by the operator.</p>
+          <Link to="/market/tickets/rentals/$id/flyer" params={{ id: String(r.id) }} className="mt-2 inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline">
+            <QrCode className="size-3.5" /> Share or print a flyer
+          </Link>
           {sent ? (
             <div className="mt-6 text-center">
               <CheckCircle2 className="mx-auto size-12 text-success" />

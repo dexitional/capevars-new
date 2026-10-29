@@ -15,6 +15,7 @@ import {
   CirclePlus,
   Compass,
   Contact,
+  FileQuestion,
   Flag,
   GraduationCap,
   Heart,
@@ -252,6 +253,12 @@ export const SYSTEMS: Array<NavSystem> = [
         label: "kidiLearn",
         text: "Your learning journey, KG to Basic 9",
         icon: BookOpen,
+      },
+      {
+        to: "/learn/quizbank",
+        label: "Quizbank",
+        text: "Exam practice: Tertiary, SHS, JHS, TVET, NVTI",
+        icon: FileQuestion,
       },
       {
         to: "/learn/teach",

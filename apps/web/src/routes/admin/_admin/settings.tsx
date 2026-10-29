@@ -5,6 +5,8 @@ import { toast } from "sonner";
 import { Plus, Trash2 } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
+import { MOMO_NETWORKS } from "#/lib/credits";
+import type { MomoAccount, MomoNetwork } from "#/lib/credits";
 import { SOCIAL_PLATFORMS } from "#/lib/settings";
 import type { SettingsKey, SiteSettings } from "#/lib/settings";
 import { canManage } from "#/lib/permissions";
@@ -243,6 +245,38 @@ function SettingsPage() {
                     <Field label="Lead-sharing terms" className="sm:col-span-2" hint="Shown when members create or publish lead lists.">
                       <Textarea rows={5} value={d.leadgen.terms} onChange={(e) => set("leadgen", { terms: e.target.value })} />
                     </Field>
+                  </div>
+                </Panel>
+                <Panel
+                  title="Mobile money payments"
+                  description="Wallets members can send money to by hand when buying credits. The number gets an SMS each time a payment is claimed; approve it under LeadGen → MoMo payments."
+                >
+                  <div className="space-y-2">
+                    {d.leadgen.momoAccounts.map((a, i) => {
+                      const update = (patch: Partial<MomoAccount>) => set("leadgen", { momoAccounts: d.leadgen.momoAccounts.map((x, j) => (j === i ? { ...x, ...patch } : x)) });
+                      return (
+                        <div key={i} className="flex flex-wrap items-center gap-2">
+                          <select value={a.network} onChange={(e) => update({ network: e.target.value as MomoNetwork })} className="h-9 rounded-md border bg-white px-3 text-sm" aria-label="Network">
+                            {Object.entries(MOMO_NETWORKS).map(([k, v]) => (
+                              <option key={k} value={k}>
+                                {v}
+                              </option>
+                            ))}
+                          </select>
+                          <Input value={a.name} onChange={(e) => update({ name: e.target.value })} placeholder="Account name" className="w-64" aria-label="Account name" />
+                          <Input value={a.number} onChange={(e) => update({ number: e.target.value.replace(/\D/g, "").slice(0, 10) })} placeholder="0241234567" inputMode="numeric" className="w-36 font-mono" aria-label="Number" />
+                          <Button type="button" size="icon-sm" variant="ghost" onClick={() => set("leadgen", { momoAccounts: d.leadgen.momoAccounts.filter((_, j) => j !== i) })} aria-label="Remove account">
+                            <Trash2 />
+                          </Button>
+                        </div>
+                      );
+                    })}
+                    {d.leadgen.momoAccounts.length === 0 && <p className="text-sm text-muted-foreground">No accounts: members can only pay online or redeem vouchers.</p>}
+                    {d.leadgen.momoAccounts.length < 4 && (
+                      <Button type="button" size="sm" variant="outline" onClick={() => set("leadgen", { momoAccounts: [...d.leadgen.momoAccounts, { network: "mtn", name: "", number: "" }] })}>
+                        <Plus /> Add account
+                      </Button>
+                    )}
                   </div>
                 </Panel>
               </>

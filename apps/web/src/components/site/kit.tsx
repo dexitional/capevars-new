@@ -316,6 +316,7 @@ const BADGE: Record<string, string> = {
   reserved: "bg-amber-50 text-amber-800 ring-amber-600/20",
   requested: "bg-amber-50 text-amber-800 ring-amber-600/20",
   submitted: "bg-amber-50 text-amber-800 ring-amber-600/20",
+  awaiting: "bg-amber-50 text-amber-800 ring-amber-600/20",
   pending_payment: "bg-amber-50 text-amber-800 ring-amber-600/20",
   quoted: "bg-sky-50 text-sky-700 ring-sky-600/20",
   ready: "bg-sky-50 text-sky-700 ring-sky-600/20",
