@@ -3,7 +3,9 @@ import { useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { Copy, Database, Download, Plus, Send } from "lucide-react";
 import { api } from "#/lib/api-client";
+import { formatDate } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
+import { cn } from "#/lib/utils";
 import { EmptyState, Loading, SectionHeader, StatusBadge } from "#/components/site/kit";
 import { Button } from "#/components/ui/button";
 
@@ -101,8 +103,13 @@ function MyLeads() {
                   <StatusBadge status={a.access_status} label={a.access_status === "pending" ? "awaiting payment" : undefined} />
                 </div>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  {Number(a.contact_count).toLocaleString()} contacts · {a.phone_count} phones · {a.email_count} emails · via {a.source}
+                  {Number(a.contact_count).toLocaleString()} contacts · {a.phone_count} phones · {a.email_count} emails · {a.source === "admin" ? "shared by Capevars" : `via ${a.source}`}
                 </p>
+                {a.expires_at && (
+                  <p className={cn("mt-1 text-xs font-medium", a.access_status === "expired" ? "text-destructive" : "text-amber-700")}>
+                    {a.access_status === "expired" ? "Access expired" : "Access until"} {formatDate(a.expires_at)}
+                  </p>
+                )}
                 <div className="mt-3 flex flex-wrap items-center gap-2">
                   <button type="button" onClick={() => copy(a.voucher_code)} className="inline-flex items-center gap-1 rounded-lg bg-accent px-2.5 py-1 font-mono text-xs font-bold text-primary">
                     {a.voucher_code} <Copy className="size-3" />

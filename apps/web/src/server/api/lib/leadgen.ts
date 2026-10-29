@@ -2,6 +2,7 @@
 // the broadcast engine (recipient building, credit reservation, a queue
 // worker that sends in batches, and refunds for failed recipients).
 import { createHmac } from "node:crypto";
+import { z } from "zod";
 import { getPool } from "@cv/db";
 import type { PoolConnection, ResultSetHeader, RowDataPacket } from "mysql2/promise";
 import { DEFAULT_SETTINGS, mergeSetting } from "#/lib/settings";
@@ -74,7 +75,67 @@ export async function redeemCreditVoucher(userId: number, code: string) {
   });
 }
 
+// ---- Lead list contacts ------------------------------------------------------------------
+
+export const CATEGORIES = ["group", "community", "business", "people", "institution", "association", "other"] as const;
+
+export const contactSchema = z.object({
+  name: z.string().trim().max(150).nullish(),
+  phone: z.union([z.string(), z.number()]).nullish(),
+  email: z.string().trim().max(150).nullish(),
+  organization: z.string().trim().max(150).nullish(),
+  role: z.string().trim().max(100).nullish(),
+  location: z.string().trim().max(150).nullish(),
+});
+export const contactsSchema = z.array(contactSchema).max(20_000);
+
+export async function recountList(listId: number) {
+  await getPool().execute(
+    `UPDATE lead_lists SET
+       phone_count = (SELECT COUNT(phone) FROM lead_contacts WHERE list_id = ?),
+       email_count = (SELECT COUNT(email) FROM lead_contacts WHERE list_id = ?),
+       contact_count = (SELECT COUNT(*) FROM lead_contacts WHERE list_id = ?)
+     WHERE id = ?`,
+    [listId, listId, listId, listId],
+  );
+}
+
+// Normalises, de-duplicates and stores contacts; returns how many were added.
+export async function insertContacts(listId: number, raw: z.infer<typeof contactsSchema>) {
+  const seen = new Set<string>();
+  const rows: Array<Array<string | number | null>> = [];
+  let invalid = 0;
+  for (const c of raw) {
+    const phone = normalizePhone(c.phone);
+    const email = normalizeEmail(c.email);
+    if (!phone && !email) {
+      invalid++;
+      continue;
+    }
+    const key = `${phone ?? ""}|${email ?? ""}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    rows.push([listId, c.name?.slice(0, 150) || null, phone, email, c.organization?.slice(0, 150) || null, c.role?.slice(0, 100) || null, c.location?.slice(0, 150) || null]);
+  }
+  let added = 0;
+  for (let i = 0; i < rows.length; i += 1000) {
+    const [res] = await getPool().query<ResultSetHeader>(
+      "INSERT IGNORE INTO lead_contacts (list_id, name, phone, email, organization, role, location) VALUES ?",
+      [rows.slice(i, i + 1000)],
+    );
+    added += res.affectedRows;
+  }
+  await recountList(listId);
+  return { added, invalid, duplicates: raw.length - invalid - added };
+}
+
 // ---- Lead list access --------------------------------------------------------------------
+
+// Access that can be used right now: active and not past its expiry (only
+// admin shares carry one). Use with the lead_access table aliased as `a`.
+export const LIVE_ACCESS = "a.status = 'active' AND (a.expires_at IS NULL OR a.expires_at > NOW())";
+// The status shown to members, with lapsed admin shares reported as 'expired'.
+export const ACCESS_STATUS = "CASE WHEN a.status = 'active' AND a.expires_at <= NOW() THEN 'expired' ELSE a.status END";
 
 export async function uniqueVoucher(table: "lead_access" | "lead_lists", column: "voucher_code" | "share_code", prefix: string) {
   for (;;) {
@@ -110,6 +171,32 @@ export async function grantAccess(
   }
   const [rows] = await pool.execute<RowDataPacket[]>("SELECT * FROM lead_access WHERE id = ?", [res.insertId]);
   return rows[0]!;
+}
+
+// An admin share of a list with one member, until `expiresAt` (or for good
+// when null). Sharing again reactivates a revoked share and resets its expiry.
+export async function shareList(listId: number, userId: number, expiresAt: string | null) {
+  const pool = getPool();
+  const [existing] = await pool.execute<RowDataPacket[]>("SELECT id FROM lead_access WHERE list_id = ? AND user_id = ?", [listId, userId]);
+  if (existing[0]) {
+    await pool.execute("UPDATE lead_access SET status = 'active', expires_at = ? WHERE id = ?", [expiresAt, existing[0].id]);
+  } else {
+    const code = await uniqueVoucher("lead_access", "voucher_code", "LV");
+    await pool.execute("INSERT INTO lead_access (list_id, user_id, voucher_code, source, status, expires_at) VALUES (?, ?, ?, 'admin', 'active', ?)", [
+      listId,
+      userId,
+      code,
+      expiresAt,
+    ]);
+  }
+  await recountAccess(listId);
+}
+
+export async function recountAccess(listId: number) {
+  await getPool().execute(
+    "UPDATE lead_lists SET access_count = (SELECT COUNT(*) FROM lead_access WHERE list_id = ? AND source <> 'owner' AND status = 'active') WHERE id = ?",
+    [listId, listId],
+  );
 }
 
 // A paid list's access goes live once its payment succeeds (or the owner
@@ -156,11 +243,11 @@ export async function buildRecipients(userId: number, channel: Channel, accessId
   };
   if (accessIds.length) {
     const [lists] = await pool.query<RowDataPacket[]>(
-      "SELECT list_id FROM lead_access WHERE id IN (?) AND user_id = ? AND status = 'active'",
+      `SELECT a.list_id FROM lead_access a WHERE a.id IN (?) AND a.user_id = ? AND ${LIVE_ACCESS}`,
       [accessIds, userId],
     );
     const listIds = lists.map((l) => l.list_id as number);
-    if (listIds.length !== accessIds.length) throw new AppError("One of the selected lead lists isn't available to you.", 403);
+    if (listIds.length !== accessIds.length) throw new AppError("One of the selected lead lists isn't available to you, or your access has expired.", 403);
     const column = channel === "sms" ? "phone" : "email";
     const [contacts] = await pool.query<RowDataPacket[]>(
       `SELECT name, ${column} AS address FROM lead_contacts WHERE list_id IN (?) AND ${column} IS NOT NULL LIMIT ?`,
