@@ -9,17 +9,19 @@ import { formatMoney } from "#/lib/money";
 import { AdminPageHeader, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
+import { CreateSender, PrivateLists } from "#/components/admin/leadgen-tools";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
 
 type Row = Record<string, any>;
-type Tab = "lists" | "senders" | "broadcasts" | "payouts" | "vouchers" | "wallets" | "status";
+type Tab = "lists" | "private" | "senders" | "broadcasts" | "payouts" | "vouchers" | "wallets" | "status";
 
 export const Route = createFileRoute("/admin/_admin/leadgen")({
   loader: ({ context }) => prefetchModeration(context.queryClient, "lead-lists", "pending"), component: LeadGenAdmin });
 
 function LeadGenAdmin() {
+  const queryClient = useQueryClient();
   const [tab, setTab] = useState<Tab>("lists");
   return (
     <div className="space-y-6">
@@ -29,6 +31,7 @@ function LeadGenAdmin() {
         onChange={setTab}
         options={[
           { value: "lists", label: "Lead lists" },
+          { value: "private", label: "Private lists" },
           { value: "senders", label: "Sender IDs" },
           { value: "broadcasts", label: "Broadcasts" },
           { value: "payouts", label: "Payouts" },
@@ -52,8 +55,10 @@ function LeadGenAdmin() {
           ]}
         />
       )}
+      {tab === "private" && <PrivateLists />}
       {tab === "senders" && (
         <>
+          <CreateSender onCreated={() => void queryClient.invalidateQueries({ queryKey: ["admin-mod", "sender-ids"] })} />
           <p className="flex items-start gap-2 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">
             <AlertTriangle className="mt-0.5 size-4 shrink-0" /> Register each SMS sender ID in your SMSOnlineGH account (SMS Messaging → Sender names) before approving it here — unregistered senders are rejected by the gateway.
           </p>

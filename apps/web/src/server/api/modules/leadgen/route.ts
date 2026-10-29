@@ -16,32 +16,26 @@ import { uniqueSlug } from "../../lib/slug.js";
 import { AppError } from "../../middleware/error-handler.js";
 import { notify } from "../../lib/notify.js";
 import { createPayment, paystackEnabled } from "../../lib/payments.js";
-import { messagingStatus, normalizeEmail, normalizePhone } from "../../lib/messaging.js";
+import { messagingStatus, normalizeEmail } from "../../lib/messaging.js";
 import {
+  ACCESS_STATUS,
+  CATEGORIES,
+  LIVE_ACCESS,
   activateLeadAccess,
   buildRecipients,
   cancelBroadcast,
+  contactsSchema,
   createBroadcast,
   estimate,
   grantAccess,
+  insertContacts,
   leadgenSettings,
   optoutToken,
+  recountList,
   redeemCreditVoucher,
   uniqueVoucher,
   walletBalance,
 } from "../../lib/leadgen.js";
-
-const CATEGORIES = ["group", "community", "business", "people", "institution", "association", "other"] as const;
-
-const contactSchema = z.object({
-  name: z.string().trim().max(150).nullish(),
-  phone: z.union([z.string(), z.number()]).nullish(),
-  email: z.string().trim().max(150).nullish(),
-  organization: z.string().trim().max(150).nullish(),
-  role: z.string().trim().max(100).nullish(),
-  location: z.string().trim().max(150).nullish(),
-});
-const contactsSchema = z.array(contactSchema).max(20_000);
 
 const listSchema = z.object({
   title: z.string().trim().min(3).max(200),
@@ -105,46 +99,6 @@ const maskEmail = (e: string | null) => {
   return `${user.slice(0, 2)}•••@${domain}`;
 };
 const maskName = (n: string | null) => (n ? n.split(/\s+/).map((w, i) => (i === 0 ? w : `${w[0] ?? ""}.`)).join(" ") : null);
-
-async function recountList(listId: number) {
-  await getPool().execute(
-    `UPDATE lead_lists SET
-       phone_count = (SELECT COUNT(phone) FROM lead_contacts WHERE list_id = ?),
-       email_count = (SELECT COUNT(email) FROM lead_contacts WHERE list_id = ?),
-       contact_count = (SELECT COUNT(*) FROM lead_contacts WHERE list_id = ?)
-     WHERE id = ?`,
-    [listId, listId, listId, listId],
-  );
-}
-
-// Normalises, de-duplicates and stores contacts; returns how many were added.
-async function insertContacts(listId: number, raw: z.infer<typeof contactsSchema>) {
-  const seen = new Set<string>();
-  const rows: Array<Array<string | number | null>> = [];
-  let invalid = 0;
-  for (const c of raw) {
-    const phone = normalizePhone(c.phone);
-    const email = normalizeEmail(c.email);
-    if (!phone && !email) {
-      invalid++;
-      continue;
-    }
-    const key = `${phone ?? ""}|${email ?? ""}`;
-    if (seen.has(key)) continue;
-    seen.add(key);
-    rows.push([listId, c.name?.slice(0, 150) || null, phone, email, c.organization?.slice(0, 150) || null, c.role?.slice(0, 100) || null, c.location?.slice(0, 150) || null]);
-  }
-  let added = 0;
-  for (let i = 0; i < rows.length; i += 1000) {
-    const [res] = await getPool().query<ResultSetHeader>(
-      "INSERT IGNORE INTO lead_contacts (list_id, name, phone, email, organization, role, location) VALUES ?",
-      [rows.slice(i, i + 1000)],
-    );
-    added += res.affectedRows;
-  }
-  await recountList(listId);
-  return { added, invalid, duplicates: raw.length - invalid - added };
-}
 
 async function ownedList(c: Context, id: number) {
   const [rows] = await getPool().execute<RowDataPacket[]>("SELECT * FROM lead_lists WHERE id = ? AND user_id = ?", [id, c.get("member").id]);
@@ -223,16 +177,21 @@ export const leadgenRoute = new Hono()
     );
     const list = rows[0];
     const isOwner = Boolean(member && list?.user_id === member.id);
-    if (!list || (list.status !== "published" && !isOwner)) throw new AppError("Lead list not found.", 404);
+    let access = null;
+    if (member && list) {
+      const [a] = await pool.execute<RowDataPacket[]>(
+        `SELECT a.id, a.voucher_code, ${ACCESS_STATUS} AS status, a.source, a.expires_at FROM lead_access a WHERE a.list_id = ? AND a.user_id = ?`,
+        [list.id, member.id],
+      );
+      access = a[0] ?? null;
+    }
+    // Unpublished lists are visible to their owner and to members they were shared with.
+    const sharedWith = access && ["active", "expired"].includes(access.status);
+    if (!list || (list.status !== "published" && !isOwner && !sharedWith)) throw new AppError("Lead list not found.", 404);
     const [sample] = await pool.query<RowDataPacket[]>(
       "SELECT name, phone, email, organization, role, location FROM lead_contacts WHERE list_id = ? ORDER BY id LIMIT 8",
       [list.id],
     );
-    let access = null;
-    if (member) {
-      const [a] = await pool.execute<RowDataPacket[]>("SELECT id, voucher_code, status, source FROM lead_access WHERE list_id = ? AND user_id = ?", [list.id, member.id]);
-      access = a[0] ?? null;
-    }
     const { share_code: shareCode, ...rest } = list;
     return c.json({
       list: { ...rest, share_code: isOwner ? shareCode : undefined },
@@ -285,7 +244,8 @@ export const leadgenRoute = new Hono()
     if (credit) return c.json({ kind: "credits", ...credit });
     const [lists] = await getPool().execute<RowDataPacket[]>("SELECT id, title, user_id, status FROM lead_lists WHERE share_code = ?", [code]);
     const list = lists[0];
-    if (list && list.status !== "suspended") {
+    // Capevars' own private lists are only shared by admins, member by member.
+    if (list && list.status !== "suspended" && !(list.user_id === null && list.status !== "published")) {
       if (list.user_id === member.id) throw new AppError("That's your own list's share code.", 409);
       const access = await grantAccess(list.id, member.id, "share");
       return c.json({ kind: "list", title: list.title, voucher: access.voucher_code });
@@ -310,7 +270,7 @@ export const leadgenRoute = new Hono()
     const pool = getPool();
     const [[recent], [lists], [senders], [stats]] = await Promise.all([
       pool.query<RowDataPacket[]>("SELECT id, channel, subject, LEFT(body, 120) AS preview, recipient_count, sent_count, failed_count, status, created_at FROM broadcasts WHERE user_id = ? ORDER BY id DESC LIMIT 6", [id]),
-      pool.query<RowDataPacket[]>("SELECT COUNT(*) AS `accessible`, COALESCE(SUM(l.contact_count), 0) AS contacts FROM lead_access a JOIN lead_lists l ON l.id = a.list_id WHERE a.user_id = ? AND a.status = 'active'", [id]),
+      pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS \`accessible\`, COALESCE(SUM(l.contact_count), 0) AS contacts FROM lead_access a JOIN lead_lists l ON l.id = a.list_id WHERE a.user_id = ? AND ${LIVE_ACCESS}`, [id]),
       pool.query<RowDataPacket[]>("SELECT channel, sender, status FROM sender_ids WHERE user_id = ? ORDER BY status = 'approved' DESC, id DESC", [id]),
       pool.query<RowDataPacket[]>(
         "SELECT COUNT(*) AS broadcasts, COALESCE(SUM(sent_count), 0) AS sent, COALESCE(SUM(cost_credits - refunded_credits), 0) AS spent FROM broadcasts WHERE user_id = ?",
@@ -321,7 +281,7 @@ export const leadgenRoute = new Hono()
   })
   .get("/portal/access", requireMember, async (c) => {
     const [items] = await getPool().query<RowDataPacket[]>(
-      `SELECT a.id AS access_id, a.voucher_code, a.source, a.status AS access_status, a.created_at AS acquired_at,
+      `SELECT a.id AS access_id, a.voucher_code, a.source, ${ACCESS_STATUS} AS access_status, a.expires_at, a.created_at AS acquired_at,
          l.id, l.title, l.slug, l.category, l.status, l.phone_count, l.email_count, l.contact_count, l.allow_download, l.user_id = ? AS is_owner
        FROM lead_access a JOIN lead_lists l ON l.id = a.list_id WHERE a.user_id = ? AND a.status <> 'revoked' AND l.status <> 'suspended'
        ORDER BY a.id DESC`,
@@ -422,7 +382,7 @@ export const leadgenRoute = new Hono()
     const id = Number(c.req.param("id"));
     const [rows] = await getPool().execute<RowDataPacket[]>(
       `SELECT l.title, l.slug, l.allow_download, l.user_id FROM lead_lists l JOIN lead_access a ON a.list_id = l.id
-       WHERE l.id = ? AND a.user_id = ? AND a.status = 'active' AND l.status <> 'suspended'`,
+       WHERE l.id = ? AND a.user_id = ? AND ${LIVE_ACCESS} AND l.status <> 'suspended'`,
       [id, member.id],
     );
     const list = rows[0];
@@ -631,12 +591,12 @@ async function resolveAudience(userId: number, accessIds: Array<number>, voucher
   const ids = new Set(accessIds);
   if (vouchers.length) {
     const [rows] = await getPool().query<RowDataPacket[]>(
-      "SELECT id, voucher_code FROM lead_access WHERE voucher_code IN (?) AND user_id = ? AND status = 'active'",
+      `SELECT a.id, a.voucher_code FROM lead_access a WHERE a.voucher_code IN (?) AND a.user_id = ? AND ${LIVE_ACCESS}`,
       [vouchers.map((v) => v.toUpperCase()), userId],
     );
     const found = new Set(rows.map((r) => r.voucher_code as string));
     const missing = vouchers.filter((v) => !found.has(v.toUpperCase()));
-    if (missing.length) throw new AppError(`Voucher ${missing[0]} isn't one of your lead lists. Get the list first, or redeem its share code.`, 404);
+    if (missing.length) throw new AppError(`Voucher ${missing[0]} isn't one of your lead lists, or your access to it has expired.`, 404);
     for (const r of rows) ids.add(r.id as number);
   }
   return [...ids];

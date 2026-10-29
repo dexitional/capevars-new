@@ -148,6 +148,7 @@ function LeadListPage() {
                   <button type="button" onClick={() => copy(access!.voucher_code)} className="flex items-center gap-2 font-mono text-lg font-black text-primary">
                     {access!.voucher_code} <Copy className="size-4" />
                   </button>
+                  {access!.expires_at && <p className="mt-1 text-xs font-medium text-amber-700">Access until {formatDate(access!.expires_at)}</p>}
                 </div>
                 <Button asChild className="w-full">
                   <Link to="/leadgen/portal/broadcast" search={{ voucher: access!.voucher_code }}>
@@ -164,7 +165,9 @@ function LeadListPage() {
               </div>
             ) : access?.status === "pending" ? (
               <p className="mt-5 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">Waiting for the owner to confirm your payment.</p>
-            ) : (
+            ) : access?.status === "expired" ? (
+              <p className="mt-5 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">Your access to this list ended on {formatDate(access.expires_at)}. Contact Capevars to extend it.</p>
+            ) : l.status !== "published" ? null : (
               <Button className="mt-5 h-11 w-full rounded-xl" disabled={get.isPending} onClick={() => requireMember(() => get.mutate())}>
                 {Number(l.price) === 0 ? "Get this list free" : data.onlinePayments ? `Buy for ${formatMoney(l.price)}` : "Request to buy"}
               </Button>

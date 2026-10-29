@@ -21,5 +21,18 @@ export const errorHandler: ErrorHandler = (err, c) => {
   }
 
   console.error(err);
+  // Node can report refused localhost connections as an AggregateError with
+  // an empty message. Give SSR loaders a useful error to serialize.
+  if ("code" in err && err.code === "ECONNREFUSED") {
+    return c.json(
+      {
+        error:
+          process.env.NODE_ENV === "development"
+            ? "Could not connect to a required service (ECONNREFUSED). Check that MySQL is running and DATABASE_URL is correct."
+            : "Service temporarily unavailable. Please try again shortly.",
+      },
+      503,
+    );
+  }
   return c.json({ error: "Internal server error" }, 500);
 };
