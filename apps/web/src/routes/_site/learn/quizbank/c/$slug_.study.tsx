@@ -12,8 +12,8 @@ import { useStartExam } from "#/components/quizbank/exam-settings";
 type Study = { course: { id: number; slug: string; title: string; level: QbLevel }; topics: Array<string>; position: number; questions: Array<QbPublicQuestion> };
 
 export const Route = createFileRoute("/_site/learn/quizbank/c/$slug_/study")({
-  // Topic ids to study instead of the board's choice, e.g. ?tags=3,5.
-  validateSearch: z.object({ tags: z.string().regex(/^[\d,]*$/).optional().catch(undefined) }),
+  // Topic ids to study instead of the board's choice, e.g. ?tags=3,5. A single id (?tags=3) is parsed as a number.
+  validateSearch: z.object({ tags: z.union([z.string(), z.number()]).transform(String).pipe(z.string().regex(/^[\d,]*$/)).optional().catch(undefined) }),
   loader: async ({ context, params }) => {
     try {
       return await context.queryClient.ensureQueryData({ queryKey: ["qb-course", params.slug], queryFn: () => api.get<{ course: { id: number } }>(`/learn/quizbank/courses/${params.slug}`) });

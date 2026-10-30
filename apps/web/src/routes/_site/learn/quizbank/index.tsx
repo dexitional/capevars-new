@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import type { RefObject } from "react";
 import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { keepPreviousData, useMutation, useQuery } from "@tanstack/react-query";
 import { z } from "zod";
@@ -126,6 +127,45 @@ function StudyBoard() {
   );
 }
 
+/**
+ * Moves a sideways-scrolling row along one item every few seconds, reversing direction at either end.
+ * It holds still while the row is hovered or focused, for a while after the visitor scrolls it themselves,
+ * and entirely for visitors who prefer reduced motion.
+ */
+function useStepScroll(ref: RefObject<HTMLElement | null>, items: number, every = 2500, holdAfterTouch = 8000) {
+  useEffect(() => {
+    const row = ref.current;
+    if (!row || !items || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let hovered = false;
+    let heldUntil = 0;
+    const hold = () => (heldUntil = Date.now() + holdAfterTouch);
+    const enter = () => (hovered = true);
+    const leave = () => (hovered = false);
+    let forward = true;
+    const tick = () => {
+      if (hovered || document.hidden || Date.now() < heldUntil || row.contains(document.activeElement)) return;
+      if (row.scrollWidth <= row.clientWidth) return;
+      if (forward && row.scrollLeft + row.clientWidth >= row.scrollWidth - 2) forward = false;
+      else if (!forward && row.scrollLeft <= 1) forward = true;
+      const children = Array.from(row.children as HTMLCollectionOf<HTMLElement>);
+      const next = forward ? children.find((c) => c.offsetLeft > row.scrollLeft + 1) : [...children].reverse().find((c) => c.offsetLeft < row.scrollLeft - 1);
+      row.scrollTo({ left: next?.offsetLeft ?? 0, behavior: "smooth" });
+    };
+    const timer = window.setInterval(tick, every);
+    row.addEventListener("pointerenter", enter);
+    row.addEventListener("pointerleave", leave);
+    row.addEventListener("wheel", hold, { passive: true });
+    row.addEventListener("touchstart", hold, { passive: true });
+    return () => {
+      window.clearInterval(timer);
+      row.removeEventListener("pointerenter", enter);
+      row.removeEventListener("pointerleave", leave);
+      row.removeEventListener("wheel", hold);
+      row.removeEventListener("touchstart", hold);
+    };
+  }, [ref, items, every, holdAfterTouch]);
+}
+
 function QuizbankHome() {
   const s = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
@@ -134,6 +174,8 @@ function QuizbankHome() {
   const [q, setQ] = useState(s.q ?? "");
   const page = s.page ?? 1;
   const { data: home } = useQuery({ queryKey: ["qb-home"], queryFn: () => api.get<Home>("/learn/quizbank/home"), staleTime: 60_000 });
+  const tagRow = useRef<HTMLDivElement>(null);
+  useStepScroll(tagRow, home?.tags.length ?? 0);
   const { data, isFetching } = useQuery({
     queryKey: ["qb-courses", s],
     queryFn: () => api.get<{ items: Array<QbCourseCard>; total: number }>("/learn/quizbank/courses", { ...s, page, pageSize: 24 }),
@@ -221,19 +263,22 @@ function QuizbankHome() {
           })}
         </div>
         {home && home.tags.length > 0 && (
-          <div className="mt-4 flex flex-wrap items-center gap-1.5">
-            <Hash className="size-4 text-muted-foreground" aria-hidden="true" />
-            {home.tags.map((t) => (
-              <button
-                key={t.slug}
-                type="button"
-                onClick={() => set({ tag: s.tag === t.slug ? undefined : t.slug })}
-                aria-pressed={s.tag === t.slug}
-                className={cn("rounded-full px-3 py-1 text-xs font-semibold", s.tag === t.slug ? "bg-amber-400 text-[#041d40]" : "bg-secondary text-primary hover:bg-accent")}
-              >
-                {t.name} <span className="opacity-60">{t.count}</span>
-              </button>
-            ))}
+          <div className="mt-4 flex items-center gap-1.5">
+            <Hash className="size-4 shrink-0 text-muted-foreground" aria-hidden="true" />
+            {/* One row that scrolls sideways on its own (useStepScroll), so the scrollbar is hidden. */}
+            <div ref={tagRow} className="relative flex min-w-0 flex-1 gap-1.5 no-scrollbar overflow-x-auto">
+              {home.tags.map((t) => (
+                <button
+                  key={t.slug}
+                  type="button"
+                  onClick={() => set({ tag: s.tag === t.slug ? undefined : t.slug })}
+                  aria-pressed={s.tag === t.slug}
+                  className={cn("shrink-0 whitespace-nowrap rounded-full px-3 py-1 text-xs font-semibold", s.tag === t.slug ? "bg-amber-400 text-[#041d40]" : "bg-secondary text-primary hover:bg-accent")}
+                >
+                  {t.name} <span className="opacity-60">{t.count}</span>
+                </button>
+              ))}
+            </div>
           </div>
         )}
         {(s.q || s.tag) && (

@@ -1,0 +1,1061 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following is not a quality assurance activity?",
+    "options": [
+      {
+        "text": "Code inspection",
+        "hint": "Code inspection is a classic QA activity: peers review code to find defects early."
+      },
+      {
+        "text": "Testing",
+        "hint": "Testing is a core quality activity that verifies the software works as required."
+      },
+      {
+        "text": "Risk management",
+        "hint": "Risk management is mostly a project-management activity, but it also protects quality and is often part of a QA plan (e.g. risk-based testing). Project planning is the clearer non-QA activity."
+      },
+      {
+        "text": "Project planning",
+        "hint": "Correct. Project planning (scheduling, budgeting, resourcing) is a project-management activity, not a quality assurance one."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "QA activities check or improve the quality of the product and process. Which option is about organising the project instead?",
+    "explanation": "Software Quality Assurance covers activities that ensure the product and process meet quality standards: reviews and inspections, audits, testing, standards compliance, metrics and process improvement.\n\nProject planning — defining scope, schedules, budgets and resources — belongs to project management. The two work together, but planning itself is not a QA activity.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Quality Assurance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the primary goal of software quality assurance (SQA)? Ensure ____",
+    "options": [
+      {
+        "text": "software is delivered on time",
+        "hint": "Timely delivery is a project-management goal (schedule), not SQA's primary aim."
+      },
+      {
+        "text": "software meets quality standards",
+        "hint": "Correct. SQA ensures the software and the processes used to build it conform to defined quality standards and requirements."
+      },
+      {
+        "text": "that the software is secure",
+        "hint": "Security is one quality attribute among many; SQA covers quality as a whole."
+      },
+      {
+        "text": "user satisfaction",
+        "hint": "User satisfaction is an outcome of good quality, but SQA's defined goal is conformance to quality standards."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The answer is in the name: quality assurance.",
+    "explanation": "SQA is a planned, systematic set of activities that provides confidence that a software product and its development process conform to established quality standards, requirements and procedures (e.g. ISO 9001, CMMI, IEEE standards). Security, timeliness and satisfaction matter, but they are covered by other disciplines or follow from quality.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Quality Assurance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In which phase of software development does quality assurance primarily occur?",
+    "options": [
+      {
+        "text": "Testing phase",
+        "hint": "Testing is only one part of QA. Waiting until testing finds defects late, when they are most expensive to fix."
+      },
+      {
+        "text": "Throughout all phases",
+        "hint": "Correct. QA runs across the whole life cycle — requirement reviews, design reviews, code inspections, testing and maintenance."
+      },
+      {
+        "text": "Design phase",
+        "hint": "Design reviews are part of QA, but QA is not limited to design."
+      },
+      {
+        "text": "Coding phase",
+        "hint": "Coding standards and code reviews are QA activities, but QA also happens before and after coding."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Is quality something you check once at the end, or build in all the way through?",
+    "explanation": "Quality assurance is process-oriented and continuous: it starts with reviewing requirements and plans, continues through design and code reviews, testing, release and maintenance. The cost of fixing a defect rises sharply the later it is found, so QA in every phase is far cheaper than relying only on a testing phase.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Quality Assurance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the triple constraint in project management?",
+    "options": [
+      {
+        "text": "Time, Quality, Cost",
+        "hint": "Quality is affected by the constraints and often shown in the centre of the triangle, but the classic three are time, cost and scope."
+      },
+      {
+        "text": "Time, Scope, Quality",
+        "hint": "This drops cost — one of the three classic constraints."
+      },
+      {
+        "text": "Time, Cost, Scope",
+        "hint": "Correct. The iron triangle: changing one of time, cost or scope affects the others, and quality depends on the balance."
+      },
+      {
+        "text": "Cost, Resources, Risk",
+        "hint": "Resources and risk are important, but they are not the triple constraint."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The \"iron triangle\": how long, how much money, how much work.",
+    "explanation": "The triple constraint (iron triangle) says every project is bounded by:\n• Time (schedule)\n• Cost (budget)\n• Scope (features/work)\nChanging one forces a change in at least one other — e.g. adding scope needs more time or money. Quality sits in the middle, shaped by how the three are balanced.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Project Management",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a project management process?",
+    "options": [
+      {
+        "text": "Initiating",
+        "hint": "Initiating is one of the five PMBOK process groups (defining and authorising the project)."
+      },
+      {
+        "text": "Planning",
+        "hint": "Planning is a PMBOK process group."
+      },
+      {
+        "text": "Executing",
+        "hint": "Executing is a PMBOK process group."
+      },
+      {
+        "text": "Debugging",
+        "hint": "Correct. Debugging is a software development activity, not a project-management process."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "PMBOK has five process groups. Which option is a programming task instead?",
+    "explanation": "The five PMBOK project-management process groups are Initiating, Planning, Executing, Monitoring & Controlling, and Closing. Debugging — finding and fixing defects in code — is a technical development activity.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Project Management",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which chart is used for visualizing a project's schedule?",
+    "options": [
+      {
+        "text": "PERT Chart",
+        "hint": "PERT charts are network diagrams used to analyse task dependencies and estimate durations; they support scheduling, but the classic visual schedule over a calendar is the Gantt chart."
+      },
+      {
+        "text": "Gantt Chart",
+        "hint": "Correct. A Gantt chart shows tasks as horizontal bars against a timeline, with start/end dates, durations and progress."
+      },
+      {
+        "text": "Fishbone Diagram",
+        "hint": "A fishbone (Ishikawa) diagram is for root-cause analysis, not scheduling."
+      },
+      {
+        "text": "Flowchart",
+        "hint": "Flowcharts show the steps and decisions in a process or algorithm, not a timeline."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Bars on a calendar timeline.",
+    "explanation": "A Gantt chart lists tasks on the vertical axis and time on the horizontal axis; each task is a bar from its start to end date, often with dependencies, milestones and percentage complete. It is the standard way to visualise and track a project schedule. PERT and CPM network diagrams complement it by analysing dependencies and the critical path.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Project Management",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which project management methodology emphasizes flexibility and customer collaboration?",
+    "options": [
+      {
+        "text": "Waterfall",
+        "hint": "Waterfall is sequential and plan-driven; changes late in the project are hard and costly."
+      },
+      {
+        "text": "Agile",
+        "hint": "Correct. The Agile Manifesto values customer collaboration over contract negotiation and responding to change over following a plan."
+      },
+      {
+        "text": "PRINCE2",
+        "hint": "PRINCE2 is a structured, process-driven method with defined stages and controls."
+      },
+      {
+        "text": "Spiral",
+        "hint": "Spiral is iterative and risk-driven; it focuses on risk analysis rather than customer collaboration."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Think of the four values of a famous 2001 manifesto.",
+    "explanation": "Agile values (Agile Manifesto, 2001):\n• Individuals and interactions over processes and tools\n• Working software over comprehensive documentation\n• Customer collaboration over contract negotiation\n• Responding to change over following a plan\nFrameworks such as Scrum and Kanban put these into practice with short iterations and frequent customer feedback.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "SDLC & Methodologies",
+      "Project Management",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the critical path in project management? The ____",
+    "options": [
+      {
+        "text": "longest path in a project plan",
+        "hint": "Correct. The critical path is the longest sequence of dependent tasks; it sets the shortest possible project duration, and any delay on it delays the project."
+      },
+      {
+        "text": "shortest path in a project plan",
+        "hint": "The shortest path doesn't determine the finish date — longer chains of tasks would still be running."
+      },
+      {
+        "text": "most expensive path in a project plan",
+        "hint": "The critical path is about time, not cost."
+      },
+      {
+        "text": "path with the most resources",
+        "hint": "Resource use doesn't define the critical path; task durations and dependencies do."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The project can't finish until its longest chain of dependent tasks finishes.",
+    "explanation": "The Critical Path Method (CPM) finds the longest path of dependent activities through the project network. Its length is the minimum project duration; tasks on it have zero float (slack). Delaying any critical task delays the whole project, so managers watch these tasks most closely and may crash or fast-track them to shorten the schedule.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Project Management",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a functional requirement?",
+    "options": [
+      {
+        "text": "Usability",
+        "hint": "Usability is a quality attribute — a non-functional requirement."
+      },
+      {
+        "text": "Performance",
+        "hint": "Performance (speed, throughput) is a non-functional requirement."
+      },
+      {
+        "text": "Login functionality",
+        "hint": "Correct. Functional requirements describe what the system does — e.g. users can log in with email and password."
+      },
+      {
+        "text": "Security",
+        "hint": "Security is generally a non-functional (quality) requirement."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Functional = what the system does. Non-functional = how well it does it.",
+    "explanation": "Functional requirements specify behaviours and functions: login, search products, generate invoice, send notification.\nNon-functional requirements specify qualities and constraints: performance, usability, security, reliability, scalability, maintainability.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Requirements",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is a requirements specification document? A ____",
+    "options": [
+      {
+        "text": "document defining project risks",
+        "hint": "That would be a risk register or risk management plan."
+      },
+      {
+        "text": "contract between stakeholders",
+        "hint": "An SRS can be part of an agreement, but its purpose is to specify what the system must do."
+      },
+      {
+        "text": "document outlining system functionality",
+        "hint": "Correct. The Software Requirements Specification (SRS) describes the system's functional and non-functional requirements."
+      },
+      {
+        "text": "document listing coding standards",
+        "hint": "Coding standards are in a separate development guidelines document."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Often abbreviated SRS — what does it specify?",
+    "explanation": "A Software Requirements Specification (SRS) is a complete description of what the system should do: functional requirements, non-functional requirements, interfaces, constraints and assumptions (e.g. following IEEE 830 / ISO 29148). It is the basis for design, testing and agreement between developers and stakeholders.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Requirements",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a non-functional requirement?",
+    "options": [
+      {
+        "text": "User authentication",
+        "hint": "Authentication is a function the system performs — a functional requirement."
+      },
+      {
+        "text": "Performance",
+        "hint": "Correct. Performance (e.g. response under 2 seconds) is a quality attribute — non-functional."
+      },
+      {
+        "text": "Inventory management",
+        "hint": "Managing inventory is a feature — functional."
+      },
+      {
+        "text": "Order processing",
+        "hint": "Processing orders is a feature — functional."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Which one describes how well, rather than what?",
+    "explanation": "Non-functional requirements describe system qualities: performance, scalability, availability, reliability, usability, security, maintainability, portability. They are often measurable: \"95% of searches return within 1 second\".",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Requirements",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following design models focuses on how the system will be implemented?\n\n____ design",
+    "options": [
+      {
+        "text": "Logical",
+        "hint": "Logical design describes what the system does — data, processes and their relationships — independent of technology."
+      },
+      {
+        "text": "Physical",
+        "hint": "Correct. Physical design specifies how: hardware, software platforms, database tables, file structures, interfaces and technologies."
+      },
+      {
+        "text": "Conceptual",
+        "hint": "Conceptual design is the highest-level view of the system's main ideas and entities."
+      },
+      {
+        "text": "Operational",
+        "hint": "Operational is not a standard design model in this sense."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Logical = what. ____ = how, with real technology.",
+    "explanation": "Design moves from abstract to concrete:\n• Conceptual — high-level ideas and main entities.\n• Logical — what data and processes exist, independent of technology.\n• Physical — how it will be built: specific DBMS tables and indexes, servers, programming languages, network and file layouts.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which design method emphasizes modularity and separation of concerns?\n\n____ design",
+    "options": [
+      {
+        "text": "Structured",
+        "hint": "Structured design decomposes functions into modules too, but object-oriented design is the one built around encapsulated objects and separation of concerns."
+      },
+      {
+        "text": "Waterfall",
+        "hint": "Waterfall is a development life-cycle model, not a design method."
+      },
+      {
+        "text": "Object-oriented",
+        "hint": "Correct. OO design packages data and behaviour into classes with encapsulation, so each object has a clear responsibility."
+      },
+      {
+        "text": "Top-down",
+        "hint": "Top-down is a decomposition strategy, not the method best known for separation of concerns."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Encapsulation, classes, single responsibility.",
+    "explanation": "Object-oriented design models the system as interacting objects. Encapsulation, abstraction, inheritance and polymorphism let each class handle one concern and hide its internals, producing modular, reusable and maintainable software. Principles like SOLID (e.g. Single Responsibility) formalise separation of concerns.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following diagrams is used to represent system components and their interactions?",
+    "options": [
+      {
+        "text": "Data Flow Diagram",
+        "hint": "A DFD shows how data moves between processes, data stores and external entities — data flow rather than system components."
+      },
+      {
+        "text": "Gantt Chart",
+        "hint": "A Gantt chart is a project schedule, not a system diagram."
+      },
+      {
+        "text": "Use Case Diagram",
+        "hint": "A use case diagram shows actors and the functions (use cases) they perform with the system, not internal components."
+      },
+      {
+        "text": "Class Diagram",
+        "hint": "Correct (best of these options). A class diagram shows the system's building blocks (classes) and their relationships and interactions — associations, dependencies, inheritance."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which UML diagram shows the system's building blocks and how they relate?",
+    "explanation": "In UML, structural diagrams show the parts of a system:\n• Class diagrams — classes, attributes, methods and relationships.\n• Component diagrams — larger software components and their interfaces (the most precise answer, though not listed).\nBehavioural diagrams (use case, sequence, activity) show how the system is used or how it behaves over time. DFDs come from structured analysis and show data movement.\n\nNote: this question is ambiguous on the paper; Class Diagram is the best fit among the options given.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the purpose of architectural design in software engineering? To ____",
+    "options": [
+      {
+        "text": "define the specific coding standards",
+        "hint": "Coding standards are development guidelines, below the level of architecture."
+      },
+      {
+        "text": "outline the system's structure and organization",
+        "hint": "Correct. Architecture defines the major components, their responsibilities and how they interact."
+      },
+      {
+        "text": "develop testing strategies",
+        "hint": "Testing strategy is part of test planning."
+      },
+      {
+        "text": "plan project timelines",
+        "hint": "Timelines are project management."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Architecture is the big picture of the system's parts.",
+    "explanation": "Architectural design identifies the main subsystems/components, their responsibilities, interfaces and relationships, and the patterns used (layered, client-server, MVC, microservices). It addresses non-functional requirements like performance, security and scalability early, and guides detailed design.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Architecture",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a software development life cycle (SDLC) model?",
+    "options": [
+      {
+        "text": "Waterfall",
+        "hint": "Waterfall is the classic sequential SDLC model."
+      },
+      {
+        "text": "Agile",
+        "hint": "Agile (the Agile model) is commonly treated as an SDLC model built on iterative, incremental development."
+      },
+      {
+        "text": "Scrum",
+        "hint": "Scrum is an Agile framework that defines an iterative lifecycle of sprints, so it is usually treated as a development model in practice."
+      },
+      {
+        "text": "Kanban",
+        "hint": "Correct (intended answer). Kanban is a workflow-visualisation and flow-management method — boards, WIP limits — that doesn't prescribe life-cycle phases or iterations."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which option is mainly a board for managing the flow of work rather than a model of development phases?",
+    "explanation": "SDLC models describe the phases and order of software development: Waterfall, V-Model, Iterative/Incremental, Spiral, Agile, RAD.\nScrum (sprints) and Kanban (flow boards) are Agile practices. Kanban in particular is a method for visualising work and limiting work in progress; it doesn't define development phases, which is why it is the intended answer.\n\nNote: this question is ambiguous — strictly, Scrum and Kanban are both frameworks rather than SDLC models.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "SDLC & Methodologies",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which methodology emphasizes iterative development and customer feedback?",
+    "options": [
+      {
+        "text": "Agile",
+        "hint": "Correct. Agile delivers working software in short iterations and adjusts based on regular customer feedback."
+      },
+      {
+        "text": "Waterfall",
+        "hint": "Waterfall is sequential; customers typically see the product only near the end."
+      },
+      {
+        "text": "V-Model",
+        "hint": "The V-Model is a sequential model pairing each phase with a testing phase."
+      },
+      {
+        "text": "Spiral",
+        "hint": "Spiral is iterative, but driven mainly by risk analysis rather than continuous customer feedback."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Short sprints, demos to the customer, adapt.",
+    "explanation": "Agile methods (Scrum, XP, Kanban) work in short iterations (1–4 weeks), each producing working software that is demonstrated to customers. Their feedback shapes the next iteration, so the product evolves to meet real needs.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "SDLC & Methodologies",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is refactoring in software development?",
+    "options": [
+      {
+        "text": "The process of adding new features",
+        "hint": "Adding features changes behaviour; refactoring deliberately does not."
+      },
+      {
+        "text": "Improving the structure of code without changing its behavior",
+        "hint": "Correct. Refactoring restructures code to make it cleaner and more maintainable while keeping external behaviour the same."
+      },
+      {
+        "text": "Debugging the code",
+        "hint": "Debugging fixes defects, which changes behaviour."
+      },
+      {
+        "text": "Writing documentation",
+        "hint": "Documentation is separate from restructuring code."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Same behaviour, better code.",
+    "explanation": "Refactoring (Martin Fowler) is a disciplined technique of restructuring existing code — renaming, extracting methods, removing duplication, simplifying conditionals — without changing what it does. Automated tests confirm behaviour is preserved. It improves readability, maintainability and reduces technical debt.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which term refers to a small, functional deliverable produced during software development?",
+    "options": [
+      {
+        "text": "Sprint",
+        "hint": "A sprint is a fixed time-box (e.g. two weeks) in Scrum, not a deliverable."
+      },
+      {
+        "text": "Milestone",
+        "hint": "A milestone is a significant point or event in the schedule, not a piece of software."
+      },
+      {
+        "text": "Iteration",
+        "hint": "An iteration is a development cycle; what it produces is an increment."
+      },
+      {
+        "text": "Module",
+        "hint": "Correct (intended answer). A module is a self-contained, functional unit of software that can be developed and delivered independently."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Three options are about time or events. Which one is an actual piece of the software?",
+    "explanation": "Sprints and iterations are time periods; milestones are checkpoints in the schedule. A module is a separate, functional unit of the software (e.g. a payments module) and is the only option that is itself a deliverable.\n\nNote: in Agile terminology the precise term would be an \"increment\", which isn't among the options.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "SDLC & Methodologies",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What type of testing is performed without knowledge of the internal code structure?\n\n____ testing",
+    "options": [
+      {
+        "text": "White-box",
+        "hint": "White-box testing uses knowledge of the internal code — paths, branches, statements."
+      },
+      {
+        "text": "Integration",
+        "hint": "Integration testing checks combined components; it can be black- or white-box."
+      },
+      {
+        "text": "Black-box",
+        "hint": "Correct. Black-box testing checks inputs and outputs against the requirements without looking at the code."
+      },
+      {
+        "text": "Unit",
+        "hint": "Unit testing tests individual units, usually by developers with code knowledge."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "You can't see inside the box.",
+    "explanation": "Black-box testing treats the software as a closed box: testers design cases from requirements and specifications (equivalence partitioning, boundary-value analysis, decision tables) and check outputs. White-box testing designs cases from the internal structure (statement, branch, path coverage). Grey-box combines both.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Testing",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which testing ensures that new code doesn't break existing functionality?\n\n____ testing",
+    "options": [
+      {
+        "text": "Unit",
+        "hint": "Unit tests check individual units; they are often reused in regression suites, but the term for this purpose is regression testing."
+      },
+      {
+        "text": "Regression",
+        "hint": "Correct. Regression testing re-runs existing tests after changes to catch anything that has stopped working."
+      },
+      {
+        "text": "Performance",
+        "hint": "Performance testing checks speed, load and scalability."
+      },
+      {
+        "text": "Security",
+        "hint": "Security testing looks for vulnerabilities."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "A \"regression\" is when something that worked goes backwards.",
+    "explanation": "Regression testing re-executes previously passing tests after code changes, bug fixes or new features to confirm existing functionality still works. Because it is repeated often, it is usually automated and run in CI pipelines.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Testing",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which phase comes after unit testing in the software testing process?\n\n____ testing",
+    "options": [
+      {
+        "text": "Integration",
+        "hint": "Correct. After units are tested individually, integration testing checks that they work together."
+      },
+      {
+        "text": "System",
+        "hint": "System testing comes after integration testing."
+      },
+      {
+        "text": "Acceptance",
+        "hint": "Acceptance testing is the final level, done by or for the customer."
+      },
+      {
+        "text": "Alpha",
+        "hint": "Alpha testing is a form of acceptance testing near release."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The levels go: unit → ? → system → acceptance.",
+    "explanation": "Testing levels:\n1. Unit testing — individual functions/classes.\n2. Integration testing — interfaces and interactions between units/modules.\n3. System testing — the complete, integrated system against requirements.\n4. Acceptance testing — validation by users/customers (alpha, beta, UAT).",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Testing",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is a test case in software testing? A ____",
+    "options": [
+      {
+        "text": "documented set of instructions to test a specific functionality",
+        "hint": "Correct. A test case specifies preconditions, inputs/steps and expected results for one feature or condition."
+      },
+      {
+        "text": "diagram showing system architecture",
+        "hint": "That's an architecture diagram."
+      },
+      {
+        "text": "report of test results",
+        "hint": "That's a test report or test summary."
+      },
+      {
+        "text": "software defect",
+        "hint": "A defect is what testing finds, not a test case."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "It's written before the test is run: steps and the expected result.",
+    "explanation": "A test case typically includes: ID, title, preconditions, test data, steps, expected result, and (after execution) the actual result and pass/fail status. Test cases are grouped into test suites and derived from requirements.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Testing",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is software comprehension?",
+    "options": [
+      {
+        "text": "Understanding the hardware setup",
+        "hint": "Hardware setup is infrastructure, not software comprehension."
+      },
+      {
+        "text": "Understanding the code and system behavior",
+        "hint": "Correct. Program comprehension is how developers understand existing code and how the system behaves — essential before changing it."
+      },
+      {
+        "text": "Debugging the code",
+        "hint": "Debugging uses comprehension, but it is the act of finding and fixing defects."
+      },
+      {
+        "text": "Writing new features",
+        "hint": "Writing features is development; comprehension comes first."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Comprehension = understanding.",
+    "explanation": "Software (program) comprehension is the process of understanding an existing system: its code, structure, design and behaviour. Maintainers spend a large share of their time on it. It is helped by good documentation, clean code, comments, diagrams and reverse-engineering tools.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a key activity in software maintenance?",
+    "options": [
+      {
+        "text": "Requirements gathering",
+        "hint": "Requirements gathering is mainly an early development activity."
+      },
+      {
+        "text": "Refactoring",
+        "hint": "Correct. Refactoring improves the structure of existing code so it stays maintainable as it changes."
+      },
+      {
+        "text": "Deployment",
+        "hint": "Deployment releases software; it is part of operations/release, not the core maintenance activity."
+      },
+      {
+        "text": "Prototyping",
+        "hint": "Prototyping is used in early design to explore requirements."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Maintenance works on code that already exists.",
+    "explanation": "Software maintenance includes corrective (fix bugs), adaptive (adapt to new environments), perfective (improve performance or features) and preventive maintenance. Refactoring is a key preventive/perfective activity that keeps code clean and reduces technical debt, alongside bug fixing, updates and re-engineering.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What does reverse engineering in software maintenance involve?",
+    "options": [
+      {
+        "text": "Writing new code",
+        "hint": "Writing new code is forward development."
+      },
+      {
+        "text": "Deconstructing software to understand its design",
+        "hint": "Correct. Reverse engineering analyses an existing system to recover its design, structure and specifications."
+      },
+      {
+        "text": "Performing security testing",
+        "hint": "Security testing may use reverse engineering, but that isn't what reverse engineering means."
+      },
+      {
+        "text": "Optimizing software performance",
+        "hint": "Optimisation changes code to run faster; reverse engineering is about understanding."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Going backwards: from the finished code to the design.",
+    "explanation": "Reverse engineering works backwards from an existing system (source or binary code) to higher levels of abstraction — design models, architecture, data structures, specifications. It is used to understand legacy systems with poor documentation, before re-engineering or migrating them.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a challenge in software maintenance?",
+    "options": [
+      {
+        "text": "Code decay",
+        "hint": "Correct. Over time, repeated changes degrade code structure (software entropy/technical debt), making further maintenance harder."
+      },
+      {
+        "text": "Software testing",
+        "hint": "Testing is an activity, not a challenge in itself."
+      },
+      {
+        "text": "Requirement analysis",
+        "hint": "Requirement analysis is an activity used in development."
+      },
+      {
+        "text": "Agile development",
+        "hint": "Agile is a methodology, not a maintenance challenge."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "What happens to code after years of patches?",
+    "explanation": "Code decay (software rot/entropy) occurs as quick fixes and changes erode the original design: duplicated logic, tangled dependencies, outdated comments. Other maintenance challenges include poor documentation, staff turnover, legacy technology and high cost — maintenance often consumes 60–80% of total software cost.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is forward engineering?",
+    "options": [
+      {
+        "text": "Understanding the code structure",
+        "hint": "Understanding code is comprehension or reverse engineering."
+      },
+      {
+        "text": "Rebuilding a system from its specifications",
+        "hint": "Correct. Forward engineering moves from high-level specifications and design down to implementation."
+      },
+      {
+        "text": "Testing software",
+        "hint": "Testing verifies the software; it isn't forward engineering."
+      },
+      {
+        "text": "Debugging code",
+        "hint": "Debugging fixes defects."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The opposite direction to reverse engineering.",
+    "explanation": "Forward engineering is the traditional direction of development: requirements → design → code. In re-engineering, a legacy system is first reverse-engineered to recover its specifications, then forward-engineered into a new, improved system.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a key benefit of software documentation in maintenance?",
+    "options": [
+      {
+        "text": "Reduces the need for testing",
+        "hint": "Documentation doesn't replace testing."
+      },
+      {
+        "text": "Simplifies code refactoring",
+        "hint": "Documentation can help, but its main maintenance benefit is broader."
+      },
+      {
+        "text": "Facilitates understanding and updates",
+        "hint": "Correct. Good documentation helps maintainers understand the system quickly and change it safely."
+      },
+      {
+        "text": "Speeds up deployment",
+        "hint": "Deployment speed depends on release processes and automation."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Maintainers often didn't write the code. What do they need first?",
+    "explanation": "Documentation (requirements, design, API docs, code comments, user manuals) shortens comprehension time, reduces errors when making changes, eases onboarding of new developers and preserves knowledge when staff leave.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Software comprehension helps in which phase of software development?",
+    "options": [
+      {
+        "text": "Project initiation",
+        "hint": "At initiation there is no code yet to comprehend."
+      },
+      {
+        "text": "Maintenance",
+        "hint": "Correct. Maintainers must understand existing code before fixing or enhancing it."
+      },
+      {
+        "text": "Design",
+        "hint": "Design creates new structure rather than understanding existing code."
+      },
+      {
+        "text": "Testing",
+        "hint": "Testers need to understand requirements, but program comprehension is most central to maintenance."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "When do you most need to understand code someone else wrote?",
+    "explanation": "Program comprehension is a core maintenance activity: before correcting, adapting or enhancing a system, maintainers must understand its code and behaviour. Studies estimate maintainers spend about half their time on comprehension.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Software Maintenance",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is a data dictionary under software engineering?",
+    "media": [],
+    "answer": "A data dictionary is a centralised repository of metadata describing all the data elements used in a system: names, definitions, data types, sizes/formats, allowed values and ranges, relationships, where data is used (processes, data flows, data stores) and who owns it.\n\nIn software engineering (especially structured analysis with DFDs), it ensures everyone — analysts, developers, testers — uses consistent definitions, and supports design, validation and maintenance.",
+    "explanation": "Marking guide (2 marks):\n• Repository/catalogue of metadata about data elements — 1 mark.\n• Contents (names, types, formats, relationships) or purpose (consistency, supports DFDs/design) — 1 mark.",
+    "hint": "A catalogue of the data in the system.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Why should we apply the \"Don't Repeat Yourself\" (DRY) principle in architecture design in software engineering?",
+    "media": [],
+    "answer": "The DRY principle (Hunt & Thomas) states that \"every piece of knowledge must have a single, unambiguous, authoritative representation within a system\". In architecture design it is applied because:\n\n1. Maintainability — a change (e.g. a tax rule) is made in one place instead of hunting down every copy.\n2. Fewer defects and consistency — duplicated logic drifts out of sync, causing inconsistent behaviour; one source of truth avoids this.\n3. Reusability and modularity — shared logic is extracted into reusable components, services, libraries or base classes.\n4. Smaller, cleaner codebase — less code to read, test and maintain; easier comprehension.\n5. Faster development and testing — test the shared component once.\n6. Supports separation of concerns and good architecture (shared services, common libraries, configuration in one place, single schema definitions).\n\nCaution: over-applying DRY can create tight coupling between unrelated parts — duplication is sometimes preferable to the wrong abstraction.",
+    "explanation": "Marking guide (5 marks):\n• Explains the DRY principle (single authoritative representation; avoid duplication) — 1 mark.\n• Four valid reasons/benefits (maintainability, consistency/fewer bugs, reusability/modularity, smaller codebase, easier testing) — 1 mark each.",
+    "hint": "If the same logic lives in three places, what happens when it has to change?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Software Architecture",
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Differentiate, with examples, between horizontal and vertical software scalability.",
+    "media": [],
+    "answer": "Vertical scalability (scaling up):\n• Increasing the capacity of a single server or node by adding more resources — CPU, RAM, storage, faster disks.\n• Examples: upgrading a database server from 16 GB to 128 GB RAM; moving a VM to a larger instance size (e.g. AWS t3.medium → m5.4xlarge).\n• Advantages: simple, no application changes, no distributed-system complexity; good for monolithic apps and relational databases.\n• Disadvantages: hardware limits (a ceiling), expensive high-end machines, single point of failure, often downtime to upgrade.\n\nHorizontal scalability (scaling out):\n• Adding more servers/nodes and distributing the load among them.\n• Examples: adding more web servers behind a load balancer; Kubernetes auto-scaling pods; database sharding or read replicas; NoSQL clusters such as Cassandra; Netflix and Google running on thousands of commodity servers.\n• Advantages: near-limitless growth, fault tolerance and high availability (one node failing doesn't stop the system), pay-as-you-grow with commodity hardware/cloud elasticity.\n• Disadvantages: application must be designed for distribution (stateless services, shared sessions, data consistency), more complex management and networking.\n\nKey differences: up vs out; single node vs many; hardware ceiling vs practically unlimited; single point of failure vs redundancy; simpler vs more complex architecture. Many systems combine both.",
+    "explanation": "Marking guide (8 marks):\n• Vertical scaling correctly defined — 1.5 marks; with an example — 1 mark.\n• Horizontal scaling correctly defined — 1.5 marks; with an example — 1 mark.\n• At least three valid points of difference/advantages and disadvantages (limits, cost, fault tolerance, complexity, downtime) — 3 marks.",
+    "hint": "Scale up (bigger machine) vs scale out (more machines).",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "Software Architecture",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is the difference between visual design and interaction design under user interface in software engineering?",
+    "media": [],
+    "answer": "Visual design is concerned with how the interface looks: colour, typography, icons, imagery, spacing, layout and overall aesthetics and branding — creating an attractive, consistent and readable interface.\n\nInteraction design (IxD) is concerned with how the interface behaves and how users interact with it: user flows, navigation, controls, feedback, transitions and responses to user actions — making the system intuitive and efficient to use.",
+    "explanation": "Marking guide (2 marks):\n• Visual design = appearance/aesthetics — 1 mark.\n• Interaction design = behaviour and how users interact (flows, feedback) — 1 mark.",
+    "hint": "How it looks vs how it behaves.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "UI & UX Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is the difference between a wireframe and a card prototype?",
+    "media": [],
+    "answer": "A wireframe is a static, low-fidelity blueprint of a screen or page showing its structure and layout — where content, navigation, buttons and forms go — using simple boxes and lines, without colour, real content or interactivity.\n\nA card (paper) prototype is a low-fidelity interactive mock-up made from paper cards or sketches, each representing a screen or element. A facilitator swaps cards as a user \"clicks\", simulating the system's behaviour so flows can be tested with users early and cheaply.\n\nDifference: a wireframe shows layout (static structure); a card prototype simulates interaction and flow for user testing.",
+    "explanation": "Marking guide (2 marks):\n• Wireframe: static low-fidelity layout/structure — 1 mark.\n• Card/paper prototype: low-fidelity interactive simulation used for testing flows — 1 mark.",
+    "hint": "One is a static skeleton of a screen; the other is a cheap, interactive mock-up you can walk through.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "UI & UX Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is reusability of components in software engineering?",
+    "media": [],
+    "answer": "Reusability of components is the ability to use existing software components — functions, classes, modules, libraries, services, UI components — in multiple parts of a system or in different systems, rather than building them from scratch.\n\nTo be reusable, a component should be modular, loosely coupled, highly cohesive, well documented and have a clear interface (e.g. a payment module, authentication library, date-picker UI component, or npm/Maven packages).\n\nBenefits: faster development and lower cost, higher reliability (components are already tested), consistency across applications, and easier maintenance.",
+    "explanation": "Marking guide (3 marks):\n• Definition: using existing components in other parts/systems instead of rebuilding — 1 mark.\n• Characteristics or example — 1 mark.\n• Benefits — 1 mark.",
+    "hint": "Build once, use many times.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Differentiate between cohesion and coupling under software engineering.",
+    "media": [],
+    "answer": "Cohesion:\n• The degree to which the elements inside a single module belong together and focus on one well-defined task or responsibility.\n• High cohesion is desirable — e.g. an InvoiceCalculator class that only calculates invoice totals.\n• Types (worst to best): coincidental, logical, temporal, procedural, communicational, sequential, functional (best).\n• Benefits of high cohesion: modules are easier to understand, test, reuse and maintain.\n\nCoupling:\n• The degree of interdependence between different modules — how much one module relies on the internals of another.\n• Low (loose) coupling is desirable — modules interact through simple, well-defined interfaces, e.g. passing data via parameters or an API.\n• Types (worst to best): content, common (global data), external, control, stamp, data coupling (best).\n• Benefits of low coupling: changes in one module rarely ripple into others; modules can be replaced, tested and reused independently.\n\nKey differences:\n• Cohesion is an intra-module measure; coupling is an inter-module measure.\n• Aim for high cohesion and low coupling — they usually go together and are hallmarks of good modular design.\nExample: a well-designed system has an Authentication module (high cohesion: only login/session logic) that other modules call through a simple interface (low coupling), instead of directly reading its database tables.",
+    "explanation": "Marking guide (8 marks):\n• Cohesion defined (within a module; single responsibility) — 2 marks; high cohesion desired, with type or example — 1 mark.\n• Coupling defined (interdependence between modules) — 2 marks; low coupling desired, with type or example — 1 mark.\n• Clear contrast: intra vs inter-module, high cohesion/low coupling goal, effect on maintainability — 2 marks.",
+    "hint": "Cohesion is inside a module; coupling is between modules. Which should be high and which low?",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Briefly explain the following under software design concepts:\n• Abstraction\n• Software Architecture\n• Design Patterns\n• Refinement\n• Refactoring",
+    "media": [],
+    "answer": "1. Abstraction — focusing on the essential characteristics of something while hiding unnecessary details. Procedural abstraction (a function like sendEmail() hides its steps) and data abstraction (an Account class exposes deposit/withdraw but hides its internal representation). It manages complexity.\n\n2. Software Architecture — the overall high-level structure of a system: its major components, their responsibilities, the relationships and interactions between them, and the principles guiding design (e.g. layered, client-server, MVC, microservices). It addresses quality attributes such as performance, scalability and security.\n\n3. Design Patterns — proven, reusable solutions to commonly recurring design problems in a given context, described in a template (e.g. Gang of Four: Singleton, Factory, Observer, Adapter, Strategy, MVC). They speed up design and provide a shared vocabulary.\n\n4. Refinement — a top-down process of elaboration (stepwise refinement, Wirth): starting from a high-level statement of function or data and progressively decomposing it into more detailed steps until it can be implemented in code. It is complementary to abstraction.\n\n5. Refactoring — restructuring existing code or design to improve its internal structure (readability, simplicity, removing duplication) without changing its external behaviour, e.g. extracting a method or renaming variables, verified by tests.",
+    "explanation": "Marking guide (10 marks):\n• Each of the five concepts correctly explained — 2 marks each (1 for the core idea, 1 for detail or an example).",
+    "hint": "Two marks each. For each, give a one- or two-sentence definition and an example.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "Software Design",
+      "2023/24 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Distinguish between software architectural design and interface design.",
+    "media": [],
+    "answer": "Architectural design:\n• Defines the overall structure of the system — the major subsystems/components, their responsibilities and how they are organised and interact (e.g. layered, client-server, microservices, MVC).\n• High-level, early design decision; addresses non-functional requirements (performance, scalability, security, maintainability).\n• Output: architecture diagrams, component models, deployment views.\n\nInterface design:\n• Defines how components communicate with each other and with external systems and users — the contracts between them.\n• Includes internal/component interfaces (APIs, method signatures, protocols, data formats), external system interfaces, and the user interface (screens, navigation, interaction).\n• More detailed, lower-level; focuses on usability, consistency and precise specification of inputs/outputs.\n\nDifference: architectural design decides what the main building blocks are and how they fit together; interface design specifies exactly how those blocks (and users) interact at their boundaries.",
+    "explanation": "Marking guide (5 marks):\n• Architectural design correctly explained — 2 marks.\n• Interface design correctly explained (component/system interfaces and/or user interface) — 2 marks.\n• Clear contrast (level of abstraction, focus, outputs) — 1 mark.",
+    "hint": "Big structure of the system vs how parts (and users) communicate with it.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Software Architecture",
+      "UI & UX Design",
+      "2023/24 Paper"
+    ]
+  }
+]

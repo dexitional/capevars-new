@@ -1,0 +1,342 @@
+[
+  {
+    "type": "text",
+    "body": "Why is access control a critical part of information security?",
+    "media": [],
+    "answer": "Access control determines who (users, devices, processes) can access which resources and what they can do with them — through identification, authentication, authorization and accountability.\n\nIt is critical because:\n1. Confidentiality — only authorized people can view sensitive data (customer records, salaries, trade secrets), preventing disclosure and data breaches.\n2. Integrity — only authorized users can modify data, preventing unauthorized or accidental changes and fraud.\n3. Availability — prevents misuse that could delete data or disrupt systems.\n4. Least privilege and separation of duties — limits the damage from compromised accounts, insider threats and errors.\n5. Accountability — logging access ties actions to identities, enabling audits and investigations.\n6. Compliance — laws and standards (Ghana Data Protection Act 2012, GDPR, PCI DSS, ISO 27001) require access controls.\nIt is usually the first line of defence: if access control fails, most other controls can be bypassed.",
+    "explanation": "Marking guide (5 marks):\n• Definition/what access control does (identification, authentication, authorization) — 1 mark.\n• Four valid reasons (CIA protection, least privilege/insider threat, accountability/audit, compliance, first line of defence) — 1 mark each.",
+    "hint": "Confidentiality, integrity and availability all depend on who can reach what.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Access Control",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "How is the concept of security by design implemented in modern information security architectures?",
+    "media": [],
+    "answer": "Security by design means security is built into systems from the start of the development lifecycle rather than added after deployment. It is implemented through:\n\n1. Secure SDLC / shift-left — security requirements, threat modelling (e.g. STRIDE) and risk assessment during requirements and design; secure code reviews, SAST/DAST testing in CI/CD pipelines (DevSecOps).\n2. Principles applied in the architecture — least privilege, defence in depth (layered controls), secure defaults, fail securely, minimise attack surface, separation of duties, economy of mechanism.\n3. Zero Trust architecture — \"never trust, always verify\": every request authenticated and authorised; micro-segmentation; continuous monitoring.\n4. Privacy by design — data minimisation, encryption at rest and in transit by default.\n5. Secure frameworks and components — vetted libraries, security standards (OWASP ASVS, NIST, ISO 27001), hardened configurations, Infrastructure as Code with security policies.\n6. Built-in monitoring and resilience — logging, alerting and incident response designed in; secure update mechanisms.",
+    "explanation": "Marking guide (5 marks):\n• Explains the concept (security built in from the start, not bolted on) — 1 mark.\n• Four implementation measures (secure SDLC/threat modelling/DevSecOps, design principles, zero trust, privacy by design/encryption, standards/hardening, monitoring) — 1 mark each.",
+    "hint": "Security is built in from the first design decision, not bolted on later. How does that show up in the lifecycle and the architecture?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Security Architecture",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Why is a VPN necessary for corporate officials who are physically absent from the office?",
+    "media": [],
+    "answer": "A Virtual Private Network (VPN) creates an encrypted, authenticated tunnel over the public Internet between the remote user's device and the corporate network. It is necessary because:\n\n1. Confidentiality — traffic over untrusted networks (hotel, airport, café Wi-Fi) is encrypted, so eavesdroppers cannot read emails, files or credentials.\n2. Integrity — tampering and man-in-the-middle attacks on data in transit are detected/prevented.\n3. Authentication and access control — only authorised users and devices (often with MFA and device checks) can reach internal resources.\n4. Secure access to internal resources — officials can use intranet systems, file servers, ERP and databases that are not exposed to the Internet, as if they were in the office.\n5. Policy enforcement and monitoring — traffic can pass through corporate firewalls, filtering and logging; IP masking hides the user's location.\n6. Supports business continuity and remote/hybrid work.",
+    "explanation": "Marking guide (5 marks):\n• What a VPN is (encrypted tunnel over the public Internet) — 1 mark.\n• Four valid reasons (encryption on untrusted networks, integrity/MITM protection, authentication/access control, access to internal resources, policy enforcement/monitoring, business continuity) — 1 mark each.",
+    "hint": "Remote staff connect over networks the company doesn't control — hotel Wi-Fi, mobile data. What does a VPN add?",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Network Security",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Why is a clear desk policy necessary for preventing information leakage?",
+    "media": [],
+    "answer": "A clear desk (and clear screen) policy requires employees to remove or lock away sensitive documents, storage media and devices, and to lock their screens, whenever they leave their workspace — especially at the end of the day.\n\nIt prevents information leakage because:\n1. Unauthorised viewing — visitors, cleaners, contractors or other staff cannot read confidential papers or screens left exposed (shoulder surfing).\n2. Theft — documents, USB drives, laptops and phones left on desks are easily taken.\n3. Social engineering — passwords on sticky notes, organisation charts or client lists can be harvested by attackers.\n4. Reduces insider threat and accidental disclosure, and limits the damage from break-ins.\n5. Compliance — supports ISO 27001 (Annex A clear desk/clear screen control), data protection laws and audits.\n6. Builds a security-aware culture; also reduces damage from fire/flood when documents are stored securely.",
+    "explanation": "Marking guide (5 marks):\n• Explains what a clear desk policy is — 1 mark.\n• Four valid reasons it prevents leakage (unauthorised viewing, theft, social engineering/passwords, insider risk, compliance, security culture) — 1 mark each.",
+    "hint": "Not every leak is digital. What can someone see or pick up from an unattended desk?",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is the difference between a firewall and an intrusion detection system (IDS)?",
+    "media": [],
+    "answer": "Firewall:\n• A preventive control placed at network boundaries that filters traffic according to a rule set (IP addresses, ports, protocols, application rules), allowing or blocking connections.\n• Acts like a gatekeeper — stops unauthorised traffic before it enters or leaves.\n• Types: packet-filtering, stateful inspection, proxy/application-level, next-generation firewalls.\n\nIntrusion Detection System (IDS):\n• A detective control that monitors network traffic or host activity for suspicious patterns and known attack signatures or anomalies.\n• Generates alerts for administrators but does not block traffic by itself (an IPS — intrusion prevention system — can block).\n• Types: network-based (NIDS) and host-based (HIDS); signature-based and anomaly-based.\n\nKey differences: firewall prevents/blocks based on rules; IDS detects and alerts based on analysis of traffic content and behaviour; firewall sits inline at the perimeter, IDS often monitors a copy of traffic; they complement each other in defence in depth.",
+    "explanation": "Marking guide (5 marks):\n• Firewall correctly explained — 2 marks.\n• IDS correctly explained — 2 marks.\n• Clear contrast (prevent/block vs detect/alert; complementary) — 1 mark.",
+    "hint": "One is a gatekeeper that blocks; the other is an alarm that watches and alerts.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Network Security",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Compare discretionary access control (DAC) with role-based access control (RBAC).",
+    "media": [],
+    "answer": "DAC (Discretionary Access Control):\n• The owner of a resource decides who can access it and with what permissions (e.g. file permissions in Windows/Linux, sharing a Google Doc).\n• Flexible and easy for users, but decentralised and inconsistent; users can pass access on; vulnerable to Trojan horses and privilege creep; hard to audit in large organisations.\n\nRBAC (Role-Based Access Control):\n• Permissions are assigned to roles (e.g. Teller, Accountant, HR Officer) and users are assigned to roles based on their job; access is centrally administered by the organisation.\n• Scales well, enforces least privilege and separation of duties, simplifies onboarding/offboarding (change the user's role), easier auditing and compliance.\n• Requires careful role engineering; may suffer \"role explosion\"; less flexible for exceptions.\n\nSummary: DAC = owner-controlled, identity-based, flexible but weaker; RBAC = administrator-controlled, job-function-based, structured and more secure for organisations.",
+    "explanation": "Marking guide (5 marks):\n• DAC correctly explained — 2 marks.\n• RBAC correctly explained — 2 marks.\n• At least one valid comparison point (who controls access, scalability, security, auditing, flexibility) — 1 mark.",
+    "hint": "Who decides access — the resource owner, or the organisation through job roles?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Access Control",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Discuss authentication and validation as they apply in network security.",
+    "media": [],
+    "answer": "Authentication — verifying the identity of a user, device or system before granting network access.\n• Factors: something you know (password, PIN), something you have (token, smart card, phone OTP), something you are (biometrics); multi-factor authentication combines them.\n• Network mechanisms: 802.1X/RADIUS for network access, Kerberos, certificates/PKI, mutual TLS, VPN authentication, SSH keys.\n• Prevents impersonation and unauthorised access.\n\nValidation — checking that data, inputs, credentials and certificates are correct, legitimate and well-formed before trusting or processing them.\n• Input validation: checking type, length, format and range of data to block injection attacks (SQL injection, XSS) and buffer overflows.\n• Certificate validation: checking that a server's digital certificate is issued by a trusted CA, not expired or revoked, and matches the domain — prevents man-in-the-middle attacks.\n• Message/data integrity validation: hashes, MACs and digital signatures confirm data has not been altered in transit.\n\nTogether: authentication establishes who is communicating; validation ensures what they send (and the credentials they present) can be trusted.",
+    "explanation": "Marking guide (5 marks):\n• Authentication explained with network examples/mechanisms — 2.5 marks.\n• Validation explained (input validation, certificate validation, integrity checks) — 2.5 marks.",
+    "hint": "Authentication checks who is connecting; validation checks that what they send is correct and safe.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Access Control",
+      "Network Security",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is the principle of least privilege, and how can it be enforced in a bring-your-own-device (BYOD) context?",
+    "media": [],
+    "answer": "Principle of least privilege (PoLP): every user, program and device should be given only the minimum access rights needed to perform its legitimate tasks, for the minimum time necessary. It limits damage from errors, malware and compromised accounts.\n\nEnforcing it with BYOD:\n1. Mobile Device Management (MDM) / Mobile Application Management (MAM) — enrol devices, enforce passcodes, encryption, OS updates; remote wipe of corporate data.\n2. Containerisation / work profiles — separate corporate apps and data from personal data; restrict copy/paste and sharing out of the container.\n3. Role-based access and conditional access — users reach only the systems their role needs; access depends on device compliance, location and risk.\n4. Network Access Control (NAC) and segmentation — BYOD devices on a separate VLAN/guest network with limited access to internal resources.\n5. VPN / zero-trust access per application rather than full network access.\n6. MFA, no local admin rights for corporate apps, time-limited access, regular access reviews and a signed BYOD policy.",
+    "explanation": "Marking guide (5 marks):\n• Correct definition of least privilege — 1.5 marks.\n• At least three valid BYOD enforcement measures (MDM/MAM, containerisation, RBAC/conditional access, NAC/segmentation, VPN/zero trust, MFA, policy/reviews) — about 1.2 marks each.",
+    "hint": "Give only the minimum access needed. On personal devices, think MDM, containers, NAC and conditional access.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Access Control",
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What strategies can be used to prevent denial of service (DoS) attacks on critical network servers?",
+    "media": [],
+    "answer": "Strategies (any five well explained):\n1. Firewalls and router ACLs — block malicious IPs, unused ports and spoofed traffic; ingress/egress filtering (BCP 38).\n2. Rate limiting and traffic shaping — cap requests per IP/connection; SYN cookies against SYN floods.\n3. IDS/IPS and traffic monitoring — detect abnormal spikes and attack signatures early and block them.\n4. DDoS mitigation services and CDNs — e.g. Cloudflare, Akamai, AWS Shield absorb and scrub attack traffic.\n5. Redundancy and load balancing — distribute traffic across multiple servers and data centres; over-provision bandwidth; auto-scaling in the cloud.\n6. Hardening and patching — remove unnecessary services, patch vulnerabilities that enable DoS, tune timeouts and connection limits.\n7. Blackholing/sinkholing and ISP cooperation — have the ISP filter upstream during an attack.\n8. Web application firewalls (WAF) — stop application-layer (HTTP flood) attacks.\n9. DoS response plan — documented procedures, contacts and drills.",
+    "explanation": "Marking guide (5 marks):\n• Five valid prevention/mitigation strategies, each briefly explained — 1 mark each.",
+    "hint": "Think capacity, filtering, detection, distribution and having a plan.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Threats & Attacks",
+      "Network Security",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Why is an incident response plan an important part of a company's overall information security strategy?",
+    "media": [],
+    "answer": "An incident response plan (IRP) is a documented set of procedures for detecting, responding to and recovering from security incidents (preparation, identification, containment, eradication, recovery, lessons learned).\n\nIt is important because:\n1. Faster detection and containment — limits the spread and impact of attacks such as ransomware or data breaches.\n2. Reduces damage and cost — less downtime, data loss and financial loss.\n3. Clear roles and communication — everyone knows who does what (IT, management, legal, PR), avoiding panic and confusion.\n4. Business continuity — supports quick recovery of critical services.\n5. Legal and regulatory compliance — meets breach-notification requirements (e.g. Data Protection Act, GDPR) and preserves evidence for investigation.\n6. Protects reputation and customer trust through coordinated communication.\n7. Continuous improvement — lessons learned strengthen future controls.",
+    "explanation": "Marking guide (5 marks):\n• Brief definition of an IRP — 1 mark.\n• Four valid reasons (containment/speed, reduced damage/cost, roles/communication, continuity, compliance/evidence, reputation, lessons learned) — 1 mark each.",
+    "hint": "Breaches will happen. What does a plan change about how fast and how well the company copes?",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "List any four companies that provide information security services and/or training.",
+    "media": [],
+    "answer": "Any four, ideally with a brief note on each:\n• Cisco — network security products (firewalls, VPN) and Cisco certifications/training (CCNA Security, CyberOps).\n• Palo Alto Networks — next-generation firewalls, cloud security, Unit 42 incident response.\n• Fortinet — FortiGate firewalls and the Fortinet Training Institute (NSE certifications).\n• CrowdStrike — endpoint protection and threat intelligence.\n• Kaspersky, Norton (Gen Digital), Sophos, Trend Micro, ESET, McAfee — anti-malware and endpoint security.\n• IBM Security, Microsoft Security, Check Point — enterprise security solutions.\n• Mandiant (Google Cloud) — incident response and threat intelligence.\n• Deloitte, PwC, KPMG, EY — cybersecurity consulting and audits.\n• Training/certification bodies: (ISC)², ISACA, CompTIA, EC-Council, SANS Institute, Offensive Security.\n• In Ghana: e.g. e-Crime Bureau, Cyber Security Authority training programmes.",
+    "explanation": "Marking guide (5 marks):\n• Four genuine information-security companies or training providers — 1.25 marks each (a brief description of the service is good practice but the question only asks to list). Do not credit companies with no security offering.",
+    "hint": "Global security vendors, consultancies and training bodies all count.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Compare and contrast symmetric and asymmetric encryption and discuss scenarios where each can be beneficially applied.",
+    "media": [],
+    "answer": "Symmetric encryption:\n• Uses one shared secret key for both encryption and decryption (e.g. AES, ChaCha20, 3DES).\n• Very fast and efficient for large volumes of data.\n• Problem: the key must be securely shared with every party; n users need n(n−1)/2 keys; no non-repudiation.\n• Scenarios: encrypting disks and databases (BitLocker, TDE), file encryption, bulk data in TLS sessions, VPN tunnels, Wi-Fi (WPA2/3), backups.\n\nAsymmetric (public-key) encryption:\n• Uses a key pair: a public key (shared openly) and a private key (kept secret); what one encrypts only the other decrypts (e.g. RSA, ECC, Diffie-Hellman).\n• Solves key distribution and enables digital signatures (authentication, integrity, non-repudiation).\n• Much slower and computationally heavier; larger keys.\n• Scenarios: secure key exchange (TLS handshake), digital signatures and certificates (PKI), signed software/firmware, email encryption (PGP/S/MIME), SSH keys, cryptocurrency wallets.\n\nSimilarities: both provide confidentiality and rely on secret keys and strong algorithms.\nIn practice they are combined (hybrid encryption): asymmetric crypto exchanges a symmetric session key, which then encrypts the bulk data — as in HTTPS/TLS.",
+    "explanation": "Marking guide (5 marks):\n• Symmetric explained (one shared key, fast, key distribution problem) — 1.5 marks.\n• Asymmetric explained (key pair, slower, solves key distribution, signatures) — 1.5 marks.\n• Appropriate scenarios for each — 1.5 marks.\n• Hybrid use or a similarity noted — 0.5 marks.",
+    "hint": "One shared key vs a public/private key pair. Speed vs key distribution. Where do real systems use both?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Cryptography",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "List and briefly describe any four attacks that can take place on a network.",
+    "media": [],
+    "answer": "Any four of:\n1. Denial of Service (DoS/DDoS) — flooding a server or network with traffic so legitimate users cannot access it.\n2. Man-in-the-middle (MITM) — the attacker secretly intercepts and possibly alters communication between two parties (e.g. on public Wi-Fi, ARP spoofing).\n3. Eavesdropping/sniffing — capturing network packets to read unencrypted data such as passwords.\n4. Spoofing — faking an IP address, MAC address, DNS response or email sender to impersonate a trusted source.\n5. Phishing/social engineering — deceptive messages trick users into revealing credentials or installing malware.\n6. Malware attacks — viruses, worms (self-propagating across networks), ransomware, trojans.\n7. Password attacks — brute force, dictionary and credential stuffing.\n8. SQL injection / web application attacks — malicious input to manipulate back-end databases.\n9. Session hijacking — stealing a session token to take over an authenticated session.\n10. DNS poisoning, replay attacks, port scanning/reconnaissance, rogue access points.",
+    "explanation": "Marking guide (5 marks):\n• Four valid network attacks, each named and briefly described — 1.25 marks each.",
+    "hint": "Think about overwhelming, intercepting, impersonating and tricking.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Threats & Attacks",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Is there a difference between copyright and privacy? Please explain your answer.",
+    "media": [],
+    "answer": "Yes — they protect different things.\n\nCopyright:\n• A legal right (intellectual property) that protects original works of authorship — books, music, software, films, photographs, websites — from being copied, distributed, performed or adapted without the creator's permission, for a limited period (e.g. life of the author + 70 years in many countries; Ghana's Copyright Act 2005, Act 690).\n• It protects the expression of ideas and the creator's economic and moral rights. Infringement: software piracy, illegal downloads, plagiarism.\n\nPrivacy:\n• The right of individuals to control the collection, use and disclosure of their personal information and to be left alone, free from unwarranted surveillance.\n• Protected by data-protection laws (Ghana's Data Protection Act 2012, Act 843; GDPR). Violations: unauthorised sharing of personal data, surveillance, data breaches.\n\nDifference: copyright protects creative works and their owners' rights to exploit them; privacy protects people and their personal data. A photograph of a person can involve both: the photographer owns the copyright, while the subject has privacy rights.",
+    "explanation": "Marking guide (5 marks):\n• States that they differ — 0.5 marks.\n• Copyright correctly explained (IP protecting original works, exclusive rights, law) — 2 marks.\n• Privacy correctly explained (control over personal information, data protection law) — 2 marks.\n• Example or clear contrast — 0.5 marks.",
+    "hint": "One protects creative works; the other protects personal information and private life.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Privacy & IP Law",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Explain what identity theft is and its impact on individuals and corporate security networks.",
+    "media": [],
+    "answer": "Identity theft is a crime in which an attacker obtains and uses someone else's personal information — names, ID/Ghana Card numbers, bank and card details, login credentials — without permission to impersonate them, usually for financial gain or to commit other crimes. Methods: phishing, data breaches, malware/keyloggers, SIM swap, dumpster diving, social engineering.\n\nImpact on individuals:\n• Financial loss — drained accounts, fraudulent loans or purchases.\n• Damaged credit record and reputation; time and cost to recover.\n• Emotional stress; possible wrongful legal liability for crimes committed in their name.\n\nImpact on corporate security networks:\n• Stolen employee credentials let attackers log in as legitimate users, bypass perimeter defences and move laterally — leading to data breaches, ransomware and fraud (e.g. business email compromise).\n• Hard to detect because activity appears legitimate.\n• Regulatory fines, legal costs, loss of customer trust and reputational damage; costs of investigation and remediation.\n• Forces stronger controls: MFA, identity and access management, monitoring for anomalous logins, staff awareness training.",
+    "explanation": "Marking guide (5 marks):\n• Definition of identity theft (with methods) — 1.5 marks.\n• Impact on individuals — 1.5 marks.\n• Impact on corporate networks (credential misuse, breaches, lateral movement, fines, reputation) — 2 marks.",
+    "hint": "Someone uses your personal or login details as if they were you. Who suffers and how?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Threats & Attacks",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What are the main differences between vulnerability scanning and penetration testing?",
+    "media": [],
+    "answer": "Vulnerability scanning:\n• Automated tools (e.g. Nessus, OpenVAS, Qualys) scan systems for known vulnerabilities, missing patches and misconfigurations.\n• Broad and wide coverage; identifies and lists potential weaknesses with severity ratings.\n• Does not exploit them; may include false positives.\n• Quick, relatively inexpensive, run frequently (weekly/monthly or continuously), often by internal staff.\n\nPenetration testing:\n• A simulated, authorised attack, largely manual by skilled ethical hackers (using tools like Metasploit, Burp Suite), that actively exploits vulnerabilities to see how far an attacker could get.\n• Deep and goal-oriented; proves real impact (e.g. accessing sensitive data), finds chained and business-logic flaws scanners miss, fewer false positives.\n• Time-consuming and costly; done periodically (e.g. annually or after major changes); requires rules of engagement and scope.\n\nSummary: scanning answers \"what weaknesses might exist?\"; penetration testing answers \"can these weaknesses actually be exploited, and what would the damage be?\" The two complement each other.",
+    "explanation": "Marking guide (5 marks):\n• Vulnerability scanning explained — 2 marks.\n• Penetration testing explained — 2 marks.\n• Clear contrast on at least one dimension (automation, depth, exploitation, frequency, cost, skill) — 1 mark.",
+    "hint": "One is an automated inventory of weaknesses; the other is a human trying to break in through them.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Vulnerability Testing",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Briefly explain the science and practice of information security.",
+    "media": [],
+    "answer": "Information security is the protection of information and information systems from unauthorised access, use, disclosure, disruption, modification or destruction, to ensure confidentiality, integrity and availability (the CIA triad), plus authenticity and non-repudiation.\n\nAs a science, it rests on systematic knowledge and principles: cryptography and mathematics, security models (e.g. Bell-LaPadula, Biba), formal risk analysis, the study of vulnerabilities and attack techniques, and evidence-based evaluation of controls. It is testable and repeatable.\n\nAs a practice (and an art), it is the application of that knowledge in real organisations: risk management, security policies and governance, implementing administrative, technical and physical controls, security awareness training, incident response, monitoring and auditing, and compliance with standards (ISO 27001, NIST). It requires judgement, balancing security against cost, usability and business goals, and involves people, processes and technology.",
+    "explanation": "Marking guide (5 marks):\n• Definition/goal of information security (CIA) — 1 mark.\n• The science: principles, theory, cryptography, models, risk analysis — 2 marks.\n• The practice: applying controls, policies, risk management, people/process/technology, balancing business needs — 2 marks.",
+    "hint": "Science: the principles, models and theory (CIA, cryptography, risk). Practice: applying them through people, process and technology.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "List and briefly describe the seven phases of the data life cycle.",
+    "media": [],
+    "answer": "A common seven-phase model:\n1. Creation/Collection (generation/capture) — data is created, entered, acquired or captured from sources.\n2. Storage — data is saved in databases, file systems or the cloud, with appropriate protection (encryption, access control, backups).\n3. Processing/Use — data is used, transformed and analysed to support business activities.\n4. Sharing/Distribution — data is shared with or transmitted to internal users, partners or customers, securely.\n5. Analysis — data is examined to derive insights and support decisions (reporting, analytics).\n6. Archiving — data that is no longer actively used is moved to long-term storage for legal, regulatory or historical purposes.\n7. Destruction/Disposal — data is securely and permanently deleted when no longer needed (shredding, degaussing, cryptographic erasure), in line with retention policies.\n\n(Other accepted variants: Generation, Collection, Processing, Storage, Management, Analysis, Visualisation/Interpretation; or Create, Store, Use, Share, Archive, Retain, Destroy.)",
+    "explanation": "Marking guide (5 marks):\n• Seven phases in a sensible order with a brief description — about 0.7 marks each. Accept recognised variants of the data life cycle, as long as phases run from creation to disposal.",
+    "hint": "From when data is created to when it is destroyed.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Data Security",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is the role of secure coding practices in preventing common vulnerabilities such as SQL injection?",
+    "media": [],
+    "answer": "Secure coding practices are development guidelines (e.g. OWASP, CERT) that prevent security flaws from being introduced into software in the first place — far cheaper than fixing breaches later.\n\nFor SQL injection (where attacker input such as ' OR '1'='1 alters a query):\n1. Parameterised queries / prepared statements — user input is sent as data, never concatenated into SQL, so it cannot change the query's structure. E.g. SELECT * FROM users WHERE username = ? .\n2. Stored procedures (used safely) and ORM frameworks that parameterise automatically.\n3. Input validation — allow-list validation of type, length, format and range; reject unexpected input.\n4. Output encoding / escaping — for any dynamic content (also prevents XSS).\n5. Least privilege database accounts — the application's DB user cannot drop tables or read unrelated data, limiting damage.\n6. Proper error handling — don't reveal SQL errors or stack traces to users.\n7. Code reviews, static (SAST) and dynamic (DAST) testing, and developer security training; web application firewalls as an extra layer.\n\nOverall role: building security in during development, reducing the attack surface and protecting confidentiality and integrity of data.",
+    "explanation": "Marking guide (5 marks):\n• Explains the role of secure coding (prevent flaws at source, guidelines) and/or what SQL injection is — 1 mark.\n• Parameterised queries/prepared statements — 1.5 marks.\n• Two or more further practices (input validation, least privilege, error handling, ORM/stored procedures, code review/testing) — 2.5 marks.",
+    "hint": "SQL injection happens when user input becomes part of the SQL command. What coding practices keep data and code separate?",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Threats & Attacks",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What impact can new technologies like the blockchain and quantum technology have on information security?",
+    "media": [],
+    "answer": "Blockchain:\nPositive impacts:\n• Integrity and tamper-evidence — records chained with hashes and replicated across nodes are extremely hard to alter (audit trails, supply chains, land registries, certificates).\n• Decentralisation removes single points of failure; improves availability and trust without intermediaries.\n• Decentralised identity and secure transactions with digital signatures.\nChallenges/risks:\n• Smart-contract bugs and exploits; private-key theft (lost keys = lost assets); 51% attacks on smaller chains.\n• Immutability conflicts with privacy rights (e.g. right to erasure); scalability and energy concerns; used for ransomware payments.\n\nQuantum technology:\nThreats:\n• Shor's algorithm on a large quantum computer would break today's public-key cryptography (RSA, ECC, Diffie-Hellman), undermining TLS, digital signatures, PKI and blockchain signatures.\n• Grover's algorithm weakens symmetric crypto and hashes (effectively halving key strength — AES-256 remains safe).\n• \"Harvest now, decrypt later\" — encrypted data stolen today could be decrypted in future.\nOpportunities:\n• Quantum key distribution (QKD) offers eavesdropping-detectable key exchange.\n• Drives adoption of post-quantum cryptography (NIST standards such as ML-KEM/Kyber and ML-DSA/Dilithium) and crypto-agility.",
+    "explanation": "Marking guide (5 marks):\n• Blockchain impacts (benefits such as integrity/decentralisation and at least one risk) — 2.5 marks.\n• Quantum impacts (threat to public-key crypto via Shor; harvest-now-decrypt-later; and opportunities such as QKD/post-quantum crypto) — 2.5 marks.",
+    "hint": "Each brings both new protections and new threats. Quantum especially threatens today's public-key cryptography.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "Emerging Technologies",
+      "Cryptography",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "How does information security differ from cybersecurity?",
+    "media": [],
+    "answer": "Information security (InfoSec) protects information in all its forms — digital and physical (paper records, printed reports, conversations, storage media) — ensuring confidentiality, integrity and availability, wherever the information resides. It is broader in scope and includes governance, policies, physical security and risk management.\n\nCybersecurity focuses specifically on protecting digital assets — networks, computers, devices, software and data in cyberspace — from cyber attacks (malware, hacking, DDoS, phishing) that arrive through electronic means.\n\nRelationship: cybersecurity is largely a subset of information security (the part concerned with the cyber domain); information security also covers non-digital information. They overlap heavily for digital data. E.g. locking a filing cabinet is information security but not cybersecurity; a firewall is both.",
+    "explanation": "Marking guide (5 marks):\n• Information security explained (all forms of information, digital and physical; CIA) — 2 marks.\n• Cybersecurity explained (digital systems/networks, cyber threats) — 2 marks.\n• Relationship/example (cybersecurity as a subset; overlap) — 1 mark.",
+    "hint": "Which one also covers paper files and conversations?",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Is a copyright different from a patent? Please explain your response briefly.",
+    "media": [],
+    "answer": "Yes.\n\nCopyright protects original works of authorship — literary, artistic, musical works, films and software code — i.e. the expression of an idea, not the idea itself. It arises automatically when the work is created (registration optional), and lasts a long time (typically the author's life + 70 years; life + 70 in Ghana's Copyright Act 2005).\n\nA patent protects inventions — new, useful, non-obvious processes, machines, products or technical solutions — giving the inventor the exclusive right to make, use and sell the invention. It must be applied for and examined/granted by a patent office (in Ghana, the Registrar-General's Department), requires public disclosure of how it works, and lasts a shorter time (usually 20 years).\n\nExample: the code of a program is protected by copyright; a novel algorithmic technical process might be patented.",
+    "explanation": "Marking guide (5 marks):\n• States that they differ — 0.5 marks.\n• Copyright explained (creative works, expression, automatic, long duration) — 2 marks.\n• Patent explained (inventions, must be applied for/granted, ~20 years, disclosure) — 2 marks.\n• Example or contrast — 0.5 marks.",
+    "hint": "One protects the expression of creative work; the other protects inventions.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Privacy & IP Law",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Can you list and briefly describe any two vulnerability scanning tools?",
+    "media": [],
+    "answer": "Any two of:\n• Nessus (Tenable) — widely used network vulnerability scanner; checks hosts for missing patches, misconfigurations, default credentials and known CVEs, with severity-ranked reports.\n• OpenVAS / Greenbone — open-source full-featured vulnerability scanner with a large, regularly updated feed of tests.\n• Qualys VMDR — cloud-based vulnerability management platform for continuous scanning and asset discovery.\n• Nmap (with NSE scripts) — network mapper that discovers hosts, open ports, services and versions, and can run vulnerability-detection scripts.\n• Nikto — open-source web server scanner that detects dangerous files, outdated server software and misconfigurations.\n• OWASP ZAP / Burp Suite — web application scanners that find SQL injection, XSS and other web flaws.\n• Rapid7 InsightVM/Nexpose, Acunetix, Microsoft Defender Vulnerability Management.",
+    "explanation": "Marking guide (5 marks):\n• Two genuine vulnerability scanning tools, each named (1 mark) and briefly described (1.5 marks).",
+    "hint": "Network scanners, web application scanners and open-source options all count.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Vulnerability Testing",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "What is information security governance?",
+    "media": [],
+    "answer": "Information security governance is the system by which an organisation's security activities are directed and controlled by its board and senior management. It is a subset of corporate (IT) governance.\n\nIt involves:\n• Strategic alignment — security strategy supports business objectives.\n• Accountability and roles — clear responsibilities (board, CISO, owners), leadership commitment.\n• Policies and standards — establishing information security policies, frameworks and procedures.\n• Risk management — identifying, assessing and treating risks to an acceptable level.\n• Resource management — allocating budget, people and technology appropriately.\n• Performance measurement and assurance — metrics, audits, reporting to the board.\n• Compliance — meeting laws, regulations and standards (e.g. ISO 27001/27014, COBIT, NIST CSF, Ghana's Cybersecurity Act 2020).\n• Value delivery — optimising security investments.\n\nThe aim is to ensure security risks are managed responsibly and information assets are protected in a way the organisation's leadership can oversee.",
+    "explanation": "Marking guide (5 marks):\n• Definition: how leadership directs and controls security, part of corporate governance — 2 marks.\n• Three or more components (strategic alignment, accountability, policies, risk management, resources, performance measurement, compliance) — 3 marks.",
+    "hint": "It's how the board and executives direct and control security — strategy, accountability, policy, risk, measurement.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Policy & Governance",
+      "2024/25 Paper"
+    ]
+  }
+]

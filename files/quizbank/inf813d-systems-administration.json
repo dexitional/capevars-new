@@ -1,0 +1,848 @@
+[
+  {
+    "type": "choice",
+    "body": "You want to find all lines that contain the word \"error\" in log.txt.",
+    "options": [
+      {
+        "text": "find error log.txt",
+        "hint": "find searches the file system for files by name, size, date — not for text inside files. This would look for files named error and log.txt."
+      },
+      {
+        "text": "grep error log.txt",
+        "hint": "Correct. grep prints every line of log.txt that matches the pattern \"error\"."
+      },
+      {
+        "text": "search error log.txt",
+        "hint": "There is no standard search command in Linux."
+      },
+      {
+        "text": "scan log.txt error",
+        "hint": "There is no standard scan command, and the argument order is wrong anyway."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The classic text-search tool's name comes from \"global regular expression print\".",
+    "explanation": "grep searches text for lines matching a pattern:\n• grep error log.txt — lines containing \"error\"\n• grep -i error log.txt — case-insensitive\n• grep -n error log.txt — show line numbers\n• grep -r error /var/log — search recursively\n• grep -c error log.txt — count matching lines",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A system admin wants to check who is currently logged into the system.",
+    "options": [
+      {
+        "text": "users",
+        "hint": "users does print the usernames currently logged in, but only as a bare list. who is the standard command, showing user, terminal, login time and origin."
+      },
+      {
+        "text": "whoami",
+        "hint": "whoami prints only your own effective username."
+      },
+      {
+        "text": "who",
+        "hint": "Correct. who lists every logged-in user with their terminal, login time and remote host."
+      },
+      {
+        "text": "id",
+        "hint": "id shows your own user ID, group ID and groups."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which command reports on everyone, not just you?",
+    "explanation": "Commands for logged-in users:\n• who — users logged in, terminal (tty/pts), login time, remote host.\n• w — like who, plus what each user is running and system load.\n• users — just the usernames.\n• last — login history.\n• whoami / id — information about your own account.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A user wants to display all currently running processes.",
+    "options": [
+      {
+        "text": "jobs",
+        "hint": "jobs lists only background jobs started from the current shell."
+      },
+      {
+        "text": "runps",
+        "hint": "runps is not a standard Linux command."
+      },
+      {
+        "text": "ps -ef",
+        "hint": "Correct. ps -e selects every process; -f shows full format (UID, PID, PPID, start time, command)."
+      },
+      {
+        "text": "lsproc",
+        "hint": "lsproc is not a standard Linux command."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "ps on its own shows only your terminal's processes. Which flags show every process?",
+    "explanation": "ps (process status) snapshots running processes:\n• ps — processes in the current terminal\n• ps -ef — all processes, full format (System V style)\n• ps aux — all processes with CPU/memory usage (BSD style)\n• ps -ef | grep nginx — find a specific process\nFor a live, continuously updating view, use top or htop.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "You want to move a file data.txt to another directory /tmp. Which one is correct?",
+    "options": [
+      {
+        "text": "cp data.txt /tmp",
+        "hint": "cp copies the file; the original stays where it was."
+      },
+      {
+        "text": "mv data.txt /tmp",
+        "hint": "Correct. mv moves (or renames) files and directories."
+      },
+      {
+        "text": "move data.txt /tmp",
+        "hint": "move is a Windows command, not Linux."
+      },
+      {
+        "text": "shift data.txt /tmp",
+        "hint": "shift is a shell built-in for positional parameters, not a file command."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The Linux command is a two-letter abbreviation of \"move\".",
+    "explanation": "mv source destination moves a file; the original is removed from its old location. mv is also used to rename: mv old.txt new.txt. Use mv -i to be prompted before overwriting. cp copies, leaving the original in place.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A user wants to see all files, including hidden ones, in their current directory. Which of these is correct?",
+    "options": [
+      {
+        "text": "ls",
+        "hint": "Plain ls hides files whose names start with a dot (hidden files)."
+      },
+      {
+        "text": "ls -a",
+        "hint": "Correct. -a (all) includes hidden dot-files, plus . and .."
+      },
+      {
+        "text": "show files",
+        "hint": "show files is not a Linux command."
+      },
+      {
+        "text": "list all",
+        "hint": "list all is not a Linux command."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Hidden files in Linux start with a dot. Which flag means \"all\"?",
+    "explanation": "In Linux, files whose names start with \".\" (e.g. .bashrc, .ssh) are hidden.\n• ls -a — all files including hidden ones and . / ..\n• ls -A — hidden files but not . and ..\n• ls -la — long listing with permissions, owners, sizes, including hidden files.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A developer is unsure of their current working directory. What command helps?",
+    "options": [
+      {
+        "text": "dir",
+        "hint": "dir lists directory contents (like ls); it doesn't print where you are."
+      },
+      {
+        "text": "cd",
+        "hint": "cd changes directory; on its own it takes you to your home directory."
+      },
+      {
+        "text": "pwd",
+        "hint": "Correct. pwd — print working directory — shows the full path of the current directory."
+      },
+      {
+        "text": "path",
+        "hint": "path is not a Linux command; $PATH is the list of directories searched for programs."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Print Working Directory.",
+    "explanation": "pwd prints the absolute path of the current working directory, e.g. /home/kofi/projects. Related: cd to change directory, ls to list contents, cd - to return to the previous directory.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A system admin needs to give the owner full access, and read-execute to others. Which command can be used?",
+    "options": [
+      {
+        "text": "chmod 777 file",
+        "hint": "777 gives everyone (owner, group, others) full read-write-execute — far too permissive."
+      },
+      {
+        "text": "chmod 644 file",
+        "hint": "644 = owner read/write, others read only — no execute for anyone."
+      },
+      {
+        "text": "chmod 755 file",
+        "hint": "Correct. 7 = rwx for the owner; 5 = r-x for group and others."
+      },
+      {
+        "text": "chmod 600 file",
+        "hint": "600 = owner read/write only; others get nothing."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Read = 4, write = 2, execute = 1. Owner needs 4+2+1; others need 4+1.",
+    "explanation": "chmod numeric (octal) permissions use three digits — owner, group, others — each the sum of read (4), write (2) and execute (1):\n• 7 = rwx, 6 = rw-, 5 = r-x, 4 = r--, 0 = ---\nSo 755 = rwxr-xr-x: typical for scripts, programs and directories. 644 (rw-r--r--) is typical for ordinary files; 600 for private files like SSH keys.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Permissions & Ownership",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which command shows real-time system resource usage like CPU and memory?",
+    "options": [
+      {
+        "text": "ps",
+        "hint": "ps gives a one-off snapshot of processes, not a live updating view."
+      },
+      {
+        "text": "netstat",
+        "hint": "netstat shows network connections, routing tables and ports."
+      },
+      {
+        "text": "free",
+        "hint": "free shows memory usage once (and no CPU usage)."
+      },
+      {
+        "text": "top",
+        "hint": "Correct. top continuously updates CPU, memory, load average and the most resource-hungry processes."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which one keeps refreshing on screen?",
+    "explanation": "top displays a real-time, auto-refreshing view of system load, CPU, memory, swap and per-process usage; press q to quit, M to sort by memory, P by CPU. htop is a friendlier alternative. Other tools: free -h (memory), vmstat, iostat, df -h (disk), netstat/ss (network).",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "You want to change ownership of a file to another user. Which command can do this?",
+    "options": [
+      {
+        "text": "chmod",
+        "hint": "chmod changes permissions (read/write/execute), not the owner."
+      },
+      {
+        "text": "changeowner",
+        "hint": "changeowner is not a Linux command."
+      },
+      {
+        "text": "chown",
+        "hint": "Correct. chown (change owner) sets a file's owner, e.g. chown ama report.txt."
+      },
+      {
+        "text": "giveown",
+        "hint": "giveown is not a Linux command."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change OWNer.",
+    "explanation": "chown changes file ownership (usually requires root/sudo):\n• chown ama file.txt — change owner\n• chown ama:staff file.txt — change owner and group\n• chown -R ama /srv/site — recursively\nchgrp changes only the group; chmod changes permissions.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Permissions & Ownership",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A user accidentally deleted a file and wants to find recently accessed files. Which of these can help?",
+    "options": [
+      {
+        "text": "ls -a",
+        "hint": "ls -a lists hidden files in one directory; it doesn't filter by access time."
+      },
+      {
+        "text": "history",
+        "hint": "history shows recently run shell commands, not files."
+      },
+      {
+        "text": "find / -atime -1",
+        "hint": "Correct. find searches the whole file system (/) for files accessed (-atime) less than one day ago (-1)."
+      },
+      {
+        "text": "recent",
+        "hint": "recent is not a Linux command."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which option searches by time?",
+    "explanation": "find can filter by timestamps:\n• -atime n — last accessed n days ago (-1 = within the last day)\n• -mtime n — content last modified\n• -ctime n — metadata (status) last changed\n• -amin / -mmin — the same in minutes\nE.g. find /home -mtime -1 -type f lists files modified in the last 24 hours.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "Linux Commands",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A network admin needs to subnet a /24 network. How many usable IPs are there?",
+    "options": [
+      {
+        "text": "256",
+        "hint": "256 is the total number of addresses in a /24, including the network and broadcast addresses."
+      },
+      {
+        "text": "254",
+        "hint": "Correct. 2⁸ = 256 addresses, minus the network address and the broadcast address = 254 usable hosts."
+      },
+      {
+        "text": "128",
+        "hint": "128 addresses is a /25."
+      },
+      {
+        "text": "255",
+        "hint": "Only one address subtracted — both the network and broadcast addresses are unusable."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "A /24 leaves 8 host bits. Total = 2⁸; two addresses are reserved.",
+    "explanation": "Usable hosts = 2^(32 − prefix) − 2.\nFor /24: 32 − 24 = 8 host bits → 2⁸ = 256 addresses − 2 (network address, e.g. 192.168.1.0, and broadcast address, 192.168.1.255) = 254 usable hosts.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IP Subnetting",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the subnet mask for a /25 network?",
+    "options": [
+      {
+        "text": "255.255.255.128",
+        "hint": "Correct. /25 = 25 one-bits: three full octets (24) plus one bit in the last octet = 10000000 = 128."
+      },
+      {
+        "text": "255.255.255.192",
+        "hint": "255.255.255.192 is /26 (two extra bits: 128 + 64)."
+      },
+      {
+        "text": "255.255.255.0",
+        "hint": "255.255.255.0 is /24."
+      },
+      {
+        "text": "255.255.255.224",
+        "hint": "255.255.255.224 is /27 (128 + 64 + 32)."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "/24 is 255.255.255.0. Add one more network bit — the highest bit in the last octet is worth 128.",
+    "explanation": "Each prefix bit beyond /24 adds to the last octet:\n/25 = 128, /26 = 192, /27 = 224, /28 = 240, /29 = 248, /30 = 252.\nA /25 has 128 addresses (126 usable).",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IP Subnetting",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A technician is configuring a Class C subnet. What is its default mask?",
+    "options": [
+      {
+        "text": "255.0.0.0",
+        "hint": "255.0.0.0 (/8) is the Class A default."
+      },
+      {
+        "text": "255.255.255.0",
+        "hint": "Correct. Class C (192.0.0.0–223.255.255.255) defaults to /24 = 255.255.255.0."
+      },
+      {
+        "text": "255.255.0.0",
+        "hint": "255.255.0.0 (/16) is the Class B default."
+      },
+      {
+        "text": "255.255.224.0",
+        "hint": "255.255.224.0 is a /19, not a classful default."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "A = /8, B = /16, C = ?",
+    "explanation": "Classful default masks:\n• Class A (1–126.x.x.x): 255.0.0.0 (/8)\n• Class B (128–191.x.x.x): 255.255.0.0 (/16)\n• Class C (192–223.x.x.x): 255.255.255.0 (/24)\nModern networks use CIDR, but these defaults are still commonly examined.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IP Subnetting",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What does CIDR /26 mean?",
+    "options": [
+      {
+        "text": "64 hosts",
+        "hint": "64 is the total number of addresses in a /26; two are reserved, so not all are usable hosts."
+      },
+      {
+        "text": "62 usable hosts",
+        "hint": "Correct. 32 − 26 = 6 host bits → 2⁶ = 64 addresses − 2 = 62 usable hosts."
+      },
+      {
+        "text": "128 hosts",
+        "hint": "128 addresses is a /25."
+      },
+      {
+        "text": "254 hosts",
+        "hint": "254 usable hosts is a /24."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Host bits = 32 − 26. Don't forget the two reserved addresses.",
+    "explanation": "/26 means the first 26 bits are the network part (mask 255.255.255.192), leaving 6 host bits: 2⁶ = 64 addresses per subnet, 62 usable after removing the network and broadcast addresses. A /24 splits into four /26 subnets.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IP Subnetting",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "You want 4 subnets from a /24 block. What prefix should you use?",
+    "options": [
+      {
+        "text": "/26",
+        "hint": "Correct. Borrowing 2 bits gives 2² = 4 subnets: /24 + 2 = /26, each with 64 addresses (62 usable)."
+      },
+      {
+        "text": "/25",
+        "hint": "/25 borrows 1 bit — only 2 subnets."
+      },
+      {
+        "text": "/28",
+        "hint": "/28 borrows 4 bits — 16 subnets."
+      },
+      {
+        "text": "/30",
+        "hint": "/30 borrows 6 bits — 64 subnets of 2 usable hosts each."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subnets = 2^(borrowed bits). How many bits give 4?",
+    "explanation": "To create N subnets, borrow b bits where 2^b ≥ N.\n4 subnets → b = 2 → new prefix /24 + 2 = /26.\nFor 192.168.1.0/24: 192.168.1.0/26, .64/26, .128/26, .192/26.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "IP Subnetting",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which OSI layer is responsible for reliable transmission and flow control?",
+    "options": [
+      {
+        "text": "Network",
+        "hint": "The network layer (3) handles logical addressing and routing between networks."
+      },
+      {
+        "text": "Transport",
+        "hint": "Correct. Layer 4 provides end-to-end reliability (acknowledgements, retransmission), flow control and segmentation — e.g. TCP."
+      },
+      {
+        "text": "Session",
+        "hint": "The session layer (5) manages sessions/dialogues between applications."
+      },
+      {
+        "text": "Data Link",
+        "hint": "The data link layer (2) handles framing and node-to-node delivery; it has some error detection, but end-to-end reliability and flow control belong to the transport layer."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "TCP lives here.",
+    "explanation": "OSI layers (top to bottom): 7 Application, 6 Presentation, 5 Session, 4 Transport, 3 Network, 2 Data Link, 1 Physical.\nThe Transport layer provides end-to-end communication: segmentation, port numbers, reliable delivery (TCP sequence numbers, ACKs, retransmissions), flow control (windowing) and error recovery.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OSI & Protocols",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which protocol is connection-oriented?",
+    "options": [
+      {
+        "text": "TCP",
+        "hint": "Correct. TCP establishes a connection with a three-way handshake (SYN, SYN-ACK, ACK) before sending data."
+      },
+      {
+        "text": "UDP",
+        "hint": "UDP is connectionless — it just sends datagrams with no handshake or guarantee."
+      },
+      {
+        "text": "ICMP",
+        "hint": "ICMP sends control and error messages (e.g. ping) without connections."
+      },
+      {
+        "text": "ARP",
+        "hint": "ARP resolves IP addresses to MAC addresses on a LAN; it is connectionless."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Which one starts with a three-way handshake?",
+    "explanation": "TCP (Transmission Control Protocol) is connection-oriented and reliable: three-way handshake, sequencing, acknowledgements, retransmission, flow and congestion control. Used by HTTP/HTTPS, SSH, email. UDP is connectionless and faster with no guarantees — used by DNS, VoIP, video streaming, DHCP.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OSI & Protocols",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which OSI layer is responsible for encryption?",
+    "options": [
+      {
+        "text": "Network",
+        "hint": "The network layer handles routing (although IPsec operates here, encryption is classically assigned to layer 6)."
+      },
+      {
+        "text": "Transport",
+        "hint": "TLS sits around the transport layer in practice, but in the OSI model encryption is a Presentation-layer function."
+      },
+      {
+        "text": "Presentation",
+        "hint": "Correct. Layer 6 handles data representation: translation, encryption/decryption and compression."
+      },
+      {
+        "text": "Data Link",
+        "hint": "The data link layer handles frames and MAC addressing."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The layer that translates data into a format the application can use.",
+    "explanation": "The Presentation layer (6) — the \"translator\" — handles data formatting and encoding (ASCII, JPEG), encryption/decryption and compression so that data from one system can be read by another. In real protocols encryption appears at several layers (TLS, IPsec, WPA), but in the OSI model it belongs to the Presentation layer.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OSI & Protocols",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "HTTP works on which layer of the OSI model?",
+    "options": [
+      {
+        "text": "Session",
+        "hint": "The session layer manages dialogues; HTTP is a user-facing application protocol."
+      },
+      {
+        "text": "Presentation",
+        "hint": "The presentation layer handles formatting and encryption."
+      },
+      {
+        "text": "Application",
+        "hint": "Correct. HTTP is an Application-layer (layer 7) protocol, like FTP, SMTP, DNS and SSH."
+      },
+      {
+        "text": "Transport",
+        "hint": "HTTP runs on top of TCP, which is the transport layer."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The top layer — where protocols that applications use directly live.",
+    "explanation": "HTTP (Hypertext Transfer Protocol) defines how browsers and web servers exchange requests and responses — an Application-layer (7) protocol. It relies on TCP (Transport, layer 4) and IP (Network, layer 3). HTTPS adds TLS encryption.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OSI & Protocols",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which protocol does not operate at the network layer?",
+    "options": [
+      {
+        "text": "IP",
+        "hint": "IP is the core network-layer protocol (logical addressing and routing)."
+      },
+      {
+        "text": "ICMP",
+        "hint": "ICMP is a network-layer protocol for error and diagnostic messages."
+      },
+      {
+        "text": "TCP",
+        "hint": "Correct. TCP operates at the Transport layer (4)."
+      },
+      {
+        "text": "IGMP",
+        "hint": "IGMP manages multicast group membership at the network layer."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Three of these are layer 3. One is layer 4.",
+    "explanation": "Network layer (3) protocols: IP (IPv4/IPv6), ICMP, IGMP, IPsec, routing protocols such as OSPF.\nTransport layer (4): TCP and UDP.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OSI & Protocols",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At Soloku Tech, several users reported unusual login activity on their development environments. The IT administrator discovered that temporary staff had not been removed from the system after contract expiration. Additionally, there was no structured process for monitoring who accessed which system. The recently hired system administrator is tasked with evaluating the IAM structure and formalizing their system administration duties to prevent future breaches.\n\n(21a) Identify two IAM weaknesses in this scenario.",
+    "media": [],
+    "answer": "1. No timely de-provisioning (poor account lifecycle management) — temporary staff accounts remained active after their contracts expired, leaving orphaned accounts that could be (and appear to have been) misused.\n\n2. No access monitoring/auditing — there was no structured process for tracking who accessed which system, so unusual logins went unnoticed and accountability was impossible.\n\n(Also acceptable: no periodic access reviews/recertification; lack of formal joiner–mover–leaver process; possibly excessive privileges for temporary staff.)",
+    "explanation": "Marking guide (2 marks):\n• Two valid weaknesses from the scenario — 1 mark each (failure to deprovision expired temporary accounts; no monitoring/auditing of access; no access reviews).",
+    "hint": "Look for what went wrong when contracts ended, and what was missing to see who accessed what.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "Identity & Access",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At Soloku Tech, several users reported unusual login activity on their development environments. The IT administrator discovered that temporary staff had not been removed from the system after contract expiration. Additionally, there was no structured process for monitoring who accessed which system. The recently hired system administrator is tasked with evaluating the IAM structure and formalizing their system administration duties to prevent future breaches.\n\n(21b) Suggest one technical and one policy solution to improve identity governance.",
+    "media": [],
+    "answer": "Technical solution (any one): an Identity and Access Management (IAM) system integrated with HR (e.g. Active Directory/Azure AD/Okta) that automatically disables accounts on contract end dates; account expiry dates set on temporary accounts; centralised SSO with MFA; SIEM-based monitoring and alerting on unusual logins.\n\nPolicy solution (any one): a formal joiner–mover–leaver (account lifecycle) policy requiring accounts be disabled on or before the last working day; periodic (e.g. quarterly) access reviews and recertification by managers; least-privilege and time-bound access policy for temporary staff; mandatory audit-log review procedure.",
+    "explanation": "Marking guide (2 marks):\n• One valid technical solution — 1 mark.\n• One valid policy solution — 1 mark.",
+    "hint": "Technical: a tool or system feature. Policy: a rule or procedure people must follow.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "Identity & Access",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At Soloku Tech, several users reported unusual login activity on their development environments. The IT administrator discovered that temporary staff had not been removed from the system after contract expiration. Additionally, there was no structured process for monitoring who accessed which system. The recently hired system administrator is tasked with evaluating the IAM structure and formalizing their system administration duties to prevent future breaches.\n\n(21c) List two core responsibilities of a system administrator in managing user access.",
+    "media": [],
+    "answer": "Any two, briefly explained:\n1. User account provisioning and de-provisioning — creating accounts for new users with the right access, modifying them when roles change, and promptly disabling/removing them when people leave or contracts end.\n2. Assigning and enforcing permissions on the principle of least privilege — managing groups/roles (RBAC), granting only the access each user needs.\n3. Authentication management — enforcing password policies, MFA, account lockout and credential resets.\n4. Monitoring and auditing access — reviewing logs, investigating suspicious activity and conducting periodic access reviews.\n5. Documenting access and maintaining compliance with security policies.",
+    "explanation": "Marking guide (3 marks):\n• Two valid responsibilities — 1.5 marks each (named with a brief explanation).",
+    "hint": "Think through the account lifecycle and keeping access correct over time.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Identity & Access",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At Soloku Tech, several users reported unusual login activity on their development environments. The IT administrator discovered that temporary staff had not been removed from the system after contract expiration. Additionally, there was no structured process for monitoring who accessed which system. The recently hired system administrator is tasked with evaluating the IAM structure and formalizing their system administration duties to prevent future breaches.\n\n(21d) Explain the role of audit logs in the duties of a system administrator.",
+    "media": [],
+    "answer": "Audit logs are chronological records of system and user activity — logins and failures, privilege use, file access, configuration changes — showing who did what, when and from where.\n\nTheir role in a system administrator's duties:\n1. Security monitoring and detection — reveal suspicious activity such as unusual logins (as at Soloku Tech), brute-force attempts or use of expired accounts, ideally with alerts via a SIEM.\n2. Accountability — tie actions to individual users, deterring misuse and supporting non-repudiation.\n3. Incident investigation and forensics — reconstruct events after a breach to determine scope and cause.\n4. Compliance and auditing — provide evidence for internal/external audits and regulatory requirements.\n5. Troubleshooting — help diagnose system and configuration problems.\nAdministrators must protect logs from tampering, centralise them and retain them for a defined period.",
+    "explanation": "Marking guide (3 marks):\n• What audit logs are (records of who did what, when) — 1 mark.\n• Two roles (detecting suspicious activity, accountability, investigation/forensics, compliance, troubleshooting) — 1 mark each.",
+    "hint": "Logs answer: who did what, when, from where. How does an admin use that?",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Identity & Access",
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A software development firm uses traditional VMs to manage testing environments for each team. Resource usage has spiked, and software versions frequently clash due to inconsistencies across VMs. Management is exploring a shift to container-based architecture for consistency and portability.\n\n(22a) Explain two key drawbacks of VM-based testing in this scenario.",
+    "media": [],
+    "answer": "1. High resource overhead — each VM runs a full guest operating system with its own kernel, memory and disk, so running a VM per team consumes large amounts of CPU, RAM and storage; VMs are slow to boot and duplicate the same OS many times. This explains the spike in resource usage.\n\n2. Configuration drift and inconsistency — VMs are often built and updated manually, so library versions, OS patches and runtime versions diverge between teams (\"works on my VM\"), causing the software version clashes; reproducing an exact environment is hard.\n\n(Also acceptable: slow provisioning/start-up and poor portability — large VM images are hard to move between environments; licensing costs.)",
+    "explanation": "Marking guide (4 marks):\n• Two valid drawbacks linked to the scenario — 2 marks each (resource overhead of full guest OSs; inconsistency/configuration drift causing version clashes; slow provisioning; poor portability).",
+    "hint": "Why did resource usage spike, and why do versions clash?",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Virtualization & Containers",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A software development firm uses traditional VMs to manage testing environments for each team. Resource usage has spiked, and software versions frequently clash due to inconsistencies across VMs. Management is exploring a shift to container-based architecture for consistency and portability.\n\n(22b) Describe three advantages containers provide in development workflows.",
+    "media": [],
+    "answer": "Any three, described:\n1. Consistency and portability — a container image packages the application with its exact dependencies, libraries and runtime, so it runs identically on a developer laptop, test server and production (\"build once, run anywhere\"). This eliminates version clashes.\n\n2. Lightweight and efficient — containers share the host OS kernel instead of each running a full OS, so they use far less CPU, memory and disk than VMs, and many more can run on the same hardware.\n\n3. Speed — containers start in seconds, enabling rapid creation and teardown of test environments and faster feedback.\n\n4. Isolation — each application/team runs in its own isolated environment, so dependencies do not conflict.\n\n5. Version control and reproducibility — Dockerfiles define environments as code; images are versioned and can be rolled back.\n\n6. CI/CD integration and microservices — containers fit automated build-test-deploy pipelines and support breaking applications into independently deployable services.",
+    "explanation": "Marking guide (6 marks):\n• Three valid advantages, each described — 2 marks each (consistency/portability, lightweight/resource efficiency, fast start-up, isolation, reproducibility/versioning, CI/CD integration, scalability).",
+    "hint": "Think consistency, weight and speed, and how they fit pipelines.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "Virtualization & Containers",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A software development firm uses traditional VMs to manage testing environments for each team. Resource usage has spiked, and software versions frequently clash due to inconsistencies across VMs. Management is exploring a shift to container-based architecture for consistency and portability.\n\n(22c) How can orchestration platforms enhance container deployment and scaling?",
+    "media": [],
+    "answer": "Orchestration platforms (e.g. Kubernetes, Docker Swarm, OpenShift, Amazon ECS) automate the management of many containers across a cluster of hosts:\n• Automated deployment and scheduling — place containers on suitable nodes based on resources; declarative configuration.\n• Scaling — scale replicas up/down manually or automatically (Horizontal Pod Autoscaler) based on CPU, memory or traffic.\n• Self-healing — restart failed containers, replace unhealthy ones and reschedule them when nodes fail.\n• Load balancing and service discovery — distribute traffic across container replicas.\n• Rolling updates and rollbacks — deploy new versions with zero downtime and roll back if problems occur.\n• Configuration and secrets management, resource limits.",
+    "explanation": "Marking guide (3 marks):\n• Three valid ways orchestration helps (automated deployment/scheduling, auto-scaling, self-healing, load balancing/service discovery, rolling updates/rollbacks, config/secrets) — 1 mark each. Naming an orchestration platform is a plus.",
+    "hint": "Kubernetes and similar tools: what do they automate across many containers and hosts?",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Virtualization & Containers",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A software development firm uses traditional VMs to manage testing environments for each team. Resource usage has spiked, and software versions frequently clash due to inconsistencies across VMs. Management is exploring a shift to container-based architecture for consistency and portability.\n\n(22d) Name and explain one risk of using containers in production.",
+    "media": [],
+    "answer": "Any one, named and explained:\n• Weaker isolation / container escape — containers share the host OS kernel, so a kernel vulnerability or a misconfigured (e.g. privileged) container could let an attacker escape to the host and affect other containers.\n• Vulnerable or untrusted images — images pulled from public registries may contain outdated packages, malware or embedded secrets.\n• Misconfiguration — running as root, exposed ports, excessive privileges.\n• Data persistence risk — containers are ephemeral; data written inside a container is lost when it is removed unless persistent volumes are used.\n• Operational complexity and limited visibility — many short-lived containers are harder to monitor, log and secure.",
+    "explanation": "Marking guide (2 marks):\n• One valid risk named — 1 mark.\n• Clear explanation of the risk — 1 mark.",
+    "hint": "Containers share something with the host that VMs don't.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "Virtualization & Containers",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Anase Fintech startup has experienced slow response times and frequent application errors during peak hours. Their current setup only includes basic logging and no real-time monitoring or alerting mechanisms. Critical application logs are scattered across containers and virtual machines, making incident investigation slow and unreliable.\n\n(23a) Identify two limitations of the current monitoring setup.",
+    "media": [],
+    "answer": "1. No real-time monitoring or alerting — problems (slow responses, error spikes, resource exhaustion at peak hours) are only discovered after users complain; there is no proactive detection or notification, so response is slow and downtime longer.\n\n2. Decentralised, scattered logs — logs are spread across many containers and VMs (and container logs may be lost when containers restart), so there is no single place to search and correlate events; incident investigation is slow and unreliable.\n\n(Also acceptable: only basic logging — no metrics on performance (CPU, memory, latency) or tracing; no dashboards/trend analysis for capacity planning.)",
+    "explanation": "Marking guide (4 marks):\n• Two valid limitations linked to the scenario — 2 marks each (no real-time monitoring/alerting; scattered/decentralised logs; only basic logs with no performance metrics or tracing).",
+    "hint": "What can't they see as it happens, and why are investigations slow?",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Anase Fintech startup has experienced slow response times and frequent application errors during peak hours. Their current setup only includes basic logging and no real-time monitoring or alerting mechanisms. Critical application logs are scattered across containers and virtual machines, making incident investigation slow and unreliable.\n\n(23b) Propose a monitoring architecture using two open-source tools.",
+    "media": [],
+    "answer": "Proposed architecture (metrics + centralised logs):\n\n1. Prometheus (metrics and alerting) — exporters (node_exporter for VMs, cAdvisor for containers, application metrics endpoints) expose CPU, memory, request latency and error rates; Prometheus scrapes and stores them as time series. Alertmanager sends alerts (email, Slack, SMS) when thresholds are breached, e.g. 95th-percentile latency > 2 s or error rate > 5% during peak hours.\n\n2. Grafana (visualisation) — dashboards over Prometheus (and log) data for real-time views of performance and capacity.\n\nCentralised logging: the ELK/EFK stack (Elasticsearch, Logstash/Fluentd/Fluent Bit, Kibana) or Grafana Loki + Promtail — agents on every VM and container ship logs to a central store, where they are indexed, searched and correlated.\n\nFlow: applications/containers/VMs → exporters & log shippers → Prometheus / Elasticsearch-Loki → Grafana/Kibana dashboards + Alertmanager notifications to the on-call team.\n\n(Other acceptable open-source tools: Zabbix, Nagios, Netdata, Jaeger/OpenTelemetry for tracing, Graylog.)",
+    "explanation": "Marking guide (4 marks):\n• Two appropriate open-source tools named — 1 mark each.\n• Architecture explained: what each tool does and how data flows (collection → storage → visualisation/alerting) — 2 marks.",
+    "hint": "One tool for metrics and alerting, one for logs (or visualisation). How do they connect?",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Anase Fintech startup has experienced slow response times and frequent application errors during peak hours. Their current setup only includes basic logging and no real-time monitoring or alerting mechanisms. Critical application logs are scattered across containers and virtual machines, making incident investigation slow and unreliable.\n\n(23c) Explain two benefits of centralized logging during performance issues.",
+    "media": [],
+    "answer": "Any two, explained:\n1. Faster troubleshooting / reduced mean time to resolution — all logs from containers and VMs are searchable in one place, so administrators find errors and slow requests in minutes instead of logging into each machine.\n2. Correlation across systems — events from the web tier, application, database and infrastructure can be viewed on one timeline (e.g. with request/trace IDs), revealing the root cause of a slowdown that spans several components.\n3. Persistence — logs survive container restarts or crashes, so evidence isn't lost.\n4. Real-time alerting and dashboards on log patterns — e.g. alert when error rates spike during peak hours.\n5. Trend analysis and capacity planning — historical logs show recurring peak-hour bottlenecks.\n6. Security and compliance — secure, tamper-resistant retention for audits.",
+    "explanation": "Marking guide (4 marks):\n• Two valid benefits, each explained in the context of performance issues — 2 marks each.",
+    "hint": "One place to search, and the ability to see events from many systems side by side.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Anase Fintech startup has experienced slow response times and frequent application errors during peak hours. Their current setup only includes basic logging and no real-time monitoring or alerting mechanisms. Critical application logs are scattered across containers and virtual machines, making incident investigation slow and unreliable.\n\n(23d) How can regular performance tuning help reduce downtime?",
+    "media": [],
+    "answer": "Performance tuning is the regular process of analysing and optimising system, application and database performance. It reduces downtime by:\n1. Identifying and removing bottlenecks before they cause failures — e.g. optimising slow database queries and indexes, tuning connection pools, caching, memory and thread settings — so peak loads don't overwhelm the system.\n2. Capacity planning — monitoring trends shows when resources (CPU, memory, storage, bandwidth) are running out, so servers can be scaled or added in advance.\n3. Preventing resource exhaustion and crashes — fixing memory leaks, disk-space issues and misconfigurations that would otherwise cause outages.\n4. Improving resilience under load — load testing and tuning auto-scaling and load balancers ensure the system handles peak hours.\n5. Keeping software updated and configurations optimised, reducing errors.",
+    "explanation": "Marking guide (3 marks):\n• Three valid ways performance tuning reduces downtime (removing bottlenecks, capacity planning, preventing resource exhaustion/leaks, load testing/scaling, optimised configs) — 1 mark each.",
+    "hint": "Fix the bottleneck before it becomes an outage.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Monitoring & Logging",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "SmartFinTech relies on a single file server to store transaction records. One morning, the server failed due to a power issue, and attempts to restore backups failed because the last successful backup was incomplete. Management now seeks a more reliable backup strategy and a system that ensures continuous availability of services.\n\n(24a) What are two critical flaws in SmartFinTech's backup approach?",
+    "media": [],
+    "answer": "1. No backup verification/testing — the last \"successful\" backup was actually incomplete, and nobody discovered this until a restore was needed. Backups were not validated (integrity checks, test restores), so they gave false confidence.\n\n2. Single point of failure — all transaction records sat on one file server with no redundancy (no replicas, failover server or UPS/redundant power), so one power failure stopped the service and data was lost.\n\n(Also acceptable: no off-site/cloud copy (3-2-1 rule not followed); no monitoring/alerting on backup jobs; infrequent backups leading to a large recovery point gap; no documented disaster-recovery plan.)",
+    "explanation": "Marking guide (4 marks):\n• Two valid flaws from the scenario — 2 marks each (backups not verified/tested; single point of failure/no redundancy; no off-site copy; no backup monitoring).",
+    "hint": "Was anyone checking the backups? And how many servers held the data?",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Backup & High Availability",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "SmartFinTech relies on a single file server to store transaction records. One morning, the server failed due to a power issue, and attempts to restore backups failed because the last successful backup was incomplete. Management now seeks a more reliable backup strategy and a system that ensures continuous availability of services.\n\n(24b) Describe a daily backup and verification strategy using automation.",
+    "media": [],
+    "answer": "1. Scheduled automated backups — e.g. a cron job/systemd timer or backup software (Veeam, Bacula, rsync/restic, Windows Server Backup) runs every night (e.g. 1:00 am): a weekly full backup plus daily incremental/differential backups, and frequent transaction-log or snapshot backups for transaction data.\n\n2. Follow the 3-2-1 rule — 3 copies of data, on 2 different media, 1 off-site (cloud storage such as S3/Azure Blob, or another site); encrypt backups and use immutable/versioned storage to protect against ransomware.\n\n3. Automated verification — after each job: check job exit status and logs; verify checksums/hashes of backup files; run an automated test restore to an isolated server and check file counts/integrity or database consistency.\n\n4. Monitoring and alerting — email/SMS/Slack alerts on any failure, incomplete job or missing backup; daily backup report.\n\n5. Retention policy and periodic full restore drills (e.g. monthly) to confirm recovery time objectives.",
+    "explanation": "Marking guide (4 marks):\n• Automated daily schedule (full/incremental, cron or backup tool) — 1 mark.\n• Off-site/multiple copies (3-2-1) — 1 mark.\n• Automated verification (checksums, test restores) — 1 mark.\n• Monitoring/alerting on failures and retention/restore drills — 1 mark.",
+    "hint": "Schedule it, keep multiple copies in multiple places, check every backup automatically, and alert on failure.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Backup & High Availability",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "SmartFinTech relies on a single file server to store transaction records. One morning, the server failed due to a power issue, and attempts to restore backups failed because the last successful backup was incomplete. Management now seeks a more reliable backup strategy and a system that ensures continuous availability of services.\n\n(24c) What is high availability (HA), and how could it have helped in this scenario?",
+    "media": [],
+    "answer": "High availability (HA) is the design of systems to remain operational and accessible for a very high percentage of time (e.g. 99.9%–99.999% uptime) by eliminating single points of failure through redundancy and automatic failover. It typically uses clustered or redundant servers, replicated storage, redundant power (UPS, generators, dual power supplies), load balancing and health monitoring.\n\nHow it would have helped SmartFinTech:\n• With a second (standby or active-active) file server holding replicated data, the service would have failed over automatically when the primary lost power — little or no downtime.\n• Real-time replication means the transaction records would still be available and current, without depending on the incomplete backup.\n• A UPS/redundant power supply could have prevented the power issue from taking the server down at all.\nHA complements backups: HA keeps services running; backups protect against data corruption or deletion.",
+    "explanation": "Marking guide (4 marks):\n• Definition of HA (continuous operation, minimal downtime via redundancy/failover) — 2 marks.\n• Application to the scenario (failover server/replication, redundant power, no reliance on the incomplete backup) — 2 marks.",
+    "hint": "Define it, then imagine a second server and redundant power when the first one went down.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Backup & High Availability",
+      "2024/25 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "SmartFinTech relies on a single file server to store transaction records. One morning, the server failed due to a power issue, and attempts to restore backups failed because the last successful backup was incomplete. Management now seeks a more reliable backup strategy and a system that ensures continuous availability of services.\n\n(24d) Suggest one backup tool and one HA solution suitable for a file server.",
+    "media": [],
+    "answer": "Backup tool (any one): Veeam Backup & Replication; Bacula/Bareos; restic or BorgBackup; rsync with rsnapshot; Windows Server Backup; Acronis Cyber Protect; Duplicati; cloud backup such as AWS Backup/Azure Backup.\n\nHA solution (any one): Windows Server Failover Clustering with a Scale-Out File Server and DFS Replication; Linux Pacemaker + Corosync with DRBD replicated storage; GlusterFS or Ceph distributed storage; a NAS in HA mode (e.g. TrueNAS HA, Synology High Availability); cloud managed file storage (Amazon EFS/FSx, Azure Files) with multi-zone redundancy — supported by UPS and redundant power.\n\nBrief justification: the backup tool automates scheduled, verified, off-site backups; the HA solution replicates data to a second node and fails over automatically.",
+    "explanation": "Marking guide (3 marks):\n• One appropriate backup tool — 1.5 marks.\n• One appropriate HA solution for a file server — 1.5 marks. Generic answers (\"a second server\") earn partial credit.",
+    "hint": "One product for backups, one technology or product for failover.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Backup & High Availability",
+      "2024/25 Paper"
+    ]
+  }
+]
