@@ -7,7 +7,8 @@ import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { formatDateTime, timeAgo } from "#/lib/format";
 import { useMember, useRequireMember } from "#/hooks/useMember";
-import { Avatar, TextBlock, Verified } from "#/components/site/kit";
+import { Avatar, Verified } from "#/components/site/kit";
+import { PostText } from "#/components/social/link-embed";
 import { ReportButton } from "#/components/site/report-button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "#/components/ui/dialog";
 import { Button } from "#/components/ui/button";
@@ -230,7 +231,7 @@ export function PostCard({ post, onChanged }: { post: Row; onChanged?: () => voi
           )}
         </div>
       </header>
-      {post.body && <TextBlock text={post.body} className="mt-3 text-[15px] leading-relaxed" />}
+      <PostText text={post.body} className="mt-3 text-[15px] leading-relaxed" />
       <ImageGrid images={post.images ?? []} />
       {post.shared_post_id && (
         <div className="mt-3 rounded-xl border p-3">
@@ -243,7 +244,7 @@ export function PostCard({ post, onChanged }: { post: Row; onChanged?: () => voi
                 </Link>
                 <span className="text-xs text-muted-foreground">{timeAgo(post.shared_created_at)}</span>
               </p>
-              {post.shared_body && <TextBlock text={post.shared_body} className="mt-2 text-sm" />}
+              <PostText text={post.shared_body} className="mt-2 text-sm" />
               <ImageGrid images={post.shared_images ?? []} />
             </>
           ) : (

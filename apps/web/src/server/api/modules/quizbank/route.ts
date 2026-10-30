@@ -21,6 +21,7 @@ import {
   pickQuestionIds,
   publicQuestion,
   questionKey,
+  questionSubjects,
   tagsFor,
   topicsFor,
   validTopicIds,
@@ -121,6 +122,7 @@ async function loadAttempt(userId: number, id: number) {
 
 async function attemptResponse(row: RowDataPacket) {
   const questions = await questionsByIds(json<Array<number>>(row.question_ids, []));
+  const subjects = await questionSubjects(questions.map((q) => q.id as number));
   const submitted = row.status === "submitted";
   const results = json<Array<QbMark>>(row.results, []);
   const marks = new Map(results.map((m) => [m.questionId, m]));
@@ -144,6 +146,7 @@ async function attemptResponse(row: RowDataPacket) {
     answers: json<Array<Response>>(row.answers, []),
     questions: questions.map((q) => ({
       ...publicQuestion(q),
+      subjects: subjects.get(q.id) ?? [],
       ...(submitted ? { key: questionKey(q), mark: marks.get(q.id) ?? null } : {}),
     })),
   };

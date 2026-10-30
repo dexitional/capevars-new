@@ -45,6 +45,7 @@ export interface QbPublicQuestion {
   marks: number;
   difficulty: QbDifficulty;
   discussionCount: number;
+  subjects?: Array<string>; // topic tags and course titles, in exams: picks the answer box's symbols
 }
 
 // How one answer was marked; `marker` says whether Claude or the basic

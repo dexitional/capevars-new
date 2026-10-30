@@ -9,6 +9,7 @@ import { formatClock } from "#/lib/quizbank";
 import type { QbMark } from "#/lib/quizbank";
 import { Container, TextBlock } from "#/components/site/kit";
 import { LETTERS, Lesson, MarkBadge, QuestionStem, TextAnswer, percent } from "#/components/quizbank/kit";
+import { RichText } from "#/components/quizbank/rich-text";
 import type { QbReviewQuestion } from "#/components/quizbank/kit";
 import { DiscussionToggle } from "#/components/quizbank/discussion";
 import { useStartExam } from "#/components/quizbank/exam-settings";
@@ -190,7 +191,7 @@ function Runner({ attempt }: { attempt: Attempt }) {
                       >
                         <span className={cn("grid size-8 flex-none place-items-center rounded-xl text-sm font-black", chosen ? "bg-primary text-white" : "bg-secondary text-primary")}>{LETTERS[i]}</span>
                         <span className="flex-1 pt-1">
-                          <TextBlock text={o.text} className="text-[15px] text-primary" />
+                          <RichText text={o.text} className="text-[15px] text-primary" />
                           {o.imageUrl && <img src={o.imageUrl} alt="" className="mt-2 max-h-40 rounded-lg border" />}
                         </span>
                       </button>
@@ -199,7 +200,7 @@ function Runner({ attempt }: { attempt: Attempt }) {
                 })}
               </ul>
             ) : (
-              <TextAnswer value={answers[q.id]?.text ?? ""} onChange={(text) => set({ text })} disabled={submit.isPending} />
+              <TextAnswer value={answers[q.id]?.text ?? ""} onChange={(text) => set({ text })} disabled={submit.isPending} subjects={q.subjects} />
             )}
           </div>
           <div className="mt-8 flex items-center justify-between gap-3">
@@ -421,9 +422,9 @@ function Results({ attempt }: { attempt: Attempt }) {
                             {LETTERS[oi]}
                           </span>
                           <div className="flex-1">
-                            <TextBlock text={o.text} className="text-sm text-primary" />
+                            <RichText text={o.text} className="text-sm text-primary" />
                             {o.imageUrl && <img src={o.imageUrl} alt="" className="mt-2 max-h-32 rounded-lg border" />}
-                            {(mine || right) && key?.optionHints[oi] && <p className="mt-1 text-xs text-muted-foreground italic">{key.optionHints[oi]}</p>}
+                            {(mine || right) && key?.optionHints[oi] && <RichText text={key.optionHints[oi]} className="mt-1 text-xs text-muted-foreground" />}
                           </div>
                           {right && <CheckCircle2 className="size-5 flex-none text-emerald-600" aria-label="Correct answer" />}
                           {mine && !right && <XCircle className="size-5 flex-none text-red-500" aria-label="Your answer" />}
@@ -440,7 +441,7 @@ function Results({ attempt }: { attempt: Attempt }) {
                     </div>
                     {q.mark?.feedback && (
                       <p className="flex items-start gap-2 rounded-xl bg-indigo-50 p-3 text-sm text-indigo-950">
-                        <Sparkles className="mt-0.5 size-4 shrink-0 text-indigo-600" /> {q.mark.feedback}
+                        <Sparkles className="mt-0.5 size-4 shrink-0 text-indigo-600" /> <RichText text={q.mark.feedback} inline />
                       </p>
                     )}
                   </div>

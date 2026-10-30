@@ -1,0 +1,566 @@
+[
+  {
+    "type": "text",
+    "body": "A binary operation $\\ast$ is defined on the set $\\mathbb{R}$ of real numbers by\n\n$$m \\ast n = m + n + 2$$\n\nFind the **identity element** under the operation $\\ast$.",
+    "media": [],
+    "answer": "Let $e$ be the identity element, so $m \\ast e = m$ for **every** $m \\in \\mathbb{R}$:\n\n$$\n\\begin{aligned}\nm \\ast e &= m \\\\\nm + e + 2 &= m \\\\\ne + 2 &= 0 \\\\\ne &= -2\n\\end{aligned}\n$$\n\n**Check:** $m \\ast (-2) = m - 2 + 2 = m$ ✓  (and $(-2) \\ast m = m$, since $\\ast$ is commutative).\n\n> [!answer]\n> **Identity element:** {{green:$e = -2$}}",
+    "explanation": "## Advanced explanation\n\nBy definition, $e \\in \\mathbb{R}$ is the **identity** under $\\ast$ if\n\n$$m \\ast e = e \\ast m = m \\quad \\text{for all } m \\in \\mathbb{R}.$$\n\n- $m \\ast e = m + e + 2$. Setting this equal to $m$ gives $e + 2 = 0$, so $e = -2$.\n- Because $m + n + 2 = n + m + 2$, the operation is ++commutative++, so $e \\ast m = m$ holds automatically.\n- The value $-2$ does **not** depend on $m$ — that is what makes it a genuine identity element.\n\n## Simplified explanation\n\nThink of the identity as the ==“do-nothing” number==, like $0$ for $+$ or $1$ for $\\times$.\n\n1. We want $m \\ast (\\text{something}) = m$.\n2. $m + \\text{something} + 2 = m$, so the something must cancel the $+2$: it is $-2$.\n3. Test it: $5 \\ast (-2) = 5 - 2 + 2 = 5$. Nothing changed — so $-2$ is the identity.\n\n> [!tip]\n> Always find the identity first — you need it for the inverse in the next part.",
+    "hint": "The identity $e$ leaves every element unchanged: $m \\ast e = m$. Substitute into $m + e + 2$ and solve for $e$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Binary Operations",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A binary operation $\\ast$ is defined on the set $\\mathbb{R}$ of real numbers by\n\n$$m \\ast n = m + n + 2$$\n\nThe identity element under $\\ast$ is $-2$. Find the **inverse of $n$** under the operation $\\ast$.",
+    "media": [],
+    "answer": "Let $n^{-1}$ be the inverse of $n$. An element combined with its inverse gives the identity $e = -2$:\n\n$$\n\\begin{aligned}\nn \\ast n^{-1} &= -2 \\\\\nn + n^{-1} + 2 &= -2 \\\\\nn^{-1} &= -n - 4\n\\end{aligned}\n$$\n\n**Check:** $n \\ast (-n - 4) = n - n - 4 + 2 = -2 = e$ ✓\n\n> [!answer]\n> **Inverse of $n$:** {{green:$n^{-1} = -n - 4 = -(n + 4)$}}",
+    "explanation": "## Advanced explanation\n\nThe inverse of $n$ is the element $n^{-1}$ with $n \\ast n^{-1} = n^{-1} \\ast n = e$, where $e = -2$:\n\n$$n + n^{-1} + 2 = -2 \\;\\Longrightarrow\\; n^{-1} = -(n + 4).$$\n\n- Since $\\ast$ is commutative, left and right inverses coincide.\n- **Every** real $n$ has an inverse, so $(\\mathbb{R}, \\ast)$ is in fact a _group_ — it behaves exactly like $(\\mathbb{R}, +)$ shifted by $2$ (via $x \\mapsto x + 2$).\n\n## Simplified explanation\n\nThe inverse is the ==partner that brings you back to the identity== ($-2$).\n\n1. $n \\ast \\text{partner} = -2$\n2. $n + \\text{partner} + 2 = -2$\n3. $\\text{partner} = -4 - n$\n\n_Example:_ the inverse of $3$ is $-7$, because $3 \\ast (-7) = 3 - 7 + 2 = -2$ ✓\n\n> [!warning]\n> Setting $n \\ast n^{-1} = 0$ or $= 1$. It must equal **the identity you found**, $-2$.",
+    "hint": "An element combined with its inverse gives the **identity**: $n \\ast n^{-1} = -2$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Binary Operations",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $(5,\\ 2)$, $(-4,\\ k)$ and $(2,\\ 1)$ lie on a **straight line**, find the value of $k$.",
+    "media": [],
+    "answer": "Points on the same straight line have **equal gradients**.\n\n$$\n\\begin{aligned}\nm_{(5,2),(2,1)} &= \\frac{1 - 2}{2 - 5} = \\frac{-1}{-3} = \\frac{1}{3} \\\\[4pt]\nm_{(5,2),(-4,k)} &= \\frac{k - 2}{-4 - 5} = \\frac{k - 2}{-9}\n\\end{aligned}\n$$\n\nEquate the gradients:\n\n$$\\frac{k - 2}{-9} = \\frac{1}{3} \\;\\Longrightarrow\\; k - 2 = -3 \\;\\Longrightarrow\\; k = -1$$\n\n> [!answer]\n> {{green:$k = -1$}}",
+    "explanation": "## Advanced explanation\n\nThree points $A, B, C$ are **collinear** iff $m_{AB} = m_{AC}$ (equivalently, the area of $\\triangle ABC$ is zero).\n\n- $m = \\dfrac{1 - 2}{2 - 5} = \\dfrac{1}{3}$, and $\\dfrac{k - 2}{-9} = \\dfrac{1}{3} \\Rightarrow k = -1$.\n- **Area check:** $\\tfrac{1}{2}\\big[5(k - 1) + (-4)(1 - 2) + 2(2 - k)\\big] = \\tfrac{1}{2}(3k + 3) = 0 \\Rightarrow k = -1$ ✓\n- Equation of the line: $y - 2 = \\tfrac{1}{3}(x - 5)$, i.e. $x - 3y + 1 = 0$. At $x = -4$: $y = -1$ ✓\n\n## Simplified explanation\n\n“On a straight line” means ==the slope is the same everywhere==.\n\n1. From $(2, 1)$ to $(5, 2)$: up $1$, across $3$ → slope $\\tfrac{1}{3}$.\n2. From $(5, 2)$ to $(-4, k)$ you go $9$ steps **left**, so you must go $9 \\times \\tfrac{1}{3} = 3$ steps **down**.\n3. $k = 2 - 3 = -1$.",
+    "hint": "Collinear points share the **same gradient**. Use the two fully known points to find the gradient first.",
+    "difficulty": "easy",
+    "marks": 6,
+    "tags": [
+      "Coordinate Geometry",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $f(x + 2) = 6x^3 + 5x - 8$, find $f(5)$.",
+    "media": [],
+    "answer": "$f(5)$ means the input $x + 2 = 5$, so $x = 3$:\n\n$$\n\\begin{aligned}\nf(5) &= 6(3)^3 + 5(3) - 8 \\\\\n&= 6(27) + 15 - 8 \\\\\n&= 162 + 7 \\\\\n&= 169\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$f(5) = 169$}}",
+    "explanation": "## Advanced explanation\n\nLet $u = x + 2$, so $x = u - 2$ and\n\n$$f(u) = 6(u - 2)^3 + 5(u - 2) - 8.$$\n\nThen $f(5) = 6(3)^3 + 5(3) - 8 = 169$.\n\n_Full expansion check:_ $f(u) = 6u^3 - 36u^2 + 77u - 66$, so $f(5) = 750 - 900 + 385 - 66 = 169$ ✓\n\n## Simplified explanation\n\nThe input to $f$ is ==“$x + 2$”==. We want that input to be $5$, so $x = 3$.\n\nPut $x = 3$ into the right-hand side: $6 \\times 27 + 15 - 8 = 169$.\n\n> [!warning]\n> Substituting $x = 5$ directly — that gives $f(7)$, **not** $f(5)$.",
+    "hint": "What value of $x$ makes $x + 2$ equal to $5$?",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Functions",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Express\n\n$$\\frac{7\\sqrt{2} + 3\\sqrt{3}}{4\\sqrt{2} - 2\\sqrt{3}}$$\n\nin the form $p + q\\sqrt{r}$, where $p$, $q$ and $r$ are **rational numbers**.",
+    "media": [],
+    "answer": "Multiply numerator and denominator by the **conjugate** $4\\sqrt{2} + 2\\sqrt{3}$.\n\n**Denominator:**\n$$(4\\sqrt{2})^2 - (2\\sqrt{3})^2 = 32 - 12 = 20$$\n\n**Numerator:**\n$$\n\\begin{aligned}\n(7\\sqrt{2} + 3\\sqrt{3})(4\\sqrt{2} + 2\\sqrt{3}) &= 28(2) + 14\\sqrt{6} + 12\\sqrt{6} + 6(3) \\\\\n&= 56 + 26\\sqrt{6} + 18 \\\\\n&= 74 + 26\\sqrt{6}\n\\end{aligned}\n$$\n\n$$\\therefore\\ \\frac{74 + 26\\sqrt{6}}{20} = \\frac{37}{10} + \\frac{13}{10}\\sqrt{6}$$\n\n> [!answer]\n> $p = \\dfrac{37}{10}$, $q = \\dfrac{13}{10}$, $r = 6$ — i.e. {{green:$\\dfrac{37}{10} + \\dfrac{13}{10}\\sqrt{6}$}}",
+    "explanation": "## Advanced explanation\n\nFor a denominator $a\\sqrt{b} - c\\sqrt{d}$, multiply by the conjugate $a\\sqrt{b} + c\\sqrt{d}$, because\n\n$$(a\\sqrt{b} - c\\sqrt{d})(a\\sqrt{b} + c\\sqrt{d}) = a^2 b - c^2 d \\in \\mathbb{Q}.$$\n\n| Term | Product |\n|---|:-:|\n| $7\\sqrt{2} \\cdot 4\\sqrt{2}$ | $56$ |\n| $7\\sqrt{2} \\cdot 2\\sqrt{3}$ | $14\\sqrt{6}$ |\n| $3\\sqrt{3} \\cdot 4\\sqrt{2}$ | $12\\sqrt{6}$ |\n| $3\\sqrt{3} \\cdot 2\\sqrt{3}$ | $18$ |\n\nSo the expression is $\\dfrac{74 + 26\\sqrt{6}}{20} = 3.7 + 1.3\\sqrt{6}$.\n\n_Numerical check:_ LHS $\\approx 6.884$; RHS $\\approx 3.7 + 1.3(2.4495) \\approx 6.884$ ✓\n\n## Simplified explanation\n\nA surd at the bottom is ==messy==, so we clear it.\n\n1. **Trick:** multiply top and bottom by the same bottom but with $+$ instead of $-$.\n2. The bottom becomes $16 \\times 2 - 4 \\times 3 = 20$ — no surds left!\n3. The top becomes $74 + 26\\sqrt{6}$.\n4. Divide each part by $20$: $3.7 + 1.3\\sqrt{6}$.",
+    "hint": "**Rationalise** the denominator using its conjugate: change the sign between the two surds.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Surds",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "When $f(x) = 2x^3 + mx^2 + nx + 11$ is divided by $x^2 + 5x + 1$, the **quotient** is $2x - 5$ and the **remainder** is $30x + 16$. Find the values of $m$ and $n$.",
+    "media": [],
+    "answer": "**Dividend = Divisor × Quotient + Remainder**\n\n$$2x^3 + mx^2 + nx + 11 = (x^2 + 5x + 1)(2x - 5) + 30x + 16$$\n\nExpand the product:\n\n$$\n\\begin{aligned}\n(x^2 + 5x + 1)(2x - 5) &= 2x^3 - 5x^2 + 10x^2 - 25x + 2x - 5 \\\\\n&= 2x^3 + 5x^2 - 23x - 5\n\\end{aligned}\n$$\n\nAdd the remainder: $2x^3 + 5x^2 + 7x + 11$.\n\n**Compare coefficients:**\n- $x^2$: $m = 5$\n- $x$: $n = 7$\n- constant: $11 = 11$ ✓\n\n> [!answer]\n> {{green:$m = 5$}}  and  {{green:$n = 7$}}",
+    "explanation": "## Advanced explanation\n\nBy the **division algorithm** for polynomials, $f(x) = D(x)\\,Q(x) + R(x)$ with $\\deg R < \\deg D$.\n\n$$f(x) = (2x^3 + 5x^2 - 23x - 5) + (30x + 16) = 2x^3 + 5x^2 + 7x + 11$$\n\nTwo polynomials are ++identical++ iff their corresponding coefficients are equal, so $m = 5$ and $n = 7$. The constant term ($11$) agrees, which confirms the data is consistent.\n\n## Simplified explanation\n\nDivision works just like numbers: $17 = 5 \\times 3 + 2$.\n\n1. So $f(x) = (x^2 + 5x + 1) \\times (2x - 5) + (30x + 16)$.\n2. Multiply out and tidy: $2x^3 + 5x^2 + 7x + 11$.\n3. Match with $2x^3 + mx^2 + nx + 11$: the $x^2$ number is $5$ → **$m = 5$**; the $x$ number is $7$ → **$n = 7$**.",
+    "hint": "Use the division identity $f(x) = (\\text{divisor})(\\text{quotient}) + \\text{remainder}$, then **compare coefficients**.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "Polynomials",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The probabilities that **Ago**, **Sulley** and **Musa** will gain admission to a certain University are $\\dfrac{4}{5}$, $\\dfrac{3}{4}$ and $\\dfrac{2}{3}$ respectively.\n\nFind the probability that **none** of them will gain admission.",
+    "media": [],
+    "answer": "Probabilities of **not** being admitted:\n\n| | Ago | Sulley | Musa |\n|---|:-:|:-:|:-:|\n| Admitted | $\\frac{4}{5}$ | $\\frac{3}{4}$ | $\\frac{2}{3}$ |\n| Not admitted | $\\frac{1}{5}$ | $\\frac{1}{4}$ | $\\frac{1}{3}$ |\n\nThe events are **independent**, so multiply:\n\n$$P(\\text{none}) = \\frac{1}{5} \\times \\frac{1}{4} \\times \\frac{1}{3} = \\frac{1}{60}$$\n\n> [!answer]\n> {{green:$P(\\text{none}) = \\dfrac{1}{60}$}}",
+    "explanation": "## Advanced explanation\n\nLet $A, S, M$ be the admission events. Assuming independence, the complements are also independent:\n\n$$P(A' \\cap S' \\cap M') = P(A')\\,P(S')\\,P(M') = \\tfrac{1}{5} \\cdot \\tfrac{1}{4} \\cdot \\tfrac{1}{3} = \\tfrac{1}{60} \\approx 0.0167$$\n\n_Related result:_ $P(\\text{at least one admitted}) = 1 - \\tfrac{1}{60} = \\tfrac{59}{60}$.\n\n## Simplified explanation\n\n“None admitted” means Ago fails **AND** Sulley fails **AND** Musa fails.\n\n- Fail chances: $\\tfrac{1}{5}$, $\\tfrac{1}{4}$, $\\tfrac{1}{3}$.\n- ==“AND” for independent events → multiply==: $\\tfrac{1}{5} \\times \\tfrac{1}{4} \\times \\tfrac{1}{3} = \\tfrac{1}{60}$.\n- So it is very unlikely (about $1.7\\%$) that all three miss out.",
+    "hint": "Find each person's probability of **not** being admitted, then multiply (independent events).",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Probability",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The probabilities that **Ago**, **Sulley** and **Musa** will gain admission to a certain University are $\\dfrac{4}{5}$, $\\dfrac{3}{4}$ and $\\dfrac{2}{3}$ respectively.\n\nFind the probability that **only Ago and Sulley** will gain admission.",
+    "media": [],
+    "answer": "**Only** Ago and Sulley ⇒ Ago admitted, Sulley admitted, Musa **not** admitted:\n\n$$\n\\begin{aligned}\nP &= \\frac{4}{5} \\times \\frac{3}{4} \\times \\left(1 - \\frac{2}{3}\\right) \\\\[4pt]\n&= \\frac{4}{5} \\times \\frac{3}{4} \\times \\frac{1}{3} = \\frac{12}{60} = \\frac{1}{5}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$P = \\dfrac{1}{5}$}}",
+    "explanation": "## Advanced explanation\n\nRequired event: $A \\cap S \\cap M'$. By independence,\n\n$$P(A \\cap S \\cap M') = P(A)\\,P(S)\\,P(M') = \\tfrac{4}{5} \\cdot \\tfrac{3}{4} \\cdot \\tfrac{1}{3} = \\tfrac{1}{5} = 0.2.$$\n\nThe word ++only++ forces the complement for Musa. Without it, $P(A \\cap S) = \\tfrac{3}{5}$ would also include the case where Musa is admitted.\n\n## Simplified explanation\n\n1. Ago gets in: $\\tfrac{4}{5}$\n2. Sulley gets in: $\\tfrac{3}{4}$\n3. Musa does **not**: $\\tfrac{1}{3}$\n4. Multiply: $\\tfrac{4}{5} \\times \\tfrac{3}{4} \\times \\tfrac{1}{3} = \\tfrac{1}{5}$\n\n> [!warning]\n> Missing the word **only** and answering $\\tfrac{4}{5} \\times \\tfrac{3}{4} = \\tfrac{3}{5}$.",
+    "hint": "“**Only** Ago and Sulley” means Musa must _fail_.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Probability",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mean of the numbers $1,\\ 4,\\ k,\\ (k + 4)$ and $11$ is $(k + 1)$.\n\nCalculate the value of $k$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n\\text{Sum} &= 1 + 4 + k + (k + 4) + 11 = 2k + 20 \\\\[4pt]\n\\frac{2k + 20}{5} &= k + 1 \\\\\n2k + 20 &= 5k + 5 \\\\\n15 &= 3k \\\\\nk &= 5\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$k = 5$}}",
+    "explanation": "## Advanced explanation\n\nUsing $\\bar{x} = \\dfrac{\\sum x}{n}$:\n\n$$\\frac{2k + 20}{5} = k + 1 \\;\\Longrightarrow\\; k = 5.$$\n\nThe data set is therefore $1, 4, 5, 9, 11$ with mean $6 = k + 1$ ✓\n\n## Simplified explanation\n\n1. Add the numbers: $2k + 20$.\n2. Divide by $5$ and set equal to $k + 1$.\n3. Cross-multiply: $2k + 20 = 5k + 5$, so ==$k = 5$==.\n4. _Check:_ the numbers become $1, 4, 5, 9, 11$, whose mean is $30 \\div 5 = 6 = 5 + 1$ ✓",
+    "hint": "$\\text{Mean} = \\dfrac{\\text{sum}}{\\text{how many numbers}}$. There are **5** numbers.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Statistics",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mean of the numbers $1,\\ 4,\\ k,\\ (k + 4)$ and $11$ is $(k + 1)$. Given that $k = 5$, calculate the **standard deviation**.",
+    "media": [],
+    "answer": "Numbers: $1, 4, 5, 9, 11$; mean $\\bar{x} = 6$.\n\n| $x$ | $x - \\bar{x}$ | $(x - \\bar{x})^2$ |\n|:-:|:-:|:-:|\n| 1 | −5 | 25 |\n| 4 | −2 | 4 |\n| 5 | −1 | 1 |\n| 9 | 3 | 9 |\n| 11 | 5 | 25 |\n| | | $\\sum = 64$ |\n\n$$\\sigma^2 = \\frac{64}{5} = 12.8, \\qquad \\sigma = \\sqrt{12.8} \\approx 3.58$$\n\n> [!answer]\n> **Standard deviation** {{green:$\\sigma \\approx 3.58$}}",
+    "explanation": "## Advanced explanation\n\n$$\\sigma = \\sqrt{\\frac{\\sum (x - \\bar{x})^2}{n}} = \\sqrt{\\frac{64}{5}} = \\frac{8}{\\sqrt{5}} = \\frac{8\\sqrt{5}}{5} \\approx 3.578$$\n\n_Alternative formula:_ $\\sigma^2 = \\dfrac{\\sum x^2}{n} - \\bar{x}^2 = \\dfrac{244}{5} - 36 = 12.8$ ✓\n\nWASSCE uses the **population** formula (divide by $n$) for a given set of numbers.\n\n## Simplified explanation\n\nStandard deviation measures ==how spread out== the numbers are around the mean.\n\n1. Mean $= 6$.\n2. Distances from $6$: $-5, -2, -1, 3, 5$.\n3. Square them: $25, 4, 1, 9, 25$ → total $64$.\n4. Average: $64 \\div 5 = 12.8$ (this is the _variance_).\n5. Square root: $\\sqrt{12.8} \\approx 3.58$.",
+    "hint": "Find each number's distance from the mean ($6$), square it, **average** the squares, then take the square root.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Statistics",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A body of mass $3\\ \\text{kg}$ moves with velocity $8\\ \\text{m s}^{-1}$. It collides with a second body moving in the **same direction** with a velocity of $5\\ \\text{m s}^{-1}$. After collision the bodies **move together** with a velocity of $6\\ \\text{m s}^{-1}$. Find the mass of the second body.",
+    "media": [],
+    "answer": "**Conservation of linear momentum:** $m_1u_1 + m_2u_2 = (m_1 + m_2)v$\n\n$$\n\\begin{aligned}\n3(8) + m(5) &= (3 + m)(6) \\\\\n24 + 5m &= 18 + 6m \\\\\nm &= 6\n\\end{aligned}\n$$\n\n> [!answer]\n> **Mass of the second body:** {{green:$6\\ \\text{kg}$}}",
+    "explanation": "## Advanced explanation\n\nFor an isolated system, total linear momentum is ++conserved++. The bodies coalesce (a _perfectly inelastic_ collision):\n\n$$m_1u_1 + m_2u_2 = (m_1 + m_2)v \\;\\Longrightarrow\\; 24 + 5m = 18 + 6m \\;\\Longrightarrow\\; m = 6\\ \\text{kg}.$$\n\nKinetic energy is **not** conserved:\n\n| | Kinetic energy |\n|---|:-:|\n| Before | $\\tfrac{1}{2}(3)(8^2) + \\tfrac{1}{2}(6)(5^2) = 171\\ \\text{J}$ |\n| After | $\\tfrac{1}{2}(9)(6^2) = 162\\ \\text{J}$ |\n\nSo $9\\ \\text{J}$ is lost to heat, sound and deformation.\n\n## Simplified explanation\n\n==Momentum = mass × velocity==, and the total is the same before and after a crash.\n\n- **Before:** $3 \\times 8 = 24$, plus $m \\times 5$.\n- **After:** they stick, so $(3 + m) \\times 6$.\n- $24 + 5m = 18 + 6m$ → $m = 6\\ \\text{kg}$.",
+    "hint": "Total momentum **before** = total momentum **after**. They move together, so their masses add after the collision.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Momentum",
+      "Mechanics",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A body of mass $3\\ \\text{kg}$ moves with velocity $8\\ \\text{m s}^{-1}$. A second body of mass $6\\ \\text{kg}$ moves with velocity $5\\ \\text{m s}^{-1}$ in the **opposite direction**. Find, _correct to two decimal places_, the common velocity of the two bodies if they **move together** after collision.",
+    "media": [],
+    "answer": "Take the direction of the $3\\ \\text{kg}$ body as **positive**, so the $6\\ \\text{kg}$ body has velocity $-5\\ \\text{m s}^{-1}$:\n\n$$\n\\begin{aligned}\n3(8) + 6(-5) &= (3 + 6)v \\\\\n24 - 30 &= 9v \\\\\nv &= -\\frac{6}{9} = -0.67\\ \\text{m s}^{-1}\n\\end{aligned}\n$$\n\n> [!answer]\n> **Common velocity:** {{green:$0.67\\ \\text{m s}^{-1}$}} in the direction the $6\\ \\text{kg}$ body was originally moving (the negative sign means _opposite_ to the $3\\ \\text{kg}$ body's initial direction).",
+    "explanation": "## Advanced explanation\n\nMomentum is a **vector**, so choose a positive direction (that of the $3\\ \\text{kg}$ body).\n\n$$p_{\\text{before}} = 3(8) + 6(-5) = -6\\ \\text{kg m s}^{-1}, \\qquad p_{\\text{after}} = 9v$$\n\n$v = -\\tfrac{2}{3} \\approx -0.67\\ \\text{m s}^{-1}$. The negative sign is ++part of the answer++: the combined body moves in the original direction of the $6\\ \\text{kg}$ body, because that body carried more momentum ($30$ vs $24\\ \\text{kg m s}^{-1}$).\n\n## Simplified explanation\n\nWhen things move towards each other, ==one direction is $+$ and the other is $-$==.\n\n- $3\\ \\text{kg}$ body: $3 \\times 8 = +24$\n- $6\\ \\text{kg}$ body: $6 \\times (-5) = -30$\n- Total $= -6$, shared by $9\\ \\text{kg}$: $-6 \\div 9 = -0.67$.\n\nThe minus sign tells you they end up moving the way the heavier $6\\ \\text{kg}$ body was going.\n\n> [!tip]\n> State the **direction** of the common velocity — the magnitude alone loses a mark.",
+    "hint": "Velocity has **direction**. Give the opposite-moving body a _negative_ velocity before applying conservation of momentum.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Momentum",
+      "Mechanics",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that\n\n$$\\mathbf{p} = \\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix}, \\quad \\mathbf{q} = \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}, \\quad \\mathbf{r} = \\begin{pmatrix} 17 \\\\ 5 \\end{pmatrix}$$\n\nand $\\mathbf{r} = \\alpha\\mathbf{p} + \\beta\\mathbf{q}$, where $\\alpha$ and $\\beta$ are scalars, express $\\mathbf{q}$ in terms of $\\mathbf{r}$ and $\\mathbf{p}$.",
+    "media": [],
+    "answer": "$$\\begin{pmatrix} 17 \\\\ 5 \\end{pmatrix} = \\alpha\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} + \\beta\\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$$\n\n$$\n\\begin{aligned}\n5\\alpha - \\beta &= 17 \\quad &(1) \\\\\n3\\alpha + 2\\beta &= 5 \\quad &(2)\n\\end{aligned}\n$$\n\nFrom $(1)$: $\\beta = 5\\alpha - 17$. Substitute into $(2)$:\n\n$$3\\alpha + 10\\alpha - 34 = 5 \\;\\Rightarrow\\; 13\\alpha = 39 \\;\\Rightarrow\\; \\alpha = 3, \\quad \\beta = -2$$\n\nSo $\\mathbf{r} = 3\\mathbf{p} - 2\\mathbf{q}$, giving $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r}$.\n\n**Check:** $\\tfrac{1}{2}\\left[3\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 17 \\\\ 5 \\end{pmatrix}\\right] = \\tfrac{1}{2}\\begin{pmatrix} -2 \\\\ 4 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$ ✓\n\n> [!answer]\n> {{green:$\\mathbf{q} = \\tfrac{3}{2}\\mathbf{p} - \\tfrac{1}{2}\\mathbf{r}$}}  (i.e. $\\mathbf{q} = \\tfrac{1}{2}(3\\mathbf{p} - \\mathbf{r})$)",
+    "explanation": "## Advanced explanation\n\nEquating components gives the linear system\n\n$$\\begin{pmatrix} 5 & -1 \\\\ 3 & 2 \\end{pmatrix}\\begin{pmatrix} \\alpha \\\\ \\beta \\end{pmatrix} = \\begin{pmatrix} 17 \\\\ 5 \\end{pmatrix}, \\qquad \\det = 10 + 3 = 13 \\neq 0,$$\n\nso the solution is **unique** ($\\mathbf{p}$ and $\\mathbf{q}$ are linearly independent and span $\\mathbb{R}^2$). By _Cramer's rule_:\n\n$$\\alpha = \\frac{17(2) - (-1)(5)}{13} = 3, \\qquad \\beta = \\frac{5(5) - 3(17)}{13} = -2.$$\n\nHence $\\mathbf{r} = 3\\mathbf{p} - 2\\mathbf{q} \\Rightarrow \\mathbf{q} = \\tfrac{1}{2}(3\\mathbf{p} - \\mathbf{r})$.\n\n## Simplified explanation\n\n1. Split the vectors into **top** and **bottom** numbers to get two equations: $5\\alpha - \\beta = 17$ and $3\\alpha + 2\\beta = 5$.\n2. Solve them: $\\alpha = 3$, $\\beta = -2$, so $\\mathbf{r} = 3\\mathbf{p} - 2\\mathbf{q}$.\n3. ==Get $\\mathbf{q}$ on its own==: $2\\mathbf{q} = 3\\mathbf{p} - \\mathbf{r}$, so $\\mathbf{q} = \\tfrac{1}{2}(3\\mathbf{p} - \\mathbf{r})$.",
+    "hint": "Write $\\mathbf{r} = \\alpha\\mathbf{p} + \\beta\\mathbf{q}$ component by component, solve for $\\alpha$ and $\\beta$, then **rearrange** for $\\mathbf{q}$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "Vectors",
+      "Section A",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "_Without using mathematical tables or calculator_, evaluate\n\n$$\\frac{\\tfrac{3}{2}\\log 27 - 3\\log 5\\sqrt{5}}{\\log 0.6}$$",
+    "media": [],
+    "answer": "Write $27$ and $5\\sqrt{5}$ as powers:\n\n$$\n\\begin{aligned}\n\\tfrac{3}{2}\\log 27 &= \\tfrac{3}{2}\\log 3^3 = \\tfrac{9}{2}\\log 3 \\\\[2pt]\n3\\log 5\\sqrt{5} &= 3\\log 5^{3/2} = \\tfrac{9}{2}\\log 5 \\\\[2pt]\n\\text{Numerator} &= \\tfrac{9}{2}(\\log 3 - \\log 5) = \\tfrac{9}{2}\\log \\tfrac{3}{5} = \\tfrac{9}{2}\\log 0.6\n\\end{aligned}\n$$\n\n$$\\therefore\\ \\frac{\\tfrac{9}{2}\\log 0.6}{\\log 0.6} = \\frac{9}{2}$$\n\n> [!answer]\n> {{green:$\\dfrac{9}{2} = 4\\tfrac{1}{2}$}}",
+    "explanation": "## Advanced explanation\n\nLaws used:\n\n> [!formula]\n> $\\log a^n = n\\log a \\qquad \\log a - \\log b = \\log\\dfrac{a}{b}$\n\n- $\\tfrac{3}{2}\\log 3^3 = \\tfrac{9}{2}\\log 3$ and $3\\log\\left(5 \\cdot 5^{1/2}\\right) = 3\\log 5^{3/2} = \\tfrac{9}{2}\\log 5$.\n- Numerator $= \\tfrac{9}{2}\\log\\tfrac{3}{5} = \\tfrac{9}{2}\\log 0.6$.\n- Since $\\log 0.6 \\neq 0$, the quotient is $\\tfrac{9}{2}$ — and the result does **not** depend on the base of the logarithm.\n\n## Simplified explanation\n\n==Turn everything into powers of $3$ and $5$==:\n\n1. $27 = 3^3$, so $\\tfrac{3}{2}\\log 27 = 4.5\\log 3$.\n2. $5\\sqrt{5} = 5^{1.5}$, so $3\\log 5\\sqrt{5} = 4.5\\log 5$.\n3. Top $= 4.5(\\log 3 - \\log 5) = 4.5\\log 0.6$.\n4. Divide by $\\log 0.6$ → $4.5$.",
+    "hint": "Write $27 = 3^3$ and $5\\sqrt{5} = 5^{3/2}$, and notice that $0.6 = \\dfrac{3}{5}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Logarithms",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Two linear transformations $\\mathbf{A}$ and $\\mathbf{B}$ in the $Oxy$ plane are defined by\n\n$$\\mathbf{A} : (x,\\ y) \\mapsto (x + 2y,\\ -x + y)$$\n$$\\mathbf{B} : (x,\\ y) \\mapsto (2x + 3y,\\ x + 2y)$$\n\nWrite down the matrices $\\mathbf{A}$ and $\\mathbf{B}$.",
+    "media": [],
+    "answer": "Each **row** holds the coefficients of $x$ and $y$ in one output coordinate:\n\n$$\\mathbf{A} = \\begin{pmatrix} 1 & 2 \\\\ -1 & 1 \\end{pmatrix}, \\qquad \\mathbf{B} = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$$\n\n> [!answer]\n> $\\mathbf{A} = \\begin{pmatrix} 1 & 2 \\\\ -1 & 1 \\end{pmatrix}$ and $\\mathbf{B} = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}$",
+    "explanation": "## Advanced explanation\n\nA linear map $(x, y) \\mapsto (ax + by,\\ cx + dy)$ is represented by\n\n$$M = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix}, \\quad\\text{since}\\quad M\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} ax + by \\\\ cx + dy \\end{pmatrix}.$$\n\nEquivalently, the **columns** are the images of $\\mathbf{i} = (1, 0)$ and $\\mathbf{j} = (0, 1)$: $\\mathbf{A}(\\mathbf{i}) = (1, -1)$, $\\mathbf{A}(\\mathbf{j}) = (2, 1)$.\n\n## Simplified explanation\n\n==Read off the numbers in front of $x$ and $y$==.\n\n| | new $x$ | new $y$ | rows |\n|---|:-:|:-:|:-:|\n| $\\mathbf{A}$ | $1x + 2y$ | $-1x + 1y$ | $(1,\\ 2)$ and $(-1,\\ 1)$ |\n| $\\mathbf{B}$ | $2x + 3y$ | $1x + 2y$ | $(2,\\ 3)$ and $(1,\\ 2)$ |",
+    "hint": "Each row of the matrix holds the coefficients of $x$ and $y$ in one output coordinate.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Matrices & Transformations",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Two linear transformations $\\mathbf{A}$ and $\\mathbf{B}$ in the $Oxy$ plane are defined by\n\n$$\\mathbf{A} : (x,\\ y) \\mapsto (x + 2y,\\ -x + y)$$\n$$\\mathbf{B} : (x,\\ y) \\mapsto (2x + 3y,\\ x + 2y)$$\n\nFind the image of the point $P(-2,\\ 2)$ under the linear transformation **$\\mathbf{A}$ followed by $\\mathbf{B}$**.",
+    "media": [],
+    "answer": "“$\\mathbf{A}$ followed by $\\mathbf{B}$” is the matrix product $\\mathbf{BA}$:\n\n$$\\mathbf{BA} = \\begin{pmatrix} 2 & 3 \\\\ 1 & 2 \\end{pmatrix}\\begin{pmatrix} 1 & 2 \\\\ -1 & 1 \\end{pmatrix} = \\begin{pmatrix} 2 - 3 & 4 + 3 \\\\ 1 - 2 & 2 + 2 \\end{pmatrix} = \\begin{pmatrix} -1 & 7 \\\\ -1 & 4 \\end{pmatrix}$$\n\n$$\\begin{pmatrix} -1 & 7 \\\\ -1 & 4 \\end{pmatrix}\\begin{pmatrix} -2 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 2 + 14 \\\\ 2 + 8 \\end{pmatrix} = \\begin{pmatrix} 16 \\\\ 10 \\end{pmatrix}$$\n\n**Check step by step:** $\\mathbf{A}(-2, 2) = (2, 4)$; $\\mathbf{B}(2, 4) = (16, 10)$ ✓\n\n> [!answer]\n> **Image of $P$:** {{green:$P'(16,\\ 10)$}}",
+    "explanation": "## Advanced explanation\n\nComposition: $(\\mathbf{B} \\circ \\mathbf{A})(\\mathbf{v}) = \\mathbf{B}(\\mathbf{A}\\mathbf{v})$, represented by the product $\\mathbf{BA}$.\n\nMatrix multiplication is **not commutative**, so order matters:\n\n| Product | Matrix | Image of $P(-2, 2)$ |\n|---|:-:|:-:|\n| $\\mathbf{BA}$ ✓ | $\\begin{pmatrix} -1 & 7 \\\\ -1 & 4 \\end{pmatrix}$ | $(16,\\ 10)$ |\n| $\\mathbf{AB}$ ✗ | $\\begin{pmatrix} 4 & 7 \\\\ -1 & -1 \\end{pmatrix}$ | ~~$(6,\\ 0)$~~ |\n\nAlso $\\det(\\mathbf{BA}) = \\det\\mathbf{B} \\cdot \\det\\mathbf{A} = 1 \\times 3 = 3$, so areas are scaled by $3$ under the combined map.\n\n## Simplified explanation\n\nDo it in **two easy steps**:\n\n1. Apply $\\mathbf{A}$ to $(-2, 2)$: $x + 2y = 2$ and $-x + y = 4$ → $(2, 4)$.\n2. Apply $\\mathbf{B}$ to $(2, 4)$: $2x + 3y = 16$ and $x + 2y = 10$ → ==$(16, 10)$==.\n\n> [!warning]\n> Writing $\\mathbf{AB}$ instead of $\\mathbf{BA}$. The matrix of the **first** transformation goes on the **right**.",
+    "hint": "“$\\mathbf{A}$ followed by $\\mathbf{B}$” means apply $\\mathbf{A}$ **first**, then $\\mathbf{B}$ — the combined matrix is $\\mathbf{BA}$ (not $\\mathbf{AB}$).",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Matrices & Transformations",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Write down the expansion of $(1 + x)^7$ in **ascending powers** of $x$.",
+    "media": [],
+    "answer": "Using the **binomial theorem** (row 7 of Pascal's triangle: $1, 7, 21, 35, 35, 21, 7, 1$):\n\n$$(1 + x)^7 = 1 + 7x + 21x^2 + 35x^3 + 35x^4 + 21x^5 + 7x^6 + x^7$$\n\n> [!answer]\n> {{green:$1 + 7x + 21x^2 + 35x^3 + 35x^4 + 21x^5 + 7x^6 + x^7$}}",
+    "explanation": "## Advanced explanation\n\n> [!formula]\n> $(1 + x)^n = \\displaystyle\\sum_{r=0}^{n} \\binom{n}{r} x^r$\n\nFor $n = 7$: $\\binom{7}{0} = 1,\\ \\binom{7}{1} = 7,\\ \\binom{7}{2} = 21,\\ \\binom{7}{3} = 35,\\ \\binom{7}{4} = 35, \\ldots$ — symmetric because $\\binom{n}{r} = \\binom{n}{n-r}$.\n\n_Check:_ the coefficients add up to $2^7 = 128$ ✓\n\n## Simplified explanation\n\n1. Pascal's triangle, row 7: ==$1, 7, 21, 35, 35, 21, 7, 1$==.\n2. Attach powers of $x$ going **up** from $x^0$ to $x^7$.\n3. Result: $1 + 7x + 21x^2 + 35x^3 + 35x^4 + 21x^5 + 7x^6 + x^7$.",
+    "hint": "Use the binomial theorem; the coefficients are **row 7 of Pascal's triangle**.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Binomial Expansion",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the expansion of $(1 + x)^7$ in ascending powers of $x$, the coefficients of the **fifth**, **sixth** and **seventh** terms form a linear sequence (A.P.). Find the **common difference** of the A.P.",
+    "media": [],
+    "answer": "$$(1 + x)^7 = 1 + 7x + 21x^2 + 35x^3 + \\underbrace{35x^4}_{5\\text{th}} + \\underbrace{21x^5}_{6\\text{th}} + \\underbrace{7x^6}_{7\\text{th}} + x^7$$\n\nCoefficients: $35,\\ 21,\\ 7$\n\n$$d = 21 - 35 = 7 - 21 = -14$$\n\n> [!answer]\n> **Common difference** {{green:$d = -14$}}",
+    "explanation": "## Advanced explanation\n\nThe $(r + 1)$th term of $(1 + x)^7$ is $\\binom{7}{r}x^r$, so terms 5, 6, 7 have coefficients\n\n$$\\binom{7}{4} = 35, \\quad \\binom{7}{5} = 21, \\quad \\binom{7}{6} = 7.$$\n\nThey satisfy $2(21) = 35 + 7$, confirming an A.P., with $d = -14$.\n\n## Simplified explanation\n\n| Term | 1st | 2nd | 3rd | 4th | **5th** | **6th** | **7th** |\n|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|\n| Coefficient | 1 | 7 | 21 | 35 | **35** | **21** | **7** |\n\nThe coefficients go down by $14$ each time, so ==$d = -14$== (negative because the sequence is _decreasing_).\n\n> [!warning]\n> The 5th term is the $x^4$ term, **not** the $x^5$ term.",
+    "hint": "Count terms from **1** — the first term is the constant $1$. So the 5th term contains $x^4$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Binomial Expansion",
+      "Sequences & Series",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using the **trapezium rule** with ordinates at $1, 2, 3, 4$ and $5$, calculate, _correct to two decimal places_,\n\n$$\\int_1^5 \\sqrt{2x + 8x^{-2}}\\,dx$$",
+    "media": [],
+    "answer": "Strip width $h = 1$, and $y = \\sqrt{2x + \\dfrac{8}{x^2}}$:\n\n| $x$ | $2x + 8/x^2$ | $y$ |\n|:-:|:-:|:-:|\n| 1 | $10$ | $3.1623$ |\n| 2 | $6$ | $2.4495$ |\n| 3 | $6.8889$ | $2.6247$ |\n| 4 | $8.5$ | $2.9155$ |\n| 5 | $10.32$ | $3.2125$ |\n\n$$\n\\begin{aligned}\n\\int_1^5 y\\,dx &\\approx \\frac{h}{2}\\Big[y_1 + y_5 + 2(y_2 + y_3 + y_4)\\Big] \\\\\n&= \\tfrac{1}{2}\\Big[3.1623 + 3.2125 + 2(2.4495 + 2.6247 + 2.9155)\\Big] \\\\\n&= \\tfrac{1}{2}\\big[6.3748 + 15.9794\\big] \\\\\n&= \\tfrac{1}{2}(22.3542) \\approx 11.18\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$\\displaystyle\\int_1^5 \\sqrt{2x + 8x^{-2}}\\,dx \\approx 11.18$}}",
+    "explanation": "## Advanced explanation\n\n> [!formula] Trapezium rule\n> $\\displaystyle\\int_a^b y\\,dx \\approx \\frac{h}{2}\\Big[y_0 + 2(y_1 + y_2 + \\cdots + y_{n-1}) + y_n\\Big], \\quad h = \\frac{b - a}{n}$\n\n- Here $n = 4$ strips on $[1, 5]$, so $h = 1$.\n- $8x^{-2} = \\dfrac{8}{x^2}$: at $x = 3$ it is $\\tfrac{8}{9} \\approx 0.8889$; at $x = 5$ it is $\\tfrac{8}{25} = 0.32$.\n- Keep 4–5 decimal places in the ordinates and round **only at the end**.\n- The exact value is about $10.99$; the rule _overestimates_ because the curve is convex (concave up) over almost all of $[1, 5]$, especially near $x = 1$.\n\n## Simplified explanation\n\nPicture the area under the curve cut into ==4 strips, each 1 unit wide==. Each strip is treated as a trapezium.\n\n1. Work out the height $y$ at $x = 1, 2, 3, 4, 5$.\n2. **Ends once, middles twice:** $3.1623 + 3.2125 + 2(2.4495 + 2.6247 + 2.9155) = 22.3542$.\n3. Multiply by half the width ($\\tfrac{1}{2}$): $11.1771 \\to 11.18$.\n\n> [!warning]\n> Reading $x^{-2}$ as $-2x$ — it means $\\dfrac{1}{x^2}$. Some published solutions give ~~17.48~~ for this question; the correct trapezium value is **11.18**.",
+    "hint": "Strip width $h = 1$. Compute $y$ at $x = 1, 2, 3, 4, 5$. The **first and last** ordinates count once, the **middle** ones twice.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "Numerical Integration",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If ${}^{k}P_{2} = 72$, find the value of $k$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n{}^{k}P_{2} = \\frac{k!}{(k - 2)!} &= k(k - 1) \\\\\nk(k - 1) &= 72 \\\\\nk^2 - k - 72 &= 0 \\\\\n(k - 9)(k + 8) &= 0\n\\end{aligned}\n$$\n\n$k = 9$ or $k = -8$. Since $k$ must be a **positive integer**, $k = 9$.\n\n> [!answer]\n> {{green:$k = 9$}}",
+    "explanation": "## Advanced explanation\n\n> [!formula]\n> ${}^{n}P_{r} = \\dfrac{n!}{(n - r)!}$\n\nSo ${}^{k}P_{2} = k(k - 1)$, defined for integers $k \\geq 2$:\n\n$$k^2 - k - 72 = 0 \\;\\Rightarrow\\; k = \\frac{1 \\pm \\sqrt{1 + 288}}{2} = \\frac{1 \\pm 17}{2} \\;\\Rightarrow\\; k = 9 \\text{ or } -8.$$\n\nReject $k = -8$ (permutations need a non-negative integer). _Check:_ ${}^{9}P_{2} = 9 \\times 8 = 72$ ✓\n\n## Simplified explanation\n\n${}^{k}P_{2}$ means ==“arrange 2 things chosen from $k$”==: $k$ choices for the 1st, $(k - 1)$ for the 2nd.\n\nSo $k(k - 1) = 72$. Which two **consecutive** numbers multiply to $72$? $9 \\times 8$. So $k = 9$.",
+    "hint": "${}^{k}P_{2} = k(k - 1)$. Form a **quadratic** and solve.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "Permutations & Combinations",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve, for $\\theta$, the equation $2\\cos^2\\theta - 5\\cos\\theta = 3$ for $0^\\circ \\leq \\theta \\leq 360^\\circ$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n2\\cos^2\\theta - 5\\cos\\theta - 3 &= 0 \\\\\n(2\\cos\\theta + 1)(\\cos\\theta - 3) &= 0 \\\\\n\\cos\\theta = -\\tfrac{1}{2} \\quad &\\text{or} \\quad \\cos\\theta = 3\n\\end{aligned}\n$$\n\n- $\\cos\\theta = 3$ is **impossible**, since $-1 \\leq \\cos\\theta \\leq 1$.\n- $\\cos\\theta = -\\tfrac{1}{2}$: reference angle $60^\\circ$; cosine is **negative** in the 2nd and 3rd quadrants:\n\n$$\\theta = 180^\\circ - 60^\\circ = 120^\\circ, \\qquad \\theta = 180^\\circ + 60^\\circ = 240^\\circ$$\n\n> [!answer]\n> {{green:$\\theta = 120^\\circ$}} or {{green:$\\theta = 240^\\circ$}}",
+    "explanation": "## Advanced explanation\n\nSubstituting $c = \\cos\\theta$ turns the equation into a quadratic:\n\n$$2c^2 - 5c - 3 = 0, \\qquad \\Delta = 25 + 24 = 49, \\qquad c = \\frac{5 \\pm 7}{4} = 3 \\text{ or } -\\tfrac{1}{2}.$$\n\n- The range of cosine is $[-1, 1]$ ⇒ discard $c = 3$.\n- $\\cos\\theta = -\\tfrac{1}{2} \\Rightarrow \\theta = \\cos^{-1}\\left(-\\tfrac{1}{2}\\right) = 120^\\circ$ (principal value).\n- By symmetry, $\\cos(360^\\circ - \\theta) = \\cos\\theta$ gives $240^\\circ$. Both lie in $[0^\\circ, 360^\\circ]$.\n\n## Simplified explanation\n\n1. Treat $\\cos\\theta$ like an ordinary letter $c$: $2c^2 - 5c - 3 = 0$.\n2. Factorise: $(2c + 1)(c - 3) = 0$.\n3. $c = 3$ is impossible — ==cosine is never bigger than 1==.\n4. $c = -\\tfrac{1}{2}$: $\\cos 60^\\circ = \\tfrac{1}{2}$, and cosine is negative in quadrants 2 and 3 → $120^\\circ$ and $240^\\circ$.\n\n> [!tip]\n> Use **CAST** (**A**ll, **S**in, **T**an, **C**os — positive in quadrants 1, 2, 3, 4) to place your angles in the right quadrants.",
+    "hint": "Bring everything to one side, treat $\\cos\\theta$ as a **single unknown** and factorise the quadratic.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "Trigonometry",
+      "Pure Mathematics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks scored by some students in a test.\n\n| Marks | Number of students |\n|:-:|:-:|\n| 1–10 | 3 |\n| 11–20 | 17 |\n| 21–30 | 41 |\n| 31–40 | 85 |\n| 41–50 | 97 |\n| 51–60 | 115 |\n| 61–70 | 101 |\n| 71–80 | 64 |\n| 81–90 | 21 |\n| 91–100 | 6 |\n\nConstruct a **cumulative frequency table** for the distribution.",
+    "media": [],
+    "answer": "| Marks | Upper class boundary | Frequency $f$ | Cumulative frequency |\n|:-:|:-:|:-:|:-:|\n| 1–10 | 10.5 | 3 | 3 |\n| 11–20 | 20.5 | 17 | 20 |\n| 21–30 | 30.5 | 41 | 61 |\n| 31–40 | 40.5 | 85 | 146 |\n| 41–50 | 50.5 | 97 | 243 |\n| 51–60 | 60.5 | 115 | 358 |\n| 61–70 | 70.5 | 101 | 459 |\n| 71–80 | 80.5 | 64 | 523 |\n| 81–90 | 90.5 | 21 | 544 |\n| 91–100 | 100.5 | 6 | **550** |\n\n> [!answer]\n> Cumulative frequencies: $3, 20, 61, 146, 243, 358, 459, 523, 544, 550$ — total {{green:550 students}}.",
+    "explanation": "## Advanced explanation\n\nCumulative frequency $F(b)$ is the number of observations $\\leq$ the upper class boundary $b$.\n\n- For integer marks in classes $1$–$10$, $11$–$20$, …, the **class boundaries** are $0.5, 10.5, 20.5, \\ldots, 100.5$ (half-way between $10$ and $11$, etc.).\n- Running totals: $3, 20, 61, 146, 243, 358, 459, 523, 544, 550$.\n- The last entry equals $\\sum f = 550$, which ++checks the arithmetic++.\n\n## Simplified explanation\n\n==Cumulative frequency = a running total.==\n\n$3 \\to 3 + 17 = 20 \\to 20 + 41 = 61 \\to 61 + 85 = 146 \\to \\cdots \\to 544 + 6 = 550$\n\nThe last number ($550$) is the **total** number of students.",
+    "hint": "Add the frequencies as you go down (a **running total**). Use upper class boundaries ($10.5, 20.5, \\ldots$) — you will plot them for the ogive.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "Statistics",
+      "Cumulative Frequency",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks scored by some students in a test.\n\n| Marks | Number of students |\n|:-:|:-:|\n| 1–10 | 3 |\n| 11–20 | 17 |\n| 21–30 | 41 |\n| 31–40 | 85 |\n| 41–50 | 97 |\n| 51–60 | 115 |\n| 61–70 | 101 |\n| 71–80 | 64 |\n| 81–90 | 21 |\n| 91–100 | 6 |\n\nDescribe how to draw a **cumulative frequency curve** (ogive) for the distribution, listing the points to be plotted.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 440\" font-family=\"Arial, sans-serif\" font-size=\"12\"><rect width=\"640\" height=\"440\" fill=\"#ffffff\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"64.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">0</text><line x1=\"114.5\" y1=\"384.0\" x2=\"114.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"114.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">10</text><line x1=\"165.1\" y1=\"384.0\" x2=\"165.1\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"165.1\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">20</text><line x1=\"215.6\" y1=\"384.0\" x2=\"215.6\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"215.6\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">30</text><line x1=\"266.2\" y1=\"384.0\" x2=\"266.2\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"266.2\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">40</text><line x1=\"316.7\" y1=\"384.0\" x2=\"316.7\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"316.7\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">50</text><line x1=\"367.3\" y1=\"384.0\" x2=\"367.3\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"367.3\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">60</text><line x1=\"417.8\" y1=\"384.0\" x2=\"417.8\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"417.8\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">70</text><line x1=\"468.4\" y1=\"384.0\" x2=\"468.4\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"468.4\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">80</text><line x1=\"518.9\" y1=\"384.0\" x2=\"518.9\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"518.9\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">90</text><line x1=\"569.5\" y1=\"384.0\" x2=\"569.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"569.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">100</text><line x1=\"620.0\" y1=\"384.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"620.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">110</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"388.0\" text-anchor=\"end\" fill=\"#374151\">0</text><line x1=\"64.0\" y1=\"354.0\" x2=\"620.0\" y2=\"354.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"358.0\" text-anchor=\"end\" fill=\"#374151\">50</text><line x1=\"64.0\" y1=\"324.0\" x2=\"620.0\" y2=\"324.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"328.0\" text-anchor=\"end\" fill=\"#374151\">100</text><line x1=\"64.0\" y1=\"294.0\" x2=\"620.0\" y2=\"294.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"298.0\" text-anchor=\"end\" fill=\"#374151\">150</text><line x1=\"64.0\" y1=\"264.0\" x2=\"620.0\" y2=\"264.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"268.0\" text-anchor=\"end\" fill=\"#374151\">200</text><line x1=\"64.0\" y1=\"234.0\" x2=\"620.0\" y2=\"234.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"238.0\" text-anchor=\"end\" fill=\"#374151\">250</text><line x1=\"64.0\" y1=\"204.0\" x2=\"620.0\" y2=\"204.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"208.0\" text-anchor=\"end\" fill=\"#374151\">300</text><line x1=\"64.0\" y1=\"174.0\" x2=\"620.0\" y2=\"174.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"178.0\" text-anchor=\"end\" fill=\"#374151\">350</text><line x1=\"64.0\" y1=\"144.0\" x2=\"620.0\" y2=\"144.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"148.0\" text-anchor=\"end\" fill=\"#374151\">400</text><line x1=\"64.0\" y1=\"114.0\" x2=\"620.0\" y2=\"114.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#374151\">450</text><line x1=\"64.0\" y1=\"84.0\" x2=\"620.0\" y2=\"84.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"88.0\" text-anchor=\"end\" fill=\"#374151\">500</text><line x1=\"64.0\" y1=\"54.0\" x2=\"620.0\" y2=\"54.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"58.0\" text-anchor=\"end\" fill=\"#374151\">550</text><line x1=\"64.0\" y1=\"24.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"28.0\" text-anchor=\"end\" fill=\"#374151\">600</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><path d=\"M66.5,384.0 C75.0,383.7 100.2,384.2 117.1,382.2 C133.9,380.2 150.8,377.8 167.6,372.0 C184.5,366.2 201.3,360.0 218.2,347.4 C235.0,334.8 251.9,314.6 268.7,296.4 C285.6,278.2 302.4,259.4 319.3,238.2 C336.1,217.0 353.0,190.8 369.8,169.2 C386.6,147.6 403.5,125.1 420.3,108.6 C437.2,92.1 454.0,78.7 470.9,70.2 C487.7,61.7 504.6,60.3 521.4,57.6 C538.3,54.9 563.6,54.6 572.0,54.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"66.5\" cy=\"384.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"117.1\" cy=\"382.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"167.6\" cy=\"372.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"218.2\" cy=\"347.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"268.7\" cy=\"296.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"319.3\" cy=\"238.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"369.8\" cy=\"169.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"420.3\" cy=\"108.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"470.9\" cy=\"70.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"521.4\" cy=\"57.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"572.0\" cy=\"54.0\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"342.0\" y=\"426\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\">Marks (upper class boundaries)</text><text x=\"16\" y=\"204.0\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\" transform=\"rotate(-90 16 204.0)\">Cumulative frequency</text></svg>",
+        "caption": "Cumulative frequency curve (ogive) for the marks distribution in Question 12."
+      }
+    ],
+    "answer": "Plot **cumulative frequency** (vertical axis) against **upper class boundary** (horizontal axis):\n\n| Point | Upper class boundary ($x$) | Cumulative frequency ($y$) |\n|:-:|:-:|:-:|\n| 1 | 0.5 | 0 |\n| 2 | 10.5 | 3 |\n| 3 | 20.5 | 20 |\n| 4 | 30.5 | 61 |\n| 5 | 40.5 | 146 |\n| 6 | 50.5 | 243 |\n| 7 | 60.5 | 358 |\n| 8 | 70.5 | 459 |\n| 9 | 80.5 | 523 |\n| 10 | 90.5 | 544 |\n| 11 | 100.5 | 550 |\n\n- **Scale:** e.g. $2\\ \\text{cm}$ to $10$ marks on the $x$-axis; $2\\ \\text{cm}$ to $100$ students on the $y$-axis.\n- Join the points with a **smooth S-shaped curve** (not straight line segments), starting at $(0.5,\\ 0)$.\n- Label both axes and give the graph a title.\n\n> [!answer]\n> Points $(0.5, 0), (10.5, 3), (20.5, 20), \\ldots, (100.5, 550)$ joined by a **smooth S-shaped curve** (see the diagram).",
+    "explanation": "## Advanced explanation\n\nAn ogive is the graph of the cumulative distribution, scaled by $n$.\n\n- Plotting at **upper class boundaries** is essential: $F(10.5) = 3$ means $3$ students scored at most $10$.\n- Anchoring at $(0.5,\\ 0)$ — the lower boundary of the first class — makes the curve start at zero.\n- The curve is ++monotonic increasing++ and drawn freehand. Its S-shape reflects a unimodal distribution: it is steepest where frequencies are largest (around $51$–$60$).\n- Labelled axes, a title and stated scales all earn marks.\n\n## Simplified explanation\n\n1. Draw axes: **marks across** ($0$ to $100$), **number of students up** ($0$ to $550+$).\n2. Plot each point (upper boundary, running total), e.g. $(40.5,\\ 146)$.\n3. Also plot $(0.5,\\ 0)$ so the curve starts on the floor.\n4. Join the points with ==one smooth curve== — it should look like a stretched “S”.\n5. Label the axes and write the scale.",
+    "hint": "The $x$-values are **upper class boundaries**, the $y$-values are **cumulative frequencies**. Start the curve at zero.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Statistics",
+      "Cumulative Frequency",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks scored by $550$ students in a test.\n\n| Marks | Number of students |\n|:-:|:-:|\n| 1–10 | 3 |\n| 11–20 | 17 |\n| 21–30 | 41 |\n| 31–40 | 85 |\n| 41–50 | 97 |\n| 51–60 | 115 |\n| 61–70 | 101 |\n| 71–80 | 64 |\n| 81–90 | 21 |\n| 91–100 | 6 |\n\nUse the cumulative frequency curve (shown) to estimate the **number of students who scored marks between 32 and 74**.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 440\" font-family=\"Arial, sans-serif\" font-size=\"12\"><rect width=\"640\" height=\"440\" fill=\"#ffffff\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"64.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">0</text><line x1=\"114.5\" y1=\"384.0\" x2=\"114.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"114.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">10</text><line x1=\"165.1\" y1=\"384.0\" x2=\"165.1\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"165.1\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">20</text><line x1=\"215.6\" y1=\"384.0\" x2=\"215.6\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"215.6\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">30</text><line x1=\"266.2\" y1=\"384.0\" x2=\"266.2\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"266.2\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">40</text><line x1=\"316.7\" y1=\"384.0\" x2=\"316.7\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"316.7\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">50</text><line x1=\"367.3\" y1=\"384.0\" x2=\"367.3\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"367.3\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">60</text><line x1=\"417.8\" y1=\"384.0\" x2=\"417.8\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"417.8\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">70</text><line x1=\"468.4\" y1=\"384.0\" x2=\"468.4\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"468.4\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">80</text><line x1=\"518.9\" y1=\"384.0\" x2=\"518.9\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"518.9\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">90</text><line x1=\"569.5\" y1=\"384.0\" x2=\"569.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"569.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">100</text><line x1=\"620.0\" y1=\"384.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"620.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">110</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"388.0\" text-anchor=\"end\" fill=\"#374151\">0</text><line x1=\"64.0\" y1=\"354.0\" x2=\"620.0\" y2=\"354.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"358.0\" text-anchor=\"end\" fill=\"#374151\">50</text><line x1=\"64.0\" y1=\"324.0\" x2=\"620.0\" y2=\"324.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"328.0\" text-anchor=\"end\" fill=\"#374151\">100</text><line x1=\"64.0\" y1=\"294.0\" x2=\"620.0\" y2=\"294.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"298.0\" text-anchor=\"end\" fill=\"#374151\">150</text><line x1=\"64.0\" y1=\"264.0\" x2=\"620.0\" y2=\"264.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"268.0\" text-anchor=\"end\" fill=\"#374151\">200</text><line x1=\"64.0\" y1=\"234.0\" x2=\"620.0\" y2=\"234.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"238.0\" text-anchor=\"end\" fill=\"#374151\">250</text><line x1=\"64.0\" y1=\"204.0\" x2=\"620.0\" y2=\"204.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"208.0\" text-anchor=\"end\" fill=\"#374151\">300</text><line x1=\"64.0\" y1=\"174.0\" x2=\"620.0\" y2=\"174.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"178.0\" text-anchor=\"end\" fill=\"#374151\">350</text><line x1=\"64.0\" y1=\"144.0\" x2=\"620.0\" y2=\"144.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"148.0\" text-anchor=\"end\" fill=\"#374151\">400</text><line x1=\"64.0\" y1=\"114.0\" x2=\"620.0\" y2=\"114.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#374151\">450</text><line x1=\"64.0\" y1=\"84.0\" x2=\"620.0\" y2=\"84.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"88.0\" text-anchor=\"end\" fill=\"#374151\">500</text><line x1=\"64.0\" y1=\"54.0\" x2=\"620.0\" y2=\"54.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"58.0\" text-anchor=\"end\" fill=\"#374151\">550</text><line x1=\"64.0\" y1=\"24.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"28.0\" text-anchor=\"end\" fill=\"#374151\">600</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><path d=\"M66.5,384.0 C75.0,383.7 100.2,384.2 117.1,382.2 C133.9,380.2 150.8,377.8 167.6,372.0 C184.5,366.2 201.3,360.0 218.2,347.4 C235.0,334.8 251.9,314.6 268.7,296.4 C285.6,278.2 302.4,259.4 319.3,238.2 C336.1,217.0 353.0,190.8 369.8,169.2 C386.6,147.6 403.5,125.1 420.3,108.6 C437.2,92.1 454.0,78.7 470.9,70.2 C487.7,61.7 504.6,60.3 521.4,57.6 C538.3,54.9 563.6,54.6 572.0,54.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"66.5\" cy=\"384.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"117.1\" cy=\"382.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"167.6\" cy=\"372.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"218.2\" cy=\"347.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"268.7\" cy=\"296.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"319.3\" cy=\"238.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"369.8\" cy=\"169.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"420.3\" cy=\"108.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"470.9\" cy=\"70.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"521.4\" cy=\"57.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"572.0\" cy=\"54.0\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"342.0\" y=\"426\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\">Marks (upper class boundaries)</text><text x=\"16\" y=\"204.0\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\" transform=\"rotate(-90 16 204.0)\">Cumulative frequency</text></svg>",
+        "caption": "Cumulative frequency curve (ogive) for the marks distribution in Question 12."
+      }
+    ],
+    "answer": "Read from the curve (values by interpolation):\n\n| Mark | Cumulative frequency |\n|:-:|:-:|\n| 32 | $\\approx 74$ |\n| 74 | $\\approx 481$ |\n\n$$\\text{Number between 32 and 74} \\approx 481 - 74 \\approx 407$$\n\n_Accept curve readings in the range of about $400$–$415$._\n\n> [!answer]\n> {{green:$\\approx 407$ students}}",
+    "explanation": "## Advanced explanation\n\n$F(74) - F(32)$ gives the number of students with $32 < \\text{mark} \\leq 74$.\n\nLinear interpolation within the classes is a good estimate of the curve readings:\n\n$$\n\\begin{aligned}\nF(32) &= 61 + \\frac{32 - 30.5}{10} \\times 85 = 61 + 12.75 \\approx 74 \\\\[4pt]\nF(74) &= 459 + \\frac{74 - 70.5}{10} \\times 64 = 459 + 22.4 \\approx 481\n\\end{aligned}\n$$\n\nDifference $\\approx 407$. Readings from a hand-drawn ogive vary slightly, so examiners accept a range.\n\n## Simplified explanation\n\n1. Go to **32** on the marks axis, up to the curve, across: about **74** students.\n2. Go to **74**, up to the curve, across: about **481** students.\n3. Students between them: ==$481 - 74 \\approx 407$==.",
+    "hint": "Read the cumulative frequency at **32** and at **74** from the curve, then **subtract**.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Statistics",
+      "Cumulative Frequency",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks scored by $550$ students in a test.\n\n| Marks | Number of students |\n|:-:|:-:|\n| 1–10 | 3 |\n| 11–20 | 17 |\n| 21–30 | 41 |\n| 31–40 | 85 |\n| 41–50 | 97 |\n| 51–60 | 115 |\n| 61–70 | 101 |\n| 71–80 | 64 |\n| 81–90 | 21 |\n| 91–100 | 6 |\n\nUse the cumulative frequency curve (shown) to estimate the **pass mark**, if $18\\%$ of the students **failed**.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 440\" font-family=\"Arial, sans-serif\" font-size=\"12\"><rect width=\"640\" height=\"440\" fill=\"#ffffff\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"64.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">0</text><line x1=\"114.5\" y1=\"384.0\" x2=\"114.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"114.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">10</text><line x1=\"165.1\" y1=\"384.0\" x2=\"165.1\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"165.1\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">20</text><line x1=\"215.6\" y1=\"384.0\" x2=\"215.6\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"215.6\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">30</text><line x1=\"266.2\" y1=\"384.0\" x2=\"266.2\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"266.2\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">40</text><line x1=\"316.7\" y1=\"384.0\" x2=\"316.7\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"316.7\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">50</text><line x1=\"367.3\" y1=\"384.0\" x2=\"367.3\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"367.3\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">60</text><line x1=\"417.8\" y1=\"384.0\" x2=\"417.8\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"417.8\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">70</text><line x1=\"468.4\" y1=\"384.0\" x2=\"468.4\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"468.4\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">80</text><line x1=\"518.9\" y1=\"384.0\" x2=\"518.9\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"518.9\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">90</text><line x1=\"569.5\" y1=\"384.0\" x2=\"569.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"569.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">100</text><line x1=\"620.0\" y1=\"384.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"620.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">110</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"388.0\" text-anchor=\"end\" fill=\"#374151\">0</text><line x1=\"64.0\" y1=\"354.0\" x2=\"620.0\" y2=\"354.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"358.0\" text-anchor=\"end\" fill=\"#374151\">50</text><line x1=\"64.0\" y1=\"324.0\" x2=\"620.0\" y2=\"324.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"328.0\" text-anchor=\"end\" fill=\"#374151\">100</text><line x1=\"64.0\" y1=\"294.0\" x2=\"620.0\" y2=\"294.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"298.0\" text-anchor=\"end\" fill=\"#374151\">150</text><line x1=\"64.0\" y1=\"264.0\" x2=\"620.0\" y2=\"264.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"268.0\" text-anchor=\"end\" fill=\"#374151\">200</text><line x1=\"64.0\" y1=\"234.0\" x2=\"620.0\" y2=\"234.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"238.0\" text-anchor=\"end\" fill=\"#374151\">250</text><line x1=\"64.0\" y1=\"204.0\" x2=\"620.0\" y2=\"204.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"208.0\" text-anchor=\"end\" fill=\"#374151\">300</text><line x1=\"64.0\" y1=\"174.0\" x2=\"620.0\" y2=\"174.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"178.0\" text-anchor=\"end\" fill=\"#374151\">350</text><line x1=\"64.0\" y1=\"144.0\" x2=\"620.0\" y2=\"144.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"148.0\" text-anchor=\"end\" fill=\"#374151\">400</text><line x1=\"64.0\" y1=\"114.0\" x2=\"620.0\" y2=\"114.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#374151\">450</text><line x1=\"64.0\" y1=\"84.0\" x2=\"620.0\" y2=\"84.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"88.0\" text-anchor=\"end\" fill=\"#374151\">500</text><line x1=\"64.0\" y1=\"54.0\" x2=\"620.0\" y2=\"54.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"58.0\" text-anchor=\"end\" fill=\"#374151\">550</text><line x1=\"64.0\" y1=\"24.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"28.0\" text-anchor=\"end\" fill=\"#374151\">600</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><path d=\"M66.5,384.0 C75.0,383.7 100.2,384.2 117.1,382.2 C133.9,380.2 150.8,377.8 167.6,372.0 C184.5,366.2 201.3,360.0 218.2,347.4 C235.0,334.8 251.9,314.6 268.7,296.4 C285.6,278.2 302.4,259.4 319.3,238.2 C336.1,217.0 353.0,190.8 369.8,169.2 C386.6,147.6 403.5,125.1 420.3,108.6 C437.2,92.1 454.0,78.7 470.9,70.2 C487.7,61.7 504.6,60.3 521.4,57.6 C538.3,54.9 563.6,54.6 572.0,54.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"66.5\" cy=\"384.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"117.1\" cy=\"382.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"167.6\" cy=\"372.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"218.2\" cy=\"347.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"268.7\" cy=\"296.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"319.3\" cy=\"238.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"369.8\" cy=\"169.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"420.3\" cy=\"108.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"470.9\" cy=\"70.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"521.4\" cy=\"57.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"572.0\" cy=\"54.0\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"342.0\" y=\"426\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\">Marks (upper class boundaries)</text><text x=\"16\" y=\"204.0\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\" transform=\"rotate(-90 16 204.0)\">Cumulative frequency</text></svg>",
+        "caption": "Cumulative frequency curve (ogive) for the marks distribution in Question 12."
+      }
+    ],
+    "answer": "$$\\text{Number who failed} = 18\\% \\text{ of } 550 = 0.18 \\times 550 = 99$$\n\nRead across from cumulative frequency **99** to the curve, then down to the marks axis.\n\n> [!answer]\n> **Pass mark** {{green:$\\approx 35$}}",
+    "explanation": "## Advanced explanation\n\nThe pass mark is the **18th percentile** $P_{18}$: the mark below which $18\\%$ of candidates fall.\n\n- Position $= 0.18 \\times 550 = 99$, which lies in the $31$–$40$ class ($F$ rises from $61$ at $30.5$ to $146$ at $40.5$).\n- By interpolation:\n\n$$P_{18} \\approx 30.5 + \\frac{99 - 61}{85} \\times 10 = 30.5 + 4.47 \\approx 34.97 \\approx 35$$\n\n## Simplified explanation\n\n1. $18\\%$ of $550$ students failed: that is **99** students.\n2. On the graph, go up to $99$ on the cumulative frequency axis, across to the curve, then down.\n3. You land at about ==35 marks== — anyone scoring about $35$ or more passed.",
+    "hint": "Find $18\\%$ of $550$, locate that cumulative frequency on the **vertical** axis and read off the mark.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Statistics",
+      "Cumulative Frequency",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks scored by $550$ students in a test.\n\n| Marks | Number of students |\n|:-:|:-:|\n| 1–10 | 3 |\n| 11–20 | 17 |\n| 21–30 | 41 |\n| 31–40 | 85 |\n| 41–50 | 97 |\n| 51–60 | 115 |\n| 61–70 | 101 |\n| 71–80 | 64 |\n| 81–90 | 21 |\n| 91–100 | 6 |\n\nUse the cumulative frequency curve (shown) to estimate the **lowest mark for distinction**, if $8\\%$ of the students passed with distinction.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 440\" font-family=\"Arial, sans-serif\" font-size=\"12\"><rect width=\"640\" height=\"440\" fill=\"#ffffff\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"64.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">0</text><line x1=\"114.5\" y1=\"384.0\" x2=\"114.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"114.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">10</text><line x1=\"165.1\" y1=\"384.0\" x2=\"165.1\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"165.1\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">20</text><line x1=\"215.6\" y1=\"384.0\" x2=\"215.6\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"215.6\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">30</text><line x1=\"266.2\" y1=\"384.0\" x2=\"266.2\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"266.2\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">40</text><line x1=\"316.7\" y1=\"384.0\" x2=\"316.7\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"316.7\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">50</text><line x1=\"367.3\" y1=\"384.0\" x2=\"367.3\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"367.3\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">60</text><line x1=\"417.8\" y1=\"384.0\" x2=\"417.8\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"417.8\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">70</text><line x1=\"468.4\" y1=\"384.0\" x2=\"468.4\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"468.4\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">80</text><line x1=\"518.9\" y1=\"384.0\" x2=\"518.9\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"518.9\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">90</text><line x1=\"569.5\" y1=\"384.0\" x2=\"569.5\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"569.5\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">100</text><line x1=\"620.0\" y1=\"384.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"620.0\" y=\"402.0\" text-anchor=\"middle\" fill=\"#374151\">110</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"388.0\" text-anchor=\"end\" fill=\"#374151\">0</text><line x1=\"64.0\" y1=\"354.0\" x2=\"620.0\" y2=\"354.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"358.0\" text-anchor=\"end\" fill=\"#374151\">50</text><line x1=\"64.0\" y1=\"324.0\" x2=\"620.0\" y2=\"324.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"328.0\" text-anchor=\"end\" fill=\"#374151\">100</text><line x1=\"64.0\" y1=\"294.0\" x2=\"620.0\" y2=\"294.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"298.0\" text-anchor=\"end\" fill=\"#374151\">150</text><line x1=\"64.0\" y1=\"264.0\" x2=\"620.0\" y2=\"264.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"268.0\" text-anchor=\"end\" fill=\"#374151\">200</text><line x1=\"64.0\" y1=\"234.0\" x2=\"620.0\" y2=\"234.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"238.0\" text-anchor=\"end\" fill=\"#374151\">250</text><line x1=\"64.0\" y1=\"204.0\" x2=\"620.0\" y2=\"204.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"208.0\" text-anchor=\"end\" fill=\"#374151\">300</text><line x1=\"64.0\" y1=\"174.0\" x2=\"620.0\" y2=\"174.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"178.0\" text-anchor=\"end\" fill=\"#374151\">350</text><line x1=\"64.0\" y1=\"144.0\" x2=\"620.0\" y2=\"144.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"148.0\" text-anchor=\"end\" fill=\"#374151\">400</text><line x1=\"64.0\" y1=\"114.0\" x2=\"620.0\" y2=\"114.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"118.0\" text-anchor=\"end\" fill=\"#374151\">450</text><line x1=\"64.0\" y1=\"84.0\" x2=\"620.0\" y2=\"84.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"88.0\" text-anchor=\"end\" fill=\"#374151\">500</text><line x1=\"64.0\" y1=\"54.0\" x2=\"620.0\" y2=\"54.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"58.0\" text-anchor=\"end\" fill=\"#374151\">550</text><line x1=\"64.0\" y1=\"24.0\" x2=\"620.0\" y2=\"24.0\" stroke=\"#e5e7eb\"/><text x=\"56.0\" y=\"28.0\" text-anchor=\"end\" fill=\"#374151\">600</text><line x1=\"64.0\" y1=\"384.0\" x2=\"620.0\" y2=\"384.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><line x1=\"64.0\" y1=\"384.0\" x2=\"64.0\" y2=\"24.0\" stroke=\"#111827\" stroke-width=\"1.5\"/><path d=\"M66.5,384.0 C75.0,383.7 100.2,384.2 117.1,382.2 C133.9,380.2 150.8,377.8 167.6,372.0 C184.5,366.2 201.3,360.0 218.2,347.4 C235.0,334.8 251.9,314.6 268.7,296.4 C285.6,278.2 302.4,259.4 319.3,238.2 C336.1,217.0 353.0,190.8 369.8,169.2 C386.6,147.6 403.5,125.1 420.3,108.6 C437.2,92.1 454.0,78.7 470.9,70.2 C487.7,61.7 504.6,60.3 521.4,57.6 C538.3,54.9 563.6,54.6 572.0,54.0\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><circle cx=\"66.5\" cy=\"384.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"117.1\" cy=\"382.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"167.6\" cy=\"372.0\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"218.2\" cy=\"347.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"268.7\" cy=\"296.4\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"319.3\" cy=\"238.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"369.8\" cy=\"169.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"420.3\" cy=\"108.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"470.9\" cy=\"70.2\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"521.4\" cy=\"57.6\" r=\"3.5\" fill=\"#2563eb\"/><circle cx=\"572.0\" cy=\"54.0\" r=\"3.5\" fill=\"#2563eb\"/><text x=\"342.0\" y=\"426\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\">Marks (upper class boundaries)</text><text x=\"16\" y=\"204.0\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\" transform=\"rotate(-90 16 204.0)\">Cumulative frequency</text></svg>",
+        "caption": "Cumulative frequency curve (ogive) for the marks distribution in Question 12."
+      }
+    ],
+    "answer": "$$\n\\begin{aligned}\n\\text{Number with distinction} &= 8\\% \\text{ of } 550 = 44 \\quad (\\text{the top } 44) \\\\\n\\text{Cumulative frequency below them} &= 550 - 44 = 506\n\\end{aligned}\n$$\n\nRead across from **506** to the curve and down to the marks axis.\n\n> [!answer]\n> **Lowest mark for distinction** {{green:$\\approx 78$}}",
+    "explanation": "## Advanced explanation\n\nThe distinction mark is the **92nd percentile** $P_{92}$ ($8\\%$ of candidates lie above it).\n\n- Position $= 0.92 \\times 550 = 506$, in the $71$–$80$ class ($F$ rises from $459$ at $70.5$ to $523$ at $80.5$).\n- By interpolation:\n\n$$P_{92} \\approx 70.5 + \\frac{506 - 459}{64} \\times 10 = 70.5 + 7.34 \\approx 77.8 \\approx 78$$\n\n## Simplified explanation\n\n1. $8\\%$ of $550 = 44$ students got distinction — they are the **top 44**.\n2. So $550 - 44 = 506$ students are **below** the distinction line.\n3. Read $506$ on the vertical axis, across to the curve, down to the marks: about ==78==.\n\n> [!warning]\n> Reading the curve at $44$ instead of $506$ — distinction is at the **top** of the distribution.",
+    "hint": "Distinction students are at the **top**. Subtract $8\\%$ of $550$ from $550$ before reading the curve.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Statistics",
+      "Cumulative Frequency",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "**Two** different Mathematics books, **five** different Physics books and **three** different Chemistry books are to be arranged on a shelf.\n\nHow many arrangements are possible if **books on the same subject must stand together**?",
+    "media": [],
+    "answer": "Treat each subject as **one block**: the 3 blocks can be arranged in $3! = 6$ ways.\n\n| Within the block | Arrangements |\n|---|:-:|\n| Mathematics | $2! = 2$ |\n| Physics | $5! = 120$ |\n| Chemistry | $3! = 6$ |\n\n$$\\text{Total} = 3! \\times 2! \\times 5! \\times 3! = 6 \\times 2 \\times 120 \\times 6 = 8640$$\n\n> [!answer]\n> {{green:8640 arrangements}}",
+    "explanation": "## Advanced explanation\n\nBy the **multiplication principle**:\n\n$$(\\text{orderings of the 3 subject groups}) \\times (\\text{internal orderings}) = 3! \\cdot 2! \\cdot 5! \\cdot 3! = 8640.$$\n\nCompare with $10! = 3\\,628\\,800$ unrestricted arrangements — the condition is very restrictive.\n\n## Simplified explanation\n\n_Tie each subject's books together with a rubber band_ — now you have **3 bundles**.\n\n1. The bundles can go in $3 \\times 2 \\times 1 = 6$ orders.\n2. Inside each bundle the books can shuffle: Maths $2$ ways, Physics $120$ ways, Chemistry $6$ ways.\n3. ==Multiply everything==: $6 \\times 2 \\times 120 \\times 6 = 8640$.",
+    "hint": "Arrange the **subject blocks** first, then the books **inside** each block. Multiply.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "Permutations & Combinations",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "**Two** different Mathematics books, **five** different Physics books and **three** different Chemistry books are to be arranged on a shelf.\n\nHow many arrangements are possible if **only the Physics books** must stand together?",
+    "media": [],
+    "answer": "Treat the 5 Physics books as **one block**.\n\n- Units to arrange: $1$ Physics block $+ 2$ Mathematics $+ 3$ Chemistry $= 6$ units → $6! = 720$ ways\n- Physics books within their block: $5! = 120$ ways\n\n$$\\text{Total} = 6! \\times 5! = 720 \\times 120 = 86\\,400$$\n\n> [!answer]\n> {{green:86 400 arrangements}}",
+    "explanation": "## Advanced explanation\n\nCondition: the Physics books are **contiguous**; the other books are unrestricted.\n\n- Collapse the Physics books to a single super-element: $6$ distinct units ⇒ $6!$ arrangements.\n- Internal permutations of the block ⇒ $5!$.\n- Total $= 6! \\cdot 5! = 86\\,400$.\n\n> [!note]\n> This is the WAEC reading of “only the Physics books must stand together”. A strict reading (“Physics together, but Maths **not** together and Chemistry **not** together”) would need inclusion–exclusion — not required here.\n\n## Simplified explanation\n\n1. Put the 5 Physics books in a **box** — the box counts as one item.\n2. Items now: the box $+ 2$ Maths $+ 3$ Chemistry $= 6$ items → $6! = 720$ orders.\n3. Inside the box, the Physics books can be arranged $5! = 120$ ways.\n4. ==$720 \\times 120 = 86\\,400$==.",
+    "hint": "_Glue_ the Physics books into one unit. How many units are there now?",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "Permutations & Combinations",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a certain community, **13 out of every 20** persons speak English. If **8 persons** are selected at random from the community, find, _correct to three significant figures_, the probability that **at least 3** of them speak English.",
+    "media": [],
+    "answer": "**Binomial:** $n = 8$, $p = \\dfrac{13}{20} = 0.65$, $q = 0.35$\n\n$$P(X \\geq 3) = 1 - \\big[P(0) + P(1) + P(2)\\big]$$\n\n| $r$ | $P(X = r) = \\binom{8}{r}(0.65)^r(0.35)^{8-r}$ | Value |\n|:-:|:-:|:-:|\n| 0 | $(0.35)^8$ | $0.000225$ |\n| 1 | $8(0.65)(0.35)^7$ | $0.003346$ |\n| 2 | $28(0.65)^2(0.35)^6$ | $0.021747$ |\n| | **Sum** | $0.025318$ |\n\n$$P(X \\geq 3) = 1 - 0.025318 = 0.974682 \\approx 0.975$$\n\n> [!answer]\n> {{green:$P(X \\geq 3) \\approx 0.975$}}",
+    "explanation": "## Advanced explanation\n\n$X \\sim B(8,\\ 0.65)$:\n\n> [!formula]\n> $P(X = r) = \\dbinom{n}{r} p^r q^{\\,n - r}$\n\n- Using the **complement** avoids summing six terms: $P(X \\leq 2) = 0.025318$.\n- $P(X \\geq 3) = 0.974682 \\approx 0.975$ (3 s.f.).\n- _Sanity check:_ $E(X) = np = 5.2$, so it is very likely that at least 3 speak English.\n\n## Simplified explanation\n\nEach person either speaks English (chance $0.65$) or doesn't ($0.35$).\n\n“At least 3” = ==everything except 0, 1 or 2 speakers==.\n\n- 0 speakers: $0.35^8 \\approx 0.0002$\n- 1 speaker: $8 \\times 0.65 \\times 0.35^7 \\approx 0.0033$\n- 2 speakers: $28 \\times 0.65^2 \\times 0.35^6 \\approx 0.0217$\n\nThese add to $\\approx 0.0253$, so the answer is $1 - 0.0253 \\approx 0.975$.\n\n> [!tip]\n> Keep at least **5 decimal places** until the end, then round to 3 significant figures.",
+    "hint": "This is **binomial** (fixed number of independent trials; success = speaks English). “At least 3” is easiest as $1 - P(0, 1 \\text{ or } 2)$.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "Binomial Distribution",
+      "Probability",
+      "Statistics & Probability",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Four vectors $\\mathbf{r} = \\alpha\\mathbf{i} + \\beta\\mathbf{j}$ (where $\\alpha$ and $\\beta$ are positive constants), $\\mathbf{s} = 2\\mathbf{i} - \\mathbf{j}$, $\\mathbf{m} = 3\\mathbf{i} + 2\\mathbf{j}$ and $\\mathbf{n} = \\mathbf{i} + \\mathbf{j}$ are such that the magnitude of $\\mathbf{r}$ is **three times** that of $\\mathbf{s}$, and $\\mathbf{r}$ is **parallel** to the vector $(\\mathbf{m} - \\mathbf{n})$.\n\nFind the values of $\\alpha$ and $\\beta$.",
+    "media": [],
+    "answer": "$$\\mathbf{m} - \\mathbf{n} = (3\\mathbf{i} + 2\\mathbf{j}) - (\\mathbf{i} + \\mathbf{j}) = 2\\mathbf{i} + \\mathbf{j}$$\n\n**Parallel** ⇒ $\\mathbf{r} = k(2\\mathbf{i} + \\mathbf{j})$, so $\\alpha = 2k$, $\\beta = k$.\n\n**Magnitude:** $|\\mathbf{s}| = \\sqrt{2^2 + (-1)^2} = \\sqrt{5}$, so $|\\mathbf{r}| = 3\\sqrt{5}$:\n\n$$\n\\begin{aligned}\n\\alpha^2 + \\beta^2 &= 45 \\\\\n(2k)^2 + k^2 &= 45 \\\\\n5k^2 &= 45 \\\\\nk &= 3 \\quad (\\alpha, \\beta > 0)\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$\\alpha = 6$}}, {{green:$\\beta = 3$}}  (so $\\mathbf{r} = 6\\mathbf{i} + 3\\mathbf{j}$)",
+    "explanation": "## Advanced explanation\n\n- $\\mathbf{r} \\parallel (\\mathbf{m} - \\mathbf{n}) \\iff \\mathbf{r} = k(\\mathbf{m} - \\mathbf{n})$ for some scalar $k \\iff \\dfrac{\\alpha}{2} = \\dfrac{\\beta}{1} \\Rightarrow \\alpha = 2\\beta$.\n- $|\\mathbf{r}| = 3|\\mathbf{s}| = 3\\sqrt{5} \\Rightarrow \\alpha^2 + \\beta^2 = 45 \\Rightarrow 5\\beta^2 = 45 \\Rightarrow \\beta = \\pm 3$; positivity gives $\\beta = 3$, $\\alpha = 6$.\n- _Check:_ $|6\\mathbf{i} + 3\\mathbf{j}| = \\sqrt{45} = 3\\sqrt{5}$ ✓ and $(6, 3) = 3(2, 1)$ ✓\n\n## Simplified explanation\n\n1. $\\mathbf{m} - \\mathbf{n} = 2\\mathbf{i} + \\mathbf{j}$. ==“Parallel” means $\\mathbf{r}$ is a stretched copy of it==: $\\mathbf{r} = 2k\\mathbf{i} + k\\mathbf{j}$.\n2. Length of $\\mathbf{s}$ is $\\sqrt{4 + 1} = \\sqrt{5}$, so length of $\\mathbf{r}$ is $3\\sqrt{5}$, i.e. $\\text{length}^2 = 45$.\n3. $(2k)^2 + k^2 = 5k^2 = 45 \\Rightarrow k = 3$.\n4. So $\\alpha = 6$ and $\\beta = 3$.",
+    "hint": "**Parallel** vectors are scalar multiples of each other. Use $|\\mathbf{r}| = 3|\\mathbf{s}|$ to find the multiple.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "Vectors",
+      "Vectors & Mechanics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Vectors $\\mathbf{r} = 6\\mathbf{i} + 3\\mathbf{j}$ and $\\mathbf{s} = 2\\mathbf{i} - \\mathbf{j}$ (from the previous part, $\\alpha = 6$ and $\\beta = 3$).\n\nCalculate the **magnitude** and **direction** of $(\\mathbf{r} - \\mathbf{s})$.",
+    "media": [],
+    "answer": "$$\\mathbf{r} - \\mathbf{s} = (6\\mathbf{i} + 3\\mathbf{j}) - (2\\mathbf{i} - \\mathbf{j}) = 4\\mathbf{i} + 4\\mathbf{j}$$\n\n**Magnitude:**\n$$|\\mathbf{r} - \\mathbf{s}| = \\sqrt{4^2 + 4^2} = \\sqrt{32} = 4\\sqrt{2} \\approx 5.66$$\n\n**Direction:**\n$$\\tan\\theta = \\frac{4}{4} = 1 \\;\\Rightarrow\\; \\theta = 45^\\circ \\text{ with the positive } x\\text{-axis}$$\n\n> [!answer]\n> **Magnitude** {{green:$4\\sqrt{2} \\approx 5.66$ units}}; **direction** {{green:$45^\\circ$ to the $x$-axis}} (bearing $\\text{N}45^\\circ\\text{E}$, i.e. $045^\\circ$)",
+    "explanation": "## Advanced explanation\n\n- $\\mathbf{r} - \\mathbf{s} = (4, 4)$, so $|\\mathbf{r} - \\mathbf{s}| = \\sqrt{32} = 4\\sqrt{2} \\approx 5.657$.\n- Both components are positive ⇒ **first quadrant**, so $\\theta = \\tan^{-1}(1) = 45^\\circ$, measured anticlockwise from the positive $x$-axis.\n- The direction makes $45^\\circ$ with both axes, so the bearing (clockwise from north) is also $045^\\circ$.\n- Unit vector: $\\hat{\\mathbf{u}} = \\dfrac{\\mathbf{i} + \\mathbf{j}}{\\sqrt{2}}$.\n\n## Simplified explanation\n\n1. Take $\\mathbf{s}$ away from $\\mathbf{r}$: $(6 - 2)\\mathbf{i} + (3 - (-1))\\mathbf{j} = 4\\mathbf{i} + 4\\mathbf{j}$.\n2. **Length:** like the diagonal of a $4 \\times 4$ square: $\\sqrt{16 + 16} \\approx 5.66$.\n3. **Direction:** equal steps right and up, so it points ==exactly half-way between east and north== — $45^\\circ$ (bearing $045^\\circ$).\n\n> [!warning]\n> Watch the sign: $3\\mathbf{j} - (-\\mathbf{j}) = 4\\mathbf{j}$, **not** $2\\mathbf{j}$.",
+    "hint": "Subtract **component by component**, then use Pythagoras for the length and $\\tan^{-1}\\left(\\dfrac{y}{x}\\right)$ for the angle.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "Vectors",
+      "Vectors & Mechanics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A particle is projected **vertically upwards** from the ground with speed $30\\ \\text{m s}^{-1}$. _Take $g = 10\\ \\text{m s}^{-2}$._\n\nCalculate the **maximum height** reached by the particle.",
+    "media": [],
+    "answer": "At maximum height, $v = 0$. Taking upwards as positive, $a = -g = -10\\ \\text{m s}^{-2}$:\n\n$$\n\\begin{aligned}\nv^2 &= u^2 - 2gh \\\\\n0 &= 30^2 - 2(10)h \\\\\n20h &= 900 \\\\\nh &= 45\\ \\text{m}\n\\end{aligned}\n$$\n\n> [!answer]\n> **Maximum height** {{green:$45\\ \\text{m}$}}",
+    "explanation": "## Advanced explanation\n\n> [!formula]\n> $v^2 = u^2 - 2gs \\qquad \\Rightarrow \\qquad H = \\dfrac{u^2}{2g}$\n\n$H = \\dfrac{900}{20} = 45\\ \\text{m}$.\n\n_Energy approach:_ $\\tfrac{1}{2}mu^2 = mgH \\Rightarrow H = \\dfrac{u^2}{2g}$ — the same result, ++independent of mass++.\n\n## Simplified explanation\n\n1. The particle slows by $10\\ \\text{m s}^{-1}$ every second, from $30$ down to $0$ — that takes **3 seconds**.\n2. Its average speed on the way up is $\\dfrac{30 + 0}{2} = 15\\ \\text{m s}^{-1}$.\n3. ==Distance = average speed × time== $= 15 \\times 3 = 45\\ \\text{m}$.",
+    "hint": "At the highest point the particle **momentarily stops** ($v = 0$). Use $v^2 = u^2 - 2gh$.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "Kinematics",
+      "Vectors & Mechanics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A particle is projected **vertically upwards** from the ground with speed $30\\ \\text{m s}^{-1}$. _Take $g = 10\\ \\text{m s}^{-2}$._\n\nCalculate the **time taken** by the particle to return to the ground.",
+    "media": [],
+    "answer": "On returning to the ground the displacement $s = 0$:\n\n$$\n\\begin{aligned}\ns &= ut - \\tfrac{1}{2}gt^2 \\\\\n0 &= 30t - 5t^2 \\\\\n0 &= 5t(6 - t)\n\\end{aligned}\n$$\n\n$t = 0$ (the start) or $t = 6$.\n\n_Equivalently:_ time up $= \\dfrac{u}{g} = \\dfrac{30}{10} = 3\\ \\text{s}$; time down is equal, so the total is $6\\ \\text{s}$.\n\n> [!answer]\n> **Time to return to the ground** {{green:$6\\ \\text{s}$}}",
+    "explanation": "## Advanced explanation\n\nWith $s = ut - \\tfrac{1}{2}gt^2$, the condition $s = 0$ gives\n\n$$t\\left(u - \\tfrac{1}{2}gt\\right) = 0 \\;\\Rightarrow\\; t = \\frac{2u}{g} = \\frac{60}{10} = 6\\ \\text{s}.$$\n\nIgnoring air resistance, the motion is **symmetric**: ascent time $\\dfrac{u}{g} = 3\\ \\text{s}$ equals descent time, and the particle lands with speed $30\\ \\text{m s}^{-1}$ (downwards).\n\n## Simplified explanation\n\n1. Going **up** takes $30 \\div 10 = 3\\ \\text{s}$.\n2. Coming **down** from the same height takes the same time: another $3\\ \\text{s}$.\n3. Total ==$6\\ \\text{s}$==.",
+    "hint": "When it lands, its **displacement** from the starting point is zero. Use $s = ut - \\tfrac{1}{2}gt^2$.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "Kinematics",
+      "Vectors & Mechanics",
+      "Section B",
+      "2016 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A particle is projected **vertically upwards** from the ground with speed $30\\ \\text{m s}^{-1}$. _Take $g = 10\\ \\text{m s}^{-2}$._\n\nCalculate the **time(s)** taken for the particle to attain a height of $40\\ \\text{m}$ above the ground.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\ns &= ut - \\tfrac{1}{2}gt^2 \\\\\n40 &= 30t - 5t^2 \\\\\n5t^2 - 30t + 40 &= 0 \\\\\nt^2 - 6t + 8 &= 0 \\\\\n(t - 2)(t - 4) &= 0\n\\end{aligned}\n$$\n\nThe particle is $40\\ \\text{m}$ above the ground at $t = 2\\ \\text{s}$ (**on the way up**) and $t = 4\\ \\text{s}$ (**on the way down**).\n\n> [!answer]\n> {{green:$t = 2\\ \\text{s}$}} and {{green:$t = 4\\ \\text{s}$}}",
+    "explanation": "## Advanced explanation\n\n$s(t) = 30t - 5t^2$ is a downward parabola with maximum $45\\ \\text{m}$ at $t = 3\\ \\text{s}$. Since $40 < 45$, the line $s = 40$ cuts it **twice**:\n\n$$5t^2 - 30t + 40 = 0 \\;\\Rightarrow\\; t = 2 \\text{ or } 4 \\quad (\\text{symmetric about } t = 3).$$\n\n| $t$ | $v = 30 - 10t$ | Motion |\n|:-:|:-:|:-:|\n| $2\\ \\text{s}$ | $+10\\ \\text{m s}^{-1}$ | rising |\n| $4\\ \\text{s}$ | $-10\\ \\text{m s}^{-1}$ | falling |\n\n## Simplified explanation\n\nThe particle passes the $40\\ \\text{m}$ mark ==twice==: once going up, once coming down.\n\n1. Solve $30t - 5t^2 = 40$, i.e. $t^2 - 6t + 8 = 0$.\n2. Factorise: $(t - 2)(t - 4) = 0$.\n3. So at $2\\ \\text{s}$ (rising) and at $4\\ \\text{s}$ (falling).\n\n> [!tip]\n> The question says “time**(s)**” — a clue to give **both** answers.",
+    "hint": "Set $s = 40$ in $s = ut - \\tfrac{1}{2}gt^2$. You get a quadratic with **two positive roots** — both count.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "Kinematics",
+      "Vectors & Mechanics",
+      "Section B",
+      "2016 Paper"
+    ]
+  }
+]

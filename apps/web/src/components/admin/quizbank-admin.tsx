@@ -17,6 +17,7 @@ import { ModerationTable } from "#/components/admin/moderation-table";
 import { TagInput } from "#/components/site/tag-input";
 import { Pager } from "#/components/site/kit";
 import { LevelBadge } from "#/components/quizbank/kit";
+import { RichText } from "#/components/quizbank/rich-text";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
 import { Textarea } from "#/components/ui/textarea";
@@ -34,6 +35,54 @@ const firstIssue = (err: { issues: Array<{ path: Array<PropertyKey>; message: st
 
 function useCourses() {
   return useQuery({ queryKey: ["admin-qb-courses"], queryFn: () => api.get<{ items: Array<Row> }>("/admin/quizbank/courses") });
+}
+
+// Question text, options, answers, lessons and hints all accept the Quizbank markup.
+const FORMATTING_GUIDE: Array<[string, string]> = [
+  ["$x^2 + \\frac{1}{2}$", "Inline maths (LaTeX)"],
+  ["$$\\int_1^5 y\\,dx$$", "Display maths, on its own line"],
+  ["$\\ce{2H2 + O2 -> 2H2O}$", "Chemical equations"],
+  ["**bold**  _italic_  ++underline++", "Emphasis"],
+  ["`mono`  ==highlight==  ~~struck~~", "Code, highlight, strike-through"],
+  ["{{green:k = −1}}", "Coloured badge: green blue red amber purple slate"],
+  ["## Advanced explanation", "Heading (Advanced, Simplified, Answer, Steps… get icons)"],
+  ["- point   1. step", "Bullets and numbered steps"],
+  ["> [!tip] Exam tip", "Callout: tip note warning answer formula"],
+  ["| x | y |\n|---|---|", "Table (header row, then a --- row)"],
+];
+
+function FormattingPreview({ q }: { q: QbQuestionInput }) {
+  const parts: Array<[string, string | null | undefined]> = [
+    ["Question", q.body],
+    ["Model answer", q.type === "text" ? q.answer : null],
+    ["Explanation", q.explanation],
+    ["Hint", q.hint],
+  ];
+  return (
+    <details className="rounded-xl border bg-slate-50/60">
+      <summary className="cursor-pointer px-3 py-2 text-sm font-semibold text-primary">Formatting guide & preview</summary>
+      <div className="grid gap-4 border-t p-3 lg:grid-cols-[minmax(0,18rem)_1fr]">
+        <dl className="space-y-1.5 text-xs">
+          {FORMATTING_GUIDE.map(([code, what]) => (
+            <div key={code}>
+              <dt className="font-mono font-semibold whitespace-pre-wrap text-rose-700">{code}</dt>
+              <dd className="text-muted-foreground">{what}</dd>
+            </div>
+          ))}
+        </dl>
+        <div className="space-y-3">
+          {parts.map(([label, text]) =>
+            text ? (
+              <div key={label} className="rounded-lg border bg-white p-3">
+                <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">{label}</p>
+                <RichText text={text} className="text-sm leading-relaxed text-primary" />
+              </div>
+            ) : null,
+          )}
+        </div>
+      </div>
+    </details>
+  );
 }
 
 // ---- Courses ------------------------------------------------------------------------------------
@@ -480,6 +529,7 @@ function QuestionEditor({ id, courseId, onClose }: { id: number | null; courseId
           <Field label="General hint (optional)" hint="Shown above the options in study mode, never in exams.">
             <Input value={q.hint ?? ""} onChange={(e) => set({ hint: e.target.value })} />
           </Field>
+          <FormattingPreview q={q} />
           <div className="grid gap-4 sm:grid-cols-3">
             <Field label="Difficulty">
               <select className={selectClass} value={q.difficulty} onChange={(e) => set({ difficulty: e.target.value as QbQuestionInput["difficulty"] })}>

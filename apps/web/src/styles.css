@@ -10,6 +10,8 @@
 @source "../../../packages/ui/src";
 @import "@cv/ui/tokens.css";
 @import "tw-animate-css";
+/* Typesetting for maths and chemistry in Quizbank questions. */
+@import "katex/dist/katex.min.css";
 
 html,
 body {
