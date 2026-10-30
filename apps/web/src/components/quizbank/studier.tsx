@@ -1,15 +1,16 @@
-// Study mode: no timer. Picking an option slides its hint open beneath it; the
-// right option (or a marked written answer) unveils the lesson behind it.
+// Study mode: no timer. Picking an option slides its hint open beneath it and the
+// right option unveils the lesson behind it; a written question shows its model answer
+// and lesson straight away (written answers are only typed and marked in exams).
 import { useEffect, useState } from "react";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { ArrowLeft, ArrowRight, Brain, CheckCircle2, Eye, Lightbulb, Loader2, Sparkles, Tags, Timer, XCircle } from "lucide-react";
+import { ArrowLeft, ArrowRight, Brain, CheckCircle2, Eye, Lightbulb, Loader2, Tags, Timer, XCircle } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import type { QbMark, QbPublicQuestion } from "#/lib/quizbank";
 import { Container, TextBlock } from "#/components/site/kit";
 import { Button } from "#/components/ui/button";
-import { LETTERS, Lesson, MarkBadge, QuestionStem, SlideDown, TextAnswer } from "./kit";
+import { LETTERS, Lesson, QuestionStem, SlideDown } from "./kit";
 import { DiscussionToggle } from "./discussion";
 
 type Reveal = { correctIndex: number | null; answer: string | null; explanation: string | null };
@@ -19,8 +20,6 @@ interface QState {
   wrong: Array<number>;
   solved?: number;
   reveal?: Reveal;
-  text?: string;
-  textMark?: QbMark;
 }
 
 export function Studier({
@@ -48,18 +47,12 @@ export function Studier({
   const update = (id: number, patch: Partial<QState>) => setStates((prev) => ({ ...prev, [id]: { ...(prev[id] ?? { hints: {}, wrong: [] }), ...patch } }));
 
   const check = useMutation({
-    mutationFn: (body: { optionIndex?: number; text?: string }) => api.post<Check>(`/learn/quizbank/questions/${q!.id}/check`, body),
-    onSuccess: (r, body) => {
+    mutationFn: (body: { optionIndex: number }) => api.post<Check>(`/learn/quizbank/questions/${q!.id}/check`, body),
+    onSuccess: (r, { optionIndex: oi }) => {
       if (!q) return;
-      const reveal = r.explanation !== undefined || r.answer !== undefined ? { correctIndex: r.correctIndex ?? null, answer: r.answer ?? null, explanation: r.explanation ?? null } : undefined;
-      if (body.optionIndex !== undefined) {
-        const oi = body.optionIndex;
-        const hints = { ...state.hints, [oi]: r.hint };
-        if (r.mark.correct) update(q.id, { hints, solved: oi, reveal });
-        else update(q.id, { hints, wrong: [...state.wrong, oi] });
-      } else {
-        update(q.id, { textMark: r.mark, reveal });
-      }
+      const hints = { ...state.hints, [oi]: r.hint };
+      if (r.mark.correct) update(q.id, { hints, solved: oi, reveal: { correctIndex: r.correctIndex ?? null, answer: r.answer ?? null, explanation: r.explanation ?? null } });
+      else update(q.id, { hints, wrong: [...state.wrong, oi] });
     },
     onError: (e) => toast.error(e.message),
   });
@@ -67,6 +60,13 @@ export function Studier({
     mutationFn: () => api.post<Reveal>(`/learn/quizbank/questions/${q!.id}/reveal`),
     onSuccess: (r) => q && update(q.id, { reveal: r, solved: r.correctIndex ?? undefined }),
     onError: (e) => toast.error(e.message),
+  });
+  // A written question's model answer and lesson, loaded as soon as it is shown.
+  const lesson = useQuery({
+    queryKey: ["qb-lesson", q?.id],
+    queryFn: () => api.post<Reveal>(`/learn/quizbank/questions/${q!.id}/reveal`),
+    enabled: q?.type === "text",
+    staleTime: Infinity,
   });
 
   const go = (i: number) => {
@@ -91,7 +91,7 @@ export function Studier({
   });
 
   if (!q) return null;
-  const solvedCount = questions.filter((x) => states[x.id]?.solved !== undefined || states[x.id]?.textMark?.correct).length;
+  const solvedCount = questions.filter((x) => states[x.id]?.solved !== undefined).length;
 
   return (
     <div className="min-h-screen bg-slate-50 pb-16">
@@ -187,27 +187,29 @@ export function Studier({
               })}
             </ul>
           ) : (
-            <div className="mt-6 space-y-3">
-              <TextAnswer value={state.text ?? ""} onChange={(text) => update(q.id, { text })} disabled={check.isPending} />
-              <div className="flex justify-end">
-                <Button disabled={check.isPending || !(state.text ?? "").trim()} onClick={() => check.mutate({ text: state.text ?? "" })}>
-                  {check.isPending ? <Loader2 className="animate-spin" /> : <Sparkles />} {state.textMark ? "Check again" : "Check my answer"}
-                </Button>
-              </div>
-              <SlideDown open={Boolean(state.textMark)}>
-                {state.textMark && (
-                  <div className="rounded-2xl border bg-secondary/30 p-4">
-                    <MarkBadge mark={state.textMark} />
-                    {state.textMark.feedback && <p className="mt-2 text-sm leading-relaxed text-primary">{state.textMark.feedback}</p>}
-                  </div>
-                )}
-              </SlideDown>
+            <div className="mt-6">
+              {lesson.data ? (
+                <Lesson answer={lesson.data.answer} explanation={lesson.data.explanation} title="Model answer & lesson" />
+              ) : lesson.isError ? (
+                <p className="rounded-2xl border border-red-200 bg-red-50 p-4 text-sm text-red-900">
+                  Couldn't load the model answer.{" "}
+                  <button type="button" onClick={() => void lesson.refetch()} className="font-semibold underline">
+                    Try again
+                  </button>
+                </p>
+              ) : (
+                <p className="flex items-center gap-2 rounded-2xl border border-indigo-200 bg-indigo-50/60 p-4 text-sm text-indigo-800">
+                  <Loader2 className="size-4 animate-spin" /> Loading the model answer…
+                </p>
+              )}
             </div>
           )}
 
-          <SlideDown open={Boolean(state.reveal)} className="mt-5">
-            <Lesson answer={q.type === "text" ? state.reveal?.answer : null} explanation={state.reveal?.explanation} title={q.type === "text" ? "Model answer & lesson" : "The lesson behind it"} />
-          </SlideDown>
+          {q.type === "choice" && (
+            <SlideDown open={Boolean(state.reveal)} className="mt-5">
+              <Lesson explanation={state.reveal?.explanation} title="The lesson behind it" />
+            </SlideDown>
+          )}
 
           {q.type === "choice" && !state.reveal && state.wrong.length > 0 && (
             <button type="button" onClick={() => giveUp.mutate()} disabled={giveUp.isPending} className="mt-4 flex items-center gap-1.5 text-sm font-semibold text-muted-foreground hover:text-primary">

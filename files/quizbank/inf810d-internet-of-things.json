@@ -1,0 +1,838 @@
+[
+  {
+    "type": "choice",
+    "body": "A precision-agriculture deployment has hundreds of soil sensors. Irrigation must stop immediately when saturation exceeds a threshold. Measurements from several farms must also be combined, while historical records are required for long-term analytics. Which allocation is most appropriate?\n\nEdge for ____",
+    "options": [
+      {
+        "text": "immediate control, Fog for regional aggregation, Cloud for long-term analytics",
+        "hint": "Correct. Each tier gets the job it is best at: the edge acts locally in milliseconds, the fog is close enough to combine several farms, and the cloud has the storage and compute for years of history."
+      },
+      {
+        "text": "immediate control, Fog for long-term analytics, Cloud for regional aggregation",
+        "hint": "The edge part is right, but fog and cloud are swapped. Fog nodes have limited storage, so they are a poor home for years of records, and shipping every farm's raw data to the cloud just to combine it wastes bandwidth."
+      },
+      {
+        "text": "regional aggregation, Fog for immediate control, Cloud for long-term analytics",
+        "hint": "An edge device sits on one farm and cannot see the others, so it cannot aggregate regionally. Immediate control belongs at the edge, right next to the irrigation valve."
+      },
+      {
+        "text": "long-term analytics, Fog for regional aggregation, Cloud for immediate control",
+        "hint": "This is upside down. Edge devices cannot hold years of history, and a round trip to the cloud adds latency and depends on the Internet link — exactly what you cannot afford when irrigation must stop now."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Match each requirement to a tier by how fast it must happen and how much data it needs: closest to the sensor for speed, widest view for history.",
+    "explanation": "The Edge–Fog–Cloud continuum places each job where it fits best:\n• Edge (on or beside the device): time-critical actions such as stopping irrigation the moment saturation crosses a threshold. No network round trip, and it still works if the Internet is down.\n• Fog (a local or regional gateway/server): combining and filtering data from several farms, so less raw data travels upstream.\n• Cloud: practically unlimited storage and compute for long-term historical analytics and trends.\n\nRule of thumb: latency-critical → edge; aggregate across sites → fog; long-term and global → cloud.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A factory currently sends every vibration sample to the cloud before deciding whether a machine should be stopped. Internet latency occasionally delays the shutdown decision. Which redesign BEST addresses this problem while retaining cloud analytics?\n\nProcess shutdown conditions ____",
+    "options": [
+      {
+        "text": "at the edge and retain historical analytics in the cloud",
+        "hint": "Correct. The shutdown decision no longer waits on the Internet, and the cloud still receives data for historical analytics — both requirements are met."
+      },
+      {
+        "text": "in the fog and retain historical analytics at the edge",
+        "hint": "Edge devices have little storage, so they cannot retain history, and this drops the cloud analytics the question says must be kept."
+      },
+      {
+        "text": "in the cloud and retain historical analytics in the fog",
+        "hint": "The decision stays in the cloud, so the latency problem that delays shutdown is still there."
+      },
+      {
+        "text": "in the cloud and retain historical analytics at the edge",
+        "hint": "This keeps the slow cloud round trip for the safety decision and puts history on the device least able to store it."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The delay comes from the network round trip. Where can the decision be made without crossing the Internet at all?",
+    "explanation": "Safety decisions should never depend on a wide-area network round trip. Move the threshold check (e.g. vibration above a limit → stop the machine) to the edge, where it runs in milliseconds even if the Internet is slow or down.\n\nThe cloud is still valuable for what it does best: storing long histories and running analytics such as trend analysis and predictive maintenance. So the redesign splits the work: real-time control at the edge, historical analytics in the cloud.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A hospital deploys low-power medical sensors using several local communication technologies. A Raspberry Pi receives their measurements, translates protocols, performs preliminary processing, and forwards selected information to a remote service. Which communication model BEST represents the system?",
+    "options": [
+      {
+        "text": "Device-to-Device, because devices exchange information through a local processing node",
+        "hint": "Device-to-Device means devices talk directly to each other (e.g. over Bluetooth or ZigBee) with no intermediary translating for them. Here everything goes through the Raspberry Pi."
+      },
+      {
+        "text": "Device-to-Cloud, because devices ultimately exchange information with a remote service",
+        "hint": "The data does end up in a remote service, but the sensors do not connect to it themselves. Device-to-Cloud would mean each sensor has its own Internet connection to the service."
+      },
+      {
+        "text": "Device-to-Gateway, because devices exchange information through an intermediary gateway",
+        "hint": "Correct. The Raspberry Pi is an application-layer gateway: it receives local-protocol traffic, translates protocols, preprocesses, and forwards to the remote service."
+      },
+      {
+        "text": "Back-End Sharing, because devices ultimately exchange information between different platforms",
+        "hint": "Back-End Data Sharing describes cloud services exporting device data to other platforms or third parties. It is about cloud-to-cloud sharing, not how devices reach the network."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Focus on the role the Raspberry Pi plays between the sensors and the remote service.",
+    "explanation": "The four IoT communication models (RFC 7452):\n• Device-to-Device: devices communicate directly, often over short-range radio.\n• Device-to-Cloud: each device connects straight to a cloud service over IP.\n• Device-to-Gateway: devices connect to a local gateway (a phone, hub or Raspberry Pi) that translates protocols, adds processing or security, and relays to the cloud. Ideal when devices are low-power or use non-IP local technologies.\n• Back-End Data Sharing: the cloud service shares collected data with other authorised services.\n\nProtocol translation plus preliminary processing on a local intermediary is the signature of the Device-to-Gateway model.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Communication Models",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two engineers disagree about an environmental monitoring system. Engineer 1 says the system uses MQTT, while Engineer 2 says it uses Wi-Fi. The sensor actually publishes MQTT messages through a Wi-Fi connection. Which interpretation is MOST accurate?",
+    "options": [
+      {
+        "text": "Engineer 1 is correct because MQTT provides both messaging and wireless connectivity",
+        "hint": "MQTT is an application-layer messaging protocol that rides on TCP/IP. It needs a network underneath it and provides no radio link of its own."
+      },
+      {
+        "text": "Engineer 2 is correct because Wi-Fi provides both connectivity and application messaging",
+        "hint": "Wi-Fi (IEEE 802.11) moves frames over the air. It knows nothing about topics, publishing or subscribing — that is MQTT's job."
+      },
+      {
+        "text": "Both are correct because MQTT provides messaging while Wi-Fi provides wireless connectivity",
+        "hint": "Correct. They work at different layers of the same stack: Wi-Fi is the link that carries the bits, MQTT is the messaging protocol carried over it."
+      },
+      {
+        "text": "Neither is correct because MQTT and Wi-Fi must operate at the same protocol level",
+        "hint": "They do not operate at the same level, and that is precisely why they work together: MQTT (application layer) runs over TCP/IP, which runs over Wi-Fi (physical/data-link layer)."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Think in protocol layers: which one carries bits over the air, and which one defines the messages?",
+    "explanation": "IoT systems use a layered stack, and each layer does one job:\n• Physical/data link — Wi-Fi, Ethernet, BLE, ZigBee, LoRa, cellular: moves bits between nearby nodes.\n• Network/transport — IP, TCP, UDP: addressing and end-to-end delivery.\n• Application — MQTT, CoAP, HTTP, AMQP: the meaning and pattern of messages.\n\nSo \"the sensor uses MQTT over Wi-Fi\" is a complete description: MQTT for messaging, Wi-Fi for connectivity. Neither engineer is wrong; each is describing a different layer.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A battery-powered sensing device requires a request/response protocol with very low overhead and prefers UDP because maintaining TCP connections is undesirable. Which protocol BEST matches these requirements?\n\n____ because it provides lightweight request/response messaging over UDP.",
+    "options": [
+      {
+        "text": "MQTT",
+        "hint": "MQTT is lightweight, but it is publish/subscribe through a broker (not request/response) and runs over TCP, which needs a connection kept alive."
+      },
+      {
+        "text": "CoAP",
+        "hint": "Correct. CoAP (RFC 7252) is a RESTful request/response protocol (GET, POST, PUT, DELETE) with a 4-byte header that runs over UDP, built for constrained devices."
+      },
+      {
+        "text": "HTTP",
+        "hint": "HTTP is request/response, but it runs over TCP and has verbose text headers — too heavy for a battery-powered node that wants to avoid TCP."
+      },
+      {
+        "text": "AMQP",
+        "hint": "AMQP is a feature-rich enterprise message-queuing protocol over TCP. It is heavier still and not request/response."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Two clues narrow it down: request/response and UDP. Only one option has both.",
+    "explanation": "CoAP (Constrained Application Protocol) is often described as \"HTTP for constrained devices\":\n• REST model: clients send GET/POST/PUT/DELETE to resources identified by URIs.\n• UDP transport: no connection setup or keep-alives, so the radio can sleep more.\n• Tiny binary header (4 bytes) versus HTTP's text headers.\n• Optional reliability: Confirmable (CON) messages are acknowledged and retransmitted; Non-confirmable (NON) are fire-and-forget.\n• Security via DTLS; the Observe option lets clients get notifications.\n\nMQTT and AMQP are TCP-based messaging protocols; HTTP is request/response but TCP-based and heavy.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A company is connecting IoT devices to an existing web platform. The designers prioritize universal support, mature security, RESTful integration, and extensive tooling over minimizing protocol overhead. Which protocol is most appropriate?",
+    "options": [
+      {
+        "text": "MQTT, because its publish/subscribe model provides mature RESTful web integration",
+        "hint": "MQTT is publish/subscribe, not RESTful. Connecting it to a web platform needs a broker and a bridge, so it is not the most direct route to REST integration."
+      },
+      {
+        "text": "CoAP, because its request/response model provides the broadest web integration",
+        "hint": "CoAP is REST-like, but its support, tooling and security (DTLS) are far less widespread than HTTPS. Its strength is low overhead, which these designers rank below integration."
+      },
+      {
+        "text": "HTTP/HTTPS, because its request/response model provides mature web integration",
+        "hint": "Correct. Every web platform speaks HTTP; HTTPS (TLS) security is mature; REST APIs are native; tooling is everywhere. Its extra overhead is acceptable here."
+      },
+      {
+        "text": "AMQP, because its message-queuing model provides the broadest web integration",
+        "hint": "AMQP is designed for enterprise message queues between back-end systems. It does not provide native RESTful web integration."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The designers are willing to pay extra overhead. Which protocol is the native language of web platforms?",
+    "explanation": "Protocol choice is about trade-offs. Lightweight IoT protocols (MQTT, CoAP) save bandwidth and power, but when the stated priorities are:\n• universal support,\n• mature security (TLS/HTTPS),\n• RESTful integration with an existing web platform, and\n• extensive tooling (libraries, API gateways, debugging tools),\nand overhead is explicitly less important, HTTP/HTTPS wins. Its text headers and TCP+TLS handshakes cost more per message, but every web stack supports it out of the box.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A monitoring application must receive temperature readings from lab1, lab2, and lab3, but it must not receive humidity readings or deeper temperature subtopics. Which MQTT subscription is MOST appropriate?",
+    "options": [
+      {
+        "text": "campus/+/temperature",
+        "hint": "Correct. \"+\" matches exactly one topic level, so this matches campus/lab1/temperature, campus/lab2/temperature and campus/lab3/temperature — and nothing deeper or any humidity topic."
+      },
+      {
+        "text": "campus/#/temperature",
+        "hint": "Invalid. The multi-level wildcard \"#\" must be the last character of a topic filter, so brokers reject this subscription."
+      },
+      {
+        "text": "campus/+/+",
+        "hint": "Too broad. The second \"+\" matches any measurement, so the app would also receive campus/lab1/humidity."
+      },
+      {
+        "text": "campus/#",
+        "hint": "Far too broad. \"#\" matches every level below campus, including humidity readings and any deeper subtopics."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "One wildcard matches exactly one level; the other matches everything below it and must come last.",
+    "explanation": "MQTT topics are levels separated by \"/\", e.g. campus/lab1/temperature. Subscribers can use two wildcards:\n• \"+\" — single-level: campus/+/temperature matches campus/lab1/temperature but not campus/lab1/temperature/raw.\n• \"#\" — multi-level: matches the current level and everything below it. It must be the last character, so campus/# is valid but campus/#/temperature is not.\n\nChoose the narrowest filter that matches what you need, so clients don't receive (and pay for) messages they will throw away.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A factory alarm requires acknowledged MQTT delivery. Duplicate alarms can be detected by the application, but the designers want lower communication overhead than exactly-once delivery. Which QoS level is most appropriate?",
+    "options": [
+      {
+        "text": "QoS 0, because it provides at-most-once delivery without acknowledgement",
+        "hint": "QoS 0 is fire-and-forget. The requirement explicitly asks for acknowledged delivery, which QoS 0 does not give."
+      },
+      {
+        "text": "QoS 1, because it provides at-least-once delivery with possible duplication",
+        "hint": "Correct. QoS 1 is acknowledged (PUBLISH → PUBACK) and retries until acknowledged, so duplicates are possible — acceptable here because the application detects them."
+      },
+      {
+        "text": "QoS 2, because it provides exactly-once delivery without possible duplication",
+        "hint": "QoS 2 does give exactly-once delivery, but its four-step handshake is exactly the extra overhead the designers want to avoid."
+      },
+      {
+        "text": "QoS 2, because it provides at-least-once delivery with possible duplication",
+        "hint": "The description is wrong: QoS 2 is exactly-once. At-least-once with possible duplication is QoS 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Acknowledged, duplicates tolerable, cheaper than exactly-once — which level sits in the middle?",
+    "explanation": "MQTT's three Quality of Service levels:\n• QoS 0 — at most once: PUBLISH only. Cheapest; a message can be lost.\n• QoS 1 — at least once: PUBLISH → PUBACK; the sender retries until acknowledged, so duplicates can occur.\n• QoS 2 — exactly once: PUBLISH → PUBREC → PUBREL → PUBCOMP. No loss and no duplicates, but four packets per message.\n\nWhen the receiver can de-duplicate (or the action is idempotent), QoS 1 gives reliable delivery at half the handshake cost of QoS 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT QoS",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An MQTT-controlled system executes a command that must not be processed twice because duplicate execution could produce an unacceptable physical action. Delivery assurance is more important than communication overhead. Which QoS is most appropriate?",
+    "options": [
+      {
+        "text": "QoS 0, because at-most-once delivery prevents duplicate processing",
+        "hint": "QoS 0 never duplicates, but it also never retries — the command can simply be lost. Delivery assurance is required."
+      },
+      {
+        "text": "QoS 1, because at-least-once delivery prevents duplicate processing",
+        "hint": "This contradicts itself: at-least-once delivery is exactly what allows duplicates."
+      },
+      {
+        "text": "QoS 2, because exactly-once delivery prevents duplicate processing",
+        "hint": "Correct. QoS 2's four-step handshake guarantees the command arrives once and only once. The extra overhead is acceptable because assurance matters more."
+      },
+      {
+        "text": "QoS 1, because acknowledged delivery guarantees exactly-once processing",
+        "hint": "Acknowledgement alone does not prevent duplicates: if a PUBACK is lost, the sender resends and the command may run twice."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "You need both: it must arrive, and it must not arrive twice.",
+    "explanation": "Choose QoS by the cost of failure:\n• Losing a message is fine → QoS 0.\n• Losing is bad, duplicates are harmless or detectable → QoS 1.\n• Losing is bad and a duplicate is dangerous (e.g. dispensing medicine, opening a valve, a \"toggle\" command) → QoS 2.\n\nQoS 2 uses PUBLISH → PUBREC → PUBREL → PUBCOMP. The receiver stores the packet ID until the exchange completes, so a resent PUBLISH is recognised and not delivered again. That is why it costs more, and why it is the right choice when overhead is less important than assurance.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT QoS",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A room controller publishes its current state as ON. A dashboard connects 30 minutes later, when no new state change has occurred, but it must immediately display ON. Which MQTT mechanism BEST provides this behaviour?",
+    "options": [
+      {
+        "text": "Persistent session, because the broker stores the latest published state",
+        "hint": "A persistent session queues messages for a client that was already subscribed before it went offline. A dashboard connecting for the first time has no session to resume."
+      },
+      {
+        "text": "Retained message, because the broker stores the latest published state",
+        "hint": "Correct. With the retain flag set, the broker keeps the last message on that topic and sends it to every new subscriber straight away."
+      },
+      {
+        "text": "Last Will, because the broker stores the latest published state",
+        "hint": "The Last Will is published only when a client disconnects unexpectedly. It does not store the latest normal state."
+      },
+      {
+        "text": "Keep Alive, because the broker stores the latest published state",
+        "hint": "Keep Alive is a ping timer that detects dead connections. It stores no messages."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Which feature lets the broker hand a newcomer the \"last known good value\" on a topic?",
+    "explanation": "A retained message is a normal PUBLISH with the retain flag set to true. The broker keeps only the most recent retained message per topic and delivers it immediately to any client that subscribes later.\n\nThis is ideal for state: on/off, current setpoint, device online/offline. Without it, a new subscriber would have to wait until the next state change — which might be hours away.\n\n(To clear a retained message, publish an empty retained payload to the topic.)",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "MQTT",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A remote monitoring device suddenly loses power. The system must automatically publish an offline status without relying on the failed device to send the message. Which MQTT feature BEST supports this requirement?\n\n____ normal communication.",
+    "options": [
+      {
+        "text": "Retained Message, configured before the device begins",
+        "hint": "A retained message keeps the last value, but someone still has to publish \"offline\" — and the device cannot after losing power. (Retain is often combined with the correct answer, though.)"
+      },
+      {
+        "text": "Persistent Session, configured before the device begins",
+        "hint": "A persistent session preserves subscriptions and queued messages across reconnects. It does not announce that a device has gone offline."
+      },
+      {
+        "text": "Last Will and Testament, configured before the device begins",
+        "hint": "Correct. The device registers its Will message in the CONNECT packet; if it disappears ungracefully, the broker publishes the Will on its behalf."
+      },
+      {
+        "text": "Keep Alive, configured as the offline message before",
+        "hint": "Keep Alive is the timer that lets the broker notice the device is gone, but it is not a message. The Will is what gets published."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The device can't speak once it's dead, so the message must be left with the broker in advance.",
+    "explanation": "Last Will and Testament (LWT):\n1. When connecting, the client includes a Will topic, payload (e.g. \"offline\"), QoS and retain flag in its CONNECT packet.\n2. The broker stores it.\n3. If the client disconnects without a proper DISCONNECT — power loss, crash, network failure detected by the Keep Alive timeout — the broker publishes the Will to everyone subscribed to that topic.\n\nCommon pattern: publish a retained \"online\" on connect, and set a retained Will of \"offline\", so dashboards always show the true status.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A mobile MQTT client frequently loses connectivity. After reconnection, its previous subscriptions and relevant session state should remain available instead of being reconstructed each time. Which MQTT mechanism BEST addresses this?\n\n____ state can survive client disconnections.",
+    "options": [
+      {
+        "text": "Retained messages, because message",
+        "hint": "Retained messages keep the last value per topic for new subscribers. They do not remember a client's subscriptions."
+      },
+      {
+        "text": "Persistent sessions, because session",
+        "hint": "Correct. With a persistent session (Clean Session = false, or Clean Start = false with a session expiry in MQTT 5), the broker keeps the client's subscriptions and queues QoS 1/2 messages while it is away."
+      },
+      {
+        "text": "Last Will messages, because session",
+        "hint": "The Last Will tells others that a client vanished. It does nothing to restore that client's own session."
+      },
+      {
+        "text": "Keep Alive messages, because subscription",
+        "hint": "Keep Alive only detects broken connections with periodic pings. It does not store subscriptions."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The keyword is \"session state\" — what does the broker remember about a client between connections?",
+    "explanation": "A persistent session is identified by the client ID. When the client connects with Clean Session = false (MQTT 3.1.1), or Clean Start = false plus a session expiry interval (MQTT 5), the broker stores:\n• all of the client's subscriptions;\n• QoS 1 and 2 messages that arrived while it was offline;\n• in-flight QoS 1/2 messages not yet acknowledged.\n\nOn reconnection the client picks up where it left off without resubscribing — useful for mobile or intermittently connected devices.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An MQTT deployment uses username/password authentication over port 1883 across an untrusted network. An attacker cannot log into the broker but can observe transmitted packet contents. Which modification MOST directly addresses this weakness?\n\nAdd ____",
+    "options": [
+      {
+        "text": "ACLs while continuing to transmit MQTT traffic without TLS",
+        "hint": "ACLs limit what authenticated clients may do, but the traffic — including usernames and passwords — is still readable on the wire."
+      },
+      {
+        "text": "QoS 2 while continuing to transmit MQTT traffic without TLS",
+        "hint": "QoS controls delivery guarantees, not confidentiality. Every packet would still be visible in plaintext."
+      },
+      {
+        "text": "TLS while continuing to authenticate authorized MQTT clients",
+        "hint": "Correct. TLS (normally on port 8883) encrypts the connection, so packet contents and credentials can no longer be read, while authentication continues as before."
+      },
+      {
+        "text": "retained messages while continuing to authenticate authorized MQTT clients",
+        "hint": "Retained messages are a storage feature for the last value on a topic. They do nothing for confidentiality."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The attack is eavesdropping. Which option actually hides the packet contents?",
+    "explanation": "Port 1883 is plain MQTT: the CONNECT packet carries the username and password in clear text, and every PUBLISH payload is readable by anyone on the path.\n\nThe fix for eavesdropping is encryption: MQTT over TLS (conventionally port 8883). TLS provides:\n• confidentiality — payloads and credentials are encrypted;\n• integrity — tampering is detected;\n• server authentication — clients can verify they reached the real broker (and with client certificates, mutual authentication).\n\nACLs (authorization) and QoS (reliability) solve different problems.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "MQTT",
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A sensor successfully proves its identity to an IoT platform. The platform nevertheless rejects its attempt to publish to factory/admin/control. Which interpretation is MOST accurate?\n\n____ rejected the requested operation.",
+    "options": [
+      {
+        "text": "Authentication succeeded, but authorization",
+        "hint": "Correct. Proving identity is authentication; deciding what that identity may do is authorization. The sensor is known, but it isn't allowed to publish to the admin control topic."
+      },
+      {
+        "text": "Authorization succeeded, but authentication",
+        "hint": "This is the wrong way round. The sensor did prove its identity, so authentication succeeded."
+      },
+      {
+        "text": "Authentication succeeded, but encryption",
+        "hint": "Encryption protects data in transit; it does not decide which topics a client may publish to."
+      },
+      {
+        "text": "Encryption succeeded, but authentication",
+        "hint": "Authentication succeeded (the identity was proven), and encryption is not what grants or denies permissions."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Separate \"who are you?\" from \"what are you allowed to do?\"",
+    "explanation": "Two different security questions:\n• Authentication — Who are you? Verified with passwords, tokens or certificates.\n• Authorization — What are you allowed to do? Enforced with access control lists (ACLs) or role-based policies, e.g. \"sensors may publish to factory/+/telemetry but not to factory/admin/#\".\n\nA well-designed platform does both, applying least privilege: a device is authenticated, then allowed only the topics it needs.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A manufacturer deploys 10,000 sensors with the same credentials. An attacker physically captures one sensor and extracts those credentials. Which consequence presents the most significant architectural concern?\n\nOne compromised credential ____",
+    "options": [
+      {
+        "text": "may permit impersonation of multiple deployed devices",
+        "hint": "Correct. Every sensor shares the same secret, so the stolen credential lets the attacker pose as any of the 10,000 devices — one breach compromises the whole fleet."
+      },
+      {
+        "text": "may prevent impersonation of multiple deployed devices",
+        "hint": "This is the opposite of what happens: shared credentials make impersonation easier, not harder."
+      },
+      {
+        "text": "may provide authorization without device authentication",
+        "hint": "The stolen credential is an authentication secret; the attacker authenticates successfully with it. The problem is that it authenticates as every device."
+      },
+      {
+        "text": "credential may provide encryption without device authorization",
+        "hint": "Credentials such as passwords identify a client; they do not provide encryption."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "If every device shares one key, what can a single stolen key unlock?",
+    "explanation": "Shared credentials create a single point of compromise:\n• one captured device exposes the secret for the entire fleet;\n• the attacker can impersonate any device, inject false data or commands;\n• you cannot revoke one device without re-provisioning all of them;\n• logs cannot tell devices apart, so there is no accountability.\n\nThe fix: a unique identity per device — ideally an X.509 certificate or per-device key stored in secure hardware — so a breach is contained to one device that can be revoked individually.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Firmware is transferred to an IoT device through an encrypted channel. An attacker cannot read the transfer but substitutes a malicious firmware image before installation. Which additional OTA mechanism MOST directly addresses this threat?\n\nFirmware ____ before the device installs the update.",
+    "options": [
+      {
+        "text": "signing and verification",
+        "hint": "Correct. The vendor signs the image with a private key; the device checks the signature with the vendor's public key and refuses any image that wasn't signed by the vendor or was altered."
+      },
+      {
+        "text": "encryption and compression",
+        "hint": "Encryption is already in place and only keeps the image secret. It does not prove the image came from the vendor; compression is irrelevant to security."
+      },
+      {
+        "text": "retention and retransmission",
+        "hint": "These improve delivery reliability. A substituted image would be retained and retransmitted just as faithfully."
+      },
+      {
+        "text": "aggregation and preprocessing",
+        "hint": "These are data-processing terms for sensor data, unrelated to verifying firmware."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Encryption gives confidentiality. What gives authenticity and integrity?",
+    "explanation": "Confidentiality ≠ authenticity. An encrypted channel stops eavesdropping, but it cannot tell the device whether the image it received is genuine.\n\nCode signing solves this:\n1. The vendor hashes the firmware and signs the hash with its private key.\n2. The device holds the vendor's public key (ideally in protected storage).\n3. Before installing, the device recomputes the hash and verifies the signature.\n4. Any modified or substituted image fails verification and is rejected.\n\nCombined with secure boot, the device also refuses to run unsigned code at start-up.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "OTA Updates",
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A correctly signed firmware update is interrupted by a power failure during installation. The device should recover to a known working version rather than remain unusable. Which OTA capability BEST addresses this requirement?",
+    "options": [
+      {
+        "text": "Authentication support, allowing the previous firmware identity to be verified",
+        "hint": "Authentication proves who sent the firmware. It cannot restore a half-written installation."
+      },
+      {
+        "text": "Encryption support, allowing the previous firmware transfer to remain confidential",
+        "hint": "Confidentiality of the transfer has nothing to do with recovering from a failed install."
+      },
+      {
+        "text": "Rollback support, allowing the previous working firmware to be restored",
+        "hint": "Correct. With rollback (often A/B dual partitions), the bootloader falls back to the last good image if the new one fails to install or boot."
+      },
+      {
+        "text": "Authorization support, allowing the previous firmware permissions to be restored",
+        "hint": "Permissions are not the issue — the device cannot boot. Authorization does not repair a broken image."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The update was genuine; the problem is a half-installed image. What gets the device back to a working state?",
+    "explanation": "Reliable OTA updates assume things will go wrong mid-update. Common designs:\n• A/B (dual-bank) partitions: the new image is written to the inactive slot while the device keeps running the current one. The bootloader switches only after the image is verified, and reverts if the new image fails to boot.\n• Recovery partition: a minimal image that can re-download firmware.\n• Health checks/watchdog: if the new firmware doesn't confirm it is healthy, the bootloader rolls back automatically.\n\nThe result: a power cut mid-update leaves a working device, not a \"bricked\" one.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "OTA Updates",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A factory records millions of timestamped vibration measurements. Engineers frequently query readings by device and time range and retain the measurements for later analysis. Which storage technology is MOST appropriate?",
+    "options": [
+      {
+        "text": "Time-series database optimized around timestamped measurements",
+        "hint": "Correct. Time-series databases (e.g. InfluxDB, TimescaleDB) are built for high-rate timestamped writes, time-range queries, compression and downsampling."
+      },
+      {
+        "text": "Relational transaction system optimized around firmware updates",
+        "hint": "Relational transaction (OLTP) systems are built for business transactions, not millions of time-ordered sensor writes — and firmware updates are irrelevant here."
+      },
+      {
+        "text": "MQTT retained-message store optimized around historical measurements",
+        "hint": "A retained message keeps only the last message per topic. It is not a historical store and cannot answer time-range queries."
+      },
+      {
+        "text": "Device configuration store optimized around long-term sensor analytics",
+        "hint": "A configuration store holds device settings, not millions of measurements."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The data is timestamped and queried by time range. Which option is designed around exactly that?",
+    "explanation": "IoT telemetry is mostly append-only data points of (device, metric, timestamp, value). Time-series databases are optimised for this:\n• very high write throughput;\n• indexes organised by time (and tags such as device ID), so \"device X between 10:00 and 11:00\" is fast;\n• strong compression of similar consecutive values;\n• retention policies and downsampling (keep raw data 30 days, hourly averages for years);\n• built-in time functions: windows, moving averages, rates.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A factory needs immediate detection of dangerous temperature changes and also produces a monthly report from accumulated historical readings. Which processing combination is most appropriate?",
+    "options": [
+      {
+        "text": "Stream processing for immediate detection and batch processing for monthly reporting",
+        "hint": "Correct. Streams handle each reading as it arrives, for instant alerts; batch jobs crunch a complete month of stored data for the report."
+      },
+      {
+        "text": "Batch processing for immediate detection and stream processing for monthly reporting",
+        "hint": "The roles are reversed. Batch jobs run on a schedule over stored data, far too late to catch a dangerous change in time."
+      },
+      {
+        "text": "Stream processing for monthly reporting and batch processing for immediate detection",
+        "hint": "Also reversed: a monthly report has no real-time need, and batch processing cannot detect danger immediately."
+      },
+      {
+        "text": "Batch processing for both immediate detection and continuous event processing",
+        "hint": "Batch processing waits for data to accumulate, so it cannot deliver immediate detection or continuous event processing."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "One task needs an answer in seconds; the other needs the whole month's data.",
+    "explanation": "Two complementary processing styles:\n• Stream processing: processes events continuously as they arrive, with low latency. Used for alerts, anomaly detection, live dashboards. Tools: Kafka Streams, Flink, Azure Stream Analytics.\n• Batch processing: processes a large bounded dataset at intervals. Used for reports, billing, model training, historical analytics. Tools: Spark, Hadoop, SQL jobs.\n\nMany IoT platforms run both side by side (the lambda/kappa architectures): a stream path for now, a batch path for history.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A smart factory introduces local gateways between its sensors and cloud infrastructure. The gateways aggregate measurements and perform local analytics before forwarding selected information. Compared with sending everything directly to the cloud, which trade-off is MOST accurate?\n\nLower ____",
+    "options": [
+      {
+        "text": "latency and bandwidth use, but greater local infrastructure complexity",
+        "hint": "Correct. Local processing responds faster and sends less data upstream, but you now have to deploy, power, secure and maintain gateways on site."
+      },
+      {
+        "text": "latency and infrastructure complexity, but greater bandwidth use",
+        "hint": "Latency does drop, but local gateways add infrastructure complexity, and aggregation reduces bandwidth use rather than increasing it."
+      },
+      {
+        "text": "bandwidth use and infrastructure complexity, but greater local latency",
+        "hint": "Bandwidth drops, but complexity goes up, and local processing reduces latency rather than increasing it."
+      },
+      {
+        "text": "infrastructure cost and bandwidth use, but greater cloud dependency",
+        "hint": "Gateways add infrastructure cost, and processing locally reduces dependence on the cloud rather than increasing it."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Two things improve with local gateways; one new burden appears. What do you now have to look after on the factory floor?",
+    "explanation": "Adding a fog/gateway layer is a classic trade-off:\nBenefits:\n• lower latency — decisions are made locally;\n• lower bandwidth and cloud cost — only aggregated or selected data goes upstream;\n• better resilience — local operation continues during Internet outages;\n• privacy — raw data can stay on site.\nCosts:\n• more local infrastructure to buy, deploy, power, secure, patch and monitor;\n• a distributed system that is harder to manage than a purely cloud-based one.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The University of Cape Coast plans to deploy an IoT system across lecture halls and laboratories. Sensors measure temperature, humidity, light intensity, and occupancy. Some devices also control lights and ventilation systems.\n\nRequirements:\n• Lights and ventilation must respond quickly to local conditions.\n• Several buildings must send summarised data for campus-wide monitoring.\n• Historical sensor data must be retained for long-term analysis.\n• Network connectivity may occasionally be unreliable.\n• Administrators must remotely monitor devices and issue control commands.\n• Unauthorised users must not control campus devices.\n\nAs the IoT system architect:\n\n(21a) Propose an appropriate Edge–Fog–Cloud architecture. For each layer, identify the major processing or storage responsibilities you would assign. Justify how your design meets latency, bandwidth, resilience, and long-term analytics requirements.",
+    "answer": "Edge layer — sensors, actuators and room controllers in each lecture hall and lab:\n• Read temperature, humidity, light and occupancy.\n• Run local control rules immediately, e.g. switch lights off when a room is empty, start ventilation when temperature or humidity passes a threshold.\n• Filter noise and report on change or at intervals; buffer briefly if the link drops.\n\nFog layer — a gateway/local server in each building:\n• Connect devices (e.g. ZigBee/BLE/Wi-Fi) and translate protocols to IP/MQTT; host the building's MQTT broker.\n• Aggregate room readings into building summaries (averages, occupancy totals, alarms) and detect building-wide events.\n• Store-and-forward: cache data and keep running local rules while the Internet link is down, then sync when it returns.\n• Enforce local security: authenticate devices and check commands before passing them on.\n\nCloud layer — the university's central platform:\n• Campus-wide dashboards; remote monitoring and command issuing for administrators.\n• Long-term storage (time-series database / data lake) and analytics: energy use, occupancy trends, predictive maintenance.\n• Device management: identities, access control, firmware (OTA) updates.\n\nJustification:\n• Latency — lights and ventilation are controlled at the edge/fog, so they respond in milliseconds without a round trip to the cloud.\n• Bandwidth — only summarised building data goes to the cloud, not every raw sample.\n• Resilience — edge and fog keep operating and buffering during connectivity outages.\n• Long-term analytics — the cloud keeps the full history and has the compute to analyse it.",
+    "explanation": "Marking guide (6 marks):\n• Edge responsibilities, e.g. sensing and immediate local control — 1 mark.\n• Fog responsibilities, e.g. aggregation/summarising per building, protocol translation, buffering — 1 mark.\n• Cloud responsibilities, e.g. long-term storage, analytics, remote monitoring/control — 1 mark.\n• Justification against latency, bandwidth, resilience and long-term analytics — up to 3 marks (about 0.75 each).\nAccept equivalent wording and reasonable alternatives (e.g. a campus-level fog server instead of one per building). Answers that only list the layers without assigning responsibilities or justifying them earn at most 2 marks.\n\nLesson: Edge–Fog–Cloud is about putting each task where it fits — time-critical control near the device, aggregation and resilience close to the site, history and global views in the cloud.",
+    "hint": "Give each layer (edge, fog, cloud) at least two concrete jobs, then tie each of the four requirements — latency, bandwidth, resilience, long-term analytics — to the layer that satisfies it.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The University of Cape Coast plans to deploy an IoT system across lecture halls and laboratories. Sensors measure temperature, humidity, light intensity, and occupancy. Some devices also control lights and ventilation systems.\n\nRequirements:\n• Lights and ventilation must respond quickly to local conditions.\n• Several buildings must send summarised data for campus-wide monitoring.\n• Historical sensor data must be retained for long-term analysis.\n• Network connectivity may occasionally be unreliable.\n• Administrators must remotely monitor devices and issue control commands.\n• Unauthorised users must not control campus devices.\n\nAs the IoT system architect:\n\n(21b) Recommend an appropriate communication approach and application protocol for transmitting sensor readings and control commands. Explain why your choice is suitable and discuss one important trade-off.",
+    "answer": "Communication approach: Device-to-Gateway. Sensors and actuators connect over a local link (Wi-Fi, ZigBee or BLE) to a building gateway, which forwards to the cloud.\n\nApplication protocol: MQTT (publish/subscribe through a broker, over TCP, secured with TLS).\n\nWhy it suits the campus:\n• Lightweight: a small binary header and low overhead, good for many small sensor readings.\n• Publish/subscribe decouples devices from dashboards: sensors publish readings, and any number of applications can subscribe.\n• The same broker carries commands: actuators subscribe to their command topics, and administrators publish to them.\n• Handles unreliable networks: QoS levels, persistent sessions, retained messages for current state, and Last Will to flag offline devices.\n• Security: TLS encryption, per-device authentication and topic ACLs.\n\nTrade-off: MQTT depends on a broker. The broker is a single point of failure and an attack target, so it must be made highly available and secured. MQTT also needs a persistent TCP connection, which costs more energy than UDP-based CoAP on very constrained devices, and it is not RESTful, so web integration needs a bridge or API.",
+    "explanation": "Marking guide (4 marks):\n• A suitable communication model/approach identified (device-to-gateway, or device-to-cloud via a gateway) — 1 mark.\n• A suitable application protocol named (MQTT preferred; CoAP to the gateway with MQTT/HTTP upstream is also acceptable) — 1 mark.\n• Explanation of suitability tied to the scenario, e.g. lightweight, publish/subscribe, QoS, unreliable links, commands — 1 mark.\n• One valid trade-off clearly discussed, e.g. broker dependency or single point of failure, TCP overhead versus CoAP, web-integration bridge, security configuration effort — 1 mark.",
+    "hint": "Name a communication model (e.g. device-to-gateway) and a protocol (e.g. MQTT), give reasons tied to the campus requirements, then one honest downside.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "Communication Models",
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The University of Cape Coast plans to deploy an IoT system across lecture halls and laboratories. Sensors measure temperature, humidity, light intensity, and occupancy. Some devices also control lights and ventilation systems.\n\nRequirements:\n• Lights and ventilation must respond quickly to local conditions.\n• Several buildings must send summarised data for campus-wide monitoring.\n• Historical sensor data must be retained for long-term analysis.\n• Network connectivity may occasionally be unreliable.\n• Administrators must remotely monitor devices and issue control commands.\n• Unauthorised users must not control campus devices.\n\nAs the IoT system architect:\n\n(21c) Design an MQTT topic hierarchy that supports multiple buildings, rooms, sensor measurements, and actuator commands. Give at least four example topics and propose one wildcard subscription for a campus-wide monitoring application.",
+    "answer": "Hierarchy (general → specific):\nucc/{building}/{room}/sensors/{measurement}\nucc/{building}/{room}/commands/{device}\nucc/{building}/{room}/status   (online/offline, e.g. via Last Will)\n\nExample topics:\n• ucc/science-block/lab-2/sensors/temperature\n• ucc/science-block/lab-2/sensors/humidity\n• ucc/main-hall/lt-1/sensors/occupancy\n• ucc/main-hall/lt-1/sensors/light\n• ucc/main-hall/lt-1/commands/lights          (payload: ON / OFF)\n• ucc/science-block/lab-2/commands/ventilation (payload: ON / OFF / speed)\n\nCampus-wide monitoring subscription:\nucc/+/+/sensors/#\n\"+\" matches any building and any room; \"#\" matches every measurement below sensors. The application receives all readings across campus but no actuator commands.\n(Alternatively ucc/+/+/sensors/temperature for temperature only.)\n\nDesign notes: keeping sensors and commands in separate branches lets ACLs allow devices to publish only their own readings and subscribe only to their own command topic. Use lowercase, no spaces and no leading slash.",
+    "explanation": "Marking guide (4 marks):\n• A clear, consistent hierarchy that includes building and room levels — 1 mark.\n• Separate branches (or clearly distinguishable topics) for measurements and actuator commands — 1 mark.\n• At least four valid example topics consistent with the hierarchy — 1 mark.\n• One valid wildcard subscription for campus-wide monitoring, correctly using + and/or # (# only as the last level) — 1 mark.\nAny sensible naming (e.g. campus/building/floor/room/...) is acceptable. A wildcard with # in the middle (e.g. ucc/#/temperature) is invalid and earns no mark for that part.",
+    "hint": "Go from general to specific: campus → building → room → sensors or commands → measurement or device. Then use + or # to cover every building.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "MQTT",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The University of Cape Coast plans to deploy an IoT system across lecture halls and laboratories. Sensors measure temperature, humidity, light intensity, and occupancy. Some devices also control lights and ventilation systems.\n\nRequirements:\n• Lights and ventilation must respond quickly to local conditions.\n• Several buildings must send summarised data for campus-wide monitoring.\n• Historical sensor data must be retained for long-term analysis.\n• Network connectivity may occasionally be unreliable.\n• Administrators must remotely monitor devices and issue control commands.\n• Unauthorised users must not control campus devices.\n\nAs the IoT system architect:\n\n(21d) A ventilation command must be delivered reliably, while losing an occasional temperature reading is acceptable. Recommend an appropriate MQTT QoS level for each. Explain why using the same QoS level for all messages may be inefficient.",
+    "answer": "Ventilation command: QoS 1 (at least once). It is acknowledged and retried until delivered. Make the command idempotent (e.g. \"set ventilation ON\" rather than \"toggle\"), so a duplicate has no harmful effect. If a duplicate could cause a problem, use QoS 2 (exactly once).\n\nTemperature reading: QoS 0 (at most once). Readings arrive frequently, and the next one replaces a lost one, so no acknowledgement is needed.\n\nWhy one QoS for everything is inefficient:\n• QoS 2 for all messages adds a four-packet handshake (PUBLISH, PUBREC, PUBREL, PUBCOMP) to every reading. That multiplies traffic, latency, battery drain and broker state across thousands of messages that don't need it.\n• QoS 0 for all messages risks losing important commands.\nChoosing QoS per message type gives reliability where it matters and efficiency everywhere else.",
+    "explanation": "Marking guide (3 marks):\n• Appropriate QoS for the ventilation command — QoS 1 or QoS 2, with a reason (reliable/acknowledged delivery) — 1 mark.\n• Appropriate QoS for temperature readings — QoS 0, with a reason (loss acceptable, frequent updates) — 1 mark.\n• Explanation of inefficiency of a single QoS level, e.g. extra handshakes, bandwidth, battery, latency, broker load, or the risk of losing commands at QoS 0 — 1 mark.",
+    "hint": "Match QoS to the cost of losing (or duplicating) each kind of message, then think about what a single high level would cost across thousands of readings.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "MQTT QoS",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The University of Cape Coast plans to deploy an IoT system across lecture halls and laboratories. Sensors measure temperature, humidity, light intensity, and occupancy. Some devices also control lights and ventilation systems.\n\nRequirements:\n• Lights and ventilation must respond quickly to local conditions.\n• Several buildings must send summarised data for campus-wide monitoring.\n• Historical sensor data must be retained for long-term analysis.\n• Network connectivity may occasionally be unreliable.\n• Administrators must remotely monitor devices and issue control commands.\n• Unauthorised users must not control campus devices.\n\nAs the IoT system architect:\n\n(21e) Identify three security controls that should be incorporated into the system. For each control explain the specific threat or security problem it addresses.",
+    "answer": "1. Strong per-device authentication (unique credentials or X.509 client certificates; MFA for administrator accounts).\n   Threat: impersonation — rogue devices or attackers connecting to the broker and injecting false readings or commands.\n\n2. Authorization with topic-level access control lists (role-based access, least privilege), e.g. only administrators and controllers may publish to ucc/+/+/commands/#, and each sensor may publish only to its own topics.\n   Threat: unauthorised users or compromised sensors controlling lights and ventilation — directly addresses the \"unauthorised users must not control campus devices\" requirement.\n\n3. Encryption in transit with TLS (MQTT over port 8883; HTTPS for the dashboard).\n   Threat: eavesdropping and tampering — credentials, readings and commands captured or modified on the network.\n\nOther acceptable controls: signed firmware/secure OTA updates (malicious firmware), network segmentation/VLANs for IoT devices (lateral movement from a compromised device), audit logging and monitoring (detecting misuse), secure boot, rate limiting.",
+    "explanation": "Marking guide (3 marks): 1 mark for each of three distinct, relevant security controls, each paired with the specific threat it addresses. A control listed without its threat earns half a mark. Duplicates (e.g. \"passwords\" and \"usernames\" as two controls) count once.\nAccept any valid controls such as authentication, authorization/ACLs, TLS encryption, signed OTA updates, network segmentation, secure boot, logging/monitoring, physical tamper protection.",
+    "hint": "Think of three different problems: someone pretending to be a device, someone listening on the network, and someone sending commands they shouldn't.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company is developing a remote agricultural monitoring system. Hundreds of battery-powered field devices collect soil and environmental measurements. Some devices are highly resource-constrained, Internet connectivity is intermittent, and a local gateway is available. Management also requires the collected information to be integrated later with an existing web-based farm-management platform.\n\nTwo engineers make the following proposals:\n• Engineer A: \"Every sensor should communicate directly with the cloud using HTTP/HTTPS.\"\n• Engineer B: \"The communication architecture and protocol should depend on device capability, network conditions, and application requirements.\"\n\nAs an IoT system designer:\n\n(22a) Critically evaluate the two proposals. Determine which is more appropriate for this deployment. Justify your answer using power, bandwidth, reliability, and integration constraints.",
+    "answer": "Engineer B's proposal is more appropriate.\n\nPower: With Engineer A's approach, every sensor must run a TCP/IP + TLS + HTTP stack, perform handshakes and keep its radio on longer. Verbose HTTP requests drain batteries quickly, and highly constrained devices may not have the memory or CPU for HTTPS at all. Engineer B lets constrained devices use low-power links and lightweight protocols (e.g. CoAP or MQTT-SN to the gateway).\n\nBandwidth: HTTP headers can be hundreds of bytes around a payload of a few bytes. Across hundreds of devices reporting regularly, this wastes scarce rural bandwidth. Under B, the gateway can aggregate and compress before sending upstream.\n\nReliability: Connectivity is intermittent. Under A, a device that cannot reach the cloud loses data or must buffer it itself. Under B, the local gateway can store-and-forward and keep local functions running during outages.\n\nIntegration: A's only real advantage is that HTTP integrates easily with the web-based farm-management platform. B still meets this need: the gateway or cloud can expose HTTPS/REST APIs to the platform, so device-level efficiency does not prevent web integration.\n\nConclusion: A \"one protocol everywhere\" design ignores device constraints. B's context-driven design — lightweight protocols to a gateway, then standard web protocols upstream — balances power, bandwidth, reliability and integration.",
+    "explanation": "Marking guide (4 marks): 1 mark for each constraint evaluated with reasoning:\n• Power — HTTPS/TCP/TLS overhead drains batteries; constrained devices may not support it.\n• Bandwidth — HTTP header overhead for small payloads across hundreds of devices.\n• Reliability — intermittent connectivity breaks direct-to-cloud; the gateway enables buffering/store-and-forward.\n• Integration — HTTP's integration benefit acknowledged, but B can still integrate via the gateway/cloud (REST APIs).\nA clear conclusion that Engineer B is more appropriate is expected. Choosing A without strong justification against these constraints earns at most 1 mark.",
+    "hint": "Test Engineer A's idea against each constraint in turn: what does HTTPS cost a battery device, what happens when the Internet drops, and how could Engineer B still meet the integration need?",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "Communication Models",
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company is developing a remote agricultural monitoring system. Hundreds of battery-powered field devices collect soil and environmental measurements. Some devices are highly resource-constrained, Internet connectivity is intermittent, and a local gateway is available. Management also requires the collected information to be integrated later with an existing web-based farm-management platform.\n\nTwo engineers make the following proposals:\n• Engineer A: \"Every sensor should communicate directly with the cloud using HTTP/HTTPS.\"\n• Engineer B: \"The communication architecture and protocol should depend on device capability, network conditions, and application requirements.\"\n\nAs an IoT system designer:\n\n(22b) Recommend a suitable communication model for the constrained field devices. Justify your choice.",
+    "answer": "Device-to-Gateway model.\n\nThe constrained field devices communicate with the local gateway using a low-power local technology (e.g. LoRa, ZigBee or BLE) and a lightweight protocol (e.g. CoAP or MQTT-SN). The gateway translates protocols and forwards data to the cloud using MQTT or HTTPS.\n\nJustification:\n• Devices avoid heavy TCP/TLS/HTTP stacks and long-range Internet links, so they save power.\n• The gateway buffers data while Internet connectivity is down (store-and-forward), aggregates readings to save bandwidth, and adds security.\n• The gateway or cloud handles integration with the web-based farm-management platform.",
+    "explanation": "Marking guide (2 marks):\n• Device-to-Gateway model identified — 1 mark.\n• Justification tied to the scenario (power saving on constrained devices, intermittent connectivity/buffering, protocol translation, integration) — 1 mark.",
+    "hint": "A local gateway is available and devices are constrained. Which of the four communication models uses that gateway?",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Communication Models",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company is developing a remote agricultural monitoring system. Hundreds of battery-powered field devices collect soil and environmental measurements. Some devices are highly resource-constrained, Internet connectivity is intermittent, and a local gateway is available. Management also requires the collected information to be integrated later with an existing web-based farm-management platform.\n\nTwo engineers make the following proposals:\n• Engineer A: \"Every sensor should communicate directly with the cloud using HTTP/HTTPS.\"\n• Engineer B: \"The communication architecture and protocol should depend on device capability, network conditions, and application requirements.\"\n\nAs an IoT system designer:\n\n(22c) Compare two application-layer protocols that could be considered for the system, based on resource usage, transport mechanism, communication model, reliability and integration requirements.",
+    "answer": "MQTT versus CoAP:\n\nResource usage:\n• MQTT — small fixed header (2 bytes), but needs a persistent TCP connection plus keep-alives, and usually TLS.\n• CoAP — 4-byte binary header over UDP with no connection state; the lightest option for sleepy, battery-powered nodes.\n\nTransport mechanism:\n• MQTT — TCP (secured with TLS).\n• CoAP — UDP (secured with DTLS).\n\nCommunication model:\n• MQTT — publish/subscribe through a broker; many-to-many and decoupled.\n• CoAP — request/response (REST: GET, POST, PUT, DELETE) client–server, with Observe for notifications.\n\nReliability:\n• MQTT — QoS 0/1/2 (up to exactly-once), TCP retransmission, persistent sessions, retained messages, Last Will.\n• CoAP — Confirmable messages with ACK and retransmission, or Non-confirmable; no exactly-once level.\n\nIntegration:\n• MQTT — widely supported by IoT cloud platforms, but needs a broker and a bridge to reach a REST web platform.\n• CoAP — maps directly onto HTTP REST, so a gateway proxy can expose devices to the web farm-management platform.\n\nRecommendation: CoAP (or MQTT-SN) from the constrained field devices to the gateway; MQTT or HTTPS from the gateway to the cloud; REST/HTTPS APIs for the farm-management platform.\n\n(HTTP/HTTPS is also an acceptable comparison: text headers over TCP, request/response, reliability via TCP, excellent web integration but heavy for constrained devices.)",
+    "explanation": "Marking guide (4 marks): Two suitable protocols compared (MQTT, CoAP, HTTP/HTTPS, AMQP or MQTT-SN). Award up to 4 marks across the five criteria — resource usage, transport, communication model, reliability, integration — about 0.8 marks per criterion where both protocols are correctly contrasted. Listing facts about only one protocol earns at most half the credit for a criterion.",
+    "hint": "Pick two protocols (MQTT and CoAP are a good pair) and compare them point by point on each of the five criteria named in the question.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "IoT Protocols",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An industrial plant has 500 machines, each producing temperature and vibration readings several times per second. Currently, all raw measurements are transmitted directly to the cloud.\n\nManagement reports three problems:\n• excessive network traffic;\n• delayed detection of dangerous machine conditions; and\n• difficulty processing measurements that sometimes arrive late or out of order.\n\nThe company still needs historical data for predictive analysis and monthly performance reports.\n\n(23a) Explain why the current cloud-only approach may be unsuitable for all of the plant's processing requirements.",
+    "answer": "• Data volume: 500 machines × 2 sensors × several readings per second means thousands of messages every second, continuously. Sending all raw data to the cloud causes the excessive network traffic and high bandwidth and cloud costs.\n• Latency: dangerous conditions are detected only after the data crosses the Internet, is queued and is processed in the cloud. That round trip delays the response, and an outage stops detection altogether — unacceptable for safety.\n• Ordering: wide-area network delay and jitter make readings arrive late or out of order, making time-based analysis harder.\nThe cloud is still right for historical storage, predictive analysis and monthly reports, but not for every requirement — especially real-time safety detection.",
+    "explanation": "Marking guide (2 marks): 1 mark each for any two valid reasons — high data volume/bandwidth, latency delaying detection of dangerous conditions, dependence on Internet connectivity, network delay causing late/out-of-order data, cloud cost. Recognising that the cloud remains suitable for historical work is good practice but not required.",
+    "hint": "Do the arithmetic on the data volume, then think about how far a dangerous reading travels before anyone acts on it.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An industrial plant has 500 machines, each producing temperature and vibration readings several times per second. Currently, all raw measurements are transmitted directly to the cloud.\n\nManagement reports three problems:\n• excessive network traffic;\n• delayed detection of dangerous machine conditions; and\n• difficulty processing measurements that sometimes arrive late or out of order.\n\nThe company still needs historical data for predictive analysis and monthly performance reports.\n\n(23b) Redesign the data-processing strategy using appropriate combinations of edge, fog and cloud processing. State what should be processed at each selected level and justify your decisions.",
+    "answer": "Edge (at or on each machine):\n• Sample temperature and vibration; filter noise; timestamp each reading at the source.\n• Apply threshold and anomaly rules for dangerous conditions and trigger an alarm or shutdown immediately.\n• Compute features (e.g. RMS vibration, peak, average temperature) instead of sending every raw sample.\nJustification: removes network delay from safety decisions and cuts traffic at the source.\n\nFog (plant-level gateway or server):\n• Collect data from all 500 machines; run stream processing across machines (correlations, plant-wide alarms, live dashboards).\n• Handle late and out-of-order events using event-time timestamps and windowing.\n• Aggregate (e.g. per-minute summaries) and buffer data if the cloud link fails.\nJustification: low latency within the plant, solves the ordering problem close to the source, and reduces what is sent to the cloud.\n\nCloud:\n• Store aggregated data and selected raw data (e.g. around anomalies) in a time-series database or data lake.\n• Batch analytics: predictive-maintenance model training and monthly performance reports.\n• Push updated models and thresholds back down to the edge.\nJustification: scalable storage and compute for history and heavy analysis, which are not time-critical.",
+    "explanation": "Marking guide (4 marks):\n• Edge processing stated and justified (immediate detection/filtering) — about 1.5 marks.\n• Fog processing stated and justified (aggregation, stream processing, ordering, buffering) — about 1.5 marks.\n• Cloud processing stated and justified (historical storage, predictive analysis, monthly reports) — 1 mark.\nAnswers using only two levels (e.g. edge + cloud) can still score well if the work is allocated sensibly and justified against the three problems.",
+    "hint": "For each of the three reported problems, decide which level fixes it, and keep the cloud for what still needs it.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "Edge, Fog & Cloud",
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An industrial plant has 500 machines, each producing temperature and vibration readings several times per second. Currently, all raw measurements are transmitted directly to the cloud.\n\nManagement reports three problems:\n• excessive network traffic;\n• delayed detection of dangerous machine conditions; and\n• difficulty processing measurements that sometimes arrive late or out of order.\n\nThe company still needs historical data for predictive analysis and monthly performance reports.\n\n(23c) Determine whether stream processing or batch processing is more appropriate for:\n(i) detecting a dangerous vibration condition; and\n(ii) generating a monthly machine-performance report.\nJustify both decisions.",
+    "answer": "(i) Detecting a dangerous vibration condition — stream processing. Each reading is evaluated continuously as it arrives, with low latency, so an alarm or shutdown happens within milliseconds to seconds. Waiting to collect a batch would delay detection and risk damage or injury.\n\n(ii) Monthly machine-performance report — batch processing. The report needs the complete, bounded dataset for the month; it is not time-critical and can run on a schedule (e.g. overnight on the 1st), processing large volumes efficiently and accurately, including late-arriving data.",
+    "explanation": "Marking guide (2 marks):\n• (i) Stream processing with a reason (real-time/low-latency detection) — 1 mark.\n• (ii) Batch processing with a reason (complete historical dataset, not time-critical, scheduled) — 1 mark.\nA correct choice without justification earns half a mark.",
+    "hint": "One task needs a reaction within seconds; the other needs a complete month of data.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An industrial plant has 500 machines, each producing temperature and vibration readings several times per second. Currently, all raw measurements are transmitted directly to the cloud.\n\nManagement reports three problems:\n• excessive network traffic;\n• delayed detection of dangerous machine conditions; and\n• difficulty processing measurements that sometimes arrive late or out of order.\n\nThe company still needs historical data for predictive analysis and monthly performance reports.\n\n(23d) Explain how windowing could help the system analyse continuously arriving sensor measurements, particularly when some events arrive late or out of order.",
+    "answer": "Windowing divides an unbounded stream into finite chunks so aggregates can be computed over them, e.g. average vibration per 10-second window or maximum temperature per minute. Types include tumbling windows (fixed, non-overlapping), sliding/hopping windows (overlapping, e.g. the last 30 s every 5 s) and session windows.\n\nFor late or out-of-order data:\n• Windows are based on event time (the timestamp from the sensor), not arrival time, so a delayed reading is placed in the window when it actually happened.\n• Watermarks or an allowed-lateness period keep a window open for a short grace period, so late events are still included and results updated. Events that arrive after that can be dropped or sent to a side output for correction.\nThis gives correct, consistent results while still producing timely output.",
+    "explanation": "Marking guide (2 marks):\n• What windowing is and how it helps analysis of continuous streams (finite chunks, aggregation, window types) — 1 mark.\n• How it handles late/out-of-order events (event-time processing, watermarks, allowed lateness/grace period) — 1 mark.",
+    "hint": "A stream never ends, so how do you compute an average? Then: which timestamp decides the window a reading belongs to?",
+    "difficulty": "hard",
+    "marks": 2,
+    "tags": [
+      "Data Processing",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company has deployed 5,000 IoT controllers at remote sites. During a security investigation, the following weaknesses are discovered:\n• all controllers use the same username and password;\n• MQTT messages travel across the Internet without encryption;\n• authenticated controllers can publish to any MQTT topic;\n• firmware updates are downloaded remotely but are installed without verifying their authenticity; and\n• a failed firmware update can leave a controller unable to boot.\n\nThe engineering manager argues: \"The devices already require a username and password, so the system is sufficiently secure.\"\n\nAs the security consultant:\n\n(24a) Critically evaluate the manager's statement by distinguishing authentication from authorization. Apply both concepts directly to the scenario.",
+    "answer": "Authentication is verifying identity (who are you?). Authorization is deciding what an authenticated identity is permitted to do (what may you do?).\n\nThe manager's statement is wrong because it covers only authentication, and even that is weak:\n• Authentication: every controller shares the same username and password, so the broker can only tell that \"a controller\" connected, not which one. Credentials also travel unencrypted, so they can be sniffed. This is not meaningful device identity.\n• Authorization: none is enforced. Any authenticated controller can publish to any MQTT topic, so a single compromised controller (or anyone with the shared password) can send commands to other sites or inject false data.\n\nA secure system needs both: unique per-device authentication, and topic-level authorization (ACLs, least privilege) restricting each controller to its own topics. A username and password alone is therefore not \"sufficiently secure\".",
+    "explanation": "Marking guide (3 marks):\n• Correct distinction between authentication (identity) and authorization (permissions) — 1 mark.\n• Authentication applied to the scenario (shared credentials provide no unique identity; plaintext credentials) — 1 mark.\n• Authorization applied to the scenario (controllers can publish to any topic; need ACLs/least privilege) and a conclusion that the manager's claim is incorrect — 1 mark.",
+    "hint": "Define each term, then ask: does the shared password really prove which controller is connecting, and what stops a logged-in controller publishing anywhere?",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company has deployed 5,000 IoT controllers at remote sites. During a security investigation, the following weaknesses are discovered:\n• all controllers use the same username and password;\n• MQTT messages travel across the Internet without encryption;\n• authenticated controllers can publish to any MQTT topic;\n• firmware updates are downloaded remotely but are installed without verifying their authenticity; and\n• a failed firmware update can leave a controller unable to boot.\n\nThe engineering manager argues: \"The devices already require a username and password, so the system is sufficiently secure.\"\n\nAs the security consultant:\n\n(24b) Explain the security risk created by using the same credentials on all 5,000 devices, and recommend an improved approach.",
+    "answer": "Risk: The credential is a single point of compromise. If one controller is captured, has its firmware dumped, or has its traffic sniffed (MQTT is unencrypted here), the attacker gets credentials that work for all 5,000 devices. They can then impersonate any controller and inject false data or commands. The compromised device cannot be revoked without reconfiguring the whole fleet, and logs cannot distinguish devices, so there is no accountability.\n\nImproved approach: Give each device a unique identity — ideally an X.509 client certificate used for mutual TLS (or at least unique per-device keys/passwords). Provision it at manufacture, store it in secure hardware (secure element or TPM), and enable individual revocation and rotation. Bind each identity to its own topic permissions.",
+    "explanation": "Marking guide (2 marks):\n• Risk explained (one compromise exposes all devices / fleet-wide impersonation / cannot revoke individually) — 1 mark.\n• Improved approach (unique per-device credentials, preferably certificates/mutual TLS, secure storage, individual revocation) — 1 mark.",
+    "hint": "Think about what one physically captured controller gives an attacker, and how you would cut off just that one device.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company has deployed 5,000 IoT controllers at remote sites. During a security investigation, the following weaknesses are discovered:\n• all controllers use the same username and password;\n• MQTT messages travel across the Internet without encryption;\n• authenticated controllers can publish to any MQTT topic;\n• firmware updates are downloaded remotely but are installed without verifying their authenticity; and\n• a failed firmware update can leave a controller unable to boot.\n\nThe engineering manager argues: \"The devices already require a username and password, so the system is sufficiently secure.\"\n\nAs the security consultant:\n\n(24c) Recommend controls for protecting MQTT communication against eavesdropping and unauthorized topic access. Explain the purpose of each control.",
+    "answer": "1. TLS encryption — run MQTT over TLS (port 8883), ideally with mutual TLS. Purpose: encrypts all traffic, including credentials and payloads, so eavesdroppers on the Internet cannot read or tamper with messages, and lets clients verify they are connected to the genuine broker.\n\n2. Topic-level authorization with access control lists (ACLs) on the broker. Purpose: enforces least privilege — each controller may publish only to its own topics (e.g. sites/{deviceId}/telemetry) and subscribe only to its own command topic (sites/{deviceId}/commands). This prevents a controller or attacker from publishing or reading other devices' topics.",
+    "explanation": "Marking guide (2 marks):\n• TLS (or equivalent encryption) with its purpose — preventing eavesdropping/tampering — 1 mark.\n• ACLs/topic authorization with its purpose — preventing unauthorized topic publish/subscribe — 1 mark.",
+    "hint": "Two threats, two controls: one hides traffic, one restricts topics.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "MQTT",
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A company has deployed 5,000 IoT controllers at remote sites. During a security investigation, the following weaknesses are discovered:\n• all controllers use the same username and password;\n• MQTT messages travel across the Internet without encryption;\n• authenticated controllers can publish to any MQTT topic;\n• firmware updates are downloaded remotely but are installed without verifying their authenticity; and\n• a failed firmware update can leave a controller unable to boot.\n\nThe engineering manager argues: \"The devices already require a username and password, so the system is sufficiently secure.\"\n\nAs the security consultant:\n\n(24d) Redesign the firmware-update process to provide secure OTA updates. Identify three mechanisms that should be included and explain how each contributes to secure or reliable updating.",
+    "answer": "1. Code signing and signature verification (with secure boot). The vendor signs each firmware image with a private key; the controller verifies the signature and hash with the vendor's public key before installing, and secure boot verifies it again at start-up. This guarantees authenticity and integrity — malicious or altered images are rejected.\n\n2. Secure delivery over an authenticated, encrypted channel (HTTPS/TLS from a trusted update server), plus version checks with anti-rollback. This prevents tampering and eavesdropping in transit and stops attackers forcing a downgrade to an older, vulnerable version.\n\n3. Rollback with A/B (dual-bank) partitions. The new image is written to the inactive partition while the current firmware keeps running. The device switches only after verification and a successful boot health check; if installation or boot fails (e.g. power loss), the bootloader reverts to the previous working firmware. This keeps devices from being left unable to boot.\n\n(Also acceptable: staged/phased rollouts to a subset of devices first, update monitoring and reporting.)",
+    "explanation": "Marking guide (3 marks): 1 mark for each of three valid mechanisms with an explanation of how it contributes:\n• Firmware signing/verification or secure boot — authenticity and integrity.\n• Encrypted/authenticated delivery or anti-rollback version control — secure transport, preventing downgrade.\n• Rollback/A/B partitions or recovery image — reliability after a failed update.\nStaged rollouts and update monitoring are also acceptable. A mechanism named without explanation earns half a mark.",
+    "hint": "Cover authenticity (is this our firmware?), safe transport, and recovery (what if the install fails?).",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "OTA Updates",
+      "IoT Security",
+      "2025/26 Paper"
+    ]
+  }
+]

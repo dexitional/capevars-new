@@ -237,16 +237,16 @@ export function Lesson({ answer, explanation, title = "The lesson" }: { answer?:
   if (!answer && !explanation) return null;
   return (
     <div className="rounded-2xl border border-indigo-200 bg-linear-to-br from-indigo-50 to-white p-4">
-      <p className="text-xs font-black tracking-[0.15em] text-indigo-700 uppercase">{title}</p>
+      <p className="border-b border-indigo-100 pb-3 text-xs font-black tracking-[0.15em] text-indigo-700 uppercase">{title}</p>
       {answer && (
-        <div className="mt-2">
-          <p className="text-[11px] font-bold text-muted-foreground uppercase">Answer</p>
+        <div className="mt-4">
+          <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Answer</p>
           <TextBlock text={answer} className="text-sm font-semibold text-primary" />
         </div>
       )}
       {explanation && (
-        <div className="mt-2">
-          <p className="text-[11px] font-bold text-muted-foreground uppercase">Why</p>
+        <div className={answer ? "mt-5 border-t border-indigo-100 pt-4" : "mt-4"}>
+          <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Why</p>
           <TextBlock text={explanation} className="text-sm leading-relaxed text-primary/90" />
         </div>
       )}
