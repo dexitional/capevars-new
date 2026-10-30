@@ -8,9 +8,10 @@ import { ArrowLeft, ArrowRight, Brain, CheckCircle2, Eye, Lightbulb, Loader2, Ta
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import type { QbMark, QbPublicQuestion } from "#/lib/quizbank";
-import { Container, TextBlock } from "#/components/site/kit";
+import { Container } from "#/components/site/kit";
 import { Button } from "#/components/ui/button";
 import { LETTERS, Lesson, QuestionStem, SlideDown } from "./kit";
+import { RichText } from "./rich-text";
 import { DiscussionToggle } from "./discussion";
 
 type Reveal = { correctIndex: number | null; answer: string | null; explanation: string | null };
@@ -129,7 +130,7 @@ export function Studier({
           <QuestionStem q={q} number={index + 1} total={total} />
           {q.hint && (
             <p className="mt-4 flex items-start gap-2 rounded-xl bg-amber-50 px-3 py-2 text-sm text-amber-900">
-              <Lightbulb className="mt-0.5 size-4 shrink-0" /> {q.hint}
+              <Lightbulb className="mt-0.5 size-4 shrink-0" /> <RichText text={q.hint} inline />
             </p>
           )}
 
@@ -162,7 +163,7 @@ export function Studier({
                         {check.isPending && check.variables.optionIndex === i ? <Loader2 className="size-4 animate-spin" /> : LETTERS[i]}
                       </span>
                       <span className="flex-1 pt-1">
-                        <TextBlock text={o.text} className="text-[15px] text-primary" />
+                        <RichText text={o.text} className="text-[15px] text-primary" />
                         {o.imageUrl && <img src={o.imageUrl} alt="" className="mt-2 max-h-40 rounded-lg border" />}
                       </span>
                       {isRight && <CheckCircle2 className="mt-1 size-5 flex-none text-emerald-600" />}
@@ -178,7 +179,7 @@ export function Studier({
                         <Lightbulb className={cn("mt-0.5 size-4 shrink-0", isRight ? "text-emerald-600" : "text-red-500")} />
                         <span>
                           <strong>{isRight ? "Correct. " : "Not quite. "}</strong>
-                          {hint ?? (isRight ? "Well done." : "Think again about what the question is asking, then try another option.")}
+                          <RichText text={hint ?? (isRight ? "Well done." : "Think again about what the question is asking, then try another option.")} inline />
                         </span>
                       </div>
                     </SlideDown>

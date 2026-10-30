@@ -2,12 +2,15 @@
 // slide-down panel used for hints and lessons, and the written-answer box.
 import { useEffect, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { BookOpenCheck, Expand, Layers, Minimize2, Users } from "lucide-react";
+import { BookOpenCheck, Expand, Layers, Minimize2, Omega, Users } from "lucide-react";
 import { cn } from "#/lib/utils";
 import { asset } from "#/lib/asset";
 import { QB_DIFFICULTY, QB_LEVELS, QB_MAX_TEXT_ANSWER, mediaSrc } from "#/lib/quizbank";
 import type { QbDifficulty, QbMark, QbMedia, QbPublicQuestion } from "#/lib/quizbank";
-import { Img, TextBlock } from "#/components/site/kit";
+import { Img } from "#/components/site/kit";
+import { RichText } from "./rich-text";
+import { SymbolPad } from "./symbol-pad";
+import type { SymbolInsert } from "./symbol-pad";
 
 export interface QbCourseCard {
   id: number;
@@ -145,7 +148,7 @@ export function QuestionStem({ q, number, total }: { q: QbPublicQuestion; number
           {q.marks} mark{q.marks === 1 ? "" : "s"}
         </span>
       </div>
-      <TextBlock text={q.body} className="mt-3 text-lg leading-relaxed font-medium text-primary" />
+      <RichText text={q.body} className="mt-3 text-lg leading-relaxed font-medium text-primary" />
       {q.media.length > 0 && (
         <div className={cn("mt-4 grid gap-3", q.media.length > 1 && "sm:grid-cols-2")}>
           {q.media.map((m, i) => (
@@ -175,10 +178,39 @@ export function SlideDown({ open, children, className }: { open: boolean; childr
 
 const wordCount = (s: string) => (s.trim() ? s.trim().split(/\s+/).length : 0);
 
-// A roomy answer box that grows with the text and can expand to full screen.
-export function TextAnswer({ value, onChange, disabled, placeholder }: { value: string; onChange: (v: string) => void; disabled?: boolean; placeholder?: string }) {
+// A roomy answer box that grows with the text and can expand to full screen, with a
+// pad of maths and subject symbols (chosen from `subjects`) that type at the caret.
+export function TextAnswer({
+  value,
+  onChange,
+  disabled,
+  placeholder,
+  subjects,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+  disabled?: boolean;
+  placeholder?: string;
+  subjects?: Array<string>;
+}) {
   const [full, setFull] = useState(false);
+  const [symbols, setSymbols] = useState(true);
   const ref = useRef<HTMLTextAreaElement>(null);
+  // Replaces the selection; a template like "√()" wraps it and leaves the caret inside.
+  const insert = ({ text, back }: SymbolInsert) => {
+    const el = ref.current;
+    const start = el?.selectionStart ?? value.length;
+    const end = el?.selectionEnd ?? start;
+    const selected = value.slice(start, end);
+    const piece = back ? text.slice(0, text.length - back) + selected + text.slice(text.length - back) : text;
+    const next = (value.slice(0, start) + piece + value.slice(end)).slice(0, QB_MAX_TEXT_ANSWER);
+    onChange(next);
+    const caret = Math.min(start + piece.length - back, next.length);
+    requestAnimationFrame(() => {
+      el?.focus();
+      el?.setSelectionRange(caret, caret);
+    });
+  };
   useEffect(() => {
     const el = ref.current;
     if (!el || full) return;
@@ -193,12 +225,23 @@ export function TextAnswer({ value, onChange, disabled, placeholder }: { value: 
   }, [full]);
   const box = (
     <div className={cn("flex flex-col overflow-hidden rounded-2xl border-2 bg-white transition-colors focus-within:border-primary", full ? "h-full" : "border-border", disabled && "opacity-70")}>
-      <div className="flex items-center justify-between border-b bg-secondary/50 px-4 py-2">
+      <div className="flex items-center gap-1 border-b bg-secondary/50 px-4 py-2">
         <span className="text-xs font-bold tracking-wide text-primary uppercase">Your answer</span>
+        <span className="ml-auto" />
+        <button
+          type="button"
+          onClick={() => setSymbols(!symbols)}
+          className={cn("flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-white", symbols && "bg-white shadow-xs")}
+          aria-pressed={symbols}
+          title={symbols ? "Hide the symbol pad" : "Show maths and subject symbols"}
+        >
+          <Omega className="size-3.5" /> Symbols
+        </button>
         <button type="button" onClick={() => setFull(!full)} className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-white" aria-label={full ? "Exit full screen" : "Expand to full screen"}>
           {full ? <Minimize2 className="size-3.5" /> : <Expand className="size-3.5" />} {full ? "Done" : "Expand"}
         </button>
       </div>
+      {symbols && <SymbolPad key={subjects?.join("|")} subjects={subjects} onInsert={insert} disabled={disabled} />}
       <textarea
         ref={ref}
         value={value}
@@ -241,13 +284,13 @@ export function Lesson({ answer, explanation, title = "The lesson" }: { answer?:
       {answer && (
         <div className="mt-4">
           <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Answer</p>
-          <TextBlock text={answer} className="text-sm font-semibold text-primary" />
+          <RichText text={answer} className="rounded-xl border border-emerald-200 bg-white p-3.5 text-sm leading-relaxed text-primary" />
         </div>
       )}
       {explanation && (
         <div className={answer ? "mt-5 border-t border-indigo-100 pt-4" : "mt-4"}>
           <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Why</p>
-          <TextBlock text={explanation} className="text-sm leading-relaxed text-primary/90" />
+          <RichText text={explanation} className="text-sm leading-relaxed text-primary/90" />
         </div>
       )}
     </div>
