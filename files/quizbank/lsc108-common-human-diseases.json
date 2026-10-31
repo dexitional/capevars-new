@@ -1,0 +1,1311 @@
+[
+ {
+  "type": "choice",
+  "body": "An individual is considered to have a **fever** when the body temperature is above",
+  "options": [
+   {
+    "text": "32 °C",
+    "hint": "Not this one."
+   },
+   {
+    "text": "0 °C",
+    "hint": "Not this one."
+   },
+   {
+    "text": "37.8 °C",
+    "hint": "Correct."
+   },
+   {
+    "text": "27 °C",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nNormal core body temperature is about **36.5–37.5 °C**; a temperature above about **37.8 °C (100 °F)** is generally considered **fever (pyrexia)**, usually a response to infection as pyrogens reset the hypothalamic thermostat.\n\n## Simplified explanation\n\nAbove about **37.8 °C** is a fever.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a surface barrier to pathogen influx?",
+  "options": [
+   {
+    "text": "Mucous membranes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Skin secretions",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Saliva and tears",
+    "hint": "Not this one."
+   },
+   {
+    "text": "White blood cells",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Surface (first-line) barriers**: intact **skin** and its secretions (sweat, sebum), **mucous membranes**, cilia, **tears and saliva** (lysozyme), stomach acid, normal flora. **White blood cells** act **inside** the body (second line).\n\n## Simplified explanation\n\nWhite blood cells fight **inside** the body; the others are surface barriers.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following diseases is **not** a viral disease?",
+  "options": [
+   {
+    "text": "Poliomyelitis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "HIV",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cholera",
+    "hint": "Correct."
+   },
+   {
+    "text": "Measles",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Cholera** is caused by the **bacterium** _Vibrio cholerae_. Polio, HIV and measles are **viral**.\n\n## Simplified explanation\n\nCholera is caused by a **bacterium**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Viral Diseases",
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following diseases is **not** an example of a **non-communicable** disease?",
+  "options": [
+   {
+    "text": "Cancer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diabetes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hypertension",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ebola",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Non-communicable diseases (NCDs)** are not passed from person to person: cancer, diabetes, hypertension, heart disease. **Ebola** virus disease is a highly **communicable** infection.\n\n## Simplified explanation\n\nEbola **spreads between people**, so it is communicable.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Non-communicable & Deficiency Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which immunoglobulin **crosses the placenta** to protect the foetus?",
+  "options": [
+   {
+    "text": "IgM",
+    "hint": "Not this one."
+   },
+   {
+    "text": "IgA",
+    "hint": "Not this one."
+   },
+   {
+    "text": "IgG",
+    "hint": "Correct."
+   },
+   {
+    "text": "IgD",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**IgG** is the only antibody class that crosses the placenta, giving the newborn **passive immunity** for months. **IgA** passes in breast milk; **IgM** is the first antibody in a primary response (too large to cross).\n\n## Simplified explanation\n\n**IgG** crosses the placenta to protect the baby.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A parasite that **cannot survive independently** of a host is termed a/an",
+  "options": [
+   {
+    "text": "facultative parasite",
+    "hint": "Not this one."
+   },
+   {
+    "text": "independent parasite",
+    "hint": "Not this one."
+   },
+   {
+    "text": "obligate parasite",
+    "hint": "Correct."
+   },
+   {
+    "text": "endoparasite",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Obligate** parasites must have a host (e.g. _Plasmodium_, viruses, tapeworms); **facultative** parasites can live freely or parasitically; **endoparasites** live inside the host (location, not dependence).\n\n## Simplified explanation\n\n'Obligate' = **must** have a host.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Viruses possess the following characteristics **except**",
+  "options": [
+   {
+    "text": "they are non-cellular entities",
+    "hint": "Not this one."
+   },
+   {
+    "text": "they have no cell nucleus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "they reproduce by binary fission",
+    "hint": "Correct."
+   },
+   {
+    "text": "they have a nucleic acid core (DNA or RNA)",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nViruses are **acellular**: a nucleic acid (DNA **or** RNA) core in a protein **capsid**. They **replicate only inside host cells** by hijacking the cell's machinery; **binary fission** is how **bacteria** reproduce.\n\n## Simplified explanation\n\nViruses **don't divide by binary fission**; they copy themselves inside cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Viral Diseases",
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **universal blood recipient** for the ABO/Rh blood system is type",
+  "options": [
+   {
+    "text": "AB+",
+    "hint": "Correct."
+   },
+   {
+    "text": "O+",
+    "hint": "Not this one."
+   },
+   {
+    "text": "AB−",
+    "hint": "Not this one."
+   },
+   {
+    "text": "O−",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**AB+** has A, B and Rh(D) antigens and **no anti-A, anti-B or anti-D** antibodies, so it can receive any type (in principle). **O−** is the **universal donor**.\n\n## Simplified explanation\n\n**AB+** can receive from everyone; O− can give to everyone.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Blood",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a characteristic of **_Vibrio cholerae_**?",
+  "options": [
+   {
+    "text": "Tolerates acidic conditions",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sensitive to acidic medium",
+    "hint": "Correct."
+   },
+   {
+    "text": "Tolerates low salt concentration",
+    "hint": "Not this one."
+   },
+   {
+    "text": "They are spiral in shape",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n_V. cholerae_ is a **comma-shaped**, Gram-negative bacterium that is **acid-sensitive** (most are killed by stomach acid, so a large dose is needed) and grows well in **alkaline**, salty (estuarine) conditions.\n\n## Simplified explanation\n\nThe cholera germ is **killed by acid**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a **deficiency** disease?",
+  "options": [
+   {
+    "text": "Goitre",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Kwashiorkor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diabetes",
+    "hint": "Correct."
+   },
+   {
+    "text": "Scurvy",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nDeficiency diseases: **goitre** (iodine), **kwashiorkor** (protein), **scurvy** (vitamin C), rickets (vitamin D), night blindness (vitamin A), anaemia (iron). **Diabetes** is a metabolic disorder of insulin.\n\n## Simplified explanation\n\nDiabetes is not caused by lack of a nutrient.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Non-communicable & Deficiency Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are characteristics of **bacteria** **except** that they",
+  "options": [
+   {
+    "text": "are prokaryotic",
+    "hint": "Not this one."
+   },
+   {
+    "text": "are unicellular",
+    "hint": "Not this one."
+   },
+   {
+    "text": "reproduce by releasing spores",
+    "hint": "Correct."
+   },
+   {
+    "text": "have a rigid cell wall",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBacteria are **prokaryotic, unicellular**, with a **rigid cell wall** (peptidoglycan), and **reproduce by binary fission**. Some form **endospores**, but these are for **survival**, not reproduction.\n\n## Simplified explanation\n\nBacteria reproduce by **splitting in two**, not by spores.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the **ABO** blood system, you normally can be type:",
+  "options": [
+   {
+    "text": "A",
+    "hint": "Not this one."
+   },
+   {
+    "text": "B",
+    "hint": "Not this one."
+   },
+   {
+    "text": "A, B or O",
+    "hint": "Not this one."
+   },
+   {
+    "text": "A, B, AB or O",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe ABO system has **four** groups: **A, B, AB and O**, determined by A and B antigens on red cells.\n\n## Simplified explanation\n\nThere are four groups: **A, B, AB and O**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Blood",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Suckers** in tapeworms are used for",
+  "options": [
+   {
+    "text": "movement",
+    "hint": "Not this one."
+   },
+   {
+    "text": "feeding",
+    "hint": "Not this one."
+   },
+   {
+    "text": "attachment",
+    "hint": "Correct."
+   },
+   {
+    "text": "protection",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe tapeworm's **scolex** (head) has **suckers** (and hooks) for **attachment** to the intestinal wall. Tapeworms have no gut and absorb nutrients through their body surface.\n\n## Simplified explanation\n\nSuckers help the tapeworm **hold on** to the intestine.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are **degenerative** diseases **except**",
+  "options": [
+   {
+    "text": "multiple sclerosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "night blindness",
+    "hint": "Correct."
+   },
+   {
+    "text": "arthritis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Alzheimer's disease",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Degenerative diseases** involve progressive deterioration of tissues (MS, osteoarthritis, Alzheimer's, Parkinson's). **Night blindness** is a **deficiency** disease (vitamin A).\n\n## Simplified explanation\n\nNight blindness comes from lack of vitamin A.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Non-communicable & Deficiency Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Candidiasis** occurring in the **mouth** is termed",
+  "options": [
+   {
+    "text": "thrush",
+    "hint": "Correct."
+   },
+   {
+    "text": "yeast infection",
+    "hint": "Not this one."
+   },
+   {
+    "text": "white",
+    "hint": "Not this one."
+   },
+   {
+    "text": "systemic candidiasis",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Oral candidiasis = thrush**: white patches on the tongue and inside of the mouth caused by the yeast _Candida albicans_.\n\n## Simplified explanation\n\nCandida in the mouth = **thrush**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** matched appropriately in candidiasis infection?",
+  "options": [
+   {
+    "text": "Mouth: oral candidiasis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Blood: systemic candidiasis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Genitals: thrush",
+    "hint": "Correct."
+   },
+   {
+    "text": "Skin: cutaneous candidiasis",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Thrush** refers to **oral** candidiasis; genital infection is **vaginal (vulvovaginal) candidiasis / yeast infection** (or balanitis in men).\n\n## Simplified explanation\n\n'Thrush' is for the **mouth**, not the genitals.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Cocci** is the term used for",
+  "options": [
+   {
+    "text": "cluster-shaped bacteria",
+    "hint": "Not this one."
+   },
+   {
+    "text": "comma-shaped bacteria",
+    "hint": "Not this one."
+   },
+   {
+    "text": "spherical-shaped bacteria",
+    "hint": "Correct."
+   },
+   {
+    "text": "rod-shaped bacteria",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBacterial shapes: **cocci** (spherical), **bacilli** (rods), **vibrios** (comma-shaped), **spirilla/spirochaetes** (spiral). Clusters are **staphylococci**, chains **streptococci**.\n\n## Simplified explanation\n\nCocci are **round** bacteria.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The population of microorganisms routinely found growing on the body surfaces of healthy individuals is known as",
+  "options": [
+   {
+    "text": "microbial colony",
+    "hint": "Not this one."
+   },
+   {
+    "text": "antimicrobial substance",
+    "hint": "Not this one."
+   },
+   {
+    "text": "normal flora",
+    "hint": "Correct."
+   },
+   {
+    "text": "phagocytes",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Normal flora (microbiota)**: resident microbes on skin, mouth, gut and vagina that are usually harmless or beneficial.\n\n## Simplified explanation\n\nThe friendly microbes that live on us are **normal flora**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Candidiasis is a fungal infection that affects all these areas **except**",
+  "options": [
+   {
+    "text": "skin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "genitals",
+    "hint": "Not this one."
+   },
+   {
+    "text": "throat",
+    "hint": "Not this one."
+   },
+   {
+    "text": "thymus",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n_Candida_ infects skin, nails, mouth/throat (oesophagus), genitals and, in the immunocompromised, the blood (systemic). The **thymus** (an immune organ in the chest) is not a typical site.\n\n## Simplified explanation\n\nCandida doesn't typically infect the **thymus**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **first line** defence mechanism of the innate immune system comprises the following **except**",
+  "options": [
+   {
+    "text": "sensor systems",
+    "hint": "Correct."
+   },
+   {
+    "text": "physical barriers",
+    "hint": "Not this one."
+   },
+   {
+    "text": "antimicrobial substances",
+    "hint": "Not this one."
+   },
+   {
+    "text": "normal flora",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nFirst line: **physical barriers** (skin, mucous membranes), **chemical/antimicrobial substances** (lysozyme, acid) and **normal flora**. **Sensor systems** (pattern-recognition receptors, complement) belong to the **second line** of innate defence.\n\n## Simplified explanation\n\nSensor systems come into play **after** the barriers.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the symbiotic association between the **mosquito and man**?",
+  "options": [
+   {
+    "text": "Predation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Commensalism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Mutualism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Parasitism",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe female mosquito feeds on human blood, benefiting at the person's expense (and transmitting malaria): **parasitism** (an ectoparasite/vector).\n\n## Simplified explanation\n\nThe mosquito gains and we lose, so it is **parasitism**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following diseases is **not** a viral disease: HIV, malaria, poliomyelitis or measles?",
+  "options": [
+   {
+    "text": "HIV",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Malaria",
+    "hint": "Correct."
+   },
+   {
+    "text": "Poliomyelitis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Measles",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Malaria** is caused by the **protozoan** _Plasmodium_ (transmitted by female _Anopheles_ mosquitoes). HIV, polio and measles are viral.\n\n## Simplified explanation\n\nMalaria is caused by a **protozoan** parasite.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Viral Diseases",
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The body's ability to resist or eliminate potentially harmful foreign materials or abnormal cells is known as",
+  "options": [
+   {
+    "text": "immune system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "phagocytosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "immunity",
+    "hint": "Correct."
+   },
+   {
+    "text": "autoimmunity",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Immunity** is the **ability**; the **immune system** is the set of organs and cells providing it; **phagocytosis** is one mechanism; **autoimmunity** is an attack on one's own tissues.\n\n## Simplified explanation\n\nBeing able to resist germs = **immunity**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a disease caused by a **bacterium**?",
+  "options": [
+   {
+    "text": "Cholera",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Malaria",
+    "hint": "Correct."
+   },
+   {
+    "text": "Tuberculosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Anthrax",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCholera (_Vibrio cholerae_), TB (_Mycobacterium tuberculosis_) and anthrax (_Bacillus anthracis_) are bacterial; **malaria** is protozoal.\n\n## Simplified explanation\n\nMalaria is **not bacterial**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the role of the **red blood cells** in the body?",
+  "options": [
+   {
+    "text": "They carry oxygen to parts of the body",
+    "hint": "Correct."
+   },
+   {
+    "text": "They help in blood clotting",
+    "hint": "Not this one."
+   },
+   {
+    "text": "They fight against invading organisms",
+    "hint": "Not this one."
+   },
+   {
+    "text": "They supply nutrients to the body",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nRed blood cells (erythrocytes) contain **haemoglobin**, which **carries oxygen** from the lungs to tissues (and some CO₂ back). **Platelets** clot blood; **white cells** fight infection; **plasma** carries nutrients.\n\n## Simplified explanation\n\nRed cells **carry oxygen**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Blood",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following activities increase the risk of being infected with **candidiasis** **except**",
+  "options": [
+   {
+    "text": "steroid use",
+    "hint": "Not this one."
+   },
+   {
+    "text": "regular exercise",
+    "hint": "Correct."
+   },
+   {
+    "text": "stress",
+    "hint": "Not this one."
+   },
+   {
+    "text": "antibiotic use",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nRisk factors: **antibiotics** (kill protective flora), **steroids** and immunosuppression, diabetes, HIV, pregnancy, **stress**, poor hygiene, dentures. **Regular exercise** supports immunity.\n\n## Simplified explanation\n\nExercise does **not** raise the risk; the others do.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An association between two organisms in which **one benefits** and the other derives **neither benefit nor harm** is",
+  "options": [
+   {
+    "text": "parasitism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "mutualism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "competition",
+    "hint": "Not this one."
+   },
+   {
+    "text": "commensalism",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSymbiotic relationships: **mutualism** (+/+), **commensalism** (+/0), **parasitism** (+/−); competition (−/−).\n\n## Simplified explanation\n\nOne gains, the other is unaffected: **commensalism**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is **not** true regarding microorganisms?",
+  "options": [
+   {
+    "text": "They are ubiquitous",
+    "hint": "Not this one."
+   },
+   {
+    "text": "They exist as unicellular or multicellular",
+    "hint": "Not this one."
+   },
+   {
+    "text": "They are mostly harmful",
+    "hint": "Correct."
+   },
+   {
+    "text": "They are tiny organisms",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nMost microorganisms are **harmless or beneficial** (decomposition, nitrogen fixation, digestion, fermentation, antibiotics); only a small fraction are **pathogens**.\n\n## Simplified explanation\n\nMost microbes are **not harmful**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is **true** regarding the ABO blood system?",
+  "options": [
+   {
+    "text": "People who have A antigen would not produce anti-A antibody",
+    "hint": "Correct."
+   },
+   {
+    "text": "People who are type AB produce both anti-A and anti-B antibodies",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The blood type that has neither A nor B antigens is AB",
+    "hint": "Not this one."
+   },
+   {
+    "text": "People with blood type AB can donate blood to type A or type B",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nYou never make antibodies against your own antigens: **type A has anti-B**, type B has anti-A, **AB has neither**, **O has both**. Type O lacks A and B antigens. AB can donate only to AB.\n\n## Simplified explanation\n\nIf you have A antigen, you don't make **anti-A**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Blood",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which form of **protozoa** has a **whip-like** structure used for locomotion?",
+  "options": [
+   {
+    "text": "Ciliates",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sporozoans",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Amoeboid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Flagellates",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nProtozoan groups by locomotion: **flagellates** (whip-like flagella, e.g. _Trypanosoma_, _Giardia_), **ciliates** (cilia, _Paramecium_), **amoeboids** (pseudopodia, _Entamoeba_), **sporozoans** (non-motile adults, _Plasmodium_).\n\n## Simplified explanation\n\nWhip-like flagella = **flagellates**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "Parasites & Symbiosis",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are organs of the **immune system** **except**",
+  "options": [
+   {
+    "text": "thymus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "skin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "lungs",
+    "hint": "Correct."
+   },
+   {
+    "text": "bone marrow",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nImmune organs: **bone marrow** and **thymus** (primary lymphoid), lymph nodes, spleen, tonsils, Peyer's patches; the **skin** is the first physical barrier. The **lungs** are respiratory organs.\n\n## Simplified explanation\n\nThe **lungs** are for breathing, not an immune organ.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are examples of **fungi** **except**",
+  "options": [
+   {
+    "text": "moulds",
+    "hint": "Not this one."
+   },
+   {
+    "text": "mushrooms",
+    "hint": "Not this one."
+   },
+   {
+    "text": "plankton",
+    "hint": "Correct."
+   },
+   {
+    "text": "yeasts",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nFungi include **moulds, mushrooms and yeasts**. **Plankton** are tiny drifting aquatic organisms (algae, protozoa, small animals).\n\n## Simplified explanation\n\nPlankton are not fungi.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an activity of the **immune system**?",
+  "options": [
+   {
+    "text": "Breaking down complex substances in the body",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Removal of worn-out cells and tissue debris",
+    "hint": "Correct."
+   },
+   {
+    "text": "Supplying oxygen and food nutrients",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Identification and destruction of normal cells",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nImmune functions: **defence** against pathogens, **removal of worn-out cells and debris** (phagocytes), and **surveillance** to destroy **abnormal** (cancerous) cells, not normal ones. Digestion and oxygen supply are other systems.\n\n## Simplified explanation\n\nThe immune system **cleans up worn-out cells**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The causative organism of **cholera** is a",
+  "options": [
+   {
+    "text": "virus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "fungus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "bacterium",
+    "hint": "Correct."
+   },
+   {
+    "text": "protozoan",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCholera is caused by the bacterium **_Vibrio cholerae_**, spread by **faecally contaminated water and food**; its toxin causes profuse watery ('rice-water') diarrhoea.\n\n## Simplified explanation\n\nCholera is caused by a **bacterium**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mushrooms, moulds and yeasts are examples of fungi.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "The statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check each key word.",
+  "explanation": "## Advanced explanation\n\nAll three are **fungi**: eukaryotes with chitin cell walls that absorb nutrients.\n\n## Simplified explanation\n\nYes, all three are fungi.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Flagellates use **cilia** (tiny hair-like structures) to propel themselves forward.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "The statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check each key word.",
+  "explanation": "## Advanced explanation\n\n**Flagellates** use **flagella** (long whips); **ciliates** use cilia.\n\n## Simplified explanation\n\nFlagellates use **flagella**, not cilia.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **innate** immune system is a **specific** defence mechanism.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "The statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check each key word.",
+  "explanation": "## Advanced explanation\n\nThe **innate** system is **non-specific** (the same response to all invaders, immediate). The **adaptive** system is specific (antibodies, T cells) and has memory.\n\n## Simplified explanation\n\nInnate immunity is **non-specific**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Organisms that are **anaerobes** can live in the absence of oxygen.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "The statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check each key word.",
+  "explanation": "## Advanced explanation\n\n**Anaerobes** live without oxygen (obligate anaerobes are even harmed by it, e.g. _Clostridium_); **facultative anaerobes** can use it or not.\n\n## Simplified explanation\n\nAnaerobes live **without oxygen**: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Viruses are **active** when not inside a living cell.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "The statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check each key word.",
+  "explanation": "## Advanced explanation\n\nOutside a host cell a virus is an inert particle (**virion**) with no metabolism; it is active only **inside** a living cell.\n\n## Simplified explanation\n\nOutside cells, viruses are **inactive**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Viral Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why are **viruses** not considered living organisms?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> They are **acellular** (no cell structure), have **no metabolism** of their own, and **cannot reproduce or grow outside a living host cell**; outside a host they can even be crystallised.",
+  "explanation": "## Advanced explanation\n\nViruses lack independent **metabolism, growth and reproduction**, the defining features of life; they are 'obligate intracellular parasites' on the borderline between living and non-living.\n\n## Simplified explanation\n\nViruses can't **feed, grow or reproduce on their own**.",
+  "hint": "Life processes.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Viral Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is a **facultative anaerobe**? Give an example.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> An organism that grows **with oxygen** (aerobic respiration) but can **switch to fermentation/anaerobic respiration** when oxygen is absent. **Examples:** _Escherichia coli_, _Staphylococcus aureus_, yeast (_Saccharomyces_), _Vibrio cholerae_.",
+  "explanation": "## Advanced explanation\n\nFacultative anaerobes produce more ATP aerobically, so they prefer oxygen, but they survive without it, which is useful in the gut and in wounds.\n\n## Simplified explanation\n\nIt can live **with or without oxygen**, e.g. _E. coli_ or yeast.",
+  "hint": "Both ways.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the full names of the acronyms **HIV** and **AIDS**. Explain why **COVID-19** is a **communicable** disease.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **HIV:** Human Immunodeficiency Virus. **AIDS:** Acquired Immune Deficiency Syndrome. **COVID-19** is communicable because it is caused by a virus (**SARS-CoV-2**) that **spreads from person to person** through respiratory droplets and aerosols, close contact and contaminated surfaces.",
+  "explanation": "## Advanced explanation\n\nCOVID-19 (Coronavirus Disease 2019) is an infectious disease; hence measures like masks, distancing, hand hygiene and vaccination.\n\n## Simplified explanation\n\nHIV = Human Immunodeficiency Virus; AIDS = Acquired Immune Deficiency Syndrome. COVID-19 **spreads between people**, so it is communicable.",
+  "hint": "Communicable = transmissible.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Viral Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two non-specific host defences** against the cholera bacteria.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Any two: **stomach acid** (kills most _V. cholerae_, which are acid-sensitive) · **intestinal mucus** layer · **normal gut flora** competing with the pathogen · **peristalsis** (flushing) · antimicrobial peptides and **lysozyme**.",
+  "explanation": "## Advanced explanation\n\nBecause _V. cholerae_ is acid-sensitive, people with low stomach acid (antacid use, malnutrition) need a much smaller infectious dose.\n\n## Simplified explanation\n\nStomach **acid** and the gut's **mucus and friendly bacteria** protect against cholera.",
+  "hint": "Innate barriers in the gut.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Bacterial Diseases",
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** diseases caused by **fungi**. Give **two** symptoms of **candidiasis in the genitals**, and state **three** individuals at risk of getting **thrush**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Fungal diseases:** candidiasis (thrush), ringworm (tinea), athlete's foot (tinea pedis), aspergillosis, histoplasmosis, cryptococcal meningitis.\n>\n> **Genital candidiasis symptoms:** **itching and irritation** · thick, **white 'cottage-cheese' discharge** · redness and swelling · burning/pain during urination or intercourse.\n>\n> **At risk of thrush:** **infants/newborns** · **elderly**, especially denture wearers · people with **HIV/AIDS** or weakened immunity · people taking **antibiotics or steroid** inhalers · **diabetics** · cancer patients on chemotherapy.",
+  "explanation": "## Advanced explanation\n\n_Candida albicans_ is part of normal flora and becomes pathogenic when the balance is disturbed (**opportunistic** infection), hence the link to antibiotics, immunosuppression and diabetes.\n\n## Simplified explanation\n\nFungi cause **thrush** and **ringworm**. Genital candida causes **itching and white discharge**. Babies, old people, diabetics and people with weak immunity get thrush easily.",
+  "hint": "Fungi; candida symptoms; who has weak defences?",
+  "difficulty": "easy",
+  "marks": 7,
+  "tags": [
+   "Fungal Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **four** symptoms of **cholera**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Any four: profuse watery **'rice-water' diarrhoea** · **vomiting** · rapid **dehydration** (sunken eyes, dry mouth, loss of skin elasticity) · **leg cramps** · extreme **thirst** · low blood pressure and rapid heart rate · reduced urine · shock, if untreated.",
+  "explanation": "## Advanced explanation\n\nCholera toxin activates adenylate cyclase in intestinal cells, causing massive **chloride and water secretion**; patients can lose litres per day. Treatment is urgent **rehydration** (ORS, IV fluids) plus antibiotics in severe cases.\n\n## Simplified explanation\n\nCholera causes **watery diarrhoea, vomiting, dehydration and cramps**.",
+  "hint": "Fluid loss.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is **normal flora**? Give **three** ways it helps protect the body.\n(b) (i) State **two** ways each for the **transmission** and **prevention** of HIV/AIDS. (ii) Distinguish between an **antigen** and an **antibody**.\n(c) Mention **five** vital activities of **microorganisms**.\n(d) Give **three** measures for controlling a **cholera outbreak**.",
+  "media": [],
+  "answer": "**(a)** Normal flora = microorganisms that **routinely live on body surfaces** (skin, mouth, gut, vagina) of healthy people without causing disease.\n**Protection:** they **compete** with pathogens for nutrients and attachment sites · produce **antimicrobial substances** (bacteriocins, acids: e.g. lactobacilli keep the vagina acidic) · **stimulate the immune system** · gut flora synthesise **vitamin K** and B vitamins.\n\n**(b)(i)** **Transmission:** **unprotected sexual intercourse** · **contaminated blood** (transfusion, sharing needles/blades) · **mother to child** (pregnancy, birth, breastfeeding).\n**Prevention:** **abstinence / faithfulness / condom use** (ABC) · **screening blood** and using sterile needles · **PMTCT** (antiretrovirals for HIV-positive mothers) · PrEP · early testing and treatment.\n\n**(b)(ii)**\n| Antigen | Antibody |\n|---|---|\n| A **foreign substance** (usually protein or polysaccharide on a pathogen) that **triggers** an immune response | A **Y-shaped protein (immunoglobulin)** produced by **B cells/plasma cells** in response to an antigen |\n| e.g. viral coat protein | e.g. IgG, IgM |\n| Generator of the response | Binds **specifically** to the antigen to neutralise or mark it for destruction |\n\n**(c) Vital activities of microorganisms:** **decomposition** and nutrient recycling · **nitrogen fixation** (_Rhizobium_) · **fermentation** (bread, beer, yoghurt, kenkey, pito) · production of **antibiotics** (penicillin) and vaccines · **digestion** and vitamin synthesis in the gut · **sewage treatment** and bioremediation · **photosynthesis** and oxygen production (algae, cyanobacteria).\n\n**(d) Controlling cholera:** provide **safe drinking water** (boiling, chlorination) · proper **sanitation and waste disposal** (no open defecation) · **food hygiene and handwashing** with soap · **early case detection, isolation and treatment** (ORS, IV fluids) · **health education** · **oral cholera vaccine** in hotspots.\n\n> [!answer]\n> Normal flora = resident microbes; protect by competition, antimicrobials, immune stimulation, vitamins. HIV spreads by sex, blood and mother to child; prevent by ABC, safe blood, PMTCT. Antigen triggers; antibody binds. Microbes decompose, fix nitrogen, ferment, make antibiotics, aid digestion. Control cholera with safe water, sanitation, hygiene, treatment, education, vaccination.",
+  "explanation": "## Advanced explanation\n\nThese questions integrate **microbiology** (beneficial vs pathogenic microbes), **immunology** (antigen–antibody specificity, the basis of vaccines and diagnostic tests) and **public health** (the F-diagram of faecal–oral transmission for cholera; combination prevention for HIV). Ghana's recurrent cholera outbreaks are linked to poor sanitation and urban water contamination.\n\n## Simplified explanation\n\nFriendly microbes protect us. HIV spreads through **sex, blood and mother to baby**. An **antigen** is the germ's marker; an **antibody** is our body's weapon against it. Microbes are useful for **rotting waste, making food and medicines**. Stop cholera with **clean water, toilets and handwashing**.",
+  "hint": "Answer each part separately and in full.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Microorganisms",
+   "Immunity",
+   "Viral Diseases",
+   "Bacterial Diseases",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) (i) What is a **deficiency disease**? (ii) State **four** examples. (iii) Distinguish between **communicable** and **non-communicable** diseases, giving **three** examples of each.\n(b) State **two** ways by which **helminths** harm their hosts.\n(c) Differentiate between the **innate** and **adaptive** immune systems.",
+  "media": [],
+  "answer": "**(a)(i)** A deficiency disease is caused by **lack of an essential nutrient** (vitamin, mineral, protein or energy) in the diet over a long period.\n\n**(a)(ii)** **Kwashiorkor** (protein) · **marasmus** (energy and protein) · **scurvy** (vitamin C) · **rickets** (vitamin D/calcium) · **night blindness** (vitamin A) · **goitre** (iodine) · **anaemia** (iron) · **beriberi** (vitamin B₁) · **pellagra** (niacin).\n\n**(a)(iii)**\n| Communicable (infectious) | Non-communicable |\n|---|---|\n| Caused by **pathogens**; can **spread** from person to person or from animals/vectors | **Not transmissible**; caused by genetics, lifestyle, environment, ageing |\n| Usually acute | Often chronic, long-lasting |\n| e.g. **malaria, cholera, tuberculosis, HIV/AIDS, COVID-19, measles** | e.g. **diabetes, hypertension, cancer, stroke, sickle-cell disease, asthma** |\n\n**(b) Helminths harm hosts by:** **competing for nutrients** (malnutrition, anaemia: hookworms suck blood) · **mechanical damage and blockage** of organs (intestinal obstruction by _Ascaris_) · **tissue damage** and inflammation from larval migration · releasing **toxic** metabolic wastes · causing **allergic reactions**.\n\n**(c)**\n| Innate immunity | Adaptive immunity |\n|---|---|\n| **Non-specific**: the same response to all invaders | **Specific** to particular antigens |\n| Present from **birth**; acts **immediately** (minutes to hours) | Develops after exposure; slower (days) |\n| **No memory** | **Immunological memory** (faster secondary response, basis of vaccines) |\n| Barriers, phagocytes, inflammation, fever, complement, NK cells | **B lymphocytes** (antibodies) and **T lymphocytes** (cell-mediated) |\n\n> [!answer]\n> Deficiency disease = lack of an essential nutrient (kwashiorkor, scurvy, rickets, goitre…). Communicable diseases spread (malaria, TB, HIV); non-communicable do not (diabetes, hypertension, cancer). Helminths steal nutrients, block and damage organs, release toxins. Innate is non-specific, immediate, no memory; adaptive is specific, slower, with memory.",
+  "explanation": "## Advanced explanation\n\nGhana faces a **double burden of disease**: communicable diseases (malaria, TB, HIV) remain major, while **NCDs** (hypertension, diabetes, stroke) are rising with urbanisation and diet change. Deficiency diseases persist among children (stunting, vitamin A and iron deficiency).\n\n## Simplified explanation\n\nA deficiency disease comes from **missing a nutrient**. Communicable diseases **spread**; non-communicable ones **don't**. Worms **steal food and damage organs**. Innate immunity is our **general, instant** defence; adaptive immunity is **targeted and remembers** germs.",
+  "hint": "Definitions + comparison tables.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Non-communicable & Deficiency Diseases",
+   "Parasites & Symbiosis",
+   "Immunity",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) (i) What is an **ectoparasite**? (ii) State **four** effects of disease-causing organisms on the host.\n(b) Differentiate between **mutualism** and **parasitism**, giving an example of each.\n(c) What is meant by the term **disease**? State two examples.\n(d) Explain whether all **antibacterial substances** are **antibiotics**.",
+  "media": [],
+  "answer": "**(a)(i)** An **ectoparasite** lives **on the outside** (body surface) of its host and feeds on it: e.g. **lice, ticks, fleas, mites, bedbugs**, mosquitoes (temporary).\n\n**(a)(ii) Effects of pathogens on the host:** **tissue and organ damage** · production of **toxins** (e.g. cholera toxin) · **depriving the host of nutrients** (malnutrition, anaemia) · **fever, pain and inflammation** · **weakened immunity** and secondary infections · **reduced productivity**, disability or **death**.\n\n**(b)**\n| Mutualism | Parasitism |\n|---|---|\n| **Both** organisms benefit (+/+) | One (the parasite) benefits, the **host is harmed** (+/−) |\n| e.g. **gut bacteria and humans** (vitamin K, digestion); _Rhizobium_ and legumes; lichens (alga + fungus) | e.g. **_Plasmodium_ and humans** (malaria); tapeworm in the intestine; mosquito feeding on man |\n\n**(c)** A **disease** is any **abnormal condition** that impairs the normal **structure or function** of the body or mind, with signs and symptoms; it is not merely the absence of health. **Examples:** malaria, diabetes, cholera, hypertension.\n\n**(d)** **No.** An **antibiotic** is, strictly, a substance **produced by a microorganism** (e.g. penicillin from _Penicillium_, streptomycin from _Streptomyces_) that kills or inhibits other microbes. **Antibacterial substances** are a **broader** group, including **synthetic** chemicals (sulphonamides), **antiseptics** (alcohol, chlorhexidine) and **disinfectants** (bleach), which are not antibiotics. So **all antibiotics active against bacteria are antibacterial, but not all antibacterial substances are antibiotics**.\n\n> [!answer]\n> Ectoparasites live on the outside (lice, ticks). Pathogens damage tissue, release toxins, steal nutrients, cause fever and lowered immunity. Mutualism +/+ (gut bacteria), parasitism +/− (Plasmodium). Disease = abnormal condition impairing body function. Not all antibacterials are antibiotics: antiseptics, disinfectants and synthetic drugs are not.",
+  "explanation": "## Advanced explanation\n\nThe antibiotic distinction matters for **antimicrobial resistance (AMR)**: antibiotics do not work on **viruses**, and misuse (incomplete courses, self-medication common in Ghana) drives resistance. Antiseptics are used on living tissue; disinfectants on surfaces.\n\n## Simplified explanation\n\nEctoparasites live **on** us (lice, ticks). Germs harm us with **damage, poisons and sickness**. In mutualism **both gain**; in parasitism **one gains and the other loses**. Not all germ-killers are antibiotics: soaps and bleach also kill bacteria.",
+  "hint": "Classic definitions question.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Parasites & Symbiosis",
+   "Microorganisms",
+   "2020/21 Paper"
+  ]
+ }
+]

@@ -1,0 +1,1373 @@
+[
+ {
+  "type": "choice",
+  "body": "**Climate** deals with the **short-term** state of the atmosphere.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "No: the statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Weather vs climate.",
+  "explanation": "## Advanced explanation\n\n**Weather** is the short-term (hours to days) state of the atmosphere; **climate** is the **long-term average** (usually 30 years or more) of weather, including its variability and extremes.\n\n## Simplified explanation\n\nShort-term is **weather**; climate is the long-term average.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Approximately _______ of the atmosphere (by mass) occurs in the lowest **20 km** above the Earth.",
+  "options": [
+   {
+    "text": "20%",
+    "hint": "Far too low."
+   },
+   {
+    "text": "60%",
+    "hint": "Too low."
+   },
+   {
+    "text": "80%",
+    "hint": "Correct among the options: most of the air is packed near the surface."
+   },
+   {
+    "text": "40%",
+    "hint": "Too low."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Air is compressed by its own weight.",
+  "explanation": "## Advanced explanation\n\nBecause air is compressible, density falls roughly **exponentially** with height: about **50% of the mass lies below ~5.5 km**, about **80% in the troposphere** (lowest ~12–16 km) and about **90% below ~16–20 km**. Of the options, **80%** is closest.\n\n## Simplified explanation\n\nMost of the air is squeezed into the lowest layers, about **80%** or more.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Unit prefixes express very large or very small numbers. What is the scientific notation for **tera (T)**?",
+  "options": [
+   {
+    "text": "$10^{3}$",
+    "hint": "kilo."
+   },
+   {
+    "text": "$10^{6}$",
+    "hint": "mega."
+   },
+   {
+    "text": "$10^{9}$",
+    "hint": "giga."
+   },
+   {
+    "text": "$10^{12}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "k, M, G, T…",
+  "explanation": "## Advanced explanation\n\nSI prefixes: kilo $10^{3}$, mega $10^{6}$, giga $10^{9}$, **tera $10^{12}$**, peta $10^{15}$; milli $10^{-3}$, micro $10^{-6}$, nano $10^{-9}$.\n\n## Simplified explanation\n\nTera = **one trillion** = $10^{12}$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **pressure at the surface** is caused by _______.",
+  "options": [
+   {
+    "text": "adding more air molecules to the column",
+    "hint": "Not the definition."
+   },
+   {
+    "text": "taking away air molecules from the column",
+    "hint": "No."
+   },
+   {
+    "text": "neglecting all air molecules below the column",
+    "hint": "No."
+   },
+   {
+    "text": "the weight of all the air molecules in the column above the surface",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Pressure = force per area.",
+  "explanation": "## Advanced explanation\n\nAtmospheric pressure at a point is the **weight of the air column above it** per unit area: about `1013.25 hPa` (101 325 Pa) at sea level. It decreases with height because less air lies above.\n\n## Simplified explanation\n\nSurface pressure is the **weight of all the air above** pressing down.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "As a parcel of air **rises**, it **expands** due to _______.",
+  "options": [
+   {
+    "text": "higher pressure",
+    "hint": "Pressure falls with height."
+   },
+   {
+    "text": "higher density",
+    "hint": "No."
+   },
+   {
+    "text": "lower water vapour",
+    "hint": "No."
+   },
+   {
+    "text": "lower pressure",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "What happens to pressure aloft?",
+  "explanation": "## Advanced explanation\n\nPressure decreases with altitude, so a rising parcel meets **lower surrounding pressure** and **expands**. Expansion does work on the surroundings, so the parcel **cools adiabatically** (dry rate ≈ `9.8 °C/km`).\n\n## Simplified explanation\n\nHigher up the air pressure is **lower**, so the rising air **spreads out**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **true** about air temperature change with changes in parcel altitude?",
+  "options": [
+   {
+    "text": "Sinking → Compression → Warming",
+    "hint": "Correct."
+   },
+   {
+    "text": "Rising → Cooling → Sinking",
+    "hint": "Mixed up."
+   },
+   {
+    "text": "Sinking → Expansion → Warming",
+    "hint": "Sinking air is compressed."
+   },
+   {
+    "text": "Rising → Compression → Warming",
+    "hint": "Rising air expands and cools."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Adiabatic processes.",
+  "explanation": "## Advanced explanation\n\n**Adiabatic** changes (no heat exchange): **rising → expansion → cooling** (cloud formation); **sinking → compression → warming** (clear skies under high pressure, warm dry föhn winds).\n\n## Simplified explanation\n\nSinking air gets **squeezed and warms**; rising air **expands and cools**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the **thermosphere** air molecules are moving fast, but the pressure is very low at these heights.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nThermosphere temperatures can exceed `1000 °C` (molecules move very fast after absorbing X-ray/EUV radiation), but the air is so **thin** that pressure and the total heat content are tiny: you would not feel 'hot'.\n\n## Simplified explanation\n\nMolecules up there are **fast (hot)** but **very few**, so pressure is very low: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **land breeze** occurs during the **day**, and a **sea breeze** during the **night**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "No: the statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which surface heats faster in the day?",
+  "explanation": "## Advanced explanation\n\nReversed. By **day** land heats faster, so air rises over land and cooler sea air flows in: a **sea breeze**. At **night** land cools faster, so air flows from land to sea: a **land breeze**.\n\n## Simplified explanation\n\nSea breeze by **day**, land breeze at **night**: false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Winds & Moisture",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a method of heat transfer?",
+  "options": [
+   {
+    "text": "Radiation",
+    "hint": "A method."
+   },
+   {
+    "text": "Insulation",
+    "hint": "Correct. Insulation reduces heat transfer."
+   },
+   {
+    "text": "Conduction",
+    "hint": "A method."
+   },
+   {
+    "text": "Convection",
+    "hint": "A method."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Three methods.",
+  "explanation": "## Advanced explanation\n\nHeat transfers by **conduction** (contact, through solids), **convection** (movement of fluids: thermals, ocean currents) and **radiation** (electromagnetic waves; works through a vacuum). **Insulation** reduces transfer.\n\n## Simplified explanation\n\nInsulation **stops** heat moving; it is not a way heat moves.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which of the following are the **particles closest together**?",
+  "options": [
+   {
+    "text": "Solid",
+    "hint": "Correct."
+   },
+   {
+    "text": "Liquid",
+    "hint": "Close, but able to move past one another."
+   },
+   {
+    "text": "Gas",
+    "hint": "Far apart."
+   },
+   {
+    "text": "Fluid",
+    "hint": "Liquids and gases."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "States of matter.",
+  "explanation": "## Advanced explanation\n\nIn a **solid** particles are tightly packed in fixed positions (vibrating); in liquids they are close but mobile; in gases far apart and moving freely. That is why conduction is best in solids.\n\n## Simplified explanation\n\nParticles are packed **tightest in solids**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How does **heat energy reach the Earth from the Sun**?",
+  "options": [
+   {
+    "text": "Radiation",
+    "hint": "Correct. Electromagnetic waves cross the vacuum of space."
+   },
+   {
+    "text": "Conduction",
+    "hint": "Needs a medium."
+   },
+   {
+    "text": "Convection",
+    "hint": "Needs a fluid."
+   },
+   {
+    "text": "Insulation",
+    "hint": "Not a transfer."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Through empty space.",
+  "explanation": "## Advanced explanation\n\nSpace is a near-**vacuum**, so only **radiation** (shortwave solar radiation: visible, UV, near-infrared) can carry energy from the Sun to the Earth.\n\n## Simplified explanation\n\nThrough empty space, heat travels as **radiation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is the best surface for **reflecting** heat radiation?",
+  "options": [
+   {
+    "text": "Shiny white",
+    "hint": "Correct."
+   },
+   {
+    "text": "Dull white",
+    "hint": "Reflects, but less."
+   },
+   {
+    "text": "Shiny black",
+    "hint": "Absorbs more."
+   },
+   {
+    "text": "Dull black",
+    "hint": "Best absorber."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Light and shiny.",
+  "explanation": "## Advanced explanation\n\nLight, **shiny** surfaces have high **albedo/reflectivity**; dark, dull surfaces absorb and emit best (good emitters are good absorbers).\n\n## Simplified explanation\n\n**Shiny white** reflects best.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is the best surface for **absorbing** heat radiation?",
+  "options": [
+   {
+    "text": "Shiny white",
+    "hint": "Best reflector."
+   },
+   {
+    "text": "Dull white",
+    "hint": "No."
+   },
+   {
+    "text": "Shiny black",
+    "hint": "Shininess reflects some."
+   },
+   {
+    "text": "Dull black",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Dark and matt.",
+  "explanation": "## Advanced explanation\n\n**Dull (matt) black** surfaces absorb (and emit) radiation best, which is why solar collectors are matt black.\n\n## Simplified explanation\n\n**Dull black** absorbs best.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Water pollution may also occur in the form of **thermal pollution** and **oxygen depletion**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\n**Thermal pollution** (hot water from power plants and industry) lowers dissolved oxygen and harms aquatic life; **oxygen depletion** results from organic waste and eutrophication (algal blooms decomposing).\n\n## Simplified explanation\n\nHot-water discharge and loss of oxygen are both water pollution: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Air & Water Pollution",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is a **type of plume**?",
+  "options": [
+   {
+    "text": "convectional current",
+    "hint": "No."
+   },
+   {
+    "text": "pollution",
+    "hint": "No."
+   },
+   {
+    "text": "landfills",
+    "hint": "No."
+   },
+   {
+    "text": "fumigating",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Smoke-stack plume shapes.",
+  "explanation": "## Advanced explanation\n\nPlume behaviour depends on atmospheric stability: **looping** (unstable), **coning** (neutral), **fanning** (stable), **lofting** (inversion below), **fumigating** (inversion above stack: pollutants pushed down to the ground), **trapping**.\n\n## Simplified explanation\n\n**Fumigating** is a plume type, where smoke is pushed down to the ground.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Air & Water Pollution",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Noise pollution** induces",
+  "options": [
+   {
+    "text": "sore throat",
+    "hint": "No."
+   },
+   {
+    "text": "chest pain",
+    "hint": "No."
+   },
+   {
+    "text": "high blood pressure",
+    "hint": "Correct."
+   },
+   {
+    "text": "rashes",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Stress response.",
+  "explanation": "## Advanced explanation\n\nChronic noise causes **hearing loss**, stress, sleep disturbance and **raised blood pressure (hypertension)** and cardiovascular risk.\n\n## Simplified explanation\n\nConstant noise raises **blood pressure**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Air & Water Pollution",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During the **Apollo** programme, the terms **pericynthion** and **apocynthion** were used when referring to the",
+  "options": [
+   {
+    "text": "Earth",
+    "hint": "Perigee/apogee."
+   },
+   {
+    "text": "Sun",
+    "hint": "Perihelion/aphelion."
+   },
+   {
+    "text": "Moon",
+    "hint": "Correct. Cynthia = the Moon goddess."
+   },
+   {
+    "text": "Solstice",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cynthia = Artemis/Moon.",
+  "explanation": "## Advanced explanation\n\nClosest and farthest points of an orbit: **perigee/apogee** (Earth), **perihelion/aphelion** (Sun), **pericynthion/apocynthion** or perilune/apolune (**Moon**).\n\n## Simplified explanation\n\n'Cynthion' refers to the **Moon**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Dew point** temperature is never greater than air temperature.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nThe dew point is the temperature to which air must cool to become **saturated**. It can equal the air temperature (100% relative humidity) but cannot exceed it; any excess vapour condenses.\n\n## Simplified explanation\n\nDew point is at most equal to the air temperature: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Winds & Moisture",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Why are houses **painted white** in hot countries?",
+  "options": [
+   {
+    "text": "White transmits heat radiation and keeps the house cooler.",
+    "hint": "Paint does not transmit."
+   },
+   {
+    "text": "White scatters heat radiation and keeps the house cooler.",
+    "hint": "The key process is reflection."
+   },
+   {
+    "text": "White absorbs heat radiation and keeps the house cooler.",
+    "hint": "Absorbing would warm it."
+   },
+   {
+    "text": "White reflects heat radiation and keeps the house cooler.",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "High albedo.",
+  "explanation": "## Advanced explanation\n\nWhite surfaces have a high **albedo**: they **reflect** most incoming solar radiation, so less is absorbed and the building stays cooler ('cool roofs').\n\n## Simplified explanation\n\nWhite **reflects** sunlight, so the house stays cool.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Complete the reaction: $O_2 + \\_\\_\\_ \\rightarrow O + O \\quad (\\lambda < 240\\text{ nm})$",
+  "options": [
+   {
+    "text": "$h\\nu$",
+    "hint": "Correct. A UV photon."
+   },
+   {
+    "text": "$O_2$",
+    "hint": "No."
+   },
+   {
+    "text": "$O_3$",
+    "hint": "No."
+   },
+   {
+    "text": "$O$",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Photolysis.",
+  "explanation": "## Advanced explanation\n\n**Chapman mechanism:** UV photons ($h\\nu$, $\\lambda < 240$ nm) split oxygen: $O_2 + h\\nu \\rightarrow 2O$; then $O + O_2 + M \\rightarrow O_3 + M$ forms ozone; ozone absorbs UV-B: $O_3 + h\\nu \\rightarrow O_2 + O$. This shields life from UV.\n\n## Simplified explanation\n\nUltraviolet **light energy ($h\\nu$)** splits $O_2$ into two oxygen atoms.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atmospheric Chemistry",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Emission of waste gases, fumes, vapours and smoke to the atmosphere is usually by the use of a",
+  "options": [
+   {
+    "text": "plume",
+    "hint": "The plume is what comes out."
+   },
+   {
+    "text": "smoke stack",
+    "hint": "Correct."
+   },
+   {
+    "text": "combustion",
+    "hint": "A process."
+   },
+   {
+    "text": "pollution",
+    "hint": "The result."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Chimney.",
+  "explanation": "## Advanced explanation\n\nIndustrial emissions are released through **smoke stacks (chimneys)**; tall stacks disperse pollutants by releasing them higher, forming a **plume**.\n\n## Simplified explanation\n\nFumes leave factories through a **smoke stack**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Air & Water Pollution",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Water vapour is extremely important in Earth's atmosphere due to its being found in",
+  "options": [
+   {
+    "text": "the oceans",
+    "hint": "Partly."
+   },
+   {
+    "text": "plants and animals",
+    "hint": "Partly."
+   },
+   {
+    "text": "all three phases",
+    "hint": "Correct. Solid, liquid and gas at Earth temperatures."
+   },
+   {
+    "text": "the atmosphere",
+    "hint": "Partly."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Ice, water, vapour.",
+  "explanation": "## Advanced explanation\n\nWater exists as **ice, liquid and vapour** at normal Earth temperatures. Phase changes store and release **latent heat**, driving weather (clouds, storms) and the water cycle; water vapour is also the main **greenhouse gas**.\n\n## Simplified explanation\n\nWater exists as **solid, liquid and gas** on Earth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Winds & Moisture",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Work done by molecules to **expand** causes temperature to **increase** (warms).",
+  "options": [
+   {
+    "text": "True",
+    "hint": "No: the statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nExpansion **cools** the gas: molecules use internal energy to do work pushing outward (adiabatic cooling). Compression warms.\n\n## Simplified explanation\n\nExpanding air **cools**, not warms: false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The thermosphere, mesosphere and stratosphere shield life on Earth from damaging rays.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nThe **thermosphere** absorbs X-rays and extreme UV; the **stratosphere's ozone layer** absorbs harmful **UV-B/UV-C**; the **mesosphere** burns up meteors. Together the upper layers protect life.\n\n## Simplified explanation\n\nThe upper layers block harmful rays (ozone especially): true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Structure of the Atmosphere",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Solar intensity**, defined as the _______, is different at different latitudes.",
+  "options": [
+   {
+    "text": "radiation",
+    "hint": "Too general."
+   },
+   {
+    "text": "solar light",
+    "hint": "No."
+   },
+   {
+    "text": "rays passing through atmosphere",
+    "hint": "No."
+   },
+   {
+    "text": "energy per area",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Same energy over a bigger area.",
+  "explanation": "## Advanced explanation\n\nSolar intensity = **energy received per unit area** ($W/m^2$). At high latitudes the Sun's rays strike at a **low angle**, spreading the same energy over a larger area and passing through more atmosphere, so intensity is lower than at the equator.\n\n## Simplified explanation\n\nIt is **energy per area**; slanting rays near the poles spread energy thinner.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A balance exists between incoming solar and outgoing long-wave energy averaged over the globe and the year (with latent heat release, and so on). This is termed the",
+  "options": [
+   {
+    "text": "total water budget",
+    "hint": "No."
+   },
+   {
+    "text": "global water budget",
+    "hint": "That concerns water."
+   },
+   {
+    "text": "global energy budget",
+    "hint": "Correct."
+   },
+   {
+    "text": "total energy budget",
+    "hint": "Not the standard term."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Energy in = energy out.",
+  "explanation": "## Advanced explanation\n\nThe **global energy (radiation) budget**: about `340 W/m²` of incoming solar radiation is balanced on average by reflected shortwave plus emitted longwave radiation, with transfers by sensible and latent heat. An imbalance (as greenhouse gases increase) causes warming.\n\n## Simplified explanation\n\nEnergy coming in balances energy going out: the **global energy budget**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the current global mean **surface temperature**?",
+  "options": [
+   {
+    "text": "25 °C",
+    "hint": "Too high."
+   },
+   {
+    "text": "15 °C",
+    "hint": "Correct (about 14–15 °C)."
+   },
+   {
+    "text": "32 °C",
+    "hint": "Far too high."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Without greenhouse gases it would be −18 °C.",
+  "explanation": "## Advanced explanation\n\nEarth's mean surface temperature is about **15 °C**. Without the natural **greenhouse effect** it would be about **−18 °C**: a 33 °C difference.\n\n## Simplified explanation\n\nOn average the Earth's surface is about **15 °C**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Heat & Radiation",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What are the main **greenhouse gases** in the Earth's atmosphere?",
+  "options": [
+   {
+    "text": "H₂O, CO₂, CH₄, O₃, CFCs, NO₂",
+    "hint": "Correct (the best option; strictly nitrous oxide, N₂O)."
+   },
+   {
+    "text": "H₂O, CO₂, CH₄, O₂, CFCs, NO₂",
+    "hint": "O₂ is not a greenhouse gas."
+   },
+   {
+    "text": "H₂O, CO₂, CH₄, O₃, CFCs, HNO₃",
+    "hint": "HNO₃ is not a main greenhouse gas."
+   },
+   {
+    "text": "H₂SO₄, CO₂, CH₄, O₃, CFCs, NO₂",
+    "hint": "H₂SO₄ forms cooling aerosols."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which molecules absorb infrared?",
+  "explanation": "## Advanced explanation\n\nGreenhouse gases absorb and re-emit **infrared**: **water vapour**, **carbon dioxide**, **methane**, **ozone**, **nitrous oxide (N₂O)** and **CFCs/halocarbons**. N₂ and O₂ (99% of air) are transparent to infrared.\n\n## Simplified explanation\n\nThe main greenhouse gases: water vapour, CO₂, methane, ozone, CFCs and nitrogen oxides.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atmospheric Chemistry",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Methane can be destroyed in the atmosphere via reaction with the **hydroxyl radical**: $CH_4 + OH \\rightarrow \\_\\_\\_ + H_2O$. Complete the reaction.",
+  "options": [
+   {
+    "text": "CH₃O",
+    "hint": "No."
+   },
+   {
+    "text": "CH₃",
+    "hint": "Correct. OH abstracts a hydrogen atom."
+   },
+   {
+    "text": "CH₃OH",
+    "hint": "No."
+   },
+   {
+    "text": "CH₂",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "OH takes one H to make water.",
+  "explanation": "## Advanced explanation\n\n$$CH_4 + OH \\rightarrow CH_3 + H_2O$$ The **OH radical** (the atmosphere's 'detergent') removes methane, giving it a lifetime of about 9–12 years.\n\n## Simplified explanation\n\nOH grabs one hydrogen to make water, leaving **CH₃**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atmospheric Chemistry",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **Montreal Protocol** was aimed at",
+  "options": [
+   {
+    "text": "banning trans-boundary shipments of hazardous waste",
+    "hint": "Basel Convention."
+   },
+   {
+    "text": "banning dumping of radioactive and hazardous wastes in the oceans",
+    "hint": "London Convention."
+   },
+   {
+    "text": "export of hazardous chemical wastes from industrialised to developing countries",
+    "hint": "No."
+   },
+   {
+    "text": "curbing the use of ozone-depleting substances",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "1987, ozone layer.",
+  "explanation": "## Advanced explanation\n\nThe **Montreal Protocol (1987)** phases out **ozone-depleting substances** (CFCs, halons, carbon tetrachloride). It is regarded as the most successful environmental treaty: the ozone layer is recovering.\n\n## Simplified explanation\n\nMontreal = protect the **ozone layer** by phasing out CFCs.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are objectives of the **2012 Earth Summit (Rio+20)** **except**",
+  "options": [
+   {
+    "text": "to secure renewed political commitment to sustainable development",
+    "hint": "An objective."
+   },
+   {
+    "text": "to assess progress towards internationally agreed goals on sustainable development",
+    "hint": "An objective."
+   },
+   {
+    "text": "to address new and emerging challenges",
+    "hint": "An objective."
+   },
+   {
+    "text": "to increase solar energy production to replace fossil fuel",
+    "hint": "Correct. Not one of the three official objectives."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Three official objectives.",
+  "explanation": "## Advanced explanation\n\nRio+20 (UN Conference on Sustainable Development, 2012) had **three objectives**: renewed political commitment, assessing progress and gaps, and addressing new and emerging challenges, with themes of the **green economy** and an **institutional framework**. It launched the process leading to the **SDGs**.\n\n## Simplified explanation\n\nRio+20 aimed to renew commitment, check progress and face new challenges, not specifically to increase solar power.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Where is the **United Nations Headquarters**?",
+  "options": [
+   {
+    "text": "London",
+    "hint": "No."
+   },
+   {
+    "text": "Geneva",
+    "hint": "UN European offices."
+   },
+   {
+    "text": "Tokyo",
+    "hint": "No."
+   },
+   {
+    "text": "New York",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Manhattan.",
+  "explanation": "## Advanced explanation\n\nThe UN Headquarters is in **New York** (since 1952); major offices are in Geneva, Vienna and Nairobi (UNEP headquarters).\n\n## Simplified explanation\n\nThe UN is headquartered in **New York**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "There are _______ **Sustainable Development Goals (SDGs)**.",
+  "options": [
+   {
+    "text": "5",
+    "hint": "No."
+   },
+   {
+    "text": "8",
+    "hint": "Those were the Millennium Development Goals."
+   },
+   {
+    "text": "17",
+    "hint": "Correct."
+   },
+   {
+    "text": "20",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "2015–2030 agenda.",
+  "explanation": "## Advanced explanation\n\nThe **2030 Agenda** (adopted 2015) has **17 SDGs** with 169 targets, succeeding the **8 MDGs** (2000–2015).\n\n## Simplified explanation\n\nThere are **17** SDGs.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many **nations** participated in the **Rio de Janeiro Earth Summit in 1992**?",
+  "options": [
+   {
+    "text": "172",
+    "hint": "Correct."
+   },
+   {
+    "text": "108",
+    "hint": "That was the number of heads of state/government."
+   },
+   {
+    "text": "2,400",
+    "hint": "NGO representatives."
+   },
+   {
+    "text": "17,000",
+    "hint": "Parallel NGO forum participants."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Governments represented.",
+  "explanation": "## Advanced explanation\n\nThe **UN Conference on Environment and Development (UNCED, Rio 1992)** had **172 governments** (108 heads of state/government), about 2,400 NGO representatives and about 17,000 at the parallel forum. It produced **Agenda 21**, the **Rio Declaration**, the **UNFCCC**, the **CBD** and the Forest Principles.\n\n## Simplified explanation\n\n**172** countries took part.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which continent hosted **Rio+10**, the 2002 World Summit on Sustainable Development?",
+  "options": [
+   {
+    "text": "Europe",
+    "hint": "No."
+   },
+   {
+    "text": "Asia",
+    "hint": "No."
+   },
+   {
+    "text": "Africa",
+    "hint": "Correct. Johannesburg, South Africa."
+   },
+   {
+    "text": "America",
+    "hint": "Rio 1992 and Rio+20 were in South America."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Johannesburg.",
+  "explanation": "## Advanced explanation\n\nThe **World Summit on Sustainable Development (Rio+10)** was held in **Johannesburg, South Africa (2002)**.\n\n## Simplified explanation\n\nRio+10 was in **Johannesburg, Africa**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In **1997** the **Kyoto Protocol** established legally binding obligations for developed countries to",
+  "options": [
+   {
+    "text": "increase family planning and population reduction",
+    "hint": "No."
+   },
+   {
+    "text": "ban toxic chemicals",
+    "hint": "No."
+   },
+   {
+    "text": "reduce greenhouse gas emissions",
+    "hint": "Correct."
+   },
+   {
+    "text": "ban dumping of radioactive and hazardous waste in oceans",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Climate treaty.",
+  "explanation": "## Advanced explanation\n\nThe **Kyoto Protocol** (under the UNFCCC) bound **developed (Annex I) countries** to cut greenhouse-gas emissions by an average **5.2% below 1990 levels** in 2008–2012, with market mechanisms (emissions trading, CDM).\n\n## Simplified explanation\n\nKyoto made rich countries **cut greenhouse gases**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following issues were addressed at the **Rio Summit 1992** to achieve sustainable development **except**",
+  "options": [
+   {
+    "text": "production of toxic components",
+    "hint": "Addressed (e.g. lead in gasoline)."
+   },
+   {
+    "text": "use of alternative energy sources to replace fossil fuel",
+    "hint": "Addressed."
+   },
+   {
+    "text": "reliance on public transport",
+    "hint": "Addressed."
+   },
+   {
+    "text": "use of nuclear energy",
+    "hint": "Correct. Not promoted."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which was not promoted?",
+  "explanation": "## Advanced explanation\n\nRio 1992 addressed **production patterns** (toxic components such as lead in petrol, poisonous waste), **alternative energy** to replace fossil fuels, **public transport** to reduce emissions and congestion, and **water scarcity**. Nuclear energy was not among them.\n\n## Simplified explanation\n\nRio 1992 did **not** promote nuclear energy.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are **green energy** sources **except**",
+  "options": [
+   {
+    "text": "tidal wave energy",
+    "hint": "Renewable."
+   },
+   {
+    "text": "wind energy",
+    "hint": "Renewable."
+   },
+   {
+    "text": "solar energy",
+    "hint": "Renewable."
+   },
+   {
+    "text": "fossil energy",
+    "hint": "Correct. Non-renewable, high-carbon."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Renewable vs fossil.",
+  "explanation": "## Advanced explanation\n\nGreen/renewable energy: solar, wind, hydro, tidal/wave, geothermal, sustainable biomass. **Fossil fuels** (coal, oil, gas) are finite and emit CO₂.\n\n## Simplified explanation\n\n**Fossil** energy is not green.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What was the **first task of the UNFCCC**, which came into force on **21 March 1994**?",
+  "options": [
+   {
+    "text": "to subsidise fossil fuel to developing countries",
+    "hint": "No."
+   },
+   {
+    "text": "to establish public transport in developing countries",
+    "hint": "No."
+   },
+   {
+    "text": "to establish national greenhouse gas inventories",
+    "hint": "Correct."
+   },
+   {
+    "text": "to reduce congestion in cities and the health problems",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "You must measure before you reduce.",
+  "explanation": "## Advanced explanation\n\nThe UNFCCC's first task was to establish **national greenhouse-gas inventories** of emissions and removals, the baseline for commitments such as Kyoto's reductions relative to 1990.\n\n## Simplified explanation\n\nFirst, countries had to **count their greenhouse-gas emissions**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What percentage of the world population **consumes 80%** of the world's resources?",
+  "options": [
+   {
+    "text": "80%",
+    "hint": "No."
+   },
+   {
+    "text": "60%",
+    "hint": "No."
+   },
+   {
+    "text": "40%",
+    "hint": "No."
+   },
+   {
+    "text": "20%",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Rich minority.",
+  "explanation": "## Advanced explanation\n\nA widely cited figure (Rio-era reports): the **richest 20%** of the world's population consume about **80%** of its resources: the core equity concern of sustainable development.\n\n## Simplified explanation\n\nThe richest **20%** use about **80%** of resources.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The moderate rate of **species extinction** and habitat loss of plants and animals as at 1997 was",
+  "options": [
+   {
+    "text": "50,000 per day",
+    "hint": "Too high."
+   },
+   {
+    "text": "50,000 per month",
+    "hint": "Too high."
+   },
+   {
+    "text": "50,000 per annum",
+    "hint": "Correct."
+   },
+   {
+    "text": "50,000 per decade",
+    "hint": "Too low."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Per year.",
+  "explanation": "## Advanced explanation\n\nEstimates around Rio+5 (1997) put extinctions at roughly **50,000 species per year** (mostly unrecorded tropical species), many times the natural background rate.\n\n## Simplified explanation\n\nAbout **50,000 species a year**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "At Rio, developed countries were to provide **0.7% of their GNP** as development assistance. What percentage of their GNP was actually made available in **1995**?",
+  "options": [
+   {
+    "text": "0.7%",
+    "hint": "The target, not reality."
+   },
+   {
+    "text": "0.34%",
+    "hint": "No."
+   },
+   {
+    "text": "0.27%",
+    "hint": "Correct."
+   },
+   {
+    "text": "0.43%",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Far below target.",
+  "explanation": "## Advanced explanation\n\nOfficial Development Assistance from OECD donors fell to about **0.27% of GNP in 1995** (and lower in 1997), far below the **0.7%** target agreed at the UN in 1970 and reaffirmed at Rio.\n\n## Simplified explanation\n\nRich countries gave only about **0.27%**, far below the 0.7% promised.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blanks:\n(a) About **80%** of the world's forests are _______ owned.\n(b) At the UN in **1970**, countries agreed to the **0.7%** target to be dedicated to _______, or foreign aid, which has been met by only a handful of developed countries.\n(c) In **2012**, 27% of the world population lives in _______, down from 46% in 1990.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) **publicly** owned · (b) **Official Development Assistance (ODA)** · (c) **extreme poverty** (below $1.25 a day).",
+  "explanation": "## Advanced explanation\n\n- **Forest ownership:** about 80% of the world's forests are **publicly owned** (state), though community and private ownership are growing.\n- **ODA:** the **0.7% of GNI** target (UN General Assembly, 1970) for **Official Development Assistance**; only a few donors (e.g. Norway, Sweden, Denmark, Luxembourg, Netherlands, UK in some years) meet it.\n- **Poverty:** the share living in **extreme poverty** fell sharply (MDG target 1), though inequality and hunger persist.\n\n## Simplified explanation\n\nMost forests are owned by **governments**; the 0.7% target is for **foreign aid (ODA)**; and fewer people now live in **extreme poverty**.",
+  "hint": "Ownership, aid, poverty.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **Alliance of Small Island States (AOSIS)** called for a **20% reduction** of greenhouse gases below **1990** levels by **2005**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nAOSIS, whose members face sea-level rise, proposed a protocol (1994–95) requiring developed countries to cut CO₂ emissions **20% below 1990 levels by 2005** (the 'Toronto target').\n\n## Simplified explanation\n\nAOSIS asked for a **20% cut by 2005**: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "About **25%** of carbon dioxide emissions are absorbed by seas and oceans.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nThe oceans absorb roughly **a quarter** of human CO₂ emissions (land ecosystems another ~30%), slowing warming but causing **ocean acidification**.\n\n## Simplified explanation\n\nOceans soak up about a quarter of CO₂: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atmospheric Chemistry",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "There were **37 megacities** with at least 10 million people in **2011**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "No: the statement is false."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nThe UN's _World Urbanization Prospects 2011_ counted **23 megacities** (10 million+) in 2011, projected to rise to 37 by 2025.\n\n## Simplified explanation\n\nThere were **23** megacities in 2011 (37 was a 2025 projection): false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Greenpeace hung a banner in Rio at the end of the 1992 Earth Summit, with **'SOLD'** stamped over the planet.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nGreenpeace protested that the summit had been dominated by corporate and national interests, hanging a giant banner of the **Earth stamped 'SOLD'**, expressing NGOs' disappointment with weak, non-binding outcomes.\n\n## Simplified explanation\n\nGreenpeace protested that the planet had been 'sold': true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "About **85%** of all fish stocks in the oceans are now over-exploited, depleted, recovering or fully exploited.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "No: the statement is true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check the key word.",
+  "explanation": "## Advanced explanation\n\nFAO assessments (around 2010–2012) found about **85% of fish stocks** fully exploited, over-exploited, depleted or recovering from depletion: a key sustainability concern.\n\n## Simplified explanation\n\nMost fish stocks (about 85%) are under heavy pressure: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Environmental Summits & Sustainability",
+   "2016 Paper"
+  ]
+ }
+]

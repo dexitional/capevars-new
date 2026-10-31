@@ -1,0 +1,2055 @@
+[
+ {
+  "type": "choice",
+  "body": "The term **megahertz (MHz)** means",
+  "options": [
+   {
+    "text": "thousands of cycles per second",
+    "hint": "Not this one."
+   },
+   {
+    "text": "millions of cycles per second",
+    "hint": "Correct."
+   },
+   {
+    "text": "billions of cycles per second",
+    "hint": "Not this one."
+   },
+   {
+    "text": "millions of cycles per minute",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nHertz = cycles per second; **mega** = $10^{6}$, so 1 MHz = **1 million cycles per second**. Processor clock speeds are now usually in **GHz** (billions).\n\n## Simplified explanation\n\n**Mega** = million, so MHz = a million cycles each second.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which represents the correct sequence in the development of the **logical components** of computers?",
+  "options": [
+   {
+    "text": "microprocessors → integrated circuits → transistors → vacuum tubes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "transistors → integrated circuits → vacuum tubes → microprocessors",
+    "hint": "Not this one."
+   },
+   {
+    "text": "vacuum tubes → transistors → integrated circuits → microprocessors",
+    "hint": "Correct."
+   },
+   {
+    "text": "vacuum tubes → integrated circuits → transistors → microprocessors",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nComputer **generations**: 1st (1940s–50s) **vacuum tubes** → 2nd (late 1950s–60s) **transistors** → 3rd (1960s–70s) **integrated circuits** → 4th (1971+) **microprocessors** (VLSI) → 5th AI and parallel processing.\n\n## Simplified explanation\n\nTubes → transistors → chips (ICs) → microprocessors.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** an example of a **personal computer**?",
+  "options": [
+   {
+    "text": "notebook",
+    "hint": "Not this one."
+   },
+   {
+    "text": "laptop",
+    "hint": "Not this one."
+   },
+   {
+    "text": "supercomputer",
+    "hint": "Correct."
+   },
+   {
+    "text": "desktop",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nPersonal computers (desktops, laptops/notebooks, tablets) serve one user. **Supercomputers** are extremely powerful machines for scientific modelling (weather, nuclear simulation).\n\n## Simplified explanation\n\nA **supercomputer** is a giant research machine, not a PC.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** an **input** device?",
+  "options": [
+   {
+    "text": "light pen",
+    "hint": "Not this one."
+   },
+   {
+    "text": "scanner",
+    "hint": "Not this one."
+   },
+   {
+    "text": "printer",
+    "hint": "Correct."
+   },
+   {
+    "text": "mouse",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Input** devices send data into the computer (keyboard, mouse, scanner, light pen, microphone). A **printer** is an **output** device.\n\n## Simplified explanation\n\nA printer **gives out** paper; it is output.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** an **output** device?",
+  "options": [
+   {
+    "text": "keyboard",
+    "hint": "Correct."
+   },
+   {
+    "text": "monitor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "printer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "speaker",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOutput devices present results (monitor, printer, speaker, projector). The **keyboard** is input.\n\n## Simplified explanation\n\nThe **keyboard** puts data in.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is **not** a commonly known type of **printer**?",
+  "options": [
+   {
+    "text": "dot matrix",
+    "hint": "Not this one."
+   },
+   {
+    "text": "ink jet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "laser jet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pen jet",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCommon printers: **dot-matrix** (impact), **inkjet**, **laser**, thermal; plotters for drawings. 'Pen jet' is not a printer type.\n\n## Simplified explanation\n\nThere is no 'pen jet' printer.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A computer stores",
+  "options": [
+   {
+    "text": "data only",
+    "hint": "Not this one."
+   },
+   {
+    "text": "instructions only",
+    "hint": "Not this one."
+   },
+   {
+    "text": "both data and instructions",
+    "hint": "Correct."
+   },
+   {
+    "text": "randomly only",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nIn the **stored-program (von Neumann) concept**, memory holds **both programs (instructions) and data**.\n\n## Simplified explanation\n\nComputers keep **both** the data and the instructions.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **computer**?",
+  "options": [
+   {
+    "text": "an electronic machine that can stimulate data",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a machine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an electronic machine that can process and store data",
+    "hint": "Correct."
+   },
+   {
+    "text": "an electronic machine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA computer is an **electronic device** that **accepts input, processes data** according to stored instructions, **stores** data and **produces output** (the IPOS cycle).\n\n## Simplified explanation\n\nA computer **processes and stores data** electronically.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **PC**?",
+  "options": [
+   {
+    "text": "personal computational machine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "desktop",
+    "hint": "Not this one."
+   },
+   {
+    "text": "mini computer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "low-cost computer usually desktop size",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **personal computer** is a relatively **low-cost**, general-purpose microcomputer for one user, typically **desktop** or laptop size.\n\n## Simplified explanation\n\nA PC is an affordable computer for one person.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**ROM** stands for",
+  "options": [
+   {
+    "text": "Read Only Memory",
+    "hint": "Correct."
+   },
+   {
+    "text": "Read Output Memory",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Random Only Memory",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Read Only Memorize",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**ROM (Read-Only Memory)** is non-volatile memory holding permanent instructions such as the **BIOS/firmware** used at start-up; **RAM** is volatile working memory.\n\n## Simplified explanation\n\nROM = **Read Only Memory**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2019/20 Paper",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**CPU** means",
+  "options": [
+   {
+    "text": "Central Processor Unit",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Central Processing Unit",
+    "hint": "Correct."
+   },
+   {
+    "text": "Common Processing Unit",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Central Processing Utility",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **Central Processing Unit** (processor) executes instructions: the **ALU** (arithmetic/logic), **control unit** and **registers**.\n\n## Simplified explanation\n\nCPU = **Central Processing Unit**: the computer's brain.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What do we call the **programs** used on a computer?",
+  "options": [
+   {
+    "text": "utility",
+    "hint": "Not this one."
+   },
+   {
+    "text": "software",
+    "hint": "Correct."
+   },
+   {
+    "text": "operating system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "translator",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Software** is the general term for programs: **system software** (OS, utilities, translators) and **application software** (word processors, games).\n\n## Simplified explanation\n\nPrograms are **software**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **program**?",
+  "options": [
+   {
+    "text": "A set of instructions that tells the computer what to do",
+    "hint": "Correct."
+   },
+   {
+    "text": "a set of codes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an instruction",
+    "hint": "Not this one."
+   },
+   {
+    "text": "computer software",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **program** is an ordered **set of instructions** written in a programming language that directs the computer to perform a task.\n\n## Simplified explanation\n\nA program is a **list of instructions** for the computer.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is an **operating system**?",
+  "options": [
+   {
+    "text": "the software responsible for controlling the allocation and usage of hardware resources",
+    "hint": "Correct."
+   },
+   {
+    "text": "the software responsible for controlling the allocation and implementation of hardware resources",
+    "hint": "Not this one."
+   },
+   {
+    "text": "the software responsible for determining the allocation and usage of resources",
+    "hint": "Not this one."
+   },
+   {
+    "text": "the software responsible for controlling the allocation and usage of hardware",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **OS** (Windows, macOS, Linux, Android) is system software that **controls the allocation and usage of hardware resources** (CPU, memory, storage, I/O) and provides the user interface and services for applications.\n\n## Simplified explanation\n\nThe OS **manages the hardware** for all the other programs.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Computer **machinery** is the",
+  "options": [
+   {
+    "text": "utility",
+    "hint": "Not this one."
+   },
+   {
+    "text": "software",
+    "hint": "Not this one."
+   },
+   {
+    "text": "operating system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "hardware",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Hardware** = the physical components you can touch (CPU, memory, keyboard, monitor); **software** = programs.\n\n## Simplified explanation\n\nThe physical machine is **hardware**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What do you understand by **booting**?",
+  "options": [
+   {
+    "text": "switching on (starting) the system",
+    "hint": "Correct."
+   },
+   {
+    "text": "switching out the system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "switching off the system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "switching in the system",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Booting** is **starting up** the computer: the BIOS/UEFI runs a self-test (POST) and loads the **operating system** into memory. Cold boot = from power off; warm boot = restart.\n\n## Simplified explanation\n\nBooting = **starting** the computer.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **mouse** used for?",
+  "options": [
+   {
+    "text": "to give instructions to a computer",
+    "hint": "Correct."
+   },
+   {
+    "text": "to execute programs",
+    "hint": "Not this one."
+   },
+   {
+    "text": "to program the computer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "to guide the computer",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe mouse is a **pointing input device** used to select, click and drag, i.e. to **give instructions** in a graphical interface.\n\n## Simplified explanation\n\nYou use a mouse to **tell the computer what to do** by pointing and clicking.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **directory**?",
+  "options": [
+   {
+    "text": "shortcut",
+    "hint": "Not this one."
+   },
+   {
+    "text": "folder",
+    "hint": "Correct."
+   },
+   {
+    "text": "program",
+    "hint": "Not this one."
+   },
+   {
+    "text": "dictionary",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **directory** is a **folder**: a container organising files (and sub-directories) in the file system hierarchy.\n\n## Simplified explanation\n\nA directory is a **folder**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A small picture that represents either a program or a shortcut is",
+  "options": [
+   {
+    "text": "an icon",
+    "hint": "Correct."
+   },
+   {
+    "text": "a graphic",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a pointer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a shortcut",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nAn **icon** is a small image in a GUI representing a program, file, folder or shortcut.\n\n## Simplified explanation\n\nThat little picture is an **icon**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **menu**?",
+  "options": [
+   {
+    "text": "a list of items (commands/options)",
+    "hint": "Correct."
+   },
+   {
+    "text": "a picture",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a list of food",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a program",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nIn software, a **menu** is a **list of commands or options** the user can choose from (File, Edit, View…).\n\n## Simplified explanation\n\nA menu is a **list of choices**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **window**?",
+  "options": [
+   {
+    "text": "a rectangular box that contains programs",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a rectangular box that contains icons or data (information)",
+    "hint": "Correct."
+   },
+   {
+    "text": "a triangular box that contains icons or data (information)",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a box that contains icons or data (information)",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **window** is a **rectangular** area of the screen displaying a program, document, icons or data; GUIs (e.g. Microsoft Windows) let several windows be open at once.\n\n## Simplified explanation\n\nA window is a **rectangle** on screen showing icons or information.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**GUI** stands for",
+  "options": [
+   {
+    "text": "Ground User Interface",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Graphical Utility Interface",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Graphical User Intensity",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Graphical User Interface",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **Graphical User Interface** uses windows, icons, menus and a pointer (**WIMP**) instead of typed commands (CLI).\n\n## Simplified explanation\n\nGUI = **Graphical User Interface**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**RAM** chips are",
+  "options": [
+   {
+    "text": "available",
+    "hint": "Not this one."
+   },
+   {
+    "text": "downloadable",
+    "hint": "Not this one."
+   },
+   {
+    "text": "set",
+    "hint": "Not this one."
+   },
+   {
+    "text": "upgradeable",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nRAM modules can be **added or replaced** to increase memory, i.e. RAM is **upgradeable** (subject to the motherboard's slots and limits).\n\n## Simplified explanation\n\nYou can **add more RAM**: it is upgradeable.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is **not** an **external storage** device?",
+  "options": [
+   {
+    "text": "CD-ROM",
+    "hint": "Not this one."
+   },
+   {
+    "text": "hard disk",
+    "hint": "Not this one."
+   },
+   {
+    "text": "RAM",
+    "hint": "Correct."
+   },
+   {
+    "text": "magnetic tapes",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**RAM** is **primary (main) memory**, volatile and inside the computer, not a storage device. Secondary/backing storage includes hard disks (internal or external), CDs/DVDs, tapes, flash drives.\n\n## Simplified explanation\n\n**RAM** is memory, not a storage device.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The use of a computer to **create, revise and save documents** for printing and future retrieval is",
+  "options": [
+   {
+    "text": "desktop publishing",
+    "hint": "Not this one."
+   },
+   {
+    "text": "MS Word",
+    "hint": "Not this one."
+   },
+   {
+    "text": "word processing",
+    "hint": "Correct."
+   },
+   {
+    "text": "spreadsheeting",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Word processing** is the activity; **MS Word** is one word-processing program. Desktop publishing focuses on page layout.\n\n## Simplified explanation\n\nTyping and editing documents is **word processing**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What do you use to **enter data** into the computer?",
+  "options": [
+   {
+    "text": "keyboard",
+    "hint": "Correct."
+   },
+   {
+    "text": "printer",
+    "hint": "Not this one."
+   },
+   {
+    "text": "plotter",
+    "hint": "Not this one."
+   },
+   {
+    "text": "screen",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **keyboard** is the main text input device; printers, plotters and screens are output devices.\n\n## Simplified explanation\n\nYou type data in with a **keyboard**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A program used to **create text files or make changes** to existing files is",
+  "options": [
+   {
+    "text": "an application software",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a dump",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an editor",
+    "hint": "Correct."
+   },
+   {
+    "text": "a word processor",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **(text) editor** (Notepad, vi, VS Code) creates and modifies plain-text files, including program source code.\n\n## Simplified explanation\n\nA program for writing and changing text files is an **editor**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The operating system, as a **resource manager**, manages the following hardware resources **except**",
+  "options": [
+   {
+    "text": "Windows",
+    "hint": "Correct."
+   },
+   {
+    "text": "input/output devices",
+    "hint": "Not this one."
+   },
+   {
+    "text": "secondary storage devices",
+    "hint": "Not this one."
+   },
+   {
+    "text": "primary memory",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe OS manages the **processor, primary memory, secondary storage and I/O devices**. **Windows** is itself an operating system (or a GUI element), not a hardware resource.\n\n## Simplified explanation\n\nWindows is software, not hardware the OS manages.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A computer language that consists of **binary digits** is called",
+  "options": [
+   {
+    "text": "hypertext language",
+    "hint": "Not this one."
+   },
+   {
+    "text": "low-level language",
+    "hint": "Not this one."
+   },
+   {
+    "text": "high-level language",
+    "hint": "Not this one."
+   },
+   {
+    "text": "machine language",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Machine language** is the only language the CPU executes directly: instructions as **binary (0s and 1s)**. Assembly (mnemonics) is also low-level; Python and Java are high-level.\n\n## Simplified explanation\n\n1s and 0s = **machine language**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**PowerPoint** is",
+  "options": [
+   {
+    "text": "an application program for graphics",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an application program for spreadsheets",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an application program for document preparation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "an application program for presentations",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nMicrosoft **PowerPoint** is **presentation software** for creating slide shows (like Google Slides and Keynote).\n\n## Simplified explanation\n\nPowerPoint makes **slide presentations**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which type of software is used to create a **slide show**?",
+  "options": [
+   {
+    "text": "web design software",
+    "hint": "Not this one."
+   },
+   {
+    "text": "presentation software",
+    "hint": "Correct."
+   },
+   {
+    "text": "word-processing software",
+    "hint": "Not this one."
+   },
+   {
+    "text": "spreadsheet software",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Presentation software** (PowerPoint, Keynote, Google Slides) creates slides with text, images, charts and transitions.\n\n## Simplified explanation\n\nSlide shows are made with **presentation software**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Software & Operating Systems",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **browser** is a",
+  "options": [
+   {
+    "text": "tool for defining web pages",
+    "hint": "Not this one."
+   },
+   {
+    "text": "software tool for looking at web pages",
+    "hint": "Correct."
+   },
+   {
+    "text": "software tool for looking at pages",
+    "hint": "Not this one."
+   },
+   {
+    "text": "software tool for describing web pages",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA web **browser** (Chrome, Firefox, Edge, Safari) retrieves and **displays web pages** over HTTP/HTTPS. HTML _describes_ pages.\n\n## Simplified explanation\n\nA browser lets you **view web pages**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**MAN** stands for",
+  "options": [
+   {
+    "text": "Metropolitan Access Nature",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Metropolitan Access Network",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Metropolitan Area Network",
+    "hint": "Correct."
+   },
+   {
+    "text": "Metro Area Network",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Metropolitan Area Network**: a network spanning a city, between a LAN (building) and a WAN (country/world).\n\n## Simplified explanation\n\nMAN = **Metropolitan Area Network** (a city-wide network).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**e-mail** is short for",
+  "options": [
+   {
+    "text": "electronic mail",
+    "hint": "Correct."
+   },
+   {
+    "text": "electric mail",
+    "hint": "Not this one."
+   },
+   {
+    "text": "expanded mail",
+    "hint": "Not this one."
+   },
+   {
+    "text": "external mail",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**E-mail = electronic mail**: messages sent over networks using protocols such as SMTP, POP3 and IMAP.\n\n## Simplified explanation\n\nEmail = **electronic mail**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **Internet** is",
+  "options": [
+   {
+    "text": "a public network",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a global network",
+    "hint": "Correct."
+   },
+   {
+    "text": "a general network",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a national network",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe Internet is a **global network of networks** linking computers worldwide via TCP/IP.\n\n## Simplified explanation\n\nThe Internet is a **worldwide** network.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**GIGO** is short for",
+  "options": [
+   {
+    "text": "Garbage In Garbage Outside",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Garbage In Garbage Outlet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Garbage Inside Garbage Outside",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Garbage In Garbage Out",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Garbage In, Garbage Out**: a computer's output is only as good as its input; wrong data gives wrong results.\n\n## Simplified explanation\n\nBad input gives bad output: **Garbage In, Garbage Out**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computer Basics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**HTTP** stands for",
+  "options": [
+   {
+    "text": "Hypertext Transfer Practice",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hypertext Transfer Practical",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hypertext Transmission Protocol",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hypertext Transfer Protocol",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**HyperText Transfer Protocol** is the protocol for transferring web pages; **HTTPS** is its encrypted (secure) version.\n\n## Simplified explanation\n\nHTTP = **Hypertext Transfer Protocol**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**HTML** stands for",
+  "options": [
+   {
+    "text": "Hypertext Markup Language",
+    "hint": "Correct."
+   },
+   {
+    "text": "Hover Technique Machine Language",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hypertest Makeup Language",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hover Test Makeup Language",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**HyperText Markup Language** uses tags (`<p>`, `<a>`, `<img>`) to structure web pages; CSS styles them and JavaScript adds behaviour.\n\n## Simplified explanation\n\nHTML = **Hypertext Markup Language**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **file server** is a",
+  "options": [
+   {
+    "text": "computer that provides access to files for remote users",
+    "hint": "Correct."
+   },
+   {
+    "text": "computer that provides access for remote users",
+    "hint": "Not this one."
+   },
+   {
+    "text": "computer that accesses files for remote users",
+    "hint": "Not this one."
+   },
+   {
+    "text": "computer that provides access",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **file server** stores shared files centrally and **provides access to them for users across a network**.\n\n## Simplified explanation\n\nA file server **shares files** with users on the network.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**CAI** stands for",
+  "options": [
+   {
+    "text": "Common assisted instruction",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Computer assisted instructor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Common assisted instructor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Computer assisted instruction",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Computer-Assisted Instruction**: using computers to deliver lessons, drills and tutorials. Related: CBT (Computer-Based Training), WBT (Web-Based Training).\n\n## Simplified explanation\n\nCAI = **Computer-Assisted Instruction**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**SDRAM** stands for",
+  "options": [
+   {
+    "text": "Static dynamic random access memory",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Synchronous dynamic random access memory",
+    "hint": "Correct."
+   },
+   {
+    "text": "Serial dynamic random access memory",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Synthetic dynamic random access memory",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Synchronous DRAM** synchronises with the system clock for faster transfers; DDR SDRAM (DDR4, DDR5) is today's standard PC memory.\n\n## Simplified explanation\n\nSDRAM = **Synchronous Dynamic RAM**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hardware & Storage",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**CBT** stands for",
+  "options": [
+   {
+    "text": "computer-base teaching",
+    "hint": "Not this one."
+   },
+   {
+    "text": "computer based training",
+    "hint": "Correct."
+   },
+   {
+    "text": "computer base training",
+    "hint": "Not this one."
+   },
+   {
+    "text": "computer based teacher",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Computer-Based Training**: learning delivered through computer software (tutorials, simulations), self-paced.\n\n## Simplified explanation\n\nCBT = **Computer-Based Training**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**MRI, CT-scan and ultrasound** devices are examples of the use of computers in",
+  "options": [
+   {
+    "text": "science (medicine)",
+    "hint": "Correct."
+   },
+   {
+    "text": "education",
+    "hint": "Not this one."
+   },
+   {
+    "text": "business",
+    "hint": "Not this one."
+   },
+   {
+    "text": "stock-exchange",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nMedical imaging (MRI, CT, ultrasound) relies on computers to **reconstruct images** from sensor data: computers in **science/medicine**.\n\n## Simplified explanation\n\nScanners in hospitals use computers: **science/medicine**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Design, shipping and process control** are a few uses of computers in",
+  "options": [
+   {
+    "text": "science",
+    "hint": "Not this one."
+   },
+   {
+    "text": "education",
+    "hint": "Not this one."
+   },
+   {
+    "text": "industry",
+    "hint": "Correct."
+   },
+   {
+    "text": "government",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nIn **industry** computers support **CAD** (design), **CAM** (manufacturing), logistics/shipping and **process control** (monitoring production lines).\n\n## Simplified explanation\n\nDesigning, shipping and controlling production: **industry**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**WWW** stands for",
+  "options": [
+   {
+    "text": "wide world web",
+    "hint": "Not this one."
+   },
+   {
+    "text": "web in wide world",
+    "hint": "Not this one."
+   },
+   {
+    "text": "world wide web",
+    "hint": "Correct."
+   },
+   {
+    "text": "none of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **World Wide Web** (Tim Berners-Lee, 1989) is the system of hyperlinked documents accessed over the Internet.\n\n## Simplified explanation\n\nWWW = **World Wide Web**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a **cochlear implant** used for?",
+  "options": [
+   {
+    "text": "allows the dumb to hear",
+    "hint": "Not this one."
+   },
+   {
+    "text": "allows the deaf to hear",
+    "hint": "Correct."
+   },
+   {
+    "text": "allows the hearing of music",
+    "hint": "Not this one."
+   },
+   {
+    "text": "allows the computer to make sound",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **cochlear implant** is an electronic device (with a microprocessor) that **stimulates the auditory nerve**, giving a sense of sound to people who are profoundly **deaf**: an example of computers in health.\n\n## Simplified explanation\n\nIt is a chip that helps **deaf** people hear.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "Health & Ergonomics",
+   "2019/20 Paper",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What does **WBT** stand for?",
+  "options": [
+   {
+    "text": "wired based transmission",
+    "hint": "Not this one."
+   },
+   {
+    "text": "world based training",
+    "hint": "Not this one."
+   },
+   {
+    "text": "web based training",
+    "hint": "Correct."
+   },
+   {
+    "text": "web based transmission",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Web-Based Training**: e-learning delivered over the Internet/intranet through a browser.\n\n## Simplified explanation\n\nWBT = **Web-Based Training**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Controlling access to sensitive electronic information so that **only those with a legitimate need** to access it are allowed to do so is known as",
+  "options": [
+   {
+    "text": "Piracy",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ethics",
+    "hint": "Not this one."
+   },
+   {
+    "text": "IT security",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**IT/information security** protects information through **access control** (authentication, authorisation), ensuring **confidentiality**, integrity and availability.\n\n## Simplified explanation\n\nKeeping information only for the right people is **IT security**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "'**Data cannot be changed without authorisation**' is an example of",
+  "options": [
+   {
+    "text": "Confidentiality",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Integrity",
+    "hint": "Correct."
+   },
+   {
+    "text": "Availability",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **CIA triad**: **confidentiality** (only authorised people can read), **integrity** (data is accurate and not altered without authorisation), **availability** (accessible when needed).\n\n## Simplified explanation\n\nProtecting data from unauthorised **change** = **integrity**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Backups, data encryption, data masking and data erasure** are components of",
+  "options": [
+   {
+    "text": "Incident management",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Digital forensics",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Data security",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Data security** measures protect data throughout its life: backups (availability), encryption and masking (confidentiality), secure erasure (disposal).\n\n## Simplified explanation\n\nThese all protect data: **data security**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A purchased, legal copy of software installed on **more computers than the licence allows** is",
+  "options": [
+   {
+    "text": "End-user piracy",
+    "hint": "Correct."
+   },
+   {
+    "text": "Internet piracy",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Captain hook",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Software counterfeiting",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**End-user piracy** = installing a single-licence copy on several machines, or using unlicensed copies in an organisation. Counterfeiting is copying and selling fake packages; Internet piracy is illegal downloading.\n\n## Simplified explanation\n\nInstalling one licence on many PCs is **end-user piracy**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The process of converting readable data into **unreadable characters** to prevent unauthorised access is",
+  "options": [
+   {
+    "text": "Compression",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Formatting",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Encryption",
+    "hint": "Correct."
+   },
+   {
+    "text": "Packaging",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Encryption** converts **plaintext** into **ciphertext** using an algorithm and key; only key holders can **decrypt** it.\n\n## Simplified explanation\n\nScrambling data so only the right people can read it is **encryption**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An injury or disorder of the muscles, nerves, tendons, ligaments and joints that can be associated with computer use is",
+  "options": [
+   {
+    "text": "Divergent strain injury",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Repetitive strain injury",
+    "hint": "Correct."
+   },
+   {
+    "text": "Convergent strain injury",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Contact strain injury",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Repetitive Strain Injury (RSI)**, e.g. **carpal tunnel syndrome** and tendonitis, results from repeated motions such as typing and mouse use. Prevention: ergonomic posture, breaks and exercises.\n\n## Simplified explanation\n\nPain from repeating the same movements (like typing) is **RSI**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Health & Ergonomics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A _______ is a program that **hides** in a computer and allows someone from a remote location to take **full control** of it.",
+  "options": [
+   {
+    "text": "worm",
+    "hint": "Not this one."
+   },
+   {
+    "text": "rootkit",
+    "hint": "Correct."
+   },
+   {
+    "text": "payload",
+    "hint": "Not this one."
+   },
+   {
+    "text": "cookie",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **rootkit** conceals itself (and other malware) and gives an attacker **administrator ('root') control** remotely. Worms self-replicate across networks; the payload is the malware's harmful action; cookies are small web data files.\n\n## Simplified explanation\n\nA hidden program giving remote control is a **rootkit**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Malware** is a term that can be used to describe",
+  "options": [
+   {
+    "text": "worms",
+    "hint": "Not this one."
+   },
+   {
+    "text": "rootkits",
+    "hint": "Not this one."
+   },
+   {
+    "text": "back doors",
+    "hint": "Not this one."
+   },
+   {
+    "text": "all of the above",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Malware** (malicious software) covers viruses, **worms**, Trojans, **rootkits**, **back doors**, spyware, ransomware and more.\n\n## Simplified explanation\n\nAll of these are **malware**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A _______ is an assault whose purpose is to **disrupt computer access** to an Internet service such as the Web or e-mail.",
+  "options": [
+   {
+    "text": "denial of service attack",
+    "hint": "Correct."
+   },
+   {
+    "text": "zombie",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Trojan horse",
+    "hint": "Not this one."
+   },
+   {
+    "text": "virus hoax",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **denial-of-service (DoS)** attack floods a server with traffic so legitimate users cannot access it; a **DDoS** uses a **botnet** of zombie computers.\n\n## Simplified explanation\n\nFlooding a service so people can't use it is a **DoS attack**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The examination of computer media, programs, data and log files on computers, servers and networks is known as",
+  "options": [
+   {
+    "text": "Encryption key",
+    "hint": "Not this one."
+   },
+   {
+    "text": "E-mail filtering",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Digital forensics",
+    "hint": "Correct."
+   },
+   {
+    "text": "Trusted source",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Digital (computer) forensics** collects, preserves and analyses digital evidence for investigations and legal proceedings.\n\n## Simplified explanation\n\nInvestigating computers for evidence is **digital forensics**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Physical access controls**, such as locked doors and windows, usually are adequate to protect against",
+  "options": [
+   {
+    "text": "software piracy",
+    "hint": "Not this one."
+   },
+   {
+    "text": "unauthorised access",
+    "hint": "Not this one."
+   },
+   {
+    "text": "hardware theft",
+    "hint": "Correct."
+   },
+   {
+    "text": "all of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nPhysical controls (locks, cables, alarms) protect against **hardware theft and vandalism**; software piracy and unauthorised logical access need technical and legal controls (licences, passwords, firewalls).\n\n## Simplified explanation\n\nLocked doors stop people **stealing the hardware**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A(n) _______ is a programmed formula that the originator of the data uses to encrypt the plaintext and the recipient uses to decrypt the ciphertext.",
+  "options": [
+   {
+    "text": "botnet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "certificate authority",
+    "hint": "Not this one."
+   },
+   {
+    "text": "encryption algorithm",
+    "hint": "Correct."
+   },
+   {
+    "text": "encryption key",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **encryption algorithm** is the formula/procedure (e.g. AES, RSA); the **key** is the secret value used with it.\n\n## Simplified explanation\n\nThe formula used to scramble and unscramble is the **encryption algorithm**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Some organisations continually review their _______, a ratio that measures how much power enters the computer facility or data centre against the power required to run the computers.",
+  "options": [
+   {
+    "text": "uninterruptible power supplies",
+    "hint": "Not this one."
+   },
+   {
+    "text": "public key encryption",
+    "hint": "Not this one."
+   },
+   {
+    "text": "ENERGY STAR program",
+    "hint": "Not this one."
+   },
+   {
+    "text": "power usage effectiveness (PUE)",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**PUE** = total facility power ÷ IT equipment power; the ideal is **1.0**. Lower PUE means less energy wasted on cooling and overheads: part of **green computing**.\n\n## Simplified explanation\n\nPUE measures how **efficiently** a data centre uses power.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "As related to the use of computers, _______ is defined as gaining unauthorised access or obtaining confidential information by **taking advantage of the trusting human nature** of some victims and the naivety of others.",
+  "options": [
+   {
+    "text": "phishing",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pharming",
+    "hint": "Not this one."
+   },
+   {
+    "text": "social engineering",
+    "hint": "Correct."
+   },
+   {
+    "text": "a virus hoax",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Social engineering** manipulates **people** rather than technology (pretexting, impersonating IT staff, baiting). **Phishing** (deceptive emails) is one form; **pharming** redirects users to fake websites.\n\n## Simplified explanation\n\nTricking people into giving information is **social engineering**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the **most used search engine**?",
+  "options": [
+   {
+    "text": "Yahoo",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Bing",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Google",
+    "hint": "Correct."
+   },
+   {
+    "text": "SOSO",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Google** handles around 90% of global search queries.\n\n## Simplified explanation\n\n**Google** is by far the most used.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What do you use to **connect to the Internet**?",
+  "options": [
+   {
+    "text": "CPU",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Mouse",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Modem",
+    "hint": "Correct."
+   },
+   {
+    "text": "Software",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **modem** (modulator–demodulator), or a router with a modem, connects a computer to the Internet service provider's network.\n\n## Simplified explanation\n\nA **modem** connects you to the Internet.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Internet & Networks",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following professions has **not** been affected by personal computers?",
+  "options": [
+   {
+    "text": "Medical",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Clerical and law",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Accounting",
+    "hint": "Not this one."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nPersonal computers have transformed **every** profession listed: medicine (records, imaging), clerical and legal work (word processing, case databases), accounting (spreadsheets, accounting software).\n\n## Simplified explanation\n\nComputers have affected **all** of them: none of the above.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Matching.** Match each definition with the correct term.\n\n1. A set of steps that can convert readable plaintext into unreadable ciphertext\n2. Private combination of words, often containing mixed capitalisation and punctuation, associated with a user name, that allows access to certain computer resources\n3. Protects a personal computer and its data from unauthorised intrusions\n4. Organisation or person you believe will not send a virus-infected file knowingly\n5. Area of the hard disk that holds an infected file until the infection can be removed\n6. Uses special electrical components to smooth out minor noise, provide a stable current flow, and keep an overvoltage from reaching the computer\n7. Group of compromised computers connected to a network such as the Internet, used to attack other networks\n8. Translates a personal characteristic into digital code\n9. Technique intruders use to make their network or Internet transmission appear legitimate to a victim computer or network\n10. Potentially damaging program that infects a computer by altering the way it works without the user's knowledge or permission\n\n**Terms:** worm · trusted source · quarantine · botnet · spoofing · surfing · personal firewall · passphrase · encryption key · encryption algorithm · biometric device · surge protector · virus",
+  "media": [],
+  "answer": "| # | Term |\n|---|---|\n| 1 | **Encryption algorithm** |\n| 2 | **Passphrase** |\n| 3 | **Personal firewall** |\n| 4 | **Trusted source** |\n| 5 | **Quarantine** |\n| 6 | **Surge protector** |\n| 7 | **Botnet** |\n| 8 | **Biometric device** |\n| 9 | **Spoofing** |\n| 10 | **Virus** |\n\n_Distractors: worm, surfing, encryption key._\n\n> [!answer]\n> 1 encryption algorithm · 2 passphrase · 3 personal firewall · 4 trusted source · 5 quarantine · 6 surge protector · 7 botnet · 8 biometric device · 9 spoofing · 10 virus.",
+  "explanation": "## Advanced explanation\n\nThese are core **security** terms (Shelly & Vermaat, _Discovering Computers_): an **algorithm** is the method and the **key** is the secret value; a **passphrase** is a longer password; a **worm** spreads by itself across networks (unlike a **virus**, which attaches to files); a **biometric device** reads fingerprints, faces or irises.\n\n## Simplified explanation\n\nMatch each description to its name, e.g. 'holds an infected file' = **quarantine**; 'compromised computers attacking others' = **botnet**.",
+  "hint": "Link each definition's key idea (steps, private words, protects, believe, holds, smooth current…) to a term.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Security & Ethics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Fill in the blanks (1).**\n11. CBT stands for _______.\n12. A type of educational software combining education and entertainment is _______.\n13. A chip that allows deaf persons to hear well is known as a _______.\n14. The use of computers to simulate a real or imagined environment that appears as three-dimensional space is _______.\n15. Application of human intelligence to computers is _______.\n16. Software that independently asks questions, pays attention to work patterns and carries out tasks on behalf of the user is _______.\n17. Applied science devoted to comfort, efficiency and safety in the workplace is _______.\n18. What occurs when a computer consumes someone's entire social life? _______\n19. The act of reducing electricity and environmental waste while using a computer is _______.\n20. Moral guidelines that govern use of computers and information systems are _______.",
+  "media": [],
+  "answer": "| # | Answer |\n|---|---|\n| 11 | **Computer-Based Training** |\n| 12 | **Edutainment** |\n| 13 | **Cochlear implant** |\n| 14 | **Virtual reality (VR)** |\n| 15 | **Artificial intelligence (AI)** |\n| 16 | **Intelligent agent** |\n| 17 | **Ergonomics** |\n| 18 | **Computer addiction** |\n| 19 | **Green computing** |\n| 20 | **Computer ethics** |\n\n> [!answer]\n> Computer-Based Training · edutainment · cochlear implant · virtual reality · artificial intelligence · intelligent agent · ergonomics · computer addiction · green computing · computer ethics.",
+  "explanation": "## Advanced explanation\n\nThese terms cover computers' **social impact**: in education (CBT, edutainment), health (cochlear implants, ergonomics, addiction), the environment (**green computing**: ENERGY STAR, recycling, power management), ethics and AI. **Intelligent agents** include personal assistants (Siri, Google Assistant) and shopping bots.\n\n## Simplified explanation\n\nLearn these computing words: CBT = training by computer; edutainment = learning + fun; VR = 3-D simulated world; AI = computers that think; ergonomics = safe, comfortable workplaces.",
+  "hint": "Key words: education + entertainment; 3-D simulation; human intelligence; on behalf of the user.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Computers in Society",
+   "Health & Ergonomics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Fill in the blanks (2).**\n21. The rights to which creators are entitled for their inventions, writings and works of art are _______.\n22. A prolonged malfunction of a computer is known as _______.\n23. Any item you must carry to gain access to a computer or computer facility is a _______.\n24. An injury or disorder of the muscles, nerves, tendons, ligaments and joints resulting from computer use is _______.\n25. What gives authors and artists exclusive rights to duplicate and sell their materials? _______\n26. CAM stands for _______.\n27. Unsolicited e-mail is termed _______.\n28. A small text file that a web server stores on your computer is a _______.\n29. DOS with respect to Internet service stands for _______.\n30. The acronym ROM stands for _______.",
+  "media": [],
+  "answer": "| # | Answer |\n|---|---|\n| 21 | **Intellectual property rights (IPR)** |\n| 22 | **System failure** |\n| 23 | **Possessed object** (e.g. badge, card, key) |\n| 24 | **Repetitive strain injury (RSI)** |\n| 25 | **Copyright** |\n| 26 | **Computer-Aided Manufacturing** |\n| 27 | **Spam** |\n| 28 | **Cookie** |\n| 29 | **Denial of Service** |\n| 30 | **Read-Only Memory** |\n\n> [!answer]\n> IPR · system failure · possessed object · RSI · copyright · Computer-Aided Manufacturing · spam · cookie · Denial of Service · Read-Only Memory.",
+  "explanation": "## Advanced explanation\n\n- **IPR** includes patents, copyrights and trademarks; **copyright** specifically protects literary and artistic works.\n- **System failure** causes: power problems (spikes, outages), hardware failure, natural disasters; protected by surge protectors and a **UPS**.\n- **Possessed objects** (badges, smart cards) are often combined with a **PIN** (two-factor authentication).\n- **Cookies** store preferences and session data (and can be used for tracking).\n\n## Simplified explanation\n\nKnow the meanings: IPR = rights of inventors; spam = junk email; cookie = small file a website saves; DoS = an attack that blocks a service.",
+  "hint": "Ethics, security, health and acronyms.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Security & Ethics",
+   "Health & Ergonomics",
+   "Computer Basics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain any **five** of the following terminologies as used in computing: (i) online stock trading (ii) virtual reality (iii) telecommute (iv) artificial intelligence (v) intelligent agent (vi) network agent (vii) ergonomics (viii) computer addiction (ix) computer ethics (x) intellectual property rights.",
+  "media": [],
+  "answer": "- **Online stock trading:** buying and selling **shares and securities over the Internet** through a broker's website or app, without visiting a broker (e.g. trading on the Ghana Stock Exchange via online platforms).\n- **Virtual reality (VR):** the use of computers to **simulate a real or imagined environment** that appears as a **3-D space** the user can explore and interact with (headsets, gloves), used in games, training simulators and medicine.\n- **Telecommute:** working from home or a remote location using computers and telecommunications (Internet, email, video conferencing) instead of travelling to the office.\n- **Artificial intelligence (AI):** the application of **human intelligence** to computers: systems that learn, reason, recognise speech and images, and make decisions (expert systems, ChatGPT-style assistants).\n- **Intelligent agent:** software that **independently** asks questions, pays attention to work patterns and **carries out tasks on behalf of the user** (personal assistants, shopping bots, email filters).\n- **Network agent:** an agent that **monitors and manages network** resources and activity (e.g. SNMP agents reporting device status, or agents searching the network for information on the user's behalf).\n- **Ergonomics:** applied science devoted to **incorporating comfort, efficiency and safety** into the design of workplace items (chairs, keyboards, monitor height, lighting) to prevent injuries such as RSI.\n- **Computer addiction:** when computer use **consumes someone's entire social life**, a compulsive dependence with symptoms such as irritability when not using the computer and neglect of family and work.\n- **Computer ethics:** **moral guidelines** governing the use of computers and information systems: unauthorised use, software piracy, information accuracy, IPR, privacy, codes of conduct.\n- **Intellectual property rights:** rights creators are entitled to for their **inventions, writings and works of art**: patents, copyrights, trademarks.\n\n> [!answer]\n> Any five clearly defined, each with an example: online trading, VR, telecommuting, AI, intelligent agents, network agents, ergonomics, computer addiction, computer ethics, IPR.",
+  "explanation": "## Advanced explanation\n\nThese concepts show how computers reshape **work** (telecommuting, online trading), **technology** (AI, agents, VR), **health** (ergonomics, addiction) and **law/ethics** (ethics, IPR). Strong answers give a precise definition and a relevant (preferably Ghanaian) example.\n\n## Simplified explanation\n\nExplain five of these computing ideas in your own words with an example each: e.g. **telecommuting** = working from home using the Internet.",
+  "hint": "Definition + example for 3 marks each.",
+  "difficulty": "easy",
+  "marks": 15,
+  "tags": [
+   "Computers in Society",
+   "Health & Ergonomics",
+   "Security & Ethics",
+   "2020/21 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List and explain **four (4)** reasons for the **prevalence of computers in society**.",
+  "media": [],
+  "answer": "1. **Speed:** computers process millions of instructions per second, completing in seconds tasks that would take humans days (payroll, scientific calculations).\n2. **Accuracy and reliability:** given correct input and programs, computers produce **consistent, error-free** results (GIGO aside), and work without fatigue (**diligence**).\n3. **Storage capacity:** they store and quickly retrieve **huge volumes of data** (records, multimedia) in little space.\n4. **Communication and connectivity:** networks and the Internet enable instant communication, e-commerce, mobile money and remote work worldwide.\n5. **Versatility:** one machine performs many tasks (word processing, accounting, design, entertainment, education).\n6. **Falling costs and ease of use:** cheaper hardware, smartphones and user-friendly GUIs put computers within reach of most people.\n7. **Automation and productivity:** they automate routine work in industry, banking and government, cutting costs.\n\n> [!answer]\n> Any four explained: speed, accuracy/reliability, storage, communication/connectivity, versatility, falling cost and ease of use, automation and productivity.",
+  "explanation": "## Advanced explanation\n\nComputers became pervasive through the combination of **technical characteristics** (speed, accuracy, storage, programmability) and **socio-economic drivers** (Moore's law lowering costs, the Internet and mobile networks, digitalisation policies). In Ghana this is visible in mobile money, e-government (Ghana Card, GRA e-services) and online learning.\n\n## Simplified explanation\n\nComputers are everywhere because they are **fast, accurate, hold lots of data, connect people, do many jobs, and are cheaper and easier** to use than before.",
+  "hint": "Think of the characteristics that make computers useful everywhere.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Computers in Society",
+   "2019/20 Paper"
+  ]
+ }
+]

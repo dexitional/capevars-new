@@ -211,8 +211,6 @@ export function StudySetDialog({ initial, id, onClose, onSaved }: { initial: QbV
   );
 }
 
-const SET_COLORS = ["from-indigo-600 to-violet-700", "from-sky-600 to-indigo-700", "from-emerald-600 to-teal-700", "from-amber-500 to-orange-600", "from-rose-500 to-fuchsia-700"];
-
 export function StudySets() {
   const { data, refetch } = useQuery({ queryKey: ["qb-variations"], queryFn: () => api.get<{ items: Array<StudySet> }>("/learn/quizbank/variations") });
   const [editing, setEditing] = useState<StudySet | "new" | null>(null);
@@ -237,26 +235,26 @@ export function StudySets() {
         <EmptyState icon={Layers} title="No study sets yet" text="Combine courses and pick topics — e.g. just Algebra from Core Maths, or Physics across two science courses." className="py-8" />
       ) : (
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {data.items.map((v, i) => (
-            <div key={v.id} className="flex flex-col overflow-hidden rounded-2xl border bg-white">
-              <div className={cn("relative bg-linear-to-br p-4 text-white", SET_COLORS[i % SET_COLORS.length])}>
-                <div className="dot-grid absolute inset-0 opacity-25" aria-hidden="true" />
-                <p className="relative flex items-center gap-1.5 text-[11px] font-bold tracking-wider text-white/75 uppercase">
+          {data.items.map((v) => (
+            <div key={v.id} className="flex flex-col overflow-hidden rounded-2xl border border-brand-gold/60 bg-white">
+              <div className="relative bg-accent p-4 text-primary">
+                <div className="dot-grid-dark absolute inset-0" aria-hidden="true" />
+                <p className="relative flex items-center gap-1.5 text-[11px] font-bold tracking-wider text-primary/80 uppercase">
                   <Layers className="size-3.5" /> Study set · {v.questionCount} questions
                 </p>
-                <p className="relative mt-1 line-clamp-2 text-lg leading-tight font-black">{v.name}</p>
+                <p className="relative mt-1 line-clamp-2 text-lg leading-tight font-black text-primary">{v.name}</p>
               </div>
               <div className="flex flex-1 flex-col p-4">
                 <p className="line-clamp-2 text-xs text-muted-foreground">{v.courses.map((c) => c.title).join(" + ") || "No live courses"}</p>
                 <div className="mt-2 flex flex-wrap gap-1">
                   {v.topics.length ? (
                     v.topics.map((t) => (
-                      <span key={t.id} className="flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-0.5 text-[11px] font-semibold text-indigo-800">
+                      <span key={t.id} className="flex items-center gap-1 rounded-full bg-indigo-50 px-2 py-0.5 text-[11px] font-semibold text-primary/80">
                         <Tags className="size-3" /> {t.name}
                       </span>
                     ))
                   ) : (
-                    <span className="rounded-full bg-secondary px-2 py-0.5 text-[11px] font-semibold text-primary">All topics</span>
+                    <span className="rounded-full bg-secondary px-2 py-0.5 text-[11px] font-semibold text-primary/80">All topics</span>
                   )}
                 </div>
                 <p className="mt-3 text-xs text-muted-foreground">

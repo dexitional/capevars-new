@@ -152,7 +152,12 @@ function CoursePage() {
               </span>
               <h2 className="mt-3 text-lg font-black text-primary">Study mode</h2>
               <p className="mt-1 text-sm text-muted-foreground">No timer. Pick an option to see a hint about it; get it right to unlock the lesson behind the answer. Written answers get instant feedback.</p>
-              <Button asChild variant="outline" className="mt-4" disabled={empty}>
+              <Button
+                asChild
+                variant="outline"
+                className="attention-ping mt-4 bg-accent text-accent-foreground duration-200 hover:rotate-2 hover:scale-105 hover:bg-brand-cream motion-reduce:transform-none"
+                disabled={empty}
+              >
                 <Link to="/learn/quizbank/c/$slug/study" params={{ slug }} search={data.board ? {} : { tags: tagIds.join(",") }}>
                   <Brain /> {data.board?.studyPosition ? "Continue studying" : "Start studying"}
                 </Link>
@@ -213,7 +218,7 @@ function CoursePage() {
               Remove from board
             </button>
           ) : (
-            <Button variant="outline" className="w-full" disabled={add.isPending} onClick={() => requireMember(() => add.mutate())}>
+            <Button variant="outline" className="w-full bg-accent/60 text-accent-foreground hover:bg-brand-cream" disabled={add.isPending} onClick={() => requireMember(() => add.mutate())}>
               <Plus /> Add to my Study Board
             </Button>
           )}

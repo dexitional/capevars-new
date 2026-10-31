@@ -1,0 +1,3746 @@
+[
+ {
+  "type": "choice",
+  "body": "In macroeconomics, we study about _______.",
+  "options": [
+   {
+    "text": "National income & employment",
+    "hint": "Part of macroeconomics, but not all of it."
+   },
+   {
+    "text": "Money supply & price level",
+    "hint": "Part of macroeconomics, but not all of it."
+   },
+   {
+    "text": "International trade & economic growth",
+    "hint": "Part of macroeconomics, but not all of it."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct. Macroeconomics covers all these economy-wide aggregates."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Macro = the economy as a whole.",
+  "explanation": "## Advanced explanation\n\n**Macroeconomics** studies the economy **in aggregate**: national income and output (GDP), employment and unemployment, the price level and inflation, money and interest rates, growth, and the international sector (trade, exchange rates, balance of payments).\n\n## Simplified explanation\n\nMacro looks at the **whole economy**, so all of these.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In 2012, Country X's **potential GDP** was GH₵1.2 trillion per year and its **actual GDP** was GH₵1 trillion per year. The difference between potential and actual GDP was:",
+  "options": [
+   {
+    "text": "the nominal national income gap",
+    "hint": "Not a standard term for this."
+   },
+   {
+    "text": "GH₵2 per capita",
+    "hint": "Not a per-capita measure."
+   },
+   {
+    "text": "the recessionary gap",
+    "hint": "Correct. Actual output below potential is a recessionary (negative output) gap."
+   },
+   {
+    "text": "the inflationary gap",
+    "hint": "That is when actual GDP exceeds potential."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Is actual output above or below potential?",
+  "explanation": "## Advanced explanation\n\nThe **output gap** = actual − potential = $1 - 1.2 = -0.2$ trillion. A **negative** gap (actual < potential) is a **recessionary gap**, with cyclical unemployment. A positive gap (actual > potential) is an **inflationary gap**.\n\n## Simplified explanation\n\nThe economy produced **less** than it could, so it is in a **recessionary gap**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The size of the **MPC** is assumed to be:",
+  "options": [
+   {
+    "text": "less than zero",
+    "hint": "MPC is never negative."
+   },
+   {
+    "text": "greater than zero, but less than one",
+    "hint": "Correct. $0 < MPC < 1$."
+   },
+   {
+    "text": "greater than one",
+    "hint": "People do not spend more than each extra cedi earned."
+   },
+   {
+    "text": "two or more",
+    "hint": "Impossible for MPC."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Of each extra cedi of income, how much is spent?",
+  "explanation": "## Advanced explanation\n\nThe **marginal propensity to consume** $MPC = \\dfrac{\\Delta C}{\\Delta Y_d}$. Keynes's _fundamental psychological law_: as income rises, consumption rises, **but by less than the rise in income**, so $0 < MPC < 1$ and $MPC + MPS = 1$.\n\n## Simplified explanation\n\nFrom every extra GH₵1 you spend **some but not all**, so MPC is between 0 and 1.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **recession** is a period in which:",
+  "options": [
+   {
+    "text": "cost-push inflation is present",
+    "hint": "Inflation is not the definition."
+   },
+   {
+    "text": "nominal domestic output falls",
+    "hint": "Nominal output can rise because of prices."
+   },
+   {
+    "text": "real domestic output falls",
+    "hint": "Correct. A recession is a fall in real GDP."
+   },
+   {
+    "text": "demand-pull inflation is present",
+    "hint": "That happens in booms."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Real, not nominal.",
+  "explanation": "## Advanced explanation\n\nA **recession** is a decline in **real** GDP (often defined as two consecutive quarters of falling real GDP), accompanied by rising unemployment. Nominal GDP can still rise if prices rise.\n\n## Simplified explanation\n\nRecession = the economy **really** produces less.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "By summing the cedi value of **all market transactions** in the economy we would:",
+  "options": [
+   {
+    "text": "be determining the market value of all resources used in the production process",
+    "hint": "No."
+   },
+   {
+    "text": "obtain a sum substantially larger than the GDP",
+    "hint": "Correct. Intermediate goods, second-hand sales and financial transactions would be multiple-counted."
+   },
+   {
+    "text": "be determining value added for the economy",
+    "hint": "Value added excludes intermediate purchases."
+   },
+   {
+    "text": "be measuring GDP",
+    "hint": "GDP counts final goods only."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about double counting.",
+  "explanation": "## Advanced explanation\n\nGDP counts only **final** goods and services (or **value added**). Summing **all** transactions would include intermediate goods (double counting), second-hand sales and purely financial transactions, so the total would be **much larger than GDP**.\n\n## Simplified explanation\n\nAdding every sale counts things **many times**, so the total is far bigger than GDP.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2017/18 Paper",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In national income accounting, **consumption expenditures** include purchases of:",
+  "options": [
+   {
+    "text": "both new and used consumer goods",
+    "hint": "Used goods were counted when first produced."
+   },
+   {
+    "text": "automobiles for personal use, but not houses",
+    "hint": "Correct. Cars are consumer durables; new houses count as investment."
+   },
+   {
+    "text": "consumer durable and nondurable goods, but not services",
+    "hint": "Services are included."
+   },
+   {
+    "text": "consumer nondurable goods and services, but not consumer durable goods",
+    "hint": "Durables are included."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Where do new houses go in GDP?",
+  "explanation": "## Advanced explanation\n\nConsumption ($C$) = household spending on **durables** (cars, fridges), **nondurables** (food) and **services**. **New residential houses are investment** ($I$), not consumption. Used goods are excluded because they were counted when produced.\n\n## Simplified explanation\n\nA family car is consumption, but a **new house is investment**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the consumer price index falls from **120 to 116** in a particular year, the economy has experienced:",
+  "options": [
+   {
+    "text": "inflation of 4 percent",
+    "hint": "The index fell, so it is not inflation."
+   },
+   {
+    "text": "inflation of 3.33 percent",
+    "hint": "The index fell, so it is not inflation."
+   },
+   {
+    "text": "deflation of 3.33 percent",
+    "hint": "Correct. $(116-120)/120 = -3.33\\%$."
+   },
+   {
+    "text": "deflation of 4 percent",
+    "hint": "4 is the point change, not the percentage."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "% change = (new − old) / old × 100.",
+  "explanation": "## Advanced explanation\n\n$$\\pi = \\frac{116 - 120}{120} \\times 100 = -3.33\\%$$\nA negative rate means the general price level **fell**: **deflation of 3.33%**.\n\n## Simplified explanation\n\nThe index dropped 4 points out of 120, which is **3.33%**, and since it fell, that is **deflation**.\n\n> [!warning]\n> Divide by the **old** value (120), not the new one, and remember 4 points ≠ 4%.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "\"_Too much money chasing too few goods_\" best describes:",
+  "options": [
+   {
+    "text": "the GDP gap",
+    "hint": "No."
+   },
+   {
+    "text": "the inflation premium",
+    "hint": "No."
+   },
+   {
+    "text": "demand-pull inflation",
+    "hint": "Correct. Excess demand pulls prices up."
+   },
+   {
+    "text": "cost-push inflation",
+    "hint": "That comes from rising costs."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Is the pressure from spending or from costs?",
+  "explanation": "## Advanced explanation\n\n**Demand-pull inflation** occurs when aggregate demand exceeds the economy's capacity to produce, so excess spending bids up prices. **Cost-push** inflation comes from rising production costs (wages, fuel, imported inputs) shifting aggregate supply left.\n\n## Simplified explanation\n\nToo much spending money for the goods available pushes prices up: **demand-pull**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the unemployment rate is **9 percent** and the natural rate of unemployment is **5 percent**, then the:",
+  "options": [
+   {
+    "text": "frictional unemployment rate is 5 percent",
+    "hint": "The natural rate is frictional + structural together."
+   },
+   {
+    "text": "cyclical unemployment rate and the frictional unemployment rate together are 5 percent",
+    "hint": "No."
+   },
+   {
+    "text": "cyclical unemployment rate is 4 percent",
+    "hint": "Correct. Cyclical = actual − natural = 9 − 5."
+   },
+   {
+    "text": "natural rate of unemployment will eventually increase",
+    "hint": "Nothing implies that."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cyclical = actual − natural.",
+  "explanation": "## Advanced explanation\n\nNatural rate $= $ frictional $+$ structural. **Cyclical unemployment** $= u - u^* = 9\\% - 5\\% = 4\\%$, caused by deficient aggregate demand.\n\n## Simplified explanation\n\nThe extra unemployment above the 'normal' 5% is due to the bad economy: **4% cyclical**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Dr. Wajoni, an economics professor, decided to take a year off from teaching to operate a **commercial fishing boat in Axim**. That year, Dr. Wajoni would be officially counted as:",
+  "options": [
+   {
+    "text": "structurally unemployed",
+    "hint": "He has a job."
+   },
+   {
+    "text": "not in the labour force",
+    "hint": "He is working."
+   },
+   {
+    "text": "frictionally unemployed",
+    "hint": "He is not between jobs."
+   },
+   {
+    "text": "employed",
+    "hint": "Correct. Running a commercial fishing boat is paid work."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Is he working for income?",
+  "explanation": "## Advanced explanation\n\nAnyone doing paid work or running a business (self-employed) is **employed**. Changing occupation from lecturing to commercial fishing does not make him unemployed.\n\n## Simplified explanation\n\nHe is working (fishing for sale), so he is **employed**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is associated with **macroeconomics**?",
+  "options": [
+   {
+    "text": "an empirical investigation of the price and unemployment rate in Paga since 1990",
+    "hint": "Correct. The general price level and unemployment are macro variables."
+   },
+   {
+    "text": "an examination of the incomes of UCC Business School graduates",
+    "hint": "One group: microeconomics."
+   },
+   {
+    "text": "a study of the trend of cowpea prices since the Konkomba-Nanumba war",
+    "hint": "One market: microeconomics."
+   },
+   {
+    "text": "a case study of pricing and production in the textbook industry",
+    "hint": "One industry: microeconomics."
+   },
+   {
+    "text": "None of the Above",
+    "hint": "Option (a) is macro."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Aggregate variables vs one market.",
+  "explanation": "## Advanced explanation\n\n**Macro** studies aggregates (the general price level, unemployment rate, GDP); **micro** studies individual markets, firms or groups (cowpea prices, one industry, one group's incomes).\n\n## Simplified explanation\n\nPrice **level** and **unemployment rate** describe the whole economy, so they are macro.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is consistent with **Say's Law**?",
+  "options": [
+   {
+    "text": "The economy has flexible wages and prices",
+    "hint": "True under Say's Law, but not the only one."
+   },
+   {
+    "text": "The economy will produce at the full-employment level of output",
+    "hint": "True, but not the only one."
+   },
+   {
+    "text": "The economy has an environment of \"laissez faire\"",
+    "hint": "True, but not the only one."
+   },
+   {
+    "text": "All the above",
+    "hint": "Correct. Say's Law and the classical model imply all three."
+   },
+   {
+    "text": "The economy's level of investment spending depends solely on the level of income",
+    "hint": "That is not a classical proposition."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "'Supply creates its own demand.'",
+  "explanation": "## Advanced explanation\n\n**Say's Law**, 'supply creates its own demand': income from production is spent (saving is channelled into investment by the interest rate), so there is no general glut. With **flexible wages and prices** the economy settles at **full employment**, and government need not intervene (**laissez-faire**).\n\n## Simplified explanation\n\nClassical economists believed markets fix themselves: flexible prices, full employment, no government. **All the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the **Keynesian** macroeconomic model,",
+  "options": [
+   {
+    "text": "the labour market will always be in equilibrium at full employment",
+    "hint": "That is classical."
+   },
+   {
+    "text": "flexible prices guarantee that the overproduction of goods will not occur",
+    "hint": "That is classical."
+   },
+   {
+    "text": "the market economy is inherently unstable and unemployment is no accident",
+    "hint": "Keynesian, but (d) is also."
+   },
+   {
+    "text": "active government intervention can move the economy toward full employment",
+    "hint": "Keynesian, but (c) is also."
+   },
+   {
+    "text": "Both c and d",
+    "hint": "Correct. Keynes saw instability and argued for active policy."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Keynes vs the classics.",
+  "explanation": "## Advanced explanation\n\nKeynes argued that wages and prices are **sticky**, aggregate demand can be **deficient**, and the economy can stay at an **under-employment equilibrium**. Hence **active fiscal and monetary policy** is needed to restore full employment.\n\n## Simplified explanation\n\nKeynes: the economy can get stuck with unemployment, and **government should step in**. Both (c) and (d).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The phase of the business cycle in which **real GDP is at a maximum** is called",
+  "options": [
+   {
+    "text": "the peak",
+    "hint": "Correct."
+   },
+   {
+    "text": "a recession",
+    "hint": "Output is falling."
+   },
+   {
+    "text": "an expansion",
+    "hint": "Output is rising toward the peak."
+   },
+   {
+    "text": "the trough",
+    "hint": "The minimum."
+   },
+   {
+    "text": "the bust",
+    "hint": "Informal for a downturn."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Top of the wave.",
+  "explanation": "## Advanced explanation\n\nBusiness cycle phases: **expansion → peak** (maximum real GDP) **→ contraction/recession → trough** (minimum) → recovery.\n\n## Simplified explanation\n\nThe highest point is the **peak**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "National income accountants can **avoid double counting** by:",
+  "options": [
+   {
+    "text": "including transfers in their calculations",
+    "hint": "Transfers are excluded."
+   },
+   {
+    "text": "counting both intermediate and final goods",
+    "hint": "That causes double counting."
+   },
+   {
+    "text": "counting only intermediate goods",
+    "hint": "Misses final output."
+   },
+   {
+    "text": "counting final and intermediate goods separately",
+    "hint": "Still double counts."
+   },
+   {
+    "text": "counting only the value added",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Each firm's contribution only.",
+  "explanation": "## Advanced explanation\n\n**Value added** = value of a firm's output − cost of intermediate inputs bought. Summing value added at every stage gives the value of final output exactly once.\n\n## Simplified explanation\n\nCount only what **each firm adds**, so nothing is counted twice.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following economic activities would **NOT** be included in Ghana's GDP?",
+  "options": [
+   {
+    "text": "Kofi hires a nanny for GH₵10 an hour to help his wife take care of their kids.",
+    "hint": "A paid market service is included."
+   },
+   {
+    "text": "Rita has a part-time job, washing dishes 2 hours each evening.",
+    "hint": "Paid work is included."
+   },
+   {
+    "text": "Jose is a great hairdresser, often receiving GH₵20 tips (which he reports on his income taxes).",
+    "hint": "Reported income for a service is included."
+   },
+   {
+    "text": "MaxiPress adds GH₵8,000 worth of books to its inventory which remains unsold by the end of the year.",
+    "hint": "Inventory accumulation is counted as investment."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. All four are included."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Inventories count as investment.",
+  "explanation": "## Advanced explanation\n\nAll the activities are **market production**: paid childcare, paid dish-washing, reported tips (service income), and unsold books added to **inventory**, which count as **investment** in the year produced.\n\n## Simplified explanation\n\nEvery option is real, paid production (even unsold books count as investment), so **none** is excluded.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If a used car dealer buys a car for **GH₵6,120** and resells it for **GH₵6,630**, how much has been added to GDP?",
+  "options": [
+   {
+    "text": "GH₵6,630",
+    "hint": "The car was counted when first made."
+   },
+   {
+    "text": "GH₵6,120",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵6,650",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵510",
+    "hint": "Correct. Only the dealer's service (the mark-up) is new production."
+   },
+   {
+    "text": "GH₵12,750",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Used goods are not new production, but the dealer's service is.",
+  "explanation": "## Advanced explanation\n\nSecond-hand goods are excluded (already counted). The dealer's **value added** (a retailing service) is new: $6{,}630 - 6{,}120 = 510$ (GH₵510).\n\n## Simplified explanation\n\nOnly the **dealer's margin of GH₵510** is new production.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Use the data (GH₵ million): private consumption expenditure **500**, government purchases **160**, gross private domestic investment **110**, net exports **8.75**, proprietors' income 65, corporate income taxes 45, dividends 30, undistributed corporate profits 27.5, compensation of employees 461.25, rents 15, interest 18.75, consumption of fixed capital 53.75, sales tax 62.5, net factor income 0.\n\nThe **gross domestic product** for the economy is:",
+  "options": [
+   {
+    "text": "GH₵584",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵778.75",
+    "hint": "Correct. C + I + G + NX."
+   },
+   {
+    "text": "GH₵623",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵609",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵690",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Expenditure approach.",
+  "explanation": "## Advanced explanation\n\n$$GDP = C + I + G + NX = 500 + 110 + 160 + 8.75 = 778.75$$\n\n## Simplified explanation\n\nAdd the four spending items: **GH₵778.75 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Using the same data (GH₵ million: compensation of employees 461.25, rents 15, interest 18.75, proprietors' income 65, corporate income taxes 45, dividends 30, undistributed corporate profits 27.5; GDP 778.75, consumption of fixed capital 53.75, sales tax 62.5, net factor income 0), the **national income** is:",
+  "options": [
+   {
+    "text": "GH₵561",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵662.5",
+    "hint": "Correct."
+   },
+   {
+    "text": "GH₵530",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵580",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵535",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Sum factor incomes, or adjust GDP.",
+  "explanation": "## Advanced explanation\n\n**Income approach:** $461.25 + 15 + 18.75 + 65 + (45 + 30 + 27.5) = 662.5$.\n\n**Check:** $NI = GDP - CFC - \\text{indirect taxes} + NFI = 778.75 - 53.75 - 62.5 + 0 = 662.5$.\n\n## Simplified explanation\n\nAdd wages, rent, interest, proprietors' income and all corporate profits: **GH₵662.5 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Using the same data, what is the **disposable income**?",
+  "options": [
+   {
+    "text": "GH₵484",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵416",
+    "hint": "No."
+   },
+   {
+    "text": "Cannot be determined from the data given",
+    "hint": "Correct. Personal taxes and transfers are not given."
+   },
+   {
+    "text": "GH₵502",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵520",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "What do you subtract to go from personal income to disposable income?",
+  "explanation": "## Advanced explanation\n\n$PI = NI - \\text{corporate taxes} - \\text{undistributed profits} - \\text{social security} + \\text{transfers}$, then $DI = PI - \\text{personal taxes}$. **Personal income taxes** (and transfers, contributions) are **not given**, so DI cannot be found.\n\n## Simplified explanation\n\nTo get disposable income you need **personal taxes**, which are not in the table.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Nominal GDP** measures:",
+  "options": [
+   {
+    "text": "current output at base year prices",
+    "hint": "That is real GDP."
+   },
+   {
+    "text": "current output at current prices",
+    "hint": "Correct."
+   },
+   {
+    "text": "base year output at current prices",
+    "hint": "No."
+   },
+   {
+    "text": "base year output at current exchange rates",
+    "hint": "No."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Nominal = current prices.",
+  "explanation": "## Advanced explanation\n\n**Nominal GDP** $= \\sum P_t Q_t$ (current prices × current quantities). **Real GDP** $= \\sum P_0 Q_t$ (base-year prices). The **GDP deflator** $= \\dfrac{\\text{nominal}}{\\text{real}} \\times 100$.\n\n## Simplified explanation\n\nNominal GDP values **this year's output at this year's prices**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the reserve ratio is **100 percent**, what is the value of the monetary multiplier?",
+  "options": [
+   {
+    "text": "0",
+    "hint": "No."
+   },
+   {
+    "text": "1",
+    "hint": "Correct. $1/1 = 1$."
+   },
+   {
+    "text": "10",
+    "hint": "That is for a 10% ratio."
+   },
+   {
+    "text": "100",
+    "hint": "No."
+   },
+   {
+    "text": "0.10",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Multiplier = 1 / reserve ratio.",
+  "explanation": "## Advanced explanation\n\n$$m = \\frac{1}{rr} = \\frac{1}{1.00} = 1$$ With 100% reserves banks lend nothing, so no deposits are created beyond the initial deposit.\n\n## Simplified explanation\n\nIf banks must keep all deposits, they lend nothing, so the multiplier is **1**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Generally, real GDP has always increased **less rapidly** than nominal GDP.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. With a generally rising price level, nominal growth = real growth + inflation."
+   },
+   {
+    "text": "False",
+    "hint": "In periods of deflation real GDP could grow faster, but historically inflation has been the norm."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Nominal growth ≈ real growth + inflation.",
+  "explanation": "## Advanced explanation\n\nNominal GDP growth $\\approx$ real GDP growth $+$ inflation. Because economies (and Ghana especially) have almost always had **positive inflation**, nominal GDP has grown faster than real GDP. Only under deflation would the reverse hold.\n\n## Simplified explanation\n\nPrices usually rise, so money GDP grows **faster** than real GDP: **true**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The legal reserve requirement is determined by a **Central Bank**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. In Ghana the Bank of Ghana sets the reserve ratio."
+   },
+   {
+    "text": "False",
+    "hint": "The central bank sets it."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Who regulates commercial banks?",
+  "explanation": "## Advanced explanation\n\nThe **reserve requirement** (in Ghana the **primary reserve ratio**) is a monetary-policy tool set by the **central bank** (Bank of Ghana). Raising it reduces banks' lending capacity and the money multiplier.\n\n## Simplified explanation\n\nThe **Bank of Ghana** decides how much banks must keep: **true**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Excess reserves** are the amount by which required reserves exceed actual reserves.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "It is the other way round."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Excess reserves = actual reserves − required reserves."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Excess over what is required.",
+  "explanation": "## Advanced explanation\n\n$$\\text{Excess reserves} = \\text{actual reserves} - \\text{required reserves}$$ Banks lend out excess reserves; that is what drives money creation.\n\n## Simplified explanation\n\nExcess reserves are what a bank holds **above** the requirement, so the statement is **false**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "International trade based on the principle of **comparative advantage** creates a more efficient allocation of world economic resources.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Specialisation by comparative advantage raises total world output."
+   },
+   {
+    "text": "False",
+    "hint": "It does raise efficiency."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Ricardo.",
+  "explanation": "## Advanced explanation\n\nWith specialisation according to **lowest opportunity cost**, total world output of all goods can rise, and trade lets every country consume beyond its own production possibilities frontier (Ricardo).\n\n## Simplified explanation\n\nEach country makes what it is relatively best at, so the world gets **more output**: **true**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "International Trade",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If people are made unemployed because of a **fall in aggregate demand**, this is known as:",
+  "options": [
+   {
+    "text": "Frictional unemployment",
+    "hint": "Job-search unemployment."
+   },
+   {
+    "text": "Seasonal unemployment",
+    "hint": "Due to seasons."
+   },
+   {
+    "text": "Cyclical unemployment",
+    "hint": "Correct. Demand-deficient unemployment."
+   },
+   {
+    "text": "Structural unemployment",
+    "hint": "Skills/location mismatch."
+   },
+   {
+    "text": "Voluntary unemployment",
+    "hint": "By choice."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Demand-deficient.",
+  "explanation": "## Advanced explanation\n\n**Cyclical (demand-deficient) unemployment** rises in recessions when aggregate demand falls and firms cut output and jobs. It is the target of Keynesian stabilisation policy.\n\n## Simplified explanation\n\nJobs lost because people are buying less: **cyclical** unemployment.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **short-run Phillips curve** depicts a",
+  "options": [
+   {
+    "text": "positive relationship between inflation and output",
+    "hint": "That is short-run AS, not the Phillips curve."
+   },
+   {
+    "text": "negative relationship between inflation and the interest rate",
+    "hint": "No."
+   },
+   {
+    "text": "negative relationship between inflation and unemployment",
+    "hint": "Correct."
+   },
+   {
+    "text": "positive relationship between inflation and unemployment",
+    "hint": "No."
+   },
+   {
+    "text": "negative relationship between unemployment and CPI",
+    "hint": "Loosely related, but (c) is the definition."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "A.W. Phillips (1958).",
+  "explanation": "## Advanced explanation\n\nThe **short-run Phillips curve** is a downward-sloping **trade-off**: lower unemployment comes with higher inflation, and vice versa. In the long run (adaptive/rational expectations) it is **vertical** at the natural rate.\n\n## Simplified explanation\n\nIn the short run, **less unemployment means more inflation**: a negative relationship.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Phillips Curve",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The condition of a **continually rising general price level** is termed",
+  "options": [
+   {
+    "text": "Stagflation",
+    "hint": "Inflation plus stagnation."
+   },
+   {
+    "text": "stagnation",
+    "hint": "Low growth."
+   },
+   {
+    "text": "disinflation",
+    "hint": "Falling inflation rate."
+   },
+   {
+    "text": "inflation",
+    "hint": "Correct."
+   },
+   {
+    "text": "appreciation",
+    "hint": "A currency term."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Definition question.",
+  "explanation": "## Advanced explanation\n\n**Inflation** is a **sustained (persistent) rise in the general price level**, measured by the CPI or GDP deflator. Disinflation is a fall in the **rate** of inflation; deflation is a falling price level.\n\n## Simplified explanation\n\nPrices rising generally and continuously = **inflation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Countries with the **highest inflation rates** are likely to have",
+  "options": [
+   {
+    "text": "the highest rates of money growth",
+    "hint": "Correct. In the long run inflation is a monetary phenomenon."
+   },
+   {
+    "text": "small budget deficits relative to GDP",
+    "hint": "High-inflation countries usually have large, money-financed deficits."
+   },
+   {
+    "text": "the lowest interest rates",
+    "hint": "Nominal rates are high with high inflation (Fisher effect)."
+   },
+   {
+    "text": "low monetary growth rate",
+    "hint": "No."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Quantity theory: MV = PY.",
+  "explanation": "## Advanced explanation\n\nQuantity theory: $MV = PY \\Rightarrow \\%\\Delta P \\approx \\%\\Delta M + \\%\\Delta V - \\%\\Delta Y$. With stable velocity and output growth, **inflation tracks money growth**. Hyperinflations (Zimbabwe, Venezuela) all followed rapid money creation, often financing deficits.\n\n## Simplified explanation\n\nPrinting a lot of money leads to a lot of inflation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "Money & Banking",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which theory of consumption argues that consumption is based on a household's **long-run estimate of their income**?",
+  "options": [
+   {
+    "text": "Relative income hypothesis",
+    "hint": "Consumption depends on income relative to others/past peak (Duesenberry)."
+   },
+   {
+    "text": "Permanent income hypothesis",
+    "hint": "Correct (Friedman)."
+   },
+   {
+    "text": "Life-cycle hypothesis",
+    "hint": "Plans consumption over the whole lifetime (Modigliani)."
+   },
+   {
+    "text": "Absolute income hypothesis",
+    "hint": "Current income (Keynes)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Milton Friedman.",
+  "explanation": "## Advanced explanation\n\n**Permanent income hypothesis (Friedman, 1957):** consumption depends on **permanent income**, the long-run expected average income. Transitory changes are mostly saved. Compare: absolute income (Keynes, current income), relative income (Duesenberry), life-cycle (Modigliani, lifetime resources).\n\n## Simplified explanation\n\nSpending based on what you **expect to earn over the long run** is Friedman's **permanent income** hypothesis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Based on the supply and demand model of exchange rates, which of the following should cause the **Nigerian naira to appreciate**?",
+  "options": [
+   {
+    "text": "Concern abroad over the safety of Nigerian toy exports",
+    "hint": "Lower demand for exports lowers demand for naira."
+   },
+   {
+    "text": "An increase in remittances from Nigerian workers abroad to their families at home.",
+    "hint": "Correct. Remittances raise demand for naira."
+   },
+   {
+    "text": "Repayment by the Nigerian government of its debt to the IMF",
+    "hint": "Requires supplying naira for foreign currency."
+   },
+   {
+    "text": "An increase in Nigerian savings that is used to purchase financial assets in Europe",
+    "hint": "Supplies naira to buy euros."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What raises demand for naira on the forex market?",
+  "explanation": "## Advanced explanation\n\nA currency **appreciates** when **demand for it rises** or supply falls. Remittances are foreign currency converted **into naira**, which raises demand for the naira. Options (c) and (d) increase the **supply** of naira; (a) lowers demand.\n\n## Simplified explanation\n\nMoney sent home is changed **into naira**, so more people want naira and it **strengthens**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Exchange Rates",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following would result in a **real appreciation** of the Ghana cedi with respect to the British pound?",
+  "options": [
+   {
+    "text": "Increase in cedi per pound nominal exchange rate",
+    "hint": "More cedis per pound is a depreciation of the cedi."
+   },
+   {
+    "text": "Increase in price index of the United Kingdom",
+    "hint": "Makes UK goods dearer relative to Ghana's: real depreciation of the cedi."
+   },
+   {
+    "text": "Increase in price index of Ghana",
+    "hint": "Correct. Ghanaian goods become relatively dearer."
+   },
+   {
+    "text": "None of the above",
+    "hint": "(c) works."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Real rate = nominal × domestic prices / foreign prices.",
+  "explanation": "## Advanced explanation\n\nWith $e$ = pounds per cedi, the real exchange rate is $\\varepsilon = e \\times \\dfrac{P_{Ghana}}{P_{UK}}$. A **rise in Ghana's price level** raises $\\varepsilon$: Ghanaian goods become relatively more expensive, a **real appreciation** of the cedi.\n\n## Simplified explanation\n\nIf Ghana's prices rise relative to Britain's, Ghanaian goods cost more in real terms, so the cedi **really appreciates**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Exchange Rates",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Under a **fixed exchange rate** regime, which one of the following statements is the most accurate?",
+  "options": [
+   {
+    "text": "Monetary policy can affect only output",
+    "hint": "No."
+   },
+   {
+    "text": "Monetary policy can affect only employment",
+    "hint": "No."
+   },
+   {
+    "text": "Monetary policy can affect international reserves",
+    "hint": "Correct. The central bank must buy/sell reserves to hold the peg."
+   },
+   {
+    "text": "Monetary policy can not affect international reserves",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "What must the central bank do to defend a peg?",
+  "explanation": "## Advanced explanation\n\nUnder a peg (Mundell–Fleming with capital mobility), an expansionary monetary policy lowers interest rates, capital flows out, and the central bank must **sell foreign reserves** to defend the rate. Monetary policy therefore changes **reserves**, not output: it loses its independence.\n\n## Simplified explanation\n\nWith a fixed rate, the central bank's money moves mostly change its **foreign reserves**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Exchange Rates",
+   "Money & Banking",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The inflows of money to the Government of Ghana's account against which **no liability of repayment** is created are called",
+  "options": [
+   {
+    "text": "Revenue receipts",
+    "hint": "Correct. Taxes, fees and grants create no repayment obligation."
+   },
+   {
+    "text": "Capital receipts",
+    "hint": "Borrowing creates liabilities."
+   },
+   {
+    "text": "Revenue expenditure",
+    "hint": "That is spending."
+   },
+   {
+    "text": "Capital expenditure",
+    "hint": "That is spending."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Taxes vs borrowing.",
+  "explanation": "## Advanced explanation\n\n**Revenue receipts** (tax and non-tax revenue such as fees, dividends and grants) neither create a liability nor reduce assets. **Capital receipts** (loans, disinvestment) create a repayment liability or reduce assets.\n\n## Simplified explanation\n\nTax and similar income the government never repays are **revenue receipts**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fiscal Policy",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When **revenue expenditure** of the Ghanaian Government is greater than the **revenue receipts**, it is called",
+  "options": [
+   {
+    "text": "Budget deficit",
+    "hint": "Total expenditure > total receipts."
+   },
+   {
+    "text": "Revenue deficit",
+    "hint": "Correct."
+   },
+   {
+    "text": "Fiscal deficit",
+    "hint": "Total expenditure − receipts excluding borrowing."
+   },
+   {
+    "text": "Monetized deficit",
+    "hint": "The part financed by the central bank."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Same word on both sides: revenue.",
+  "explanation": "## Advanced explanation\n\n**Revenue deficit** $=$ revenue expenditure $-$ revenue receipts. **Fiscal deficit** $=$ total expenditure $-$ total receipts excluding borrowing. **Monetised deficit** is the part financed by central-bank credit.\n\n## Simplified explanation\n\nRevenue spending > revenue income = **revenue deficit**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fiscal Policy",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When the **capital-output ratio is 2**, a GH₵20 increase in output results in a GH₵10 increase in capital.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check: ΔK = 2 × ΔY."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. ΔK = 2 × 20 = GH₵40."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Capital-output ratio = K / Y.",
+  "explanation": "## Advanced explanation\n\nCapital-output ratio $v = \\dfrac{\\Delta K}{\\Delta Y} = 2 \\Rightarrow \\Delta K = 2 \\times 20 = 40$ (GH₵40), not 10 (the accelerator principle).\n\n## Simplified explanation\n\nEach cedi of extra output needs **2 cedis** of capital, so GH₵20 of output needs **GH₵40**: false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In a **surplus budget**, the receipts of the government fall short of its expenditure.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "That describes a deficit."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. In a surplus, receipts exceed expenditure."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Surplus vs deficit.",
+  "explanation": "## Advanced explanation\n\nBudget balance $= T - G$. **Surplus**: receipts > expenditure. **Deficit**: receipts < expenditure. **Balanced**: equal.\n\n## Simplified explanation\n\nA surplus means the government collects **more** than it spends: false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fiscal Policy",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **relative income hypothesis** suggests that the rich have relatively high MPCs and the poor have relatively low MPCs.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "It predicts the opposite."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Those lower in the income distribution spend a higher proportion (emulation)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Duesenberry's 'keeping up with the Joneses'.",
+  "explanation": "## Advanced explanation\n\n**Duesenberry's** relative income hypothesis: consumption depends on income **relative to others**. People lower in the distribution try to emulate richer neighbours (demonstration effect), so they have **higher** average propensities to consume; the rich have lower ones.\n\n## Simplified explanation\n\nPoorer households spend a bigger share to keep up with others, so the statement is **false**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Zero deficits imply a **balanced budget**.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Receipts equal expenditure."
+   },
+   {
+    "text": "False",
+    "hint": "A zero deficit is exactly a balanced budget."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Deficit = expenditure − receipts.",
+  "explanation": "## Advanced explanation\n\nIf expenditure $-$ receipts $= 0$, receipts equal expenditure: a **balanced budget**.\n\n## Simplified explanation\n\nNo deficit and no surplus = **balanced**: true.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fiscal Policy",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a topic studied in macroeconomics?",
+  "options": [
+   {
+    "text": "gross domestic product",
+    "hint": "Macro."
+   },
+   {
+    "text": "the unemployment rate",
+    "hint": "Macro."
+   },
+   {
+    "text": "the inflation rate",
+    "hint": "Macro."
+   },
+   {
+    "text": "the price of Dell computers",
+    "hint": "Correct. One product's price is microeconomics."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Aggregate or single market?",
+  "explanation": "## Advanced explanation\n\nGDP, unemployment and inflation are **aggregates**. The price of a single product is determined in one market: **microeconomics**.\n\n## Simplified explanation\n\nOne product's price is **micro**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Prices that do not always adjust rapidly to maintain equality between quantity supplied and quantity demanded are",
+  "options": [
+   {
+    "text": "market prices",
+    "hint": "No."
+   },
+   {
+    "text": "administered prices",
+    "hint": "Set by firms or government, but the general term is…"
+   },
+   {
+    "text": "regulatory prices",
+    "hint": "No."
+   },
+   {
+    "text": "sticky prices",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Keynesian idea.",
+  "explanation": "## Advanced explanation\n\n**Sticky prices** (and wages) adjust slowly because of contracts, menu costs and convention. Stickiness is why markets may not clear quickly, which is central to the Keynesian explanation of unemployment.\n\n## Simplified explanation\n\nPrices that are slow to change are **sticky**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An increase in the **overall price level** is known as",
+  "options": [
+   {
+    "text": "inflation",
+    "hint": "Correct."
+   },
+   {
+    "text": "stagflation",
+    "hint": "Inflation with stagnation."
+   },
+   {
+    "text": "deflation",
+    "hint": "A falling price level."
+   },
+   {
+    "text": "recession",
+    "hint": "Falling output."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Definition.",
+  "explanation": "## Advanced explanation\n\n**Inflation** = an increase in the overall (general) price level.\n\n## Simplified explanation\n\nPrices going up generally = **inflation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The term **business cycle** refers to the",
+  "options": [
+   {
+    "text": "long-term trends in the level of economic activity",
+    "hint": "That is growth."
+   },
+   {
+    "text": "short-term ups and downs in the price level",
+    "hint": "No."
+   },
+   {
+    "text": "short-term ups and downs in the level of economic activity",
+    "hint": "Correct."
+   },
+   {
+    "text": "long-term trends in the price level",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Fluctuations around trend.",
+  "explanation": "## Advanced explanation\n\nThe **business cycle** is the short-term fluctuation of real output and employment around the long-run growth trend: expansion, peak, contraction, trough.\n\n## Simplified explanation\n\nBusiness cycle = the economy's **short-term ups and downs**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A period during which **aggregate output rises** is known as a(n)",
+  "options": [
+   {
+    "text": "recession",
+    "hint": "Output falls."
+   },
+   {
+    "text": "hyperinflation",
+    "hint": "Prices explode."
+   },
+   {
+    "text": "inflation",
+    "hint": "Prices rise."
+   },
+   {
+    "text": "expansion",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Output rising.",
+  "explanation": "## Advanced explanation\n\nAn **expansion** (boom/recovery) is a period of rising real output, falling unemployment and rising incomes.\n\n## Simplified explanation\n\nOutput going up = **expansion**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A period when the economy **shrinks** is known as",
+  "options": [
+   {
+    "text": "a recession",
+    "hint": "Correct, but so are the others."
+   },
+   {
+    "text": "a slump",
+    "hint": "Also correct."
+   },
+   {
+    "text": "a contraction",
+    "hint": "Also correct."
+   },
+   {
+    "text": "all of the above",
+    "hint": "Correct. All three describe a shrinking economy."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Synonyms.",
+  "explanation": "## Advanced explanation\n\n**Recession, slump and contraction** all describe a period of declining real output.\n\n## Simplified explanation\n\nAll three words mean the economy is shrinking.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the labour force is **500** and employment is **450**, then the unemployment rate is",
+  "options": [
+   {
+    "text": "100%",
+    "hint": "No."
+   },
+   {
+    "text": "90%",
+    "hint": "That is the employment share."
+   },
+   {
+    "text": "10%",
+    "hint": "Correct. 50/500."
+   },
+   {
+    "text": "0%",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "u = unemployed / labour force.",
+  "explanation": "## Advanced explanation\n\n$$u = \\frac{500 - 450}{500} \\times 100 = 10\\%$$\n\n## Simplified explanation\n\n50 out of 500 are unemployed: **10%**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Unemployment** means that",
+  "options": [
+   {
+    "text": "there is excess demand in the labour market",
+    "hint": "That would be a labour shortage."
+   },
+   {
+    "text": "there are some people who will not work at the going wage rate",
+    "hint": "That is voluntary non-participation."
+   },
+   {
+    "text": "at the going wage rate, there are people who want to work but cannot find work",
+    "hint": "Correct."
+   },
+   {
+    "text": "people are not willing to work at the going wage rate",
+    "hint": "Not unemployment."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Willing and able, but no job.",
+  "explanation": "## Advanced explanation\n\nUnemployment is **excess supply of labour**: people **willing and able** to work at the prevailing wage, actively seeking work, but unable to find jobs.\n\n## Simplified explanation\n\nUnemployed = **want a job at the going pay but cannot get one**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **unemployment rate** equals",
+  "options": [
+   {
+    "text": "labour force / population",
+    "hint": "That is the participation rate."
+   },
+   {
+    "text": "(labour force − employed) / labour force × 100",
+    "hint": "Correct."
+   },
+   {
+    "text": "unemployed / employed",
+    "hint": "The denominator must be the labour force."
+   },
+   {
+    "text": "(employed − unemployed) / labour force",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Denominator: labour force.",
+  "explanation": "## Advanced explanation\n\n$$u = \\frac{U}{LF} \\times 100 = \\frac{LF - E}{LF} \\times 100$$\n\n## Simplified explanation\n\nUnemployed divided by the **labour force**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the labour force is **50 million** and **48 million** are employed, then the unemployment rate is",
+  "options": [
+   {
+    "text": "2%",
+    "hint": "2 million is the number, not the rate."
+   },
+   {
+    "text": "4%",
+    "hint": "Correct. 2/50."
+   },
+   {
+    "text": "5%",
+    "hint": "No."
+   },
+   {
+    "text": "52%",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "U = 2 million.",
+  "explanation": "## Advanced explanation\n\n$$u = \\frac{50 - 48}{50} \\times 100 = 4\\%$$\n\n## Simplified explanation\n\n2 million out of 50 million = **4%**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Unemployment generally **rises** during _______ and **falls** during _______.",
+  "options": [
+   {
+    "text": "peaks; troughs",
+    "hint": "No."
+   },
+   {
+    "text": "recessions; expansions",
+    "hint": "Correct."
+   },
+   {
+    "text": "inflation; deflation",
+    "hint": "No."
+   },
+   {
+    "text": "booms; busts",
+    "hint": "Reversed."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Okun's law.",
+  "explanation": "## Advanced explanation\n\nUnemployment is **counter-cyclical**: it rises in **recessions** (cyclical unemployment) and falls in **expansions**. Okun's law links output gaps to unemployment changes.\n\n## Simplified explanation\n\nBad times raise unemployment; good times lower it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Business Cycles",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the central bank **decreases the money supply**, it is conducting",
+  "options": [
+   {
+    "text": "supply-side policy",
+    "hint": "No."
+   },
+   {
+    "text": "incomes policy",
+    "hint": "No."
+   },
+   {
+    "text": "fiscal policy",
+    "hint": "That is government spending and taxes."
+   },
+   {
+    "text": "monetary policy",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Money = monetary.",
+  "explanation": "## Advanced explanation\n\n**Monetary policy** is the central bank's control of money supply and interest rates (policy rate, reserve requirements, open market operations). **Fiscal policy** uses government spending and taxation.\n\n## Simplified explanation\n\nChanging money supply is **monetary policy**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "To get the economy out of a **slump**, Keynes believed that the government should",
+  "options": [
+   {
+    "text": "increase both taxes and government spending",
+    "hint": "Partly offsetting."
+   },
+   {
+    "text": "decrease taxes and/or increase government spending",
+    "hint": "Correct. Expansionary fiscal policy."
+   },
+   {
+    "text": "cut both taxes and government spending",
+    "hint": "No."
+   },
+   {
+    "text": "increase taxes and/or decrease government spending",
+    "hint": "That is contractionary."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Boost aggregate demand.",
+  "explanation": "## Advanced explanation\n\nKeynes prescribed **expansionary fiscal policy** in a slump: raise $G$ and/or cut $T$ to raise aggregate demand, with multiplier effects on income and employment.\n\n## Simplified explanation\n\nSpend more and/or tax less to boost demand.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fiscal Policy",
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an assumption used by **Classical** economists?",
+  "options": [
+   {
+    "text": "Wages adjust downward but not upward",
+    "hint": "No."
+   },
+   {
+    "text": "Wages adjust both upward and downward",
+    "hint": "Correct. Fully flexible wages."
+   },
+   {
+    "text": "Wages adjust upward but not downward",
+    "hint": "That is the Keynesian ratchet."
+   },
+   {
+    "text": "Wages are inflexible",
+    "hint": "Keynesian."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Flexible.",
+  "explanation": "## Advanced explanation\n\nThe **Classical** model assumes **flexible wages and prices** that clear markets, so the labour market returns to full employment automatically.\n\n## Simplified explanation\n\nClassical economists believed wages move **freely up and down**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "According to the **Classical** model, unemployment",
+  "options": [
+   {
+    "text": "could be eliminated only through government intervention",
+    "hint": "Keynesian."
+   },
+   {
+    "text": "could be eliminated through fiscal and monetary policies",
+    "hint": "Keynesian."
+   },
+   {
+    "text": "could not persist because wages would rise to eliminate the excess supply of labour",
+    "hint": "Wages would fall, not rise."
+   },
+   {
+    "text": "could not persist because wages would fall to eliminate the excess supply of labour",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Excess supply → price falls.",
+  "explanation": "## Advanced explanation\n\nUnemployment is an **excess supply of labour**; with flexible wages, the real wage **falls** until labour demanded equals labour supplied, so involuntary unemployment cannot persist.\n\n## Simplified explanation\n\nToo many workers pushes wages **down** until everyone is hired.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "According to the **Classical** economists, the economy",
+  "options": [
+   {
+    "text": "is self-correcting",
+    "hint": "Correct."
+   },
+   {
+    "text": "will never be at full employment",
+    "hint": "No."
+   },
+   {
+    "text": "has sticky prices in many industries",
+    "hint": "Keynesian."
+   },
+   {
+    "text": "requires fine-tuning to reach full employment",
+    "hint": "Keynesian."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Laissez-faire.",
+  "explanation": "## Advanced explanation\n\nClassical economists saw the economy as **self-correcting**: flexible prices, wages and interest rates restore full employment without government intervention.\n\n## Simplified explanation\n\nClassical view: the economy **fixes itself**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Macroeconomic policies became more influenced by **Keynes' theories** starting with",
+  "options": [
+   {
+    "text": "the Great Depression",
+    "hint": "Correct."
+   },
+   {
+    "text": "the OPEC recession",
+    "hint": "1970s; it led to doubts about Keynesianism."
+   },
+   {
+    "text": "the period of high inflation in the early 1980s",
+    "hint": "Monetarism gained then."
+   },
+   {
+    "text": "the period of high unemployment and high inflation in the 1970s",
+    "hint": "Stagflation challenged Keynes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The General Theory, 1936.",
+  "explanation": "## Advanced explanation\n\nKeynes' _General Theory_ (1936) responded to the **Great Depression** (1929–1930s), whose mass unemployment the classical model could not explain. Keynesian demand management dominated policy until the stagflation of the 1970s.\n\n## Simplified explanation\n\nKeynes' ideas took off because of the **Great Depression**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Rapid increases in the price level during periods of **recession or high unemployment** are known as",
+  "options": [
+   {
+    "text": "depression",
+    "hint": "No."
+   },
+   {
+    "text": "inflation",
+    "hint": "Incomplete."
+   },
+   {
+    "text": "stagnation",
+    "hint": "No."
+   },
+   {
+    "text": "stagflation",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Stagnation + inflation.",
+  "explanation": "## Advanced explanation\n\n**Stagflation** = high inflation with stagnant output and high unemployment, typically from **supply shocks** (e.g. the 1970s oil price shocks) that shift AS left.\n\n## Simplified explanation\n\nRising prices **and** a weak economy = **stagflation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "John Maynard Keynes sought to solve the economic problem of the Great Depression, which was the coexistence of",
+  "options": [
+   {
+    "text": "high production and low inflation",
+    "hint": "No."
+   },
+   {
+    "text": "low production and low unemployment",
+    "hint": "No."
+   },
+   {
+    "text": "high production and high inflation",
+    "hint": "No."
+   },
+   {
+    "text": "low production and high unemployment",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Think of the 1930s.",
+  "explanation": "## Advanced explanation\n\nThe Depression combined collapsing **output** with **mass unemployment** (about 25% in the USA), plus falling prices.\n\n## Simplified explanation\n\nLittle was produced and many were jobless.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classical vs Keynesian",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The number of people **unemployed** equals",
+  "options": [
+   {
+    "text": "the labour force minus the number of people employed",
+    "hint": "Correct."
+   },
+   {
+    "text": "the number employed divided by the labour force",
+    "hint": "No."
+   },
+   {
+    "text": "the number employed minus the labour force",
+    "hint": "No."
+   },
+   {
+    "text": "the labour force plus the number employed",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "LF = E + U.",
+  "explanation": "## Advanced explanation\n\n$LF = E + U \\Rightarrow U = LF - E$.\n\n## Simplified explanation\n\nUnemployed = labour force − employed.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: **employed 14,000**, **unemployed 3,000**, **not in the labour force 4,000**. The **labour force** equals",
+  "options": [
+   {
+    "text": "14,000 people",
+    "hint": "Employed only."
+   },
+   {
+    "text": "17,000 people",
+    "hint": "Correct. E + U."
+   },
+   {
+    "text": "18,000 people",
+    "hint": "No."
+   },
+   {
+    "text": "21,000 people",
+    "hint": "That is the working-age population."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "LF = E + U.",
+  "explanation": "## Advanced explanation\n\n$$LF = 14{,}000 + 3{,}000 = 17{,}000$$\n\n## Simplified explanation\n\nEmployed + unemployed = **17,000**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: **employed 14,000**, **unemployed 3,000**, **not in the labour force 4,000**. The **unemployment rate** is",
+  "options": [
+   {
+    "text": "14.3%",
+    "hint": "3,000/21,000 uses the wrong base."
+   },
+   {
+    "text": "16.7%",
+    "hint": "No."
+   },
+   {
+    "text": "17.6%",
+    "hint": "Correct. 3,000/17,000."
+   },
+   {
+    "text": "25.0%",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Divide by the labour force.",
+  "explanation": "## Advanced explanation\n\n$$u = \\frac{3{,}000}{17{,}000} \\times 100 = 17.6\\%$$\n\n## Simplified explanation\n\n3,000 of 17,000 = **17.6%**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: **employed 14,000**, **unemployed 3,000**, **not in the labour force 4,000**. The **labour-force participation rate** is",
+  "options": [
+   {
+    "text": "66.7%",
+    "hint": "No."
+   },
+   {
+    "text": "75.0%",
+    "hint": "No."
+   },
+   {
+    "text": "77.8%",
+    "hint": "No."
+   },
+   {
+    "text": "80.9%",
+    "hint": "Correct. 17,000/21,000."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "LF / working-age population.",
+  "explanation": "## Advanced explanation\n\nWorking-age population $= 14{,}000 + 3{,}000 + 4{,}000 = 21{,}000$.\n$$LFPR = \\frac{17{,}000}{21{,}000} \\times 100 = 80.95\\%$$\n\n## Simplified explanation\n\n17,000 of the 21,000 adults are in the labour force: **about 80.9%**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: labour-force participation rate **75%**, population 16+ **200 million**, unemployment rate **10%**. The **labour force**",
+  "options": [
+   {
+    "text": "equals 130 million",
+    "hint": "No."
+   },
+   {
+    "text": "equals 150 million",
+    "hint": "Correct. 75% × 200m."
+   },
+   {
+    "text": "equals 170 million",
+    "hint": "No."
+   },
+   {
+    "text": "cannot be determined from this information",
+    "hint": "It can."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "LF = LFPR × population.",
+  "explanation": "## Advanced explanation\n\n$$LF = 0.75 \\times 200 = 150 \\text{ million}$$\n\n## Simplified explanation\n\n75% of 200 million = **150 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: LFPR **75%**, population 16+ **200 million**, unemployment rate **10%**. The total number of people **unemployed** is",
+  "options": [
+   {
+    "text": "13 million",
+    "hint": "No."
+   },
+   {
+    "text": "15 million",
+    "hint": "Correct. 10% × 150m."
+   },
+   {
+    "text": "17 million",
+    "hint": "No."
+   },
+   {
+    "text": "20 million",
+    "hint": "That is 10% of the population, the wrong base."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "U = u × LF.",
+  "explanation": "## Advanced explanation\n\n$$U = 0.10 \\times 150 = 15 \\text{ million}$$\n\n## Simplified explanation\n\n10% of the 150 million labour force = **15 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Table: LFPR **75%**, population 16+ **200 million**, unemployment rate **10%**. The total number of people **employed** is",
+  "options": [
+   {
+    "text": "180 million",
+    "hint": "No."
+   },
+   {
+    "text": "153 million",
+    "hint": "No."
+   },
+   {
+    "text": "135 million",
+    "hint": "Correct. 150 − 15."
+   },
+   {
+    "text": "117 million",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "E = LF − U.",
+  "explanation": "## Advanced explanation\n\n$$E = 150 - 15 = 135 \\text{ million}$$\n\n## Simplified explanation\n\n150 − 15 = **135 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the unemployment rate is **6.2%** and the number of people employed is **200,000**, the labour force is approximately",
+  "options": [
+   {
+    "text": "210,970 people",
+    "hint": "No."
+   },
+   {
+    "text": "212,400 people",
+    "hint": "No."
+   },
+   {
+    "text": "213,220 people",
+    "hint": "Correct."
+   },
+   {
+    "text": "cannot be determined from this information",
+    "hint": "It can."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Employed = (1 − u) × LF.",
+  "explanation": "## Advanced explanation\n\n$$LF = \\frac{E}{1 - u} = \\frac{200{,}000}{0.938} \\approx 213{,}220$$\n\n## Simplified explanation\n\nEmployed people are 93.8% of the labour force, so 200,000 ÷ 0.938 ≈ **213,220**.\n\n> [!warning]\n> Do not add 6.2% of 200,000. The rate is a share of the **labour force**, not of the employed.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Discouraged workers** are",
+  "options": [
+   {
+    "text": "not considered as part of the labour force",
+    "hint": "Correct. They have stopped searching."
+   },
+   {
+    "text": "considered frictionally unemployed",
+    "hint": "No."
+   },
+   {
+    "text": "considered cyclically unemployed",
+    "hint": "No."
+   },
+   {
+    "text": "considered structurally unemployed",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Are they actively looking?",
+  "explanation": "## Advanced explanation\n\nDiscouraged workers want jobs but have **stopped searching**, so they are counted **outside the labour force**. This makes the official unemployment rate **understate** true joblessness.\n\n## Simplified explanation\n\nThey gave up looking, so they are **not counted** in the labour force.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A man is **fired** from his job because he was late for work too many times. While he is searching for another job he would be classified as",
+  "options": [
+   {
+    "text": "structurally unemployed",
+    "hint": "His skills are not obsolete."
+   },
+   {
+    "text": "not in the labour force because his employer had a legitimate reason for firing him",
+    "hint": "He is searching, so he is in the labour force."
+   },
+   {
+    "text": "cyclically unemployed",
+    "hint": "Not due to a recession."
+   },
+   {
+    "text": "frictionally unemployed",
+    "hint": "Correct. Between jobs and searching."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Job-search unemployment.",
+  "explanation": "## Advanced explanation\n\n**Frictional unemployment** is short-term unemployment while people **search** between jobs: new entrants, quitters and those fired for personal reasons.\n\n## Simplified explanation\n\nHe is simply **between jobs and searching**: frictional.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Structural unemployment** is the",
+  "options": [
+   {
+    "text": "unemployment that occurs during recessions and depressions",
+    "hint": "That is cyclical."
+   },
+   {
+    "text": "portion of unemployment due to changes in the structure of the economy that result in a significant loss of jobs in certain industries",
+    "hint": "Correct."
+   },
+   {
+    "text": "portion of unemployment due to the normal working of the labour market",
+    "hint": "That is frictional."
+   },
+   {
+    "text": "unemployment that results when people become discouraged and stop looking for work",
+    "hint": "Discouraged workers are not counted."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Mismatch.",
+  "explanation": "## Advanced explanation\n\n**Structural unemployment** arises from a **mismatch** between workers' skills or locations and available jobs, due to technological change or the decline of industries. It tends to be long-term and needs retraining or relocation.\n\n## Simplified explanation\n\nJobs disappear because the **economy changes**, and workers' skills no longer fit.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **natural rate of unemployment** is generally thought of as the",
+  "options": [
+   {
+    "text": "sum of structural and cyclical unemployment",
+    "hint": "No."
+   },
+   {
+    "text": "ratio of frictional to cyclical unemployment",
+    "hint": "No."
+   },
+   {
+    "text": "sum of frictional and cyclical unemployment",
+    "hint": "No."
+   },
+   {
+    "text": "sum of frictional and structural unemployment",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Unemployment at full employment.",
+  "explanation": "## Advanced explanation\n\n$$u^* = u_{frictional} + u_{structural}$$ At the natural rate there is **no cyclical unemployment**: the economy is at potential output.\n\n## Simplified explanation\n\nNatural rate = **frictional + structural**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Unemployment",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Multiple counting during national income accounting can be avoided by:",
+  "options": [
+   {
+    "text": "including transfers in their calculations",
+    "hint": "No."
+   },
+   {
+    "text": "counting both intermediate and final goods",
+    "hint": "That is multiple counting."
+   },
+   {
+    "text": "only counting final goods",
+    "hint": "Correct (or value added)."
+   },
+   {
+    "text": "only counting intermediate goods",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Final or value added.",
+  "explanation": "## Advanced explanation\n\nCount only **final goods and services** (equivalently, sum the **value added** at each stage). Intermediate goods are already embodied in the price of final goods.\n\n## Simplified explanation\n\nCount only **final** goods.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Egya Atta grows vegetables at the back of his house for **home consumption**. This activity is:",
+  "options": [
+   {
+    "text": "excluded from GDP in order to avoid double counting",
+    "hint": "Not the reason."
+   },
+   {
+    "text": "excluded from GDP because an intermediate good is involved",
+    "hint": "No."
+   },
+   {
+    "text": "productive but is excluded from GDP because no market transaction occurs",
+    "hint": "Correct."
+   },
+   {
+    "text": "included in GDP because it reflects production",
+    "hint": "Non-market production is excluded."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Non-market production.",
+  "explanation": "## Advanced explanation\n\nGDP measures **market** production. Home production for own use (gardening, cooking, housework) is productive but **not marketed**, so it is excluded. This is one reason GDP understates welfare, especially in Ghana with its large subsistence sector.\n\n## Simplified explanation\n\nIt is real production, but nothing is **sold**, so GDP leaves it out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In national income accounting, **consumption expenditures** include:",
+  "options": [
+   {
+    "text": "purchases of both new and used consumer goods",
+    "hint": "Used goods are excluded."
+   },
+   {
+    "text": "consumer durable goods and consumer nondurable goods, but not services",
+    "hint": "Services are included."
+   },
+   {
+    "text": "consumer durable goods, consumer nondurable goods, and services",
+    "hint": "Correct."
+   },
+   {
+    "text": "changes in business inventories",
+    "hint": "That is investment."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Three categories.",
+  "explanation": "## Advanced explanation\n\n$C$ = **durables + nondurables + services** bought by households (new houses are investment).\n\n## Simplified explanation\n\nConsumption = durables, nondurables **and** services.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**GDP** can be calculated by summing:",
+  "options": [
+   {
+    "text": "consumption, investment, government purchases, exports, and imports",
+    "hint": "Imports must be subtracted."
+   },
+   {
+    "text": "investment, government purchases, consumption, and net exports",
+    "hint": "Correct."
+   },
+   {
+    "text": "consumption, investment, wages, and rents",
+    "hint": "Mixes spending and income."
+   },
+   {
+    "text": "consumption, investment, government purchases, and imports",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "C + I + G + (X − M).",
+  "explanation": "## Advanced explanation\n\n$$GDP = C + I + G + (X - M)$$\n\n## Simplified explanation\n\nSpending: **C + I + G + net exports**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In calculating GDP, government **transfer payments**, such as SSNIT pensions, are",
+  "options": [
+   {
+    "text": "not counted",
+    "hint": "Correct. Transfers are not payments for current production."
+   },
+   {
+    "text": "counted as investment spending",
+    "hint": "No."
+   },
+   {
+    "text": "counted as government spending",
+    "hint": "Only purchases of goods and services count."
+   },
+   {
+    "text": "counted as consumption spending",
+    "hint": "Spending by recipients is counted, but the transfer itself is not."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Payment for current production?",
+  "explanation": "## Advanced explanation\n\n**Transfer payments** (pensions, unemployment benefits, scholarships) redistribute income without any good or service being produced in return, so they are excluded from $G$ and from GDP.\n\n## Simplified explanation\n\nPensions are not payment for producing anything, so they are **not counted**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one among the following is **excluded** from GDP?",
+  "options": [
+   {
+    "text": "the market value of unpaid work in the home",
+    "hint": "Correct. Non-market."
+   },
+   {
+    "text": "the production of services",
+    "hint": "Included."
+   },
+   {
+    "text": "the production of nondurable goods",
+    "hint": "Included."
+   },
+   {
+    "text": "positive changes in inventories",
+    "hint": "Included as investment."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Non-market.",
+  "explanation": "## Advanced explanation\n\nUnpaid household work has no market price, so it is excluded, even though it adds to welfare.\n\n## Simplified explanation\n\nUnpaid housework is **not counted**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Data (GH₵ million): gross investment **18**, national income 100, net exports **2**, personal income 85, personal consumption expenditure **70**, savings 5, government purchases **20**, net domestic product 105.\n\nThe **gross domestic product** is",
+  "options": [
+   {
+    "text": "GH₵100",
+    "hint": "That is national income."
+   },
+   {
+    "text": "GH₵95",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵110",
+    "hint": "Correct."
+   },
+   {
+    "text": "GH₵107",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "C + I + G + NX.",
+  "explanation": "## Advanced explanation\n\n$$GDP = 70 + 18 + 20 + 2 = 110$$\n\n## Simplified explanation\n\nAdd the spending: **GH₵110 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Data (GH₵ million): GDP **110** (from C 70 + I 18 + G 20 + NX 2), net domestic product **105**. **Consumption of fixed capital** is:",
+  "options": [
+   {
+    "text": "GH₵5",
+    "hint": "Correct. GDP − NDP."
+   },
+   {
+    "text": "GH₵10",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵20",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵30",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "NDP = GDP − depreciation.",
+  "explanation": "## Advanced explanation\n\n$$CFC = GDP - NDP = 110 - 105 = 5$$\n\n## Simplified explanation\n\n110 − 105 = **GH₵5 million** depreciation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Data (GH₵ million): personal consumption expenditure **70**, savings **5**, personal income 85. **Disposable income** is:",
+  "options": [
+   {
+    "text": "GH₵83",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵73",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵75",
+    "hint": "Correct. DI = C + S."
+   },
+   {
+    "text": "GH₵77",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Households either spend or save disposable income.",
+  "explanation": "## Advanced explanation\n\n$$DI = C + S = 70 + 5 = 75$$ (So personal taxes $= PI - DI = 85 - 75 = 10$.)\n\n## Simplified explanation\n\nSpending + saving = **GH₵75 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Data (GH₵ million): net domestic product **105**, national income **100**. We can conclude that the **sum of indirect business taxes and net foreign factor income** adjustments is",
+  "options": [
+   {
+    "text": "GH₵5 million",
+    "hint": "Correct. NDP − NI."
+   },
+   {
+    "text": "zero",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵1 million",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵15 million",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Bridge from NDP to NI.",
+  "explanation": "## Advanced explanation\n\nThe adjustments that take NDP to national income total $105 - 100 = 5$ (subtract indirect business taxes, adjust for net foreign factor income).\n\n## Simplified explanation\n\nThe gap between NDP and NI is **GH₵5 million**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Value added** can be determined by:",
+  "options": [
+   {
+    "text": "summing the profits of all enterprises in the economy",
+    "hint": "Profits are only part of value added."
+   },
+   {
+    "text": "subtracting the purchase of intermediate products from the value of the sales of final products",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Output − intermediate inputs.",
+  "explanation": "## Advanced explanation\n\n$$VA = \\text{value of output} - \\text{intermediate inputs}$$ Value added is paid out as wages, rent, interest and profit.\n\n## Simplified explanation\n\nValue added = what you sell − what you bought to make it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following best defines **disposable income**?",
+  "options": [
+   {
+    "text": "income received by households less personal taxes",
+    "hint": "Correct."
+   },
+   {
+    "text": "the before-tax income received by households",
+    "hint": "That is personal income."
+   },
+   {
+    "text": "all income earned by resource suppliers for their current contributions to production",
+    "hint": "That is national income."
+   },
+   {
+    "text": "the market value of the annual output net of consumption of fixed capital",
+    "hint": "That is NDP."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "After-tax household income.",
+  "explanation": "## Advanced explanation\n\n$$DI = PI - \\text{personal taxes} = C + S$$\n\n## Simplified explanation\n\nDisposable income = household income **after personal taxes**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Real GDP** refers to:",
+  "options": [
+   {
+    "text": "the value of domestic output after adjustments for environmental pollution and changes in the distribution of income",
+    "hint": "That is a welfare measure."
+   },
+   {
+    "text": "GDP data that embody changes in the price level, but not changes in physical output",
+    "hint": "No."
+   },
+   {
+    "text": "GDP data that reflect changes in both physical output and the price level",
+    "hint": "That is nominal GDP."
+   },
+   {
+    "text": "GDP data that have been adjusted for changes in the price level",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Adjusted for inflation.",
+  "explanation": "## Advanced explanation\n\n$$\\text{Real GDP} = \\frac{\\text{Nominal GDP}}{\\text{GDP deflator}} \\times 100$$ It reflects only changes in **physical output**.\n\n## Simplified explanation\n\nReal GDP = GDP **with inflation removed**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Nominal GDP** is:",
+  "options": [
+   {
+    "text": "the sum of all monetary transactions that occur in the economy in a year",
+    "hint": "Includes intermediate and financial transactions."
+   },
+   {
+    "text": "the sum of all monetary transactions involving final goods and services that occur in the economy in a year",
+    "hint": "Correct."
+   },
+   {
+    "text": "the amount of production that occurs when the economy is operating at full employment",
+    "hint": "That is potential GDP."
+   },
+   {
+    "text": "money GDP adjusted for inflation",
+    "hint": "That is real GDP."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Final goods, current prices.",
+  "explanation": "## Advanced explanation\n\nNominal GDP is the market value, at **current prices**, of all **final** goods and services produced in a year.\n\n## Simplified explanation\n\nNominal GDP = value of **final** goods and services at today's prices.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In an economy experiencing **persistent deflation**:",
+  "options": [
+   {
+    "text": "potential GDP will necessarily exceed actual GDP",
+    "hint": "Not necessarily."
+   },
+   {
+    "text": "changes in nominal GDP may either overstate or understate changes in real GDP",
+    "hint": "No."
+   },
+   {
+    "text": "changes in nominal GDP understate changes in real GDP",
+    "hint": "Correct."
+   },
+   {
+    "text": "changes in nominal GDP overstate changes in real GDP",
+    "hint": "That happens with inflation."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Falling prices drag nominal values down.",
+  "explanation": "## Advanced explanation\n\nNominal growth $\\approx$ real growth $+$ inflation. With **deflation** (negative inflation), nominal growth is **below** real growth, so nominal GDP **understates** real changes.\n\n## Simplified explanation\n\nFalling prices make money GDP look **smaller** than the real growth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Inflation & Price Indices",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The growth of GDP may **understate** changes in the economy's economic well-being over time if the:",
+  "options": [
+   {
+    "text": "distribution of income becomes increasingly unequal",
+    "hint": "That would make GDP overstate welfare."
+   },
+   {
+    "text": "quality of products and services improves",
+    "hint": "Correct."
+   },
+   {
+    "text": "environment deteriorates because of pollution",
+    "hint": "Overstate."
+   },
+   {
+    "text": "amount of leisure decreases",
+    "hint": "Overstate."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What benefit does GDP miss?",
+  "explanation": "## Advanced explanation\n\nQuality improvements (better phones and medicines at similar prices) raise well-being **beyond** measured output, so GDP **understates** welfare gains. The other options make GDP **overstate** welfare.\n\n## Simplified explanation\n\nProducts getting **better** is a gain GDP does not fully count.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "GDP data are criticised as being inaccurate measures of economic welfare because:",
+  "options": [
+   {
+    "text": "they do not take into account changes in the amount of leisure",
+    "hint": "True, but not the only reason."
+   },
+   {
+    "text": "they do not take into account all changes in product quality",
+    "hint": "True, but not the only reason."
+   },
+   {
+    "text": "they do not take into account the adverse effects of economic activity on the environment",
+    "hint": "True, but not the only reason."
+   },
+   {
+    "text": "of all of the above considerations",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "All are limitations.",
+  "explanation": "## Advanced explanation\n\nGDP omits **leisure**, **quality changes**, **environmental damage**, non-market production, the underground economy and **income distribution**, so it is an imperfect welfare measure.\n\n## Simplified explanation\n\nGDP misses all of these, so **all of the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Gross investment** is a:",
+  "options": [
+   {
+    "text": "flow, as is depreciation",
+    "hint": "Correct. Both are measured per period."
+   },
+   {
+    "text": "flow, as is capital",
+    "hint": "Capital is a stock."
+   },
+   {
+    "text": "stock, whereas depreciation is a flow",
+    "hint": "No."
+   },
+   {
+    "text": "stock, whereas capital is a flow",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Per period vs at a point in time.",
+  "explanation": "## Advanced explanation\n\n**Flows** are measured per period (investment, depreciation, income); **stocks** at a point in time (the capital stock). $K_{t+1} = K_t + I_{gross} - \\text{depreciation}$.\n\n## Simplified explanation\n\nInvestment and depreciation happen **over a period** (flows); capital is an amount at a point in time (stock).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following do national income accountants consider to be **investment**?",
+  "options": [
+   {
+    "text": "the purchase of an automobile for private, nonbusiness use",
+    "hint": "Consumption."
+   },
+   {
+    "text": "the purchase of a new house",
+    "hint": "Correct. Residential construction is investment."
+   },
+   {
+    "text": "the purchase of corporate bonds",
+    "hint": "A financial asset."
+   },
+   {
+    "text": "the purchase of gold coins",
+    "hint": "A financial/store-of-value purchase."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Economic vs financial investment.",
+  "explanation": "## Advanced explanation\n\nEconomic **investment** = business fixed investment (machines, buildings), **residential construction (new houses)** and **inventory changes**. Buying bonds, shares or gold is **financial** investment: a transfer of existing assets, not production.\n\n## Simplified explanation\n\nA **new house** is investment; buying bonds or gold is not.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **true** regarding the national income accounts?",
+  "options": [
+   {
+    "text": "GDP > GNP",
+    "hint": "Depends on net factor income."
+   },
+   {
+    "text": "NNP > GNP",
+    "hint": "NNP = GNP − depreciation, so it is smaller."
+   },
+   {
+    "text": "Personal income > national income",
+    "hint": "Usually smaller."
+   },
+   {
+    "text": "National income > NNP",
+    "hint": "NI is smaller."
+   },
+   {
+    "text": "Personal income > disposable personal income",
+    "hint": "Correct. DI = PI − personal taxes."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Which inequality always holds?",
+  "explanation": "## Advanced explanation\n\n$DI = PI - \\text{personal taxes}$, and personal taxes are positive, so $PI > DI$ **always**. GDP vs GNP depends on the sign of net factor income; NNP < GNP; NI < NNP (indirect taxes).\n\n## Simplified explanation\n\nDisposable income is personal income **minus taxes**, so personal income is bigger.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most important determinant of consumption and saving is the:",
+  "options": [
+   {
+    "text": "level of bank credit",
+    "hint": "Secondary."
+   },
+   {
+    "text": "level of income",
+    "hint": "Correct."
+   },
+   {
+    "text": "interest rate",
+    "hint": "Secondary."
+   },
+   {
+    "text": "price level",
+    "hint": "Secondary."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Keynes' consumption function.",
+  "explanation": "## Advanced explanation\n\nKeynes' consumption function $C = a + bY_d$: **disposable income** is the main determinant. Wealth, expectations, interest rates, indebtedness and taxation **shift** the schedule.\n\n## Simplified explanation\n\nHow much you spend and save depends mostly on **how much you earn**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If Smith's disposable income increases from **GH₵1,200 to GH₵1,700** and her saving increases from **−GH₵100 to +GH₵100**, her marginal propensity to:",
+  "options": [
+   {
+    "text": "save is three-fifths",
+    "hint": "MPS = 200/500 = 0.4."
+   },
+   {
+    "text": "consume is one-half",
+    "hint": "No."
+   },
+   {
+    "text": "consume is three-fifths",
+    "hint": "Correct. MPC = 1 − 0.4 = 0.6."
+   },
+   {
+    "text": "consume is one-sixth",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "MPS = ΔS / ΔYd.",
+  "explanation": "## Advanced explanation\n\n$$MPS = \\frac{100 - (-100)}{1{,}700 - 1{,}200} = \\frac{200}{500} = 0.4 \\Rightarrow MPC = 0.6 = \\tfrac{3}{5}$$\n\n## Simplified explanation\n\nSaving rose by 200 out of 500 extra income (0.4), so she spends **0.6 = three-fifths**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "With an **MPS of 0.4**, the MPC will be:",
+  "options": [
+   {
+    "text": "1.0 minus 0.4",
+    "hint": "Correct. MPC = 1 − MPS = 0.6."
+   },
+   {
+    "text": "0.4 minus 1.0",
+    "hint": "Negative, impossible."
+   },
+   {
+    "text": "the reciprocal of the MPS",
+    "hint": "That is the multiplier."
+   },
+   {
+    "text": "0.4",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "MPC + MPS = 1.",
+  "explanation": "## Advanced explanation\n\n$$MPC + MPS = 1 \\Rightarrow MPC = 1 - 0.4 = 0.6$$\n\n## Simplified explanation\n\nWhatever is not saved is spent: 1 − 0.4.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is correct?",
+  "options": [
+   {
+    "text": "APC + APS = 1",
+    "hint": "Correct."
+   },
+   {
+    "text": "APC + MPS = 1",
+    "hint": "Mixes average and marginal."
+   },
+   {
+    "text": "APS + MPC = 1",
+    "hint": "Mixes average and marginal."
+   },
+   {
+    "text": "APS − MPS = 1",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Y = C + S.",
+  "explanation": "## Advanced explanation\n\nSince $Y_d = C + S$: $\\dfrac{C}{Y_d} + \\dfrac{S}{Y_d} = 1 \\Rightarrow APC + APS = 1$, and likewise $MPC + MPS = 1$.\n\n## Simplified explanation\n\nAverage with average, marginal with marginal: **APC + APS = 1**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **MPC** for an economy is:",
+  "options": [
+   {
+    "text": "the slope of the consumption schedule or line",
+    "hint": "Correct."
+   },
+   {
+    "text": "the slope of the savings schedule or line",
+    "hint": "That is MPS."
+   },
+   {
+    "text": "1 divided by the slope of the consumption schedule",
+    "hint": "No."
+   },
+   {
+    "text": "1 divided by the slope of the savings schedule",
+    "hint": "That is the multiplier."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "ΔC / ΔY.",
+  "explanation": "## Advanced explanation\n\n$MPC = \\dfrac{\\Delta C}{\\Delta Y}$ is the **slope** of the consumption function; $MPS$ is the slope of the saving function; $\\dfrac{1}{MPS}$ is the multiplier.\n\n## Simplified explanation\n\nMPC is the **slope of the consumption line**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consumption schedule: $C = 20 + 0.9Y$ ($Y$ = disposable income). The **MPC** is:",
+  "options": [
+   {
+    "text": "0.45",
+    "hint": "No."
+   },
+   {
+    "text": "0.20",
+    "hint": "No."
+   },
+   {
+    "text": "0.50",
+    "hint": "No."
+   },
+   {
+    "text": "0.90",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Coefficient of Y.",
+  "explanation": "## Advanced explanation\n\nIn $C = a + bY$, $b = MPC = 0.9$ and $a = 20$ is autonomous consumption.\n\n## Simplified explanation\n\nThe number beside Y: **0.9**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consumption schedule: $C = 20 + 0.9Y$. At a **GH₵800** level of disposable income, the level of **saving** is:",
+  "options": [
+   {
+    "text": "GH₵180",
+    "hint": "No."
+   },
+   {
+    "text": "GH₵740",
+    "hint": "That is consumption."
+   },
+   {
+    "text": "GH₵60",
+    "hint": "Correct."
+   },
+   {
+    "text": "GH₵18",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "S = Y − C.",
+  "explanation": "## Advanced explanation\n\n$$C = 20 + 0.9(800) = 740 \\quad S = 800 - 740 = 60$$ (Or $S = -20 + 0.1Y = 60$.)\n\n## Simplified explanation\n\nSpend 740 of 800, save **GH₵60**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following will cause a **movement down along** an economy's consumption schedule?",
+  "options": [
+   {
+    "text": "an increase in stock prices",
+    "hint": "Shifts the schedule up (wealth)."
+   },
+   {
+    "text": "a decrease in stock prices",
+    "hint": "Shifts it down."
+   },
+   {
+    "text": "an increase in consumer indebtedness",
+    "hint": "Shifts it down."
+   },
+   {
+    "text": "a decrease in disposable income",
+    "hint": "Correct. A change in income moves along the schedule."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Along = change in income itself.",
+  "explanation": "## Advanced explanation\n\nA change in **disposable income** causes a **movement along** the consumption schedule. Changes in wealth, expectations, indebtedness or taxes **shift** the whole schedule.\n\n## Simplified explanation\n\nOnly a change in **income** moves you along the line; the rest shift the line.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **multiplier** is useful in determining the",
+  "options": [
+   {
+    "text": "full-employment unemployment rate",
+    "hint": "No."
+   },
+   {
+    "text": "level of business inventories",
+    "hint": "No."
+   },
+   {
+    "text": "rate of inflation",
+    "hint": "No."
+   },
+   {
+    "text": "change in GDP resulting from a change in spending",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "ΔY = k × ΔA.",
+  "explanation": "## Advanced explanation\n\n$$\\Delta Y = k \\times \\Delta A, \\quad k = \\frac{1}{1 - MPC} = \\frac{1}{MPS}$$\n\n## Simplified explanation\n\nThe multiplier tells how much GDP changes when spending changes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **multiplier effect** indicates that:",
+  "options": [
+   {
+    "text": "a decline in the interest rate will cause a proportionately larger increase in investment",
+    "hint": "That is interest elasticity."
+   },
+   {
+    "text": "a change in spending will change aggregate income by a larger amount",
+    "hint": "Correct."
+   },
+   {
+    "text": "a change in spending will increase aggregate income by the same amount",
+    "hint": "Only if MPC = 0."
+   },
+   {
+    "text": "an increase in total income will generate a larger change in aggregate expenditures",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Re-spending rounds.",
+  "explanation": "## Advanced explanation\n\nAn initial change in spending becomes income for others, who spend a fraction (MPC) of it, and so on. Total $\\Delta Y = \\dfrac{1}{1 - MPC}\\Delta A > \\Delta A$.\n\n## Simplified explanation\n\nMoney spent gets **re-spent many times**, so income rises by **more** than the first spending.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If a **GH₵200 billion** increase in investment spending creates GH₵200 billion of new income in the first round of the multiplier process and **GH₵160 billion** in the second round, the multiplier in the economy is:",
+  "options": [
+   {
+    "text": "4",
+    "hint": "No."
+   },
+   {
+    "text": "5",
+    "hint": "Correct. MPC = 0.8."
+   },
+   {
+    "text": "3.33",
+    "hint": "No."
+   },
+   {
+    "text": "2.5",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "MPC = second round / first round.",
+  "explanation": "## Advanced explanation\n\n$$MPC = \\frac{160}{200} = 0.8 \\Rightarrow k = \\frac{1}{1 - 0.8} = 5$$\n\n## Simplified explanation\n\nEach round is 80% of the last, so the multiplier is **5**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In a private closed economy, when **aggregate expenditures equal GDP**:",
+  "options": [
+   {
+    "text": "consumption equals investment",
+    "hint": "No."
+   },
+   {
+    "text": "consumption equals aggregate expenditures",
+    "hint": "No."
+   },
+   {
+    "text": "planned investment equals saving",
+    "hint": "Correct. Leakages = injections."
+   },
+   {
+    "text": "disposable income equals consumption minus saving",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Leakages vs injections.",
+  "explanation": "## Advanced explanation\n\nIn equilibrium $Y = C + I$ and $Y = C + S$, so **$S = I$** (planned): leakages equal injections, and there are no unplanned inventory changes.\n\n## Simplified explanation\n\nAt equilibrium, what people **save** equals what firms plan to **invest**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If an **unintended increase in business inventories** occurs at some level of GDP, then GDP:",
+  "options": [
+   {
+    "text": "entails a rate of aggregate expenditures in excess of the rate of aggregate production",
+    "hint": "Reversed."
+   },
+   {
+    "text": "may be either above or below the equilibrium output",
+    "hint": "No."
+   },
+   {
+    "text": "is too low for equilibrium",
+    "hint": "No."
+   },
+   {
+    "text": "is too high for equilibrium",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Unsold goods pile up.",
+  "explanation": "## Advanced explanation\n\nUnplanned inventory accumulation means **output > aggregate expenditure**, so GDP is **above** equilibrium. Firms cut production until $Y = AE$.\n\n## Simplified explanation\n\nGoods piling up unsold means firms are making **too much**, so GDP is too high.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Private closed economy (GH₵ billion): $C = 60 + 0.6Y$ and $I = 30$. The **equilibrium level of income** ($Y$) is:",
+  "options": [
+   {
+    "text": "360",
+    "hint": "No."
+   },
+   {
+    "text": "225",
+    "hint": "Correct."
+   },
+   {
+    "text": "200",
+    "hint": "No."
+   },
+   {
+    "text": "135",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Y = C + I.",
+  "explanation": "## Advanced explanation\n\n$$Y = 60 + 0.6Y + 30 \\Rightarrow 0.4Y = 90 \\Rightarrow Y = 225$$\n\n## Simplified explanation\n\nSolve Y = 60 + 0.6Y + 30: **Y = 225**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Private closed economy (GH₵ billion): $C = 60 + 0.6Y$, $I = 30$, equilibrium $Y = 225$. In equilibrium the level of **consumption spending** will be:",
+  "options": [
+   {
+    "text": "170",
+    "hint": "No."
+   },
+   {
+    "text": "270",
+    "hint": "No."
+   },
+   {
+    "text": "160",
+    "hint": "No."
+   },
+   {
+    "text": "195",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Substitute Y into C.",
+  "explanation": "## Advanced explanation\n\n$$C = 60 + 0.6(225) = 60 + 135 = 195$$\n\n## Simplified explanation\n\n60 + 0.6 × 225 = **195**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Private closed economy (GH₵ billion): $C = 60 + 0.6Y$, $I = 30$, equilibrium $Y = 225$. In equilibrium the level of **saving** will be:",
+  "options": [
+   {
+    "text": "30",
+    "hint": "Correct. S = I."
+   },
+   {
+    "text": "26",
+    "hint": "No."
+   },
+   {
+    "text": "25",
+    "hint": "No."
+   },
+   {
+    "text": "60",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "S = Y − C, or S = I.",
+  "explanation": "## Advanced explanation\n\n$$S = Y - C = 225 - 195 = 30 = I$$\n\n## Simplified explanation\n\nAt equilibrium saving equals investment: **30**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Actual investment is **GH₵62 billion** at an equilibrium output level of **GH₵620 billion** in a private closed economy. The **average propensity to save** at this level of output is:",
+  "options": [
+   {
+    "text": "0.10",
+    "hint": "Correct."
+   },
+   {
+    "text": "10",
+    "hint": "Not a proportion."
+   },
+   {
+    "text": "0.62",
+    "hint": "No."
+   },
+   {
+    "text": "0.84",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "At equilibrium S = I.",
+  "explanation": "## Advanced explanation\n\n$$S = I = 62 \\Rightarrow APS = \\frac{S}{Y} = \\frac{62}{620} = 0.10$$\n\n## Simplified explanation\n\nSaving equals 62 at equilibrium, so APS = 62/620 = **0.10**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **equilibrium GDP** is the level of domestic output:",
+  "options": [
+   {
+    "text": "where consumption equals saving",
+    "hint": "No."
+   },
+   {
+    "text": "where actual investment equals consumption",
+    "hint": "No."
+   },
+   {
+    "text": "which is sustainable",
+    "hint": "Correct. No unplanned inventory change, so no pressure to change output."
+   },
+   {
+    "text": "where full employment exists",
+    "hint": "Equilibrium need not be full employment."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "No tendency to change.",
+  "explanation": "## Advanced explanation\n\nAt equilibrium, aggregate expenditure equals output, there is **no unplanned inventory change** and no tendency for output to change: the output level is **sustainable**. Keynes stressed it **need not** be at full employment.\n\n## Simplified explanation\n\nEquilibrium is the output level that can **keep going** without changing.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "It is true that",
+  "options": [
+   {
+    "text": "equal increases in government spending and taxes do not change the equilibrium GDP",
+    "hint": "No."
+   },
+   {
+    "text": "equal increases in government spending and taxes reduce the equilibrium GDP",
+    "hint": "No."
+   },
+   {
+    "text": "equal increases in government spending and taxes increase the equilibrium GDP",
+    "hint": "Correct. The balanced-budget multiplier is 1."
+   },
+   {
+    "text": "taxes have a stronger effect upon equilibrium GDP than do government purchases",
+    "hint": "Weaker: part of a tax change hits saving."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Balanced-budget multiplier.",
+  "explanation": "## Advanced explanation\n\nSpending multiplier $= \\dfrac{1}{1 - MPC}$, tax multiplier $= \\dfrac{-MPC}{1 - MPC}$. Their sum $= 1$, so $\\Delta G = \\Delta T$ raises $Y$ by exactly $\\Delta G$.\n\n## Simplified explanation\n\nRaising spending and taxes by the same amount still **raises** GDP (by that amount).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Fiscal Policy",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the Brown family's **marginal** propensity to consume is 0.70, then it will necessarily consume seven-tenths of its **total** income.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "That confuses marginal with average."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. MPC applies to changes in income; the share of total income consumed is the APC."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Marginal vs average.",
+  "explanation": "## Advanced explanation\n\n**MPC** $= \\Delta C / \\Delta Y$ applies to **extra** income. The share of **total** income consumed is the **APC** $= C/Y$, which with autonomous consumption exceeds the MPC at low incomes.\n\n## Simplified explanation\n\nMPC is about **extra** income only; the share of all income spent is the APC: false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Tutorial Set"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Indicate with explanation whether or not the following activities are part of **GDP**:\n(i) Mrs Adomako picks flowers in her garden.\n(ii) Fruits are sold in the market.\n(iii) Patients hurt in a car accident are treated in a government hospital.\n(iv) Pensioners do community work for free.\n(v) An auto mechanic buys spare parts to sell them to customers next year.",
+  "media": [],
+  "answer": "| Activity | In GDP? | Reason |\n|---|---|---|\n| (i) Picking flowers in her own garden | {{red:**No**}} | Home production for own use; **no market transaction**. |\n| (ii) Fruits sold in the market | {{green:**Yes**}} | Market sale of **final** goods produced this year (consumption). |\n| (iii) Treatment in a government hospital | {{green:**Yes**}} | Government provision of services, valued at cost (wages of doctors and nurses): part of $G$. |\n| (iv) Pensioners' free community work | {{red:**No**}} | **Unpaid**, non-market activity. (Their pensions are transfers, also excluded.) |\n| (v) Mechanic buys spare parts to sell next year | {{green:**Yes**}} | Parts produced this year and held for resale are an **addition to inventories**: investment ($I$) this year. |\n\n> [!answer]\n> (i) No · (ii) Yes · (iii) Yes · (iv) No · (v) Yes (inventory investment).",
+  "explanation": "## Advanced explanation\n\nGDP $= C + I + G + NX$ counts **current, market** production of **final** goods and services. Excluded: **non-market production** (home gardening, volunteering), **transfers**, **second-hand** goods and **financial** transactions. Government services have no market price, so they are valued **at cost**. Goods produced but unsold at year-end enter as **inventory investment**, so they are counted in the year they were **produced**, not the year they are sold.\n\n## Simplified explanation\n\nGDP only counts things **produced and paid for** this year. Free work and gardening for yourself are left out. Unsold parts count as the shop's **investment**.",
+  "hint": "GDP counts **market** production of **final** goods and services in the current year.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "National Income Accounting",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Ace Computers and aggregate expenditure.** Ace Computers produced **GH₵500 million** of new computers in 2015. It sells to households, private firms, government agencies, and buyers in **other countries**. Three scenarios for its 2015 sales (GH₵ million):\n\n| Sales to | Scenario 1 | Scenario 2 | Scenario 3 |\n|---|---|---|---|\n| Households | 200 | 250 | 300 |\n| Private firms | 50 | 50 | 50 |\n| Government | 100 | 100 | 100 |\n| Other countries | 100 | 100 | 100 |\n| **Total sales** | **450** | **500** | **550** |\n\n(i) What is Ace's contribution to GDP for 2015 under each scenario? (ii) Predict how Ace would change its rate of output in 2016 in each scenario. (iii) Use the example to describe how macroeconomic equilibrium is achieved in the aggregate expenditure model.",
+  "media": [],
+  "answer": "**(i) Contribution to GDP = value of 2015 production = GH₵500 million in every scenario.**\n\n| | Scenario 1 | Scenario 2 | Scenario 3 |\n|---|---|---|---|\n| Production | 500 | 500 | 500 |\n| Sales | 450 | 500 | 550 |\n| Inventory change | **+50** (unsold, counted as investment) | 0 | **−50** (sold from earlier stock) |\n| GDP contribution | sales 450 + inventory 50 = **500** | **500** | sales 550 − inventory 50 = **500** |\n\n**(ii) 2016 output:**\n- **Scenario 1:** unplanned inventory build-up (spending < production), so Ace **cuts output**.\n- **Scenario 2:** sales = production, so output stays **unchanged**.\n- **Scenario 3:** inventories run down (spending > production), so Ace **raises output**.\n\n**(iii)** Equilibrium is where **aggregate expenditure = GDP**, so there are **no unplanned inventory changes**. If $AE < Y$, inventories pile up and firms cut production; if $AE > Y$, inventories fall and firms expand. Output adjusts until $AE = Y$, exactly as Ace adjusts its own production.\n\n> [!answer]\n> GDP contribution = GH₵500m in all three; S1 cut output, S2 keep, S3 raise; equilibrium where AE = Y with no unplanned inventory change.",
+  "explanation": "## Advanced explanation\n\nGDP counts **production**. Unsold output enters as **inventory investment** and sales out of old stock are offset by **inventory disinvestment**, so all three cases add GH₵500m. In the Keynesian cross, **unplanned inventory change is the signal** that moves output: $Y > AE$ means unplanned inventory investment and output falls; $Y < AE$ means unplanned disinvestment and output rises. Equilibrium is $Y = AE$ (in a private closed economy, $S = I$ planned).\n\n## Simplified explanation\n\nAce made GH₵500m of computers each time, so that is its GDP contribution. If computers are left over, it makes fewer next year; if it ran short, it makes more. The whole economy works the same way until **spending = production**.",
+  "hint": "GDP measures production, not sales.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Income Determination & Multiplier",
+   "National Income Accounting",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Assume Ghana produces only **cereal Gold** and **milk Cocoa**. Base year **2013**.\n\n| Year | Unit price of Gold (GH₵00) | Quantity of Gold | Price per tonne of Cocoa (GH₵00) | Quantity of Cocoa |\n|---|---|---|---|---|\n| 2013 | 4 | 100 | 1.5 | 180 |\n| 2014 | 4 | 120 | 2.0 | 200 |\n| 2015 | 5 | 150 | 2.5 | 200 |\n| 2016 | 6 | 150 | 3.5 | 240 |\n\nCalculate the **nominal GDP**, **real GDP**, **GDP deflator** and **inflation rate** for each year (show your calculations).",
+  "media": [],
+  "answer": "Figures in GH₵ hundreds.\n\n| Year | Nominal GDP $\\sum P_tQ_t$ | Real GDP $\\sum P_{2013}Q_t$ | GDP deflator | Inflation rate |\n|---|---|---|---|---|\n| 2013 | 4×100 + 1.5×180 = **670** | 4×100 + 1.5×180 = **670** | **100.00** | **–** |\n| 2014 | 4×120 + 2.0×200 = **880** | 4×120 + 1.5×200 = **780** | **112.82** | **12.82%** |\n| 2015 | 5×150 + 2.5×200 = **1250** | 4×150 + 1.5×200 = **900** | **138.89** | **23.11%** |\n| 2016 | 6×150 + 3.5×240 = **1740** | 4×150 + 1.5×240 = **960** | **181.25** | **30.50%** |\n\n$$\\text{Deflator} = \\frac{\\text{Nominal}}{\\text{Real}} \\times 100, \\qquad \\pi_t = \\frac{D_t - D_{t-1}}{D_{t-1}} \\times 100$$\n\n> [!answer]\n> Nominal: 670, 880, 1,250, 1,740 · Real: 670, 780, 900, 960 · Deflator: 100, 112.82, 138.89, 181.25 · Inflation: –, 12.82%, 23.11%, 30.50% (GH₵00).",
+  "explanation": "## Advanced explanation\n\n**Nominal GDP** values output at **current** prices, **real GDP** at **base-year** prices, so their ratio isolates the price change: the **GDP deflator**, a Paasche-type index with a basket that changes every year. In the base year nominal = real and the deflator is 100. Real GDP growth here (670 → 960, +43%) is much less than nominal growth (+160%), because most of the nominal rise is inflation.\n\n## Simplified explanation\n\nMultiply each year's quantities by **that year's prices** (nominal) and by **2013 prices** (real). Divide nominal by real × 100 to get the deflator; the % change in the deflator is inflation.\n\n> [!warning]\n> Real GDP keeps the **prices** fixed at 2013, not the quantities.",
+  "hint": "Real GDP uses **2013 prices** with each year's quantities.",
+  "difficulty": "medium",
+  "marks": 7,
+  "tags": [
+   "National Income Accounting",
+   "Inflation & Price Indices",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Assume an economy with an **MPC of 0.8** is experiencing severe recession. By how much would **government spending** have to increase to shift aggregate demand rightward by **GH₵25 billion**? How large a **tax cut** would be needed to achieve the same increase? Why the difference?",
+  "media": [],
+  "answer": "**Spending multiplier:** $k_G = \\dfrac{1}{1 - 0.8} = 5 \\Rightarrow \\Delta G = \\dfrac{25}{5} = $ **GH₵5 billion**.\n\n**Tax multiplier:** $k_T = \\dfrac{-MPC}{1 - MPC} = \\dfrac{-0.8}{0.2} = -4 \\Rightarrow \\Delta T = \\dfrac{25}{-4} = -6.25$, a **tax cut of GH₵6.25 billion**.\n\n**Why the difference:** government spending enters aggregate demand **in full** in the first round. A tax cut first raises disposable income, and households **save part of it** ($MPS = 0.2$): only $0.8 \\times$ the cut is spent in the first round. The tax multiplier is therefore smaller (in absolute value) by exactly one, so a larger tax cut is needed.\n\n> [!answer]\n> ΔG = GH₵5bn; tax cut = GH₵6.25bn; tax cuts are partly saved, so the tax multiplier (4) is smaller than the spending multiplier (5).",
+  "explanation": "## Advanced explanation\n\n$|k_T| = k_G - 1$. That gap is the **balanced-budget multiplier** result: raising $G$ and $T$ by the same amount raises $Y$ by that amount ($k_G + k_T = 1$). Policy implication: per cedi of deficit, **spending is more expansionary than tax cuts**, though tax cuts may be preferred for other reasons (private choice, speed, smaller government).\n\n## Simplified explanation\n\nEvery cedi the government spends is spent at once; every cedi of tax cut is only **80% spent**, so you need a bigger tax cut (6.25bn) than spending rise (5bn).",
+  "hint": "k = 1/(1 − MPC); tax multiplier = −MPC/(1 − MPC).",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Fiscal Policy",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are government's **fiscal policy options** for ending severe **demand-pull inflation**? Use the **aggregate demand–aggregate supply (AD–AS)** model to show the impact of these policies on the price level.",
+  "media": [],
+  "answer": "**Contractionary (restrictive) fiscal policy:**\n1. **Decrease government spending** ($G \\downarrow$): directly lowers AD (with the multiplier).\n2. **Increase taxes** ($T \\uparrow$): lowers disposable income, so consumption falls.\n3. **A combination** of lower spending and higher taxes, moving the budget toward **surplus**, which may be impounded or used to retire debt rather than spent.\n\n**AD–AS analysis:**\n- Initially excess demand: $AD_1$ meets AS in the steep (near-capacity) range at a high price level $P_1$ above the full-employment output $Y_f$.\n- Contractionary policy shifts **AD left** from $AD_1$ to $AD_2$.\n- The price level **falls (or stops rising)** from $P_1$ to $P_2$, and output returns toward $Y_f$.\n\n| | Before | After contractionary policy |\n|---|---|---|\n| AD | $AD_1$ | $AD_2$ (shifted left) |\n| Price level | $P_1$ (high) | $P_2$ (lower) |\n| Output | above potential | ≈ full-employment $Y_f$ |\n\n> [!answer]\n> Cut G, raise T, or both (budget surplus); AD shifts left, lowering the price level toward the full-employment equilibrium.",
+  "explanation": "## Advanced explanation\n\nBecause demand-pull inflation arises in the **steep (classical) range** of AS, reducing AD mainly lowers **prices** with little output loss. In practice prices are **sticky downward** (ratchet effect), so contraction may cut output too. A surplus is most anti-inflationary if **impounded** (not spent). Lags (recognition, legislative, implementation) and political resistance limit fiscal policy, so monetary policy often leads the fight against inflation.\n\n## Simplified explanation\n\nInflation from **too much spending** is fixed by making the government **spend less and tax more**. AD shifts left and prices come down.\n\n> [!tip]\n> Draw it: vertical axis price level, horizontal axis real GDP; upward-sloping AS, AD₁ shifting left to AD₂; mark P₁ → P₂.",
+  "hint": "Demand-pull = too much AD, so the cure reduces AD.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Fiscal Policy",
+   "Inflation & Price Indices",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose you are the **Governor of the Bank of Ghana** and the economy is experiencing a sharp and prolonged **inflationary** trend. What changes in (a) the **reserve ratio**, (b) the **monetary policy rate**, and (c) **open-market operations** would you recommend? Explain in each case how the change would affect **commercial bank reserves, the money supply, interest rates and aggregate demand**.",
+  "media": [],
+  "answer": "| Tool | Recommendation | Reserves | Money supply | Interest rates | Aggregate demand |\n|---|---|---|---|---|---|\n| **(a) Reserve ratio** | **Raise** it | Excess reserves fall (more must be held) | ↓ (multiplier $1/rr$ falls) | ↑ | ↓ |\n| **(b) Monetary policy rate** | **Raise** the MPR | Borrowing reserves from BoG is dearer | ↓ | ↑ (lending rates follow) | ↓ |\n| **(c) Open-market operations** | **Sell** government securities | Buyers pay from bank deposits, so reserves ↓ | ↓ | ↑ (bond prices fall) | ↓ |\n\n**Transmission:** tight money → higher interest rates → lower **investment** and interest-sensitive **consumption** (and, through capital inflows, a firmer cedi that dampens import prices) → **AD shifts left** → inflationary pressure eases.\n\n> [!answer]\n> Raise the reserve ratio, raise the policy rate, and sell securities; each cuts bank reserves and money supply, raises interest rates, and reduces AD.",
+  "explanation": "## Advanced explanation\n\nEach tool works on **bank reserves**. Raising $rr$ lowers the deposit multiplier $1/rr$ and excess reserves; a higher MPR raises the cost of reserves and anchors market rates; OMO sales drain reserves directly and are the most flexible tool. Higher rates reduce investment ($I$), durables consumption and credit growth. The Bank of Ghana's inflation-targeting framework uses the **MPR** as the main signal, with OMO keeping interbank rates near it.\n\n## Simplified explanation\n\nTo fight inflation, make money **scarcer and dearer**: banks keep more, borrowing from the Bank of Ghana costs more, and the BoG sells bonds to soak up cash. People and firms borrow and spend less, so prices calm down.",
+  "hint": "Tight (contractionary) monetary policy.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Money & Banking",
+   "Inflation & Price Indices",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose the economy of **Limpopo** operated **without government** in 2016. Autonomous consumption was **GH₵40 million**, **75%** of income earned was spent on goods and services, and private investment was **GH₵60 million**. Find: (a) the equilibrium level of income; (b) the level of consumption; (c) the level of savings at equilibrium.\n\n(d) In 2017 the government spends **GH₵50 million**, autonomous consumption and investment both increase by **20%**, the MPC increases by **10%**, and the government imposes a **proportional tax of 25%**. Find: (i) equilibrium income; (ii) consumption; (iii) savings at equilibrium.",
+  "media": [],
+  "answer": "**2016:** $C = 40 + 0.75Y$, $I = 60$\n\n$$Y = C + I \\Rightarrow Y = 40 + 0.75Y + 60 \\Rightarrow 0.25Y = 100 \\Rightarrow Y = 400$$\n\n- (a) $Y^* =$ **GH₵400m**\n- (b) $C = 40 + 0.75(400) =$ **GH₵340m**\n- (c) $S = Y - C = $ **GH₵60m** $(= I)$\n\n**2017:** $a = 40 \\times 1.2 = 48$, $I = 60 \\times 1.2 = 72$, $G = 50$, $MPC = 0.75 \\times 1.1 = 0.825$, $T = 0.25Y \\Rightarrow Y_d = 0.75Y$\n\n$$Y = 48 + 0.825(0.75Y) + 72 + 50 = 170 + 0.61875Y \\Rightarrow Y = \\frac{170}{0.38125}$$\n\n- (i) $Y^* \\approx$ **GH₵445.90m**\n- (ii) $Y_d = 0.75 \\times 445.90 = 334.43$; $C = 48 + 0.825 \\times 334.43 \\approx$ **GH₵323.90m**\n- (iii) $S = Y_d - C \\approx$ **GH₵10.52m**\n\n**Check:** $S + T = I + G$: $10.52 + 111.48 \\approx 122 = 72 + 50$ ✓\n\n> [!answer]\n> 2016: Y = 400, C = 340, S = 60. 2017: Y ≈ GH₵445.90m, C ≈ GH₵323.90m, S ≈ GH₵10.52m.",
+  "explanation": "## Advanced explanation\n\nWith a proportional tax the multiplier becomes $k = \\dfrac{1}{1 - b(1 - t)} = \\dfrac{1}{1 - 0.825 \\times 0.75} \\approx 2.62$, smaller than the 2016 multiplier of 4 because taxes are an extra **leakage** (automatic stabiliser). The equilibrium condition generalises to **leakages = injections**: $S + T = I + G$.\n\n_Note:_ if \"MPC increases by 10 percent\" is read as **+10 percentage points** ($MPC = 0.85$), then $Y = 170/(1 - 0.85 \\times 0.75) = 170/0.3625 \\approx 468.97$. State your interpretation in the exam.\n\n## Simplified explanation\n\nSet income equal to spending and solve for Y. In 2017 remember that people only spend out of **after-tax** income (75% of Y).\n\n> [!warning]\n> Do not apply the MPC to total income Y once there is a tax; apply it to **disposable income** (1 − t)Y.",
+  "hint": "Equilibrium: Y = C + I (+ G); with a proportional tax, consumption depends on Yd = (1 − t)Y.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Consumption & Saving",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss **five (5)** types of unemployment in Ghana.",
+  "media": [],
+  "answer": "1. **Frictional unemployment:** short-term unemployment while people **search** for or move between jobs: fresh graduates awaiting national service postings or first jobs, workers relocating. Some is inevitable.\n2. **Structural unemployment:** a **mismatch** between workers' skills or location and available jobs, due to changes in the structure of the economy, e.g. graduates whose courses do not match labour-market needs, or workers displaced by the decline of an industry. Often long-term.\n3. **Cyclical (demand-deficient) unemployment:** caused by a **fall in aggregate demand** in a recession or slowdown (e.g. layoffs during the 2022–23 economic crisis). It falls when the economy recovers.\n4. **Seasonal unemployment:** jobs that depend on **seasons**: farm labourers in the northern dry season, cocoa-season workers, tourism lulls.\n5. **Disguised unemployment / underemployment:** more people engaged than needed (zero marginal product), common in family farms and the informal sector, or people working fewer hours or below their skills.\n6. **Technological unemployment:** labour replaced by machines and automation (e.g. mechanised mining, automated banking).\n7. **Voluntary unemployment:** people who choose not to work at the going wage.\n\n> [!answer]\n> Any five explained with Ghanaian examples: frictional, structural, cyclical, seasonal, disguised/underemployment, technological, voluntary.",
+  "explanation": "## Advanced explanation\n\nThe **natural rate** = frictional + structural; **cyclical** is the gap above it ($u - u^*$). Ghana's labour market is dominated by the **informal sector**, so open unemployment understates the problem: **underemployment and disguised unemployment** are widespread, and graduate unemployment reflects both structural mismatch and weak formal-sector job creation. Policy differs by type: job-matching information (frictional), training/TVET (structural), demand management (cyclical), agro-processing and irrigation (seasonal).\n\n## Simplified explanation\n\nPeople are unemployed because they are **between jobs**, their **skills do not fit**, the **economy is weak**, it is **off-season**, there are **too many hands** on one job, or **machines replaced them**.",
+  "hint": "Define each type, give its cause, and add a Ghanaian example.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Unemployment",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "You are given the following information about an economy (GH₵):\n\n| Item | Amount |\n|---|---|\n| Households' spending on new homes and apartment buildings | 14,000 |\n| Imports of goods and services | 30,000 |\n| Public authorities' current expenditure on goods and services | 50,000 |\n| Value of physical increase in stocks and work-in-progress | 10,000 |\n| Gross domestic fixed capital formation | 20,000 |\n| Compensation of employees | 84,000 |\n| Ploughed-back earnings of private corporations | 16,000 |\n| Income of foreigners in the domestic economy | 10,000 |\n| Gross trading profits of companies | 30,000 |\n| Consumers' expenditure on final goods and services | 100,000 |\n| Exports of goods and services | 40,000 |\n| Taxes on expenditure | 20,000 |\n| Capital consumption allowance (depreciation) | 5,000 |\n| Subsidies to businesses | 15,000 |\n| Earnings of nationals resident abroad | 35,000 |\n\n_(Population: 34,000; implicit GDP deflator: 128.)_ Calculate: (i) Total Domestic Expenditure at market prices; (ii) GDP at market prices; (iii) GDP at factor cost; (iv) GNP at factor cost; (v) NNP at factor cost; (vi) real national income; (vii) per capita real income.",
+  "media": [],
+  "answer": "| | Calculation | GH₵ |\n|---|---|---|\n| (i) **TDE at market prices** | $C + G + GDFCF + \\Delta\\text{stocks} + \\text{new homes}$ = 100,000 + 50,000 + 20,000 + 10,000 + 14,000 | **194,000** |\n| (ii) **GDP at market prices** | TDE + X − M = 194,000 + 40,000 − 30,000 | **204,000** |\n| (iii) **GDP at factor cost** | GDP$_{mp}$ − taxes on expenditure + subsidies = 204,000 − 20,000 + 15,000 | **199,000** |\n| (iv) **GNP at factor cost** | GDP$_{fc}$ + net factor income from abroad = 199,000 + (35,000 − 10,000) | **224,000** |\n| (v) **NNP at factor cost** (national income) | GNP$_{fc}$ − depreciation = 224,000 − 5,000 | **219,000** |\n| (vi) **Real national income** | $\\dfrac{219,000}{128} \\times 100$ | **171,093.75** |\n| (vii) **Per capita real income** | $\\dfrac{171,093.75}{34{,}000}$ | **5.03** |\n\n_Compensation of employees, trading profits and ploughed-back earnings are income-side items and are not needed for the expenditure method._\n\n> [!answer]\n> TDE 194,000 · GDPmp 204,000 · GDPfc 199,000 · GNPfc 224,000 · NNPfc 219,000 · real NI 171,093.75 · per capita real income ≈ GH₵5.03.",
+  "explanation": "## Advanced explanation\n\nThe chain of aggregates:\n$$TDE \\xrightarrow{+X-M} GDP_{mp} \\xrightarrow{-T_{ind}+Sub} GDP_{fc} \\xrightarrow{+NFIA} GNP_{fc} \\xrightarrow{-Dep} NNP_{fc} = NI$$\n**Market prices** include indirect taxes and exclude subsidies; **factor cost** is what the factors of production actually receive. **Net factor income from abroad** = nationals' earnings abroad − foreigners' earnings at home. **Real** values divide by the deflator (128 means prices are 28% above the base year).\n\n## Simplified explanation\n\nAdd up all spending in the country, add exports and take away imports (GDP), remove taxes and add subsidies (factor cost), add net income from abroad (GNP), subtract wear-and-tear (NNP), remove inflation, and divide by population.",
+  "hint": "Expenditure method: build up from domestic spending, then adjust for trade, taxes/subsidies, factor income and depreciation.",
+  "difficulty": "hard",
+  "marks": 14,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss any **three (3)** limitations of using **per capita income** estimates as a measure of living standards.",
+  "media": [],
+  "answer": "1. **Ignores income distribution:** an average can rise while most people are no better off if the gains go to a few (high inequality, as between Ghana's north and south).\n2. **Excludes non-market production:** subsistence farming, housework and the informal sector are partly unrecorded, so per capita income **understates** living standards in Ghana.\n3. **Ignores leisure and working conditions:** higher income from longer hours may not mean better lives.\n4. **Ignores environmental damage and resource depletion:** e.g. galamsey raises measured output while destroying rivers and farmland.\n5. **Ignores quality of life:** health, education, life expectancy, security and political freedom are not captured (hence the **HDI**).\n6. **Measurement and comparison problems:** inaccurate data, the underground economy, exchange-rate conversion (use **PPP**), and differences in needs and prices across countries.\n7. **Composition of output:** spending on defence or crime prevention adds to income but not to welfare.\n\n> [!answer]\n> Any three, explained: distribution ignored · non-market/informal production missed · leisure ignored · environmental costs ignored · non-income welfare (health, education) ignored · data/exchange-rate problems.",
+  "explanation": "## Advanced explanation\n\nPer capita income $= \\dfrac{GDP\\ (\\text{or }GNI)}{\\text{population}}$ is a **mean**, which is sensitive to inequality and blind to non-monetary welfare. Alternatives and complements: **median income**, **Gini coefficient**, **HDI** (income, education, life expectancy), **multidimensional poverty index**, and green GDP.\n\n## Simplified explanation\n\nIncome per head is just an **average**. It hides inequality, misses unpaid and informal work, and ignores health, the environment and free time.",
+  "hint": "An average can hide a lot.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "National Income Accounting",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose **Oguaa Rural Bank** is the only bank in Ghana and Mr Adenusa deposits **GH₵1 million** into his account. The Bank of Ghana requires a **reserve ratio of 12%**.\n\n(a) Fill in the **four rounds** of money creation by the commercial bank (assume all excess reserves are lent out). (b) Define the **money multiplier**. (c) Calculate the money multiplier for this example. (d) How much will **total deposits** expand if the bank lends all its excess reserves and there are no leakages? (e) List **three** problems with the barter system and how money has solved them.",
+  "media": [],
+  "answer": "**(a)** (GH₵)\n\n| Round | Deposit | Required reserve (12%) | Loan (88%) |\n|---|---|---|---|\n| 1 | 1,000,000.00 | 120,000.00 | 880,000.00 |\n| 2 | 880,000.00 | 105,600.00 | 774,400.00 |\n| 3 | 774,400.00 | 92,928.00 | 681,472.00 |\n| 4 | 681,472.00 | 81,776.64 | 599,695.36 |\n| **Total (4 rounds)** | **3,335,872.00** | **400,304.64** | **2,935,567.36** |\n\n**(b)** The **money (deposit) multiplier** is the maximum number of times an initial deposit (new reserves) can expand total deposits/money supply through repeated lending and re-depositing: $m = \\dfrac{1}{rr}$.\n\n**(c)** $m = \\dfrac{1}{0.12} =$ **8.33**\n\n**(d)** Total deposits $= 1{,}000{,}000 \\times 8.33 =$ **GH₵8,333,333.33** (of which GH₵7,333,333.33 is newly created through loans).\n\n**(e)**\n| Problem of barter | How money solves it |\n|---|---|\n| **Double coincidence of wants** is needed | Money is a **medium of exchange** accepted by all |\n| **No common measure of value** (how many yams per goat?) | Money is a **unit of account** |\n| **Indivisibility** of goods (half a cow?) | Money is **divisible** into small units |\n| **Difficulty storing wealth** (perishables) | Money is a **store of value** |\n| **No standard for deferred payment** | Money is a **standard of deferred payment** |\n\n> [!answer]\n> Rounds: deposits 1,000,000 → 880,000 → 774,400 → 681,472; m = 1/0.12 = 8.33; total deposits ≈ GH₵8.33m; barter problems solved by money's functions.",
+  "explanation": "## Advanced explanation\n\nDeposits form a geometric series: $D = 1{,}000{,}000\\,(1 + 0.88 + 0.88^2 + \\dots) = \\dfrac{1{,}000{,}000}{1 - 0.88} = \\dfrac{1{,}000{,}000}{0.12}$. In reality the multiplier is smaller because of **leakages**: cash held outside banks (currency drain), banks holding **excess reserves**, and borrowers not redepositing. The broader multiplier is $m = \\dfrac{1 + c}{c + rr + e}$.\n\n## Simplified explanation\n\nThe bank keeps 12 pesewas of every cedi and lends 88. That loan is deposited again, and the cycle repeats, so GH₵1m can become about **GH₵8.33m** of deposits.",
+  "hint": "Each round the bank keeps 12% and lends 88%, which comes back as a new deposit.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Money & Banking",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose **Ghana** and **China** are the only two countries in the world, producing **cocoa** and **phones**. Each country's total resources are **100 workers**. The table shows the total quantity of cocoa **or** phones each can produce with all its resources.\n\n| Country | Cocoa | Phones |\n|---|---|---|\n| Ghana | 600 | 200 |\n| China | 200 | 400 |\n\n(a) Which country has **absolute advantage** in cocoa? (b) …in phones? (c) Which has **comparative advantage** in cocoa? (d) …in phones? (Briefly explain each.) (e) What should each specialise in? (f) With no trade, if each country splits its resources in half, what does each produce, and what is world output? (g) With specialisation by comparative advantage, what is world output? (h) \"International trade is a double-edged sword.\" Explain with three reasons for and three against trade.",
+  "media": [],
+  "answer": "**Opportunity costs**\n\n| | 1 cocoa costs | 1 phone costs |\n|---|---|---|\n| Ghana | $\\tfrac{200}{600} = \\tfrac13$ phone | $3$ cocoa |\n| China | $\\tfrac{400}{200} = 2$ phones | $\\tfrac12$ cocoa |\n\n- **(a)** **Ghana**: it produces more cocoa (600 > 200) with the same resources.\n- **(b)** **China**: 400 > 200 phones.\n- **(c)** **Ghana**: lower opportunity cost of cocoa ($\\tfrac13$ phone < 2 phones).\n- **(d)** **China**: lower opportunity cost of phones ($\\tfrac12$ cocoa < 3 cocoa).\n- **(e)** Ghana specialises in **cocoa**; China in **phones**.\n- **(f)** No trade, half resources each: Ghana **300 cocoa + 100 phones**; China **100 cocoa + 200 phones**; world **400 cocoa + 300 phones**.\n- **(g)** Full specialisation: Ghana **600 cocoa**, China **400 phones**; world **600 cocoa + 400 phones**, a gain of **+200 cocoa and +100 phones**.\n\n**(h) Double-edged sword**\n\n| For trade | Against trade |\n|---|---|\n| Gains from specialisation: higher world output and consumption | Domestic infant industries can be killed by cheaper imports |\n| Access to goods a country cannot produce (technology, capital goods) | Dependence on a few primary exports exposes the economy to price shocks (cocoa, gold) |\n| Wider markets, economies of scale, foreign exchange earnings | Job losses in import-competing sectors |\n| Competition improves efficiency and quality; transfer of technology | Balance-of-payments deficits and pressure on the cedi |\n| Lower prices and more variety for consumers | Importation of harmful goods and cultural erosion |\n\n> [!answer]\n> Ghana: absolute and comparative advantage in cocoa; China: in phones. No trade: world 400 cocoa + 300 phones; with specialisation: 600 cocoa + 400 phones.",
+  "explanation": "## Advanced explanation\n\nHere each country has **both** the absolute and the comparative advantage in one good (reciprocal absolute advantage), so the gains are obvious. Ricardo's insight is that trade is beneficial **even if one country had absolute advantage in both**, as long as opportunity costs differ. Mutually beneficial terms of trade must lie **between** the two domestic opportunity costs: 1 phone for between ½ and 3 cocoa.\n\n## Simplified explanation\n\nGhana is better at cocoa and China at phones. If each makes only what it is best at and they trade, the world gets **200 more cocoa and 100 more phones**.",
+  "hint": "Absolute = more output; comparative = lower opportunity cost.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "International Trade",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) A borrower and a lender agree on the **nominal interest rate** on a loan. Inflation then turns out to be **higher than both expected**. Explain what happens to the lender and the borrower.\n(b) GNP is preferred to GDP as a measure of economic well-being. Which measure should we prefer if we are analysing the **total amount of economic activity occurring in the economy**? Explain.\n(c) The participation of **women** in the Ghanaian labour market has risen dramatically. (i) How would this affect GDP? (ii) Imagine a measure of well-being that includes **time spent working in the home and taking leisure**: how would the change in this measure compare with the change in GDP? (iii) What other aspects of well-being are associated with the rise in women's labour-force participation?",
+  "media": [],
+  "answer": "**(a)** Real interest rate $r = i - \\pi$. Unexpectedly high inflation **lowers the real interest rate** below what was agreed:\n- The **borrower gains**: repays with cedis of lower purchasing power.\n- The **lender loses**: receives less in real terms than expected.\n\nUnexpected inflation **redistributes wealth from lenders (creditors) to borrowers (debtors)**.\n\n**(b)** **GDP.** GDP measures all production **within Ghana's borders**, whoever owns the factors, so it measures the **economic activity occurring in the economy**. GNP measures the income of Ghanaian **nationals** wherever earned, which is better for **national well-being** but includes activity abroad and excludes foreign firms' output in Ghana.\n\n**(c)**\n- **(i)** GDP **rises**: more paid work is measured (and household services previously done unpaid, such as childcare and cooking, are now bought in the market).\n- **(ii)** The broader measure rises **by less than GDP**, and could even fall: the gain in market output is partly offset by **less home production and less leisure**, which GDP ignores.\n- **(iii)** Greater **economic independence** and bargaining power of women; more **education and skills** use; improved **gender equality**; higher household incomes and children's education; but possibly **stress, the double burden** (paid work plus housework) and childcare challenges.\n\n> [!answer]\n> (a) Borrower gains, lender loses (real rate falls). (b) GDP: it measures production within the economy. (c) GDP rises; the broader welfare measure rises by less (lost home production and leisure); other effects: independence, equality, incomes, but a double burden.",
+  "explanation": "## Advanced explanation\n\n**(a)** The **Fisher equation**: lenders set $i = r + \\pi^e$. If $\\pi > \\pi^e$, the realised $r$ is below the intended one. This arbitrary redistribution is a key cost of **unanticipated** inflation (hence indexed loans and variable rates).\n**(b)** $GNP = GDP + NFIA$. For an economy like Ghana's, with large foreign-owned mining profits repatriated, **GDP > GNP**; GDP better reflects activity and employment generated **here**.\n**(c)** This illustrates GDP's blindness to **non-market production** and **leisure**: shifting work from the home to the market inflates measured growth relative to true welfare gains.\n\n## Simplified explanation\n\nSurprise inflation helps **borrowers** and hurts **lenders**. GDP counts what is produced **inside** Ghana. When women take paid jobs GDP rises, but unpaid home work and rest fall, so real well-being rises by less.",
+  "hint": "Fisher: r = i − π.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Inflation & Price Indices",
+   "National Income Accounting",
+   "Unemployment",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The table shows population and employment figures for two hypothetical countries (millions):\n\n| Country | Employed | Unemployed | Not in the labour force |\n|---|---|---|---|\n| A | 69.8 | 6.8 | 42.8 |\n| B | 129.5 | 50.6 | 31.3 |\n\nCalculate and interpret: (i) the **labour force**; (ii) the **unemployment rate**; (iii) the **labour-force participation rate** for each country. (b) Explain **three** possible causes of **graduate unemployment** in Ghana. (c) With reference to the **Phillips curve**, explain how a rise in the unemployment rate will be related to the rate of inflation.",
+  "media": [],
+  "answer": "**(a)**\n\n| Country | (i) Labour force = E + U | (ii) Unemployment rate = U / LF | (iii) LFPR = LF / (LF + not in LF) |\n|---|---|---|---|\n| A | 69.8 + 6.8 = **76.6m** | 6.8/76.6 = **8.88%** | 76.6/119.4 = **64.15%** |\n| B | 129.5 + 50.6 = **180.1m** | 50.6/180.1 = **28.10%** | 180.1/211.4 = **85.19%** |\n\n_Interpretation:_ B has the larger labour force and a much higher participation rate (a larger share of adults are working or seeking work), but its unemployment rate is over **three times** A's: the economy is not creating enough jobs. A is close to a 'normal' (natural-rate) level.\n\n**(b) Causes of graduate unemployment in Ghana:**\n1. **Skills mismatch:** curricula emphasise theory and general courses over the practical, technical and entrepreneurial skills employers need (structural).\n2. **Slow formal-sector job creation:** economic growth concentrated in capital-intensive sectors (mining, oil) that create few jobs; public-sector hiring freezes.\n3. **Rapid growth in tertiary output:** more graduates each year than new formal jobs.\n4. **Job-search and information problems:** limited labour-market information; preference for white-collar/public-sector jobs (frictional, voluntary).\n5. **Weak entrepreneurship support:** limited access to credit and start-up capital for graduate businesses.\n\n**(c)** The **short-run Phillips curve** shows an **inverse** trade-off between unemployment and inflation. A **rise in unemployment** is associated with a **fall in the rate of inflation** (weaker demand, less wage pressure), a movement **down along** the curve. Conversely, pushing unemployment down raises inflation. In the long run, with adjusted expectations, the curve is vertical at the natural rate, so the trade-off disappears.\n\n> [!answer]\n> A: LF 76.6m, u 8.88%, LFPR 64.15%; B: LF 180.1m, u 28.10%, LFPR 85.19%. Graduate unemployment: skills mismatch, slow job creation, graduate supply, information problems. Phillips curve: higher unemployment ↔ lower inflation (short run).",
+  "explanation": "## Advanced explanation\n\nThe **unemployment rate** and the **participation rate** use different denominators: the labour force vs the working-age population. B's very high LFPR combined with very high $u$ suggests strong labour supply but weak demand. The Phillips relation: $\\pi = \\pi^e - \\beta(u - u^*)$ (expectations-augmented); raising $u$ above $u^*$ lowers inflation relative to expectations.\n\n## Simplified explanation\n\nAdd employed and unemployed to get the labour force, divide unemployed by it for the rate, and divide the labour force by all adults for participation. When unemployment goes up, inflation tends to come down (Phillips curve).",
+  "hint": "LF = E + U; u = U / LF; LFPR = LF / adult population.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Unemployment",
+   "Phillips Curve",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider a closed economy with government described by: $C = a + cY_d$, $I = I_0$, $G = G_0$, $TR = TR_0$ and $T = tY$ (consumption, investment, government expenditure, transfer payments, tax revenue).\n\n(a) Write the equation for desired **aggregate expenditure**. (b) Determine the **equilibrium national income**. (c) Derive the relevant **multipliers**.\n\n(d) Now assume $TR = 40$, $C = 100 + 0.8Y_d$, $I = 78$, $G = 70$ and $T = 0.25Y$. (i) Complete a table for $Y$ = 100 to 1,000 (and 1,200) showing disposable income, consumption, investment, government expenditure, tax revenue and aggregate expenditure. (ii) What is the equilibrium level of output? (iii) Is the government balancing its budget at equilibrium? (iv) If full-employment income is **GH₵850**, compute and identify the output gap and suggest solutions.",
+  "media": [],
+  "answer": "**(a)** $Y_d = Y - tY + TR_0$, so\n$$AE = a + c\\,(Y - tY + TR_0) + I_0 + G_0$$\n\n**(b)** Setting $Y = AE$:\n$$Y^* = \\frac{a + cTR_0 + I_0 + G_0}{1 - c(1 - t)}$$\n\n**(c)** Multipliers:\n- Autonomous consumption, investment, government spending: $k = \\dfrac{\\Delta Y}{\\Delta A} = \\dfrac{1}{1 - c(1 - t)}$\n- Transfer payments: $k_{TR} = \\dfrac{c}{1 - c(1 - t)}$\n\n**(d)(i)** $Y_d = 0.75Y + 40$, $C = 132 + 0.6Y$, $AE = 280 + 0.6Y$ (GH₵)\n\n| Y | Yd | C | I | G | T | AE | |\n|---|---|---|---|---|---|---|---|\n| 100 | 115 | 192 | 78 | 70 | 25 | 340 | AE > Y → output rises |\n| 200 | 190 | 252 | 78 | 70 | 50 | 400 | AE > Y → output rises |\n| 300 | 265 | 312 | 78 | 70 | 75 | 460 | AE > Y → output rises |\n| 400 | 340 | 372 | 78 | 70 | 100 | 520 | AE > Y → output rises |\n| 500 | 415 | 432 | 78 | 70 | 125 | 580 | AE > Y → output rises |\n| 600 | 490 | 492 | 78 | 70 | 150 | 640 | AE > Y → output rises |\n| 700 | 565 | 552 | 78 | 70 | 175 | 700 | **equilibrium** |\n| 800 | 640 | 612 | 78 | 70 | 200 | 760 | AE < Y → output falls |\n| 900 | 715 | 672 | 78 | 70 | 225 | 820 | AE < Y → output falls |\n| 1000 | 790 | 732 | 78 | 70 | 250 | 880 | AE < Y → output falls |\n| 1200 | 940 | 852 | 78 | 70 | 300 | 1000 | AE < Y → output falls |\n\n**(ii)** $Y = 280 + 0.6Y \\Rightarrow Y^* =$ **GH₵700**\n\n**(iii)** At $Y = 700$: $T = 175$; $G + TR = 70 + 40 = 110$, a **surplus of GH₵65**. The budget is **not balanced**.\n\n**(iv)** Gap $= 850 - 700 =$ **GH₵150**, a **recessionary (deflationary) output gap**. Multiplier $k = \\dfrac{1}{1 - 0.8 \\times 0.75} = 2.5$. Solutions: raise $G$ by $150/2.5 =$ **GH₵60**; or raise transfers by $60/0.8 =$ **GH₵75**; or cut the tax rate; or a mix, plus expansionary monetary policy.\n\n> [!answer]\n> AE = a + c(Y − tY + TR) + I + G; Y* = (a + cTR + I + G)/(1 − c(1 − t)); Y* = 700; budget surplus 65; recessionary gap 150, closed by ΔG = 60 (k = 2.5).",
+  "explanation": "## Advanced explanation\n\nThe proportional tax makes the multiplier $1/[1 - c(1-t)] = 2.5$, smaller than the simple $1/(1-c) = 5$: income taxes are an **automatic stabiliser**. The transfer multiplier is smaller than the spending multiplier by the factor $c$, since only part of a transfer is spent. The equilibrium surplus shows a **contractionary fiscal stance**, which partly explains why output is below full employment.\n\n## Simplified explanation\n\nFind what people can spend after tax and transfers, add investment and government spending, and find where spending equals output (700). The economy is GH₵150 short of full employment; with a multiplier of 2.5 the government needs about GH₵60 more spending.",
+  "hint": "Disposable income includes transfers and excludes taxes.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Fiscal Policy",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Suppose assets earn no interest and there is no pension system. An individual enters the labour force at **age 20**, earns **GH₵20,000 a year** until retirement at **65**, has a life expectancy of **75**, and no initial assets. (i) Calculate annual consumption if the person spends income uniformly over their lifetime. (ii) Calculate the **APC** during the working years and the **endowment at retirement**. (iii) What happens to the APC during the working years if the retirement age is raised to **70**? (iv) Calculate the APC when retirement is at 65 and life expectancy is **80**.\n(b) How might a **supply shock** cause the Phillips curve to shift? Show how policymakers could face a situation that counters the usual trade-off.\n(c) Under what **temporal** condition will an expansionary monetary policy cause the trade-off to disintegrate?",
+  "media": [],
+  "answer": "**(a) Life-cycle hypothesis**\n- Working years $= 65 - 20 = 45$; years of consumption $= 75 - 20 = 55$; lifetime income $= 45 \\times 20{,}000 = 900{,}000$.\n- **(i)** $C = \\dfrac{900{,}000}{55} =$ **GH₵16,363.64** per year.\n- **(ii)** $APC = \\dfrac{16{,}363.64}{20{,}000} =$ **0.818**. Annual saving $= 3{,}636.36$; endowment at 65 $= 45 \\times 3{,}636.36 =$ **GH₵163,636.36** (enough for 10 retired years).\n- **(iii)** Retire at 70: income $= 50 \\times 20{,}000 = 1{,}000{,}000$; $C = 1{,}000{,}000/55 = 18{,}181.82$; $APC =$ **0.909**: the APC **rises** (fewer retirement years to save for).\n- **(iv)** Retire 65, live to 80: $C = 900{,}000/60 = 15{,}000$; $APC =$ **0.75**: the APC **falls** (more retirement years to finance).\n\n**(b)** An adverse **supply shock** (oil price rise, drought, cedi depreciation raising import costs) raises production costs, shifting AS left. Inflation rises **and** output falls (unemployment rises): **stagflation**. The short-run Phillips curve **shifts up/right**, so every unemployment rate now comes with higher inflation. Policymakers face a **worse trade-off**: fighting inflation (tight policy) deepens unemployment; fighting unemployment (easy policy) worsens inflation. Both rise together, countering the usual inverse relation.\n\n**(c)** In the **long run**, when inflation expectations fully adjust (adaptive or rational expectations, Friedman–Phelps), workers demand higher nominal wages, the short-run curve shifts up, and unemployment returns to the **natural rate** at higher inflation. The **long-run Phillips curve is vertical**, so expansionary monetary policy buys only temporary falls in unemployment.\n\n> [!answer]\n> (a) C = 16,363.64, APC 0.818, endowment 163,636.36; retire at 70 → APC 0.909; live to 80 → APC 0.75. (b) Supply shocks shift the Phillips curve up (stagflation). (c) In the long run, once expectations adjust, the curve is vertical.",
+  "explanation": "## Advanced explanation\n\n**Modigliani's life-cycle hypothesis:** consumption depends on **lifetime resources**, not current income, so the working-age APC depends on the ratio of working years to lifetime years: $APC_{work} = \\dfrac{WL}{NL}$ (working life / remaining life). Longer working lives raise the APC; longer retirement lowers it, which explains higher saving as life expectancy rises. **(b)–(c)** The expectations-augmented Phillips curve, $\\pi = \\pi^e - \\beta(u - u^*) + \\varepsilon$, with supply shock $\\varepsilon$, explains both stagflation and the vertical long-run curve.\n\n## Simplified explanation\n\nEarnings of GH₵900,000 over 55 years of life gives GH₵16,364 a year to spend. Working longer means you can spend more of your pay; living longer means you must save more. A supply shock raises inflation and unemployment together, and in the long run printing money cannot keep unemployment down.",
+  "hint": "Spread lifetime earnings evenly over all remaining years of life.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Consumption & Saving",
+   "Phillips Curve",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Answer **true or false** and briefly explain (one paragraph each):\n\n(a) A standard goods-market model predicts that if the government **cuts taxes but also cuts government spending by the same amount**, the equilibrium level of GDP will fall.\n(b) Since rich people live in large houses and eat expensive meals, they generally have a **higher MPC** than poorer people.\n(c) When measuring GDP, you must include the **salary** the government pays a currently employed Navy officer.\n(d) **Imports can be larger than GDP.**\n(e) When measuring GDP, you must include the **pension** the government pays a retired Navy officer.\n(f) If the central bank **buys government bonds** from the public in an open market operation, interest rates should fall.\n(g) The growth rate of **nominal GDP per capita** is the best summary measure of changes in material living standards over time.",
+  "media": [],
+  "answer": "| | Answer | Reason |\n|---|---|---|\n| (a) | {{green:**True**}} | Balanced-budget multiplier $= 1$: cutting $G$ lowers $Y$ by $\\frac{1}{1-c}\\Delta G$, the tax cut raises it by only $\\frac{c}{1-c}\\Delta G$, so $Y$ falls by $\\Delta G$. |\n| (b) | {{red:**False**}} | The rich spend more in **absolute** terms but a **smaller share** of extra income: their MPC is lower (they save more). |\n| (c) | {{green:**True**}} | It pays for a **current service** (defence), counted in $G$ at cost. |\n| (d) | {{green:**True**}} | $GDP = C + I + G + X - M$; with large re-exports or processing trade (e.g. Singapore), $M$ can exceed GDP if $X$ is large. |\n| (e) | {{red:**False**}} | A pension is a **transfer payment**: no current production in return. |\n| (f) | {{green:**True**}} | Buying bonds adds **reserves** and money supply, and raises bond prices, so **interest rates fall**. |\n| (g) | {{red:**False**}} | Nominal growth includes **inflation**; use **real GDP per capita** (and even that has limits). |\n\n> [!answer]\n> (a) T · (b) F · (c) T · (d) T · (e) F · (f) T · (g) F.",
+  "explanation": "## Advanced explanation\n\nThese test core definitions: what counts in $G$ (purchases of goods and services, not transfers); the **balanced-budget multiplier**; the **MPC–income** relationship (falling MPC with income in cross-section); **OMO** mechanics; and the difference between **nominal** and **real** measures. Imports exceeding GDP is unusual but possible where imported inputs are re-exported (high trade openness ratios above 100%).\n\n## Simplified explanation\n\nThink simply: pensions and gifts are not production; the rich save a larger share; buying bonds pumps money in and lowers interest rates; nominal growth includes inflation, so it is not the best measure.",
+  "hint": "Check each against the GDP definition, the multipliers and the monetary transmission.",
+  "difficulty": "medium",
+  "marks": 14,
+  "tags": [
+   "National Income Accounting",
+   "Income Determination & Multiplier",
+   "Money & Banking",
+   "Assignment"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Given the budget deficit, some economists argue that by adjusting **SSNIT payments** for inflation using the **CPI**, SSNIT is **overpaying** recipients. Discuss the argument. Do you agree?\n\nAlso: imagine statisticians have been updating the CPI basket once every **10 years** but now update it every **five years**. How will this affect **substitution bias** and **quality/new-goods bias**?",
+  "media": [],
+  "answer": "**The argument:** the CPI **overstates** the true rise in the cost of living because of:\n1. **Substitution bias:** a fixed basket ignores that people switch to relatively cheaper goods when prices rise.\n2. **Quality-change bias:** price rises partly reflect better quality, which the CPI may record as pure inflation.\n3. **New-goods bias:** new products (and falling prices early in their life) enter the basket late.\n4. **Outlet bias:** shifts to cheaper stores are not captured.\n\nSo indexing pensions to the CPI raises them **faster than recipients' true cost of living**: a real increase, a fiscal cost.\n\n**Assessment:** the logic is sound **in principle**, but:\n- Pensioners' baskets differ: they spend more on **health, food and utilities**, whose prices often rise faster than average, so the general CPI may **understate** their inflation.\n- The size of the bias is debated; an alternative is a **chained CPI** or a pensioner-specific index rather than a blanket cut.\n\n_A balanced conclusion:_ partially agree. Correct genuine measurement biases, but protect pensioners' real incomes.\n\n**Updating every 5 years instead of 10:** the basket stays closer to actual spending, so **substitution bias falls** and **quality/new-goods bias falls** (new products enter sooner). The CPI becomes more accurate and closer to the true cost of living.\n\n> [!answer]\n> CPI biases (substitution, quality, new goods, outlet) overstate inflation, so CPI indexation may overpay; but pensioners' baskets may face higher inflation. More frequent basket updates reduce both substitution and new-goods/quality bias.",
+  "explanation": "## Advanced explanation\n\nThe CPI is a **Laspeyres** index (fixed base-period basket), $\\dfrac{\\sum P_t Q_0}{\\sum P_0 Q_0}$, which by construction ignores substitution, giving an **upward bias**. Chained or superlative indices (Fisher, Törnqvist) update weights and reduce this. More frequent rebasing shortens the period over which weights become stale.\n\n## Simplified explanation\n\nThe CPI may show prices rising faster than people really feel, because people switch to cheaper goods and products get better. So linking pensions to it may overpay a little. But older people often face faster-rising prices for medicine and food. Updating the basket more often makes the CPI more accurate.",
+  "hint": "Why might a fixed-basket index overstate inflation?",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Inflation & Price Indices",
+   "Assignment"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If **inflation rises unexpectedly by 5%**, indicate for each of the following whether they are **helped, hurt or unaffected**:\n(a) A union member with a fixed NAGRAT wage contract.\n(b) Someone with a large stash of cash in a safe-deposit box.\n(c) A bank lending money at a fixed rate of interest.\n(d) A person who is not due to receive a pay raise for another 11 months.",
+  "media": [],
+  "answer": "| Economic actor | Effect | Why |\n|---|---|---|\n| (a) Union member, fixed nominal wage contract | {{red:**Hurt**}} | Nominal wage fixed, so the **real wage falls** (unless the contract is indexed). |\n| (b) Cash in a safe-deposit box | {{red:**Hurt**}} | Cash earns nothing; its **purchasing power falls 5%** (inflation tax). |\n| (c) Bank lending at a fixed rate | {{red:**Hurt**}} | The **real interest rate** received falls; repayments are worth less (borrowers gain). |\n| (d) No pay raise for 11 months | {{red:**Hurt**}} | Pay is fixed while prices rise, so the **real income falls** until the raise. |\n\n> [!answer]\n> All four are hurt: each holds a fixed nominal claim (wage, cash, loan repayments, salary) whose real value falls.",
+  "explanation": "## Advanced explanation\n\n**Unanticipated** inflation redistributes from holders of **fixed nominal assets/incomes** (creditors, savers, fixed-wage earners) to holders of **fixed nominal liabilities** (debtors, including governments). The defences are indexation, variable rates, short contracts, and holding real assets.\n\n## Simplified explanation\n\nAnyone who receives a **fixed amount of cedis** (wage, cash, loan repayment, salary) loses when prices rise unexpectedly.",
+  "hint": "Who has a fixed nominal claim?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Inflation & Price Indices",
+   "Assignment"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Prices of fruit bought by the typical university student (quantities fixed):\n\n| Item | Qty | 1st year | 2nd year | 3rd year | 4th year |\n|---|---|---|---|---|---|\n| Apples | 8 | 0.50 | 0.75 | 0.85 | 0.88 |\n| Bananas | 10 | 0.20 | 0.25 | 0.25 | 0.29 |\n| Grapes | 4 | 0.65 | 0.70 | 0.90 | 0.95 |\n| Oranges | 2 | 2.00 | 1.90 | 2.05 | 2.13 |\n\n(a) What is the amount spent each year on the basket? (b) Construct the **price index** for each year using the **third year as the base**. (c) Compute the **inflation rate** for fruit prices from the first year to the fourth year.",
+  "media": [],
+  "answer": "**(a) Cost of the basket** $= \\sum P_t Q$\n\n| Year | Calculation | Cost (GH₵) |\n|---|---|---|\n| 1 | 8(0.50) + 10(0.20) + 4(0.65) + 2(2.00) | **12.60** |\n| 2 | 8(0.75) + 10(0.25) + 4(0.70) + 2(1.90) | **15.10** |\n| 3 | 8(0.85) + 10(0.25) + 4(0.90) + 2(2.05) | **17.00** |\n| 4 | 8(0.88) + 10(0.29) + 4(0.95) + 2(2.13) | **18.00** |\n\n**(b) Index (year 3 = 100):** $\\dfrac{\\text{cost}_t}{17.00} \\times 100$\n\n| Year | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| Index | 74.12 | 88.82 | **100.00** | 105.88 |\n\n**(c)** From year 1 to year 4:\n$$\\pi = \\frac{105.88 - 74.12}{74.12} \\times 100 = 42.86\\%$$\n(Year-on-year: Y1→Y2: 19.84%, Y2→Y3: 12.58%, Y3→Y4: 5.88%.)\n\n> [!answer]\n> Basket: GH₵12.60, 15.10, 17.00, 18.00; index (Y3 = 100): 74.12, 88.82, 100, 105.88; inflation Y1→Y4 = 42.86%.",
+  "explanation": "## Advanced explanation\n\nThis is a **fixed-weight (Laspeyres-type) index** like the CPI. Changing the base year rescales the index but **does not change inflation rates**: (index₄ − index₁)/index₁ equals (cost₄ − cost₁)/cost₁. Notice the oranges' price fell in year 2 while the index still rose, because the other items carry more weight in the basket.\n\n## Simplified explanation\n\nPrice the same basket every year, compare each year with year 3 (= 100), and work out the % rise from year 1 to year 4.",
+  "hint": "Fixed quantities × each year's prices; then divide by the base-year cost.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Inflation & Price Indices",
+   "Assignment"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Revenue, expenses and profits of the three firms of **Gye Nyame Island** (GH₵ million). Lucia sells raw materials to Salvatore, who sells to Maria; Maria sells final goods to households.\n\n| Firm | Revenue | Raw materials | Wages | Taxes | Total expenses | Profit |\n|---|---|---|---|---|---|---|\n| Lucia Inc. | 1,200 | – | 700 | – | 700 | 500 |\n| Salvatore Ltd | 3,000 | 1,200 | 800 | – | 2,000 | 1,000 |\n| Maria Inc. | 5,000 | 3,000 | 700 | 400 | 4,100 | 900 |\n\n(a) Determine national income (GDP) using the **three approaches** and check they agree. (b) Calculate the shares of GDP attributable to **labour income**, **capital income** and **indirect taxes**. Are they similar to the income shares in the Ghanaian economy?",
+  "media": [],
+  "answer": "**(a)**\n\n| Approach | Calculation | GDP |\n|---|---|---|\n| **Expenditure (final goods)** | Final sales by Maria to households | **5,000** |\n| **Output (value added)** | Lucia 1,200 − 0 + Salvatore 3,000 − 1,200 + Maria 5,000 − 3,000 = 1,200 + 1,800 + 2,000 | **5,000** |\n| **Income** | Wages (700 + 800 + 700 = 2,200) + profits (500 + 1,000 + 900 = 2,400) + taxes 400 | **5,000** |\n\nAll three give **GH₵5,000 million** ✓\n\n**(b)**\n| Income | Amount | Share of GDP |\n|---|---|---|\n| Labour (wages) | 2,200 | **44%** |\n| Capital (profits) | 2,400 | **48%** |\n| Indirect taxes | 400 | **8%** |\n\n**Comparison with Ghana:** in Ghana's national accounts, **compensation of employees** is a relatively **small** share of GDP, because most workers are **self-employed in the informal sector and agriculture**, whose earnings are recorded as **mixed income/operating surplus**. Capital and mixed incomes dominate, and net taxes on products are of a similar order to the island's 8%. So the island's labour share is **higher** than Ghana's recorded wage share, but its broad pattern (profits ≥ wages, a small indirect-tax share) is comparable.\n\n> [!answer]\n> GDP = 5,000 by all three approaches; labour 44%, capital 48%, indirect taxes 8%; Ghana's recorded wage share is lower because of informal self-employment.",
+  "explanation": "## Advanced explanation\n\nThe **circular flow** guarantees the equality: every cedi spent on final output is value added somewhere and is paid out as wages, profits or taxes. Summing **revenues** (1,200 + 3,000 + 5,000 = 9,200) would **double count** the 4,200 of intermediate sales. For Ghana, the large **mixed income** of own-account workers makes a clean labour/capital split hard; economists often impute part of it to labour.\n\n## Simplified explanation\n\nCount the final sale (5,000), or add what each firm adds (1,200 + 1,800 + 2,000), or add wages, profits and taxes: all give 5,000. Workers get 44%, owners 48%, government 8%.",
+  "hint": "Avoid double counting: count raw materials only once.",
+  "difficulty": "medium",
+  "marks": 12,
+  "tags": [
+   "National Income Accounting",
+   "Assignment"
+  ]
+ }
+]
