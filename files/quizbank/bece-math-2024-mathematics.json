@@ -1,0 +1,1626 @@
+[
+  {
+    "type": "choice",
+    "body": "Find the image of the point $(-3, 5)$ when it is rotated through $360^\\circ$ about the origin.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(5, -3)$",
+        "hint": "A full turn brings the point back to where it started."
+      },
+      {
+        "text": "$(-3, -5)$",
+        "hint": "This is a reflection in the $x$-axis, not a full turn."
+      },
+      {
+        "text": "$(-3, 5)$",
+        "hint": "Correct. A $360^\\circ$ rotation is a full turn."
+      },
+      {
+        "text": "$(-5, 3)$",
+        "hint": "A full turn brings the point back to where it started."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How far round is $360^\\circ$?",
+    "explanation": "## Advanced explanation\n\nA rotation through $360^\\circ$ is a complete revolution, which maps every point onto itself.\n\n## Simplified explanation\n\nTurning all the way round puts the point back in the same place.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 15 white and 25 black identical balls in a box. If a ball is selected at random from the box, find the probability that it is white.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{25}$",
+        "hint": "Use the 15 white balls out of 40 balls in total."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "This is the probability of selecting a black ball."
+      },
+      {
+        "text": "$\\dfrac{1}{15}$",
+        "hint": "Use the 15 white balls out of 40 balls in total."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "Correct. $\\frac{15}{40} = \\frac{3}{8}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Total balls $= 15 + 25$.",
+    "explanation": "## Advanced explanation\n\n$$P(\\text{white}) = \\frac{15}{15 + 25} = \\frac{15}{40} = \\frac{3}{8}$$\n\n## Simplified explanation\n\nThere are 40 balls and 15 are white. That is $\\frac{15}{40}$, which simplifies to $\\frac{3}{8}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A number of oranges are shared among 50 students and each got 15 oranges. If the same number of oranges are shared equally among 30 students, how many will each student get?",
+    "media": [],
+    "options": [
+      {
+        "text": "13",
+        "hint": "$30 \\times 13 = 390$, but there are 750 oranges."
+      },
+      {
+        "text": "20",
+        "hint": "$30 \\times 20 = 600$, but there are 750 oranges."
+      },
+      {
+        "text": "15",
+        "hint": "This is the first share. With fewer students, each gets more."
+      },
+      {
+        "text": "25",
+        "hint": "Correct. $750 \\div 30 = 25$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the total number of oranges first.",
+    "explanation": "## Advanced explanation\n\nThe total is fixed, so this is inverse proportion:\n\n$$\\frac{50 \\times 15}{30} = \\frac{750}{30} = 25$$\n\n## Simplified explanation\n\nTotal oranges: $50 \\times 15 = 750$. Share among 30 students: $750 \\div 30 = 25$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $P$ and $Q$ are two sets and $U$ is the universal set.\n\nFind $P \\cap Q$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq4-q5.png",
+        "caption": "Venn diagram. Set Q, containing c, d and e, lies inside set P, which also contains a and b. Outside P, in the universal set U, are f, g and h."
+      }
+    ],
+    "options": [
+      {
+        "text": "{c, d, e}",
+        "hint": "Correct. These are the members in both $P$ and $Q$."
+      },
+      {
+        "text": "{f, g, h}",
+        "hint": "These are outside both $P$ and $Q$."
+      },
+      {
+        "text": "{a, b}",
+        "hint": "These are in $P$ but not in $Q$."
+      },
+      {
+        "text": "{a, b, c, d, e}",
+        "hint": "This is all of $P$, which is $P \\cup Q$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$P \\cap Q$ holds the members found in both sets.",
+    "explanation": "## Advanced explanation\n\n$Q$ lies entirely inside $P$, so $Q \\subset P$ and $P \\cap Q = Q = \\{c, d, e\\}$.\n\n## Simplified explanation\n\nThe small circle $Q$ is inside the big circle $P$. So the letters in both circles are the ones in the small circle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $P$ and $Q$ are two sets and $U$ is the universal set.\n\nHow many members are in set $Q$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq4-q5.png",
+        "caption": "Venn diagram. Set Q, containing c, d and e, lies inside set P, which also contains a and b. Outside P, in the universal set U, are f, g and h."
+      }
+    ],
+    "options": [
+      {
+        "text": "2",
+        "hint": "This counts $a$ and $b$, which are outside $Q$."
+      },
+      {
+        "text": "5",
+        "hint": "This counts all of $P$."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $Q = \\{c, d, e\\}$."
+      },
+      {
+        "text": "8",
+        "hint": "This counts all of $U$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count only the letters inside the small circle.",
+    "explanation": "## Advanced explanation\n\n$Q = \\{c, d, e\\}$, so $n(Q) = 3$.\n\n## Simplified explanation\n\nThe small circle contains $c$, $d$ and $e$, which makes 3 members.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the interest on GH₵ 400.00 for 2 years at 10% simple interest per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 8.00",
+        "hint": "This is $400 \\times 2 \\div 100$, which leaves out the rate."
+      },
+      {
+        "text": "GH₵ 60.00",
+        "hint": "This is the interest for $1\\frac{1}{2}$ years."
+      },
+      {
+        "text": "GH₵ 40.00",
+        "hint": "This is the interest for only 1 year."
+      },
+      {
+        "text": "GH₵ 80.00",
+        "hint": "Correct. $\\frac{400 \\times 10 \\times 2}{100} = 80$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use $I = \\dfrac{P \\times R \\times T}{100}$.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{400 \\times 10 \\times 2}{100} = 80$$\n\n## Simplified explanation\n\n10% of GH₵ 400 is GH₵ 40 each year. For 2 years that is GH₵ 80.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a rectangle is 18 cm$^2$. If the width is 2 cm, find its perimeter.",
+    "media": [],
+    "options": [
+      {
+        "text": "18 cm",
+        "hint": "18 is the area, not the perimeter."
+      },
+      {
+        "text": "22 cm",
+        "hint": "Correct. The length is 9 cm, and $2(9 + 2) = 22$."
+      },
+      {
+        "text": "20 cm",
+        "hint": "Add all four sides: $9 + 2 + 9 + 2$."
+      },
+      {
+        "text": "36 cm",
+        "hint": "This doubles the area. Find the length first."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use the area to find the length first.",
+    "explanation": "## Advanced explanation\n\n$l = \\frac{18}{2} = 9$ cm, so\n\n$$P = 2(l + w) = 2(9 + 2) = 22 \\text{ cm}$$\n\n## Simplified explanation\n\n$18 \\div 2 = 9$, so the length is 9 cm. Walking round the rectangle: $9 + 2 + 9 + 2 = 22$ cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A fair coin and a fair die are rolled together once. Find the probability of obtaining a tail and an odd number.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{1}{2} \\times \\frac{1}{2} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is the probability of only one of the two events."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Multiply the two probabilities: $\\frac{1}{2} \\times \\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Both events must happen, so the probability is less than $\\frac{1}{2}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The coin and the die do not affect each other, so multiply.",
+    "explanation": "## Advanced explanation\n\nThe events are independent:\n\n$$P(\\text{tail and odd}) = \\frac{1}{2} \\times \\frac{3}{6} = \\frac{1}{4}$$\n\n## Simplified explanation\n\nThere are 12 possible results. A tail with 1, 3 or 5 makes 3 of them, and $\\frac{3}{12} = \\frac{1}{4}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given the vectors $m = \\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix}$ and $n = \\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}$, find $2m + n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 0 \\end{pmatrix}$",
+        "hint": "Correct. Top: $10 - 4 = 6$. Bottom: $-2 + 2 = 0$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ -6 \\end{pmatrix}$",
+        "hint": "The entries are in the wrong places, and the sign is wrong."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 0 \\end{pmatrix}$",
+        "hint": "Check the sign: $10 - 4$ is positive."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ 6 \\end{pmatrix}$",
+        "hint": "The entries are in the wrong places. The top entry is 6."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Double $m$ first, then add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$2\\begin{pmatrix} 5 \\\\ -1 \\end{pmatrix} + \\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} 10 - 4 \\\\ -2 + 2 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ 0 \\end{pmatrix}$$\n\n## Simplified explanation\n\nDouble $m$ to get 10 on top and $-2$ below. Add $n$: $10 + (-4) = 6$ and $-2 + 2 = 0$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the bearing of $Q$ from $P$ is $120^\\circ$, find the bearing of $P$ from $Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$060^\\circ$",
+        "hint": "This is $180^\\circ - 120^\\circ$. A back bearing adds or subtracts $180^\\circ$ from the bearing."
+      },
+      {
+        "text": "$240^\\circ$",
+        "hint": "This is $2 \\times 120^\\circ$. Add $180^\\circ$ instead."
+      },
+      {
+        "text": "$210^\\circ$",
+        "hint": "This adds $90^\\circ$. Add $180^\\circ$ instead."
+      },
+      {
+        "text": "$300^\\circ$",
+        "hint": "Correct. $120^\\circ + 180^\\circ = 300^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The return direction points exactly the opposite way.",
+    "explanation": "## Advanced explanation\n\nThe back bearing differs by $180^\\circ$. Since $120^\\circ < 180^\\circ$, add:\n\n$$120^\\circ + 180^\\circ = 300^\\circ$$\n\n## Simplified explanation\n\nGoing back means facing the opposite way, which is half a turn. Add 180 to 120 to get 300.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $\\dfrac{27^{m + 1}}{3^{m + 2}}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$3^{2m}$",
+        "hint": "Check the numbers in the power: $3 - 2 = 1$."
+      },
+      {
+        "text": "$3^{2m + 1}$",
+        "hint": "Correct. $3^{3m + 3 - m - 2} = 3^{2m + 1}$."
+      },
+      {
+        "text": "$3^{2m - 1}$",
+        "hint": "Check the numbers in the power: $3 - 2 = +1$."
+      },
+      {
+        "text": "$3^{2m + 2}$",
+        "hint": "Check the numbers in the power: $3 - 2 = 1$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write 27 as a power of 3, then subtract the powers.",
+    "explanation": "## Advanced explanation\n\nSince $27 = 3^3$:\n\n$$\\frac{(3^3)^{m + 1}}{3^{m + 2}} = \\frac{3^{3m + 3}}{3^{m + 2}} = 3^{(3m + 3) - (m + 2)} = 3^{2m + 1}$$\n\n## Simplified explanation\n\n27 is $3 \\times 3 \\times 3$, so the top is $3^{3m + 3}$. When dividing, take away the powers: $3m + 3 - m - 2 = 2m + 1$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $m$ the subject of the relation: $\\dfrac{1}{m} = \\dfrac{1}{p} + \\dfrac{1}{r}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$m = \\dfrac{pr}{r + p}$",
+        "hint": "Correct. $\\frac{1}{m} = \\frac{r + p}{pr}$, then invert both sides."
+      },
+      {
+        "text": "$m = \\dfrac{r + p}{pr}$",
+        "hint": "This equals $\\frac{1}{m}$. Invert it to get $m$."
+      },
+      {
+        "text": "$m = \\dfrac{pr}{r - p}$",
+        "hint": "The fractions are added, so the sign is $+$."
+      },
+      {
+        "text": "$m = \\dfrac{r - p}{pr}$",
+        "hint": "The sign should be $+$, and this fraction still needs inverting."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add the two fractions on the right, then turn both sides upside down.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1}{m} = \\frac{r + p}{pr} \\implies m = \\frac{pr}{r + p}$$\n\n## Simplified explanation\n\nAdd the fractions using $pr$ as the bottom number to get $\\frac{r + p}{pr}$. That equals $\\frac{1}{m}$, so $m$ is the same fraction upside down.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mensah packed 1,800 apples into a number of boxes. If each box contained 120 apples, how many boxes were fully packed?",
+    "media": [],
+    "options": [
+      {
+        "text": "15",
+        "hint": "Correct. $1800 \\div 120 = 15$."
+      },
+      {
+        "text": "17",
+        "hint": "$17 \\times 120 = 2040$, which is more than 1,800."
+      },
+      {
+        "text": "16",
+        "hint": "$16 \\times 120 = 1920$, which is more than 1,800."
+      },
+      {
+        "text": "18",
+        "hint": "$18 \\times 120 = 2160$, which is more than 1,800."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide the apples by the number in each box.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1800}{120} = 15$$\n\n## Simplified explanation\n\nRemove a zero from both numbers: $180 \\div 12 = 15$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows a graph of a linear relation of the form $y = mx + c$.\n\nFind the slope of the relation.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq14-q15.png",
+        "caption": "Graph of a straight line sloping downwards from (−1, 5) to (4, −5), crossing the y-axis at 3."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "Correct. For each step right, the line falls by 2."
+      },
+      {
+        "text": "$1$",
+        "hint": "The line falls from left to right, so the slope is negative."
+      },
+      {
+        "text": "$-1$",
+        "hint": "From $(0, 3)$ to $(1, 1)$, the line falls by 2, not 1."
+      },
+      {
+        "text": "$2$",
+        "hint": "The size is right, but the line falls, so the slope is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Pick two clear points on the line, such as $(0, 3)$ and $(1, 1)$.",
+    "explanation": "## Advanced explanation\n\nUsing $(0, 3)$ and $(1, 1)$:\n\n$$m = \\frac{1 - 3}{1 - 0} = -2$$\n\n## Simplified explanation\n\nFrom $(0, 3)$, move 1 to the right and the line drops to 1, which is down 2. So the slope is $-2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Coordinate Geometry",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows a graph of a linear relation of the form $y = mx + c$.\n\nFind the equation of the relation.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq14-q15.png",
+        "caption": "Graph of a straight line sloping downwards from (−1, 5) to (4, −5), crossing the y-axis at 3."
+      }
+    ],
+    "options": [
+      {
+        "text": "$y = -2x + 3$",
+        "hint": "Correct. The slope is $-2$ and the line crosses the $y$-axis at 3."
+      },
+      {
+        "text": "$y = 2x - 3$",
+        "hint": "Both signs are wrong: the line falls and crosses at $+3$."
+      },
+      {
+        "text": "$y = -2x + 2$",
+        "hint": "The slope is right, but the line crosses the $y$-axis at 3."
+      },
+      {
+        "text": "$y = 2x + 3$",
+        "hint": "The line falls from left to right, so the slope is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the slope $m$, then read $c$ where the line crosses the $y$-axis.",
+    "explanation": "## Advanced explanation\n\nThe slope is $m = -2$ and the $y$-intercept is $c = 3$, so $y = -2x + 3$. Check: at $x = 2$, $y = -1$, which is on the line.\n\n## Simplified explanation\n\nThe line goes down 2 for each step right, so $m = -2$. It crosses the $y$-axis at 3, so $c = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Coordinate Geometry",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The locus of points equidistant from a fixed point is called a",
+    "media": [],
+    "options": [
+      {
+        "text": "chord",
+        "hint": "A chord is a straight line joining two points on a circle."
+      },
+      {
+        "text": "diameter",
+        "hint": "A diameter is a chord through the centre of a circle."
+      },
+      {
+        "text": "circle",
+        "hint": "Correct. Every point on a circle is the same distance from its centre."
+      },
+      {
+        "text": "mediator",
+        "hint": "A mediator is equidistant from two fixed points, not one."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Imagine all the points that are exactly 5 cm from one dot.",
+    "explanation": "## Advanced explanation\n\nThe set of all points at a constant distance from a fixed point is a circle: the fixed point is its centre, and the distance is its radius.\n\n## Simplified explanation\n\nIf every point is the same distance from one centre point, the points form a circle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is an example of quantitative data?",
+    "media": [],
+    "options": [
+      {
+        "text": "Colour",
+        "hint": "Colour is described in words, so it is qualitative."
+      },
+      {
+        "text": "Length",
+        "hint": "Correct. Length is measured as a number."
+      },
+      {
+        "text": "Gender",
+        "hint": "Gender is described in words, so it is qualitative."
+      },
+      {
+        "text": "Marital status",
+        "hint": "Marital status is described in words, so it is qualitative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Quantitative data can be measured or counted with numbers.",
+    "explanation": "## Advanced explanation\n\nQuantitative data are numerical values from counting or measuring. Colour, gender and marital status are categories, so they are qualitative.\n\n## Simplified explanation\n\nLength can be measured with a number, such as 5 cm. The others are words or categories.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bus departed from Elmina at 9:15 pm and arrived in Accra at 2:45 am the next day. How long did the journey take?",
+    "media": [],
+    "options": [
+      {
+        "text": "4 hours 20 minutes",
+        "hint": "9:15 pm plus this time is only 1:35 am."
+      },
+      {
+        "text": "5 hours 20 minutes",
+        "hint": "9:15 pm plus this time is 2:35 am."
+      },
+      {
+        "text": "4 hours 30 minutes",
+        "hint": "9:15 pm plus this time is only 1:45 am."
+      },
+      {
+        "text": "5 hours 30 minutes",
+        "hint": "Correct. 9:15 pm to 2:15 am is 5 hours, plus 30 minutes."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count the whole hours first, then the extra minutes.",
+    "explanation": "## Advanced explanation\n\nFrom 9:15 pm to midnight is 2 hours 45 minutes. From midnight to 2:45 am is another 2 hours 45 minutes. The total is 5 hours 30 minutes.\n\n## Simplified explanation\n\nFrom 9:15 pm to 2:15 am is 5 hours. From 2:15 am to 2:45 am is 30 more minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The cost of three items at a shop are GH₵ 72.00, GH₵ 1,105.00 and GH₵ 216.00. If a customer bought all the three items and received a change of GH₵ 107.00, how much did he initially give the shopkeeper?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,300.00",
+        "hint": "This is less than the GH₵ 1,393.00 the items cost."
+      },
+      {
+        "text": "GH₵ 1,500.00",
+        "hint": "Correct. $1393 + 107 = 1500$."
+      },
+      {
+        "text": "GH₵ 1,400.00",
+        "hint": "This would give a change of only GH₵ 7.00."
+      },
+      {
+        "text": "GH₵ 2,000.00",
+        "hint": "This would give a change of GH₵ 607.00."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Amount given $=$ total cost $+$ change.",
+    "explanation": "## Advanced explanation\n\n$$72 + 1105 + 216 + 107 = 1500$$\n\n## Simplified explanation\n\nThe items cost $72 + 1105 + 216 =$ GH₵ 1,393. Adding the GH₵ 107 change gives GH₵ 1,500.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Zalia and Amina shared an amount of money in the ratio 2 : 5. If Amina had GH₵ 150.00 more than Zalia, how much did they share?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 100.00",
+        "hint": "This is Zalia's share. The question asks for the total."
+      },
+      {
+        "text": "GH₵ 350.00",
+        "hint": "Correct. Each part is GH₵ 50, and $7 \\times 50 = 350$."
+      },
+      {
+        "text": "GH₵ 250.00",
+        "hint": "This is Amina's share. The question asks for the total."
+      },
+      {
+        "text": "GH₵ 450.00",
+        "hint": "Each part is GH₵ 50, and there are 7 parts."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The GH₵ 150.00 difference equals $5 - 2 = 3$ parts.",
+    "explanation": "## Advanced explanation\n\nLet the shares be $2k$ and $5k$. Then $5k - 2k = 150$, so $k = 50$, and the total is $7k = 350$.\n\n## Simplified explanation\n\nAmina has 3 more parts than Zalia, and that is GH₵ 150. So 1 part is GH₵ 50. There are 7 parts in all, which is GH₵ 350.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $\\angle QPR = 30^\\circ$ and $|QR| = 5$ cm. [Take $\\sin 30^\\circ = \\dfrac{1}{2}$]\n\nFind the length of $PQ$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq21.png",
+        "caption": "Triangle PQR with a right angle at R, a 30° angle at P, and side QR of 5 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "2.5 cm",
+        "hint": "This is $5 \\times \\frac{1}{2}$. Divide by $\\frac{1}{2}$ instead."
+      },
+      {
+        "text": "10.0 cm",
+        "hint": "Correct. $5 \\div \\frac{1}{2} = 10$."
+      },
+      {
+        "text": "5.0 cm",
+        "hint": "This is $QR$. The hypotenuse $PQ$ is the longest side."
+      },
+      {
+        "text": "12.0 cm",
+        "hint": "$12 \\times \\frac{1}{2} = 6$, but $QR$ is 5 cm."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$QR$ is opposite the $30^\\circ$ angle and $PQ$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\n$$\\sin 30^\\circ = \\frac{|QR|}{|PQ|} \\implies |PQ| = \\frac{5}{\\frac{1}{2}} = 10 \\text{ cm}$$\n\n## Simplified explanation\n\nSine is the opposite side over the hypotenuse. So half of $PQ$ is 5 cm, which means $PQ$ is 10 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An article which cost GH₵ 600.00 was sold at a discount of 10%. Find the selling price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 60.00",
+        "hint": "This is the discount, not the selling price."
+      },
+      {
+        "text": "GH₵ 540.00",
+        "hint": "Correct. $600 - 60 = 540$."
+      },
+      {
+        "text": "GH₵ 504.00",
+        "hint": "Check your subtraction: $600 - 60 = 540$."
+      },
+      {
+        "text": "GH₵ 560.00",
+        "hint": "10% of GH₵ 600 is GH₵ 60, not GH₵ 40."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the discount, then subtract it from the price.",
+    "explanation": "## Advanced explanation\n\n$$600 \\times \\frac{90}{100} = 540$$\n\n## Simplified explanation\n\n10% of GH₵ 600 is GH₵ 60. Taking it off leaves GH₵ 540.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Percentages",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag of rice weighs 2 kg. If the empty bag weighs 150 g, find the weight of the rice. [1 kg = 1,000 g]",
+    "media": [],
+    "options": [
+      {
+        "text": "0.175 kg",
+        "hint": "The rice must weigh close to 2 kg, since the bag is light."
+      },
+      {
+        "text": "1.750 kg",
+        "hint": "150 g is 0.150 kg, so subtract 0.150, not 0.250."
+      },
+      {
+        "text": "0.185 kg",
+        "hint": "Check the decimal point: the rice must weigh close to 2 kg."
+      },
+      {
+        "text": "1.850 kg",
+        "hint": "Correct. $2.000 - 0.150 = 1.850$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change 150 g to kilograms before you subtract.",
+    "explanation": "## Advanced explanation\n\n$$150 \\text{ g} = 0.150 \\text{ kg}, \\qquad 2.000 - 0.150 = 1.850 \\text{ kg}$$\n\n## Simplified explanation\n\n2 kg is 2,000 g. Taking off 150 g leaves 1,850 g, which is 1.850 kg.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A frog leaps in such a way that its distance, in metres, from its starting position after each leap is given by 4, 7, 10, . . . Find its distance from the starting position after the 10th leap.",
+    "media": [],
+    "options": [
+      {
+        "text": "28",
+        "hint": "This is the distance after the 9th leap."
+      },
+      {
+        "text": "34",
+        "hint": "This is the distance after the 11th leap."
+      },
+      {
+        "text": "31",
+        "hint": "Correct. $4 + 9 \\times 3 = 31$."
+      },
+      {
+        "text": "37",
+        "hint": "This is the distance after the 12th leap."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The distance goes up by 3 each leap, and there are 9 steps from the 1st leap to the 10th.",
+    "explanation": "## Advanced explanation\n\nThis is an arithmetic sequence with $a = 4$ and $d = 3$:\n\n$$T_{10} = a + 9d = 4 + 27 = 31$$\n\n## Simplified explanation\n\nStart at 4 and add 3 for each leap after the first. That is 9 more lots of 3, or 27. Then $4 + 27 = 31$ m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3x - 2(3 + 2x) + x(2x + 4)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2x^2 + 11x - 6$",
+        "hint": "Check the sign: $-2 \\times 2x = -4x$."
+      },
+      {
+        "text": "$2x^2 + 4x - 6$",
+        "hint": "Collect again: $3x - 4x + 4x = 3x$."
+      },
+      {
+        "text": "$2x^2 + 3x - 6$",
+        "hint": "Correct. $3x - 6 - 4x + 2x^2 + 4x$."
+      },
+      {
+        "text": "$2x^2 - 4x - 6$",
+        "hint": "Collect again: $3x - 4x + 4x = 3x$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Expand both brackets first, and take care with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$$3x - 6 - 4x + 2x^2 + 4x = 2x^2 + 3x - 6$$\n\n## Simplified explanation\n\nMultiply out to get $-6 - 4x$ and $2x^2 + 4x$. The $x$ terms are $3x - 4x + 4x = 3x$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $P(-2, 3)$ is translated by a vector $\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$ to a point $R$. Find the coordinates of $R$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(6, -2)$",
+        "hint": "Add the vector to the point: $-2 + (-1)$ and $3 + 3$."
+      },
+      {
+        "text": "$(-1, 0)$",
+        "hint": "This subtracts the vector. A translation adds it."
+      },
+      {
+        "text": "$(-3, 6)$",
+        "hint": "Correct. $-2 - 1 = -3$ and $3 + 3 = 6$."
+      },
+      {
+        "text": "$(-3, -6)$",
+        "hint": "Check the sign: $3 + 3 = +6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Image $=$ object $+$ translation vector.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix} + \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix} = \\begin{pmatrix} -3 \\\\ 6 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTake 1 from the first number and add 3 to the second: $-3$ and 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "One of the factors of the expression $4m^2 + 12m - 8m - 24$ is $(4m - 8)$. Find the other factor.",
+    "media": [],
+    "options": [
+      {
+        "text": "$m - 3$",
+        "hint": "$(4m - 8)(m - 3)$ gives $+24$, not $-24$."
+      },
+      {
+        "text": "$2m - 3$",
+        "hint": "$(4m - 8)(2m - 3)$ starts with $8m^2$, not $4m^2$."
+      },
+      {
+        "text": "$m + 3$",
+        "hint": "Correct. $4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3)$."
+      },
+      {
+        "text": "$2m + 3$",
+        "hint": "$(4m - 8)(2m + 3)$ starts with $8m^2$, not $4m^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$4m^2 + 12m - 8m - 24 = 4m(m + 3) - 8(m + 3) = (4m - 8)(m + 3)$$\n\n## Simplified explanation\n\nTake $4m$ out of the first pair and $-8$ out of the second. Both leave $(m + 3)$, which is the other factor.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Andrews drew three lines such that the length of the first one is 10 cm, the second is 15 cm longer than the first one and the third is 9 cm less than the second. Find the length of the third line.",
+    "media": [],
+    "options": [
+      {
+        "text": "4 cm",
+        "hint": "The second line is $10 + 15 = 25$ cm, and the third is 9 cm less."
+      },
+      {
+        "text": "16 cm",
+        "hint": "Correct. $25 - 9 = 16$."
+      },
+      {
+        "text": "14 cm",
+        "hint": "The second line is 25 cm, and $25 - 9 = 16$."
+      },
+      {
+        "text": "34 cm",
+        "hint": "This adds 9. The third line is 9 cm less than the second."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the second line first.",
+    "explanation": "## Advanced explanation\n\nSecond line: $10 + 15 = 25$ cm. Third line: $25 - 9 = 16$ cm.\n\n## Simplified explanation\n\nThe second line is 25 cm. Taking away 9 cm gives 16 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A story book contains 50 pages. If a student reads 10 pages per hour, find the relation between the number of unread pages ($N$) and time ($t$).",
+    "media": [],
+    "options": [
+      {
+        "text": "$N = 10t + 50$",
+        "hint": "Unread pages must go down over time, so the $t$ term is negative."
+      },
+      {
+        "text": "$N = 10t - 50$",
+        "hint": "At $t = 0$ this gives $-50$, but all 50 pages are unread."
+      },
+      {
+        "text": "$N = -10t + 50$",
+        "hint": "Correct. Start with 50 and lose 10 each hour."
+      },
+      {
+        "text": "$N = -\\dfrac{1}{10}t + 50$",
+        "hint": "The student reads 10 pages per hour, not $\\frac{1}{10}$ of a page."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How many pages are unread at the start? How does that change each hour?",
+    "explanation": "## Advanced explanation\n\nThe relation is linear with initial value 50 and rate of change $-10$ pages per hour, so $N = 50 - 10t$.\n\n## Simplified explanation\n\nAt the start, 50 pages are unread. Each hour takes away 10 pages. After $t$ hours, $N = 50 - 10t$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Madam Nancy wants to know which of the teachers in her school is liked best by most of the students. Which of the following methods is most suitable for collecting the data?",
+    "media": [],
+    "options": [
+      {
+        "text": "Experiment",
+        "hint": "An experiment tests the effect of changing something."
+      },
+      {
+        "text": "Observation",
+        "hint": "Watching students does not directly show their opinions."
+      },
+      {
+        "text": "Database",
+        "hint": "A database stores existing records, and these opinions have not been recorded."
+      },
+      {
+        "text": "Questionnaire",
+        "hint": "Correct. It asks each student for an opinion directly."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "She wants to find out what students think.",
+    "explanation": "## Advanced explanation\n\nOpinions and preferences are best collected directly from respondents, and a questionnaire does this efficiently for many students.\n\n## Simplified explanation\n\nTo learn what students think, ask them. A questionnaire is a set of questions they can answer.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two brands of air conditioners $S$ and $T$ cost GH₵ 3,000.00 and GH₵ 4,000.00 respectively. A company budgeted GH₵ 20,000.00 to buy air conditioners. If the company bought 5 units of brand $S$ instead of brand $T$, how much did it save?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,000.00",
+        "hint": "This is the saving on only one unit."
+      },
+      {
+        "text": "GH₵ 15,000.00",
+        "hint": "This is the cost of 5 units of brand $S$."
+      },
+      {
+        "text": "GH₵ 5,000.00",
+        "hint": "Correct. $20000 - 15000 = 5000$."
+      },
+      {
+        "text": "GH₵ 20,000.00",
+        "hint": "This is the budget, which is also the cost of 5 units of brand $T$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Budget minus the amount actually spent.",
+    "explanation": "## Advanced explanation\n\n$$20000 - 5 \\times 3000 = 5000$$\n\n## Simplified explanation\n\n5 units of brand $S$ cost GH₵ 15,000. From the GH₵ 20,000 budget, GH₵ 5,000 is saved.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Araba is 3 years younger than her sister. If the sum of their ages is 17 years, find Araba's age.",
+    "media": [],
+    "options": [
+      {
+        "text": "7 years",
+        "hint": "Correct. Her sister is 10, and $7 + 10 = 17$."
+      },
+      {
+        "text": "9 years",
+        "hint": "Her sister would be 12, and $9 + 12 = 21$."
+      },
+      {
+        "text": "8 years",
+        "hint": "Her sister would be 11, and $8 + 11 = 19$."
+      },
+      {
+        "text": "10 years",
+        "hint": "This is her sister's age. Araba is the younger one."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let Araba's age be $a$, so her sister is $a + 3$.",
+    "explanation": "## Advanced explanation\n\n$$a + (a + 3) = 17 \\implies 2a = 14 \\implies a = 7$$\n\n## Simplified explanation\n\nTake away the 3-year gap: $17 - 3 = 14$. Share it equally: $14 \\div 2 = 7$. Araba is 7.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Amadu walked to a point such that he is always the same distance from two villages $P$ and $Q$. Which of the following best describes the locus of Amadu?",
+    "media": [],
+    "options": [
+      {
+        "text": "An arc passing through line $PQ$",
+        "hint": "An arc is equidistant from one centre, not from two points."
+      },
+      {
+        "text": "Perpendicular bisector of line $PQ$",
+        "hint": "Correct. Every point on it is equally far from $P$ and $Q$."
+      },
+      {
+        "text": "A circle passing through line $PQ$",
+        "hint": "A circle is equidistant from one centre, not from two points."
+      },
+      {
+        "text": "Straight line $PQ$",
+        "hint": "Most points on line $PQ$ are nearer to one village than the other."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Think of the point halfway between $P$ and $Q$. Where else can he stand?",
+    "explanation": "## Advanced explanation\n\nThe locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them, also called the mediator.\n\n## Simplified explanation\n\nHe can stand at the middle of $PQ$, or anywhere on the line crossing $PQ$ at right angles through that middle point.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\sqrt{75} + \\sqrt{18} - \\sqrt{27}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2\\sqrt{3} - 3\\sqrt{2}$",
+        "hint": "Check the sign: $\\sqrt{18}$ is added, so $+3\\sqrt{2}$."
+      },
+      {
+        "text": "$5\\sqrt{6}$",
+        "hint": "$\\sqrt{3}$ and $\\sqrt{2}$ terms cannot be combined into $\\sqrt{6}$."
+      },
+      {
+        "text": "$2\\sqrt{3} + 3\\sqrt{2}$",
+        "hint": "Correct. $5\\sqrt{3} + 3\\sqrt{2} - 3\\sqrt{3}$."
+      },
+      {
+        "text": "$\\sqrt{6}$",
+        "hint": "Surds with different numbers cannot be combined like this."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write each surd using a perfect square factor, then collect like surds.",
+    "explanation": "## Advanced explanation\n\n$$5\\sqrt{3} + 3\\sqrt{2} - 3\\sqrt{3} = 2\\sqrt{3} + 3\\sqrt{2}$$\n\n## Simplified explanation\n\n$\\sqrt{75} = 5\\sqrt{3}$, $\\sqrt{18} = 3\\sqrt{2}$ and $\\sqrt{27} = 3\\sqrt{3}$. Combine the $\\sqrt{3}$ terms to get $2\\sqrt{3}$, and keep $3\\sqrt{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Surds"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the gradient of a line is zero, then the line",
+    "media": [],
+    "options": [
+      {
+        "text": "is vertical.",
+        "hint": "A vertical line has an undefined gradient."
+      },
+      {
+        "text": "rises to the right.",
+        "hint": "A line that rises to the right has a positive gradient."
+      },
+      {
+        "text": "is horizontal.",
+        "hint": "Correct. $y$ does not change along the line."
+      },
+      {
+        "text": "falls to the right.",
+        "hint": "A line that falls to the right has a negative gradient."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Gradient measures how much $y$ changes as $x$ changes.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{\\Delta y}{\\Delta x} = 0$ means $\\Delta y = 0$ for every change in $x$, so the line is horizontal, of the form $y = c$.\n\n## Simplified explanation\n\nZero gradient means no rise and no fall. The line is flat, which is horizontal.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A hawker is carrying a basket load of three types of fruits: oranges, mangoes and pears. If $\\dfrac{2}{5}$ of the fruits are oranges and $\\dfrac{6}{25}$ mangoes, what percentage of the fruits are pears?",
+    "media": [],
+    "options": [
+      {
+        "text": "9%",
+        "hint": "$\\frac{9}{25}$ of the fruits are pears. Change that to a percentage."
+      },
+      {
+        "text": "36%",
+        "hint": "Correct. $\\frac{9}{25} \\times 100 = 36$."
+      },
+      {
+        "text": "18%",
+        "hint": "$\\frac{9}{25} \\times 100$ is 36, not 18."
+      },
+      {
+        "text": "64%",
+        "hint": "This is the percentage of oranges and mangoes together."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "All the fractions add up to 1.",
+    "explanation": "## Advanced explanation\n\n$$1 - \\frac{2}{5} - \\frac{6}{25} = \\frac{25 - 10 - 6}{25} = \\frac{9}{25} = 36\\%$$\n\n## Simplified explanation\n\nOranges are 40% and mangoes are 24%, which makes 64%. The rest, $100 - 64 = 36$%, are pears.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Fractions",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the results when a student tossed a die many times.\n\nFind the mode",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq37-q38.png",
+        "caption": "Frequency table. Numbers on the die 1, 2, 3, 4, 5, 6 have frequencies 4, 3, 3, 2, 3, 5."
+      }
+    ],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Correct. The number 6 has the highest frequency, 5."
+      },
+      {
+        "text": "4",
+        "hint": "The number 4 has the lowest frequency, 2."
+      },
+      {
+        "text": "5",
+        "hint": "5 is the highest frequency. The mode is the number on the die with that frequency."
+      },
+      {
+        "text": "3",
+        "hint": "The number 3 appears only 3 times."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The mode is the number on the die that appeared most often.",
+    "explanation": "## Advanced explanation\n\nThe mode is the value with the highest frequency. The highest frequency is 5, which belongs to the number 6.\n\n## Simplified explanation\n\nLook along the frequency row for the biggest number, which is 5. The number above it is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the results when a student tossed a die many times.\n\nHow many times did the student throw the die?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq37-q38.png",
+        "caption": "Frequency table. Numbers on the die 1, 2, 3, 4, 5, 6 have frequencies 4, 3, 3, 2, 3, 5."
+      }
+    ],
+    "options": [
+      {
+        "text": "6",
+        "hint": "A die has 6 faces, but the student threw it more times than that."
+      },
+      {
+        "text": "20",
+        "hint": "Correct. $4 + 3 + 3 + 2 + 3 + 5 = 20$."
+      },
+      {
+        "text": "18",
+        "hint": "Add all six frequencies again."
+      },
+      {
+        "text": "21",
+        "hint": "This adds the numbers on the die. Add the frequencies instead."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the frequencies.",
+    "explanation": "## Advanced explanation\n\n$$\\sum f = 4 + 3 + 3 + 2 + 3 + 5 = 20$$\n\n## Simplified explanation\n\nEach frequency counts the throws for one number. Adding them all gives 20 throws.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the truth set of $2x - 4 < 6 + 3x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "{$x : x < 2$}",
+        "hint": "Collect the terms again: $-4 - 6 < 3x - 2x$."
+      },
+      {
+        "text": "{$x : x < 10$}",
+        "hint": "The result is $-10 < x$, which is $x > -10$."
+      },
+      {
+        "text": "{$x : x > -2$}",
+        "hint": "Collect the numbers again: $-4 - 6 = -10$."
+      },
+      {
+        "text": "{$x : x > -10$}",
+        "hint": "Correct. $-10 < x$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Move the $x$ terms to the side where they stay positive.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 2x - 4 &< 6 + 3x \\\\ -4 - 6 &< 3x - 2x \\\\ -10 &< x \\end{aligned}$$\n\n## Simplified explanation\n\nTake $2x$ from both sides to get $-4 < 6 + x$. Take 6 from both sides to get $-10 < x$. So $x$ is greater than $-10$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $PQ$ is parallel to line $ST$. Find the value of the angle marked $x$. [Not drawn to scale]",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024secaq40.png",
+        "caption": "Parallel lines PQ and ST, with two lines meeting at a point between them. A 35° angle is marked at PQ and a 140° angle at ST. The reflex angle x is marked at the point where the lines meet. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$140^\\circ$",
+        "hint": "This is the angle given in the diagram, not $x$."
+      },
+      {
+        "text": "$285^\\circ$",
+        "hint": "Correct. $360^\\circ - (35^\\circ + 40^\\circ) = 285^\\circ$."
+      },
+      {
+        "text": "$220^\\circ$",
+        "hint": "This is $360^\\circ - 140^\\circ$. Use the parallel lines to find the angle inside the V shape."
+      },
+      {
+        "text": "$290^\\circ$",
+        "hint": "The angle inside the V shape is $75^\\circ$, and $360^\\circ - 75^\\circ = 285^\\circ$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Draw a line through the vertex parallel to $PQ$ and $ST$. Then $x$ is the reflex angle.",
+    "explanation": "## Advanced explanation\n\nDraw a line through the vertex parallel to $PQ$. The upper part of the angle inside the V is $35^\\circ$, by vertically opposite and then alternate angles. The lower part is $180^\\circ - 140^\\circ = 40^\\circ$, by angles on a straight line and then alternate angles. The angle inside the V is $75^\\circ$, so\n\n$$x = 360^\\circ - 75^\\circ = 285^\\circ$$\n\n## Simplified explanation\n\nA helper line through the point of the V splits the inside angle into $35^\\circ$ and $180^\\circ - 140^\\circ = 40^\\circ$, which makes $75^\\circ$. Angles round a point make $360^\\circ$, so $x = 360 - 75 = 285$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2024 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A fair die and a fair coin are thrown together once.\n\n(i) Write down the set of all possible outcomes.\n\n(ii) Find the probability of obtaining a prime number and a tail.",
+    "media": [],
+    "answer": "**(i)**\n\n| | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| H | H1 | H2 | H3 | H4 | H5 | H6 |\n| T | T1 | T2 | T3 | T4 | T5 | T6 |\n\n**(ii)** There are 12 outcomes. The primes on a die are 2, 3 and 5, so the successful outcomes are T2, T3 and T5.\n\n$$P = \\frac{3}{12} = \\frac{1}{4}$$\n\n> [!answer]\n> **(i)** {{green:H1, H2, H3, H4, H5, H6, T1, T2, T3, T4, T5, T6}}  **(ii)** {{green:$\\dfrac{1}{4}$}}",
+    "hint": "Pair each coin result with each die number. Remember that 1 is not prime.",
+    "explanation": "## Advanced explanation\n\nThe coin and die are independent, so $P = P(\\text{tail}) \\times P(\\text{prime}) = \\frac{1}{2} \\times \\frac{3}{6} = \\frac{1}{4}$, which agrees with the table.\n\n## Simplified explanation\n\nTwo coin results and six die results make 12 outcomes. A tail with 2, 3 or 5 makes 3 of them, and $\\frac{3}{12} = \\frac{1}{4}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The map of a field is drawn to a scale of $1 : 100$. If the width and area of the field on the map are 8 cm and 88 cm$^2$ respectively, find in m$^2$, the area of the actual field.",
+    "media": [],
+    "answer": "Length on the map: $\\dfrac{88}{8} = 11$ cm\n\nActual width: $8 \\times 100 = 800$ cm $= 8$ m\n\nActual length: $11 \\times 100 = 1100$ cm $= 11$ m\n\nActual area: $11 \\times 8 = 88$ m$^2$\n\n> [!answer]\n> {{green:88 m$^2$}}",
+    "hint": "Find the map length first, then change both lengths using the scale.",
+    "explanation": "## Advanced explanation\n\nArea scales by the square of the linear scale: $88 \\text{ cm}^2 \\times 100^2 = 880000 \\text{ cm}^2$. Since $1 \\text{ m}^2 = 10000 \\text{ cm}^2$, this is $88 \\text{ m}^2$. At this scale, 1 cm on the map is exactly 1 m on the ground.\n\n## Simplified explanation\n\nAt this scale, each cm on the map is 1 m on the field. The map is 8 cm by 11 cm, so the field is 8 m by 11 m, which is 88 square metres.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Mensuration",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Copy and complete the $3 \\times 3$ magic square such that the sum of the numbers in each row, column and diagonal is equal to 21.\n\nIn your answer, write out the three rows.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024q1.png",
+        "caption": "A 3 by 3 grid with 10 and 3 in the first two cells of the top row, 7 in the centre, and the other cells empty."
+      }
+    ],
+    "answer": "Use the rows, columns and diagonals that already have two numbers:\n\n- Top row: $21 - 10 - 3 = 8$\n- Middle column: $21 - 3 - 7 = 11$\n- Main diagonal: $21 - 10 - 7 = 4$\n- Other diagonal: $21 - 8 - 7 = 6$\n- Left column: $21 - 10 - 6 = 5$\n- Right column: $21 - 8 - 4 = 9$\n\n| 10 | 3 | 8 |\n|---|---|---|\n| 5 | 7 | 9 |\n| 6 | 11 | 4 |\n\n> [!answer]\n> Rows: {{green:10, 3, 8}}; {{green:5, 7, 9}}; {{green:6, 11, 4}}",
+    "hint": "Start with the top row, because it already has two numbers.",
+    "explanation": "## Advanced explanation\n\nEach line through the centre has two cells that add up to $21 - 7 = 14$, such as $10 + 4$, $3 + 11$, $8 + 6$ and $5 + 9$. Every row, column and diagonal in the completed square then sums to 21.\n\n## Simplified explanation\n\nEach line must add up to 21. Find a line with only one gap and work out the missing number. Each new number fills another line, so keep going until the square is full.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given the vectors $p = \\begin{pmatrix} m + 3 \\\\ 2 - n \\end{pmatrix}$, $q = \\begin{pmatrix} 3m - 1 \\\\ n - 8 \\end{pmatrix}$ and $p = q$, find the values of $m$ and $n$.",
+    "media": [],
+    "answer": "Equal vectors have equal matching entries.\n\n**Top entries:**\n\n$$m + 3 = 3m - 1 \\implies 4 = 2m \\implies m = 2$$\n\n**Bottom entries:**\n\n$$2 - n = n - 8 \\implies 10 = 2n \\implies n = 5$$\n\n> [!answer]\n> {{green:$m = 2$}} and {{green:$n = 5$}}",
+    "hint": "Set the top entries equal, then set the bottom entries equal.",
+    "explanation": "## Advanced explanation\n\nCheck by substituting: $p = \\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$ and $q = \\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$, so $p = q$.\n\n## Simplified explanation\n\nTwo vectors are equal when their top numbers match and their bottom numbers match. That gives two small equations, one for $m$ and one for $n$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Vectors",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A man shared an amount of money between his children Baaba and William in the ratio $6 : 5$. Baaba received GH₵ 1,200.00.\n\n(i) Find the total amount shared.\n\n(ii) William invested his share in an account at the rate of 20% simple interest per annum for 2 years. Find the total amount in his account at the end of the 2 years.",
+    "media": [],
+    "answer": "**(i)** The ratio has $6 + 5 = 11$ parts, and 6 parts are GH₵ 1,200:\n\n$$\\frac{11}{6} \\times 1200 = 2200$$\n\n**(ii)** William's share: $2200 - 1200 = 1000$\n\n$$I = \\frac{P \\times R \\times T}{100} = \\frac{1000 \\times 20 \\times 2}{100} = 400$$\n\nTotal: $1000 + 400 = 1400$\n\n> [!answer]\n> **(i)** {{green:GH₵ 2,200.00}}  **(ii)** {{green:GH₵ 1,400.00}}",
+    "hint": "Find the value of one ratio part from Baaba's share.",
+    "explanation": "## Advanced explanation\n\nThe amount under simple interest is $A = P\\left(1 + \\frac{RT}{100}\\right) = 1000 \\times 1.4 = 1400$. William's share also follows directly: $\\frac{5}{6} \\times 1200 = 1000$.\n\n## Simplified explanation\n\nBaaba's 6 parts are GH₵ 1,200, so 1 part is GH₵ 200. All 11 parts make GH₵ 2,200. William's 5 parts make GH₵ 1,000. Interest is 20% for 2 years, which is 40%, or GH₵ 400.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $3\\sqrt{50} + 2\\sqrt{45} - \\sqrt{2} + \\sqrt{5}$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n&3(5\\sqrt{2}) + 2(3\\sqrt{5}) - \\sqrt{2} + \\sqrt{5} \\\\\n&= 15\\sqrt{2} + 6\\sqrt{5} - \\sqrt{2} + \\sqrt{5} \\\\\n&= 14\\sqrt{2} + 7\\sqrt{5}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$14\\sqrt{2} + 7\\sqrt{5}$}}",
+    "hint": "Use $\\sqrt{50} = 5\\sqrt{2}$ and $\\sqrt{45} = 3\\sqrt{5}$.",
+    "explanation": "## Advanced explanation\n\nOnly like surds can be combined. The result can also be written as $7(2\\sqrt{2} + \\sqrt{5})$.\n\n## Simplified explanation\n\nWrite $\\sqrt{50}$ as $5\\sqrt{2}$ and $\\sqrt{45}$ as $3\\sqrt{5}$. Multiply them out, then collect the $\\sqrt{2}$ terms and the $\\sqrt{5}$ terms.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Surds"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A wire of length 38 cm is bent into the shape of a rectangle whose length is 7 cm **more than** the width. Find the area of the rectangle.",
+    "media": [],
+    "answer": "Let the width be $x$ cm, so the length is $x + 7$ cm. The wire forms the perimeter:\n\n$$\n\\begin{aligned}\n2(x + x + 7) &= 38 \\\\\n4x + 14 &= 38 \\\\\nx &= 6\n\\end{aligned}\n$$\n\nWidth $= 6$ cm and length $= 13$ cm.\n\nArea $= 13 \\times 6 = 78$ cm$^2$\n\n> [!answer]\n> {{green:78 cm$^2$}}",
+    "hint": "The length of the wire is the perimeter of the rectangle.",
+    "explanation": "## Advanced explanation\n\nHalf the perimeter is $l + w = 19$, and $l - w = 7$. Adding these gives $2l = 26$, so $l = 13$ and $w = 6$.\n\n## Simplified explanation\n\nHalf of the wire, 19 cm, is one length plus one width. Take away the extra 7 cm to get 12, then halve it: the width is 6 cm and the length is 13 cm. Then $13 \\times 6 = 78$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If 15% of the length of a rope is 720 metres, find half of the length of the rope.",
+    "media": [],
+    "answer": "Half of the rope is 50% of its length.\n\n$$50\\% = \\frac{50}{15} \\times 720 = \\frac{10}{3} \\times 720 = 2400 \\text{ metres}$$\n\n> [!answer]\n> {{green:2,400 metres}}",
+    "hint": "Half of the length is the same as 50%.",
+    "explanation": "## Advanced explanation\n\nThe whole rope is $\\frac{100}{15} \\times 720 = 4800$ m, and half of this is 2400 m, which agrees.\n\n## Simplified explanation\n\n15% is 720 m, so 5% is 240 m. 50% is ten lots of 5%, which is 2,400 m.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses **only**:\n\n(a) construct $\\triangle PQR$ such that angle $PQR = 90^\\circ$, $|PQ| = 5.5$ cm and $|QR| = 8$ cm;\n\n(b) construct a perpendicular of $\\overline{PR}$ from $Q$;\n\n(c) locate $M$, the intersection of the perpendicular and $\\overline{PR}$;\n\n(d) measure: (i) $|MR|$; (ii) $|QM|$;\n\n(e) calculate, correct to the **nearest** whole number, the area of triangle $QMR$.\n\nIn your answer, give your two measurements and the area.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|QR| = 8$ cm.\n2. Construct $90^\\circ$ at $Q$ with compasses, and mark $P$ so that $|PQ| = 5.5$ cm. Join $P$ to $R$.\n3. With centre $Q$, draw an arc cutting $\\overline{PR}$ at two points. From these points, draw two arcs that cross on the far side of $\\overline{PR}$. Join $Q$ to the crossing point.\n4. Mark $M$ where this line meets $\\overline{PR}$.\n\n**Measurements** (allow a small drawing error)\n\n$|MR| \\approx 6.6$ cm and $|QM| \\approx 4.5$ cm\n\n**Area**\n\n$$\\text{Area} = \\frac{1}{2} \\times 6.6 \\times 4.5 = 14.85 \\approx 15 \\text{ cm}^2$$\n\n> [!answer]\n> {{green:$|MR| \\approx 6.6$ cm}}, {{green:$|QM| \\approx 4.5$ cm}}, area {{green:$\\approx 15$ cm$^2$}}",
+    "hint": "Angle $QMR$ is a right angle, so use $\\frac{1}{2} \\times$ base $\\times$ height with your two measurements.",
+    "explanation": "## Advanced explanation\n\nThe measurements can be checked by calculation. $|PR| = \\sqrt{5.5^2 + 8^2} = \\sqrt{94.25} \\approx 9.71$ cm. Then $|QM| = \\frac{5.5 \\times 8}{|PR|} \\approx 4.53$ cm and $|MR| = \\frac{8^2}{|PR|} \\approx 6.59$ cm, which gives an area of about $14.9$, or 15 cm$^2$.\n\n## Simplified explanation\n\nBuild the right-angled triangle, then draw the line from $Q$ that meets $PR$ at a right angle. Measure $MR$ and $QM$. They are the base and height of triangle $QMR$, so its area is half of their product.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $\\triangle PQR$ is an enlargement of $\\triangle PST$. $|PS| = 4$ cm, $|QS| = 2$ cm and $|QR| = 10$ cm.\n\n(i) Find the length of $\\overline{ST}$.\n\n(ii) If $|\\overline{PQ}| = |\\overline{PR}|$, find the area of $\\triangle PQR$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024q5.png",
+        "caption": "Triangle PQR with S on PQ and T on PR, and ST parallel to QR. PS is 4 cm, SQ is 2 cm and QR is 10 cm. Not drawn to scale."
+      }
+    ],
+    "answer": "**(i)** $|PQ| = 4 + 2 = 6$ cm, so the scale factor is\n\n$$k = \\frac{|PQ|}{|PS|} = \\frac{6}{4} = \\frac{3}{2}$$\n\n$$|ST| = \\frac{|QR|}{k} = 10 \\div \\frac{3}{2} = \\frac{20}{3} \\approx 6.67 \\text{ cm}$$\n\n**(ii)** The triangle is isosceles, so the height $PM$ meets $QR$ at its midpoint $M$, with $|MR| = 5$ cm and $|PR| = 6$ cm.\n\n$$|PM| = \\sqrt{6^2 - 5^2} = \\sqrt{11} \\text{ cm}$$\n\n$$\\text{Area} = \\frac{1}{2} \\times 10 \\times \\sqrt{11} = 5\\sqrt{11} \\approx 16.6 \\text{ cm}^2$$\n\n> [!answer]\n> **(i)** {{green:$\\dfrac{20}{3} \\approx 6.67$ cm}}  **(ii)** {{green:$5\\sqrt{11} \\approx 16.6$ cm$^2$}}",
+    "hint": "Compare $|PQ|$ with $|PS|$ for the scale factor. For (ii), draw the height from $P$ to the middle of $QR$.",
+    "explanation": "## Advanced explanation\n\nMatching sides in an enlargement are in the ratio $k$, so $\\frac{|QR|}{|ST|} = \\frac{3}{2}$. In an isosceles triangle, the height from the apex bisects the base, which gives a right-angled triangle for Pythagoras' theorem.\n\n## Simplified explanation\n\nThe big side $PQ$ is 6 cm and the small side $PS$ is 4 cm, so the big triangle is 1.5 times the small one. Then $ST$ is $10 \\div 1.5$. For the area, the height splits $QR$ into 5 cm and 5 cm, and Pythagoras gives a height of $\\sqrt{11}$.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Geometry",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The total area of a school compound is $900\\dfrac{1}{2}$ m$^2$. The school has Administration and Classroom block, Library, School Park, Roads and Walkways. The areas of the Administration and Classroom block, Library and School Park are $300\\dfrac{1}{4}$ m$^2$, $200\\dfrac{1}{2}$ m$^2$ and $120\\dfrac{1}{8}$ m$^2$ respectively. Find the area covered by Roads and Walkways altogether.",
+    "media": [],
+    "answer": "Add the three known areas, then subtract from the total:\n\n$$300\\frac{1}{4} + 200\\frac{1}{2} + 120\\frac{1}{8} = 620\\frac{7}{8}$$\n\n$$900\\frac{1}{2} - 620\\frac{7}{8} = 279\\frac{5}{8}$$\n\n> [!answer]\n> {{green:$279\\dfrac{5}{8}$ m$^2$}}",
+    "hint": "Roads and Walkways cover whatever area is left.",
+    "explanation": "## Advanced explanation\n\nAs improper fractions, the total is $\\frac{1801}{2}$ and the buildings and park are $\\frac{4967}{8}$, so the remainder is $\\frac{7204 - 4967}{8} = \\frac{2237}{8} = 279\\frac{5}{8}$.\n\n## Simplified explanation\n\nThe whole numbers add up to 620, and the fractions add up to $\\frac{7}{8}$. Taking $620\\frac{7}{8}$ from $900\\frac{1}{2}$ leaves $279\\frac{5}{8}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Fractions",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $F = \\dfrac{9}{5}C + 32$ links $F$, degrees Fahrenheit, and $C$, degrees Celsius.\n\nCopy and complete the table for the relation.\n\nIn your answer, write out the $^\\circ$F row.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2024/2024q6.png",
+        "caption": "Table with °C values 0, 5, 10, 15, 20, 25, 30. The °F row gives 32 at 0 °C and 68 at 20 °C, and the other cells are empty."
+      }
+    ],
+    "answer": "Substitute each value of $C$ into the relation. For example, at $C = 5$: $F = \\dfrac{9}{5}(5) + 32 = 41$.\n\n| $^\\circ$C | 0 | 5 | 10 | 15 | 20 | 25 | 30 |\n|---|---|---|---|---|---|---|---|\n| $^\\circ$F | 32 | 41 | 50 | 59 | 68 | 77 | 86 |\n\n> [!answer]\n> {{green:32, 41, 50, 59, 68, 77, 86}}",
+    "hint": "Each extra 5 $^\\circ$C adds the same amount to $^\\circ$F.",
+    "explanation": "## Advanced explanation\n\nThe relation is linear with slope $\\frac{9}{5}$, so each 5-unit step in $C$ raises $F$ by $\\frac{9}{5} \\times 5 = 9$.\n\n## Simplified explanation\n\nMultiply $C$ by $\\frac{9}{5}$ and add 32. Each step of 5 in $C$ adds 9 to $F$, so you can count up from 32: 41, 50, 59, and so on.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Graphs",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $F = \\dfrac{9}{5}C + 32$ links $F$, degrees Fahrenheit, and $C$, degrees Celsius.\n\nUsing a scale of 2 cm to 10 units on the vertical axis ($^\\circ$F) and 2 cm to 5 units on the horizontal axis ($^\\circ$C), draw a linear graph for the relation.\n\nIn your answer, list the points you would plot.",
+    "media": [],
+    "answer": "Plot $^\\circ$C across and $^\\circ$F up, using the given scales, and join the points with a straight line.\n\n> [!answer]\n> {{green:$(0, 32)$, $(5, 41)$, $(10, 50)$, $(15, 59)$, $(20, 68)$, $(25, 77)$, $(30, 86)$}} on one straight line.",
+    "hint": "Work out $F$ for $C = 0, 5, 10, \\dots, 30$. Those pairs are your points.",
+    "explanation": "## Advanced explanation\n\nThe graph is a straight line with gradient $\\frac{9}{5}$ and vertical intercept 32. On these scales, each 2 cm across is 5 $^\\circ$C and each 2 cm up is 10 $^\\circ$F.\n\n## Simplified explanation\n\nEach pair from the table is one point. Put the Celsius value across and the Fahrenheit value up. Then use a ruler to join them.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $F = \\dfrac{9}{5}C + 32$ links $F$, degrees Fahrenheit, and $C$, degrees Celsius.\n\nUse the graph of the relation to find the temperature in degrees Celsius when $F = 55$ degrees.",
+    "media": [],
+    "answer": "On the graph, go across from 55 on the $^\\circ$F axis to the line, then down to the $^\\circ$C axis. This reads about 13 $^\\circ$C.\n\nBy calculation:\n\n$$55 = \\frac{9}{5}C + 32 \\implies C = \\frac{5}{9}(23) \\approx 12.8$$\n\n> [!answer]\n> {{green:about 13 $^\\circ$C}} (12.8 $^\\circ$C by calculation)",
+    "hint": "Find 55 on the vertical axis, go across to the line, then read downwards.",
+    "explanation": "## Advanced explanation\n\nReading a graph gives an estimate. The exact value is $C = \\frac{5}{9}(F - 32) = \\frac{115}{9} \\approx 12.8$, so readings from about 12.5 to 13 are reasonable.\n\n## Simplified explanation\n\n55 is between 50 (at 10 °C) and 59 (at 15 °C), and closer to 59. So the temperature is between 10 °C and 15 °C, at about 13 °C.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Graphs",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $F = \\dfrac{9}{5}C + 32$ links $F$, degrees Fahrenheit, and $C$, degrees Celsius.\n\nInterpret the slope of the relation.",
+    "media": [],
+    "answer": "The slope of $F = \\dfrac{9}{5}C + 32$ is $\\dfrac{9}{5} = 1.8$.\n\n> [!answer]\n> {{green:For every rise of 1 $^\\circ$C, the temperature in Fahrenheit rises by $\\dfrac{9}{5}$ (1.8) $^\\circ$F.}}",
+    "hint": "The slope tells you how much $F$ changes when $C$ goes up by 1.",
+    "explanation": "## Advanced explanation\n\nIn $y = mx + c$, $m$ is the rate of change of $y$ with respect to $x$. Here $\\frac{\\Delta F}{\\Delta C} = \\frac{9}{5}$, measured in $^\\circ$F per $^\\circ$C. From the table, 5 $^\\circ$C more gives 9 $^\\circ$F more.\n\n## Simplified explanation\n\nEach time Celsius goes up by 5 degrees, Fahrenheit goes up by 9 degrees. So 1 degree Celsius more means 1.8 degrees Fahrenheit more.",
+    "difficulty": "medium",
+    "marks": 2,
+    "tags": [
+      "2024 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  }
+]

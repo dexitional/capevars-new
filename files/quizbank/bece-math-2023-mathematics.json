@@ -1,0 +1,1618 @@
+[
+  {
+    "type": "choice",
+    "body": "Find the simple interest on GH₵ 350.00 for 4 years at 5% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 35.00",
+        "hint": "This is the interest for only 2 years."
+      },
+      {
+        "text": "GH₵ 140.00",
+        "hint": "This uses a rate of 10%, but the rate is 5%."
+      },
+      {
+        "text": "GH₵ 70.00",
+        "hint": "Correct. $\\frac{350 \\times 5 \\times 4}{100} = 70$."
+      },
+      {
+        "text": "GH₵ 20.00",
+        "hint": "This is just $4 \\times 5$. The principal must be included."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use $I = \\dfrac{P \\times R \\times T}{100}$.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{P R T}{100} = \\frac{350 \\times 5 \\times 4}{100} = 70$$\n\n## Simplified explanation\n\n5% of GH₵ 350 is GH₵ 17.50 each year. For 4 years: $4 \\times 17.50 =$ GH₵ 70.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $(x - 2)(x + 4)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x^2 - x - 8$",
+        "hint": "The middle term is $4x - 2x = 2x$."
+      },
+      {
+        "text": "$x^2 + 2x - 8$",
+        "hint": "Correct. $x^2 + 4x - 2x - 8$."
+      },
+      {
+        "text": "$x^2 + 2x + 8$",
+        "hint": "Check the sign: $-2 \\times 4 = -8$."
+      },
+      {
+        "text": "$x^2 - 4x - 8$",
+        "hint": "The middle term is $4x - 2x = 2x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$$(x - 2)(x + 4) = x^2 + 4x - 2x - 8 = x^2 + 2x - 8$$\n\n## Simplified explanation\n\n$x \\times x = x^2$, $x \\times 4 = 4x$, $-2 \\times x = -2x$ and $-2 \\times 4 = -8$. Combine $4x$ and $-2x$ to get $2x$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Cement and sand were mixed in the ratio 2 : 5. How many kilograms of cement was contained in the 35 kg of the mixture.",
+    "media": [],
+    "options": [
+      {
+        "text": "10 kg",
+        "hint": "Correct. $\\frac{2}{7} \\times 35 = 10$."
+      },
+      {
+        "text": "7 kg",
+        "hint": "This is $35 \\div 5$. The ratio has $2 + 5 = 7$ parts."
+      },
+      {
+        "text": "88 kg",
+        "hint": "The cement cannot weigh more than the whole 35 kg mixture."
+      },
+      {
+        "text": "14 kg",
+        "hint": "This is $\\frac{2}{5} \\times 35$. Divide by the total parts, 7."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add the ratio parts first. Cement has 2 of them.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Cement} = \\frac{2}{2 + 5} \\times 35 = 10 \\text{ kg}$$\n\n## Simplified explanation\n\nThere are 7 parts in all, so each part is $35 \\div 7 = 5$ kg. Cement has 2 parts, which is 10 kg.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is an even prime number?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. Its only factors are 1 and 2, and it is even."
+      },
+      {
+        "text": "1",
+        "hint": "1 has only one factor, so it is not prime. It is also odd."
+      },
+      {
+        "text": "8",
+        "hint": "8 is even, but $8 = 2 \\times 4$, so it is not prime."
+      },
+      {
+        "text": "4",
+        "hint": "4 is even, but $4 = 2 \\times 2$, so it is not prime."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A prime number has exactly two factors.",
+    "explanation": "## Advanced explanation\n\nEvery even number greater than 2 has 2 as a factor, as well as 1 and itself, so it has more than two factors. So 2 is the only even prime.\n\n## Simplified explanation\n\nAll the other even numbers can be divided by 2, so they are not prime. Only 2 itself is both even and prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 20 oranges of which 6 are bad. Find the probability of picking a good orange from the bag.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{20}$",
+        "hint": "All 14 good oranges count, not just one."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "6 is the number of bad oranges. Divide the good oranges by 20."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "This is the probability of picking a bad orange."
+      },
+      {
+        "text": "$\\dfrac{7}{10}$",
+        "hint": "Correct. $\\frac{14}{20} = \\frac{7}{10}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the number of good oranges first.",
+    "explanation": "## Advanced explanation\n\nGood oranges: $20 - 6 = 14$, so\n\n$$P(\\text{good}) = \\frac{14}{20} = \\frac{7}{10}$$\n\n## Simplified explanation\n\n14 of the 20 oranges are good. That is $\\frac{14}{20}$, which simplifies to $\\frac{7}{10}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $n(E) = 15$, $n(F) = 20$ and $n(E \\cap F) = 6$. Find $n(E \\cup F)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "26",
+        "hint": "This is $20 + 6$. Add both sets, then subtract the overlap."
+      },
+      {
+        "text": "35",
+        "hint": "This adds the sets but counts the overlap twice."
+      },
+      {
+        "text": "29",
+        "hint": "Correct. $15 + 20 - 6 = 29$."
+      },
+      {
+        "text": "21",
+        "hint": "This is $15 + 6$. Add both sets, then subtract the overlap."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Members in both sets are counted twice when you add $n(E)$ and $n(F)$.",
+    "explanation": "## Advanced explanation\n\n$$n(E \\cup F) = n(E) + n(F) - n(E \\cap F) = 15 + 20 - 6 = 29$$\n\n## Simplified explanation\n\nAdding 15 and 20 gives 35, but the 6 shared members were counted twice. Take 6 away once to get 29.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 0.01723 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1.723 \\times 10^{2}$",
+        "hint": "This equals 172.3. A number smaller than 1 needs a negative power."
+      },
+      {
+        "text": "$0.01723 \\times 10^{2}$",
+        "hint": "The first number must be from 1 up to, but not including, 10."
+      },
+      {
+        "text": "$1.723 \\times 10^{-2}$",
+        "hint": "Correct. The decimal point moves 2 places to the right."
+      },
+      {
+        "text": "$0.01723 \\times 10^{-2}$",
+        "hint": "The first number must be from 1 up to, but not including, 10."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Move the decimal point until you get a number between 1 and 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Here $a = 1.723$, and moving the point 2 places right gives $n = -2$.\n\n## Simplified explanation\n\nMove the point 2 places to get 1.723. The original number is less than 1, so the power is $-2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $m = \\dfrac{b}{2} - t$, make $t$ the subject.",
+    "media": [],
+    "options": [
+      {
+        "text": "$t = \\dfrac{2m - b}{2}$",
+        "hint": "The signs are reversed. $t = \\frac{b}{2} - m$."
+      },
+      {
+        "text": "$t = \\dfrac{b - 2m}{2}$",
+        "hint": "Correct. $t = \\frac{b}{2} - m = \\frac{b - 2m}{2}$."
+      },
+      {
+        "text": "$t = \\dfrac{b + 2m}{2}$",
+        "hint": "Moving $m$ across changes its sign."
+      },
+      {
+        "text": "$t = \\dfrac{2b - m}{2}$",
+        "hint": "Write $t = \\frac{b}{2} - m$, then use denominator 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add $t$ to both sides, then subtract $m$.",
+    "explanation": "## Advanced explanation\n\n$$t = \\frac{b}{2} - m = \\frac{b - 2m}{2}$$\n\n## Simplified explanation\n\nMove $t$ to the left and $m$ to the right to get $t = \\frac{b}{2} - m$. Then write both terms over 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2n - 5 = \\dfrac{1}{2}n$, find the value of $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2\\dfrac{1}{2}$",
+        "hint": "This gives $2n - 5 = 0$, but $\\frac{1}{2}n = 1\\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This gives $2n - 5 = -4$, but $\\frac{1}{2}n = \\frac{1}{4}$."
+      },
+      {
+        "text": "$3\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{3}{2}n = 5$, so $n = \\frac{10}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This gives a negative left side, but $\\frac{1}{2}n$ is positive."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply every term by 2 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 4n - 10 &= n \\\\ 3n &= 10 \\\\ n &= \\frac{10}{3} = 3\\frac{1}{3} \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply by 2 to get $4n - 10 = n$. Take $n$ from both sides and add 10, which gives $3n = 10$. Then $n = 3\\frac{1}{3}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of $3x^2 + 2x - 7$ when $x = -3$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$-40$",
+        "hint": "$(-3)^2 = 9$ is positive, so $3x^2 = +27$."
+      },
+      {
+        "text": "$14$",
+        "hint": "Correct. $27 - 6 - 7 = 14$."
+      },
+      {
+        "text": "$-33$",
+        "hint": "$(-3)^2 = 9$ is positive, so $3x^2 = +27$."
+      },
+      {
+        "text": "$26$",
+        "hint": "Check the sign: $2 \\times (-3) = -6$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Work out $(-3)^2$ first, and remember that it is positive.",
+    "explanation": "## Advanced explanation\n\n$$3(-3)^2 + 2(-3) - 7 = 27 - 6 - 7 = 14$$\n\n## Simplified explanation\n\n$(-3) \\times (-3) = 9$, so the first term is 27. The second term is $-6$. Then $27 - 6 - 7 = 14$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the marks scored by students in a French test.\n\nHow many students took the test?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq11-q13.png",
+        "caption": "Stem and leaf plot of the French test marks, with stems from 2 to 7."
+      }
+    ],
+    "options": [
+      {
+        "text": "22",
+        "hint": "Count the leaves again: each leaf is one student."
+      },
+      {
+        "text": "27",
+        "hint": "Count the leaves, not the stems' values."
+      },
+      {
+        "text": "20",
+        "hint": "Count the leaves again: each leaf is one student."
+      },
+      {
+        "text": "21",
+        "hint": "Correct. $5 + 3 + 4 + 4 + 3 + 2 = 21$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Each leaf stands for one student.",
+    "explanation": "## Advanced explanation\n\nThe number of data values equals the number of leaves:\n\n$$5 + 3 + 4 + 4 + 3 + 2 = 21$$\n\n## Simplified explanation\n\nCount the numbers on the leaf side of each row and add them: 5, 3, 4, 4, 3 and 2 make 21 students.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the marks scored by students in a French test.\n\nWhat is the modal mark?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq11-q13.png",
+        "caption": "Stem and leaf plot of the French test marks, with stems from 2 to 7."
+      }
+    ],
+    "options": [
+      {
+        "text": "76",
+        "hint": "76 is the highest mark, and it appears once."
+      },
+      {
+        "text": "56",
+        "hint": "56 appears twice, but another mark appears three times."
+      },
+      {
+        "text": "45",
+        "hint": "Correct. 45 appears three times."
+      },
+      {
+        "text": "35",
+        "hint": "35 is not in the plot. Stem 3 has 32, 37 and 39."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look for the leaf that repeats most often in one row.",
+    "explanation": "## Advanced explanation\n\nThe mode is the most frequent value. Stem 4 has leaves 3, 5, 5, 5, so 45 occurs three times, more than any other mark.\n\n## Simplified explanation\n\nFind the mark that appears most. In the row for stem 4, the leaf 5 appears three times, so the mark is 45.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the marks scored by students in a French test.\n\nFind the median mark.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq11-q13.png",
+        "caption": "Stem and leaf plot of the French test marks, with stems from 2 to 7."
+      }
+    ],
+    "options": [
+      {
+        "text": "54",
+        "hint": "54 is the 13th mark, but the middle of 21 marks is the 11th."
+      },
+      {
+        "text": "47",
+        "hint": "47 is not in the plot."
+      },
+      {
+        "text": "76",
+        "hint": "76 is the highest mark, not the middle one."
+      },
+      {
+        "text": "45",
+        "hint": "Correct. The 11th mark is 45."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The marks are already in order. Find the middle position of 21 marks.",
+    "explanation": "## Advanced explanation\n\nWith $n = 21$, the median is mark number $\\frac{21 + 1}{2} = 11$. The first 8 marks are in stems 2 and 3, then 43, 45 and 45 are numbers 9, 10 and 11.\n\n## Simplified explanation\n\nThere are 21 marks, so the middle one is the 11th, with 10 on each side. Counting along the rows, the 11th mark is 45.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $(x - 1)^2 - 1$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x^2 - 2x - 1$",
+        "hint": "$(x - 1)^2$ ends in $+1$, which cancels with the $-1$."
+      },
+      {
+        "text": "$x^2 + 2x$",
+        "hint": "Check the sign: $(x - 1)^2$ has the middle term $-2x$."
+      },
+      {
+        "text": "$x^2 - 2x$",
+        "hint": "Correct. $x^2 - 2x + 1 - 1 = x^2 - 2x$."
+      },
+      {
+        "text": "$x^2 - 2x + 1$",
+        "hint": "This is $(x - 1)^2$. You still need to subtract 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Expand $(x - 1)(x - 1)$ first.",
+    "explanation": "## Advanced explanation\n\n$$(x - 1)^2 - 1 = x^2 - 2x + 1 - 1 = x^2 - 2x$$\n\n## Simplified explanation\n\n$(x - 1)(x - 1) = x^2 - 2x + 1$. Subtracting 1 removes the $+1$, which leaves $x^2 - 2x$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that 1 kilometre $= \\dfrac{5}{8}$ mile, what is 240 miles in kilometres",
+    "media": [],
+    "options": [
+      {
+        "text": "150 km",
+        "hint": "This multiplies by $\\frac{5}{8}$. A kilometre is shorter than a mile, so there must be more kilometres."
+      },
+      {
+        "text": "384 km",
+        "hint": "Correct. $240 \\times \\frac{8}{5} = 384$."
+      },
+      {
+        "text": "190 km",
+        "hint": "A kilometre is shorter than a mile, so the answer must be more than 240."
+      },
+      {
+        "text": "390 km",
+        "hint": "$390 \\times \\frac{5}{8}$ is about 244 miles, not 240."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find how many kilometres make 1 mile.",
+    "explanation": "## Advanced explanation\n\nIf $1 \\text{ km} = \\frac{5}{8}$ mile, then $1 \\text{ mile} = \\frac{8}{5}$ km, so\n\n$$240 \\times \\frac{8}{5} = 384 \\text{ km}$$\n\n## Simplified explanation\n\n5 miles equal 8 km. 240 miles is $240 \\div 5 = 48$ lots of 5 miles, and $48 \\times 8 = 384$ km.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Araba and Ama share 20 oranges in such a way that Ama receives 12 oranges. Find the ratio of Araba's share to that of Ama.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3 : 5$",
+        "hint": "This is $12 : 20$, Ama's share to the total."
+      },
+      {
+        "text": "$2 : 5$",
+        "hint": "This is $8 : 20$, Araba's share to the total."
+      },
+      {
+        "text": "$2 : 3$",
+        "hint": "Correct. $8 : 12 = 2 : 3$."
+      },
+      {
+        "text": "$3 : 2$",
+        "hint": "This is Ama's share to Araba's. The question asks for Araba's first."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find Araba's share first, and keep the order asked for.",
+    "explanation": "## Advanced explanation\n\nAraba receives $20 - 12 = 8$ oranges, so the ratio is $8 : 12 = 2 : 3$.\n\n## Simplified explanation\n\nAraba gets 8 and Ama gets 12. Divide both by 4 to get $2 : 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A straight line passes through the points $P(-5, -3)$ and $Q(-4, -7)$. Find the gradient of the line $PQ$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4$",
+        "hint": "Check the sign: the change in $y$ is $-7 - (-3) = -4$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "This has the fraction upside down and the wrong sign."
+      },
+      {
+        "text": "$-\\dfrac{1}{4}$",
+        "hint": "This is change in $x$ over change in $y$. Gradient is the other way round."
+      },
+      {
+        "text": "$-4$",
+        "hint": "Correct. $\\frac{-4}{1} = -4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{-7 - (-3)}{-4 - (-5)} = \\frac{-4}{1} = -4$$\n\n## Simplified explanation\n\nThe $y$ values go from $-3$ to $-7$, a change of $-4$. The $x$ values go from $-5$ to $-4$, a change of 1. Then $-4 \\div 1 = -4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve $3(x - 2) - \\dfrac{x}{3} + 6 > 0$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x < 0$",
+        "hint": "Check the direction: $\\frac{8}{3}x > 0$, so $x$ is positive."
+      },
+      {
+        "text": "$x > \\dfrac{1}{8}$",
+        "hint": "After simplifying, the right side is 0, so the boundary is 0."
+      },
+      {
+        "text": "$x > 3$",
+        "hint": "The numbers cancel: $-6 + 6 = 0$. The boundary is 0."
+      },
+      {
+        "text": "$x > 0$",
+        "hint": "Correct. $\\frac{8}{3}x > 0$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket first. The numbers cancel.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 3x - 6 - \\frac{x}{3} + 6 &> 0 \\\\ \\frac{8}{3}x &> 0 \\\\ x &> 0 \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply out to get $3x - 6$. The $-6$ and $+6$ cancel, which leaves $3x - \\frac{x}{3} > 0$. That is $\\frac{8}{3}x > 0$, so $x > 0$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "John walks for $22\\dfrac{1}{2}$ minutes and runs for $7\\dfrac{1}{2}$ minutes to school. What percentage of the total time does he spend walking?",
+    "media": [],
+    "options": [
+      {
+        "text": "75%",
+        "hint": "Correct. $\\frac{22.5}{30} \\times 100 = 75$."
+      },
+      {
+        "text": "25%",
+        "hint": "This is the percentage of time he spends running."
+      },
+      {
+        "text": "33%",
+        "hint": "This compares running with walking. Divide walking time by the total time."
+      },
+      {
+        "text": "30%",
+        "hint": "30 is the total number of minutes, not a percentage."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the total time first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{22\\frac{1}{2}}{22\\frac{1}{2} + 7\\frac{1}{2}} \\times 100\\% = \\frac{22.5}{30} \\times 100\\% = 75\\%$$\n\n## Simplified explanation\n\nThe total time is 30 minutes. Walking takes 22.5 of those minutes, and $22.5 \\div 30 = 0.75$, which is 75%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of the point $S(-2, 2)$ when it is reflected in the $y$ axis.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(2, -2)$",
+        "hint": "This changes both signs. Reflecting in the $y$-axis changes only $x$."
+      },
+      {
+        "text": "$(-2, 2)$",
+        "hint": "This is the original point. A reflection in the $y$-axis moves it."
+      },
+      {
+        "text": "$(-2, -2)$",
+        "hint": "This is a reflection in the $x$-axis."
+      },
+      {
+        "text": "$(2, 2)$",
+        "hint": "Correct. $x$ changes sign and $y$ stays the same."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The $y$-axis acts as a mirror, so only the left-right position changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $y$-axis maps $(x, y) \\to (-x, y)$, so $(-2, 2) \\to (2, 2)$.\n\n## Simplified explanation\n\nThe point is 2 to the left of the $y$-axis. Its mirror image is 2 to the right, at the same height.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following numbers in ascending order: $\\dfrac{9}{5}$, $1.88$, $\\dfrac{15}{8}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{15}{8}$, $1.88$, $\\dfrac{9}{5}$",
+        "hint": "Ascending starts with the smallest, and $\\frac{9}{5} = 1.8$ is the smallest."
+      },
+      {
+        "text": "$\\dfrac{9}{5}$, $\\dfrac{15}{8}$, $1.88$",
+        "hint": "Correct. As decimals: $1.8, 1.875, 1.88$."
+      },
+      {
+        "text": "$\\dfrac{9}{5}$, $1.88$, $\\dfrac{15}{8}$",
+        "hint": "$\\frac{15}{8} = 1.875$ is smaller than 1.88, so it comes first."
+      },
+      {
+        "text": "$1.88$, $\\dfrac{9}{5}$, $\\dfrac{15}{8}$",
+        "hint": "1.88 is the largest, so it must come last."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change the fractions to decimals. Ascending means smallest first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{9}{5} = 1.8$ and $\\frac{15}{8} = 1.875$, so\n\n$$1.8 < 1.875 < 1.88$$\n\n## Simplified explanation\n\nWrite all three as decimals: 1.8, 1.88 and 1.875. From smallest to largest: 1.8, 1.875, 1.88.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\left(1\\dfrac{1}{2} - \\dfrac{5}{6}\\right) \\times \\dfrac{9}{10}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "Correct. $\\frac{2}{3} \\times \\frac{9}{10} = \\frac{3}{5}$."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "The bracket equals $\\frac{2}{3}$. Multiply that by $\\frac{9}{10}$."
+      },
+      {
+        "text": "$\\dfrac{3}{20}$",
+        "hint": "The bracket equals $\\frac{2}{3}$. Multiply that by $\\frac{9}{10}$."
+      },
+      {
+        "text": "$\\dfrac{1}{10}$",
+        "hint": "The bracket equals $\\frac{2}{3}$. Multiply that by $\\frac{9}{10}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first, using sixths.",
+    "explanation": "## Advanced explanation\n\n$$\\left(\\frac{9}{6} - \\frac{5}{6}\\right) \\times \\frac{9}{10} = \\frac{2}{3} \\times \\frac{9}{10} = \\frac{3}{5}$$\n\n## Simplified explanation\n\n$1\\frac{1}{2}$ is $\\frac{9}{6}$, and $\\frac{9}{6} - \\frac{5}{6} = \\frac{4}{6} = \\frac{2}{3}$. Then $\\frac{2}{3} \\times \\frac{9}{10} = \\frac{18}{30} = \\frac{3}{5}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kobby is 5 years older than his brother. If Kobby is 13 years old, how old is his brother?",
+    "media": [],
+    "options": [
+      {
+        "text": "7 years",
+        "hint": "$7 + 5 = 12$, but Kobby is 13."
+      },
+      {
+        "text": "10 years",
+        "hint": "$10 + 5 = 15$, but Kobby is 13."
+      },
+      {
+        "text": "8 years",
+        "hint": "Correct. $13 - 5 = 8$."
+      },
+      {
+        "text": "18 years",
+        "hint": "This adds 5. His brother is younger, so subtract."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "His brother is younger, so his age is less than 13.",
+    "explanation": "## Advanced explanation\n\nLet the brother be $b$ years old. Then $b + 5 = 13$, so $b = 8$.\n\n## Simplified explanation\n\n$13 - 5 = 8$, so his brother is 8 years old.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Tony shared $\\dfrac{2}{3}$ of his plot of land equally among his three sons. What fraction of the plot did each get?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{9}$",
+        "hint": "Correct. $\\frac{2}{3} \\div 3 = \\frac{2}{9}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This shares the whole plot. He shared only $\\frac{2}{3}$ of it."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Three sons sharing $\\frac{2}{3}$ cannot each get a half."
+      },
+      {
+        "text": "$\\dfrac{5}{9}$",
+        "hint": "This is more than the $\\frac{2}{3}$ shared divided by 3."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide the shared fraction by 3.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{2}{3} \\div 3 = \\frac{2}{3} \\times \\frac{1}{3} = \\frac{2}{9}$$\n\n## Simplified explanation\n\nEach son gets one-third of $\\frac{2}{3}$. Multiply the bottom numbers: $\\frac{2}{3 \\times 3} = \\frac{2}{9}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AB$ is parallel to $CD$. Angle $AGE$ is $80^\\circ$, angle $CFG = 5k$ and angle $CFE = r$.\n\nWhat is the value of $r$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq25-q26.png",
+        "caption": "Parallel lines AB and CD cut by the line GE, which meets CD at F. Angle AGE is 80°, angle CFG is 5k and angle CFE is r. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$160^\\circ$",
+        "hint": "This is $2 \\times 80^\\circ$. Angle $r$ corresponds to the $80^\\circ$ angle."
+      },
+      {
+        "text": "$20^\\circ$",
+        "hint": "This is the value of $k$, not $r$."
+      },
+      {
+        "text": "$80^\\circ$",
+        "hint": "Correct. $r$ and angle $AGE$ are corresponding angles."
+      },
+      {
+        "text": "$16^\\circ$",
+        "hint": "This is $80 \\div 5$. Angle $r$ equals the $80^\\circ$ angle."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$AB$ and $CD$ are parallel, and $GE$ crosses both.",
+    "explanation": "## Advanced explanation\n\nAngles $AGE$ and $CFE$ lie in the same position at the two parallel lines, so they are corresponding angles and $r = 80^\\circ$.\n\n## Simplified explanation\n\nBecause the lines are parallel, the angle at $F$ matches the angle at $G$. So $r = 80^\\circ$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AB$ is parallel to $CD$. Angle $AGE$ is $80^\\circ$, angle $CFG = 5k$ and angle $CFE = r$.\n\nFind the value of $k$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq25-q26.png",
+        "caption": "Parallel lines AB and CD cut by the line GE, which meets CD at F. Angle AGE is 80°, angle CFG is 5k and angle CFE is r. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$160^\\circ$",
+        "hint": "$5 \\times 160$ is far more than a straight line's $180^\\circ$."
+      },
+      {
+        "text": "$16^\\circ$",
+        "hint": "This sets $5k = 80^\\circ$, but $5k$ and $r$ lie on a straight line."
+      },
+      {
+        "text": "$80^\\circ$",
+        "hint": "This is the value of $r$. Use $5k + r = 180^\\circ$."
+      },
+      {
+        "text": "$20^\\circ$",
+        "hint": "Correct. $5k = 100^\\circ$, so $k = 20^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Angles $CFG$ and $CFE$ lie on the straight line $GE$.",
+    "explanation": "## Advanced explanation\n\nSince $AB \\parallel CD$, $r = 80^\\circ$. Angles on a straight line add up to $180^\\circ$:\n\n$$5k + 80^\\circ = 180^\\circ \\implies 5k = 100^\\circ \\implies k = 20^\\circ$$\n\n## Simplified explanation\n\n$r$ is $80^\\circ$. The two angles at $F$ make a straight line, so $5k$ is $180 - 80 = 100$. Then $100 \\div 5 = 20$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq27.png",
+        "caption": "Mapping diagram: x values 1, 2, 3, 4, 5 map to y values 4, 2, 0, −2, −4."
+      }
+    ],
+    "options": [
+      {
+        "text": "$y = 2x + 2$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 6, not 2."
+      },
+      {
+        "text": "$y = -2x + 2$",
+        "hint": "This gives $y = 0$ when $x = 1$, but the table shows 4."
+      },
+      {
+        "text": "$y = -2x + 6$",
+        "hint": "Correct. $-2(1) + 6 = 4$, $-2(2) + 6 = 2$, and so on."
+      },
+      {
+        "text": "$y = 4x$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 8, not 2."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How much does $y$ change each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\n$y$ falls by 2 for each step, so $y = -2x + c$. Using $x = 1, y = 4$: $-2 + c = 4$, so $c = 6$.\n\n## Simplified explanation\n\nThe bottom numbers go down by 2 each time, so multiply by $-2$. For $x = 1$ this gives $-2$, but $y$ is 4, so add 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise: $2pq + 6p - 6q - 18$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2(p + 3)(q - 3)$",
+        "hint": "Expanding gives $2pq - 6p + 6q - 18$."
+      },
+      {
+        "text": "$2(p + 3)(q + 3)$",
+        "hint": "Expanding gives $2pq + 6p + 6q + 18$."
+      },
+      {
+        "text": "$2(p - 3)(q + 3)$",
+        "hint": "Correct. Expanding gives $2pq + 6p - 6q - 18$."
+      },
+      {
+        "text": "$2(p - 3)(q - 3)$",
+        "hint": "Expanding gives $2pq - 6p - 6q + 18$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Take out the common factor 2, then group the terms in pairs.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 2pq + 6p - 6q - 18 &= 2(pq + 3p - 3q - 9) \\\\ &= 2\\left[p(q + 3) - 3(q + 3)\\right] \\\\ &= 2(p - 3)(q + 3) \\end{aligned}$$\n\n## Simplified explanation\n\nTake out 2. Then take $p$ from the first two terms and $-3$ from the last two. Both groups contain $(q + 3)$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram is a square of side 2 cm in which is inscribed a circle with center $O$.\n\nFind the area of the circle. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq29-q30.png",
+        "caption": "A circle with centre O inside a square of side 2 cm, touching all four sides. The four corners outside the circle are shaded. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "3.14 cm$^2$",
+        "hint": "Correct. $r = 1$ cm, so the area is $\\frac{22}{7} \\times 1^2 \\approx 3.14$."
+      },
+      {
+        "text": "4.00 cm$^2$",
+        "hint": "This is the area of the square."
+      },
+      {
+        "text": "6.28 cm$^2$",
+        "hint": "This is the circumference value, $2\\pi r$. Area uses $\\pi r^2$."
+      },
+      {
+        "text": "12.56 cm$^2$",
+        "hint": "This uses $r = 2$. The radius is half of 2 cm."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The diameter of the circle equals the side of the square.",
+    "explanation": "## Advanced explanation\n\nThe diameter is 2 cm, so $r = 1$ cm:\n\n$$A = \\pi r^2 = \\frac{22}{7} \\times 1^2 \\approx 3.14 \\text{ cm}^2$$\n\n## Simplified explanation\n\nThe circle fits exactly across the square, so its radius is half of 2 cm, which is 1 cm. The area is $\\pi \\times 1 \\times 1$, about 3.14.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram is a square of side 2 cm in which is inscribed a circle with center $O$.\n\nFind the area of the shaded portion.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2023/2023secaq29-q30.png",
+        "caption": "A circle with centre O inside a square of side 2 cm, touching all four sides. The four corners outside the circle are shaded. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "3.00 cm$^2$",
+        "hint": "The shaded corners are the square minus the circle: $4 - 3.14$."
+      },
+      {
+        "text": "6.28 cm$^2$",
+        "hint": "The shaded part cannot be larger than the 4 cm$^2$ square."
+      },
+      {
+        "text": "12.56 cm$^2$",
+        "hint": "The shaded part cannot be larger than the 4 cm$^2$ square."
+      },
+      {
+        "text": "0.86 cm$^2$",
+        "hint": "Correct. $4.00 - 3.14 = 0.86$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Shaded area $=$ area of square $-$ area of circle.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Shaded} = 2^2 - \\pi(1)^2 \\approx 4 - 3.14 = 0.86 \\text{ cm}^2$$\n\n## Simplified explanation\n\nThe square has area 4. The circle has area about 3.14. The corners are what is left: $4 - 3.14 = 0.86$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A book was sold for GH₵ 48.00 at a profit of 20%. Find the cost price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 40.00",
+        "hint": "Correct. $48 \\div 1.2 = 40$."
+      },
+      {
+        "text": "GH₵ 38.40",
+        "hint": "This takes 20% off the selling price. The 20% is worked on the cost price."
+      },
+      {
+        "text": "GH₵ 57.60",
+        "hint": "This adds 20% to the selling price, but the cost must be less than GH₵ 48."
+      },
+      {
+        "text": "GH₵ 60.00",
+        "hint": "With a profit, the cost must be less than GH₵ 48."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The selling price is 120% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Cost price} = \\frac{100}{120} \\times 48 = 40$$\n\n## Simplified explanation\n\nCost is 100%, and adding 20% profit makes 120%. So 120% is GH₵ 48, 1% is GH₵ 0.40, and 100% is GH₵ 40.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert 12.03 metres to centimetres.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.1203 cm",
+        "hint": "This divides by 100. Centimetres are smaller, so the number must get bigger."
+      },
+      {
+        "text": "1203 cm",
+        "hint": "Correct. $12.03 \\times 100 = 1203$."
+      },
+      {
+        "text": "120.3 cm",
+        "hint": "This multiplies by 10. There are 100 cm in 1 m."
+      },
+      {
+        "text": "12030 cm",
+        "hint": "This multiplies by 1000. There are 100 cm in 1 m."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "1 m = 100 cm.",
+    "explanation": "## Advanced explanation\n\n$$12.03 \\text{ m} = 12.03 \\times 100 \\text{ cm} = 1203 \\text{ cm}$$\n\n## Simplified explanation\n\nEach metre is 100 cm, so multiply by 100. The decimal point moves 2 places to the right.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A quadrilateral with one pair of opposite sides parallel is called a",
+    "media": [],
+    "options": [
+      {
+        "text": "rectangle",
+        "hint": "A rectangle has two pairs of parallel sides."
+      },
+      {
+        "text": "kite",
+        "hint": "A kite has two pairs of equal adjacent sides, not parallel sides."
+      },
+      {
+        "text": "trapezium",
+        "hint": "Correct. A trapezium has exactly one pair of parallel sides."
+      },
+      {
+        "text": "square",
+        "hint": "A square has two pairs of parallel sides."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Rectangles and squares have two pairs of parallel sides.",
+    "explanation": "## Advanced explanation\n\nA trapezium is a quadrilateral with exactly one pair of opposite sides parallel.\n\n## Simplified explanation\n\nA trapezium has only one pair of parallel sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{5^7 \\times 5^{-4}}{5^3}$",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "This would be $5^1$, but the powers come to $7 - 4 - 3 = 0$."
+      },
+      {
+        "text": "1",
+        "hint": "Correct. $5^{7 - 4 - 3} = 5^0 = 1$."
+      },
+      {
+        "text": "0",
+        "hint": "The power is 0, but $5^0$ equals 1, not 0."
+      },
+      {
+        "text": "25",
+        "hint": "This would be $5^2$, but the powers come to $7 - 4 - 3 = 0$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add powers when multiplying and subtract powers when dividing.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{5^7 \\times 5^{-4}}{5^3} = \\frac{5^3}{5^3} = 5^0 = 1$$\n\n## Simplified explanation\n\n$5^7 \\times 5^{-4}$ is $5^3$. Dividing $5^3$ by $5^3$ gives 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $q = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $r = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$, find $q - r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ 5 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-2 - 3 = -5$. Bottom: $3 + 2 = 5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ 5 \\end{pmatrix}$",
+        "hint": "Check the top entry: $-2 - 3 = -5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$",
+        "hint": "This is $q + r$. The question asks for $q - r$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$",
+        "hint": "Subtract matching entries: $-2 - 3$ and $3 - (-2)$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract the matching entries, and take care with the negative numbers.",
+    "explanation": "## Advanced explanation\n\n$$q - r = \\begin{pmatrix} -2 - 3 \\\\ 3 - (-2) \\end{pmatrix} = \\begin{pmatrix} -5 \\\\ 5 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $-2 - 3 = -5$. Bottom numbers: $3 - (-2) = 3 + 2 = 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The height of a cylinder is 5 cm and the radius is 7 cm. Find the volume of the cylinder. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "options": [
+      {
+        "text": "770 cm$^3$",
+        "hint": "Correct. $\\frac{22}{7} \\times 49 \\times 5 = 770$."
+      },
+      {
+        "text": "700 cm$^3$",
+        "hint": "Use $\\pi = \\frac{22}{7}$ exactly: $22 \\times 7 \\times 5 = 770$."
+      },
+      {
+        "text": "154 cm$^3$",
+        "hint": "This is the area of the base. Multiply by the height too."
+      },
+      {
+        "text": "110 cm$^3$",
+        "hint": "This uses $r$ once. The formula has $r^2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Volume of a cylinder $= \\pi r^2 h$.",
+    "explanation": "## Advanced explanation\n\n$$V = \\pi r^2 h = \\frac{22}{7} \\times 7^2 \\times 5 = 770 \\text{ cm}^3$$\n\n## Simplified explanation\n\nThe circular base has area $\\frac{22}{7} \\times 7 \\times 7 = 154$. Multiply by the height: $154 \\times 5 = 770$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not an integer?",
+    "media": [],
+    "options": [
+      {
+        "text": "$1$",
+        "hint": "1 is a positive whole number, so it is an integer."
+      },
+      {
+        "text": "$0$",
+        "hint": "0 is an integer."
+      },
+      {
+        "text": "$0.5$",
+        "hint": "Correct. 0.5 is not a whole number."
+      },
+      {
+        "text": "$-5$",
+        "hint": "Negative whole numbers are integers."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Integers are whole numbers and their negatives, including 0.",
+    "explanation": "## Advanced explanation\n\nThe integers are $\\{\\dots, -2, -1, 0, 1, 2, \\dots\\}$. Since 0.5 lies between 0 and 1, it is not an integer.\n\n## Simplified explanation\n\nIntegers have no fraction or decimal part. 0.5 has a decimal part, so it is not an integer.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man can take 12 hours to do a piece of work. How long will it take 6 men working at the same rate to do the work?",
+    "media": [],
+    "options": [
+      {
+        "text": "2 hours",
+        "hint": "Correct. $12 \\div 6 = 2$."
+      },
+      {
+        "text": "72 hours",
+        "hint": "This multiplies. More men finish faster, so the time must go down."
+      },
+      {
+        "text": "6 hours",
+        "hint": "6 is the number of men. That time would suit 2 men."
+      },
+      {
+        "text": "3 hours",
+        "hint": "That time would suit 4 men."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "More men means less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nTotal work $= 1 \\times 12 = 12$ man-hours, so 6 men take $\\frac{12}{6} = 2$ hours.\n\n## Simplified explanation\n\n6 men work 6 times as fast as 1 man. So they need one-sixth of the time: $12 \\div 6 = 2$ hours.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the actual bearing of S $25^\\circ$ E?",
+    "media": [],
+    "options": [
+      {
+        "text": "$035^\\circ$",
+        "hint": "This points north-east. S $25^\\circ$ E points south-east."
+      },
+      {
+        "text": "$115^\\circ$",
+        "hint": "This is $090^\\circ + 25^\\circ$, measured from east. S $25^\\circ$ E is measured from south."
+      },
+      {
+        "text": "$065^\\circ$",
+        "hint": "This points north-east. S $25^\\circ$ E points south-east."
+      },
+      {
+        "text": "$155^\\circ$",
+        "hint": "Correct. $180^\\circ - 25^\\circ = 155^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Bearings are measured clockwise from north. South is $180^\\circ$.",
+    "explanation": "## Advanced explanation\n\nS $25^\\circ$ E means $25^\\circ$ from south towards east, so the true bearing is\n\n$$180^\\circ - 25^\\circ = 155^\\circ$$\n\n## Simplified explanation\n\nFacing south is a bearing of 180°. Turning 25° towards east takes you back towards north, so subtract: $180 - 25 = 155$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the vector which translates point $(2, 6)$ to $(5, 4)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ 10 \\end{pmatrix}$",
+        "hint": "This adds the coordinates. Use image minus object."
+      },
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$",
+        "hint": "This goes from $(5, 4)$ back to $(2, 6)$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$",
+        "hint": "Use image minus object: $5 - 2$ and $4 - 6$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Correct. $5 - 2 = 3$ and $4 - 6 = -2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Translation vector $=$ image $-$ object.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix} - \\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTo go from 2 to 5, add 3. To go from 6 to 4, take away 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2023 Paper",
+      "Section A",
+      "Transformations",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given the sets $A =$ {multiples of 3 less than 12}, $B =$ {integers between 4 and 8} and $C = \\{4, 5, 7\\}$, find:\n\n(i) $A \\cap B$;\n\n(ii) $(A \\cup B) \\cap C$;\n\n(iii) $(A \\cap B) \\cup C$.",
+    "media": [],
+    "answer": "$A = \\{3, 6, 9\\}$ and $B = \\{5, 6, 7\\}$\n\n**(i)** The only member in both is 6.\n\n**(ii)** $A \\cup B = \\{3, 5, 6, 7, 9\\}$. The members also in $C$ are 5 and 7.\n\n**(iii)** $A \\cap B = \\{6\\}$. Joining it with $C$ gives $\\{4, 5, 6, 7\\}$.\n\n> [!answer]\n> **(i)** {{green:$\\{6\\}$}}  **(ii)** {{green:$\\{5, 7\\}$}}  **(iii)** {{green:$\\{4, 5, 6, 7\\}$}}",
+    "hint": "List $A$ and $B$ first. Work out the bracket before the other operation.",
+    "explanation": "## Advanced explanation\n\n$\\cap$ keeps members common to both sets, and $\\cup$ joins all members of both sets. \"Between 4 and 8\" does not include 4 or 8.\n\n## Simplified explanation\n\n$A$ is 3, 6, 9 and $B$ is 5, 6, 7. Only 6 is in both. Put $A$ and $B$ together, then keep what is also in $C$: 5 and 7. Finally, add 6 to $C$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $1\\dfrac{3}{4} - 2\\dfrac{5}{6} - 1\\dfrac{9}{10} + 4\\dfrac{7}{8}$",
+    "media": [],
+    "answer": "Write each as an improper fraction, with common denominator 120:\n\n$$\n\\begin{aligned}\n&\\frac{7}{4} - \\frac{17}{6} - \\frac{19}{10} + \\frac{39}{8} \\\\\n&= \\frac{210 - 340 - 228 + 585}{120} \\\\\n&= \\frac{227}{120} = 1\\frac{107}{120}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$1\\dfrac{107}{120}$}}",
+    "hint": "Change the mixed numbers to improper fractions. The LCM of 4, 6, 10 and 8 is 120.",
+    "explanation": "## Advanced explanation\n\nOver 120, the numerators are $30(7)$, $20(17)$, $12(19)$ and $15(39)$. The whole-number parts give $1 - 2 - 1 + 4 = 2$, and the fractions give $-\\frac{13}{120}$, which confirms $2 - \\frac{13}{120} = 1\\frac{107}{120}$.\n\n## Simplified explanation\n\nTurn each mixed number into a top-heavy fraction. Write them all over 120, then add and subtract the top numbers to get 227. Then $227 \\div 120 = 1$ remainder 107.",
+    "difficulty": "hard",
+    "marks": 3,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $15(4 - 6) \\times 49 \\div 7$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n15(4 - 6) \\times 49 \\div 7 &= 15(-2) \\times 49 \\div 7 \\\\\n&= -30 \\times 7 \\\\\n&= -210\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$-210$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nBy BODMAS the bracket comes first, and $\\times$ and $\\div$ are then equal in priority. Doing $49 \\div 7$ first is valid and keeps the numbers small.\n\n## Simplified explanation\n\n$4 - 6 = -2$, and $15 \\times (-2) = -30$. Also $49 \\div 7 = 7$. Then $-30 \\times 7 = -210$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Expand and simplify: $b(12a - 3) - (a - b)(3 + b)$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n&b(12a - 3) - (a - b)(3 + b) \\\\\n&= 12ab - 3b - (3a + ab - 3b - b^2) \\\\\n&= 12ab - 3b - 3a - ab + 3b + b^2 \\\\\n&= b^2 + 11ab - 3a\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$b^2 + 11ab - 3a$}}",
+    "hint": "Expand $(a - b)(3 + b)$ inside a bracket first, then subtract the whole bracket.",
+    "explanation": "## Advanced explanation\n\nThe minus sign before the product changes the sign of every term inside it. The terms $-3b$ and $+3b$ then cancel.\n\n## Simplified explanation\n\nMultiply out both parts. Keep the second part in a bracket, because the minus in front changes all its signs. Then collect the $ab$ terms and cancel the $3b$ terms.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Akosua walked for 3 hours at a rate of $1\\dfrac{1}{2}$ km per hour from her village to Paamu to take a bus to Quamu. The bus, travelling at $15\\dfrac{1}{2}$ km per hour, takes 2 hours to travel from Paamu to Quamu.\n\n(i) What is the distance from Akosua's village to Quamu?\n\n(ii) How long would it take a man, riding a bicycle at 5 km per hour, to travel from Akosua's village to Quamu?",
+    "media": [],
+    "answer": "**(i)** Distance $=$ speed $\\times$ time.\n\nVillage to Paamu: $1\\dfrac{1}{2} \\times 3 = 4\\dfrac{1}{2}$ km\n\nPaamu to Quamu: $15\\dfrac{1}{2} \\times 2 = 31$ km\n\nTotal: $4\\dfrac{1}{2} + 31 = 35\\dfrac{1}{2}$ km\n\n**(ii)** Time $= \\dfrac{\\text{distance}}{\\text{speed}} = \\dfrac{35.5}{5} = 7.1$ hours\n\n$0.1 \\times 60 = 6$ minutes\n\n> [!answer]\n> **(i)** {{green:35.5 km}}  **(ii)** {{green:7 hours 6 minutes}}",
+    "hint": "Find the two stages of the journey separately, then add them.",
+    "explanation": "## Advanced explanation\n\nTotal distance $= v_1 t_1 + v_2 t_2 = 35.5$ km. At 5 km/h the time is 7.1 hours, and the decimal part must be converted to minutes, since 0.1 hours is not 10 minutes.\n\n## Simplified explanation\n\nShe walks $1.5 \\times 3 = 4.5$ km, and the bus goes $15.5 \\times 2 = 31$ km, which is 35.5 km in all. The cyclist takes $35.5 \\div 5 = 7.1$ hours. One-tenth of an hour is 6 minutes.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Speed"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Express $8 \\times 32 \\times 4 \\times 2$ in the form $2^m$.\n\n(ii) Using your answer in (i), state the value of $m$.",
+    "media": [],
+    "answer": "**(i)** Write each number as a power of 2:\n\n$$2^3 \\times 2^5 \\times 2^2 \\times 2^1 = 2^{3 + 5 + 2 + 1} = 2^{11}$$\n\n**(ii)** Comparing with $2^m$ gives $m = 11$.\n\n> [!answer]\n> **(i)** {{green:$2^{11}$}}  **(ii)** {{green:$m = 11$}}",
+    "hint": "Write 8, 32, 4 and 2 as powers of 2, then add the powers.",
+    "explanation": "## Advanced explanation\n\nWhen multiplying powers with the same base, add the indices: $a^p \\times a^q = a^{p + q}$. As a check, $8 \\times 32 \\times 4 \\times 2 = 2048 = 2^{11}$.\n\n## Simplified explanation\n\n$8 = 2^3$, $32 = 2^5$, $4 = 2^2$ and $2 = 2^1$. Add the small numbers: $3 + 5 + 2 + 1 = 11$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Indices"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Factorize the expression $\\pi n^2 k - \\dfrac{1}{4}\\pi n^2 Q$.\n\n(ii) Use your answer in (i) to find the value of the expression when $\\pi = \\dfrac{22}{7}$, $n = 2$, $k = 19$ and $Q = 20$.",
+    "media": [],
+    "answer": "**(i)** $\\pi n^2$ is common to both terms:\n\n$$\\pi n^2 k - \\frac{1}{4}\\pi n^2 Q = \\pi n^2\\left(k - \\frac{Q}{4}\\right)$$\n\n**(ii)**\n\n$$\\frac{22}{7} \\times 2^2 \\times \\left(19 - \\frac{20}{4}\\right) = \\frac{22}{7} \\times 4 \\times 14 = 176$$\n\n> [!answer]\n> **(i)** {{green:$\\pi n^2\\left(k - \\dfrac{Q}{4}\\right)$}}  **(ii)** {{green:$176$}}",
+    "hint": "Both terms contain $\\pi n^2$. Take it out as the common factor.",
+    "explanation": "## Advanced explanation\n\nAn equivalent form of (i) is $\\frac{1}{4}\\pi n^2(4k - Q)$. It gives the same value: $\\frac{1}{4} \\times \\frac{22}{7} \\times 4 \\times (76 - 20) = 176$.\n\n## Simplified explanation\n\nTake out $\\pi n^2$, which leaves $k$ and $\\frac{Q}{4}$ in the bracket. For the value, the bracket is $19 - 5 = 14$. Then $\\frac{22}{7} \\times 4 \\times 14 = 176$.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Gifty and Justina shared an amount of GH₵ 418.00. If Gifty had 20% more than Justina, how much did Justina receive?",
+    "media": [],
+    "answer": "Let Justina's share be $J$. Gifty had 20% more, so her share is $1.2J$.\n\n$$\n\\begin{aligned}\nJ + 1.2J &= 418 \\\\\n2.2J &= 418 \\\\\nJ &= 190\n\\end{aligned}\n$$\n\n**Check:** Gifty has $418 - 190 = 228$, and 20% of 190 is 38, so $190 + 38 = 228$ ✓\n\n> [!answer]\n> {{green:GH₵ 190.00}}",
+    "hint": "The 20% is worked on Justina's share, not on the whole amount.",
+    "explanation": "## Advanced explanation\n\n\"20% more than Justina\" compares Gifty's share with Justina's, so $G = 1.2J$ and the shares are in the ratio $6 : 5$. Justina's share is $\\frac{5}{11} \\times 418 = 190$. A common error is to subtract 20 percentage points of the whole amount, which gives GH₵ 167.20, but then Gifty would have 50% more than Justina.\n\n## Simplified explanation\n\nIf Justina has 100%, Gifty has 120%. Together they have 220%, and that is GH₵ 418. So 1% is GH₵ 1.90, and Justina's 100% is GH₵ 190.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Percentages",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $4m - 2(3 + 2m) + m(2m + 4) = 0$, find the values of $m$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n4m - 6 - 4m + 2m^2 + 4m &= 0 \\\\\n2m^2 + 4m - 6 &= 0 \\\\\nm^2 + 2m - 3 &= 0 \\\\\n(m + 3)(m - 1) &= 0\n\\end{aligned}\n$$\n\nSo $m + 3 = 0$ or $m - 1 = 0$.\n\n> [!answer]\n> {{green:$m = 1$ or $m = -3$}}",
+    "hint": "Expand the brackets and collect the terms. You should get a quadratic.",
+    "explanation": "## Advanced explanation\n\nCheck both roots in the original equation. For $m = 1$: $4 - 10 + 6 = 0$. For $m = -3$: $-12 + 6 + 6 = 0$.\n\n## Simplified explanation\n\nMultiply out and tidy up to get $2m^2 + 4m - 6 = 0$. Divide by 2 to get $m^2 + 2m - 3 = 0$. This factorises to $(m + 3)(m - 1) = 0$.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At a political rally, there were 240 women, 200 men, 160 boys and 120 girls.\n\n(i) Draw a pie chart to illustrate the information. In your answer, give the angle of each sector.\n\n(ii) What percentage of the people at the rally were females?",
+    "media": [],
+    "answer": "Total people: $240 + 200 + 160 + 120 = 720$\n\n**(i)** Angle $= \\dfrac{\\text{number}}{720} \\times 360^\\circ$, which is half of each number:\n\n| Group | Number | Angle |\n|---|---|---|\n| Women | 240 | $120^\\circ$ |\n| Men | 200 | $100^\\circ$ |\n| Boys | 160 | $80^\\circ$ |\n| Girls | 120 | $60^\\circ$ |\n\nDraw a circle, mark these four sectors with a protractor, and label each one.\n\n**(ii)** Females are the women and girls: $240 + 120 = 360$\n\n$$\\frac{360}{720} \\times 100\\% = 50\\%$$\n\n> [!answer]\n> **(i)** Women {{green:$120^\\circ$}}, Men {{green:$100^\\circ$}}, Boys {{green:$80^\\circ$}}, Girls {{green:$60^\\circ$}}\n>\n> **(ii)** {{green:50%}}",
+    "hint": "Find the total first. Both women and girls are female.",
+    "explanation": "## Advanced explanation\n\nSince $\\frac{360}{720} = \\frac{1}{2}$, each angle is half of its count, and the angles add up to $360^\\circ$ as a check. Part (ii) also follows from the chart: $\\frac{120^\\circ + 60^\\circ}{360^\\circ} = 50\\%$.\n\n## Simplified explanation\n\nThere are 720 people. A full circle is 360°, so each person takes half a degree. Halve each number to get the angles. Women and girls make 360 people, which is half of everyone.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Madam Esi used $\\dfrac{1}{4}$ and $\\dfrac{2}{3}$ of her $x$ acres of land to cultivate mangoes and oranges respectively.\n\nExpress, in terms of $x$, the number of acres of the land she used to cultivate:\n\n(i) mangoes;\n\n(ii) oranges.",
+    "media": [],
+    "answer": "\"Of\" means multiply.\n\n**(i)** $\\dfrac{1}{4} \\times x = \\dfrac{x}{4}$\n\n**(ii)** $\\dfrac{2}{3} \\times x = \\dfrac{2x}{3}$\n\n> [!answer]\n> **(i)** {{green:$\\dfrac{x}{4}$ acres}}  **(ii)** {{green:$\\dfrac{2x}{3}$ acres}}",
+    "hint": "A fraction of $x$ means that fraction multiplied by $x$.",
+    "explanation": "## Advanced explanation\n\nEach share is the stated fraction applied to the total $x$, so the expressions are $\\frac{1}{4}x$ and $\\frac{2}{3}x$.\n\n## Simplified explanation\n\nMangoes take one-quarter of the land, written $\\frac{x}{4}$. Oranges take two-thirds of the land, written $\\frac{2x}{3}$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Madam Esi used $\\dfrac{1}{4}$ and $\\dfrac{2}{3}$ of her $x$ acres of land to cultivate mangoes and oranges respectively.\n\nIf Madam Esi used 20 more acres of land to cultivate oranges than mangoes, find the value of $x$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n\\frac{2x}{3} - \\frac{x}{4} &= 20 \\\\\n\\frac{8x - 3x}{12} &= 20 \\\\\n5x &= 240 \\\\\nx &= 48\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = 48$}}",
+    "hint": "Oranges minus mangoes equals 20 acres.",
+    "explanation": "## Advanced explanation\n\nThe difference of the fractions is $\\frac{2}{3} - \\frac{1}{4} = \\frac{5}{12}$, so $\\frac{5}{12}x = 20$ and $x = 48$. Check: oranges 32 acres, mangoes 12 acres, difference 20.\n\n## Simplified explanation\n\nOranges use $\\frac{8}{12}$ of the land and mangoes use $\\frac{3}{12}$. The difference, $\\frac{5}{12}$, is 20 acres. So $\\frac{1}{12}$ is 4 acres, and the whole is 48 acres.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Madam Esi used $\\dfrac{1}{4}$ and $\\dfrac{2}{3}$ of her $x$ acres of land to cultivate mangoes and oranges respectively.\n\nShe used 20 more acres of land to cultivate oranges than mangoes, which makes $x = 48$. How many acres of land was used to cultivate mangoes?",
+    "media": [],
+    "answer": "$$\\frac{x}{4} = \\frac{48}{4} = 12$$\n\n> [!answer]\n> {{green:12 acres}}",
+    "hint": "Use one-quarter of the total land.",
+    "explanation": "## Advanced explanation\n\nMangoes use $\\frac{1}{4}x$ with $x = 48$, giving 12 acres. Oranges use 32 acres, and $32 - 12 = 20$ agrees with the given difference.\n\n## Simplified explanation\n\nOne-quarter of 48 acres is $48 \\div 4 = 12$ acres.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Madam Esi used $\\dfrac{1}{4}$ and $\\dfrac{2}{3}$ of her $x$ acres of land to cultivate mangoes and oranges respectively.\n\nCalculate, correct to the nearest whole number, the percentage of the land that was not used.",
+    "media": [],
+    "answer": "Fraction used: $\\dfrac{1}{4} + \\dfrac{2}{3} = \\dfrac{11}{12}$\n\nFraction not used: $1 - \\dfrac{11}{12} = \\dfrac{1}{12}$\n\n$$\\frac{1}{12} \\times 100\\% = 8.33\\ldots\\% \\approx 8\\%$$\n\n> [!answer]\n> {{green:8%}}",
+    "hint": "Add the fractions used, then subtract from 1.",
+    "explanation": "## Advanced explanation\n\nThe answer does not depend on $x$, because it is a fraction of the whole. With $x = 48$, the unused land is $48 - 12 - 32 = 4$ acres, and $\\frac{4}{48} = \\frac{1}{12}$.\n\n## Simplified explanation\n\nShe used $\\frac{3}{12} + \\frac{8}{12} = \\frac{11}{12}$ of the land, which leaves $\\frac{1}{12}$. As a percentage this is about 8.33, which rounds to 8%.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Percentages",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 2 units on both axes, draw on a graph sheet two perpendicular axes, $Ox$ and $Oy$, for the interval $-10 \\le x \\le 10$ and $-10 \\le y \\le 10$.\n\nOn the same graph sheet, draw:\n\n(i) a quadrilateral $ABCD$ with vertices $A(2, 4)$, $B(2, 8)$, $C(8, 8)$ and $D(8, 4)$;\n\n(ii) the image $A_1B_1C_1D_1$ of $ABCD$ under a translation by vector $\\begin{pmatrix} -5 \\\\ -2 \\end{pmatrix}$, where $A \\to A_1$, $B \\to B_1$, $C \\to C_1$ and $D \\to D_1$;\n\n(iii) the image $A_2B_2C_2D_2$ of $ABCD$ under a reflection in the $y$-axis, where $A \\to A_2$, $B \\to B_2$, $C \\to C_2$ and $D \\to D_2$.\n\nIn your answer, list the vertices of both images.",
+    "media": [],
+    "answer": "Draw and label the axes from $-10$ to 10 on both, with 1 cm for each unit. Then plot and join these points:\n\n| Vertex | $ABCD$ | Translated by $\\begin{pmatrix} -5 \\\\ -2 \\end{pmatrix}$ | Reflected in the $y$-axis |\n|---|---|---|---|\n| $A$ | $(2, 4)$ | $A_1(-3, 2)$ | $A_2(-2, 4)$ |\n| $B$ | $(2, 8)$ | $B_1(-3, 6)$ | $B_2(-2, 8)$ |\n| $C$ | $(8, 8)$ | $C_1(3, 6)$ | $C_2(-8, 8)$ |\n| $D$ | $(8, 4)$ | $D_1(3, 2)$ | $D_2(-8, 4)$ |\n\n> [!answer]\n> {{green:$A_1(-3, 2)$, $B_1(-3, 6)$, $C_1(3, 6)$, $D_1(3, 2)$}}\n>\n> {{green:$A_2(-2, 4)$, $B_2(-2, 8)$, $C_2(-8, 8)$, $D_2(-8, 4)$}}",
+    "hint": "A translation adds the vector to each point. A reflection in the $y$-axis changes the sign of $x$ only.",
+    "explanation": "## Advanced explanation\n\nThe translation maps $(x, y) \\to (x - 5, y - 2)$, and the reflection maps $(x, y) \\to (-x, y)$. Both are isometries, so each image is a rectangle with the same side lengths as $ABCD$.\n\n## Simplified explanation\n\nFor the first image, take 5 from each $x$ and 2 from each $y$. For the second, keep $y$ the same and change the sign of $x$. Plot each set of points and join them up.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A quadrilateral $ABCD$ has vertices $A(2, 4)$, $B(2, 8)$, $C(8, 8)$ and $D(8, 4)$. Its image under a translation by vector $\\begin{pmatrix} -5 \\\\ -2 \\end{pmatrix}$ is $A_1B_1C_1D_1$, and its image under a reflection in the $y$-axis is $A_2B_2C_2D_2$.\n\n(i) What type of quadrilateral is $ABCD$?\n\n(ii) Find the gradient of $\\overline{A_2B_1}$.",
+    "media": [],
+    "answer": "**(i)** $AB$ and $CD$ are vertical and 4 units long. $BC$ and $AD$ are horizontal and 6 units long. All the angles are right angles, and the adjacent sides are not equal.\n\n**(ii)** $A_2 = (-2, 4)$ and $B_1 = (2 - 5, 8 - 2) = (-3, 6)$:\n\n$$\\text{Gradient} = \\frac{6 - 4}{-3 - (-2)} = \\frac{2}{-1} = -2$$\n\n> [!answer]\n> **(i)** {{green:Rectangle}}  **(ii)** {{green:$-2$}}",
+    "hint": "Find the side lengths for (i). For (ii), work out where $A_2$ and $B_1$ are.",
+    "explanation": "## Advanced explanation\n\nAdjacent sides of $ABCD$ are parallel to the axes, so they are perpendicular, and opposite sides are equal. Since $AB \\ne BC$, it is a rectangle and not a square. The gradient uses change in $y$ over change in $x$.\n\n## Simplified explanation\n\nThe shape is 6 units wide and 4 units tall with square corners, so it is a rectangle. $A_2$ is $(-2, 4)$ and $B_1$ is $(-3, 6)$. Going between them, $y$ changes by 2 and $x$ changes by $-1$, so the gradient is $-2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2023 Paper",
+      "Section B",
+      "Coordinate Geometry",
+      "Transformations"
+    ]
+  }
+]

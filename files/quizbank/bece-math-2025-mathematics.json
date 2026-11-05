@@ -1,0 +1,1549 @@
+[
+  {
+    "type": "choice",
+    "body": "A farmer feeds 20 goats with 500 kg of cassava. How many goats can be fed with 200 kg of cassava?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "2 goats would eat only $2 \\times 25 = 50$ kg."
+      },
+      {
+        "text": "5",
+        "hint": "5 goats would eat only $5 \\times 25 = 125$ kg."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. $200 \\div 25 = 8$."
+      },
+      {
+        "text": "10",
+        "hint": "10 goats would eat $10 \\times 25 = 250$ kg, which is more than 200 kg."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find how much cassava one goat eats.",
+    "explanation": "## Advanced explanation\n\nGoats and cassava are in direct proportion:\n\n$$\\frac{20}{500} \\times 200 = 8$$\n\n## Simplified explanation\n\n$500 \\div 20 = 25$, so each goat eats 25 kg. Then $200 \\div 25 = 8$ goats.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Describe the set $M = \\{2, 3, 5, 7, 11, 13, 17, 19\\}$ in words.",
+    "media": [],
+    "options": [
+      {
+        "text": "$M =$ {odd numbers less than 20}",
+        "hint": "2 is even, and odd numbers such as 9 and 15 are missing from $M$."
+      },
+      {
+        "text": "$M =$ {factors of 19}",
+        "hint": "19 is prime, so its only factors are 1 and 19."
+      },
+      {
+        "text": "$M =$ {prime numbers less than 20}",
+        "hint": "Correct. These are all the primes below 20."
+      },
+      {
+        "text": "$M =$ {whole numbers less than 20}",
+        "hint": "Whole numbers such as 4, 6 and 8 are missing from $M$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "What do 2, 3, 5 and 7 have in common?",
+    "explanation": "## Advanced explanation\n\nEach member has exactly two factors, 1 and itself, and every such number below 20 is listed. So $M$ is the set of prime numbers less than 20.\n\n## Simplified explanation\n\nNone of these numbers can be divided evenly by anything except 1 and itself. Those are prime numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Sets",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the gradient of the line which passes through the points $(2, 3)$ and $(-4, 5)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "This is change in $x$ divided by change in $y$. Gradient is the other way round."
+      },
+      {
+        "text": "$-\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{5 - 3}{-4 - 2} = \\frac{2}{-6} = -\\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Check the sign: the change in $x$ is $-4 - 2 = -6$."
+      },
+      {
+        "text": "$3$",
+        "hint": "This has the fraction upside down and the wrong sign."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{5 - 3}{-4 - 2} = \\frac{2}{-6} = -\\frac{1}{3}$$\n\n## Simplified explanation\n\nThe $y$ values change by $5 - 3 = 2$. The $x$ values change by $-4 - 2 = -6$. Then $2 \\div (-6) = -\\frac{1}{3}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader sold half of a piece of cloth and used two-fifths of the remaining to sew a dress. What fraction of the cloth was left?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{10}$",
+        "hint": "The dress used $\\frac{1}{5}$ of the cloth, so more than $\\frac{1}{10}$ is left."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "Correct. $\\frac{1}{2} - \\frac{1}{5} = \\frac{3}{10}$."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "This is the fraction used for the dress, not the fraction left."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is what remained after selling, before the dress was sewn."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Two-fifths is of the remaining half, not of the whole cloth.",
+    "explanation": "## Advanced explanation\n\nAfter selling, $\\frac{1}{2}$ remains. The dress uses $\\frac{2}{5} \\times \\frac{1}{2} = \\frac{1}{5}$, so\n\n$$\\frac{1}{2} - \\frac{1}{5} = \\frac{3}{10}$$\n\n## Simplified explanation\n\nHalf the cloth is left after selling. She keeps $\\frac{3}{5}$ of that half: $\\frac{3}{5} \\times \\frac{1}{2} = \\frac{3}{10}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is represented on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2025/2025secaq5.png",
+        "caption": "Number line from −3 to 3 with a solid dot at 3 and an arrow running to the left."
+      }
+    ],
+    "options": [
+      {
+        "text": "$x < 2$",
+        "hint": "The line starts at 3, not 2, and a solid dot includes the end value."
+      },
+      {
+        "text": "$x \\le 3$",
+        "hint": "Correct. A solid dot at 3 and an arrow to the left."
+      },
+      {
+        "text": "$x > 3$",
+        "hint": "The arrow points left, towards smaller numbers."
+      },
+      {
+        "text": "$x \\ge 2$",
+        "hint": "The arrow points left, and the dot is at 3."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at where the dot is, whether it is solid, and which way the arrow points.",
+    "explanation": "## Advanced explanation\n\nA solid dot means the end value is included, so the sign is $\\le$ or $\\ge$. The arrow runs towards smaller numbers from 3, which gives $x \\le 3$.\n\n## Simplified explanation\n\nThe dot is at 3 and it is filled in, so 3 is included. The arrow goes left to smaller numbers. So $x$ is 3 or less.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama has 4 one cedi notes and orders ice cream for GH₵ 1.75 and two toffees at 50 GP each. How much does she have left?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1.25",
+        "hint": "Correct. $4.00 - 2.75 = 1.25$."
+      },
+      {
+        "text": "GH₵ 1.75",
+        "hint": "This is the price of the ice cream, not what is left."
+      },
+      {
+        "text": "GH₵ 2.25",
+        "hint": "This pays for the ice cream only. Take off the toffees as well."
+      },
+      {
+        "text": "GH₵ 2.75",
+        "hint": "This is the amount she spent, not what she has left."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "100 GP make GH₵ 1.00, so two toffees cost GH₵ 1.00.",
+    "explanation": "## Advanced explanation\n\nTotal spent: $1.75 + 2(0.50) = 2.75$. Amount left: $4.00 - 2.75 = 1.25$, which is GH₵ 1.25.\n\n## Simplified explanation\n\nTwo toffees cost GH₵ 1.00. With the ice cream she spends GH₵ 2.75. From GH₵ 4.00, she has GH₵ 1.25 left.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The points $M(1, 3)$ and $N(4, 5)$ are in the number plane. Find the vector $\\overrightarrow{MN}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$",
+        "hint": "Correct. $\\begin{pmatrix} 4 - 1 \\\\ 5 - 3 \\end{pmatrix}$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$",
+        "hint": "This is $\\overrightarrow{NM}$, going from $N$ back to $M$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ 8 \\end{pmatrix}$",
+        "hint": "This adds the coordinates. A vector between points uses subtraction."
+      },
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ -8 \\end{pmatrix}$",
+        "hint": "A vector between points uses subtraction: end minus start."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Vector from start to end $=$ end point minus start point.",
+    "explanation": "## Advanced explanation\n\n$$\\overrightarrow{MN} = \\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTo go from $M$ to $N$, $x$ goes from 1 to 4, a move of 3. Then $y$ goes from 3 to 5, a move of 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve $2^x = 8 \\times 2^0$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x = 3$",
+        "hint": "Correct. $2^3 = 8$."
+      },
+      {
+        "text": "$x = 2$",
+        "hint": "$2^2 = 4$, not 8."
+      },
+      {
+        "text": "$x = -2$",
+        "hint": "$2^{-2} = \\frac{1}{4}$, not 8."
+      },
+      {
+        "text": "$x = -3$",
+        "hint": "$2^{-3} = \\frac{1}{8}$, not 8."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Any non-zero number to the power 0 equals 1.",
+    "explanation": "## Advanced explanation\n\n$2^0 = 1$, so $2^x = 8 = 2^3$. Comparing powers gives $x = 3$.\n\n## Simplified explanation\n\n$2^0$ is 1, so the right side is just 8. Since $2 \\times 2 \\times 2 = 8$, $x = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $P = \\{4, 8, 12, 16, 20\\}$ and $Q = \\{2, 4, 6, 8, 10\\}$, find the product of the members of $(P \\cap Q)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "This is $4 + 8$, the sum. Product means multiply."
+      },
+      {
+        "text": "18",
+        "hint": "The common members are 4 and 8. Multiply them."
+      },
+      {
+        "text": "24",
+        "hint": "The common members are 4 and 8. Multiply them."
+      },
+      {
+        "text": "32",
+        "hint": "Correct. $4 \\times 8 = 32$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$P \\cap Q$ holds only the members found in both sets.",
+    "explanation": "## Advanced explanation\n\n$P \\cap Q = \\{4, 8\\}$, and the product of its members is $4 \\times 8 = 32$.\n\n## Simplified explanation\n\nOnly 4 and 8 are in both sets. Multiply them: $4 \\times 8 = 32$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader received commission of 5% on goods sold at GH₵ 25,000.00. Find the commission.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,250.00",
+        "hint": "Correct. $\\frac{5}{100} \\times 25000 = 1250$."
+      },
+      {
+        "text": "GH₵ 1,200.00",
+        "hint": "This is 5% of GH₵ 24,000."
+      },
+      {
+        "text": "GH₵ 1,100.00",
+        "hint": "This is 5% of GH₵ 22,000."
+      },
+      {
+        "text": "GH₵ 1,000.00",
+        "hint": "This is 4% of GH₵ 25,000."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find 5% of the value of the goods.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Commission} = \\frac{5}{100} \\times 25000 = 1250$$\n\n## Simplified explanation\n\n1% of GH₵ 25,000 is GH₵ 250. Then 5% is $5 \\times 250 =$ GH₵ 1,250.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "When 0.24 is expressed in the lowest form as $\\dfrac{a}{b}$, the denominator is",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "A denominator of 2 can only give decimals such as 0.5."
+      },
+      {
+        "text": "5",
+        "hint": "A denominator of 5 gives decimals such as 0.2 and 0.4, not 0.24."
+      },
+      {
+        "text": "25",
+        "hint": "Correct. $0.24 = \\frac{24}{100} = \\frac{6}{25}$."
+      },
+      {
+        "text": "125",
+        "hint": "$\\frac{30}{125}$ equals 0.24, but it is not in its lowest form."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 0.24 over 100, then simplify as far as possible.",
+    "explanation": "## Advanced explanation\n\n$$0.24 = \\frac{24}{100} = \\frac{6}{25}$$\n\nThe HCF of 6 and 25 is 1, so this is the lowest form and $b = 25$.\n\n## Simplified explanation\n\n0.24 means 24 out of 100. Divide the top and bottom by 4 to get $\\frac{6}{25}$. The bottom number is 25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the largest value of these numbers: $-1, 0, -6, -3$.",
+    "media": [],
+    "options": [
+      {
+        "text": "0",
+        "hint": "Correct. 0 is greater than every negative number."
+      },
+      {
+        "text": "-1",
+        "hint": "$-1$ is the largest negative number here, but 0 is greater."
+      },
+      {
+        "text": "-3",
+        "hint": "$-3$ is less than $-1$ and 0."
+      },
+      {
+        "text": "-6",
+        "hint": "$-6$ is the smallest number here."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "On a number line, numbers get larger as you move right.",
+    "explanation": "## Advanced explanation\n\nIn order, $-6 < -3 < -1 < 0$, so the largest value is 0.\n\n## Simplified explanation\n\nNegative numbers are all below 0, so 0 is the largest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $4x - 2(x + 5) = -10$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x = -10$",
+        "hint": "This gives $2(-10) - 10 = -30$, not $-10$."
+      },
+      {
+        "text": "$x = 0$",
+        "hint": "Correct. $2x - 10 = -10$, so $2x = 0$."
+      },
+      {
+        "text": "$x = \\dfrac{1}{2}$",
+        "hint": "This gives $1 - 10 = -9$, not $-10$."
+      },
+      {
+        "text": "$x = 2$",
+        "hint": "This gives $4 - 10 = -6$, not $-10$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Expand the bracket first, then collect the $x$ terms.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 4x - 2x - 10 &= -10 \\\\ 2x &= 0 \\\\ x &= 0 \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply out to get $4x - 2x - 10 = -10$, which is $2x - 10 = -10$. Add 10 to both sides to get $2x = 0$, so $x = 0$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $5ay - by + 15a - 3b$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(y + 3)(5a - b)$",
+        "hint": "Correct. Expanding gives $5ay - by + 15a - 3b$."
+      },
+      {
+        "text": "$(y + 5)(3a - b)$",
+        "hint": "Expanding gives $3ay - by + 15a - 5b$."
+      },
+      {
+        "text": "$(y - 3)(5a + b)$",
+        "hint": "Expanding gives $5ay + by - 15a - 3b$."
+      },
+      {
+        "text": "$(y - 5)(3a + b)$",
+        "hint": "Expanding gives $3ay + by - 15a - 5b$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$5ay - by + 15a - 3b = y(5a - b) + 3(5a - b) = (y + 3)(5a - b)$$\n\n## Simplified explanation\n\nTake $y$ out of the first two terms and 3 out of the last two. Both groups now contain $(5a - b)$, so take that out too.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand and simplify: $2(3a + 1) - 3(4a - 3)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$11 - 5a$",
+        "hint": "The $a$ terms give $6a - 12a = -6a$."
+      },
+      {
+        "text": "$11 - 6a$",
+        "hint": "Correct. $6a + 2 - 12a + 9 = 11 - 6a$."
+      },
+      {
+        "text": "$11 + 5a$",
+        "hint": "The $a$ terms give $6a - 12a = -6a$."
+      },
+      {
+        "text": "$11 + 6a$",
+        "hint": "Check the sign: $6a - 12a$ is negative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Take care with $-3 \\times (-3)$, which is positive.",
+    "explanation": "## Advanced explanation\n\n$$2(3a + 1) - 3(4a - 3) = 6a + 2 - 12a + 9 = 11 - 6a$$\n\n## Simplified explanation\n\nMultiply out to get $6a + 2$ and $-12a + 9$. The $a$ terms give $-6a$, and the numbers give 11.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = \\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix}$ and $b = \\begin{pmatrix} -5 \\\\ -3 \\end{pmatrix}$, find $2a - b$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 5 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-4 + 5 = 1$. Bottom: $2 + 3 = 5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -9 \\\\ -1 \\end{pmatrix}$",
+        "hint": "This is $2a + b$. Subtracting $b$ changes its signs."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ 1 \\end{pmatrix}$",
+        "hint": "The entries are the right numbers but in the wrong places."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -1 \\end{pmatrix}$",
+        "hint": "The top entry is $-4 - (-5) = 1$, and the bottom is $2 - (-3) = 5$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtracting a negative number is the same as adding.",
+    "explanation": "## Advanced explanation\n\n$$2\\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix} - \\begin{pmatrix} -5 \\\\ -3 \\end{pmatrix} = \\begin{pmatrix} -4 + 5 \\\\ 2 + 3 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 5 \\end{pmatrix}$$\n\n## Simplified explanation\n\nDouble $a$ to get $-4$ on top and 2 below. Take away $b$: $-4 - (-5) = 1$ and $2 - (-3) = 5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Charles and Helen started a business with an amount of GH₵ 7,000.00. If their contributions were in the ratio 4 : 3, respectively, find Helen's contribution.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 2,500.00",
+        "hint": "Each ratio part is GH₵ 1,000, and Helen has 3 parts."
+      },
+      {
+        "text": "GH₵ 3,000.00",
+        "hint": "Correct. $\\frac{3}{7} \\times 7000 = 3000$."
+      },
+      {
+        "text": "GH₵ 4,000.00",
+        "hint": "This is Charles's contribution, $\\frac{4}{7} \\times 7000$."
+      },
+      {
+        "text": "GH₵ 5,000.00",
+        "hint": "This is too much: Helen has the smaller share, 3 parts out of 7."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the ratio parts first. Helen has the second part.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Helen} = \\frac{3}{4 + 3} \\times 7000 = 3000$$\n\n## Simplified explanation\n\nThere are 7 parts in all, so each is $7000 \\div 7 =$ GH₵ 1,000. Helen has 3 parts, which is GH₵ 3,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man spends GH₵ 560.00 out of his weekly wages of GH₵ 700.00 and saves the rest. What percentage did he save?",
+    "media": [],
+    "options": [
+      {
+        "text": "10%",
+        "hint": "10% of GH₵ 700 is GH₵ 70, but he saved GH₵ 140."
+      },
+      {
+        "text": "15%",
+        "hint": "15% of GH₵ 700 is GH₵ 105, but he saved GH₵ 140."
+      },
+      {
+        "text": "20%",
+        "hint": "Correct. $\\frac{140}{700} \\times 100 = 20$."
+      },
+      {
+        "text": "25%",
+        "hint": "This divides by what he spent, GH₵ 560. Use his whole wage, GH₵ 700."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the amount saved first, then compare it with the whole wage.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{700 - 560}{700} \\times 100\\% = \\frac{140}{700} \\times 100\\% = 20\\%$$\n\n## Simplified explanation\n\nHe saved $700 - 560 =$ GH₵ 140. Since $140 \\div 700 = 0.2$, that is 20%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the missing number in the sequence: $-5, -2, 1, \\dots, 7$?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "The terms go up by 3, and $1 + 3$ is not 2."
+      },
+      {
+        "text": "3",
+        "hint": "The terms go up by 3, and $1 + 3$ is not 3."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. $1 + 3 = 4$, and $4 + 3 = 7$."
+      },
+      {
+        "text": "5",
+        "hint": "From 5, adding 3 gives 8, not 7."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the difference between neighbouring terms.",
+    "explanation": "## Advanced explanation\n\nThe common difference is $-2 - (-5) = 3$, so the missing term is $1 + 3 = 4$. Check: $4 + 3 = 7$.\n\n## Simplified explanation\n\nEach number is 3 more than the one before it. After 1 comes 4, and then 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a rectangular card is 15 cm$^2$. If each side of the card is enlarged by a scale factor of 3, find the area of the enlarged card.",
+    "media": [],
+    "options": [
+      {
+        "text": "45 cm$^2$",
+        "hint": "This multiplies the area by 3. Both sides grow, so the area grows by $3 \\times 3$."
+      },
+      {
+        "text": "75 cm$^2$",
+        "hint": "This multiplies the area by 5. The area grows by $3 \\times 3 = 9$."
+      },
+      {
+        "text": "90 cm$^2$",
+        "hint": "This multiplies the area by 6. The area grows by $3 \\times 3 = 9$."
+      },
+      {
+        "text": "135 cm$^2$",
+        "hint": "Correct. $15 \\times 3^2 = 135$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Length and width both grow by the scale factor.",
+    "explanation": "## Advanced explanation\n\nArea scales by the square of the scale factor:\n\n$$15 \\times 3^2 = 15 \\times 9 = 135 \\text{ cm}^2$$\n\n## Simplified explanation\n\nLength becomes 3 times longer and width becomes 3 times longer, so the area is $3 \\times 3 = 9$ times bigger. Then $15 \\times 9 = 135$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular container with dimensions 5 m by 3 m by 4 m is two-third full of water. Find the volume occupied by water in the container.",
+    "media": [],
+    "options": [
+      {
+        "text": "50 m$^3$",
+        "hint": "The full volume is 60 m$^3$, and $\\frac{2}{3}$ of 60 is not 50."
+      },
+      {
+        "text": "40 m$^3$",
+        "hint": "Correct. $\\frac{2}{3} \\times 60 = 40$."
+      },
+      {
+        "text": "30 m$^3$",
+        "hint": "This is half of the container, not two-thirds."
+      },
+      {
+        "text": "20 m$^3$",
+        "hint": "This is the empty one-third of the container."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the full volume first.",
+    "explanation": "## Advanced explanation\n\n$$V = 5 \\times 3 \\times 4 = 60 \\text{ m}^3, \\qquad \\frac{2}{3} \\times 60 = 40 \\text{ m}^3$$\n\n## Simplified explanation\n\nThe full container holds $5 \\times 3 \\times 4 = 60$ cubic metres. One-third is 20, so two-thirds is 40.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $3(x - 5) > 15 - 4(8 - x)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x < -32$",
+        "hint": "Expand carefully: the right side is $15 - 32 + 4x$, which is $4x - 17$."
+      },
+      {
+        "text": "$x < -2$",
+        "hint": "Check the sign: $-15 + 17 = +2$."
+      },
+      {
+        "text": "$x < 2$",
+        "hint": "Correct. $3x - 15 > 4x - 17$ gives $2 > x$."
+      },
+      {
+        "text": "$x < 32$",
+        "hint": "Expand carefully: the right side is $15 - 32 + 4x$, which is $4x - 17$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Expand both brackets, then move the $x$ terms to the side where they stay positive.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 3x - 15 &> 15 - 32 + 4x \\\\ 3x - 15 &> 4x - 17 \\\\ 17 - 15 &> 4x - 3x \\\\ 2 &> x \\end{aligned}$$\n\nSo $x < 2$.\n\n## Simplified explanation\n\nMultiply out both sides to get $3x - 15 > 4x - 17$. Take $3x$ from both sides and add 17, which gives $2 > x$. That means $x$ is less than 2.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama is three times as old as Kofi. The sum of their ages is 40. How old is Ama?",
+    "media": [],
+    "options": [
+      {
+        "text": "10 years",
+        "hint": "This is Kofi's age. Ama is three times as old."
+      },
+      {
+        "text": "30 years",
+        "hint": "Correct. Kofi is 10, so Ama is $3 \\times 10 = 30$."
+      },
+      {
+        "text": "37 years",
+        "hint": "This is $40 - 3$. Ama and Kofi must add up to 40, with Ama three times Kofi."
+      },
+      {
+        "text": "43 years",
+        "hint": "This is $40 + 3$. Ama cannot be older than the sum of the two ages."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Let Kofi's age be $k$. Then write Ama's age using $k$.",
+    "explanation": "## Advanced explanation\n\nLet Kofi be $k$ years old, so Ama is $3k$:\n\n$$k + 3k = 40 \\implies 4k = 40 \\implies k = 10$$\n\nAma is $3k = 30$ years old.\n\n## Simplified explanation\n\nThink of the ages as 4 equal parts: Kofi has 1 part and Ama has 3. Each part is $40 \\div 4 = 10$, so Ama is $3 \\times 10 = 30$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 36 as a product of primes.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3$",
+        "hint": "This equals 6, not 36."
+      },
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "Correct. $4 \\times 9 = 36$."
+      },
+      {
+        "text": "$2^2 \\times 3^3$",
+        "hint": "This equals $4 \\times 27 = 108$."
+      },
+      {
+        "text": "$2^3 \\times 3^2$",
+        "hint": "This equals $8 \\times 9 = 72$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Keep dividing 36 by primes until you reach 1.",
+    "explanation": "## Advanced explanation\n\n$$36 = 2 \\times 18 = 2 \\times 2 \\times 9 = 2 \\times 2 \\times 3 \\times 3 = 2^2 \\times 3^2$$\n\n## Simplified explanation\n\n$36 = 4 \\times 9$. Then $4 = 2 \\times 2$ and $9 = 3 \\times 3$, so $36 = 2^2 \\times 3^2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Esi made sales of 15 twenty cedi notes, 14 ten cedi notes and 15 two cedi notes. Find the total amount she received.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 305.00",
+        "hint": "The twenty cedi notes alone are worth GH₵ 300, so the total must be far more."
+      },
+      {
+        "text": "GH₵ 440.00",
+        "hint": "This leaves out the two cedi notes, which are worth GH₵ 30."
+      },
+      {
+        "text": "GH₵ 470.00",
+        "hint": "Correct. $300 + 140 + 30 = 470$."
+      },
+      {
+        "text": "GH₵ 740.00",
+        "hint": "Check each product: the notes are worth GH₵ 300, GH₵ 140 and GH₵ 30."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the value of each type of note, then add.",
+    "explanation": "## Advanced explanation\n\n$$15(20) + 14(10) + 15(2) = 300 + 140 + 30 = 470$$\n\n## Simplified explanation\n\nTwenty cedi notes make GH₵ 300, ten cedi notes make GH₵ 140, and two cedi notes make GH₵ 30. Together that is GH₵ 470.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2y = 5 - 3x$, find $x$ when $y = 1$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-2\\dfrac{1}{3}$",
+        "hint": "This would make $2y = 12$, but $y = 1$ means $2y = 2$."
+      },
+      {
+        "text": "$-1$",
+        "hint": "This would make $2y = 8$, but $y = 1$ means $2y = 2$."
+      },
+      {
+        "text": "$0$",
+        "hint": "This would make $2y = 5$, but $y = 1$ means $2y = 2$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $5 - 3(1) = 2 = 2(1)$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Replace $y$ with 1, then solve for $x$.",
+    "explanation": "## Advanced explanation\n\n$$2(1) = 5 - 3x \\implies 3x = 3 \\implies x = 1$$\n\n## Simplified explanation\n\nWith $y = 1$, the left side is 2. So $5 - 3x = 2$, which means $3x = 3$ and $x = 1$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A survey shows that 28% of all men in a village are vegetarian. What is the probability that a man selected at random from the village is a vegetarian?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{7}{25}$",
+        "hint": "Correct. $\\frac{28}{100} = \\frac{7}{25}$."
+      },
+      {
+        "text": "$\\dfrac{41}{50}$",
+        "hint": "This is 82%. The survey says 28%."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is 50%. The survey says 28%."
+      },
+      {
+        "text": "$1$",
+        "hint": "A probability of 1 would mean every man is a vegetarian."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write the percentage as a fraction in its lowest form.",
+    "explanation": "## Advanced explanation\n\nThe probability equals the proportion of vegetarians:\n\n$$P = 28\\% = \\frac{28}{100} = \\frac{7}{25}$$\n\n## Simplified explanation\n\n28% means 28 out of 100. Divide the top and bottom by 4 to get $\\frac{7}{25}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Probability",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A box contains 10 green and 8 white balls of the same size. If a ball is selected at random from the box, what is the probability that it is green?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{10}$",
+        "hint": "All 10 green balls count, out of 18 balls in total."
+      },
+      {
+        "text": "$\\dfrac{4}{5}$",
+        "hint": "This is $\\frac{8}{10}$, comparing white with green. Divide by all the balls."
+      },
+      {
+        "text": "$\\dfrac{5}{9}$",
+        "hint": "Correct. $\\frac{10}{18} = \\frac{5}{9}$."
+      },
+      {
+        "text": "$\\dfrac{4}{9}$",
+        "hint": "This is the probability of selecting a white ball."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Total balls $= 10 + 8$.",
+    "explanation": "## Advanced explanation\n\n$$P(\\text{green}) = \\frac{10}{10 + 8} = \\frac{10}{18} = \\frac{5}{9}$$\n\n## Simplified explanation\n\nThere are 18 balls and 10 are green. That is $\\frac{10}{18}$, which simplifies to $\\frac{5}{9}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy walked around a circular pond once. If the radius of the pond is 28 m, find the distance covered. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "options": [
+      {
+        "text": "44 m",
+        "hint": "This is too small: the distance across the pond alone is 56 m."
+      },
+      {
+        "text": "88 m",
+        "hint": "This is $\\pi r$, which is half way round. Use $2\\pi r$."
+      },
+      {
+        "text": "176 m",
+        "hint": "Correct. $2 \\times \\frac{22}{7} \\times 28 = 176$."
+      },
+      {
+        "text": "252 m",
+        "hint": "Use $C = 2\\pi r$, which gives 176 m."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "One walk around the pond is its circumference.",
+    "explanation": "## Advanced explanation\n\n$$C = 2\\pi r = 2 \\times \\frac{22}{7} \\times 28 = 176 \\text{ m}$$\n\n## Simplified explanation\n\nThe distance round a circle is $2 \\times \\pi \\times$ radius. Since $28 \\div 7 = 4$, this is $2 \\times 22 \\times 4 = 176$ m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The population of a town is 56782. What is this number to three significant figures?",
+    "media": [],
+    "options": [
+      {
+        "text": "567",
+        "hint": "This cuts the number short and changes its size. Keep the place values with zeros."
+      },
+      {
+        "text": "568",
+        "hint": "The digits are right, but the number must stay near 56782. Add zeros to hold the place values."
+      },
+      {
+        "text": "56700",
+        "hint": "The next digit is 8, so round the third digit up."
+      },
+      {
+        "text": "56800",
+        "hint": "Correct. The fourth digit is 8, so 567 rounds up to 568, followed by two zeros."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look at the fourth digit to decide whether to round up.",
+    "explanation": "## Advanced explanation\n\nThe first three significant figures are 5, 6 and 7. The next digit, 8, is 5 or more, so round up. Zeros hold the place values: 56800.\n\n## Simplified explanation\n\nKeep the first three digits, 567. The next digit is 8, so 567 becomes 568. Add two zeros to keep the number the same size: 56800.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How long will the simple interest on GH₵ 550.00 at 12% per annum be GH₵ 132.00?",
+    "media": [],
+    "options": [
+      {
+        "text": "1 year",
+        "hint": "One year of interest is only GH₵ 66.00."
+      },
+      {
+        "text": "2 years",
+        "hint": "Correct. $2 \\times 66 = 132$."
+      },
+      {
+        "text": "4 years",
+        "hint": "Four years of interest is GH₵ 264.00."
+      },
+      {
+        "text": "12 years",
+        "hint": "12 is the rate. Twelve years of interest is GH₵ 792.00."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use $T = \\dfrac{100 I}{P R}$.",
+    "explanation": "## Advanced explanation\n\n$$T = \\frac{100 I}{P R} = \\frac{100 \\times 132}{550 \\times 12} = \\frac{13200}{6600} = 2 \\text{ years}$$\n\n## Simplified explanation\n\n12% of GH₵ 550 is GH₵ 66 of interest each year. Then $132 \\div 66 = 2$ years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A point $(-2, 3)$ is reflected in the $x$-axis. Find the image of the point.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-3, -2)$",
+        "hint": "Reflection in the $x$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(-3, 2)$",
+        "hint": "Reflection in the $x$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(-2, -3)$",
+        "hint": "Correct. $x$ stays the same and $y$ changes sign."
+      },
+      {
+        "text": "$(-2, 3)$",
+        "hint": "This is the original point. A reflection in the $x$-axis moves it."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The $x$-axis acts as a mirror, so only the height of the point changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $x$-axis maps $(x, y) \\to (x, -y)$, so $(-2, 3) \\to (-2, -3)$.\n\n## Simplified explanation\n\nThe point is 3 above the $x$-axis. Its mirror image is 3 below, and it stays at the same left-right position.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2025/2025secaq33.png",
+        "caption": "Mapping diagram: 1 maps to 9, 2 maps to 20, 3 maps to 31, 4 maps to 42, and t maps to an unknown value."
+      }
+    ],
+    "options": [
+      {
+        "text": "$t \\to 10t - 1$",
+        "hint": "This works for $t = 1$, but $t = 2$ gives 19, not 20."
+      },
+      {
+        "text": "$t \\to 8t + 1$",
+        "hint": "This works for $t = 1$, but $t = 2$ gives 17, not 20."
+      },
+      {
+        "text": "$t \\to 11t - 2$",
+        "hint": "Correct. $11(1) - 2 = 9$, $11(2) - 2 = 20$, and so on."
+      },
+      {
+        "text": "$t \\to 7t + 2$",
+        "hint": "This works for $t = 1$, but $t = 2$ gives 16, not 20."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How much does the output go up each time the input goes up by 1?",
+    "explanation": "## Advanced explanation\n\nThe output increases by 11 for each step, so the rule is $t \\to 11t + c$. Using $t = 1$: $11 + c = 9$, so $c = -2$. The rule is $t \\to 11t - 2$.\n\n## Simplified explanation\n\nThe bottom numbers go up by 11 each time, so multiply by 11. For 1, $11 \\times 1 = 11$, but the answer is 9, so subtract 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $0.03 \\times y = 2.4$, find the value of $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.08",
+        "hint": "$0.03 \\times 0.08 = 0.0024$, not 2.4."
+      },
+      {
+        "text": "0.8",
+        "hint": "$0.03 \\times 0.8 = 0.024$, not 2.4."
+      },
+      {
+        "text": "8.0",
+        "hint": "$0.03 \\times 8 = 0.24$, not 2.4."
+      },
+      {
+        "text": "80.0",
+        "hint": "Correct. $0.03 \\times 80 = 2.4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the top and bottom of $\\dfrac{2.4}{0.03}$ by 100.",
+    "explanation": "## Advanced explanation\n\n$$y = \\frac{2.4}{0.03} = \\frac{240}{3} = 80$$\n\n## Simplified explanation\n\nDivide 2.4 by 0.03. Multiplying both by 100 gives $240 \\div 3 = 80$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Multiply $(8s - 7)$ by $(8s + 7)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$64s^2 + 49$",
+        "hint": "Check the sign: $-7 \\times 7 = -49$."
+      },
+      {
+        "text": "$64s^2 - 49$",
+        "hint": "Correct. This is a difference of two squares."
+      },
+      {
+        "text": "$16s^2 - 42$",
+        "hint": "$8s \\times 8s = 64s^2$, and $-7 \\times 7 = -49$."
+      },
+      {
+        "text": "$16s^2 + 42$",
+        "hint": "$8s \\times 8s = 64s^2$, and $-7 \\times 7 = -49$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\nUsing $(a - b)(a + b) = a^2 - b^2$:\n\n$$(8s - 7)(8s + 7) = (8s)^2 - 7^2 = 64s^2 - 49$$\n\n## Simplified explanation\n\nMultiplying out gives $64s^2 + 56s - 56s - 49$. The middle terms cancel, which leaves $64s^2 - 49$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Anowa scored an average of 53 in Science and Mathematics. If she scored 50 and 60 in English Language and Social Studies respectively, find her mean score in all the four subjects.",
+    "media": [],
+    "options": [
+      {
+        "text": "57",
+        "hint": "This would need a total of 228, but her total is 216."
+      },
+      {
+        "text": "56",
+        "hint": "This would need a total of 224, but her total is 216."
+      },
+      {
+        "text": "55",
+        "hint": "This is the mean of English and Social Studies only."
+      },
+      {
+        "text": "54",
+        "hint": "Correct. $216 \\div 4 = 54$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "An average of 53 in two subjects means a total of $2 \\times 53$.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Mean} = \\frac{2(53) + 50 + 60}{4} = \\frac{216}{4} = 54$$\n\n## Simplified explanation\n\nScience and Mathematics add up to $2 \\times 53 = 106$. With 50 and 60, the total is 216. Divide by 4 subjects to get 54.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mr Adu bought 400 bags of maize for his farm animals. If he used 120 bags to feed the animals, find the percentage of the maize left.",
+    "media": [],
+    "options": [
+      {
+        "text": "70%",
+        "hint": "Correct. $\\frac{280}{400} \\times 100 = 70$."
+      },
+      {
+        "text": "60%",
+        "hint": "60% of 400 is 240 bags, but 280 bags are left."
+      },
+      {
+        "text": "50%",
+        "hint": "50% of 400 is 200 bags, but 280 bags are left."
+      },
+      {
+        "text": "40%",
+        "hint": "40% of 400 is 160 bags, but 280 bags are left."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find how many bags are left, then compare with 400.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{400 - 120}{400} \\times 100\\% = \\frac{280}{400} \\times 100\\% = 70\\%$$\n\n## Simplified explanation\n\nHe used 120 of 400 bags, which is 30%. The rest is $100\\% - 30\\% = 70\\%$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two interior angles of a triangle are $(3x - 10)^\\circ$ and $(4x + 20)^\\circ$. Find an expression for the third angle.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(170 - 7x)^\\circ$",
+        "hint": "Correct. $180 - (7x + 10) = 170 - 7x$."
+      },
+      {
+        "text": "$(150 - 5x)^\\circ$",
+        "hint": "The $x$ terms add to $7x$, and the numbers add to $+10$."
+      },
+      {
+        "text": "$(120 - 7x)^\\circ$",
+        "hint": "The $x$ term is right. Now check the numbers: $180 - 10 = 170$."
+      },
+      {
+        "text": "$(100 - 5x)^\\circ$",
+        "hint": "The $x$ terms add to $7x$, and the numbers add to $+10$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Angles in a triangle add up to $180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$$180 - \\left[(3x - 10) + (4x + 20)\\right] = 180 - (7x + 10) = 170 - 7x$$\n\n## Simplified explanation\n\nAdd the two angles to get $7x + 10$. Take that away from 180. This leaves $170 - 7x$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an examination, Abu answered nine questions in 2 hours. He spent 20 minutes on the first question and the same time on each of the remaining questions. How many minutes did he spend on each of the other questions?",
+    "media": [],
+    "options": [
+      {
+        "text": "8.0 minutes",
+        "hint": "8 is the number of remaining questions, not the time for each."
+      },
+      {
+        "text": "10.0 minutes",
+        "hint": "$8 \\times 10 = 80$ minutes, but 100 minutes remain."
+      },
+      {
+        "text": "12.0 minutes",
+        "hint": "$8 \\times 12 = 96$ minutes, but 100 minutes remain."
+      },
+      {
+        "text": "12.5 minutes",
+        "hint": "Correct. $100 \\div 8 = 12.5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change 2 hours to minutes, then remove the time for the first question.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{(2 \\times 60) - 20}{9 - 1} = \\frac{100}{8} = 12.5 \\text{ minutes}$$\n\n## Simplified explanation\n\n2 hours is 120 minutes. After 20 minutes on the first question, 100 minutes are left for the other 8 questions. Then $100 \\div 8 = 12.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "It costs a carpenter GH₵ 25.00 to make a chair. How much should it be sold to make a profit of 40%?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 15.00",
+        "hint": "This subtracts the 40%, which would be a loss. A profit is added."
+      },
+      {
+        "text": "GH₵ 35.00",
+        "hint": "Correct. $25 + 10 = 35$."
+      },
+      {
+        "text": "GH₵ 40.00",
+        "hint": "This is a profit of GH₵ 15, which is 60%."
+      },
+      {
+        "text": "GH₵ 50.00",
+        "hint": "This is a profit of GH₵ 25, which is 100%."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find 40% of the cost, then add it to the cost.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Selling price} = 25 \\times \\frac{140}{100} = 35$$\n\n## Simplified explanation\n\n40% of GH₵ 25 is GH₵ 10. Add this to the cost: $25 + 10 =$ GH₵ 35.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2025 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $P =$ {multiples of 3} and $Q =$ {positive even numbers} are subsets of $\\mu$ = {$x : 1 < x \\le 20$, where $x$ is a counting number}:\n\n(i) list the elements in $P \\cap Q$;\n\n(ii) list all the subsets in $P \\cap Q$.",
+    "media": [],
+    "answer": "$\\mu = \\{2, 3, 4, 5, \\dots, 20\\}$\n\n$P = \\{3, 6, 9, 12, 15, 18\\}$\n\n$Q = \\{2, 4, 6, 8, 10, 12, 14, 16, 18, 20\\}$\n\n**(i)** The members in both sets are 6, 12 and 18.\n\n**(ii)** A set of 3 members has $2^3 = 8$ subsets, including the empty set and the set itself.\n\n> [!answer]\n> **(i)** {{green:$P \\cap Q = \\{6, 12, 18\\}$}}\n>\n> **(ii)** {{green:$\\{\\ \\}$, $\\{6\\}$, $\\{12\\}$, $\\{18\\}$, $\\{6, 12\\}$, $\\{6, 18\\}$, $\\{12, 18\\}$, $\\{6, 12, 18\\}$}}",
+    "hint": "List $P$ and $Q$ first. Remember that the empty set and the whole set are also subsets.",
+    "explanation": "## Advanced explanation\n\n$P \\cap Q$ contains the multiples of both 2 and 3, which are the multiples of 6 up to 20. A set with $n$ members has $2^n$ subsets, so $n = 3$ gives 8.\n\n## Simplified explanation\n\nWrite out both lists and pick the numbers that appear twice: 6, 12 and 18. For the subsets, list the empty set, then each number alone, then the pairs, then all three together.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $\\dfrac{1}{y} = 3k - \\dfrac{2}{x}$,\n\n(i) make $y$ the subject of the relation.\n\n(ii) using the result in (i), find the value of $y$ when $x = -1$ and $k = 2$.",
+    "media": [],
+    "answer": "**(i)** Combine the right side into one fraction, then invert both sides:\n\n$$\n\\begin{aligned}\n\\frac{1}{y} &= \\frac{3kx - 2}{x} \\\\\ny &= \\frac{x}{3kx - 2}\n\\end{aligned}\n$$\n\n**(ii)** Substitute $x = -1$ and $k = 2$:\n\n$$y = \\frac{-1}{3(2)(-1) - 2} = \\frac{-1}{-8} = \\frac{1}{8}$$\n\n> [!answer]\n> **(i)** {{green:$y = \\dfrac{x}{3kx - 2}$}}  **(ii)** {{green:$y = \\dfrac{1}{8}$}}",
+    "hint": "Use $x$ as the common denominator on the right side.",
+    "explanation": "## Advanced explanation\n\nThe original relation gives the same result: $\\frac{1}{y} = 3(2) - \\frac{2}{-1} = 6 + 2 = 8$, so $y = \\frac{1}{8}$. This confirms the rearranged formula.\n\n## Simplified explanation\n\nWrite the right side as one fraction, $\\frac{3kx - 2}{x}$. Since $\\frac{1}{y}$ equals this fraction, $y$ is the same fraction turned upside down. Then put in the numbers.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Evaluate $\\dfrac{4000 \\times 0.35}{0.05}$, leaving the answer in standard form.",
+    "media": [],
+    "answer": "Write the numbers using powers of 10:\n\n$$\n\\begin{aligned}\n\\frac{4000 \\times 0.35}{0.05} &= \\frac{(4 \\times 10^3) \\times (35 \\times 10^{-2})}{5 \\times 10^{-2}} \\\\\n&= 4 \\times 10^3 \\times 7 \\\\\n&= 28 \\times 10^3 \\\\\n&= 2.8 \\times 10^4\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$2.8 \\times 10^4$}}",
+    "hint": "Notice that $0.35 \\div 0.05$ is a whole number.",
+    "explanation": "## Advanced explanation\n\nSince $\\frac{0.35}{0.05} = 7$, the value is $4000 \\times 7 = 28000$. Standard form needs $1 \\le a < 10$, so $28000 = 2.8 \\times 10^4$.\n\n## Simplified explanation\n\n$0.35 \\div 0.05 = 7$, and $4000 \\times 7 = 28000$. Move the decimal point 4 places to get 2.8, which gives $2.8 \\times 10^4$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Mr Boakye gets 10% commission on type $P$ house he sells and 15% on type $Q$ house. He sells 3 type $P$ houses at GH₵ 700,000.00 each and 4 type $Q$ at GH₵ 1,400,000.00 each. Calculate the total commission he makes.",
+    "media": [],
+    "answer": "**Type $P$:** sales $= 3 \\times 700000 = 2100000$, and commission $= \\dfrac{10}{100} \\times 2100000 = 210000$\n\n**Type $Q$:** sales $= 4 \\times 1400000 = 5600000$, and commission $= \\dfrac{15}{100} \\times 5600000 = 840000$\n\n**Total:** $210000 + 840000 = 1050000$\n\n> [!answer]\n> {{green:GH₵ 1,050,000.00}}",
+    "hint": "Work out the commission on each type of house separately, then add.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Commission} = 0.10(3)(700000) + 0.15(4)(1400000) = 210000 + 840000 = 1050000$$\n\n## Simplified explanation\n\nType $P$ sales are GH₵ 2,100,000, and 10% of that is GH₵ 210,000. Type $Q$ sales are GH₵ 5,600,000, and 15% of that is GH₵ 840,000. Add the two commissions.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $a = \\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$, $b = \\begin{pmatrix} x \\\\ -3 \\end{pmatrix}$ and $c = \\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix}$, find:\n\n(i) the value of $x$, if $2a + b = c$;\n\n(ii) $d = c - 3a$;\n\n(iii) $|d|$",
+    "media": [],
+    "answer": "**(i)** $2a + b = c$ gives:\n\n$$\\begin{pmatrix} 4 \\\\ 6 \\end{pmatrix} + \\begin{pmatrix} x \\\\ -3 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix}$$\n\nEquating the top entries: $4 + x = 7$, so $x = 3$.\n\n**(ii)**\n\n$$d = \\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix} - \\begin{pmatrix} 6 \\\\ 9 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -6 \\end{pmatrix}$$\n\n**(iii)**\n\n$$|d| = \\sqrt{1^2 + (-6)^2} = \\sqrt{37}$$\n\n> [!answer]\n> **(i)** {{green:$x = 3$}}  **(ii)** {{green:$d = \\begin{pmatrix} 1 \\\\ -6 \\end{pmatrix}$}}  **(iii)** {{green:$|d| = \\sqrt{37}$ units}}",
+    "hint": "Compare matching entries of the vectors. $|d|$ is the length of the vector.",
+    "explanation": "## Advanced explanation\n\nThe bottom entries of (i) confirm the setup: $6 + (-3) = 3$. The magnitude of $\\begin{pmatrix} p \\\\ q \\end{pmatrix}$ is $\\sqrt{p^2 + q^2}$, which comes from Pythagoras' theorem.\n\n## Simplified explanation\n\nDouble $a$ and add $b$, then match the top numbers: $4 + x = 7$. For $d$, subtract $3a$ from $c$. For the length, square both numbers, add them, and take the square root.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A Polytank contains 4500 litres of water and $\\dfrac{1}{5}$ of the water is used for cleaning.\n\n(i) Find the volume of water used for cleaning.\n\n(ii) What percentage of water is left in the tank?",
+    "media": [],
+    "answer": "**(i)** $\\dfrac{1}{5} \\times 4500 = 900$ litres\n\n**(ii)** Volume left: $4500 - 900 = 3600$ litres\n\n$$\\frac{3600}{4500} \\times 100\\% = \\frac{4}{5} \\times 100\\% = 80\\%$$\n\n> [!answer]\n> **(i)** {{green:900 litres}}  **(ii)** {{green:80%}}",
+    "hint": "If $\\frac{1}{5}$ is used, what fraction is left?",
+    "explanation": "## Advanced explanation\n\nThe fraction left is $1 - \\frac{1}{5} = \\frac{4}{5}$, and as a percentage this is 80%. The total volume is not needed for part (ii).\n\n## Simplified explanation\n\nOne-fifth of 4500 is 900 litres. That leaves 3600 litres. Four-fifths of the water is left, which is 80%.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Fractions",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A woman borrowed GH₵ 5,300.00 to pay for her child's university fees. If she borrowed at a rate of 8% simple interest per annum for 9 months, find the interest paid.",
+    "media": [],
+    "answer": "$P = 5300$, $R = 8$, and $T = \\dfrac{9}{12} = \\dfrac{3}{4}$ years.\n\n$$I = \\frac{P \\times R \\times T}{100} = \\frac{5300 \\times 8 \\times \\frac{3}{4}}{100} = 53 \\times 6 = 318$$\n\n> [!answer]\n> {{green:GH₵ 318.00}}",
+    "hint": "The rate is per year, so change 9 months into years.",
+    "explanation": "## Advanced explanation\n\nThe time must match the rate's unit. Since $T = \\frac{9}{12} = \\frac{3}{4}$ of a year, $I = 5300 \\times 0.08 \\times 0.75 = 318$.\n\n## Simplified explanation\n\nOne year's interest is 8% of GH₵ 5,300, which is GH₵ 424. Nine months is $\\frac{3}{4}$ of a year, and $\\frac{3}{4}$ of GH₵ 424 is GH₵ 318.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A father shared his piece of land to his three children. The first child had $\\dfrac{2}{5}$ of the land and the second had 5 acres **more** than the first. If the third child had 20 acres, find how many acres of land the:\n\n(i) father shared;\n\n(ii) first child received;\n\n(iii) second child received.",
+    "media": [],
+    "answer": "**(i)** Let $x$ be the total acres shared. The second child's share is $\\dfrac{2}{5}x + 5$.\n\n$$\n\\begin{aligned}\nx &= \\frac{2}{5}x + \\left(\\frac{2}{5}x + 5\\right) + 20 \\\\\nx &= \\frac{4}{5}x + 25 \\\\\n\\frac{1}{5}x &= 25 \\\\\nx &= 125\n\\end{aligned}\n$$\n\n**(ii)** $\\dfrac{2}{5} \\times 125 = 50$ acres\n\n**(iii)** $50 + 5 = 55$ acres\n\n**Check:** $50 + 55 + 20 = 125$ ✓\n\n> [!answer]\n> **(i)** {{green:125 acres}}  **(ii)** {{green:50 acres}}  **(iii)** {{green:55 acres}}",
+    "hint": "Let the total land be $x$, then write each child's share using $x$.",
+    "explanation": "## Advanced explanation\n\nThe two shares that are fractions of $x$ total $\\frac{4}{5}x$, so the remaining $\\frac{1}{5}x$ must equal the fixed $5 + 20 = 25$ acres. Hence $x = 125$.\n\n## Simplified explanation\n\nThe first two children share $\\frac{4}{5}$ of the land plus 5 acres. The other $\\frac{1}{5}$ must be $5 + 20 = 25$ acres, so the whole land is $25 \\times 5 = 125$ acres.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The pie chart shows the weight (in kg) of items Mrs. Mensah bought for her household.\n\n(i) What angle represents fish?\n\n(ii) If she bought a total of 20 kg of items,\n\n$(\\alpha)$ what is the weight of flour bought?\n\n$(\\beta)$ express, correct to one decimal place, the weight of sugar as a percentage of the weight of rice.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2025/2025q5.png",
+        "caption": "Pie chart, not drawn to scale. Flour 54°, Rice 108°, Sugar 36°, Gari marked with a right angle, and Fish with no angle given."
+      }
+    ],
+    "answer": "**(i)** Angles at the centre add up to $360^\\circ$, and Gari is a right angle:\n\n$$x = 360^\\circ - (36^\\circ + 90^\\circ + 54^\\circ + 108^\\circ) = 72^\\circ$$\n\n**(ii)** $(\\alpha)$\n\n$$\\frac{54^\\circ}{360^\\circ} \\times 20 = 3 \\text{ kg}$$\n\n$(\\beta)$ Weights are in the same ratio as their angles:\n\n$$\\frac{36^\\circ}{108^\\circ} \\times 100\\% = \\frac{100}{3}\\% \\approx 33.3\\%$$\n\n> [!answer]\n> **(i)** {{green:$72^\\circ$}}  **(ii)** $(\\alpha)$ {{green:3 kg}}  $(\\beta)$ {{green:33.3%}}",
+    "hint": "The small square at the centre marks a right angle. All the angles add up to $360^\\circ$.",
+    "explanation": "## Advanced explanation\n\nEach sector's weight is proportional to its angle, so $\\text{weight} = \\frac{\\text{angle}}{360^\\circ} \\times 20$. For $(\\beta)$ the total cancels, which leaves the ratio of the two angles.\n\n## Simplified explanation\n\nAdd the known angles, $36 + 90 + 54 + 108 = 288$, and take them from 360 to get 72. Flour is $\\frac{54}{360}$ of 20 kg, which is 3 kg. Sugar compared with rice is $36 \\div 108$, which is 33.3%.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a class of 30 students, five wear glasses. If a student is selected at random from the class, what is the probability that the student does **not** wear glasses?",
+    "media": [],
+    "answer": "Students not wearing glasses: $30 - 5 = 25$\n\n$$P(\\text{no glasses}) = \\frac{25}{30} = \\frac{5}{6}$$\n\n> [!answer]\n> {{green:$\\dfrac{5}{6}$}}",
+    "hint": "Count the students who do not wear glasses.",
+    "explanation": "## Advanced explanation\n\nUsing the complement rule: $P(\\text{no glasses}) = 1 - P(\\text{glasses}) = 1 - \\frac{5}{30} = \\frac{5}{6}$.\n\n## Simplified explanation\n\n25 of the 30 students do not wear glasses. That is $\\frac{25}{30}$, which simplifies to $\\frac{5}{6}$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Adamu was travelling a distance of 40 km from Kadumgu to Datanu. Sixty minutes after starting the journey, he made a stop at Cooltown, 10 km from Kadumgu to rest for 30 minutes. He then continued the journey from Cooltown and reached Datanu 60 minutes later.\n\nUsing a scale of 2 cm to 20 minutes on the horizontal axis and 2 cm to 5 km on the vertical axis, draw a distance-time graph for Adamu's journey.\n\nIn your answer, list the points you would plot.",
+    "media": [],
+    "answer": "Plot time in minutes across and distance in km up, using the given scales.\n\n| Time (min) | Distance (km) | Stage |\n|---|---|---|\n| 0 | 0 | Leaves Kadumgu |\n| 60 | 10 | Reaches Cooltown |\n| 90 | 10 | Leaves Cooltown after resting |\n| 150 | 40 | Reaches Datanu |\n\nJoin the points with straight lines. The section from 60 to 90 minutes is horizontal, because he is resting.\n\n> [!answer]\n> {{green:$(0, 0)$, $(60, 10)$, $(90, 10)$, $(150, 40)$}} joined with straight lines, with a flat section during the rest.",
+    "hint": "Add up the times to find when each stage starts and ends. Distance does not change during a rest.",
+    "explanation": "## Advanced explanation\n\nOn a distance-time graph the gradient is the speed. A rest has zero gradient, so that section is horizontal. The last section is steeper than the first because he travels faster: 30 km/h compared with 10 km/h.\n\n## Simplified explanation\n\nHe reaches Cooltown after 60 minutes, at 10 km. He rests for 30 minutes, so at 90 minutes he is still at 10 km. He arrives 60 minutes after that, at 150 minutes and 40 km.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Graphs",
+      "Speed"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Adamu was travelling a distance of 40 km from Kadumgu to Datanu. Sixty minutes after starting the journey, he made a stop at Cooltown, 10 km from Kadumgu to rest for 30 minutes. He then continued the journey from Cooltown and reached Datanu 60 minutes later.\n\nThe graph shows Adamu's journey. Use the graph to determine the:\n\n(i) distance from Cooltown to Datanu;\n\n(ii) total time (in minutes), taken by Adamu to make the whole journey including the rest time;\n\n(iii) average speed of Adamu from Cooltown to Datanu.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2025/2025q6ans.png",
+        "caption": "Travel graph from Kadumgu to Datanu, with time in minutes across and distance in kilometres up. The line rises to Cooltown, runs flat during the rest, then rises more steeply to Datanu."
+      }
+    ],
+    "answer": "**(i)** $40 - 10 = 30$ km\n\n**(ii)** The graph ends at 150 minutes.\n\n**(iii)** Distance $= 30$ km and time $= 60$ minutes $= 1$ hour:\n\n$$\\text{Speed} = \\frac{\\text{distance}}{\\text{time}} = \\frac{30 \\text{ km}}{1 \\text{ h}} = 30 \\text{ km/h}$$\n\n> [!answer]\n> **(i)** {{green:30 km}}  **(ii)** {{green:150 minutes}}  **(iii)** {{green:30 km/h}}",
+    "hint": "Read the distances where Cooltown and Datanu appear on the graph.",
+    "explanation": "## Advanced explanation\n\nThe speed from Cooltown to Datanu is the gradient of the last section: $\\frac{40 - 10}{(150 - 90)/60} = 30$ km/h. The total time also follows from the story: $60 + 30 + 60 = 150$ minutes.\n\n## Simplified explanation\n\nDatanu is at 40 km and Cooltown is at 10 km, so they are 30 km apart. The line ends at 150 minutes. The last 30 km took 60 minutes, which is 1 hour, so his speed was 30 km/h.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Graphs",
+      "Speed"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Adamu was travelling a distance of 40 km from Kadumgu to Datanu. Sixty minutes after starting the journey, he made a stop at Cooltown, 10 km from Kadumgu to rest for 30 minutes. He then continued the journey from Cooltown and reached Datanu 60 minutes later.\n\nIf Adamu did **not** rest but travelled to Datanu within the time, what was his average speed?",
+    "media": [],
+    "answer": "Total distance: 40 km\n\nTotal time: $60 + 30 + 60 = 150$ minutes $= 2.5$ hours\n\n$$\\text{Average speed} = \\frac{40 \\text{ km}}{2.5 \\text{ h}} = 16 \\text{ km/h}$$\n\n> [!answer]\n> {{green:16 km/h}}",
+    "hint": "He covers the whole 40 km in the whole 150 minutes. Change the time to hours.",
+    "explanation": "## Advanced explanation\n\nAverage speed is total distance over total time. Here $150$ minutes $= \\frac{5}{2}$ hours, so the speed is $40 \\times \\frac{2}{5} = 16$ km/h.\n\n## Simplified explanation\n\nHe travels 40 km in 150 minutes without stopping. 150 minutes is 2.5 hours, and $40 \\div 2.5 = 16$ km/h.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2025 Paper",
+      "Section B",
+      "Speed"
+    ]
+  }
+]
