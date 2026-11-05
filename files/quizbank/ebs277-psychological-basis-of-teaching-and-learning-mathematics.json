@@ -1,0 +1,287 @@
+[
+ {
+  "type": "choice",
+  "body": "The form of adaptation that enables a student to integrate new experience into existing schemas (patterns of behaviour) is",
+  "options": [
+   {
+    "text": "abstraction",
+    "hint": "Forming concepts."
+   },
+   {
+    "text": "assimilation",
+    "hint": "Correct. Fitting new into existing."
+   },
+   {
+    "text": "equilibration",
+    "hint": "Balancing the two."
+   },
+   {
+    "text": "accommodation",
+    "hint": "Changing schemas to fit new experience."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nPiaget: **assimilation** fits new information into existing schemas; **accommodation** modifies schemas; **equilibration** balances them.\n\n## Simplified explanation\n\nFit in = **assimilation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Mathematics",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which form of understanding enables the learner to know both **what to do and why**?",
+  "options": [
+   {
+    "text": "Intuitive understanding",
+    "hint": "Not Skemp's term."
+   },
+   {
+    "text": "Inductive understanding",
+    "hint": "Not Skemp's term."
+   },
+   {
+    "text": "Instrumental understanding",
+    "hint": "Rules without reasons."
+   },
+   {
+    "text": "Relational understanding",
+    "hint": "Correct. Skemp."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp (1976): **instrumental** understanding = 'rules without reasons'; **relational** = knowing what to do **and why**.\n\n## Simplified explanation\n\nWhat + why = **relational**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ability to describe a mathematical pattern concisely, moving from a few specific examples to a wider, more inclusive statement, is",
+  "options": [
+   {
+    "text": "generalisation",
+    "hint": "Correct. Specific \u2192 general."
+   },
+   {
+    "text": "reflection",
+    "hint": "No."
+   },
+   {
+    "text": "construction",
+    "hint": "No."
+   },
+   {
+    "text": "deduction",
+    "hint": "General \u2192 specific."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Generalisation** extends a relationship found in particular cases to a wider class (inductive).\n\n## Simplified explanation\n\n**Generalisation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Mathematics",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The process of adaptation that involves making **radical changes** to existing schemas is often referred to as",
+  "options": [
+   {
+    "text": "generalisation",
+    "hint": "No."
+   },
+   {
+    "text": "reconstruction",
+    "hint": "Correct. Major restructuring."
+   },
+   {
+    "text": "assimilation",
+    "hint": "No change to schema."
+   },
+   {
+    "text": "abstraction",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp distinguishes expanding a schema (small accommodation) from **reconstruction** (radical reorganisation when the old schema can't fit new experience).\n\n## Simplified explanation\n\nRadical change = **reconstruction**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Skemp's principle: 'concepts of a higher order than those a learner has cannot be communicated by definition; instead, arrange suitable examples.' This implies that teachers should",
+  "options": [
+   {
+    "text": "not use examples for higher-order concepts",
+    "hint": "Opposite."
+   },
+   {
+    "text": "always teach every concept using examples and non-examples",
+    "hint": "Too absolute."
+   },
+   {
+    "text": "use definitions only if the learner already has the lower-order concepts/examples",
+    "hint": "Correct. Definitions work only when the underlying concepts exist."
+   },
+   {
+    "text": "never use definitions with high achievers",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp's two principles: (1) higher-order concepts can't be communicated by definition alone, only through examples; (2) those examples must themselves be concepts the learner already has.\n\n## Simplified explanation\n\nDefinitions need prior concepts.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **concept** in mathematics is best described as the",
+  "options": [
+   {
+    "text": "mental object that results when teaching takes place",
+    "hint": "Vague."
+   },
+   {
+    "text": "mathematical representation of a real object",
+    "hint": "No."
+   },
+   {
+    "text": "result of a basic operation",
+    "hint": "No."
+   },
+   {
+    "text": "mental representation of the properties common to a number of examples",
+    "hint": "Correct. Abstracted common properties."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp: a concept is formed by **abstraction**: recognising what a set of examples have in common.\n\n## Simplified explanation\n\nCommon properties of examples.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In Skemp's director-system theory, **displeasure** usually signals",
+  "options": [
+   {
+    "text": "the inability to approach the goal",
+    "hint": "That's frustration/anxiety."
+   },
+   {
+    "text": "relief at reaching the goal",
+    "hint": "That's satisfaction."
+   },
+   {
+    "text": "an emotional message of security",
+    "hint": "No."
+   },
+   {
+    "text": "moving away from a goal state",
+    "hint": "Correct. Pleasure = moving toward; displeasure = moving away."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp: **pleasure** signals movement **towards** a goal state; **displeasure** signals movement **away** from it; confidence/anxiety relate to the ability to reach it.\n\n## Simplified explanation\n\nMoving away.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a function of a mathematics schema?",
+  "options": [
+   {
+    "text": "Making accommodation abstract",
+    "hint": "Correct. Not one of Skemp's functions."
+   },
+   {
+    "text": "Being a tool for further learning",
+    "hint": "Function."
+   },
+   {
+    "text": "Making understanding possible",
+    "hint": "Function."
+   },
+   {
+    "text": "Integrating existing knowledge",
+    "hint": "Function."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkemp: a schema (1) **integrates** existing knowledge, (2) is a **tool for further learning**, (3) makes **understanding** possible.\n\n## Simplified explanation\n\nNot 'accommodation abstract'.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** If A is an example of concept B, then A is said to be of higher order than B.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the concept."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the principle.",
+  "explanation": "## Advanced explanation\n\nB is of higher order: a concept is higher-order than its examples (e.g. 'polygon' is higher order than 'triangle').\n\n## Simplified explanation\n\nThe concept is higher, not its example.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is a **schema** in mathematics education?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> A **schema** is a coherent, organised **mental structure** of connected concepts and procedures stored in the mind, which grows and changes over time as new learning is assimilated or accommodated.",
+  "explanation": "## Advanced explanation\n\nSkemp argued that relational understanding means building rich, well-connected schemas.\n\n## Simplified explanation\n\nAn organised network of ideas in the mind.",
+  "hint": "Give a precise answer.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Skemp's Theory",
+   "2021 Mid-Semester Quiz"
+  ]
+ }
+]

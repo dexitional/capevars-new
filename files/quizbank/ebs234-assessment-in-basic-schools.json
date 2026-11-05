@@ -1,0 +1,893 @@
+[
+ {
+  "type": "choice",
+  "body": "Which of the following is the correct order Mr Songo must follow in assessing his Basic 5 pupils?",
+  "options": [
+   {
+    "text": "test, measure, evaluate",
+    "hint": "Correct. Administer the test, score (measure) it, then judge (evaluate)."
+   },
+   {
+    "text": "test, evaluate, measure",
+    "hint": "Measurement (scoring) precedes judgement."
+   },
+   {
+    "text": "evaluate, test, measure",
+    "hint": "Evaluation comes last."
+   },
+   {
+    "text": "measure, evaluate, test",
+    "hint": "You can't measure before testing."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **test** is the instrument; **measurement** assigns numbers (scores) to performance; **evaluation** makes a value judgement using those scores. So: test \u2192 measure \u2192 evaluate.\n\n## Simplified explanation\n\nTest, then score, then judge.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "To identify each college during an inter-college quiz competition (e.g. College A, B, C), which scale of measurement will the organisers use?",
+  "options": [
+   {
+    "text": "Interval",
+    "hint": "No equal intervals involved."
+   },
+   {
+    "text": "Nominal",
+    "hint": "Correct. Numbers/labels only name categories."
+   },
+   {
+    "text": "Ratio",
+    "hint": "No true zero or quantities."
+   },
+   {
+    "text": "Ordinal",
+    "hint": "That ranks; here there's no order."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Nominal** scales use numbers or labels purely to **identify or classify** (jersey numbers, college codes). **Ordinal** ranks; **interval** has equal units but no true zero; **ratio** has a true zero.\n\n## Simplified explanation\n\nLabels that only identify = **nominal**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scales of Measurement",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which characteristic allows **ratio** scores to be multiplied and divided?",
+  "options": [
+   {
+    "text": "An absolute (true) zero point",
+    "hint": "Correct. Zero means none of the attribute."
+   },
+   {
+    "text": "Equal intervals between units",
+    "hint": "Interval scales have these but can't be multiplied meaningfully."
+   },
+   {
+    "text": "Mutually exclusive categories",
+    "hint": "Nominal property."
+   },
+   {
+    "text": "Rank ordering",
+    "hint": "Ordinal property."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOnly a **ratio** scale has a **true zero**, so statements like 'twice as much' make sense (e.g. 20 pupils is twice 10 pupils).\n\n## Simplified explanation\n\nA **true zero**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scales of Measurement",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Equal intervals in the interval scale make it possible for scores to be multiplied and divided.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Multiplication/division needs a true zero."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think of temperature in \u00b0C.",
+  "explanation": "## Advanced explanation\n\nInterval scales (e.g. \u00b0C) have equal units but an **arbitrary zero**, so you can add/subtract but not form meaningful ratios (40 \u00b0C is not 'twice as hot' as 20 \u00b0C).\n\n## Simplified explanation\n\nNeeds a true zero, so false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scales of Measurement",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teacher measures many variables in his school. An example of a variable measured on a **ratio** scale is the",
+  "options": [
+   {
+    "text": "enrolment in each class",
+    "hint": "Correct. Counts have a true zero."
+   },
+   {
+    "text": "singing ability of the school choir",
+    "hint": "Ordinal rating."
+   },
+   {
+    "text": "teaching ability of teachers",
+    "hint": "Ordinal rating."
+   },
+   {
+    "text": "professional qualification of teachers",
+    "hint": "Ordinal/nominal."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCounts such as **enrolment** start from a true zero and can be compared as ratios.\n\n## Simplified explanation\n\nCounts \u2192 ratio.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scales of Measurement",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mary spends a lot of time learning but still fails her exams. Which type of assessment will help her to understand herself as a learner, adopt proper learning methods and plan her future learning?",
+  "options": [
+   {
+    "text": "Summative assessment",
+    "hint": "End-point grading."
+   },
+   {
+    "text": "Assessment as learning (AaL)",
+    "hint": "Correct. Self-assessment and reflection by the learner."
+   },
+   {
+    "text": "Assessment of learning (AoL)",
+    "hint": "Summative grading."
+   },
+   {
+    "text": "Assessment for learning (AfL)",
+    "hint": "Teacher-led feedback during instruction."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**AaL** puts the learner at the centre: she monitors her own learning (metacognition) and adjusts strategies. **AfL** is teacher feedback to improve learning; **AoL** certifies achievement.\n\n## Simplified explanation\n\nSelf-reflection = **assessment as learning**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which level of the **affective** domain requires the student to relate what has been learnt to their existing values (schema) in order to accommodate it?",
+  "options": [
+   {
+    "text": "Valuing",
+    "hint": "Attaching worth to something."
+   },
+   {
+    "text": "Characterisation",
+    "hint": "A value system that controls behaviour."
+   },
+   {
+    "text": "Organisation",
+    "hint": "Correct. Bringing values together and resolving conflicts between them."
+   },
+   {
+    "text": "Responding",
+    "hint": "Active participation."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nKrathwohl's affective domain: **receiving \u2192 responding \u2192 valuing \u2192 organisation \u2192 characterisation (by a value complex)**. **Organisation** integrates new values into one's value system.\n\n## Simplified explanation\n\nFitting new values into your system = **organisation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which level of the **cognitive** domain represents students' ability to identify and establish the relationships among the component parts of a product?",
+  "options": [
+   {
+    "text": "Understanding",
+    "hint": "Comprehension."
+   },
+   {
+    "text": "Synthesis",
+    "hint": "Putting parts together into a new whole."
+   },
+   {
+    "text": "Analysis",
+    "hint": "Correct. Breaking a whole into parts and seeing how they relate."
+   },
+   {
+    "text": "Knowledge",
+    "hint": "Recall."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBloom: **analysis** = breaking material into its parts and examining their relationships.\n\n## Simplified explanation\n\nParts and relationships = **analysis**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The illustrative verb **'outline'** represents which dimension of the cognitive taxonomy?",
+  "options": [
+   {
+    "text": "Analysis",
+    "hint": "Verbs: differentiate, break down."
+   },
+   {
+    "text": "Understanding (comprehension)",
+    "hint": "Correct. Summarising the main points in one's own way."
+   },
+   {
+    "text": "Synthesis",
+    "hint": "Verbs: design, compose."
+   },
+   {
+    "text": "Knowledge",
+    "hint": "Recall verbs: list, name, define."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOutlining (summarising main points) shows **comprehension/understanding**. Knowledge = recall; analysis = break down; synthesis = create.\n\n## Simplified explanation\n\n**Understanding**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teacher's remarks such as 'proficient', 'beginner', 'advanced' represent",
+  "options": [
+   {
+    "text": "a test",
+    "hint": "The instrument."
+   },
+   {
+    "text": "assessment",
+    "hint": "The broader process of gathering information."
+   },
+   {
+    "text": "evaluation",
+    "hint": "Correct. Judgements about the quality of performance."
+   },
+   {
+    "text": "measurement",
+    "hint": "Assigning numbers."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nDescriptors of quality are **value judgements**: that is **evaluation**.\n\n## Simplified explanation\n\nJudging quality = **evaluation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In Bloom's Taxonomy (cognitive domain), 'analysis and synthesis' are considered more fundamental (they appear earlier in the taxonomy) than",
+  "options": [
+   {
+    "text": "application",
+    "hint": "Comes before analysis."
+   },
+   {
+    "text": "knowledge",
+    "hint": "The lowest level."
+   },
+   {
+    "text": "evaluation",
+    "hint": "Correct. Evaluation is the highest level in the original taxonomy."
+   },
+   {
+    "text": "comprehension",
+    "hint": "Comes before analysis."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOriginal Bloom order: **knowledge \u2192 comprehension \u2192 application \u2192 analysis \u2192 synthesis \u2192 evaluation**.\n\n## Simplified explanation\n\nOnly **evaluation** comes after them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a category in the taxonomy of educational objectives of the **affective** domain?",
+  "options": [
+   {
+    "text": "Valuing",
+    "hint": "Correct. Krathwohl's third level."
+   },
+   {
+    "text": "Attitude",
+    "hint": "Not a taxonomy level."
+   },
+   {
+    "text": "Perception",
+    "hint": "Psychomotor (Simpson)."
+   },
+   {
+    "text": "Analysis",
+    "hint": "Cognitive."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nAffective levels: receiving, responding, **valuing**, organisation, characterisation.\n\n## Simplified explanation\n\n**Valuing**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The type of assessment that does **not** expect mastery when students are introduced to new concepts is",
+  "options": [
+   {
+    "text": "internal assessment",
+    "hint": "Who conducts it, not its purpose."
+   },
+   {
+    "text": "active assessment",
+    "hint": "Not a standard type."
+   },
+   {
+    "text": "formative assessment",
+    "hint": "Correct. It monitors progress during learning."
+   },
+   {
+    "text": "summative assessment",
+    "hint": "Expects mastery at the end."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Formative** assessment happens during learning to guide teaching; students are still developing mastery.\n\n## Simplified explanation\n\nDuring learning = **formative**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A general instructional objective that produces outcomes focused on **perceptual processes and motor skills** belongs to the",
+  "options": [
+   {
+    "text": "behavioural objective",
+    "hint": "A way of stating objectives, not a domain."
+   },
+   {
+    "text": "affective domain",
+    "hint": "Feelings and values."
+   },
+   {
+    "text": "psychomotor domain",
+    "hint": "Correct. Physical/motor skills."
+   },
+   {
+    "text": "cognitive domain",
+    "hint": "Thinking."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **psychomotor** domain covers perception, movement and manipulative skills.\n\n## Simplified explanation\n\nMotor skills = **psychomotor**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A purposeful, systematic and ongoing collection of information as evidence for making judgements about students' learning, curricula, programmes and policies is",
+  "options": [
+   {
+    "text": "a test",
+    "hint": "One instrument."
+   },
+   {
+    "text": "evaluation",
+    "hint": "The judgement itself."
+   },
+   {
+    "text": "assessment",
+    "hint": "Correct. Gathering evidence for decisions."
+   },
+   {
+    "text": "measurement",
+    "hint": "Assigning numbers."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Assessment** is the broad, ongoing process of collecting evidence; evaluation is the judgement made from it.\n\n## Simplified explanation\n\n**Assessment**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Judgements about the worth of schools, curricula, materials and programmes **while they are under development**, leading to suggestions for redesign or improvement, are",
+  "options": [
+   {
+    "text": "formative evaluations",
+    "hint": "Correct. Improvement during development."
+   },
+   {
+    "text": "norm-referenced interpretations",
+    "hint": "Score interpretation."
+   },
+   {
+    "text": "criterion-referenced interpretations",
+    "hint": "Score interpretation."
+   },
+   {
+    "text": "summative evaluations",
+    "hint": "Final judgements of overall worth."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Formative** evaluation improves a programme while it is being developed; **summative** evaluation judges its overall effectiveness at the end.\n\n## Simplified explanation\n\nDuring development = **formative**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following scores can vary across assessments of the same individual?",
+  "options": [
+   {
+    "text": "Error score only",
+    "hint": "Observed scores vary too."
+   },
+   {
+    "text": "Both the error score and the observed score",
+    "hint": "Correct. Only the true score is constant."
+   },
+   {
+    "text": "True score",
+    "hint": "Theoretically constant."
+   },
+   {
+    "text": "Observed score only",
+    "hint": "Because error varies."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nClassical test theory: **observed = true + error**. The true score is fixed; random error changes from one testing to another, so observed scores vary too.\n\n## Simplified explanation\n\nTrue score fixed; error and observed vary.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The standard error of measurement (SEM) of a test is 4. A student obtained 76. How should the score be interpreted? The student's",
+  "options": [
+   {
+    "text": "obtained score would be between 72 and 76",
+    "hint": "The obtained score is 76."
+   },
+   {
+    "text": "true score would be increased to 80",
+    "hint": "No."
+   },
+   {
+    "text": "true score lies between 72 and 80",
+    "hint": "Correct. 76 \u00b1 1 SEM (about 68% confidence)."
+   },
+   {
+    "text": "error score would be raised to 19",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA band of **observed score \u00b1 SEM** (76 \u00b1 4 = 72\u201380) contains the true score about 68% of the time (\u00b1 2 SEM \u2248 95%).\n\n## Simplified explanation\n\n76 \u00b1 4 \u2192 **72\u201380**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If assessment results measure a sample of behaviour **consistently** but lack soundness of interpretation and use, the test is",
+  "options": [
+   {
+    "text": "reliable but not valid",
+    "hint": "Correct. Consistent but not measuring what it should."
+   },
+   {
+    "text": "valid but not reliable",
+    "hint": "Validity requires reliability."
+   },
+   {
+    "text": "reliable but not standardised",
+    "hint": "No."
+   },
+   {
+    "text": "standardised but not valid",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Reliability** = consistency; **validity** = soundness of interpretation and use. Reliability is necessary but not sufficient for validity.\n\n## Simplified explanation\n\nConsistent but wrong use = **reliable, not valid**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A characteristic of **assessment of learning (AoL)** is that it is",
+  "options": [
+   {
+    "text": "conducted at the end of a unit",
+    "hint": "Correct. It summarises achievement."
+   },
+   {
+    "text": "used to give feedback during instruction",
+    "hint": "AfL."
+   },
+   {
+    "text": "used to describe needs for future learning",
+    "hint": "AfL."
+   },
+   {
+    "text": "conducted during a unit of instruction",
+    "hint": "AfL."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nAoL is **summative**: it certifies or grades achievement at the end of a unit, term or course.\n\n## Simplified explanation\n\nAoL = end of unit.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Assessment Concepts",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **test\u2013retest** method of estimating reliability is a measure of the",
+  "options": [
+   {
+    "text": "inter-rater variability",
+    "hint": "Different scorers."
+   },
+   {
+    "text": "stability of test scores over time",
+    "hint": "Correct. Same test, two occasions."
+   },
+   {
+    "text": "internal consistency of a test",
+    "hint": "Split-half / KR / alpha."
+   },
+   {
+    "text": "validity of the test results",
+    "hint": "Not reliability."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTest\u2013retest gives a **coefficient of stability**; equivalent forms gives **equivalence**; split-half/KR-20/alpha give **internal consistency**; inter-rater gives scorer agreement.\n\n## Simplified explanation\n\nTwo occasions \u2192 **stability**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider: I. Validity is impossible without strong reliability. II. A test can be reliable without being valid. III. A valid test is reliable. Which statement(s) is/are correct?",
+  "options": [
+   {
+    "text": "I, II and III",
+    "hint": "Correct. All three express the reliability\u2013validity relationship."
+   },
+   {
+    "text": "I only",
+    "hint": "II and III are also true."
+   },
+   {
+    "text": "III only",
+    "hint": "I and II are also true."
+   },
+   {
+    "text": "II only",
+    "hint": "I and III are also true."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nReliability is a **necessary but not sufficient** condition for validity: a valid test must be reliable (I, III), but a reliable test need not be valid (II).\n\n## Simplified explanation\n\nAll three are true.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mr Hutton asks the other maths teachers to review his mid-term test to see if the items represent his learning targets. Which type of validity evidence is being used?",
+  "options": [
+   {
+    "text": "Instructional",
+    "hint": "Not a standard type."
+   },
+   {
+    "text": "Criterion-related",
+    "hint": "Correlation with an external criterion."
+   },
+   {
+    "text": "Construct-related",
+    "hint": "Does it measure the theoretical trait?"
+   },
+   {
+    "text": "Content-related",
+    "hint": "Correct. Do the items represent the content/targets?"
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Content validity** is judged by experts comparing items with the table of specifications/learning targets.\n\n## Simplified explanation\n\nExperts check coverage = **content validity**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which method of estimating reliability is most useful for determining how far essay scores from different raters are affected by differences in the raters' strictness?",
+  "options": [
+   {
+    "text": "Inter-rater reliability",
+    "hint": "Correct. Agreement between scorers."
+   },
+   {
+    "text": "Equivalent forms",
+    "hint": "Two forms of the test."
+   },
+   {
+    "text": "Test\u2013retest",
+    "hint": "Stability over time."
+   },
+   {
+    "text": "Split-half",
+    "hint": "Internal consistency."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Inter-rater (scorer) reliability** compares scores given independently by different markers.\n\n## Simplified explanation\n\nDifferent markers \u2192 **inter-rater**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Validity & Reliability",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The learning target 'the student contributes to group maintenance when working with classmates on a science project' belongs to the",
+  "options": [
+   {
+    "text": "instructional objective",
+    "hint": "Not a domain."
+   },
+   {
+    "text": "affective domain",
+    "hint": "Correct. Attitudes, cooperation and values."
+   },
+   {
+    "text": "cognitive domain",
+    "hint": "Thinking."
+   },
+   {
+    "text": "psychomotor domain",
+    "hint": "Motor skills."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCooperation and willingness to support a group are **attitudes/values**: the affective domain.\n\n## Simplified explanation\n\nGroup attitudes = **affective**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "'Araba is able to adjust a 70-inch LED television set to get the best picture and colour resolution.' This learning target belongs to the",
+  "options": [
+   {
+    "text": "psychomotor domain",
+    "hint": "Correct. A practical manipulative skill."
+   },
+   {
+    "text": "affective domain",
+    "hint": "Attitudes/values."
+   },
+   {
+    "text": "cognitive domain",
+    "hint": "Mainly thinking."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOperating and adjusting equipment is a **manipulative (psychomotor)** skill.\n\n## Simplified explanation\n\nHands-on skill = **psychomotor**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "'Obedii virtually displaced the goalkeeper and scored through a free kick awarded 35 m from the post.' This learning target belongs to the",
+  "options": [
+   {
+    "text": "affective domain",
+    "hint": "No."
+   },
+   {
+    "text": "cognitive domain",
+    "hint": "No."
+   },
+   {
+    "text": "psychomotor domain",
+    "hint": "Correct. A skilled motor performance."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nSkilled movement and coordination = **psychomotor**.\n\n## Simplified explanation\n\n**Psychomotor**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Learning Objectives & Taxonomies",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain briefly the **'comprehensive'** characteristic of assessment.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Assessment is **comprehensive** when it covers **all aspects of the learner's development**, cognitive, affective and psychomotor, and the full range of learning outcomes, using a **variety of methods** (tests, projects, observation, portfolios, oral work) over time, rather than relying on a single test of knowledge.",
+  "explanation": "## Advanced explanation\n\nComprehensive assessment gives a fuller, fairer picture of what a learner knows and can do.\n\n## Simplified explanation\n\nAssess the whole learner with many methods.",
+  "hint": "Whole learner, many methods.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Assessment Concepts",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) State **four** methods of estimating reliability, and explain any two with examples. (b) Describe **five** factors that influence the reliability of test scores.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a) Methods:**\n> 1. **Test\u2013retest**: give the same test twice to the same group after an interval; correlate the scores (stability).\n> 2. **Equivalent/parallel forms**: give two comparable forms; correlate (equivalence).\n> 3. **Split-half**: split one test (odd/even items), correlate the halves and correct with Spearman\u2013Brown (internal consistency).\n> 4. **Kuder\u2013Richardson (KR-20/21) / Cronbach's alpha**: internal consistency from item statistics.\n> 5. **Inter-rater**: two markers score the same scripts; correlate.\n>\n> **(b) Factors:**\n> 1. **Test length**: longer tests are more reliable.\n> 2. **Spread (variability) of scores**: wider spread \u2192 higher reliability.\n> 3. **Item difficulty**: items too easy or too hard reduce reliability.\n> 4. **Objectivity of scoring**: subjective marking lowers it.\n> 5. **Testing conditions**: noise, poor lighting, cheating, fatigue.\n> 6. **Time interval** (for test\u2013retest) and **guessing**.",
+  "explanation": "## Advanced explanation\n\nReliability coefficients range from 0 to 1; classroom tests should aim for about 0.7 or higher.\n\n## Simplified explanation\n\nTest\u2013retest, parallel forms, split-half, KR/alpha, inter-rater; length, spread, difficulty, scoring, conditions.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Validity & Reliability",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between a **standardised achievement test** and a **classroom (teacher-made) achievement test** under: test developer; who determines the content; test manual; usefulness.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> | | Standardised | Classroom |\n> |---|---|---|\n> | **Developer** | Test experts/agencies (e.g. WAEC) | The class teacher |\n> | **Content** | Determined by experts from a broad, common curriculum | Determined by the teacher from what was taught |\n> | **Manual** | Has a manual with directions, norms, reliability/validity data | Usually none |\n> | **Usefulness** | Comparing learners across schools/regions; selection, placement | Diagnosing and grading learners in that class; guiding instruction |",
+  "explanation": "## Advanced explanation\n\nStandardised tests have uniform administration and scoring and are norm-referenced; classroom tests are flexible and tied to local instruction.\n\n## Simplified explanation\n\nExperts vs teacher; broad vs local content; manual vs none; comparison vs class decisions.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Test Construction & Administration",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe **five** guidelines to consider when **assembling** test items after they have been constructed.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Group items by type** (all MCQs together, then short answer, then essay) so instructions apply to each section.\n> 2. **Arrange from easy to difficult** to build confidence.\n> 3. **Write clear general and section instructions** (time, marks, how to answer).\n> 4. **Avoid patterns in the answer key**; spread correct options randomly across A\u2013D.\n> 5. **Keep each item, with its options, on one page**; don't split stems from options.\n> 6. **Space items clearly and number them consecutively**; provide answer spaces.\n> 7. **Ensure no item gives a clue** to another, and proofread before printing.",
+  "explanation": "## Advanced explanation\n\nGood assembly reduces construct-irrelevant difficulty and errors.\n\n## Simplified explanation\n\nGroup by type, easy \u2192 hard, clear instructions, random key, keep items together.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Test Construction & Administration",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) 'There was a test after a long vacation.' Discuss **two** consequences of this for the test taker. (b) Discuss **four** pieces of information you would give students to prepare them for maximum performance. (c) Explain **two** ways to minimise test anxiety in the examination hall.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** Learners may have **forgotten** much of what was taught, so scores **underestimate** their ability (low validity); unannounced testing raises **anxiety** and lowers motivation.\n>\n> **(b)** Tell students: (1) **when** the test will be; (2) **content/topics** covered; (3) **type and number of items** (MCQ, essay); (4) **time allowed and marks**; (5) how it will be **scored** and the materials needed.\n>\n> **(c)** Give **clear, calm instructions** and a reassuring atmosphere; begin with **easy items**; avoid threats or announcing that the test is 'very hard'; allow adequate time; ensure a comfortable, quiet room.",
+  "explanation": "## Advanced explanation\n\nTest preparation and good administration improve the validity of results.\n\n## Simplified explanation\n\nForgetting and anxiety; tell them when, what, format, time, scoring; calm environment.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Test Construction & Administration",
+   "2021 End-of-Semester Paper"
+  ]
+ }
+]

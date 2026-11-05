@@ -1,0 +1,2398 @@
+[
+ {
+  "type": "choice",
+  "body": "The statement $f(x) \\approx f(a) + f'(a)(x - a)$ is known as the",
+  "options": [
+   {
+    "text": "linear interpolation of $f$ at $a$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "linear combination of $f$ at $a$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "linear approximation of $f$ at $a$",
+    "hint": "Correct."
+   },
+   {
+    "text": "linear differentiation of $f$ at $a$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThis is the tangent-line (linear) approximation, or **linearisation** $L(x)$, of $f$ near $a$.\n\n## Simplified explanation\n\nTangent line approximation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The position of a particle is $f(t) = t^3 - 6t^2 + 9t$. What is the velocity after 2 s?",
+  "options": [
+   {
+    "text": "$3$ m/s",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-3$ m/s",
+    "hint": "Correct."
+   },
+   {
+    "text": "$9$ m/s",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-9$ m/s",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$v = f'(t) = 3t^2 - 12t + 9$; $v(2) = 12 - 24 + 9 = -3$ m/s.\n\n## Simplified explanation\n\nVelocity = derivative of position.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(x) = \\ln(x^2 + 1)$, find $f'(1)$.",
+  "options": [
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$0.5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.5$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'(x) = \\dfrac{2x}{x^2 + 1}$; $f'(1) = \\dfrac22 = 1$.\n\n## Simplified explanation\n\nChain rule: $(\\ln u)' = u'/u$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(x) = x^2 e^{-3x}$, find $f'(0)$.",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'(x) = 2xe^{-3x} - 3x^2e^{-3x}$; at $x = 0$ both terms vanish.\n\n## Simplified explanation\n\nProduct rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f$ and $g$ are differentiable, then $(fg)' = fg' + gf'$. This is the",
+  "options": [
+   {
+    "text": "Power Rule",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Product Rule",
+    "hint": "Correct."
+   },
+   {
+    "text": "Quotient Rule",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Sum Rule",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe product rule.\n\n## Simplified explanation\n\nProduct.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the gradient function of $y = x^2 - \\dfrac{1}{x^3}$.",
+  "options": [
+   {
+    "text": "$2x + \\dfrac{3}{x^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2x - \\dfrac{3}{x^4}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2x + \\dfrac{3}{x^4}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2x - \\dfrac{3}{x^2}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$y = x^2 - x^{-3} \\Rightarrow y' = 2x + 3x^{-4}$.\n\n## Simplified explanation\n\nWrite $1/x^3$ as $x^{-3}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(x) = 3x^2 - 12x + 5$ and $f'(x) = -3$, find $x$.",
+  "options": [
+   {
+    "text": "$\\tfrac32$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac52$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$6x - 12 = -3 \\Rightarrow x = \\tfrac32$.\n\n## Simplified explanation\n\nDifferentiate and solve.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the second derivative of a function $f$ is a linear function, then $f$ is a",
+  "options": [
+   {
+    "text": "cubic function",
+    "hint": "Correct."
+   },
+   {
+    "text": "quadratic function",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "constant function",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "rational function",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nEach differentiation lowers a polynomial's degree by 1: cubic \u2192 quadratic \u2192 linear.\n\n## Simplified explanation\n\nDegree drops by 2.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $y = (2x + 4)^6$, find $\\dfrac{dy}{dx}$.",
+  "options": [
+   {
+    "text": "$12(2x + 4)^5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$6(2x - 4)^5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6(2x + 4)^5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$12(2x - 4)^6$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nChain rule: $6(2x + 4)^5 \\cdot 2$.\n\n## Simplified explanation\n\nMultiply by the inner derivative.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $2x^3 + 3y^2 = 4xy$, find $\\dfrac{dy}{dx}$.",
+  "options": [
+   {
+    "text": "$\\dfrac{3y - 2x^2}{2y - 3x}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2y - 3x}{2y - 3x^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2y - 3x^2}{3y - 2x}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{y - 2x^2}{2y - 3x}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$6x^2 + 6yy' = 4y + 4xy' \\Rightarrow y'(6y - 4x) = 4y - 6x^2 \\Rightarrow y' = \\dfrac{2y - 3x^2}{3y - 2x}$.\n\n## Simplified explanation\n\nImplicit differentiation.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "For what value(s) of $x$ is the tangent to $f(x) = \\tfrac13x^3 - x^2 + 3$ parallel to the $x$-axis?",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$ and $3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$ and $2$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'(x) = x^2 - 2x = x(x - 2) = 0$.\n\n## Simplified explanation\n\nHorizontal tangent \u21d2 $f'(x) = 0$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an indeterminate form?",
+  "options": [
+   {
+    "text": "$\\infty + \\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty^\\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty - \\infty$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\infty \\times \\infty$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nIndeterminate: $\\tfrac00, \\tfrac\\infty\\infty, 0\\cdot\\infty, \\infty - \\infty, 0^0, 1^\\infty, \\infty^0$. The others are simply $\\infty$.\n\n## Simplified explanation\n\nWhich can come out as anything?",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\lim_{x\\to0^+} x^x$.",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$e$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\ln x^x = x\\ln x \\to 0$ (by L'H\u00f4pital on $\\tfrac{\\ln x}{1/x}$), so $x^x \\to e^0 = 1$.\n\n## Simplified explanation\n\nTake logs.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Calculate $\\displaystyle\\lim_{x\\to\\infty}(e^x - x)$.",
+  "options": [
+   {
+    "text": "$\\infty$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$e$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$e^x$ grows much faster than $x$: $e^x - x = e^x(1 - xe^{-x}) \\to \\infty$.\n\n## Simplified explanation\n\nExponential beats polynomial.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What type of indeterminate form is $\\displaystyle\\lim_{x\\to0^+} x\\ln x$?",
+  "options": [
+   {
+    "text": "Indeterminate quotient",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Indeterminate power",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Indeterminate difference",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Indeterminate product",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x \\to 0$, $\\ln x \\to -\\infty$: the form $0 \\cdot \\infty$.\n\n## Simplified explanation\n\n$0 \\times \\infty$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to0}\\frac{e^x - x - 1}{x^2}$.",
+  "options": [
+   {
+    "text": "$-1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac12$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nL'H\u00f4pital twice: $\\dfrac{e^x - 1}{2x} \\to \\dfrac{e^x}{2} \\to \\tfrac12$.\n\n## Simplified explanation\n\nApply L'H\u00f4pital twice.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to1}\\frac{x - 1}{x^2 - 3x + 2}$.",
+  "options": [
+   {
+    "text": "$\\tfrac12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-\\tfrac12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-1$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{x - 1}{(x - 1)(x - 2)} = \\dfrac{1}{x - 2} \\to -1$.\n\n## Simplified explanation\n\nFactor and cancel.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to9}\\frac{x - 9}{3 - \\sqrt x}$.",
+  "options": [
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac00$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-6$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x - 9 = (\\sqrt x - 3)(\\sqrt x + 3)$, so the expression $= -(\\sqrt x + 3) \\to -6$.\n\n## Simplified explanation\n\nDifference of squares.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Must we use the quotient rule to differentiate $y = \\dfrac{3x^2 + 2\\sqrt x}{x}$?",
+  "options": [
+   {
+    "text": "Yes",
+    "hint": "Not quite. You can simplify first."
+   },
+   {
+    "text": "No",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about it before computing.",
+  "explanation": "## Advanced explanation\n\nSimplify first: $y = 3x + 2x^{-1/2}$, so $y' = 3 - x^{-3/2}$.\n\n## Simplified explanation\n\nYou can simplify first.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Is $\\displaystyle\\lim_{x\\to2}\\frac{x^4 - 16}{x^2 - 4}$ indeterminate (on direct substitution)?",
+  "options": [
+   {
+    "text": "Yes",
+    "hint": "Correct."
+   },
+   {
+    "text": "No",
+    "hint": "Not quite. Direct substitution gives $0/0$."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about it before computing.",
+  "explanation": "## Advanced explanation\n\nSubstitution gives $\\tfrac{0}{0}$. (After factoring, the limit is $x^2 + 4 \\to 8$.)\n\n## Simplified explanation\n\nDirect substitution gives $0/0$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "March 2021 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) State the conditions for $f(x)$ to be continuous at $x = c$. Hence determine the continuity at $x = 2$ of $g(x) = \\begin{cases}\\dfrac{x^2 - x - 2}{x - 2}, & x \\ne 2\\\\ 1, & x = 2\\end{cases}$. (b) Show that the linearisation of $f(x) = (1 + x)^k$ at $x = 0$ is $L(x) = 1 + kx$ and use it to estimate $(1.0002)^{50}$.",
+  "media": [],
+  "answer": "**(a)** (i) $f(c)$ is defined; (ii) $\\lim_{x\\to c} f(x)$ exists; (iii) $\\lim_{x\\to c} f(x) = f(c)$.\n\n$g(2) = 1$. For $x \\ne 2$, $g(x) = \\dfrac{(x - 2)(x + 1)}{x - 2} = x + 1 \\to 3$. Since $3 \\ne 1$, $g$ is **not continuous** at $x = 2$ (removable discontinuity).\n\n**(b)** $f(0) = 1$, $f'(x) = k(1 + x)^{k-1}$, $f'(0) = k$, so $L(x) = 1 + kx$. With $x = 0.0002$, $k = 50$: $(1.0002)^{50} \\approx 1 + 50(0.0002) = 1.01$.\n\n> [!answer]\n> Discontinuous at $x = 2$; $(1.0002)^{50} \\approx 1.01$.",
+  "explanation": "## Advanced explanation\n\nAll three conditions must hold.\n\n## Simplified explanation\n\nFactor the numerator.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Limits & Continuity",
+   "Applications of Derivatives",
+   "May 2022 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Find the tangent line to $y = g(x)$ at $x = 5$ if $g(5) = -3$ and $g'(5) = 4$. (b) Using first principles, find the slope of the tangent to $y = 4x - x^2$ at $(1, 3)$.",
+  "media": [],
+  "answer": "**(a)** $y + 3 = 4(x - 5) \\Rightarrow y = 4x - 23$.\n\n**(b)** $f(1 + h) = 4(1 + h) - (1 + h)^2 = 3 + 2h - h^2$. $\\dfrac{f(1 + h) - f(1)}{h} = \\dfrac{2h - h^2}{h} = 2 - h \\to 2$ as $h \\to 0$.\n\n> [!answer]\n> $y = 4x - 23$; slope $= 2$.",
+  "explanation": "## Advanced explanation\n\nFirst principles: $\\lim_{h\\to0}\\frac{f(x+h)-f(x)}{h}$.\n\n## Simplified explanation\n\nExpand, cancel $h$, let $h \\to 0$.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Differentiation",
+   "May 2022 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Use L'H\u00f4pital's rule to evaluate $\\displaystyle\\lim_{x\\to\\infty}\\frac{5x^3 - 2x}{7x^3}$. (b) Evaluate $\\displaystyle\\int_1^5 \\frac{x}{\\sqrt{2x - 1}}\\,dx$ (let $u = \\sqrt{2x - 1}$).",
+  "media": [],
+  "answer": "**(a)** $\\tfrac\\infty\\infty$: $\\dfrac{15x^2 - 2}{21x^2} \\to \\dfrac{30x}{42x} \\to \\dfrac{30}{42} = \\dfrac57$.\n\n**(b)** $u^2 = 2x - 1$, $x = \\tfrac{u^2 + 1}{2}$, $dx = u\\,du$; limits $u = 1$ to $3$. $\\displaystyle\\int_1^3 \\frac{u^2 + 1}{2u}u\\,du = \\tfrac12\\left[\\tfrac{u^3}{3} + u\\right]_1^3 = \\tfrac12\\left(12 - \\tfrac43\\right) = \\tfrac{16}{3}$.\n\n> [!answer]\n> $\\tfrac57$; $\\tfrac{16}{3}$.",
+  "explanation": "## Advanced explanation\n\nChange the limits when you substitute.\n\n## Simplified explanation\n\nDifferentiate top and bottom until it resolves.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Limits & Continuity",
+   "Integration",
+   "May 2022 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) A point moves so that $x = t^2 + 2t$ and $y = 2t^3 - 6t$. Find $\\dfrac{dy}{dx}$ when $t = 0, 2, 5$. (b) A particle starts 5 m from a fixed point $O$ with velocity $v = 3t^2 + 2t + 1$. Find (i) its displacement from $O$ after 2 s; (ii) its acceleration after 2 s.",
+  "media": [],
+  "answer": "**(a)** $\\dfrac{dy}{dx} = \\dfrac{6t^2 - 6}{2t + 2} = \\dfrac{6(t-1)(t+1)}{2(t+1)} = 3(t - 1)$: $t = 0 \\to -3$; $t = 2 \\to 3$; $t = 5 \\to 12$.\n\n**(b)** $s = t^3 + t^2 + t + c$, $s(0) = 5 \\Rightarrow c = 5$; $s(2) = 8 + 4 + 2 + 5 = 19$ m. $a = 6t + 2 = 14$ m/s\u00b2.\n\n> [!answer]\n> dy/dx = \u22123, 3, 12; displacement 19 m; acceleration 14 m/s\u00b2.",
+  "explanation": "## Advanced explanation\n\nParametric: $\\frac{dy}{dx} = \\frac{dy/dt}{dx/dt}$.\n\n## Simplified explanation\n\nIntegrate velocity, using the initial position.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Applications of Derivatives",
+   "May 2022 Section B"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $\\displaystyle\\lim_{x\\to a} f(x) = A$, what is $\\displaystyle\\lim_{x\\to a} cf(x)$?",
+  "options": [
+   {
+    "text": "$A + c$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$cA$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$A$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$A - c$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nConstant multiple law.\n\n## Simplified explanation\n\nConstants factor out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to-1}\\frac{\\ln x}{x + 1}$.",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Does not exist",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\ln x$ is undefined for $x \\le 0$, so there is no neighbourhood of $-1$ on which the function is defined.\n\n## Simplified explanation\n\nDomain of $\\ln$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to4}\\sqrt{25 - x^2}$.",
+  "options": [
+   {
+    "text": "$9$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nContinuous there: $\\sqrt{25 - 16} = 3$.\n\n## Simplified explanation\n\nSubstitute.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "At which point is $f(x) = \\dfrac{x^2 - 4}{x - 2}$ **not** continuous?",
+  "options": [
+   {
+    "text": "$x = 4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 2$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f(2)$ is undefined (division by zero).\n\n## Simplified explanation\n\nWhere is it undefined?",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement is **not** a condition for $f$ to be continuous at $x_0$?",
+  "options": [
+   {
+    "text": "$\\displaystyle\\lim_{x\\to x_0} f(x)$ exists",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\displaystyle\\lim_{x\\to x_0} f(x) \\ne f(x_0)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\displaystyle\\lim_{x\\to x_0} f(x) = f(x_0)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$f(x_0)$ is defined",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe three conditions require equality, not inequality.\n\n## Simplified explanation\n\nLook for the contradiction.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $u$ and $v$ are functions of $x$, find $\\dfrac{d(uv)}{dx}$.",
+  "options": [
+   {
+    "text": "$u\\dfrac{dv}{dx} + v\\dfrac{du}{dx}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{du}{dx} + \\dfrac{dv}{dx}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{du\\,dv}{dx^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{du}{dx}\\cdot\\dfrac{dv}{dx}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nProduct rule.\n\n## Simplified explanation\n\nProduct rule.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $y = f(u)$ and $u = g(x)$ are differentiable, then $\\dfrac{dy}{dx}$ is",
+  "options": [
+   {
+    "text": "$\\dfrac{dy}{du} - \\dfrac{dx}{du}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{dy\\,dx}{du^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{dy}{du} + \\dfrac{dx}{du}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{dy}{du}\\cdot\\dfrac{du}{dx}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nChain rule.\n\n## Simplified explanation\n\nChain rule.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\dfrac{d}{dx}(2 - 3x)^5$.",
+  "options": [
+   {
+    "text": "$-15(2 - 3x)^4$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-15x(2 - 3x)^4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-15(2 - 3x)^5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$15(2 + 3x)^4$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$5(2 - 3x)^4 \\cdot (-3)$.\n\n## Simplified explanation\n\nChain rule: inner derivative $-3$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the linearisation $L(x)$ of $f(x) = \\sqrt x$ at $a = 4$.",
+  "options": [
+   {
+    "text": "$1 + \\tfrac12x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1 + \\tfrac14x$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2 + \\tfrac12x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2 + \\tfrac14x$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f(4) = 2$, $f'(4) = \\tfrac{1}{2\\sqrt4} = \\tfrac14$: $L(x) = 2 + \\tfrac14(x - 4) = 1 + \\tfrac14x$.\n\n## Simplified explanation\n\n$L(x) = f(a) + f'(a)(x - a)$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The linearisation of $g(x) = \\sqrt[3]{1 + x}$ at $a = 0$ is $L(x) = 1 + \\tfrac13x$. Use it to estimate $\\sqrt[3]{1.1}$.",
+  "options": [
+   {
+    "text": "$1.05$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.02$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.04$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.03$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x = 0.1$: $1 + \\tfrac{0.1}{3} \\approx 1.033$. (Exact $\\approx 1.0323$.)\n\n## Simplified explanation\n\nSubstitute $x = 0.1$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\lim_{x\\to1}\\frac{\\ln x}{x - 1}$.",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\tfrac00$: L'H\u00f4pital gives $\\dfrac{1/x}{1} \\to 1$.\n\n## Simplified explanation\n\nL'H\u00f4pital.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\int_0^2(4t + 3)\\,dt$.",
+  "options": [
+   {
+    "text": "$17$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$20$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$15$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$14$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$[2t^2 + 3t]_0^2 = 8 + 6 = 14$.\n\n## Simplified explanation\n\nIntegrate, then substitute the limits.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Integration",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $m_1$ and $m_2$ are the gradients of the tangent and normal to a curve at a point, what is $m_1m_2$?",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nTangent and normal are perpendicular.\n\n## Simplified explanation\n\nPerpendicular.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the equation of the normal to $y = x^3 - 2x^2 + 4$ at $(2, 4)$.",
+  "options": [
+   {
+    "text": "$x - 4y = 18$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x + 4y = 18$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$4x + y = 18$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4x - y = 18$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$y' = 3x^2 - 4x = 4$ at $x = 2$; normal gradient $-\\tfrac14$: $y - 4 = -\\tfrac14(x - 2) \\Rightarrow x + 4y = 18$.\n\n## Simplified explanation\n\nNormal gradient = $-1/m$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A particle's velocity is $v = 3t^2 + 2t - 1$ m/s. Find its acceleration at $t = 2$ s.",
+  "options": [
+   {
+    "text": "10 m/s\u00b2",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "17 m/s\u00b2",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "14 m/s\u00b2",
+    "hint": "Correct."
+   },
+   {
+    "text": "13 m/s\u00b2",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$a = 6t + 2 = 14$.\n\n## Simplified explanation\n\nDifferentiate velocity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the area under $y = x^2 + 2$, above the $x$-axis, between $x = 1$ and $x = 3$.",
+  "options": [
+   {
+    "text": "$12\\tfrac57$ sq units",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$10\\tfrac23$ sq units",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$12\\tfrac23$ sq units",
+    "hint": "Correct."
+   },
+   {
+    "text": "$12\\tfrac27$ sq units",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\left[\\tfrac{x^3}{3} + 2x\\right]_1^3 = 15 - \\tfrac73 = \\tfrac{38}{3}$.\n\n## Simplified explanation\n\nDefinite integral.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Integration",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the area enclosed by the parabolas $y = x^2$ and $y = 2x - x^2$.",
+  "options": [
+   {
+    "text": "$\\tfrac12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac13$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nIntersect at $x = 0, 1$: $\\int_0^1 (2x - 2x^2)\\,dx = 1 - \\tfrac23 = \\tfrac13$.\n\n## Simplified explanation\n\nTop minus bottom between intersections.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Integration",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $y''$ given $x + xy + y = 2$.",
+  "options": [
+   {
+    "text": "$\\dfrac{1 + y}{(1 + x)^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2(1 + y)}{(1 + x)^2}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{1 - y}{(1 + x)^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2(1 - y)}{(1 + x)^2}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$1 + y + xy' + y' = 0 \\Rightarrow y' = -\\dfrac{1 + y}{1 + x}$. Then $y'' = -\\dfrac{y'(1 + x) - (1 + y)}{(1 + x)^2} = \\dfrac{2(1 + y)}{(1 + x)^2}$.\n\n## Simplified explanation\n\nDifferentiate $y'$ again and substitute it.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "August 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which quantity is **not** an indeterminate form?",
+  "options": [
+   {
+    "text": "$\\infty - \\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0/0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty/\\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty + \\infty$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\infty + \\infty = \\infty$ unambiguously.\n\n## Simplified explanation\n\nWhich always gives the same result?",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) = xe^x$, find $f'(x)$.",
+  "options": [
+   {
+    "text": "$(x + 1)e^x$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$e^x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$xe^x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(x + 2)e^x$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$e^x + xe^x$.\n\n## Simplified explanation\n\nProduct rule.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) = e^xg(x)$ with $g(0) = 2$ and $g'(0) = 5$, find $f'(0)$.",
+  "options": [
+   {
+    "text": "$7$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$10$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$5$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f' = e^x g + e^x g' \\Rightarrow 2 + 5 = 7$.\n\n## Simplified explanation\n\nProduct rule at $x = 0$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $g$ is differentiable, find the derivative of $y = xg(x)$.",
+  "options": [
+   {
+    "text": "$g(x) + xg'(x)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$g(x)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$g'(x) + g(x)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$g'(x) + xg(x)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nProduct rule.\n\n## Simplified explanation\n\nProduct rule.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose $f(5) = 1$, $f'(5) = 6$, $g(5) = -3$, $g'(5) = 2$. Find $(fg)'(5)$.",
+  "options": [
+   {
+    "text": "$12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-16$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$16$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-18$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'g + fg' = 6(-3) + 1(2) = -16$.\n\n## Simplified explanation\n\nProduct rule with numbers.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\dfrac{d}{dx}\\left(\\dfrac{1}{g(x)}\\right)$.",
+  "options": [
+   {
+    "text": "$\\dfrac{g'(x)}{(g(x))^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-\\dfrac{g'(x)}{(g(x))^2}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-\\dfrac{1}{g(x)}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{1}{g(x)}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nReciprocal rule: $(g^{-1})' = -g^{-2}g'$.\n\n## Simplified explanation\n\nChain rule on $g^{-1}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\dfrac{d}{dx}\\left(\\dfrac{h(x)}{x}\\right)$ at $x = 2$ if $h(2) = 4$ and $h'(2) = -3$.",
+  "options": [
+   {
+    "text": "$-2.5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$3.5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2.5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-3.5$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{xh' - h}{x^2} = \\dfrac{2(-3) - 4}{4} = -2.5$.\n\n## Simplified explanation\n\nQuotient rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(4) = 2$, $g(4) = 5$, $f'(4) = 6$, $g'(4) = -3$, find $h'(4)$ if $h = \\dfrac fg$.",
+  "options": [
+   {
+    "text": "$-\\tfrac{24}{25}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-\\tfrac{36}{25}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{36}{25}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac{24}{25}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{f'g - fg'}{g^2} = \\dfrac{30 + 6}{25}$.\n\n## Simplified explanation\n\nQuotient rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(x) = \\dfrac{x}{e^x}$, find $f'(0)$.",
+  "options": [
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-1$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f = xe^{-x}$, $f' = e^{-x}(1 - x) \\Rightarrow f'(0) = 1$.\n\n## Simplified explanation\n\nRewrite as $xe^{-x}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the derivative of $f(x) = \\sqrt{2x + 1}$.",
+  "options": [
+   {
+    "text": "$\\dfrac{1}{2\\sqrt{2x + 1}}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2}{\\sqrt{2x + 1}}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{1}{\\sqrt{2x + 1}}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\sqrt{2x + 1}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\tfrac12(2x + 1)^{-1/2}\\cdot 2$.\n\n## Simplified explanation\n\nChain rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "At what point on $y = \\sqrt{1 + 2x}$ is the tangent perpendicular to $6x + 2y = 1$?",
+  "options": [
+   {
+    "text": "$(1, 2)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(4, 3)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(2, 1)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(3, 4)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nLine gradient $-3$ \u2192 tangent gradient $\\tfrac13$: $\\dfrac{1}{\\sqrt{1 + 2x}} = \\tfrac13 \\Rightarrow x = 4$, $y = 3$.\n\n## Simplified explanation\n\nPerpendicular gradient, then solve $y' = 1/3$.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $h(x) = f(g(x))$ with $f(-2) = 8$, $f'(-2) = 4$, $f'(5) = 3$, $g(5) = -2$, $g'(5) = 6$, find $h'(5)$.",
+  "options": [
+   {
+    "text": "$48$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$24$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-8$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-16$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$h'(5) = f'(g(5))g'(5) = f'(-2)(6) = 24$.\n\n## Simplified explanation\n\nEvaluate $f'$ at $g(5)$, not at 5.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $f'(x)$ if $f(x) = (2x^3 + 5)^4$.",
+  "options": [
+   {
+    "text": "$4(2x^3 + 5)^3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$24x^2(2x^3 + 5)^3$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(2x^3 + 5)^3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6x^2(2x^3 + 5)^3$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$4(2x^3 + 5)^3 \\cdot 6x^2$.\n\n## Simplified explanation\n\nChain rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\dfrac{dy}{dx}$ by implicit differentiation if $xy = \\sqrt{x^2 + y^2}$.",
+  "options": [
+   {
+    "text": "$\\dfrac{x^2y - y}{x - xy^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{xy^2 - x}{x^2y - y}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{x + xy^2}{x^2y + y}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{x - xy^2}{x^2y - y}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$y + xy' = \\dfrac{x + yy'}{\\sqrt{x^2 + y^2}} = \\dfrac{x + yy'}{xy}$, so $xy^2 + x^2yy' = x + yy'$ and $y' = \\dfrac{x - xy^2}{x^2y - y}$.\n\n## Simplified explanation\n\nUse $\\sqrt{x^2+y^2} = xy$ to simplify.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) + x^2[f(x)]^3 = 10$ and $f(1) = 2$, find $f'(1)$.",
+  "options": [
+   {
+    "text": "$\\tfrac{16}{11}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-\\tfrac{16}{13}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac43$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{16}{13}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f' + 2xf^3 + 3x^2f^2f' = 0$; at $x = 1$: $f' + 16 + 12f' = 0 \\Rightarrow f' = -\\tfrac{16}{13}$.\n\n## Simplified explanation\n\nDifferentiate implicitly, then substitute.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $f(x) = x^3 + 2x^2 + x - 1$, find $f''(2)$.",
+  "options": [
+   {
+    "text": "$16$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$21$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$25$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'' = 6x + 4 = 16$.\n\n## Simplified explanation\n\nDifferentiate twice.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to1}\\frac{x^a - 1}{x^b - 1}$, $b \\ne 0$.",
+  "options": [
+   {
+    "text": "$a$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$b$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$a/b$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nL'H\u00f4pital: $\\dfrac{ax^{a-1}}{bx^{b-1}} \\to \\dfrac ab$.\n\n## Simplified explanation\n\n$0/0$ form.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\lim_{x\\to0}x^3e^{-x^2}$.",
+  "options": [
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nContinuous: $0 \\cdot 1 = 0$.\n\n## Simplified explanation\n\nJust substitute.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\lim_{x\\to a}\\frac{x^n - a^n}{x - a}$, $a > 0$.",
+  "options": [
+   {
+    "text": "$na^{n-1}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$a^n$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$a^{n-1}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\infty$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nIt is the derivative of $x^n$ at $a$ (or L'H\u00f4pital).\n\n## Simplified explanation\n\nDefinition of the derivative.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "July 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the gradient of the **normal** to $x^2 - 2xy + 3y^2 - x = 4$ at $(2, -1)$.",
+  "options": [
+   {
+    "text": "$\\tfrac12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-2$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-\\tfrac12$",
+    "hint": "That's the negative of the tangent gradient, not the normal."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$2x - 2y - 2xy' + 6yy' - 1 = 0$; at $(2,-1)$: $4 + 2 - 4y' - 6y' - 1 = 0 \\Rightarrow y' = \\tfrac12$. Normal gradient $= -\\dfrac{1}{1/2} = -2$.\n\n## Simplified explanation\n\nNormal = $-1/(\\text{tangent gradient})$.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $x = 3r^2 - 2r$ and $y = 2r^2 + 2$, find $\\dfrac{dy}{dx}$ in terms of $r$.",
+  "options": [
+   {
+    "text": "$\\dfrac{2r - 1}{3r^2 - r}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{2r}{3r - 1}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$24r^2 + 8r$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$24r^2 - 8r$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{dy/dr}{dx/dr} = \\dfrac{4r}{6r - 2} = \\dfrac{2r}{3r - 1}$.\n\n## Simplified explanation\n\nDivide the parametric derivatives.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An ink blot spreads at 0.5 cm\u00b2/s. Find the rate at which its radius increases when the radius is 1 cm.",
+  "options": [
+   {
+    "text": "$\\dfrac{2}{3\\pi}$ cm/s",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{1}{4\\pi}$ cm/s",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{1}{3\\pi}$ cm/s",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{1}{2\\pi}$ cm/s",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{dA}{dt} = 2\\pi r\\dfrac{dr}{dt} \\Rightarrow 0.5 = 2\\pi\\dfrac{dr}{dt} \\Rightarrow \\dfrac{dr}{dt} = \\dfrac{1}{4\\pi}$.\n\n## Simplified explanation\n\nConnected rates of change.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\int_2^5(2x - 5x^4)\\,dx$.",
+  "options": [
+   {
+    "text": "$-3037$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-3100$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-3072$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-3115$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$[x^2 - x^5]_2^5 = (25 - 3125) - (4 - 32) = -3072$.\n\n## Simplified explanation\n\nIntegrate term by term.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Integration",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\int(3x^2 - 5)\\,dx$.",
+  "options": [
+   {
+    "text": "$x^3 - 5 + c$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x^3 - 5x + c$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$x^3 - 5x^2 + c$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x^3 + 5x + c$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nPower rule for integrals.\n\n## Simplified explanation\n\nDon't forget $+c$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Integration",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) A gardener has 200 m of railing to form two adjacent sides of a rectangular enclosure; the other two sides are existing walls meeting at a right angle. Find the greatest possible area. (b) Find the gradient of $x^2 - 3xy + 2y^2 - 2x = 4$ at $(1, -1)$. (c) Evaluate $\\displaystyle\\int_1^4\\frac{2x + 4}{x^3}\\,dx$.",
+  "media": [],
+  "answer": "**(a)** $x + y = 200$, $A = xy = (200 - y)y$; $\\dfrac{dA}{dy} = 200 - 2y = 0 \\Rightarrow y = 100 = x$; $A_{max} = 10\\,000$ m\u00b2.\n\n**(b)** $2x - 3y - 3xy' + 4yy' - 2 = 0 \\Rightarrow y' = \\dfrac{2 + 3y - 2x}{4y - 3x} = \\dfrac{2 - 3 - 2}{-4 - 3} = \\dfrac37$.\n\n**(c)** $\\displaystyle\\int_1^4(2x^{-2} + 4x^{-3})\\,dx = \\left[-\\tfrac2x - \\tfrac{2}{x^2}\\right]_1^4 = \\left(-\\tfrac12 - \\tfrac18\\right) - (-4) = \\tfrac{27}{8}$.\n\n> [!answer]\n> 10 000 m\u00b2; $\\tfrac37$; $\\tfrac{27}{8}$.",
+  "explanation": "## Advanced explanation\n\nOptimisation: set the derivative to zero.\n\n## Simplified explanation\n\nOnly two sides use railing.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Applications of Derivatives",
+   "Integration",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Sketch $y = x^3 - 9x^2 + 15x - 7$. (b) A 2% error is made in measuring the radius of a sphere. Find the percentage error in its surface area. (c) A rider starts from rest and covers $S = \\tfrac16t^3 + \\tfrac14t^2$ m in $t$ s. Find the acceleration (i) initially; (ii) at the end of the 2nd second.",
+  "media": [],
+  "answer": "**(a)** $y = (x - 1)^2(x - 7)$: touches the $x$-axis at $x = 1$ and crosses at $x = 7$; $y$-intercept $-7$. $y' = 3(x - 1)(x - 5)$: **maximum** $(1, 0)$, **minimum** $(5, -32)$; inflection at $(3, -16)$. Cubic rising to the right.\n\n**(b)** $A = 4\\pi r^2 \\Rightarrow \\dfrac{\\delta A}{A} \\approx 2\\dfrac{\\delta r}{r} = 2(2\\%) = 4\\%$.\n\n**(c)** $v = \\tfrac12t^2 + \\tfrac12t$, $a = t + \\tfrac12$: (i) $0.5$ m/s\u00b2; (ii) $2.5$ m/s\u00b2.\n\n> [!answer]\n> Max $(1, 0)$, min $(5, -32)$; 4%; 0.5 m/s\u00b2 and 2.5 m/s\u00b2.",
+  "explanation": "## Advanced explanation\n\nPercentage error multiplies by the power.\n\n## Simplified explanation\n\nFind stationary points and intercepts first.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Applications of Derivatives",
+   "End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the gradient function of $y = (5 - x)^{-3}$.",
+  "options": [
+   {
+    "text": "$\\dfrac{-3}{(5 - x)^4}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{3}{(5 - x)^4}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{-15}{(5 - x)^4}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{15}{(5 - x)^4}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$-3(5 - x)^{-4}\\cdot(-1) = 3(5 - x)^{-4}$.\n\n## Simplified explanation\n\nInner derivative is $-1$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the derivative of $\\dfrac{2x - 1}{3x + 1}$.",
+  "options": [
+   {
+    "text": "$\\dfrac{5}{(3x + 1)^2}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-\\dfrac{5}{(3x + 1)^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{12x + 1}{(3x + 1)^2}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{12x - 1}{(3x + 1)^2}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{2(3x + 1) - 3(2x - 1)}{(3x + 1)^2} = \\dfrac{5}{(3x + 1)^2}$.\n\n## Simplified explanation\n\nQuotient rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Differentiate $x^2 + xy - 5 = 0$ with respect to $x$.",
+  "options": [
+   {
+    "text": "$\\dfrac{dy}{dx} = \\dfrac{-x}{2x + y}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{dy}{dx} = -\\dfrac{2x + y}{x}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\dfrac{dy}{dx} = \\dfrac{x}{2x - y}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\dfrac{dy}{dx} = \\dfrac{x}{2x + y}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$2x + y + xy' = 0 \\Rightarrow y' = -\\dfrac{2x + y}{x}$.\n\n## Simplified explanation\n\nProduct rule on $xy$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) = \\dfrac{5x^3 + x^2}{x}$, $x \\ne 0$, find $f'(x)$.",
+  "options": [
+   {
+    "text": "$10x + 1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$x(15x + 1)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$10x + 2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x(15x + 2)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSimplify: $f = 5x^2 + x$, $f' = 10x + 1$.\n\n## Simplified explanation\n\nDivide first.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $y = x(2x + 3)(x^2 + x)$, find $\\dfrac{dy}{dx}$.",
+  "options": [
+   {
+    "text": "$16x^3 - 15x^2 - 6x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$16x^3 + 15x^2 + 6x$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$8x^3 + 15x^2 + 6x$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$8x^3 - 15x^2 - 6x$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nExpand: $y = 2x^4 + 5x^3 + 3x^2$.\n\n## Simplified explanation\n\nExpand before differentiating.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to\\infty}\\frac{3x^3 - 4x^2 + 2}{7x^3 + 3x}$.",
+  "options": [
+   {
+    "text": "$-\\tfrac57$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-\\tfrac37$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac37$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac75$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nRatio of leading coefficients (equal degrees).\n\n## Simplified explanation\n\nDivide by $x^3$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) = x^3 - 3x^2 + 2x$, find $q$ given $f''(q) = 24$.",
+  "options": [
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f'' = 6x - 6 = 24 \\Rightarrow x = 5$.\n\n## Simplified explanation\n\nDifferentiate twice.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $f(x) = \\begin{cases}4x - 7, & x > 3\\\\ x^2 - 3, & -2 < x < 3\\\\ 2x + 3, & x < -2\\end{cases}$, find $\\displaystyle\\lim_{x\\to-4^+} f(x)$.",
+  "options": [
+   {
+    "text": "$-5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$-15$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$13$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nNear $-4$ the rule is $2x + 3$: $2(-4) + 3 = -5$.\n\n## Simplified explanation\n\nPick the right branch.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evaluate $\\displaystyle\\lim_{x\\to2}\\frac{x^2 - 3x + 2}{x^2 - 4}$.",
+  "options": [
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac34$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac14$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{(x - 1)(x - 2)}{(x - 2)(x + 2)} = \\dfrac{x - 1}{x + 2} \\to \\tfrac14$.\n\n## Simplified explanation\n\nFactor and cancel.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the derivative of $3x^2 + \\dfrac{1}{x^2}$.",
+  "options": [
+   {
+    "text": "$6x + \\dfrac{1}{2x}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6x - \\dfrac{2}{x^3}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$6x + 2x^2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6x - \\dfrac{1}{2x}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$3x^2 + x^{-2} \\Rightarrow 6x - 2x^{-3}$.\n\n## Simplified explanation\n\nNegative index.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Differentiation",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the least value of $f(x) = 3x^2 + 18x + 32$.",
+  "options": [
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$f' = 6x + 18 = 0 \\Rightarrow x = -3$; $f(-3) = 27 - 54 + 32 = 5$.\n\n## Simplified explanation\n\nSet $f' = 0$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the point on $y = x^2 + 4x - 2$ where the gradient is zero.",
+  "options": [
+   {
+    "text": "$(-2, 10)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(-2, -6)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(-2, 2)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(-2, -2)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$2x + 4 = 0 \\Rightarrow x = -2$, $y = 4 - 8 - 2 = -6$.\n\n## Simplified explanation\n\nStationary point.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Applications of Derivatives",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find $\\displaystyle\\lim_{h\\to0}\\frac{3h + 2h^2 + 4h^3}{h}$.",
+  "options": [
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$3 + 2h + 4h^2 \\to 3$.\n\n## Simplified explanation\n\nCancel $h$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limits & Continuity",
+   "Sample Quiz (McCoy CoE)"
+  ]
+ }
+]

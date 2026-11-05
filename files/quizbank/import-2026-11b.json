@@ -1,0 +1,24 @@
+{
+  "courses": [
+    {
+      "code": "CHE107",
+      "title": "General Chemistry",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast CHE 107 General Chemistry paper (2019/20), 2018/19 and 2019/20 quizzes and Dr Hadzi's tutorial sets: the mole, percent composition and formulas, stoichiometry, limiting reactants and yield, solutions, redox, nomenclature, atomic structure and spectra, quantum numbers, periodic trends, Lewis structures, VSEPR, hybridisation and molecular orbital theory. Every calculation has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 60,
+      "tags": ["UCC", "Chemistry"],
+      "files": ["che107-general-chemistry.json"]
+    },
+    {
+      "code": "PHL205",
+      "title": "Critical Thinking and Practical Reasoning",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast PHL 205 papers and quizzes (2016/17 to 2024, including College of Distance Education and sandwich papers): sentences and propositions, arguments and non-arguments, deductive and inductive arguments, logical forms and formal fallacies, rhetorical devices, informal and causal fallacies, ambiguity and vagueness, causation in population, moral, legal and aesthetic reasoning, plus the course's sample essay questions.",
+      "examQuestions": 20,
+      "examMinutes": 40,
+      "tags": ["UCC", "Philosophy"],
+      "files": ["phl205-critical-thinking-and-practical-reasoning.json"]
+    }
+  ]
+}

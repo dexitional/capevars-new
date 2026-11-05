@@ -1,0 +1,1025 @@
+[
+ {
+  "type": "choice",
+  "body": "The solution of the equation $x^2 - 7x + 12 = 0$ is",
+  "options": [
+   {
+    "text": "$(-3, 4)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(3, -4)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(3, 4)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(-3, -4)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x^2 - 7x + 12 = (x-3)(x-4) = 0 \\Rightarrow x = 3$ or $x = 4$.\n\n## Simplified explanation\n\nTwo numbers multiplying to 12 and adding to 7: 3 and 4.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Quadratics",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given that $\\log_x 343 = 3$, find the value of $x$.",
+  "options": [
+   {
+    "text": "$9$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$7$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\log_x 343 = 3 \\iff x^3 = 343 = 7^3$, so $x = 7$.\n\n## Simplified explanation\n\nRewrite as a power: $x^3 = 343$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Indices, Surds & Logarithms",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statements are **always true** about quadratic graphs?\n\nI. The vertex is a turning point of the graph.\nII. The axis of symmetry is a vertical line passing through the vertex.\nIII. The turning point of the graph is negative.",
+  "options": [
+   {
+    "text": "I and II only",
+    "hint": "Correct."
+   },
+   {
+    "text": "I and III only",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "I, II and III",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "II and III only",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe vertex is always the turning point and the axis of symmetry $x = -\\tfrac{b}{2a}$ always passes through it. The turning point's value can be positive, zero or negative, so III isn't always true.\n\n## Simplified explanation\n\nIII depends on the particular quadratic.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Quadratics",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which pair of numbers is the solution to $x^2 - x - 6 = 0$?",
+  "options": [
+   {
+    "text": "$(-1, 6)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(-2, 3)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(2, -3)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(1, -6)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x^2 - x - 6 = (x-3)(x+2) = 0 \\Rightarrow x = 3$ or $x = -2$.\n\n## Simplified explanation\n\nFactor: $(x-3)(x+2)$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Quadratics",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What range of values satisfies $\\tfrac{3}{4}(x+2) < x + 1$?",
+  "options": [
+   {
+    "text": "$x < 2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x > 2$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$x < 10$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x > 10$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMultiply by 4: $3x + 6 < 4x + 4 \\Rightarrow 2 < x$.\n\n## Simplified explanation\n\nClear the fraction, then collect $x$ terms.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Equations & Inequalities",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the sum to infinity of the exponential series $2, 1, \\tfrac12, \\tfrac14, \\dots$?",
+  "options": [
+   {
+    "text": "$16$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$8$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$a = 2$, $r = \\tfrac12$: $S_\\infty = \\dfrac{a}{1-r} = \\dfrac{2}{1/2} = 4$.\n\n## Simplified explanation\n\n$S_\\infty = a/(1-r)$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A worker's initial annual salary was GH\u20b51,200.00 and it increased by GH\u20b5120.00 yearly. What was the salary in the 10th year?",
+  "options": [
+   {
+    "text": "GH\u20b52,080.00",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "GH\u20b52,280.00",
+    "hint": "Correct."
+   },
+   {
+    "text": "GH\u20b52,400.00",
+    "hint": "That's $1200 + 10(120)$: there are only 9 increases."
+   },
+   {
+    "text": "GH\u20b52,120.00",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nLinear sequence: $U_{10} = a + 9d = 1200 + 9(120) = 2280$.\n\n## Simplified explanation\n\n9 increases by the 10th year.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $A = \\begin{pmatrix}2 & -5\\\\ 6 & 1\\end{pmatrix}$ and $B = \\begin{pmatrix}3 & -2\\\\ -4 & 5\\end{pmatrix}$, find $2A - 3B$.",
+  "options": [
+   {
+    "text": "$\\begin{pmatrix}0 & 11\\\\ -26 & 7\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\begin{pmatrix}-5 & -4\\\\ 24 & -13\\end{pmatrix}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\begin{pmatrix}-5 & -4\\\\ 0 & -13\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\begin{pmatrix}5 & -4\\\\ 26 & -7\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$2A = \\begin{pmatrix}4 & -10\\\\ 12 & 2\\end{pmatrix}$, $3B = \\begin{pmatrix}9 & -6\\\\ -12 & 15\\end{pmatrix}$; subtract entry by entry.\n\n## Simplified explanation\n\nScale each matrix, then subtract corresponding entries.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Matrices & Determinants",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which point lies on the line $3x + 4y = 25$?",
+  "options": [
+   {
+    "text": "$(3, 4)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(1, 6)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(7, 0)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(4, 3)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$3(3) + 4(4) = 9 + 16 = 25$ \u2713. $(4,3)$ gives 24; $(1,6)$ gives 27; $(7,0)$ gives 21.\n\n## Simplified explanation\n\nSubstitute each point.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A sequence is defined by $U_1 = 3$, $U_{n+1} = U_n + 2$. What is $U_3$?",
+  "options": [
+   {
+    "text": "$5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$7$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$9$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$U_2 = 3 + 2 = 5$, $U_3 = 5 + 2 = 7$.\n\n## Simplified explanation\n\nApply the rule twice.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the $x$-intercept of the graph of $x + 3y = 4$?",
+  "options": [
+   {
+    "text": "$x = 0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = \\tfrac43$",
+    "hint": "That's the $y$-intercept value."
+   },
+   {
+    "text": "$x = -4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 4$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nAt the $x$-axis, $y = 0$: $x = 4$.\n\n## Simplified explanation\n\nPut $y = 0$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the $y$-intercept of the graph of $x + 3y = 4$?",
+  "options": [
+   {
+    "text": "$y = 4$",
+    "hint": "That's the $x$-intercept."
+   },
+   {
+    "text": "$y = 0$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$y = \\tfrac43$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$y = -4$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nAt the $y$-axis, $x = 0$: $3y = 4 \\Rightarrow y = \\tfrac43$.\n\n## Simplified explanation\n\nPut $x = 0$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Two natural numbers differ by 17 and their sum is 31. What are the two numbers?",
+  "options": [
+   {
+    "text": "$(6, 25)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(8, 25)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(7, 24)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(6, 23)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x - y = 17$, $x + y = 31 \\Rightarrow 2x = 48$, $x = 24$, $y = 7$.\n\n## Simplified explanation\n\nAdd the two equations.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When the equations of two or more lines have the same gradient, the lines are said to be",
+  "options": [
+   {
+    "text": "skewed",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "rising",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "perpendicular",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "parallel",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nEqual gradients ($m_1 = m_2$) \u2192 parallel; $m_1 m_2 = -1$ \u2192 perpendicular.\n\n## Simplified explanation\n\nSame slope = parallel.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What value of $x$ satisfies $x + y = 8$ and $2x - y = 10$ simultaneously?",
+  "options": [
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$6$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$5$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nAdd: $3x = 18 \\Rightarrow x = 6$ (and $y = 2$).\n\n## Simplified explanation\n\nAdd to eliminate $y$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **dependent** system of linear equations in two variables has ______ solution(s).",
+  "options": [
+   {
+    "text": "one",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "two distinct",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "infinitely many",
+    "hint": "Correct."
+   },
+   {
+    "text": "no",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nDependent equations describe the **same line**, so every point on it is a solution. Inconsistent (parallel) \u2192 none; independent (intersecting) \u2192 one.\n\n## Simplified explanation\n\nSame line \u2192 infinitely many.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the 20th term of the sequence $1, 7, 13, 19, \\dots$?",
+  "options": [
+   {
+    "text": "$121$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$115$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$103$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$109$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$a = 1$, $d = 6$: $U_{20} = 1 + 19(6) = 115$.\n\n## Simplified explanation\n\n$U_n = a + (n-1)d$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If the 2nd and 4th terms of a linear sequence are 26 and 50 respectively, what is the common difference?",
+  "options": [
+   {
+    "text": "$15$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$12$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$13$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$14$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$U_4 - U_2 = 2d = 24 \\Rightarrow d = 12$.\n\n## Simplified explanation\n\nTwo steps separate the terms.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the sum of the first 10 terms of $11, 18, 25, 32, \\dots$?",
+  "options": [
+   {
+    "text": "$418$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$850$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$425$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$740$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$S_{10} = \\tfrac{10}{2}[2(11) + 9(7)] = 5(22 + 63) = 425$.\n\n## Simplified explanation\n\n$S_n = \\tfrac n2[2a + (n-1)d]$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the sixth term of the exponential sequence $5, \\tfrac52, \\tfrac54, \\dots$?",
+  "options": [
+   {
+    "text": "$\\tfrac{5}{48}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{5}{16}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{5}{32}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac{5}{64}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$r = \\tfrac12$: $U_6 = 5\\left(\\tfrac12\\right)^5 = \\tfrac{5}{32}$.\n\n## Simplified explanation\n\n$U_n = ar^{n-1}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2020/21 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In a geometric progression, the 2nd and 5th terms are 10 and 1250 respectively. What is the common ratio?",
+  "options": [
+   {
+    "text": "$5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$2$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{ar^4}{ar} = r^3 = \\dfrac{1250}{10} = 125 \\Rightarrow r = 5$.\n\n## Simplified explanation\n\nDivide the terms.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The determinant of $\\begin{pmatrix}3 & 4\\\\ 5 & 7\\end{pmatrix}$ is",
+  "options": [
+   {
+    "text": "$-1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$13$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-7$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$ad - bc = 3(7) - 4(5) = 21 - 20 = 1$.\n\n## Simplified explanation\n\n$ad - bc$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Matrices & Determinants",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Two natural numbers differ by 27 and their sum is 69. What is the smaller number?",
+  "options": [
+   {
+    "text": "$21$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$15$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$32$",
+    "hint": "No."
+   },
+   {
+    "text": "$48$",
+    "hint": "That's the larger number."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x + y = 69$, $x - y = 27 \\Rightarrow x = 48$, $y = 21$.\n\n## Simplified explanation\n\nSolve simultaneously.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What value of $x$ satisfies $2^x = 3$, correct to four decimal places?",
+  "options": [
+   {
+    "text": "$1.5850$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$0.9985$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.4771$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$1.5885$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x = \\dfrac{\\log 3}{\\log 2} = \\dfrac{0.47712}{0.30103} = 1.5850$.\n\n## Simplified explanation\n\nTake logs of both sides.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Indices, Surds & Logarithms",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What value of $x$ satisfies $\\log_x 1024 = 5$?",
+  "options": [
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$9$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$x^5 = 1024 = 4^5$, so $x = 4$.\n\n## Simplified explanation\n\n$x^5 = 1024$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Indices, Surds & Logarithms",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What range of values satisfies $\\tfrac34(x + 2) < x + 3$?",
+  "options": [
+   {
+    "text": "$x < -6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x > -6$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$x < 6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x > 6$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$3x + 6 < 4x + 12 \\Rightarrow -6 < x$.\n\n## Simplified explanation\n\nMultiply through by 4.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Equations & Inequalities",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $A = \\begin{pmatrix}5 & -1\\\\ 1 & 3\\end{pmatrix}$ and $B = \\begin{pmatrix}5 & -2\\\\ 3 & 0\\end{pmatrix}$, then $C = 3A - B$ is",
+  "options": [
+   {
+    "text": "$\\begin{pmatrix}10 & 5\\\\ -8 & 3\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\begin{pmatrix}10 & -5\\\\ 8 & -3\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\begin{pmatrix}0 & -1\\\\ 2 & -3\\end{pmatrix}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\begin{pmatrix}10 & -1\\\\ 0 & 9\\end{pmatrix}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$3A = \\begin{pmatrix}15 & -3\\\\ 3 & 9\\end{pmatrix}$; $3A - B = \\begin{pmatrix}10 & -1\\\\ 0 & 9\\end{pmatrix}$.\n\n## Simplified explanation\n\nScale, then subtract.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Matrices & Determinants",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If $(1 + \\sqrt3)^4 = a + b\\sqrt3$, find $a$ and $b$.",
+  "options": [
+   {
+    "text": "$a = 28,\\ b = 16$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$a = 32,\\ b = 27$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$a = 32,\\ b = 10$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$a = 16,\\ b = 28$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$(1+\\sqrt3)^2 = 4 + 2\\sqrt3$; $(4 + 2\\sqrt3)^2 = 16 + 16\\sqrt3 + 12 = 28 + 16\\sqrt3$.\n\n## Simplified explanation\n\nSquare twice.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Indices, Surds & Logarithms",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Solve $\\log(2x - 3) + \\log 8 = \\log(x + 6)$.",
+  "options": [
+   {
+    "text": "$x = 4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 3$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$x = 2$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\log 8(2x-3) = \\log(x+6) \\Rightarrow 16x - 24 = x + 6 \\Rightarrow x = 2$ (and $2x - 3 = 1 > 0$ \u2713).\n\n## Simplified explanation\n\nCombine the logs: $\\log a + \\log b = \\log ab$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Indices, Surds & Logarithms",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The factorised form of $6x^2 + 5x - 6$ is",
+  "options": [
+   {
+    "text": "$(2x + 3)(3x - 2)$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$(6x - 1)(x + 6)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(2x - 3)(3x - 2)$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$(2x - 3)(3x + 2)$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSplit $5x = 9x - 4x$: $6x^2 + 9x - 4x - 6 = 3x(2x+3) - 2(2x+3) = (2x+3)(3x-2)$.\n\n## Simplified explanation\n\nFind factors of $6 \\times -6 = -36$ summing to 5: 9 and \u22124.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Quadratics",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The sum of the first 15 terms of $9, 16, 23, 30, \\dots$ is",
+  "options": [
+   {
+    "text": "$1{,}740$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$870$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$1{,}605$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$812$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$S_{15} = \\tfrac{15}{2}[2(9) + 14(7)] = 7.5 \\times 116 = 870$.\n\n## Simplified explanation\n\n$a = 9$, $d = 7$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the value of $y$ satisfying $x - y = 8$ and $x + 2y = 23$?",
+  "options": [
+   {
+    "text": "$6$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$4$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$5$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$13$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSubtract: $3y = 15 \\Rightarrow y = 5$.\n\n## Simplified explanation\n\nEliminate $x$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Linear Graphs & Systems",
+   "2021/22 Quiz II"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An auditorium has 15 rows with 20 seats in the first row and 2 more seats in each row thereafter. How many seats are in the 15th row?",
+  "options": [
+   {
+    "text": "$35$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$34$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$28$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$48$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$U_{15} = 20 + 14(2) = 48$.\n\n## Simplified explanation\n\n14 increases.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sequences & Series",
+   "2021/22 Quiz II"
+  ]
+ }
+]

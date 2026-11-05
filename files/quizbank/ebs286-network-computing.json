@@ -1,0 +1,975 @@
+[
+ {
+  "type": "choice",
+  "body": "The Transmission Control Protocol (TCP)",
+  "options": [
+   {
+    "text": "receives data from the application as a single stream only",
+    "hint": "True, but incomplete."
+   },
+   {
+    "text": "does all of the above: is connection-oriented, takes application data as a stream and uses a three-way handshake",
+    "hint": "Correct. All three are true of TCP."
+   },
+   {
+    "text": "is a connection-oriented protocol only",
+    "hint": "True, but not the only correct statement."
+   },
+   {
+    "text": "uses a three-way handshake only",
+    "hint": "True, but incomplete."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTCP is **connection-oriented** (SYN, SYN-ACK, ACK three-way handshake), **byte-stream** oriented and reliable (sequencing, acknowledgement, retransmission, flow control).\n\n## Simplified explanation\n\nAll of them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following bears the characteristics of an **analog** quantity?",
+  "options": [
+   {
+    "text": "It has a continuous set of values over a given range",
+    "hint": "Correct. Analog = continuous."
+   },
+   {
+    "text": "It follows a logarithmic curve",
+    "hint": "Not a defining feature."
+   },
+   {
+    "text": "All of the above",
+    "hint": "No."
+   },
+   {
+    "text": "It is described with a finite number of steps",
+    "hint": "That's digital."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nAnalog signals vary **continuously** and can take infinitely many values in a range; digital signals take a **finite** set of discrete values.\n\n## Simplified explanation\n\nContinuous = analog.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Synchronisation **without increasing the number of bits** is provided by",
+  "options": [
+   {
+    "text": "block coding",
+    "hint": "Adds redundant bits (4B/5B)."
+   },
+   {
+    "text": "line coding",
+    "hint": "Converts bits to signals."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "scrambling",
+    "hint": "Correct. E.g. B8ZS, HDB3 substitute patterns for long zero runs."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBlock coding (4B/5B) adds bits to guarantee transitions; **scrambling** (B8ZS, HDB3) replaces long runs of zeros with violation patterns, so it keeps synchronisation **without increasing bit count**.\n\n## Simplified explanation\n\n**Scrambling**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a service carried by ISDN?",
+  "options": [
+   {
+    "text": "Voice",
+    "hint": "ISDN carries voice."
+   },
+   {
+    "text": "Video conferencing",
+    "hint": "ISDN carries video."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. ISDN carries data, voice and video."
+   },
+   {
+    "text": "Data",
+    "hint": "ISDN carries data."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nISDN (Integrated Services Digital Network) integrates **voice, data and video** over digital lines.\n\n## Simplified explanation\n\nIt carries them all.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Switching & ISDN/ATM",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A beam of light travels through media of two different densities. If the angle of incidence is greater than the **critical angle**, what occurs?",
+  "options": [
+   {
+    "text": "Absorption",
+    "hint": "No."
+   },
+   {
+    "text": "Reflection",
+    "hint": "Correct. Total internal reflection: the principle of optical fibre."
+   },
+   {
+    "text": "Diffraction",
+    "hint": "No."
+   },
+   {
+    "text": "Refraction",
+    "hint": "Below the critical angle."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBelow the critical angle light refracts; at it, it grazes the boundary; above it, **total internal reflection** occurs. This keeps light inside the fibre core.\n\n## Simplified explanation\n\nGreater than critical \u2192 **reflection**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which term refers to the **structure or format** of the data, i.e. the order in which they are presented?",
+  "options": [
+   {
+    "text": "Syntax",
+    "hint": "Correct. Structure/format."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   },
+   {
+    "text": "Timing",
+    "hint": "When and how fast."
+   },
+   {
+    "text": "Semantics",
+    "hint": "Meaning of each section."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA protocol's three key elements: **syntax** (format), **semantics** (meaning), **timing** (when and how fast data is sent).\n\n## Simplified explanation\n\nFormat = **syntax**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A transmission impairment in which the signal **loses strength** due to the resistance of the medium is",
+  "options": [
+   {
+    "text": "attenuation",
+    "hint": "Correct. Loss of energy; amplifiers/repeaters compensate."
+   },
+   {
+    "text": "distortion",
+    "hint": "Change of shape."
+   },
+   {
+    "text": "decibel",
+    "hint": "A unit of measure."
+   },
+   {
+    "text": "noise",
+    "hint": "Unwanted energy added."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nImpairments: **attenuation** (loss of strength, measured in dB), **distortion** (shape change from differing propagation speeds), **noise** (thermal, induced, crosstalk, impulse).\n\n## Simplified explanation\n\nWeaker = **attenuation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Special-interest groups that test, evaluate and standardise **new technologies** are called",
+  "options": [
+   {
+    "text": "standards organisations",
+    "hint": "ISO, ITU, IEEE, ANSI."
+   },
+   {
+    "text": "forums",
+    "hint": "Correct. E.g. Frame Relay Forum, ATM Forum."
+   },
+   {
+    "text": "regulatory agencies",
+    "hint": "Government bodies such as the FCC/NCA."
+   },
+   {
+    "text": "all of the above",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nForouzan: **forums** are formed by industry and users to speed up the acceptance of new technologies, then present their conclusions to standards bodies.\n\n## Simplified explanation\n\n**Forum**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which topology requires a **multipoint** connection?",
+  "options": [
+   {
+    "text": "Bus",
+    "hint": "Correct. All devices share one backbone."
+   },
+   {
+    "text": "Ring",
+    "hint": "Point-to-point to neighbours."
+   },
+   {
+    "text": "Mesh",
+    "hint": "Dedicated point-to-point links."
+   },
+   {
+    "text": "Star",
+    "hint": "Point-to-point to the hub."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **bus** uses one long cable to which all nodes are tapped: a multipoint line. Mesh, star and ring use point-to-point links.\n\n## Simplified explanation\n\nShared cable = **bus**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Network Topologies",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which network was originally designed for **data** communication?",
+  "options": [
+   {
+    "text": "Internet and telephone network",
+    "hint": "No."
+   },
+   {
+    "text": "The Internet",
+    "hint": "Correct. The telephone network was designed for voice."
+   },
+   {
+    "text": "Telephone network",
+    "hint": "Designed for voice."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe **telephone network** was built for **voice**; the **Internet** (ARPANET) was built for **data**.\n\n## Simplified explanation\n\nData \u2192 Internet.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Why did the ISO develop the OSI model?",
+  "options": [
+   {
+    "text": "The rate of data transfer was increasing exponentially",
+    "hint": "No."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   },
+   {
+    "text": "Manufacturers disliked the TCP/IP suite",
+    "hint": "No."
+   },
+   {
+    "text": "Standards were needed to allow any two systems to communicate",
+    "hint": "Correct. Open systems interconnection."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOSI (1970s/80s) is a 7-layer **reference model** to let **any two different systems** communicate regardless of architecture.\n\n## Simplified explanation\n\nInteroperability.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **bandwidth** of a network refers to",
+  "options": [
+   {
+    "text": "the transmission capacity of a communication link",
+    "hint": "Correct. Bits per second it can carry."
+   },
+   {
+    "text": "the class of IP used",
+    "hint": "No."
+   },
+   {
+    "text": "all of the above",
+    "hint": "No."
+   },
+   {
+    "text": "the number of computers connected",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nBandwidth = range of frequencies (Hz) or, in data terms, the **maximum bit rate** (bps) of a link.\n\n## Simplified explanation\n\nCapacity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Comparing parallel and serial transmission, which is true?",
+  "options": [
+   {
+    "text": "Serial is used for long distances; parallel for short distances",
+    "hint": "True, but not alone."
+   },
+   {
+    "text": "Parallel transmission is faster than serial",
+    "hint": "True, but not alone."
+   },
+   {
+    "text": "Parallel transmission is costly compared to serial",
+    "hint": "True, but not alone."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct. All three statements are true."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nParallel sends n bits at once over n wires (fast, costly, short distance); serial sends one bit at a time over one channel (cheaper, long distance).\n\n## Simplified explanation\n\nAll.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ISDN **D channel** carries network-service (signalling) information between the",
+  "options": [
+   {
+    "text": "user and network",
+    "hint": "Correct. Control/signalling channel."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "networks",
+    "hint": "No."
+   },
+   {
+    "text": "users",
+    "hint": "B channels carry user data."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nISDN: **B (bearer)** channels at 64 kbps carry user data/voice; the **D (data)** channel carries **signalling between user and network**.\n\n## Simplified explanation\n\nD = user \u2194 network signalling.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Switching & ISDN/ATM",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a traditional switching method?",
+  "options": [
+   {
+    "text": "Message switching",
+    "hint": "Traditional."
+   },
+   {
+    "text": "Circuit switching",
+    "hint": "Traditional."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. All three are traditional methods."
+   },
+   {
+    "text": "Packet switching",
+    "hint": "Traditional."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTraditional switching methods: **circuit**, **packet** (datagram/virtual circuit) and **message** switching.\n\n## Simplified explanation\n\nNone.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Switching & ISDN/ATM",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Geostationary satellites",
+  "options": [
+   {
+    "text": "are normally placed in an orbit about 36,000 km from the earth's surface",
+    "hint": "Correct. \u2248 35,786 km."
+   },
+   {
+    "text": "are simplex with regard to data flow",
+    "hint": "No."
+   },
+   {
+    "text": "All of the above",
+    "hint": "No."
+   },
+   {
+    "text": "do not rotate with the speed of the earth",
+    "hint": "They match it, so they appear fixed."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA geostationary satellite orbits at \u224836,000 km above the equator with a period of 24 h, so it appears stationary.\n\n## Simplified explanation\n\n36,000 km.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which topology relies on a **central controller or hub**?",
+  "options": [
+   {
+    "text": "Mesh",
+    "hint": "No centre."
+   },
+   {
+    "text": "Star",
+    "hint": "Correct. All devices connect to the hub."
+   },
+   {
+    "text": "Bus",
+    "hint": "Backbone."
+   },
+   {
+    "text": "Ring",
+    "hint": "Neighbour links."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nIn a **star**, every device has a dedicated link to a central hub/switch; if the hub fails the whole network fails.\n\n## Simplified explanation\n\nHub = **star**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Network Topologies",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The interface between a **user** and an **ATM switch** is the",
+  "options": [
+   {
+    "text": "UNI (User-to-Network Interface)",
+    "hint": "Correct. User side."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   },
+   {
+    "text": "NNI (Network-to-Network Interface)",
+    "hint": "Between switches."
+   },
+   {
+    "text": "NNN",
+    "hint": "Not a term."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nATM: **UNI** connects user equipment to a switch; **NNI** connects switches to each other.\n\n## Simplified explanation\n\nUser \u2192 **UNI**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Switching & ISDN/ATM",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The IP is a(n) ______ datagram protocol.",
+  "options": [
+   {
+    "text": "connectionless only",
+    "hint": "Also unreliable."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "both unreliable and connectionless",
+    "hint": "Correct. Best-effort delivery."
+   },
+   {
+    "text": "unreliable only",
+    "hint": "Also connectionless."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nIP provides **best-effort** (unreliable), **connectionless** delivery; reliability is left to TCP.\n\n## Simplified explanation\n\nBoth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following describes **modulation**?",
+  "options": [
+   {
+    "text": "Varying some characteristic of a carrier wave in accordance with an information-carrying signal",
+    "hint": "Correct. Amplitude, frequency or phase."
+   },
+   {
+    "text": "All of the above",
+    "hint": "No."
+   },
+   {
+    "text": "Conversion of digital signal to digital data",
+    "hint": "No."
+   },
+   {
+    "text": "Conversion of digital data to digital signal",
+    "hint": "That's line coding."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nModulation (AM, FM, PM; ASK, FSK, PSK, QAM) varies a carrier's **amplitude, frequency or phase** with the message.\n\n## Simplified explanation\n\nVarying a carrier.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **session, presentation and application** layers of the OSI model together correspond to which TCP/IP layer?",
+  "options": [
+   {
+    "text": "Physical",
+    "hint": "No."
+   },
+   {
+    "text": "Data link",
+    "hint": "No."
+   },
+   {
+    "text": "Network",
+    "hint": "No."
+   },
+   {
+    "text": "Application",
+    "hint": "Correct. TCP/IP has one application layer."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTCP/IP's **application layer** covers OSI layers 5\u20137.\n\n## Simplified explanation\n\n**Application**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The set of procedures used to restrict the amount of data a sender can send before waiting for acknowledgement is",
+  "options": [
+   {
+    "text": "error control",
+    "hint": "Detects/corrects errors."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "transmission control",
+    "hint": "No."
+   },
+   {
+    "text": "flow control",
+    "hint": "Correct. Prevents overwhelming the receiver."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Flow control** (stop-and-wait, sliding window) limits data sent before acknowledgement; **error control** handles detection and retransmission.\n\n## Simplified explanation\n\n**Flow**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which method(s) can be used to move data through a network?",
+  "options": [
+   {
+    "text": "Circuit switching only",
+    "hint": "Incomplete."
+   },
+   {
+    "text": "Both circuit and packet switching",
+    "hint": "Correct. Both move data."
+   },
+   {
+    "text": "None of the above",
+    "hint": "No."
+   },
+   {
+    "text": "Packet switching only",
+    "hint": "Incomplete."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nData can traverse a network by **circuit switching** (dedicated path) or **packet switching** (independent packets).\n\n## Simplified explanation\n\nBoth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Switching & ISDN/ATM",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The TCP is a ______ protocol.",
+  "options": [
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "connection-oriented",
+    "hint": "Correct. Establishes a connection first."
+   },
+   {
+    "text": "both connection-oriented and connectionless",
+    "hint": "No."
+   },
+   {
+    "text": "connectionless",
+    "hint": "That's UDP/IP."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTCP sets up a connection before data transfer; UDP is connectionless.\n\n## Simplified explanation\n\n**Connection-oriented**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Transmission media lie directly **below** which layer?",
+  "options": [
+   {
+    "text": "Network",
+    "hint": "No."
+   },
+   {
+    "text": "Physical",
+    "hint": "Correct. Media are 'layer 0'."
+   },
+   {
+    "text": "Transport",
+    "hint": "No."
+   },
+   {
+    "text": "Application",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nTransmission media (cables, air) sit **below the physical layer**, which controls them.\n\n## Simplified explanation\n\n**Physical**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** a form of data used in communication?",
+  "options": [
+   {
+    "text": "Numbers",
+    "hint": "Data form."
+   },
+   {
+    "text": "Images",
+    "hint": "Data form."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. All are forms of data."
+   },
+   {
+    "text": "Video",
+    "hint": "Data form."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nData forms: **text, numbers, images, audio, video**.\n\n## Simplified explanation\n\nNone.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which layer **establishes, maintains and synchronises** the interaction between communicating devices?",
+  "options": [
+   {
+    "text": "Transport",
+    "hint": "Process-to-process delivery."
+   },
+   {
+    "text": "Session",
+    "hint": "Correct. Dialog control and synchronisation."
+   },
+   {
+    "text": "Network",
+    "hint": "Routing."
+   },
+   {
+    "text": "Physical",
+    "hint": "Bits."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nOSI layer 5, **session**: dialog control (half/full duplex) and synchronisation (checkpoints).\n\n## Simplified explanation\n\n**Session**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The measure a routing algorithm uses to determine the optimal path to a destination is the",
+  "options": [
+   {
+    "text": "multicast",
+    "hint": "No."
+   },
+   {
+    "text": "kilobytes",
+    "hint": "No."
+   },
+   {
+    "text": "broadcast",
+    "hint": "No."
+   },
+   {
+    "text": "metric",
+    "hint": "Correct. Hop count, cost, delay, bandwidth."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nRouting protocols assign a **metric** (cost) to each path and choose the lowest.\n\n## Simplified explanation\n\n**Metric**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "OSI & TCP/IP Models",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is a characteristic of data communication?",
+  "options": [
+   {
+    "text": "Timeliness only",
+    "hint": "Incomplete."
+   },
+   {
+    "text": "Delivery only",
+    "hint": "Incomplete."
+   },
+   {
+    "text": "All of the above: delivery, accuracy and timeliness",
+    "hint": "Correct. Plus jitter."
+   },
+   {
+    "text": "Accuracy only",
+    "hint": "Incomplete."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nEffectiveness depends on **delivery**, **accuracy**, **timeliness** (and **jitter**).\n\n## Simplified explanation\n\nAll.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a possible **encoding/conversion** process?",
+  "options": [
+   {
+    "text": "Analog data to analog signal",
+    "hint": "Exists (AM/FM)."
+   },
+   {
+    "text": "Digital data to analog signal",
+    "hint": "Exists (ASK/FSK/PSK)."
+   },
+   {
+    "text": "Digital data to digital signal",
+    "hint": "Exists (line coding)."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct. All conversions exist."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nFour conversions: digital\u2192digital (line coding), analog\u2192digital (PCM), digital\u2192analog (shift keying), analog\u2192analog (AM/FM/PM).\n\n## Simplified explanation\n\nAll.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Define **computer network**. (b) Distinguish between (i) data and information; (ii) parallel and serial transmission.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** A computer network is a set of **computers and devices (nodes) interconnected by communication links** to share resources and exchange data.\n>\n> **(b)(i)** **Data** are raw, unprocessed facts (e.g. marks 45, 67); **information** is data **processed** into a meaningful form (e.g. class average 56).\n>\n> **(ii)** **Parallel**: several bits (e.g. 8) sent **simultaneously** over multiple wires; fast but costly and short-distance. **Serial**: bits sent **one after another** over a single channel; cheaper, used for long distances (can be asynchronous or synchronous).",
+  "explanation": "## Advanced explanation\n\nKnow the definition precisely and give an example for each contrast.\n\n## Simplified explanation\n\nLinked computers; raw vs processed; many wires vs one.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Data Communication",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "With the aid of a diagram, discuss the **mesh** topology and give **two** of its disadvantages.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> In a **mesh** topology every device has a **dedicated point-to-point link to every other device**. For n devices, the number of links = **n(n\u22121)/2** (each device has n\u22121 I/O ports). (Diagram: e.g. 4 nodes each joined to the other 3: 6 links.)\n>\n> **Advantages:** dedicated links (no traffic sharing), robust (one link failure doesn't stop the network), privacy/security, easy fault isolation.\n>\n> **Disadvantages:** (1) **large amount of cabling** and many I/O ports: expensive; (2) **difficult installation and reconfiguration**; (3) bulky wiring takes space.",
+  "explanation": "## Advanced explanation\n\nQuote the link formula n(n\u22121)/2.\n\n## Simplified explanation\n\nEveryone linked to everyone; costly cabling.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Network Topologies",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Discuss the **three** characteristics essential to any data communication system. (b)(i) Give **five** advantages of optical fibre over twisted-pair and coaxial cable. (ii) Distinguish between **simplex** and **full-duplex** transmission.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** (1) **Delivery**: data must reach the correct destination/user. (2) **Accuracy**: data must arrive without alteration/errors. (3) **Timeliness**: data must be delivered on time (real-time for audio/video). (Also **jitter**: uneven packet arrival time.)\n>\n> **(b)(i)** (1) **Higher bandwidth**/data rate; (2) **less attenuation**, so longer distances between repeaters; (3) **immune to electromagnetic interference**; (4) resistant to corrosive materials; (5) **light weight**; (6) more **secure** (hard to tap).\n>\n> **(ii)** **Simplex**: communication in **one direction only** (keyboard \u2192 computer, TV broadcast). **Full duplex**: both stations send and receive **simultaneously** (telephone).",
+  "explanation": "## Advanced explanation\n\nHalf-duplex (walkie-talkie) is the in-between mode: both directions but not at the same time.\n\n## Simplified explanation\n\nDelivery, accuracy, timeliness; fibre = fast, far, interference-free.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Data Communication",
+   "Transmission Media & Signals",
+   "2021 End-of-Semester Paper"
+  ]
+ }
+]

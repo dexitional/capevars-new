@@ -1,0 +1,1477 @@
+[
+ {
+  "type": "choice",
+  "body": "Arrange the stages of data processing in the correct sequence: I. Coding  II. Editing  III. Tabulation  IV. Classification  V. Using percentages",
+  "options": [
+   {
+    "text": "II, I, IV, III, V",
+    "hint": "Correct."
+   },
+   {
+    "text": "V, I, II, III, IV",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "III, IV, I, II, V",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "I, II, III, IV, V",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nEdit (check for errors) \u2192 code \u2192 classify \u2192 tabulate \u2192 compute percentages/analyse.\n\n## Simplified explanation\n\nClean the data before anything else.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A researcher studies the association between gender and mobile-phone use. The data collected will be ______ data.",
+  "options": [
+   {
+    "text": "classified",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "continuous",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "qualitative",
+    "hint": "Correct."
+   },
+   {
+    "text": "quantitative",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nGender and phone use (yes/no, type) are categorical (qualitative) variables.\n\n## Simplified explanation\n\nCategories, not numbers.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which type of data is cheaper to collect?",
+  "options": [
+   {
+    "text": "Collective",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "New",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Secondary",
+    "hint": "Correct."
+   },
+   {
+    "text": "Primary",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSecondary data already exist (records, reports), so they are cheaper and quicker than primary data.\n\n## Simplified explanation\n\nAlready collected by someone else.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which set has the **same** mean, median and mode?",
+  "options": [
+   {
+    "text": "4, 3, 4, 3, 4, 6, 4",
+    "hint": "Correct."
+   },
+   {
+    "text": "6, 2, 5, 4, 3, 4, 1",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "2, 3, 7, 3, 8, 3, 2",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "4, 2, 2, 1, 3, 2, 3",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSorted: 3, 3, 4, 4, 4, 4, 6; mean $= 28/7 = 4$, median $= 4$, mode $= 4$.\n\n## Simplified explanation\n\nTest each set.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The median of 10, 8, 2, 7, 3, 8, 5, 1 is $k$. If 10 is replaced by 1, the new median is $r$. What is $k - r$?",
+  "options": [
+   {
+    "text": "$1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$-1.5$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "None of the above (it is 2)",
+    "hint": "Correct."
+   },
+   {
+    "text": "$0$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSorted: 1, 2, 3, 5, 7, 8, 8, 10 \u2192 $k = (5 + 7)/2 = 6$. New: 1, 1, 2, 3, 5, 7, 8, 8 \u2192 $r = (3 + 5)/2 = 4$. $k - r = 2$.\n\n## Simplified explanation\n\nEven count: average the middle two.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the mean of the data:\n\n| Class | 10\u201320 | 20\u201330 | 30\u201340 | 40\u201350 | 50\u201360 | 60\u201370 | 70\u201380 |\n|---|---|---|---|---|---|---|---|\n| Frequency | 9 | 13 | 6 | 4 | 6 | 2 | 3 |",
+  "options": [
+   {
+    "text": "39.95",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "43.95",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "23.95",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "35.70",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMidpoints 15, 25, \u2026, 75; $\\sum fx = 1535$, $\\sum f = 43$; $\\bar x = 1535/43 = 35.70$.\n\n## Simplified explanation\n\nUse class midpoints.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the probability of drawing a card that is red **or** a face card (king, queen, jack) from a standard 52-card deck?",
+  "options": [
+   {
+    "text": "$\\tfrac{8}{13}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac{29}{52}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{21}{52}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{13}{52}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$P(R \\cup F) = \\tfrac{26}{52} + \\tfrac{12}{52} - \\tfrac{6}{52} = \\tfrac{32}{52} = \\tfrac{8}{13}$. (A red face card alone would be $\\tfrac{6}{52}$.)\n\n## Simplified explanation\n\nAddition rule; subtract the overlap.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Companies A, B and C produce 10%, 20% and 5% defective products. If each company is equally likely to be chosen, find the probability that a product chosen is defective.",
+  "options": [
+   {
+    "text": "0.22",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0.21",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0.11",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0.12",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\tfrac13(0.10 + 0.20 + 0.05) = 0.1167 \\approx 0.12$.\n\n## Simplified explanation\n\nTotal probability.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "For any discrete distribution, the standard deviation is ______ the mean deviation from the mean.",
+  "options": [
+   {
+    "text": "equal to",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "not less than",
+    "hint": "Correct."
+   },
+   {
+    "text": "less than",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "square of",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSD \u2265 MD always (by the power-mean inequality).\n\n## Simplified explanation\n\nSD \u2265 MD.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When the values in a series are **not** of equal importance, we calculate the",
+  "options": [
+   {
+    "text": "weighted mean",
+    "hint": "Correct."
+   },
+   {
+    "text": "geometric mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "mode",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "arithmetic mean",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\bar x_w = \\dfrac{\\sum wx}{\\sum w}$.\n\n## Simplified explanation\n\nWeights reflect importance.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following **cannot** be calculated for open-ended distributions?",
+  "options": [
+   {
+    "text": "Standard deviation",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Range",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Mean deviation",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nRange needs the extreme class limits, which open-ended classes lack.\n\n## Simplified explanation\n\nRange needs both ends.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is an advantage of **surveys** as a data-collection tool? They can",
+  "options": [
+   {
+    "text": "gather information from a large number of people",
+    "hint": "Correct."
+   },
+   {
+    "text": "provide detailed information on behaviour and interactions",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "be conducted in natural or controlled settings",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nSurveys/questionnaires reach many respondents cheaply; observation gives detail on behaviour.\n\n## Simplified explanation\n\nBreadth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of the application of range in a real-world scenario would be",
+  "options": [
+   {
+    "text": "quality control",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct."
+   },
+   {
+    "text": "fluctuation in share prices",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "weather forecasts",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nRange is used for daily price swings, tolerance limits in quality control and temperature ranges in forecasts.\n\n## Simplified explanation\n\nAll apply.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The average of squared deviations from the arithmetic mean is the",
+  "options": [
+   {
+    "text": "quartile deviation",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "mean deviation",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "variance",
+    "hint": "Correct."
+   },
+   {
+    "text": "standard deviation",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\sigma^2 = \\tfrac1n\\sum(x - \\bar x)^2$; SD is its square root.\n\n## Simplified explanation\n\nSquared \u2192 variance.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Scores of eleven students: 7, 5, 8, 10, 9, 10, 5, 13, 8, 5, 4. Determine the modal score.",
+  "options": [
+   {
+    "text": "13",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "10",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "8",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "5",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n5 occurs three times; 8 and 10 occur twice.\n\n## Simplified explanation\n\nMost frequent.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The probabilities that Mike and Emma solve a problem are $\\tfrac23$ and $\\tfrac15$. If both attempt it, find the probability that **exactly one** of them solves it.",
+  "options": [
+   {
+    "text": "$\\tfrac35$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac45$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{2}{15}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac25$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\tfrac23\\cdot\\tfrac45 + \\tfrac13\\cdot\\tfrac15 = \\tfrac{8}{15} + \\tfrac{1}{15} = \\tfrac35$.\n\n## Simplified explanation\n\nMike only + Emma only.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Dec 2023 Section A"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What does range mean? (b) How is the range found for ungrouped and grouped data? (c) Can the range be negative? (d) Calculate the range:\n\n| Class | 30\u201340 | 40\u201350 | 50\u201360 | 60\u201370 | 70\u201380 | 80\u201390 | 90\u2013100 |\n|---|---|---|---|---|---|---|---|\n| Frequency | 2 | 3 | 8 | 15 | 12 | 7 | 3 |",
+  "media": [],
+  "answer": "**(a)** The range is the difference between the **largest and smallest** values: the simplest measure of spread.\n\n**(b)** Ungrouped: highest \u2212 lowest value. Grouped: **upper boundary of the highest class \u2212 lower boundary of the lowest class** (or midpoint difference, by convention).\n\n**(c)** No. Max \u2265 min, so the range is always **\u2265 0**; it is 0 only when all values are equal.\n\n**(d)** $100 - 30 = 70$.\n\n> [!answer]\n> Range = 70.",
+  "explanation": "## Advanced explanation\n\nRange uses only the two extremes, so it is sensitive to outliers.\n\n## Simplified explanation\n\nMax minus min.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Measures of Dispersion",
+   "Dec 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Using class intervals 1\u201310, 11\u201320, 21\u201330, \u2026, prepare a frequency distribution for: 22, 65, 32, 36, 28, 17, 15, 64, 86, 52, 36, 55, 9, 48, 65, 96, 14, 6, 37, 69, 76, 49, 37, 46, 21, 67, 92, 98.",
+  "media": [],
+  "answer": "| Class | 1\u201310 | 11\u201320 | 21\u201330 | 31\u201340 | 41\u201350 | 51\u201360 | 61\u201370 | 71\u201380 | 81\u201390 | 91\u2013100 |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Tally/frequency | 2 | 3 | 3 | 5 | 3 | 2 | 5 | 1 | 1 | 3 |\n\nTotal = 28.\n\n> [!answer]\n> Frequencies 2, 3, 3, 5, 3, 2, 5, 1, 1, 3 (n = 28).",
+  "explanation": "## Advanced explanation\n\nTally each value into exactly one class; check the total.\n\n## Simplified explanation\n\nCheck that the frequencies sum to 28.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Data Collection & Processing",
+   "Dec 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A ludo die is thrown once. Find the probability of scoring (i) a prime number; (ii) a composite number; (iii) a perfect square.",
+  "media": [],
+  "answer": "(i) Primes 2, 3, 5: $\\tfrac36 = \\tfrac12$. (ii) Composites 4, 6: $\\tfrac26 = \\tfrac13$. (iii) Perfect squares 1, 4: $\\tfrac26 = \\tfrac13$.\n\n> [!answer]\n> $\\tfrac12, \\tfrac13, \\tfrac13$",
+  "explanation": "## Advanced explanation\n\n1 is neither prime nor composite but is a perfect square.\n\n## Simplified explanation\n\nList the outcomes.",
+  "hint": "Show every step.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Probability",
+   "Dec 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The masses of parcels in a post office:\n\n| Mass (kg) | 20\u201324 | 25\u201329 | 30\u201334 | 35\u201339 | 40\u201344 | 45\u201349 | 50\u201354 | 55\u201359 |\n|---|---|---|---|---|---|---|---|---|\n| Frequency | 2 | 3 | 7 | 26 | 29 | 25 | 6 | 2 |\n\nDetermine the (a) mean, (b) mode, (c) median mass.",
+  "media": [],
+  "answer": "$n = 100$. **(a)** Midpoints 22, 27, \u2026, 57: $\\sum fx = 4130$, so mean $= 41.3$ kg.\n\n**(b)** Modal class 40\u201344 (boundaries 39.5\u201344.5), $\\Delta_1 = 29 - 26 = 3$, $\\Delta_2 = 29 - 25 = 4$: mode $= 39.5 + \\tfrac{3}{7}(5) \\approx 41.6$ kg.\n\n**(c)** $n/2 = 50$; cumulative frequency before 40\u201344 is 38: median $= 39.5 + \\tfrac{50 - 38}{29}(5) \\approx 41.6$ kg.\n\n> [!answer]\n> Mean 41.3 kg; mode \u2248 41.6 kg; median \u2248 41.6 kg.",
+  "explanation": "## Advanced explanation\n\nUse class boundaries (39.5, not 40) in the mode and median formulas.\n\n## Simplified explanation\n\nFind the modal and median classes first.",
+  "hint": "Show every step.",
+  "difficulty": "hard",
+  "marks": 30,
+  "tags": [
+   "Measures of Central Tendency",
+   "Dec 2023 Section B"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is **not** a disadvantage of using the mean?",
+  "options": [
+   {
+    "text": "It is affected by extreme values",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "It does not possess the desired algebraic property",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "It cannot be computed for grouped data with open-ended classes",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe mean **does** have algebraic properties (e.g. combining means, \u03a3(x \u2212 x\u0304) = 0), so B is false as a disadvantage.\n\n## Simplified explanation\n\nThe mean is algebraically tractable.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The two methods of finding the mode in a discrete series are",
+  "options": [
+   {
+    "text": "grouping method and ascending method",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "grouping method and inspection method",
+    "hint": "Correct."
+   },
+   {
+    "text": "table method and midpoint method",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMode by **inspection** (most frequent value) or by **grouping** (grouping table + analysis table) when frequencies are close.\n\n## Simplified explanation\n\nInspection and grouping.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The number of observations smaller than the ______ is the same as the number of observations larger than it.",
+  "options": [
+   {
+    "text": "mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "median",
+    "hint": "Correct."
+   },
+   {
+    "text": "mode",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe median splits ordered data into two equal halves.\n\n## Simplified explanation\n\nThe middle value.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the mean of 23, 45, 87, 40, 50?",
+  "options": [
+   {
+    "text": "49",
+    "hint": "Correct."
+   },
+   {
+    "text": "34",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "56",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "43",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$245 / 5 = 49$.\n\n## Simplified explanation\n\nSum \u00f7 count.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a characteristic of the mean?",
+  "options": [
+   {
+    "text": "It is affected by extreme scores",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "It minimises the sum of squared deviations",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct."
+   },
+   {
+    "text": "The sum of deviations from it is zero",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nAll three are properties of $\\bar x$.\n\n## Simplified explanation\n\nAll true.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which diagram is used to find the mode graphically?",
+  "options": [
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Pie chart",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Histogram",
+    "hint": "Correct."
+   },
+   {
+    "text": "Bar graph",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nOn a histogram, lines joining the corners of the tallest bar to adjacent bars intersect above the mode.\n\n## Simplified explanation\n\nHistogram.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement best describes the median?",
+  "options": [
+   {
+    "text": "It gives the middle score, which does not change if you rearrange the scores without changing their magnitudes",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "It is always less than or equal to the mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "It gives the middle score, which changes if you rearrange the scores",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe median depends on the ordered values, not on the order they're listed.\n\n## Simplified explanation\n\nOrder of listing doesn't matter.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The elimination of extreme scores at the **bottom** of a data set has the effect of",
+  "options": [
+   {
+    "text": "doubling the mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "lowering the mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "raising the mean",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nRemoving small values increases the average of what remains.\n\n## Simplified explanation\n\nLow scores pull the mean down.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When the arithmetic mean is multiplied by the coefficient of variation (as a fraction), the result is the",
+  "options": [
+   {
+    "text": "variance",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "coefficient of deviation",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "coefficient of mean",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "standard deviation",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$CV = \\sigma/\\bar x \\Rightarrow \\bar x \\cdot CV = \\sigma$.\n\n## Simplified explanation\n\nRearrange $CV = \\sigma/\\bar x$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the exact mean deviation of 12, 15 and 18?",
+  "options": [
+   {
+    "text": "2",
+    "hint": "Correct."
+   },
+   {
+    "text": "6",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "3",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMean 15; $|{-3}| + 0 + 3 = 6$; $6/3 = 2$.\n\n## Simplified explanation\n\nAverage absolute deviation.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Find the variance of 3, 6, 8, 9, 11, 7, 10, 12.",
+  "options": [
+   {
+    "text": "3.46",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "4.25",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "None of these (it is \u2248 7.44)",
+    "hint": "Correct."
+   },
+   {
+    "text": "7.36",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMean $= 66/8 = 8.25$; $\\sum(x - \\bar x)^2 = 59.5$; $\\sigma^2 = 59.5/8 = 7.44$ (sample variance 8.5).\n\n## Simplified explanation\n\nSquare deviations from the mean.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Nov 2023 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is/are characteristics of a good measure of dispersion?\n\nI. Based on all the observations.\nII. Easy to calculate.\nIII. Not affected by sampling fluctuations.",
+  "options": [
+   {
+    "text": "II and III only",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "I, II and III",
+    "hint": "Correct."
+   },
+   {
+    "text": "I and III only",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "I and II only",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nA good measure is rigidly defined, based on all observations, easy to compute and understand, stable under sampling, and amenable to algebra.\n\n## Simplified explanation\n\nAll three.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The coefficient of variation is a percentage expression of the",
+  "options": [
+   {
+    "text": "quartile deviation",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "standard deviation",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "mean deviation",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$CV = \\dfrac{\\sigma}{\\bar x} \\times 100\\%$.\n\n## Simplified explanation\n\nSD relative to the mean.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If you score at the 97th percentile in an examination, your position is below what percentage of the candidates?",
+  "options": [
+   {
+    "text": "97",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "25",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "3",
+    "hint": "Correct."
+   },
+   {
+    "text": "90",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n97% scored at or below you, so only **3%** scored above.\n\n## Simplified explanation\n\n100 \u2212 97.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is a disadvantage of **observation** as a data-collection tool? It can",
+  "options": [
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "be influenced by participant bias",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "suffer from social desirability bias",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "be time-consuming and difficult to standardise",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nObservation needs long periods and trained observers; social-desirability bias is mainly a survey/interview problem.\n\n## Simplified explanation\n\nTime and standardisation.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is a consideration when selecting a tool for data collection?",
+  "options": [
+   {
+    "text": "The research question and design",
+    "hint": "Correct."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "Availability of funding only",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "The researcher's personal bias",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nThe tool must fit the research question, design and type of data needed.\n\n## Simplified explanation\n\nFit for purpose.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Data Collection & Processing",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Scores of eleven footballers: 5, 3, 6, 8, 7, 8, 3, 11, 6, 3, 2. Determine the modal score.",
+  "options": [
+   {
+    "text": "11",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "6",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "8",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "3",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n3 appears three times.\n\n## Simplified explanation\n\nMost frequent.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A number is selected at random from $B = \\{1, 2, \\dots, 40\\}$. Find the probability that it is prime.",
+  "options": [
+   {
+    "text": "$\\tfrac{13}{40}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{7}{20}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac38$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{3}{10}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nPrimes \u2264 40: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37 \u2192 12; $12/40 = 3/10$.\n\n## Simplified explanation\n\nList the primes.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "For an event $A$, which is **false**?",
+  "options": [
+   {
+    "text": "$0 \\le P(A) \\le 1$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$P(A) = 1$ implies $A$ is certain",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$P(A) > 1$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$P(A) = 0$ implies $A$ is impossible",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nProbabilities lie between 0 and 1.\n\n## Simplified explanation\n\nProbabilities can't exceed 1.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Number of children per family:\n\n| Children | 0 | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|---|\n| Families | 8 | 16 | 22 | 14 | 6 | 4 | 2 |\n\nCalculate the mean number of children per family.",
+  "options": [
+   {
+    "text": "3.14",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "2.47",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "2.19",
+    "hint": "Correct."
+   },
+   {
+    "text": "1.91",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\sum fx = 158$, $\\sum f = 72$: $\\bar x = 2.19$.\n\n## Simplified explanation\n\n$\\sum fx / \\sum f$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Using the same table (0\u20136 children; families 8, 16, 22, 14, 6, 4, 2), calculate the (population) standard deviation.",
+  "options": [
+   {
+    "text": "2.10",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "1.45",
+    "hint": "Correct."
+   },
+   {
+    "text": "1.46",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "2.17",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$\\sigma = \\sqrt{\\tfrac{\\sum f(x - \\bar x)^2}{\\sum f}} \\approx 1.45$ (dividing by $n - 1$ gives 1.46).\n\n## Simplified explanation\n\nDivide by $n$ for the population SD.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Measures of Dispersion",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A fair die is thrown and a fair coin is tossed. What is the probability of a 2 and a head?",
+  "options": [
+   {
+    "text": "$\\tfrac{1}{12}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac12$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac23$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac16$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nIndependent: $\\tfrac16 \\times \\tfrac12$.\n\n## Simplified explanation\n\nMultiply.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Given $P(X) = 0.3$ and $P(Y|X) = 0.15$, find $P(X \\cap Y)$.",
+  "options": [
+   {
+    "text": "0.045",
+    "hint": "Correct."
+   },
+   {
+    "text": "0.20",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0.15",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "0.18",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$P(X \\cap Y) = P(X)P(Y|X) = 0.045$.\n\n## Simplified explanation\n\nMultiplication rule.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A fair coin is tossed four times. What is the probability of at least one head?",
+  "options": [
+   {
+    "text": "$\\tfrac14$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{13}{16}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{3}{16}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{15}{16}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$1 - \\left(\\tfrac12\\right)^4$.\n\n## Simplified explanation\n\nComplement of 'no heads'.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "$M$ and $N$ are mutually exclusive with $P(M) = \\tfrac25$ and $P(N) = \\tfrac{3}{10}$. Find $P(M \\cup N)$.",
+  "options": [
+   {
+    "text": "$\\tfrac{7}{10}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\tfrac{1}{10}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{29}{50}$",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "$\\tfrac{3}{25}$",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\nMutually exclusive: add.\n\n## Simplified explanation\n\nNo overlap.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The mean of ten numbers is 58. If one of them is 40, what is the mean of the other nine?",
+  "options": [
+   {
+    "text": "162",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "60",
+    "hint": "Correct."
+   },
+   {
+    "text": "540",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "18",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$(580 - 40)/9 = 60$.\n\n## Simplified explanation\n\nTotal first.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The mean of 11 numbers is 7. One number, 13, is deleted. What is the mean of the remaining 10?",
+  "options": [
+   {
+    "text": "6.4",
+    "hint": "Correct."
+   },
+   {
+    "text": "6.0",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "5.8",
+    "hint": "Not quite. Recheck your working."
+   },
+   {
+    "text": "7.7",
+    "hint": "Not quite. Recheck your working."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Work it out step by step.",
+  "explanation": "## Advanced explanation\n\n$(77 - 13)/10 = 6.4$.\n\n## Simplified explanation\n\nTotal first.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section A"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Masses of 100 workers:\n\n| Mass (kg) | 50\u201359 | 60\u201369 | 70\u201379 | 80\u201389 | 90\u201399 | 100\u2013109 | 110\u2013119 |\n|---|---|---|---|---|---|---|---|\n| Frequency | 10 | 8 | 18 | 30 | 20 | 9 | 5 |\n\n(i) Using an assumed mean of 84.5 kg, calculate the mean and standard deviation (1 d.p.). (ii) Find the probability that a randomly chosen worker's mass is between 70 kg and 99 kg.",
+  "media": [],
+  "answer": "Coded $d = \\dfrac{x - 84.5}{10}$: $-3, -2, -1, 0, 1, 2, 3$. $\\sum fd = -11$, $\\sum fd^2 = 241$.\n\nMean $= 84.5 + 10\\left(\\tfrac{-11}{100}\\right) = 83.4$ kg.\n\nSD $= 10\\sqrt{\\tfrac{241}{100} - (-0.11)^2} = 10\\sqrt{2.3979} \\approx 15.5$ kg.\n\n(ii) $P = \\dfrac{18 + 30 + 20}{100} = 0.68$.\n\n> [!answer]\n> Mean 83.4 kg; SD \u2248 15.5 kg; probability 0.68.",
+  "explanation": "## Advanced explanation\n\nCoding with class width 10 simplifies arithmetic.\n\n## Simplified explanation\n\nCode the midpoints, then scale back.",
+  "hint": "Show every step.",
+  "difficulty": "hard",
+  "marks": 25,
+  "tags": [
+   "Measures of Central Tendency",
+   "Measures of Dispersion",
+   "Aug 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The deviations from the mean of a set of numbers are $-2$, $x$, $(x + 7)$, $(x + 2)^2$ and $(x + 3)^2$. Find $x$.",
+  "media": [],
+  "answer": "Deviations from the mean sum to zero: $-2 + x + x + 7 + x^2 + 4x + 4 + x^2 + 6x + 9 = 0 \\Rightarrow 2x^2 + 12x + 18 = 0 \\Rightarrow (x + 3)^2 = 0$.\n\n> [!answer]\n> $x = -3$",
+  "explanation": "## Advanced explanation\n\n\u03a3(x \u2212 x\u0304) = 0 is a defining property of the mean.\n\n## Simplified explanation\n\nDeviations from the mean sum to 0.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Measures of Central Tendency",
+   "Aug 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A bag contains 20 identical objects: 8 black, 7 red and the rest white. Three are drawn at random at once. Find the probability that (i) one is black, one red and one white; (ii) exactly two are red; (iii) none is white.",
+  "media": [],
+  "answer": "White $= 5$; total selections $\\binom{20}{3} = 1140$.\n\n(i) $\\dfrac{8 \\times 7 \\times 5}{1140} = \\dfrac{280}{1140} = \\dfrac{14}{57}$.\n\n(ii) $\\dfrac{\\binom72\\binom{13}{1}}{1140} = \\dfrac{273}{1140} = \\dfrac{91}{380}$.\n\n(iii) $\\dfrac{\\binom{15}{3}}{1140} = \\dfrac{455}{1140} = \\dfrac{91}{228}$.\n\n> [!answer]\n> $\\tfrac{14}{57}$, $\\tfrac{91}{380}$, $\\tfrac{91}{228}$",
+  "explanation": "## Advanced explanation\n\nDrawing 'at once' = combinations without replacement.\n\n## Simplified explanation\n\nUse combinations.",
+  "hint": "Show every step.",
+  "difficulty": "hard",
+  "marks": 14,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Student classification in a school:\n\n| | Day boys | Day girls | Boarding boys | Boarding girls |\n|---|---|---|---|---|\n| SS1 | 45 | 40 | 60 | 55 |\n| SS2 | 50 | 35 | 65 | 50 |\n| SS3 | 70 | 55 | 45 | 30 |\n\n(i) If a student is selected at random, find the probability that the student is (\u03b1) a boy, (\u03b2) a girl. (ii) If a **boarder** is selected, find the probability that the boarder is (\u03b1) in SS1, (\u03b2) a girl.",
+  "media": [],
+  "answer": "Total $= 600$; boys $= 45 + 50 + 70 + 60 + 65 + 45 = 335$; girls $= 265$.\n\n(i) $P(\\text{boy}) = \\tfrac{335}{600} = \\tfrac{67}{120}$; $P(\\text{girl}) = \\tfrac{53}{120}$.\n\n(ii) Boarders $= 60 + 55 + 65 + 50 + 45 + 30 = 305$. $P(\\text{SS1}) = \\tfrac{115}{305} = \\tfrac{23}{61}$; $P(\\text{girl}) = \\tfrac{55 + 50 + 30}{305} = \\tfrac{27}{61}$.\n\n> [!answer]\n> $\\tfrac{67}{120}$, $\\tfrac{53}{120}$; $\\tfrac{23}{61}$, $\\tfrac{27}{61}$",
+  "explanation": "## Advanced explanation\n\nConditional probability: restrict the sample space to boarders.\n\n## Simplified explanation\n\nTotals first.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 16,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) With examples, explain: sample; parameter; ordinal scale; ratio scale. (b) The deviations of six numbers from 12 are \u22124, 3, 2, 0, 1, \u22123. Find (i) the mean; (ii) the standard deviation (3 s.f.). (c) Ages of committee members: 28, 30, 24, 30, 32, 39, 22, 25, 26, 34. Calculate the variance (1 d.p.).",
+  "media": [],
+  "answer": "**(a)** **Sample**: a subset of a population studied (e.g. 50 students from a college of 800). **Parameter**: a numerical characteristic of a **population** (e.g. the true mean height of all students, \u03bc). **Ordinal scale**: categories with a meaningful **order** but unequal intervals (1st, 2nd, 3rd position). **Ratio scale**: equal intervals **and** a true zero (height, mass, income).\n\n**(b)** Mean $= 12 + \\tfrac{-1}{6} = 11.8$. SD of deviations $= \\sqrt{\\tfrac{39}{6} - \\left(\\tfrac{-1}{6}\\right)^2} \\approx 2.54$ (sample SD 2.79).\n\n**(c)** Mean $= 290/10 = 29$; $\\sum(x - 29)^2 = 236$; variance $= 23.6$ (sample variance 26.2).\n\n> [!answer]\n> Mean 11.8, SD \u2248 2.54; variance 23.6.",
+  "explanation": "## Advanced explanation\n\nCoding: shift by a constant doesn't change the SD.\n\n## Simplified explanation\n\nWork with deviations directly.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 30,
+  "tags": [
+   "Data Collection & Processing",
+   "Measures of Dispersion",
+   "Aug 2023 Section B"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A blue die and a green die are thrown together. (a) How many outcomes are in the sample space? (b) List the events M (sum divisible by 3), N (sum odd), O (scores differ by at least 3), P (odd score on the green die) by size. (c) Find $n(M \\cup N)$ and $P(M \\cap P)$.",
+  "media": [],
+  "answer": "**(a)** $6 \\times 6 = 36$ ordered pairs (blue, green).\n\n**(b)** $n(M) = 12$ (sums 3, 6, 9, 12); $n(N) = 18$; $n(O) = 12$: (1,4), (1,5), (1,6), (2,5), (2,6), (3,6) and their reverses; $n(P) = 18$.\n\n**(c)** $M \\cap N$ = sums 3 or 9 \u2192 6 outcomes, so $n(M \\cup N) = 12 + 18 - 6 = 24$. $M \\cap P = \\{(1,5), (2,1), (3,3), (4,5), (5,1), (6,3)\\}$, so $P(M \\cap P) = \\tfrac{6}{36} = \\tfrac16$.\n\n> [!answer]\n> 36 outcomes; $n(M \\cup N) = 24$; $P(M \\cap P) = \\tfrac16$.",
+  "explanation": "## Advanced explanation\n\nInclusion\u2013exclusion: $n(A\\cup B) = n(A) + n(B) - n(A\\cap B)$.\n\n## Simplified explanation\n\nDraw the 6\u00d76 grid.",
+  "hint": "Show every step.",
+  "difficulty": "medium",
+  "marks": 30,
+  "tags": [
+   "Probability",
+   "Aug 2023 Section B"
+  ]
+ }
+]

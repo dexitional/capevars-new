@@ -122,15 +122,6 @@ function CoursePage() {
               <Users className="size-4 text-amber-300" /> on {c.boardCount.toLocaleString()} study boards
             </span>
           </div>
-          {c.tags.length > 0 && (
-            <div className="mt-4 flex flex-wrap gap-1.5">
-              {c.tags.map((t) => (
-                <Link key={t.slug} to="/learn/quizbank" search={{ tag: t.slug }} className="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold ring-1 ring-white/20 hover:bg-white/20">
-                  #{t.name}
-                </Link>
-              ))}
-            </div>
-          )}
         </Container>
       </section>
 

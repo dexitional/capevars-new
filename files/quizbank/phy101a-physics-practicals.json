@@ -1,0 +1,396 @@
+[
+ {
+  "type": "choice",
+  "body": "Hooke's law states that, provided the elastic limit is not exceeded,",
+  "options": [
+   {
+    "text": "the extension is directly proportional to the applied load",
+    "hint": "Correct. $F = k\\,\\Delta l$."
+   },
+   {
+    "text": "the extension is inversely proportional to the load",
+    "hint": "No."
+   },
+   {
+    "text": "the spring constant depends on the load",
+    "hint": "k is constant for a spring."
+   },
+   {
+    "text": "stress is independent of strain",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Within the elastic limit.",
+  "explanation": "## Advanced explanation\n\n**Hooke's law:** $F = k\\,\\Delta l$ (or stress \u221d strain) up to the elastic (proportional) limit. A graph of load against extension is a straight line through the origin.\n\n## Simplified explanation\n\nLoad \u221d extension.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Deformation of Springs",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A large spring constant $k$ indicates a spring that is",
+  "options": [
+   {
+    "text": "soft",
+    "hint": "Small k."
+   },
+   {
+    "text": "stiff",
+    "hint": "Correct. It needs a large force for a small extension."
+   },
+   {
+    "text": "broken",
+    "hint": "No."
+   },
+   {
+    "text": "massless",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "k = F/extension.",
+  "explanation": "## Advanced explanation\n\n$k = F/\\Delta l$: a stiff spring (e.g. 20 N/m) stretches less than a soft one (3 N/m) under the same load.\n\n## Simplified explanation\n\nBig k = **stiff**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Deformation of Springs",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 50 g mass hangs from a spring of constant 20 N/m. What extension does it produce? (g = 9.8 m/s\u00b2)",
+  "media": [],
+  "answer": "$$F = mg = 0.050 \\times 9.8 = 0.49\\ \\text{N};\\quad \\Delta l = \\frac{F}{k} = \\frac{0.49}{20}$$\n\n> [!answer]\n> **\u0394l \u2248 0.0245 m = 2.45 cm**",
+  "explanation": "## Advanced explanation\n\nHooke's law rearranged: $\\Delta l = F/k$. Convert grams to kilograms.\n\n## Simplified explanation\n\n0.49 N \u00f7 20 N/m = **2.45 cm**.",
+  "hint": "Weight first.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Deformation of Springs",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Young's modulus $E$ of a material is defined as",
+  "options": [
+   {
+    "text": "extension \u00f7 original length",
+    "hint": "That is strain."
+   },
+   {
+    "text": "tensile stress \u00f7 tensile strain",
+    "hint": "Correct. $E = \\dfrac{F/A}{e/l_0} = \\dfrac{Fl_0}{Ae}$."
+   },
+   {
+    "text": "tensile strain \u00f7 tensile stress",
+    "hint": "Inverted."
+   },
+   {
+    "text": "force \u00f7 extension",
+    "hint": "That is the spring constant."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Units N/m\u00b2.",
+  "explanation": "## Advanced explanation\n\nStress $= F/A$ (N/m\u00b2); strain $= e/l_0$ (no units); $E = \\dfrac{\\text{stress}}{\\text{strain}} = \\dfrac{F l_0}{A e}$ (N/m\u00b2 or Pa). Steel \u2248 $2\\times10^{11}$ Pa.\n\n## Simplified explanation\n\nStress over strain.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Young's Modulus (Bending Bar)",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Strain has",
+  "options": [
+   {
+    "text": "units of N/m\u00b2",
+    "hint": "That is stress."
+   },
+   {
+    "text": "no units",
+    "hint": "Correct. It is a ratio of two lengths."
+   },
+   {
+    "text": "units of newtons",
+    "hint": "No."
+   },
+   {
+    "text": "units of metres",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Ratio of lengths.",
+  "explanation": "## Advanced explanation\n\nStrain $= e/l_0$, a length divided by a length: dimensionless.\n\n## Simplified explanation\n\n**No units**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Young's Modulus (Bending Bar)",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the Young's modulus (bent bar) experiment, a student obtained $E \\approx 3.2\\times10^{4}$ N/m\u00b2 for a steel bar. Comment on this result.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The value is **far too small**: steel has $E \\approx 2\\times10^{11}$ N/m\u00b2. The error almost certainly comes from **unit mistakes** (mixing mm and m, e.g. dividing N/mm by mm\u00b2 and treating the result as N/m\u00b2) and/or using the simple tension formula $E = FL/Ae$ for a **bending** bar, which needs the beam formula $E = \\dfrac{L^3}{4ab^3}\\cdot\\dfrac{F}{e}$ (centre-loaded beam, width $a$, thickness $b$).",
+  "explanation": "## Advanced explanation\n\nAlways compare results with accepted values; an answer off by millions points to a units or formula error.\n\n## Simplified explanation\n\nFar too small; a units/formula error.",
+  "hint": "Compare with 2 \u00d7 10\u00b9\u00b9 Pa.",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Young's Modulus (Bending Bar)",
+   "Errors & Precautions",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** sources of error and **two** precautions in the Young's modulus (dial gauge) experiment.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Errors:** vibrations of the bench disturb the sensitive dial gauge; the load not exactly centred between the knife edges; zero error of the gauge; parallax in reading.\n>\n> **Precautions:** close windows/doors to avoid air currents; allow the pointer to settle at zero before loading; centre the load carefully; take readings on loading and unloading and average them.",
+  "explanation": "## Advanced explanation\n\nRepeat readings and plot a graph to reduce random error.\n\n## Simplified explanation\n\nVibration, centring; settle zero, avoid draughts.",
+  "hint": "Think about the dial gauge.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Elasticity & Hooke's Law",
+   "Expt: Young's Modulus (Bending Bar)",
+   "Errors & Precautions",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "For a mass $M$ oscillating vertically on a spring of constant $k$ (spring mass neglected), the period is",
+  "options": [
+   {
+    "text": "$T = 2\\pi\\sqrt{M/k}$",
+    "hint": "Correct. Simple harmonic motion."
+   },
+   {
+    "text": "$T = 2\\pi\\sqrt{l/g}$",
+    "hint": "Simple pendulum."
+   },
+   {
+    "text": "$T = 2\\pi\\sqrt{k/M}$",
+    "hint": "Inverted."
+   },
+   {
+    "text": "$T = Mk$",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Heavier \u2192 slower.",
+  "explanation": "## Advanced explanation\n\nRestoring force $-kx = Ma$ gives SHM with $\\omega = \\sqrt{k/M}$, so $T = 2\\pi\\sqrt{M/k}$.\n\n## Simplified explanation\n\n$T = 2\\pi\\sqrt{M/k}$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Oscillations (SHM)",
+   "Expt: Helical Spring Oscillations",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the helical spring experiment, a graph of $M$ against $T^2$ does not pass through the origin. Explain, and state how the **effective mass of the spring** is found.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The spring itself moves, so its mass contributes: $T = 2\\pi\\sqrt{\\dfrac{M + m}{k}}$, where $m$ is the **effective mass** of the spring. Rearranging:\n> $$M = \\frac{k}{4\\pi^2}T^2 - m$$\n> so a graph of $M$ against $T^2$ is a straight line of gradient $k/4\\pi^2$ with **negative intercept $-m$** on the $M$-axis. The effective mass is the magnitude of that intercept (typically about one-third of the spring's mass).",
+  "explanation": "## Advanced explanation\n\nNeglecting the spring's mass is the reason the simple formula fails.\n\n## Simplified explanation\n\nSpring mass adds to M; read m from the intercept.",
+  "hint": "Rearrange for M.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Oscillations (SHM)",
+   "Expt: Helical Spring Oscillations",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is the time for **20 oscillations** measured (twice), rather than a single oscillation?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Timing many oscillations **reduces the percentage error** due to reaction time when starting and stopping the stopwatch (the error is spread over 20 periods). Repeating and averaging reduces random error.",
+  "explanation": "## Advanced explanation\n\n$T = t_{20}/20$.\n\n## Simplified explanation\n\nReduces reaction-time error.",
+  "hint": "Percentage error.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Oscillations (SHM)",
+   "Expt: Helical Spring Oscillations",
+   "Expt: Bifilar Suspension",
+   "Errors & Precautions",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the **bifilar suspension** experiment, a metre rule hangs by two vertical threads a distance $d$ apart. How is the period $T$ of small rotational oscillations related to $d$, and what graph tests this?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> For small oscillations the restoring couple is proportional to $d^2$, giving SHM with\n> $$T = 2\\pi\\sqrt{\\frac{4Il}{mgd^2}} \\propto \\frac{1}{d}$$\n> ($I$ = moment of inertia, $l$ = thread length). So $T \\propto d^{-1}$: a graph of $\\log T$ against $\\log d$ is a straight line of **gradient \u22121**.",
+  "explanation": "## Advanced explanation\n\nA log\u2013log graph turns a power law $T = cd^n$ into a straight line of gradient $n$.\n\n## Simplified explanation\n\nT \u221d 1/d; log T vs log d has slope \u22121.",
+  "hint": "Power law \u2192 log\u2013log.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Oscillations (SHM)",
+   "Expt: Bifilar Suspension",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A loaded test tube of external radius 0.75 cm floats upright in a liquid. Adding 1 g at a time increases the depth of immersion by 0.60 cm per gram (slope of depth against added mass). Find the density of the liquid.",
+  "media": [],
+  "answer": "By Archimedes' principle, the extra 1 g is supported by the weight of liquid displaced:\n$$\\pi r^2 n \\rho = 1 \\Rightarrow \\rho = \\frac{1}{\\pi r^2 n} = \\frac{1}{\\pi (0.75)^2 (0.60)}$$\n\n> [!answer]\n> **\u03c1 \u2248 0.94 g/cm\u00b3** (close to water's 1.00 g/cm\u00b3; the shortfall suggests reading/radius errors)",
+  "explanation": "## Advanced explanation\n\nEach extra gram sinks the tube until the extra liquid displaced weighs 1 g. A **floating** body displaces its own weight of liquid (law of flotation).\n\n## Simplified explanation\n\n1 \u00f7 (\u03c0 \u00d7 0.75\u00b2 \u00d7 0.6) \u2248 **0.94 g/cm\u00b3**.",
+  "hint": "Volume displaced per gram = \u03c0r\u00b2n.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Density & Flotation",
+   "Expt: Loaded Test Tube",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the **law of flotation** and **Archimedes' principle**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Archimedes' principle:** a body wholly or partly immersed in a fluid experiences an upthrust equal to the **weight of fluid displaced**.\n>\n> **Law of flotation:** a floating body displaces its **own weight** of the fluid in which it floats.",
+  "explanation": "## Advanced explanation\n\nThe loaded test-tube experiment uses both.\n\n## Simplified explanation\n\nUpthrust = weight of fluid displaced; a floating body displaces its own weight.",
+  "hint": "Upthrust.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Density & Flotation",
+   "Expt: Loaded Test Tube",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is sand placed in the test tube before lead shots are added in the loaded test-tube experiment?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The sand **lowers the centre of gravity** so the tube floats **upright (vertically)** and stably, allowing the scale to be read at the liquid surface.",
+  "explanation": "## Advanced explanation\n\nStability requires a low centre of gravity.\n\n## Simplified explanation\n\nTo make it float upright.",
+  "hint": "Stability.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Density & Flotation",
+   "Expt: Loaded Test Tube",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **water equivalent** of a calorimeter is",
+  "options": [
+   {
+    "text": "the mass of water that would absorb the same heat as the calorimeter for the same temperature rise",
+    "hint": "Correct. $W = m_c c_c / c_w$."
+   },
+   {
+    "text": "the temperature at which water and calorimeter are in equilibrium",
+    "hint": "No."
+   },
+   {
+    "text": "the heat capacity of the water in it",
+    "hint": "No."
+   },
+   {
+    "text": "the mass of water the calorimeter can hold",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Same heat, same rise.",
+  "explanation": "## Advanced explanation\n\nWater equivalent $W = \\dfrac{m_{\\text{cal}}c_{\\text{cal}}}{c_{\\text{water}}}$: it lets you treat the calorimeter as extra water in heat calculations.\n\n## Simplified explanation\n\nEquivalent mass of water.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Calorimetry",
+   "Expt: Water Equivalent of a Calorimeter",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Method of mixtures: calorimeter + stirrer = 56.2 g; + cold water = 96.7 g; + mixture = 143.9 g. Cold water at 20.0 \u00b0C, warm water at 40.0 \u00b0C, final temperature 29.5 \u00b0C. Find the **water equivalent** $W$ of the calorimeter and stirrer (heat losses neglected).",
+  "media": [],
+  "answer": "Cold water $= 96.7 - 56.2 = 40.5$ g; warm water $= 143.9 - 96.7 = 47.2$ g.\n\nHeat lost by warm water = heat gained by cold water + calorimeter:\n$$47.2(40.0 - 29.5) = (40.5 + W)(29.5 - 20.0)$$\n$$495.6 = (40.5 + W)(9.5) \\Rightarrow 40.5 + W = 52.17$$\n\n> [!answer]\n> **W \u2248 11.7 g**",
+  "explanation": "## Advanced explanation\n\n**Principle of calorimetry:** heat lost by hot bodies = heat gained by cold bodies (no losses). Using $c_{\\text{water}}$ for everything, the calorimeter counts as $W$ grams of extra water.\n\n## Simplified explanation\n\nHeat lost = heat gained \u2192 **W \u2248 11.7 g**.",
+  "hint": "Find the masses of cold and warm water.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Calorimetry",
+   "Expt: Water Equivalent of a Calorimeter",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is the cold water cooled to about 5 \u00b0C **below** room temperature and the final temperature aimed at about 5 \u00b0C **above** room temperature in the calorimeter experiment?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> So that the heat **gained from** the surroundings while the mixture is below room temperature roughly **cancels** the heat **lost to** the surroundings while it is above room temperature (**Rumford's method** of compensating for heat exchange).",
+  "explanation": "## Advanced explanation\n\nThis reduces the systematic error from heat losses without needing a cooling correction.\n\n## Simplified explanation\n\nHeat gains and losses cancel.",
+  "hint": "Symmetry about room temperature.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Calorimetry",
+   "Expt: Water Equivalent of a Calorimeter",
+   "Errors & Precautions",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** precautions in a calorimetry (method of mixtures) experiment.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Stir** continuously so the temperature is uniform.\n> 2. Use a **lagged/jacketed** calorimeter (or polished copper) to reduce heat loss.\n> 3. Transfer warm water **quickly** and record the **highest** final temperature.\n> 4. Avoid parallax when reading the thermometer; weigh accurately.",
+  "explanation": "## Advanced explanation\n\nHeat loss to the surroundings is the main systematic error.\n\n## Simplified explanation\n\nStir, insulate, transfer fast, read carefully.",
+  "hint": "Minimise heat loss.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Calorimetry",
+   "Expt: Water Equivalent of a Calorimeter",
+   "Errors & Precautions",
+   "Practical Revision"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** general precautions against **parallax error** and **air currents** in mechanics practicals.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Parallax:** read scales with the eye **directly in line** (perpendicular) with the mark/pointer.\n>\n> **Air currents:** close windows and doors (or use a draught shield) so oscillating systems and sensitive gauges are not disturbed.",
+  "explanation": "## Advanced explanation\n\nBoth are common sources of random/systematic error in lab reports.\n\n## Simplified explanation\n\nEye level with the mark; close the windows.",
+  "hint": "Reading and environment.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Errors & Precautions",
+   "Expt: Helical Spring Oscillations",
+   "Expt: Bifilar Suspension",
+   "Practical Revision"
+  ]
+ }
+]

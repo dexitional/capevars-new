@@ -1,0 +1,3280 @@
+[
+ {
+  "type": "choice",
+  "body": "In the hierarchical classification of living organisms, **Genus** precedes",
+  "options": [
+   {
+    "text": "Family",
+    "hint": "Family is above Genus."
+   },
+   {
+    "text": "Species",
+    "hint": "Correct."
+   },
+   {
+    "text": "Class",
+    "hint": "Class is above Order."
+   },
+   {
+    "text": "Order",
+    "hint": "Order is above Family."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nHierarchy: **Domain \u2192 Kingdom \u2192 Phylum/Division \u2192 Class \u2192 Order \u2192 Family \u2192 Genus \u2192 Species**. Genus comes just before species.\n\n## Simplified explanation\n\nGenus \u2192 **Species**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classification & Taxonomy",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following protists can **glow in the dark**?",
+  "options": [
+   {
+    "text": "Diatoms",
+    "hint": "Have silica frustules."
+   },
+   {
+    "text": "Zooflagellates",
+    "hint": "Not bioluminescent."
+   },
+   {
+    "text": "Dinoflagellates",
+    "hint": "Correct."
+   },
+   {
+    "text": "Red algae",
+    "hint": "Not bioluminescent."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nMany **dinoflagellates** are **bioluminescent**, producing the 'glowing sea'.\n\n## Simplified explanation\n\n**Dinoflagellates** glow.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2019/20 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Gram-negative bacteria possess",
+  "options": [
+   {
+    "text": "porins in an outer membrane",
+    "hint": "Correct."
+   },
+   {
+    "text": "lipopolysaccharides in an inner membrane",
+    "hint": "LPS is in the outer membrane."
+   },
+   {
+    "text": "lipoteichoic acid in an outer membrane",
+    "hint": "Teichoic acids are Gram-positive features."
+   },
+   {
+    "text": "teichoic acid in an inner membrane",
+    "hint": "Gram-positive feature."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nGram-negative walls: thin peptidoglycan plus an **outer membrane** containing **lipopolysaccharide (LPS)** and **porin** channels. Gram-positive walls: thick peptidoglycan with **teichoic/lipoteichoic acids**, no outer membrane.\n\n## Simplified explanation\n\nOuter membrane with **porins**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Evolution proceeds rapidly in",
+  "options": [
+   {
+    "text": "prokaryotes",
+    "hint": "Correct."
+   },
+   {
+    "text": "protozoans",
+    "hint": "No."
+   },
+   {
+    "text": "dinoflagellates",
+    "hint": "No."
+   },
+   {
+    "text": "oomycetes",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nProkaryotes are **haploid**, reproduce very fast and exchange genes, so mutations spread quickly through huge populations.\n\n## Simplified explanation\n\nFast, haploid **prokaryotes**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **absent** in Eukarya?",
+  "options": [
+   {
+    "text": "Circular chromosome",
+    "hint": "Correct."
+   },
+   {
+    "text": "Nuclear envelope",
+    "hint": "Eukaryotes have one."
+   },
+   {
+    "text": "Unbranched hydrocarbons in membrane lipids",
+    "hint": "Eukaryotes have these (Archaea have branched)."
+   },
+   {
+    "text": "Histones associated with DNA",
+    "hint": "Eukaryotes have histones."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEukaryotic nuclear DNA is in **linear** chromosomes; **circular** chromosomes are typical of Bacteria and Archaea.\n\n## Simplified explanation\n\nEukaryotes lack a **circular chromosome**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following structures is **not an internal** feature of a prokaryotic cell?",
+  "options": [
+   {
+    "text": "Cell inclusions",
+    "hint": "Internal."
+   },
+   {
+    "text": "Basal body",
+    "hint": "Anchored inside the cell envelope."
+   },
+   {
+    "text": "Ribosomes",
+    "hint": "Internal."
+   },
+   {
+    "text": "Fimbriae",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Fimbriae** (pili) are external hair-like appendages used for attachment.\n\n## Simplified explanation\n\n**Fimbriae** stick out of the cell.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Most protozoans",
+  "options": [
+   {
+    "text": "have cell walls",
+    "hint": "Most lack walls."
+   },
+   {
+    "text": "are autotrophs",
+    "hint": "Most are heterotrophs."
+   },
+   {
+    "text": "are motile",
+    "hint": "Correct."
+   },
+   {
+    "text": "lack nuclei",
+    "hint": "They are eukaryotes."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nProtozoans ('first animals') are mostly **motile heterotrophs**, moving by flagella, cilia or pseudopodia.\n\n## Simplified explanation\n\nProtozoans **move**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Methanogens thrive in ... environments.",
+  "options": [
+   {
+    "text": "anaerobic",
+    "hint": "Correct."
+   },
+   {
+    "text": "hot",
+    "hint": "Thermophiles."
+   },
+   {
+    "text": "aerobic",
+    "hint": "Oxygen kills them."
+   },
+   {
+    "text": "salty",
+    "hint": "Halophiles."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Methanogens** (Archaea) produce methane and are **strict anaerobes** (swamps, guts of cattle).\n\n## Simplified explanation\n\n**Anaerobic**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a **photoheterotroph**?",
+  "options": [
+   {
+    "text": "Clostridium",
+    "hint": "Chemoheterotroph."
+   },
+   {
+    "text": "Rhodobacter",
+    "hint": "Correct."
+   },
+   {
+    "text": "Anabaena",
+    "hint": "Photoautotroph (cyanobacterium)."
+   },
+   {
+    "text": "Nitrosomonas",
+    "hint": "Chemoautotroph."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Photoheterotrophs** use light for energy but organic compounds for carbon, e.g. **purple non-sulphur bacteria** such as *Rhodobacter*.\n\n## Simplified explanation\n\nLight + organic carbon: **Rhodobacter**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Metabolism in *Escherichia coli* is by",
+  "options": [
+   {
+    "text": "respiration or fermentation",
+    "hint": "Correct."
+   },
+   {
+    "text": "respiration only",
+    "hint": "It can ferment too."
+   },
+   {
+    "text": "conjugation",
+    "hint": "That is gene transfer."
+   },
+   {
+    "text": "fermentation only",
+    "hint": "It can respire too."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*E. coli* is a **facultative anaerobe**: it respires when oxygen is present and ferments when it is not.\n\n## Simplified explanation\n\nFacultative: **respiration or fermentation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many daughter cells are expected after **eight** rounds of binary fission (from one cell)?",
+  "options": [
+   {
+    "text": "128",
+    "hint": "That is 2\u2077."
+   },
+   {
+    "text": "512",
+    "hint": "That is 2\u2079."
+   },
+   {
+    "text": "256",
+    "hint": "Correct."
+   },
+   {
+    "text": "16",
+    "hint": "That is 2\u2074."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEach fission doubles the number: $2^8 = 256$.\n\n## Simplified explanation\n\n$2^8 = $ **256**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Genetic recombination in prokaryotes occurs by the following means **except**",
+  "options": [
+   {
+    "text": "conjugation",
+    "hint": "Transfer through a pilus."
+   },
+   {
+    "text": "transduction",
+    "hint": "Transfer by a phage."
+   },
+   {
+    "text": "mutation",
+    "hint": "Correct."
+   },
+   {
+    "text": "transformation",
+    "hint": "Uptake of free DNA."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Recombination** combines DNA from different cells: **transformation, transduction, conjugation**. **Mutation** changes DNA but doesn't recombine it.\n\n## Simplified explanation\n\nMutation isn't recombination.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Prokaryotes with flagella dispersed over the whole surface of the cell are called",
+  "options": [
+   {
+    "text": "peritrichous",
+    "hint": "Correct."
+   },
+   {
+    "text": "amphitrichous",
+    "hint": "One at each end."
+   },
+   {
+    "text": "monotrichous",
+    "hint": "A single flagellum."
+   },
+   {
+    "text": "lophotrichous",
+    "hint": "A tuft at one end."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Peri-** = around: flagella all over the cell.\n\n## Simplified explanation\n\nAll over = **peritrichous**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following bacteria is **Gram-negative**?",
+  "options": [
+   {
+    "text": "Streptococcus",
+    "hint": "Gram-positive."
+   },
+   {
+    "text": "Bacillus",
+    "hint": "Gram-positive."
+   },
+   {
+    "text": "Mycobacterium",
+    "hint": "Acid-fast (Gram-positive type)."
+   },
+   {
+    "text": "Salmonella",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Salmonella* (typhoid, food poisoning) is a Gram-negative rod.\n\n## Simplified explanation\n\n**Salmonella**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The zygote in the life cycle of **Oomycetes** is referred to as the",
+  "options": [
+   {
+    "text": "zoosporangium",
+    "hint": "Produces zoospores."
+   },
+   {
+    "text": "oosphere",
+    "hint": "The egg."
+   },
+   {
+    "text": "zoospore",
+    "hint": "Motile asexual spore."
+   },
+   {
+    "text": "oospore",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nIn water moulds, the oosphere (egg) is fertilised to form a thick-walled **oospore** (zygote).\n\n## Simplified explanation\n\nZygote = **oospore**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which structure is common to **both** Gram-positive and Gram-negative bacterial cell walls/envelopes?",
+  "options": [
+   {
+    "text": "Lipopolysaccharide",
+    "hint": "Only Gram-negative."
+   },
+   {
+    "text": "Inner (plasma) membrane",
+    "hint": "Correct."
+   },
+   {
+    "text": "Teichoic acid",
+    "hint": "Only Gram-positive."
+   },
+   {
+    "text": "Outer membrane",
+    "hint": "Only Gram-negative."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nBoth have a **plasma (inner) membrane** and peptidoglycan; only Gram-negatives have the outer membrane with LPS.\n\n## Simplified explanation\n\nBoth have the **plasma membrane**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Prokaryotes are able to fix atmospheric nitrogen because they",
+  "options": [
+   {
+    "text": "have the nitrogenase complex",
+    "hint": "Correct."
+   },
+   {
+    "text": "have more ATP",
+    "hint": "No."
+   },
+   {
+    "text": "are anaerobic",
+    "hint": "Many N-fixers are aerobic."
+   },
+   {
+    "text": "are able to hydrolyse ATP",
+    "hint": "All cells can."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nThe enzyme **nitrogenase** reduces $\\ce{N2}$ to $\\ce{NH3}$; only certain prokaryotes have it.\n\n## Simplified explanation\n\n**Nitrogenase**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of a **free-living aerobic** nitrogen-fixing bacterium is",
+  "options": [
+   {
+    "text": "Rhizobium",
+    "hint": "Symbiotic in legume nodules."
+   },
+   {
+    "text": "Desulfovibrio",
+    "hint": "Anaerobic sulphate reducer."
+   },
+   {
+    "text": "Azotobacter",
+    "hint": "Correct."
+   },
+   {
+    "text": "Azospirillum",
+    "hint": "Associative (microaerophilic)."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Azotobacter* fixes nitrogen while living freely in aerobic soil.\n\n## Simplified explanation\n\n**Azotobacter**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The chlorophyll-containing structure in a cyanobacterium is called the",
+  "options": [
+   {
+    "text": "photosystem I",
+    "hint": "A complex, not a structure."
+   },
+   {
+    "text": "thylakoid",
+    "hint": "Correct."
+   },
+   {
+    "text": "chloroplast",
+    "hint": "Cyanobacteria are prokaryotes: no chloroplasts."
+   },
+   {
+    "text": "photosystem II",
+    "hint": "A complex."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCyanobacteria have **thylakoid membranes** in the cytoplasm carrying chlorophyll a.\n\n## Simplified explanation\n\n**Thylakoids**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The primary stain (crystal violet) in Gram's method is",
+  "options": [
+   {
+    "text": "not charged",
+    "hint": "No."
+   },
+   {
+    "text": "negatively charged",
+    "hint": "No."
+   },
+   {
+    "text": "none of the above",
+    "hint": "No."
+   },
+   {
+    "text": "positively charged",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCrystal violet is a **basic (cationic) dye**; it binds the negatively charged cell surface. Iodine is the mordant; alcohol/acetone decolourises; safranin is the counterstain.\n\n## Simplified explanation\n\nBasic dye: **positive**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is true about the **FeMo protein** of the nitrogenase complex?",
+  "options": [
+   {
+    "text": "It hydrolyses ATP to release energy",
+    "hint": "The Fe protein does."
+   },
+   {
+    "text": "It is inhibited by oxygen gas",
+    "hint": "Both proteins are, but this isn't its defining role."
+   },
+   {
+    "text": "It reduces N\u2082 to NH\u2083",
+    "hint": "Correct."
+   },
+   {
+    "text": "It binds ATP",
+    "hint": "The Fe protein binds ATP."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nNitrogenase = **Fe protein** (binds and hydrolyses ATP, passes electrons) + **FeMo protein** (the active site that **reduces $\\ce{N2}$**).\n\n## Simplified explanation\n\nFeMo protein **reduces N\u2082**.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Euglenoids are",
+  "options": [
+   {
+    "text": "mostly mixotrophs",
+    "hint": "Correct."
+   },
+   {
+    "text": "multicellular",
+    "hint": "Unicellular."
+   },
+   {
+    "text": "animal-like protists",
+    "hint": "They are plant-and-animal-like."
+   },
+   {
+    "text": "zooflagellates",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Euglena* photosynthesises in light and feeds heterotrophically in darkness: **mixotrophy**.\n\n## Simplified explanation\n\n**Mixotrophs**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2019/20 Paper",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The life cycle of *Paramecium* involves",
+  "options": [
+   {
+    "text": "conjugation and asexual reproduction",
+    "hint": "Correct."
+   },
+   {
+    "text": "conjugation and sexual reproduction",
+    "hint": "Conjugation is its sexual process."
+   },
+   {
+    "text": "sexual and asexual reproduction",
+    "hint": "Less precise."
+   },
+   {
+    "text": "binary and multiple fission",
+    "hint": "No multiple fission."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Paramecium* reproduces asexually by **binary fission** and exchanges micronuclei by **conjugation**.\n\n## Simplified explanation\n\nBinary fission + **conjugation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following does **not** belong to the Kingdom Fungi?",
+  "options": [
+   {
+    "text": "Penicillium sp.",
+    "hint": "A fungus."
+   },
+   {
+    "text": "Aspergillus sp.",
+    "hint": "A fungus."
+   },
+   {
+    "text": "Pilobolus sp.",
+    "hint": "A fungus."
+   },
+   {
+    "text": "Chromolaena sp.",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Chromolaena* (Siam weed, 'Acheampong') is a **flowering plant**.\n\n## Simplified explanation\n\n**Chromolaena** is a plant.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fungi are often described as **ubiquitous**. This means that fungi",
+  "options": [
+   {
+    "text": "occupy all environments",
+    "hint": "Correct."
+   },
+   {
+    "text": "reside in the soil and can be airborne",
+    "hint": "Too narrow."
+   },
+   {
+    "text": "have useful industrial applications",
+    "hint": "True, but not the meaning."
+   },
+   {
+    "text": "occupy the internal organs of animals",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nUbiquitous = **found everywhere**.\n\n## Simplified explanation\n\nEverywhere.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The hypha constitutes the ... body of a fungus.",
+  "options": [
+   {
+    "text": "fruiting",
+    "hint": "Reproductive structure."
+   },
+   {
+    "text": "vegetative",
+    "hint": "Correct."
+   },
+   {
+    "text": "growing",
+    "hint": "Vague."
+   },
+   {
+    "text": "inoculating",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nHyphae form the **mycelium**, the vegetative (feeding) body; fruiting bodies carry spores.\n\n## Simplified explanation\n\n**Vegetative**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "*Candida albicans* and *Saccharomyces cerevisiae* are examples of ... and they are ...",
+  "options": [
+   {
+    "text": "ascomycetes; single-celled fungi",
+    "hint": "Correct."
+   },
+   {
+    "text": "basidiomycetes; single-celled fungi",
+    "hint": "They are ascomycetes."
+   },
+   {
+    "text": "basidiomycetes; multicellular fungi",
+    "hint": "No."
+   },
+   {
+    "text": "ascomycetes; multicellular fungi",
+    "hint": "Yeasts are single-celled."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nBoth are **yeasts** (unicellular) in the **Ascomycota**.\n\n## Simplified explanation\n\nYeasts: **unicellular ascomycetes**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Cellulose is to the cell wall of plants as ... is to the cell wall of fungi.",
+  "options": [
+   {
+    "text": "chitin",
+    "hint": "Correct."
+   },
+   {
+    "text": "collagen",
+    "hint": "Animal protein."
+   },
+   {
+    "text": "lignin",
+    "hint": "Plant wood."
+   },
+   {
+    "text": "lignocellulose",
+    "hint": "Plant."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nFungal walls are made of **chitin**, the same polymer as insect exoskeletons.\n\n## Simplified explanation\n\n**Chitin**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The association of fungal hyphae and plant roots is called",
+  "options": [
+   {
+    "text": "mycelium",
+    "hint": "The fungal body."
+   },
+   {
+    "text": "rhizosphere",
+    "hint": "Soil around roots."
+   },
+   {
+    "text": "mycorrhiza",
+    "hint": "Correct."
+   },
+   {
+    "text": "rhizomorph",
+    "hint": "Root-like strand of hyphae."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Mycorrhizae** are mutualistic fungus\u2013root associations aiding mineral uptake.\n\n## Simplified explanation\n\n**Mycorrhiza**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All fungi can reproduce through",
+  "options": [
+   {
+    "text": "conidia",
+    "hint": "Some fungi."
+   },
+   {
+    "text": "asci",
+    "hint": "Only ascomycetes."
+   },
+   {
+    "text": "basidiospores",
+    "hint": "Only basidiomycetes."
+   },
+   {
+    "text": "spores",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nSpores (sexual or asexual) are common to **all** fungi.\n\n## Simplified explanation\n\n**Spores**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mushrooms, shelf fungi, coral fungi, bird's-nest fungi, stinkhorns and puffballs are all members of the Phylum",
+  "options": [
+   {
+    "text": "Basidiomycota",
+    "hint": "Correct."
+   },
+   {
+    "text": "Ascomycota",
+    "hint": "Sac fungi."
+   },
+   {
+    "text": "Chytridiomycota",
+    "hint": "Primitive, flagellated."
+   },
+   {
+    "text": "Zygomycota",
+    "hint": "Bread moulds."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nThe **club fungi (Basidiomycota)** produce spores on basidia in large fruiting bodies.\n\n## Simplified explanation\n\n**Basidiomycota**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **sac fungi** belong to the Phylum",
+  "options": [
+   {
+    "text": "Basidiomycota",
+    "hint": "Club fungi."
+   },
+   {
+    "text": "Zygomycota",
+    "hint": "No."
+   },
+   {
+    "text": "Chytridiomycota",
+    "hint": "No."
+   },
+   {
+    "text": "Ascomycota",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nAscomycetes produce spores in sac-like **asci**.\n\n## Simplified explanation\n\n**Ascomycota**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **mycelium** is best described as a",
+  "options": [
+   {
+    "text": "fungal cell",
+    "hint": "No."
+   },
+   {
+    "text": "reproductive structure of a fungus",
+    "hint": "No."
+   },
+   {
+    "text": "mass of hyphae",
+    "hint": "Correct."
+   },
+   {
+    "text": "fruiting body of a fungus",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nMycelium = the network (mass) of **hyphae**.\n\n## Simplified explanation\n\n**Mass of hyphae**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which structures produce spores in the **ascomycetes**?",
+  "options": [
+   {
+    "text": "Basidia",
+    "hint": "Basidiomycetes."
+   },
+   {
+    "text": "Asci",
+    "hint": "Correct."
+   },
+   {
+    "text": "Sporangia",
+    "hint": "Zygomycetes."
+   },
+   {
+    "text": "Conidiophores",
+    "hint": "Asexual conidia, not the defining sexual spores."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nSexual ascospores form inside **asci**.\n\n## Simplified explanation\n\n**Asci**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The three genera of fungi that account for **dermatophytic** infections in animals are",
+  "options": [
+   {
+    "text": "Epidermophyton, Microsporum and Rhodotorula",
+    "hint": "Rhodotorula is a yeast."
+   },
+   {
+    "text": "Candida, Epidermophyton and Trichophyton",
+    "hint": "Candida is a yeast."
+   },
+   {
+    "text": "Candida, Mucor and Rhizopus",
+    "hint": "No."
+   },
+   {
+    "text": "Epidermophyton, Microsporum and Trichophyton",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nDermatophytes (ringworm, athlete's foot) are ***Trichophyton, Microsporum* and *Epidermophyton***.\n\n## Simplified explanation\n\nThe three ringworm genera.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The symbiotic association between a fungus and an alga is called a",
+  "options": [
+   {
+    "text": "mycorrhiza",
+    "hint": "Fungus + root."
+   },
+   {
+    "text": "mutualism",
+    "hint": "The type of relationship, not its name."
+   },
+   {
+    "text": "parasitism",
+    "hint": "One harmed."
+   },
+   {
+    "text": "lichen",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nA **lichen** is a mutualistic fungus\u2013alga (or cyanobacterium) partnership.\n\n## Simplified explanation\n\n**Lichen**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which medium can be used to culture **only fungi** in the laboratory?",
+  "options": [
+   {
+    "text": "Potato Dextrose Agar amended with chloramphenicol",
+    "hint": "Correct."
+   },
+   {
+    "text": "Potato Dextrose Broth",
+    "hint": "Liquid; bacteria grow too."
+   },
+   {
+    "text": "PDA amended with fluconazole",
+    "hint": "That kills fungi."
+   },
+   {
+    "text": "Potato Dextrose Agar",
+    "hint": "Bacteria also grow."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nThe antibiotic **chloramphenicol suppresses bacteria**, making PDA selective for fungi.\n\n## Simplified explanation\n\nPDA + **antibacterial**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The Phylum ... are the most **primitive** fungi.",
+  "options": [
+   {
+    "text": "Chytridiomycota",
+    "hint": "Correct."
+   },
+   {
+    "text": "Zygomycota",
+    "hint": "Intermediate."
+   },
+   {
+    "text": "Basidiomycota",
+    "hint": "Most advanced."
+   },
+   {
+    "text": "Ascomycota",
+    "hint": "Advanced."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Chytrids** have flagellated zoospores, a primitive trait. Basidiomycota are the most advanced.\n\n## Simplified explanation\n\n**Chytrids**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fungi that grow on animal dung are collectively called ... fungi.",
+  "options": [
+   {
+    "text": "nematophagous",
+    "hint": "Nematode-trapping."
+   },
+   {
+    "text": "keratinophilic",
+    "hint": "Grow on keratin."
+   },
+   {
+    "text": "coprophilous",
+    "hint": "Correct."
+   },
+   {
+    "text": "entomophilous",
+    "hint": "Insect-loving."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Copros* = dung: **coprophilous** fungi (e.g. *Pilobolus*).\n\n## Simplified explanation\n\n**Coprophilous**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fungi are more closely related to ... than they are to plants.",
+  "options": [
+   {
+    "text": "ferns",
+    "hint": "No."
+   },
+   {
+    "text": "algae",
+    "hint": "No."
+   },
+   {
+    "text": "bacteria",
+    "hint": "No."
+   },
+   {
+    "text": "animals",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nMolecular evidence places fungi and animals together in the **Opisthokonts**; both are heterotrophs storing glycogen.\n\n## Simplified explanation\n\n**Animals**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a **commercially produced mushroom**?",
+  "options": [
+   {
+    "text": "Mucor (Zygomycota)",
+    "hint": "A mould."
+   },
+   {
+    "text": "Pleurotus (Basidiomycota)",
+    "hint": "Correct."
+   },
+   {
+    "text": "Rhizopus (Glomeromycota)",
+    "hint": "Bread mould."
+   },
+   {
+    "text": "Pilobolus (Ascomycota)",
+    "hint": "A dung fungus (and a zygomycete)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Pleurotus* (oyster mushroom) is widely cultivated in Ghana.\n\n## Simplified explanation\n\n**Pleurotus**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The bread mould, *Rhizopus stolonifer*, belongs to the Phylum",
+  "options": [
+   {
+    "text": "Glomeromycota",
+    "hint": "Mycorrhizal fungi."
+   },
+   {
+    "text": "Zygomycota",
+    "hint": "Correct."
+   },
+   {
+    "text": "Basidiomycota",
+    "hint": "No."
+   },
+   {
+    "text": "Ascomycota",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nZygomycetes form thick-walled zygospores; *Rhizopus* is the classic example.\n\n## Simplified explanation\n\n**Zygomycota**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fungi",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Whisk ferns belong to the Order",
+  "options": [
+   {
+    "text": "Psilotales",
+    "hint": "Correct."
+   },
+   {
+    "text": "Selaginellales",
+    "hint": "Spike mosses."
+   },
+   {
+    "text": "Equisetales",
+    "hint": "Horsetails."
+   },
+   {
+    "text": "Isoetales",
+    "hint": "Quillworts."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Psilotum* (whisk fern) is in the **Psilotales**.\n\n## Simplified explanation\n\n**Psilotales**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following plants has **needles**?",
+  "options": [
+   {
+    "text": "Bryophytes",
+    "hint": "No true leaves."
+   },
+   {
+    "text": "Gymnosperms",
+    "hint": "Correct."
+   },
+   {
+    "text": "Angiosperms",
+    "hint": "Broad leaves mostly."
+   },
+   {
+    "text": "Pteridophytes",
+    "hint": "Fronds."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nConifers (gymnosperms) such as pines have needle-like leaves.\n\n## Simplified explanation\n\n**Gymnosperms**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following plants has a **tap root** system?",
+  "options": [
+   {
+    "text": "Pepper",
+    "hint": "Correct."
+   },
+   {
+    "text": "Maize",
+    "hint": "Monocot: fibrous."
+   },
+   {
+    "text": "Rice",
+    "hint": "Monocot: fibrous."
+   },
+   {
+    "text": "Grass",
+    "hint": "Monocot: fibrous."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Dicots** have tap roots; monocots (grasses, maize, rice) have fibrous roots.\n\n## Simplified explanation\n\nDicot \u2192 **pepper**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which characteristic of plants does **not** influence pollination by animals?",
+  "options": [
+   {
+    "text": "Colour of flower",
+    "hint": "Attracts."
+   },
+   {
+    "text": "Smell of flower",
+    "hint": "Attracts."
+   },
+   {
+    "text": "Size of pollen",
+    "hint": "Correct."
+   },
+   {
+    "text": "Taste of nectar",
+    "hint": "Rewards."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nAnimals are attracted by colour, scent and nectar; pollen grain size doesn't attract them.\n\n## Simplified explanation\n\n**Pollen size**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A flower that blooms at **night** is likely pollinated by",
+  "options": [
+   {
+    "text": "bats",
+    "hint": "Correct."
+   },
+   {
+    "text": "bees",
+    "hint": "Daytime."
+   },
+   {
+    "text": "ants",
+    "hint": "No."
+   },
+   {
+    "text": "birds",
+    "hint": "Daytime."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nNight-blooming, pale, strongly scented flowers are pollinated by **bats** and moths.\n\n## Simplified explanation\n\n**Bats**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a **bryophyte**?",
+  "options": [
+   {
+    "text": "Ginkgophyta",
+    "hint": "Gymnosperms."
+   },
+   {
+    "text": "Gnetophyta",
+    "hint": "Gymnosperms."
+   },
+   {
+    "text": "Cycadophyta",
+    "hint": "Gymnosperms."
+   },
+   {
+    "text": "Anthocerotophyta (hornworts)",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nBryophytes: mosses, liverworts and **hornworts (Anthocerotophyta)**.\n\n## Simplified explanation\n\n**Hornworts**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which Division of plants has only **one** living member?",
+  "options": [
+   {
+    "text": "Anthocerotophyta",
+    "hint": "Many hornworts."
+   },
+   {
+    "text": "Gnetophyta",
+    "hint": "Three genera."
+   },
+   {
+    "text": "Ginkgophyta",
+    "hint": "Correct."
+   },
+   {
+    "text": "Cycadophyta",
+    "hint": "Many cycads."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Ginkgo biloba* is the sole living ginkgophyte.\n\n## Simplified explanation\n\n**Ginkgo**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A **perfect** flower undergoes",
+  "options": [
+   {
+    "text": "cross-pollination only",
+    "hint": "It can self too."
+   },
+   {
+    "text": "self- and cross-pollination",
+    "hint": "Correct."
+   },
+   {
+    "text": "self-pollination only",
+    "hint": "It can be crossed."
+   },
+   {
+    "text": "no pollination",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nA **perfect** (bisexual) flower has both stamens and carpels, so it can be self- or cross-pollinated.\n\n## Simplified explanation\n\nBoth are possible.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are genera of Gnetophyta **except**",
+  "options": [
+   {
+    "text": "Gnetum",
+    "hint": "Gnetophyte."
+   },
+   {
+    "text": "Ephedra",
+    "hint": "Gnetophyte."
+   },
+   {
+    "text": "Psilotum",
+    "hint": "Correct."
+   },
+   {
+    "text": "Welwitschia",
+    "hint": "Gnetophyte."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nGnetophyta: ***Ephedra, Gnetum, Welwitschia***. *Psilotum* is a whisk fern.\n\n## Simplified explanation\n\n**Psilotum**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mosses, liverworts and hornworts share",
+  "options": [
+   {
+    "text": "reproductive cells in gametangia",
+    "hint": "Correct."
+   },
+   {
+    "text": "branched sporophytes",
+    "hint": "Unbranched."
+   },
+   {
+    "text": "vascular tissues, true leaves and waxy cuticles",
+    "hint": "No vascular tissue."
+   },
+   {
+    "text": "lignified walls",
+    "hint": "No lignin."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nBryophytes produce gametes in **gametangia** (antheridia and archegonia).\n\n## Simplified explanation\n\n**Gametangia**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which characteristic is **not** common to all phyla of vascular plants?",
+  "options": [
+   {
+    "text": "The development of seeds",
+    "hint": "Correct."
+   },
+   {
+    "text": "Lignin in cell walls",
+    "hint": "Common."
+   },
+   {
+    "text": "Xylem and phloem",
+    "hint": "Common."
+   },
+   {
+    "text": "Dominance of the diploid generation",
+    "hint": "Common."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nFerns and lycophytes are vascular but **seedless**.\n\n## Simplified explanation\n\nNot all make **seeds**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are characteristics of dicotyledonous plants **except**",
+  "options": [
+   {
+    "text": "taproot system",
+    "hint": "Dicot."
+   },
+   {
+    "text": "leaf veins are parallel",
+    "hint": "Correct."
+   },
+   {
+    "text": "vascular bundles in a ring",
+    "hint": "Dicot."
+   },
+   {
+    "text": "floral parts in multiples of four or five",
+    "hint": "Dicot."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Parallel** venation is a **monocot** feature; dicots have net venation.\n\n## Simplified explanation\n\nParallel veins = monocot.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All of the following plants have roots **except**",
+  "options": [
+   {
+    "text": "bryophytes",
+    "hint": "Correct."
+   },
+   {
+    "text": "gymnosperms",
+    "hint": "Roots."
+   },
+   {
+    "text": "pteridophytes",
+    "hint": "Roots."
+   },
+   {
+    "text": "angiosperms",
+    "hint": "Roots."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nBryophytes have **rhizoids**, not true roots.\n\n## Simplified explanation\n\n**Bryophytes**: rhizoids only.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which plants need **water for fertilisation**?\n\nI. Rice plant  II. Ferns  III. Liverworts",
+  "options": [
+   {
+    "text": "II and III only",
+    "hint": "Correct."
+   },
+   {
+    "text": "I and III only",
+    "hint": "No."
+   },
+   {
+    "text": "I, II and III",
+    "hint": "Not rice."
+   },
+   {
+    "text": "I and II only",
+    "hint": "Rice uses pollen tubes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nFerns and bryophytes have **flagellated sperm** that swim to the egg; flowering plants use pollen tubes.\n\n## Simplified explanation\n\n**Ferns and liverworts**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A seed develops from an ... after fertilisation.",
+  "options": [
+   {
+    "text": "embryo",
+    "hint": "Inside the seed."
+   },
+   {
+    "text": "ovum",
+    "hint": "Becomes the embryo."
+   },
+   {
+    "text": "ovary",
+    "hint": "Becomes the fruit."
+   },
+   {
+    "text": "ovule",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Ovule \u2192 seed**; **ovary \u2192 fruit**; **zygote \u2192 embryo**.\n\n## Simplified explanation\n\nOvule \u2192 **seed**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Spores and seeds both disperse plants, but they differ because spores are",
+  "options": [
+   {
+    "text": "dispersed mostly by animals; seeds are not",
+    "hint": "No."
+   },
+   {
+    "text": "stored with nutrition; seeds are not",
+    "hint": "Reversed."
+   },
+   {
+    "text": "unicellular; seeds are not",
+    "hint": "Correct."
+   },
+   {
+    "text": "protected by an outer covering; seeds are not",
+    "hint": "Reversed."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nA spore is a **single cell**; a seed is multicellular with an embryo, food store and seed coat.\n\n## Simplified explanation\n\nSpores are **single cells**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Plants",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **osculum** is a characteristic feature of organisms in the Phylum",
+  "options": [
+   {
+    "text": "Porifera",
+    "hint": "Correct."
+   },
+   {
+    "text": "Nematoda",
+    "hint": "No."
+   },
+   {
+    "text": "Echinodermata",
+    "hint": "No."
+   },
+   {
+    "text": "Cnidaria",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nSponges (Porifera) expel water through a large opening, the **osculum**.\n\n## Simplified explanation\n\nSponges.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Cnidarians capture their prey using special toxic cells called",
+  "options": [
+   {
+    "text": "sporocytes",
+    "hint": "No."
+   },
+   {
+    "text": "choanocytes",
+    "hint": "Sponge collar cells."
+   },
+   {
+    "text": "cnidocytes",
+    "hint": "Correct."
+   },
+   {
+    "text": "nematocysts",
+    "hint": "The stinging organelle inside the cnidocyte."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Cnidocytes** contain the stinging capsule (nematocyst).\n\n## Simplified explanation\n\n**Cnidocytes**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Most adult tapeworms have a series of repeating 'segments' called",
+  "options": [
+   {
+    "text": "scolex",
+    "hint": "The head with hooks."
+   },
+   {
+    "text": "clitella",
+    "hint": "Earthworm band."
+   },
+   {
+    "text": "teguments",
+    "hint": "Body covering."
+   },
+   {
+    "text": "proglottids",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nTapeworm body = scolex + neck + chain of **proglottids** (each with reproductive organs).\n\n## Simplified explanation\n\n**Proglottids**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Annelids show advancement over nematodes by possessing",
+  "options": [
+   {
+    "text": "bilateral symmetry",
+    "hint": "Both have it."
+   },
+   {
+    "text": "a round body shape",
+    "hint": "Nematodes are round."
+   },
+   {
+    "text": "metameric segmentation",
+    "hint": "Correct."
+   },
+   {
+    "text": "eukaryotic cells",
+    "hint": "Both have them."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nAnnelids are **segmented** (metamerism) with a true coelom.\n\n## Simplified explanation\n\n**Segmentation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Division of the body into **head, thorax and abdomen** is characteristic of",
+  "options": [
+   {
+    "text": "Myriapoda",
+    "hint": "Head + trunk."
+   },
+   {
+    "text": "Insecta",
+    "hint": "Correct."
+   },
+   {
+    "text": "Crustacea",
+    "hint": "Cephalothorax + abdomen."
+   },
+   {
+    "text": "Arachnida",
+    "hint": "Cephalothorax + abdomen."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nInsects have three body regions and six legs.\n\n## Simplified explanation\n\n**Insects**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The invertebrate host (vector) of the worm that causes **elephantiasis** belongs to the Class",
+  "options": [
+   {
+    "text": "Crustacea",
+    "hint": "No."
+   },
+   {
+    "text": "Oligochaeta",
+    "hint": "No."
+   },
+   {
+    "text": "Gastropoda",
+    "hint": "No."
+   },
+   {
+    "text": "Insecta",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Wuchereria bancrofti* is transmitted by **mosquitoes** (Insecta).\n\n## Simplified explanation\n\nMosquito \u2192 **Insecta**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "*Schistosoma* completes part of its life cycle in members of the Class ... before entering its vertebrate host.",
+  "options": [
+   {
+    "text": "Cephalopoda",
+    "hint": "No."
+   },
+   {
+    "text": "Gastropoda",
+    "hint": "Correct."
+   },
+   {
+    "text": "Polyplacophora",
+    "hint": "No."
+   },
+   {
+    "text": "Bivalvia",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nSchistosomes develop in freshwater **snails** (Gastropoda).\n\n## Simplified explanation\n\nSnails.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Molluscs that have a **fused head and foot** are classified in the Class",
+  "options": [
+   {
+    "text": "Cephalopoda",
+    "hint": "Correct."
+   },
+   {
+    "text": "Monoplacophora",
+    "hint": "No."
+   },
+   {
+    "text": "Gastropoda",
+    "hint": "Stomach-foot."
+   },
+   {
+    "text": "Bivalvia",
+    "hint": "No head."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCephalopod = 'head-foot': the foot forms tentacles around the head (octopus, squid).\n\n## Simplified explanation\n\n**Cephalopoda**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Bilateral symmetry occurs in",
+  "options": [
+   {
+    "text": "poriferans, annelids, arthropods and chordates",
+    "hint": "Sponges are asymmetrical."
+   },
+   {
+    "text": "annelids, arthropods, echinoderms and chordates",
+    "hint": "Adult echinoderms are pentaradial."
+   },
+   {
+    "text": "chordates, annelids, arthropods and cnidarians",
+    "hint": "Cnidarians are radial."
+   },
+   {
+    "text": "nematodes, annelids, arthropods and chordates",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCnidarians are radial, adult echinoderms pentaradial, sponges asymmetrical.\n\n## Simplified explanation\n\nNo cnidarians, echinoderms or sponges.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The locomotory structures of echinoderms are called",
+  "options": [
+   {
+    "text": "parapodia",
+    "hint": "Polychaetes."
+   },
+   {
+    "text": "pseudopodia",
+    "hint": "Amoebae."
+   },
+   {
+    "text": "tube feet",
+    "hint": "Correct."
+   },
+   {
+    "text": "setae",
+    "hint": "Annelids."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Tube feet**, operated by the water vascular system.\n\n## Simplified explanation\n\n**Tube feet**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which class of echinoderms is **spherical** in shape (sea urchins and sand dollars)?",
+  "options": [
+   {
+    "text": "Echinoidea",
+    "hint": "Correct."
+   },
+   {
+    "text": "Crinoidea",
+    "hint": "Feather stars."
+   },
+   {
+    "text": "Asteroidea",
+    "hint": "Starfish."
+   },
+   {
+    "text": "Ophiuroidea",
+    "hint": "Brittle stars."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Echinoidea**: sea urchins and sand dollars.\n\n## Simplified explanation\n\n**Echinoidea**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper",
+   "2015/16 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Echinoderms of the Class Crinoidea are commonly called",
+  "options": [
+   {
+    "text": "feather stars",
+    "hint": "Correct."
+   },
+   {
+    "text": "sea stars",
+    "hint": "Asteroidea."
+   },
+   {
+    "text": "sea cucumbers",
+    "hint": "Holothuroidea."
+   },
+   {
+    "text": "brittle stars",
+    "hint": "Ophiuroidea."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCrinoids: **feather stars and sea lilies**.\n\n## Simplified explanation\n\n**Feather stars**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Echinoderms are placed closest to chordates among invertebrates because they share",
+  "options": [
+   {
+    "text": "an endoskeleton (and deuterostome development)",
+    "hint": "Correct."
+   },
+   {
+    "text": "a coelom",
+    "hint": "Many share this."
+   },
+   {
+    "text": "bilateral symmetry",
+    "hint": "Many invertebrates share this."
+   },
+   {
+    "text": "cephalisation",
+    "hint": "Echinoderms lack it."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEchinoderms and chordates are **deuterostomes** with a **mesodermal endoskeleton**.\n\n## Simplified explanation\n\n**Endoskeleton**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All vertebrates with **jaws** are classified into",
+  "options": [
+   {
+    "text": "Protochordata",
+    "hint": "No."
+   },
+   {
+    "text": "Agnatha",
+    "hint": "Jawless."
+   },
+   {
+    "text": "Gnathostomata",
+    "hint": "Correct."
+   },
+   {
+    "text": "Hemichordata",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n*Gnathos* = jaw: **Gnathostomata**.\n\n## Simplified explanation\n\n**Gnathostomata**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Humans are members of the Order",
+  "options": [
+   {
+    "text": "Artiodactyla",
+    "hint": "Even-toed ungulates."
+   },
+   {
+    "text": "Primates",
+    "hint": "Correct."
+   },
+   {
+    "text": "Proboscidea",
+    "hint": "Elephants."
+   },
+   {
+    "text": "Dermoptera",
+    "hint": "Colugos."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nHumans, apes and monkeys are **Primates**.\n\n## Simplified explanation\n\n**Primates**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which mammalian Order lacks a (true chorioallantoic) **placenta**?",
+  "options": [
+   {
+    "text": "Proboscidea",
+    "hint": "Placental."
+   },
+   {
+    "text": "Cetacea",
+    "hint": "Placental."
+   },
+   {
+    "text": "Edentata",
+    "hint": "Placental."
+   },
+   {
+    "text": "Marsupialia",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nMarsupials give birth to tiny young that develop in a pouch; they lack a true placenta (Subclass Theria, Infraclass Metatheria).\n\n## Simplified explanation\n\n**Marsupials**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the name of the only Family of pangolins in the Order Pholidota?",
+  "options": [
+   {
+    "text": "Felidae",
+    "hint": "Cats."
+   },
+   {
+    "text": "Tupaiidae",
+    "hint": "Tree shrews."
+   },
+   {
+    "text": "Monodontidae",
+    "hint": "Narwhals."
+   },
+   {
+    "text": "Manidae",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nPangolins: Order Pholidota, Family **Manidae**.\n\n## Simplified explanation\n\n**Manidae**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Pulmonates belong to which phylum?",
+  "options": [
+   {
+    "text": "Echinodermata",
+    "hint": "No."
+   },
+   {
+    "text": "Mollusca",
+    "hint": "Correct."
+   },
+   {
+    "text": "Cnidaria",
+    "hint": "No."
+   },
+   {
+    "text": "Arthropoda",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\n**Pulmonates** are air-breathing snails and slugs (Gastropoda, Mollusca).\n\n## Simplified explanation\n\nSnails \u2192 **Mollusca**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The Asteroidea (starfish) are ... symmetrical.",
+  "options": [
+   {
+    "text": "cylindrically",
+    "hint": "No."
+   },
+   {
+    "text": "bilaterally",
+    "hint": "Only larvae."
+   },
+   {
+    "text": "pentaradially",
+    "hint": "Correct."
+   },
+   {
+    "text": "radially",
+    "hint": "Five-part radial."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nAdult echinoderms show **pentaradial** (five-part) symmetry.\n\n## Simplified explanation\n\n**Pentaradial**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Adult echinoderms have",
+  "options": [
+   {
+    "text": "well-developed brains",
+    "hint": "No."
+   },
+   {
+    "text": "no brain",
+    "hint": "Correct."
+   },
+   {
+    "text": "strong adductor muscles",
+    "hint": "Bivalves."
+   },
+   {
+    "text": "external shells",
+    "hint": "Endoskeleton."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEchinoderms have a **nerve ring** and radial nerves but **no brain** (and no head).\n\n## Simplified explanation\n\n**No brain**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which class is described as the **most intelligent invertebrates**?",
+  "options": [
+   {
+    "text": "Echinoidea",
+    "hint": "No brain."
+   },
+   {
+    "text": "Bivalvia",
+    "hint": "No brain."
+   },
+   {
+    "text": "Gastropoda",
+    "hint": "No."
+   },
+   {
+    "text": "Cephalopoda",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nOctopus and squid have large brains and complex behaviour.\n\n## Simplified explanation\n\n**Cephalopoda**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which class do **sea cucumbers** belong to?",
+  "options": [
+   {
+    "text": "Crinoidea",
+    "hint": "Feather stars."
+   },
+   {
+    "text": "Ophiuroidea",
+    "hint": "Brittle stars."
+   },
+   {
+    "text": "Echinoidea",
+    "hint": "Urchins."
+   },
+   {
+    "text": "Holothuroidea",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nSea cucumbers = **Holothuroidea**.\n\n## Simplified explanation\n\n**Holothuroidea**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**External digestion** of prey (everting the stomach) is a characteristic of",
+  "options": [
+   {
+    "text": "asteroids (starfish)",
+    "hint": "Correct."
+   },
+   {
+    "text": "echinoids",
+    "hint": "No."
+   },
+   {
+    "text": "crustaceans",
+    "hint": "No."
+   },
+   {
+    "text": "arachnids",
+    "hint": "Pre-oral digestion, but the echinoderm answer is meant here."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nStarfish evert their stomach over prey (e.g. mussels) and digest it outside the body.\n\n## Simplified explanation\n\n**Starfish**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Cnidarians are",
+  "options": [
+   {
+    "text": "omnivores",
+    "hint": "No."
+   },
+   {
+    "text": "herbivores",
+    "hint": "No."
+   },
+   {
+    "text": "parasites",
+    "hint": "Mostly free-living."
+   },
+   {
+    "text": "carnivores",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCnidarians capture animal prey with stinging tentacles.\n\n## Simplified explanation\n\n**Carnivores**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following organisms belong to the phylum **Nematoda**?",
+  "options": [
+   {
+    "text": "Slugs and squids",
+    "hint": "Mollusca."
+   },
+   {
+    "text": "Brittle stars and snails",
+    "hint": "No."
+   },
+   {
+    "text": "Ascaris and Filaria",
+    "hint": "Correct."
+   },
+   {
+    "text": "Flukes and schistosomes",
+    "hint": "Platyhelminthes."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nNematodes (roundworms): *Ascaris*, filarial worms, hookworms.\n\n## Simplified explanation\n\n**Ascaris, Filaria**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Flukes and tapeworms are ... symmetrical.",
+  "options": [
+   {
+    "text": "radially",
+    "hint": "No."
+   },
+   {
+    "text": "cylindrically",
+    "hint": "No."
+   },
+   {
+    "text": "bilaterally",
+    "hint": "Correct."
+   },
+   {
+    "text": "pentaradially",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nPlatyhelminthes are bilaterally symmetrical, dorsoventrally flattened.\n\n## Simplified explanation\n\n**Bilaterally**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Annelids (earthworms) breathe through their",
+  "options": [
+   {
+    "text": "heart",
+    "hint": "No."
+   },
+   {
+    "text": "skin",
+    "hint": "Correct."
+   },
+   {
+    "text": "lungs",
+    "hint": "No."
+   },
+   {
+    "text": "gills",
+    "hint": "Some polychaetes, not earthworms."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEarthworms exchange gases through their moist **skin** (cutaneous respiration).\n\n## Simplified explanation\n\n**Skin**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Feeding and removing waste through the **same opening (mouth)** is a characteristic of",
+  "options": [
+   {
+    "text": "annelids",
+    "hint": "Complete gut."
+   },
+   {
+    "text": "nematodes",
+    "hint": "Complete gut."
+   },
+   {
+    "text": "flatworms",
+    "hint": "Correct."
+   },
+   {
+    "text": "roundworms",
+    "hint": "Complete gut."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nFlatworms have an **incomplete** (one-opening) gut.\n\n## Simplified explanation\n\n**Flatworms**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is **not** a character of cephalopods?",
+  "options": [
+   {
+    "text": "Not intelligent",
+    "hint": "Correct."
+   },
+   {
+    "text": "Muscular foot modified into tentacles",
+    "hint": "Character."
+   },
+   {
+    "text": "Secretion of an inky substance",
+    "hint": "Character."
+   },
+   {
+    "text": "Active predators",
+    "hint": "Character."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCephalopods are highly intelligent.\n\n## Simplified explanation\n\nThey **are** intelligent.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The tubular excretory structures of annelids are called",
+  "options": [
+   {
+    "text": "Malpighian tubules",
+    "hint": "Insects."
+   },
+   {
+    "text": "nephridia",
+    "hint": "Correct."
+   },
+   {
+    "text": "haemocoel",
+    "hint": "Arthropod blood cavity."
+   },
+   {
+    "text": "coelom",
+    "hint": "Body cavity."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nEach segment has a pair of **nephridia**.\n\n## Simplified explanation\n\n**Nephridia**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Nematodes have a",
+  "options": [
+   {
+    "text": "muscular foot",
+    "hint": "Molluscs."
+   },
+   {
+    "text": "pseudocoel",
+    "hint": "Correct."
+   },
+   {
+    "text": "flat body",
+    "hint": "Platyhelminthes."
+   },
+   {
+    "text": "tentacles",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nNematodes are **pseudocoelomates**: the body cavity is not fully lined by mesoderm.\n\n## Simplified explanation\n\n**Pseudocoel**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Radial symmetry is common in which phyla?",
+  "options": [
+   {
+    "text": "Nematodes and Echinoderms",
+    "hint": "Nematodes are bilateral."
+   },
+   {
+    "text": "Cnidarians and Molluscs",
+    "hint": "Molluscs are bilateral."
+   },
+   {
+    "text": "Cnidarians and Echinoderms",
+    "hint": "Correct."
+   },
+   {
+    "text": "Cnidarians and Annelids",
+    "hint": "Annelids are bilateral."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCnidarians are radial; adult echinoderms are pentaradial.\n\n## Simplified explanation\n\n**Cnidaria and Echinodermata**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The phylum Mollusca has the following three main classes:",
+  "options": [
+   {
+    "text": "Bivalvia, Gastropoda and Crinoidea",
+    "hint": "Echinoderms."
+   },
+   {
+    "text": "Bivalvia, Gastropoda and Ophiuroidea",
+    "hint": "Echinoderms."
+   },
+   {
+    "text": "Bivalvia, Gastropoda and Asteroidea",
+    "hint": "Asteroidea are echinoderms."
+   },
+   {
+    "text": "Bivalvia, Gastropoda and Cephalopoda",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nMain mollusc classes: **Bivalvia** (clams), **Gastropoda** (snails), **Cephalopoda** (octopus).\n\n## Simplified explanation\n\nBivalves, snails, cephalopods.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Biramous (two-branched) appendages are found among organisms in the class",
+  "options": [
+   {
+    "text": "Insecta",
+    "hint": "Uniramous."
+   },
+   {
+    "text": "Arachnida",
+    "hint": "Uniramous."
+   },
+   {
+    "text": "Myriapoda",
+    "hint": "Uniramous."
+   },
+   {
+    "text": "Crustacea",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the defining feature.",
+  "explanation": "## Advanced explanation\n\nCrustaceans have **biramous** appendages.\n\n## Simplified explanation\n\n**Crustacea**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Invertebrates",
+   "2015/16 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** In the hierarchy of classification, Kingdom precedes Domain.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the fact."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\nDomain is the highest rank, above Kingdom.\n\n## Simplified explanation\n\nDomain is the highest rank, above Kingdom.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Classification & Taxonomy",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** *Vibrio* is a genus of virus.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the fact."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\n*Vibrio* (e.g. *V. cholerae*) is a genus of comma-shaped Gram-negative bacteria.\n\n## Simplified explanation\n\n*Vibrio* (e.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Blue-green algae are true algae.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the fact."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\n'Blue-green algae' are cyanobacteria (prokaryotes); true algae are eukaryotes.\n\n## Simplified explanation\n\n'Blue-green algae' are cyanobacteria (prokaryotes); true algae are eukaryotes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Photosynthetic organisms containing only chlorophyll a are likely to look blue-green in colour.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Check the fact."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\nCyanobacteria (chlorophyll a plus phycocyanin) look blue-green.\n\n## Simplified explanation\n\nCyanobacteria (chlorophyll a plus phycocyanin) look blue-green.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** *Sargassum* derives its colour from chlorophyll b.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the fact."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\n*Sargassum* is a brown alga; its colour comes from fucoxanthin (with chlorophylls a and c).\n\n## Simplified explanation\n\n*Sargassum* is a brown alga; its colour comes from fucoxanthin (with chlorophylls a and c).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Mixotrophism is a typical characteristic of euglenoids.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Check the fact."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\nEuglena photosynthesises and can also feed heterotrophically.\n\n## Simplified explanation\n\nEuglena photosynthesises and can also feed heterotrophically.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** *Plasmodium* parasites move in the bloodstream of their host using a flagellum.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Check the fact."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the fact.",
+  "explanation": "## Advanced explanation\n\nApicomplexans like *Plasmodium* have no flagella (except male gametes); they are carried passively or glide.\n\n## Simplified explanation\n\nApicomplexans like *Plasmodium* have no flagella (except male gametes); they are carried passively or glide.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Protists",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each disease is caused by a **virus**, **protist** or **bacterium**: herpes, typhoid fever, diphtheria, measles, leishmaniasis, malaria.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> - Herpes: **virus**\n> - Typhoid fever: **bacterium** (*Salmonella typhi*)\n> - Diphtheria: **bacterium** (*Corynebacterium diphtheriae*)\n> - Measles: **virus**\n> - Leishmaniasis: **protist** (*Leishmania*)\n> - Malaria: **protist** (*Plasmodium*)",
+  "explanation": "## Advanced explanation\n\nAntibiotics treat bacterial diseases, not viral ones.\n\n## Simplified explanation\n\nViruses: herpes, measles; bacteria: typhoid, diphtheria; protists: leishmaniasis, malaria.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Define: (a) clade (b) taxon (c) viroid (d) prion.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) **Clade**: a group of organisms consisting of a common ancestor and **all** its descendants (monophyletic group).\n> (b) **Taxon**: any named group at any rank of classification (e.g. a species, genus, family).\n> (c) **Viroid**: a small, circular, infectious **RNA** molecule with **no protein coat** that infects plants.\n> (d) **Prion**: an infectious **misfolded protein** with no nucleic acid that causes other proteins to misfold (e.g. mad cow disease, CJD).",
+  "explanation": "## Advanced explanation\n\nViroids and prions are 'subviral' infectious agents.\n\n## Simplified explanation\n\nAncestor + all descendants; named group; naked RNA; infectious protein.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** goals of taxonomy and **two** reasons why classifying organisms is important.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Goals: (1) **identify** and describe organisms; (2) **name** them (nomenclature); (3) **classify** them into groups showing relationships; (4) reconstruct **evolutionary relationships** (phylogeny).\n>\n> Importance: makes the huge diversity of life **manageable to study**; allows **universal communication** using standard names; shows **evolutionary relationships**; helps predict characteristics of related organisms.",
+  "explanation": "## Advanced explanation\n\nTaxonomy = identification, nomenclature and classification.\n\n## Simplified explanation\n\nIdentify, name, classify; organise and communicate.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Classification & Taxonomy",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between the **hierarchical (Linnaean)** and **cladistic** classification systems.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Hierarchical** classification groups organisms into nested ranks (kingdom \u2192 species) mainly by **overall similarity** of observable characteristics; groups need not reflect common ancestry.\n>\n> **Cladistics** groups organisms only by **shared derived characters (synapomorphies)** inherited from a common ancestor, producing **cladograms** of monophyletic groups (clades); ranks are less important.",
+  "explanation": "## Advanced explanation\n\nCladistics reflects evolutionary history explicitly.\n\n## Simplified explanation\n\nSimilarity and ranks vs shared derived traits and ancestry.",
+  "hint": "Give specific points.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Classification & Taxonomy",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In Gram staining, which chemical is used as (a) the primary stain (b) the mordant (c) the counterstain?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) **Crystal violet** (b) **Iodine (Gram's iodine)** (c) **Safranin**. (The decolouriser is alcohol/acetone.)",
+  "explanation": "## Advanced explanation\n\nGram-positive cells keep the crystal violet\u2013iodine complex (purple); Gram-negative cells lose it and take up safranin (pink/red).\n\n## Simplified explanation\n\nCrystal violet, iodine, safranin.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the phylum (or group) of: (a) *Amoeba* (b) brown algae (c) *Trypanosoma*.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) *Amoeba*: **Sarcodina (Rhizopoda/Amoebozoa)** (b) brown algae: **Phaeophyta** (c) *Trypanosoma*: **Zoomastigophora** (flagellates; Kinetoplastida).",
+  "explanation": "## Advanced explanation\n\nClassification of protists varies between texts; the course uses the traditional phyla.\n\n## Simplified explanation\n\nSarcodina, Phaeophyta, Zoomastigophora.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Protists",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each group with its characteristic: retroviruses, green algae, thermophilic bacteria, nitrifying bacteria, slime moulds, dinoflagellates, sarcodines, euglenids, multicellular (brown) algae, diatoms.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> - Retroviruses \u2192 **reverse transcription**\n> - Green algae \u2192 **cellulose cell wall**\n> - Thermophilic bacteria \u2192 **inhabit extremely hot environments**\n> - Nitrifying bacteria \u2192 **chemoautotrophism**\n> - Slime moulds \u2192 **fruiting body**\n> - Dinoflagellates \u2192 **bioluminescence**\n> - Sarcodines \u2192 **pseudopodia**\n> - Euglenids \u2192 **eye spot**\n> - Multicellular algae \u2192 **holdfast**\n> - Diatoms \u2192 **frustule** (silica shell)",
+  "explanation": "## Advanced explanation\n\nEach group's signature feature.\n\n## Simplified explanation\n\nLearn one defining feature per group.",
+  "hint": "Give specific points.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Prokaryotes & Viruses",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the Orders of: (a) newts (b) pythons (c) koalas (d) duck-billed platypus.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) Newts: **Urodela (Caudata)** (b) Pythons: **Squamata** (suborder Serpentes) (c) Koalas: **Marsupialia** (Diprotodontia) (d) Platypus: **Monotremata**.",
+  "explanation": "## Advanced explanation\n\nMonotremes lay eggs; marsupials carry young in a pouch.\n\n## Simplified explanation\n\nUrodela, Squamata, Marsupialia, Monotremata.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Name the common feeding method of urochordates and cephalochordates. (b) Name two jawless vertebrates. (c) Give one example of a poisonous lizard.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) **Filter (suspension) feeding** using the pharyngeal slits.\n> (b) **Lampreys** and **hagfish**.\n> (c) The **Gila monster** (*Heloderma suspectum*) or the Mexican beaded lizard.",
+  "explanation": "## Advanced explanation\n\nPharyngeal slits are a basic chordate feature used for feeding in protochordates.\n\n## Simplified explanation\n\nFilter feeding; lamprey and hagfish; Gila monster.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why the family **Boidae** contains fangless snakes, yet they are among the most dangerous animals.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Boas and pythons are **non-venomous** (no fangs) but kill by **constriction**: they coil around prey and squeeze until it suffocates or circulation stops. Large species can kill and swallow big animals.",
+  "explanation": "## Advanced explanation\n\nDanger comes from size and strength, not venom.\n\n## Simplified explanation\n\nThey **constrict** their prey.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why the mode of reproduction of the Subclass **Theria** is better and safer than that of **Prototheria**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Prototheria (monotremes) **lay eggs**, which are exposed to predators and temperature changes. Theria (marsupials and placentals) give birth to **live young**, with the embryo developing **inside the mother** (placentals via a placenta), protected, kept at constant temperature and nourished directly, so survival is higher.",
+  "explanation": "## Advanced explanation\n\nViviparity with internal development reduces mortality.\n\n## Simplified explanation\n\nLive birth protects the embryo; eggs are vulnerable.",
+  "hint": "Give specific points.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is a **coelom**? (b) Give **four** functions of the coelom.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) A fluid-filled body cavity **completely lined by mesoderm**, between the gut and body wall.\n>\n> (b) Functions: (1) acts as a **hydrostatic skeleton**; (2) allows **organs to move and grow** independently of the body wall; (3) **cushions/protects** organs; (4) **transports** nutrients, wastes and gametes in the fluid; (5) provides space for organ development.",
+  "explanation": "## Advanced explanation\n\nAnimals are acoelomate (flatworms), pseudocoelomate (nematodes) or coelomate (annelids, molluscs, chordates).\n\n## Simplified explanation\n\nMesoderm-lined cavity; skeleton, movement, protection, transport.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Invertebrates",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** basic characteristics of chordates.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> At some stage of life all chordates have: (1) a **notochord**; (2) a **dorsal hollow nerve cord**; (3) **pharyngeal slits/pouches**; (4) a **post-anal tail**.",
+  "explanation": "## Advanced explanation\n\nIn vertebrates the notochord is replaced by the vertebral column.\n\n## Simplified explanation\n\nNotochord, dorsal nerve cord, pharyngeal slits, post-anal tail.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe **three** means by which you could break the **dormancy** of seeds.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Scarification**: scratching/nicking or acid treatment of a hard seed coat.\n> 2. **Stratification**: exposure to cold (or warm then cold) moist conditions.\n> 3. **Soaking/leaching** in water to remove germination inhibitors.\n> 4. Treatment with **gibberellins**; exposure to **light**; heat/fire.",
+  "explanation": "## Advanced explanation\n\nDormancy may be due to an impermeable seed coat, inhibitors or an immature embryo.\n\n## Simplified explanation\n\nScarify, stratify, soak, hormones.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Plants",
+   "2015/16 Paper",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **two** ecological importances of bryophytes.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Pioneer species**: colonise bare rock/soil and help **soil formation**.\n> 2. **Prevent soil erosion** and retain water (e.g. *Sphagnum* mosses).\n> 3. Provide **habitat** for small animals; act as **bio-indicators** of pollution.",
+  "explanation": "## Advanced explanation\n\nPeat (from *Sphagnum*) is also used as fuel and in horticulture.\n\n## Simplified explanation\n\nPioneers, soil, water, habitat.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Plants",
+   "2015/16 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** strategies flowering plants adopt to be pollinated by animals.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Bright colours** and patterns (nectar guides, UV markings).\n> 2. **Scent** (sweet for bees/moths; foul for flies).\n> 3. **Rewards**: nectar and edible pollen.\n> 4. Flower **shape/timing** suited to the pollinator (tubular for birds; night-opening for bats/moths).",
+  "explanation": "## Advanced explanation\n\nCo-evolution matches flowers to their pollinators.\n\n## Simplified explanation\n\nColour, scent, nectar, shape.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Plants",
+   "2015/16 Paper",
+   "2016/17 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List **three** reasons for the success of angiosperms.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Flowers** attract animal pollinators, making pollination efficient.\n> 2. **Double fertilisation** gives an endosperm food store only when fertilisation occurs.\n> 3. **Fruits** protect seeds and aid dispersal.\n> 4. **Vessels** in the xylem conduct water efficiently.\n> 5. **Short life cycles** and great adaptability to many habitats.",
+  "explanation": "## Advanced explanation\n\nAngiosperms are the most diverse plant group.\n\n## Simplified explanation\n\nFlowers, double fertilisation, fruits, vessels.",
+  "hint": "Give specific points.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Plants",
+   "2015/16 Paper",
+   "2017/18 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **two** characteristics of **marsupials** and three examples.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Characteristics: young born **very immature** and complete development in a **pouch (marsupium)** attached to teats; no true (chorioallantoic) placenta.\n>\n> Examples: **kangaroo, koala, opossum** (wallaby, wombat).",
+  "explanation": "## Advanced explanation\n\nMarsupials are concentrated in Australia and the Americas.\n\n## Simplified explanation\n\nPouch, immature young; kangaroo, koala, opossum.",
+  "hint": "Give specific points.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Chordates & Vertebrates",
+   "2015/16 Paper"
+  ]
+ }
+]

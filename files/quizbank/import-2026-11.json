@@ -1,0 +1,45 @@
+{
+  "courses": [
+    {
+      "code": "EDF401",
+      "title": "History and Management of Education in Ghana",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast EDF 401 History and Management of Education in Ghana papers and quizzes (2010/11 to 2025): traditional African education and its philosophical foundations, castle schools, the missions, the education ordinances, Guggisberg, the ADP of 1951 and the Education Act of 1961, management theories, decision making, leadership, school climate and the administrative tasks of the school head.",
+      "examQuestions": 20,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Education"
+      ],
+      "files": [
+        "edf401-history-and-management-of-education-in-ghana.json"
+      ]
+    },
+    {
+      "code": "CMS107",
+      "title": "Communicative Skills",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast CMS 107 papers and quizzes (2014/15 to 2025/26, including College of Distance Education papers): summaries and outlines, punctuation, subject–verb agreement passages, combining sentences by coordination and subordination, sentence types and patterns, editing (tense sequence, conditionals, prepositions, spelling), reading skills (SQ3R, skimming, scanning), note-taking and oral presentation. Every question has a model answer, a hint, and an advanced and a simplified explanation.",
+      "updateDescription": true,
+      "files": [
+        "cms107-communicative-skills-2019-2026.json"
+      ]
+    },
+    {
+      "code": "ASL",
+      "title": "Sign Language: ASL Fingerspelling",
+      "level": "tertiary",
+      "description": "Learn and practise the American Sign Language manual alphabet: recognise each handshape, read fingerspelled words, and solve Fingerseek word-search puzzles (grids © Lifeprint.com, ASL University).",
+      "examQuestions": 20,
+      "examMinutes": 30,
+      "tags": [
+        "Sign Language",
+        "ASL"
+      ],
+      "files": [
+        "sign-language-asl-fingerspelling.json",
+        "sign-language-asl-fingerseek-grids.json"
+      ]
+    }
+  ]
+}
