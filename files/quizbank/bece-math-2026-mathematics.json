@@ -1,0 +1,1518 @@
+[
+  {
+    "type": "choice",
+    "body": "A trader sold an article for GH₵ 126.00 marking a profit of 20%. Find the cost price of the item.",
+    "options": [
+      {
+        "text": "GH₵ 100.80",
+        "hint": "This takes 20% off the selling price. The 20% profit is worked on the cost price, not the selling price."
+      },
+      {
+        "text": "GH₵ 100.50",
+        "hint": "A 20% profit on this gives GH₵ 120.60, not GH₵ 126.00."
+      },
+      {
+        "text": "GH₵ 105.00",
+        "hint": "Correct. $105 \\times 1.2 = 126$."
+      },
+      {
+        "text": "GH₵ 151.20",
+        "hint": "This adds 20% to the selling price, but the cost price must be less than the selling price when there is a profit."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The selling price is 120% of the cost price.",
+    "explanation": "## Advanced explanation\n\nProfit is a percentage of the **cost price**, so selling price $= 120\\%$ of cost price:\n\n$$\\text{Cost price} = \\frac{100}{120} \\times 126 = 105$$\n\nThe cost price is GH₵ 105.00.\n\n## Simplified explanation\n\nCost price is 100%, and adding 20% profit makes 120%. So 120% is GH₵ 126. Then 1% is $126 \\div 120 = 1.05$, and 100% is GH₵ 105.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Profit & Loss"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Ivy and Abbey share an amount of GH₵ 30.00 in the ratio 3 : 2 respectively. Find Abbey's share.",
+    "options": [
+      {
+        "text": "GH₵ 12.00",
+        "hint": "Correct. $\\frac{2}{5} \\times 30 = 12$."
+      },
+      {
+        "text": "GH₵ 10.00",
+        "hint": "This is $30 \\div 3$. Divide by the total parts, $3 + 2 = 5$."
+      },
+      {
+        "text": "GH₵ 15.00",
+        "hint": "This is half of the money, which would be an equal share."
+      },
+      {
+        "text": "GH₵ 18.00",
+        "hint": "This is Ivy's share, $\\frac{3}{5} \\times 30$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add the ratio parts first. Abbey has the second part of the ratio.",
+    "explanation": "## Advanced explanation\n\nTotal parts $= 3 + 2 = 5$. Abbey's share is the second part:\n\n$$\\frac{2}{5} \\times 30 = 12$$\n\n## Simplified explanation\n\nSplit GH₵ 30 into 5 equal parts, so each part is GH₵ 6. Abbey gets 2 parts: $2 \\times 6 =$ GH₵ 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Given the sequence $-9$, $-5$, $m$, $3$, $7$, $11$, find the value of $m$.",
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "$-5 + 3$. The terms go up by 4 each time, not 3."
+      },
+      {
+        "text": "$-3$",
+        "hint": "$-5 + 2$. The terms go up by 4 each time, not 2."
+      },
+      {
+        "text": "$-1$",
+        "hint": "Correct. $-5 + 4 = -1$, and $-1 + 4 = 3$."
+      },
+      {
+        "text": "$1$",
+        "hint": "$-5 + 6$. From here, adding 4 would give 5, not 3."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the common difference from two neighbouring terms you already know.",
+    "explanation": "## Advanced explanation\n\nThe sequence is arithmetic with common difference $d = 7 - 3 = 4$. So\n\n$$m = -5 + 4 = -1$$\n\nCheck: $-1 + 4 = 3$, the next term.\n\n## Simplified explanation\n\nEach number is 4 more than the one before it. Start at $-5$ and add 4 to get $-1$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Sequences"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "A class of 42 learners shared some oranges and each received 11. If 22 learners shared the same number of oranges equally, how many will each get?",
+    "options": [
+      {
+        "text": "20",
+        "hint": "$22 \\times 20 = 440$, but there are 462 oranges."
+      },
+      {
+        "text": "15",
+        "hint": "$22 \\times 15 = 330$, but there are 462 oranges."
+      },
+      {
+        "text": "21",
+        "hint": "Correct. $462 \\div 22 = 21$."
+      },
+      {
+        "text": "22",
+        "hint": "This is the number of learners. $22 \\times 22 = 484$, which is more than 462."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "First find the total number of oranges.",
+    "explanation": "## Advanced explanation\n\nThe number of oranges is fixed, so this is inverse proportion:\n\n$$42 \\times 11 = 462, \\qquad 462 \\div 22 = 21$$\n\n## Simplified explanation\n\nTotal oranges: $42 \\times 11 = 462$. Share them among 22 learners: $462 \\div 22 = 21$ each.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Kofi had 150 birds. He sold 26 of them and kept the rest equally in 4 cages. How many birds were kept in each cage?",
+    "options": [
+      {
+        "text": "31",
+        "hint": "Correct. $124 \\div 4 = 31$."
+      },
+      {
+        "text": "30",
+        "hint": "$30 \\times 4 = 120$, but 124 birds are left."
+      },
+      {
+        "text": "35",
+        "hint": "$35 \\times 4 = 140$, but only 124 birds are left."
+      },
+      {
+        "text": "36",
+        "hint": "$36 \\times 4 = 144$, but only 124 birds are left."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract the birds sold before you divide.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{150 - 26}{4} = \\frac{124}{4} = 31$$\n\n## Simplified explanation\n\nBirds left: $150 - 26 = 124$. Put them in 4 cages: $124 \\div 4 = 31$ in each cage.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Number Operations"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following: $\\dfrac{3}{4}, 0.8, \\dfrac{5}{8}, 0.65$ in descending order.",
+    "options": [
+      {
+        "text": "$0.65$, $\\dfrac{5}{8}$, $\\dfrac{3}{4}$, $0.8$",
+        "hint": "Descending starts with the largest. Also, $\\frac{5}{8} = 0.625$ is smaller than $0.65$."
+      },
+      {
+        "text": "$0.8$, $\\dfrac{3}{4}$, $0.65$, $\\dfrac{5}{8}$",
+        "hint": "Correct. As decimals: $0.8, 0.75, 0.65, 0.625$."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$, $0.8$, $\\dfrac{3}{4}$, $0.65$",
+        "hint": "$\\frac{5}{8} = 0.625$ is the smallest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$, $\\dfrac{5}{8}$, $0.8$, $0.65$",
+        "hint": "$0.8$ is larger than $\\frac{3}{4} = 0.75$, so it must come first."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change the fractions to decimals, then compare. Descending means largest first.",
+    "explanation": "## Advanced explanation\n\nConvert: $\\frac{3}{4} = 0.75$ and $\\frac{5}{8} = 0.625$. Then\n\n$$0.8 > 0.75 > 0.65 > 0.625$$\n\n## Simplified explanation\n\nWrite all four as decimals: 0.75, 0.8, 0.625, 0.65. From largest to smallest: 0.8, 0.75, 0.65, 0.625.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Fractions"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Find the volume of a cube with side 5 m.",
+    "options": [
+      {
+        "text": "25 m$^3$",
+        "hint": "$5 \\times 5 = 25$ is the area of one face, not the volume."
+      },
+      {
+        "text": "10 m$^3$",
+        "hint": "This is $5 \\times 2$. The volume uses the side three times, multiplied."
+      },
+      {
+        "text": "75 m$^3$",
+        "hint": "This is $5 \\times 5 \\times 3$. Multiply by the side again, not by 3."
+      },
+      {
+        "text": "125 m$^3$",
+        "hint": "Correct. $5 \\times 5 \\times 5 = 125$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Volume of a cube $=$ side $\\times$ side $\\times$ side.",
+    "explanation": "## Advanced explanation\n\n$$V = s^3 = 5^3 = 125 \\text{ m}^3$$\n\n## Simplified explanation\n\nMultiply the side by itself three times: $5 \\times 5 \\times 5 = 125$ cubic metres.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Mensuration"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Make $y$ the subject of the relation $p = \\dfrac{r - 4y}{3}$.",
+    "options": [
+      {
+        "text": "$y = \\dfrac{1}{4}(r + 3p)$",
+        "hint": "Check the sign. $4y = r - 3p$, so $3p$ is subtracted."
+      },
+      {
+        "text": "$y = \\dfrac{1}{4}(3p - r)$",
+        "hint": "The signs are reversed. Moving $4y$ across gives $4y = r - 3p$."
+      },
+      {
+        "text": "$y = \\dfrac{1}{4}(r - 3p)$",
+        "hint": "Correct. $3p = r - 4y$, so $4y = r - 3p$."
+      },
+      {
+        "text": "$y = \\dfrac{1}{4}(r + p)$",
+        "hint": "Multiply both sides by 3 first. The $p$ must become $3p$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Clear the fraction first by multiplying both sides by 3.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} p &= \\frac{r - 4y}{3} \\\\ 3p &= r - 4y \\\\ 4y &= r - 3p \\\\ y &= \\frac{1}{4}(r - 3p) \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply both sides by 3 to get $3p = r - 4y$. Move the terms so that $4y = r - 3p$. Divide by 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "In a test, $\\dfrac{2}{3}$ of the learners passed. If the number of learners who failed was 69, how many passed?",
+    "options": [
+      {
+        "text": "46",
+        "hint": "This is $\\frac{2}{3}$ of 69. But 69 is the number who failed, not the whole class."
+      },
+      {
+        "text": "23",
+        "hint": "This is $\\frac{1}{3}$ of 69. But 69 is already $\\frac{1}{3}$ of the class."
+      },
+      {
+        "text": "138",
+        "hint": "Correct. Failed is $\\frac{1}{3}$ of the class, so passed is $2 \\times 69$."
+      },
+      {
+        "text": "207",
+        "hint": "This is the whole class, $3 \\times 69$. The question asks only for those who passed."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "What fraction of the learners failed?",
+    "explanation": "## Advanced explanation\n\nThe fraction who failed is $1 - \\frac{2}{3} = \\frac{1}{3}$, so the class has $3 \\times 69 = 207$ learners, and\n\n$$\\frac{2}{3} \\times 207 = 138$$\n\n## Simplified explanation\n\nOne part out of three failed, and that part is 69 learners. Two parts passed: $2 \\times 69 = 138$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Fractions"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Write 0.000437 in standard form.",
+    "options": [
+      {
+        "text": "$4.37 \\times 10^{4}$",
+        "hint": "This equals 43 700. A number smaller than 1 needs a negative power."
+      },
+      {
+        "text": "$4.37 \\times 10^{-4}$",
+        "hint": "Correct. The decimal point moves 4 places to the right."
+      },
+      {
+        "text": "$4.37 \\times 10^{-3}$",
+        "hint": "This equals 0.00437. Count the places again: the point moves 4 places."
+      },
+      {
+        "text": "$4.37 \\times 10^{3}$",
+        "hint": "This equals 4 370. A number smaller than 1 needs a negative power."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count how many places the decimal point moves to get a number between 1 and 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Moving the point 4 places right gives $a = 4.37$, and since the number is less than 1, $n = -4$.\n\n## Simplified explanation\n\nMove the point until you get 4.37. That takes 4 moves to the right, so the power is $-4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Standard Form"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Find the circumference of a circle whose area is $100\\pi$ cm$^2$.",
+    "options": [
+      {
+        "text": "$10\\pi$ cm",
+        "hint": "This leaves out the 2 in $C = 2\\pi r$."
+      },
+      {
+        "text": "$5\\pi$ cm",
+        "hint": "This would need a radius of 2.5 cm, but the radius is 10 cm."
+      },
+      {
+        "text": "$15\\pi$ cm",
+        "hint": "This would need a radius of 7.5 cm, but the radius is 10 cm."
+      },
+      {
+        "text": "$20\\pi$ cm",
+        "hint": "Correct. $r = 10$, so $C = 2\\pi \\times 10$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use the area to find the radius first.",
+    "explanation": "## Advanced explanation\n\n$$\\pi r^2 = 100\\pi \\implies r = 10, \\qquad C = 2\\pi r = 20\\pi \\text{ cm}$$\n\n## Simplified explanation\n\nArea is $\\pi \\times r \\times r$, so $r \\times r = 100$ and $r = 10$. Circumference is $2 \\times \\pi \\times 10 = 20\\pi$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Mensuration"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "A number is chosen at random from the set $P = \\{1, 2, 3, 4, 5, \\dots, 10\\}$. What is the probability that the number is greater than 3?",
+    "options": [
+      {
+        "text": "$\\dfrac{7}{10}$",
+        "hint": "Correct. The numbers 4 to 10 make 7 out of 10."
+      },
+      {
+        "text": "$\\dfrac{4}{5}$",
+        "hint": "This is $\\frac{8}{10}$, which also counts 3. The number must be greater than 3."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "This is the probability of getting 3 or less."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "This is $\\frac{2}{10}$. Count the numbers from 4 to 10 again."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "List the numbers in the set that are greater than 3.",
+    "explanation": "## Advanced explanation\n\nFavourable outcomes are $\\{4, 5, 6, 7, 8, 9, 10\\}$, so\n\n$$P(\\text{greater than } 3) = \\frac{7}{10}$$\n\n## Simplified explanation\n\nThere are 10 numbers. Those bigger than 3 are 4, 5, 6, 7, 8, 9 and 10, which is 7 numbers. The answer is 7 out of 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Probability"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Antwi has 20 mangoes and 20% are rotten. How many of them are not rotten?",
+    "options": [
+      {
+        "text": "8",
+        "hint": "$20 - 8 = 12$ would be rotten, which is not 20% of 20."
+      },
+      {
+        "text": "4",
+        "hint": "This is the number that are rotten. The question asks for those that are not rotten."
+      },
+      {
+        "text": "12",
+        "hint": "This would leave 8 rotten, but 20% of 20 is 4."
+      },
+      {
+        "text": "16",
+        "hint": "Correct. $20 - 4 = 16$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 20% of 20, then think about which group the question asks for.",
+    "explanation": "## Advanced explanation\n\nRotten: $\\frac{20}{100} \\times 20 = 4$. Not rotten: $20 - 4 = 16$ (or $80\\%$ of 20).\n\n## Simplified explanation\n\n20% of 20 mangoes is 4, so 4 are rotten. The rest, $20 - 4 = 16$, are good.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Percentages"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\sqrt{75} - \\sqrt{18} - \\sqrt{3} + \\sqrt{2}$.",
+    "options": [
+      {
+        "text": "$4\\sqrt{3} + 2\\sqrt{2}$",
+        "hint": "Check the sign: $-3\\sqrt{2} + \\sqrt{2} = -2\\sqrt{2}$."
+      },
+      {
+        "text": "$4\\sqrt{3} - 2\\sqrt{2}$",
+        "hint": "Correct. $5\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}$ and $-3\\sqrt{2} + \\sqrt{2} = -2\\sqrt{2}$."
+      },
+      {
+        "text": "$3\\sqrt{3} - 2\\sqrt{2}$",
+        "hint": "Check the first part: $\\sqrt{75} = 5\\sqrt{3}$, and $5\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}$."
+      },
+      {
+        "text": "$3\\sqrt{3} + 2\\sqrt{2}$",
+        "hint": "Both parts need checking: $5\\sqrt{3} - \\sqrt{3} = 4\\sqrt{3}$ and $-3\\sqrt{2} + \\sqrt{2} = -2\\sqrt{2}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write each surd using a perfect square factor, then collect like surds.",
+    "explanation": "## Advanced explanation\n\n$$\\sqrt{75} = 5\\sqrt{3}, \\qquad \\sqrt{18} = 3\\sqrt{2}$$\n\n$$5\\sqrt{3} - 3\\sqrt{2} - \\sqrt{3} + \\sqrt{2} = 4\\sqrt{3} - 2\\sqrt{2}$$\n\n## Simplified explanation\n\n$\\sqrt{75}$ becomes $5\\sqrt{3}$ and $\\sqrt{18}$ becomes $3\\sqrt{2}$. Combine the $\\sqrt{3}$ terms, then the $\\sqrt{2}$ terms.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Surds"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "If $a = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ and $b = \\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix}$, evaluate $6b + 2a$.",
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "The top entry is $6(-2) + 2(3) = -6$, not 1."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "Multiply each vector by its number first. The bottom entry is $6(1) + 2(1) = 8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-12 + 6 = -6$. Bottom: $6 + 2 = 8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Check the sign of the top entry: $-12 + 6 = -6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply each vector by its number, then add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$6\\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix} + 2\\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix} = \\begin{pmatrix} -12 \\\\ 6 \\end{pmatrix} + \\begin{pmatrix} 6 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $6 \\times (-2) + 2 \\times 3 = -6$. Bottom numbers: $6 \\times 1 + 2 \\times 1 = 8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Vectors"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a composite number?",
+    "options": [
+      {
+        "text": "39",
+        "hint": "$39 = 3 \\times 13$, so it is composite."
+      },
+      {
+        "text": "24",
+        "hint": "24 has many factors, such as 2, 3, 4 and 6, so it is composite."
+      },
+      {
+        "text": "41",
+        "hint": "Correct. 41 is prime: its only factors are 1 and 41."
+      },
+      {
+        "text": "65",
+        "hint": "$65 = 5 \\times 13$, so it is composite."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A composite number has factors other than 1 and itself.",
+    "explanation": "## Advanced explanation\n\nA composite number has more than two factors. $39 = 3 \\times 13$, $24 = 2^3 \\times 3$ and $65 = 5 \\times 13$ are composite, while 41 has no factor other than 1 and 41, so it is prime.\n\n## Simplified explanation\n\nTry to split each number into two smaller whole numbers multiplied together. Only 41 cannot be split, so it is prime and not composite.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Number Properties"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $3a^2b - 9ab^2$.",
+    "options": [
+      {
+        "text": "$3ab(b - 3a)$",
+        "hint": "Expanding gives $3ab^2 - 9a^2b$, which swaps the powers."
+      },
+      {
+        "text": "$3ab(a - 3b)$",
+        "hint": "Correct. Expanding gives $3a^2b - 9ab^2$."
+      },
+      {
+        "text": "$ab(3a - b)$",
+        "hint": "Expanding gives $3a^2b - ab^2$. The common factor also includes 3."
+      },
+      {
+        "text": "$ab(3b - a)$",
+        "hint": "Expanding gives $3ab^2 - a^2b$, which is not the given expression."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the highest common factor of both terms, including the number.",
+    "explanation": "## Advanced explanation\n\nThe HCF of $3a^2b$ and $9ab^2$ is $3ab$:\n\n$$3a^2b - 9ab^2 = 3ab(a - 3b)$$\n\n## Simplified explanation\n\nBoth terms contain 3, $a$ and $b$. Take out $3ab$. What is left is $a$ from the first term and $3b$ from the second.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "A boy spends $\\dfrac{1}{4}$ of his pocket money on books and $\\dfrac{1}{3}$ on pens. What fraction remains?",
+    "options": [
+      {
+        "text": "$\\dfrac{7}{12}$",
+        "hint": "This is the fraction he spent. The question asks for what remains."
+      },
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "Check your addition: $\\frac{1}{4} + \\frac{1}{3} = \\frac{7}{12}$."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "Correct. $1 - \\frac{7}{12} = \\frac{5}{12}$."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Use a common denominator of 12: he spent $\\frac{7}{12}$, leaving $\\frac{5}{12}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add what he spent, then subtract from the whole.",
+    "explanation": "## Advanced explanation\n\n$$1 - \\left(\\frac{1}{4} + \\frac{1}{3}\\right) = 1 - \\frac{7}{12} = \\frac{5}{12}$$\n\n## Simplified explanation\n\nThink of the money as 12 equal parts. Books take 3 parts and pens take 4 parts, so 7 are spent and 5 parts remain.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Fractions"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Change 25% to a fraction in its lowest form.",
+    "options": [
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{25}{100} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "$\\frac{1}{2}$ is 50%."
+      },
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "$\\frac{1}{8}$ is 12.5%."
+      },
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "$\\frac{5}{6}$ is more than 80%."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Percent means out of 100.",
+    "explanation": "## Advanced explanation\n\n$$25\\% = \\frac{25}{100} = \\frac{1}{4}$$\n\n## Simplified explanation\n\nWrite 25 over 100, then divide the top and bottom by 25 to get $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Percentages"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $p^2(q - 1)$ when $p = 2$ and $q = \\dfrac{3}{4}$.",
+    "options": [
+      {
+        "text": "$-1$",
+        "hint": "Correct. $4 \\times \\left(-\\frac{1}{4}\\right) = -1$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "$p^2 = 4$ and $q - 1 = -\\frac{1}{4}$. Multiply these again."
+      },
+      {
+        "text": "$1$",
+        "hint": "Check the sign: $\\frac{3}{4} - 1$ is negative."
+      },
+      {
+        "text": "$2$",
+        "hint": "Check the sign: $\\frac{3}{4} - 1$ is negative, and $4 \\times \\frac{1}{4}$ is 1, not 2."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first, and notice that it is negative.",
+    "explanation": "## Advanced explanation\n\n$$p^2(q - 1) = 2^2\\left(\\frac{3}{4} - 1\\right) = 4 \\times \\left(-\\frac{1}{4}\\right) = -1$$\n\n## Simplified explanation\n\n$2 \\times 2 = 4$ and $\\frac{3}{4} - 1 = -\\frac{1}{4}$. Then $4 \\times \\left(-\\frac{1}{4}\\right) = -1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "A cyclist travelling at 20 km/h covered a distance in 35 minutes. What time will it take to cover the same distance travelling at 28 km/h?",
+    "options": [
+      {
+        "text": "25 minutes",
+        "hint": "Correct. $\\frac{20 \\times 35}{28} = 25$."
+      },
+      {
+        "text": "16 minutes",
+        "hint": "Going faster takes less time, but this is too little. $28 \\times 16$ does not equal $20 \\times 35$."
+      },
+      {
+        "text": "48 minutes",
+        "hint": "Going faster must take less than 35 minutes."
+      },
+      {
+        "text": "49 minutes",
+        "hint": "This multiplies by $\\frac{28}{20}$. Going faster must take less time, so use $\\frac{20}{28}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Faster speed means less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nDistance is constant, so speed $\\times$ time is constant:\n\n$$20 \\times 35 = 28 \\times t \\implies t = \\frac{700}{28} = 25 \\text{ minutes}$$\n\n## Simplified explanation\n\nThe distance is the same both times, so $20 \\times 35 = 700$ must equal $28 \\times$ time. Then $700 \\div 28 = 25$ minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Mary receives a commission of 15% on articles sold in a week. If her commission was GH₵ 60.00, how much sales did she make?",
+    "options": [
+      {
+        "text": "GH₵ 400.00",
+        "hint": "Correct. 15% of GH₵ 400 is GH₵ 60."
+      },
+      {
+        "text": "GH₵ 900.00",
+        "hint": "This is $60 \\times 15$. 15% of GH₵ 900 is GH₵ 135."
+      },
+      {
+        "text": "GH₵ 90.00",
+        "hint": "15% of GH₵ 90 is only GH₵ 13.50."
+      },
+      {
+        "text": "GH₵ 40.00",
+        "hint": "Her sales must be larger than her commission of GH₵ 60."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "GH₵ 60.00 is 15% of her sales. What is 100%?",
+    "explanation": "## Advanced explanation\n\n$$\\text{Sales} = \\frac{100}{15} \\times 60 = 400$$\n\n## Simplified explanation\n\n15% is GH₵ 60, so 1% is $60 \\div 15 =$ GH₵ 4. Then 100% is $4 \\times 100 =$ GH₵ 400.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Percentages"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $y$ in the diagram.",
+    "options": [
+      {
+        "text": "$34^\\circ$",
+        "hint": "Correct. $2y = 180^\\circ - 2(56^\\circ) = 68^\\circ$, so $y = 34^\\circ$."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "This treats the triangle as equilateral. Only two sides are marked equal, and the angle at the top is $2y$, not $y$."
+      },
+      {
+        "text": "$30^\\circ$",
+        "hint": "This treats the triangle as equilateral, with $2y = 60^\\circ$. The base angles here are $56^\\circ$, not $60^\\circ$."
+      },
+      {
+        "text": "$28^\\circ$",
+        "hint": "This sets $2y = 56^\\circ$. The $56^\\circ$ angle lies outside the triangle, next to $2y$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The two lines are parallel, and the two marked sides of the triangle are equal.",
+    "explanation": "## Advanced explanation\n\nThe horizontal lines are parallel, so the $56^\\circ$ angle equals the alternate angle at the right end of the triangle's base. The marked sides are equal, so the triangle is isosceles and both base angles are $56^\\circ$. Angles in a triangle add up to $180^\\circ$:\n\n$$\\begin{aligned} 2y + 56^\\circ + 56^\\circ &= 180^\\circ \\\\ 2y &= 68^\\circ \\\\ y &= 34^\\circ \\end{aligned}$$\n\n## Simplified explanation\n\nThe $56^\\circ$ angle matches the angle at the bottom right of the triangle because the lines are parallel. Two sides are equal, so the bottom left angle is also $56^\\circ$. That leaves $180 - 112 = 68$ for $2y$, so $y = 34$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Geometry"
+    ],
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2026/2026secaq23.png",
+        "caption": "Two parallel lines with an isosceles triangle between them. The top angle of the triangle is 2y, and the angle between its right side and the top line is 56°."
+      }
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The product of three numbers is 90. If two of the numbers are 6 and 3, find the third number.",
+    "options": [
+      {
+        "text": "15",
+        "hint": "This is $90 \\div 6$. Divide by 3 as well."
+      },
+      {
+        "text": "18",
+        "hint": "This is $6 \\times 3$, the product of the two known numbers."
+      },
+      {
+        "text": "9",
+        "hint": "This is $6 + 3$. Product means multiply, not add."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $6 \\times 3 \\times 5 = 90$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Product means the answer to a multiplication.",
+    "explanation": "## Advanced explanation\n\nLet the third number be $n$:\n\n$$6 \\times 3 \\times n = 90 \\implies 18n = 90 \\implies n = 5$$\n\n## Simplified explanation\n\n$6 \\times 3 = 18$. Then $90 \\div 18 = 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Number Operations"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | 3 | 6 | 9 | 12 | 15 |\n\nWhat is the rule for the mapping?",
+    "options": [
+      {
+        "text": "$x \\to x + 2$",
+        "hint": "This works for $x = 1$ only. When $x = 2$ it gives 4, not 6."
+      },
+      {
+        "text": "$x \\to 3x$",
+        "hint": "Correct. Every value of $y$ is 3 times $x$."
+      },
+      {
+        "text": "$x \\to 4 - x$",
+        "hint": "This works for $x = 1$ only. When $x = 2$ it gives 2, not 6."
+      },
+      {
+        "text": "$x \\to 2x + 1$",
+        "hint": "This works for $x = 1$ only. When $x = 2$ it gives 5, not 6."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Test each rule on more than one pair of values.",
+    "explanation": "## Advanced explanation\n\n$y$ goes up by 3 each time $x$ goes up by 1, and $y = 3$ when $x = 1$, so $y = 3x$. Check: $3 \\times 5 = 15$.\n\n## Simplified explanation\n\nLook at the pairs: 1 gives 3, 2 gives 6, 3 gives 9. Each answer is the first number times 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Mappings"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $x - 5(3 - 2x) - 12x + 7$.",
+    "options": [
+      {
+        "text": "$-21x - 8$",
+        "hint": "Check the sign: $-5 \\times (-2x) = +10x$, not $-10x$."
+      },
+      {
+        "text": "$x + 8$",
+        "hint": "Collect again: the $x$ terms give $-x$ and the numbers give $-8$."
+      },
+      {
+        "text": "$-21x + 8$",
+        "hint": "$-5 \\times (-2x) = +10x$, and the numbers are $-15 + 7 = -8$."
+      },
+      {
+        "text": "$-x - 8$",
+        "hint": "Correct. $x + 10x - 12x = -x$ and $-15 + 7 = -8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket first, and take care with $-5 \\times (-2x)$.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} x - 5(3 - 2x) - 12x + 7 &= x - 15 + 10x - 12x + 7 \\\\ &= -x - 8 \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply out the bracket to get $-15 + 10x$. Then the $x$ terms are $x + 10x - 12x = -x$, and the numbers are $-15 + 7 = -8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Given that $\\mu = \\{1, 2, 3, \\dots, 10\\}$ and $M = \\{2, 3, 5, 7\\}$, where $M$ is a subset of $\\mu$, list the members in $\\mu$ that are not in $M$.",
+    "options": [
+      {
+        "text": "$\\{2, 4, 6, 8\\}$",
+        "hint": "2 is in $M$, so it must not be listed. Some members are also missing."
+      },
+      {
+        "text": "$\\{1, 4, 6\\}$",
+        "hint": "This is incomplete: 8, 9 and 10 are also not in $M$."
+      },
+      {
+        "text": "$\\{2, 4, 6, 8, 10\\}$",
+        "hint": "These are the even numbers. 2 is in $M$, and 1 and 9 are missing."
+      },
+      {
+        "text": "$\\{1, 4, 6, 8, 9, 10\\}$",
+        "hint": "Correct. These are all the members of $\\mu$ left after removing $M$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Go through 1 to 10 and cross out the members of $M$.",
+    "explanation": "## Advanced explanation\n\nThis is the complement of $M$ in $\\mu$:\n\n$$M' = \\{1, 4, 6, 8, 9, 10\\}$$\n\n## Simplified explanation\n\nWrite 1 to 10, then cross out 2, 3, 5 and 7. The numbers left are 1, 4, 6, 8, 9 and 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Sets"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "The table shows marks scored by a group of learners in a test.\n\n| Mark | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Frequency | 1 | 2 | 7 | 5 | 4 | 3 |\n\nFind the median mark.",
+    "options": [
+      {
+        "text": "2",
+        "hint": "2 is the mode, the mark with the highest frequency. The median is the middle mark."
+      },
+      {
+        "text": "1",
+        "hint": "Only 3 learners scored 1 or less, so this cannot be the middle."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. The 11th and 12th marks are both 3."
+      },
+      {
+        "text": "4",
+        "hint": "15 learners scored 3 or less, so the middle of 22 comes before 4."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "There are 22 learners, so find the 11th and 12th marks in order.",
+    "explanation": "## Advanced explanation\n\n$n = 1 + 2 + 7 + 5 + 4 + 3 = 22$, so the median is the mean of the 11th and 12th marks. Cumulative frequencies are $1, 3, 10, 15, 19, 22$, so both positions fall at mark 3:\n\n$$\\text{Median} = \\frac{3 + 3}{2} = 3$$\n\n## Simplified explanation\n\nPut the 22 marks in order. The first 10 learners scored 2 or less, and the next 5 scored 3. So the two middle learners, the 11th and 12th, both scored 3.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Statistics"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "The table shows marks scored by a group of learners in a test.\n\n| Mark | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|\n| Frequency | 1 | 2 | 7 | 5 | 4 | 3 |\n\nFind the probability that a learner selected at random scored 2.",
+    "options": [
+      {
+        "text": "$\\dfrac{7}{22}$",
+        "hint": "Correct. 7 of the 22 learners scored 2."
+      },
+      {
+        "text": "$\\dfrac{1}{22}$",
+        "hint": "This uses the frequency for mark 0, which is 1."
+      },
+      {
+        "text": "$\\dfrac{2}{22}$",
+        "hint": "This uses the mark, 2, as the frequency. 7 learners scored 2."
+      },
+      {
+        "text": "$\\dfrac{4}{22}$",
+        "hint": "This uses the frequency for mark 4."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Read the frequency for mark 2, then divide by the total number of learners.",
+    "explanation": "## Advanced explanation\n\n$$P(\\text{mark} = 2) = \\frac{f(2)}{\\sum f} = \\frac{7}{22}$$\n\n## Simplified explanation\n\nAdding the frequencies gives 22 learners, and 7 of them scored 2. The answer is 7 out of 22.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Probability",
+      "Statistics"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "If $(x + 2) : (x - 2) = 1 : 2$, find the value of $x$.",
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "$x = -3$ gives $-1 : -5$, which is $1 : 5$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "$x = -2$ makes the first term 0, so the ratio is not $1 : 2$."
+      },
+      {
+        "text": "$-6$",
+        "hint": "Correct. $-4 : -8 = 1 : 2$."
+      },
+      {
+        "text": "$-35$",
+        "hint": "$x = -35$ gives $-33 : -37$, which is not $1 : 2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write the ratio as two equal fractions and cross-multiply.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{x + 2}{x - 2} = \\frac{1}{2} \\implies 2x + 4 = x - 2 \\implies x = -6$$\n\nCheck: $(-6 + 2) : (-6 - 2) = -4 : -8 = 1 : 2$.\n\n## Simplified explanation\n\nCross-multiply: $2(x + 2) = x - 2$. This gives $2x + 4 = x - 2$. Take $x$ from both sides and subtract 4 to get $x = -6$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Kofi paid an interest of GH₵ 30.00 on a loan he took for 4 years. If the rate was 3% per annum simple interest, find the amount borrowed.",
+    "options": [
+      {
+        "text": "GH₵ 280.00",
+        "hint": "Interest on this would be GH₵ 33.60, not GH₵ 30.00."
+      },
+      {
+        "text": "GH₵ 360.00",
+        "hint": "This is $30 \\times 12$. Use $P = \\frac{100 I}{R T}$ to divide by 12 as well."
+      },
+      {
+        "text": "GH₵ 250.00",
+        "hint": "Correct. $\\frac{100 \\times 30}{3 \\times 4} = 250$."
+      },
+      {
+        "text": "GH₵ 90.00",
+        "hint": "This is $30 \\times 3$. Interest on it would be only GH₵ 10.80."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use $I = \\dfrac{P \\times R \\times T}{100}$ and solve for $P$.",
+    "explanation": "## Advanced explanation\n\n$$P = \\frac{100 I}{R T} = \\frac{100 \\times 30}{3 \\times 4} = 250$$\n\nThe amount borrowed was GH₵ 250.00.\n\n## Simplified explanation\n\nEach year the interest is GH₵ $30 \\div 4 = 7.50$. That is 3% of the loan, so 1% is GH₵ 2.50 and 100% is GH₵ 250.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Simple Interest"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $7 - 2x > 15 - 4x$.",
+    "options": [
+      {
+        "text": "$x > -4$",
+        "hint": "Check the sign: $15 - 7 = 8$, and $8 \\div 2 = 4$."
+      },
+      {
+        "text": "$x < -4$",
+        "hint": "Both the sign of 4 and the direction of the inequality need checking."
+      },
+      {
+        "text": "$x < 4$",
+        "hint": "Dividing by positive 2 does not reverse the inequality."
+      },
+      {
+        "text": "$x > 4$",
+        "hint": "Correct. $2x > 8$, so $x > 4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Collect the $x$ terms on the side where they stay positive.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 7 - 2x &> 15 - 4x \\\\ 4x - 2x &> 15 - 7 \\\\ 2x &> 8 \\\\ x &> 4 \\end{aligned}$$\n\n## Simplified explanation\n\nAdd $4x$ to both sides: $7 + 2x > 15$. Subtract 7: $2x > 8$. Divide by 2: $x > 4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Inequalities"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Theresa was asked to select at random a letter from the word HAPPY. What is the probability that she selects the letter P?",
+    "options": [
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Correct. 2 of the 5 letters are P."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "HAPPY contains two Ps, so there are 2 favourable letters."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This would need P to be half of the letters, but only 2 of 5 are P."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This is the probability of not selecting P."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Count every letter in the word, including repeats.",
+    "explanation": "## Advanced explanation\n\nHAPPY has 5 letters, of which 2 are P:\n\n$$P(\\text{P}) = \\frac{2}{5}$$\n\n## Simplified explanation\n\nThe letters are H, A, P, P, Y. That is 5 letters and 2 of them are P, so the answer is 2 out of 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Probability"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Mr Mensah left his house at 9:45 am and reached his village at 4:15 pm. Find the time spent.",
+    "options": [
+      {
+        "text": "6 hours 30 minutes",
+        "hint": "Correct. 9:45 am to 3:45 pm is 6 hours, plus 30 minutes."
+      },
+      {
+        "text": "5 hours 30 minutes",
+        "hint": "9:45 am plus 5 hours 30 minutes is only 3:15 pm."
+      },
+      {
+        "text": "8 hours",
+        "hint": "9:45 am plus 8 hours is 5:45 pm."
+      },
+      {
+        "text": "7 hours",
+        "hint": "9:45 am plus 7 hours is 4:45 pm."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Count the whole hours first, then the extra minutes.",
+    "explanation": "## Advanced explanation\n\nOn the 24-hour clock, 4:15 pm is 16:15:\n\n$$16{:}15 - 9{:}45 = 6 \\text{ hours } 30 \\text{ minutes}$$\n\n## Simplified explanation\n\nFrom 9:45 am to 3:45 pm is 6 hours. From 3:45 pm to 4:15 pm is 30 more minutes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Time"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Two sets which have the same number of members are ... sets",
+    "options": [
+      {
+        "text": "equivalent",
+        "hint": "Correct. Equivalent sets have the same number of members."
+      },
+      {
+        "text": "equal",
+        "hint": "Equal sets must have exactly the same members, not just the same number."
+      },
+      {
+        "text": "intersecting",
+        "hint": "Intersecting sets share at least one member."
+      },
+      {
+        "text": "union",
+        "hint": "A union is a set formed by combining sets. It does not describe two sets of the same size."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Think about the difference between same number and same members.",
+    "explanation": "## Advanced explanation\n\nSets $A$ and $B$ are **equivalent** when $n(A) = n(B)$. They are **equal** only when they contain exactly the same members. For example, $\\{1, 2\\}$ and $\\{a, b\\}$ are equivalent but not equal.\n\n## Simplified explanation\n\nSame number of members means equivalent. Same actual members means equal.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Sets"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "A square of area 144 cm$^2$ has the same perimeter as an equilateral triangle. Find the length of a side of the triangle.",
+    "options": [
+      {
+        "text": "14 cm",
+        "hint": "$3 \\times 14 = 42$, but the perimeter is 48 cm."
+      },
+      {
+        "text": "10 cm",
+        "hint": "$3 \\times 10 = 30$, but the perimeter is 48 cm."
+      },
+      {
+        "text": "16 cm",
+        "hint": "Correct. $3 \\times 16 = 48$, the perimeter of the square."
+      },
+      {
+        "text": "18 cm",
+        "hint": "$3 \\times 18 = 54$, but the perimeter is 48 cm."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the side of the square, then its perimeter.",
+    "explanation": "## Advanced explanation\n\nSquare side $= \\sqrt{144} = 12$ cm, so the perimeter is $4 \\times 12 = 48$ cm. The triangle's three equal sides share this perimeter: $48 \\div 3 = 16$ cm.\n\n## Simplified explanation\n\n$12 \\times 12 = 144$, so the square's side is 12 cm and its perimeter is 48 cm. The triangle has 3 equal sides: $48 \\div 3 = 16$ cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Mensuration"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "If $2^{2m} = 8$, find the value of $m$.",
+    "options": [
+      {
+        "text": "1.5",
+        "hint": "Correct. $2^{2 \\times 1.5} = 2^3 = 8$."
+      },
+      {
+        "text": "2.0",
+        "hint": "$2^{2 \\times 2} = 2^4 = 16$, not 8."
+      },
+      {
+        "text": "1.0",
+        "hint": "$2^{2 \\times 1} = 2^2 = 4$, not 8."
+      },
+      {
+        "text": "0.5",
+        "hint": "$2^{2 \\times 0.5} = 2^1 = 2$, not 8."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write 8 as a power of 2, then compare the powers.",
+    "explanation": "## Advanced explanation\n\n$$2^{2m} = 2^3 \\implies 2m = 3 \\implies m = 1.5$$\n\n## Simplified explanation\n\n$8 = 2 \\times 2 \\times 2 = 2^3$. So the powers must match: $2m = 3$, which gives $m = 1.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Indices"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{3}{4}x = 2 + \\dfrac{1}{4}$, find the value of $x$.",
+    "options": [
+      {
+        "text": "3",
+        "hint": "Correct. $\\frac{3}{4} \\times 3 = \\frac{9}{4} = 2\\frac{1}{4}$."
+      },
+      {
+        "text": "1",
+        "hint": "$\\frac{3}{4} \\times 1 = \\frac{3}{4}$, not $2\\frac{1}{4}$."
+      },
+      {
+        "text": "4",
+        "hint": "$\\frac{3}{4} \\times 4 = 3$, not $2\\frac{1}{4}$."
+      },
+      {
+        "text": "5",
+        "hint": "$\\frac{3}{4} \\times 5 = 3\\frac{3}{4}$, not $2\\frac{1}{4}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write the right-hand side as one fraction with denominator 4.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{3}{4}x = \\frac{9}{4} \\implies x = \\frac{9}{4} \\times \\frac{4}{3} = 3$$\n\n## Simplified explanation\n\n$2 + \\frac{1}{4} = \\frac{9}{4}$. Multiply both sides by 4 to get $3x = 9$, so $x = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Algebra"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 11 learners in a test are: 2, 5, 5, 6, 7, 7, 8, 8, 8, 9, 10. What is the modal mark?",
+    "options": [
+      {
+        "text": "7",
+        "hint": "7 appears twice, but 8 appears three times."
+      },
+      {
+        "text": "2",
+        "hint": "2 is the lowest mark and appears only once."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. 8 appears three times, more than any other mark."
+      },
+      {
+        "text": "9",
+        "hint": "9 appears only once."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The mode is the mark that appears most often.",
+    "explanation": "## Advanced explanation\n\nThe mode is the value with the highest frequency. Here 8 has frequency 3, while 5 and 7 each have frequency 2.\n\n## Simplified explanation\n\nCount how often each mark appears. 8 appears the most, three times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Statistics"
+    ],
+    "media": []
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of the point $(2, -3)$ under the transformation $\\begin{pmatrix} x \\\\ y \\end{pmatrix} \\to \\begin{pmatrix} x \\\\ y - 2 \\end{pmatrix}$.",
+    "options": [
+      {
+        "text": "$(2, -5)$",
+        "hint": "Correct. $-3 - 2 = -5$, and $x$ stays as 2."
+      },
+      {
+        "text": "$(2, 1)$",
+        "hint": "The new $y$ is $-3 - 2$, which is $-5$."
+      },
+      {
+        "text": "$(2, -1)$",
+        "hint": "This adds 2 to $y$. The rule subtracts 2."
+      },
+      {
+        "text": "$(2, 5)$",
+        "hint": "Check the sign: $-3 - 2$ is $-5$, not 5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Keep $x$ the same and subtract 2 from $y$.",
+    "explanation": "## Advanced explanation\n\nSubstitute $x = 2$, $y = -3$:\n\n$$\\begin{pmatrix} 2 \\\\ -3 - 2 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix}$$\n\n## Simplified explanation\n\nThe rule leaves the first number alone and takes 2 from the second. So 2 stays, and $-3 - 2 = -5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2026 Paper",
+      "Section A",
+      "Transformations"
+    ],
+    "media": []
+  },
+  {
+    "type": "text",
+    "body": "Given that $K = \\{1, 2, 3, \\dots, 11\\}$;\n\n(i) list the prime numbers in $K$;\n\n(ii) find the probability that a number selected at random from the set $K$ is not a prime number.",
+    "media": [],
+    "answer": "**(i)** A prime number has exactly two factors, so 1 is not prime.\n\n$$\\text{Primes in } K = \\{2, 3, 5, 7, 11\\}$$\n\n**(ii)** $K$ has 11 members and 5 are prime, so $11 - 5 = 6$ are not prime.\n\n$$P(\\text{not prime}) = \\frac{6}{11}$$\n\n> [!answer]\n> **(i)** {{green:$\\{2, 3, 5, 7, 11\\}$}}  **(ii)** {{green:$\\dfrac{6}{11}$}}",
+    "hint": "1 is not a prime number. Count the members of $K$ that are left after removing the primes.",
+    "explanation": "## Advanced explanation\n\nThe non-primes in $K$ are $\\{1, 4, 6, 8, 9, 10\\}$. Using the complement rule:\n\n$$P(\\text{not prime}) = 1 - P(\\text{prime}) = 1 - \\frac{5}{11} = \\frac{6}{11}$$\n\n## Simplified explanation\n\nThe primes are 2, 3, 5, 7 and 11. That leaves 6 of the 11 numbers that are not prime, so the answer is 6 out of 11.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Sets",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize completely: $(x + y)(2m - n) - m(x + y)$",
+    "media": [],
+    "answer": "$(x + y)$ is common to both terms, so take it out:\n\n$$\n\\begin{aligned}\n(x + y)(2m - n) - m(x + y) &= (x + y)\\left[(2m - n) - m\\right] \\\\\n&= (x + y)(m - n)\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$(x + y)(m - n)$}}",
+    "hint": "Treat the whole bracket $(x + y)$ as one common factor.",
+    "explanation": "## Advanced explanation\n\nLet $u = x + y$. The expression becomes $u(2m - n) - mu = u(2m - n - m) = u(m - n)$. Substituting back gives $(x + y)(m - n)$.\n\n## Simplified explanation\n\nBoth parts have $(x + y)$, so take it out once. Inside the new bracket, $2m - n - m$ simplifies to $m - n$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A typist charges GH₵ 68.00 for the first 8 sheets typed, and GH₵ 11.00 for each additional sheet. Calculate the amount earned if the typist typed a total of 35 sheets.",
+    "media": [],
+    "answer": "Additional sheets: $35 - 8 = 27$\n\nCharge for additional sheets: $27 \\times 11 = 297$\n\nTotal: $68 + 297 = 365$\n\n> [!answer]\n> {{green:GH₵ 365.00}}",
+    "hint": "GH₵ 68.00 already pays for the first 8 sheets. How many sheets are left?",
+    "explanation": "## Advanced explanation\n\nThe charge is a fixed amount plus a rate per extra sheet:\n\n$$\\text{Amount} = 68 + 11(35 - 8) = 68 + 297 = 365$$\n\n## Simplified explanation\n\nThe first 8 sheets cost GH₵ 68. There are 27 more sheets at GH₵ 11 each, which is GH₵ 297. Add them to get GH₵ 365.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The image of $P(2, 5)$ when translated by the vector $r$ is $(-3, 8)$. Find:\n\n(i) $r$;\n\n(ii) the image $Q'$ of $Q(-4, -6)$ when translated by $r$.",
+    "media": [],
+    "answer": "**(i)** The translation vector is image minus object:\n\n$$r = \\begin{pmatrix} -3 - 2 \\\\ 8 - 5 \\end{pmatrix} = \\begin{pmatrix} -5 \\\\ 3 \\end{pmatrix}$$\n\n**(ii)** Add $r$ to $Q$:\n\n$$Q' = \\begin{pmatrix} -4 + (-5) \\\\ -6 + 3 \\end{pmatrix} = \\begin{pmatrix} -9 \\\\ -3 \\end{pmatrix}$$\n\n> [!answer]\n> **(i)** {{green:$r = \\begin{pmatrix} -5 \\\\ 3 \\end{pmatrix}$}}  **(ii)** {{green:$Q'(-9, -3)$}}",
+    "hint": "Image $=$ object $+$ translation vector.",
+    "explanation": "## Advanced explanation\n\nFor a translation, $\\overrightarrow{OP'} = \\overrightarrow{OP} + r$, so $r = \\overrightarrow{OP'} - \\overrightarrow{OP}$. The same $r$ then applies to every point, which gives $Q' = Q + r$.\n\n## Simplified explanation\n\nTo find $r$, take the old point from the new point. To go from 2 to $-3$ is $-5$, and from 5 to 8 is $+3$. Do the same moves to $Q$: $-4 - 5 = -9$ and $-6 + 3 = -3$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Transformations",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Joyce and Richard contributed GH₵ 10,000.00 and GH₵ 5,000.00 respectively to start a business. They agreed that Richard will be paid one-third of the profit as a manager and the rest of the profit will be shared in the ratio of their contributions. If the profit of GH₵ 9,000.00 was made, how much did:\n\n(i) Joyce receive;\n\n(ii) Richard receive in total?",
+    "media": [],
+    "answer": "Manager's pay to Richard: $\\dfrac{1}{3} \\times 9000 = 3000$\n\nProfit left to share: $9000 - 3000 = 6000$\n\nRatio of contributions: $10000 : 5000 = 2 : 1$\n\n**(i)** Joyce: $\\dfrac{2}{3} \\times 6000 = 4000$\n\n**(ii)** Richard's share of the rest: $\\dfrac{1}{3} \\times 6000 = 2000$, so his total is $3000 + 2000 = 5000$.\n\n**Check:** $4000 + 5000 = 9000$ ✓\n\n> [!answer]\n> **(i)** Joyce: {{green:GH₵ 4,000.00}}  **(ii)** Richard: {{green:GH₵ 5,000.00}}",
+    "hint": "Take out Richard's manager pay first. Then simplify the ratio $10000 : 5000$.",
+    "explanation": "## Advanced explanation\n\nRichard's total combines his manager's pay with his investor's share:\n\n$$\\frac{1}{3}(9000) + \\frac{1}{3} \\cdot \\frac{2}{3}(9000) = 3000 + 2000 = 5000$$\n\nJoyce receives only the investor's share, $\\frac{2}{3} \\cdot \\frac{2}{3}(9000) = 4000$.\n\n## Simplified explanation\n\nRichard first gets GH₵ 3,000 as manager, leaving GH₵ 6,000. The contributions are in the ratio 2 : 1, so GH₵ 6,000 splits into GH₵ 4,000 for Joyce and GH₵ 2,000 for Richard. Richard's total is GH₵ 5,000.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Asana was engaged to collect cashew-fruits on a farm and was paid a wage of GH₵ 25.00 a day. If the daily wage increased by 10% and she worked for 30 days, how much will she be paid?",
+    "media": [],
+    "answer": "Increase: $\\dfrac{10}{100} \\times 25 = 2.50$\n\nNew daily wage: $25.00 + 2.50 = 27.50$\n\nPay for 30 days: $27.50 \\times 30 = 825$\n\n> [!answer]\n> {{green:GH₵ 825.00}}",
+    "hint": "Find the new daily wage first, then multiply by the number of days.",
+    "explanation": "## Advanced explanation\n\nAn increase of 10% multiplies the wage by 1.1:\n\n$$\\text{Pay} = 25 \\times 1.1 \\times 30 = 825$$\n\n## Simplified explanation\n\n10% of GH₵ 25 is GH₵ 2.50, so she now earns GH₵ 27.50 a day. For 30 days: $27.50 \\times 30 =$ GH₵ 825.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The diagram shows the floor of a room with its dimensions. Find the;\n\n(i) perimeter;\n\n(ii) area;\n\n(iii) cost of carpeting the floor if a carpet cost GH₵ 20.00 per square meter.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2026/2026secabq3b.png",
+        "caption": "L-shaped floor of a room, not drawn to scale. The top side is 8 m, the right side is 3 m, the inner horizontal side is 5 m and the left side is 5 m."
+      }
+    ],
+    "answer": "First find the two sides that are not labelled:\n\n- bottom side: $8 - 5 = 3$ m\n- short vertical side: $5 - 3 = 2$ m\n\n**(i)** Add all six sides:\n\n$$\\text{Perimeter} = 8 + 3 + 5 + 2 + 3 + 5 = 26 \\text{ m}$$\n\n**(ii)** Split the floor into two rectangles, one 8 m by 3 m and one 3 m by 2 m:\n\n$$\\text{Area} = (8 \\times 3) + (3 \\times 2) = 24 + 6 = 30 \\text{ m}^2$$\n\n**(iii)** Cost $= 30 \\times 20 = 600$\n\n> [!answer]\n> **(i)** {{green:26 m}}  **(ii)** {{green:30 m$^2$}}  **(iii)** {{green:GH₵ 600.00}}",
+    "hint": "Work out the two unlabelled sides first. Then split the floor into two rectangles to find the area.",
+    "explanation": "## Advanced explanation\n\nThe floor is an 8 m by 5 m rectangle with a 5 m by 2 m corner removed. Removing a corner does not change the perimeter of this shape, so $P = 2(8 + 5) = 26$ m. The area can be checked the same way: $A = (8 \\times 5) - (5 \\times 2) = 40 - 10 = 30$ m$^2$.\n\n## Simplified explanation\n\nWalk round the room and add every side to get 26 m. Cut the floor into two rectangles: $8 \\times 3 = 24$ and $3 \\times 2 = 6$, which makes 30 square metres. Each square metre costs GH₵ 20, so the carpet costs $30 \\times 20 =$ GH₵ 600.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a school, the monthly income of three workers Aku, Brako and Dagadu are GH₵ 5,000.00, GH₵ 6,500.00 and GH₵ 4,200.00 respectively.\n\n(i) Calculate the yearly income of each worker.\n\n(ii) Find the yearly income difference between Aku and Dagadu.\n\n(iii) Find the total yearly income of all the three workers.",
+    "media": [],
+    "answer": "**(i)** Multiply each monthly income by 12:\n\n- Aku: $5000 \\times 12 = 60000$\n- Brako: $6500 \\times 12 = 78000$\n- Dagadu: $4200 \\times 12 = 50400$\n\n**(ii)** $60000 - 50400 = 9600$\n\n**(iii)** $60000 + 78000 + 50400 = 188400$\n\n> [!answer]\n> **(i)** Aku {{green:GH₵ 60,000.00}}, Brako {{green:GH₵ 78,000.00}}, Dagadu {{green:GH₵ 50,400.00}}\n>\n> **(ii)** {{green:GH₵ 9,600.00}}  **(iii)** {{green:GH₵ 188,400.00}}",
+    "hint": "There are 12 months in a year.",
+    "explanation": "## Advanced explanation\n\nEach answer can be checked from the monthly figures. The difference is $(5000 - 4200) \\times 12 = 9600$, and the total is $(5000 + 6500 + 4200) \\times 12 = 15700 \\times 12 = 188400$.\n\n## Simplified explanation\n\nMultiply each monthly pay by 12 to get yearly pay. Subtract Dagadu's from Aku's for the difference. Add all three for the total.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A painter places a ladder against a building at the window. The angle the foot of the ladder makes with the horizontal ground is $60^\\circ$. If the distance from the foot of the ladder to the base of the building is 5 m;\n\n(i) illustrate the information in a diagram;\n\n(ii) find, correct to one decimal place, the;\n\n$(\\alpha)$ length of the ladder;\n\n$(\\beta)$ distance between the window and the foot of the building.\n\n[Take $\\tan 60^\\circ = 1.732$ and $\\cos 60^\\circ = \\dfrac{1}{2}$]",
+    "media": [],
+    "answer": "**(i)** Draw a right-angled triangle:\n\n- the vertical side is the building, from its foot $B$ up to the window $W$;\n- the horizontal side is the ground, from $B$ to the foot of the ladder $F$, with $BF = 5$ m;\n- the slanted side $FW$ is the ladder;\n- mark the right angle at $B$ and $60^\\circ$ at $F$.\n\n**(ii)** $(\\alpha)$ $BF$ is adjacent to the $60^\\circ$ angle and the ladder is the hypotenuse:\n\n$$\\cos 60^\\circ = \\frac{5}{FW} \\implies FW = \\frac{5}{\\frac{1}{2}} = 10.0 \\text{ m}$$\n\n$(\\beta)$ $BW$ is opposite the $60^\\circ$ angle:\n\n$$\\tan 60^\\circ = \\frac{BW}{5} \\implies BW = 5 \\times 1.732 = 8.66 \\approx 8.7 \\text{ m}$$\n\n> [!answer]\n> **(i)** Right-angled triangle with base 5 m and $60^\\circ$ at the foot of the ladder.\n>\n> **(ii)** $(\\alpha)$ {{green:10.0 m}}  $(\\beta)$ {{green:8.7 m}}",
+    "hint": "Sketch a right-angled triangle first. Label the 5 m side as adjacent to the $60^\\circ$ angle.",
+    "explanation": "## Advanced explanation\n\nWith adjacent side 5 m and angle $60^\\circ$, the ratios are $\\cos 60^\\circ = \\frac{\\text{adjacent}}{\\text{hypotenuse}}$ and $\\tan 60^\\circ = \\frac{\\text{opposite}}{\\text{adjacent}}$. As a check, Pythagoras gives $\\sqrt{10^2 - 5^2} = \\sqrt{75} \\approx 8.66$ m.\n\n## Simplified explanation\n\nThe building, the ground and the ladder form a right-angled triangle. Use cos to find the ladder: $5 \\div \\frac{1}{2} = 10$ m. Use tan to find the height: $5 \\times 1.732 = 8.66$, which rounds to 8.7 m.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\dfrac{\\sqrt{72}}{\\sqrt{18} - \\sqrt{12}}$, leave the answer in the form $a + b\\sqrt{c}$, where $a$, $b$ and $c$ are integers.",
+    "media": [],
+    "answer": "Multiply the top and bottom by the conjugate, $\\sqrt{18} + \\sqrt{12}$:\n\n$$\n\\begin{aligned}\n\\frac{\\sqrt{72}}{\\sqrt{18} - \\sqrt{12}} &= \\frac{\\sqrt{72}\\left(\\sqrt{18} + \\sqrt{12}\\right)}{18 - 12} \\\\\n&= \\frac{\\sqrt{1296} + \\sqrt{864}}{6} \\\\\n&= \\frac{36 + 12\\sqrt{6}}{6} \\\\\n&= 6 + 2\\sqrt{6}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$6 + 2\\sqrt{6}$}}, so $a = 6$, $b = 2$ and $c = 6$.",
+    "hint": "Rationalise the denominator by multiplying the top and bottom by $\\sqrt{18} + \\sqrt{12}$.",
+    "explanation": "## Advanced explanation\n\nThe denominator uses the difference of two squares: $(\\sqrt{18} - \\sqrt{12})(\\sqrt{18} + \\sqrt{12}) = 18 - 12 = 6$. In the numerator, $\\sqrt{72 \\times 18} = \\sqrt{1296} = 36$ and $\\sqrt{72 \\times 12} = \\sqrt{864} = 12\\sqrt{6}$.\n\n## Simplified explanation\n\nMultiply the top and bottom by $\\sqrt{18} + \\sqrt{12}$ so the bottom becomes a whole number, 6. The top becomes $36 + 12\\sqrt{6}$. Divide each part by 6.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Surds"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve: $\\dfrac{1}{2}(2x + 1) \\ge \\dfrac{1}{3}x + 1\\dfrac{9}{10}$.",
+    "media": [],
+    "answer": "Change the mixed number: $1\\dfrac{9}{10} = \\dfrac{19}{10}$. Multiply every term by the LCM of 2, 3 and 10, which is 30:\n\n$$\n\\begin{aligned}\n15(2x + 1) &\\ge 10x + 57 \\\\\n30x + 15 &\\ge 10x + 57 \\\\\n20x &\\ge 42 \\\\\nx &\\ge \\frac{21}{10}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x \\ge 2\\dfrac{1}{10}$}} (that is, $x \\ge 2.1$)",
+    "hint": "Change $1\\dfrac{9}{10}$ to an improper fraction, then multiply through by 30 to clear the fractions.",
+    "explanation": "## Advanced explanation\n\nMultiplying by the positive number 30 keeps the direction of the inequality. Check the boundary at $x = 2.1$: the left side is $\\frac{1}{2}(5.2) = 2.6$ and the right side is $0.7 + 1.9 = 2.6$, so the two sides are equal there, as expected.\n\n## Simplified explanation\n\nMultiply every term by 30 to remove the fractions. This gives $30x + 15 \\ge 10x + 57$. Collect the terms to get $20x \\ge 42$, then divide by 20.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An athlete runs four times round a circular track of radius 70 m. Find, in metres, the total distance covered by the athlete. [Take $\\pi = \\dfrac{22}{7}$].",
+    "media": [],
+    "answer": "One lap is the circumference:\n\n$$C = 2\\pi r = 2 \\times \\frac{22}{7} \\times 70 = 440 \\text{ m}$$\n\nFour laps: $4 \\times 440 = 1760$ m\n\n> [!answer]\n> {{green:1760 m}}",
+    "hint": "One time round the track is the circumference of the circle.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Distance} = 4 \\times 2\\pi r = 8 \\times \\frac{22}{7} \\times 70 = 1760 \\text{ m}$$\n\n## Simplified explanation\n\nOnce round is $2 \\times \\frac{22}{7} \\times 70 = 440$ m. Four times round is $4 \\times 440 = 1760$ m.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2026 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  }
+]
