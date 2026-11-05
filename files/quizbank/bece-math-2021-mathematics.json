@@ -1,0 +1,1645 @@
+[
+  {
+    "type": "choice",
+    "body": "Simplify: $3y - \\dfrac{(2y - 3)}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$10y + 3$",
+        "hint": "The common denominator of 4 must stay under the expression."
+      },
+      {
+        "text": "$10y - 3$",
+        "hint": "Keep the denominator 4, and check the sign: $-(2y - 3) = -2y + 3$."
+      },
+      {
+        "text": "$\\dfrac{10y - 3}{4}$",
+        "hint": "Check the sign: $-(2y - 3) = -2y + 3$."
+      },
+      {
+        "text": "$\\dfrac{10y + 3}{4}$",
+        "hint": "Correct. $\\frac{12y - 2y + 3}{4}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write $3y$ over 4, and put a bracket round the part being subtracted.",
+    "explanation": "## Advanced explanation\n\n$$3y - \\frac{2y - 3}{4} = \\frac{12y - (2y - 3)}{4} = \\frac{10y + 3}{4}$$\n\n## Simplified explanation\n\n$3y$ is the same as $\\frac{12y}{4}$. Subtracting $(2y - 3)$ changes both of its signs, so the top becomes $12y - 2y + 3 = 10y + 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 5 red and 7 black balls of the same size. What is the probability of picking a black ball?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{7}$",
+        "hint": "This compares red with black. Divide by all 12 balls."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "This is the probability of picking a red ball."
+      },
+      {
+        "text": "$\\dfrac{7}{12}$",
+        "hint": "Correct. 7 of the 12 balls are black."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "There are 7 black balls out of 12, not 2 out of 12."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Total balls $= 5 + 7$.",
+    "explanation": "## Advanced explanation\n\n$$P(\\text{black}) = \\frac{7}{5 + 7} = \\frac{7}{12}$$\n\n## Simplified explanation\n\nThere are 12 balls and 7 are black, so the answer is 7 out of 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi and Ama shared an amount of GH₵ 3,000.00 in the ratio 2 : 3. Find the amount received by Kofi.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,000.00",
+        "hint": "This is $3000 \\div 3$. The ratio has $2 + 3 = 5$ parts."
+      },
+      {
+        "text": "GH₵ 1,200.00",
+        "hint": "Correct. $\\frac{2}{5} \\times 3000 = 1200$."
+      },
+      {
+        "text": "GH₵ 1,500.00",
+        "hint": "This is half of the money, which would be an equal share."
+      },
+      {
+        "text": "GH₵ 1,800.00",
+        "hint": "This is Ama's share, $\\frac{3}{5} \\times 3000$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the ratio parts first. Kofi has the first part.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Kofi} = \\frac{2}{2 + 3} \\times 3000 = 1200$$\n\n## Simplified explanation\n\nThere are 5 parts, so each is GH₵ 600. Kofi has 2 parts, which is GH₵ 1,200.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The image of $P(10, -3)$ when translated by the vector $r$ is $P'(4, 5)$. Find $r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 14 \\\\ 2 \\end{pmatrix}$",
+        "hint": "This adds the coordinates. Use image minus object."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$",
+        "hint": "This is object minus image, which goes backwards."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Correct. $4 - 10 = -6$ and $5 - (-3) = 8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Check the top entry: $4 - 10 = -6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Translation vector $=$ image $-$ object.",
+    "explanation": "## Advanced explanation\n\n$$r = \\begin{pmatrix} 4 - 10 \\\\ 5 - (-3) \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTo go from 10 to 4, take away 6. To go from $-3$ to 5, add 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Transformations",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $x = 8$, what type of angle is $(9x + 8)^\\circ$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Straight angle",
+        "hint": "A straight angle is exactly $180^\\circ$, but this angle is $80^\\circ$."
+      },
+      {
+        "text": "Obtuse angle",
+        "hint": "An obtuse angle is between $90^\\circ$ and $180^\\circ$, but this angle is $80^\\circ$."
+      },
+      {
+        "text": "Acute angle",
+        "hint": "Correct. $9(8) + 8 = 80^\\circ$, which is less than $90^\\circ$."
+      },
+      {
+        "text": "Right angle",
+        "hint": "A right angle is exactly $90^\\circ$, but this angle is $80^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the size of the angle first.",
+    "explanation": "## Advanced explanation\n\n$(9x + 8)^\\circ = (72 + 8)^\\circ = 80^\\circ$. Since $0^\\circ < 80^\\circ < 90^\\circ$, the angle is acute.\n\n## Simplified explanation\n\n$9 \\times 8 = 72$, and adding 8 gives 80. Any angle smaller than $90^\\circ$ is acute.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of $P(-3, 5)$ when rotated through $360^\\circ$ about the origin.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(5, -3)$",
+        "hint": "A full turn brings the point back to where it started."
+      },
+      {
+        "text": "$(-3, -5)$",
+        "hint": "This is a reflection in the $x$-axis, not a full turn."
+      },
+      {
+        "text": "$(-3, 5)$",
+        "hint": "Correct. A $360^\\circ$ rotation is a full turn."
+      },
+      {
+        "text": "$(-5, -3)$",
+        "hint": "A full turn brings the point back to where it started."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How far round is $360^\\circ$?",
+    "explanation": "## Advanced explanation\n\nA rotation through $360^\\circ$ is a complete revolution, which maps every point onto itself.\n\n## Simplified explanation\n\nTurning all the way round puts the point back in the same place.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "On a map, $\\dfrac{1}{3}$ cm represents 5 km. If two towns $A$ and $B$ are 18 cm apart on the map, what is the actual distance between them?",
+    "media": [],
+    "options": [
+      {
+        "text": "27 km",
+        "hint": "1 cm represents 15 km, so 18 cm is much more than this."
+      },
+      {
+        "text": "30 km",
+        "hint": "This is only 2 cm on the map, since 1 cm represents 15 km."
+      },
+      {
+        "text": "240 km",
+        "hint": "This is 16 cm on the map, since 1 cm represents 15 km."
+      },
+      {
+        "text": "270 km",
+        "hint": "Correct. $18 \\times 15 = 270$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How many kilometres does 1 cm represent?",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{3}$ cm represents 5 km, so 1 cm represents $3 \\times 5 = 15$ km, and\n\n$$18 \\times 15 = 270 \\text{ km}$$\n\n## Simplified explanation\n\nThree lots of $\\frac{1}{3}$ cm make 1 cm, so 1 cm is $3 \\times 5 = 15$ km. Then 18 cm is $18 \\times 15 = 270$ km.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 134.78 correct to the nearest tenth.",
+    "media": [],
+    "options": [
+      {
+        "text": "130.0",
+        "hint": "This is correct to the nearest ten, not the nearest tenth."
+      },
+      {
+        "text": "134.7",
+        "hint": "The next digit is 8, so round the 7 up."
+      },
+      {
+        "text": "134.8",
+        "hint": "Correct. The 8 after the tenths digit rounds the 7 up."
+      },
+      {
+        "text": "135.0",
+        "hint": "This is correct to the nearest whole number."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A tenth is the first digit after the decimal point. Look at the digit after it.",
+    "explanation": "## Advanced explanation\n\nThe tenths digit is 7 and the next digit is 8, which is 5 or more, so round up to 134.8.\n\n## Simplified explanation\n\nKeep one digit after the point. The digit after the 7 is 8, so the 7 becomes 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the difference between the values of $(2d)^2$ and $2d^2$, when $d = 3$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$0$",
+        "hint": "The two expressions are not the same: $(2d)^2 = 4d^2$."
+      },
+      {
+        "text": "$18$",
+        "hint": "Correct. $36 - 18 = 18$."
+      },
+      {
+        "text": "$24$",
+        "hint": "$(2d)^2 = 36$ and $2d^2 = 18$, and their difference is 18."
+      },
+      {
+        "text": "$54$",
+        "hint": "This adds them. A difference means subtract."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "In $(2d)^2$ the 2 is squared too, but in $2d^2$ only $d$ is squared.",
+    "explanation": "## Advanced explanation\n\n$(2 \\times 3)^2 = 36$ and $2 \\times 3^2 = 18$, so the difference is $36 - 18 = 18$.\n\n## Simplified explanation\n\n$(2 \\times 3)^2 = 6 \\times 6 = 36$. Next, $2 \\times 3^2 = 2 \\times 9 = 18$. Then $36 - 18 = 18$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a rectangle is 18 cm$^2$. If one of its sides is 2 cm long, find the perimeter.",
+    "media": [],
+    "options": [
+      {
+        "text": "18 cm",
+        "hint": "18 is the area, not the perimeter."
+      },
+      {
+        "text": "20 cm",
+        "hint": "Add all four sides: $9 + 2 + 9 + 2$."
+      },
+      {
+        "text": "22 cm",
+        "hint": "Correct. The other side is 9 cm, and $2(9 + 2) = 22$."
+      },
+      {
+        "text": "36 cm",
+        "hint": "This doubles the area. Find the other side first."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use the area to find the other side first.",
+    "explanation": "## Advanced explanation\n\nThe other side is $\\frac{18}{2} = 9$ cm, so\n\n$$P = 2(9 + 2) = 22 \\text{ cm}$$\n\n## Simplified explanation\n\n$18 \\div 2 = 9$, so the other side is 9 cm. Walking round the rectangle: $9 + 2 + 9 + 2 = 22$ cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 7352.4658 correct to three significant figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "7352465.8",
+        "hint": "This multiplies by 1000. Rounding keeps the number about the same size."
+      },
+      {
+        "text": "7352.47",
+        "hint": "This is correct to two decimal places, not three significant figures."
+      },
+      {
+        "text": "7350",
+        "hint": "Correct. The first three figures are 735, and a zero holds the place."
+      },
+      {
+        "text": "735",
+        "hint": "The digits are right, but a zero is needed to keep the number near 7352."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Keep three digits from the left, and use zeros to hold the place values.",
+    "explanation": "## Advanced explanation\n\nThe first three significant figures are 7, 3 and 5. The next digit, 2, is less than 5, so there is no rounding up. A zero holds the units place: 7350.\n\n## Simplified explanation\n\nKeep 735. The next digit is 2, so 735 stays the same. Add a zero to keep the number the same size: 7350.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $h$ the subject of the relation $V = \\pi r^2 h$",
+    "media": [],
+    "options": [
+      {
+        "text": "$h = \\dfrac{V}{\\pi r^2}$",
+        "hint": "Correct. Divide both sides by $\\pi r^2$."
+      },
+      {
+        "text": "$h = \\sqrt{\\pi r^2}$",
+        "hint": "No square root is needed, and $V$ must be in the answer."
+      },
+      {
+        "text": "$h = \\dfrac{\\pi r^2}{V}$",
+        "hint": "This fraction is upside down."
+      },
+      {
+        "text": "$h = (\\pi r^2)^2$",
+        "hint": "Divide by $\\pi r^2$, and $V$ must be in the answer."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$h$ is multiplied by $\\pi r^2$. How do you undo that?",
+    "explanation": "## Advanced explanation\n\n$$V = \\pi r^2 h \\implies h = \\frac{V}{\\pi r^2}$$\n\n## Simplified explanation\n\n$h$ is multiplied by $\\pi r^2$, so divide both sides by $\\pi r^2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $x = 4$, $y = 7$, evaluate $2xy + 3(x + y)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$79$",
+        "hint": "$2(4)(7) = 56$ and $3(11) = 33$. Add these again."
+      },
+      {
+        "text": "$89$",
+        "hint": "Correct. $56 + 33 = 89$."
+      },
+      {
+        "text": "$99$",
+        "hint": "$2(4)(7) = 56$ and $3(11) = 33$. Add these again."
+      },
+      {
+        "text": "$109$",
+        "hint": "$2(4)(7) = 56$ and $3(11) = 33$. Add these again."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Work out each part separately, then add.",
+    "explanation": "## Advanced explanation\n\n$$2(4)(7) + 3(4 + 7) = 56 + 33 = 89$$\n\n## Simplified explanation\n\n$2 \\times 4 \\times 7 = 56$. Next, $4 + 7 = 11$ and $3 \\times 11 = 33$. Then $56 + 33 = 89$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand: $(7r - 5)(3r + 4)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$21r^2 + 13r - 20$",
+        "hint": "Correct. $28r - 15r = 13r$."
+      },
+      {
+        "text": "$21r^2 - 13r - 20$",
+        "hint": "Check the sign: $28r - 15r = +13r$."
+      },
+      {
+        "text": "$21r^2 - 43r - 20$",
+        "hint": "The middle terms are $+28r$ and $-15r$, which give $13r$."
+      },
+      {
+        "text": "$21r^2 + 43r - 20$",
+        "hint": "This adds 28 and 15, but the second term is $-15r$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$$(7r - 5)(3r + 4) = 21r^2 + 28r - 15r - 20 = 21r^2 + 13r - 20$$\n\n## Simplified explanation\n\n$7r \\times 3r = 21r^2$, $7r \\times 4 = 28r$, $-5 \\times 3r = -15r$ and $-5 \\times 4 = -20$. Combine $28r$ and $-15r$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | 5 | 9 | 13 | 17 | 21 |\n\nWhat is the rule for the mapping?",
+    "media": [],
+    "options": [
+      {
+        "text": "$y = x + 4$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 6, not 9."
+      },
+      {
+        "text": "$y = 3x + 2$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 8, not 9."
+      },
+      {
+        "text": "$y = 4x + 1$",
+        "hint": "Correct. $4(1) + 1 = 5$, $4(2) + 1 = 9$, and so on."
+      },
+      {
+        "text": "$y = 5x + 1$",
+        "hint": "This gives 6 when $x = 1$, not 5."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How much does $y$ go up each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\n$y$ rises by 4 for each step, so $y = 4x + c$. Using $x = 1, y = 5$: $4 + c = 5$, so $c = 1$.\n\n## Simplified explanation\n\nThe bottom numbers go up by 4, so multiply by 4. For $x = 1$ this gives 4, but $y$ is 5, so add 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | 5 | 9 | 13 | 17 | 21 |\n\nFind $x$ when $y = 37$.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "When $x = 6$, $y = 4(6) + 1 = 25$."
+      },
+      {
+        "text": "7",
+        "hint": "When $x = 7$, $y = 4(7) + 1 = 29$."
+      },
+      {
+        "text": "8",
+        "hint": "When $x = 8$, $y = 4(8) + 1 = 33$."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $4(9) + 1 = 37$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the rule first, then solve for $x$.",
+    "explanation": "## Advanced explanation\n\nThe rule is $y = 4x + 1$, so $4x + 1 = 37$, which gives $4x = 36$ and $x = 9$.\n\n## Simplified explanation\n\nThe rule is multiply by 4 and add 1. Going backwards: $37 - 1 = 36$, and $36 \\div 4 = 9$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Mappings",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which property of arithmetic is shown in the equation $(6 + x) + 5 = 6 + (x + 5)$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Commutative",
+        "hint": "The commutative property changes the order of the numbers. Here the order stays the same."
+      },
+      {
+        "text": "Associative",
+        "hint": "Correct. Only the grouping changes."
+      },
+      {
+        "text": "Closure",
+        "hint": "Closure means the result stays in the same set of numbers."
+      },
+      {
+        "text": "Distributive",
+        "hint": "The distributive property involves multiplying over a sum."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at what changes: the order, or the brackets?",
+    "explanation": "## Advanced explanation\n\nThe associative property states that $(a + b) + c = a + (b + c)$: the grouping changes but the order does not.\n\n## Simplified explanation\n\nThe numbers stay in the same order. Only the brackets move. Moving the brackets is the associative property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $A = \\{1, 3, 5, 7, 9, 11, 13, 15\\}$ and $B = \\{3, 6, 9, 12, 15\\}$, find $n(A \\cap B)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "Correct. $A \\cap B = \\{3, 9, 15\\}$."
+      },
+      {
+        "text": "5",
+        "hint": "5 is the number of members in $B$."
+      },
+      {
+        "text": "10",
+        "hint": "Count only the members in both sets: 3, 9 and 15."
+      },
+      {
+        "text": "15",
+        "hint": "15 is a member of both sets. $n$ asks how many members there are."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$n(A \\cap B)$ counts the members found in both sets.",
+    "explanation": "## Advanced explanation\n\n$A \\cap B = \\{3, 9, 15\\}$, so $n(A \\cap B) = 3$.\n\n## Simplified explanation\n\nOnly 3, 9 and 15 are in both sets. That makes 3 members.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the gradient of the line that joins the points $A(-3, 5)$ and $B(7, -2)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{10}{7}$",
+        "hint": "This is change in $x$ over change in $y$, and the sign is wrong."
+      },
+      {
+        "text": "$-\\dfrac{5}{12}$",
+        "hint": "The change in $y$ is $-7$ and the change in $x$ is 10."
+      },
+      {
+        "text": "$-\\dfrac{7}{10}$",
+        "hint": "Correct. $\\frac{-2 - 5}{7 - (-3)} = \\frac{-7}{10}$."
+      },
+      {
+        "text": "$\\dfrac{12}{5}$",
+        "hint": "The change in $y$ is $-7$ and the change in $x$ is 10."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{-2 - 5}{7 - (-3)} = \\frac{-7}{10} = -\\frac{7}{10}$$\n\n## Simplified explanation\n\n$y$ goes from 5 to $-2$, a change of $-7$. $x$ goes from $-3$ to 7, a change of 10. So the gradient is $-\\frac{7}{10}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $(1 - x) \\div 3 < 4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x < -11$",
+        "hint": "Dividing by $-1$ reverses the inequality sign."
+      },
+      {
+        "text": "$x > -11$",
+        "hint": "Correct. $1 - x < 12$, so $-x < 11$ and $x > -11$."
+      },
+      {
+        "text": "$x < 11$",
+        "hint": "Dividing by $-1$ changes the sign of 11 and reverses the inequality."
+      },
+      {
+        "text": "$x > 11$",
+        "hint": "Dividing by $-1$ changes the sign of 11 as well."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiplying or dividing by a negative number reverses the inequality.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 1 - x &< 12 \\\\ -x &< 11 \\\\ x &> -11 \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply by 3 to get $1 - x < 12$. Subtract 1 to get $-x < 11$. Dividing by $-1$ flips the sign, so $x > -11$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $3ax + 6a - x - 2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(3a + 1)(x + 2)$",
+        "hint": "Expanding gives $3ax + 6a + x + 2$."
+      },
+      {
+        "text": "$(3a + 1)(x - 2)$",
+        "hint": "Expanding gives $3ax - 6a + x - 2$."
+      },
+      {
+        "text": "$3a(x - 2)$",
+        "hint": "Expanding gives only $3ax - 6a$."
+      },
+      {
+        "text": "$(3a - 1)(x + 2)$",
+        "hint": "Correct. Expanding gives $3ax + 6a - x - 2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$3ax + 6a - x - 2 = 3a(x + 2) - 1(x + 2) = (3a - 1)(x + 2)$$\n\n## Simplified explanation\n\nTake $3a$ out of the first pair and $-1$ out of the second. Both leave $(x + 2)$, so take that out too.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the average of 5, 6, 7 and $x$ is 8, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$12$",
+        "hint": "The four numbers would total 30, but they must total 32."
+      },
+      {
+        "text": "$14$",
+        "hint": "Correct. $5 + 6 + 7 + 14 = 32$, and $32 \\div 4 = 8$."
+      },
+      {
+        "text": "$16$",
+        "hint": "The four numbers would total 34, but they must total 32."
+      },
+      {
+        "text": "$24$",
+        "hint": "The four numbers would total 42, but they must total 32."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The total of the four numbers is $4 \\times 8$.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{5 + 6 + 7 + x}{4} = 8 \\implies 18 + x = 32 \\implies x = 14$$\n\n## Simplified explanation\n\nThe four numbers must add up to $4 \\times 8 = 32$. The first three make 18, so $x = 32 - 18 = 14$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Divide 0.5445 by 0.09.",
+    "media": [],
+    "options": [
+      {
+        "text": "5.05",
+        "hint": "$5.05 \\times 0.09 = 0.4545$, not 0.5445."
+      },
+      {
+        "text": "6.05",
+        "hint": "Correct. $6.05 \\times 0.09 = 0.5445$."
+      },
+      {
+        "text": "6.50",
+        "hint": "$6.50 \\times 0.09 = 0.585$, not 0.5445."
+      },
+      {
+        "text": "60.50",
+        "hint": "$60.50 \\times 0.09 = 5.445$, so the decimal point is misplaced."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply both numbers by 100 so that you divide by a whole number.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{0.5445}{0.09} = \\frac{54.45}{9} = 6.05$$\n\n## Simplified explanation\n\nMove the point 2 places in both numbers to get $54.45 \\div 9 = 6.05$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the simple interest on GH₵ 600.00 which was saved for 8 months at 5% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 20.00",
+        "hint": "Correct. $600 \\times \\frac{5}{100} \\times \\frac{8}{12} = 20$."
+      },
+      {
+        "text": "GH₵ 40.00",
+        "hint": "This is the interest for 16 months."
+      },
+      {
+        "text": "GH₵ 45.00",
+        "hint": "This is the interest for 18 months."
+      },
+      {
+        "text": "GH₵ 240.00",
+        "hint": "This treats 8 months as 8 years. Change the time to $\\frac{8}{12}$ of a year."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The rate is per year, so write 8 months as a fraction of a year.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{600 \\times 5 \\times \\frac{8}{12}}{100} = 20$$\n\n## Simplified explanation\n\nOne year's interest is 5% of GH₵ 600, which is GH₵ 30. Eight months is $\\frac{2}{3}$ of a year, and $\\frac{2}{3}$ of GH₵ 30 is GH₵ 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An amount of GH₵ 375,000.00 was needed to build a clinic for a community of twelve towns. Each town contributed GH₵ 25,000.00. If the District Assembly also contributed GH₵ 30,500.00, how much more is needed to build the clinic?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 44,500.00",
+        "hint": "Correct. $375000 - 300000 - 30500 = 44500$."
+      },
+      {
+        "text": "GH₵ 45,500.00",
+        "hint": "Check your subtraction: $75000 - 30500 = 44500$."
+      },
+      {
+        "text": "GH₵ 34,500.00",
+        "hint": "Check your subtraction: $75000 - 30500 = 44500$."
+      },
+      {
+        "text": "GH₵ 75,000.00",
+        "hint": "This leaves out the District Assembly's contribution."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the total contributed by the twelve towns first.",
+    "explanation": "## Advanced explanation\n\n$$375000 - (12 \\times 25000 + 30500) = 375000 - 330500 = 44500$$\n\n## Simplified explanation\n\nThe towns give $12 \\times 25000 =$ GH₵ 300,000. With the Assembly's money, that is GH₵ 330,500. Taking this from GH₵ 375,000 leaves GH₵ 44,500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the Highest Common Factor (HCF) of 24, 32 and 64?",
+    "media": [],
+    "options": [
+      {
+        "text": "$4$",
+        "hint": "4 is a common factor, but a higher one exists."
+      },
+      {
+        "text": "$6$",
+        "hint": "6 does not divide 32 or 64."
+      },
+      {
+        "text": "$8$",
+        "hint": "Correct. 8 divides all three, and no higher number does."
+      },
+      {
+        "text": "$16$",
+        "hint": "16 does not divide 24."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the largest number that divides all three exactly.",
+    "explanation": "## Advanced explanation\n\n$24 = 2^3 \\times 3$, $32 = 2^5$ and $64 = 2^6$. The lowest common power is $2^3 = 8$.\n\n## Simplified explanation\n\n24, 32 and 64 can all be divided by 8. 16 is too big, because it does not divide 24.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Esi bought a television set for GH₵ 1,500.00. If she sold it at a profit of 20%, find its selling price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,200.00",
+        "hint": "This subtracts the 20%, which would be a loss."
+      },
+      {
+        "text": "GH₵ 1,500.00",
+        "hint": "This is the cost price, with no profit."
+      },
+      {
+        "text": "GH₵ 1,750.00",
+        "hint": "20% of GH₵ 1,500 is GH₵ 300, not GH₵ 250."
+      },
+      {
+        "text": "GH₵ 1,800.00",
+        "hint": "Correct. $1500 + 300 = 1800$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 20% of the cost, then add it to the cost.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Selling price} = 1500 \\times \\frac{120}{100} = 1800$$\n\n## Simplified explanation\n\n20% of GH₵ 1,500 is GH₵ 300. Add this to the cost to get GH₵ 1,800.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P = \\{4, 8, 12, 16, 20\\}$, $Q = \\{16, 4, 12, k, 20\\}$ and $P = Q$, find the value of $k$.",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "20 is already listed in $Q$. Which member of $P$ is missing?"
+      },
+      {
+        "text": "16",
+        "hint": "16 is already listed in $Q$. Which member of $P$ is missing?"
+      },
+      {
+        "text": "8",
+        "hint": "Correct. 8 is the only member of $P$ not yet in $Q$."
+      },
+      {
+        "text": "4",
+        "hint": "4 is already listed in $Q$. Which member of $P$ is missing?"
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Equal sets have exactly the same members, in any order.",
+    "explanation": "## Advanced explanation\n\nSince $P = Q$, every member of $P$ must be in $Q$. The only one not yet listed is 8, so $k = 8$.\n\n## Simplified explanation\n\nCompare the two lists. $Q$ has 16, 4, 12 and 20, but it has no 8. So $k$ must be 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a trapezium is 36 cm$^2$. If the parallel sides are 10.5 cm and 9.5 cm, find the distance between the two parallel sides.",
+    "media": [],
+    "options": [
+      {
+        "text": "1.0 cm",
+        "hint": "This would give an area of only 10 cm$^2$."
+      },
+      {
+        "text": "1.8 cm",
+        "hint": "This forgets the $\\frac{1}{2}$ in the area formula."
+      },
+      {
+        "text": "3.2 cm",
+        "hint": "This would give an area of 32 cm$^2$, not 36 cm$^2$."
+      },
+      {
+        "text": "3.6 cm",
+        "hint": "Correct. $\\frac{1}{2}(20)(3.6) = 36$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Area of a trapezium $= \\frac{1}{2}(a + b)h$.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1}{2}(10.5 + 9.5)h = 36 \\implies 10h = 36 \\implies h = 3.6 \\text{ cm}$$\n\n## Simplified explanation\n\nThe parallel sides add up to 20, and half of that is 10. So $10 \\times h = 36$, which gives $h = 3.6$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3(5a^2 + 2c) - 2a(1 - 3a) - 6c$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$21a^2 - 2a - 6c$",
+        "hint": "The $c$ terms cancel: $6c - 6c = 0$."
+      },
+      {
+        "text": "$13a^2 - 2a - 12c$",
+        "hint": "$-2a \\times (-3a) = +6a^2$, and $6c - 6c = 0$."
+      },
+      {
+        "text": "$13a^2 - 2a$",
+        "hint": "$-2a \\times (-3a) = +6a^2$, so the $a^2$ terms give $21a^2$."
+      },
+      {
+        "text": "$21a^2 - 2a$",
+        "hint": "Correct. $15a^2 + 6c - 2a + 6a^2 - 6c$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand both brackets, and take care with $-2a \\times (-3a)$.",
+    "explanation": "## Advanced explanation\n\n$$15a^2 + 6c - 2a + 6a^2 - 6c = 21a^2 - 2a$$\n\n## Simplified explanation\n\nMultiply out to get $15a^2 + 6c$ and $-2a + 6a^2$. The $a^2$ terms make $21a^2$, and the $c$ terms cancel.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader bought 100 tubers of yam for GH₵ $n$ each. All the yams were sold at GH₵ $m$ each. Find the profit.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ $100(m - n)$",
+        "hint": "Correct. Sales of $100m$ minus cost of $100n$."
+      },
+      {
+        "text": "GH₵ $100(m + n)$",
+        "hint": "Profit subtracts the cost. It does not add it."
+      },
+      {
+        "text": "GH₵ $100(n - m)$",
+        "hint": "This is cost minus sales, which would be a loss."
+      },
+      {
+        "text": "GH₵ $100(nm)$",
+        "hint": "Profit is a subtraction, not a product."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Profit $=$ selling price $-$ cost price.",
+    "explanation": "## Advanced explanation\n\nCost $= 100n$ and sales $= 100m$, so profit $= 100m - 100n = 100(m - n)$.\n\n## Simplified explanation\n\nHe earns GH₵ $m$ and paid GH₵ $n$ on each tuber, so he gains $m - n$ on each one. For 100 tubers, multiply by 100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A box can take 12 pencils. If 156 are packed into such boxes, how many boxes will be fully packed?",
+    "media": [],
+    "options": [
+      {
+        "text": "$10$",
+        "hint": "10 boxes hold only 120 pencils."
+      },
+      {
+        "text": "$11$",
+        "hint": "11 boxes hold only 132 pencils."
+      },
+      {
+        "text": "$12$",
+        "hint": "12 boxes hold only 144 pencils."
+      },
+      {
+        "text": "$13$",
+        "hint": "Correct. $156 \\div 12 = 13$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide the pencils by the number each box holds.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{156}{12} = 13$$\n\n## Simplified explanation\n\n$12 \\times 13 = 156$, so 13 boxes are exactly full.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the next two terms of the sequence: 2, 5, 10, 17, ...",
+    "media": [],
+    "options": [
+      {
+        "text": "24, 35",
+        "hint": "The gaps go 3, 5, 7, so the next gaps are 9 and 11."
+      },
+      {
+        "text": "26, 35",
+        "hint": "26 is right, but the gap after that is 11, not 9."
+      },
+      {
+        "text": "26, 37",
+        "hint": "Correct. $17 + 9 = 26$ and $26 + 11 = 37$."
+      },
+      {
+        "text": "27, 38",
+        "hint": "The gaps go 3, 5, 7, so the next gap is 9, not 10."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the gaps between the terms.",
+    "explanation": "## Advanced explanation\n\nEach term is $n^2 + 1$: $1 + 1$, $4 + 1$, $9 + 1$, $16 + 1$. The next two terms are $25 + 1 = 26$ and $36 + 1 = 37$.\n\n## Simplified explanation\n\nThe gaps are 3, 5 and 7, which go up by 2. The next gaps are 9 and 11: $17 + 9 = 26$ and $26 + 11 = 37$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2x - 1 = 5$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "Correct. $2(3) - 1 = 5$."
+      },
+      {
+        "text": "$4$",
+        "hint": "$2(4) - 1 = 7$, not 5."
+      },
+      {
+        "text": "$5$",
+        "hint": "$2(5) - 1 = 9$, not 5."
+      },
+      {
+        "text": "$6$",
+        "hint": "This is $2x$. Divide by 2 to find $x$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add 1 to both sides first.",
+    "explanation": "## Advanced explanation\n\n$$2x = 6 \\implies x = 3$$\n\n## Simplified explanation\n\nAdd 1 to both sides to get $2x = 6$. Divide by 2 to get $x = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Priscila's age is $k$ years while Mary's age is $b$ years. If Mary is 15 years older than Priscila, which of the following statements is correct?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2k + b = 15$",
+        "hint": "The ages differ by 15, so use a subtraction."
+      },
+      {
+        "text": "$b - k = 15$",
+        "hint": "Correct. Mary's age minus Priscila's age is 15."
+      },
+      {
+        "text": "$k - b = 15$",
+        "hint": "This would make Priscila the older one."
+      },
+      {
+        "text": "$2b + k = 15$",
+        "hint": "The ages differ by 15, so use a subtraction."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Older age minus younger age equals the difference.",
+    "explanation": "## Advanced explanation\n\nMary is 15 years older, so $b = k + 15$, which rearranges to $b - k = 15$.\n\n## Simplified explanation\n\nMary is older, so take Priscila's age from Mary's. The result is 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the median of the numbers 9, 10, 12, $x$, 20 and 25 is 14, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$14$",
+        "hint": "The median would be $\\frac{12 + 14}{2} = 13$."
+      },
+      {
+        "text": "$16$",
+        "hint": "Correct. $\\frac{12 + 16}{2} = 14$."
+      },
+      {
+        "text": "$18$",
+        "hint": "The median would be $\\frac{12 + 18}{2} = 15$."
+      },
+      {
+        "text": "$22$",
+        "hint": "22 is above 20, so the list would change order, and the median would be 16."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "With six numbers, the median is the average of the 3rd and 4th.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{12 + x}{2} = 14 \\implies 12 + x = 28 \\implies x = 16$$\n\n## Simplified explanation\n\nThe two middle numbers are 12 and $x$, and their average is 14. So they add up to 28, and $x = 28 - 12 = 16$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $2\\left(-\\dfrac{1}{2}\\right)^2 + \\left(-\\dfrac{1}{2}\\right) - 1$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1$",
+        "hint": "Correct. $\\frac{1}{2} - \\frac{1}{2} - 1 = -1$."
+      },
+      {
+        "text": "$0$",
+        "hint": "The first two terms cancel, but the $-1$ remains."
+      },
+      {
+        "text": "$1$",
+        "hint": "The first two terms cancel, which leaves $-1$."
+      },
+      {
+        "text": "$2$",
+        "hint": "The first two terms cancel, which leaves $-1$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A negative number squared is positive.",
+    "explanation": "## Advanced explanation\n\n$$2\\left(\\frac{1}{4}\\right) - \\frac{1}{2} - 1 = \\frac{1}{2} - \\frac{1}{2} - 1 = -1$$\n\n## Simplified explanation\n\n$(-\\frac{1}{2})^2 = \\frac{1}{4}$, and doubling gives $\\frac{1}{2}$. Then $\\frac{1}{2} - \\frac{1}{2} = 0$, and $0 - 1 = -1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.725 as a fraction in its lowest term.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{19}{40}$",
+        "hint": "This equals 0.475."
+      },
+      {
+        "text": "$\\dfrac{21}{40}$",
+        "hint": "This equals 0.525."
+      },
+      {
+        "text": "$\\dfrac{29}{40}$",
+        "hint": "Correct. $\\frac{725}{1000} = \\frac{29}{40}$."
+      },
+      {
+        "text": "$\\dfrac{39}{40}$",
+        "hint": "This equals 0.975."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 0.725 over 1000, then simplify.",
+    "explanation": "## Advanced explanation\n\n$$0.725 = \\frac{725}{1000} = \\frac{29}{40}$$\n\n## Simplified explanation\n\n0.725 means 725 out of 1000. Divide the top and bottom by 25 to get $\\frac{29}{40}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $AB$ is parallel to line $PD$. Find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2021/2021q39.png",
+        "caption": "Parallel lines AB and PD, with lines AD and BC crossing at O. C is on PD. Angle BAO is 20°, angle OCP is 120°, and angle AOB is x. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$20^\\circ$",
+        "hint": "This is the angle at $A$, not $x$."
+      },
+      {
+        "text": "$80^\\circ$",
+        "hint": "This is the angle next to $x$ on the straight line, not $x$."
+      },
+      {
+        "text": "$100^\\circ$",
+        "hint": "Correct. $180^\\circ - 20^\\circ - 60^\\circ = 100^\\circ$."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "This is the angle given at $C$, not $x$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find angle $OCD$ on the straight line $PD$. Then use the parallel lines to move it to $B$.",
+    "explanation": "## Advanced explanation\n\nAngle $OCD = 180^\\circ - 120^\\circ = 60^\\circ$. Since $AB \\parallel PD$, angle $ABO = 60^\\circ$ (alternate angles). In triangle $ABO$:\n\n$$x = 180^\\circ - 20^\\circ - 60^\\circ = 100^\\circ$$\n\n## Simplified explanation\n\nOn the line $PD$, the angle next to $120^\\circ$ is $60^\\circ$. The parallel lines make the angle at $B$ also $60^\\circ$. Triangle $ABO$ then has $20^\\circ$, $60^\\circ$ and $x$, so $x = 100^\\circ$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car covered a distance of 150 km at a speed of 18 km/h. Find the time taken.",
+    "media": [],
+    "options": [
+      {
+        "text": "7 hours 33 minutes",
+        "hint": "$150 \\div 18 = 8\\frac{1}{3}$ hours, so more than 8 hours."
+      },
+      {
+        "text": "7 hours 53 minutes",
+        "hint": "$150 \\div 18 = 8\\frac{1}{3}$ hours, so more than 8 hours."
+      },
+      {
+        "text": "8 hours 13 minutes",
+        "hint": "$\\frac{1}{3}$ of an hour is 20 minutes, not 13."
+      },
+      {
+        "text": "8 hours 20 minutes",
+        "hint": "Correct. $8\\frac{1}{3}$ hours."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Time $=$ distance $\\div$ speed.",
+    "explanation": "## Advanced explanation\n\n$$t = \\frac{150}{18} = 8\\frac{1}{3} \\text{ hours} = 8 \\text{ hours } 20 \\text{ minutes}$$\n\n## Simplified explanation\n\n$150 \\div 18 = 8$ remainder 6, which is $8\\frac{6}{18} = 8\\frac{1}{3}$ hours. One-third of 60 minutes is 20 minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2021 Paper",
+      "Section A",
+      "Speed",
+      "Time"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the Venn diagram, $M$ and $N$ are intersecting sets in the universal set $\\mu$.\n\nExpress $n(M)$ and $n(N)$ in terms of $x$.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 380\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" fill=\"#111827\"><rect width=\"640\" height=\"380\" fill=\"#ffffff\"/><rect x=\"50\" y=\"40\" width=\"520\" height=\"300\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><circle cx=\"245\" cy=\"180\" r=\"115\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><circle cx=\"375\" cy=\"180\" r=\"115\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><text x=\"140\" y=\"85\" font-size=\"26\" font-style=\"italic\">M</text><text x=\"465\" y=\"85\" font-size=\"26\" font-style=\"italic\">N</text><text x=\"587\" y=\"60\" font-size=\"30\" font-style=\"italic\">μ</text><text x=\"192\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">8x + 4</text><text x=\"310\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">6</text><text x=\"428\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">2x + 7</text><text x=\"510\" y=\"315\" font-size=\"26\" text-anchor=\"middle\">6</text></svg>",
+        "caption": "Venn diagram of intersecting sets M and N in the universal set μ. M only has 8x + 4 members, both sets have 6, N only has 2x + 7, and 6 members are outside both sets."
+      }
+    ],
+    "answer": "Add the two regions inside each circle:\n\n$$n(M) = 8x + 4 + 6 = 8x + 10$$\n\n$$n(N) = 2x + 7 + 6 = 2x + 13$$\n\n> [!answer]\n> {{green:$n(M) = 8x + 10$}} and {{green:$n(N) = 2x + 13$}}",
+    "hint": "Each circle includes the overlap in the middle.",
+    "explanation": "## Advanced explanation\n\nThe members of a set are those in its own region plus those in the intersection. The 6 outside both circles belong to neither set.\n\n## Simplified explanation\n\nCircle $M$ holds $8x + 4$ and the 6 in the middle. Circle $N$ holds $2x + 7$ and the same 6.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Sets",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the Venn diagram, $M$ and $N$ are intersecting sets in the universal set $\\mu$.\n\nGiven that $n(M) = n(N)$, find the:\n\n(i) value of $x$;\n\n(ii) $n(\\mu)$.",
+    "media": [
+      {
+        "kind": "svg",
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 380\" font-family=\"Arial, sans-serif\" font-weight=\"bold\" fill=\"#111827\"><rect width=\"640\" height=\"380\" fill=\"#ffffff\"/><rect x=\"50\" y=\"40\" width=\"520\" height=\"300\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><circle cx=\"245\" cy=\"180\" r=\"115\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><circle cx=\"375\" cy=\"180\" r=\"115\" fill=\"none\" stroke=\"#111827\" stroke-width=\"2.5\"/><text x=\"140\" y=\"85\" font-size=\"26\" font-style=\"italic\">M</text><text x=\"465\" y=\"85\" font-size=\"26\" font-style=\"italic\">N</text><text x=\"587\" y=\"60\" font-size=\"30\" font-style=\"italic\">μ</text><text x=\"192\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">8x + 4</text><text x=\"310\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">6</text><text x=\"428\" y=\"189\" font-size=\"26\" text-anchor=\"middle\">2x + 7</text><text x=\"510\" y=\"315\" font-size=\"26\" text-anchor=\"middle\">6</text></svg>",
+        "caption": "Venn diagram of intersecting sets M and N in the universal set μ. M only has 8x + 4 members, both sets have 6, N only has 2x + 7, and 6 members are outside both sets."
+      }
+    ],
+    "answer": "**(i)** $n(M) = 8x + 10$ and $n(N) = 2x + 13$:\n\n$$\n\\begin{aligned}\n8x + 10 &= 2x + 13 \\\\\n6x &= 3 \\\\\nx &= \\frac{1}{2}\n\\end{aligned}\n$$\n\n**(ii)** Add all four regions:\n\n$$n(\\mu) = (8x + 4) + 6 + (2x + 7) + 6 = 10x + 23$$\n\n$$n(\\mu) = 10\\left(\\frac{1}{2}\\right) + 23 = 28$$\n\n> [!answer]\n> **(i)** {{green:$x = \\dfrac{1}{2}$}}  **(ii)** {{green:$n(\\mu) = 28$}}",
+    "hint": "Write $n(M)$ and $n(N)$ in terms of $x$, then set them equal.",
+    "explanation": "## Advanced explanation\n\nWith $x = \\frac{1}{2}$, each outer region has 8 members, so $n(M) = n(N) = 14$. The check is $8 + 6 + 8 + 6 = 28$.\n\n## Simplified explanation\n\nSet $8x + 10$ equal to $2x + 13$ to get $6x = 3$, so $x$ is a half. Then each outer region holds 8. All the regions together are $8 + 6 + 8 + 6 = 28$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Sets",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $2^6 \\div (2^2 \\times 2^1) \\div 2^5$",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n2^6 \\div (2^2 \\times 2^1) \\div 2^5 &= 2^6 \\div 2^3 \\div 2^5 \\\\\n&= 2^{6 - 3 - 5} \\\\\n&= 2^{-2} = \\frac{1}{4}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$2^{-2} = \\dfrac{1}{4}$}}",
+    "hint": "Work out the bracket first. Add powers when multiplying and subtract them when dividing.",
+    "explanation": "## Advanced explanation\n\nFor the same base, $a^p \\times a^q = a^{p + q}$ and $a^p \\div a^q = a^{p - q}$. A negative power means a reciprocal, so $2^{-2} = \\frac{1}{2^2}$.\n\n## Simplified explanation\n\nThe bracket is $2^3$. Then take away the powers: $6 - 3 - 5 = -2$. And $2^{-2}$ means 1 over $2 \\times 2$, which is $\\frac{1}{4}$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Indices"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize the expression $5ay - by + 15a - 3b$.",
+    "media": [],
+    "answer": "Group the terms in pairs:\n\n$$5ay - by + 15a - 3b = y(5a - b) + 3(5a - b) = (y + 3)(5a - b)$$\n\n> [!answer]\n> {{green:$(y + 3)(5a - b)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nEach pair has the common factor $(5a - b)$ after taking out $y$ and 3. Expanding $(y + 3)(5a - b)$ returns the original expression.\n\n## Simplified explanation\n\nTake $y$ out of the first two terms and 3 out of the last two. Both groups contain $(5a - b)$, so take that out too.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $\\dfrac{6}{4p - 1} = \\dfrac{4}{3(p + 4)}$",
+    "media": [],
+    "answer": "Cross-multiply:\n\n$$\n\\begin{aligned}\n6 \\times 3(p + 4) &= 4(4p - 1) \\\\\n18p + 72 &= 16p - 4 \\\\\n2p &= -76 \\\\\np &= -38\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$p = -38$}}",
+    "hint": "Cross-multiply, then expand both sides.",
+    "explanation": "## Advanced explanation\n\nCheck: the left side is $\\frac{6}{-153} = -\\frac{2}{51}$, and the right side is $\\frac{4}{3(-34)} = -\\frac{2}{51}$.\n\n## Simplified explanation\n\nMultiply each top by the other bottom to get $18(p + 4) = 4(4p - 1)$. Expand to get $18p + 72 = 16p - 4$. Collect the terms to get $2p = -76$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Esi and Kofi shared an amount of GH₵ 21,000.00 in the ratio of 2 : 5 respectively. How much more did Kofi receive than Esi?",
+    "media": [],
+    "answer": "Total ratio: $2 + 5 = 7$\n\nKofi: $\\dfrac{5}{7} \\times 21000 = 15000$\n\nEsi: $\\dfrac{2}{7} \\times 21000 = 6000$\n\nDifference: $15000 - 6000 = 9000$\n\n> [!answer]\n> {{green:GH₵ 9,000.00}}",
+    "hint": "Find the value of one ratio part.",
+    "explanation": "## Advanced explanation\n\nThe difference is $5 - 2 = 3$ parts, so directly $\\frac{3}{7} \\times 21000 = 9000$.\n\n## Simplified explanation\n\nThere are 7 parts, so each part is GH₵ 3,000. Kofi has 3 more parts than Esi, and $3 \\times 3000 = 9000$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $r = \\begin{pmatrix} -4 \\\\ -5 \\end{pmatrix}$ and $m = \\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$, find $p$ given that $p = r - m$.",
+    "media": [],
+    "answer": "$$p = \\begin{pmatrix} -4 - (-1) \\\\ -5 - (-2) \\end{pmatrix} = \\begin{pmatrix} -4 + 1 \\\\ -5 + 2 \\end{pmatrix} = \\begin{pmatrix} -3 \\\\ -3 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$p = \\begin{pmatrix} -3 \\\\ -3 \\end{pmatrix}$}}",
+    "hint": "Subtract the matching entries. Subtracting a negative number is the same as adding.",
+    "explanation": "## Advanced explanation\n\nVectors are subtracted entry by entry. As a check, $p + m = \\begin{pmatrix} -3 - 1 \\\\ -3 - 2 \\end{pmatrix} = r$.\n\n## Simplified explanation\n\nTop numbers: $-4 - (-1) = -3$. Bottom numbers: $-5 - (-2) = -3$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The sum of two numbers is 81. If the second number is twice the first, find the second number.",
+    "media": [],
+    "answer": "Let the first number be $x$, so the second is $2x$.\n\n$$x + 2x = 81 \\implies 3x = 81 \\implies x = 27$$\n\nSecond number: $2 \\times 27 = 54$\n\n> [!answer]\n> {{green:54}}",
+    "hint": "Call the first number $x$. What is the second number?",
+    "explanation": "## Advanced explanation\n\nCheck: $27 + 54 = 81$, and $54 = 2 \\times 27$.\n\n## Simplified explanation\n\nThe two numbers make 3 equal parts of 81, so each part is 27. The second number is 2 parts, which is 54.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The floor of a rectangular hall is of length 9 m and width 4 m. How many tiles of 20 cm by 30 cm can be used to cover the floor completely?",
+    "media": [],
+    "answer": "Change the floor to centimetres: 900 cm by 400 cm.\n\nArea of floor: $900 \\times 400 = 360000$ cm$^2$\n\nArea of one tile: $20 \\times 30 = 600$ cm$^2$\n\nNumber of tiles: $\\dfrac{360000}{600} = 600$\n\n> [!answer]\n> {{green:600 tiles}}",
+    "hint": "Use the same units for the floor and the tiles.",
+    "explanation": "## Advanced explanation\n\nWorking in metres gives the same result: $\\frac{9 \\times 4}{0.2 \\times 0.3} = \\frac{36}{0.06} = 600$.\n\n## Simplified explanation\n\nThe floor is 900 cm by 400 cm, which is 360,000 square centimetres. Each tile covers 600. Then $360000 \\div 600 = 600$ tiles.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Antwiwaa bought 25 mangoes, 7 of which were unripe. What percentage of the mangoes were ripe?",
+    "media": [],
+    "answer": "Ripe mangoes: $25 - 7 = 18$\n\n$$\\frac{18}{25} \\times 100\\% = 72\\%$$\n\n> [!answer]\n> {{green:72%}}",
+    "hint": "Find the number of ripe mangoes first.",
+    "explanation": "## Advanced explanation\n\nAlternatively, the unripe share is $\\frac{7}{25} = 28\\%$, and $100\\% - 28\\% = 72\\%$.\n\n## Simplified explanation\n\n18 of the 25 mangoes are ripe. Each mango is 4% of the total, and $18 \\times 4 = 72$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mapping shows the relationship between $x$ and $y$. Find the\n\n(i) rule of the mapping;\n\n(ii) values of $m$ and $n$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2021/2021q4.png",
+        "caption": "Mapping diagram: x values 1, 2, 3, 4, then 8, then n map to y values −1, 2, 5, 8, then m, then 29."
+      }
+    ],
+    "answer": "**(i)** $y$ rises by 3 each time $x$ rises by 1, so $y = 3x + c$. When $x = 2$, $y = 2$, so $c = -4$:\n\n$$y = 3x - 4$$\n\n**(ii)** When $x = 8$: $m = 3(8) - 4 = 20$\n\nWhen $y = 29$: $3n - 4 = 29$, so $3n = 33$ and $n = 11$\n\n> [!answer]\n> **(i)** {{green:$y = 3x - 4$}}  **(ii)** {{green:$m = 20$}} and {{green:$n = 11$}}",
+    "hint": "How much does $y$ go up each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\nThe gradient is $\\frac{5 - 2}{3 - 2} = 3$. Each given pair satisfies $y = 3x - 4$, for example $3(4) - 4 = 8$.\n\n## Simplified explanation\n\nThe bottom numbers go up by 3, so multiply by 3. For $x = 1$ this gives 3, but $y$ is $-1$, so subtract 4. Then use the rule to find $m$, and work backwards from 29 to find $n$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Mappings",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A bus left town $X$ at 6:30 am and arrived at town $Y$ at 1:00 pm. If the bus travelled at an average speed of 100 km per hour, calculate the distance from town $X$ to town $Y$.",
+    "media": [],
+    "answer": "Time taken from 6:30 am to 1:00 pm: 6 hours 30 minutes $= 6\\dfrac{1}{2}$ hours\n\n$$\\text{Distance} = 100 \\times 6\\frac{1}{2} = 650 \\text{ km}$$\n\n> [!answer]\n> {{green:650 km}}",
+    "hint": "Find the time taken first, and write it in hours.",
+    "explanation": "## Advanced explanation\n\nUsing the 24-hour clock, the time is $13{:}00 - 6{:}30 = 6.5$ hours, and distance $=$ speed $\\times$ time.\n\n## Simplified explanation\n\nFrom 6:30 am to 12:30 pm is 6 hours, and on to 1:00 pm is 30 more minutes. In $6\\frac{1}{2}$ hours at 100 km each hour, the bus goes 650 km.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Speed",
+      "Time"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $(4x + 2)(x - 2) - 3x^2$.",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n(4x + 2)(x - 2) - 3x^2 &= 4x^2 - 8x + 2x - 4 - 3x^2 \\\\\n&= x^2 - 6x - 4\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x^2 - 6x - 4$}}",
+    "hint": "Expand the brackets first, then collect like terms.",
+    "explanation": "## Advanced explanation\n\nCheck with $x = 1$: the original gives $(6)(-1) - 3 = -9$, and the answer gives $1 - 6 - 4 = -9$.\n\n## Simplified explanation\n\nMultiply out to get $4x^2 - 8x + 2x - 4$. Take away $3x^2$ and combine the $x$ terms.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The following are the angles formed at the centre of a circle: $40^\\circ$, $60^\\circ$, $100^\\circ$, $3x^\\circ$ and $5x^\\circ$. Find the value of $x$.",
+    "media": [],
+    "answer": "Angles at the centre of a circle add up to $360^\\circ$:\n\n$$\n\\begin{aligned}\n40 + 60 + 100 + 3x + 5x &= 360 \\\\\n200 + 8x &= 360 \\\\\n8x &= 160 \\\\\nx &= 20\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = 20$}}",
+    "hint": "All the angles at the centre make a full turn.",
+    "explanation": "## Advanced explanation\n\nThe two unknown angles are then $60^\\circ$ and $100^\\circ$, and $40 + 60 + 100 + 60 + 100 = 360$.\n\n## Simplified explanation\n\nThe known angles make 200, so the others make $360 - 200 = 160$. There are $3 + 5 = 8$ lots of $x$, and $160 \\div 8 = 20$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The cost ($C$) in Ghana Cedis of producing a book of $x$ pages is given as $C = 25 + 0.6x$.\n\n(i) Find the cost of producing a book with 220 pages.\n\n(ii) How many pages are in a book produced at a cost of GH₵ 145.00?",
+    "media": [],
+    "answer": "**(i)** $C = 25 + 0.6(220) = 25 + 132 = 157$\n\n**(ii)**\n\n$$\n\\begin{aligned}\n145 &= 25 + 0.6x \\\\\n120 &= 0.6x \\\\\nx &= 200\n\\end{aligned}\n$$\n\n> [!answer]\n> **(i)** {{green:GH₵ 157.00}}  **(ii)** {{green:200 pages}}",
+    "hint": "For (i), put $x = 220$. For (ii), put $C = 145$ and solve for $x$.",
+    "explanation": "## Advanced explanation\n\nThis is a linear relation: a fixed cost of GH₵ 25.00 plus GH₵ 0.60 per page. Check (ii): $25 + 0.6(200) = 145$.\n\n## Simplified explanation\n\nEach page costs GH₵ 0.60, on top of GH₵ 25. For 220 pages, that is $132 + 25 = 157$. For GH₵ 145, take off 25 to get 120, and $120 \\div 0.6 = 200$ pages.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the number of marbles students sent to class for Mathematics lesson. The last column, $f(x)$, is the number of marbles multiplied by the number of students.\n\nCopy and complete the table.\n\nIn your answer, write out the completed students and $f(x)$ columns.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2021/2021q6.png",
+        "caption": "Table of marbles x from 1 to 6. Students f are 4, 5, blank, 9, blank, 2. The f(x) column is blank, blank, 42, blank, 30, 12."
+      }
+    ],
+    "answer": "Use $f(x) = f \\times x$ in each row. For the blank students, divide: $42 \\div 3 = 14$ and $30 \\div 5 = 6$.\n\n| Marbles ($x$) | Students ($f$) | $f(x)$ |\n|---|---|---|\n| 1 | 4 | 4 |\n| 2 | 5 | 10 |\n| 3 | 14 | 42 |\n| 4 | 9 | 36 |\n| 5 | 6 | 30 |\n| 6 | 2 | 12 |\n\n> [!answer]\n> Students: {{green:4, 5, 14, 9, 6, 2}}\n>\n> $f(x)$: {{green:4, 10, 42, 36, 30, 12}}",
+    "hint": "If you know two of the three numbers in a row, you can find the third.",
+    "explanation": "## Advanced explanation\n\nEach row satisfies $f(x) = f \\times x$. The missing frequencies come from $f = \\frac{f(x)}{x}$.\n\n## Simplified explanation\n\nMultiply marbles by students to fill the last column. Where students are missing, divide the last column by the marbles.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the number of marbles students sent to class for Mathematics lesson. The last column, $f(x)$, is the number of marbles multiplied by the number of students.\n\nHow many:\n\n(i) students were in the class?\n\n(ii) marbles were brought altogether?\n\n(iii) marbles did most of the students bring?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2021/2021q6.png",
+        "caption": "Table of marbles x from 1 to 6. Students f are 4, 5, blank, 9, blank, 2. The f(x) column is blank, blank, 42, blank, 30, 12."
+      }
+    ],
+    "answer": "Complete the table first:\n\n| Marbles ($x$) | Students ($f$) | $f(x)$ |\n|---|---|---|\n| 1 | 4 | 4 |\n| 2 | 5 | 10 |\n| 3 | 14 | 42 |\n| 4 | 9 | 36 |\n| 5 | 6 | 30 |\n| 6 | 2 | 12 |\n\n**(i)** $4 + 5 + 14 + 9 + 6 + 2 = 40$\n\n**(ii)** $4 + 10 + 42 + 36 + 30 + 12 = 134$\n\n**(iii)** The highest number of students is 14, and they each brought 3 marbles.\n\n> [!answer]\n> **(i)** {{green:40 students}}  **(ii)** {{green:134 marbles}}  **(iii)** {{green:3 marbles}}",
+    "hint": "Complete the table first. Add the students column for (i) and the $f(x)$ column for (ii).",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 40$ and $\\sum fx = 134$. Part (iii) asks for the mode, which is the value of $x$ with the highest frequency.\n\n## Simplified explanation\n\nAdding the students gives 40. Adding the last column gives 134. The biggest group is the 14 students, who each brought 3 marbles.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the number of marbles students sent to class for Mathematics lesson. The last column, $f(x)$, is the number of marbles multiplied by the number of students.\n\nCalculate correct to the nearest whole number, the mean number of marbles brought for the lesson.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2021/2021q6.png",
+        "caption": "Table of marbles x from 1 to 6. Students f are 4, 5, blank, 9, blank, 2. The f(x) column is blank, blank, 42, blank, 30, 12."
+      }
+    ],
+    "answer": "From the completed table, $\\sum f = 40$ and $\\sum fx = 134$.\n\n$$\\text{Mean} = \\frac{\\sum fx}{\\sum f} = \\frac{134}{40} = 3.35 \\approx 3$$\n\n> [!answer]\n> {{green:3 marbles}}",
+    "hint": "Mean $=$ total marbles $\\div$ total students.",
+    "explanation": "## Advanced explanation\n\nThe missing frequencies are $\\frac{42}{3} = 14$ and $\\frac{30}{5} = 6$, and the missing products are 4, 10 and 36. These give the totals 40 and 134.\n\n## Simplified explanation\n\nThere are 134 marbles and 40 students. Then $134 \\div 40 = 3.35$, which rounds to 3.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2021 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  }
+]

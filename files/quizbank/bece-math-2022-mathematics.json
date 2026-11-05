@@ -1,0 +1,1629 @@
+[
+  {
+    "type": "choice",
+    "body": "Write 1930.54 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1.93054 \\times 10^{2}$",
+        "hint": "This equals 193.054. The point moves 3 places."
+      },
+      {
+        "text": "$1.93054 \\times 10^{3}$",
+        "hint": "Correct. The point moves 3 places to the left."
+      },
+      {
+        "text": "$1.93054 \\times 10^{-2}$",
+        "hint": "A number greater than 1 needs a positive power here."
+      },
+      {
+        "text": "$1.93054 \\times 10^{-3}$",
+        "hint": "A number greater than 1 needs a positive power here."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Move the decimal point until you get a number between 1 and 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Here $a = 1.93054$ and $n = 3$.\n\n## Simplified explanation\n\nMove the point 3 places left to get 1.93054. So the power is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "For what value of $x$ is $3^x = 81$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2$",
+        "hint": "$3^2 = 9$, not 81."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $3^4 = 81$."
+      },
+      {
+        "text": "$27$",
+        "hint": "This is $81 \\div 3$. The power says how many 3s to multiply."
+      },
+      {
+        "text": "$9$",
+        "hint": "$3^2 = 9$, but $x$ is the power, and $3^9$ is far more than 81."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply 3 by itself until you reach 81.",
+    "explanation": "## Advanced explanation\n\n$81 = 3^4$, so $3^x = 3^4$ and $x = 4$.\n\n## Simplified explanation\n\n$3 \\times 3 \\times 3 \\times 3 = 81$. That is four 3s, so $x = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car travels 36 kilometers in an hour. Find its speed in meters per second.",
+    "media": [],
+    "options": [
+      {
+        "text": "10 ms$^{-1}$",
+        "hint": "Correct. $\\frac{36000}{3600} = 10$."
+      },
+      {
+        "text": "100 ms$^{-1}$",
+        "hint": "$\\frac{36000}{3600}$ is 10, not 100."
+      },
+      {
+        "text": "20 ms$^{-1}$",
+        "hint": "$\\frac{36000}{3600}$ is 10, not 20."
+      },
+      {
+        "text": "200 ms$^{-1}$",
+        "hint": "$\\frac{36000}{3600}$ is 10, not 200."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change km to m, and hours to seconds.",
+    "explanation": "## Advanced explanation\n\n$$36 \\text{ km/h} = \\frac{36 \\times 1000 \\text{ m}}{3600 \\text{ s}} = 10 \\text{ m/s}$$\n\n## Simplified explanation\n\n36 km is 36,000 m, and 1 hour is 3,600 seconds. Then $36000 \\div 3600 = 10$ metres each second.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Speed",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{n}{100} = 10.5$ find the value of $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1050$",
+        "hint": "Correct. $10.5 \\times 100 = 1050$."
+      },
+      {
+        "text": "$0.105$",
+        "hint": "This divides by 100. Multiply instead."
+      },
+      {
+        "text": "$105$",
+        "hint": "This multiplies by 10. Multiply by 100."
+      },
+      {
+        "text": "$0.0105$",
+        "hint": "Multiply by 100 to undo the division."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply both sides by 100.",
+    "explanation": "## Advanced explanation\n\n$$n = 10.5 \\times 100 = 1050$$\n\n## Simplified explanation\n\n$n$ is divided by 100, so multiply 10.5 by 100. The point moves 2 places right.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If a trader made a profit of 10% in selling a shirt for GH₵ 44.00, find the cost price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 39.60",
+        "hint": "This takes 10% off the selling price. The 10% is worked on the cost price."
+      },
+      {
+        "text": "GH₵ 38.50",
+        "hint": "A 10% profit on this gives GH₵ 42.35, not GH₵ 44.00."
+      },
+      {
+        "text": "GH₵ 48.40",
+        "hint": "This adds 10% to the selling price, but the cost must be less than GH₵ 44."
+      },
+      {
+        "text": "GH₵ 40.00",
+        "hint": "Correct. $44 \\div 1.1 = 40$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The selling price is 110% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Cost price} = \\frac{100}{110} \\times 44 = 40$$\n\n## Simplified explanation\n\nCost is 100%, and adding 10% profit makes 110%. So 110% is GH₵ 44, 1% is GH₵ 0.40, and 100% is GH₵ 40.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $1\\dfrac{1}{5} \\div 2\\dfrac{1}{10}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{4}{7}$",
+        "hint": "Correct. $\\frac{6}{5} \\times \\frac{10}{21} = \\frac{4}{7}$."
+      },
+      {
+        "text": "$2\\dfrac{13}{25}$",
+        "hint": "This multiplies the two numbers instead of dividing."
+      },
+      {
+        "text": "$\\dfrac{12}{63}$",
+        "hint": "Change to improper fractions, then flip the second one and multiply."
+      },
+      {
+        "text": "$\\dfrac{25}{63}$",
+        "hint": "Change to improper fractions, then flip the second one and multiply."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change to improper fractions, then multiply by the reciprocal.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{6}{5} \\div \\frac{21}{10} = \\frac{6}{5} \\times \\frac{10}{21} = \\frac{60}{105} = \\frac{4}{7}$$\n\n## Simplified explanation\n\n$1\\frac{1}{5} = \\frac{6}{5}$ and $2\\frac{1}{10} = \\frac{21}{10}$. Flip the second and multiply: $\\frac{60}{105}$, which simplifies to $\\frac{4}{7}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The volume of a cylinder is $40\\pi$ cm$^3$. If the height of the cylinder is 10 cm, find the base radius.",
+    "media": [],
+    "options": [
+      {
+        "text": "1 cm",
+        "hint": "This gives a volume of only $10\\pi$ cm$^3$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This is $r^2$. The radius is its square root."
+      },
+      {
+        "text": "3 cm",
+        "hint": "This gives a volume of $90\\pi$ cm$^3$."
+      },
+      {
+        "text": "2 cm",
+        "hint": "Correct. $\\pi(2)^2(10) = 40\\pi$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Volume of a cylinder $= \\pi r^2 h$.",
+    "explanation": "## Advanced explanation\n\n$$\\pi r^2 (10) = 40\\pi \\implies r^2 = 4 \\implies r = 2 \\text{ cm}$$\n\n## Simplified explanation\n\nCancel $\\pi$ from both sides to get $r^2 \\times 10 = 40$. Then $r^2 = 4$, so $r = 2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The longest chord of a circle is the",
+    "media": [],
+    "options": [
+      {
+        "text": "sector",
+        "hint": "A sector is a region between two radii, not a chord."
+      },
+      {
+        "text": "segment",
+        "hint": "A segment is a region cut off by a chord."
+      },
+      {
+        "text": "circumference",
+        "hint": "The circumference is the curved distance round the circle."
+      },
+      {
+        "text": "diameter",
+        "hint": "Correct. A diameter is a chord through the centre."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A chord joins two points on a circle. Which one passes through the centre?",
+    "explanation": "## Advanced explanation\n\nA chord is a straight line joining two points on a circle. It is longest when it passes through the centre, and that chord is a diameter.\n\n## Simplified explanation\n\nThe straight line through the middle of a circle is the longest you can draw across it. That line is the diameter.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x = \\dfrac{b^2 - 4ac}{2a}$, find $x$ when $a = 2$, $b = -4$ and $c = -2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$16$",
+        "hint": "The top is $16 + 16 = 32$, and the bottom is 4."
+      },
+      {
+        "text": "$0$",
+        "hint": "Check the sign: $-4(2)(-2) = +16$."
+      },
+      {
+        "text": "$4$",
+        "hint": "The top is $16 - 4(2)(-2) = 32$, not 16."
+      },
+      {
+        "text": "$8$",
+        "hint": "Correct. $\\frac{32}{4} = 8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Take care with the signs: $(-4)^2$ is positive, and $-4ac$ is also positive here.",
+    "explanation": "## Advanced explanation\n\n$$x = \\frac{(-4)^2 - 4(2)(-2)}{2(2)} = \\frac{16 + 16}{4} = 8$$\n\n## Simplified explanation\n\n$(-4)^2 = 16$, and $-4 \\times 2 \\times (-2) = +16$. The top is 32 and the bottom is 4, so $x = 8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ratio of farmers to children in a village is 13 : 11. If there were 312 farmers in the village, how many children were there?",
+    "media": [],
+    "options": [
+      {
+        "text": "$143$",
+        "hint": "This is $13 \\times 11$. Each ratio part is 24 people."
+      },
+      {
+        "text": "$169$",
+        "hint": "This is $13 \\times 13$. Each ratio part is 24 people."
+      },
+      {
+        "text": "$264$",
+        "hint": "Correct. $24 \\times 11 = 264$."
+      },
+      {
+        "text": "$48$",
+        "hint": "This is the difference between farmers and children."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the value of one ratio part from the farmers.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Children} = \\frac{11}{13} \\times 312 = 264$$\n\n## Simplified explanation\n\n13 parts are 312 farmers, so 1 part is 24. Children have 11 parts: $11 \\times 24 = 264$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions from the lowest to the highest: $\\dfrac{2}{3}$, $\\dfrac{1}{4}$, $\\dfrac{3}{5}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{1}{4}, \\dfrac{3}{5}$",
+        "hint": "$\\frac{2}{3}$ is the largest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{3}{5}, \\dfrac{1}{4}$",
+        "hint": "This is from the highest to the lowest."
+      },
+      {
+        "text": "$\\dfrac{1}{4}, \\dfrac{3}{5}, \\dfrac{2}{3}$",
+        "hint": "Correct. As decimals: 0.25, 0.6, 0.67."
+      },
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{1}{4}, \\dfrac{2}{3}$",
+        "hint": "$\\frac{1}{4}$ is smaller than $\\frac{3}{5}$, so it comes first."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change the fractions to decimals, or give them a common denominator.",
+    "explanation": "## Advanced explanation\n\nWith denominator 60: $\\frac{1}{4} = \\frac{15}{60}$, $\\frac{3}{5} = \\frac{36}{60}$ and $\\frac{2}{3} = \\frac{40}{60}$.\n\n## Simplified explanation\n\nAs decimals they are about 0.67, 0.25 and 0.6. From lowest to highest: 0.25, 0.6, 0.67.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the length of the side of a square of area 225 cm$^2$?",
+    "media": [],
+    "options": [
+      {
+        "text": "15 cm",
+        "hint": "Correct. $15 \\times 15 = 225$."
+      },
+      {
+        "text": "56.25 cm",
+        "hint": "This is $225 \\div 4$, which treats the area as a perimeter."
+      },
+      {
+        "text": "12.00 cm",
+        "hint": "$12 \\times 12 = 144$, not 225."
+      },
+      {
+        "text": "112.50 cm",
+        "hint": "This is $225 \\div 2$. Take the square root instead."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Area of a square $=$ side $\\times$ side.",
+    "explanation": "## Advanced explanation\n\n$$s = \\sqrt{225} = 15 \\text{ cm}$$\n\n## Simplified explanation\n\nFind the number that multiplies by itself to give 225. That number is 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The rule of a mapping is $x \\to 2x^2 - 1$. What number does 2 map to?",
+    "media": [],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "This leaves out the square: $2(2)^2$ is 8, not 4."
+      },
+      {
+        "text": "$9$",
+        "hint": "This adds 1. The rule subtracts 1."
+      },
+      {
+        "text": "$7$",
+        "hint": "Correct. $2(4) - 1 = 7$."
+      },
+      {
+        "text": "$8$",
+        "hint": "This forgets to subtract 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Square first, then multiply by 2, then subtract 1.",
+    "explanation": "## Advanced explanation\n\n$$2(2)^2 - 1 = 2(4) - 1 = 7$$\n\n## Simplified explanation\n\n$2^2 = 4$, and doubling gives 8. Taking away 1 gives 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 108 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^3 \\times 3$",
+        "hint": "This equals 24, not 108."
+      },
+      {
+        "text": "$2 \\times 3^4$",
+        "hint": "This equals 162, not 108."
+      },
+      {
+        "text": "$2^3 \\times 3^2$",
+        "hint": "This equals 72, not 108."
+      },
+      {
+        "text": "$2^2 \\times 3^3$",
+        "hint": "Correct. $4 \\times 27 = 108$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Keep dividing 108 by primes until you reach 1.",
+    "explanation": "## Advanced explanation\n\n$$108 = 2 \\times 54 = 2 \\times 2 \\times 27 = 2^2 \\times 3^3$$\n\n## Simplified explanation\n\nDivide by 2 twice to get 27. Then $27 = 3 \\times 3 \\times 3$. So $108 = 2^2 \\times 3^3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $15 : 12$ in the form $1 : n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1 : 12$",
+        "hint": "Divide both parts by 15, not just the first."
+      },
+      {
+        "text": "$1 : 15$",
+        "hint": "Divide both parts by 15, and use 12 for the second part."
+      },
+      {
+        "text": "$1 : 1.2$",
+        "hint": "$12 \\div 15$ is 0.8, not 1.2."
+      },
+      {
+        "text": "$1 : 0.8$",
+        "hint": "Correct. $12 \\div 15 = 0.8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide both parts of the ratio by the first part.",
+    "explanation": "## Advanced explanation\n\n$$15 : 12 = \\frac{15}{15} : \\frac{12}{15} = 1 : 0.8$$\n\n## Simplified explanation\n\nTo make the first part 1, divide both by 15. Then $12 \\div 15 = 0.8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $P(3, -2)$ and $Q(-2, 4)$ are points in a plane, find the gradient of the line joining $P$ to $Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "This has the fraction upside down and the wrong sign."
+      },
+      {
+        "text": "$-\\dfrac{5}{6}$",
+        "hint": "This is change in $x$ over change in $y$. Gradient is the other way round."
+      },
+      {
+        "text": "$-\\dfrac{6}{5}$",
+        "hint": "Correct. $\\frac{4 - (-2)}{-2 - 3} = \\frac{6}{-5}$."
+      },
+      {
+        "text": "$\\dfrac{6}{5}$",
+        "hint": "Check the sign: the change in $x$ is $-2 - 3 = -5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{4 - (-2)}{-2 - 3} = \\frac{6}{-5} = -\\frac{6}{5}$$\n\n## Simplified explanation\n\n$y$ goes from $-2$ to 4, a change of 6. $x$ goes from 3 to $-2$, a change of $-5$. So the gradient is $-\\frac{6}{5}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A shop is rented at GH₵ 9.00 per month. How much money is paid in $1\\dfrac{1}{2}$ years?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 162.00",
+        "hint": "Correct. $18 \\times 9 = 162$."
+      },
+      {
+        "text": "GH₵ 13.50",
+        "hint": "This is $9 \\times 1.5$. The rent is per month, so use 18 months."
+      },
+      {
+        "text": "GH₵ 135.00",
+        "hint": "This is for 15 months. $1\\frac{1}{2}$ years is 18 months."
+      },
+      {
+        "text": "GH₵ 6.00",
+        "hint": "This divides. Multiply the monthly rent by the number of months."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change the years to months.",
+    "explanation": "## Advanced explanation\n\n$$1\\frac{1}{2} \\times 12 = 18 \\text{ months}, \\qquad 18 \\times 9 = 162$$\n\n## Simplified explanation\n\n$1\\frac{1}{2}$ years is 18 months. Then $18 \\times 9 =$ GH₵ 162.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AB$ is parallel to $DE$, $\\angle ABC = 81^\\circ$ and $\\angle DCE = 20^\\circ$.\n\nWhat is the value of $x$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q18.png",
+        "caption": "Parallel lines AB and DE, with lines AE and BD crossing at C. Angle ABC is 81°, angle DCE is 20°, angle BAC is y and angle CDE is x. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$20^\\circ$",
+        "hint": "This is angle $DCE$, not $x$."
+      },
+      {
+        "text": "$101^\\circ$",
+        "hint": "This is $81^\\circ + 20^\\circ$, which is not an angle in the triangle at $D$."
+      },
+      {
+        "text": "$81^\\circ$",
+        "hint": "Correct. Angles $ABC$ and $CDE$ are alternate angles."
+      },
+      {
+        "text": "$61^\\circ$",
+        "hint": "This is $81^\\circ - 20^\\circ$. The parallel lines give $x$ directly."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$AB$ and $DE$ are parallel, and the line $BD$ crosses both.",
+    "explanation": "## Advanced explanation\n\n$AB \\parallel DE$ with transversal $BD$, so angle $CDE$ and angle $ABC$ are alternate angles. Hence $x = 81^\\circ$.\n\n## Simplified explanation\n\nBecause the lines are parallel, the angles at $B$ and $D$ on opposite sides of $BD$ are equal. So $x = 81^\\circ$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AB$ is parallel to $DE$, $\\angle ABC = 81^\\circ$ and $\\angle DCE = 20^\\circ$.\n\nFind the value of $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q18.png",
+        "caption": "Parallel lines AB and DE, with lines AE and BD crossing at C. Angle ABC is 81°, angle DCE is 20°, angle BAC is y and angle CDE is x. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$101^\\circ$",
+        "hint": "This adds the two given angles. Subtract them from $180^\\circ$."
+      },
+      {
+        "text": "$20^\\circ$",
+        "hint": "This is angle $DCE$, not $y$."
+      },
+      {
+        "text": "$79^\\circ$",
+        "hint": "Correct. $180^\\circ - 81^\\circ - 20^\\circ = 79^\\circ$."
+      },
+      {
+        "text": "$81^\\circ$",
+        "hint": "This is angle $ABC$, not $y$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Angle $ACB$ is vertically opposite angle $DCE$.",
+    "explanation": "## Advanced explanation\n\nAngle $ACB = 20^\\circ$ (vertically opposite). In triangle $ABC$:\n\n$$y = 180^\\circ - 81^\\circ - 20^\\circ = 79^\\circ$$\n\n## Simplified explanation\n\nThe angle at $C$ inside the left triangle is also $20^\\circ$. The triangle's angles make 180, so $y = 180 - 81 - 20 = 79$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the probability that a number greater than 5 shows up when a die is thrown?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Correct. Only 6 is greater than 5."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This also counts 5, but the number must be greater than 5."
+      },
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "This is the probability of 5 or less."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Only one face of the die is greater than 5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "List the numbers on a die that are greater than 5.",
+    "explanation": "## Advanced explanation\n\nThe only favourable outcome is 6, out of 6 equally likely outcomes, so $P = \\frac{1}{6}$.\n\n## Simplified explanation\n\nA die shows 1 to 6. Only 6 is bigger than 5, so the answer is 1 out of 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A mother has GH₵ 5.00 and gives each of her 3 children GH₵ 1.50 as pocket money. How much does she have left?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 4.50",
+        "hint": "This is what she gives away, not what she has left."
+      },
+      {
+        "text": "GH₵ 0.50",
+        "hint": "Correct. $5.00 - 4.50 = 0.50$."
+      },
+      {
+        "text": "GH₵ 0.15",
+        "hint": "$5.00 - 4.50$ is 0.50, not 0.15."
+      },
+      {
+        "text": "GH₵ 3.50",
+        "hint": "This pays only one child. She has 3 children."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the total she gives away first.",
+    "explanation": "## Advanced explanation\n\n$$5.00 - 3(1.50) = 0.50$$\n\n## Simplified explanation\n\nThree children at GH₵ 1.50 each make GH₵ 4.50. From GH₵ 5.00, she has GH₵ 0.50 left.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand: $(2a - b)(a - b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2a^2 - 3ab - b^2$",
+        "hint": "Check the sign: $-b \\times (-b) = +b^2$."
+      },
+      {
+        "text": "$2a^2 + 3ab + b$",
+        "hint": "The middle terms are both negative, and the last term is $b^2$."
+      },
+      {
+        "text": "$2a^2 - 3ab + b^2$",
+        "hint": "Correct. $2a^2 - 2ab - ab + b^2$."
+      },
+      {
+        "text": "$2a^2 + 3ab - b$",
+        "hint": "The middle terms are both negative, and the last term is $+b^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$$(2a - b)(a - b) = 2a^2 - 2ab - ab + b^2 = 2a^2 - 3ab + b^2$$\n\n## Simplified explanation\n\n$2a \\times a = 2a^2$, $2a \\times (-b) = -2ab$, $-b \\times a = -ab$ and $-b \\times (-b) = +b^2$. Combine the $ab$ terms.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Peter had GH₵ 200.00 and spent GH₵ 83.00. What percentage of the money is left?",
+    "media": [],
+    "options": [
+      {
+        "text": "29.06%",
+        "hint": "Compare the amount left with GH₵ 200, the amount he started with."
+      },
+      {
+        "text": "70.94%",
+        "hint": "This divides 83 by 117. Divide 117 by 200."
+      },
+      {
+        "text": "41.50%",
+        "hint": "This is the percentage he spent."
+      },
+      {
+        "text": "58.50%",
+        "hint": "Correct. $\\frac{117}{200} \\times 100 = 58.5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the amount left, then compare it with GH₵ 200.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{200 - 83}{200} \\times 100\\% = \\frac{117}{200} \\times 100\\% = 58.5\\%$$\n\n## Simplified explanation\n\nHe has $200 - 83 =$ GH₵ 117 left. Out of 200, that is $117 \\div 2 = 58.5$ percent.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the weight (kg) of cocoa bags weighed in a week.\n\nWhat is the modal weight of the bags of cocoa?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q24.png",
+        "caption": "Stem and leaf plot of cocoa bag weights, with stems from 4 to 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "60 kg",
+        "hint": "60 appears only once."
+      },
+      {
+        "text": "68 kg",
+        "hint": "68 appears only once."
+      },
+      {
+        "text": "65 kg",
+        "hint": "65 appears only once."
+      },
+      {
+        "text": "64 kg",
+        "hint": "Correct. 64 appears four times."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look for the leaf that repeats most often in one row.",
+    "explanation": "## Advanced explanation\n\nThe mode is the most frequent value. Stem 6 has the leaf 4 repeated four times, so the mode is 64 kg.\n\n## Simplified explanation\n\nFind the weight that appears most. In the row for stem 6, the leaf 4 appears four times, so the weight is 64 kg.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the weight (kg) of cocoa bags weighed in a week.\n\nWhat is the median weight of the bags of cocoa?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q24.png",
+        "caption": "Stem and leaf plot of cocoa bag weights, with stems from 4 to 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "65 kg",
+        "hint": "Correct. The 18th of the 35 weights is 65 kg."
+      },
+      {
+        "text": "62 kg",
+        "hint": "62 is the 12th weight, but the middle of 35 is the 18th."
+      },
+      {
+        "text": "61 kg",
+        "hint": "61 is not in the plot."
+      },
+      {
+        "text": "68 kg",
+        "hint": "68 is the 20th weight, but the middle of 35 is the 18th."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The weights are in order. Find the middle position of 35 weights.",
+    "explanation": "## Advanced explanation\n\nWith $n = 35$, the median is value number $\\frac{35 + 1}{2} = 18$. Stems 4 and 5 hold 10 values. Counting on through stem 6, the 18th value is 65.\n\n## Simplified explanation\n\nThere are 35 weights, so the middle is the 18th. The first two rows hold 10. Then count 8 more along the row for stem 6 to reach 65.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The stem and leaf plot shows the weight (kg) of cocoa bags weighed in a week.\n\nHow many bags of cocoa were weighed in the week?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q24.png",
+        "caption": "Stem and leaf plot of cocoa bag weights, with stems from 4 to 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "$41$",
+        "hint": "Count the leaves again: each leaf is one bag."
+      },
+      {
+        "text": "$35$",
+        "hint": "Correct. $4 + 6 + 10 + 8 + 5 + 2 = 35$."
+      },
+      {
+        "text": "$29$",
+        "hint": "Count the leaves again: each leaf is one bag."
+      },
+      {
+        "text": "$6$",
+        "hint": "6 is the number of stems. Count the leaves."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each leaf stands for one bag.",
+    "explanation": "## Advanced explanation\n\nThe number of values equals the number of leaves: $4 + 6 + 10 + 8 + 5 + 2 = 35$.\n\n## Simplified explanation\n\nCount the numbers in each row of leaves: 4, 6, 10, 8, 5 and 2. They add up to 35 bags.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $-15 - (-20) + (-10)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-45$",
+        "hint": "Subtracting $-20$ means adding 20."
+      },
+      {
+        "text": "$-25$",
+        "hint": "Subtracting $-20$ means adding 20."
+      },
+      {
+        "text": "$-5$",
+        "hint": "Correct. $-15 + 20 - 10 = -5$."
+      },
+      {
+        "text": "$5$",
+        "hint": "Check the last step: $5 - 10 = -5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtracting a negative number is the same as adding.",
+    "explanation": "## Advanced explanation\n\n$$-15 + 20 - 10 = -5$$\n\n## Simplified explanation\n\n$-(-20)$ becomes $+20$, so $-15 + 20 = 5$. Adding $-10$ means taking away 10, which gives $-5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $\\overrightarrow{PQ} = \\begin{pmatrix} -3 \\\\ 8 \\end{pmatrix}$, find $\\overrightarrow{QP}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ 8 \\end{pmatrix}$",
+        "hint": "This is $\\overrightarrow{PQ}$. The opposite direction changes both signs."
+      },
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ -8 \\end{pmatrix}$",
+        "hint": "Both signs must change, including the top one."
+      },
+      {
+        "text": "$\\begin{pmatrix} 8 \\\\ -3 \\end{pmatrix}$",
+        "hint": "The entries stay in their places. Only the signs change."
+      },
+      {
+        "text": "$\\begin{pmatrix} 3 \\\\ -8 \\end{pmatrix}$",
+        "hint": "Correct. $\\overrightarrow{QP} = -\\overrightarrow{PQ}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\overrightarrow{QP}$ points in exactly the opposite direction.",
+    "explanation": "## Advanced explanation\n\n$$\\overrightarrow{QP} = -\\overrightarrow{PQ} = \\begin{pmatrix} 3 \\\\ -8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nGoing backwards means undoing each move. Going $-3$ across and 8 up becomes 3 across and 8 down.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a quadrilateral?",
+    "media": [],
+    "options": [
+      {
+        "text": "Parallelogram",
+        "hint": "A parallelogram has four sides."
+      },
+      {
+        "text": "Rhombus",
+        "hint": "A rhombus has four sides."
+      },
+      {
+        "text": "Triangle",
+        "hint": "Correct. A triangle has three sides."
+      },
+      {
+        "text": "Rectangle",
+        "hint": "A rectangle has four sides."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A quadrilateral has four sides.",
+    "explanation": "## Advanced explanation\n\nA quadrilateral is a polygon with four sides. A triangle has three sides, so it is not a quadrilateral.\n\n## Simplified explanation\n\nQuad means four. A triangle has only three sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{3}{8}$ as a decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.429",
+        "hint": "This is about $\\frac{3}{7}$."
+      },
+      {
+        "text": "0.375",
+        "hint": "Correct. $3 \\div 8 = 0.375$."
+      },
+      {
+        "text": "0.625",
+        "hint": "This is $\\frac{5}{8}$."
+      },
+      {
+        "text": "0.365",
+        "hint": "Check the division: $3 \\div 8 = 0.375$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 3 by 8.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{3}{8} = 3 \\div 8 = 0.375$$\n\n## Simplified explanation\n\n$\\frac{1}{8} = 0.125$, and $3 \\times 0.125 = 0.375$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize completely: $xy - xm - my + m^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(y - m)(m - x)$",
+        "hint": "Expanding gives $ym - xy - m^2 + xm$, which has all the signs reversed."
+      },
+      {
+        "text": "$(m - y)(m + x)$",
+        "hint": "Expanding gives $m^2 + mx - my - xy$."
+      },
+      {
+        "text": "$(x - m)(y - m)$",
+        "hint": "Correct. Expanding gives $xy - xm - my + m^2$."
+      },
+      {
+        "text": "$(m - y)(x - m)$",
+        "hint": "Expanding gives $mx - m^2 - xy + my$, which has all the signs reversed."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$xy - xm - my + m^2 = x(y - m) - m(y - m) = (x - m)(y - m)$$\n\n## Simplified explanation\n\nTake $x$ out of the first pair and $-m$ out of the second. Both leave $(y - m)$, so take that out too.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Adwoa travelled 12 km due north and 5 km due east. How far was she from her starting point?",
+    "media": [],
+    "options": [
+      {
+        "text": "13 km",
+        "hint": "Correct. $\\sqrt{12^2 + 5^2} = 13$."
+      },
+      {
+        "text": "7 km",
+        "hint": "This subtracts. North and east form a right angle, so use Pythagoras."
+      },
+      {
+        "text": "17 km",
+        "hint": "This is the total distance walked, not the straight-line distance."
+      },
+      {
+        "text": "60 km",
+        "hint": "This multiplies. Use Pythagoras' theorem."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "North and east are at right angles, so draw a right-angled triangle.",
+    "explanation": "## Advanced explanation\n\n$$d = \\sqrt{12^2 + 5^2} = \\sqrt{169} = 13 \\text{ km}$$\n\n## Simplified explanation\n\nHer path makes a right-angled triangle. Then $144 + 25 = 169$, and the square root of 169 is 13.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A certain number is subtracted from 12 and the result is multiplied by 3. If the answer is 21, find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4$",
+        "hint": "$3(12 - 4) = 24$, not 21."
+      },
+      {
+        "text": "$8$",
+        "hint": "$3(12 - 8) = 12$, not 21."
+      },
+      {
+        "text": "$6$",
+        "hint": "$3(12 - 6) = 18$, not 21."
+      },
+      {
+        "text": "$5$",
+        "hint": "Correct. $3(12 - 5) = 21$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write it as an equation: $3(12 - n) = 21$.",
+    "explanation": "## Advanced explanation\n\n$$3(12 - n) = 21 \\implies 12 - n = 7 \\implies n = 5$$\n\n## Simplified explanation\n\nWork backwards: $21 \\div 3 = 7$. Then 12 minus what makes 7? The number is 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A football match starts at 2.20 pm and lasts for 1 hour 50 minutes. At what time will the game end?",
+    "media": [],
+    "options": [
+      {
+        "text": "3.10 pm",
+        "hint": "This adds only 50 minutes."
+      },
+      {
+        "text": "5.10 pm",
+        "hint": "This adds 2 hours 50 minutes."
+      },
+      {
+        "text": "4.10 pm",
+        "hint": "Correct. 3.20 pm plus 50 minutes."
+      },
+      {
+        "text": "6.10 pm",
+        "hint": "This adds 3 hours 50 minutes."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the hour first, then the minutes.",
+    "explanation": "## Advanced explanation\n\n2.20 pm plus 1 hour is 3.20 pm. Adding 50 minutes gives 4.10 pm.\n\n## Simplified explanation\n\nAfter 1 hour it is 3.20 pm. Another 40 minutes makes 4.00 pm, and 10 more makes 4.10 pm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $117(12 + 18) = 117(15 + k)$, find the value of $k$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-30$",
+        "hint": "$15 + (-30) = -15$, but the bracket must equal 30."
+      },
+      {
+        "text": "$30$",
+        "hint": "$15 + 30 = 45$, but the bracket must equal 30."
+      },
+      {
+        "text": "$15$",
+        "hint": "Correct. $15 + 15 = 30 = 12 + 18$."
+      },
+      {
+        "text": "$-15$",
+        "hint": "$15 + (-15) = 0$, but the bracket must equal 30."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Both sides have 117, so the brackets must be equal.",
+    "explanation": "## Advanced explanation\n\nDividing both sides by 117 gives $12 + 18 = 15 + k$, so $k = 15$.\n\n## Simplified explanation\n\nThe brackets must match. $12 + 18 = 30$, and $15 + 15 = 30$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Properties",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = \\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}$ and $b = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$, find $a + b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 4 \\\\ 0 \\end{pmatrix}$",
+        "hint": "Check the top entry: $2 + (-2) = 0$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ 3 \\end{pmatrix}$",
+        "hint": "Add the matching entries: $2 + (-2)$ and $-3 + 3$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$",
+        "hint": "Correct. $b$ is the opposite of $a$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ 6 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $-3 + 3 = 0$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$a + b = \\begin{pmatrix} 2 - 2 \\\\ -3 + 3 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 0 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $2 + (-2) = 0$. Bottom numbers: $-3 + 3 = 0$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve $(x - 1) = \\dfrac{1}{2}(x + 2)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$1\\dfrac{1}{3}$",
+        "hint": "The left side would be $\\frac{1}{3}$, but the right side would be $1\\frac{2}{3}$."
+      },
+      {
+        "text": "$0$",
+        "hint": "The left side would be $-1$, but the right side would be 1."
+      },
+      {
+        "text": "$1\\dfrac{1}{2}$",
+        "hint": "The left side would be $\\frac{1}{2}$, but the right side would be $1\\frac{3}{4}$."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $4 - 1 = 3$, and $\\frac{1}{2}(6) = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply both sides by 2 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\n$$2x - 2 = x + 2 \\implies x = 4$$\n\n## Simplified explanation\n\nMultiply by 2 to get $2x - 2 = x + 2$. Take $x$ from both sides and add 2, which gives $x = 4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $S(4, 3)$ is reflected in the $y$-axis. Find the coordinates of the image of $S$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-3, 4)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(3, -4)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(-4, 3)$",
+        "hint": "Correct. $x$ changes sign and $y$ stays the same."
+      },
+      {
+        "text": "$(4, -3)$",
+        "hint": "This is a reflection in the $x$-axis."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The $y$-axis acts as a mirror, so only the left-right position changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $y$-axis maps $(x, y) \\to (-x, y)$, so $(4, 3) \\to (-4, 3)$.\n\n## Simplified explanation\n\nThe point is 4 to the right of the $y$-axis. Its mirror image is 4 to the left, at the same height.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve $5x - (7x - 3) \\le 9$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\ge -3$",
+        "hint": "Correct. $-2x \\le 6$, so $x \\ge -3$."
+      },
+      {
+        "text": "$x \\le 3$",
+        "hint": "Dividing by $-2$ gives $-3$ and reverses the sign."
+      },
+      {
+        "text": "$x \\ge -6$",
+        "hint": "Divide 6 by $-2$ to get $-3$."
+      },
+      {
+        "text": "$x \\le -6$",
+        "hint": "Divide 6 by $-2$ to get $-3$, and reverse the sign."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Dividing by a negative number reverses the inequality.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 5x - 7x + 3 &\\le 9 \\\\ -2x &\\le 6 \\\\ x &\\ge -3 \\end{aligned}$$\n\n## Simplified explanation\n\nOpen the bracket to get $5x - 7x + 3 \\le 9$. Tidy up to get $-2x \\le 6$. Dividing by $-2$ flips the sign, so $x \\ge -3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is the largest set?",
+    "media": [],
+    "options": [
+      {
+        "text": "Natural numbers",
+        "hint": "Natural numbers are only part of the integers."
+      },
+      {
+        "text": "Composite numbers",
+        "hint": "Composite numbers are only part of the natural numbers."
+      },
+      {
+        "text": "Integers",
+        "hint": "Correct. Integers include all the other sets, plus the negatives."
+      },
+      {
+        "text": "Whole numbers",
+        "hint": "Whole numbers are the integers without the negatives."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which set contains all of the others?",
+    "explanation": "## Advanced explanation\n\nComposite numbers $\\subset$ natural numbers $\\subset$ whole numbers $\\subset$ integers, so the integers form the largest set of these.\n\n## Simplified explanation\n\nIntegers include negative numbers, zero and all the counting numbers. So they contain every other set listed.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2022 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $P =$ {factors of 36} and $Q =$ {factors of 54},\n\n(i) List the members in the sets $P$ and $Q$.\n\n(ii) Find:\n\n$(\\alpha)$ $P \\cap Q$\n\n$(\\beta)$ $n(P \\cap Q)$\n\n$(\\gamma)$ The Highest Common Factor (HCF) of 36 and 54.",
+    "media": [],
+    "answer": "**(i)** $P = \\{1, 2, 3, 4, 6, 9, 12, 18, 36\\}$\n\n$Q = \\{1, 2, 3, 6, 9, 18, 27, 54\\}$\n\n**(ii)** $(\\alpha)$ The members in both sets are 1, 2, 3, 6, 9 and 18.\n\n$(\\beta)$ There are 6 of them.\n\n$(\\gamma)$ The highest of these is 18.\n\n> [!answer]\n> **(i)** As listed above.\n>\n> **(ii)** $(\\alpha)$ {{green:$\\{1, 2, 3, 6, 9, 18\\}$}}  $(\\beta)$ {{green:6}}  $(\\gamma)$ {{green:18}}",
+    "hint": "List the factors in pairs, for example $1 \\times 36$, $2 \\times 18$ and so on.",
+    "explanation": "## Advanced explanation\n\n$P \\cap Q$ is the set of common factors, so the HCF is its largest member. Prime factors confirm it: $36 = 2^2 \\times 3^2$, $54 = 2 \\times 3^3$, and the HCF is $2 \\times 3^2 = 18$.\n\n## Simplified explanation\n\nWrite all the numbers that divide 36, then all that divide 54. The numbers on both lists are the common factors. Count them, then pick the biggest.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Sets",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Write down the next two terms of the sequence 1, 4, 9, ..., ...",
+    "media": [],
+    "answer": "These are the square numbers: $1^2$, $2^2$, $3^2$.\n\nThe next two are $4^2 = 16$ and $5^2 = 25$.\n\n> [!answer]\n> {{green:16, 25}}",
+    "hint": "Look at the gaps, or think about which special numbers these are.",
+    "explanation": "## Advanced explanation\n\nThe $n$th term is $n^2$. The gaps 3, 5, 7, 9 rise by 2, which confirms $9 + 7 = 16$ and $16 + 9 = 25$.\n\n## Simplified explanation\n\n$1 \\times 1 = 1$, $2 \\times 2 = 4$ and $3 \\times 3 = 9$. So next come $4 \\times 4 = 16$ and $5 \\times 5 = 25$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The median of the ordered set of observations 2, 3, $(4m - 3)$, $(3m + 1)$, 11 and 13 in ascending order is 6. Find the value of $m$.",
+    "media": [],
+    "answer": "With six values, the median is the average of the 3rd and 4th:\n\n$$\n\\begin{aligned}\n\\frac{(4m - 3) + (3m + 1)}{2} &= 6 \\\\\n7m - 2 &= 12 \\\\\nm &= 2\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$m = 2$}}",
+    "hint": "With an even number of values, the median is the average of the two middle ones.",
+    "explanation": "## Advanced explanation\n\nCheck: with $m = 2$ the set is 2, 3, 5, 7, 11, 13, which is in ascending order, and $\\frac{5 + 7}{2} = 6$.\n\n## Simplified explanation\n\nThe two middle values are $(4m - 3)$ and $(3m + 1)$. Their average is 6, so they add up to 12. That gives $7m - 2 = 12$, so $m = 2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Statistics",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $\\left(\\dfrac{1}{3} + \\dfrac{1}{12}\\right) \\div \\left(\\dfrac{2}{3} - \\dfrac{5}{8}\\right)$",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n\\left(\\frac{4 + 1}{12}\\right) \\div \\left(\\frac{16 - 15}{24}\\right) &= \\frac{5}{12} \\div \\frac{1}{24} \\\\\n&= \\frac{5}{12} \\times 24 \\\\\n&= 10\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:10}}",
+    "hint": "Work out each bracket first, then multiply by the reciprocal.",
+    "explanation": "## Advanced explanation\n\nUsing denominator 24 throughout: $\\frac{10}{24} \\div \\frac{1}{24} = 10$.\n\n## Simplified explanation\n\nThe first bracket is $\\frac{5}{12}$ and the second is $\\frac{1}{24}$. Dividing by $\\frac{1}{24}$ is the same as multiplying by 24. Then $\\frac{5}{12} \\times 24 = 10$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the product of $(2x - 3)$ and $(2x + 3)$.",
+    "media": [],
+    "answer": "$$(2x - 3)(2x + 3) = 4x^2 + 6x - 6x - 9 = 4x^2 - 9$$\n\n> [!answer]\n> {{green:$4x^2 - 9$}}",
+    "hint": "Product means multiply. Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\nThis is a difference of two squares: $(a - b)(a + b) = a^2 - b^2$, with $a = 2x$ and $b = 3$.\n\n## Simplified explanation\n\n$2x \\times 2x = 4x^2$ and $-3 \\times 3 = -9$. The middle terms, $+6x$ and $-6x$, cancel.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $ABC$ is an equilateral triangle. Find the value of $(x + y)$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q2.png",
+        "caption": "Equilateral triangle ABC with sides AB = (3x + 2) cm, AC = 11 cm and BC = (2y + 3) cm. Not drawn to scale."
+      }
+    ],
+    "answer": "All sides of an equilateral triangle are equal, so each side is 11 cm.\n\n$$3x + 2 = 11 \\implies 3x = 9 \\implies x = 3$$\n\n$$2y + 3 = 11 \\implies 2y = 8 \\implies y = 4$$\n\n$$x + y = 3 + 4 = 7$$\n\n> [!answer]\n> {{green:$x + y = 7$}}",
+    "hint": "An equilateral triangle has three equal sides, and one side is given as 11 cm.",
+    "explanation": "## Advanced explanation\n\nSetting each expression equal to the known side gives two separate linear equations, so $x$ and $y$ can be found independently.\n\n## Simplified explanation\n\nEvery side is 11 cm. So $3x + 2 = 11$ gives $x = 3$, and $2y + 3 = 11$ gives $y = 4$. Add them to get 7.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given the relation $L = \\dfrac{2(m^2 - n^2)}{4(m + n)}$\n\n(i) simplify $L$;\n\n(ii) find the value of $L$ when $m = 2$ and $n = 3$.",
+    "media": [],
+    "answer": "**(i)** Factorize $m^2 - n^2$ as a difference of two squares:\n\n$$L = \\frac{2(m - n)(m + n)}{4(m + n)} = \\frac{m - n}{2}$$\n\n**(ii)**\n\n$$L = \\frac{2 - 3}{2} = -\\frac{1}{2}$$\n\n> [!answer]\n> **(i)** {{green:$L = \\dfrac{m - n}{2}$}}  **(ii)** {{green:$L = -\\dfrac{1}{2}$}}",
+    "hint": "Use $m^2 - n^2 = (m - n)(m + n)$, then cancel.",
+    "explanation": "## Advanced explanation\n\nCheck with the original: $\\frac{2(4 - 9)}{4(5)} = \\frac{-10}{20} = -\\frac{1}{2}$.\n\n## Simplified explanation\n\n$m^2 - n^2$ splits into $(m - n)(m + n)$. The $(m + n)$ cancels, and $\\frac{2}{4}$ becomes $\\frac{1}{2}$. Then put in the numbers.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $\\dfrac{4}{3x} = 7 - \\dfrac{3}{x}$",
+    "media": [],
+    "answer": "Multiply every term by $3x$:\n\n$$\n\\begin{aligned}\n4 &= 21x - 9 \\\\\n13 &= 21x \\\\\nx &= \\frac{13}{21}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = \\dfrac{13}{21}$}}",
+    "hint": "The LCM of the denominators $3x$ and $x$ is $3x$.",
+    "explanation": "## Advanced explanation\n\nCheck: with $x = \\frac{13}{21}$, the left side is $\\frac{4 \\times 21}{3 \\times 13} = \\frac{28}{13}$, and the right side is $7 - \\frac{63}{13} = \\frac{28}{13}$.\n\n## Simplified explanation\n\nMultiply everything by $3x$ to clear the fractions: $4 = 21x - 9$. Add 9 to get $13 = 21x$. Then divide by 21.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A salesman gets a commission of $5\\dfrac{1}{2}$% of the value of items he sells. The salesman sells 12 textbooks at GH₵ 25.00 per book, 3 scientific calculators at GH₵ 50.00 per calculator and 8 packets of bic pens at GH₵ 50.00 per packet. Calculate the salesman's commission.",
+    "media": [],
+    "answer": "Value of items sold:\n\n$$12(25) + 3(50) + 8(50) = 300 + 150 + 400 = 850$$\n\nCommission:\n\n$$\\frac{5.5}{100} \\times 850 = 46.75$$\n\n> [!answer]\n> {{green:GH₵ 46.75}}",
+    "hint": "Find the total value of the items first.",
+    "explanation": "## Advanced explanation\n\nThe commission is $\\frac{11}{200} \\times 850 = \\frac{9350}{200} = 46.75$.\n\n## Simplified explanation\n\nThe textbooks are GH₵ 300, the calculators GH₵ 150 and the pens GH₵ 400, which makes GH₵ 850. Then 5.5% of 850 is GH₵ 46.75.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Fred is $(x - 1)$ years old now. How old:\n\n(i) was he 4 years ago?\n\n(ii) will he be 8 years from now?\n\n(iii) is he now, if his age in 8 years time will be three times his age 4 years ago?",
+    "media": [],
+    "answer": "**(i)** $(x - 1) - 4 = x - 5$\n\n**(ii)** $(x - 1) + 8 = x + 7$\n\n**(iii)**\n\n$$\n\\begin{aligned}\nx + 7 &= 3(x - 5) \\\\\nx + 7 &= 3x - 15 \\\\\n22 &= 2x \\\\\nx &= 11\n\\end{aligned}\n$$\n\nHis age now: $x - 1 = 10$\n\n> [!answer]\n> **(i)** {{green:$(x - 5)$ years}}  **(ii)** {{green:$(x + 7)$ years}}  **(iii)** {{green:10 years}}",
+    "hint": "Subtract for the past and add for the future. Then write the equation for (iii).",
+    "explanation": "## Advanced explanation\n\nCheck: Fred is 10 now, so he was 6 four years ago and will be 18 in eight years, and $18 = 3 \\times 6$.\n\n## Simplified explanation\n\nFour years ago, take 4 from his age. In eight years, add 8. Then make the future age equal to 3 times the past age and solve for $x$. Remember that his age now is $x - 1$.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The perimeter of a rectangular cocoa farm is 497 km. The length of the farm is $2\\dfrac{1}{2}$ times the width. Find the:\n\n(i) width;\n\n(ii) length of the farm.",
+    "media": [],
+    "answer": "Let the width be $w$, so the length is $2.5w$.\n\n$$\n\\begin{aligned}\n2(2.5w + w) &= 497 \\\\\n7w &= 497 \\\\\nw &= 71\n\\end{aligned}\n$$\n\nLength: $2.5 \\times 71 = 177.5$\n\n> [!answer]\n> **(i)** {{green:71 km}}  **(ii)** {{green:177.5 km}}",
+    "hint": "Let the width be $w$ and write the length using $w$.",
+    "explanation": "## Advanced explanation\n\nCheck: $2(177.5 + 71) = 2(248.5) = 497$.\n\n## Simplified explanation\n\nOne length and one width make $3.5$ widths, so going all the way round is 7 widths. Then $497 \\div 7 = 71$ km. The length is $2.5 \\times 71 = 177.5$ km.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize: $(x - y)(3m + n) - (x - y)(m - 2n)$",
+    "media": [],
+    "answer": "$(x - y)$ is common to both terms:\n\n$$\n\\begin{aligned}\n&(x - y)\\left[(3m + n) - (m - 2n)\\right] \\\\\n&= (x - y)(3m + n - m + 2n) \\\\\n&= (x - y)(2m + 3n)\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$(x - y)(2m + 3n)$}}",
+    "hint": "Treat the whole bracket $(x - y)$ as one common factor.",
+    "explanation": "## Advanced explanation\n\nThe minus sign before the second bracket changes both of its signs, so $-(m - 2n) = -m + 2n$.\n\n## Simplified explanation\n\nTake out $(x - y)$ once. Inside what is left, the minus changes $m - 2n$ into $-m + 2n$. Collect the terms to get $2m + 3n$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $p = \\begin{pmatrix} 2 - 3x \\\\ 5 - 2y \\end{pmatrix}$, $q = \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}$ and $p - q = \\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$.\n\nFind the value of $(x + y)$.",
+    "media": [],
+    "answer": "$$p - q = \\begin{pmatrix} 2 - 3x + 1 \\\\ 5 - 2y - 5 \\end{pmatrix} = \\begin{pmatrix} 3 - 3x \\\\ -2y \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$$\n\nTop entries: $3 - 3x = 6$, so $x = -1$\n\nBottom entries: $-2y = 8$, so $y = -4$\n\n$$x + y = -1 + (-4) = -5$$\n\n> [!answer]\n> {{green:$x + y = -5$}}",
+    "hint": "Subtract the vectors first, then match the entries.",
+    "explanation": "## Advanced explanation\n\nCheck: with $x = -1$ and $y = -4$, $p = \\begin{pmatrix} 5 \\\\ 13 \\end{pmatrix}$, and $p - q = \\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$.\n\n## Simplified explanation\n\nTake $q$ from $p$ entry by entry. The top gives $3 - 3x = 6$, so $x = -1$. The bottom gives $-2y = 8$, so $y = -4$. Add them to get $-5$.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Vectors",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Find the truth set of $\\dfrac{x - 1}{2} \\le \\dfrac{1}{2} + x$\n\n(ii) Illustrate the answer in (i) on the number line. In your answer, describe the dot and the arrow.",
+    "media": [],
+    "answer": "**(i)** Multiply every term by 2:\n\n$$\n\\begin{aligned}\nx - 1 &\\le 1 + 2x \\\\\n-1 - 1 &\\le 2x - x \\\\\n-2 &\\le x\n\\end{aligned}\n$$\n\n**(ii)** Draw a number line. Put a solid dot at $-2$, because $-2$ is included, and draw an arrow from it to the right.\n\n> [!answer]\n> **(i)** {{green:$\\{x : x \\ge -2\\}$}}\n>\n> **(ii)** {{green:Solid dot at $-2$, with an arrow to the right.}}",
+    "hint": "Multiply through by 2. Keep the $x$ terms where they stay positive.",
+    "explanation": "## Advanced explanation\n\nA solid dot shows that the boundary is included, because the sign is $\\ge$ and not $>$. Check $x = 0$: the left side is $-\\frac{1}{2}$ and the right side is $\\frac{1}{2}$, so the inequality holds.\n\n## Simplified explanation\n\nMultiply by 2 to get $x - 1 \\le 1 + 2x$. Take $x$ from both sides and take away 1, which gives $-2 \\le x$. So $x$ is $-2$ or bigger.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $y = 5 - 2x$ is defined for $-3 \\le x \\le 4$.\n\nCopy and complete the table for the relation.\n\nIn your answer, write out the $y$ row.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2022/2022q6.png",
+        "caption": "Table with x values from −3 to 4. The y row gives 11 at x = −3, 5 at x = 0, 1 at x = 2 and −3 at x = 4, and the other cells are empty."
+      }
+    ],
+    "answer": "Substitute each $x$ into $y = 5 - 2x$. For example, at $x = -2$: $y = 5 + 4 = 9$.\n\n| $x$ | $-3$ | $-2$ | $-1$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|---|---|---|\n| $y$ | 11 | 9 | 7 | 5 | 3 | 1 | $-1$ | $-3$ |\n\n> [!answer]\n> {{green:11, 9, 7, 5, 3, 1, $-1$, $-3$}}",
+    "hint": "Each time $x$ goes up by 1, $y$ goes down by the same amount.",
+    "explanation": "## Advanced explanation\n\nThe relation is linear with gradient $-2$, so consecutive $y$ values differ by 2.\n\n## Simplified explanation\n\nMultiply $x$ by 2 and take it from 5. You can also count down in 2s from 11: 9, 7, 5, and so on.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Graphs",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $y = 5 - 2x$ is defined for $-3 \\le x \\le 4$.\n\nUsing a scale of 2 cm to 1 unit on the $x$-axis and 2 cm to 2 units on the $y$-axis, draw on a graph sheet two perpendicular axes $Ox$ and $Oy$ for $-5 \\le x \\le 5$ and $-12 \\le y \\le 12$.\n\n(i) Plot all the points of the relation $y = 5 - 2x$.\n\n(ii) Draw a straight line through all the points.\n\nIn your answer, list the points you would plot.",
+    "media": [],
+    "answer": "Draw and label the axes using the given scales. Then plot these points and join them with a ruler:\n\n> [!answer]\n> {{green:$(-3, 11)$, $(-2, 9)$, $(-1, 7)$, $(0, 5)$, $(1, 3)$, $(2, 1)$, $(3, -1)$, $(4, -3)$}} on one straight line.",
+    "hint": "Work out $y$ for each whole number $x$ from $-3$ to 4. Those pairs are your points.",
+    "explanation": "## Advanced explanation\n\nThe points are collinear, on a line with gradient $-2$ and $y$-intercept 5. On these scales, each 2 cm across is 1 unit and each 2 cm up is 2 units.\n\n## Simplified explanation\n\nEach pair from the table is one point. Put $x$ across and $y$ up. Then use a ruler to join them into one straight line.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $y = 5 - 2x$ is defined for $-3 \\le x \\le 4$.\n\nUsing the graph of the relation, find the:\n\n(i) value of $y$ when $x = -2.6$;\n\n(ii) value of $x$ when $y = -2.8$;\n\n(iii) gradient of the line.",
+    "media": [],
+    "answer": "Read each value from the line. The relation gives the exact values:\n\n**(i)** $y = 5 - 2(-2.6) = 10.2$\n\n**(ii)** $-2.8 = 5 - 2x$, so $2x = 7.8$ and $x = 3.9$\n\n**(iii)** Using $(0, 5)$ and $(1, 3)$:\n\n$$\\text{Gradient} = \\frac{3 - 5}{1 - 0} = -2$$\n\n> [!answer]\n> **(i)** {{green:$y = 10.2$}}  **(ii)** {{green:$x = 3.9$}}  **(iii)** {{green:$-2$}}",
+    "hint": "Go up or across from the given value to the line, then read the other axis. Use two points for the gradient.",
+    "explanation": "## Advanced explanation\n\nIn $y = mx + c$, the coefficient of $x$ is the gradient, so $m = -2$ can be read from $y = -2x + 5$. Readings taken from a drawn graph may differ slightly from the exact values.\n\n## Simplified explanation\n\nFind $-2.6$ on the $x$-axis, go to the line, and read across to about 10.2. Find $-2.8$ on the $y$-axis, go to the line, and read down to about 3.9. The line falls 2 for each step right, so the gradient is $-2$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2022 Paper",
+      "Section B",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  }
+]
