@@ -13,8 +13,12 @@
     "db:seed-demo": "tsx scripts/seed-demo.ts",
     "db:import-hostels": "tsx scripts/import-capevars-hostels.ts",
     "db:import-kidi-basic3": "tsx scripts/import-kidi-basic3.ts",
+<<<<<<< HEAD
+    "db:import-kidi": "tsx scripts/import-kidi-packages.ts"
+=======
     "db:import-kidi": "tsx scripts/import-kidi-packages.ts",
     "db:import-quizbank": "tsx scripts/import-quizbank.ts"
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

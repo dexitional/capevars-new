@@ -227,6 +227,8 @@ html {
   }
 }
 
+<<<<<<< HEAD
+=======
 /* A gold ring that pings out from a button's edge to draw the eye to it,
    following its rounded corners and never covering its label. Pauses while
    hovered, since the pointer has already found it, and stops on keyboard
@@ -255,6 +257,7 @@ html {
   }
 }
 
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
 /* A bright comet of light that sweeps all the way around a card's border —
    left, top, right, bottom, back to the start — over a dim resting ring,
    forever. Apply `perimeter-glow` to a `relative` element with its own

@@ -143,11 +143,15 @@ export async function pickQuestionIds(courseIds: Array<number>, tagIds: Array<nu
   return rows.map((r) => r.id as number);
 }
 
+<<<<<<< HEAD
+// The topic tags on questions in these courses, most used first.
+=======
 // Natural A–Z order: names starting with numbers come first, compared numerically
 // ("2012/13 Paper" before "2021 Paper" before "Angola").
 const byName = new Intl.Collator("en", { numeric: true, sensitivity: "base" });
 
 // The topic tags on questions in these courses, in natural name order.
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
 export async function topicsFor(courseIds: Array<number>): Promise<{ topics: Array<QbTopic>; total: number; untagged: number }> {
   if (!courseIds.length) return { topics: [], total: 0, untagged: 0 };
   const f = questionFilter(courseIds, []);
@@ -163,7 +167,11 @@ export async function topicsFor(courseIds: Array<number>): Promise<{ topics: Arr
     ),
   ]);
   return {
+<<<<<<< HEAD
+    topics: topics.map((t) => ({ id: t.id, name: t.name, slug: t.slug, count: Number(t.n) })),
+=======
     topics: topics.map((t) => ({ id: t.id, name: t.name, slug: t.slug, count: Number(t.n) })).sort((a, b) => byName.compare(a.name, b.name)),
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
     total: Number(totals[0]?.total ?? 0),
     untagged: Number(totals[0]?.untagged ?? 0),
   };

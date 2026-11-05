@@ -122,6 +122,18 @@ function CoursePage() {
               <Users className="size-4 text-amber-300" /> on {c.boardCount.toLocaleString()} study boards
             </span>
           </div>
+<<<<<<< HEAD
+          {c.tags.length > 0 && (
+            <div className="mt-4 flex flex-wrap gap-1.5">
+              {c.tags.map((t) => (
+                <Link key={t.slug} to="/learn/quizbank" search={{ tag: t.slug }} className="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold ring-1 ring-white/20 hover:bg-white/20">
+                  #{t.name}
+                </Link>
+              ))}
+            </div>
+          )}
+=======
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
         </Container>
       </section>
 
@@ -143,12 +155,16 @@ function CoursePage() {
               </span>
               <h2 className="mt-3 text-lg font-black text-primary">Study mode</h2>
               <p className="mt-1 text-sm text-muted-foreground">No timer. Pick an option to see a hint about it; get it right to unlock the lesson behind the answer. Written answers get instant feedback.</p>
+<<<<<<< HEAD
+              <Button asChild variant="outline" className="mt-4" disabled={empty}>
+=======
               <Button
                 asChild
                 variant="outline"
                 className="attention-ping mt-4 bg-accent text-accent-foreground duration-200 hover:rotate-2 hover:scale-105 hover:bg-brand-cream motion-reduce:transform-none"
                 disabled={empty}
               >
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
                 <Link to="/learn/quizbank/c/$slug/study" params={{ slug }} search={data.board ? {} : { tags: tagIds.join(",") }}>
                   <Brain /> {data.board?.studyPosition ? "Continue studying" : "Start studying"}
                 </Link>
@@ -209,7 +225,11 @@ function CoursePage() {
               Remove from board
             </button>
           ) : (
+<<<<<<< HEAD
+            <Button variant="outline" className="w-full" disabled={add.isPending} onClick={() => requireMember(() => add.mutate())}>
+=======
             <Button variant="outline" className="w-full bg-accent/60 text-accent-foreground hover:bg-brand-cream" disabled={add.isPending} onClick={() => requireMember(() => add.mutate())}>
+>>>>>>> dc9c47389444f7b63791666fd4c5b0483adbe341
               <Plus /> Add to my Study Board
             </Button>
           )}
