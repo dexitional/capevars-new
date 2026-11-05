@@ -1,0 +1,2919 @@
+[
+ {
+  "type": "choice",
+  "body": "Nitric acid is a very important industrial chemical: $1.612 \\times 10^{10}$ pounds of it were produced in 1992. If the density of nitric acid is 12.53 pounds/gallon, what volume would be occupied by this quantity? (1 gallon = 3.7854 L)",
+  "options": [
+   {
+    "text": "$8.388 \\times 10^{9}$ L",
+    "hint": "Check the gallon-to-litre step."
+   },
+   {
+    "text": "$1.287 \\times 10^{9}$ L",
+    "hint": "That is the volume in gallons, not litres."
+   },
+   {
+    "text": "$4.870 \\times 10^{9}$ L",
+    "hint": "Correct. Mass \u00f7 density gives gallons; \u00d7 3.7854 gives litres."
+   },
+   {
+    "text": "$5.336 \\times 10^{10}$ L",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "$7.646 \\times 10^{11}$ L",
+    "hint": "You multiplied by the density instead of dividing."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Divide by density first.",
+  "explanation": "## Advanced explanation\n\n$$V = \\frac{1.612\\times10^{10}\\ \\text{lb}}{12.53\\ \\text{lb/gal}} = 1.287\\times10^{9}\\ \\text{gal}$$\n$$1.287\\times10^{9}\\ \\text{gal} \\times 3.7854\\ \\text{L/gal} = 4.870\\times10^{9}\\ \\text{L}$$\n\nUse **dimensional analysis**: arrange conversion factors so unwanted units cancel.\n\n## Simplified explanation\n\nVolume = mass \u00f7 density, then convert gallons to litres: **$4.870\\times10^{9}$ L**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Measurement & Units",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An unused flashbulb contains magnesium and oxygen. After use, the contents are changed to magnesium oxide but the total mass does not change. This observation can best be explained by the",
+  "options": [
+   {
+    "text": "Law of Constant Composition",
+    "hint": "That is about fixed proportions in a compound."
+   },
+   {
+    "text": "Law of Conservation of Mass",
+    "hint": "Correct. Mass is neither created nor destroyed in a chemical reaction."
+   },
+   {
+    "text": "Law of Multiple Proportions",
+    "hint": "That compares two compounds of the same elements."
+   },
+   {
+    "text": "Avogadro's Law",
+    "hint": "That relates gas volume to moles."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "A sealed bulb is a closed system.",
+  "explanation": "## Advanced explanation\n\n**Lavoisier's law of conservation of mass**: in a closed system the total mass of reactants equals the total mass of products. The sealed bulb is a closed system, so $m(\\ce{Mg}) + m(\\ce{O2}) = m(\\ce{MgO})$.\n\n## Simplified explanation\n\nNothing escaped, so mass stayed the same: **conservation of mass**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Laws of Chemical Combination",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many moles of alanine, $\\ce{C3H7NO2}$, are there in 159 g of alanine?",
+  "options": [
+   {
+    "text": "0.992",
+    "hint": "Check the molar mass."
+   },
+   {
+    "text": "1.78",
+    "hint": "Correct. $M = 89.09$ g/mol; $159/89.09 = 1.78$ mol."
+   },
+   {
+    "text": "0.560",
+    "hint": "That is $M/m$ inverted."
+   },
+   {
+    "text": "$1.42 \\times 10^{4}$",
+    "hint": "You multiplied mass by molar mass."
+   },
+   {
+    "text": "3.31",
+    "hint": "Check the molar mass."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Find the molar mass first.",
+  "explanation": "## Advanced explanation\n\n$$M(\\ce{C3H7NO2}) = 3(12.011) + 7(1.008) + 14.007 + 2(15.999) = 89.09\\ \\text{g/mol}$$\n$$n = \\frac{159\\ \\text{g}}{89.09\\ \\text{g/mol}} = 1.78\\ \\text{mol}$$\n\n## Simplified explanation\n\n$n = m/M = 159/89.1 =$ **1.78 mol**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many atoms are in one mole of $\\ce{CH3OH}$?",
+  "options": [
+   {
+    "text": "3",
+    "hint": "Count C, H, H, H, O, H."
+   },
+   {
+    "text": "$6.0 \\times 10^{23}$",
+    "hint": "That is the number of molecules."
+   },
+   {
+    "text": "6",
+    "hint": "That is atoms per molecule, not per mole."
+   },
+   {
+    "text": "$3.6 \\times 10^{24}$",
+    "hint": "Correct. Each molecule has 6 atoms: $6 \\times 6.022\\times10^{23}$."
+   },
+   {
+    "text": "$12.0 \\times 10^{23}$",
+    "hint": "Count the atoms again."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Count atoms in one molecule.",
+  "explanation": "## Advanced explanation\n\n$\\ce{CH3OH}$ has **1 C + 4 H + 1 O = 6 atoms** per molecule. One mole contains $N_A = 6.022\\times10^{23}$ molecules, so\n$$6 \\times 6.022\\times10^{23} = 3.6\\times10^{24}\\ \\text{atoms}$$\n\n## Simplified explanation\n\n6 atoms per molecule \u00d7 Avogadro's number = **$3.6\\times10^{24}$**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The mass in grams of $2.6 \\times 10^{22}$ chlorine atoms is:",
+  "options": [
+   {
+    "text": "11",
+    "hint": "Did you use $\\ce{Cl2}$ and multiply wrongly?"
+   },
+   {
+    "text": "4.4",
+    "hint": "Check the division."
+   },
+   {
+    "text": "3.2",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "0.76",
+    "hint": "That uses half the molar mass."
+   },
+   {
+    "text": "1.5",
+    "hint": "Correct. $2.6\\times10^{22}/6.022\\times10^{23} = 0.0432$ mol \u00d7 35.45 g/mol."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Atoms are single Cl, not $\\ce{Cl2}$.",
+  "explanation": "## Advanced explanation\n\n$$n = \\frac{2.6\\times10^{22}}{6.022\\times10^{23}\\ \\text{mol}^{-1}} = 0.0432\\ \\text{mol Cl atoms}$$\n$$m = 0.0432 \\times 35.45 = 1.5\\ \\text{g}$$\n\n## Simplified explanation\n\nAtoms \u2192 moles (\u00f7 $N_A$) \u2192 grams (\u00d7 35.45): **1.5 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many aluminium atoms are there in 3.50 g of $\\ce{Al2O3}$?",
+  "options": [
+   {
+    "text": "$4.90 \\times 10^{22}$",
+    "hint": "Check the molar mass (101.96 g/mol)."
+   },
+   {
+    "text": "$2.07 \\times 10^{22}$",
+    "hint": "You forgot there are 2 Al per formula unit."
+   },
+   {
+    "text": "$2.45 \\times 10^{22}$",
+    "hint": "Check the working."
+   },
+   {
+    "text": "$1.68 \\times 10^{22}$",
+    "hint": "Check the working."
+   },
+   {
+    "text": "$4.13 \\times 10^{22}$",
+    "hint": "Correct. 0.0343 mol $\\ce{Al2O3}$ \u00d7 2 Al \u00d7 $N_A$."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Two Al atoms per formula unit.",
+  "explanation": "## Advanced explanation\n\n$$n(\\ce{Al2O3}) = \\frac{3.50}{101.96} = 0.03433\\ \\text{mol}$$\n$$N(\\ce{Al}) = 0.03433 \\times 2 \\times 6.022\\times10^{23} = 4.13\\times10^{22}$$\n\n## Simplified explanation\n\nMoles of $\\ce{Al2O3}$ \u00d7 **2** \u00d7 $N_A$ = **$4.13\\times10^{22}$**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these samples contains the **most atoms**?",
+  "options": [
+   {
+    "text": "1 mol of $\\ce{CO2}(g)$",
+    "hint": "3 atoms per molecule."
+   },
+   {
+    "text": "1 mol of $\\ce{He}(g)$",
+    "hint": "1 atom."
+   },
+   {
+    "text": "all contain the same number of atoms",
+    "hint": "Same molecules, different atoms per molecule."
+   },
+   {
+    "text": "1 mol of $\\ce{CH3COCH3}(l)$",
+    "hint": "Correct. 10 atoms per molecule, the most."
+   },
+   {
+    "text": "1 mol of $\\ce{UF6}(g)$",
+    "hint": "7 atoms per molecule."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Count atoms per molecule.",
+  "explanation": "## Advanced explanation\n\nEach sample has $N_A$ **molecules**, so the one with most **atoms per molecule** wins: acetone $\\ce{CH3COCH3}$ has 3 C + 6 H + 1 O = **10 atoms**.\n\n## Simplified explanation\n\nSame number of molecules; acetone has the most atoms in each.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these samples contains the **most molecules**?",
+  "options": [
+   {
+    "text": "1 mol of $\\ce{He}(g)$",
+    "hint": "Same as the others."
+   },
+   {
+    "text": "all contain the same number of molecules",
+    "hint": "Correct. One mole of anything contains $6.022\\times10^{23}$ particles."
+   },
+   {
+    "text": "1 mol of $\\ce{UF6}(g)$",
+    "hint": "Same as the others."
+   },
+   {
+    "text": "1 mol of $\\ce{CH3COCH3}(l)$",
+    "hint": "Same as the others."
+   },
+   {
+    "text": "1 mol of $\\ce{CO2}(g)$",
+    "hint": "Same as the others."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What does 'one mole' mean?",
+  "explanation": "## Advanced explanation\n\n**One mole** of any substance contains Avogadro's number of its particles, regardless of state or identity.\n\n## Simplified explanation\n\n1 mol is always $6.022\\times10^{23}$ molecules: **all the same**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these samples has the **largest mass**?",
+  "options": [
+   {
+    "text": "1 mol of $\\ce{UF6}(g)$",
+    "hint": "Correct. $M = 352$ g/mol, the largest."
+   },
+   {
+    "text": "1 mol of $\\ce{He}(g)$",
+    "hint": "4 g."
+   },
+   {
+    "text": "1 mol of $\\ce{CO2}(g)$",
+    "hint": "44 g."
+   },
+   {
+    "text": "1 mol of $\\ce{CH3COCH3}(l)$",
+    "hint": "58 g."
+   },
+   {
+    "text": "all have the same mass",
+    "hint": "Equal moles, different molar masses."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Compare molar masses.",
+  "explanation": "## Advanced explanation\n\nMass of 1 mol = molar mass: $\\ce{UF6}$ = 238.03 + 6(19.00) = **352 g**, far above $\\ce{CO2}$ (44 g), acetone (58 g) and He (4 g).\n\n## Simplified explanation\n\nLargest molar mass \u2192 **$\\ce{UF6}$**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Guanidine, $\\ce{HNC(NH2)2}$, is a fertiliser. To three significant figures, what is the percent by mass of nitrogen?",
+  "options": [
+   {
+    "text": "71.1%",
+    "hint": "Correct. 3 N (42.02 g) in 59.07 g/mol."
+   },
+   {
+    "text": "65.1%",
+    "hint": "Check the working."
+   },
+   {
+    "text": "45.2%",
+    "hint": "Count all three N atoms."
+   },
+   {
+    "text": "54.8%",
+    "hint": "Check the working."
+   },
+   {
+    "text": "49.4%",
+    "hint": "Check the molar mass."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Rewrite it as $\\ce{CH5N3}$.",
+  "explanation": "## Advanced explanation\n\nFormula $\\ce{CH5N3}$: $M = 12.011 + 5(1.008) + 3(14.007) = 59.07$ g/mol.\n$$\\%\\,\\ce{N} = \\frac{3(14.007)}{59.07}\\times100 = 71.1\\%$$\n\n## Simplified explanation\n\nThree N atoms out of 59.07 g/mol: **71.1%**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Calculate the percent by mass of carbon in 154 g of $\\ce{C4H8O3}$.",
+  "options": [
+   {
+    "text": "27%",
+    "hint": "Check the working."
+   },
+   {
+    "text": "72%",
+    "hint": "That is too high."
+   },
+   {
+    "text": "31%",
+    "hint": "Check the molar mass."
+   },
+   {
+    "text": "55%",
+    "hint": "Check the working."
+   },
+   {
+    "text": "46%",
+    "hint": "Correct. 48.04 g C per 104.1 g compound; the 154 g is irrelevant."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "The 154 g is a distractor.",
+  "explanation": "## Advanced explanation\n\nPercent composition does **not depend on the sample size**.\n$$\\%\\,\\ce{C} = \\frac{4(12.011)}{104.10}\\times100 = 46\\%$$\n\n## Simplified explanation\n\nSample size doesn't matter: $48.0/104.1$ = **46%**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Analysis of a covalent compound showed 14.4% hydrogen and 85.6% carbon by mass. What is its empirical formula?",
+  "options": [
+   {
+    "text": "$\\ce{CH}$",
+    "hint": "H is twice C."
+   },
+   {
+    "text": "$\\ce{C2H3}$",
+    "hint": "Ratio is 1 : 2."
+   },
+   {
+    "text": "none of these",
+    "hint": "$\\ce{CH2}$ is listed."
+   },
+   {
+    "text": "$\\ce{CH3}$",
+    "hint": "Check the H moles."
+   },
+   {
+    "text": "$\\ce{CH2}$",
+    "hint": "Correct. C 7.13 mol : H 14.3 mol = 1 : 2."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Assume 100 g; convert to moles.",
+  "explanation": "## Advanced explanation\n\nTake 100 g: $\\ce{C}: 85.6/12.011 = 7.13$ mol; $\\ce{H}: 14.4/1.008 = 14.3$ mol. Divide by the smaller: **C 1 : H 2.00** \u2192 $\\ce{CH2}$.\n\n## Simplified explanation\n\nMoles C : H = 1 : 2 \u2192 **$\\ce{CH2}$**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An oxide of lead contains 90.65% Pb by weight. The empirical formula is:",
+  "options": [
+   {
+    "text": "Pb",
+    "hint": "There is oxygen."
+   },
+   {
+    "text": "$\\ce{PbO2}$",
+    "hint": "That is 1 : 2."
+   },
+   {
+    "text": "$\\ce{PbO}$",
+    "hint": "Ratio is 1 : 1.33, not 1 : 1."
+   },
+   {
+    "text": "$\\ce{Pb3O4}$",
+    "hint": "Correct. Pb 0.4375 : O 0.5844 = 1 : 1.336 = 3 : 4."
+   },
+   {
+    "text": "$\\ce{Pb2O3}$",
+    "hint": "That is 1 : 1.5."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "If the ratio is x.33, multiply by 3.",
+  "explanation": "## Advanced explanation\n\nPer 100 g: $\\ce{Pb}: 90.65/207.2 = 0.4375$ mol; $\\ce{O}: 9.35/15.999 = 0.5844$ mol. Ratio $1 : 1.336$; multiply by 3 \u2192 **3 : 4** \u2192 $\\ce{Pb3O4}$ (red lead).\n\n## Simplified explanation\n\n1 : 1.33 \u00d7 3 = **3 : 4** \u2192 $\\ce{Pb3O4}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A 0.500 g sample of a compound containing only antimony and oxygen contained 0.418 g Sb and 0.082 g O. What is the simplest formula?",
+  "options": [
+   {
+    "text": "$\\ce{Sb2O3}$",
+    "hint": "Correct. Sb 0.003433 : O 0.005125 = 1 : 1.49 = 2 : 3."
+   },
+   {
+    "text": "$\\ce{SbO2}$",
+    "hint": "Ratio is 1 : 1.5."
+   },
+   {
+    "text": "$\\ce{Sb3O4}$",
+    "hint": "That is 1 : 1.33."
+   },
+   {
+    "text": "$\\ce{SbO}$",
+    "hint": "Ratio is 1 : 1.5."
+   },
+   {
+    "text": "$\\ce{Sb2O5}$",
+    "hint": "That is 1 : 2.5."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "If the ratio is x.5, double it.",
+  "explanation": "## Advanced explanation\n\n$\\ce{Sb}: 0.418/121.76 = 0.003433$ mol; $\\ce{O}: 0.082/15.999 = 0.005125$ mol. Ratio $1 : 1.49 \\approx 2 : 3$ \u2192 $\\ce{Sb2O3}$.\n\n## Simplified explanation\n\n1 : 1.5 \u2192 **2 : 3** \u2192 $\\ce{Sb2O3}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A compound contains 40.0% C, 6.71% H and 53.3% O by mass. A 0.320 mol sample weighs 28.8 g. The molecular formula is:",
+  "options": [
+   {
+    "text": "$\\ce{C4H7O2}$",
+    "hint": "Wrong ratio."
+   },
+   {
+    "text": "$\\ce{CH2O}$",
+    "hint": "That is the empirical formula only."
+   },
+   {
+    "text": "$\\ce{C2H4O}$",
+    "hint": "Wrong empirical formula."
+   },
+   {
+    "text": "$\\ce{C3H6O3}$",
+    "hint": "Correct. Empirical $\\ce{CH2O}$ (30); $M = 28.8/0.320 = 90$ \u2192 \u00d7 3."
+   },
+   {
+    "text": "$\\ce{C2H4O2}$",
+    "hint": "That has $M = 60$."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Get M from mass \u00f7 moles.",
+  "explanation": "## Advanced explanation\n\nEmpirical: C 3.33 : H 6.66 : O 3.33 \u2192 $\\ce{CH2O}$ (30.03 g/mol). Molar mass $= 28.8/0.320 = 90.0$ g/mol. $90.0/30.03 = 3$ \u2192 $\\ce{C3H6O3}$ (e.g. lactic acid).\n\n## Simplified explanation\n\n$\\ce{CH2O}$ \u00d7 3 = **$\\ce{C3H6O3}$** (M = 90).",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What mass of cerussite, $\\ce{PbCO3}$, would contain 35.0 g of lead?",
+  "options": [
+   {
+    "text": "27.1 g",
+    "hint": "You inverted the ratio."
+   },
+   {
+    "text": "45.1 g",
+    "hint": "Correct. 35.0 \u00d7 267.2/207.2."
+   },
+   {
+    "text": "51.7 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "42.4 g",
+    "hint": "Check the molar mass."
+   },
+   {
+    "text": "35.6 g",
+    "hint": "Check the working."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Mass of compound > mass of lead.",
+  "explanation": "## Advanced explanation\n\n$$m(\\ce{PbCO3}) = 35.0\\ \\text{g Pb} \\times \\frac{267.2\\ \\text{g PbCO3}}{207.2\\ \\text{g Pb}} = 45.1\\ \\text{g}$$\n\n## Simplified explanation\n\nScale by $M(\\ce{PbCO3})/M(\\ce{Pb})$: **45.1 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many moles of $\\ce{KBrO3}$ are required to prepare 0.0700 mol of $\\ce{Br2}$?\n\n$$\\ce{KBrO3 + 5KBr + 6HNO3 -> 6KNO3 + 3Br2 + 3H2O}$$",
+  "options": [
+   {
+    "text": "0.0704",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "0.220",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "0.0233",
+    "hint": "Correct. 1 mol $\\ce{KBrO3}$ gives 3 mol $\\ce{Br2}$."
+   },
+   {
+    "text": "0.0732",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "0.210",
+    "hint": "You multiplied by 3 instead of dividing."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Use the coefficients.",
+  "explanation": "## Advanced explanation\n\nFrom the equation, $\\ce{KBrO3} : \\ce{Br2} = 1 : 3$.\n$$n(\\ce{KBrO3}) = 0.0700 \\times \\tfrac{1}{3} = 0.0233\\ \\text{mol}$$\n\n## Simplified explanation\n\nRatio 1 : 3, so $0.0700/3$ = **0.0233 mol**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement is **FALSE** for $\\ce{N2 + 3H2 -> 2NH3}$, assuming the reaction goes to completion?",
+  "options": [
+   {
+    "text": "The reaction of 14 g of nitrogen produces 17 g of ammonia.",
+    "hint": "True: 0.5 mol $\\ce{N2}$ \u2192 1 mol $\\ce{NH3}$."
+   },
+   {
+    "text": "One molecule of nitrogen requires three molecules of hydrogen.",
+    "hint": "True."
+   },
+   {
+    "text": "One mole of $\\ce{N2}$ will produce two moles of $\\ce{NH3}$.",
+    "hint": "True."
+   },
+   {
+    "text": "The reaction of one mole of $\\ce{H2}$ will produce 2/3 moles of $\\ce{NH3}$.",
+    "hint": "True: 3 : 2 ratio."
+   },
+   {
+    "text": "The reaction of three moles of hydrogen gas will produce 17 g of ammonia.",
+    "hint": "Correct. 3 mol $\\ce{H2}$ give 2 mol $\\ce{NH3}$ = 34 g."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Test each statement with the 1 : 3 : 2 ratio.",
+  "explanation": "## Advanced explanation\n\nCheck each with mole ratios: 3 mol $\\ce{H2}$ \u2192 2 mol $\\ce{NH3}$ = 2 \u00d7 17.03 = **34 g**, not 17 g. All the other statements follow from the 1 : 3 : 2 ratio.\n\n## Simplified explanation\n\n3 mol $\\ce{H2}$ make **34 g** of ammonia, not 17 g.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Calcium carbide is produced by $\\ce{CaO + 3C -> CaC2 + CO}$. What mass of $\\ce{CaC2}$ can be produced from excess CaO and 10.2 g of carbon (100% efficiency)?",
+  "options": [
+   {
+    "text": "28.4 g",
+    "hint": "You forgot the 3 : 1 ratio."
+   },
+   {
+    "text": "27.2 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "18.1 g",
+    "hint": "Correct. 0.849 mol C \u00f7 3 \u00d7 64.10 g/mol."
+   },
+   {
+    "text": "20.8 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "19.8 g",
+    "hint": "Check the working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Mind the 3 : 1 ratio.",
+  "explanation": "## Advanced explanation\n\n$$n(\\ce{C}) = \\frac{10.2}{12.011} = 0.849\\ \\text{mol} \\;\\Rightarrow\\; n(\\ce{CaC2}) = \\frac{0.849}{3} = 0.283\\ \\text{mol}$$\n$$m = 0.283 \\times 64.10 = 18.1\\ \\text{g}$$\n\n## Simplified explanation\n\n3 C make 1 $\\ce{CaC2}$: **18.1 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Calculate the mass of hydrogen formed when 25 g of aluminium reacts with excess hydrochloric acid.\n\n$$\\ce{2Al + 6HCl -> Al2Cl6 + 3H2}$$",
+  "options": [
+   {
+    "text": "2.8 g",
+    "hint": "Correct. 0.927 mol Al \u00d7 3/2 \u00d7 2.016 g/mol."
+   },
+   {
+    "text": "0.92 g",
+    "hint": "That is moles of Al, not grams of $\\ce{H2}$."
+   },
+   {
+    "text": "1.8 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "1.2 g",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "0.41 g",
+    "hint": "Check the ratio."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Ratio Al : $\\ce{H2}$ = 2 : 3.",
+  "explanation": "## Advanced explanation\n\n$$n(\\ce{Al}) = \\frac{25}{26.98} = 0.927\\ \\text{mol} \\Rightarrow n(\\ce{H2}) = 0.927 \\times \\tfrac{3}{2} = 1.39\\ \\text{mol}$$\n$$m(\\ce{H2}) = 1.39 \\times 2.016 = 2.8\\ \\text{g}$$\n\n## Simplified explanation\n\n2 Al \u2192 3 $\\ce{H2}$: **2.8 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When 12 g of methanol ($\\ce{CH3OH}$) was treated with excess $\\ce{MnO4-}$, 14 g of formic acid ($\\ce{HCOOH}$) was obtained. Calculate the percent yield.\n\n$$\\ce{3CH3OH + 4MnO4- -> 3HCOOH + 4MnO2}$$",
+  "options": [
+   {
+    "text": "92%",
+    "hint": "Check the molar masses."
+   },
+   {
+    "text": "100%",
+    "hint": "Calculate the theoretical yield."
+   },
+   {
+    "text": "82%",
+    "hint": "Correct. Theoretical 17.2 g; 14/17.2 \u00d7 100."
+   },
+   {
+    "text": "70%",
+    "hint": "Check the working."
+   },
+   {
+    "text": "55%",
+    "hint": "Check the working."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Find the theoretical yield first.",
+  "explanation": "## Advanced explanation\n\n$$n(\\ce{CH3OH}) = \\frac{12}{32.04} = 0.375\\ \\text{mol} = n(\\ce{HCOOH})_{\\text{theor}}$$\n$$m_{\\text{theor}} = 0.375 \\times 46.03 = 17.2\\ \\text{g};\\quad \\%\\,\\text{yield} = \\frac{14}{17.2}\\times100 = 82\\%$$\n\n## Simplified explanation\n\nActual \u00f7 theoretical = 14 \u00f7 17.2 = **82%**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **limiting reagent** in a chemical reaction is the one that:",
+  "options": [
+   {
+    "text": "has the smallest molar mass.",
+    "hint": "No."
+   },
+   {
+    "text": "has the smallest coefficient.",
+    "hint": "No."
+   },
+   {
+    "text": "is in excess.",
+    "hint": "That is the excess reagent."
+   },
+   {
+    "text": "is consumed completely.",
+    "hint": "Correct. It runs out first and stops the reaction."
+   },
+   {
+    "text": "has the largest molar mass.",
+    "hint": "Molar mass alone doesn't decide it."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which reactant stops the reaction?",
+  "explanation": "## Advanced explanation\n\nThe limiting reagent is **used up first**; it determines the maximum (theoretical) yield. Find it by comparing moles available \u00f7 coefficient for each reactant.\n\n## Simplified explanation\n\nIt **runs out first**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If 5.0 g of each reactant were used, the limiting reactant would be:\n\n$$\\ce{2KMnO4 + 5Hg2Cl2 + 16HCl -> 10HgCl2 + 2MnCl2 + 2KCl + 8H2O}$$",
+  "options": [
+   {
+    "text": "HCl",
+    "hint": "0.137 mol \u00f7 16 = 0.0086."
+   },
+   {
+    "text": "$\\ce{H2O}$",
+    "hint": "A product."
+   },
+   {
+    "text": "$\\ce{KMnO4}$",
+    "hint": "0.0316 mol \u00f7 2 = 0.0158."
+   },
+   {
+    "text": "$\\ce{HgCl2}$",
+    "hint": "A product."
+   },
+   {
+    "text": "$\\ce{Hg2Cl2}$",
+    "hint": "Correct. Smallest moles \u00f7 coefficient (0.00212)."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Divide moles by each coefficient.",
+  "explanation": "## Advanced explanation\n\nMoles \u00f7 coefficient: $\\ce{KMnO4}$ $0.0316/2 = 0.0158$; $\\ce{Hg2Cl2}$ $(5.0/472.1)/5 = 0.00212$; HCl $0.137/16 = 0.0086$. The smallest is **$\\ce{Hg2Cl2}$**.\n\n## Simplified explanation\n\n$\\ce{Hg2Cl2}$ (heavy and needs 5 of them) runs out first.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What mass of $\\ce{ZnCl2}$ can be prepared from 3.27 g of zinc and 3.30 g of HCl?\n\n$$\\ce{Zn + 2HCl -> ZnCl2 + H2}$$",
+  "options": [
+   {
+    "text": "6.02 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "6.46 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "6.17 g",
+    "hint": "Correct. HCl is limiting: 0.0905 mol \u00f7 2 \u00d7 136.3."
+   },
+   {
+    "text": "6.82 g",
+    "hint": "Check the limiting reactant."
+   },
+   {
+    "text": "6.89 g",
+    "hint": "That assumes Zn is limiting."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Find the limiting reactant.",
+  "explanation": "## Advanced explanation\n\n$n(\\ce{Zn}) = 3.27/65.38 = 0.0500$ mol; $n(\\ce{HCl}) = 3.30/36.46 = 0.0905$ mol, which reacts with only 0.0453 mol Zn \u2192 **HCl is limiting**.\n$$m(\\ce{ZnCl2}) = \\frac{0.0905}{2}\\times136.3 = 6.17\\ \\text{g}$$\n\n## Simplified explanation\n\nHCl runs out first: **6.17 g**.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many grams of $\\ce{NH3}$ can be prepared from 77.3 g of $\\ce{N2}$ and 14.2 g of $\\ce{H2}$?",
+  "options": [
+   {
+    "text": "93.9 g",
+    "hint": "That assumes $\\ce{N2}$ is limiting."
+   },
+   {
+    "text": "79.7 g",
+    "hint": "Correct. $\\ce{H2}$ is limiting: 7.04 mol \u00d7 2/3 \u00d7 17.03 \u2248 80 g."
+   },
+   {
+    "text": "13.3 g",
+    "hint": "Too low."
+   },
+   {
+    "text": "47.0 g",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "120.0 g",
+    "hint": "Too high."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Balance first, then find the limiting reactant.",
+  "explanation": "## Advanced explanation\n\n$\\ce{N2 + 3H2 -> 2NH3}$. $n(\\ce{N2}) = 77.3/28.01 = 2.76$ mol; $n(\\ce{H2}) = 14.2/2.016 = 7.04$ mol, which needs only 2.35 mol $\\ce{N2}$ \u2192 **$\\ce{H2}$ limiting**.\n$$m(\\ce{NH3}) = 7.04 \\times \\tfrac{2}{3} \\times 17.03 \\approx 79.7\\text{\u2013}80\\ \\text{g}$$\n\n## Simplified explanation\n\n$\\ce{H2}$ limits it: about **79.7 g**.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Silicon carbide is made by $\\ce{SiO2 + 3C -> SiC + 2CO}$. If 100 g of $\\ce{SiO2}$ and 100 g of C are reacted as far as possible, which statement is correct?",
+  "options": [
+   {
+    "text": "111 g of $\\ce{SiO2}$ will be left over.",
+    "hint": "More than you started with."
+   },
+   {
+    "text": "82 g of C will be left over.",
+    "hint": "Check the 1 : 3 ratio."
+   },
+   {
+    "text": "40 g of C will be left over.",
+    "hint": "Correct. 1.66 mol $\\ce{SiO2}$ uses 4.99 mol C (60 g)."
+   },
+   {
+    "text": "44 g of $\\ce{SiO2}$ will be left over.",
+    "hint": "$\\ce{SiO2}$ is limiting."
+   },
+   {
+    "text": "Both reactants will be consumed completely.",
+    "hint": "Not in this ratio."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "$\\ce{SiO2}$ : C = 1 : 3.",
+  "explanation": "## Advanced explanation\n\n$n(\\ce{SiO2}) = 100/60.08 = 1.664$ mol (limiting); C needed $= 3 \\times 1.664 = 4.99$ mol = 60.0 g. C left $= 100 - 60.0 = 40$ g.\n\n## Simplified explanation\n\n$\\ce{SiO2}$ runs out; **40 g of C** remains.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many grams of water are contained in 75.0 g of a 6.10% aqueous solution of $\\ce{K3PO4}$?",
+  "options": [
+   {
+    "text": "68.1 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "62.8 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "70.4 g",
+    "hint": "Correct. 93.9% of 75.0 g is water."
+   },
+   {
+    "text": "75.0 g",
+    "hint": "That is the whole solution."
+   },
+   {
+    "text": "73.2 g",
+    "hint": "Check the percentage."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The rest of the solution is water.",
+  "explanation": "## Advanced explanation\n\nSolute $= 0.0610 \\times 75.0 = 4.58$ g, so water $= 75.0 - 4.58 = 70.4$ g.\n\n## Simplified explanation\n\nWater is 93.9%: **70.4 g**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The mass of $\\ce{FeSO4.7H2O}$ required to prepare 125 mL of 0.90 M solution is:",
+  "options": [
+   {
+    "text": "13 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "31 g",
+    "hint": "Correct. 0.1125 mol \u00d7 278.0 g/mol (include the water of crystallisation)."
+   },
+   {
+    "text": "43 g",
+    "hint": "Check the volume conversion."
+   },
+   {
+    "text": "25 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "16 g",
+    "hint": "You used anhydrous $\\ce{FeSO4}$ (151.9 g/mol)? That gives 17 g."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Include the 7 waters.",
+  "explanation": "## Advanced explanation\n\n$$n = 0.90\\ \\text{mol/L} \\times 0.125\\ \\text{L} = 0.1125\\ \\text{mol}$$\n$$M(\\ce{FeSO4.7H2O}) = 151.9 + 7(18.02) = 278.0;\\; m = 0.1125\\times278.0 = 31\\ \\text{g}$$\n\n## Simplified explanation\n\nMoles \u00d7 hydrate molar mass: **31 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the molarity of phosphoric acid in a solution labelled 20.0% $\\ce{H3PO4}$ by weight with density 1.12 g/mL?",
+  "options": [
+   {
+    "text": "3.0 M",
+    "hint": "Check the working."
+   },
+   {
+    "text": "2.7 M",
+    "hint": "Check the working."
+   },
+   {
+    "text": "0.98 M",
+    "hint": "Check the density step."
+   },
+   {
+    "text": "2.3 M",
+    "hint": "Correct. 1 L = 1120 g; 224 g acid \u00f7 98.0 g/mol."
+   },
+   {
+    "text": "3.6 M",
+    "hint": "Check the working."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Work with 1 L of solution.",
+  "explanation": "## Advanced explanation\n\nTake 1 L: mass $= 1120$ g; acid $= 0.200 \\times 1120 = 224$ g; $n = 224/97.99 = 2.29$ mol \u2192 **2.3 M**.\n\n## Simplified explanation\n\nMass of 1 L \u00d7 20% \u00f7 98: **2.3 M**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many mL of 17 M $\\ce{NH3}$ must be diluted to 500.0 mL to make a 0.75 M solution?",
+  "options": [
+   {
+    "text": "none of these",
+    "hint": "22 mL is listed."
+   },
+   {
+    "text": "73 mL",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "13 mL",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "39 mL",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "22 mL",
+    "hint": "Correct. $V_1 = 0.75 \\times 500/17$."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Moles of solute stay the same.",
+  "explanation": "## Advanced explanation\n\nDilution: $M_1V_1 = M_2V_2$ \u2192 $V_1 = \\dfrac{0.75 \\times 500.0}{17} = 22$ mL.\n\n## Simplified explanation\n\n$M_1V_1 = M_2V_2$: **22 mL**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many grams of $\\ce{Ag2CO3}$ are required to react with 28.5 mL of 1.00 M NaOH?\n\n$$\\ce{Ag2CO3 + 2NaOH -> Ag2O + Na2CO3 + H2O}$$",
+  "options": [
+   {
+    "text": "10.8 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "15.7 g",
+    "hint": "Check the ratio."
+   },
+   {
+    "text": "3.93 g",
+    "hint": "Correct. 0.0285 mol NaOH \u00f7 2 \u00d7 275.7."
+   },
+   {
+    "text": "8.16 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "7.87 g",
+    "hint": "You forgot the 1 : 2 ratio."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "1 : 2 ratio.",
+  "explanation": "## Advanced explanation\n\n$n(\\ce{NaOH}) = 0.0285$ mol \u2192 $n(\\ce{Ag2CO3}) = 0.01425$ mol; $m = 0.01425 \\times 275.75 = 3.93$ g.\n\n## Simplified explanation\n\nHalf the moles of NaOH: **3.93 g**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many millilitres of 0.200 M $\\ce{NH4OH}$ are needed to react with 12.0 mL of 0.550 M $\\ce{FeCl3}$?\n\n$$\\ce{FeCl3 + 3NH4OH -> Fe(OH)3 + 3NH4Cl}$$",
+  "options": [
+   {
+    "text": "8.25 mL",
+    "hint": "Check the working."
+   },
+   {
+    "text": "132 mL",
+    "hint": "Check the working."
+   },
+   {
+    "text": "99.0 mL",
+    "hint": "Correct. 0.00660 mol $\\ce{FeCl3}$ \u00d7 3 \u00f7 0.200 M."
+   },
+   {
+    "text": "68.8 mL",
+    "hint": "Check the working."
+   },
+   {
+    "text": "33.0 mL",
+    "hint": "You forgot the factor of 3."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "1 : 3 ratio.",
+  "explanation": "## Advanced explanation\n\n$n(\\ce{FeCl3}) = 0.0120 \\times 0.550 = 0.00660$ mol \u2192 $n(\\ce{NH4OH}) = 0.0198$ mol \u2192 $V = 0.0198/0.200 = 0.0990$ L = **99.0 mL**.\n\n## Simplified explanation\n\nThree times the moles of $\\ce{FeCl3}$: **99.0 mL**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Stoichiometry",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "250. mL of 0.15 M $\\ce{(NH4)2S}$ is poured into 120. mL of 0.053 M $\\ce{CdSO4}$. How many grams of yellow CdS precipitate form? (The other product is $\\ce{(NH4)2SO4}$.)",
+  "options": [
+   {
+    "text": "1.9 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "0.92 g",
+    "hint": "Correct. $\\ce{CdSO4}$ is limiting: 0.00636 mol \u00d7 144.5."
+   },
+   {
+    "text": "2.6 g",
+    "hint": "Check the working."
+   },
+   {
+    "text": "5.4 g",
+    "hint": "That assumes $\\ce{(NH4)2S}$ is limiting."
+   },
+   {
+    "text": "530 g",
+    "hint": "Units error."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "It is a limiting-reagent problem.",
+  "explanation": "## Advanced explanation\n\n$\\ce{(NH4)2S + CdSO4 -> CdS(s) + (NH4)2SO4}$ (1 : 1). $n(\\ce{S^2-}) = 0.0375$ mol; $n(\\ce{Cd^2+}) = 0.00636$ mol \u2192 **Cd\u00b2\u207a limiting**; $m(\\ce{CdS}) = 0.00636 \\times 144.5 = 0.92$ g.\n\n## Simplified explanation\n\nCadmium runs out first: **0.92 g**.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "Limiting Reactant & Yield",
+   "Precipitation Reactions",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Determine the oxidation number of carbon in $\\ce{K2CO3}$.",
+  "options": [
+   {
+    "text": "+2",
+    "hint": "Check the oxygen count."
+   },
+   {
+    "text": "\u22122",
+    "hint": "No."
+   },
+   {
+    "text": "some other value",
+    "hint": "+4 is listed."
+   },
+   {
+    "text": "+4",
+    "hint": "Correct. 2(+1) + C + 3(\u22122) = 0."
+   },
+   {
+    "text": "0",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Sum of oxidation numbers = 0.",
+  "explanation": "## Advanced explanation\n\n$2(+1) + x + 3(-2) = 0 \\Rightarrow x = +4$.\n\n## Simplified explanation\n\nC is **+4** (as in all carbonates).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Oxidation Numbers & Redox",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which assignment of oxidation number is **INCORRECT** for the element shown?",
+  "options": [
+   {
+    "text": "$\\ce{K2Cr2O7}$; Cr = +6",
+    "hint": "Correct assignment."
+   },
+   {
+    "text": "$\\ce{Cu(NO3)2}$; Cu = +2",
+    "hint": "Correct assignment."
+   },
+   {
+    "text": "$\\ce{SeO3^2-}$; Se = +4",
+    "hint": "Correct assignment."
+   },
+   {
+    "text": "$\\ce{NH3}$; N = +3",
+    "hint": "Correct. N is \u22123 in ammonia."
+   },
+   {
+    "text": "$\\ce{H2PO2-}$; P = +1",
+    "hint": "Correct assignment."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "H is +1 with non-metals.",
+  "explanation": "## Advanced explanation\n\nIn $\\ce{NH3}$: $x + 3(+1) = 0 \\Rightarrow x = -3$. Check the rest: Cr $= (14-2)/2 = +6$; P: $2 + x - 4 = -1 \\Rightarrow +1$; Se: $x - 6 = -2 \\Rightarrow +4$; Cu $+2$.\n\n## Simplified explanation\n\nN in ammonia is **\u22123**, not +3.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Oxidation Numbers & Redox",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In $\\ce{4NH3 + 5O2 -> 4NO + 6H2O}$, the element being **oxidised** and the **oxidising agent** are:",
+  "options": [
+   {
+    "text": "N and $\\ce{NH3}$",
+    "hint": "$\\ce{NH3}$ is the reducing agent."
+   },
+   {
+    "text": "H and $\\ce{NH3}$",
+    "hint": "H stays +1."
+   },
+   {
+    "text": "O and $\\ce{O2}$",
+    "hint": "O is reduced, not oxidised."
+   },
+   {
+    "text": "O and $\\ce{NH3}$",
+    "hint": "O is reduced."
+   },
+   {
+    "text": "N and $\\ce{O2}$",
+    "hint": "Correct. N goes \u22123 \u2192 +2; $\\ce{O2}$ is reduced (0 \u2192 \u22122)."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "The oxidising agent is itself reduced.",
+  "explanation": "## Advanced explanation\n\nN: \u22123 (in $\\ce{NH3}$) \u2192 +2 (in NO): **oxidised**. O: 0 \u2192 \u22122: reduced, so **$\\ce{O2}$ is the oxidising agent**.\n\n## Simplified explanation\n\nN is oxidised; $\\ce{O2}$ is the oxidising agent.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Oxidation Numbers & Redox",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which name/formula combination is **WRONG**?",
+  "options": [
+   {
+    "text": "phosphorous acid / $\\ce{H3PO4}$",
+    "hint": "Correct. $\\ce{H3PO4}$ is phosphoric acid; phosphorous acid is $\\ce{H3PO3}$."
+   },
+   {
+    "text": "nitrogen oxide / NO",
+    "hint": "Acceptable (nitrogen monoxide)."
+   },
+   {
+    "text": "sodium chromate / $\\ce{Na2CrO4}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "acetate ion / $\\ce{CH3COO-}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "calcium hypobromite / $\\ce{Ca(BrO)2}$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "-ic vs -ous.",
+  "explanation": "## Advanced explanation\n\n**-ic acid** \u2194 **-ate** anion (more O): $\\ce{H3PO4}$ phosphoric acid / phosphate. **-ous acid** \u2194 **-ite** (one fewer O): $\\ce{H3PO3}$ phosphorous acid / phosphite.\n\n## Simplified explanation\n\n$\\ce{H3PO4}$ is **phosphoric** acid.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Nomenclature",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which name/formula combination is **WRONG**?",
+  "options": [
+   {
+    "text": "potassium permanganate / $\\ce{KMnO4}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "ammonium nitrate / $\\ce{NH4NO3}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "dinitrogen tetroxide / $\\ce{N2O4}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "chlorous acid / $\\ce{HClO2}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "copper(II) periodate / $\\ce{CuIO4}$",
+    "hint": "Correct. Cu\u00b2\u207a needs two $\\ce{IO4-}$: $\\ce{Cu(IO4)2}$."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Balance the charges.",
+  "explanation": "## Advanced explanation\n\nPeriodate is $\\ce{IO4-}$ (\u22121). Copper(II) is +2, so charges balance only as **$\\ce{Cu(IO4)2}$**.\n\n## Simplified explanation\n\nCopper(II) needs **two** periodates.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Nomenclature",
+   "Tutorial Set (Dr Hadzi)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The electric and magnetic fields in electromagnetic waves are oriented",
+  "options": [
+   {
+    "text": "parallel to the wave's direction of travel, as well as to each other.",
+    "hint": "EM waves are not longitudinal."
+   },
+   {
+    "text": "parallel to the wave's direction of travel, and perpendicular to each other.",
+    "hint": "Not parallel to travel."
+   },
+   {
+    "text": "perpendicular to the wave's direction of travel, and also to each other.",
+    "hint": "Correct. EM waves are transverse."
+   },
+   {
+    "text": "perpendicular to the wave's direction of travel, and parallel to each other.",
+    "hint": "E and B are at 90\u00b0 to each other."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Transverse wave.",
+  "explanation": "## Advanced explanation\n\nElectromagnetic radiation is a **transverse** wave: the oscillating electric field $\\vec{E}$ and magnetic field $\\vec{B}$ are **perpendicular to each other** and both perpendicular to the direction of propagation.\n\n## Simplified explanation\n\nE \u27c2 B \u27c2 direction of travel.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many electrons are there in the **third shell** (principal energy level) of the atom with atomic number 23?",
+  "options": [
+   {
+    "text": "8",
+    "hint": "You forgot the 3d electrons."
+   },
+   {
+    "text": "11",
+    "hint": "Correct: 3s\u00b2 3p\u2076 3d\u00b3."
+   },
+   {
+    "text": "10",
+    "hint": "Count 3d\u00b3."
+   },
+   {
+    "text": "3",
+    "hint": "That is only 3d."
+   },
+   {
+    "text": "13",
+    "hint": "Too many."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Include the 3d electrons.",
+  "explanation": "## Advanced explanation\n\nZ = 23 (vanadium): $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,4s^2\\,3d^3$. Shell n = 3 holds $3s^2 + 3p^6 + 3d^3 = 11$ electrons.\n\n## Simplified explanation\n\nn = 3: 2 + 6 + 3 = **11**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When lithium (at. no. 3) loses its single 2nd-shell electron, its electronic structure resembles that of",
+  "options": [
+   {
+    "text": "neon, \u2081\u2080Ne",
+    "hint": "That has 10 electrons."
+   },
+   {
+    "text": "boron, \u2085B",
+    "hint": "That has 5 electrons."
+   },
+   {
+    "text": "helium, \u2082He",
+    "hint": "Correct: Li\u207a is 1s\u00b2."
+   },
+   {
+    "text": "hydrogen, \u2081H",
+    "hint": "That has 1 electron."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Count the electrons left.",
+  "explanation": "## Advanced explanation\n\nLi $1s^2 2s^1$ \u2192 Li\u207a $1s^2$, **isoelectronic with He**.\n\n## Simplified explanation\n\nLi\u207a has 2 electrons, like **He**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The number of electrons in the highest energy level of \u2082\u2080Ca is",
+  "options": [
+   {
+    "text": "6",
+    "hint": "No."
+   },
+   {
+    "text": "2",
+    "hint": "Correct: 4s\u00b2."
+   },
+   {
+    "text": "8",
+    "hint": "That is n = 3."
+   },
+   {
+    "text": "5",
+    "hint": "No."
+   },
+   {
+    "text": "4",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which group is Ca in?",
+  "explanation": "## Advanced explanation\n\nCa: $[\\ce{Ar}]\\,4s^2$, so the outermost (n = 4) shell has **2** electrons; calcium is a group 2 metal.\n\n## Simplified explanation\n\nGroup 2 \u2192 **2** valence electrons.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the main difference between a **continuous spectrum** and a **discontinuous (atomic emission) spectrum**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> A **continuous spectrum** contains **all wavelengths** in a range with no gaps (e.g. white light through a prism, or a hot solid). An **atomic emission (line) spectrum** contains only **specific, discrete wavelengths** (bright lines on a dark background) emitted when excited electrons fall between **quantised energy levels** of an atom.",
+  "explanation": "## Advanced explanation\n\nLine spectra are evidence for **quantised electron energy levels** (Bohr model): each line corresponds to $\\Delta E = h\\nu = hc/\\lambda$ for a particular transition, and every element has its own fingerprint pattern.\n\n## Simplified explanation\n\nContinuous = **all colours**; line spectrum = **only certain colours** (separate lines).",
+  "hint": "Gaps or no gaps?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Caffeine contains by mass 49.5% C, 5.15% H, 28.9% N and 16.5% O, and its molar mass is about 195 g/mol. Determine its **empirical and molecular formulas**.",
+  "media": [],
+  "answer": "Take 100 g:\n\n| Element | g | mol | \u00f7 1.031 |\n|---|---|---|---|\n| C | 49.5 | 4.121 | 4.00 |\n| H | 5.15 | 5.109 | 4.96 |\n| N | 28.9 | 2.063 | 2.00 |\n| O | 16.5 | 1.031 | 1.00 |\n\nEmpirical formula $\\ce{C4H5N2O}$, $M = 97.1$ g/mol. $195/97.1 \\approx 2$.\n\n> [!answer]\n> Empirical: **$\\ce{C4H5N2O}$**; molecular: **$\\ce{C8H10N4O2}$**",
+  "explanation": "## Advanced explanation\n\nPercent \u2192 grams (assume 100 g) \u2192 moles \u2192 divide by the smallest \u2192 whole-number ratio. The **molecular formula** is a whole-number multiple $n = M/M_{\\text{emp}}$ of the empirical formula.\n\n## Simplified explanation\n\nMoles ratio gives $\\ce{C4H5N2O}$; double it to reach 195: **$\\ce{C8H10N4O2}$**.",
+  "hint": "Assume 100 g of caffeine.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Determine the empirical and molecular formulas of **chrysotile asbestos**: 28.03% Mg, 21.60% Si, 1.16% H and 49.21% O; molar mass 520.8 g/mol.",
+  "media": [],
+  "answer": "Per 100 g: Mg 1.153, Si 0.7691, H 1.151, O 3.076 mol. \u00f7 0.7691 \u2192 Mg 1.50, Si 1.00, H 1.50, O 4.00. Multiply by 2 \u2192 **3 : 2 : 3 : 8**.\n\n$M(\\ce{Mg3Si2H3O8}) = 260.4$; $520.8/260.4 = 2$.\n\n> [!answer]\n> Empirical **$\\ce{Mg3Si2H3O8}$**; molecular **$\\ce{Mg6Si4H6O16}$**",
+  "explanation": "## Advanced explanation\n\nWhen a ratio comes out as x.5, multiply all ratios by 2 to reach whole numbers.\n\n## Simplified explanation\n\nRatio 1.5 : 1 : 1.5 : 4 \u2192 \u00d7 2.",
+  "hint": "Watch for halves.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A new yellow dye has 75.95% C, 17.72% N and 6.33% H by mass and a molar mass of about 240 g/mol. Determine its **molecular formula**.",
+  "media": [],
+  "answer": "Per 100 g: C 6.323, N 1.265, H 6.280 mol \u2192 \u00f7 1.265 \u2192 **C 5 : N 1 : H 5** \u2192 $\\ce{C5H5N}$ (79.1 g/mol). $240/79.1 \\approx 3$.\n\n> [!answer]\n> **$\\ce{C15H15N3}$**",
+  "explanation": "## Advanced explanation\n\nEmpirical formula, then $n = M/M_{\\text{emp}}$.\n\n## Simplified explanation\n\n$\\ce{C5H5N}$ \u00d7 3.",
+  "hint": "Assume 100 g.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "An alloy used in aircraft is 93.7% Al and 6.3% Cu by mass, with density 2.85 g/cm\u00b3. A 0.691 cm\u00b3 piece reacts with excess HCl(aq). If all the Al but none of the Cu reacts, what mass of $\\ce{H2}$ is obtained?\n\n$$\\ce{2Al(s) + 6HCl(aq) -> 2AlCl3(aq) + 3H2(g)}$$",
+  "media": [],
+  "answer": "$$0.691\\ \\text{cm}^3 \\times 2.85\\ \\tfrac{\\text{g}}{\\text{cm}^3} = 1.969\\ \\text{g alloy} \\times 0.937 = 1.845\\ \\text{g Al}$$\n$$\\frac{1.845}{26.98} = 0.0684\\ \\text{mol Al} \\times \\tfrac{3}{2} = 0.1026\\ \\text{mol H}_2 \\times 2.016 = 0.207\\ \\text{g}$$\n\n> [!answer]\n> **0.207 g $\\ce{H2}$**",
+  "explanation": "## Advanced explanation\n\nChain: volume \u2192 mass of alloy \u2192 mass of Al \u2192 mol Al \u2192 mol $\\ce{H2}$ \u2192 g $\\ce{H2}$.\n\n## Simplified explanation\n\nUse only the aluminium.",
+  "hint": "Density first.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Stoichiometry",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A hydrochloric acid solution is 28.0% HCl by mass with density 1.14 g/mL. What volume is required to react completely with 1.87 g Al?\n\n$$\\ce{2Al(s) + 6HCl(aq) -> 2AlCl3(aq) + 3H2(g)}$$",
+  "media": [],
+  "answer": "$$\\frac{1.87}{26.98} = 0.0693\\ \\text{mol Al} \\times 3 = 0.208\\ \\text{mol HCl} \\times 36.46 = 7.58\\ \\text{g HCl}$$\n$$\\frac{7.58}{0.280} = 27.1\\ \\text{g solution};\\quad \\frac{27.1}{1.14} = 23.8\\ \\text{mL}$$\n\n> [!answer]\n> **23.8 mL** of HCl solution",
+  "explanation": "## Advanced explanation\n\nMoles Al \u2192 moles HCl (\u00d73) \u2192 g HCl \u2192 g solution (\u00f7 0.280) \u2192 mL (\u00f7 density).\n\n## Simplified explanation\n\nFind grams of HCl, then of solution.",
+  "hint": "Al : HCl = 1 : 3.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Stoichiometry",
+   "Solutions & Molarity",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "15.0 g of $\\ce{C4H9OH}$ react with 22.4 g of NaBr and 32.7 g of $\\ce{H2SO4}$ to yield 17.1 g of $\\ce{C4H9Br}$. What is the **percent yield**?\n\n$$\\ce{C4H9OH + NaBr + H2SO4 -> C4H9Br + NaHSO4 + H2O}$$",
+  "media": [],
+  "answer": "Moles: $\\ce{C4H9OH}$ $15.0/74.12 = 0.2024$; NaBr $22.4/102.9 = 0.2177$; $\\ce{H2SO4}$ $32.7/98.08 = 0.3334$. All 1 : 1, so **$\\ce{C4H9OH}$ is limiting**.\n\nTheoretical $\\ce{C4H9Br}$ $= 0.2024 \\times 137.0 = 27.7$ g.\n$$\\%\\ \\text{yield} = \\frac{17.1}{27.7}\\times100 = 61.7\\%$$\n\n> [!answer]\n> **61.7%**",
+  "explanation": "## Advanced explanation\n\nFind the limiting reactant (smallest moles \u00f7 coefficient), compute the theoretical yield from it, then actual \u00f7 theoretical \u00d7 100.\n\n## Simplified explanation\n\nButanol limits it; 17.1 \u00f7 27.7 = **61.7%**.",
+  "hint": "Compare moles of all three reactants.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If 1.00 kg each of $\\ce{PCl3}$, $\\ce{Cl2}$ and $\\ce{P4O10}$ are allowed to react, how many kilograms of $\\ce{POCl3}$ will be formed?\n\n$$\\ce{6PCl3(l) + 6Cl2(g) + P4O10(s) -> 10POCl3(l)}$$",
+  "media": [],
+  "answer": "Moles \u00f7 coefficient: $\\ce{PCl3}$ $(1000/137.3)/6 = 1.214$; $\\ce{Cl2}$ $(1000/70.90)/6 = 2.351$; $\\ce{P4O10}$ $1000/283.9 = 3.523$. **$\\ce{PCl3}$ is limiting.**\n$$n(\\ce{POCl3}) = 7.283\\ \\text{mol} \\times \\tfrac{10}{6} = 12.14\\ \\text{mol} \\times 153.3\\ \\text{g/mol} = 1861\\ \\text{g}$$\n\n> [!answer]\n> **1.86 kg $\\ce{POCl3}$**",
+  "explanation": "## Advanced explanation\n\nEqual masses do not mean equal moles: divide each by its molar mass and coefficient.\n\n## Simplified explanation\n\n$\\ce{PCl3}$ limits: **1.86 kg**.",
+  "hint": "Moles \u00f7 coefficient for each.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "1.00 L of solution is prepared by dissolving 125.6 g of NaF. If 180 mL of it is diluted to 500 mL, what is the molarity of the resulting solution?",
+  "media": [],
+  "answer": "$$c_1 = \\frac{125.6/41.99}{1.00} = 2.991\\ \\text{M};\\quad c_2 = \\frac{c_1V_1}{V_2} = \\frac{2.991\\times180}{500} = 1.08\\ \\text{M}$$\n\n> [!answer]\n> **1.08 M NaF**",
+  "explanation": "## Advanced explanation\n\nDilution keeps moles of solute constant: $c_1V_1 = c_2V_2$.\n\n## Simplified explanation\n\n2.99 M \u00d7 180/500 = **1.08 M**.",
+  "hint": "Find the stock molarity first.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Solutions & Molarity",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the greatest amount of ammonia, in moles, that can be made from 3.2 mol $\\ce{N2}$ and 5.4 mol $\\ce{H2}$? Which reactant is limiting, which is in excess, and how many moles of it are left over?",
+  "media": [],
+  "answer": "$\\ce{N2 + 3H2 -> 2NH3}$. To use all 3.2 mol $\\ce{N2}$ we would need 9.6 mol $\\ce{H2}$, but only 5.4 mol is available, so **$\\ce{H2}$ is limiting**.\n\n$n(\\ce{NH3}) = 5.4 \\times \\tfrac{2}{3} = 3.6$ mol. $\\ce{N2}$ used $= 5.4/3 = 1.8$ mol; left $= 3.2 - 1.8 = 1.4$ mol.\n\n> [!answer]\n> **3.6 mol $\\ce{NH3}$**; $\\ce{H2}$ limiting; $\\ce{N2}$ in excess by **1.4 mol**",
+  "explanation": "## Advanced explanation\n\nCompare what each reactant would need with what is available.\n\n## Simplified explanation\n\n$\\ce{H2}$ runs out: 3.6 mol $\\ce{NH3}$, 1.4 mol $\\ce{N2}$ left.",
+  "hint": "How much $\\ce{H2}$ would all the $\\ce{N2}$ need?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Cyclohexanol is converted to cyclohexene: $\\ce{C6H11OH(l) -> C6H10(l) + H2O(l)}$. If the percent yield is 83%, what mass of cyclohexanol must be used to obtain 25 g of cyclohexene?",
+  "media": [],
+  "answer": "Theoretical yield $= 25/0.83 = 30.1$ g $\\ce{C6H10}$ = $30.1/82.14 = 0.367$ mol = mol $\\ce{C6H11OH}$.\n$$m = 0.367 \\times 100.16 = 36.7\\ \\text{g}$$\n\n> [!answer]\n> About **36.7 g** of cyclohexanol",
+  "explanation": "## Advanced explanation\n\nWork backwards: actual \u00f7 (percent/100) = theoretical; then convert with the 1 : 1 ratio.\n\n## Simplified explanation\n\nDivide 25 g by 0.83 first.",
+  "hint": "Theoretical yield is larger than actual.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Indicate through a **net ionic equation** whether a precipitate forms when these aqueous solutions are mixed (if no reaction, say so):\n\n(a) sodium phosphate + aluminium chloride\n(b) aluminium sulfate + barium chloride\n(c) ammonium carbonate + lead(II) nitrate",
+  "media": [],
+  "answer": "Apply the **solubility rules**: most phosphates, carbonates are insoluble (except Group 1 and $\\ce{NH4+}$); sulfates are soluble except $\\ce{BaSO4}$, $\\ce{PbSO4}$, $\\ce{CaSO4}$ (slightly).\n\n> [!answer]\n> (a) $\\ce{Al^3+(aq) + PO4^3-(aq) -> AlPO4(s)}$\n> (b) $\\ce{Ba^2+(aq) + SO4^2-(aq) -> BaSO4(s)}$\n> (c) $\\ce{Pb^2+(aq) + CO3^2-(aq) -> PbCO3(s)}$\n>\n> A precipitate forms in all three.",
+  "explanation": "## Advanced explanation\n\nA **net ionic equation** shows only the ions that form the precipitate; **spectator ions** ($\\ce{Na+}$, $\\ce{Cl-}$, $\\ce{NH4+}$, $\\ce{NO3-}$) are left out.\n\n## Simplified explanation\n\nAll three give precipitates: **$\\ce{AlPO4}$, $\\ce{BaSO4}$, $\\ce{PbCO3}$**.",
+  "hint": "Which product is insoluble?",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Precipitation Reactions",
+   "Tutorial Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A hydrocarbon is burned completely in excess oxygen to give 0.845 g $\\ce{CO2}$ and 0.173 g $\\ce{H2O}$ from a 0.250 g sample. What is its **empirical formula**?",
+  "media": [],
+  "answer": "$$n(\\ce{C}) = \\frac{0.845}{44.01} = 0.01920;\\quad n(\\ce{H}) = \\frac{0.173}{18.02}\\times2 = 0.01920$$\nRatio C : H = 1 : 1.\n\n> [!answer]\n> **CH**",
+  "explanation": "## Advanced explanation\n\nIn **combustion analysis**, all C ends up in $\\ce{CO2}$ and all H in $\\ce{H2O}$ (2 H per $\\ce{H2O}$).\n\n## Simplified explanation\n\nEqual moles of C and H \u2192 **CH**.",
+  "hint": "2 H per water.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Combustion Analysis"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 0.2500 g sample of a compound of C, H and O burns completely to give 0.3664 g $\\ce{CO2}$ and 0.1500 g $\\ce{H2O}$. What is its **empirical formula**?",
+  "media": [],
+  "answer": "C: $0.3664/44.01 = 0.008326$ mol (0.1000 g). H: $0.1500/18.02 \\times 2 = 0.01665$ mol (0.01678 g). O by difference: $0.2500 - 0.1000 - 0.0168 = 0.1332$ g = 0.008326 mol.\n\nC : H : O = 1 : 2 : 1.\n\n> [!answer]\n> **$\\ce{CH2O}$**",
+  "explanation": "## Advanced explanation\n\nOxygen cannot be measured from the products (some came from the $\\ce{O2}$ supply), so find it **by difference**.\n\n## Simplified explanation\n\nO by subtraction; ratio 1 : 2 : 1 \u2192 **$\\ce{CH2O}$**.",
+  "hint": "Find O by difference.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Combustion Analysis"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 9.394 mg sample of an antiknock additive gave 31.154 mg $\\ce{CO2}$ and 7.977 mg $\\ce{H2O}$ on combustion. Calculate the **percent composition** of the compound.",
+  "media": [],
+  "answer": "C: $31.154 \\times \\tfrac{12.011}{44.009} = 8.503$ mg \u2192 $8.503/9.394 = 90.5\\%$. H: $7.977 \\times \\tfrac{2.016}{18.015} = 0.8927$ mg \u2192 $9.50\\%$. Total 100.0%, so there is no other element.\n\n> [!answer]\n> **C 90.5%, H 9.5%** (a hydrocarbon)",
+  "explanation": "## Advanced explanation\n\nMass of C in $\\ce{CO2}$ = $m \\times 12.011/44.009$; mass of H in $\\ce{H2O}$ = $m \\times 2.016/18.015$.\n\n## Simplified explanation\n\nC 90.5%, H 9.5%.",
+  "hint": "Mass fractions of C and H.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Percent Composition & Formulas",
+   "Combustion Analysis"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many molecules of $\\ce{H2S}$ are contained in 0.400 mol $\\ce{H2S}$? ($N_A = 6.02\\times10^{23}$ mol\u207b\u00b9)",
+  "options": [
+   {
+    "text": "$2.41 \\times 10^{23}$",
+    "hint": "Correct. $0.400 \\times 6.02\\times10^{23}$."
+   },
+   {
+    "text": "$2.41 \\times 10^{21}$",
+    "hint": "Power of ten is off."
+   },
+   {
+    "text": "$2.04 \\times 10^{22}$",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "$2.41 \\times 10^{22}$",
+    "hint": "Power of ten is off by one."
+   },
+   {
+    "text": "$2.41 \\times 10^{24}$",
+    "hint": "Power of ten is off."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "You don't need the molar mass.",
+  "explanation": "## Advanced explanation\n\n$N = n \\times N_A = 0.400 \\times 6.02\\times10^{23} = 2.41\\times10^{23}$ molecules. The molar mass is not needed.\n\n## Simplified explanation\n\nMoles \u00d7 Avogadro = **$2.41\\times10^{23}$**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "The Mole & Molar Mass",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the **sum of the coefficients** when this equation is balanced?\n\n$$\\ce{H2SO3 + Al(OH)3 -> Al2(SO3)3 + H2O}$$",
+  "options": [
+   {
+    "text": "5",
+    "hint": "Check Al and S."
+   },
+   {
+    "text": "4",
+    "hint": "The equation is not balanced as written."
+   },
+   {
+    "text": "12",
+    "hint": "Correct. $\\ce{3H2SO3 + 2Al(OH)3 -> Al2(SO3)3 + 6H2O}$: 3 + 2 + 1 + 6."
+   },
+   {
+    "text": "14",
+    "hint": "Too many."
+   },
+   {
+    "text": "11",
+    "hint": "Recount the water."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Balance Al and S first, water last.",
+  "explanation": "## Advanced explanation\n\nBalance Al (2 $\\ce{Al(OH)3}$), then sulfite (3 $\\ce{H2SO3}$), then H/O with water: $\\ce{3H2SO3 + 2Al(OH)3 -> Al2(SO3)3 + 6H2O}$. Sum $= 3 + 2 + 1 + 6 = 12$.\n\n## Simplified explanation\n\nBalanced coefficients 3, 2, 1, 6: **12**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Stoichiometry",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A 0.643 g sample of gas occupies 100.0 mL at STP. What is the molar mass of the gas?",
+  "options": [
+   {
+    "text": "162 g/mol",
+    "hint": "Check the molar volume."
+   },
+   {
+    "text": "187 g/mol",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "64.3 g/mol",
+    "hint": "You divided by 0.01."
+   },
+   {
+    "text": "2.87 g/mol",
+    "hint": "You inverted the ratio."
+   },
+   {
+    "text": "144 g/mol",
+    "hint": "Correct. $n = 0.1000/22.414 = 4.46\\times10^{-3}$ mol."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Molar volume at STP is 22.4 L.",
+  "explanation": "## Advanced explanation\n\nAt STP 1 mol of gas occupies 22.414 L: $n = 0.1000/22.414 = 4.461\\times10^{-3}$ mol; $M = 0.643/4.461\\times10^{-3} = 144$ g/mol.\n\n## Simplified explanation\n\n$M = m/n$ with $n = V/22.4$: **144 g/mol**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gases",
+   "The Mole & Molar Mass",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Using a table of average bond energies, the energy required to **atomise** (break all the bonds in) 1 mol of propan-1-ol, $\\ce{CH3CH2CH2OH}$, is closest to:",
+  "options": [
+   {
+    "text": "\u2212543.1 kJ",
+    "hint": "Breaking bonds absorbs energy; the sign must be +."
+   },
+   {
+    "text": "+4407 kJ",
+    "hint": "Correct. 7 C\u2013H + 2 C\u2013C + 1 C\u2013O + 1 O\u2013H, all endothermic."
+   },
+   {
+    "text": "\u22124407 kJ",
+    "hint": "Atomisation is endothermic, so positive."
+   },
+   {
+    "text": "+347 kJ",
+    "hint": "That is a single C\u2013C bond."
+   },
+   {
+    "text": "+413 kJ",
+    "hint": "That is a single C\u2013H bond."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Count bonds: how many C\u2013H?",
+  "explanation": "## Advanced explanation\n\nPropan-1-ol has **7 C\u2013H, 2 C\u2013C, 1 C\u2013O, 1 O\u2013H** bonds. With typical values (C\u2013H 413, C\u2013C 347, C\u2013O 358, O\u2013H 463 kJ/mol):\n$$7(413) + 2(347) + 358 + 463 \\approx +4407\\ \\text{kJ}$$\nBreaking bonds always **requires** energy (positive).\n\n## Simplified explanation\n\nCount every bond and add their energies: **+4407 kJ**.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Bond Energies",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the **incorrect** name\u2013formula combinations below and correct them.\n\n(a) $\\ce{HNO2}$ : nitrous oxide\n(b) $\\ce{Fe2(SO4)3}$ : iron(III) sulphite\n(c) LiCN : lithium cyanide\n(d) $\\ce{Na2CO3}$ : sodium carbonate\n(e) $\\ce{Ba(OH)2}$ : barium hydroxide",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** and **(b)** are incorrect:\n> - $\\ce{HNO2}$ is **nitrous acid** (nitrous oxide is $\\ce{N2O}$).\n> - $\\ce{Fe2(SO4)3}$ is **iron(III) sulphate**; iron(III) sulphite would be $\\ce{Fe2(SO3)3}$.\n>\n> (c), (d) and (e) are correct.",
+  "explanation": "## Advanced explanation\n\n**-ate** anions have more oxygen than **-ite** anions ($\\ce{SO4^2-}$ sulphate, $\\ce{SO3^2-}$ sulphite). Oxoacids from **-ite** anions are **-ous acids** ($\\ce{NO2-}$ \u2192 nitrous acid). (In the original paper both (a) and (b) are wrong, so it is set here as a find-and-correct question.)\n\n## Simplified explanation\n\n$\\ce{HNO2}$ = nitrous **acid**; $\\ce{SO4^2-}$ = sulph**ate**.",
+  "hint": "-ate vs -ite; acid vs oxide.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Nomenclature",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the correct arrangement of atoms (skeleton) in the Lewis structure of $\\ce{NO2Cl}$?",
+  "options": [
+   {
+    "text": "Cl in the centre, bonded to O, N, O",
+    "hint": "Cl is more electronegative than N."
+   },
+   {
+    "text": "Cl\u2013N\u2013O\u2013O (a chain)",
+    "hint": "No."
+   },
+   {
+    "text": "N\u2013Cl\u2013O\u2013O (a chain)",
+    "hint": "No."
+   },
+   {
+    "text": "N\u2013O\u2013O\u2013Cl (a chain)",
+    "hint": "O\u2013O bonds are unstable; no."
+   },
+   {
+    "text": "N in the centre, bonded to Cl, O and O",
+    "hint": "Correct. The least electronegative atom (N) is central."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Least electronegative atom goes in the centre.",
+  "explanation": "## Advanced explanation\n\nThe central atom is usually the **least electronegative** (not H) and the one that can form most bonds: **N**. All three other atoms bond to it: $\\ce{O2N-Cl}$ (nitryl chloride).\n\n## Simplified explanation\n\n**N in the middle** with Cl and two O around it.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Chemical Bonding & Lewis Structures",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which block of the Periodic Table is the element with configuration $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2 4p^6$?",
+  "options": [
+   {
+    "text": "none",
+    "hint": "Kr is in the p block."
+   },
+   {
+    "text": "f",
+    "hint": "No f electrons."
+   },
+   {
+    "text": "d",
+    "hint": "3d is full but not the last added."
+   },
+   {
+    "text": "p",
+    "hint": "Correct. The last electrons enter 4p (it is krypton)."
+   },
+   {
+    "text": "s",
+    "hint": "The last subshell filled is 4p."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Look at the last subshell.",
+  "explanation": "## Advanced explanation\n\nThe **block** is the type of subshell receiving the last (differentiating) electron: $4p^6$ \u2192 **p block** (Kr, group 18).\n\n## Simplified explanation\n\nLast electrons in **p** \u2192 p block.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Periodic Properties",
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Give the maximum number of electrons in an atom that can have the quantum numbers $n = 3$, $\\ell = 2$, $m_\\ell = 0$ and $m_s = +\\tfrac{1}{2}$.",
+  "options": [
+   {
+    "text": "5",
+    "hint": "That is the number of 3d orbitals."
+   },
+   {
+    "text": "2",
+    "hint": "That ignores the fixed $m_s$."
+   },
+   {
+    "text": "10",
+    "hint": "That is the whole 3d subshell."
+   },
+   {
+    "text": "1",
+    "hint": "Correct. All four numbers fixed \u2192 one electron (Pauli)."
+   },
+   {
+    "text": "0",
+    "hint": "These are valid quantum numbers."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Pauli exclusion.",
+  "explanation": "## Advanced explanation\n\n$n, \\ell, m_\\ell$ define **one orbital** (a 3d orbital); fixing $m_s = +\\tfrac12$ allows only **one** electron. **Pauli exclusion principle**: no two electrons share all four quantum numbers.\n\n## Simplified explanation\n\nAll four given \u2192 **1** electron.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Quantum Numbers",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The electron configuration $1s^2 2s^2 2p^6 3s^2 3p^6 3d^{10} 4s^2 4p^6 5s^2$ represents a/an:",
+  "options": [
+   {
+    "text": "alkaline earth metal",
+    "hint": "Correct. Ends in $5s^2$: strontium, group 2."
+   },
+   {
+    "text": "alkali metal",
+    "hint": "Alkali metals end in $ns^1$."
+   },
+   {
+    "text": "halogen",
+    "hint": "Halogens end in $np^5$."
+   },
+   {
+    "text": "inert gas",
+    "hint": "Noble gases end in $np^6$."
+   },
+   {
+    "text": "transition metal",
+    "hint": "No partly filled d."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Look at the outermost subshell.",
+  "explanation": "## Advanced explanation\n\nOuter configuration $5s^2$ \u2192 **group 2 (alkaline earth)**, period 5: **strontium (Sr)**.\n\n## Simplified explanation\n\nEnds in $ns^2$ \u2192 **alkaline earth**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Periodic Properties",
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many grams of ethanol ($\\ce{CH3CH2OH}$) are contained in 0.100 L of 1.71 M aqueous ethanol?",
+  "options": [
+   {
+    "text": "5.48 g",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "4.71 g",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "8.39 g",
+    "hint": "Check the molar mass."
+   },
+   {
+    "text": "3.91 g",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "7.87 g",
+    "hint": "Correct. 0.171 mol \u00d7 46.07 g/mol."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Moles first.",
+  "explanation": "## Advanced explanation\n\n$n = cV = 1.71 \\times 0.100 = 0.171$ mol; $m = 0.171 \\times 46.07 = 7.87$ g.\n\n## Simplified explanation\n\n$cV \\times M$ = **7.87 g**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Solutions & Molarity",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement concerning quantum numbers is **NOT** correct?",
+  "options": [
+   {
+    "text": "The fourth quantum number refers to electron spin.",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "\u201cn\u201d relates to the most probable distance from the nucleus.",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "The four quantum numbers are derived from wave mechanics.",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "\u201c$m_s$\u201d denotes orientation of an orbital with respect to the others.",
+    "hint": "Correct. Orientation is $m_\\ell$; $m_s$ is spin."
+   },
+   {
+    "text": "\u201c\u2113\u201d denotes geometric shape.",
+    "hint": "Correct statement."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which number gives orientation?",
+  "explanation": "## Advanced explanation\n\n$n$: size/energy (shell); $\\ell$: **shape** (s, p, d, f); $m_\\ell$: **orientation** in space; $m_s$: **spin** ($\\pm\\tfrac12$).\n\n## Simplified explanation\n\n$m_s$ is **spin**, not orientation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Quantum Numbers",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which comparison of ionisation energies is correct?",
+  "options": [
+   {
+    "text": "Cs > Na",
+    "hint": "IE decreases down a group."
+   },
+   {
+    "text": "Ar > He",
+    "hint": "He has the highest IE of all."
+   },
+   {
+    "text": "Ca > Mg",
+    "hint": "IE decreases down a group."
+   },
+   {
+    "text": "Na > Mg",
+    "hint": "Mg is higher (across a period IE rises)."
+   },
+   {
+    "text": "Ca\u207a > Ca",
+    "hint": "Correct. Removing an electron from a cation is harder."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Trends: across \u2191, down \u2193.",
+  "explanation": "## Advanced explanation\n\nIonisation energy **increases across a period** and **decreases down a group**; **successive** ionisation energies always increase (IE\u2082 of Ca, from Ca\u207a, > IE\u2081 of Ca).\n\n## Simplified explanation\n\nA cation holds its electrons more tightly: **Ca\u207a > Ca**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Periodic Properties",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Calculate the energy, in **kJ/mol**, of light with a wavelength of 360 nm.",
+  "options": [
+   {
+    "text": "$6.63 \\times 10^{3}$",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "$8.85 \\times 10^{-19}$",
+    "hint": "Check the arithmetic."
+   },
+   {
+    "text": "$5.52 \\times 10^{-22}$",
+    "hint": "That is per photon in kJ, not per mole."
+   },
+   {
+    "text": "333",
+    "hint": "Correct. $E = hcN_A/\\lambda$."
+   },
+   {
+    "text": "0.333",
+    "hint": "Check the units (kJ vs MJ)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Multiply by Avogadro's number.",
+  "explanation": "## Advanced explanation\n\n$$E_{\\text{photon}} = \\frac{hc}{\\lambda} = \\frac{(6.626\\times10^{-34})(2.998\\times10^{8})}{360\\times10^{-9}} = 5.52\\times10^{-19}\\ \\text{J}$$\n$$\\times N_A = 3.32\\times10^{5}\\ \\text{J/mol} \\approx 333\\ \\text{kJ/mol}$$\n\n## Simplified explanation\n\nPer photon \u00d7 Avogadro: **\u2248 333 kJ/mol**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Atomic Spectra",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The basic ideas of and uses for VSEPR theory include all of the following **EXCEPT**",
+  "options": [
+   {
+    "text": "helping to predict dipole moments",
+    "hint": "Geometry helps predict polarity."
+   },
+   {
+    "text": "predicting molecular geometry",
+    "hint": "Its main use."
+   },
+   {
+    "text": "electron pairs in the valence shell repel each other",
+    "hint": "Its basic idea."
+   },
+   {
+    "text": "predicting bond angles",
+    "hint": "A use of VSEPR."
+   },
+   {
+    "text": "predicting electronegativities",
+    "hint": "Correct. VSEPR says nothing about electronegativity."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "What does VSEPR model?",
+  "explanation": "## Advanced explanation\n\n**VSEPR** (valence-shell electron-pair repulsion) predicts **geometry and bond angles** from electron-domain repulsion; geometry then helps decide **polarity**. Electronegativity is an atomic property, not a VSEPR prediction.\n\n## Simplified explanation\n\nVSEPR does **not** predict electronegativity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **octahedral** hybrid configuration is composed of which orbital combination?",
+  "options": [
+   {
+    "text": "$sp^3$",
+    "hint": "Tetrahedral (4)."
+   },
+   {
+    "text": "$sp^3d^2$",
+    "hint": "Correct. Six hybrid orbitals for six electron domains."
+   },
+   {
+    "text": "$sp^3d$",
+    "hint": "Trigonal bipyramidal (5)."
+   },
+   {
+    "text": "$sp^2d^3$",
+    "hint": "Not a standard set."
+   },
+   {
+    "text": "$spd^2$",
+    "hint": "Only four orbitals."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Count the orbitals: 1 + 3 + 2.",
+  "explanation": "## Advanced explanation\n\nNumber of hybrid orbitals = number of electron domains: 2 $sp$, 3 $sp^2$, 4 $sp^3$, 5 $sp^3d$, **6 $sp^3d^2$ (octahedral)**, e.g. $\\ce{SF6}$.\n\n## Simplified explanation\n\nOctahedral = 6 domains = **$sp^3d^2$**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement concerning the relative energy levels of molecular orbitals for $\\ce{O2}$ is **incorrect**?",
+  "options": [
+   {
+    "text": "$\\sigma_{1s} < \\sigma_{2s}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\sigma_{1s} < \\sigma_{1s}^*$",
+    "hint": "Correct: bonding below antibonding."
+   },
+   {
+    "text": "$\\sigma_{2s} < \\sigma_{2p}$",
+    "hint": "Correct."
+   },
+   {
+    "text": "$\\sigma_{2p}^* < \\pi_{2p}^*$",
+    "hint": "Correct. In $\\ce{O2}$, $\\sigma^*_{2p}$ is the highest MO."
+   },
+   {
+    "text": "$\\pi_{2p}^* < \\sigma_{2p}^*$",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Write out the O\u2082 MO order.",
+  "explanation": "## Advanced explanation\n\nFor $\\ce{O2}$ (and $\\ce{F2}$): $\\sigma_{1s} < \\sigma^*_{1s} < \\sigma_{2s} < \\sigma^*_{2s} < \\sigma_{2p} < \\pi_{2p} < \\pi^*_{2p} < \\sigma^*_{2p}$. So $\\sigma^*_{2p}$ is **above** $\\pi^*_{2p}$.\n\n## Simplified explanation\n\n$\\sigma^*_{2p}$ is the **highest** level.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Molecular Orbital Theory",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "As indicated by Lewis structures, which of these molecules would probably **not** exist as a stable molecule?",
+  "options": [
+   {
+    "text": "$\\ce{N2H6}$",
+    "hint": "Correct. Each N would need 4 bonds and no lone pair while neutral."
+   },
+   {
+    "text": "None of these",
+    "hint": "One of them cannot be drawn."
+   },
+   {
+    "text": "$\\ce{CH2F2}$",
+    "hint": "Stable."
+   },
+   {
+    "text": "$\\ce{NH3}$",
+    "hint": "Stable."
+   },
+   {
+    "text": "$\\ce{SF4}$",
+    "hint": "Stable (S can expand its octet)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Try to draw each Lewis structure.",
+  "explanation": "## Advanced explanation\n\nIn $\\ce{N2H6}$ each N would carry an N\u2013N bond plus 3 N\u2013H bonds (4 bonds), impossible for a **neutral** N in period 2 (no expanded octet). $\\ce{N2H4}$ (hydrazine) exists; $\\ce{N2H6^2+}$ exists only as an ion.\n\n## Simplified explanation\n\nNeutral N can't make 4 bonds: **$\\ce{N2H6}$**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Chemical Bonding & Lewis Structures",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a reasonable value of the bond angle in ammonia ($\\ce{NH3}$)?",
+  "options": [
+   {
+    "text": "120\u00b0",
+    "hint": "Trigonal planar."
+   },
+   {
+    "text": "90\u00b0",
+    "hint": "No."
+   },
+   {
+    "text": "109.5\u00b0",
+    "hint": "That is for no lone pairs (CH\u2084)."
+   },
+   {
+    "text": "111\u00b0",
+    "hint": "Larger than tetrahedral."
+   },
+   {
+    "text": "108\u00b0",
+    "hint": "Correct. About 107\u00b0: tetrahedral domains squeezed by a lone pair."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Lone pairs take more room.",
+  "explanation": "## Advanced explanation\n\n$\\ce{NH3}$ is AX\u2083E: 4 electron domains (tetrahedral) but the **lone pair repels more**, compressing H\u2013N\u2013H to \u2248 **107\u00b0**, below 109.5\u00b0.\n\n## Simplified explanation\n\nLone pair squeezes it to **\u2248107\u2013108\u00b0**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Within VSEPR theory, how many regions of high electron concentration surround the central atom in carbon tetrabromide, $\\ce{CBr4}$?",
+  "options": [
+   {
+    "text": "4",
+    "hint": "Correct. Four C\u2013Br bonds, no lone pairs."
+   },
+   {
+    "text": "32",
+    "hint": "That is total valence electrons."
+   },
+   {
+    "text": "0",
+    "hint": "No."
+   },
+   {
+    "text": "2",
+    "hint": "No."
+   },
+   {
+    "text": "3",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Count bonds and lone pairs on C.",
+  "explanation": "## Advanced explanation\n\nC has four single bonds to Br and no lone pairs: **4 electron domains** \u2192 tetrahedral.\n\n## Simplified explanation\n\n**4** bonds \u2192 4 regions.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 0.3172 g sample containing only KCl and NaBr is dissolved in 50 mL water and titrated with 0.1120 M $\\ce{AgNO3}$, requiring 36.14 mL to reach the endpoint. What is the **% NaBr** in the sample?",
+  "media": [],
+  "answer": "$n(\\ce{Ag+}) = 0.1120 \\times 0.03614 = 4.048\\times10^{-3}$ mol $= n(\\ce{Cl-}) + n(\\ce{Br-})$.\n\nLet $x$ = g KCl: $\\dfrac{x}{74.55} + \\dfrac{0.3172 - x}{102.89} = 4.048\\times10^{-3}$ \u2192 $x = 0.2611$ g KCl.\n\nNaBr $= 0.3172 - 0.2611 = 0.0561$ g \u2192 $\\dfrac{0.0561}{0.3172}\\times100$.\n\n> [!answer]\n> **\u2248 17.7% NaBr**",
+  "explanation": "## Advanced explanation\n\nBoth halides precipitate with $\\ce{Ag+}$ (1 : 1), so total moles of halide = moles of $\\ce{Ag+}$. Set up two equations (mass and moles) in two unknowns. (The printed options were 82.41%, 17.40%, 15.22%, 78.39% and 'other'; the calculation gives 17.7%, so 'other' / closest 17.4% depending on rounding.)\n\n## Simplified explanation\n\nMoles of Ag\u207a = moles of Cl\u207b + Br\u207b; solve for the masses: **\u2248 17.7% NaBr**.",
+  "hint": "Two unknowns, two equations.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Solutions & Molarity",
+   "Stoichiometry",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) List the values of the four quantum numbers for a **4p** electron (list all possible values).\n(b) Using **Slater's rules**, determine the effective nuclear charge, $Z_{\\text{eff}}$, felt by a 3d electron in $\\ce{Cu^2+}$.",
+  "media": [],
+  "answer": "**(a)** $n = 4$; $\\ell = 1$; $m_\\ell = -1, 0, +1$; $m_s = +\\tfrac12$ or $-\\tfrac12$.\n\n**(b)** $\\ce{Cu^2+}$: $[\\ce{Ar}]\\,3d^9$. For a 3d electron: other 3d electrons $8 \\times 0.35 = 2.80$; all electrons in lower groups $(1s^2 2s^2 2p^6 3s^2 3p^6)$: $18 \\times 1.00 = 18.00$. $S = 20.80$.\n$$Z_{\\text{eff}} = 29 - 20.80 = 8.2$$\n\n> [!answer]\n> (a) $n=4,\\ \\ell=1,\\ m_\\ell=-1,0,+1,\\ m_s=\\pm\\tfrac12$\n> (b) $Z_{\\text{eff}} = 8.2$",
+  "explanation": "## Advanced explanation\n\n**Slater's rules** for an $nd$ (or $nf$) electron: 0.35 for each other electron in the same $nd$ group; **1.00** for every electron in groups to the left (including $ns, np$ of the same $n$).\n\n## Simplified explanation\n\n4p: n = 4, \u2113 = 1; Zeff = 29 \u2212 20.8 = **8.2**.",
+  "hint": "Cu\u00b2\u207a loses the 4s electrons first.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Quantum Numbers",
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Complete the table for the hydrogen atom:\n\n| Orbital | Shape of orbital | No. of radial nodes | No. of angular nodes |\n|---|---|---|---|\n| 2s | | | |\n| 5p_z | | | |\n| 3d_z\u00b2 | | | |",
+  "media": [],
+  "answer": "Radial nodes $= n - \\ell - 1$; angular nodes $= \\ell$.\n\n> [!answer]\n> | Orbital | Shape | Radial | Angular |\n> |---|---|---|---|\n> | 2s | spherical | 1 | 0 |\n> | 5p_z | dumbbell along z | 3 | 1 |\n> | 3d_z\u00b2 | dumbbell along z with a ring (torus) | 0 | 2 |",
+  "explanation": "## Advanced explanation\n\nTotal nodes $= n - 1$; of these, $\\ell$ are **angular** (planes or cones) and the rest, $n - \\ell - 1$, are **radial** (spheres).\n\n## Simplified explanation\n\nRadial = $n-\\ell-1$, angular = $\\ell$.",
+  "hint": "Use the two node formulas.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Quantum Numbers",
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A compound has the formula $\\ce{MI2}$ (M = unknown metal). A 3.609 g sample of $\\ce{MI2}$ is dissolved and treated with $\\ce{AgNO3}$ so that all the iodine precipitates as AgI; 6.093 g of AgI results. Identify the metal M.\n\n$$\\ce{MI2 + 2AgNO3 -> 2AgI(s) + M(NO3)2}$$",
+  "media": [],
+  "answer": "$n(\\ce{AgI}) = 6.093/234.77 = 0.02595$ mol \u2192 $n(\\ce{MI2}) = 0.01298$ mol.\n$$M(\\ce{MI2}) = \\frac{3.609}{0.01298} = 278.1\\ \\text{g/mol} \\Rightarrow M = 278.1 - 2(126.90) = 24.3$$\n\n> [!answer]\n> **M = magnesium (Mg)**, $\\ce{MgI2}$",
+  "explanation": "## Advanced explanation\n\nGravimetric analysis: the precipitate's moles fix the moles of the original compound via the mole ratio; then molar mass \u2192 identity.\n\n## Simplified explanation\n\nAtomic mass \u2248 24.3 \u2192 **Mg**.",
+  "hint": "2 AgI per MI\u2082.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Stoichiometry",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 1.27 g sample of an oxide of nitrogen, either $\\ce{N2O}$ or NO, occupies 1.07 L at 25 \u00b0C and 737 torr. Which oxide is it?",
+  "media": [],
+  "answer": "$$n = \\frac{PV}{RT} = \\frac{(737/760)(1.07)}{(0.08206)(298.15)} = 0.0424\\ \\text{mol};\\quad M = \\frac{1.27}{0.0424} = 29.9\\ \\text{g/mol}$$\n\n> [!answer]\n> **NO** (M \u2248 30 g/mol; $\\ce{N2O}$ would be 44 g/mol)",
+  "explanation": "## Advanced explanation\n\nIdeal gas law gives moles; mass \u00f7 moles gives molar mass. Convert torr to atm (\u00f7 760) and \u00b0C to K.\n\n## Simplified explanation\n\nMolar mass \u2248 30 \u2192 **NO**.",
+  "hint": "PV = nRT.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Gases",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Give the electron configuration of **Cr** and its number of unpaired electrons.\n(b) The electron affinity of bromine is negative, but for krypton it is positive. Define electron affinity and explain the difference using electron configurations.",
+  "media": [],
+  "answer": "**(a)** Cr: $[\\ce{Ar}]\\,3d^5 4s^1$ (a half-filled d subshell is extra stable) \u2192 **6 unpaired electrons**.\n\n**(b)** **Electron affinity** is the energy change when a gaseous atom gains an electron: $\\ce{X(g) + e- -> X-(g)}$. Br ($[\\ce{Ar}]3d^{10}4s^2 4p^5$) gains an electron to complete its $4p$ subshell, so energy is **released** (negative EA). Kr ($4p^6$) is already full; an added electron must enter the much higher **5s** level, so energy must be **absorbed** (positive EA).\n\n> [!answer]\n> Cr: $[\\ce{Ar}]3d^5 4s^1$, 6 unpaired. Br completes a subshell (energy released); Kr would start a new shell (energy required).",
+  "explanation": "## Advanced explanation\n\nCr and Cu are the classic exceptions to the Aufbau order ($3d^5 4s^1$, $3d^{10} 4s^1$).\n\n## Simplified explanation\n\nCr is $3d^5 4s^1$; full shells resist extra electrons.",
+  "hint": "Half-filled d is stable.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Periodic Properties",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Construct a **molecular orbital diagram** for $\\ce{O2}$ (valence orbitals only). Give its bond order and magnetism.",
+  "media": [],
+  "answer": "12 valence electrons: $(\\sigma_{2s})^2 (\\sigma^*_{2s})^2 (\\sigma_{2p})^2 (\\pi_{2p})^4 (\\pi^*_{2p})^2$, with the two $\\pi^*$ electrons **unpaired** (one in each $\\pi^*_{2p}$, Hund's rule).\n$$\\text{Bond order} = \\tfrac{1}{2}(8 - 4) = 2$$\n\n> [!answer]\n> Bond order **2**; **paramagnetic** (2 unpaired electrons in $\\pi^*_{2p}$)",
+  "explanation": "## Advanced explanation\n\nMO theory explains $\\ce{O2}$'s **paramagnetism**, which a simple Lewis structure (all electrons paired) cannot.\n\n## Simplified explanation\n\nO\u2082: bond order 2, two unpaired electrons \u2192 paramagnetic.",
+  "hint": "Fill 12 electrons in order.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Molecular Orbital Theory",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Determine the only possible **3\u2212 ion** for which: the absolute net ionic charge is one-fifth of the nuclear charge, and the number of neutrons is two less than the number of electrons. Give its full ${}^{A}_{Z}\\text{E}^{\\text{charge}}$ notation.",
+  "media": [],
+  "answer": "Charge 3 = Z/5 \u2192 **Z = 15** (phosphorus). Electrons = 15 + 3 = 18. Neutrons = 18 \u2212 2 = 16. Mass number A = 15 + 16 = 31.\n\n> [!answer]\n> **${}^{31}_{15}\\text{P}^{3-}$**",
+  "explanation": "## Advanced explanation\n\nFor an anion, electrons = Z + |charge|; mass number = protons + neutrons. (The paper's wording 'electrons is two less than the number of electrons' is read as neutrons two less than electrons.)\n\n## Simplified explanation\n\nZ = 15, 18 electrons, 16 neutrons \u2192 **\u00b3\u00b9P\u00b3\u207b**.",
+  "hint": "Start from charge = Z/5.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Name: $\\ce{H3PO3(aq)}$ and $\\ce{Cu2O}$.\n(b) Write the balanced equation for the reaction of potassium superoxide with carbon dioxide.",
+  "media": [],
+  "answer": "(a) $\\ce{H3PO3}$ (aq) is **phosphorous acid**; $\\ce{Cu2O}$ is **copper(I) oxide**.\n\n(b) $\\ce{4KO2(s) + 2CO2(g) -> 2K2CO3(s) + 3O2(g)}$\n\n> [!answer]\n> (a) phosphorous acid; copper(I) oxide\n> (b) $\\ce{4KO2 + 2CO2 -> 2K2CO3 + 3O2}$",
+  "explanation": "## Advanced explanation\n\nSuperoxide is $\\ce{O2-}$. This reaction regenerates breathing oxygen in submarines and spacecraft.\n\n## Simplified explanation\n\nPhosphorous acid; Cu(I) oxide; $\\ce{4KO2 + 2CO2 -> 2K2CO3 + 3O2}$.",
+  "hint": "Cu has +1 in Cu\u2082O.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Nomenclature",
+   "Stoichiometry",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Classify the aqueous solutions of these compounds as **strong**, **weak** or **non-electrolytes**: $\\ce{CH3OH}$, $\\ce{NH3}$, HCl, $\\ce{CaSO4}$, $\\ce{CH3COOH}$, $\\ce{Mg(OH)2}$, $\\ce{NaNO3}$, $\\ce{CCl4}$.",
+  "media": [],
+  "answer": "Strong electrolytes ionise completely (strong acids/bases, soluble or dissolved ionic salts); weak electrolytes ionise partially (weak acids/bases); non-electrolytes dissolve as molecules.\n\n> [!answer]\n> - **Strong:** HCl, $\\ce{NaNO3}$, $\\ce{CaSO4}$, $\\ce{Mg(OH)2}$ (the dissolved portion of these ionic solids is fully ionised)\n> - **Weak:** $\\ce{NH3}$, $\\ce{CH3COOH}$\n> - **Non-electrolytes:** $\\ce{CH3OH}$, $\\ce{CCl4}$",
+  "explanation": "## Advanced explanation\n\nIonic compounds are strong electrolytes even when only slightly soluble ($\\ce{CaSO4}$, $\\ce{Mg(OH)2}$); molecular acids/bases are weak unless they are strong acids (HCl, $\\ce{HNO3}$, $\\ce{H2SO4}$ \u2026).\n\n## Simplified explanation\n\nStrong: HCl, NaNO\u2083, CaSO\u2084, Mg(OH)\u2082; weak: NH\u2083, CH\u2083COOH; non: CH\u2083OH, CCl\u2084.",
+  "hint": "Ionic or strong acid \u2192 strong.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Electrolytes",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Using the solubility rules, write a net ionic equation and predict what happens when these pairs of solutions are mixed:\n(a) $\\ce{KNO3(aq)}$ and $\\ce{Pb(ClO4)2(aq)}$\n(b) KOH(aq) and $\\ce{Fe(NO3)3(aq)}$",
+  "media": [],
+  "answer": "All nitrates, perchlorates and Group 1 salts are soluble; most hydroxides are insoluble except Group 1 (and Ba, Sr, Ca slightly).\n\n> [!answer]\n> (a) **No reaction**: all possible products ($\\ce{KClO4}$, $\\ce{Pb(NO3)2}$) are soluble.\n> (b) $\\ce{Fe^3+(aq) + 3OH-(aq) -> Fe(OH)3(s)}$: a red-brown precipitate forms.",
+  "explanation": "## Advanced explanation\n\nSpectator ions ($\\ce{K+}$, $\\ce{NO3-}$) are omitted from net ionic equations.\n\n## Simplified explanation\n\n(a) nothing; (b) Fe(OH)\u2083 precipitate.",
+  "hint": "Which product is insoluble?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Precipitation Reactions",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the **oxidising** and **reducing** agents:\n$$\\ce{H+(aq) + Cr2O7^2-(aq) + C2H5OH(l) -> Cr^3+(aq) + CO2(g) + H2O(l)}$$",
+  "media": [],
+  "answer": "Cr: +6 in $\\ce{Cr2O7^2-}$ \u2192 +3 in $\\ce{Cr^3+}$ (reduced). C: \u22122 in ethanol \u2192 +4 in $\\ce{CO2}$ (oxidised).\n\n> [!answer]\n> Oxidising agent: **$\\ce{Cr2O7^2-}$**; reducing agent: **$\\ce{C2H5OH}$**",
+  "explanation": "## Advanced explanation\n\nThe **oxidising agent is reduced**; the **reducing agent is oxidised**. This is the chemistry of the old breathalyser (orange \u2192 green).\n\n## Simplified explanation\n\nDichromate oxidises ethanol.",
+  "hint": "Track oxidation numbers of Cr and C.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Oxidation Numbers & Redox",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Balance this redox equation in **basic** solution:\n$$\\ce{Ag(s) + CN-(aq) + O2(g) -> Ag(CN)2^-(aq)}$$",
+  "media": [],
+  "answer": "Oxidation: $\\ce{Ag + 2CN- -> Ag(CN)2^- + e-}$ (\u00d74)\n\nReduction (basic): $\\ce{O2 + 2H2O + 4e- -> 4OH-}$\n\n> [!answer]\n> $\\ce{4Ag + 8CN- + O2 + 2H2O -> 4Ag(CN)2^- + 4OH-}$",
+  "explanation": "## Advanced explanation\n\nHalf-reaction method: balance atoms other than O/H, then O with $\\ce{H2O}$, H with $\\ce{H+}$, charge with electrons; in basic solution add $\\ce{OH-}$ to neutralise $\\ce{H+}$. Multiply so electrons cancel. (This is the cyanide process for extracting gold and silver.)\n\n## Simplified explanation\n\n4 Ag lose 4 e\u207b; one O\u2082 gains 4 e\u207b.",
+  "hint": "Equalise electrons.",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Oxidation Numbers & Redox",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Determine the wavelength (in nm) of the line in the **Balmer series** of hydrogen corresponding to the transition from n = 5. ($R_H = 2.179\\times10^{-18}$ J, $c = 2.998\\times10^{8}$ m s\u207b\u00b9)",
+  "media": [],
+  "answer": "Balmer lines end at $n = 2$.\n$$\\Delta E = 2.179\\times10^{-18}\\left(\\tfrac{1}{4} - \\tfrac{1}{25}\\right) = 4.576\\times10^{-19}\\ \\text{J}$$\n$$\\lambda = \\frac{hc}{\\Delta E} = \\frac{(6.626\\times10^{-34})(2.998\\times10^{8})}{4.576\\times10^{-19}} = 4.341\\times10^{-7}\\ \\text{m}$$\n\n> [!answer]\n> **\u03bb \u2248 434 nm** (violet)",
+  "explanation": "## Advanced explanation\n\nFor a one-electron atom, $E_n = -\\dfrac{R_H}{n^2}$ with $R_H = 2.179\\times10^{-18}$ J, so a transition releases $\\Delta E = R_H\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ and $\\lambda = \\dfrac{hc}{\\Delta E}$.\n\n## Simplified explanation\n\nn = 5 \u2192 2: **434 nm**.",
+  "hint": "Balmer lines end at n = 2.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Atomic Spectra",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What electron transition in a hydrogen atom, **ending in the orbit n = 3**, will produce light of wavelength 1090 nm?",
+  "media": [],
+  "answer": "$$\\Delta E = \\frac{hc}{\\lambda} = \\frac{(6.626\\times10^{-34})(2.998\\times10^{8})}{1090\\times10^{-9}} = 1.822\\times10^{-19}\\ \\text{J}$$\n$$\\frac{1}{3^2} - \\frac{1}{n_i^2} = \\frac{1.822\\times10^{-19}}{2.179\\times10^{-18}} = 0.0836 \\Rightarrow \\frac{1}{n_i^2} = 0.0275 \\Rightarrow n_i \\approx 6$$\n\n> [!answer]\n> **n = 6 \u2192 n = 3** (a Paschen line)",
+  "explanation": "## Advanced explanation\n\nFor a one-electron atom, $E_n = -\\dfrac{R_H}{n^2}$ with $R_H = 2.179\\times10^{-18}$ J, so a transition releases $\\Delta E = R_H\\left(\\dfrac{1}{n_f^2} - \\dfrac{1}{n_i^2}\\right)$ and $\\lambda = \\dfrac{hc}{\\Delta E}$.\n\n## Simplified explanation\n\nFrom **n = 6** down to 3.",
+  "hint": "Solve for the initial n.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Atomic Spectra",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write the noble-gas-core electron configurations of **Cr, Cd and Mg**, and for each give its block, period and magnetism.",
+  "media": [],
+  "answer": "Cr (Z = 24), Cd (Z = 48), Mg (Z = 12).\n\n> [!answer]\n> | Element | Configuration | Block | Period | Magnetism |\n> |---|---|---|---|---|\n> | Cr | $[\\ce{Ar}]\\,3d^5 4s^1$ | d | 4 | paramagnetic (6 unpaired) |\n> | Cd | $[\\ce{Kr}]\\,4d^{10} 5s^2$ | d | 5 | diamagnetic |\n> | Mg | $[\\ce{Ne}]\\,3s^2$ | s | 3 | diamagnetic |",
+  "explanation": "## Advanced explanation\n\n**Paramagnetic** species have unpaired electrons and are attracted to a magnetic field; **diamagnetic** species have all electrons paired. Period = highest $n$; block = subshell last filled.\n\n## Simplified explanation\n\nCr has unpaired electrons (paramagnetic); Cd and Mg are fully paired.",
+  "hint": "Cr is an Aufbau exception.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Periodic Properties",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write the most plausible Lewis structure of **nitrosyl chloride, NOCl** (an oxidising agent in aqua regia), using formal charges.",
+  "media": [],
+  "answer": "Valence electrons: 5 + 6 + 7 = 18. Skeleton O\u2013N\u2013Cl (N central). Structure $\\ce{O=N-Cl}$ with 2 lone pairs on O, 1 on N, 3 on Cl.\n\nFormal charges: O $6 - 4 - 2 = 0$; N $5 - 2 - 3 = 0$; Cl $7 - 6 - 1 = 0$.\n\n> [!answer]\n> **:\u00d6=N\u0308\u2013C\u0308l:** with N central; all formal charges zero",
+  "explanation": "## Advanced explanation\n\nFormal charge $= V - N_{\\text{lone}} - \\tfrac12 N_{\\text{bonding}}$. The best structure has formal charges as close to zero as possible.\n\n## Simplified explanation\n\nO=N\u2013Cl with N in the middle.",
+  "hint": "N is the central atom.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Chemical Bonding & Lewis Structures",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the **exceptions to the octet rule** in writing Lewis structures, giving an example of each.",
+  "media": [],
+  "answer": "Some molecules cannot satisfy the octet rule for every atom.\n\n> [!answer]\n> 1. **Incomplete octet** (fewer than 8 electrons): $\\ce{BF3}$, $\\ce{BeCl2}$.\n> 2. **Expanded octet** (more than 8; period 3 and beyond, using d orbitals): $\\ce{SF6}$, $\\ce{PCl5}$.\n> 3. **Odd-electron species** (free radicals): NO, $\\ce{NO2}$.",
+  "explanation": "## Advanced explanation\n\nPeriod-2 atoms can never exceed 8 electrons because they have no d orbitals.\n\n## Simplified explanation\n\nIncomplete, expanded, odd-electron.",
+  "hint": "Think of BF\u2083, SF\u2086 and NO.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Chemical Bonding & Lewis Structures",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The hybridisation of the C atom in $\\ce{CH3+}$ and $\\ce{CH3-}$ is expected to be the same as in $\\ce{CH4}$. Show whether this assumption is true or false.",
+  "media": [],
+  "answer": "$\\ce{CH4}$: 4 bonding domains \u2192 $sp^3$.\n$\\ce{CH3+}$: 3 bonding domains, no lone pair \u2192 trigonal planar \u2192 $sp^2$.\n$\\ce{CH3-}$: 3 bonding domains + 1 lone pair = 4 domains \u2192 $sp^3$ (trigonal pyramidal).\n\n> [!answer]\n> **False**: $\\ce{CH3-}$ is $sp^3$ like $\\ce{CH4}$, but $\\ce{CH3+}$ is **$sp^2$**",
+  "explanation": "## Advanced explanation\n\nHybridisation follows the number of **electron domains** (bonds + lone pairs) on the central atom.\n\n## Simplified explanation\n\nCH\u2083\u207a has only 3 domains \u2192 sp\u00b2.",
+  "hint": "Count domains, including lone pairs.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write molecular orbital configurations for $\\ce{O2}$ and $\\ce{C2}$, calculate their bond orders and state whether each is paramagnetic or diamagnetic.",
+  "media": [],
+  "answer": "**$\\ce{O2}$** (12 valence e\u207b): $(\\sigma_{2s})^2(\\sigma^*_{2s})^2(\\sigma_{2p})^2(\\pi_{2p})^4(\\pi^*_{2p})^2$ \u2192 BO $= (8-4)/2 = 2$.\n\n**$\\ce{C2}$** (8 valence e\u207b; for B\u2082, C\u2082, N\u2082 the $\\pi_{2p}$ lies below $\\sigma_{2p}$): $(\\sigma_{2s})^2(\\sigma^*_{2s})^2(\\pi_{2p})^4$ \u2192 BO $= (6-2)/2 = 2$.\n\n> [!answer]\n> $\\ce{O2}$: bond order 2, **paramagnetic**. $\\ce{C2}$: bond order 2, **diamagnetic**.",
+  "explanation": "## Advanced explanation\n\nBond order $= \\tfrac12$(bonding \u2212 antibonding electrons). The order of $\\sigma_{2p}$ and $\\pi_{2p}$ swaps between $\\ce{N2}$ and $\\ce{O2}$ because of s\u2013p mixing.\n\n## Simplified explanation\n\nBoth have bond order 2; only O\u2082 has unpaired electrons.",
+  "hint": "Mind the \u03c3/\u03c0 order for C\u2082.",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Molecular Orbital Theory",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Use VSEPR to predict the electron-pair geometry, molecular geometry and hybridisation of the central atom in (i) $\\ce{H2S}$ (ii) $\\ce{CHCl3}$ (iii) $\\ce{PH3}$.",
+  "media": [],
+  "answer": "Count bonding + lone pairs on the central atom.\n\n> [!answer]\n> | Species | Domains | Electron-pair geometry | Molecular geometry | Hybridisation |\n> |---|---|---|---|---|\n> | $\\ce{H2S}$ | AX\u2082E\u2082 | tetrahedral | bent | $sp^3$ |\n> | $\\ce{CHCl3}$ | AX\u2084 | tetrahedral | tetrahedral | $sp^3$ |\n> | $\\ce{PH3}$ | AX\u2083E | tetrahedral | trigonal pyramidal | $sp^3$ |",
+  "explanation": "## Advanced explanation\n\n**Electron-pair geometry** counts all domains; **molecular geometry** describes only the atoms' positions, so lone pairs change the shape name.\n\n## Simplified explanation\n\nAll have 4 domains (sp\u00b3); lone pairs change the shape.",
+  "hint": "Count lone pairs.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Do the ions $\\ce{ICl4-}$ and $\\ce{ICl2+}$ have the same shape? Explain using VSEPR.",
+  "media": [],
+  "answer": "$\\ce{ICl4-}$: I has 7 + 1 = 8 valence electrons; 4 go into I\u2013Cl bonds, leaving 2 lone pairs: 4 bonds + 2 lone pairs = 6 domains (AX\u2084E\u2082) \u2192 octahedral electron geometry \u2192 **square planar**.\n$\\ce{ICl2+}$: 7 \u2212 1 = 6 valence electrons; 2 go into bonds, leaving 2 lone pairs: 2 bonds + 2 lone pairs = 4 (AX\u2082E\u2082) \u2192 tetrahedral electron geometry \u2192 **bent**.\n\n> [!answer]\n> **No**: $\\ce{ICl4-}$ is square planar; $\\ce{ICl2+}$ is bent, because they have different numbers of lone pairs on iodine",
+  "explanation": "## Advanced explanation\n\nSame atoms, different charges \u2192 different electron counts \u2192 different shapes.\n\n## Simplified explanation\n\nSquare planar vs bent.",
+  "hint": "Count I's lone pairs in each.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write molecular orbital configurations for $\\ce{CN-}$ and CO and calculate the bond order of each.",
+  "media": [],
+  "answer": "Both have **10 valence electrons** (isoelectronic with $\\ce{N2}$): $(\\sigma_{2s})^2(\\sigma^*_{2s})^2(\\pi_{2p})^4(\\sigma_{2p})^2$.\n\n> [!answer]\n> Bond order $= (8 - 2)/2 = $ **3** for both; both diamagnetic",
+  "explanation": "## Advanced explanation\n\nIsoelectronic species have the same MO configuration and bond order.\n\n## Simplified explanation\n\n10 valence electrons each \u2192 triple bond.",
+  "hint": "Count valence electrons.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Molecular Orbital Theory",
+   "2018/19 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When two atomic orbitals combine, how many molecular orbitals are formed?",
+  "options": [
+   {
+    "text": "4",
+    "hint": "No."
+   },
+   {
+    "text": "2",
+    "hint": "Correct: one bonding, one antibonding."
+   },
+   {
+    "text": "3",
+    "hint": "No."
+   },
+   {
+    "text": "1",
+    "hint": "Orbitals are conserved."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Orbitals are conserved.",
+  "explanation": "## Advanced explanation\n\nThe number of MOs formed **equals** the number of atomic orbitals combined: one bonding (lower energy) and one antibonding (higher energy).\n\n## Simplified explanation\n\n2 AOs in \u2192 **2 MOs** out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Molecular Orbital Theory",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In ground-state configurations, electrons enter molecular orbitals of identical energy **singly before they pair up**. Which rule predicts this?",
+  "options": [
+   {
+    "text": "Aufbau principle",
+    "hint": "That is the filling order."
+   },
+   {
+    "text": "Hund's rule",
+    "hint": "Correct."
+   },
+   {
+    "text": "Pauli exclusion principle",
+    "hint": "That limits each orbital to 2 electrons."
+   },
+   {
+    "text": "Octet rule",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think of the bus-seat rule.",
+  "explanation": "## Advanced explanation\n\n**Hund's rule**: in degenerate orbitals, electrons occupy separate orbitals with parallel spins before pairing.\n\n## Simplified explanation\n\nSingly first = **Hund's rule**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "Molecular Orbital Theory",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The maximum number of electrons in any atomic or molecular orbital is two. Which principle predicts this?",
+  "options": [
+   {
+    "text": "Hund's rule",
+    "hint": "That is about filling degenerate orbitals."
+   },
+   {
+    "text": "Heisenberg uncertainty principle",
+    "hint": "No."
+   },
+   {
+    "text": "Pauli exclusion principle",
+    "hint": "Correct."
+   },
+   {
+    "text": "Aufbau principle",
+    "hint": "That is the filling order."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Four quantum numbers.",
+  "explanation": "## Advanced explanation\n\n**Pauli**: no two electrons may have the same four quantum numbers, so an orbital holds at most two (opposite spins).\n\n## Simplified explanation\n\n**Pauli exclusion** \u2192 max 2 per orbital.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Quantum Numbers",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Arrange the electron-pair repulsions in a molecule from strongest to weakest.",
+  "options": [
+   {
+    "text": "lone pair\u2013bond pair > lone pair\u2013lone pair > bond pair\u2013bond pair",
+    "hint": "Lone pairs repel each other most."
+   },
+   {
+    "text": "lone pair\u2013lone pair > lone pair\u2013bond pair > bond pair\u2013bond pair",
+    "hint": "Correct."
+   },
+   {
+    "text": "bond pair\u2013bond pair > lone pair\u2013bond pair > lone pair\u2013lone pair",
+    "hint": "Reversed."
+   },
+   {
+    "text": "all repulsions are equal",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Lone pairs take up more room.",
+  "explanation": "## Advanced explanation\n\nLone pairs are held by only one nucleus, so they spread out and **repel more**; this is why bond angles shrink in $\\ce{NH3}$ (107\u00b0) and $\\ce{H2O}$ (104.5\u00b0).\n\n## Simplified explanation\n\nLP\u2013LP > LP\u2013BP > BP\u2013BP.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the main difference between **electron-pair geometry** and **molecular geometry**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Electron-pair geometry** is the arrangement of **all** electron domains (bonding pairs and lone pairs) around the central atom; **molecular geometry** describes only the arrangement of the **atoms** (bonded domains). They are the same only when there are no lone pairs (e.g. $\\ce{CH4}$); with lone pairs they differ (e.g. $\\ce{NH3}$: tetrahedral electron geometry, trigonal pyramidal molecular geometry).",
+  "explanation": "## Advanced explanation\n\nLone pairs occupy space and influence shape, but they are invisible when naming the molecular shape.\n\n## Simplified explanation\n\nElectron geometry counts lone pairs; molecular geometry doesn't.",
+  "hint": "Do lone pairs count?",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "VSEPR & Hybridisation",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Magnalium alloys are used in aircraft. One alloy is 70.0% Al and 30.0% Mg by mass. How many grams of $\\ce{H2(g)}$ are produced when a 0.710 g sample reacts with excess HCl(aq)?\n\n$$\\ce{2Al + 6HCl -> 2AlCl3 + 3H2}\\qquad \\ce{Mg + 2HCl -> MgCl2 + H2}$$",
+  "media": [],
+  "answer": "Al: $0.700 \\times 0.710 = 0.497$ g \u2192 $0.497/26.98 = 0.01842$ mol \u2192 $\\ce{H2}$ $= 0.02763$ mol.\n\nMg: $0.300 \\times 0.710 = 0.213$ g \u2192 $0.213/24.31 = 0.00876$ mol \u2192 $\\ce{H2}$ $= 0.00876$ mol.\n\nTotal $\\ce{H2} = 0.03639$ mol \u00d7 2.016 g/mol.\n\n> [!answer]\n> **0.0734 g $\\ce{H2}$**",
+  "explanation": "## Advanced explanation\n\nBoth metals react: work out each separately with its own mole ratio, then add.\n\n## Simplified explanation\n\nAl gives 3/2 H\u2082 per Al, Mg gives 1 per Mg: **0.0734 g**.",
+  "hint": "Treat the two metals separately.",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Stoichiometry",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Liquid $\\ce{PCl3}$ is made by direct combination of 25.0 g phosphorus and 93.0 g chlorine: $\\ce{P4(s) + 6Cl2(g) -> 4PCl3(l)}$.\n(a) Determine the limiting reactant and the maximum mass of $\\ce{PCl3}$.\n(b) What is the percent yield if 98.0 g of product was obtained?",
+  "media": [],
+  "answer": "$n(\\ce{P4}) = 25.0/123.88 = 0.2018$ mol (needs $6 \\times 0.2018 = 1.211$ mol $\\ce{Cl2}$); $n(\\ce{Cl2}) = 93.0/70.90 = 1.312$ mol available \u2192 **$\\ce{P4}$ is limiting**.\n\n$n(\\ce{PCl3}) = 4 \\times 0.2018 = 0.807$ mol \u00d7 137.33 = 110.9 g.\n\n% yield $= 98.0/110.9 \\times 100$.\n\n> [!answer]\n> (a) $\\ce{P4}$ limiting; maximum **110.9 g $\\ce{PCl3}$**\n> (b) **88.4%**",
+  "explanation": "## Advanced explanation\n\nUse $\\ce{P4}$ (123.88 g/mol), not P atoms, with the coefficient 1.\n\n## Simplified explanation\n\nP\u2084 runs out: 110.9 g theoretical, 88.4% yield.",
+  "hint": "Phosphorus is P\u2084.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What volume of concentrated hydrochloric acid ($\\rho = 1.18$ g/mL; 35% w/w HCl) is required to prepare 250 mL of 5.0 M HCl?",
+  "media": [],
+  "answer": "$n = 5.0 \\times 0.250 = 1.25$ mol HCl = $1.25 \\times 36.46 = 45.6$ g HCl.\nMass of concentrated acid $= 45.6/0.35 = 130.2$ g \u2192 volume $= 130.2/1.18$.\n\n> [!answer]\n> **\u2248 110 mL** of concentrated HCl, diluted to 250 mL",
+  "explanation": "## Advanced explanation\n\nAlternatively, find the stock molarity: $c = \\dfrac{1000 \\times 1.18 \\times 0.35}{36.46} = 11.3$ M, then $V = \\dfrac{5.0 \\times 250}{11.3} = 110$ mL.\n\n## Simplified explanation\n\nNeed 45.6 g HCl \u2192 130 g of 35% acid \u2192 **110 mL**.",
+  "hint": "Moles needed first.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Solutions & Molarity",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How many grams of $\\ce{CO2}$ are produced in the combustion of 2.5 mol of triethylene glycol, $\\ce{C6H14O4}$, in excess $\\ce{O2}$?",
+  "media": [],
+  "answer": "$\\ce{2C6H14O4 + 15O2 -> 12CO2 + 14H2O}$ \u2192 1 mol glycol gives 6 mol $\\ce{CO2}$.\n$n(\\ce{CO2}) = 6 \\times 2.5 = 15$ mol \u00d7 44.01 g/mol.\n\n> [!answer]\n> **660 g $\\ce{CO2}$**",
+  "explanation": "## Advanced explanation\n\nEvery C atom ends up in $\\ce{CO2}$, so moles of $\\ce{CO2}$ = 6 \u00d7 moles of $\\ce{C6H14O4}$.\n\n## Simplified explanation\n\n6 CO\u2082 per molecule: 15 mol = **660 g**.",
+  "hint": "Count the carbons.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Stoichiometry",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In combustion analysis, the carbon dioxide and water produced are absorbed using **which substances**, respectively?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> $\\ce{CO2}$ is absorbed by **sodium hydroxide** (NaOH, e.g. on asbestos/'ascarite'); $\\ce{H2O}$ is absorbed by **magnesium perchlorate**, $\\ce{Mg(ClO4)2}$ (a desiccant). The water absorber comes **first** so that NaOH does not also pick up water.",
+  "explanation": "## Advanced explanation\n\nThe increase in mass of each absorber gives the mass of $\\ce{H2O}$ and $\\ce{CO2}$ formed, hence the masses of H and C in the sample.\n\n## Simplified explanation\n\nCO\u2082 \u2192 NaOH; H\u2082O \u2192 Mg(ClO\u2084)\u2082.",
+  "hint": "One basic absorber, one drying agent.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Percent Composition & Formulas",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What substances are present, and what are their masses, after the reaction of 10.0 g of magnesium with 10.0 g of oxygen? $\\ce{2Mg + O2 -> 2MgO}$",
+  "media": [],
+  "answer": "$n(\\ce{Mg}) = 10.0/24.31 = 0.411$ mol (needs 0.206 mol $\\ce{O2}$); $n(\\ce{O2}) = 10.0/32.00 = 0.3125$ mol \u2192 **Mg is limiting**.\n\n$\\ce{MgO}$ formed $= 0.411 \\times 40.30 = 16.6$ g. $\\ce{O2}$ left $= (0.3125 - 0.206) \\times 32.00 = 3.4$ g.\n\n> [!answer]\n> **16.6 g MgO** and **3.4 g O\u2082** (no Mg remains)",
+  "explanation": "## Advanced explanation\n\nMass is conserved: 16.6 + 3.4 = 20.0 g, the total you started with.\n\n## Simplified explanation\n\nMg runs out: 16.6 g MgO + 3.4 g O\u2082 left.",
+  "hint": "Check: total mass must stay 20.0 g.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Limiting Reactant & Yield",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Indium has two naturally occurring isotopes and a weighted atomic mass of 114.818 u. One isotope has a mass of 112.904 u. Which must be the **second isotope**, and which is more abundant?",
+  "options": [
+   {
+    "text": "\u00b9\u00b9\u2075In, and \u00b9\u00b9\u00b3In is the more abundant",
+    "hint": "The average is close to 115, not 113."
+   },
+   {
+    "text": "\u00b9\u00b9\u00b9In, and \u00b9\u00b9\u00b3In is the more abundant",
+    "hint": "The other isotope must be heavier than the average."
+   },
+   {
+    "text": "\u00b9\u00b9\u2074In, and \u00b9\u00b9\u2074In is the more abundant",
+    "hint": "Too close to the average to pull it there."
+   },
+   {
+    "text": "\u00b9\u00b9\u2075In, and \u00b9\u00b9\u2075In is the more abundant",
+    "hint": "Correct: the average is much closer to 115."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The average lies between the two masses.",
+  "explanation": "## Advanced explanation\n\nThe average (114.818) lies between the two isotope masses, so the second must be **heavier than 114.818**: \u00b9\u00b9\u2075In. Since the average is far closer to 115 than to 113, \u00b9\u00b9\u2075In is the **major** isotope (about 96%).\n\n## Simplified explanation\n\nAverage 114.8 sits near 115 \u2192 **\u00b9\u00b9\u2075In, mostly \u00b9\u00b9\u2075In**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "2019/20 Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Rhenium-187 is used to date meteorites. A 0.100 mg sample of rhenium (Re, 186.21 g/mol) contains $2.02\\times10^{17}$ atoms of \u00b9\u2078\u2077Re. What is the **percent abundance** of rhenium-187?",
+  "media": [],
+  "answer": "Total Re atoms $= \\dfrac{1.00\\times10^{-4}\\ \\text{g}}{186.21\\ \\text{g/mol}} \\times 6.022\\times10^{23} = 3.234\\times10^{17}$\n$$\\%\\ \\text{abundance} = \\frac{2.02\\times10^{17}}{3.234\\times10^{17}}\\times100$$\n\n> [!answer]\n> **\u2248 62.5%** \u00b9\u2078\u2077Re",
+  "explanation": "## Advanced explanation\n\nAbundance is a ratio of **numbers of atoms**, so convert the sample mass to total atoms first.\n\n## Simplified explanation\n\n2.02 out of 3.23 (\u00d710\u00b9\u2077) atoms: **62.5%**.",
+  "hint": "Find total atoms in 0.100 mg.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Atomic Structure & Electron Configuration",
+   "The Mole & Molar Mass",
+   "2019/20 Quiz"
+  ]
+ }
+]

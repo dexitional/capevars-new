@@ -1,0 +1,328 @@
+[
+ {
+  "type": "text",
+  "body": "Given the atomic masses (a.m.u.) Zn = 65.39, S = 32.067, O = 16.00 and H = 1.0079, calculate the molecular mass of **zinc sulphate dihydrate**, $\\ce{ZnSO4.2H2O}$, to the correct number of significant figures.",
+  "media": [],
+  "answer": "$$65.39 + 32.067 + 4(16.00) + 2[2(1.0079) + 16.00] = 161.457 + 36.0316 = 197.4886$$\nIn addition, the result keeps the **fewest decimal places** of the data: Zn (65.39) and O (16.00) have 2 decimal places.\n\n> [!answer]\n> **197.49 g/mol** (a.m.u.)",
+  "explanation": "## Advanced explanation\n\n**Significant figures in addition/subtraction** are set by the least number of **decimal places**, not significant figures. (The paper prints 'dehydrate'; dihydrate is meant.)\n\n## Simplified explanation\n\nAdd the masses, round to 2 decimal places: **197.49**.",
+  "hint": "Decimal places rule for addition.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Errors & Statistics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain the statement: \u201c**Class B** volumetric flasks have higher degrees of tolerance than **Class A** volumetric flasks.\u201d",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Tolerance** is the maximum permitted error in the stated volume. Class B glassware has a **larger tolerance** (typically about twice that of Class A), so it is **less accurate**. Class A flasks are made and calibrated to tighter specifications and are used for accurate quantitative work; Class B for routine, less precise work.",
+  "explanation": "## Advanced explanation\n\nE.g. a 250 mL Class A flask may be \u00b10.12 mL while Class B is \u00b10.24 mL. A higher tolerance means a wider allowed error.\n\n## Simplified explanation\n\nClass B allows **bigger errors** (less accurate) than Class A.",
+  "hint": "Tolerance = allowed error.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A mixture of NaOH and $\\ce{Na2CO3}$ requires $V_1$ mL of 0.5 M HCl using **phenolphthalein** indicator. The same amount of mixture titrated with **methyl orange** requires $V_2$ mL of the same acid. Write an expression for the volume of acid required to neutralise the **hydroxide**.",
+  "media": [],
+  "answer": "Phenolphthalein endpoint (pH \u2248 8.3): $\\ce{OH- + H+ -> H2O}$ and $\\ce{CO3^2- + H+ -> HCO3-}$, so $V_1 = V_{\\text{OH}} + V_{\\text{CO3}}$.\n\nMethyl orange endpoint (pH \u2248 4): carbonate is fully neutralised ($\\ce{CO3^2- + 2H+ -> H2CO3}$), so $V_2 = V_{\\text{OH}} + 2V_{\\text{CO3}}$.\n\nSubtracting: $V_{\\text{CO3}} = V_2 - V_1$.\n\n> [!answer]\n> $$V_{\\text{hydroxide}} = V_1 - (V_2 - V_1) = 2V_1 - V_2$$",
+  "explanation": "## Advanced explanation\n\nIn a **double-indicator** titration, phenolphthalein marks the first step of carbonate neutralisation; methyl orange marks complete neutralisation. (The paper says 'KOH'; the hydroxide in the mixture is meant.)\n\n## Simplified explanation\n\nCarbonate takes $V_2 - V_1$; hydroxide takes **$2V_1 - V_2$**.",
+  "hint": "Carbonate takes 1 H\u207a by phenolphthalein, 2 by methyl orange.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Titrimetric Analysis",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What will be the final concentration in **g/L** when 50 mL of 25 M HCl is diluted to 250 mL of solution?",
+  "media": [],
+  "answer": "$$c_2 = \\frac{c_1V_1}{V_2} = \\frac{25 \\times 50}{250} = 5.0\\ \\text{M} \\times 36.46\\ \\text{g/mol}$$\n\n> [!answer]\n> **182 g/L** (5.0 M)",
+  "explanation": "## Advanced explanation\n\nDilute with $c_1V_1 = c_2V_2$, then convert mol/L to g/L by multiplying by the molar mass.\n\n## Simplified explanation\n\n5 M \u00d7 36.46 = **182 g/L**.",
+  "hint": "Dilution first.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In a volumetric calibration, the water delivered by a 25 mL pipette at 30 \u00b0C weighed 24.879 g. The volume occupied by 1.000 g of water at 25 \u00b0C is 1.004 mL, and this value increases by 1% for each degree rise in temperature. Calculate the **volume correction** of the pipette at 30 \u00b0C.",
+  "media": [],
+  "answer": "Volume per gram at 30 \u00b0C (5 \u00b0C above 25 \u00b0C, +1% per degree): $1.004 \\times 1.05 = 1.0542$ mL/g.\n$$V_{\\text{true}} = 24.879 \\times 1.0542 = 26.23\\ \\text{mL}$$\n$$\\text{correction} = V_{\\text{true}} - V_{\\text{nominal}} = 26.23 - 25.00$$\n\n> [!answer]\n> True volume \u2248 **26.23 mL**; correction \u2248 **+1.23 mL** (\u2248 +1.25 mL if the 1% is compounded)",
+  "explanation": "## Advanced explanation\n\nCalibration converts the **mass** of water delivered to **volume** using the water's specific volume at the working temperature: $V = m \\times (\\text{mL/g})_T$. (The 1%/\u00b0C figure in the paper is far larger than real water expansion, ~0.02\u20130.03%/\u00b0C, but the calculation follows the data given.)\n\n## Simplified explanation\n\nMass \u00d7 volume-per-gram at 30 \u00b0C, minus 25.00 mL.",
+  "hint": "Find mL per gram at 30 \u00b0C.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "An analytical balance gave the masses of three objects: 3.4532 \u00b1 0.0003 g, 2.7642 \u00b1 0.0002 g and 3.5648 \u00b1 0.0001 g. What is the **sum** of these masses, with its uncertainty?",
+  "media": [],
+  "answer": "$$\\text{Sum} = 3.4532 + 2.7642 + 3.5648 = 9.7822\\ \\text{g}$$\n$$s = \\sqrt{0.0003^2 + 0.0002^2 + 0.0001^2} = 0.00037 \\approx 0.0004\\ \\text{g}$$\n\n> [!answer]\n> **9.7822 \u00b1 0.0004 g**",
+  "explanation": "## Advanced explanation\n\nFor a **sum or difference**, absolute uncertainties combine in quadrature: $s = \\sqrt{s_1^2 + s_2^2 + s_3^2}$ (random errors partly cancel, so you don't just add them).\n\n## Simplified explanation\n\nAdd the masses; combine uncertainties as a square root of squares.",
+  "hint": "Uncertainty propagation.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Errors & Statistics",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is it important to do a **temperature conversion** for the water used in calibrating glassware?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Because the **density (and so the volume occupied by a given mass) of water changes with temperature**, and glassware itself expands slightly. Calibration weighs the water delivered and converts mass to volume; this conversion must use the specific volume of water **at the temperature of the experiment** (and is usually corrected to the standard 20 \u00b0C) to obtain the true volume.",
+  "explanation": "## Advanced explanation\n\nWithout the correction, temperature-dependent changes in density would appear as calibration errors.\n\n## Simplified explanation\n\nWater's volume per gram changes with temperature.",
+  "hint": "Density depends on temperature.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Determine the mass of $\\ce{Na2CO3.2H2O}$ required to prepare 250 mL of 0.3 M $\\ce{Na2CO3}$ solution.",
+  "media": [],
+  "answer": "$n = 0.3 \\times 0.250 = 0.075$ mol. $M(\\ce{Na2CO3.2H2O}) = 105.99 + 2(18.02) = 142.02$ g/mol.\n$$m = 0.075 \\times 142.02$$\n\n> [!answer]\n> **\u2248 10.65 g**",
+  "explanation": "## Advanced explanation\n\nWeigh the **hydrate**: each mole of $\\ce{Na2CO3.2H2O}$ supplies one mole of $\\ce{Na2CO3}$, so use the hydrate's molar mass.\n\n## Simplified explanation\n\n0.075 mol \u00d7 142 g/mol = **10.65 g**.",
+  "hint": "Use the hydrate molar mass.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Calculate the **mean**, **standard deviation**, **relative standard deviation** and **percent precision** of these replicate masses (g) of a 50 pesewa coin: 5.749, 5.745, 5.747, 5.744, 5.746.",
+  "media": [],
+  "answer": "Mean $\\bar{x} = 28.731/5 = 5.7462$ g.\n\nDeviations (\u00d710\u207b\u00b3): +2.8, \u22121.2, +0.8, \u22122.2, \u22120.2; squares sum $= 14.8\\times10^{-6}$.\n$$s = \\sqrt{\\frac{14.8\\times10^{-6}}{5-1}} = 0.0019\\ \\text{g}$$\n$$\\text{RSD} = \\frac{s}{\\bar{x}}\\times100 = 0.033\\%$$\n\n> [!answer]\n> Mean **5.7462 g**; s **0.0019 g**; RSD **0.033%**; percent precision \u2248 **99.97%** (100 \u2212 RSD)",
+  "explanation": "## Advanced explanation\n\nUse $n - 1$ in the denominator for a sample standard deviation. RSD expresses precision relative to the size of the measurement.\n\n## Simplified explanation\n\nMean 5.7462 g, s \u2248 0.0019 g, RSD \u2248 0.033%.",
+  "hint": "Use n \u2212 1.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Errors & Statistics",
+   "2019/20 Paper",
+   "Paper (Section B variant)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A stock bottle of HCl reads: density 1.19 g/mL; formula weight 36.45 g/mol; purity 37\u201338%. What is the **average concentration (M)** of this stock?",
+  "media": [],
+  "answer": "Average purity $= 37.5\\%$. For 1 L: mass $= 1190$ g; HCl $= 0.375 \\times 1190 = 446.3$ g.\n$$c = \\frac{446.3}{36.45} = 12.2\\ \\text{M}$$\n\n> [!answer]\n> **\u2248 12.2 M**",
+  "explanation": "## Advanced explanation\n\n$$c = \\frac{1000 \\times \\rho \\times (\\%/100)}{M}$$\n\n## Simplified explanation\n\n1 L weighs 1190 g; 37.5% is HCl: **12.2 M**.",
+  "hint": "Take 1 L of solution.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In a redox titration, 0.1 g of sodium oxalate ($\\ce{Na2C2O4}$) was dissolved in dilute $\\ce{H2SO4}$ and made up to 250 mL (solution A). 25 mL of A required 19.5 mL of $\\ce{KMnO4}$ solution (B).\n(A) Write a balanced equation. (B) How many moles of electrons are involved? (C) What is the molar concentration of sodium oxalate in A? (D) Calculate the mass of $\\ce{KMnO4}$ involved in the titration. [Na = 23.00, K = 39.01, Mn = 54.94]",
+  "media": [],
+  "answer": "(A) $\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$\n\n(B) Each Mn goes +7 \u2192 +2 (5 e\u207b); 2 Mn \u2192 **10 mol e\u207b** per equation (each $\\ce{C2O4^2-}$ loses 2 e\u207b).\n\n(C) $M(\\ce{Na2C2O4}) = 134.0$; $n = 0.1/134.0 = 7.46\\times10^{-4}$ mol in 0.250 L \u2192 $2.99\\times10^{-3}$ M.\n\n(D) In 25 mL: $7.46\\times10^{-5}$ mol oxalate \u2192 $\\ce{KMnO4} = \\tfrac{2}{5}\\times7.46\\times10^{-5} = 2.99\\times10^{-5}$ mol \u00d7 158.0 g/mol.\n\n> [!answer]\n> (C) **2.99 \u00d7 10\u207b\u00b3 M**; (D) **\u2248 4.7 mg $\\ce{KMnO4}$**; 10 electrons transferred",
+  "explanation": "## Advanced explanation\n\nPermanganate is self-indicating (purple \u2192 colourless at Mn\u00b2\u207a; the first permanent pink marks the endpoint). The titration is done hot in acid. (The paper prints the oxalate as $\\ce{Na2CO3.2H2O}$; sodium oxalate is meant.)\n\n## Simplified explanation\n\nBalance with 2 MnO\u2084\u207b : 5 C\u2082O\u2084\u00b2\u207b; 10 electrons; [oxalate] \u2248 3.0 mM; \u2248 4.7 mg KMnO\u2084.",
+  "hint": "Mole ratio 2 : 5.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Titrimetric Analysis",
+   "2019/20 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Coin masses were measured on two balances:\n\n| Denomination | Balance 1 (x) | Balance 2 (y) |\n|---|---|---|\n| 1 cedi | 6.850 | 7.190 |\n| 50 pesewas | 5.747 | 6.120 |\n| 20 pesewas | 4.015 | 4.220 |\n| 10 pesewas | 3.076 | 3.260 |\n\n(A) Calculate the correlation coefficient $r = \\dfrac{n\\sum xy - \\sum x\\sum y}{\\sqrt{[n\\sum x^2 - (\\sum x)^2][n\\sum y^2 - (\\sum y)^2]}}$. (B) Are the results positively or negatively correlated?",
+  "media": [],
+  "answer": "$n = 4$; $\\sum x = 19.688$; $\\sum y = 20.790$; $\\sum xy = 111.394$; $\\sum x^2 = 105.533$; $\\sum y^2 = 117.587$.\n$$r = \\frac{4(111.394) - (19.688)(20.790)}{\\sqrt{[4(105.533) - 19.688^2][4(117.587) - 20.790^2]}}$$\n\n> [!answer]\n> (A) **r \u2248 0.9997**; (B) **strongly positively correlated** (the balances agree in trend, though balance 2 reads consistently higher)",
+  "explanation": "## Advanced explanation\n\n$r$ close to +1 means a strong positive linear relationship. A high $r$ shows the readings move together, not that the balances agree in absolute value: balance 2 has a systematic (determinate) offset.\n\n## Simplified explanation\n\nr \u2248 +1: strong positive correlation.",
+  "hint": "Tabulate xy, x\u00b2, y\u00b2 first.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Errors & Statistics",
+   "2019/20 Paper",
+   "Paper (Section B variant)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(A) In preparing 500 mL of 0.25 M NaOH, a student overshot the calibration mark of the volumetric flask by 0.5 mL. What is the **percent error**?\n(B) 25 mL of $\\ce{Na2CO3}$ solution was titrated with 0.5 M HCl using **methyl orange**; the titre was 20.5 mL. (i) What mass of $\\ce{NaHCO3}$ would have been produced at the phenolphthalein endpoint? (ii) What mass of $\\ce{Na2CO3}$ was in the 25 mL?",
+  "media": [],
+  "answer": "(A) $\\dfrac{0.5}{500}\\times100 = 0.1\\%$ (the concentration is about 0.1% low: 0.2498 M).\n\n(B) With methyl orange: $\\ce{Na2CO3 + 2HCl -> 2NaCl + H2O + CO2}$. $n(\\ce{HCl}) = 0.5 \\times 0.0205 = 0.01025$ mol \u2192 $n(\\ce{Na2CO3}) = 0.005125$ mol.\n(i) At the phenolphthalein endpoint all carbonate is $\\ce{HCO3-}$: $0.005125 \\times 84.01$ g/mol.\n(ii) $0.005125 \\times 105.99$ g/mol.\n\n> [!answer]\n> (A) **0.1%**; (B)(i) **\u2248 0.43 g $\\ce{NaHCO3}$**; (ii) **\u2248 0.54 g $\\ce{Na2CO3}$**",
+  "explanation": "## Advanced explanation\n\nMethyl orange measures complete neutralisation of carbonate (2 H\u207a); phenolphthalein only the first step ($\\ce{CO3^2- -> HCO3-}$, 1 H\u207a).\n\n## Simplified explanation\n\n0.1%; 0.43 g NaHCO\u2083; 0.54 g Na\u2082CO\u2083.",
+  "hint": "Carbonate takes 2 H\u207a to methyl orange.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Titrimetric Analysis",
+   "Standards & Solution Preparation",
+   "Paper (Section B variant)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Using phenolphthalein, 25 mL of a solution containing $\\ce{Na2CO3}$ and KOH requires 15.5 mL of 0.01 M HCl. Adding methyl orange at the phenolphthalein endpoint requires a further 8.0 mL of the same HCl. Calculate the concentration of **KOH in g/L**.",
+  "media": [],
+  "answer": "The second titre (8.0 mL) converts $\\ce{HCO3-}$ \u2192 $\\ce{H2CO3}$, so carbonate used 8.0 mL in the first step too.\n\nKOH volume $= 15.5 - 8.0 = 7.5$ mL \u2192 $n = 7.5\\times10^{-5}$ mol in 25 mL \u2192 $3.0\\times10^{-3}$ M \u00d7 56.11 g/mol.\n\n> [!answer]\n> **\u2248 0.17 g/L KOH**",
+  "explanation": "## Advanced explanation\n\nDouble-indicator logic: hydroxide = phenolphthalein titre \u2212 methyl-orange (second) titre.\n\n## Simplified explanation\n\n7.5 mL for KOH \u2192 **0.17 g/L**.",
+  "hint": "Subtract the carbonate's share.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Titrimetric Analysis",
+   "Paper (Section B variant)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A student used a reference book with this information: author Daniel C. Harris; publisher W. H. Freeman and Company; year 1997; title *Exploring Chemical Analysis*; place New York, USA. How should he cite this book in **APA style**?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Harris, D. C. (1997). _Exploring chemical analysis_. New York: W. H. Freeman and Company.**",
+  "explanation": "## Advanced explanation\n\nAPA book format: **Author surname, Initials. (Year). _Title in italics, sentence case_. Place of publication: Publisher.** (APA 7 drops the place of publication.)\n\n## Simplified explanation\n\nSurname, initials (year). *Title*. Place: Publisher.",
+  "hint": "Author, year, title, place, publisher.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Lab Reports & Referencing",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is it **not advisable** to use a long-handled brush to clean the interior surface of a **burette**?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The brush's metal (wire) handle can **scratch** the inside of the burette. Scratches change the internal bore and so the calibrated volume, and create spots where liquid clings, so drainage and readings become inaccurate. Burettes are cleaned instead with detergent/cleaning solution and rinsing, using a brush with care only if necessary.",
+  "explanation": "## Advanced explanation\n\nVolumetric glassware must keep its calibrated internal surface clean and undamaged so the liquid drains evenly.\n\n## Simplified explanation\n\nIt can scratch the glass and spoil the calibration.",
+  "hint": "What could damage the glass?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the best way to remove drops of solution adhering to the **tip of a pipette**?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Touch the tip against the inside wall of the receiving vessel** (or a beaker) so the drop is drawn off by surface contact. Do **not** blow it out (for a standard delivery pipette) or wipe it into the solution with a finger or tissue.",
+  "explanation": "## Advanced explanation\n\nDelivery pipettes are calibrated to deliver their volume with a small amount retained in the tip; touching off removes the hanging drop consistently.\n\n## Simplified explanation\n\n**Touch the tip** to the vessel wall.",
+  "hint": "Don't blow.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The meniscus of coloured solutions such as potassium permanganate is very difficult to read. In such cases, how do you estimate the volume of solution in the burette?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Read the **top (upper edge) of the meniscus** instead of the bottom, at eye level, and read it the same way at the start and end of the titration so the difference (titre) is still correct.",
+  "explanation": "## Advanced explanation\n\nDark solutions hide the bottom of the meniscus; consistency in reading is what matters for the titre.\n\n## Simplified explanation\n\nRead the **top** of the meniscus, consistently.",
+  "hint": "Which part can you see?",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Volumetric Glassware & Calibration",
+   "Titrimetric Analysis",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Classify these chemicals as **primary** or **secondary** standards: sulphuric acid (98%), hydrochloric acid (36%), potassium hydrogen phthalate, potassium hydrogen iodate, sodium hydroxide, sodium oxalate, potassium iodate.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Primary standards:** potassium hydrogen phthalate (KHP), potassium hydrogen iodate, sodium oxalate, potassium iodate.\n>\n> **Secondary standards:** sulphuric acid (98%), hydrochloric acid (36%), sodium hydroxide.",
+  "explanation": "## Advanced explanation\n\nConcentrated acids are of uncertain concentration and fume/absorb water; NaOH is hygroscopic and absorbs $\\ce{CO2}$. These must be **standardised** against a primary standard.\n\n## Simplified explanation\n\nPure, stable solids \u2192 primary; acids and NaOH \u2192 secondary.",
+  "hint": "Can you weigh it accurately as a pure, stable solid?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In a double-indicator titration between sodium carbonate and hydrochloric acid, phenolphthalein is used because the first endpoint solution is **basic**. What is the cause of this alkalinity?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> At the phenolphthalein endpoint all the carbonate has been converted to **sodium hydrogen carbonate**: $\\ce{Na2CO3 + HCl -> NaHCO3 + NaCl}$. $\\ce{HCO3-}$ hydrolyses slightly ($\\ce{HCO3- + H2O <=> H2CO3 + OH-}$), so the solution is mildly basic (pH \u2248 8.3), which suits phenolphthalein's range.",
+  "explanation": "## Advanced explanation\n\nMethyl orange (pH 3\u20134) is then used for the second endpoint, when $\\ce{HCO3-}$ \u2192 $\\ce{H2CO3}$ ($\\ce{CO2 + H2O}$).\n\n## Simplified explanation\n\nThe solution contains NaHCO\u2083, which is slightly basic.",
+  "hint": "What has the carbonate become?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Titrimetric Analysis",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List **four properties** of a good primary standard.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Any four of:\n> 1. **High purity** (\u2265 99.9%) and known composition.\n> 2. **Stable** in air: not hygroscopic, not efflorescent, does not react with $\\ce{CO2}$/$\\ce{O2}$.\n> 3. **High molar mass** (reduces weighing error).\n> 4. **Readily soluble** in the titration solvent.\n> 5. Reacts **rapidly, completely and stoichiometrically**.\n> 6. Available, cheap and non-toxic; can be dried without decomposing.",
+  "explanation": "## Advanced explanation\n\nExamples: KHP, sodium carbonate (anhydrous), sodium oxalate, potassium dichromate.\n\n## Simplified explanation\n\nPure, stable, heavy, soluble.",
+  "hint": "Think weighing accuracy.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly describe how you will prepare **250 mL of 1.0 M** aqueous potassium hydrogen iodate, $\\ce{KH(IO3)2}$. [K = 39, H = 1, I = 126.9, O = 16 g/mol]",
+  "media": [],
+  "answer": "$M(\\ce{KH(IO3)2}) = 39 + 1 + 2(126.9 + 48) = 389.8$ g/mol; $n = 1.0 \\times 0.250 = 0.250$ mol \u2192 $m = 97.45$ g.\n\n> [!answer]\n> Weigh **97.45 g** of dried $\\ce{KH(IO3)2}$ accurately, dissolve it in a beaker with some distilled water, transfer **quantitatively** (with rinsings) into a **250 mL volumetric flask**, make up to the mark with distilled water (bottom of meniscus at eye level) and invert several times to mix.",
+  "explanation": "## Advanced explanation\n\nQuantitative transfer and making up in a volumetric flask give an accurately known concentration. (In practice $\\ce{KH(IO3)2}$ is only moderately soluble, so such concentrated solutions are not usual.)\n\n## Simplified explanation\n\nWeigh 97.45 g, dissolve, transfer, make up to 250 mL.",
+  "hint": "Mass = c \u00d7 V \u00d7 M.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Standards & Solution Preparation",
+   "2018/19 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the difference between **determinate** and **indeterminate** errors in analytical measurements?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Determinate (systematic) errors** have a definite, identifiable cause (faulty or uncalibrated instruments, impure reagents, flawed method, personal bias); they shift results consistently in one direction, affect **accuracy**, and can be detected and corrected.\n>\n> **Indeterminate (random) errors** arise from uncontrollable fluctuations; they scatter results randomly on both sides of the mean, affect **precision**, cannot be eliminated, and are treated statistically.",
+  "explanation": "## Advanced explanation\n\nE.g. balance 2 reading every coin about 0.2 g high is determinate; small scatter in replicate weighings is indeterminate.\n\n## Simplified explanation\n\nDeterminate = consistent, correctable (accuracy); indeterminate = random (precision).",
+  "hint": "Cause known or not?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Errors & Statistics",
+   "2018/19 Paper"
+  ]
+ }
+]

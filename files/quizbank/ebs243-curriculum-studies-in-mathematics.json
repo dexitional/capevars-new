@@ -1,0 +1,523 @@
+[
+ {
+  "type": "choice",
+  "body": "Basic 5 pupils were taught to use **benchmarking** to compare and order fractions. What type of subject matter was taught?",
+  "options": [
+   {
+    "text": "Topic",
+    "hint": "A unit of content."
+   },
+   {
+    "text": "Generalisation",
+    "hint": "A rule or relationship."
+   },
+   {
+    "text": "Concept",
+    "hint": "An idea/category, e.g. 'fraction'."
+   },
+   {
+    "text": "Skill",
+    "hint": "Correct. A procedure pupils learn to carry out."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nMathematics subject matter: **concepts** (ideas, e.g. 'fraction'), **skills/procedures** (how to do something, e.g. compare fractions using benchmarks) and **generalisations** (rules/relationships, e.g. area formulas).\n\n## Simplified explanation\n\nA 'how-to' = **skill**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2020/21 College Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The statement 'the area of a triangle is half the base multiplied by the height' expresses which type of subject matter?",
+  "options": [
+   {
+    "text": "Skill",
+    "hint": "A procedure."
+   },
+   {
+    "text": "Concept",
+    "hint": "A single idea."
+   },
+   {
+    "text": "Value",
+    "hint": "Not subject matter type."
+   },
+   {
+    "text": "Generalisation",
+    "hint": "Correct. A rule relating concepts."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nA **generalisation** (principle/rule) states a relationship between concepts, e.g. $A = \\tfrac12 bh$.\n\n## Simplified explanation\n\nA rule = **generalisation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2020/21 College Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teacher uses examples of how buildings are roofed in Northern Ghana while teaching geometry. Which value of mathematics is this?",
+  "options": [
+   {
+    "text": "Disciplinary",
+    "hint": "Training the mind."
+   },
+   {
+    "text": "Cultural",
+    "hint": "Correct. Mathematics in the community's culture and artefacts."
+   },
+   {
+    "text": "Preparatory",
+    "hint": "For further study/careers."
+   },
+   {
+    "text": "Practical",
+    "hint": "Daily-life use."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nValues of mathematics: **practical** (daily life), **preparatory** (further study/careers), **disciplinary** (training reasoning), **cultural** (appreciation of mathematics in culture, art and civilisation).\n\n## Simplified explanation\n\nLocal architecture = **cultural**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Values & Aims of Mathematics",
+   "2020/21 College Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teacher who teaches **indices before logarithms** is applying which factor in sequencing subject matter?",
+  "options": [
+   {
+    "text": "Abstractness",
+    "hint": "Concrete to abstract."
+   },
+   {
+    "text": "Familiarity",
+    "hint": "Known to unknown."
+   },
+   {
+    "text": "Prerequisite knowledge",
+    "hint": "Correct. Logarithms build directly on indices."
+   },
+   {
+    "text": "Genetic principle",
+    "hint": "Historical development."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nFactors in sequencing: **prerequisite knowledge**, **familiarity**, **abstractness**, **immediacy of application**, **difficulty**.\n\n## Simplified explanation\n\nIndices are needed for logs \u2192 **prerequisite**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2020/21 College Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Out of eight topics to be taught in a term, the teacher could teach only six. Which aspect of the curriculum is illustrated?",
+  "options": [
+   {
+    "text": "Intended",
+    "hint": "What was planned (eight topics)."
+   },
+   {
+    "text": "Enacted (implemented) curriculum",
+    "hint": "Correct. What is actually taught."
+   },
+   {
+    "text": "Lived",
+    "hint": "What learners experience."
+   },
+   {
+    "text": "Attained",
+    "hint": "What learners actually learn."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Intended** = planned/official; **enacted/implemented** = actually taught; **attained** = actually learnt; **assessed** = what is tested.\n\n## Simplified explanation\n\nWhat was actually taught = **enacted**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Curriculum Concepts",
+   "2020/21 College Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** an attitude objective? The student",
+  "options": [
+   {
+    "text": "makes independent discoveries",
+    "hint": "Attitude."
+   },
+   {
+    "text": "develops the habit of verification",
+    "hint": "Attitude."
+   },
+   {
+    "text": "develops the practice of logical reasoning",
+    "hint": "Attitude/habit of mind."
+   },
+   {
+    "text": "develops the ability to use mathematical tools skilfully",
+    "hint": "Correct. That is a skill objective."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\n**Attitude objectives** concern habits and dispositions (checking answers, independence, perseverance); using tools skilfully is a **skill**.\n\n## Simplified explanation\n\nTool use is a **skill**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which accurately describes the **scope** (strands) of the NaCCA basic school mathematics curriculum?",
+  "options": [
+   {
+    "text": "Number; Measurement; Geometry and Measurement; Data",
+    "hint": "Algebra missing."
+   },
+   {
+    "text": "Number; Geometry and Measurement; Data; Algebra",
+    "hint": "Wrong order."
+   },
+   {
+    "text": "Number; Algebra; Geometry and Measurement; Data",
+    "hint": "Correct. The four strands."
+   },
+   {
+    "text": "Number; Data; Algebra; Geometry and Measurement",
+    "hint": "Same strands, wrong order."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nNaCCA (2019) mathematics strands: **Number, Algebra, Geometry and Measurement, Data (Handling Data)**.\n\n## Simplified explanation\n\nNumber, Algebra, Geometry & Measurement, Data.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is the best sequence for teaching concepts under the **Algebra** strand?",
+  "options": [
+   {
+    "text": "Patterns, Functions, Expressions, Equations",
+    "hint": "Correct. From recognising patterns to solving equations."
+   },
+   {
+    "text": "Functions, Expressions, Equations, Patterns",
+    "hint": "Patterns come first."
+   },
+   {
+    "text": "Equations, Functions, Patterns, Expressions",
+    "hint": "Equations are last."
+   },
+   {
+    "text": "Expressions, Patterns, Equations, Functions",
+    "hint": "Patterns come first."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nAlgebraic thinking grows from **patterns and relationships** \u2192 functions (rules) \u2192 writing **expressions** \u2192 solving **equations**.\n\n## Simplified explanation\n\nStart with patterns, end with equations.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Teaching plane shapes, the teacher asked students to identify plane shapes in their environment. This reflects which NaCCA subject aim?",
+  "options": [
+   {
+    "text": "Appreciate the usefulness, power and beauty of mathematics",
+    "hint": "Close, but the task is about recognising it in the environment."
+   },
+   {
+    "text": "Become confident in using mathematics to solve problems",
+    "hint": "No problem solving here."
+   },
+   {
+    "text": "Recognise that mathematics permeates the world around us",
+    "hint": "Correct. Mathematics is everywhere."
+   },
+   {
+    "text": "Develop mathematical curiosity when solving problems",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nLooking for shapes in the surroundings shows that **mathematics permeates the world**.\n\n## Simplified explanation\n\nShapes all around us.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Values & Aims of Mathematics",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A student used multi-digit subtraction to work out her change after buying food at the canteen. Which value of mathematics is illustrated?",
+  "options": [
+   {
+    "text": "Practical",
+    "hint": "Correct. Use in everyday life."
+   },
+   {
+    "text": "Preparatory",
+    "hint": "Further study."
+   },
+   {
+    "text": "Disciplinary",
+    "hint": "Mental training."
+   },
+   {
+    "text": "Cultural",
+    "hint": "Appreciation of culture."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nUsing mathematics in daily transactions is its **practical (utilitarian)** value.\n\n## Simplified explanation\n\nEveryday use = **practical**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Values & Aims of Mathematics",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statements describe the **cultural** aims of teaching mathematics? I. Appreciation of beauty in geometrical forms in nature, art and industry. II. Appreciation of the power of mathematics in the development of civilisation. III. Training students to think in terms of relationships.",
+  "options": [
+   {
+    "text": "I, II and III",
+    "hint": "III is disciplinary."
+   },
+   {
+    "text": "I and II only",
+    "hint": "Correct. III is a disciplinary aim."
+   },
+   {
+    "text": "II and III only",
+    "hint": "III is disciplinary."
+   },
+   {
+    "text": "I and III only",
+    "hint": "III is disciplinary."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nCultural aims concern **appreciation** of mathematics in art, nature and civilisation; training thinking is a **disciplinary** aim.\n\n## Simplified explanation\n\n**I and II**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Values & Aims of Mathematics",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teacher introduces polygons as rectangles, then parallelograms, then quadrilaterals. This applies a/an ... level of abstractness.",
+  "options": [
+   {
+    "text": "increasing",
+    "hint": "Correct. From specific to more general/abstract."
+   },
+   {
+    "text": "vertical",
+    "hint": "A type of sequencing, not abstractness."
+   },
+   {
+    "text": "decreasing",
+    "hint": "Reverse."
+   },
+   {
+    "text": "horizontal",
+    "hint": "Not an abstractness level."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nEach class is more general (all rectangles are parallelograms, all parallelograms are quadrilaterals), so abstractness **increases**.\n\n## Simplified explanation\n\nSpecific \u2192 general = **increasing**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a **factor** that influences the temporal ordering (sequencing) of subject matter?",
+  "options": [
+   {
+    "text": "Requirements",
+    "hint": "Vague."
+   },
+   {
+    "text": "Vertical sequencing",
+    "hint": "A type of sequencing."
+   },
+   {
+    "text": "Horizontal sequencing",
+    "hint": "A type of sequencing, not a factor."
+   },
+   {
+    "text": "Familiarity",
+    "hint": "Correct. Moving from known to unknown."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nFactors: **familiarity, prerequisite knowledge, abstractness, immediacy of application**. Horizontal and vertical are **types** of sequencing.\n\n## Simplified explanation\n\n**Familiarity**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A benefit of helping students build connections among topics in mathematics is that it I. ensures better understanding II. helps them become fluent III. strengthens its value.",
+  "options": [
+   {
+    "text": "III only",
+    "hint": "Too few."
+   },
+   {
+    "text": "II and III only",
+    "hint": "I also holds."
+   },
+   {
+    "text": "I and III only",
+    "hint": "II also holds."
+   },
+   {
+    "text": "I, II and III",
+    "hint": "Correct. All three are benefits."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nConnected knowledge deepens understanding, supports fluency and shows the value of mathematics.\n\n## Simplified explanation\n\nAll three.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **'New Math'** movement brought which change to the teaching and learning of mathematics?",
+  "options": [
+   {
+    "text": "Superficial learning of mathematical facts",
+    "hint": "No."
+   },
+   {
+    "text": "Emphasis on drill and practice",
+    "hint": "That was the older approach."
+   },
+   {
+    "text": "Focus on mathematical procedures only",
+    "hint": "That was what it reacted against."
+   },
+   {
+    "text": "Emphasis on understanding of concepts and structure",
+    "hint": "Correct. Sets, structure and why, not just how."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the definition.",
+  "explanation": "## Advanced explanation\n\nThe 1960s **New Math** emphasised **conceptual understanding** and the structure of mathematics (sets, number bases, properties) over rote procedures.\n\n## Simplified explanation\n\nUnderstanding over drill.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 Mid-Semester Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Distinguish between **vertical** and **horizontal** sequencing of subject matter. (b) Using an example, explain how **immediacy of application** influences sequencing.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** **Vertical sequencing** orders topics **over time/levels** so later topics build on earlier ones (e.g. whole numbers in B1 \u2192 fractions in B4 \u2192 decimals in B5). **Horizontal sequencing** relates topics taught **at the same time/level**, across a class's subjects or strands (e.g. teaching measurement of length in maths while Science measures plant growth).\n>\n> **(b)** Topics pupils need **soon** (in daily life or other subjects) are taught earlier. E.g. **money and simple addition/subtraction** are taught early because pupils buy things at the canteen; **reading scales/measurement** is taught before Science practicals that use it.",
+  "explanation": "## Advanced explanation\n\nSequencing aims at continuity and integration.\n\n## Simplified explanation\n\nVertical = over time; horizontal = across the same level; urgent-use topics first.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 9,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Sequence these topics and justify your plan: Shape and Space; Numbers and Numerals; Sets; Fractions.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Sets \u2192 Numbers and Numerals \u2192 Fractions \u2192 Shape and Space** (Shape and Space may also run alongside).\n>\n> **Justification:** sets (sorting, matching, comparing groups) lay the foundation for the **concept of number**; numbers and numerals must be known before **fractions** (parts of a whole number); shape and space uses number for measuring and naming properties. This moves from **concrete to abstract**, follows **prerequisite knowledge** and goes from **familiar to unfamiliar**.",
+  "explanation": "## Advanced explanation\n\nJustify with the sequencing factors.\n\n## Simplified explanation\n\nSets \u2192 number \u2192 fractions \u2192 shape and space.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Subject Matter & Sequencing",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Distinguish between the **intended** and the **implemented** curriculum, with an example of each. (b) Distinguish between a mathematics **curriculum** and a mathematics **syllabus**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** The **intended** curriculum is the official, planned curriculum as written in policy documents (e.g. the NaCCA mathematics curriculum says B4 pupils will learn eight topics this term). The **implemented (enacted)** curriculum is what teachers actually teach in class (e.g. the teacher covers only six topics because of lost instructional time).\n>\n> **(b)** The **curriculum** is the whole planned programme of mathematics learning: philosophy, aims, strands, content standards, pedagogy and assessment across levels. The **syllabus** is a narrower outline of the topics, objectives and activities for a particular class or course.",
+  "explanation": "## Advanced explanation\n\nGaps between intended and implemented curricula are common and should be evaluated.\n\n## Simplified explanation\n\nPlanned vs actually taught; whole programme vs topic outline.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Curriculum Concepts",
+   "2021 End-of-Semester Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Distinguish between assessment and evaluation. (b) State four ways to ensure effective classroom assessment in mathematics. (c) Explain the term **rich mathematical task**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** **Assessment** is the ongoing gathering of evidence of learning (tests, observation, exercises); **evaluation** is making a **judgement of worth** using that evidence (e.g. grading, deciding whether objectives were achieved).\n>\n> **(b)** (1) Align assessment with the **learning objectives/indicators**; (2) use a **variety of methods** (oral, written, practical, projects); (3) give **prompt, specific feedback**; (4) assess **continuously** (AfL, AaL, AoL); (5) use clear marking schemes/rubrics.\n>\n> **(c)** A **rich task** is an open, engaging problem that is accessible to all learners yet can be extended, involves **several concepts and strategies**, invites reasoning, discussion and multiple solutions, and connects to real contexts.",
+  "explanation": "## Advanced explanation\n\nRich tasks support both learning and assessment.\n\n## Simplified explanation\n\nGather evidence vs judge it; varied, aligned, continuous assessment; open, multi-solution task.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 16,
+  "tags": [
+   "Curriculum Evaluation",
+   "2021 End-of-Semester Paper"
+  ]
+ }
+]

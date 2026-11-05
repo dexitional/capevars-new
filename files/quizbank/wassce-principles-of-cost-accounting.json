@@ -1,0 +1,100 @@
+[
+ {
+  "type": "text",
+  "body": "(a) List the elements of **prime cost**. (b) Explain (i) cost unit; (ii) cost centre. (c) List **three** ways costs are analysed according to **function**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** Prime cost = **direct materials + direct labour + direct expenses**.\n>\n> **(b)(i)** A **cost unit** is a **unit of product or service** in relation to which costs are ascertained and expressed (e.g. per tonne, per metre, per passenger-km, per bed-night).\n>\n> **(ii)** A **cost centre** is a **location, person, function or item of equipment** for which costs are collected and charged (e.g. machining department, canteen, a machine).\n>\n> **(c)** **Production (factory) costs**; **administration costs**; **selling and distribution costs**; (also research and development, finance costs).",
+  "explanation": "## Advanced explanation\n\nPrime cost excludes all overheads.\n\n## Simplified explanation\n\nDirect materials + labour + expenses.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Elements of Cost",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain the procedure for the preparation of a **budget**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Set objectives/policies** of the organisation for the budget period.\n> 2. Set up a **budget committee** and appoint a **budget officer**; issue a **budget manual**.\n> 3. Identify the **principal (limiting) budget factor**, e.g. sales demand, materials, labour or capacity.\n> 4. Prepare the **sales budget** (usually first), then the **functional budgets**: production, materials, labour, overheads, administration, selling, capital expenditure.\n> 5. **Coordinate** and review the functional budgets; negotiate revisions.\n> 6. Prepare the **cash budget** and **master budget** (budgeted income statement and statement of financial position).\n> 7. **Approve** and communicate the budget to managers.\n> 8. **Monitor**: compare actual with budget regularly, analyse variances and take corrective action (budgetary control).",
+  "explanation": "## Advanced explanation\n\nEmphasise the principal budget factor and the master budget.\n\n## Simplified explanation\n\nObjectives \u2192 committee \u2192 limiting factor \u2192 sales budget \u2192 functional \u2192 master \u2192 control.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Budgeting & Standard Costing",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is **standard costing**? (b) Explain the following variances: (i) direct material cost variance; (ii) direct labour cost variance.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** Standard costing is a control technique in which **predetermined (standard) costs** for materials, labour and overheads are set for each unit, and **actual costs are compared with them** to find **variances**, which are analysed and acted upon.\n>\n> **(b)(i)** **Direct material cost variance** = standard cost of materials for actual output \u2212 actual cost of materials = **(SQ \u00d7 SP) \u2212 (AQ \u00d7 AP)**. It splits into a **price** variance (SP \u2212 AP) \u00d7 AQ and a **usage** variance (SQ \u2212 AQ) \u00d7 SP.\n>\n> **(ii)** **Direct labour cost variance** = standard labour cost for actual output \u2212 actual labour cost = **(SH \u00d7 SR) \u2212 (AH \u00d7 AR)**. It splits into a **rate** variance (SR \u2212 AR) \u00d7 AH and an **efficiency** variance (SH \u2212 AH) \u00d7 SR.\n>\n> A positive result (actual < standard) is **favourable**; a negative one is **adverse**.",
+  "explanation": "## Advanced explanation\n\nShow the formulae and sub-variances.\n\n## Simplified explanation\n\nStandards vs actuals; price/usage and rate/efficiency.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Budgeting & Standard Costing",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is **process costing**? (b) State **three** features of process costing.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **(a)** Process costing is a method of costing used where **identical units are produced continuously through a sequence of processes**; costs are accumulated **for each process** and averaged over the units produced (e.g. oil refining, cement, textiles, food processing).\n>\n> **(b)** Features: (1) **continuous, mass production** of homogeneous units; (2) costs are collected **by process/department**; (3) the **output of one process is the input of the next**; (4) **normal and abnormal losses** (and gains) arise and are accounted for; (5) **work-in-progress** is valued using **equivalent units**; (6) joint products and by-products may arise.",
+  "explanation": "## Advanced explanation\n\nContrast with job costing, where each job is costed separately.\n\n## Simplified explanation\n\nContinuous identical units; cost per process; losses and equivalent units.",
+  "hint": "Give the points with a brief explanation each.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Process & Contract Costing",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Bouloko and Sons uses a plastic component. Stock on 1 January 2007 was **13,800 units at D46** each.\n\nReceipts: 2 Jan 4,600 @ D48; 5 Feb 1,800 @ D49; 6 Mar 3,800 @ D50; 27 Mar 2,900 @ D51.\n\nIssues: 9 Jan 9,200; 25 Jan 3,600; 10 Feb 3,200; 18 Feb 3,400; 29 Mar 3,800 units.\n\nIssues are priced at **weighted average cost**. Prepare the stores ledger account.",
+  "media": [],
+  "answer": "Recalculate the average after **every receipt**: average = balance value \u00f7 balance units. Issues are priced at the current average.\n\n| Date | Receipts (units @ D) | Value (D) | Issues (units @ avg) | Value (D) | Balance units | Balance value (D) | Avg price (D) |\n|---|---|---|---|---|---|---|---|\n| 1 Jan | Balance b/d | | | | 13,800 | 634,800.00 | 46.00 |\n| 2 Jan | 4,600 @ 48 | 220,800 | | | 18,400 | 855,600.00 | 46.50 |\n| 9 Jan | | | 9,200 @ 46.50 | 427,800.00 | 9,200 | 427,800.00 | 46.50 |\n| 25 Jan | | | 3,600 @ 46.50 | 167,400.00 | 5,600 | 260,400.00 | 46.50 |\n| 5 Feb | 1,800 @ 49 | 88,200 | | | 7,400 | 348,600.00 | 47.11 |\n| 10 Feb | | | 3,200 @ 47.11 | 150,745.95 | 4,200 | 197,854.05 | 47.11 |\n| 18 Feb | | | 3,400 @ 47.11 | 160,167.57 | 800 | 37,686.49 | 47.11 |\n| 6 Mar | 3,800 @ 50 | 190,000 | | | 4,600 | 227,686.49 | 49.50 |\n| 27 Mar | 2,900 @ 51 | 147,900 | | | 7,500 | 375,586.49 | 50.08 |\n| 29 Mar | | | 3,800 @ 50.08 | 190,297.15 | 3,700 | 185,289.33 | 50.08 |\n\n> [!answer]\n> Closing stock at 31 March 2007: **3,700 units valued at about D185,289** (\u2248 D50.08 per unit). Total issues: 23,200 units costing \u2248 D1,096,411.",
+  "explanation": "## Advanced explanation\n\nWeighted average smooths price changes; the average changes only when new stock is received at a different price.\n\n## Simplified explanation\n\nAverage after each receipt; issue at that average.",
+  "hint": "Recompute the average price after each receipt.",
+  "difficulty": "hard",
+  "marks": 15,
+  "tags": [
+   "Stock Valuation",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Johannes Textiles Co. Ltd, year ended 31 December 2006: production and sales **4,000 metres** at **N25** per metre.\n\nCosts (N): direct materials 18,000; wages: fixed 6,000, variable 8,000; factory overhead: fixed 2,000, variable 8,000; establishment charges: fixed 6,000, variable 2,000; selling and distribution overheads: fixed 3,000.\n\nPrepare (a) a profit statement using **direct (marginal) costing**; (b) a statement of **marginal contribution** per metre.",
+  "media": [],
+  "answer": "**(a) Profit statement (direct costing)**\n\n| | N | N |\n|---|---|---|\n| Sales (4,000 \u00d7 25) | | 100,000 |\n| Less variable costs: direct materials | 18,000 | |\n| variable wages | 8,000 | |\n| variable factory overhead | 8,000 | |\n| variable establishment charges | 2,000 | 36,000 |\n| **Contribution** | | **64,000** |\n| Less fixed costs: wages | 6,000 | |\n| factory overhead | 2,000 | |\n| establishment charges | 6,000 | |\n| selling and distribution | 3,000 | 17,000 |\n| **Net profit** | | **47,000** |\n\n**(b) Marginal contribution per metre**\n\n| | N |\n|---|---|\n| Selling price | 25.00 |\n| Variable cost (36,000 \u00f7 4,000) | 9.00 |\n| **Contribution per metre** | **16.00** |\n\nC/S ratio = 16 \u00f7 25 = **64%**; break-even = 17,000 \u00f7 16 = **1,062.5 metres** (N26,563 sales).\n\n> [!answer]\n> Contribution N64,000 (N16 per metre); net profit **N47,000**.",
+  "explanation": "## Advanced explanation\n\nMarginal costing charges only variable costs to products; all fixed costs are written off against total contribution. (The fixed and variable splits given are used; the printed headline totals in the paper don't match their components.)\n\n## Simplified explanation\n\nSales \u2212 variable = contribution; \u2212 fixed = profit.",
+  "hint": "Separate variable from fixed costs first.",
+  "difficulty": "hard",
+  "marks": 15,
+  "tags": [
+   "Marginal Costing",
+   "WASSCE 2022 Practice"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Sobea Construction Ltd secured a contract to build a swimming pool for **D275,000**, starting 1 July 2006, due in 18 months. Expenditure to 31 December 2006 (D): plant at site 125,000; stores from warehouse 320; materials purchased: cement 4,600, reinforced rods 9,200, sand 2,720; fuel for bulldozers 2,970; wages paid 13,660; wages accrued 520; employer's social security contribution 1,800; insurance 400; miscellaneous expenses 30,200.\n\nWork certified to 15 December 2006: **D80,000**; cost of work done since (uncertified): **D7,000**. Payments are subject to **15% retention** and all money due has been received. At 31 December 2006: plant valued at **D106,000**, materials on site **D1,750**.\n\nPrepare the contract account for the year ended 31 December 2006.",
+  "media": [],
+  "answer": "**Contract account**\n\n| Dr | D | Cr | D |\n|---|---|---|---|\n| Plant at site | 125,000 | Plant c/d | 106,000 |\n| Stores from warehouse | 320 | Materials on site c/d | 1,750 |\n| Materials (4,600 + 9,200 + 2,720) | 16,520 | Work certified | 80,000 |\n| Fuel | 2,970 | Work uncertified | 7,000 |\n| Wages (13,660 + 520) | 14,180 | | |\n| Social security | 1,800 | | |\n| Insurance | 400 | | |\n| Miscellaneous | 30,200 | | |\n| **Notional profit c/d** | **3,360** | | |\n| | **194,750** | | **194,750** |\n\nCost of work done = 191,390 \u2212 106,000 \u2212 1,750 = **83,640**; value of work done = 80,000 + 7,000 = 87,000; notional profit = **3,360**.\n\nCash received = 85% \u00d7 80,000 = **D68,000**. Work certified is 80,000 \u00f7 275,000 \u2248 29% of the contract (between \u00bc and \u00bd complete), so the usual prudence rule applies:\n\nProfit to P&L = \u2153 \u00d7 3,360 \u00d7 68,000 \u00f7 80,000 = **D952**; reserve carried forward = 3,360 \u2212 952 = **D2,408**.\n\n> [!answer]\n> Notional profit **D3,360**; profit taken to P&L **D952**; reserve **D2,408**.",
+  "explanation": "## Advanced explanation\n\nOn an incomplete contract, only part of the notional profit is recognised, scaled by stage of completion and cash received.\n\n## Simplified explanation\n\nCosts in, valuations out; take \u2153 \u00d7 cash/certified of notional profit.",
+  "hint": "Include accrued wages; carry down plant and materials.",
+  "difficulty": "hard",
+  "marks": 15,
+  "tags": [
+   "Process & Contract Costing",
+   "WASSCE 2022 Practice"
+  ]
+ }
+]

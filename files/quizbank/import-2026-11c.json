@@ -1,0 +1,44 @@
+{
+  "courses": [
+    {
+      "code": "CHE109",
+      "title": "Practical General Chemistry",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast CHE 109 Practical General Chemistry papers (2018/19 and 2019/20): volumetric glassware and calibration, significant figures and error propagation, standards and solution preparation, double-indicator and redox titrations, statistics of replicate measurements and APA referencing. Every calculation has a worked solution.",
+      "examQuestions": 10,
+      "examMinutes": 60,
+      "tags": ["UCC", "Chemistry"],
+      "files": ["che109-practical-general-chemistry.json"]
+    },
+    {
+      "code": "CHE104",
+      "title": "Introductory Practical Organic Chemistry",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast CHE 104 practical organic chemistry papers (2011/12 to 2014/15) and revision questions: recrystallisation, thin-layer chromatography and Rf values, simple, fractional and steam distillation, liquid–liquid extraction and partition, melting point and purity, and laboratory safety.",
+      "examQuestions": 20,
+      "examMinutes": 45,
+      "tags": ["UCC", "Chemistry"],
+      "files": ["che104-practical-organic-chemistry.json"]
+    },
+    {
+      "code": "BIO101",
+      "title": "Diversity of Living Organisms",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast BIO 101 Diversity of Living Organisms papers (2015/16 to 2019/20): classification, prokaryotes and viruses, protists, fungi, plants, invertebrates and chordates.",
+      "examQuestions": 30,
+      "examMinutes": 45,
+      "tags": ["UCC", "Biology"],
+      "files": ["bio101-diversity-of-living-organisms.json"]
+    },
+    {
+      "code": "PHY101A",
+      "title": "Physics Practicals",
+      "level": "tertiary",
+      "description": "Practical revision questions built from PHY 101A laboratory experiments: Young's modulus, deformation of springs and Hooke's law, helical spring and bifilar suspension oscillations, density by a loaded test tube, and the water equivalent of a calorimeter, with worked calculations, sources of error and precautions.",
+      "examQuestions": 10,
+      "examMinutes": 30,
+      "tags": ["UCC", "Physics"],
+      "files": ["phy101a-physics-practicals.json"]
+    }
+  ]
+}

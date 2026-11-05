@@ -1,0 +1,1222 @@
+[
+ {
+  "type": "choice",
+  "body": "Which of the following methods is used to **purify solid** compounds?",
+  "options": [
+   {
+    "text": "Boiling",
+    "hint": "Not a purification method for solids."
+   },
+   {
+    "text": "Recrystallisation",
+    "hint": "Correct. Dissolve hot, crystallise on cooling."
+   },
+   {
+    "text": "Steam distillation",
+    "hint": "For volatile liquids/oils."
+   },
+   {
+    "text": "Solubility",
+    "hint": "A property, not a method."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Solid purification.",
+  "explanation": "## Advanced explanation\n\n**Recrystallisation** purifies solids: dissolve the impure solid in a minimum of hot solvent, filter hot, cool slowly so pure crystals form while impurities stay in solution.\n\n## Simplified explanation\n\nSolids \u2192 **recrystallisation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Recrystallisation",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Liquid\u2013liquid extraction involves the transfer of a substance from",
+  "options": [
+   {
+    "text": "water into ethanol",
+    "hint": "Water and ethanol are miscible."
+   },
+   {
+    "text": "one liquid phase into another",
+    "hint": "Correct. Between two immiscible liquids."
+   },
+   {
+    "text": "a liquid phase into the air",
+    "hint": "That is evaporation."
+   },
+   {
+    "text": "a solid phase into a liquid phase",
+    "hint": "That is solid\u2013liquid extraction."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Two immiscible layers.",
+  "explanation": "## Advanced explanation\n\nLiquid\u2013liquid extraction partitions a solute between **two immiscible liquids** (e.g. water and diethyl ether) according to its relative solubility.\n\n## Simplified explanation\n\nLiquid \u2192 liquid.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Extraction",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statements are correct about liquid\u2013liquid extraction?\n\nI. It separates mixtures by partitioning compounds between two immiscible solvents.\nII. Its success depends on the difference in solubilities of the compounds in the two solvents.\nIII. The mixtures separated must have high boiling points.\nIV. The components of the mixture can be either liquid or solid.",
+  "options": [
+   {
+    "text": "II and III",
+    "hint": "I and IV are true; III is false."
+   },
+   {
+    "text": "I, II and IV",
+    "hint": "Correct. III is false: boiling point is irrelevant."
+   },
+   {
+    "text": "I, II, III and IV",
+    "hint": "III is false."
+   },
+   {
+    "text": "I, III and IV",
+    "hint": "III is false."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Is boiling point relevant?",
+  "explanation": "## Advanced explanation\n\nExtraction depends on **partitioning** (solubility differences) between immiscible solvents; the solutes may be solids or liquids. Boiling point does not matter (that matters for distillation).\n\n## Simplified explanation\n\n**I, II and IV**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Extraction",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fluted filter paper is best used in",
+  "options": [
+   {
+    "text": "vacuum filtration",
+    "hint": "Uses flat paper in a B\u00fcchner funnel."
+   },
+   {
+    "text": "column filtration",
+    "hint": "No."
+   },
+   {
+    "text": "high-density filtration",
+    "hint": "Not a technique."
+   },
+   {
+    "text": "gravity filtration",
+    "hint": "Correct. Folds increase surface area and speed."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Hot filtration in recrystallisation.",
+  "explanation": "## Advanced explanation\n\n**Fluted** (pleated) paper increases surface area and lets air escape, speeding **hot gravity filtration** so crystals don't form in the funnel.\n\n## Simplified explanation\n\n**Gravity** filtration.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Recrystallisation",
+   "Laboratory Technique & Safety",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "One possible remedy for breaking up an **emulsion** during a liquid\u2013liquid extraction is",
+  "options": [
+   {
+    "text": "adding more water",
+    "hint": "Brine (saturated NaCl), not water, helps."
+   },
+   {
+    "text": "heating the funnel to a high temperature",
+    "hint": "Dangerous with volatile solvents."
+   },
+   {
+    "text": "filtering the emulsion through a small piece of glass wool",
+    "hint": "Correct. Breaks up the droplets."
+   },
+   {
+    "text": "adding sodium benzoate",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Physical break-up.",
+  "explanation": "## Advanced explanation\n\nEmulsions can be broken by **letting them stand, gentle swirling, adding brine (salting out), or filtering through glass wool**.\n\n## Simplified explanation\n\nGlass wool filtration.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Extraction",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A simple method that gives information about the **purity of a solid** is",
+  "options": [
+   {
+    "text": "measuring the solubility of the solid",
+    "hint": "Not a reliable purity test."
+   },
+   {
+    "text": "measuring the temperature at which it melts and the range over which melting occurs",
+    "hint": "Correct. Melting point and range."
+   },
+   {
+    "text": "salting out the solid",
+    "hint": "No."
+   },
+   {
+    "text": "freeze-drying the mixture",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Sharp or broad?",
+  "explanation": "## Advanced explanation\n\nPure compounds melt **sharply** (range \u2264 1\u20132 \u00b0C) at a characteristic temperature; impurities **lower** the melting point and **broaden** the range.\n\n## Simplified explanation\n\n**Melting point and range**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A pure substance melts over a",
+  "options": [
+   {
+    "text": "short (narrow) range of temperature",
+    "hint": "Correct. Usually within 1\u20132 \u00b0C."
+   },
+   {
+    "text": "wide range of temperature",
+    "hint": "That indicates impurity."
+   },
+   {
+    "text": "temperature range of 10 \u00b0C",
+    "hint": "Too wide."
+   },
+   {
+    "text": "range of 5 \u00b0C when heated strongly",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Pure = sharp.",
+  "explanation": "## Advanced explanation\n\nPure: **sharp, narrow** melting range. Impure: depressed and broad.\n\n## Simplified explanation\n\n**Narrow** range.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Why does the temperature of a liquid mixture increase throughout a distillation?",
+  "options": [
+   {
+    "text": "The distribution curve is affected by the high temperature.",
+    "hint": "No."
+   },
+   {
+    "text": "The composition of the vapour that is distilling varies continuously.",
+    "hint": "Correct. The mixture gets richer in the less volatile component."
+   },
+   {
+    "text": "The vapour pressure obeys Raoult's law.",
+    "hint": "True of ideal solutions, but not the reason."
+   },
+   {
+    "text": "The temperature difference is negligible.",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What leaves first?",
+  "explanation": "## Advanced explanation\n\nAs the more volatile component distils off, the pot becomes **richer in the less volatile component**, so its boiling point rises and the vapour composition changes continuously.\n\n## Simplified explanation\n\nComposition changes \u2192 temperature rises.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Extraction of **essential oil** from a herbal plant can best be done by",
+  "options": [
+   {
+    "text": "liquid\u2013liquid extraction",
+    "hint": "Used afterwards, not to isolate from plant material."
+   },
+   {
+    "text": "simple distillation",
+    "hint": "Too hot; oils decompose."
+   },
+   {
+    "text": "vacuum distillation",
+    "hint": "Possible, but steam distillation is standard."
+   },
+   {
+    "text": "steam distillation",
+    "hint": "Correct. Isolates heat-sensitive, water-immiscible oils below 100 \u00b0C."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Below 100 \u00b0C.",
+  "explanation": "## Advanced explanation\n\n**Steam distillation** co-distils water-immiscible volatile oils at below 100 \u00b0C, avoiding decomposition.\n\n## Simplified explanation\n\nEssential oils \u2192 **steam distillation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which can best be used as a **drying agent** in organic practicals?",
+  "options": [
+   {
+    "text": "Anhydrous copper sulphate",
+    "hint": "Used to test for water, not routinely to dry."
+   },
+   {
+    "text": "Hydrated sodium sulphate",
+    "hint": "Already hydrated."
+   },
+   {
+    "text": "Anhydrous sodium sulphate",
+    "hint": "Correct. Absorbs water, inert, easy to filter off."
+   },
+   {
+    "text": "Hydrated barium chloride",
+    "hint": "Already hydrated; won't dry."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Must be anhydrous.",
+  "explanation": "## Advanced explanation\n\nCommon drying agents: **anhydrous Na\u2082SO\u2084, MgSO\u2084, CaCl\u2082**. They must be **anhydrous** to take up water.\n\n## Simplified explanation\n\n**Anhydrous Na\u2082SO\u2084**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Extraction",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During steam distillation, the mixture of oil and water boils when",
+  "options": [
+   {
+    "text": "the combined vapour pressures of water and the oil equal the atmospheric pressure",
+    "hint": "Correct. Dalton's law for immiscible liquids."
+   },
+   {
+    "text": "the vapour pressures of water and oil each exceed atmospheric pressure",
+    "hint": "No."
+   },
+   {
+    "text": "the temperature exceeds 100 \u00b0C",
+    "hint": "It boils below 100 \u00b0C."
+   },
+   {
+    "text": "there is no vapour pressure",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Immiscible liquids add pressures.",
+  "explanation": "## Advanced explanation\n\nFor immiscible liquids each component exerts its own full vapour pressure: $P_{\\text{total}} = P_{\\text{water}} + P_{\\text{oil}}$. Boiling occurs when this sum equals atmospheric pressure, **below 100 \u00b0C**.\n\n## Simplified explanation\n\nSum of vapour pressures = atmospheric pressure.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "TLC spots that cannot be seen under the UV lamp can be visualised using",
+  "options": [
+   {
+    "text": "iodine vapour",
+    "hint": "Correct. Iodine stains most organic compounds brown."
+   },
+   {
+    "text": "bromine solution",
+    "hint": "No."
+   },
+   {
+    "text": "fluorine gas",
+    "hint": "Dangerous; no."
+   },
+   {
+    "text": "chlorine vapour",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Brown spots.",
+  "explanation": "## Advanced explanation\n\nVisualisation: **UV lamp** (fluorescent plates), **iodine chamber**, or chemical stains (e.g. **ninhydrin** for amino acids, permanganate).\n\n## Simplified explanation\n\n**Iodine vapour**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chromatography (TLC)",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The solid adsorbent used to coat the surface of a TLC plate is",
+  "options": [
+   {
+    "text": "aluminium peroxide",
+    "hint": "Alumina is aluminium oxide."
+   },
+   {
+    "text": "sulphuric acid",
+    "hint": "No."
+   },
+   {
+    "text": "silica gel",
+    "hint": "Correct. Or alumina."
+   },
+   {
+    "text": "silicon",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Stationary phase.",
+  "explanation": "## Advanced explanation\n\nTLC stationary phases: **silica gel** (most common) or **alumina** ($\\ce{Al2O3}$).\n\n## Simplified explanation\n\n**Silica gel**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chromatography (TLC)",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ratio of the distance the sample travels to the distance the solvent travels is called the",
+  "options": [
+   {
+    "text": "retaining value",
+    "hint": "No."
+   },
+   {
+    "text": "retardation factor ($R_f$)",
+    "hint": "Correct. $R_f$ = spot distance / solvent-front distance."
+   },
+   {
+    "text": "reverse factor",
+    "hint": "No."
+   },
+   {
+    "text": "renewal number",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "R_f.",
+  "explanation": "## Advanced explanation\n\n$$R_f = \\frac{\\text{distance travelled by spot}}{\\text{distance travelled by solvent front}}$$ It is always between 0 and 1.\n\n## Simplified explanation\n\n**Retardation factor**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chromatography (TLC)",
+   "2012/13 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** In steam distillation, the amount of water actually distilled is usually greater than the amount calculated.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Recall the principle."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nHeat losses and condensation in the flask mean extra steam/water distils.\n\n## Simplified explanation\n\nTrue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** In the melting of a compound, equilibrium does not exist between the liquid phase and the solid phase.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Recall the principle."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nThe melting point is the temperature at which solid and liquid are **in equilibrium**.\n\n## Simplified explanation\n\nFalse: they are in equilibrium.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Sugar in water will be more soluble at room temperature than at 100 \u00b0C.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Recall the principle."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nSolubility of most solids, including sugar, increases with temperature.\n\n## Simplified explanation\n\nFalse.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Recrystallisation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Non-volatile impurities raise the boiling point of compounds.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Recall the principle."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nBoiling-point elevation: dissolved non-volatile solutes lower vapour pressure.\n\n## Simplified explanation\n\nTrue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Steam distillation obeys Raoult's law.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Recall the principle."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nImmiscible liquids each exert their own vapour pressure (Dalton's law); Raoult's law applies to miscible (ideal) solutions.\n\n## Simplified explanation\n\nFalse.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Generally, as the temperature of a solvent increases, the solubility of a given (solid) compound decreases.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Recall the principle."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nIt usually increases; that's why recrystallisation works.\n\n## Simplified explanation\n\nFalse.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Recrystallisation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Coloured impurities are removed during recrystallisation by adsorption onto activated charcoal.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Recall the principle."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nActivated charcoal (Norit) adsorbs coloured, often polar, high-molecular-mass impurities.\n\n## Simplified explanation\n\nTrue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Recrystallisation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** Generally, non-polar compounds have higher melting points than polar compounds.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Recall the principle."
+   },
+   {
+    "text": "False",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nPolar (and ionic) compounds have stronger intermolecular forces, so higher melting points (for similar size).\n\n## Simplified explanation\n\nFalse.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**True or False?** A pure compound has a sharp melting point range of about 1\u20132 \u00b0C.",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct."
+   },
+   {
+    "text": "False",
+    "hint": "Recall the principle."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about the underlying principle.",
+  "explanation": "## Advanced explanation\n\nYes.\n\n## Simplified explanation\n\nTrue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Define **recrystallisation**. (b) State its main purpose.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) Recrystallisation is a technique in which an impure solid is **dissolved in a minimum amount of hot solvent**, the hot solution is filtered to remove insoluble impurities, and the filtrate is **cooled slowly** so that the pure compound crystallises out while soluble impurities remain in the mother liquor.\n>\n> (b) Its main purpose is to **purify solid organic compounds**.",
+  "explanation": "## Advanced explanation\n\nIt relies on the compound being much **more soluble hot than cold**, and on growing crystals **excluding** foreign molecules that don't fit the lattice.\n\n## Simplified explanation\n\nDissolve hot, cool slowly, collect pure crystals.",
+  "hint": "Hot vs cold solubility.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Recrystallisation",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List **four** properties of an ideal solvent for recrystallisation.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Any four of:\n> 1. Dissolves the compound **well when hot** but **poorly when cold**.\n> 2. Either dissolves impurities well at all temperatures or not at all.\n> 3. **Does not react** with the compound (inert).\n> 4. Fairly **low boiling point** (volatile) so it is easily removed from the crystals.\n> 5. Boiling point below the melting point of the compound.\n> 6. **Non-toxic, non-flammable** and cheap.",
+  "explanation": "## Advanced explanation\n\nCommon choices: water, ethanol, methanol; avoid benzene (carcinogenic), diethyl ether (very flammable).\n\n## Simplified explanation\n\nSoluble hot, insoluble cold, inert, volatile, safe.",
+  "hint": "Hot/cold solubility first.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "2014/15 Paper",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Is the **activated charcoal** used in recrystallisation an **adsorbent**? Explain. What is one disadvantage of using too much?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Yes.** Activated charcoal has a very large, porous surface area onto which coloured (and some other) impurities are **adsorbed** (held on the surface), so they are removed when the hot solution is filtered.\n>\n> Too much charcoal also adsorbs the **desired compound**, reducing the **percentage yield**.",
+  "explanation": "## Advanced explanation\n\nAdsorption is a surface phenomenon (contrast absorption, uptake into the bulk).\n\n## Simplified explanation\n\nYes: impurities stick to its surface; too much lowers yield.",
+  "hint": "Surface.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "2014/15 Paper",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A **pale blue** organic compound was dissolved in hot solvent before recrystallisation, and the solution was blue. Should decolourising charcoal be used before cooling? Explain.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **No.** The blue colour belongs to the **compound itself**, not to an impurity. Charcoal would adsorb the compound and lower the yield without improving purity.",
+  "explanation": "## Advanced explanation\n\nCharcoal is used only when a coloured **impurity** makes the solution a different colour from the pure compound.\n\n## Simplified explanation\n\nThe colour is the compound's own, so no charcoal.",
+  "hint": "Whose colour is it?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A student's hot recrystallisation solution gave no crystals at room temperature. He placed the flask in an ice bath and a large amount of solid suddenly appeared. He obtained a good yield, but the product was impure. Explain.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Cooling the solution **too rapidly** caused the solid to **precipitate** quickly rather than crystallise slowly. Fast precipitation **traps impurities** (and solvent) within the solid; slow crystal growth lets the lattice exclude foreign molecules. He should have induced crystallisation at room temperature (scratching or seeding) and cooled slowly.",
+  "explanation": "## Advanced explanation\n\n**Precipitation vs recrystallisation:** recrystallisation is slow and selective; precipitation is fast and traps impurities.\n\n## Simplified explanation\n\nCrashing out in ice traps impurities.",
+  "hint": "Fast vs slow cooling.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two ways** of inducing crystal formation when a cooled recrystallisation solution gives no crystals.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Scratch** the inside of the flask with a glass rod (creates nucleation sites).\n> 2. **Seed** the solution with a tiny crystal of the pure compound.\n> (Also: evaporate some solvent to concentrate the solution, or cool further after slow cooling.)",
+  "explanation": "## Advanced explanation\n\n**Seeding** = adding a small amount of pure substance to start crystallisation.\n\n## Simplified explanation\n\nScratch or seed.",
+  "hint": "Give crystals somewhere to start.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is it advisable to use an **Erlenmeyer (conical) flask** rather than a beaker during recrystallisation?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Its narrow neck **reduces solvent evaporation** and contamination, it can be **stoppered** or fitted with a condenser, it reduces splashing, and it is easier to swirl and handle when hot.",
+  "explanation": "## Advanced explanation\n\nLess evaporation keeps the solution from becoming supersaturated too early.\n\n## Simplified explanation\n\nNarrow neck: less evaporation, can be stoppered.",
+  "hint": "Shape matters.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "Quiz",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How can **premature crystallisation** in the funnel during hot filtration be prevented or remedied?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Prevent:** pre-heat the funnel and receiving flask, use a **stemless/short-stem funnel** with **fluted** paper, use slightly more solvent than the minimum, and filter quickly while hot.\n>\n> **Remedy:** pour a small amount of **hot solvent** through the funnel to redissolve the crystals.",
+  "explanation": "## Advanced explanation\n\nCrystals form in the funnel because the solution cools as it passes through.\n\n## Simplified explanation\n\nKeep everything hot; wash through with hot solvent.",
+  "hint": "Heat loss.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Recrystallisation",
+   "Quiz",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name the type of chromatography used to separate and identify dissolved substances, and name the process by which TLC separates amino acids.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Thin-layer (or paper) chromatography separates and identifies dissolved substances. TLC separates by **adsorption**: components distribute between the stationary phase (silica) and the mobile phase (solvent). Components adsorbed more strongly travel less far.",
+  "explanation": "## Advanced explanation\n\nAmino acids are visualised with **ninhydrin** (purple spots).\n\n## Simplified explanation\n\nTLC works by **adsorption** chromatography.",
+  "hint": "Stationary vs mobile phase.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Define the **$R_f$ value** and state **three** factors that may affect it.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> $R_f = \\dfrac{\\text{distance moved by the spot}}{\\text{distance moved by the solvent front}}$ (both from the baseline).\n>\n> Factors: (1) **solvent system** (polarity); (2) **type and thickness of the adsorbent**; (3) **temperature**; (4) **amount of sample spotted**; (5) chamber saturation.",
+  "explanation": "## Advanced explanation\n\nBecause so many factors affect it, compare unknowns with standards on the **same plate**.\n\n## Simplified explanation\n\nR_f = spot \u00f7 solvent front; solvent, adsorbent, temperature, loading.",
+  "hint": "Ratio of distances.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Chromatography (TLC)",
+   "Quiz",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The ratio of the distance travelled by the solvent to the distance travelled by the sample is 1.23. If the solvent has travelled 9.6 cm, find the distance travelled by the sample.",
+  "media": [],
+  "answer": "$$\\frac{d_{\\text{solvent}}}{d_{\\text{sample}}} = 1.23 \\Rightarrow d_{\\text{sample}} = \\frac{9.6}{1.23}$$\n\n> [!answer]\n> **\u2248 7.8 cm** ($R_f \\approx 0.81$)",
+  "explanation": "## Advanced explanation\n\nThe ratio given is $1/R_f$.\n\n## Simplified explanation\n\n9.6 \u00f7 1.23 \u2248 **7.8 cm**.",
+  "hint": "Rearrange the ratio.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "After a TLC analysis (solvent front = 7.0 cm), spots travelled: bromocresol green 5.1 cm, Eriochrome Black T 6.3 and 6.2 cm (two spots), phenol red 4.7 cm, unknown 5.0 cm. Using $R_f$ values, identify the unknown and comment on Eriochrome Black T.",
+  "media": [],
+  "answer": "$R_f$: bromocresol green $5.1/7.0 = 0.73$; Eriochrome Black T $0.90$ and $0.89$; phenol red $0.67$; unknown $5.0/7.0 = 0.71$.\n\n> [!answer]\n> The unknown ($R_f$ \u2248 0.71) matches **bromocresol green** (0.73). Eriochrome Black T gives **two spots**, so the sample is **impure / a mixture** (or contains two components).",
+  "explanation": "## Advanced explanation\n\nIdentify an unknown by matching its $R_f$ with a standard run on the same plate; more than one spot means more than one component.\n\n## Simplified explanation\n\nUnknown \u2248 bromocresol green; EBT shows two spots (impure).",
+  "hint": "Calculate each R_f.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Chromatography (TLC)",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A student spots an unknown on a TLC plate and, after developing in hexane/ethyl acetate 50:50, sees a **single spot** ($R_f$ 0.55). Does this prove the sample is pure? How can purity be verified?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **No.** Two compounds may have the same $R_f$ in that solvent (co-elution), or an impurity may not be visible. Verify by running TLC in **different solvent systems** (different polarities), using **different visualisation methods**, **co-spotting** with an authentic sample, and/or checking the **melting point** (sharp and matching the literature).",
+  "explanation": "## Advanced explanation\n\nA single spot is necessary but not sufficient evidence of purity.\n\n## Simplified explanation\n\nNot proof: change the solvent, co-spot, check the melting point.",
+  "hint": "Could two compounds overlap?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why must the following be avoided in TLC? (a) Solvent pool in the developing jar too deep. (b) Solvent polarity too low. (c) Letting the solvent front reach the top of the plate.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) If the solvent is above the baseline, the spots **dissolve into the solvent pool** instead of moving up the plate.\n> (b) The components **won't move** (they stay near the baseline), so no separation.\n> (c) You can no longer measure the solvent front, so **$R_f$ cannot be calculated** (and spots may run together).",
+  "explanation": "## Advanced explanation\n\nThe baseline must be **above** the solvent level; mark the solvent front immediately on removal.\n\n## Simplified explanation\n\nSpots wash off; nothing moves; can't measure R_f.",
+  "hint": "Think about the baseline.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Chromatography (TLC)",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In TLC analysis, why is a **pen** not used to draw the baseline on the plate?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Pen **ink is soluble** in the developing solvent and would itself move up the plate as coloured spots, contaminating the chromatogram. A **soft pencil** (graphite) is used because it does not move.",
+  "explanation": "## Advanced explanation\n\nGraphite is inert and insoluble.\n\n## Simplified explanation\n\nInk runs; pencil doesn't.",
+  "hint": "Will it dissolve?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** ways of visualising spots on a TLC plate if none are visible.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. View under a **UV lamp** (254 nm) on fluorescent plates.\n> 2. Place the plate in an **iodine** chamber.\n> 3. Spray with a chemical reagent, e.g. **ninhydrin** (amino acids) or potassium permanganate.",
+  "explanation": "## Advanced explanation\n\nChoose the method to suit the compound type.\n\n## Simplified explanation\n\nUV lamp, iodine, ninhydrin.",
+  "hint": "Light or stain.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **four** applications of thin-layer chromatography.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. Checking the **purity** of a compound.\n> 2. Determining the **number of components** in a mixture.\n> 3. **Identifying** compounds by comparing $R_f$ with standards.\n> 4. **Monitoring the progress** of a reaction.\n> 5. Choosing a suitable solvent for **column chromatography**.",
+  "explanation": "## Advanced explanation\n\nTLC is fast, cheap and needs very little sample.\n\n## Simplified explanation\n\nPurity, components, identity, reaction monitoring.",
+  "hint": "What does TLC tell you?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Chromatography (TLC)",
+   "Quiz",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **two** differences between thin-layer chromatography (TLC) and paper chromatography, and say why they are related.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Stationary phase:** TLC uses a thin layer of **silica/alumina** on glass/plastic/aluminium; paper chromatography uses **cellulose paper**.\n> 2. **Mechanism:** TLC is mainly **adsorption**; paper chromatography is mainly **partition** (water held in the cellulose).\n> 3. TLC is **faster** and gives sharper spots; it can use corrosive spray reagents.\n>\n> They are related because both are **planar chromatography** in which a solvent moves up a stationary phase by **capillary action** and components separate by their relative affinities, measured as $R_f$.",
+  "explanation": "## Advanced explanation\n\nBoth are forms of planar chromatography.\n\n## Simplified explanation\n\nSilica vs paper; adsorption vs partition; both use capillary action and R_f.",
+  "hint": "Stationary phase.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Chromatography (TLC)",
+   "2012/13 Paper",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A new anti-malarial drug is believed to contain 8 different components. As a chemist, describe how you would use TLC to check this.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Dissolve a little of the drug in a suitable solvent and **spot** it (with a capillary) on a **pencil baseline** of a silica TLC plate. Place the plate in a covered **developing jar** containing a suitable solvent below the baseline; the solvent rises by **capillary action**, separating the components. Remove the plate, mark the solvent front, dry and **visualise** (UV/iodine). Count the spots: **8 distinct spots** support 8 components. Repeat with different solvent systems to resolve any overlapping spots.",
+  "explanation": "## Advanced explanation\n\nTLC shows the number of components; co-spotting with known standards can identify them.\n\n## Simplified explanation\n\nSpot, develop, visualise, count spots.",
+  "hint": "Count the spots.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Chromatography (TLC)",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) State the main advantage of **steam distillation** over simple distillation. (b) Can steam distillation of **ethanol** be done using an ethanol\u2013water mixture? Explain.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) Steam distillation lets **high-boiling, heat-sensitive, water-immiscible** compounds (e.g. essential oils) distil **below 100 \u00b0C**, avoiding decomposition.\n>\n> (b) **No.** Steam distillation requires the compound to be **immiscible** with water; ethanol is **miscible** with water, so it would not exert its own independent vapour pressure (and simple/fractional distillation is used instead).",
+  "explanation": "## Advanced explanation\n\nThe method relies on Dalton's law for immiscible liquids: each component contributes its full vapour pressure.\n\n## Simplified explanation\n\nLower temperature; ethanol is miscible, so no.",
+  "hint": "Miscible or immiscible?",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Distillation",
+   "2014/15 Paper",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is the **distillate** from steam distillation **turbid** (cloudy)?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Because the distillate contains **two immiscible liquids** (the oil and water) dispersed as tiny droplets, forming an emulsion-like mixture.",
+  "explanation": "## Advanced explanation\n\nThe oil is then separated (e.g. with a separatory funnel or extraction).\n\n## Simplified explanation\n\nOil droplets in water.",
+  "hint": "Immiscible.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "2011/12 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write the expression for the **total vapour pressure** of a mixture of immiscible components A, B, C and D undergoing steam distillation, and state the principle.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> $$P_{\\text{total}} = P_A + P_B + P_C + P_D$$ Each immiscible component contributes its **own full vapour pressure** as if the others were absent; the mixture boils when $P_{\\text{total}}$ equals atmospheric pressure.",
+  "explanation": "## Advanced explanation\n\nCompare with Raoult's law for miscible liquids, where each partial pressure depends on mole fraction.\n\n## Simplified explanation\n\nAdd the separate vapour pressures.",
+  "hint": "Dalton's law.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Distillation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain whether steam distillation should or should not be used to isolate and purify an organic liquid with a vapour pressure of **760 torr at 46 \u00b0C**.",
+  "media": [],
+  "answer": "A vapour pressure of 760 torr at 46 \u00b0C means the liquid **boils at 46 \u00b0C** at atmospheric pressure: it is very volatile.\n\n> [!answer]\n> It **should not** be steam distilled. It can be purified by **simple distillation** at 46 \u00b0C. Steam distillation is meant for **high-boiling** (or heat-sensitive) water-immiscible compounds that would decompose at their normal boiling points.",
+  "explanation": "## Advanced explanation\n\nSteam distillation lowers the distillation temperature below 100 \u00b0C; that is pointless for a liquid that already boils at 46 \u00b0C.\n\n## Simplified explanation\n\nIt boils at 46 \u00b0C: just distil it simply.",
+  "hint": "What is its boiling point?",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Distillation",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Why should water enter a **condenser** at the lowest point and leave at the highest? (b) Why is the fractionating column lagged?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) So the **water jacket stays completely filled** and flows against the vapour (counter-current), giving the most efficient cooling.\n>\n> (b) Lagging **insulates** the column to maintain a steady temperature gradient and minimise heat loss, giving better separation.",
+  "explanation": "## Advanced explanation\n\nWater in at the top would drain out and leave air pockets.\n\n## Simplified explanation\n\nBottom in keeps the jacket full; lagging keeps the column warm.",
+  "hint": "Fill the jacket.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Distillation",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Define **bumping** and state how it is prevented. Why should anti-bumping granules not be added to an already boiling liquid?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Bumping** is the sudden violent boiling of a **superheated** liquid. It is prevented by adding **boiling chips** (small, porous, inert pieces) **before heating**; they provide nucleation sites for smooth bubble formation.\n>\n> Adding them to a hot/boiling liquid may trigger **violent eruption** of the superheated liquid.",
+  "explanation": "## Advanced explanation\n\nCharacteristics of anti-bumping agents: small, inert, porous/irregular.\n\n## Simplified explanation\n\nSuperheating \u2192 sudden boiling; add chips before heating.",
+  "hint": "Nucleation sites.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Distillation",
+   "Laboratory Technique & Safety",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is meant by **mixed melting point**? (b) Why is melting point important in judging purity?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) The melting point of an **intimate mixture** of the unknown with an authentic sample of a suspected compound. If they are identical, the melting point stays **unchanged and sharp**; if different, the mixture melts **lower and over a broad range**.\n>\n> (b) A pure compound melts sharply at a characteristic temperature; impurities **depress** the melting point and **broaden** the range.",
+  "explanation": "## Advanced explanation\n\nMixed melting point confirms identity; ordinary melting point indicates purity.\n\n## Simplified explanation\n\nMix with an authentic sample: no depression = same compound.",
+  "hint": "Impurities depress and broaden.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Melting Point & Purity",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is it necessary to carry out a melting point on a **finely powdered** sample?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> A fine powder packs **tightly** and **conducts heat evenly**, so the whole sample melts at the same time, giving an **accurate, sharp** reading. Coarse lumps heat unevenly and trap air, broadening the range.",
+  "explanation": "## Advanced explanation\n\nAlso use only 1\u20132 mm of sample in the capillary.\n\n## Simplified explanation\n\nEven heating, accurate reading.",
+  "hint": "Heat transfer.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Paul recrystallised an organic compound; after drying, the crystals melted at **101\u2013112 \u00b0C**. Comment on his results.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The **wide range (\u224811 \u00b0C)** shows the crystals are still **impure** (or still wet with solvent). A pure compound melts within 1\u20132 \u00b0C. He should recrystallise again and dry thoroughly before re-measuring.",
+  "explanation": "## Advanced explanation\n\nImpurities depress and broaden the melting range.\n\n## Simplified explanation\n\nRange too wide: still impure.",
+  "hint": "Compare with 1\u20132 \u00b0C.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A chemist measured: compound X melts at 101\u2013109 \u00b0C; compound Y melts at 102\u2013103.5 \u00b0C. Comment.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Y is (nearly) pure**: its range is narrow (1.5 \u00b0C). **X is impure**: its range is wide (8 \u00b0C) and starts lower.",
+  "explanation": "## Advanced explanation\n\nA sharp, narrow range indicates purity.\n\n## Simplified explanation\n\nY pure, X impure.",
+  "hint": "Compare the ranges.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Melting Point & Purity",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why **potassium chloride** (or sodium chloride) has a much higher melting point than **methane**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> KCl is an **ionic** compound held in a lattice by strong **electrostatic forces** between K\u207a and Cl\u207b ions, which need a lot of energy to overcome. Methane is a small **non-polar covalent** molecule held by very weak **London dispersion forces**.",
+  "explanation": "## Advanced explanation\n\nThe stronger the forces between particles, the higher the melting point.\n\n## Simplified explanation\n\nIonic bonds \u226b weak intermolecular forces.",
+  "hint": "Ionic vs molecular.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Melting Point & Purity",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Which is the more preferable physical property for identifying compounds, **melting point** or **boiling point**? Explain.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> **Melting point**, because it is hardly affected by **pressure** (and other environmental factors), needs very little sample and is easy to measure precisely, whereas boiling point varies significantly with atmospheric pressure.",
+  "explanation": "## Advanced explanation\n\nBoiling points must be corrected to standard pressure.\n\n## Simplified explanation\n\nMelting point: not pressure-dependent.",
+  "hint": "Pressure.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Melting Point & Purity",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Define **liquid\u2013liquid extraction**. (b) List **three** drying agents used. (c) Explain **salting out**.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> (a) A method of separating a compound by transferring it from one liquid phase to another **immiscible** liquid in which it is more soluble (e.g. from water into ether) using a separatory funnel.\n>\n> (b) **Anhydrous** sodium sulphate, magnesium sulphate, calcium chloride.\n>\n> (c) **Salting out**: adding a salt (e.g. NaCl) to the aqueous layer to **decrease the solubility** of the organic compound in water, pushing it into the organic layer (and helping to break emulsions).",
+  "explanation": "## Advanced explanation\n\nPartition coefficient $K = C_{\\text{organic}}/C_{\\text{aqueous}}$.\n\n## Simplified explanation\n\nImmiscible-solvent transfer; Na\u2082SO\u2084, MgSO\u2084, CaCl\u2082; add salt to push organics out of water.",
+  "hint": "Immiscible.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Extraction",
+   "2014/15 Paper",
+   "Quiz"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "For a benzoic acid\u2013benzophenone mixture in ether, extraction with aqueous NaOH converts benzoic acid into a water-soluble salt. Write the equation.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> $$\\ce{C6H5COOH + NaOH -> C6H5COO^-Na+ + H2O}$$ Sodium benzoate is ionic and moves into the aqueous layer; neutral benzophenone stays in the ether. Acidifying the aqueous layer later regenerates benzoic acid.",
+  "explanation": "## Advanced explanation\n\n**Acid\u2013base extraction** exploits the change in solubility when an acid or base is converted to its salt.\n\n## Simplified explanation\n\nBenzoic acid \u2192 sodium benzoate (water layer).",
+  "hint": "Acid + base \u2192 salt.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Extraction",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why should the **stopper** be removed from a separatory funnel before draining the lower layer?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Otherwise a **vacuum (partial pressure)** forms above the liquid and the liquid **will not drain** (or drains irregularly). Removing the stopper lets air in to replace the draining liquid.",
+  "explanation": "## Advanced explanation\n\nAlso vent the funnel frequently while shaking to release built-up pressure.\n\n## Simplified explanation\n\nTo let air in so it drains.",
+  "hint": "Pressure.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Extraction",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The partition coefficient $K$ of compound A between diethyl ether and water is 3 (A prefers ether). 400 mL of aqueous solution contains 12 g of A. How many grams of A are removed by a **single** extraction with 200 mL of ether?",
+  "media": [],
+  "answer": "Let $x$ g go into the ether:\n$$K = \\frac{x/200}{(12 - x)/400} = 3 \\Rightarrow 2x = 3(12 - x) \\Rightarrow 5x = 36$$\n\n> [!answer]\n> **x = 7.2 g** extracted (4.8 g remains in the water)",
+  "explanation": "## Advanced explanation\n\nMultiple smaller extractions remove more than one large one of the same total volume.\n\n## Simplified explanation\n\nSet up K = C_ether/C_water: **7.2 g**.",
+  "hint": "Concentrations, not masses.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Extraction",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A separatory funnel contains diethyl ether and aqueous sodium bicarbonate. Which layer is on top and why?",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> The **diethyl ether** layer is on **top**, because ether is **less dense** (\u2248 0.71 g/mL) than the aqueous NaHCO\u2083 solution (> 1.0 g/mL), and the two are immiscible.",
+  "explanation": "## Advanced explanation\n\nAlways identify layers by density (or add a drop of water to see which layer it joins).\n\n## Simplified explanation\n\nEther is lighter, so on top.",
+  "hint": "Compare densities.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Extraction",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **four** physical processes/criteria that can be used to ascertain the **purity** of a compound.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. **Melting point** (sharp, correct) of solids.\n> 2. **Boiling point** of liquids.\n> 3. **Mixed melting point**.\n> 4. **TLC** (single spot in several solvents).\n> 5. **Refractive index**.",
+  "explanation": "## Advanced explanation\n\nPurity tests compare a physical constant with literature values or check for a single component.\n\n## Simplified explanation\n\nm.p., b.p., mixed m.p., TLC, refractive index.",
+  "hint": "Physical constants.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Melting Point & Purity",
+   "2011/12 Paper",
+   "Revision Questions"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the reason for determining the **refractive index** of the essential oil obtained in a steam distillation experiment.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> To **identify** the oil and check its **purity** by comparing the measured refractive index with the literature value; impurities change it.",
+  "explanation": "## Advanced explanation\n\nRefractive index is a characteristic physical constant of liquids.\n\n## Simplified explanation\n\nIdentity and purity.",
+  "hint": "Physical constant.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Distillation",
+   "2014/15 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **four** safety rules that must be observed in a chemical laboratory.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> Any four of: wear a **lab coat, goggles** and covered shoes; **no eating, drinking** or smoking; know the location of **fire extinguishers, eye-wash and exits**; keep **flammable solvents away from flames**; work with volatile/toxic substances in a **fume hood**; never pipette by mouth; dispose of chemicals properly (not down the drain); report accidents immediately.",
+  "explanation": "## Advanced explanation\n\nOrganic solvents such as ether, acetone and hexane are highly flammable.\n\n## Simplified explanation\n\nProtective gear, no food, know safety equipment, no flames near solvents.",
+  "hint": "Protect yourself and others.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Laboratory Technique & Safety",
+   "Organic Chemistry II Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Outline the **steps** involved in recrystallising an impure solid.",
+  "media": [],
+  "answer": "\n\n> [!answer]\n> 1. Choose a suitable solvent.\n> 2. **Dissolve** the impure solid in the **minimum** amount of **hot** solvent.\n> 3. Add **activated charcoal** if coloured impurities are present; boil briefly.\n> 4. **Hot gravity filtration** (fluted paper) to remove insoluble impurities/charcoal.\n> 5. **Cool slowly** to room temperature, then in ice, to crystallise (seed/scratch if needed).\n> 6. Collect crystals by **suction (B\u00fcchner) filtration**; wash with a little cold solvent.\n> 7. **Dry** the crystals; determine the melting point.",
+  "explanation": "## Advanced explanation\n\nMinimum hot solvent maximises recovery; slow cooling gives purer crystals.\n\n## Simplified explanation\n\nDissolve hot, filter hot, cool slowly, filter cold, dry.",
+  "hint": "Hot \u2192 cold.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Recrystallisation",
+   "2012/13 Paper",
+   "Organic Chemistry II Paper"
+  ]
+ }
+]

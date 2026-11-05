@@ -1,0 +1,928 @@
+[
+ {
+  "type": "choice",
+  "body": "Music is defined as _______.",
+  "options": [
+   {
+    "text": "The combination of sounds",
+    "hint": "Too broad: noise is also a combination of sounds."
+   },
+   {
+    "text": "The intellectual combination of sounds",
+    "hint": "Correct. Music is sound organised by the mind."
+   },
+   {
+    "text": "The combination of group of sounds",
+    "hint": "Too vague."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What makes sound into music?",
+  "explanation": "## Advanced explanation\n\nMusic is **sound deliberately organised** in time (rhythm, melody, harmony, timbre, form) by human intellect to express ideas and emotions. The key word is **organisation/intellect**: random sound is noise.\n\n## Simplified explanation\n\nMusic is sound **arranged thoughtfully** by people.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the musical durational symbols looks like an **egg**?",
+  "options": [
+   {
+    "text": "Crotchet",
+    "hint": "Shaded head with a stem."
+   },
+   {
+    "text": "Minim",
+    "hint": "Open head with a stem."
+   },
+   {
+    "text": "Semibreve",
+    "hint": "Correct. An open oval with no stem, 4 beats."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "No stem.",
+  "explanation": "## Advanced explanation\n\nNote values: **semibreve** (whole note, open oval, 4 beats) → **minim** (open head + stem, 2) → **crotchet** (shaded head + stem, 1) → **quaver** (shaded head + stem + one flag, ½).\n\n## Simplified explanation\n\nThe **semibreve** is an open oval with no stem, like an egg.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the musical durational symbols has an **open head and a stem**?",
+  "options": [
+   {
+    "text": "Crotchet",
+    "hint": "Its head is shaded."
+   },
+   {
+    "text": "Minim",
+    "hint": "Correct."
+   },
+   {
+    "text": "Semibreve",
+    "hint": "No stem."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Half note.",
+  "explanation": "## Advanced explanation\n\nThe **minim** (half note) = open (hollow) head + stem = **2 crotchet beats**.\n\n## Simplified explanation\n\nHollow head with a stick = **minim**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the musical durational symbols has a **shaded head and a stem**?",
+  "options": [
+   {
+    "text": "Crotchet",
+    "hint": "Correct."
+   },
+   {
+    "text": "Minim",
+    "hint": "Its head is open."
+   },
+   {
+    "text": "Semibreve",
+    "hint": "Open and no stem."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Quarter note.",
+  "explanation": "## Advanced explanation\n\nThe **crotchet** (quarter note) = filled (shaded) head + stem = **1 beat** in simple time with a crotchet beat.\n\n## Simplified explanation\n\nBlack head with a stick = **crotchet**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Music is written on the **staff (stave)**, made of _______ parallel lines and _______ spaces.",
+  "options": [
+   {
+    "text": "3 and 4",
+    "hint": "No."
+   },
+   {
+    "text": "4 and 4",
+    "hint": "No."
+   },
+   {
+    "text": "5 and 4",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Count the lines between them.",
+  "explanation": "## Advanced explanation\n\nA staff has **5 lines and 4 spaces**; notes on the lines and in the spaces show pitch. Ledger lines extend the range above and below.\n\n## Simplified explanation\n\n**Five** lines, **four** spaces.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which musical symbols are used to mark the **voice ranges** of staves?",
+  "options": [
+   {
+    "text": "Clef",
+    "hint": "Correct. The general term; the treble and bass clefs are types."
+   },
+   {
+    "text": "Treble clef",
+    "hint": "One type of clef."
+   },
+   {
+    "text": "Bass clef",
+    "hint": "One type of clef."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The general term.",
+  "explanation": "## Advanced explanation\n\nA **clef** at the start of a staff fixes the pitch of the lines: the **treble (G) clef** for high voices and instruments, the **bass (F) clef** for low ones, and C clefs (alto, tenor).\n\n## Simplified explanation\n\nA **clef** tells you which notes the lines stand for.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the name of the **fifth (top) line** of the **bass staff**?",
+  "options": [
+   {
+    "text": "A",
+    "hint": "Correct. Bass lines: G, B, D, F, A."
+   },
+   {
+    "text": "B",
+    "hint": "No."
+   },
+   {
+    "text": "F",
+    "hint": "F is the fourth line."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "'Good Boys Do Fine Always.'",
+  "explanation": "## Advanced explanation\n\nBass staff **lines** (bottom → top): **G B D F A** ('Good Boys Do Fine Always'); **spaces**: A C E G ('All Cows Eat Grass').\n\n## Simplified explanation\n\nBass lines: **G, B, D, F, A**, so the fifth is **A**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the name of the **fifth (top) line** of the **treble staff**?",
+  "options": [
+   {
+    "text": "A",
+    "hint": "No."
+   },
+   {
+    "text": "B",
+    "hint": "B is the middle line."
+   },
+   {
+    "text": "F",
+    "hint": "Correct. Treble lines: E, G, B, D, F."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "'Every Good Boy Does Fine.'",
+  "explanation": "## Advanced explanation\n\nTreble staff **lines** (bottom → top): **E G B D F** ('Every Good Boy Does Fine'); **spaces**: F A C E.\n\n## Simplified explanation\n\nTreble lines: **E, G, B, D, F**, so the fifth is **F**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In time signatures, **3/8** stands for",
+  "options": [
+   {
+    "text": "Three quaver beats in a bar",
+    "hint": "Correct. 3 = number of beats, 8 = quaver."
+   },
+   {
+    "text": "Eight quaver beats in a bar",
+    "hint": "No."
+   },
+   {
+    "text": "Three crotchet beats in a bar",
+    "hint": "A crotchet is 4."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Top = how many; bottom = which note.",
+  "explanation": "## Advanced explanation\n\n**Upper figure** = number of beats per bar; **lower figure** = the note value of each beat: 2 = minim, 4 = crotchet, 8 = quaver. So 3/8 = **three quaver beats**.\n\n## Simplified explanation\n\n3/8 means **3 quavers** in each bar.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In time signatures, **3/2** stands for",
+  "options": [
+   {
+    "text": "Three quaver beats in a bar",
+    "hint": "8 would be a quaver."
+   },
+   {
+    "text": "Two minim beats in a bar",
+    "hint": "That would be 2/2."
+   },
+   {
+    "text": "Three minim beats in a bar",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Lower 2 = minim.",
+  "explanation": "## Advanced explanation\n\n3/2: **3** beats, each a **minim** (2).\n\n## Simplified explanation\n\n3/2 means **3 minims** per bar.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In time signatures, **4/4** stands for",
+  "options": [
+   {
+    "text": "Four crotchet beats in a bar",
+    "hint": "Correct. 'Common time'."
+   },
+   {
+    "text": "Three crotchet beats in a bar",
+    "hint": "That is 3/4."
+   },
+   {
+    "text": "Two quaver beats in a bar",
+    "hint": "That is 2/8."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Common time.",
+  "explanation": "## Advanced explanation\n\n4/4 (**common time**, also written **C**) = four crotchet beats per bar.\n\n## Simplified explanation\n\n4/4 = **4 crotchets** per bar.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Rudiments of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Into how many types are musical instruments grouped in **Africa**?",
+  "options": [
+   {
+    "text": "Two",
+    "hint": "No."
+   },
+   {
+    "text": "Three",
+    "hint": "No."
+   },
+   {
+    "text": "Four",
+    "hint": "Correct. Idiophones, membranophones, aerophones, chordophones."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Sachs–Hornbostel.",
+  "explanation": "## Advanced explanation\n\nAfrican instruments are classified (Sachs–Hornbostel, as adapted by Nketia) into **idiophones** (self-sounding: bells, rattles, xylophones), **membranophones** (drums), **aerophones** (wind: flutes, horns) and **chordophones** (strings).\n\n## Simplified explanation\n\n**Four** groups: self-sounding, drums, wind, strings.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "String instruments found in African societies are classified as",
+  "options": [
+   {
+    "text": "Idiophones",
+    "hint": "Self-sounding."
+   },
+   {
+    "text": "Chordophones",
+    "hint": "Correct."
+   },
+   {
+    "text": "Membranophones",
+    "hint": "Drums."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "'Chord' = string.",
+  "explanation": "## Advanced explanation\n\n**Chordophones** produce sound from **vibrating strings** over a resonator: e.g. **seperewa** (Akan harp-lute), **kora**, **goje** (one-string fiddle), **kolgo**.\n\n## Simplified explanation\n\nString instruments are **chordophones**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following Western instruments belongs to the **strings** family?",
+  "options": [
+   {
+    "text": "Flute",
+    "hint": "Woodwind."
+   },
+   {
+    "text": "Trumpet",
+    "hint": "Brass."
+   },
+   {
+    "text": "Violin",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Bowed.",
+  "explanation": "## Advanced explanation\n\nOrchestral strings: **violin, viola, cello, double bass** (and harp).\n\n## Simplified explanation\n\nThe **violin** has strings.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following Western instruments belongs to the **percussion** family?",
+  "options": [
+   {
+    "text": "Bassoon",
+    "hint": "Woodwind."
+   },
+   {
+    "text": "Timpani",
+    "hint": "Correct. Kettle drums."
+   },
+   {
+    "text": "Tuba",
+    "hint": "Brass."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Struck.",
+  "explanation": "## Advanced explanation\n\nPercussion is sounded by **striking, shaking or scraping**: **timpani**, snare and bass drums, cymbals, xylophone, triangle.\n\n## Simplified explanation\n\n**Timpani** (kettle drums) are percussion.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **seperewa** is best described as:",
+  "options": [
+   {
+    "text": "A bamboo flute used in folk and choral music",
+    "hint": "That is the atenteben."
+   },
+   {
+    "text": "A harp-lute historically linked to Akan royal courts",
+    "hint": "Correct."
+   },
+   {
+    "text": "A wooden xylophone played in funeral rites",
+    "hint": "That is the gyil."
+   },
+   {
+    "text": "An antelope horn used for ancestral calls",
+    "hint": "That is the ivory/animal horn (aben)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Akan string instrument.",
+  "explanation": "## Advanced explanation\n\nThe **seperewa** is an **Akan harp-lute** (chordophone) with strings (traditionally 6–10) over a box resonator, historically played in **royal courts** for praise and storytelling, revived by performers such as Osei Kwame Korankye.\n\n## Simplified explanation\n\nThe seperewa is an **Akan stringed harp-lute** played at chiefs' courts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement best reflects the **tuning practice** of traditional Ghanaian instruments?",
+  "options": [
+   {
+    "text": "Tuned to international standards like A = 440 Hz",
+    "hint": "Not traditional practice."
+   },
+   {
+    "text": "Tuned to the tonal language or community preference",
+    "hint": "Correct."
+   },
+   {
+    "text": "Tuned to match Western orchestral scales",
+    "hint": "No."
+   },
+   {
+    "text": "Tuned using electronic devices for precision",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Local norms.",
+  "explanation": "## Advanced explanation\n\nTraditional instruments are tuned **by ear** to **community and regional preferences** and to the **tones of the language**, which is essential for 'talking' instruments such as the atumpan, which reproduce speech tones.\n\n## Simplified explanation\n\nThey are tuned **the way the community likes** and to match the **language**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which principle underlies the **Sachs–Hornbostel** classification system?",
+  "options": [
+   {
+    "text": "Instruments are grouped by their cultural symbolism",
+    "hint": "No."
+   },
+   {
+    "text": "Instruments are grouped by their sound production method",
+    "hint": "Correct."
+   },
+   {
+    "text": "Instruments are grouped by their geographical origin",
+    "hint": "No."
+   },
+   {
+    "text": "Instruments are grouped by their physical shape",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What vibrates?",
+  "explanation": "## Advanced explanation\n\nSachs and Hornbostel (1914) classify instruments by **what vibrates to produce sound**: the body itself (idiophones), a stretched membrane (membranophones), a column of air (aerophones), strings (chordophones); electrophones were added later.\n\n## Simplified explanation\n\nIt groups instruments by **how they make sound**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following Ghanaian instruments is correctly classified as an **idiophone**?",
+  "options": [
+   {
+    "text": "Dawuro",
+    "hint": "Correct. An iron bell: the instrument's own body vibrates."
+   },
+   {
+    "text": "Seperewa",
+    "hint": "Chordophone."
+   },
+   {
+    "text": "Dondo",
+    "hint": "Membranophone (talking drum)."
+   },
+   {
+    "text": "Atenteben",
+    "hint": "Aerophone."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Self-sounding.",
+  "explanation": "## Advanced explanation\n\n**Idiophones** sound by the **vibration of their own body**: **dawuro** (gong-gong/bell), **gankogui** (double bell), **axatse** and **shekere** (rattles), **gyil** (xylophone), **prempensua** (box lamellophone).\n\n## Simplified explanation\n\nThe **dawuro** (bell) sounds by itself vibrating.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Chordophones** in the Sachs–Hornbostel system produce sound through:",
+  "options": [
+   {
+    "text": "Vibrating membranes stretched over a hollow body",
+    "hint": "Membranophones."
+   },
+   {
+    "text": "Vibrating air columns inside a tube or cavity",
+    "hint": "Aerophones."
+   },
+   {
+    "text": "Vibrating metal surfaces struck with a stick",
+    "hint": "Idiophones."
+   },
+   {
+    "text": "Vibrating strings stretched over a resonating body",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Chord = string.",
+  "explanation": "## Advanced explanation\n\nChordophones: **vibrating strings** over a resonator, plucked, bowed or struck (seperewa, kora, guitar, violin, piano).\n\n## Simplified explanation\n\nChordophones use **strings**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Identify the instruments in an **Adowa** ensemble that are classified as **membranophones**.",
+  "options": [
+   {
+    "text": "Atumpan and Dawuro",
+    "hint": "Dawuro is a bell (idiophone)."
+   },
+   {
+    "text": "Petia and Apentema",
+    "hint": "Correct. Both are drums."
+   },
+   {
+    "text": "Afrikyiwa and Donno",
+    "hint": "Afrikyiwa is a castanet (idiophone)."
+   },
+   {
+    "text": "Torowa and Apentema",
+    "hint": "Torowa is a rattle (idiophone)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Both must be drums.",
+  "explanation": "## Advanced explanation\n\nThe Adowa ensemble: **atumpan** (master talking drums), **apentema**, **petia**, **kwadum**, **donno** (hourglass drum): membranophones; plus **dawuro** (bell), **afrikyiwa** (castanet) and **torowa** (rattle): idiophones.\n\n## Simplified explanation\n\n**Petia and apentema** are both drums.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Musical Instruments",
+   "Dance",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **Dipo** ceremony of the **Krobo** primarily marks:",
+  "options": [
+   {
+    "text": "Transition from childhood to adulthood",
+    "hint": "Too general."
+   },
+   {
+    "text": "Girls' initiation into womanhood",
+    "hint": "Correct."
+   },
+   {
+    "text": "Boys' preparation for communal leadership",
+    "hint": "No."
+   },
+   {
+    "text": "Entry into spiritual adulthood",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Female puberty rite.",
+  "explanation": "## Advanced explanation\n\n**Dipo** is the Krobo **puberty rite for girls**: initiates are taught womanhood, morality and domestic skills, end with the climbing of the sacred stone (tɛgbɛtɛ), and are presented to society in **outdooring** with music and **klama** dance songs.\n\n## Simplified explanation\n\nDipo is the Krobo ceremony that **initiates girls into womanhood**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The **Homowo** Festival of the **Ga** people commemorates:",
+  "options": [
+   {
+    "text": "Ancestral migration",
+    "hint": "Part of the background, but not what the name commemorates."
+   },
+   {
+    "text": "Harvest thanksgiving",
+    "hint": "Related, but the name points to hunger."
+   },
+   {
+    "text": "Royal lineage",
+    "hint": "No."
+   },
+   {
+    "text": "End of hunger",
+    "hint": "Correct. 'Hooting at hunger'."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Homo-wo = hooting (at) hunger.",
+  "explanation": "## Advanced explanation\n\n**Homowo** ('hooting at hunger') recalls how the Ga ancestors survived a **famine** after a good harvest; they mocked hunger. Celebrations include planting rites, a ban on drumming, sprinkling of **kpokpoi** and music and dance.\n\n## Simplified explanation\n\nHomowo means **laughing at hunger**: it celebrates the **end of a famine**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "**Work songs** in Ghanaian daily life primarily function to:",
+  "options": [
+   {
+    "text": "Synchronise group labour and reduce fatigue",
+    "hint": "Correct."
+   },
+   {
+    "text": "Entertain workers during tasks",
+    "hint": "Secondary."
+   },
+   {
+    "text": "Teach children rhythm and cooperation",
+    "hint": "Not their primary purpose."
+   },
+   {
+    "text": "Critique leadership through satire",
+    "hint": "Not primary."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Rhythm of work.",
+  "explanation": "## Advanced explanation\n\nWork songs (fishermen pulling nets, farmers weeding, porters) **coordinate the rhythm of group work**, make labour lighter and **reduce fatigue and boredom**.\n\n## Simplified explanation\n\nWork songs help people **work together in rhythm** and feel less tired.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Oral transmission in Ghanaian music depends on memory, but **variation is valued** because:",
+  "options": [
+   {
+    "text": "It corrects mistakes in performance",
+    "hint": "No."
+   },
+   {
+    "text": "It prevents learners from forgetting rhythms",
+    "hint": "No."
+   },
+   {
+    "text": "It eliminates improvisation in communal settings",
+    "hint": "Variation is improvisation."
+   },
+   {
+    "text": "It ensures tradition is preserved but never frozen",
+    "hint": "Correct."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Living tradition.",
+  "explanation": "## Advanced explanation\n\nIn **oral tradition**, performers keep the **core** of a piece while **varying and improvising** (text, rhythm, ornamentation). This keeps the tradition **alive and adaptable**: continuity with change.\n\n## Simplified explanation\n\nSmall changes keep the music **alive** while still keeping the tradition.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In Ghanaian **communal participation**, songs are considered:",
+  "options": [
+   {
+    "text": "The property of the lead singer",
+    "hint": "No."
+   },
+   {
+    "text": "Owned by families with lineage rights",
+    "hint": "Some are, but not generally."
+   },
+   {
+    "text": "Belonging to the whole community",
+    "hint": "Correct."
+   },
+   {
+    "text": "Restricted to ritual specialists only",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Communal ownership.",
+  "explanation": "## Advanced explanation\n\nMost traditional songs are **communally owned**: composed and transmitted collectively and performed with **community participation** (call and response, clapping, dancing). Some royal and ritual repertoires are restricted, but the norm is communal.\n\n## Simplified explanation\n\nSongs belong to **everyone in the community**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All these are primary goals of **African traditional dance**, **except**",
+  "options": [
+   {
+    "text": "Connecting with the ancestors",
+    "hint": "A primary goal."
+   },
+   {
+    "text": "Honour deities and seek their blessing",
+    "hint": "A primary goal."
+   },
+   {
+    "text": "Entertain visitors during festivals",
+    "hint": "Correct. Entertainment of visitors is incidental, not a primary goal."
+   },
+   {
+    "text": "Celebrate the rite of passage",
+    "hint": "A primary goal."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which is incidental?",
+  "explanation": "## Advanced explanation\n\nTraditional dance is **functional**: it serves worship, ancestral communion, rites of passage (birth, puberty, marriage, death), war, work and social cohesion. Entertaining outsiders is a **by-product**, not a primary aim.\n\n## Simplified explanation\n\nTraditional dances are mainly for **ancestors, gods and life events**, not to entertain visitors.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Dance",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All these are sets of **locomotor** body movements **except**",
+  "options": [
+   {
+    "text": "Somersault, slide, and run",
+    "hint": "All locomotor."
+   },
+   {
+    "text": "Somersault, suspend, and walk",
+    "hint": "Correct. 'Suspend' is non-locomotor."
+   },
+   {
+    "text": "Somersault, hop and skip",
+    "hint": "All locomotor."
+   },
+   {
+    "text": "Somersault, jump, and leap",
+    "hint": "All locomotor."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which word does not travel?",
+  "explanation": "## Advanced explanation\n\n**Locomotor** movements move the body **through space** (walk, run, hop, skip, jump, leap, slide, gallop). **Non-locomotor** movements happen **on the spot** (bend, stretch, twist, swing, **suspend**, sway).\n\n## Simplified explanation\n\n**Suspend** does not move you from place to place.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Dance",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The act of **selecting and putting together body movements**, focusing on the various elements of dance, is known as",
+  "options": [
+   {
+    "text": "Performance aesthetics",
+    "hint": "No."
+   },
+   {
+    "text": "Representational choreography",
+    "hint": "A type of choreography."
+   },
+   {
+    "text": "Choreography",
+    "hint": "Correct."
+   },
+   {
+    "text": "Abstract choreography",
+    "hint": "A type of choreography."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The general term.",
+  "explanation": "## Advanced explanation\n\n**Choreography** is the art of **designing and arranging** movement sequences using the elements of dance (body, action, space, time, energy). It can be **representational** (tells a story) or **abstract**.\n\n## Simplified explanation\n\nArranging dance movements = **choreography**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Dance",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify and describe the **four primary categories** of musical instruments in the **Sachs–Hornbostel** classification system, giving **two** examples for each. _(Also asked: with four examples, write short essays on **aerophones** and on **membranophones**.)_",
+  "media": [],
+  "answer": "| Category | How sound is produced | African/Ghanaian examples | Western examples |\n|---|---|---|---|\n| **Idiophones** | The **body of the instrument itself** vibrates (struck, shaken, scraped, plucked) | **Dawuro** (bell), **gankogui** (double bell), **axatse/shekere** (rattle), **gyil** (xylophone), **prempensua** | Xylophone, cymbals, triangle |\n| **Membranophones** | A **stretched skin (membrane)** vibrates | **Atumpan** (talking drums), **fontomfrom**, **kpanlogo**, **donno/lunsi** (hourglass drum), **sogo**, **brekete** | Timpani, snare drum, bass drum |\n| **Aerophones** | A **column of air** vibrates (blown) | **Atenteben** (bamboo flute), **odurugya**, **aben** (animal/ivory horn), **wia** (Frafra flute), **mmentia** | Flute, trumpet, clarinet, saxophone |\n| **Chordophones** | **Strings** vibrate over a resonator | **Seperewa**, **kora**, **goje/gonje** (fiddle), **kolgo**, musical bow | Violin, guitar, harp, piano |\n\n**Aerophones (essay notes):** sound comes from vibrating **air**: edge-blown (atenteben, flutes), lip-vibrated (horns, trumpets) or reed instruments. They are used for melody, signalling, praise (horn ensembles at chiefs' courts) and recreational music.\n\n**Membranophones (essay notes):** drums with **skin heads**, struck with hands or sticks; single- or double-headed; open or closed; the **hourglass** talking drum varies pitch by squeezing the cords. Drums are the core of most Ghanaian ensembles: they lead dances, **'talk'** (reproducing speech tones), send signals and accompany rituals.\n\n> [!answer]\n> Idiophones (dawuro, gyil), membranophones (atumpan, donno), aerophones (atenteben, aben), chordophones (seperewa, kora), each defined by what vibrates.",
+  "explanation": "## Advanced explanation\n\nCurt Sachs and Erich von Hornbostel (1914) based the system on the **primary vibrating material**, which makes it **culture-neutral** and applicable worldwide; **electrophones** were added later. J. H. Kwabena Nketia applied it to African instruments, noting the dominance of idiophones and membranophones in ensembles.\n\n## Simplified explanation\n\nInstruments are grouped by **what vibrates**: the instrument itself (bells), a **skin** (drums), **air** (flutes, horns) or **strings** (seperewa, guitar).",
+  "hint": "What vibrates: body, skin, air, string.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly describe the **classification of Western musical instruments**.",
+  "media": [],
+  "answer": "Western (orchestral) instruments are grouped into **families**:\n\n1. **Strings:** sound from vibrating strings, bowed or plucked: **violin, viola, cello, double bass, harp** (and guitar).\n2. **Woodwind:** sound from air vibrating in a tube, with a reed or edge: **flute, piccolo, oboe, clarinet, bassoon, saxophone**.\n3. **Brass:** sound from the player's **lips buzzing** into a cup mouthpiece; pitch changed with valves or a slide: **trumpet, horn, trombone, tuba**.\n4. **Percussion:** sounded by striking, shaking or scraping; **tuned** (timpani, xylophone, glockenspiel) or **untuned** (snare and bass drum, cymbals, triangle).\n5. **Keyboard:** played from a keyboard: **piano, organ, harpsichord, celesta** (often treated separately).\n\n> [!answer]\n> Strings, woodwind, brass, percussion (tuned/untuned) and keyboard, each with how sound is produced and examples.",
+  "explanation": "## Advanced explanation\n\nThe orchestral family system groups instruments by **material and playing technique** (e.g. the flute is woodwind despite being metal) and differs from Sachs–Hornbostel's acoustic basis. In the symphony orchestra they are seated by family: strings in front, woodwind behind, brass and percussion at the back.\n\n## Simplified explanation\n\nWestern instruments come in families: **strings, woodwind, brass, percussion and keyboards**.",
+  "hint": "Orchestra families.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Musical Instruments",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "With examples from both **African and Western** music, write an essay on **'forms of music'**.",
+  "media": [],
+  "answer": "**Form** is the **structure or plan** of a piece: how its sections are arranged, repeated and contrasted.\n\n**Western forms:**\n- **Binary (AB):** two contrasting sections, often each repeated (many Baroque dances).\n- **Ternary (ABA):** statement, contrast, return (da capo aria, minuet and trio).\n- **Rondo (ABACA…):** a recurring theme alternating with episodes (finales of Mozart concertos).\n- **Theme and variations (A A¹ A² …):** a theme repeatedly altered.\n- **Strophic:** the same music for each verse (hymns, folk songs).\n- **Sonata form:** exposition–development–recapitulation (first movements of symphonies).\n- Larger forms: **symphony, concerto, opera, oratorio, fugue**.\n\n**African forms:**\n- **Call and response (solo–chorus):** a leader sings a phrase and the chorus answers (Adowa, Kpanlogo, highlife choruses).\n- **Litany/cyclic forms:** short refrains repeated with variation over a **repeating ostinato** (bell timeline).\n- **Strophic songs** (folk and work songs), **recitative/speech-song** and **dirges**.\n- **Sectional instrumental forms:** dance-drumming pieces in sections signalled by the master drummer (Agbadza, Adowa).\n- **Through-composed praise poetry** (court horn and drum poetry, apae).\n\n**Comparison:** Western forms are often **fixed and notated**; African forms are **open, cyclic and improvisatory**, shaped in performance through **repetition with variation** and community participation.\n\n> [!answer]\n> Form = structure; Western: binary, ternary, rondo, variations, strophic, sonata, symphony/concerto; African: call and response, cyclic/ostinato forms, strophic songs, sectional dance-drumming led by the master drum, praise poetry. Western fixed and notated vs African cyclic and improvisatory.",
+  "explanation": "## Advanced explanation\n\nNketia (_The Music of Africa_) stresses **call and response**, **cyclic repetition** and **additive structures**, organised against a **timeline** (e.g. the bell pattern). Western form theory emphasises **thematic development and tonal structure** (sonata form). Choral composers such as Ephraim Amu blended both.\n\n## Simplified explanation\n\nForm is **how a piece is put together**. Western music uses patterns like **AB, ABA, rondo and sonata**; African music often uses **call and response** and **repeating cycles** with changes.",
+  "hint": "Define form, then give examples from each tradition.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Forms of Music",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Who is **Ephraim Amu**? Who is **Wolfgang Amadeus Mozart**?",
+  "media": [],
+  "answer": "**Ephraim Amu (1899–1995):** Ghanaian composer, music educator and **cultural nationalist**, born at Peki-Avetile (Volta Region).\n- Pioneer of **African art music**: choral works using **Ghanaian languages, rhythms and tonal inflections**, e.g. **'Yɛn Ara Asaase Ni'** (often called Ghana's second national anthem), _Bonwere Kentenwene_, _Asafo_.\n- Promoted **African dress and traditional instruments** (especially the **atenteben**, which he developed for art music), against colonial cultural attitudes; he was dismissed from Akropong for wearing African dress to preach.\n- Taught at **Achimota College** and the **University of Ghana**, influencing generations of Ghanaian composers. He appears on the **GH₵10 note**.\n\n**Wolfgang Amadeus Mozart (1756–1791):** Austrian composer of the **Classical period**, born in **Salzburg**.\n- A **child prodigy**: composed from age 5 and toured Europe with his father Leopold.\n- Composed over **600 works** in every genre: **41 symphonies** (e.g. No. 40, No. 41 'Jupiter'), **piano concertos**, operas (**_The Marriage of Figaro_, _Don Giovanni_, _The Magic Flute_**), chamber music, and the **Requiem** (unfinished).\n- Known for **elegant melody, balance and clarity** (classical style); died in Vienna aged 35.\n\n> [!answer]\n> Amu: Ghanaian composer and cultural nationalist, pioneer of African art music ('Yɛn Ara Asaase Ni'), atenteben, teacher at Achimota and Legon. Mozart: Austrian Classical-era prodigy, 600+ works (symphonies, concertos, operas such as The Magic Flute, the Requiem).",
+  "explanation": "## Advanced explanation\n\nAmu exemplifies **musical nationalism/Africanism**: adapting Western choral forms to African speech tones and rhythms, part of a wider decolonising cultural movement. Mozart epitomises **Viennese Classicism** (with Haydn and early Beethoven), perfecting the symphony, concerto and opera buffa.\n\n## Simplified explanation\n\n**Ephraim Amu** was a great **Ghanaian composer** who made music with Ghanaian languages and instruments ('Yɛn Ara Asaase Ni'). **Mozart** was an **Austrian genius** composer of symphonies and operas in the 1700s.",
+  "hint": "Ghanaian pioneer vs Classical genius.",
+  "difficulty": "easy",
+  "marks": 20,
+  "tags": [
+   "Composers",
+   "Undated Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) List and explain **three cultural functions** that music plays in Ghanaian society. (b) How do the **performing arts** impact **individual well-being** and contribute to a country's **cultural economy**?",
+  "media": [],
+  "answer": "**(a) Cultural functions of music:**\n1. **Ritual and religious:** music in worship, libation, festivals (Homowo, Akwasidae), invoking ancestors and deities.\n2. **Rites of passage:** naming ceremonies, puberty rites (Dipo), marriage, and **funerals** (dirges, Adowa).\n3. **Social control and education:** songs teach morals, history and values, satirise wrongdoing, and preserve **oral history** (court drumming, praise singing).\n4. **Political:** music at chiefs' courts (fontomfrom, horns) expresses **authority**, praises rulers and recounts lineage.\n5. **Work and recreation:** work songs, entertainment and community bonding.\n6. **Communication:** talking drums send messages and announcements.\n\n**(b) Performing arts and well-being and the economy:**\n- **Individual well-being:** emotional expression and **stress relief**, physical fitness (dance), social belonging and identity, confidence and creativity; music therapy.\n- **Cultural economy:** **jobs and incomes** (musicians, dancers, producers, costume makers); **tourism** (festivals, PANAFEST, Chale Wote, Afrochella/Afro Nation, December in GH); **export of culture** (highlife, hiplife, Afrobeats) and **copyright royalties**; national **branding and soft power**; support for related industries (fashion, film, hospitality).\n\n> [!answer]\n> Functions: ritual, rites of passage, education and social control, political, work and recreation, communication. Performing arts: emotional health, fitness, belonging, creativity; jobs, tourism, exports and royalties, national branding.",
+  "explanation": "## Advanced explanation\n\nNketia emphasises that African music is **integrated** with social life rather than separated as 'art for art's sake'. The **creative/cultural economy** (UNESCO) is a growing development sector; Ghana's Creative Arts Agency and copyright regime (Act 690) aim to monetise it.\n\n## Simplified explanation\n\nMusic in Ghana is used in **worship, life ceremonies, teaching values, honouring chiefs, work and sending messages**. The arts make people **happier and healthier** and create **jobs and tourism**.",
+  "hint": "Function = what music does in society.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) List **five elements of dance** and explain any **three**. (b) What does **'oral transmission'** mean in Ghanaian music? (c) Analyse **three characteristics** that differentiate **African traditional dance** forms from the universal elements of general dance.",
+  "media": [],
+  "answer": "**(a) Elements of dance (BASTE):**\n1. **Body:** what part of the body moves and its shapes (curved, angular, twisted).\n2. **Action:** what the body does: locomotor (walk, leap) and non-locomotor (bend, twist) movements, gestures, stillness.\n3. **Space:** where the dancer moves: levels (high, middle, low), directions, pathways, size.\n4. **Time:** when: tempo, rhythm, duration, accent, phrasing.\n5. **Energy (effort):** how: force and quality (smooth, sharp, heavy, light, sustained, percussive).\n\n**(b) Oral transmission:** music is **taught, learned and preserved by ear and memory**, through listening, imitation and participation, not written notation. Songs, rhythms and dances pass **from generation to generation** by performance, with **variation** that keeps the tradition alive.\n\n**(c) Distinctive characteristics of African traditional dance:**\n1. **Functional and contextual:** performed for specific social, religious or ceremonial purposes (funerals, festivals, rites), not just display.\n2. **Polyrhythmic and drum-led:** different body parts follow different rhythms of the ensemble; the **master drummer** cues changes, and dance and music are inseparable.\n3. **Communal participation:** audience members join in, clap and sing; there is no strict performer–audience divide.\n4. **Earth-oriented posture:** bent knees, flat feet and torso inclined towards the ground, contrasting with ballet's upward lift.\n5. **Symbolic gesture and storytelling:** gestures carry specific meanings (Adowa hand signs), expressing proverbs and history.\n\n> [!answer]\n> Elements: body, action, space, time, energy. Oral transmission = learning by ear and imitation across generations. African dance: functional, polyrhythmic and drum-led, communal, earth-oriented, symbolic.",
+  "explanation": "## Advanced explanation\n\nDance scholarship (e.g. Kariamu Welsh-Asante's 'African aesthetic': polyrhythm, polycentrism, curvilinearity, dimensionality, epic memory, repetition, holism) captures what distinguishes African dance. **Polycentrism** (movement originating from several body centres at once) is especially characteristic.\n\n## Simplified explanation\n\nDance uses the **body**, **actions**, **space**, **time** and **energy**. Oral transmission means learning music **by listening and copying**. African dance is **for a purpose**, **follows the drums**, **includes everyone**, and stays **close to the ground** with **meaningful gestures**.",
+  "hint": "BASTE for the elements.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Dance",
+   "Music in Ghanaian Society",
+   "2025/26 Paper"
+  ]
+ }
+]

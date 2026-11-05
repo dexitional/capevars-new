@@ -1,0 +1,14 @@
+{
+  "courses": [
+    {
+      "code": "ILT101",
+      "title": "Information Literacy Skills",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast ILT 101 Information Literacy Skills papers.",
+      "examQuestions": 20,
+      "examMinutes": 30,
+      "tags": ["UCC", "Information Literacy"],
+      "files": ["ilt101-information-literacy-skills-2019-2023.json"]
+    }
+  ]
+}
