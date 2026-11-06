@@ -1,0 +1,1516 @@
+[
+  {
+    "type": "choice",
+    "body": "State the property used in the operation $a(b + c) = ab + ac$.",
+    "media": [],
+    "options": [
+      {
+        "text": "Associative",
+        "hint": "This is about grouping, as in $(a + b) + c = a + (b + c)$."
+      },
+      {
+        "text": "Distributive",
+        "hint": "Correct. The multiplication by $a$ is shared across the bracket."
+      },
+      {
+        "text": "Commutative",
+        "hint": "This is about order, as in $a + b = b + a$."
+      },
+      {
+        "text": "Universal",
+        "hint": "This is not a property of operations."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "What happens to $a$ when the bracket is opened?",
+    "explanation": "## Advanced explanation\n\nMultiplication distributes over addition: $a(b + c) = ab + ac$.\n\n## Simplified explanation\n\nThe $a$ outside is shared out to both terms inside the bracket. That sharing is the distributive property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $0.1 \\times 0.02 \\times 0.003$, leaving your answer in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6 \\times 10^{-7}$",
+        "hint": "This equals 0.0000006. Count the decimal places again."
+      },
+      {
+        "text": "$6 \\times 10^{-6}$",
+        "hint": "Correct. The product is 0.000006."
+      },
+      {
+        "text": "$6 \\times 10^5$",
+        "hint": "The product is less than 1, so the power is negative."
+      },
+      {
+        "text": "$6 \\times 10^6$",
+        "hint": "The product is less than 1, so the power is negative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply $1 \\times 2 \\times 3$, then count the decimal places.",
+    "explanation": "## Advanced explanation\n\n$(1 \\times 10^{-1})(2 \\times 10^{-2})(3 \\times 10^{-3}) = 6 \\times 10^{-6}$.\n\n## Simplified explanation\n\n$1 \\times 2 \\times 3 = 6$. The numbers have $1 + 2 + 3 = 6$ decimal places, so the answer is $6 \\times 10^{-6}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{1}{25}$ as a decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.4",
+        "hint": "This is $\\frac{2}{5}$."
+      },
+      {
+        "text": "0.04",
+        "hint": "Correct. $\\frac{1}{25} = \\frac{4}{100}$."
+      },
+      {
+        "text": "0.004",
+        "hint": "This is $\\frac{1}{250}$."
+      },
+      {
+        "text": "0.0004",
+        "hint": "This is $\\frac{1}{2500}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply the top and bottom by 4.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{25} = \\frac{4}{100} = 0.04$.\n\n## Simplified explanation\n\nMultiplying by 4 gives 4 hundredths, which is 0.04.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an examination, 25% of the candidates failed to obtain the pass mark. The number of candidates who passed was 150. How many candidates failed?",
+    "media": [],
+    "options": [
+      {
+        "text": "113",
+        "hint": "This takes 75% of 150. The 150 is itself 75%."
+      },
+      {
+        "text": "100",
+        "hint": "If 100 failed, then 40% failed."
+      },
+      {
+        "text": "50",
+        "hint": "Correct. 75% is 150, so 25% is 50."
+      },
+      {
+        "text": "38",
+        "hint": "This takes 25% of 150. The 25% is of all the candidates."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The candidates who passed make up 75%.",
+    "explanation": "## Advanced explanation\n\n$75\\% = 150$, so $25\\% = \\frac{150}{3} = 50$.\n\n## Simplified explanation\n\n75% passed, which is 150 candidates. 25% is a third of that, which is 50.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces has a cube?",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "This is the number of vertices."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. Top, bottom and 4 sides."
+      },
+      {
+        "text": "5",
+        "hint": "This leaves out one face."
+      },
+      {
+        "text": "4",
+        "hint": "This counts only the sides."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Think of the sides of a die.",
+    "explanation": "## Advanced explanation\n\nA cube has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nA die shows the numbers 1 to 6, one on each face.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $2^8 \\div 2^3$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^{24}$",
+        "hint": "This multiplies the powers. Subtract them instead."
+      },
+      {
+        "text": "$2^{10}$",
+        "hint": "Subtract the powers: $8 - 3$."
+      },
+      {
+        "text": "$2^5$",
+        "hint": "Correct. $8 - 3 = 5$."
+      },
+      {
+        "text": "$2^3$",
+        "hint": "Subtract the powers: $8 - 3$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract the powers when dividing with the same base.",
+    "explanation": "## Advanced explanation\n\n$2^8 \\div 2^3 = 2^{8 - 3} = 2^5$.\n\n## Simplified explanation\n\nThe base is the same, so take the powers away: $8 - 3 = 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The Venn diagram shows the number of pupils in a class of 40 who speak Twi or Ga.\n\nHow many people speak Twi and Ga?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq7-8.png",
+        "caption": "Venn diagram of 40 pupils with circles for Ga and Twi. Ga only holds 11, both hold 17, Twi only holds 7, and 5 are outside the circles."
+      }
+    ],
+    "options": [
+      {
+        "text": "17",
+        "hint": "Correct. This is the overlap."
+      },
+      {
+        "text": "11",
+        "hint": "These speak Ga only."
+      },
+      {
+        "text": "7",
+        "hint": "These speak Twi only."
+      },
+      {
+        "text": "5",
+        "hint": "These speak neither language."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Look at the overlap of the two circles.",
+    "explanation": "## Advanced explanation\n\n$n(T \\cap G)$ is the value in the intersection, which is 17.\n\n## Simplified explanation\n\nPupils who speak both are in the middle part of the diagram, and it shows 17.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The Venn diagram shows the number of pupils in a class of 40 who speak Twi or Ga.\n\nHow many speak neither Twi nor Ga?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq7-8.png",
+        "caption": "Venn diagram of 40 pupils with circles for Ga and Twi. Ga only holds 11, both hold 17, Twi only holds 7, and 5 are outside the circles."
+      }
+    ],
+    "options": [
+      {
+        "text": "17",
+        "hint": "These speak both languages."
+      },
+      {
+        "text": "11",
+        "hint": "These speak Ga only."
+      },
+      {
+        "text": "7",
+        "hint": "These speak Twi only."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. This number is outside both circles."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look outside the circles.",
+    "explanation": "## Advanced explanation\n\n$40 - (11 + 17 + 7) = 5$.\n\n## Simplified explanation\n\nPupils who speak neither are outside both circles, and the diagram shows 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the least common multiple (L.C.M.) of the numbers 10, 15 and 25.",
+    "media": [],
+    "options": [
+      {
+        "text": "30",
+        "hint": "25 does not divide 30."
+      },
+      {
+        "text": "60",
+        "hint": "25 does not divide 60."
+      },
+      {
+        "text": "120",
+        "hint": "25 does not divide 120."
+      },
+      {
+        "text": "150",
+        "hint": "Correct. 10, 15 and 25 all divide 150."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$10 = 2 \\times 5$, $15 = 3 \\times 5$ and $25 = 5^2$, so the LCM is $2 \\times 3 \\times 5^2 = 150$.\n\n## Simplified explanation\n\nCount in 25s until you reach a number that 10 and 15 also divide. That number is 150.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following expressions is illustrated on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq10.png",
+        "caption": "Number line from −3 to 3 with an open dot at −3 and an arrow going to the right."
+      }
+    ],
+    "options": [
+      {
+        "text": "$x < -3$",
+        "hint": "The arrow points to the right, so the values are above $-3$."
+      },
+      {
+        "text": "$x \\le -3$",
+        "hint": "The arrow points to the right, and the dot is open."
+      },
+      {
+        "text": "$x > -3$",
+        "hint": "Correct. The dot is open and the arrow points right."
+      },
+      {
+        "text": "$x \\ge -3$",
+        "hint": "The open dot means that $-3$ is left out."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the type of dot and the direction of the arrow.",
+    "explanation": "## Advanced explanation\n\nAn open circle excludes $-3$, and the arrow covers larger values, so the set is $x > -3$.\n\n## Simplified explanation\n\nThe open dot means $-3$ does not count. The arrow goes towards the larger numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $\\dfrac{2a}{3} - \\dfrac{(a - b)}{2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{a + 3b}{6}$",
+        "hint": "Correct. $\\frac{4a - 3a + 3b}{6}$."
+      },
+      {
+        "text": "$\\dfrac{a - 3b}{6}$",
+        "hint": "The minus sign changes $-b$ to $+b$ when the bracket opens."
+      },
+      {
+        "text": "$\\dfrac{a - b}{6}$",
+        "hint": "Multiply $(a - b)$ by 3 first."
+      },
+      {
+        "text": "$\\dfrac{7a - 3b}{6}$",
+        "hint": "The fractions are subtracted, so $4a - 3a$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Use 6 as the common denominator, and be careful with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4a - 3(a - b)}{6} = \\frac{4a - 3a + 3b}{6} = \\frac{a + 3b}{6}$.\n\n## Simplified explanation\n\nOver 6 the top is $4a - 3(a - b)$. Opening the bracket gives $4a - 3a + 3b$, which is $a + 3b$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 0.00025 to one significant figure.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.2",
+        "hint": "Check the place value. The first significant digit is in the fourth decimal place."
+      },
+      {
+        "text": "0.003",
+        "hint": "Check the place value. The first significant digit is in the fourth decimal place."
+      },
+      {
+        "text": "0.0002",
+        "hint": "The next digit is 5, so round up."
+      },
+      {
+        "text": "0.0003",
+        "hint": "Correct. The digit 2 rounds up to 3."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Zeros before the first non-zero digit do not count.",
+    "explanation": "## Advanced explanation\n\nThe first significant digit is 2, and the next digit is 5, so it rounds up to 0.0003.\n\n## Simplified explanation\n\nStart counting at the 2. The next digit is 5, so 2 rounds up to 3. Keep the zeros in front.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y : 28 = 5 : 7$, find $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "$5 : 28$ is not the same as $5 : 7$."
+      },
+      {
+        "text": "20",
+        "hint": "Correct. $7 \\times 4 = 28$ and $5 \\times 4 = 20$."
+      },
+      {
+        "text": "31.2",
+        "hint": "$y$ must be less than 28."
+      },
+      {
+        "text": "37.5",
+        "hint": "$y$ must be less than 28."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "How do you get from 7 to 28?",
+    "explanation": "## Advanced explanation\n\n$\\frac{y}{28} = \\frac{5}{7}$, so $y = 20$.\n\n## Simplified explanation\n\n7 was multiplied by 4 to get 28. Do the same to 5, which gives 20.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $121_{\\text{five}}$ to a base ten numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "21",
+        "hint": "Use the place values 25, 5 and 1."
+      },
+      {
+        "text": "35",
+        "hint": "The units digit adds 1 more."
+      },
+      {
+        "text": "36",
+        "hint": "Correct. $25 + 10 + 1 = 36$."
+      },
+      {
+        "text": "40",
+        "hint": "Use the place values 25, 5 and 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The place values in base five are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$1 \\times 25 + 2 \\times 5 + 1 = 36$.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 25, 10 and 1. They add to 36.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of 4 under the following mapping.\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $y$ | 4 | 7 | 10 | $k$ | 16 |",
+    "media": [],
+    "options": [
+      {
+        "text": "11",
+        "hint": "The values go up by 3 each time."
+      },
+      {
+        "text": "12",
+        "hint": "The values go up by 3 each time."
+      },
+      {
+        "text": "13",
+        "hint": "Correct. $10 + 3 = 13$."
+      },
+      {
+        "text": "14",
+        "hint": "The values go up by 3 each time."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How much does $y$ go up each time?",
+    "explanation": "## Advanced explanation\n\nThe rule is $y = 3x + 1$, so $k = 3(4) + 1 = 13$.\n\n## Simplified explanation\n\nThe numbers go up by 3: 4, 7, 10. The next is 13, and then 16 agrees.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $K(3, 4)$ is rotated through $180^\\circ$ about the origin. Find its image.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-3, 4)$",
+        "hint": "This is a reflection in the $y$-axis."
+      },
+      {
+        "text": "$(-4, 3)$",
+        "hint": "This is a rotation of $90^\\circ$ anticlockwise."
+      },
+      {
+        "text": "$(-3, -4)$",
+        "hint": "Correct. Both signs change."
+      },
+      {
+        "text": "$(3, -4)$",
+        "hint": "This is a reflection in the $x$-axis."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A half-turn changes the sign of both coordinates.",
+    "explanation": "## Advanced explanation\n\nA rotation of $180^\\circ$ about the origin maps $(x, y)$ to $(-x, -y)$.\n\n## Simplified explanation\n\nIn a half-turn, the point goes straight through the origin to the other side. Both numbers change sign.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions in descending order of magnitude: $\\dfrac{1}{2}, \\dfrac{17}{20}, \\dfrac{3}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{4}, \\dfrac{17}{20}, \\dfrac{1}{2}$",
+        "hint": "$\\frac{17}{20}$ is greater than $\\frac{3}{4}$."
+      },
+      {
+        "text": "$\\dfrac{17}{20}, \\dfrac{3}{4}, \\dfrac{1}{2}$",
+        "hint": "Correct. As decimals: 0.85, 0.75, 0.50."
+      },
+      {
+        "text": "$\\dfrac{1}{2}, \\dfrac{3}{4}, \\dfrac{17}{20}$",
+        "hint": "This is ascending order."
+      },
+      {
+        "text": "$\\dfrac{1}{2}, \\dfrac{17}{20}, \\dfrac{3}{4}$",
+        "hint": "$\\frac{1}{2}$ is the smallest, so it must come last."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Descending means largest first.",
+    "explanation": "## Advanced explanation\n\nOver 20: $\\frac{17}{20} > \\frac{15}{20} > \\frac{10}{20}$.\n\n## Simplified explanation\n\nChange them to 20ths: 10, 17 and 15. From largest to smallest: $\\frac{17}{20}$, $\\frac{3}{4}$, $\\frac{1}{2}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following best describes the construction?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq18.png",
+        "caption": "Line through A and B, with equal arcs from A and B crossing above and below the line. A second line through the crossings cuts AB at right angles."
+      }
+    ],
+    "options": [
+      {
+        "text": "Constructing an angle",
+        "hint": "The arcs above and below locate points equidistant from $A$ and $B$."
+      },
+      {
+        "text": "Constructing the perpendicular bisector of $AB$",
+        "hint": "Correct. The line crosses $AB$ at right angles at its midpoint."
+      },
+      {
+        "text": "Constructing a circle about the midpoint of $AB$",
+        "hint": "No circle is drawn."
+      },
+      {
+        "text": "Constructing an angle of $180^\\circ$",
+        "hint": "The line $AB$ is straight already, and the arcs are used for another purpose."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Arcs of equal radius are drawn from $A$ and $B$. What does the line through their crossing points do?",
+    "explanation": "## Advanced explanation\n\nArcs of equal radius from $A$ and $B$ meet at points equidistant from both, and those points lie on the perpendicular bisector.\n\n## Simplified explanation\n\nThe arcs from $A$ and $B$ cross above and below the line. Joining the crossings cuts $AB$ in half at right angles.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of the point $K(3, 5)$ when it is reflected in the $x$-axis.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(3, 5)$",
+        "hint": "This is the point itself."
+      },
+      {
+        "text": "$(5, 3)$",
+        "hint": "This is a reflection in the line $y = x$."
+      },
+      {
+        "text": "$(3, -5)$",
+        "hint": "Correct. The $y$-coordinate changes sign."
+      },
+      {
+        "text": "$(-3, -5)$",
+        "hint": "This is a rotation of $180^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Reflecting in the $x$-axis changes only the sign of $y$.",
+    "explanation": "## Advanced explanation\n\nA reflection in the $x$-axis maps $(x, y)$ to $(x, -y)$.\n\n## Simplified explanation\n\nThe $x$-axis acts as a mirror. The point keeps its $x$, and its $y$ flips from 5 to $-5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A set of furniture was sold for ₵300,000.00 at a profit of 20%. Find the cost price.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵250,000.00",
+        "hint": "Correct. $250{,}000 \\times 1.2 = 300{,}000$."
+      },
+      {
+        "text": "₵240,000.00",
+        "hint": "This takes 20% off the selling price. The 20% is of the cost price."
+      },
+      {
+        "text": "₵200,000.00",
+        "hint": "This gives a profit of 50%."
+      },
+      {
+        "text": "₵180,000.00",
+        "hint": "This gives a profit of about 67%."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The selling price is 120% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$1.2C = 300{,}000$, so $C = 250{,}000$.\n\n## Simplified explanation\n\n₵300,000 is 120% of the cost. So 20% is ₵50,000, and 100% is ₵250,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $x$ the subject of the relation: $v^2 = u^2 + 2ax$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x = u^2 + 2av^2$",
+        "hint": "Subtract $u^2$ from both sides, then divide by $2a$."
+      },
+      {
+        "text": "$x = \\dfrac{v^2 - u^2}{a^2}$",
+        "hint": "Divide by $2a$, not $a^2$."
+      },
+      {
+        "text": "$x = \\dfrac{v^2 + u^2}{2a}$",
+        "hint": "Moving $u^2$ across makes it negative."
+      },
+      {
+        "text": "$x = \\dfrac{v^2 - u^2}{2a}$",
+        "hint": "Correct. $2ax = v^2 - u^2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Get the $2ax$ term by itself first.",
+    "explanation": "## Advanced explanation\n\n$2ax = v^2 - u^2$, so $x = \\frac{v^2 - u^2}{2a}$.\n\n## Simplified explanation\n\nTake $u^2$ from both sides. Then divide by $2a$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Three baskets contain 95 oranges, $x$ oranges and $2x$ oranges. How many oranges are in the three baskets?",
+    "media": [],
+    "options": [
+      {
+        "text": "$96x$",
+        "hint": "95 has no $x$, so it cannot combine with the $x$ terms."
+      },
+      {
+        "text": "$95 + 3x$",
+        "hint": "Correct. $x + 2x = 3x$."
+      },
+      {
+        "text": "$95 + 2x^2$",
+        "hint": "$x + 2x$ is an addition, so it is $3x$."
+      },
+      {
+        "text": "$98x$",
+        "hint": "95 has no $x$, so it cannot combine with the $x$ terms."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the three amounts and collect like terms.",
+    "explanation": "## Advanced explanation\n\n$95 + x + 2x = 95 + 3x$.\n\n## Simplified explanation\n\n$x$ and $2x$ make $3x$. The 95 stays apart because it has no $x$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of programmes offered by 720 students at Kofikrom.\n\nFind the value of the angle marked $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq23-24.png",
+        "caption": "Pie chart of programmes. Science Subjects 120°, Vocational Subjects 60°, Arts Subjects 80° and Technical Subjects y°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$90^\\circ$",
+        "hint": "The angles must add to $360^\\circ$."
+      },
+      {
+        "text": "$100^\\circ$",
+        "hint": "Correct. $360 - 260 = 100$."
+      },
+      {
+        "text": "$110^\\circ$",
+        "hint": "The angles must add to $360^\\circ$."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "This is the angle for Science Subjects."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The angles of a pie chart add to $360^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$y = 360 - (120 + 60 + 80) = 100$.\n\n## Simplified explanation\n\nThe given angles add to 260. The rest of the 360 is 100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of programmes offered by 720 students at Kofikrom.\n\nHow many more students offered Science subjects than Arts subjects?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq23-24.png",
+        "caption": "Pie chart of programmes. Science Subjects 120°, Vocational Subjects 60°, Arts Subjects 80° and Technical Subjects y°."
+      }
+    ],
+    "options": [
+      {
+        "text": "40",
+        "hint": "This is the difference in degrees. Each degree stands for 2 students."
+      },
+      {
+        "text": "80",
+        "hint": "Correct. $40^\\circ \\times 2 = 80$."
+      },
+      {
+        "text": "160",
+        "hint": "This is the number of Arts students."
+      },
+      {
+        "text": "240",
+        "hint": "This is the number of Science students."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "720 students fill $360^\\circ$, so each degree is 2 students.",
+    "explanation": "## Advanced explanation\n\nThe difference is $(120 - 80) \\times \\frac{720}{360} = 80$ students.\n\n## Simplified explanation\n\nEach degree stands for 2 students. Science has 40° more than Arts, which is 80 students.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi is 2 years older than Ama. If the sum of their ages is 16, find Ama's age.",
+    "media": [],
+    "options": [
+      {
+        "text": "7 years",
+        "hint": "Correct. $7 + 9 = 16$."
+      },
+      {
+        "text": "9 years",
+        "hint": "This is Kofi's age."
+      },
+      {
+        "text": "14 years",
+        "hint": "This is $16 - 2$. Halve it as well."
+      },
+      {
+        "text": "18 years",
+        "hint": "This is $16 + 2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let Ama be $a$ years old, so Kofi is $a + 2$.",
+    "explanation": "## Advanced explanation\n\n$a + a + 2 = 16$, so $2a = 14$ and $a = 7$.\n\n## Simplified explanation\n\nTake the extra 2 years from 16 to leave 14. Half of that is Ama's age, 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$J = \\dfrac{1}{2}mv^2$. If $v = 4$ and $J = 12$, find $m$.",
+    "media": [],
+    "options": [
+      {
+        "text": "1.5",
+        "hint": "Correct. $12 = 8m$."
+      },
+      {
+        "text": "3.0",
+        "hint": "$\\frac{1}{2} \\times 3 \\times 16 = 24$, not 12."
+      },
+      {
+        "text": "3.6",
+        "hint": "$\\frac{1}{2}m \\times 16 = 8m$, so $m = 12 \\div 8$."
+      },
+      {
+        "text": "6.3",
+        "hint": "$\\frac{1}{2}m \\times 16 = 8m$, so $m = 12 \\div 8$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Square $v$ first.",
+    "explanation": "## Advanced explanation\n\n$12 = \\frac{1}{2}m(16) = 8m$, so $m = 1.5$.\n\n## Simplified explanation\n\n$4^2 = 16$ and half of 16 is 8. So $8m = 12$, which gives $m = 1.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$PQR$ is a right-angled triangle. The area of the triangle is 6 cm² and $|QR| = 3$ cm. Find $|PR|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq27.png",
+        "caption": "Triangle PQR with a right angle at Q and QR marked 3 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "2 cm",
+        "hint": "The longest side must be more than 3 cm."
+      },
+      {
+        "text": "3 cm",
+        "hint": "This is $|QR|$."
+      },
+      {
+        "text": "5 cm",
+        "hint": "Correct. $|PQ| = 4$ cm, and $\\sqrt{9 + 16} = 5$."
+      },
+      {
+        "text": "6 cm",
+        "hint": "This is the value of the area."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use the area to find $|PQ|$ first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{2}(3)|PQ| = 6$ gives $|PQ| = 4$, so $|PR| = \\sqrt{3^2 + 4^2} = 5$ cm.\n\n## Simplified explanation\n\nHalf of 3 times the height is 6, so the height is 4. With sides of 3 and 4, the longest side is 5.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Mensuration",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangle has a length of 8 cm and a breadth of 6 cm. How long is its diagonal?",
+    "media": [],
+    "options": [
+      {
+        "text": "10 cm",
+        "hint": "Correct. $\\sqrt{64 + 36} = 10$."
+      },
+      {
+        "text": "14 cm",
+        "hint": "This is $8 + 6$. Add the squares, not the sides."
+      },
+      {
+        "text": "18 cm",
+        "hint": "Use Pythagoras' theorem."
+      },
+      {
+        "text": "28 cm",
+        "hint": "This is the perimeter."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The diagonal is the hypotenuse of a right-angled triangle.",
+    "explanation": "## Advanced explanation\n\n$d = \\sqrt{8^2 + 6^2} = 10$ cm.\n\n## Simplified explanation\n\nSquare the sides: 64 and 36. They add to 100, and its square root is 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{1}{3}\\left(2\\dfrac{2}{3} + \\dfrac{5}{6}\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{13}{4}$",
+        "hint": "The bracket is $\\frac{7}{2}$, and a third of it is $\\frac{7}{6}$."
+      },
+      {
+        "text": "$\\dfrac{7}{6}$",
+        "hint": "Correct. $\\frac{1}{3} \\times \\frac{21}{6}$."
+      },
+      {
+        "text": "$\\dfrac{13}{18}$",
+        "hint": "The bracket is $\\frac{21}{6}$."
+      },
+      {
+        "text": "$\\dfrac{31}{18}$",
+        "hint": "The bracket is $\\frac{21}{6}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{16}{6} + \\frac{5}{6} = \\frac{21}{6}$, and $\\frac{1}{3} \\times \\frac{21}{6} = \\frac{7}{6}$.\n\n## Simplified explanation\n\n$2\\frac{2}{3}$ is $\\frac{16}{6}$. Adding $\\frac{5}{6}$ gives $\\frac{21}{6}$. A third of it is $\\frac{7}{6}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man divided his 360 cattle among his three sons in the ratio $7 : 6 : 5$. How many cattle did the one who had the smallest share receive?",
+    "media": [],
+    "options": [
+      {
+        "text": "100",
+        "hint": "Correct. $5 \\times 20 = 100$."
+      },
+      {
+        "text": "120",
+        "hint": "This is the middle share."
+      },
+      {
+        "text": "140",
+        "hint": "This is the largest share."
+      },
+      {
+        "text": "160",
+        "hint": "One part is 20, and the smallest share is 5 parts."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The ratio has 18 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{18} \\times 360 = 100$.\n\n## Simplified explanation\n\n$360 \\div 18 = 20$ cattle per part. The smallest share is 5 parts, which is 100.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 9 students in a test are 3, 3, 4, 5, 6, 7, 7, 7, 8.\n\nFind the median.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the 3rd mark."
+      },
+      {
+        "text": "5",
+        "hint": "This is the 4th mark."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. It is the 5th of the 9 marks."
+      },
+      {
+        "text": "7",
+        "hint": "This is the mode."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The marks are already in order.",
+    "explanation": "## Advanced explanation\n\nWith 9 values, the median is the 5th value, which is 6.\n\n## Simplified explanation\n\nThe middle of 9 marks is the 5th mark, and that is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 9 students in a test are 3, 3, 4, 5, 6, 7, 7, 7, 8.\n\nWhat is the mode?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "3 appears twice."
+      },
+      {
+        "text": "4",
+        "hint": "4 appears once."
+      },
+      {
+        "text": "6",
+        "hint": "This is the median."
+      },
+      {
+        "text": "7",
+        "hint": "Correct. 7 appears three times."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The mode is the most frequent mark.",
+    "explanation": "## Advanced explanation\n\nThe mark 7 has the highest frequency, 3.\n\n## Simplified explanation\n\n7 appears the most, three times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the fifth term of the sequence: $\\dfrac{1}{3}, \\dfrac{2}{5}, \\dfrac{7}{15}, \\ldots$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{4}{9}$",
+        "hint": "Write the terms over 15 to see the pattern."
+      },
+      {
+        "text": "$\\dfrac{5}{11}$",
+        "hint": "Write the terms over 15 to see the pattern."
+      },
+      {
+        "text": "$\\dfrac{6}{13}$",
+        "hint": "Write the terms over 15 to see the pattern."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "Correct. The fifth term is $\\frac{9}{15}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write every term with a denominator of 15.",
+    "explanation": "## Advanced explanation\n\nThe terms are $\\frac{5}{15}, \\frac{6}{15}, \\frac{7}{15}, \\frac{8}{15}, \\frac{9}{15}$, and $\\frac{9}{15} = \\frac{3}{5}$.\n\n## Simplified explanation\n\nOver 15, the tops go 5, 6, 7, so the fifth top is 9. $\\frac{9}{15}$ reduces to $\\frac{3}{5}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Sequences",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "30 men can dig a pit in 21 days. How many days will 14 men take to dig the pit, working at the same rate?",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "Fewer men take longer than 21 days."
+      },
+      {
+        "text": "25",
+        "hint": "$30 \\times 21 = 630$ man-days."
+      },
+      {
+        "text": "30",
+        "hint": "$30 \\times 21 = 630$ man-days."
+      },
+      {
+        "text": "45",
+        "hint": "Correct. $630 \\div 14 = 45$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Fewer men take more days. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nWork needed: $30 \\times 21 = 630$ man-days, and $\\frac{630}{14} = 45$ days.\n\n## Simplified explanation\n\nOne man alone would take 630 days. Fourteen men share this work, and $630 \\div 14 = 45$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 6 white and 8 red balls. What is the probability that a ball picked at random will be a white ball?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{7}$",
+        "hint": "There are 6 white balls, not 2."
+      },
+      {
+        "text": "$\\dfrac{3}{7}$",
+        "hint": "Correct. $\\frac{6}{14} = \\frac{3}{7}$."
+      },
+      {
+        "text": "$\\dfrac{4}{7}$",
+        "hint": "This is the probability of a red ball."
+      },
+      {
+        "text": "$\\dfrac{6}{7}$",
+        "hint": "There are 14 balls, not 7."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The total number of balls is 14.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{white}) = \\frac{6}{6 + 8} = \\frac{3}{7}$.\n\n## Simplified explanation\n\n6 of the 14 balls are white, and $\\frac{6}{14}$ reduces to $\\frac{3}{7}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The figure is a cuboid with dimensions $x$ cm by $y$ cm by $z$ cm. Find the area of the face $PQRV$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq36.png",
+        "caption": "Cuboid with front face PQRV. PQ is x cm, PV is z cm, and the edge from Q to T going back is y cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$xy$ cm²",
+        "hint": "This is the area of the bottom face."
+      },
+      {
+        "text": "$yz$ cm²",
+        "hint": "This is the area of a side face."
+      },
+      {
+        "text": "$x^2$ cm²",
+        "hint": "The face is not a square."
+      },
+      {
+        "text": "$xz$ cm²",
+        "hint": "Correct. The face is $x$ cm long and $z$ cm high."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which two lengths are the sides of the front face?",
+    "explanation": "## Advanced explanation\n\n$PQRV$ is a rectangle with $|PQ| = x$ cm and $|PV| = z$ cm.\n\n## Simplified explanation\n\nThe front face is $x$ cm wide and $z$ cm tall. Its area is $x \\times z$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rod 200 cm long is broken into two parts. The shorter part is one-quarter of the length of the rod. Express the shorter part as a percentage of the longer part.",
+    "media": [],
+    "options": [
+      {
+        "text": "25%",
+        "hint": "This is the shorter part as a percentage of the whole rod."
+      },
+      {
+        "text": "30%",
+        "hint": "Use the longer part, 150 cm."
+      },
+      {
+        "text": "33.33%",
+        "hint": "Correct. $\\frac{50}{150} \\times 100$."
+      },
+      {
+        "text": "66.67%",
+        "hint": "Use $\\frac{50}{150}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find both parts first.",
+    "explanation": "## Advanced explanation\n\nThe parts are 50 cm and 150 cm, and $\\frac{50}{150} \\times 100\\% = 33.33\\%$.\n\n## Simplified explanation\n\nA quarter of 200 cm is 50 cm, so the longer part is 150 cm. 50 is a third of 150, or 33.33%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Percentages",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the figure, $MN$ and $PQ$ are straight lines. Find the value of the angle marked $x$ in the figure.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bsecaq38.png",
+        "caption": "Lines MN and PQ crossing. The angle between M and Q is 105°, and the angle between Q and N is x."
+      }
+    ],
+    "options": [
+      {
+        "text": "$65^\\circ$",
+        "hint": "Check the subtraction: $180 - 105$."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "Correct. $180^\\circ - 105^\\circ = 75^\\circ$."
+      },
+      {
+        "text": "$85^\\circ$",
+        "hint": "Check the subtraction: $180 - 105$."
+      },
+      {
+        "text": "$105^\\circ$",
+        "hint": "This is the given angle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Angles on a straight line add to $180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$x + 105 = 180$, so $x = 75$.\n\n## Simplified explanation\n\nAngle $x$ and 105° together make the straight line $MN$. So $x = 180 - 105 = 75$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $x$ in the equation: $\\dfrac{x}{4} = 2$",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "$\\frac{2}{4}$ is not 2."
+      },
+      {
+        "text": "4",
+        "hint": "$\\frac{4}{4}$ is 1."
+      },
+      {
+        "text": "6",
+        "hint": "$\\frac{6}{4}$ is 1.5."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. $\\frac{8}{4} = 2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply both sides by 4.",
+    "explanation": "## Advanced explanation\n\n$x = 2 \\times 4 = 8$.\n\n## Simplified explanation\n\n$x$ divided by 4 is 2, so $x$ is $2 \\times 4 = 8$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The circumference of a circular track is 15.4 m. Find the diameter of the track. $\\left(\\pi = \\dfrac{22}{7}\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "4.9 m",
+        "hint": "Correct. $15.4 \\times \\frac{7}{22} = 4.9$."
+      },
+      {
+        "text": "24.5 m",
+        "hint": "The diameter is shorter than the circumference."
+      },
+      {
+        "text": "24 m",
+        "hint": "The diameter is shorter than the circumference."
+      },
+      {
+        "text": "22 m",
+        "hint": "The diameter is shorter than the circumference."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Circumference $= \\pi d$.",
+    "explanation": "## Advanced explanation\n\n$d = \\frac{C}{\\pi} = 15.4 \\times \\frac{7}{22} = 4.9$ m.\n\n## Simplified explanation\n\nDivide 15.4 by $\\frac{22}{7}$. $15.4 \\div 22 = 0.7$, and $0.7 \\times 7 = 4.9$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002b Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $2\\dfrac{3}{4} \\div \\left(3\\dfrac{3}{8} - 1\\dfrac{1}{2}\\right)$",
+    "media": [],
+    "answer": "Bracket: $\\frac{27}{8} - \\frac{12}{8} = \\frac{15}{8}$\n\n$$\\frac{11}{4} \\div \\frac{15}{8} = \\frac{11}{4} \\times \\frac{8}{15} = \\frac{22}{15} = 1\\frac{7}{15}$$\n\n> [!answer]\n> {{green:$1\\dfrac{7}{15}$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nTo divide by a fraction, multiply by its reciprocal.\n\n## Simplified explanation\n\nThe bracket gives $\\frac{15}{8}$. $2\\frac{3}{4}$ is $\\frac{11}{4}$. Turn $\\frac{15}{8}$ upside down and multiply to get $\\frac{22}{15}$, which is $1\\frac{7}{15}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "There are 50 pupils in a class. Out of this number, $\\dfrac{1}{10}$ speak French only and $\\dfrac{4}{5}$ of the remainder speak both French and English. If the rest speak English only,\n\n(i) find the number of students who speak\n\n($\\alpha$) both French and English;\n\n($\\beta$) only English.\n\n(ii) Draw a Venn diagram to illustrate the above information.",
+    "media": [],
+    "answer": "French only: $\\frac{1}{10} \\times 50 = 5$\n\nRemainder: $50 - 5 = 45$\n\n**(i)($\\alpha$)** $\\frac{4}{5} \\times 45 = 36$\n\n**($\\beta$)** $45 - 36 = 9$\n\n**(ii)** Draw two overlapping circles. Write 5 in French only, 36 in the overlap and 9 in English only.\n\n> [!answer]\n> **($\\alpha$)** {{green:36}}  **($\\beta$)** {{green:9}}",
+    "hint": "Find the remainder before taking $\\frac{4}{5}$.",
+    "explanation": "## Advanced explanation\n\nEvery pupil is in one of the three regions, and $5 + 36 + 9 = 50$ confirms this.\n\n## Simplified explanation\n\nOne tenth of 50 is 5, which leaves 45 pupils. Four fifths of 45 is 36. The other 9 speak English only.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Sets",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A shop sells a pencil at ₵500.00 and a pen at ₵2,000.00. If Afua bought 8 pencils and 5 pens, how much did she pay altogether for them?",
+    "media": [],
+    "answer": "$$8 \\times 500 + 5 \\times 2{,}000 = 4{,}000 + 10{,}000 = 14{,}000$$\n\n> [!answer]\n> {{green:₵14,000.00}}",
+    "hint": "Find the cost of the pencils and pens separately.",
+    "explanation": "## Advanced explanation\n\nThe total cost is the sum of quantity times price for each item.\n\n## Simplified explanation\n\nThe pencils cost ₵4,000 and the pens cost ₵10,000. Together that is ₵14,000.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A shop sells a pencil at ₵500.00 and a pen at ₵2,000.00. The price of a pencil is increased by 20% and a pen by 10%. Find how much Afua will pay for 10 pencils and 8 pens.",
+    "media": [],
+    "answer": "New pencil price: $500 \\times 1.2 = 600$\n\nNew pen price: $2{,}000 \\times 1.1 = 2{,}200$\n\n$$10 \\times 600 + 8 \\times 2{,}200 = 6{,}000 + 17{,}600 = 23{,}600$$\n\n> [!answer]\n> {{green:₵23,600.00}}",
+    "hint": "Find the new price of each item first.",
+    "explanation": "## Advanced explanation\n\nA price increase of $r\\%$ multiplies the price by $1 + \\frac{r}{100}$.\n\n## Simplified explanation\n\nA pencil now costs ₵600 and a pen costs ₵2,200. Ten pencils cost ₵6,000 and eight pens cost ₵17,600, which makes ₵23,600.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct\n\n(i) triangle $ABC$ such that $|AB| = 12$ cm, $|AC| = 8$ cm and angle $BAC = 30^\\circ$;\n\n(ii) a perpendicular from $C$ to meet $AB$ at $M$.\n\nMeasure\n\n(iii) angle $ABC$;\n\n(iv) $|CM|$.\n\n(v) Calculate the area of triangle $ABC$.\n\nType your answers.",
+    "media": [],
+    "answer": "Draw $|AB| = 12$ cm. Construct $60^\\circ$ at $A$ and bisect it to get $30^\\circ$. Mark $C$ on this arm so that $|AC| = 8$ cm, and join $C$ to $B$.\n\nDrop the perpendicular from $C$ to $AB$ at $M$.\n\n**(v)** $\\frac{1}{2} \\times 12 \\times 4 = 24$ cm²\n\n> [!answer]\n> **(iii)** {{green:angle $ABC \\approx 38^\\circ$}}  **(iv)** {{green:$|CM| = 4$ cm}}  **(v)** {{green:24 cm²}}",
+    "hint": "$CM$ is the height of the triangle on the base $AB$.",
+    "explanation": "## Advanced explanation\n\n$|CM| = 8\\sin 30^\\circ = 4$ cm. The cosine rule gives $|BC| \\approx 6.46$ cm, and the sine rule then gives angle $ABC \\approx 38.3^\\circ$.\n\n## Simplified explanation\n\nBuild the triangle from the two sides and the 30° angle between them. Drop a line from $C$ straight down to $AB$. It measures 4 cm. The area is half of base times height, which is $\\frac{1}{2} \\times 12 \\times 4 = 24$.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the inequality $\\dfrac{5x - 3}{6} - \\dfrac{2x - 4}{4} < 2$",
+    "media": [],
+    "answer": "Multiply both sides by 12:\n\n$$2(5x - 3) - 3(2x - 4) < 24$$\n\n$$10x - 6 - 6x + 12 < 24$$\n\n$$4x + 6 < 24$$\n\n$$x < 4\\frac{1}{2}$$\n\n> [!answer]\n> {{green:$x < 4\\dfrac{1}{2}$}}",
+    "hint": "The LCM of 6 and 4 is 12.",
+    "explanation": "## Advanced explanation\n\nMultiplying by a positive number keeps the direction of the inequality.\n\n## Simplified explanation\n\nMultiplying by 12 clears the fractions. Simplifying gives $4x + 6 < 24$, so $4x < 18$ and $x < 4\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Copy and complete the table of values for the relation $y = 2x + 1$.\n\n(ii) Using a scale of 2 cm to 1 unit on the $x$-axis and 2 cm to 2 units on the $y$-axis, plot the ordered pairs $(x, y)$ on a graph sheet.\n\n(iii) Use a ruler to join the points plotted.\n\n(iv) Use your graph to find\n\n($\\alpha$) $x$ when $y = 4$;\n\n($\\beta$) $y$ when $x = -2.5$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bq4.png",
+        "caption": "Table for x from −3 to 4. The y values are given only as −5 at x = −3, −3 at x = −2, 1 at x = 0 and 7 at x = 3."
+      }
+    ],
+    "answer": "**(i)**\n\n| $x$ | $-3$ | $-2$ | $-1$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|---|---|---|\n| $y$ | $-5$ | $-3$ | $-1$ | 1 | 3 | 5 | 7 | 9 |\n\n**(iv)** The relation gives the exact readings:\n\n**($\\alpha$)** $4 = 2x + 1$, so $x = 1.5$\n\n**($\\beta$)** $y = 2(-2.5) + 1 = -4$\n\n> [!answer]\n> **($\\alpha$)** {{green:$x = 1.5$}}  **($\\beta$)** {{green:$y = -4$}}",
+    "hint": "Put each $x$ into the rule to fill in the table.",
+    "explanation": "## Advanced explanation\n\nThe graph is a straight line with gradient 2 that crosses the $y$-axis at 1.\n\n## Simplified explanation\n\nDouble $x$ and add 1 to fill in the table. On the graph, go across from 4 to read 1.5, and go down from $-2.5$ to read $-4$.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the number of students in a JSS class who prepared various dishes for their practical.\n\n(a)(i) Calculate the angle of each sector of a pie chart for the distribution.\n\n(a)(ii) What dish was prepared most?\n\n(a)(iii) What percentage of students prepared Fried Rice?\n\n(b) What is the probability that a student chosen at random cooked Fried Plantain and Beans?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002b/2002bq5.png",
+        "caption": "Table of dishes and students. Fufu and light soup 6, Banku and okro stew 5, Fried rice 8, Fried plantain and beans 3, Boiled yam and palaver sauce 5."
+      }
+    ],
+    "answer": "Total students: $6 + 5 + 8 + 3 + 5 = 27$\n\n**(a)(i)** Each student takes $\\frac{360^\\circ}{27} = 13\\frac{1}{3}^\\circ$.\n\n| Dish | Students | Angle |\n|---|---|---|\n| Fufu and light soup | 6 | 80° |\n| Banku and okro stew | 5 | about 66.7° |\n| Fried rice | 8 | about 106.7° |\n| Fried plantain and beans | 3 | 40° |\n| Boiled yam and palaver sauce | 5 | about 66.7° |\n\n**(iii)** $\\frac{8}{27} \\times 100\\% \\approx 29.6\\%$\n\n**(b)** $\\frac{3}{27} = \\frac{1}{9}$\n\n> [!answer]\n> **(ii)** {{green:Fried rice}}  **(iii)** {{green:about 29.6%}}  **(b)** {{green:$\\frac{1}{9}$}}",
+    "hint": "Add the students first.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{f}{27} \\times 360^\\circ$. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 27 students. Multiply each number by $\\frac{360}{27}$ to get its angle. Fried rice has the most, with 8 students, which is about 29.6%. Three of the 27 cooked plantain and beans, which is $\\frac{1}{9}$.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2002b Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  }
+]

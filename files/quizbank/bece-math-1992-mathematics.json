@@ -1,0 +1,1551 @@
+[
+  {
+    "type": "choice",
+    "body": "Find the set of prime factors of 12.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{3\\}$",
+        "hint": "2 is also a prime factor of 12."
+      },
+      {
+        "text": "$\\{2, 3\\}$",
+        "hint": "Correct. $12 = 2^2 \\times 3$."
+      },
+      {
+        "text": "$\\{3, 4\\}$",
+        "hint": "4 is not a prime number."
+      },
+      {
+        "text": "$\\{2, 3, 4\\}$",
+        "hint": "4 is not a prime number."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "List the factors of 12 that are prime.",
+    "explanation": "## Advanced explanation\n\n$12 = 2^2 \\times 3$, so the prime factors are 2 and 3.\n\n## Simplified explanation\n\nThe factors of 12 are 1, 2, 3, 4, 6 and 12. Only 2 and 3 are prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P = \\{7, 11, 13\\}$ and $Q = \\{9, 11, 13\\}$, find $P \\cup Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{7\\}$",
+        "hint": "$\\cup$ includes every member of both sets."
+      },
+      {
+        "text": "$\\{9\\}$",
+        "hint": "$\\cup$ includes every member of both sets."
+      },
+      {
+        "text": "$\\{7, 9\\}$",
+        "hint": "11 and 13 are members too."
+      },
+      {
+        "text": "$\\{7, 9, 11, 13\\}$",
+        "hint": "Correct. Every member of either set appears once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins the two sets together.",
+    "explanation": "## Advanced explanation\n\n$P \\cup Q$ holds all the elements in $P$ or $Q$, with each one listed once.\n\n## Simplified explanation\n\nWrite all of $P$, then add the new number from $Q$, which is 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, set $Q$ has 30 members and set $T$ has 25 members. $Q \\cap T$ has 10 members. Find the number of members of $Q \\cup T$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq3.png",
+        "caption": "Venn diagram of overlapping circles Q and T, with 10 in the overlap."
+      }
+    ],
+    "options": [
+      {
+        "text": "35",
+        "hint": "$30 + 25 - 10 = 45$."
+      },
+      {
+        "text": "45",
+        "hint": "Correct. $30 + 25 - 10 = 45$."
+      },
+      {
+        "text": "55",
+        "hint": "This counts the overlap twice."
+      },
+      {
+        "text": "65",
+        "hint": "Subtract the overlap instead of adding it."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The overlap is counted in both 30 and 25.",
+    "explanation": "## Advanced explanation\n\n$n(Q \\cup T) = n(Q) + n(T) - n(Q \\cap T) = 30 + 25 - 10 = 45$.\n\n## Simplified explanation\n\n30 and 25 make 55, but the 10 in the overlap were counted twice. So take 10 away to get 45.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $\\sqrt{6\\dfrac{1}{4}}$",
+    "media": [],
+    "options": [
+      {
+        "text": "5.0",
+        "hint": "$5^2 = 25$."
+      },
+      {
+        "text": "4.9",
+        "hint": "$4.9^2$ is about 24."
+      },
+      {
+        "text": "2.5",
+        "hint": "Correct. $2.5^2 = 6.25$."
+      },
+      {
+        "text": "2.4",
+        "hint": "$2.4^2 = 5.76$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change $6\\frac{1}{4}$ to an improper fraction.",
+    "explanation": "## Advanced explanation\n\n$\\sqrt{\\frac{25}{4}} = \\frac{5}{2} = 2.5$.\n\n## Simplified explanation\n\n$6\\frac{1}{4}$ is $\\frac{25}{4}$. The square root of the top is 5, and of the bottom is 2. So the answer is $\\frac{5}{2}$, or 2.5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Fractions",
+      "Surds"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $39_{\\text{ten}}$ to a base five numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "100111",
+        "hint": "This is 39 in base two."
+      },
+      {
+        "text": "1110",
+        "hint": "This equals 155 in base five."
+      },
+      {
+        "text": "234",
+        "hint": "This equals 69 in base five."
+      },
+      {
+        "text": "124",
+        "hint": "Correct. $25 + 10 + 4 = 39$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide by 5 repeatedly and read the remainders upwards.",
+    "explanation": "## Advanced explanation\n\n$39 = 1 \\times 25 + 2 \\times 5 + 4$, which gives $124_{\\text{five}}$.\n\n## Simplified explanation\n\n39 holds one 25, leaving 14. That is two 5s and 4 left over, so the digits are 1, 2, 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the least whole number which must be added to 207 to make it divisible by 17.",
+    "media": [],
+    "options": [
+      {
+        "text": "0",
+        "hint": "$207 \\div 17$ leaves a remainder of 3."
+      },
+      {
+        "text": "3",
+        "hint": "This is the remainder. Adding it gives 210."
+      },
+      {
+        "text": "13",
+        "hint": "Adding 13 gives 220, which 17 does not divide."
+      },
+      {
+        "text": "14",
+        "hint": "Correct. $207 + 14 = 221 = 17 \\times 13$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide 207 by 17 and look at the remainder.",
+    "explanation": "## Advanced explanation\n\n$207 = 17 \\times 12 + 3$, so add $17 - 3 = 14$ to reach $17 \\times 13 = 221$.\n\n## Simplified explanation\n\n$17 \\times 12 = 204$, so 207 is 3 past a multiple. The next multiple is 221, which is 14 more than 207.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $2 \\times \\left(3\\dfrac{1}{3} + 1\\dfrac{1}{6}\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2\\dfrac{1}{3}$",
+        "hint": "The bracket is $4\\frac{1}{2}$."
+      },
+      {
+        "text": "$4\\dfrac{1}{2}$",
+        "hint": "This is the bracket. Multiply it by 2."
+      },
+      {
+        "text": "$6\\dfrac{2}{3}$",
+        "hint": "The bracket is $4\\frac{1}{2}$."
+      },
+      {
+        "text": "$9$",
+        "hint": "Correct. $2 \\times 4\\frac{1}{2} = 9$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{20}{6} + \\frac{7}{6} = \\frac{27}{6} = \\frac{9}{2}$, and $2 \\times \\frac{9}{2} = 9$.\n\n## Simplified explanation\n\nThe whole numbers make 4, and $\\frac{1}{3} + \\frac{1}{6} = \\frac{1}{2}$. So the bracket is $4\\frac{1}{2}$, and doubling gives 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $8.51 \\div 2.3 = 3.7$, find the value of $85.1 \\div 2.3$.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.037",
+        "hint": "85.1 is 10 times 8.51, so the answer is 10 times larger."
+      },
+      {
+        "text": "0.37",
+        "hint": "85.1 is 10 times 8.51, so the answer is 10 times larger."
+      },
+      {
+        "text": "3.7",
+        "hint": "This is the answer for 8.51."
+      },
+      {
+        "text": "37",
+        "hint": "Correct. $3.7 \\times 10 = 37$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Compare 85.1 with 8.51.",
+    "explanation": "## Advanced explanation\n\n$85.1 = 10 \\times 8.51$, so the quotient is $10 \\times 3.7 = 37$.\n\n## Simplified explanation\n\nThe number being divided is 10 times bigger, so the answer is 10 times bigger too.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.625 as a fraction in its lowest term.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "Correct. $\\frac{625}{1000} = \\frac{5}{8}$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "This equals 0.75."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "This equals 0.25."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This equals 0.5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write 0.625 over 1,000 and reduce.",
+    "explanation": "## Advanced explanation\n\n$0.625 = \\frac{625}{1000} = \\frac{5}{8}$.\n\n## Simplified explanation\n\nDivide 625 and 1,000 by 125 to get 5 and 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An amount of money is shared between Kofi and Ama in the ratio $3 : 5$. If Ama receives ₵4,650.00, what is Kofi's share?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵930.00",
+        "hint": "This is 1 part."
+      },
+      {
+        "text": "₵1,550.00",
+        "hint": "₵4,650.00 is 5 parts, not 3."
+      },
+      {
+        "text": "₵1,743.75",
+        "hint": "₵4,650.00 is 5 of the parts, and Kofi has 3."
+      },
+      {
+        "text": "₵2,790.00",
+        "hint": "Correct. $3 \\times 930 = 2{,}790$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "₵4,650.00 is 5 parts. Find 1 part.",
+    "explanation": "## Advanced explanation\n\n$\\frac{3}{5} \\times 4{,}650 = 2{,}790$.\n\n## Simplified explanation\n\n5 parts make ₵4,650, so 1 part is ₵930. Kofi has 3 parts, which is ₵2,790.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 1 dollar = ₵340.00, what was the cedi value of an article which cost 6.50 dollars?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵6,630.00",
+        "hint": "Multiply 340 by 6.50."
+      },
+      {
+        "text": "₵2,380.00",
+        "hint": "This is for 7 dollars."
+      },
+      {
+        "text": "₵2,210.00",
+        "hint": "Correct. $6.5 \\times 340 = 2{,}210$."
+      },
+      {
+        "text": "₵346.50",
+        "hint": "This adds. Multiply instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the dollars by the exchange rate.",
+    "explanation": "## Advanced explanation\n\n$6.5 \\times 340 = 2{,}210$.\n\n## Simplified explanation\n\n6 dollars is ₵2,040 and half a dollar is ₵170. Together that is ₵2,210.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the simple interest on ₵28,000.00 at $3\\dfrac{1}{2}\\%$ per annum for 6 months.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵490.00",
+        "hint": "Correct. $28{,}000 \\times 0.035 \\times 0.5 = 490$."
+      },
+      {
+        "text": "₵560.00",
+        "hint": "This uses 4% a year."
+      },
+      {
+        "text": "₵980.00",
+        "hint": "This is for 1 year. 6 months is half a year."
+      },
+      {
+        "text": "₵5,880.00",
+        "hint": "This treats the 6 months as 6 years."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "6 months is $\\frac{1}{2}$ a year.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{28{,}000 \\times 3.5 \\times 0.5}{100} = 490$.\n\n## Simplified explanation\n\n$3\\frac{1}{2}\\%$ of ₵28,000 is ₵980 a year. Half a year is half of that, ₵490.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bar chart shows the distances of five villages from a market town.\n\nWhich village is farthest from the market town?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq13-q14.png",
+        "caption": "Bar chart of distances in km from a market town. P 7.5, Q 10, R 5, S 15, T 17.5."
+      }
+    ],
+    "options": [
+      {
+        "text": "P",
+        "hint": "P is 7.5 km away."
+      },
+      {
+        "text": "T",
+        "hint": "Correct. T has the tallest bar, 17.5 km."
+      },
+      {
+        "text": "R",
+        "hint": "R is the nearest, at 5 km."
+      },
+      {
+        "text": "S",
+        "hint": "S is 15 km away."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the tallest bar.",
+    "explanation": "## Advanced explanation\n\nThe maximum value is 17.5 km, at village T.\n\n## Simplified explanation\n\nThe tallest bar is T, so T is the farthest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bar chart shows the distances of five villages from a market town.\n\nHow much farther is village Q than village R from the market town?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq13-q14.png",
+        "caption": "Bar chart of distances in km from a market town. P 7.5, Q 10, R 5, S 15, T 17.5."
+      }
+    ],
+    "options": [
+      {
+        "text": "2 km",
+        "hint": "Q is 10 km away and R is 5 km away."
+      },
+      {
+        "text": "3 km",
+        "hint": "Q is 10 km away and R is 5 km away."
+      },
+      {
+        "text": "4 km",
+        "hint": "Q is 10 km away and R is 5 km away."
+      },
+      {
+        "text": "5 km",
+        "hint": "Correct. $10 - 5 = 5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract the height of bar R from bar Q.",
+    "explanation": "## Advanced explanation\n\n$10 - 5 = 5$ km.\n\n## Simplified explanation\n\nBar Q reaches 10 and bar R reaches 5. The difference is 5 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 20 beads in a box, some are red and some are green. The chance that one bead, taken at random from the box, is red is $\\dfrac{1}{4}$. Find the number of red beads in the box.",
+    "media": [],
+    "options": [
+      {
+        "text": "16",
+        "hint": "This would give a chance of $\\frac{4}{5}$."
+      },
+      {
+        "text": "15",
+        "hint": "This is the number of green beads."
+      },
+      {
+        "text": "10",
+        "hint": "This would give a chance of $\\frac{1}{2}$."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $\\frac{1}{4} \\times 20 = 5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Number of red beads $=$ probability $\\times$ total.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{4} \\times 20 = 5$.\n\n## Simplified explanation\n\nA quarter of the 20 beads are red, and a quarter of 20 is 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 12 mangoes, of which 4 are not ripe. What is the chance of picking at random a ripe mango from the bag?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "8 of the mangoes are ripe, not 1."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Use 8 ripe mangoes out of 12."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Correct. $\\frac{8}{12} = \\frac{2}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is not ripe over ripe. Use the total of 12."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "First find the number of ripe mangoes.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{ripe}) = \\frac{12 - 4}{12} = \\frac{2}{3}$.\n\n## Simplified explanation\n\n8 of the 12 mangoes are ripe, and $\\frac{8}{12}$ reduces to $\\frac{2}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $p^2 - 6p + 9$ when $p = -2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-7$",
+        "hint": "$-6 \\times -2$ is $+12$."
+      },
+      {
+        "text": "$13$",
+        "hint": "$-6 \\times -2$ is $+12$."
+      },
+      {
+        "text": "$12$",
+        "hint": "Add all three terms: $4 + 12 + 9$."
+      },
+      {
+        "text": "$25$",
+        "hint": "Correct. $4 + 12 + 9 = 25$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Be careful with the negative value of $p$.",
+    "explanation": "## Advanced explanation\n\n$(-2)^2 - 6(-2) + 9 = 4 + 12 + 9 = 25$. Also, $p^2 - 6p + 9 = (p - 3)^2 = (-5)^2$.\n\n## Simplified explanation\n\n$(-2)^2$ is 4, and $-6 \\times -2$ is 12. Then $4 + 12 + 9 = 25$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x = 2$, find the value of $q$ in the equation $3x - 4 = x + q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$8$",
+        "hint": "$3(2) - 4 = 2$."
+      },
+      {
+        "text": "$1$",
+        "hint": "$3(2) - 4 = 2$, and $2 + q = 2$."
+      },
+      {
+        "text": "$0$",
+        "hint": "Correct. $2 = 2 + q$."
+      },
+      {
+        "text": "$-1$",
+        "hint": "$3(2) - 4 = 2$, and $2 + q = 2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put $x = 2$ into the equation.",
+    "explanation": "## Advanced explanation\n\n$6 - 4 = 2 + q$, so $q = 0$.\n\n## Simplified explanation\n\nWith $x = 2$, the left side is 2 and the right side is $2 + q$. So $q$ must be 0.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is shown on the number line, where $p$ is a real number?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq19.png",
+        "caption": "Number line from −3 to 4 with a solid dot at 2 and an arrow going to the left, labelled P."
+      }
+    ],
+    "options": [
+      {
+        "text": "$p \\ge 2$",
+        "hint": "The arrow points to the left, so the values are below 2."
+      },
+      {
+        "text": "$p > 2$",
+        "hint": "The arrow points to the left, and the dot is solid."
+      },
+      {
+        "text": "$p = 2$",
+        "hint": "The arrow shows many values, not just 2."
+      },
+      {
+        "text": "$p \\le 2$",
+        "hint": "Correct. The dot is solid and the arrow points left."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look at the type of dot and the direction of the arrow.",
+    "explanation": "## Advanced explanation\n\nA solid circle at 2 with an arrow to the left shows the set $p \\le 2$.\n\n## Simplified explanation\n\nThe solid dot means 2 counts. The arrow goes towards the smaller numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\nFind the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq20-q21.png",
+        "caption": "Mapping from {−2, −1, 0, 2, 3, 4, …, x} to {y, −1, 1, 5, 7, 9, …, 21}."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-7$",
+        "hint": "The rule is $2x + 1$, so $2x + 1 = 21$."
+      },
+      {
+        "text": "$5$",
+        "hint": "The rule is $2x + 1$, so $2x + 1 = 21$."
+      },
+      {
+        "text": "$6$",
+        "hint": "The rule is $2x + 1$, so $2x + 1 = 21$."
+      },
+      {
+        "text": "$10$",
+        "hint": "Correct. $2(10) + 1 = 21$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the rule first, using 0 → 1 and 2 → 5.",
+    "explanation": "## Advanced explanation\n\nThe rule is $n \\to 2n + 1$, so $2x + 1 = 21$ and $x = 10$.\n\n## Simplified explanation\n\nEach number is doubled and then 1 is added. To reach 21, take away 1 to get 20, then halve to get 10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\nFind the value of $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq20-q21.png",
+        "caption": "Mapping from {−2, −1, 0, 2, 3, 4, …, x} to {y, −1, 1, 5, 7, 9, …, 21}."
+      }
+    ],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "The rule is $2n + 1$, and $n = -2$."
+      },
+      {
+        "text": "$1$",
+        "hint": "This is the image of 0."
+      },
+      {
+        "text": "$-1$",
+        "hint": "This is the image of $-1$."
+      },
+      {
+        "text": "$-3$",
+        "hint": "Correct. $2(-2) + 1 = -3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the rule first, using 0 → 1 and 2 → 5.",
+    "explanation": "## Advanced explanation\n\nThe rule is $n \\to 2n + 1$, so $y = 2(-2) + 1 = -3$.\n\n## Simplified explanation\n\nDouble $-2$ to get $-4$, then add 1 to get $-3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, find the bearing of $P$ from $Q$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq22.png",
+        "caption": "Right-angled triangle PQR. QR runs east for 2 km to R, and RP runs north for 2 km to P, along the line RN."
+      }
+    ],
+    "options": [
+      {
+        "text": "$045^\\circ$",
+        "hint": "Correct. $P$ is 2 km north and 2 km east of $Q$."
+      },
+      {
+        "text": "$090^\\circ$",
+        "hint": "This is the direction of $R$ from $Q$."
+      },
+      {
+        "text": "$135^\\circ$",
+        "hint": "This points south-east."
+      },
+      {
+        "text": "$180^\\circ$",
+        "hint": "This points due south."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Triangle $PQR$ is right-angled with two equal sides.",
+    "explanation": "## Advanced explanation\n\nTriangle $PQR$ is right-angled and isosceles, so angle $RQP = 45^\\circ$. North at $Q$ is parallel to $RN$, so the bearing is $090^\\circ - 45^\\circ = 045^\\circ$.\n\n## Simplified explanation\n\nFrom $Q$, the point $P$ is the same distance east as north. So it is halfway between north and east, which is 45°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A polygon has 10 sides. Which of the following gives the sum of its interior angles?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 180^\\circ$",
+        "hint": "This is for a 4-sided polygon."
+      },
+      {
+        "text": "$4 \\times 180^\\circ$",
+        "hint": "This is for a 6-sided polygon."
+      },
+      {
+        "text": "$6 \\times 180^\\circ$",
+        "hint": "This is for an 8-sided polygon."
+      },
+      {
+        "text": "$8 \\times 180^\\circ$",
+        "hint": "Correct. $(10 - 2) \\times 180^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The sum is $(n - 2) \\times 180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$(10 - 2) \\times 180^\\circ = 8 \\times 180^\\circ$.\n\n## Simplified explanation\n\nA polygon can be cut into triangles, 2 fewer than its sides. With 10 sides, that is 8 triangles of 180°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows the conversion graph for miles and kilometres.\n\nFind, in kilometres, the equivalent of 4 miles.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq24-q25.png",
+        "caption": "Straight-line conversion graph with distance in miles across and distance in kilometres up. It passes through the origin, (2.5, 4) and (4, 6.4)."
+      }
+    ],
+    "options": [
+      {
+        "text": "2.5",
+        "hint": "This converts 4 km to miles."
+      },
+      {
+        "text": "3",
+        "hint": "Read up from 4 on the miles axis."
+      },
+      {
+        "text": "6.4",
+        "hint": "Correct. The line reaches 6.4 km at 4 miles."
+      },
+      {
+        "text": "6",
+        "hint": "Read up from 4 on the miles axis."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Go up from 4 on the miles axis, then across.",
+    "explanation": "## Advanced explanation\n\nThe graph passes through $(4, 6.4)$, which is 1.6 km per mile.\n\n## Simplified explanation\n\nStart at 4 on the bottom axis. Go up to the line, then across to read 6.4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows the conversion graph for miles and kilometres.\n\nExpress 4 km in miles.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq24-q25.png",
+        "caption": "Straight-line conversion graph with distance in miles across and distance in kilometres up. It passes through the origin, (2.5, 4) and (4, 6.4)."
+      }
+    ],
+    "options": [
+      {
+        "text": "6.4",
+        "hint": "This converts 4 miles to kilometres."
+      },
+      {
+        "text": "4",
+        "hint": "Read across from 4 on the kilometres axis."
+      },
+      {
+        "text": "3.5",
+        "hint": "Read across from 4 on the kilometres axis."
+      },
+      {
+        "text": "2.5",
+        "hint": "Correct. The line is at 4 km when it is at 2.5 miles."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Go across from 4 on the kilometres axis, then down.",
+    "explanation": "## Advanced explanation\n\nThe graph passes through $(2.5, 4)$.\n\n## Simplified explanation\n\nStart at 4 on the side axis. Go across to the line, then down to read 2.5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram is a right-angled triangle.\n\nFind $|XZ|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq26-q27.png",
+        "caption": "Triangle XYZ with a right angle at Y. XY is 5 cm and YZ is 12 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "2.4 cm",
+        "hint": "This is $12 \\div 5$."
+      },
+      {
+        "text": "7 cm",
+        "hint": "This is $12 - 5$."
+      },
+      {
+        "text": "13 cm",
+        "hint": "Correct. $\\sqrt{25 + 144} = 13$."
+      },
+      {
+        "text": "17 cm",
+        "hint": "This is $12 + 5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$XZ$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\n$|XZ| = \\sqrt{5^2 + 12^2} = 13$ cm.\n\n## Simplified explanation\n\nSquare the sides: 25 and 144. They add to 169, and its square root is 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram is a right-angled triangle.\n\nFind $\\tan YXZ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq26-q27.png",
+        "caption": "Triangle XYZ with a right angle at Y. XY is 5 cm and YZ is 12 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{13}$",
+        "hint": "This is $\\cos YXZ$."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "This is upside down."
+      },
+      {
+        "text": "$\\dfrac{12}{13}$",
+        "hint": "This is $\\sin YXZ$."
+      },
+      {
+        "text": "$\\dfrac{12}{5}$",
+        "hint": "Correct. Opposite over adjacent."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\tan$ is opposite over adjacent.",
+    "explanation": "## Advanced explanation\n\nFrom angle $X$, the opposite side is $YZ$ and the adjacent side is $XY$, so $\\tan YXZ = \\frac{12}{5}$.\n\n## Simplified explanation\n\nStand at $X$. The side across from you is 12 cm, and the short side next to you is 5 cm. So the answer is $\\frac{12}{5}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows two points $P$ and $Q$ in the number plane. Find the vector $\\overrightarrow{PQ}$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq28.png",
+        "caption": "Graph with the line from P(−3, 2) to Q(3, −2)."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 4 \\end{pmatrix}$",
+        "hint": "From $P$ to $Q$, $y$ falls by 4."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$",
+        "hint": "Correct. $3 - (-3) = 6$ and $-2 - 2 = -4$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 5 \\end{pmatrix}$",
+        "hint": "From $P$ to $Q$, $x$ rises by 6."
+      },
+      {
+        "text": "$\\begin{pmatrix} 4 \\\\ -6 \\end{pmatrix}$",
+        "hint": "The top number is the change in $x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtract the coordinates of $P$ from those of $Q$.",
+    "explanation": "## Advanced explanation\n\n$\\begin{pmatrix} 3 - (-3) \\\\ -2 - 2 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$.\n\n## Simplified explanation\n\nFrom $P$ to $Q$, you go 6 to the right and 4 down.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the length of the vector $p = \\begin{pmatrix} -5 \\\\ 12 \\end{pmatrix}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$7$",
+        "hint": "This is $12 - 5$."
+      },
+      {
+        "text": "$13$",
+        "hint": "Correct. $\\sqrt{25 + 144} = 13$."
+      },
+      {
+        "text": "$17$",
+        "hint": "This is $12 + 5$."
+      },
+      {
+        "text": "$25$",
+        "hint": "This is $(-5)^2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use Pythagoras' theorem on the two components.",
+    "explanation": "## Advanced explanation\n\n$|p| = \\sqrt{(-5)^2 + 12^2} = 13$.\n\n## Simplified explanation\n\nSquare the numbers: 25 and 144. They add to 169, and its square root is 13.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, square $P'Q'R'S'$ is an enlargement of square $PQRS$ from centre $O$. The area of the square $PQRS$ is 4 cm² and the area of the square $P'Q'R'S'$ is 9 cm². Find the scale factor of the enlargement.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq30.png",
+        "caption": "Square PQRS inside the larger square P'Q'R'S', with centre O at the middle of both."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This goes from the image back to the object."
+      },
+      {
+        "text": "$\\dfrac{4}{9}$",
+        "hint": "This compares the areas, the wrong way round."
+      },
+      {
+        "text": "$1\\dfrac{1}{2}$",
+        "hint": "Correct. The sides are 2 cm and 3 cm."
+      },
+      {
+        "text": "$2\\dfrac{1}{4}$",
+        "hint": "This is the area factor. Take its square root."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the side of each square.",
+    "explanation": "## Advanced explanation\n\nThe sides are $\\sqrt{4} = 2$ cm and $\\sqrt{9} = 3$ cm, so $k = \\frac{3}{2}$.\n\n## Simplified explanation\n\nThe small square has sides of 2 cm and the large one has sides of 3 cm. Then $3 \\div 2 = 1\\frac{1}{2}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The volume of a cube is 27 cm³. Find the area of one of its faces.",
+    "media": [],
+    "options": [
+      {
+        "text": "3 cm²",
+        "hint": "This is the length of a side."
+      },
+      {
+        "text": "6 cm²",
+        "hint": "This is $3 \\times 2$. Use $3 \\times 3$."
+      },
+      {
+        "text": "9 cm²",
+        "hint": "Correct. The side is 3 cm, and $3^2 = 9$."
+      },
+      {
+        "text": "18 cm²",
+        "hint": "This is the area of two faces."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the side of the cube first.",
+    "explanation": "## Advanced explanation\n\n$s = \\sqrt[3]{27} = 3$ cm, so a face has an area of $s^2 = 9$ cm².\n\n## Simplified explanation\n\n$3 \\times 3 \\times 3 = 27$, so the side is 3 cm. A face is $3 \\times 3 = 9$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A cylinder is of height 3 cm and radius 2 cm. Find its curved surface area.",
+    "media": [],
+    "options": [
+      {
+        "text": "$18\\pi$ cm²",
+        "hint": "Use $2\\pi rh$."
+      },
+      {
+        "text": "$12\\pi$ cm²",
+        "hint": "Correct. $2\\pi \\times 2 \\times 3 = 12\\pi$."
+      },
+      {
+        "text": "$8\\pi$ cm²",
+        "hint": "This is $2\\pi r^2$, the area of the two ends."
+      },
+      {
+        "text": "$7\\pi$ cm²",
+        "hint": "Use $2\\pi rh$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Curved surface area $= 2\\pi rh$.",
+    "explanation": "## Advanced explanation\n\n$2\\pi(2)(3) = 12\\pi$ cm².\n\n## Simplified explanation\n\nUnrolled, the curved surface is a rectangle. Its length is the circumference, $4\\pi$, and its height is 3. So the area is $12\\pi$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the area of the parallelogram $PQRS$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq33.png",
+        "caption": "Parallelogram PQRS with SR 12 cm, QR 5 cm and a perpendicular height of 4 cm from S to PQ."
+      }
+    ],
+    "options": [
+      {
+        "text": "20 cm²",
+        "hint": "This is $5 \\times 4$. The base is 12 cm."
+      },
+      {
+        "text": "21 cm²",
+        "hint": "Use base times perpendicular height."
+      },
+      {
+        "text": "48 cm²",
+        "hint": "Correct. $12 \\times 4 = 48$."
+      },
+      {
+        "text": "60 cm²",
+        "hint": "This is $12 \\times 5$. Use the perpendicular height, 4 cm."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Area $=$ base $\\times$ perpendicular height.",
+    "explanation": "## Advanced explanation\n\n$A = 12 \\times 4 = 48$ cm².\n\n## Simplified explanation\n\nThe base is 12 cm and the straight-up height is 4 cm. Then $12 \\times 4 = 48$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{1}{3}$ of a number is added to $\\dfrac{1}{5}$ of the same number, the result is 8. Find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "This gives $1 + \\frac{3}{5}$, not 8."
+      },
+      {
+        "text": "5",
+        "hint": "This gives $1\\frac{2}{3} + 1$, not 8."
+      },
+      {
+        "text": "15",
+        "hint": "Correct. $5 + 3 = 8$."
+      },
+      {
+        "text": "30",
+        "hint": "This gives $10 + 6 = 16$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Let the number be $n$ and write an equation.",
+    "explanation": "## Advanced explanation\n\n$\\frac{n}{3} + \\frac{n}{5} = \\frac{8n}{15} = 8$, so $n = 15$.\n\n## Simplified explanation\n\nA third and a fifth add to $\\frac{8}{15}$. So $\\frac{8}{15}$ of the number is 8, which makes the number 15.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $1 : x$ is equivalent to $6\\dfrac{1}{4} : 25$, find $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "Correct. $25 \\div 6.25 = 4$."
+      },
+      {
+        "text": "6.25",
+        "hint": "$x$ is $25 \\div 6.25$."
+      },
+      {
+        "text": "24",
+        "hint": "This subtracts 1 from 25."
+      },
+      {
+        "text": "100",
+        "hint": "$x$ is $25 \\div 6.25$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "How do you get from $6\\frac{1}{4}$ to 1?",
+    "explanation": "## Advanced explanation\n\n$x = \\frac{25}{6.25} = 4$.\n\n## Simplified explanation\n\nDivide $6\\frac{1}{4}$ by itself to get 1. Do the same to 25: $25 \\div 6.25 = 4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{3}{8}$ as a percentage.",
+    "media": [],
+    "options": [
+      {
+        "text": "$0.375\\%$",
+        "hint": "This is the decimal with a percent sign. Multiply by 100."
+      },
+      {
+        "text": "$12\\dfrac{1}{2}\\%$",
+        "hint": "This is $\\frac{1}{8}$."
+      },
+      {
+        "text": "$25\\%$",
+        "hint": "This is $\\frac{2}{8}$."
+      },
+      {
+        "text": "$37\\dfrac{1}{2}\\%$",
+        "hint": "Correct. $\\frac{3}{8} \\times 100 = 37.5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply by 100.",
+    "explanation": "## Advanced explanation\n\n$\\frac{3}{8} \\times 100\\% = 37\\frac{1}{2}\\%$.\n\n## Simplified explanation\n\nOne eighth is $12\\frac{1}{2}\\%$. Three eighths is $37\\frac{1}{2}\\%$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Akosua buys 480 pineapples for ₵24,000.00. She sells the pineapples for ₵28,000.00. Find her profit percent.",
+    "media": [],
+    "options": [
+      {
+        "text": "13.9%",
+        "hint": "Divide the profit by the cost price."
+      },
+      {
+        "text": "16.7%",
+        "hint": "Correct. $\\frac{4{,}000}{24{,}000} \\times 100 \\approx 16.7$."
+      },
+      {
+        "text": "20.0%",
+        "hint": "Divide the profit by the cost price."
+      },
+      {
+        "text": "40.0%",
+        "hint": "Divide the profit by the cost price."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Percentage profit is worked on the cost price.",
+    "explanation": "## Advanced explanation\n\n$\\frac{28{,}000 - 24{,}000}{24{,}000} \\times 100\\% \\approx 16.7\\%$.\n\n## Simplified explanation\n\nThe profit is ₵4,000 on a cost of ₵24,000. That is one sixth, or about 16.7%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many edges has a cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "four",
+        "hint": "A cuboid has 4 edges around the top alone."
+      },
+      {
+        "text": "six",
+        "hint": "This is the number of faces."
+      },
+      {
+        "text": "eight",
+        "hint": "This is the number of vertices."
+      },
+      {
+        "text": "twelve",
+        "hint": "Correct. 4 on top, 4 on the bottom and 4 upright."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count the top, the bottom and the upright edges.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nThere are 4 edges around the top, 4 around the bottom and 4 going up. That makes 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of crops on a farm of area 250 hectares.\n\nFind the area of the plot with corn.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq39-q40.png",
+        "caption": "Pie chart of crops. Corn a right angle, Okro 80°, Cassava 70°, and Pepper with no angle given."
+      }
+    ],
+    "options": [
+      {
+        "text": "48.6 ha",
+        "hint": "This is for Cassava."
+      },
+      {
+        "text": "55.3 ha",
+        "hint": "This is for Okro."
+      },
+      {
+        "text": "62.5 ha",
+        "hint": "Correct. $\\frac{90}{360} \\times 250 = 62.5$."
+      },
+      {
+        "text": "83.3 ha",
+        "hint": "This is for Pepper."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The small square marks a right angle of 90°.",
+    "explanation": "## Advanced explanation\n\n$\\frac{90}{360} \\times 250 = 62.5$ ha.\n\n## Simplified explanation\n\nThe corn sector is a quarter of the circle. A quarter of 250 is 62.5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of crops on a farm of area 250 hectares.\n\nWhat fraction of the farm is planted with pepper?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992secaq39-q40.png",
+        "caption": "Pie chart of crops. Corn a right angle, Okro 80°, Cassava 70°, and Pepper with no angle given."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{120}{360} = \\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "This is for Corn."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "Pepper has an angle of 120°."
+      },
+      {
+        "text": "$\\dfrac{2}{9}$",
+        "hint": "This is for Okro."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the angle for pepper first.",
+    "explanation": "## Advanced explanation\n\n$360 - (90 + 80 + 70) = 120$, and $\\frac{120}{360} = \\frac{1}{3}$.\n\n## Simplified explanation\n\nThe other angles add to 240, which leaves 120° for pepper. That is a third of the circle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1992 Paper",
+      "Section A",
+      "Statistics",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $5 - 2x > x + 2$, where $x$ is a real number. Describe how to illustrate your result on the number line.",
+    "media": [],
+    "answer": "$$-2x - x > 2 - 5$$\n\n$$-3x > -3$$\n\n$$x < 1$$\n\nOn the number line, draw an open dot at 1 with an arrow pointing to the left.\n\n> [!answer]\n> {{green:$x < 1$}}, shown by an open dot at 1 and an arrow to the left.",
+    "hint": "Dividing by a negative number reverses the sign.",
+    "explanation": "## Advanced explanation\n\nCollecting $x$ on the right instead gives $3 > 3x$, which avoids dividing by a negative number. The dot is open because 1 is left out.\n\n## Simplified explanation\n\nMoving terms gives $-3x > -3$. Dividing by $-3$ flips the sign, so $x < 1$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the truth set of the equation:\n\n$$\\frac{2}{3}(3y - 1) - (y + 2) = \\frac{1}{3}$$",
+    "media": [],
+    "answer": "Multiply through by 3:\n\n$$2(3y - 1) - 3(y + 2) = 1$$\n\n$$6y - 2 - 3y - 6 = 1$$\n\n$$3y = 9$$\n\n$$y = 3$$\n\n> [!answer]\n> {{green:$\\{y : y = 3\\}$}}",
+    "hint": "Multiply every term by 3 first.",
+    "explanation": "## Advanced explanation\n\nCheck with $y = 3$: $\\frac{2}{3}(8) - 5 = \\frac{16}{3} - \\frac{15}{3} = \\frac{1}{3}$.\n\n## Simplified explanation\n\nMultiplying by 3 clears the fractions. Opening the brackets gives $3y - 8 = 1$. So $3y = 9$ and $y = 3$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorise completely: $mp + np - mt - nt$",
+    "media": [],
+    "answer": "$$p(m + n) - t(m + n) = (m + n)(p - t)$$\n\n> [!answer]\n> {{green:$(m + n)(p - t)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nFactorisation by grouping works because both groups share the factor $(m + n)$.\n\n## Simplified explanation\n\nTake $p$ out of the first pair and $-t$ out of the second. Both leave $(m + n)$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Make $t$ the subject of the relation $v = u + at$.",
+    "media": [],
+    "answer": "$$v - u = at$$\n\n$$t = \\frac{v - u}{a}$$\n\n> [!answer]\n> {{green:$t = \\dfrac{v - u}{a}$}}",
+    "hint": "Subtract $u$ from both sides first.",
+    "explanation": "## Advanced explanation\n\nInverse operations are applied in reverse order: undo the addition, then undo the multiplication.\n\n## Simplified explanation\n\nTake $u$ from both sides to get $v - u = at$. Then divide by $a$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A landlady rented out her house for ₵240,000.00 for one year. During the year, she paid 15% of the rent as income tax. She also paid 25% of the rent as property tax and spent ₵10,000.00 on repairs. Calculate\n\n(a) the landlady's total expenses;\n\n(b) the remainder of the rent after the landlady's expenses;\n\n(c) the percentage of the rent she spent on repairs.",
+    "media": [],
+    "answer": "**(a)** Income tax: $0.15 \\times 240{,}000 = 36{,}000$\n\nProperty tax: $0.25 \\times 240{,}000 = 60{,}000$\n\nTotal: $36{,}000 + 60{,}000 + 10{,}000 = 106{,}000$\n\n**(b)** $240{,}000 - 106{,}000 = 134{,}000$\n\n**(c)** $\\frac{10{,}000}{240{,}000} \\times 100\\% \\approx 4.17\\%$\n\n> [!answer]\n> **(a)** {{green:₵106,000.00}}  **(b)** {{green:₵134,000.00}}  **(c)** {{green:about 4.17%}}",
+    "hint": "Both taxes are percentages of the rent.",
+    "explanation": "## Advanced explanation\n\nThe two taxes together are 40% of the rent, which is ₵96,000.00.\n\n## Simplified explanation\n\n15% of the rent is ₵36,000 and 25% is ₵60,000. Adding the ₵10,000 repairs gives ₵106,000. That leaves ₵134,000. The repairs are about 4.17% of the rent.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular lines $OX$ and $OY$ on a graph sheet. On this graph sheet, mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(a) Plot on the same graph sheet the points $A(1, 1)$, $B(4, 3)$ and $C(2, 5)$. Join the points $A$, $B$ and $C$ to form a triangle.\n\n(b) Using the $y$-axis as mirror line, draw the image of triangle $ABC$ such that $A \\to A'$, $B \\to B'$ and $C \\to C'$.\n\n(c) Using the $x$-axis as the mirror line, draw the image of triangle $ABC$ such that $A \\to A''$, $B \\to B''$ and $C \\to C''$. Write down the coordinates of $A''$, $B''$ and $C''$.",
+    "media": [],
+    "answer": "**(b)** $A'(-1, 1)$, $B'(-4, 3)$, $C'(-2, 5)$\n\n**(c)** Reflecting in the $x$-axis changes $(x, y)$ to $(x, -y)$:\n\n$A''(1, -1)$, $B''(4, -3)$, $C''(2, -5)$\n\n> [!answer]\n> **(c)** {{green:$A''(1, -1)$, $B''(4, -3)$, $C''(2, -5)$}}",
+    "hint": "A mirror in the $x$-axis only changes the sign of $y$.",
+    "explanation": "## Advanced explanation\n\nReflections are isometries, so each image is congruent to triangle $ABC$.\n\n## Simplified explanation\n\nFor the $y$-axis mirror, flip the sign of each $x$. For the $x$-axis mirror, flip the sign of each $y$.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table gives the frequency distribution of the marks obtained in a class test by a group of 64 pupils.\n\n(a) Describe the bar chart you would draw for the distribution.\n\n(b) A pupil is chosen at random from the class. What is the probability that the pupil obtained 7 marks?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1992/1992q4.png",
+        "caption": "Frequency table out of ten. Mark 2: 9, mark 3: 14, mark 4: 13, mark 5: 10, mark 6: 5, mark 7: 8, mark 8: 2, mark 9: 3."
+      }
+    ],
+    "answer": "**(a)** Draw marks on the horizontal axis and frequency on the vertical axis, with separate bars of equal width and heights 9, 14, 13, 10, 5, 8, 2 and 3 for the marks 2 to 9.\n\n**(b)** $\\frac{8}{64} = \\frac{1}{8}$\n\n> [!answer]\n> **(b)** {{green:$\\frac{1}{8}$}}",
+    "hint": "The height of each bar is the frequency.",
+    "explanation": "## Advanced explanation\n\nProbability is the relative frequency: $P(7) = \\frac{f(7)}{\\sum f}$.\n\n## Simplified explanation\n\nDraw one bar for each mark, as tall as its frequency. Eight of the 64 pupils got 7 marks, and $\\frac{8}{64}$ reduces to $\\frac{1}{8}$.",
+    "difficulty": "easy",
+    "marks": 7,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only:\n\n(a) Draw $|PQ| = 9$ cm.\n\n(b) Construct a perpendicular to $PQ$ at $Q$.\n\n(c) Construct angle $QPS = 60^\\circ$ at the point $P$ on $PQ$ such that $|PS| = 6.5$ cm.\n\n(d) Construct a line parallel to $PQ$ through $S$. Let the perpendicular through $Q$ and the parallel through $S$ meet at $R$. Measure $|PR|$.\n\nType your measurement.",
+    "media": [],
+    "answer": "Draw $|PQ| = 9$ cm and construct $90^\\circ$ at $Q$. Construct $60^\\circ$ at $P$, and mark $S$ on this arm with $|PS| = 6.5$ cm. Construct the line through $S$ parallel to $PQ$ to meet the perpendicular at $R$.\n\n> [!answer]\n> {{green:$|PR| \\approx 10.6$ cm}}",
+    "hint": "$S$ and $R$ are at the same height above $PQ$.",
+    "explanation": "## Advanced explanation\n\nThe height of $S$ is $6.5\\sin 60^\\circ \\approx 5.63$ cm, so $|QR| \\approx 5.63$ cm and $|PR| = \\sqrt{81 + 5.63^2} \\approx 10.6$ cm.\n\n## Simplified explanation\n\nFollow the steps with your ruler and compasses. $QR$ is about 5.6 cm, and joining $P$ to $R$ gives a line of about 10.6 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1992 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  }
+]

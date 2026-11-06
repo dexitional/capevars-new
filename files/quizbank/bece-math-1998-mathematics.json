@@ -1,0 +1,1542 @@
+[
+  {
+    "type": "choice",
+    "body": "Two sets which have no common member(s) are known as",
+    "media": [],
+    "options": [
+      {
+        "text": "equal sets",
+        "hint": "Equal sets have exactly the same members."
+      },
+      {
+        "text": "intersecting sets",
+        "hint": "Intersecting sets have common members."
+      },
+      {
+        "text": "empty sets",
+        "hint": "An empty set has no members at all."
+      },
+      {
+        "text": "disjoint sets",
+        "hint": "Correct. Their intersection is empty."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "What is the name for sets whose circles do not overlap?",
+    "explanation": "## Advanced explanation\n\nDisjoint sets $A$ and $B$ satisfy $A \\cap B = \\emptyset$.\n\n## Simplified explanation\n\nSets with nothing in common are called disjoint sets.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$P = \\{0, 2, 4, 6\\}$ and $Q = \\{1, 2, 4, 5\\}$. Find $P \\cap Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{0, 6\\}$",
+        "hint": "These are in $P$ only."
+      },
+      {
+        "text": "$\\{2, 4\\}$",
+        "hint": "Correct. These are in both sets."
+      },
+      {
+        "text": "$\\{0, 2, 4\\}$",
+        "hint": "0 is not in $Q$."
+      },
+      {
+        "text": "$\\{0, 2, 6\\}$",
+        "hint": "0 and 6 are not in $Q$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$\\cap$ means the members found in both sets.",
+    "explanation": "## Advanced explanation\n\nThe elements common to $P$ and $Q$ are 2 and 4.\n\n## Simplified explanation\n\nLook for numbers on both lists: 2 and 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\dfrac{1}{2}\\{(4 - 1) - (5 - 6)\\}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-4.0$",
+        "hint": "Inside the braces, $3 - (-1) = 4$."
+      },
+      {
+        "text": "$1.0$",
+        "hint": "$-(-1)$ is $+1$."
+      },
+      {
+        "text": "$2.0$",
+        "hint": "Correct. $\\frac{1}{2}(4) = 2$."
+      },
+      {
+        "text": "$3.0$",
+        "hint": "Inside the braces, $3 - (-1) = 4$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out the inner brackets first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{2}\\{3 - (-1)\\} = \\frac{1}{2}(4) = 2$.\n\n## Simplified explanation\n\nThe brackets give 3 and $-1$. Taking away $-1$ adds 1, which makes 4. Half of 4 is 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Greatest (Highest) Common Factor of 35 and 70.",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "5 is a common factor, but not the greatest."
+      },
+      {
+        "text": "7",
+        "hint": "7 is a common factor, but not the greatest."
+      },
+      {
+        "text": "10",
+        "hint": "10 does not divide 35."
+      },
+      {
+        "text": "35",
+        "hint": "Correct. $70 = 2 \\times 35$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Does 35 divide 70?",
+    "explanation": "## Advanced explanation\n\n$35$ divides both numbers, and no larger number divides 35.\n\n## Simplified explanation\n\n35 goes into itself and into 70. Nothing bigger goes into 35.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write $1101101_{\\text{two}}$ in base ten.",
+    "media": [],
+    "options": [
+      {
+        "text": "31",
+        "hint": "This is $11111_{\\text{two}}$."
+      },
+      {
+        "text": "145",
+        "hint": "Check the place values: $64 + 32 + 8 + 4 + 1$."
+      },
+      {
+        "text": "125",
+        "hint": "Check the place values: $64 + 32 + 8 + 4 + 1$."
+      },
+      {
+        "text": "109",
+        "hint": "Correct. $64 + 32 + 8 + 4 + 1 = 109$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The place values from the right are 1, 2, 4, 8, 16, 32, 64.",
+    "explanation": "## Advanced explanation\n\n$2^6 + 2^5 + 2^3 + 2^2 + 2^0 = 109$.\n\n## Simplified explanation\n\nAdd the place values under each 1: $64 + 32 + 8 + 4 + 1 = 109$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "State the property used in the statement: $p(q + r) = (pq) + (pr)$",
+    "media": [],
+    "options": [
+      {
+        "text": "Associative",
+        "hint": "This is about grouping, as in $(a + b) + c = a + (b + c)$."
+      },
+      {
+        "text": "Cumulative",
+        "hint": "This is not a property of operations. The word is commutative."
+      },
+      {
+        "text": "Distributive",
+        "hint": "Correct. The $p$ is shared across the bracket."
+      },
+      {
+        "text": "Identity",
+        "hint": "This is about $a + 0 = a$ or $a \\times 1 = a$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "What happens to $p$ when the bracket is opened?",
+    "explanation": "## Advanced explanation\n\nMultiplication distributes over addition.\n\n## Simplified explanation\n\nThe $p$ outside is shared out to both terms inside the bracket. That sharing is the distributive property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $n^2 + 1 = 50$, find $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "7",
+        "hint": "Correct. $n^2 = 49$."
+      },
+      {
+        "text": "24.5",
+        "hint": "$n^2 = 49$, so take the square root and do not halve."
+      },
+      {
+        "text": "25",
+        "hint": "Subtract 1, then take the square root."
+      },
+      {
+        "text": "49",
+        "hint": "This is $n^2$. Take the square root."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract 1, then take the square root.",
+    "explanation": "## Advanced explanation\n\n$n^2 = 49$, so $n = \\pm 7$, and 7 is the value among the options.\n\n## Simplified explanation\n\n$50 - 1 = 49$. The number that multiplies by itself to give 49 is 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\dfrac{0.63 \\times 0.70}{9.00}$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.0049",
+        "hint": "Check the place value: $0.63 \\div 9 = 0.07$."
+      },
+      {
+        "text": "0.049",
+        "hint": "Correct. $0.07 \\times 0.7 = 0.049$."
+      },
+      {
+        "text": "0.49",
+        "hint": "Check the place value: $0.63 \\div 9 = 0.07$."
+      },
+      {
+        "text": "4.9",
+        "hint": "Check the place value: $0.63 \\div 9 = 0.07$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 0.63 by 9 first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{0.63}{9} = 0.07$, and $0.07 \\times 0.7 = 0.049$.\n\n## Simplified explanation\n\n$63 \\div 9 = 7$, so $0.63 \\div 9 = 0.07$. Then $0.07 \\times 0.7 = 0.049$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the relation $\\dfrac{1}{R} = \\dfrac{1}{R_1} + \\dfrac{1}{R_2}$, if $R_1 = 1$ and $R_2 = 3$, find $R$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "$\\frac{1}{R} = 1 + \\frac{1}{3} = \\frac{4}{3}$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "$\\frac{1}{R} = 1 + \\frac{1}{3} = \\frac{4}{3}$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "Correct. $\\frac{1}{R} = \\frac{4}{3}$."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "$\\frac{1}{R} = 1 + \\frac{1}{3} = \\frac{4}{3}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find $\\frac{1}{R}$ first, then turn it upside down.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{R} = 1 + \\frac{1}{3} = \\frac{4}{3}$, so $R = \\frac{3}{4}$.\n\n## Simplified explanation\n\n$1 + \\frac{1}{3} = \\frac{4}{3}$. That is $\\frac{1}{R}$, so $R$ is the upside-down fraction, $\\frac{3}{4}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following from the highest to the lowest: $\\dfrac{2}{3}, -9, \\dfrac{3}{5}$ and $0$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-9, \\dfrac{3}{5}, \\dfrac{2}{3}, 0$",
+        "hint": "$-9$ is the lowest, so it must come last."
+      },
+      {
+        "text": "$-9, 0, \\dfrac{3}{5}, \\dfrac{2}{3}$",
+        "hint": "This goes from lowest to highest."
+      },
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{2}{3}, 0, -9$",
+        "hint": "$\\frac{2}{3}$ is greater than $\\frac{3}{5}$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{3}{5}, 0, -9$",
+        "hint": "Correct. $\\frac{10}{15} > \\frac{9}{15} > 0 > -9$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Positive numbers are highest, then 0, then negative numbers.",
+    "explanation": "## Advanced explanation\n\n$\\frac{2}{3} = \\frac{10}{15}$ and $\\frac{3}{5} = \\frac{9}{15}$, so $\\frac{2}{3} > \\frac{3}{5} > 0 > -9$.\n\n## Simplified explanation\n\n$\\frac{2}{3}$ is about 0.67 and $\\frac{3}{5}$ is 0.6. Then comes 0, and $-9$ is the lowest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Fractions",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The total number of goals scored each month by a football team are 3, 4, 8, 4, 2, 4, 6, 4, 6, 8, 7 and 6. What is the mode?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2$",
+        "hint": "2 appears once."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. 4 appears four times."
+      },
+      {
+        "text": "$5$",
+        "hint": "5 does not appear in the list."
+      },
+      {
+        "text": "$6$",
+        "hint": "6 appears only three times."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The mode is the most frequent value.",
+    "explanation": "## Advanced explanation\n\nThe value 4 has the highest frequency, 4.\n\n## Simplified explanation\n\nCount each number. 4 appears most, four times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader sold 90 oranges at 3 for ₵50.00. How much did she get from selling all the oranges?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵1,500.00",
+        "hint": "Correct. $30 \\times 50 = 1{,}500$."
+      },
+      {
+        "text": "₵4,500.00",
+        "hint": "This charges ₵50.00 for each orange."
+      },
+      {
+        "text": "₵6,000.00",
+        "hint": "There are 30 lots of 3."
+      },
+      {
+        "text": "₵15,000.00",
+        "hint": "There are 30 lots of 3."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "How many lots of 3 are in 90?",
+    "explanation": "## Advanced explanation\n\n$\\frac{90}{3} \\times 50 = 1{,}500$.\n\n## Simplified explanation\n\n90 oranges make 30 lots of 3. Each lot sells for ₵50, which gives ₵1,500.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man bought a car for ₵5.5 million and sold it for ₵6.5 million. Find the percentage gain.",
+    "media": [],
+    "options": [
+      {
+        "text": "1.54%",
+        "hint": "Check the place value: $\\frac{1}{5.5} \\times 100$."
+      },
+      {
+        "text": "1.82%",
+        "hint": "Check the place value: $\\frac{1}{5.5} \\times 100$."
+      },
+      {
+        "text": "15.38%",
+        "hint": "This uses the selling price. Divide by the cost price."
+      },
+      {
+        "text": "18.18%",
+        "hint": "Correct. $\\frac{1}{5.5} \\times 100 \\approx 18.18$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Percentage gain is worked on the cost price.",
+    "explanation": "## Advanced explanation\n\n$\\frac{6.5 - 5.5}{5.5} \\times 100\\% \\approx 18.18\\%$.\n\n## Simplified explanation\n\nThe gain is ₵1 million on a cost of ₵5.5 million. $1 \\div 5.5$ is about 0.1818, or 18.18%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "On a map, two towns $P$ and $Q$ are 15.5 cm apart. The scale of the map is 1 cm : 4 km. Calculate the actual distance between $P$ and $Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "15.5 km",
+        "hint": "This is the map distance."
+      },
+      {
+        "text": "31 km",
+        "hint": "This is for a scale of 2 km."
+      },
+      {
+        "text": "46 km",
+        "hint": "Multiply 15.5 by 4."
+      },
+      {
+        "text": "62 km",
+        "hint": "Correct. $15.5 \\times 4 = 62$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the map distance by the scale.",
+    "explanation": "## Advanced explanation\n\n$15.5 \\times 4 = 62$ km.\n\n## Simplified explanation\n\nEach centimetre is 4 km, so 15.5 cm is 62 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand the expression $2(3a + 2b)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6a + 2b$",
+        "hint": "Multiply $2b$ by 2 as well."
+      },
+      {
+        "text": "$5a + 4b$",
+        "hint": "$2 \\times 3a$ is $6a$."
+      },
+      {
+        "text": "$6a + 4b$",
+        "hint": "Correct. Multiply each term by 2."
+      },
+      {
+        "text": "$10ab$",
+        "hint": "$6a$ and $4b$ are not like terms, so they stay apart."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply each term in the bracket by 2.",
+    "explanation": "## Advanced explanation\n\n$2(3a) + 2(2b) = 6a + 4b$.\n\n## Simplified explanation\n\n$2 \\times 3a = 6a$ and $2 \\times 2b = 4b$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mansah obtained 150 marks out of 240 marks in an English test. What was her percentage score?",
+    "media": [],
+    "options": [
+      {
+        "text": "33.33%",
+        "hint": "Divide 150 by 240."
+      },
+      {
+        "text": "36.5%",
+        "hint": "Divide 150 by 240."
+      },
+      {
+        "text": "41.67%",
+        "hint": "Divide 150 by 240."
+      },
+      {
+        "text": "62.5%",
+        "hint": "Correct. $\\frac{150}{240} \\times 100 = 62.5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide the marks obtained by the total marks.",
+    "explanation": "## Advanced explanation\n\n$\\frac{150}{240} \\times 100\\% = 62.5\\%$.\n\n## Simplified explanation\n\n$\\frac{150}{240}$ reduces to $\\frac{5}{8}$, which is 62.5%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by six boys in a test are 20, 25, 15, 30, 28 and 16. Find the mean mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "19.33",
+        "hint": "The marks add to 134."
+      },
+      {
+        "text": "22.33",
+        "hint": "Correct. $134 \\div 6 \\approx 22.33$."
+      },
+      {
+        "text": "23.20",
+        "hint": "Divide by 6."
+      },
+      {
+        "text": "26.40",
+        "hint": "Divide by 6, the number of boys."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the marks and divide by 6.",
+    "explanation": "## Advanced explanation\n\n$\\frac{134}{6} \\approx 22.33$.\n\n## Simplified explanation\n\nThe six marks add to 134. Then $134 \\div 6$ is about 22.33.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the equivalence of $2^2 \\times 6^2$ in terms of indices?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3^4$",
+        "hint": "This equals 162."
+      },
+      {
+        "text": "$2 \\times 3$",
+        "hint": "This equals 6."
+      },
+      {
+        "text": "$2^4 \\times 3^2$",
+        "hint": "Correct. $6^2 = 2^2 \\times 3^2$."
+      },
+      {
+        "text": "$2^4 \\times 3$",
+        "hint": "This equals 48."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 6 as $2 \\times 3$.",
+    "explanation": "## Advanced explanation\n\n$2^2 \\times (2 \\times 3)^2 = 2^2 \\times 2^2 \\times 3^2 = 2^4 \\times 3^2$.\n\n## Simplified explanation\n\n$6^2$ is $2^2 \\times 3^2$. Together with the other $2^2$, the powers of 2 add to 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kweku had 300 mangoes. He sold 240 of them. What is the percentage of the mangoes left?",
+    "media": [],
+    "options": [
+      {
+        "text": "8%",
+        "hint": "60 of the 300 mangoes are left."
+      },
+      {
+        "text": "20%",
+        "hint": "Correct. $\\frac{60}{300} \\times 100 = 20$."
+      },
+      {
+        "text": "25%",
+        "hint": "This is 60 out of 240. Use the 300 he started with."
+      },
+      {
+        "text": "26.7%",
+        "hint": "60 of the 300 mangoes are left."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find how many mangoes are left.",
+    "explanation": "## Advanced explanation\n\n$\\frac{300 - 240}{300} \\times 100\\% = 20\\%$.\n\n## Simplified explanation\n\nHe has 60 left out of 300, which is one fifth, or 20%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 5 black and 6 white balls. What is the probability of picking a white ball?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{11}$",
+        "hint": "There are 6 white balls, not 1."
+      },
+      {
+        "text": "$\\dfrac{6}{11}$",
+        "hint": "Correct. 6 of the 11 balls are white."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "Use 6 white balls out of 11."
+      },
+      {
+        "text": "$\\dfrac{5}{11}$",
+        "hint": "This is the probability of a black ball."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The total number of balls is 11.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{white}) = \\frac{6}{5 + 6} = \\frac{6}{11}$.\n\n## Simplified explanation\n\nThere are 11 balls, and 6 are white.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $h$ in the equation $15 - 2h = 6$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-10.5$",
+        "hint": "This adds 6 to 15. Subtract instead."
+      },
+      {
+        "text": "$-9.0$",
+        "hint": "$2h = 9$, and $h$ is positive."
+      },
+      {
+        "text": "$-4.5$",
+        "hint": "Check the sign: $2h = 9$."
+      },
+      {
+        "text": "$4.5$",
+        "hint": "Correct. $2h = 9$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Get the $2h$ term by itself.",
+    "explanation": "## Advanced explanation\n\n$15 - 6 = 2h$, so $h = 4.5$.\n\n## Simplified explanation\n\n$15 - 6 = 9$, so $2h = 9$. Half of 9 is 4.5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the image of 3 in the mapping $x \\to 3x + 7$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$10$",
+        "hint": "This is $3 + 7$. Multiply 3 by 3 first."
+      },
+      {
+        "text": "$13$",
+        "hint": "$3 \\times 3$ is 9."
+      },
+      {
+        "text": "$16$",
+        "hint": "Correct. $9 + 7 = 16$."
+      },
+      {
+        "text": "$24$",
+        "hint": "Multiply 3 by 3, then add 7."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put $x = 3$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$3(3) + 7 = 16$.\n\n## Simplified explanation\n\n$3 \\times 3 = 9$. Then $9 + 7 = 16$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces has a closed cylindrical object?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Count the curved side and both ends."
+      },
+      {
+        "text": "2",
+        "hint": "Count the curved side as well."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. Two circular ends and one curved side."
+      },
+      {
+        "text": "4",
+        "hint": "A cylinder has one curved side and two ends."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Think of a closed tin.",
+    "explanation": "## Advanced explanation\n\nA closed cylinder has two flat circular faces and one curved face.\n\n## Simplified explanation\n\nA closed tin has a top, a bottom and one curved side. That is 3 faces.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the graph of the straight line $AB$ to answer the question.\n\nFind the gradient of the line $AB$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq24-25.png",
+        "caption": "Graph of a straight line AB. It passes through (−1, 0), (0, 2), (1, 4), (2, 6) and (3, 8)."
+      }
+    ],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Going across 1 takes the line up 2."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. $\\frac{8 - 0}{3 - (-1)} = 2$."
+      },
+      {
+        "text": "3",
+        "hint": "Going across 1 takes the line up 2."
+      },
+      {
+        "text": "4",
+        "hint": "Going across 1 takes the line up 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Gradient $=$ change in $y$ $\\div$ change in $x$.",
+    "explanation": "## Advanced explanation\n\nFrom $(0, 2)$ to $(1, 4)$, $m = \\frac{4 - 2}{1 - 0} = 2$.\n\n## Simplified explanation\n\nEach step of 1 to the right takes the line up by 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the graph of the straight line $AB$ to answer the question.\n\nFind the coordinates of the point at which the line cuts the $x$-axis.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq24-25.png",
+        "caption": "Graph of a straight line AB. It passes through (−1, 0), (0, 2), (1, 4), (2, 6) and (3, 8)."
+      }
+    ],
+    "options": [
+      {
+        "text": "$(1, 0)$",
+        "hint": "The line crosses on the negative side of the $x$-axis."
+      },
+      {
+        "text": "$(0, 1)$",
+        "hint": "On the $x$-axis, the $y$-coordinate is 0."
+      },
+      {
+        "text": "$(-1, 0)$",
+        "hint": "Correct. The line crosses the $x$-axis at $-1$."
+      },
+      {
+        "text": "$(0, -1)$",
+        "hint": "On the $x$-axis, the $y$-coordinate is 0."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "On the $x$-axis, $y = 0$.",
+    "explanation": "## Advanced explanation\n\nThe line is $y = 2x + 2$, and $y = 0$ gives $x = -1$.\n\n## Simplified explanation\n\nLook where the line crosses the horizontal axis. It crosses at $-1$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man deposited an amount of ₵50,000.00 at the bank for 2 years at a rate of 20% per annum. Find the simple interest.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵1,000.00",
+        "hint": "20% of ₵50,000.00 is ₵10,000.00 a year."
+      },
+      {
+        "text": "₵2,000.00",
+        "hint": "20% of ₵50,000.00 is ₵10,000.00 a year."
+      },
+      {
+        "text": "₵10,000.00",
+        "hint": "This is the interest for 1 year."
+      },
+      {
+        "text": "₵20,000.00",
+        "hint": "Correct. $10{,}000 \\times 2 = 20{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$I = \\frac{PRT}{100}$.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{50{,}000 \\times 20 \\times 2}{100} = 20{,}000$.\n\n## Simplified explanation\n\n20% of ₵50,000 is ₵10,000 a year. Over 2 years, that is ₵20,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi received ₵800.00 commission on sales he made on a particular day. The commission was 20% of the sales he made. Calculate his total sales for the day.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵1,200.00",
+        "hint": "20% of this is ₵240.00."
+      },
+      {
+        "text": "₵2,400.00",
+        "hint": "20% of this is ₵480.00."
+      },
+      {
+        "text": "₵3,200.00",
+        "hint": "20% of this is ₵640.00."
+      },
+      {
+        "text": "₵4,000.00",
+        "hint": "Correct. 20% of ₵4,000.00 is ₵800.00."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "₵800.00 is 20% of the sales.",
+    "explanation": "## Advanced explanation\n\n$0.2S = 800$, so $S = 4{,}000$.\n\n## Simplified explanation\n\n20% is one fifth, so the sales are five times the commission: $5 \\times 800 = 4{,}000$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the bearing of town $P$ from town $K$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq28.png",
+        "caption": "North line at K. The line from K to P makes an angle of 85° on the west side of north."
+      }
+    ],
+    "options": [
+      {
+        "text": "$05^\\circ$",
+        "hint": "Bearings are measured clockwise from north."
+      },
+      {
+        "text": "$085^\\circ$",
+        "hint": "This turns clockwise, but $P$ is to the west of north."
+      },
+      {
+        "text": "$095^\\circ$",
+        "hint": "Bearings are measured clockwise from north."
+      },
+      {
+        "text": "$275^\\circ$",
+        "hint": "Correct. $360^\\circ - 85^\\circ = 275^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The 85° is measured anticlockwise from north.",
+    "explanation": "## Advanced explanation\n\nA bearing is measured clockwise from north, so it is $360^\\circ - 85^\\circ = 275^\\circ$.\n\n## Simplified explanation\n\n$P$ is 85° to the left of north. Going clockwise from north to reach $P$ takes $360 - 85 = 275$°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $PQR$ is an isosceles triangle, $|PQ| = |PR|$, angle $QPR = 40^\\circ$ and $QRS$ is a straight line. Find angle $PRS$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq29.png",
+        "caption": "Isosceles triangle PQR with PQ marked equal to PR, and QR extended to S. The angle at P is 40°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$40^\\circ$",
+        "hint": "This is the angle at $P$."
+      },
+      {
+        "text": "$70^\\circ$",
+        "hint": "This is angle $PRQ$."
+      },
+      {
+        "text": "$100^\\circ$",
+        "hint": "Base angles are 70°, so the exterior angle is 110°."
+      },
+      {
+        "text": "$110^\\circ$",
+        "hint": "Correct. $180^\\circ - 70^\\circ = 110^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the base angles first.",
+    "explanation": "## Advanced explanation\n\nThe base angles are $\\frac{180^\\circ - 40^\\circ}{2} = 70^\\circ$, so angle $PRS = 180^\\circ - 70^\\circ = 110^\\circ$.\n\n## Simplified explanation\n\nThe two equal angles share 140°, so each is 70°. Angle $PRS$ is on a straight line with 70°, which makes it 110°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise completely the expression: $2xy - 8x + 5y - 20$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(2x + 5)(y - 4)$",
+        "hint": "Correct. $2x(y - 4) + 5(y - 4)$."
+      },
+      {
+        "text": "$(2x - 5)(y + 4)$",
+        "hint": "This expands to give $+8x$."
+      },
+      {
+        "text": "$(2x - 5)(y - 4)$",
+        "hint": "This expands to give $-5y$."
+      },
+      {
+        "text": "$(2x + 5)(y + 4)$",
+        "hint": "This expands to give $+8x$ and $+20$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$2x(y - 4) + 5(y - 4) = (2x + 5)(y - 4)$.\n\n## Simplified explanation\n\nTake $2x$ out of the first pair and 5 out of the second. Both leave $(y - 4)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama is facing East. Through how many degrees should she turn clockwise to face North?",
+    "media": [],
+    "options": [
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is the anticlockwise turn."
+      },
+      {
+        "text": "$135^\\circ$",
+        "hint": "Clockwise from East passes South and West first."
+      },
+      {
+        "text": "$180^\\circ$",
+        "hint": "This turns her to face West."
+      },
+      {
+        "text": "$270^\\circ$",
+        "hint": "Correct. East to South to West to North."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Clockwise from East goes to South first.",
+    "explanation": "## Advanced explanation\n\nEast to South to West to North is three right angles: $3 \\times 90^\\circ = 270^\\circ$.\n\n## Simplified explanation\n\nTurning clockwise, she goes East, South, West, North. That is 3 quarter turns, which is 270°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Bearings",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the triangle, angle $RST$ is 90°, $|RS| = 4$ cm and $|ST| = 3$ cm. What is the length of $RT$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq32.png",
+        "caption": "Triangle RST with a right angle at S. RS is 4 cm and ST is 3 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "2 cm",
+        "hint": "The longest side must be more than 4 cm."
+      },
+      {
+        "text": "3 cm",
+        "hint": "This is $|ST|$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This is $|RS|$."
+      },
+      {
+        "text": "5 cm",
+        "hint": "Correct. $\\sqrt{16 + 9} = 5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$RT$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\n$|RT| = \\sqrt{4^2 + 3^2} = 5$ cm.\n\n## Simplified explanation\n\nSquare the sides: 16 and 9. They add to 25, and its square root is 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has a rhombus?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. Its two diagonals."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number for an equilateral triangle."
+      },
+      {
+        "text": "4",
+        "hint": "This is the number for a square."
+      },
+      {
+        "text": "5",
+        "hint": "This is the number for a regular pentagon."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Try folding along the diagonals.",
+    "explanation": "## Advanced explanation\n\nThe diagonals of a rhombus are its only lines of symmetry.\n\n## Simplified explanation\n\nA rhombus folds exactly along each of its two diagonals, so it has 2 lines.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $a = \\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$ and $b = \\begin{pmatrix} 1 \\\\ 2 \\end{pmatrix}$, find $b - a$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 6 \\end{pmatrix}$",
+        "hint": "This is $a + b$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Correct. $1 + 3 = 4$ and $2 - 4 = -2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 3 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Subtract the components."
+      },
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 2 \\end{pmatrix}$",
+        "hint": "For the top, $1 - (-3) = 4$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtract $a$ from $b$, component by component.",
+    "explanation": "## Advanced explanation\n\n$b - a = \\begin{pmatrix} 1 - (-3) \\\\ 2 - 4 \\end{pmatrix} = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$.\n\n## Simplified explanation\n\nOn top, $1 - (-3) = 4$. Below, $2 - 4 = -2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $u = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$ and $v = \\begin{pmatrix} 6 \\\\ 1 \\end{pmatrix}$, find $2u + v$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 12 \\\\ 0 \\end{pmatrix}$",
+        "hint": "For the bottom, $-2 + 1 = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 12 \\\\ -1 \\end{pmatrix}$",
+        "hint": "Correct. $6 + 6 = 12$ and $-2 + 1 = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 12 \\\\ 3 \\end{pmatrix}$",
+        "hint": "For the bottom, $-2 + 1 = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 12 \\\\ 1 \\end{pmatrix}$",
+        "hint": "For the bottom, $-2 + 1 = -1$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Double $u$ first, then add $v$.",
+    "explanation": "## Advanced explanation\n\n$2u + v = \\begin{pmatrix} 6 + 6 \\\\ -2 + 1 \\end{pmatrix} = \\begin{pmatrix} 12 \\\\ -1 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $u$ gives 6 and $-2$. Adding $v$ gives 12 and $-1$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The volume of water in a cuboid is 9 m³. The length of the cuboid is 3 m and the breadth is 2 m. Calculate the depth of the water in the cuboid.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.15 m",
+        "hint": "Check the place value: $9 \\div 6$."
+      },
+      {
+        "text": "0.18 m",
+        "hint": "Check the division: $9 \\div 6$."
+      },
+      {
+        "text": "1.5 m",
+        "hint": "Correct. $9 \\div 6 = 1.5$."
+      },
+      {
+        "text": "1.8 m",
+        "hint": "Check the division: $9 \\div 6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Volume $=$ length $\\times$ breadth $\\times$ depth.",
+    "explanation": "## Advanced explanation\n\n$d = \\frac{9}{3 \\times 2} = 1.5$ m.\n\n## Simplified explanation\n\nThe base is $3 \\times 2 = 6$ m². Then $9 \\div 6 = 1.5$ m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, rectangle $AEFG$ is an enlargement of rectangle $ABCD$. If $|AB| = 15$ cm and $|BE| = 30$ cm, what is the scale factor of the enlargement?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq37.png",
+        "caption": "Rectangle ABCD inside rectangle AEFG, sharing corner A. B is on AE and D is on AG."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This goes from the image back to the object."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is $15 \\div 30$. Use $|AE|$."
+      },
+      {
+        "text": "$2$",
+        "hint": "This is $30 \\div 15$. Use $|AE| = 45$ cm."
+      },
+      {
+        "text": "$3$",
+        "hint": "Correct. $45 \\div 15 = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$|AE| = |AB| + |BE|$.",
+    "explanation": "## Advanced explanation\n\n$k = \\frac{|AE|}{|AB|} = \\frac{15 + 30}{15} = 3$.\n\n## Simplified explanation\n\n$AE$ is $15 + 30 = 45$ cm, and $AB$ is 15 cm. Then $45 \\div 15 = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $O$ is the centre of the circle and $r$ is its radius. Calculate the area of the shaded region.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq38.png",
+        "caption": "Circle with centre O and radius r. A sector with a 60° angle at O is unshaded, and the rest of the circle is shaded."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}\\pi r^2$",
+        "hint": "This is the unshaded sector."
+      },
+      {
+        "text": "$\\dfrac{1}{5}\\pi r^2$",
+        "hint": "The unshaded sector is $\\frac{60}{360} = \\frac{1}{6}$ of the circle."
+      },
+      {
+        "text": "$\\dfrac{1}{3}\\pi r^2$",
+        "hint": "The unshaded sector is $\\frac{60}{360} = \\frac{1}{6}$ of the circle."
+      },
+      {
+        "text": "$\\dfrac{5}{6}\\pi r^2$",
+        "hint": "Correct. $\\frac{300}{360} = \\frac{5}{6}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The shaded angle at the centre is $360^\\circ - 60^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{300}{360} \\times \\pi r^2 = \\frac{5}{6}\\pi r^2$.\n\n## Simplified explanation\n\nThe unshaded part is 60°, which is one sixth of the circle. The shaded part is the other five sixths.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following best describes the statement, \"The locus of points 6 cm from a fixed point $O$\"?",
+    "media": [],
+    "options": [
+      {
+        "text": "A parallel line 6 cm from point $O$.",
+        "hint": "Points on a line are not all the same distance from $O$."
+      },
+      {
+        "text": "A vertical line 6 cm from point $O$.",
+        "hint": "Points on a line are not all the same distance from $O$."
+      },
+      {
+        "text": "A horizontal line 6 cm from point $O$.",
+        "hint": "Points on a line are not all the same distance from $O$."
+      },
+      {
+        "text": "A circle with centre $O$ and radius 6 cm.",
+        "hint": "Correct. Every point on it is 6 cm from $O$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Think of all the points at the same distance from $O$.",
+    "explanation": "## Advanced explanation\n\nThe locus of points at a fixed distance from a fixed point is a circle.\n\n## Simplified explanation\n\nTie a 6 cm string to $O$ and swing the end around. It draws a circle.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$OPQR$ is a trapezium whose height is 20 cm. What is its area?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998secaq39.png",
+        "caption": "Trapezium OPQR with PQ = 30 cm and height 20 cm. The base OR is split into 20 cm, 30 cm and 16 cm by the perpendiculars from P and Q."
+      }
+    ],
+    "options": [
+      {
+        "text": "460 cm²",
+        "hint": "The bottom side is $20 + 30 + 16 = 66$ cm."
+      },
+      {
+        "text": "600 cm²",
+        "hint": "This is only the rectangle."
+      },
+      {
+        "text": "920 cm²",
+        "hint": "The bottom side is $20 + 30 + 16 = 66$ cm."
+      },
+      {
+        "text": "960 cm²",
+        "hint": "Correct. $\\frac{1}{2}(30 + 66) \\times 20 = 960$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The bottom side is $20 + 30 + 16$ cm.",
+    "explanation": "## Advanced explanation\n\n$A = \\frac{1}{2}(30 + 66) \\times 20 = 960$ cm².\n\n## Simplified explanation\n\nThe bottom side is 66 cm and the top side is 30 cm. Half of their sum is 48, and $48 \\times 20 = 960$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1998 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify the expression\n\n$$3x^2 + 6xy - 3y^2 + 4x^2 - 8xy + 2y^2$$",
+    "media": [],
+    "answer": "Group the like terms:\n\n$$3x^2 + 4x^2 + 6xy - 8xy - 3y^2 + 2y^2 = 7x^2 - 2xy - y^2$$\n\n> [!answer]\n> {{green:$7x^2 - 2xy - y^2$}}",
+    "hint": "Collect the $x^2$, $xy$ and $y^2$ terms separately.",
+    "explanation": "## Advanced explanation\n\nOnly terms with the same letters and powers can be combined.\n\n## Simplified explanation\n\n$3x^2 + 4x^2 = 7x^2$. $6xy - 8xy = -2xy$. $-3y^2 + 2y^2 = -y^2$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Solve the inequality $3x - 9 \\ge 12(x - 3)$.\n\n(ii) Describe how to illustrate your answer on the number line.",
+    "media": [],
+    "answer": "**(i)** $$3x - 9 \\ge 12x - 36$$\n\n$$-9x \\ge -27$$\n\n$$x \\le 3$$\n\n**(ii)** Draw a solid dot at 3 with an arrow pointing to the left.\n\n> [!answer]\n> {{green:$x \\le 3$}}, shown by a solid dot at 3 and an arrow to the left.",
+    "hint": "Dividing by a negative number reverses the sign.",
+    "explanation": "## Advanced explanation\n\nCollecting $x$ on the right instead gives $27 \\ge 9x$, which avoids dividing by a negative number.\n\n## Simplified explanation\n\nOpening the bracket gives $12x - 36$. Moving terms gives $-9x \\ge -27$. Dividing by $-9$ flips the sign, so $x \\le 3$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $p = 7$, $a = 16$, $b = 4$ and $c = 3$, evaluate $p^2 - \\dfrac{(a - b)}{c}$",
+    "media": [],
+    "answer": "$$7^2 - \\frac{16 - 4}{3} = 49 - 4 = 45$$\n\n> [!answer]\n> {{green:45}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nOrder of operations: bracket, then power and division, then subtraction.\n\n## Simplified explanation\n\n$7^2$ is 49. $16 - 4 = 12$, and $12 \\div 3 = 4$. Then $49 - 4 = 45$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a)(i) construct a triangle $PQR$ such that $|PQ| = 8$ cm, angle $RPQ = 90^\\circ$ and angle $PQR = 30^\\circ$. Measure $|RQ|$.\n\n(a)(ii) Construct the perpendicular bisector (mediator) of $RQ$. Let it meet $RQ$ at $O$.\n\n(b) With $O$ as centre and radius $OP$, draw a circle. Measure $|OP|$.\n\n(c) What is the special name for the chord $RQ$?\n\nType your answers.",
+    "media": [],
+    "answer": "Draw $|PQ| = 8$ cm. Construct $90^\\circ$ at $P$, and construct $60^\\circ$ at $Q$ and bisect it to get $30^\\circ$. The arms meet at $R$.\n\nBisect $RQ$ at $O$, and draw the circle with centre $O$ through $P$. It also passes through $R$ and $Q$.\n\n> [!answer]\n> **(a)(i)** {{green:$|RQ| \\approx 9.2$ cm}}  **(b)** {{green:$|OP| \\approx 4.6$ cm}}  **(c)** {{green:a diameter}}",
+    "hint": "Angle $RPQ$ is a right angle, so $RQ$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\n$|RQ| = \\frac{8}{\\cos 30^\\circ} \\approx 9.24$ cm. The midpoint of the hypotenuse is equidistant from all three vertices, so $|OP| = \\frac{1}{2}|RQ| \\approx 4.62$ cm. An angle in a semicircle is a right angle.\n\n## Simplified explanation\n\nBuild the triangle from the 8 cm base with the 90° and 30° angles. $RQ$ measures about 9.2 cm. Its middle point $O$ is the centre of the circle, with radius about 4.6 cm. $RQ$ passes through the centre, so it is a diameter.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A farmer travelled from Bakwa to Pabam, and the distance between the two towns is 51 km. At Pabam he covered an additional 40 km on official duties. He returned to Bakwa the next day.\n\n(i) Find the total distance covered by the man.\n\n(ii) If the car used one litre of petrol to cover 20 km, find the amount of petrol used for the whole journey.\n\n(iii) If a litre of petrol cost ₵522.00, calculate the total cost of petrol used for the journey.",
+    "media": [],
+    "answer": "**(i)** $51 + 40 + 51 = 142$ km\n\n**(ii)** $142 \\div 20 = 7.1$ litres\n\n**(iii)** $7.1 \\times 522 = 3{,}706.20$\n\n> [!answer]\n> **(i)** {{green:142 km}}  **(ii)** {{green:7.1 litres}}  **(iii)** {{green:₵3,706.20}}",
+    "hint": "Remember the return trip.",
+    "explanation": "## Advanced explanation\n\nThe fuel used is directly proportional to the distance.\n\n## Simplified explanation\n\nHe drove 51 km there, 40 km on duties and 51 km back, which is 142 km. At 20 km a litre, that is 7.1 litres. At ₵522 a litre, it costs ₵3,706.20.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A woman sold an article for ₵200,000.00 and made a profit of 25%. Find the cost price of the article.",
+    "media": [],
+    "answer": "The selling price is 125% of the cost price:\n\n$$\\frac{100}{125} \\times 200{,}000 = 160{,}000$$\n\n> [!answer]\n> {{green:₵160,000.00}}",
+    "hint": "The selling price is 125% of the cost price.",
+    "explanation": "## Advanced explanation\n\nPercentage profit is based on the cost price, so divide by 1.25.\n\n## Simplified explanation\n\n₵200,000 is 125% of the cost. So 25% is ₵40,000, and 100% is ₵160,000.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The pie chart shows angles representing the number of candidates who applied for admission into four programmes at a Senior Secondary School. The number of pupils who applied was 1,080. Find\n\n(i) the angle $x^\\circ$ representing the Vocational Programme;\n\n(ii) the number of candidates who applied for the Business Programme;\n\n(iii) correct to the nearest whole number, the percentage of the applicants who applied for the General Programme.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998q4a.png",
+        "caption": "Pie chart of programmes. Technical 68°, General Programme 156°, Business a right angle, and Vocational x°."
+      }
+    ],
+    "answer": "**(i)** The Business sector is a right angle:\n\n$$x = 360 - (68 + 156 + 90) = 46$$\n\n**(ii)** $\\frac{90}{360} \\times 1{,}080 = 270$\n\n**(iii)** $\\frac{156}{360} \\times 100\\% \\approx 43\\%$\n\n> [!answer]\n> **(i)** {{green:$x = 46$}}  **(ii)** {{green:270}}  **(iii)** {{green:43%}}",
+    "hint": "The small square marks a right angle of 90°.",
+    "explanation": "## Advanced explanation\n\nEach degree represents $\\frac{1080}{360} = 3$ candidates.\n\n## Simplified explanation\n\nThe Business sector is 90°. The angles add to 360, which leaves 46 for $x$. Each degree stands for 3 candidates, so Business has 270. General is 156 out of 360, which is about 43%.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of the masses of pupils in a school. Describe the bar chart you would draw on a graph paper for the distribution.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1998/1998q4b.png",
+        "caption": "Table of masses and frequencies. 19 kg: 5, 20 kg: 9, 21 kg: 19, 22 kg: 25, 23 kg: 18, 24 kg: 4."
+      }
+    ],
+    "answer": "Draw mass (kg) on the horizontal axis and frequency on the vertical axis, using a suitable scale such as 2 cm to 5 pupils. Draw separate bars of equal width at each mass, with these heights:\n\n| Mass (kg) | 19 | 20 | 21 | 22 | 23 | 24 |\n|---|---|---|---|---|---|---|\n| Height | 5 | 9 | 19 | 25 | 18 | 4 |\n\n> [!answer]\n> {{green:Bars of heights 5, 9, 19, 25, 18 and 4 for the masses 19 to 24 kg}}",
+    "hint": "The height of each bar is the frequency.",
+    "explanation": "## Advanced explanation\n\nIn a bar chart, the bars have equal widths and equal gaps, and the height shows the frequency.\n\n## Simplified explanation\n\nPut the masses along the bottom and the frequencies up the side. Draw one bar for each mass, as tall as its frequency. The tallest is at 22 kg.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $OX$ and $OY$ on a graph sheet. On the same sheet, mark the $x$-axis from $-8$ to $8$ and the $y$-axis from $-8$ to $8$.\n\n(i) Plot $P(-2, 3)$ and $Q(6, 4)$. Join $PQ$.\n\n(ii) Draw the image $P_1Q_1$ of $PQ$ under the anticlockwise rotation through $90^\\circ$ about the origin, where $P \\to P_1$ and $Q \\to Q_1$. Write down the coordinates of $P_1$ and $Q_1$.\n\n(iii) Draw the image $P_2Q_2$ of $PQ$ under a clockwise rotation through $90^\\circ$ about the origin, where $P \\to P_2$ and $Q \\to Q_2$. Write down the coordinates of $P_2$ and $Q_2$.",
+    "media": [],
+    "answer": "**(ii)** Anticlockwise, $(x, y)$ becomes $(-y, x)$:\n\n$P_1(-3, -2)$, $Q_1(-4, 6)$\n\n**(iii)** Clockwise, $(x, y)$ becomes $(y, -x)$:\n\n$P_2(3, 2)$, $Q_2(4, -6)$\n\n> [!answer]\n> **(ii)** {{green:$P_1(-3, -2)$, $Q_1(-4, 6)$}}\n>\n> **(iii)** {{green:$P_2(3, 2)$, $Q_2(4, -6)$}}",
+    "hint": "A quarter turn swaps the coordinates, and one of them changes sign.",
+    "explanation": "## Advanced explanation\n\nThe two images are half a turn apart, so $P_2 = -P_1$ and $Q_2 = -Q_1$.\n\n## Simplified explanation\n\nFor a turn anticlockwise, swap the numbers and change the sign of the new first number. For a turn clockwise, swap the numbers and change the sign of the new second number.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The base radius of a closed cylinder is 4 cm and its height is 7 cm. Calculate the total surface area. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "answer": "$$2\\pi r(r + h) = 2 \\times \\frac{22}{7} \\times 4 \\times (4 + 7) = \\frac{1{,}936}{7} = 276\\frac{4}{7}$$\n\n> [!answer]\n> {{green:$276\\dfrac{4}{7}$ cm², or about 276.57 cm²}}",
+    "hint": "A closed cylinder has two circles and a curved side.",
+    "explanation": "## Advanced explanation\n\nThe total surface area is $2\\pi r^2 + 2\\pi rh = 2\\pi r(r + h)$.\n\n## Simplified explanation\n\nThe two circles and the curved side together make $2 \\times \\frac{22}{7} \\times 4 \\times 11$, which is about 276.57 cm².",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1998 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  }
+]

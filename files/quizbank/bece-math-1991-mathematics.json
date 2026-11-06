@@ -1,0 +1,1509 @@
+[
+  {
+    "type": "choice",
+    "body": "$P = \\{1, 2, 3, 8, 10\\}$ and $Q = \\{8, 1, x, 3, 2\\}$. If $P = Q$, what is the value of $x$?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "1 is already in $Q$."
+      },
+      {
+        "text": "2",
+        "hint": "2 is already in $Q$."
+      },
+      {
+        "text": "3",
+        "hint": "3 is already in $Q$."
+      },
+      {
+        "text": "10",
+        "hint": "Correct. 10 is the member of $P$ missing from $Q$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Equal sets have exactly the same members.",
+    "explanation": "## Advanced explanation\n\nEvery member of $P$ must be in $Q$. Only 10 is not listed in $Q$, so $x = 10$.\n\n## Simplified explanation\n\nCompare the sets. $Q$ has 1, 2, 3 and 8 already. The only one missing is 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$Y =$ {house, tree} and $V =$ {cat, house, tree}. Which of the following is true of $Y$ and $V$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$Y = V$",
+        "hint": "$V$ also contains cat."
+      },
+      {
+        "text": "$Y \\subset V$",
+        "hint": "Correct. Every member of $Y$ is in $V$."
+      },
+      {
+        "text": "$V \\subset Y$",
+        "hint": "Cat is in $V$ but not in $Y$."
+      },
+      {
+        "text": "$V \\in Y$",
+        "hint": "$V$ is a set, not a member of $Y$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Does every member of one set appear in the other?",
+    "explanation": "## Advanced explanation\n\nBoth members of $Y$ are in $V$, and $V$ has an extra member, so $Y$ is a proper subset of $V$.\n\n## Simplified explanation\n\nHouse and tree are both in $V$, so $Y$ sits inside $V$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following addition is in base ten. Find the missing addend.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq3.png",
+        "caption": "Column addition: 2345 plus 1045 plus a missing number gives 5110."
+      }
+    ],
+    "options": [
+      {
+        "text": "1300",
+        "hint": "$2345 + 1045 + 1300 = 4690$."
+      },
+      {
+        "text": "1720",
+        "hint": "Correct. $5110 - 3390 = 1720$."
+      },
+      {
+        "text": "2765",
+        "hint": "$2345 + 1045 + 2765 = 6155$."
+      },
+      {
+        "text": "4065",
+        "hint": "This is more than the difference."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the two known numbers, then subtract from the total.",
+    "explanation": "## Advanced explanation\n\n$5110 - (2345 + 1045) = 5110 - 3390 = 1720$.\n\n## Simplified explanation\n\n2345 and 1045 add to 3390. Taking that from 5110 leaves 1720.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $2^2 \\times 3^2 \\times 7 = 252$, find the least number that should be multiplied by 252 to make the product a perfect square.",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "$2^2$ is already a square."
+      },
+      {
+        "text": "3",
+        "hint": "$3^2$ is already a square."
+      },
+      {
+        "text": "6",
+        "hint": "$2^2$ and $3^2$ are already squares."
+      },
+      {
+        "text": "7",
+        "hint": "Correct. $252 \\times 7 = 42^2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "In a perfect square, every prime has an even power.",
+    "explanation": "## Advanced explanation\n\nOnly 7 has an odd power, so multiply by 7: $2^2 \\times 3^2 \\times 7^2 = 42^2$.\n\n## Simplified explanation\n\n$2^2$ and $3^2$ are already squares. The 7 needs a partner, so multiply by 7.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 4687.02 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$46.8702 \\times 10^3$",
+        "hint": "46.8702 is not between 1 and 10."
+      },
+      {
+        "text": "$46.8702 \\times 10^4$",
+        "hint": "46.8702 is not between 1 and 10."
+      },
+      {
+        "text": "$4.68702 \\times 10^5$",
+        "hint": "This equals 468,702."
+      },
+      {
+        "text": "$4.68702 \\times 10^3$",
+        "hint": "Correct. The point moves 3 places."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The first number must be at least 1 and less than 10.",
+    "explanation": "## Advanced explanation\n\n$4687.02 = 4.68702 \\times 10^3$.\n\n## Simplified explanation\n\nMove the point 3 places to the left to get 4.68702. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $11001_{\\text{two}}$ to a decimal numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Use the place values 16, 8, 4, 2 and 1."
+      },
+      {
+        "text": "7",
+        "hint": "Use the place values 16, 8, 4, 2 and 1."
+      },
+      {
+        "text": "14",
+        "hint": "Use the place values 16, 8, 4, 2 and 1."
+      },
+      {
+        "text": "25",
+        "hint": "Correct. $16 + 8 + 1 = 25$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The place values from the right are 1, 2, 4, 8, 16.",
+    "explanation": "## Advanced explanation\n\n$2^4 + 2^3 + 2^0 = 25$.\n\n## Simplified explanation\n\nAdd the place values under each 1: $16 + 8 + 1 = 25$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy spends $\\dfrac{2}{7}$ of his pocket money on transport and $\\dfrac{1}{5}$ on sweets. What fraction of his pocket money does he spend on transport and sweets?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{35}$",
+        "hint": "This multiplies. Add the fractions."
+      },
+      {
+        "text": "$\\dfrac{3}{35}$",
+        "hint": "Use 35 as the denominator, and change both tops."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "This adds the tops and bottoms. Use 35 as the denominator."
+      },
+      {
+        "text": "$\\dfrac{17}{35}$",
+        "hint": "Correct. $\\frac{10}{35} + \\frac{7}{35}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use 35 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{10}{35} + \\frac{7}{35} = \\frac{17}{35}$.\n\n## Simplified explanation\n\nChange them to 35ths: 10 and 7. They add to 17.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The product of three numbers is 1197. Two of the numbers are 3 and 19. Find the third number.",
+    "media": [],
+    "options": [
+      {
+        "text": "21",
+        "hint": "Correct. $1197 \\div 57 = 21$."
+      },
+      {
+        "text": "54.4",
+        "hint": "Divide by $3 \\times 19 = 57$."
+      },
+      {
+        "text": "210",
+        "hint": "Divide by $3 \\times 19 = 57$."
+      },
+      {
+        "text": "544",
+        "hint": "Divide by $3 \\times 19 = 57$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply 3 by 19, then divide.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1197}{3 \\times 19} = \\frac{1197}{57} = 21$.\n\n## Simplified explanation\n\n$3 \\times 19 = 57$. Then $1197 \\div 57 = 21$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the G.C.F. (H.C.F.) of $2^3 \\times 3^2$ and $2^3 \\times 3^4$.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "This leaves out the shared $3^2$."
+      },
+      {
+        "text": "9",
+        "hint": "This leaves out the shared $2^3$."
+      },
+      {
+        "text": "72",
+        "hint": "Correct. $2^3 \\times 3^2 = 72$."
+      },
+      {
+        "text": "648",
+        "hint": "This is the LCM."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The HCF uses the lowest power of each prime.",
+    "explanation": "## Advanced explanation\n\nThe minimum exponents are 3 for 2 and 2 for 3, so the HCF is $2^3 \\times 3^2 = 72$.\n\n## Simplified explanation\n\nChoose the smaller power of each number: $2^3$ and $3^2$. Then $8 \\times 9 = 72$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which the two sloping sides of the triangle are equal and the arrowed lines are parallel, to answer the question.\n\nFind the value of $a^\\circ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq10-q12.png",
+        "caption": "Isosceles triangle on a straight line. The left exterior angle is a°, the right interior angle is 56° and the apex angle is b°. An arrowed line from the apex makes 75° with the right side. A parallel line from the right corner makes 19° with the base, and c° is beside it."
+      }
+    ],
+    "options": [
+      {
+        "text": "$68^\\circ$",
+        "hint": "This is the value of $b$."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$105^\\circ$",
+        "hint": "This is the value of $c$."
+      },
+      {
+        "text": "$124^\\circ$",
+        "hint": "Correct. $180^\\circ - 56^\\circ = 124^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The triangle is isosceles, so the left base angle is also 56°.",
+    "explanation": "## Advanced explanation\n\nThe base angles are equal at $56^\\circ$, so $a = 180^\\circ - 56^\\circ = 124^\\circ$.\n\n## Simplified explanation\n\nThe two equal sides make the left inside angle 56°. Angle $a$ is next to it on the straight line, so $a = 180 - 56 = 124$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which the two sloping sides of the triangle are equal and the arrowed lines are parallel, to answer the question.\n\nWhat is the value of $b^\\circ$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq10-q12.png",
+        "caption": "Isosceles triangle on a straight line. The left exterior angle is a°, the right interior angle is 56° and the apex angle is b°. An arrowed line from the apex makes 75° with the right side. A parallel line from the right corner makes 19° with the base, and c° is beside it."
+      }
+    ],
+    "options": [
+      {
+        "text": "$68^\\circ$",
+        "hint": "Correct. $180^\\circ - 2(56^\\circ) = 68^\\circ$."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$105^\\circ$",
+        "hint": "This is the value of $c$."
+      },
+      {
+        "text": "$112^\\circ$",
+        "hint": "This is the sum of the two base angles."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Both base angles of the triangle are 56°.",
+    "explanation": "## Advanced explanation\n\n$b = 180^\\circ - 2(56^\\circ) = 68^\\circ$.\n\n## Simplified explanation\n\nThe base angles are 56° each, which makes 112°. The rest of the 180° is 68°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which the two sloping sides of the triangle are equal and the arrowed lines are parallel, to answer the question.\n\nWhat is the value of $c^\\circ$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq10-q12.png",
+        "caption": "Isosceles triangle on a straight line. The left exterior angle is a°, the right interior angle is 56° and the apex angle is b°. An arrowed line from the apex makes 75° with the right side. A parallel line from the right corner makes 19° with the base, and c° is beside it."
+      }
+    ],
+    "options": [
+      {
+        "text": "$68^\\circ$",
+        "hint": "This is the value of $b$."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "This is a given angle. $c$ and 75° are co-interior."
+      },
+      {
+        "text": "$105^\\circ$",
+        "hint": "Correct. $180^\\circ - 56^\\circ - 19^\\circ = 105^\\circ$."
+      },
+      {
+        "text": "$112^\\circ$",
+        "hint": "The angles on the straight line add to 180°."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The angles at the right base corner lie on a straight line.",
+    "explanation": "## Advanced explanation\n\n$56 + c + 19 = 180$, so $c = 105$. Also, $c + 75 = 180$ as co-interior angles.\n\n## Simplified explanation\n\nThe three angles at the corner make a straight line. So $c = 180 - 56 - 19 = 105$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $2ab^2 \\times 3a^2b$",
+    "media": [],
+    "options": [
+      {
+        "text": "$5a^3b^3$",
+        "hint": "Multiply the numbers: $2 \\times 3 = 6$."
+      },
+      {
+        "text": "$5a^2b^2$",
+        "hint": "Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$6a^3b^3$",
+        "hint": "Correct. Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$6a^2b^2$",
+        "hint": "Add the powers: $a^{1 + 2}$ and $b^{2 + 1}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the numbers, then add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$2 \\times 3 = 6$, $a^{1 + 2} = a^3$ and $b^{2 + 1} = b^3$.\n\n## Simplified explanation\n\nThe numbers give 6. For $a$, the powers $1 + 2$ make 3. For $b$, the powers $2 + 1$ make 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the relation $v = u + at$, find $v$ when $u = 6$, $a = 10$ and $t = 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "18",
+        "hint": "This is $6 + 10 + 2$. Multiply $a$ by $t$."
+      },
+      {
+        "text": "26",
+        "hint": "Correct. $6 + 20 = 26$."
+      },
+      {
+        "text": "32",
+        "hint": "This is $(6 + 10) \\times 2$. Multiply first."
+      },
+      {
+        "text": "48",
+        "hint": "Multiply $a$ by $t$, then add $u$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply $a$ by $t$ first.",
+    "explanation": "## Advanced explanation\n\n$v = 6 + 10(2) = 26$.\n\n## Simplified explanation\n\n$10 \\times 2 = 20$. Then $6 + 20 = 26$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9.\n\nWhat is the modal mark?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "3 appears twice."
+      },
+      {
+        "text": "7",
+        "hint": "7 appears once."
+      },
+      {
+        "text": "8",
+        "hint": "8 appears once."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. 9 appears three times."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The mode is the most frequent mark.",
+    "explanation": "## Advanced explanation\n\nThe mark 9 has the highest frequency, 3.\n\n## Simplified explanation\n\n9 appears the most, three times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9.\n\nFind the median mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "Use the 5th and 6th marks."
+      },
+      {
+        "text": "5",
+        "hint": "This is the 5th mark. Use the 5th and 6th marks."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{5 + 7}{2} = 6$."
+      },
+      {
+        "text": "7",
+        "hint": "This is the 6th mark. Use the 5th and 6th marks."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "With 10 marks, use the two middle ones.",
+    "explanation": "## Advanced explanation\n\nThe median is the mean of the 5th and 6th values: $\\frac{5 + 7}{2} = 6$.\n\n## Simplified explanation\n\nThe two middle marks are 5 and 7, and halfway between them is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9.\n\nCalculate the mean mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-54$",
+        "hint": "The marks add to positive 54."
+      },
+      {
+        "text": "$5.4$",
+        "hint": "Correct. $54 \\div 10 = 5.4$."
+      },
+      {
+        "text": "$10$",
+        "hint": "This is the number of children."
+      },
+      {
+        "text": "$54$",
+        "hint": "This is the total. Divide by 10."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the marks and divide by 10.",
+    "explanation": "## Advanced explanation\n\n$\\frac{54}{10} = 5.4$.\n\n## Simplified explanation\n\nThe ten marks add to 54. Then $54 \\div 10 = 5.4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 10 children in a mental drill are 0, 1, 3, 3, 5, 7, 8, 9, 9, 9.\n\nWhat is the probability that a child chosen at random scored 3 marks?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{54}$",
+        "hint": "Use the number of children, 10, as the denominator."
+      },
+      {
+        "text": "$\\dfrac{3}{54}$",
+        "hint": "Use the number of children, 10, as the denominator."
+      },
+      {
+        "text": "$\\dfrac{2}{10}$",
+        "hint": "Correct. 2 of the 10 children scored 3."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "Two children scored 3, not three."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count how many children scored 3.",
+    "explanation": "## Advanced explanation\n\n$P(3) = \\frac{2}{10}$.\n\n## Simplified explanation\n\n2 of the 10 children scored 3 marks.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader received a commission of $12\\dfrac{1}{2}\\%$ on sales made in a month. His commission was ₵35,000.00. Find his total sales for the month.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵36,250.00",
+        "hint": "$12\\frac{1}{2}\\%$ is $\\frac{1}{8}$, so multiply by 8."
+      },
+      {
+        "text": "₵39,000.00",
+        "hint": "$12\\frac{1}{2}\\%$ is $\\frac{1}{8}$, so multiply by 8."
+      },
+      {
+        "text": "₵245,000.00",
+        "hint": "This is 7 times the commission."
+      },
+      {
+        "text": "₵280,000.00",
+        "hint": "Correct. $35{,}000 \\times 8 = 280{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$12\\frac{1}{2}\\%$ is $\\frac{1}{8}$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{8}S = 35{,}000$, so $S = 280{,}000$.\n\n## Simplified explanation\n\nThe commission is one eighth of the sales. So the sales are $8 \\times 35{,}000 = 280{,}000$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A map of a large town is drawn to the scale of $1 : 100{,}000$. What is the distance in kilometres (km) represented by a line segment 4 cm long on the map?",
+    "media": [],
+    "options": [
+      {
+        "text": "0.04 km",
+        "hint": "1 cm on the map is 1 km."
+      },
+      {
+        "text": "0.4 km",
+        "hint": "1 cm on the map is 1 km."
+      },
+      {
+        "text": "4 km",
+        "hint": "Correct. 1 cm represents 1 km."
+      },
+      {
+        "text": "40 km",
+        "hint": "1 cm on the map is 1 km."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change 100,000 cm to kilometres.",
+    "explanation": "## Advanced explanation\n\n$4 \\times 100{,}000 = 400{,}000$ cm, which is 4 km.\n\n## Simplified explanation\n\n100,000 cm is exactly 1 km. So each map centimetre stands for 1 km, and 4 cm stands for 4 km.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Adjoa and Ama share ₵600.00 between them in the ratio $3 : 2$. Find Adjoa's share.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵200.00",
+        "hint": "One part is ₵120.00, and Adjoa has 3 parts."
+      },
+      {
+        "text": "₵240.00",
+        "hint": "This is Ama's share."
+      },
+      {
+        "text": "₵300.00",
+        "hint": "This is half of the amount."
+      },
+      {
+        "text": "₵360.00",
+        "hint": "Correct. $\\frac{3}{5} \\times 600 = 360$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The ratio has 5 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{3}{5} \\times 600 = 360$.\n\n## Simplified explanation\n\n5 parts make ₵600, so 1 part is ₵120. Adjoa gets 3 parts, which is ₵360.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{2a}{3} - \\dfrac{a - b}{2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$a - 3b$",
+        "hint": "The denominator 6 is still needed."
+      },
+      {
+        "text": "$\\dfrac{a - 3b}{6}$",
+        "hint": "The minus sign changes $-b$ to $+b$ when the bracket opens."
+      },
+      {
+        "text": "$\\dfrac{a + 3b}{6}$",
+        "hint": "Correct. $\\frac{4a - 3a + 3b}{6}$."
+      },
+      {
+        "text": "$a + 3b$",
+        "hint": "The denominator 6 is still needed."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use 6 as the common denominator, and be careful with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4a - 3(a - b)}{6} = \\frac{4a - 3a + 3b}{6} = \\frac{a + 3b}{6}$.\n\n## Simplified explanation\n\nOver 6 the top is $4a - 3(a - b)$. Opening the bracket gives $4a - 3a + 3b$, which is $a + 3b$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$a^6 \\div a^4 = 64$. Find $a$.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "Correct. $a^2 = 64$."
+      },
+      {
+        "text": "10",
+        "hint": "$10^2$ is 100."
+      },
+      {
+        "text": "16",
+        "hint": "$16^2$ is 256."
+      },
+      {
+        "text": "20",
+        "hint": "$20^2$ is 400."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract the powers first.",
+    "explanation": "## Advanced explanation\n\n$a^{6 - 4} = a^2 = 64$, so $a = \\pm 8$, and 8 is the value among the options.\n\n## Simplified explanation\n\nTaking the powers away leaves $a^2 = 64$. And $8 \\times 8 = 64$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find one-hundredth of 1.0756.",
+    "media": [],
+    "options": [
+      {
+        "text": "107.56",
+        "hint": "This multiplies by 100. Divide instead."
+      },
+      {
+        "text": "10.756",
+        "hint": "This multiplies by 10. Divide by 100."
+      },
+      {
+        "text": "0.1756",
+        "hint": "The point moves 2 places to the left."
+      },
+      {
+        "text": "0.010756",
+        "hint": "Correct. $1.0756 \\div 100 = 0.010756$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide by 100.",
+    "explanation": "## Advanced explanation\n\n$1.0756 \\div 100 = 0.010756$.\n\n## Simplified explanation\n\nDividing by 100 moves the point 2 places to the left.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the rule for this mapping?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq25.png",
+        "caption": "Mapping of x to y. 1 → 1, 2 → 3, 3 → 5, 4 → 7, 5 → 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "$x \\to 2x - 1$",
+        "hint": "Correct. It fits every column."
+      },
+      {
+        "text": "$x \\to 2(x - 1)$",
+        "hint": "When $x = 1$, this gives 0."
+      },
+      {
+        "text": "$x \\to 2x + 1$",
+        "hint": "When $x = 1$, this gives 3."
+      },
+      {
+        "text": "$x \\to 20(x - 1)$",
+        "hint": "When $x = 1$, this gives 0."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$y$ goes up by 2 each time.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 2, so $y = 2x + c$. With $(1, 1)$, $c = -1$.\n\n## Simplified explanation\n\nEach step adds 2, so the rule has $2x$. When $x = 1$, $2x$ is 2, and 1 less makes 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The circumference of a circular track is 440 m. Find the diameter of this track. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "options": [
+      {
+        "text": "70 m",
+        "hint": "This is the radius."
+      },
+      {
+        "text": "140 m",
+        "hint": "Correct. $440 \\times \\frac{7}{22} = 140$."
+      },
+      {
+        "text": "280 m",
+        "hint": "This doubles the diameter."
+      },
+      {
+        "text": "691 m",
+        "hint": "This multiplies by $\\frac{11}{7}$. Divide by $\\pi$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Circumference $= \\pi d$.",
+    "explanation": "## Advanced explanation\n\n$d = \\frac{C}{\\pi} = 440 \\times \\frac{7}{22} = 140$ m.\n\n## Simplified explanation\n\n$440 \\div 22 = 20$, and $20 \\times 7 = 140$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $r = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ and $s = \\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix}$, calculate $6(r + 2s)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "This is the bracket. Multiply it by 6."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "This adds $r$ and $s$, and it leaves out the 6."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix}$",
+        "hint": "For the top, $3 + 2(-2) = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 18 \\end{pmatrix}$",
+        "hint": "Correct. $6 \\times (-1) = -6$ and $6 \\times 3 = 18$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$r + 2s = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$, and $6\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 18 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $s$ gives $-4$ and 2. Adding $r$ gives $-1$ and 3. Multiplying by 6 gives $-6$ and 18.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following would you use to measure an angle?",
+    "media": [],
+    "options": [
+      {
+        "text": "Ruler",
+        "hint": "A ruler measures length."
+      },
+      {
+        "text": "A pair of compasses.",
+        "hint": "Compasses draw arcs and circles."
+      },
+      {
+        "text": "A set square",
+        "hint": "A set square draws set angles."
+      },
+      {
+        "text": "A protractor.",
+        "hint": "Correct. A protractor is marked in degrees."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which instrument is marked in degrees?",
+    "explanation": "## Advanced explanation\n\nA protractor has a scale in degrees for measuring angles.\n\n## Simplified explanation\n\nA protractor has degrees marked around its edge.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express the ratio of 64 cm to 48 cm in simplest form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3 : 4$",
+        "hint": "This is the wrong way round."
+      },
+      {
+        "text": "$4 : 3$",
+        "hint": "Correct. Divide both by 16."
+      },
+      {
+        "text": "$16 : 12$",
+        "hint": "This can still be reduced."
+      },
+      {
+        "text": "$12 : 16$",
+        "hint": "This is the wrong way round, and it can be reduced."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide both numbers by their HCF.",
+    "explanation": "## Advanced explanation\n\nThe HCF of 64 and 48 is 16, so $64 : 48 = 4 : 3$.\n\n## Simplified explanation\n\n16 goes into both numbers. Dividing gives 4 and 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $P \\to P'$, $Q \\to Q'$ and $R \\to R'$. $PQR \\to P'Q'R'$ is an enlargement.\n\nWhat is the scale factor of the enlargement?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq30-q31.png",
+        "caption": "Enlargement from O along two lines. Triangle PQR has PQ 3 m and RQ 2 m. Triangle P'Q'R' has P'Q' 1.5 m and R'Q' 1 m."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "The image is on the same side of $O$, and it is smaller."
+      },
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "The image is on the same side of $O$, so the factor is positive."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{1.5}{3} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$2$",
+        "hint": "This goes from the image back to the object."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Scale factor $=$ image length $\\div$ object length.",
+    "explanation": "## Advanced explanation\n\n$k = \\frac{|P'Q'|}{|PQ|} = \\frac{1.5}{3} = \\frac{1}{2}$.\n\n## Simplified explanation\n\n3 m became 1.5 m, so the lengths are halved. The scale factor is $\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $P \\to P'$, $Q \\to Q'$ and $R \\to R'$. $PQR \\to P'Q'R'$ is an enlargement.\n\nIf $|PR| = 3.6$ m, what is the length of $P'R'$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq30-q31.png",
+        "caption": "Enlargement from O along two lines. Triangle PQR has PQ 3 m and RQ 2 m. Triangle P'Q'R' has P'Q' 1.5 m and R'Q' 1 m."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-7.2$ m",
+        "hint": "A length cannot be negative."
+      },
+      {
+        "text": "$-1.8$ m",
+        "hint": "A length cannot be negative."
+      },
+      {
+        "text": "$1.2$ m",
+        "hint": "Multiply 3.6 m by $\\frac{1}{2}$."
+      },
+      {
+        "text": "$1.8$ m",
+        "hint": "Correct. $3.6 \\times \\frac{1}{2} = 1.8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply by the scale factor.",
+    "explanation": "## Advanced explanation\n\n$|P'R'| = \\frac{1}{2} \\times 3.6 = 1.8$ m.\n\n## Simplified explanation\n\nThe scale factor is $\\frac{1}{2}$, so half of 3.6 m is 1.8 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the tangent of the angle marked $y$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq32.png",
+        "caption": "Right-angled triangle with sides 6 cm, 8 cm and hypotenuse 10 cm. Angle y is between the 6 cm side and the hypotenuse."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This is $\\cos y$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "This is upside down."
+      },
+      {
+        "text": "$\\dfrac{4}{5}$",
+        "hint": "This is $\\sin y$."
+      },
+      {
+        "text": "$\\dfrac{4}{3}$",
+        "hint": "Correct. $\\frac{8}{6} = \\frac{4}{3}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\tan$ is opposite over adjacent.",
+    "explanation": "## Advanced explanation\n\n$\\tan y = \\frac{8}{6} = \\frac{4}{3}$.\n\n## Simplified explanation\n\nFrom angle $y$, the side across is 8 cm and the side next to it is 6 cm. $\\frac{8}{6}$ reduces to $\\frac{4}{3}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi paid ₵270,000.00 for a TV set after he had been given a discount of 10%. Find the marked price.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵300,000.00",
+        "hint": "Correct. 90% of ₵300,000.00 is ₵270,000.00."
+      },
+      {
+        "text": "₵297,000.00",
+        "hint": "This adds 10% of what he paid. The 10% is of the marked price."
+      },
+      {
+        "text": "₵280,000.00",
+        "hint": "90% of this is ₵252,000.00."
+      },
+      {
+        "text": "₵260,000.00",
+        "hint": "The marked price is higher than what he paid."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "He paid 90% of the marked price.",
+    "explanation": "## Advanced explanation\n\n$0.9M = 270{,}000$, so $M = 300{,}000$.\n\n## Simplified explanation\n\n₵270,000 is 90% of the price, so 10% is ₵30,000 and 100% is ₵300,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a secondary school class, 23 pupils study Economics, 6 pupils study both Government and Economics, and 48 pupils study either Government or Economics or both.\n\nWhat is the total number of pupils who study Government?",
+    "media": [],
+    "options": [
+      {
+        "text": "17",
+        "hint": "This is the number who study only Economics."
+      },
+      {
+        "text": "23",
+        "hint": "This is the number who study Economics."
+      },
+      {
+        "text": "24",
+        "hint": "Those who study only Government number 25."
+      },
+      {
+        "text": "31",
+        "hint": "Correct. $25 + 6 = 31$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use $n(G \\cup E) = n(G) + n(E) - n(G \\cap E)$.",
+    "explanation": "## Advanced explanation\n\n$48 = n(G) + 23 - 6$, so $n(G) = 31$.\n\n## Simplified explanation\n\n48 pupils in all take at least one subject, and 23 take Economics. So 25 take only Government. With the 6 who take both, that is 31.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a secondary school class, 23 pupils study Economics, 6 pupils study both Government and Economics, and 48 pupils study either Government or Economics or both.\n\nHow many pupils study only Government?",
+    "media": [],
+    "options": [
+      {
+        "text": "17",
+        "hint": "This is the number who study only Economics."
+      },
+      {
+        "text": "23",
+        "hint": "This is the number who study Economics."
+      },
+      {
+        "text": "24",
+        "hint": "$48 - 23 = 25$."
+      },
+      {
+        "text": "25",
+        "hint": "Correct. $48 - 23 = 25$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Take the Economics pupils from the total.",
+    "explanation": "## Advanced explanation\n\n$n(G \\text{ only}) = 48 - 23 = 25$.\n\n## Simplified explanation\n\nEveryone who does not take Economics takes only Government. So $48 - 23 = 25$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a secondary school class, 23 pupils study Economics, 6 pupils study both Government and Economics, and 48 pupils study either Government or Economics or both.\n\nHow many pupils study only Economics?",
+    "media": [],
+    "options": [
+      {
+        "text": "17",
+        "hint": "Correct. $23 - 6 = 17$."
+      },
+      {
+        "text": "23",
+        "hint": "This includes those who study both."
+      },
+      {
+        "text": "24",
+        "hint": "$23 - 6 = 17$."
+      },
+      {
+        "text": "25",
+        "hint": "This is the number who study only Government."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Take those who study both from the Economics pupils.",
+    "explanation": "## Advanced explanation\n\n$n(E \\text{ only}) = 23 - 6 = 17$.\n\n## Simplified explanation\n\n23 take Economics, and 6 of them also take Government. So 17 take only Economics.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "When a certain number is subtracted from 10 and the result is multiplied by 2, the final result is 4. Find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "Correct. $(10 - 8) \\times 2 = 4$."
+      },
+      {
+        "text": "12",
+        "hint": "This gives $-4$."
+      },
+      {
+        "text": "16",
+        "hint": "This gives $-12$."
+      },
+      {
+        "text": "24",
+        "hint": "This gives $-28$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let the number be $n$ and write an equation.",
+    "explanation": "## Advanced explanation\n\n$2(10 - n) = 4$, so $10 - n = 2$ and $n = 8$.\n\n## Simplified explanation\n\nWork backwards. $4 \\div 2 = 2$, and $10 - 2 = 8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "From the diagram, calculate the bearing of point $X$ from point $Y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq38.png",
+        "caption": "Compass lines at Y. The line to X points down and to the left, making 45° with the south line."
+      }
+    ],
+    "options": [
+      {
+        "text": "$035^\\circ$",
+        "hint": "Bearings are measured clockwise from north."
+      },
+      {
+        "text": "$135^\\circ$",
+        "hint": "This points south-east."
+      },
+      {
+        "text": "$045^\\circ$",
+        "hint": "The 45° is measured from south, not north."
+      },
+      {
+        "text": "$225^\\circ$",
+        "hint": "Correct. $180^\\circ + 45^\\circ = 225^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Bearings are measured clockwise from north.",
+    "explanation": "## Advanced explanation\n\n$X$ is $45^\\circ$ past south, so the bearing is $180^\\circ + 45^\\circ = 225^\\circ$.\n\n## Simplified explanation\n\nClockwise from north to south is 180°. $X$ is another 45° past south, which makes 225°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 22% of the length of a rope is 55 cm, find the full length of the rope.",
+    "media": [],
+    "options": [
+      {
+        "text": "12.1 cm",
+        "hint": "This takes 22% of 55. The 55 cm is itself 22%."
+      },
+      {
+        "text": "25 cm",
+        "hint": "The full length is longer than 55 cm."
+      },
+      {
+        "text": "121 cm",
+        "hint": "22% of 121 cm is about 26.6 cm."
+      },
+      {
+        "text": "250 cm",
+        "hint": "Correct. $55 \\div 0.22 = 250$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "55 cm is 22%. Find 100%.",
+    "explanation": "## Advanced explanation\n\n$\\frac{55}{0.22} = 250$ cm.\n\n## Simplified explanation\n\n22% is 55 cm, so 2% is 5 cm. Then 100% is $50 \\times 5 = 250$ cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following best describes the given construction?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1991/1991secaq40.png",
+        "caption": "A horizontal line with two arcs marking it. A vertical line passes through the point P above the line and through crossing arcs below it."
+      }
+    ],
+    "options": [
+      {
+        "text": "Bisecting a line.",
+        "hint": "The construction starts from the point $P$, not the ends of the line."
+      },
+      {
+        "text": "Constructing the bisector of a line segment.",
+        "hint": "The construction starts from the point $P$, not the ends of the line."
+      },
+      {
+        "text": "Constructing the perpendicular to a line.",
+        "hint": "This is true, but the next statement is more exact."
+      },
+      {
+        "text": "Constructing a perpendicular to a given line from a point outside the line.",
+        "hint": "Correct. $P$ is outside the line."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Where is the point $P$ compared with the line?",
+    "explanation": "## Advanced explanation\n\nArcs from $P$ cut the line at two points. Arcs from those points cross below the line, which gives the perpendicular from $P$.\n\n## Simplified explanation\n\nAn arc from $P$ marks two points on the line. Arcs from those points cross on the other side, and joining to $P$ gives a right angle with the line.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1991 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $X =$ {prime numbers less than 13} and $Y =$ {odd numbers less than 13},\n\n(i) list the members of $X$ and $Y$;\n\n(ii) list the members of $X \\cap Y$ and $X \\cup Y$.",
+    "media": [],
+    "answer": "**(i)**\n\n$X = \\{2, 3, 5, 7, 11\\}$\n\n$Y = \\{1, 3, 5, 7, 9, 11\\}$\n\n**(ii)**\n\n$X \\cap Y = \\{3, 5, 7, 11\\}$\n\n$X \\cup Y = \\{1, 2, 3, 5, 7, 9, 11\\}$\n\n> [!answer]\n> {{green:$X \\cap Y = \\{3, 5, 7, 11\\}$}}\n>\n> {{green:$X \\cup Y = \\{1, 2, 3, 5, 7, 9, 11\\}$}}",
+    "hint": "1 is not prime, and 2 is the only even prime.",
+    "explanation": "## Advanced explanation\n\nEvery prime except 2 is odd, so $X \\cap Y$ is $X$ without the 2.\n\n## Simplified explanation\n\nList the primes below 13, then the odd numbers below 13. Numbers on both lists form the intersection. Putting the lists together gives the union.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Three school children share some oranges as follows: Akwasi gets $\\dfrac{1}{3}$ of the total, and the remainder is shared between Abena and Jantuah in the ratio $3 : 2$. If Jantuah gets 24 oranges, how many does Akwasi get?",
+    "media": [],
+    "answer": "Jantuah's 2 parts are 24, so 1 part is 12.\n\nRemainder: $5 \\times 12 = 60$ oranges\n\nThis remainder is $\\frac{2}{3}$ of the total, so Akwasi's $\\frac{1}{3}$ is half of it:\n\n$$\\frac{60}{2} = 30$$\n\n> [!answer]\n> {{green:30}}",
+    "hint": "Use Jantuah's share to find the remainder first.",
+    "explanation": "## Advanced explanation\n\nThe total is $\\frac{3}{2} \\times 60 = 90$ oranges, and $\\frac{1}{3}$ of 90 is 30.\n\n## Simplified explanation\n\n24 oranges is 2 parts, so the 5 parts make 60. That is two thirds of all the oranges, so one third is 30.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a) construct a triangle $XYZ$ in which $|YZ| = 6$ cm, angle $YZX = 60^\\circ$ and $|ZX| = 9$ cm. Measure $|XY|$.\n\n(b)(i) Construct the mediator of $XY$.\n\n(b)(ii) Draw a circle with centre $X$ and a radius of 5 cm. Measure $|YA|$, where $A$ is the point of intersection of the mediator and the circle in the triangular region $XYZ$.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|YZ| = 6$ cm. Construct $60^\\circ$ at $Z$ and mark $X$ on this arm so that $|ZX| = 9$ cm. Join $X$ to $Y$.\n\nBisect $XY$, and draw the circle with centre $X$ and radius 5 cm to cut the mediator at $A$.\n\n> [!answer]\n> {{green:$|XY| \\approx 7.9$ cm and $|YA| = 5$ cm}}",
+    "hint": "Any point on the mediator of $XY$ is the same distance from $X$ and $Y$.",
+    "explanation": "## Advanced explanation\n\nThe cosine rule gives $|XY|^2 = 36 + 81 - 54 = 63$, so $|XY| \\approx 7.94$ cm. $A$ is on the mediator, so $|YA| = |XA| = 5$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the two sides and the 60° angle between them. $XY$ measures about 7.9 cm. $A$ is on the mediator, so it is as far from $Y$ as from $X$, which is 5 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the equation $\\dfrac{2x - 1}{3} - \\dfrac{x - 2}{4} = 1$",
+    "media": [],
+    "answer": "Multiply through by 12:\n\n$$4(2x - 1) - 3(x - 2) = 12$$\n\n$$8x - 4 - 3x + 6 = 12$$\n\n$$5x = 10$$\n\n$$x = 2$$\n\n> [!answer]\n> {{green:$x = 2$}}",
+    "hint": "The LCM of 3 and 4 is 12.",
+    "explanation": "## Advanced explanation\n\nCheck with $x = 2$: $\\frac{3}{3} - \\frac{0}{4} = 1$.\n\n## Simplified explanation\n\nMultiplying by 12 clears the fractions. Opening the brackets gives $5x + 2 = 12$. So $5x = 10$ and $x = 2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorise completely $2ap + aq - bq - 2bp$",
+    "media": [],
+    "answer": "$$a(2p + q) - b(q + 2p) = (2p + q)(a - b)$$\n\n> [!answer]\n> {{green:$(2p + q)(a - b)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nFactorisation by grouping works because both groups share the factor $(2p + q)$.\n\n## Simplified explanation\n\nTake $a$ out of the first pair and $-b$ out of the second. Both leave $(2p + q)$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $m = -2$ and $n = \\dfrac{3}{4}$, find the value of\n\n(i) $m^2(n - 1)$;\n\n(ii) $n^2 - \\dfrac{3}{m}$.",
+    "media": [],
+    "answer": "**(i)** $(-2)^2\\left(\\frac{3}{4} - 1\\right) = 4\\left(-\\frac{1}{4}\\right) = -1$\n\n**(ii)** $\\left(\\frac{3}{4}\\right)^2 - \\frac{3}{-2} = \\frac{9}{16} + \\frac{3}{2} = \\frac{33}{16} = 2\\frac{1}{16}$\n\n> [!answer]\n> **(i)** {{green:$-1$}}  **(ii)** {{green:$2\\dfrac{1}{16}$}}",
+    "hint": "Be careful with the negative value of $m$.",
+    "explanation": "## Advanced explanation\n\n$(-2)^2$ is positive, and subtracting $\\frac{3}{-2}$ adds $\\frac{3}{2}$.\n\n## Simplified explanation\n\nFor (i), 4 times $-\\frac{1}{4}$ is $-1$. For (ii), $\\frac{3}{4}$ squared is $\\frac{9}{16}$. Taking away $-\\frac{3}{2}$ adds $\\frac{24}{16}$, which gives $\\frac{33}{16}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The following table shows the distribution of voters in an election for class prefect.\n\n| Candidate | Number of votes |\n|---|---|\n| Acquaye | 6 |\n| Borquaye | 12 |\n| Commey | 18 |\n\n(i) Calculate the angle of each sector of a pie chart that illustrates the information.\n\n(ii) What fraction of the votes was cast for Borquaye?",
+    "media": [],
+    "answer": "**(i)** Total votes: $6 + 12 + 18 = 36$, so each vote takes $360^\\circ \\div 36 = 10^\\circ$.\n\nAcquaye $60^\\circ$, Borquaye $120^\\circ$, Commey $180^\\circ$\n\n**(ii)** $\\frac{12}{36} = \\frac{1}{3}$\n\n> [!answer]\n> **(i)** {{green:Acquaye 60°, Borquaye 120°, Commey 180°}}  **(ii)** {{green:$\\frac{1}{3}$}}",
+    "hint": "Add the votes, then find the angle for one vote.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{f}{36} \\times 360^\\circ = 10f$ degrees. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 36 votes and 360° in a circle, so each vote is 10°. Multiply each number by 10. Borquaye has 12 of the 36 votes, which is a third.",
+    "difficulty": "easy",
+    "marks": 6,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Statistics",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The heights in centimetres of 10 school children are as follows:\n\n165, 165, 155, 159, 174\n\n154, 169, 155, 155, 150\n\n(i) Make a frequency table for the data.\n\n(ii) Use your table to find the mode and the median of the distribution.",
+    "media": [],
+    "answer": "**(i)**\n\n| Height (cm) | 150 | 154 | 155 | 159 | 165 | 169 | 174 |\n|---|---|---|---|---|---|---|---|\n| Frequency | 1 | 1 | 3 | 1 | 2 | 1 | 1 |\n\n**(ii)** Mode: 155, which has the highest frequency.\n\nMedian: the 5th and 6th values are 155 and 159, so\n\n$$\\frac{155 + 159}{2} = 157$$\n\n> [!answer]\n> **(ii)** {{green:mode 155 cm, median 157 cm}}",
+    "hint": "With 10 values, the median uses the two middle ones.",
+    "explanation": "## Advanced explanation\n\nThe cumulative frequencies are 1, 2, 5, 6, 8, 9 and 10, which place the 5th and 6th values at 155 and 159.\n\n## Simplified explanation\n\nCount each height. 155 appears most, so it is the mode. In order, the two middle heights are 155 and 159, and halfway between them is 157.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "1991 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  }
+]

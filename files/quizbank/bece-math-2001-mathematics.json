@@ -1,0 +1,1488 @@
+[
+  {
+    "type": "choice",
+    "body": "$R = \\{1, 3, 5, 7\\}$ and $S = \\{2, 4, 6, 8\\}$. Find $R \\cup S$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{\\ \\}$",
+        "hint": "This is $R \\cap S$."
+      },
+      {
+        "text": "$\\{1, 2, 3, 5, 6, 8\\}$",
+        "hint": "4 and 7 are missing."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, 5, 7, 8\\}$",
+        "hint": "6 is missing."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, 5, 6, 7, 8\\}$",
+        "hint": "Correct. Every member of either set appears once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins the two sets together.",
+    "explanation": "## Advanced explanation\n\n$R$ and $S$ are disjoint, so $R \\cup S$ has $4 + 4 = 8$ elements.\n\n## Simplified explanation\n\nPut all the numbers from both sets together: 1 to 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the missing numbers in the set $\\{5, 10, 15, \\_\\_, 25, \\_\\_, \\_\\_, 40\\}$",
+    "media": [],
+    "options": [
+      {
+        "text": "20 and 30",
+        "hint": "There are three gaps, so 35 is missing too."
+      },
+      {
+        "text": "30 and 35",
+        "hint": "20 is missing too."
+      },
+      {
+        "text": "20, 35 and 40",
+        "hint": "40 is already there, and 30 is missing."
+      },
+      {
+        "text": "20, 30 and 35",
+        "hint": "Correct. The numbers go up in 5s."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The numbers go up in steps of 5.",
+    "explanation": "## Advanced explanation\n\nThe set lists the multiples of 5 up to 40, so the gaps are 20, 30 and 35.\n\n## Simplified explanation\n\nCount in 5s: 5, 10, 15, 20, 25, 30, 35, 40. The ones not shown are 20, 30 and 35.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Sequences",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What property of addition is defined by $(a + b) + c = a + (b + c)$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Associative",
+        "hint": "Correct. The grouping changes, and the sum does not."
+      },
+      {
+        "text": "Inverse",
+        "hint": "This is about $a + (-a) = 0$."
+      },
+      {
+        "text": "Commutative",
+        "hint": "This is about order, as in $a + b = b + a$."
+      },
+      {
+        "text": "Distributive",
+        "hint": "This is about $a(b + c) = ab + ac$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The brackets move, but the order stays the same.",
+    "explanation": "## Advanced explanation\n\nAssociativity says that the grouping of the terms does not affect the sum.\n\n## Simplified explanation\n\nThe numbers stay in the same order, and only the brackets move. That is the associative property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the highest common factor (greatest common factor) of 63 and 81.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "3 is a common factor, but not the highest."
+      },
+      {
+        "text": "7",
+        "hint": "7 does not divide 81."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $63 = 9 \\times 7$ and $81 = 9 \\times 9$."
+      },
+      {
+        "text": "21",
+        "hint": "21 does not divide 81."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$63 = 3^2 \\times 7$ and $81 = 3^4$, so the HCF is $3^2 = 9$.\n\n## Simplified explanation\n\n9 goes into both 63 and 81. After dividing, 7 and 9 share no other factor.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Change $124_{\\text{five}}$ to a base ten numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "24",
+        "hint": "Use the place values 25, 5 and 1."
+      },
+      {
+        "text": "35",
+        "hint": "Include all the digits: $25 + 10 + 4$."
+      },
+      {
+        "text": "39",
+        "hint": "Correct. $25 + 10 + 4 = 39$."
+      },
+      {
+        "text": "42",
+        "hint": "Use the place values 25, 5 and 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The place values in base five are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$1 \\times 25 + 2 \\times 5 + 4 = 39$.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 25, 10 and 4. They add to 39.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi bought 4 books at an average price of ₵2,500.00. If the total cost of 3 books was ₵6,500.00, find the cost of the fourth book.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵3,500.00",
+        "hint": "Correct. $10{,}000 - 6{,}500 = 3{,}500$."
+      },
+      {
+        "text": "₵4,000.00",
+        "hint": "The four books cost ₵10,000.00 altogether."
+      },
+      {
+        "text": "₵4,500.00",
+        "hint": "The four books cost ₵10,000.00 altogether."
+      },
+      {
+        "text": "₵6,500.00",
+        "hint": "This is the cost of the three books."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Total $=$ average $\\times$ number of books.",
+    "explanation": "## Advanced explanation\n\n$4 \\times 2{,}500 - 6{,}500 = 3{,}500$.\n\n## Simplified explanation\n\nFour books at an average of ₵2,500 cost ₵10,000. Three of them cost ₵6,500, so the last costs ₵3,500.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the sum of all the even numbers between 70 and 80.",
+    "media": [],
+    "options": [
+      {
+        "text": "200",
+        "hint": "There are four even numbers: 72, 74, 76 and 78."
+      },
+      {
+        "text": "223",
+        "hint": "A sum of even numbers is even."
+      },
+      {
+        "text": "280",
+        "hint": "This is $4 \\times 70$. Use the actual numbers."
+      },
+      {
+        "text": "300",
+        "hint": "Correct. $72 + 74 + 76 + 78 = 300$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "\"Between\" leaves out 70 and 80.",
+    "explanation": "## Advanced explanation\n\nThe numbers are 72, 74, 76 and 78, whose mean is 75, so the sum is $4 \\times 75 = 300$.\n\n## Simplified explanation\n\nThe even numbers are 72, 74, 76 and 78. They add to 300.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "By how much is $\\dfrac{5}{6}$ greater than $\\dfrac{3}{4}$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{12}$",
+        "hint": "Correct. $\\frac{10}{12} - \\frac{9}{12} = \\frac{1}{12}$."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Use 12 as the common denominator."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "Use 12 as the common denominator."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Use 12 as the common denominator."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract, using 12 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{6} - \\frac{3}{4} = \\frac{10}{12} - \\frac{9}{12} = \\frac{1}{12}$.\n\n## Simplified explanation\n\nChange them to 12ths: 10 and 9. The difference is 1 twelfth.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $0.25 \\times 0.06$, correct to three decimal places.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.001",
+        "hint": "$25 \\times 6 = 150$, so the answer is 0.0150."
+      },
+      {
+        "text": "0.002",
+        "hint": "$25 \\times 6 = 150$, so the answer is 0.0150."
+      },
+      {
+        "text": "0.015",
+        "hint": "Correct. $0.25 \\times 0.06 = 0.0150$."
+      },
+      {
+        "text": "0.075",
+        "hint": "$25 \\times 6 = 150$, so the answer is 0.0150."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply 25 by 6 and count the decimal places.",
+    "explanation": "## Advanced explanation\n\n$0.25 \\times 0.06 = \\frac{25 \\times 6}{10{,}000} = 0.0150$, which is 0.015 to three decimal places.\n\n## Simplified explanation\n\n$25 \\times 6 = 150$. The numbers have 4 decimal places in all, so the answer is 0.0150, or 0.015.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Number Operations",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{5}{8}$ as a decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.125",
+        "hint": "This is $\\frac{1}{8}$."
+      },
+      {
+        "text": "0.375",
+        "hint": "This is $\\frac{3}{8}$."
+      },
+      {
+        "text": "0.625",
+        "hint": "Correct. $5 \\times 0.125 = 0.625$."
+      },
+      {
+        "text": "0.750",
+        "hint": "This is $\\frac{3}{4}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide 5 by 8.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{8} = 5 \\times 0.125 = 0.625$.\n\n## Simplified explanation\n\n$\\frac{1}{8}$ is 0.125. Five of them make 0.625.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following are the angles formed at the centre of a circle: $30^\\circ$, $70^\\circ$, $120^\\circ$, $2x^\\circ$ and $5x^\\circ$. Find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "Correct. $7x = 140$."
+      },
+      {
+        "text": "40",
+        "hint": "This is the value of $2x$."
+      },
+      {
+        "text": "70",
+        "hint": "The angles must add to 360°."
+      },
+      {
+        "text": "100",
+        "hint": "This is the value of $5x$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The angles at the centre of a circle add to 360°.",
+    "explanation": "## Advanced explanation\n\n$220 + 7x = 360$, so $7x = 140$ and $x = 20$.\n\n## Simplified explanation\n\nThe given angles add to 220, which leaves 140 for $7x$. Then $140 \\div 7 = 20$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "On a map, 1 cm represents 4.5 km. What is the actual distance between two towns which are 4 cm apart on the map?",
+    "media": [],
+    "options": [
+      {
+        "text": "9 km",
+        "hint": "This is for 2 cm."
+      },
+      {
+        "text": "16 km",
+        "hint": "Multiply 4.5 by 4."
+      },
+      {
+        "text": "18 km",
+        "hint": "Correct. $4 \\times 4.5 = 18$."
+      },
+      {
+        "text": "19 km",
+        "hint": "Multiply 4.5 by 4."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the map distance by the scale.",
+    "explanation": "## Advanced explanation\n\n$4 \\times 4.5 = 18$ km.\n\n## Simplified explanation\n\nEach centimetre is 4.5 km, so 4 cm is 18 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2y = 6 - 3x$, find $y$ when $x = 0$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Check the sign: $2y = 6$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "Check the sign: $2y = 6$."
+      },
+      {
+        "text": "$0$",
+        "hint": "$x$ is 0, but $y$ is not."
+      },
+      {
+        "text": "$3$",
+        "hint": "Correct. $2y = 6$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Put $x = 0$ into the equation.",
+    "explanation": "## Advanced explanation\n\n$2y = 6 - 0 = 6$, so $y = 3$.\n\n## Simplified explanation\n\nWith $x = 0$, the equation becomes $2y = 6$. So $y = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has an isosceles triangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Correct. It runs from the apex to the middle of the base."
+      },
+      {
+        "text": "2",
+        "hint": "An isosceles triangle has only one line of symmetry."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number for an equilateral triangle."
+      },
+      {
+        "text": "4",
+        "hint": "This is the number for a square."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Fold the triangle so that the two equal sides match.",
+    "explanation": "## Advanced explanation\n\nThe only line of symmetry is the perpendicular bisector of the base.\n\n## Simplified explanation\n\nOnly one fold, from the top down the middle, makes the two sides match.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi's age in the next 10 years will be 4 times his age 5 years ago. How old is Kofi now?",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "At 5, his age 5 years ago would be 0."
+      },
+      {
+        "text": "6",
+        "hint": "This gives $16 \\ne 4 \\times 1$."
+      },
+      {
+        "text": "10",
+        "hint": "Correct. $10 + 10 = 4 \\times 5$."
+      },
+      {
+        "text": "15",
+        "hint": "This gives $25 \\ne 4 \\times 10$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Let his age now be $x$.",
+    "explanation": "## Advanced explanation\n\n$x + 10 = 4(x - 5)$, so $x + 10 = 4x - 20$, $3x = 30$ and $x = 10$.\n\n## Simplified explanation\n\nIf he is 10 now, he will be 20 in 10 years, and he was 5 years old 5 years ago. And 20 is 4 times 5.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A point $P(3, 4)$ is rotated through an angle of $90^\\circ$ anticlockwise about the origin $O$. Find the image $P_1$ of the rotation.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(3, -4)$",
+        "hint": "This is a reflection in the $x$-axis."
+      },
+      {
+        "text": "$(4, -3)$",
+        "hint": "This is a rotation of $90^\\circ$ clockwise."
+      },
+      {
+        "text": "$(-3, 4)$",
+        "hint": "This is a reflection in the $y$-axis."
+      },
+      {
+        "text": "$(-4, 3)$",
+        "hint": "Correct. $(x, y)$ becomes $(-y, x)$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A $90^\\circ$ anticlockwise turn changes $(x, y)$ to $(-y, x)$.",
+    "explanation": "## Advanced explanation\n\n$(3, 4) \\to (-4, 3)$.\n\n## Simplified explanation\n\nSwap the numbers to get 4 and 3, then make the first one negative.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a quadrilateral?",
+    "media": [],
+    "options": [
+      {
+        "text": "Square",
+        "hint": "A square has 4 sides."
+      },
+      {
+        "text": "Rectangle",
+        "hint": "A rectangle has 4 sides."
+      },
+      {
+        "text": "Rhombus",
+        "hint": "A rhombus has 4 sides."
+      },
+      {
+        "text": "Triangle",
+        "hint": "Correct. A triangle has 3 sides."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A quadrilateral has 4 sides.",
+    "explanation": "## Advanced explanation\n\nSquares, rectangles and rhombuses are all four-sided. A triangle has 3 sides.\n\n## Simplified explanation\n\nCount the sides. Only the triangle does not have 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 2345 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2.345 \\times 10^1$",
+        "hint": "This equals 23.45."
+      },
+      {
+        "text": "$2.345 \\times 10^2$",
+        "hint": "This equals 234.5."
+      },
+      {
+        "text": "$2.345 \\times 10^3$",
+        "hint": "Correct. The point moves 3 places."
+      },
+      {
+        "text": "$2.345 \\times 10^4$",
+        "hint": "This equals 23,450."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Move the point until one digit is in front of it.",
+    "explanation": "## Advanced explanation\n\n$2345 = 2.345 \\times 10^3$.\n\n## Simplified explanation\n\nMove the point 3 places to the left to get 2.345. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality $3(x - 1) \\le 12$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\le -5$",
+        "hint": "Check the sign: $3x \\le 15$."
+      },
+      {
+        "text": "$x \\le -3$",
+        "hint": "Expand the bracket first: $3x - 3 \\le 12$."
+      },
+      {
+        "text": "$x \\le 3$",
+        "hint": "Add 3 to both sides: $3x \\le 15$."
+      },
+      {
+        "text": "$x \\le 5$",
+        "hint": "Correct. $3x \\le 15$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket first.",
+    "explanation": "## Advanced explanation\n\n$3x - 3 \\le 12$, so $3x \\le 15$ and $x \\le 5$.\n\n## Simplified explanation\n\nDivide by 3 to get $x - 1 \\le 4$. Then add 1 to get $x \\le 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi and Ama shared an amount of money in the ratio $3 : 2$ respectively. If Kofi had ₵60,000.00, how much was shared?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵36,000.00",
+        "hint": "This is less than Kofi's share."
+      },
+      {
+        "text": "₵40,000.00",
+        "hint": "This is Ama's share."
+      },
+      {
+        "text": "₵90,000.00",
+        "hint": "This takes ₵60,000.00 as 2 parts. It is 3 parts."
+      },
+      {
+        "text": "₵100,000.00",
+        "hint": "Correct. $5 \\times 20{,}000 = 100{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "₵60,000.00 is 3 parts. Find 1 part.",
+    "explanation": "## Advanced explanation\n\nTotal $= \\frac{5}{3} \\times 60{,}000 = 100{,}000$.\n\n## Simplified explanation\n\n3 parts make ₵60,000, so 1 part is ₵20,000. There are 5 parts altogether, which is ₵100,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Workers are required to pay $4\\dfrac{1}{2}\\%$ of their salaries into an Educational Fund. A worker's salary is ₵120,000.00. How much does she pay into the Educational Fund?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵5,322.00",
+        "hint": "Find $4.5\\%$ of ₵120,000.00."
+      },
+      {
+        "text": "₵5,400.00",
+        "hint": "Correct. $0.045 \\times 120{,}000 = 5{,}400$."
+      },
+      {
+        "text": "₵6,000.00",
+        "hint": "This is 5%."
+      },
+      {
+        "text": "₵10,800.00",
+        "hint": "This is 9%."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change $4\\frac{1}{2}\\%$ to a decimal.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4.5}{100} \\times 120{,}000 = 5{,}400$.\n\n## Simplified explanation\n\n1% of ₵120,000 is ₵1,200. Then $4.5 \\times 1{,}200 = 5{,}400$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Araba bought an electric cooker for ₵540,000.00 at a discount of 10%. Find the actual price of the electric cooker.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵486,000.00",
+        "hint": "This takes off another 10%."
+      },
+      {
+        "text": "₵496,000.00",
+        "hint": "The actual price is higher than what she paid."
+      },
+      {
+        "text": "₵594,000.00",
+        "hint": "This adds 10% of what she paid. The 10% is of the actual price."
+      },
+      {
+        "text": "₵600,000.00",
+        "hint": "Correct. 90% of ₵600,000.00 is ₵540,000.00."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "She paid 90% of the actual price.",
+    "explanation": "## Advanced explanation\n\n$0.9P = 540{,}000$, so $P = 600{,}000$.\n\n## Simplified explanation\n\n₵540,000 is 90% of the price, so 10% is ₵60,000 and 100% is ₵600,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $\\sqrt{p^2 \\times q^2} = p \\times q$, find the value of $a$, if $a = \\sqrt{13^2 \\times 15^2}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "28",
+        "hint": "This adds 13 and 15. Multiply them."
+      },
+      {
+        "text": "175",
+        "hint": "$13 \\times 15$ is 195."
+      },
+      {
+        "text": "195",
+        "hint": "Correct. $13 \\times 15 = 195$."
+      },
+      {
+        "text": "247",
+        "hint": "$13 \\times 15$ is 195."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use the given rule with $p = 13$ and $q = 15$.",
+    "explanation": "## Advanced explanation\n\n$a = \\sqrt{13^2 \\times 15^2} = 13 \\times 15 = 195$.\n\n## Simplified explanation\n\nThe rule says that the answer is just $p$ times $q$. So $13 \\times 15 = 195$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Indices",
+      "Surds"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A mapping is defined by $n \\to 2n - 3$. What is the image of $-2$ under the mapping?",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1$",
+        "hint": "$2 \\times -2$ is $-4$."
+      },
+      {
+        "text": "$-5$",
+        "hint": "$-4 - 3$ is $-7$."
+      },
+      {
+        "text": "$-7$",
+        "hint": "Correct. $-4 - 3 = -7$."
+      },
+      {
+        "text": "$7$",
+        "hint": "Check the sign: $-4 - 3$ is negative."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put $n = -2$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$2(-2) - 3 = -7$.\n\n## Simplified explanation\n\nDouble $-2$ to get $-4$. Then $-4 - 3 = -7$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $4p + 6p^2 - 2p + 2p^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2p + 8p^2$",
+        "hint": "Correct. Collect the like terms."
+      },
+      {
+        "text": "$6p + 8p^2$",
+        "hint": "$4p - 2p$ is $2p$."
+      },
+      {
+        "text": "$2p - 8p^2$",
+        "hint": "$6p^2 + 2p^2$ is positive."
+      },
+      {
+        "text": "$6p - 8p^2$",
+        "hint": "$4p - 2p$ is $2p$, and the $p^2$ term is positive."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Collect the $p$ terms and the $p^2$ terms separately.",
+    "explanation": "## Advanced explanation\n\n$(4 - 2)p + (6 + 2)p^2 = 2p + 8p^2$.\n\n## Simplified explanation\n\n$4p - 2p = 2p$ and $6p^2 + 2p^2 = 8p^2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $q$ the subject of the relation: $w = \\dfrac{n - q}{q}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$q = \\dfrac{n - 1}{w}$",
+        "hint": "Multiply both sides by $q$ first."
+      },
+      {
+        "text": "$q = \\dfrac{n + 1}{w}$",
+        "hint": "Multiply both sides by $q$ first."
+      },
+      {
+        "text": "$q = \\dfrac{n + 2}{1 + w}$",
+        "hint": "The top is $n$ only."
+      },
+      {
+        "text": "$q = \\dfrac{n}{w + 1}$",
+        "hint": "Correct. $q(w + 1) = n$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply by $q$, then collect the $q$ terms.",
+    "explanation": "## Advanced explanation\n\n$wq = n - q$, so $wq + q = n$ and $q = \\frac{n}{w + 1}$.\n\n## Simplified explanation\n\nMultiply by $q$ to get $wq = n - q$. Move $q$ across, take out $q$, and divide by $w + 1$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $E = \\dfrac{1}{2}mc^2$, find $E$ when $m = 10$ and $c = 4$.",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "$c$ must be squared: $4^2 = 16$."
+      },
+      {
+        "text": "40",
+        "hint": "This is $10 \\times 4$. Square $c$ and take half of $m$."
+      },
+      {
+        "text": "60",
+        "hint": "Check the working: $5 \\times 16$."
+      },
+      {
+        "text": "80",
+        "hint": "Correct. $\\frac{1}{2}(10)(16) = 80$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Square $c$ first.",
+    "explanation": "## Advanced explanation\n\n$E = \\frac{1}{2}(10)(4^2) = 5 \\times 16 = 80$.\n\n## Simplified explanation\n\n$4^2 = 16$ and half of 10 is 5. Then $5 \\times 16 = 80$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The scores obtained by 8 pupils in a test are: 2, 3, 4, 5, 7, 8, 8 and 9.\n\nWhat is the median score?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "This is the 2nd score."
+      },
+      {
+        "text": "5",
+        "hint": "This is the 4th score. Use the 4th and 5th scores."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{5 + 7}{2} = 6$."
+      },
+      {
+        "text": "7",
+        "hint": "This is the 5th score. Use the 4th and 5th scores."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "With 8 scores, use the two middle ones.",
+    "explanation": "## Advanced explanation\n\nThe median is the mean of the 4th and 5th values: $\\frac{5 + 7}{2} = 6$.\n\n## Simplified explanation\n\nThe two middle scores are 5 and 7, and halfway between them is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The scores obtained by 8 pupils in a test are: 2, 3, 4, 5, 7, 8, 8 and 9.\n\nFind the mean score.",
+    "media": [],
+    "options": [
+      {
+        "text": "4.50",
+        "hint": "The scores add to 46."
+      },
+      {
+        "text": "5.75",
+        "hint": "Correct. $46 \\div 8 = 5.75$."
+      },
+      {
+        "text": "6.00",
+        "hint": "This is the median."
+      },
+      {
+        "text": "8.75",
+        "hint": "The scores add to 46, and there are 8 of them."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the scores and divide by 8.",
+    "explanation": "## Advanced explanation\n\n$\\frac{46}{8} = 5.75$.\n\n## Simplified explanation\n\nThe eight scores add to 46. Then $46 \\div 8 = 5.75$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The scores obtained by 8 pupils in a test are: 2, 3, 4, 5, 7, 8, 8 and 9.\n\nWhat is the probability that a pupil chosen at random scores 8 marks?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Two pupils scored 8 marks, not one."
+      },
+      {
+        "text": "$\\dfrac{4}{23}$",
+        "hint": "This is the score over the total of the scores."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{2}{8} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "There are 2 pupils out of 8."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count how many pupils scored 8.",
+    "explanation": "## Advanced explanation\n\n$P(8) = \\frac{2}{8} = \\frac{1}{4}$.\n\n## Simplified explanation\n\n2 of the 8 pupils scored 8, and $\\frac{2}{8}$ reduces to $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the graph of the straight line $MN$ to answer the question.\n\nDetermine the value of $x$ when $y$ is 3.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq30-31.png",
+        "caption": "Graph of a straight line from M(−3, −2) to N(4, 5). It passes through (−1, 0), (0, 1) and (2, 3)."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Read across from 3 on the $y$-axis to the line."
+      },
+      {
+        "text": "$1\\dfrac{1}{2}$",
+        "hint": "Read across from 3 on the $y$-axis to the line."
+      },
+      {
+        "text": "$2$",
+        "hint": "Correct. The line passes through $(2, 3)$."
+      },
+      {
+        "text": "$3$",
+        "hint": "Read across from 3 on the $y$-axis to the line."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Start at 3 on the $y$-axis and go across to the line.",
+    "explanation": "## Advanced explanation\n\nThe line is $y = x + 1$, so $y = 3$ gives $x = 2$.\n\n## Simplified explanation\n\nGo across from 3 on the $y$-axis until you hit the line. Then go down to read 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the graph of the straight line $MN$ to answer the question.\n\nFind the gradient of the line $MN$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq30-31.png",
+        "caption": "Graph of a straight line from M(−3, −2) to N(4, 5). It passes through (−1, 0), (0, 1) and (2, 3)."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "The line rises from left to right, so its gradient is positive."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $\\frac{5 - (-2)}{4 - (-3)} = 1$."
+      },
+      {
+        "text": "$2$",
+        "hint": "$\\frac{7}{7}$ is 1."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "$\\frac{7}{7}$ is 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Gradient $=$ change in $y$ $\\div$ change in $x$.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{5 - (-2)}{4 - (-3)} = \\frac{7}{7} = 1$.\n\n## Simplified explanation\n\nFrom $M$ to $N$, the line goes up 7 and across 7. So the gradient is 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "State the rule of the following mapping.\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $y$ | 1 | 4 | 9 | 16 | 25 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to \\sqrt{x}$",
+        "hint": "When $x = 4$, this gives 2."
+      },
+      {
+        "text": "$x \\to 2x$",
+        "hint": "When $x = 3$, this gives 6."
+      },
+      {
+        "text": "$x \\to 3x$",
+        "hint": "When $x = 1$, this gives 3."
+      },
+      {
+        "text": "$x \\to x^2$",
+        "hint": "Correct. Each $y$ is the square of $x$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "These $y$ values are special numbers. Which ones?",
+    "explanation": "## Advanced explanation\n\n$1, 4, 9, 16, 25$ are the squares of $1, 2, 3, 4, 5$.\n\n## Simplified explanation\n\n$2 \\times 2 = 4$, $3 \\times 3 = 9$, and so on. So $y$ is $x$ squared.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a rectangle is 18 cm². One of its sides is 9 cm long. Find its perimeter.",
+    "media": [],
+    "options": [
+      {
+        "text": "11 cm",
+        "hint": "This is one length plus one width."
+      },
+      {
+        "text": "18 cm",
+        "hint": "This is the area value."
+      },
+      {
+        "text": "22 cm",
+        "hint": "Correct. $2(9 + 2) = 22$."
+      },
+      {
+        "text": "36 cm",
+        "hint": "This doubles the area value."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use the area to find the other side.",
+    "explanation": "## Advanced explanation\n\nThe other side is $\\frac{18}{9} = 2$ cm, so $P = 2(9 + 2) = 22$ cm.\n\n## Simplified explanation\n\n$18 \\div 9 = 2$, so the sides are 9 cm and 2 cm. Going around gives 22 cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the area of figure $PQRST$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq35.png",
+        "caption": "Trapezium made of a rectangle PQST and a triangle QRS. PQ is 15 cm, QR is 10 cm and PT is 9 cm. PQ is parallel to TS, and PT is parallel to QS."
+      }
+    ],
+    "options": [
+      {
+        "text": "112.5 cm²",
+        "hint": "This uses $\\frac{1}{2} \\times 25 \\times 9$. The top side is also 15 cm."
+      },
+      {
+        "text": "135.0 cm²",
+        "hint": "This is only the rectangle."
+      },
+      {
+        "text": "180.0 cm²",
+        "hint": "Correct. $135 + 45 = 180$."
+      },
+      {
+        "text": "225.0 cm²",
+        "hint": "This is $25 \\times 9$, which counts the triangle as a rectangle."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Split the figure into a rectangle and a triangle.",
+    "explanation": "## Advanced explanation\n\nRectangle: $15 \\times 9 = 135$ cm². Triangle: $\\frac{1}{2} \\times 10 \\times 9 = 45$ cm². The total is 180 cm².\n\n## Simplified explanation\n\nThe rectangle is 135 and the triangle is half of $10 \\times 9$, which is 45. Together they make 180.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an enlargement with scale factor $k$, which of the following statements is not true?",
+    "media": [],
+    "options": [
+      {
+        "text": "Each length is multiplied by $k$.",
+        "hint": "This is true of an enlargement."
+      },
+      {
+        "text": "Each angle remains the same.",
+        "hint": "This is true of an enlargement."
+      },
+      {
+        "text": "The shape of the figure does not change.",
+        "hint": "This is true of an enlargement."
+      },
+      {
+        "text": "The size of the figure does not change.",
+        "hint": "Correct. This is false, because an enlargement changes the size."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "What does an enlargement change?",
+    "explanation": "## Advanced explanation\n\nAn enlargement preserves shape and angles, and multiplies lengths by $k$, so the size changes unless $k = \\pm 1$.\n\n## Simplified explanation\n\nAn enlargement makes a figure bigger or smaller, so its size does change.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which $MP$ is parallel to $NO$, to answer the question.\n\nFind the angle $MON$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq37-38.png",
+        "caption": "Triangle MNO with MP parallel to NO. Angle NMO is 57°, and the exterior angle at N on the extended line ON is 105°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$48^\\circ$",
+        "hint": "Correct. $105^\\circ - 57^\\circ = 48^\\circ$."
+      },
+      {
+        "text": "$52^\\circ$",
+        "hint": "Use $105^\\circ - 57^\\circ$."
+      },
+      {
+        "text": "$58^\\circ$",
+        "hint": "Use $105^\\circ - 57^\\circ$."
+      },
+      {
+        "text": "$65^\\circ$",
+        "hint": "Use $105^\\circ - 57^\\circ$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "An exterior angle equals the sum of the two interior opposite angles.",
+    "explanation": "## Advanced explanation\n\n$105^\\circ = 57^\\circ + \\text{angle } MON$, so angle $MON = 48^\\circ$.\n\n## Simplified explanation\n\nThe outside angle of 105° equals the two far inside angles added together. So $105 - 57 = 48$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which $MP$ is parallel to $NO$, to answer the question.\n\nAngle $MON$ and angle $PMO$ are",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq37-38.png",
+        "caption": "Triangle MNO with MP parallel to NO. Angle NMO is 57°, and the exterior angle at N on the extended line ON is 105°."
+      }
+    ],
+    "options": [
+      {
+        "text": "alternate angles.",
+        "hint": "Correct. They lie on opposite sides of $MO$, between the parallel lines."
+      },
+      {
+        "text": "vertically opposite angles.",
+        "hint": "Vertically opposite angles meet at the same point."
+      },
+      {
+        "text": "corresponding angles.",
+        "hint": "Corresponding angles are on the same side of the crossing line."
+      },
+      {
+        "text": "adjacent angles.",
+        "hint": "Adjacent angles share a vertex."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Look for a Z shape using $MP$, $MO$ and $ON$.",
+    "explanation": "## Advanced explanation\n\n$MP \\parallel NO$ and $MO$ is a transversal, so these are alternate angles, which are equal.\n\n## Simplified explanation\n\nThe lines $MP$, $MO$ and $ON$ make a Z shape. Angles inside the corners of a Z are alternate angles.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $u = \\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix}$ and $v = \\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$, find $2u + 3v$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ 1 \\end{pmatrix}$",
+        "hint": "This is $u + v$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 11 \\\\ 5 \\end{pmatrix}$",
+        "hint": "For the top, $2 + 12 = 14$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 11 \\\\ 13 \\end{pmatrix}$",
+        "hint": "For the top, $2 + 12 = 14$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 14 \\\\ 0 \\end{pmatrix}$",
+        "hint": "Correct. $2 + 12 = 14$ and $6 - 6 = 0$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply each vector first, then add.",
+    "explanation": "## Advanced explanation\n\n$2u + 3v = \\begin{pmatrix} 2 + 12 \\\\ 6 - 6 \\end{pmatrix} = \\begin{pmatrix} 14 \\\\ 0 \\end{pmatrix}$.\n\n## Simplified explanation\n\n$2u$ has 2 and 6. $3v$ has 12 and $-6$. Adding gives 14 and 0.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following statements best describes the construction?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2001/2001secaq40.png",
+        "caption": "Line AB with two small marks on it, and above it line CD touching two arcs of equal radius."
+      }
+    ],
+    "options": [
+      {
+        "text": "Construction of a horizontal line $CD$.",
+        "hint": "The arcs fix the distance from $AB$, whichever way $AB$ lies."
+      },
+      {
+        "text": "Construction of a line parallel to $AB$.",
+        "hint": "Correct. Equal arcs set $CD$ at the same distance from $AB$ along its length."
+      },
+      {
+        "text": "Construction of the bisector of $AB$.",
+        "hint": "A bisector would cross $AB$."
+      },
+      {
+        "text": "Construction of a top line.",
+        "hint": "This is not a term used in construction."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each arc is centred on $AB$ with the same radius.",
+    "explanation": "## Advanced explanation\n\nEqual arcs from two points on $AB$ have $CD$ as a common tangent, so $CD$ is everywhere the same distance from $AB$.\n\n## Simplified explanation\n\nThe same compass width is used twice from $AB$. A line touching both arcs stays the same distance from $AB$, so it is parallel.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2001 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "$M$ is a set consisting of all positive integers from 1 to 10. $P$ and $Q$ are subsets of $M$ such that $P =$ {factors of 6} and $Q =$ {multiples of 2}.\n\n(i) List the elements of $M$, $P$ and $Q$.\n\n(ii) Represent $M$, $P$ and $Q$ on a Venn diagram.\n\n(iii) Find $P \\cap Q$.",
+    "media": [],
+    "answer": "**(i)**\n\n$M = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$\n\n$P = \\{1, 2, 3, 6\\}$\n\n$Q = \\{2, 4, 6, 8, 10\\}$\n\n**(ii)** Draw two overlapping circles inside a rectangle. Write 2, 6 in the overlap; 1, 3 in $P$ only; 4, 8, 10 in $Q$ only; and 5, 7, 9 outside the circles.\n\n**(iii)** $P \\cap Q = \\{2, 6\\}$\n\n> [!answer]\n> **(i)** {{green:$P = \\{1, 2, 3, 6\\}$, $Q = \\{2, 4, 6, 8, 10\\}$}}  **(iii)** {{green:$\\{2, 6\\}$}}",
+    "hint": "List the factors of 6 first.",
+    "explanation": "## Advanced explanation\n\nSince 1 is a factor of 6 and $P$ is a subset of $M$, the set $M$ must include 1, so it runs from 1 to 10.\n\n## Simplified explanation\n\nThe factors of 6 are 1, 2, 3 and 6. The multiples of 2 are the even numbers up to 10. Only 2 and 6 are on both lists.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Solve the inequality $\\dfrac{2x - 2}{4} - \\dfrac{2x - 1}{3} \\le 1$.\n\n(ii) Describe how to illustrate your answer on the number line.",
+    "media": [],
+    "answer": "**(i)** Multiply both sides by 12:\n\n$$3(2x - 2) - 4(2x - 1) \\le 12$$\n\n$$6x - 6 - 8x + 4 \\le 12$$\n\n$$-2x \\le 14$$\n\n$$x \\ge -7$$\n\n**(ii)** Draw a solid dot at $-7$ with an arrow pointing to the right.\n\n> [!answer]\n> {{green:$x \\ge -7$}}, shown by a solid dot at $-7$ and an arrow to the right.",
+    "hint": "The LCM of 4 and 3 is 12.",
+    "explanation": "## Advanced explanation\n\nDividing by $-2$ reverses the inequality sign.\n\n## Simplified explanation\n\nMultiplying by 12 clears the fractions. Simplifying gives $-2x - 2 \\le 12$, so $-2x \\le 14$. Dividing by $-2$ flips the sign, which gives $x \\ge -7$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Express $131_{\\text{five}}$ as a binary numeral.",
+    "media": [],
+    "answer": "To base ten: $1 \\times 25 + 3 \\times 5 + 1 = 41$\n\nTo base two: $41 = 32 + 8 + 1$\n\n> [!answer]\n> {{green:$101001_{\\text{two}}$}}",
+    "hint": "Change to base ten first.",
+    "explanation": "## Advanced explanation\n\nConversion between two non-decimal bases usually goes through base ten.\n\n## Simplified explanation\n\n$131_{\\text{five}}$ is $25 + 15 + 1 = 41$. Then 41 is 32 plus 8 plus 1, which is 101001 in base two.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Three children Kwabena, Esi and Yaw were given 160 oranges to share. Kwabena got $\\dfrac{1}{4}$ of the oranges. Esi and Yaw shared the remainder in the ratio $3 : 2$ respectively.\n\n(i) Find how many oranges Esi received.\n\n(ii) How many more oranges did Yaw receive than Kwabena?",
+    "media": [],
+    "answer": "Kwabena: $\\frac{1}{4} \\times 160 = 40$\n\nRemainder: $160 - 40 = 120$\n\n**(i)** Esi: $\\frac{3}{5} \\times 120 = 72$\n\n**(ii)** Yaw: $\\frac{2}{5} \\times 120 = 48$, and $48 - 40 = 8$\n\n> [!answer]\n> **(i)** {{green:72}}  **(ii)** {{green:8}}",
+    "hint": "Find Kwabena's share before sharing the rest.",
+    "explanation": "## Advanced explanation\n\nThe shares add to the total: $40 + 72 + 48 = 160$.\n\n## Simplified explanation\n\nKwabena gets 40, which leaves 120. In 5 parts, each part is 24. Esi gets 3 parts, 72. Yaw gets 2 parts, 48, which is 8 more than Kwabena.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(a) Using a ruler and a pair of compasses only, construct triangle $XYZ$ such that $|XY| = 6$ cm, $|XZ| = 8$ cm and $|YZ| = 10$ cm.\n\n(b)(i) Construct the mediator of line $YZ$.\n\n(ii) Construct the mediator of line $XZ$.\n\n(iii) Locate $O$, the point of intersection of the mediators of lines $YZ$ and $XZ$.\n\n(iv) With centre $O$ and radius $OY$, draw a circle.\n\n(c) Measure the radius of the circle you have drawn in (b)(iv), hence calculate the circumference of the circle. $[$Take $\\pi = 3.14]$",
+    "media": [],
+    "answer": "Draw $|YZ| = 10$ cm. Draw arcs of radius 6 cm from $Y$ and 8 cm from $Z$. They meet at $X$.\n\nBisect $YZ$ and $XZ$. The mediators cross at $O$, and the circle with centre $O$ through $Y$ also passes through $X$ and $Z$.\n\n**(c)** The radius is 5 cm.\n\n$$2 \\times 3.14 \\times 5 = 31.4$$\n\n> [!answer]\n> **(c)** {{green:radius 5 cm, circumference 31.4 cm}}",
+    "hint": "A mediator is the perpendicular bisector of a line.",
+    "explanation": "## Advanced explanation\n\n$6^2 + 8^2 = 10^2$, so the triangle is right-angled at $X$. The circumcentre of a right-angled triangle is the midpoint of the hypotenuse, so $|OY| = 5$ cm.\n\n## Simplified explanation\n\nMake the triangle from its three sides using compass arcs. The two mediators cross at the middle of $YZ$, so the radius is half of 10 cm. The circumference is $2 \\times 3.14 \\times 5 = 31.4$ cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(a) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. Mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(b) On the same graph sheet, plot the points $A(2, 5)$, $B(4, 3)$ and $C(1, 1)$. Join the points $A$, $B$ and $C$ to form a triangle.\n\n(c) Reflect triangle $ABC$ in the $y$-axis such that $A \\to A_1$, $B \\to B_1$ and $C \\to C_1$. Label the vertices of triangle $A_1B_1C_1$.\n\n(d) Translate triangle $A_1B_1C_1$ by the vector $\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$ such that $A_1 \\to A_2$, $B_1 \\to B_2$ and $C_1 \\to C_2$.\n\n(e) Join the vertices $A_1$, $B_1$, $B_2$ and $C$. Name the figure formed.\n\n(f) Find $\\overrightarrow{A_1B_1}$.",
+    "media": [],
+    "answer": "**(c)** $A_1(-2, 5)$, $B_1(-4, 3)$, $C_1(-1, 1)$\n\n**(d)** $A_2(1, 1)$, $B_2(-1, -1)$, $C_2(2, -3)$\n\n**(e)** $\\overrightarrow{B_1B_2} = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$ and $\\overrightarrow{A_1C} = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$, so one pair of opposite sides is equal and parallel. The figure is a parallelogram.\n\n**(f)** $\\begin{pmatrix} -4 - (-2) \\\\ 3 - 5 \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ -2 \\end{pmatrix}$\n\n> [!answer]\n> **(c)** {{green:$A_1(-2, 5)$, $B_1(-4, 3)$, $C_1(-1, 1)$}}\n>\n> **(d)** {{green:$A_2(1, 1)$, $B_2(-1, -1)$, $C_2(2, -3)$}}\n>\n> **(e)** {{green:a parallelogram}}  **(f)** {{green:$\\begin{pmatrix} -2 \\\\ -2 \\end{pmatrix}$}}",
+    "hint": "Reflecting in the $y$-axis only changes the sign of $x$.",
+    "explanation": "## Advanced explanation\n\nPoint $A_2$ falls on $C$, so $A_1C$ is itself a translation vector. Adjacent sides are not perpendicular, so the figure is not a rectangle.\n\n## Simplified explanation\n\nFlip the sign of each $x$ for the reflection. Add 3 to $x$ and take 4 from $y$ for the translation. In the four-sided figure, two opposite sides go 3 along and 4 down, so it is a parallelogram.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Transformations",
+      "Vectors",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A cylinder closed at one end has radius 7 cm and height 20 cm. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$\n\n(i) Find its total surface area.\n\n(ii) If the cylinder is filled with water to a depth of 5 cm, calculate the volume of water in it.",
+    "media": [],
+    "answer": "**(i)** One circular end and the curved surface:\n\n$$\\frac{22}{7} \\times 7^2 + 2 \\times \\frac{22}{7} \\times 7 \\times 20 = 154 + 880 = 1{,}034$$\n\n**(ii)** $\\frac{22}{7} \\times 7^2 \\times 5 = 770$\n\n> [!answer]\n> **(i)** {{green:1,034 cm²}}  **(ii)** {{green:770 cm³}}",
+    "hint": "Closed at one end means only one circle is counted.",
+    "explanation": "## Advanced explanation\n\nThe total surface area of an open cylinder is $\\pi r^2 + 2\\pi rh$.\n\n## Simplified explanation\n\nThe base circle is 154 cm². The curved side is 880 cm². Together they make 1,034 cm². The water sits on the 154 cm² base to a depth of 5 cm, which is 770 cm³.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Evaluate $\\dfrac{0.07 \\times 0.6}{0.014 \\times 0.03}$, leaving your answer in standard form.",
+    "media": [],
+    "answer": "$$\\frac{0.07}{0.014} = 5, \\quad \\frac{0.6}{0.03} = 20$$\n\n$$5 \\times 20 = 100 = 1 \\times 10^2$$\n\n> [!answer]\n> {{green:$1 \\times 10^2$}}",
+    "hint": "Cancel each pair of numbers separately.",
+    "explanation": "## Advanced explanation\n\nDividing the decimals in pairs avoids long multiplication.\n\n## Simplified explanation\n\n$0.07 \\div 0.014 = 5$ and $0.6 \\div 0.03 = 20$. Then $5 \\times 20 = 100$, which is $1 \\times 10^2$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2001 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  }
+]

@@ -1,0 +1,1539 @@
+[
+  {
+    "type": "choice",
+    "body": "If $P =$ {multiples of 4 less than 16}, find $P$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4, 8, 10",
+        "hint": "10 is not a multiple of 4."
+      },
+      {
+        "text": "4, 8, 12",
+        "hint": "Correct. These are the multiples of 4 below 16."
+      },
+      {
+        "text": "1, 4, 8, 12",
+        "hint": "1 is not a multiple of 4."
+      },
+      {
+        "text": "4, 8, 12, 16",
+        "hint": "16 is not less than 16."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count in 4s and stop before 16.",
+    "explanation": "## Advanced explanation\n\nThe multiples of 4 below 16 are $4 \\times 1$, $4 \\times 2$ and $4 \\times 3$.\n\n## Simplified explanation\n\nCount in 4s: 4, 8, 12. The next is 16, which is not less than 16.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Sets",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The addition $243 + 221 = 1014$ was obtained in base $x$. Find $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq2.png",
+        "caption": "Column addition: 243 plus 221 gives 1014 in base x."
+      }
+    ],
+    "options": [
+      {
+        "text": "Four",
+        "hint": "The digit 4 cannot appear in base four."
+      },
+      {
+        "text": "Five",
+        "hint": "Correct. $3 + 1 = 4$, and $4 + 2 = 6$, which is written 11 in base five."
+      },
+      {
+        "text": "Six",
+        "hint": "In base six, $4 + 2$ is written 10, which does not fit the second column."
+      },
+      {
+        "text": "Seven",
+        "hint": "In base seven, $4 + 2 = 6$ with no carry, which does not fit."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the middle column: $4 + 2$ gives a digit 1 and a carry.",
+    "explanation": "## Advanced explanation\n\nThe middle column gives $4 + 2 = 6 = 1 \\times x + 1$, so $x = 5$. Check: $2 + 2 + 1 = 5$, which gives 10 in base five.\n\n## Simplified explanation\n\nIn the middle column, $4 + 2 = 6$, but the answer shows 1 and carries 1. So one carry is worth 5, which means the base is five.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A farmer left home at 4:35 a.m. and arrived on his farm at 6:18 a.m. How long did he take to get to his farm?",
+    "media": [],
+    "options": [
+      {
+        "text": "1 hour 23 minutes.",
+        "hint": "From 4:35 to 5:35 is 1 hour, and from 5:35 to 6:18 is 43 minutes."
+      },
+      {
+        "text": "1 hour 43 minutes.",
+        "hint": "Correct. 1 hour and then 43 minutes."
+      },
+      {
+        "text": "2 hours 43 minutes.",
+        "hint": "From 4:35 to 6:35 is already past 6:18."
+      },
+      {
+        "text": "10 hours 53 minutes.",
+        "hint": "This adds the two times. Subtract them."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count on from 4:35 to 5:35, then to 6:18.",
+    "explanation": "## Advanced explanation\n\n$6{:}18 - 4{:}35 = 5{:}78 - 4{:}35 = 1$ hour 43 minutes.\n\n## Simplified explanation\n\nFrom 4:35 to 5:35 is 1 hour. From 5:35 to 6:00 is 25 minutes, and 18 more makes 43 minutes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 2474.5 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2.4745 \\times 10^2$",
+        "hint": "This equals 247.45."
+      },
+      {
+        "text": "$2.4745 \\times 10^3$",
+        "hint": "Correct. The point moves 3 places."
+      },
+      {
+        "text": "$2.4745 \\times 10^{-2}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$2.4745 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Move the point until one digit is in front of it.",
+    "explanation": "## Advanced explanation\n\n$2474.5 = 2.4745 \\times 10^3$.\n\n## Simplified explanation\n\nMove the point 3 places to the left to get 2.4745. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $1\\dfrac{1}{2} + 2\\dfrac{1}{4} - 3\\dfrac{5}{8}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Correct. $\\frac{12 + 18 - 29}{8} = \\frac{1}{8}$."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "Over 8: $12 + 18 - 29 = 1$."
+      },
+      {
+        "text": "$\\dfrac{3}{16}$",
+        "hint": "Use 8 as the common denominator."
+      },
+      {
+        "text": "$\\dfrac{5}{16}$",
+        "hint": "Use 8 as the common denominator."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change each to an improper fraction over 8.",
+    "explanation": "## Advanced explanation\n\n$\\frac{12}{8} + \\frac{18}{8} - \\frac{29}{8} = \\frac{1}{8}$.\n\n## Simplified explanation\n\nChange them to 8ths: 12, 18 and 29. Then $12 + 18 - 29 = 1$, so the answer is $\\frac{1}{8}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the next two numbers in the sequence: 2, 5, 9, 14, 20, _, _.",
+    "media": [],
+    "options": [
+      {
+        "text": "26, 34",
+        "hint": "The gaps go up by 1 each time: 3, 4, 5, 6, 7, 8."
+      },
+      {
+        "text": "26, 35",
+        "hint": "The gaps go up by 1 each time: 3, 4, 5, 6, 7, 8."
+      },
+      {
+        "text": "27, 34",
+        "hint": "After 27, the next gap is 8."
+      },
+      {
+        "text": "27, 35",
+        "hint": "Correct. $20 + 7 = 27$ and $27 + 8 = 35$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look at the gaps between the terms.",
+    "explanation": "## Advanced explanation\n\nThe differences are 3, 4, 5, 6, so the next two are 7 and 8.\n\n## Simplified explanation\n\nThe gaps grow by 1 each time. So add 7 to get 27, then add 8 to get 35.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of three numbers is 28,542. Two of the numbers are 10,250 and 9,750. Find the third number.",
+    "media": [],
+    "options": [
+      {
+        "text": "8,452",
+        "hint": "Check the subtraction: $28{,}542 - 20{,}000$."
+      },
+      {
+        "text": "8,542",
+        "hint": "Correct. $28{,}542 - 20{,}000 = 8{,}542$."
+      },
+      {
+        "text": "9,452",
+        "hint": "Check the subtraction: $28{,}542 - 20{,}000$."
+      },
+      {
+        "text": "9,542",
+        "hint": "Check the subtraction: $28{,}542 - 20{,}000$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the two known numbers first.",
+    "explanation": "## Advanced explanation\n\n$28{,}542 - (10{,}250 + 9{,}750) = 8{,}542$.\n\n## Simplified explanation\n\n10,250 and 9,750 add to 20,000. Taking that from 28,542 leaves 8,542.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "135 pencils were to be packed into boxes. Each box could take 12 pencils. Find the number of boxes that were fully packed.",
+    "media": [],
+    "options": [
+      {
+        "text": "10 boxes",
+        "hint": "This packs only 120 pencils, and 15 more would fill another box."
+      },
+      {
+        "text": "11 boxes",
+        "hint": "Correct. $11 \\times 12 = 132$, with 3 left."
+      },
+      {
+        "text": "12 boxes",
+        "hint": "This needs 144 pencils."
+      },
+      {
+        "text": "13 boxes",
+        "hint": "This needs 156 pencils."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide and keep only the whole boxes.",
+    "explanation": "## Advanced explanation\n\n$135 = 11 \\times 12 + 3$, so 11 boxes are full.\n\n## Simplified explanation\n\n$11 \\times 12 = 132$. The 3 pencils left cannot fill another box.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the fractions $\\dfrac{13}{20}$, $\\dfrac{3}{5}$, $\\dfrac{3}{4}$ and $\\dfrac{7}{10}$ is greatest?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This equals $\\frac{12}{20}$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "Correct. This equals $\\frac{15}{20}$."
+      },
+      {
+        "text": "$\\dfrac{7}{10}$",
+        "hint": "This equals $\\frac{14}{20}$."
+      },
+      {
+        "text": "$\\dfrac{13}{20}$",
+        "hint": "$\\frac{3}{4}$ is $\\frac{15}{20}$, which is greater."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change them all to 20ths.",
+    "explanation": "## Advanced explanation\n\nOver 20, the numerators are 13, 12, 15 and 14, so $\\frac{3}{4}$ is the greatest.\n\n## Simplified explanation\n\nAs 20ths, they are 13, 12, 15 and 14. The largest is 15, which is $\\frac{3}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Out of ₵550,000.00 given to a school, an amount of ₵325,000.00 was used. What fraction of the total amount was used?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{4}{13}$",
+        "hint": "Use the amount used over the total."
+      },
+      {
+        "text": "$\\dfrac{9}{13}$",
+        "hint": "This is the amount left over the amount used."
+      },
+      {
+        "text": "$\\dfrac{9}{22}$",
+        "hint": "This is the fraction not used."
+      },
+      {
+        "text": "$\\dfrac{13}{22}$",
+        "hint": "Correct. $\\frac{325}{550} = \\frac{13}{22}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write the amount used over the total, then reduce.",
+    "explanation": "## Advanced explanation\n\n$\\frac{325{,}000}{550{,}000} = \\frac{325}{550} = \\frac{13}{22}$.\n\n## Simplified explanation\n\n325 over 550 reduces by dividing the top and bottom by 25, which gives $\\frac{13}{22}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi bought four pencils at ₵200.00 each and five pens at ₵350.00 each. How much did he pay altogether?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵2,400.00",
+        "hint": "Check the pens: $5 \\times 350 = 1{,}750$."
+      },
+      {
+        "text": "₵2,450.00",
+        "hint": "Check the pens: $5 \\times 350 = 1{,}750$."
+      },
+      {
+        "text": "₵2,550.00",
+        "hint": "Correct. $800 + 1{,}750 = 2{,}550$."
+      },
+      {
+        "text": "₵2,650.00",
+        "hint": "Check the pencils: $4 \\times 200 = 800$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the cost of the pencils and pens separately.",
+    "explanation": "## Advanced explanation\n\n$4(200) + 5(350) = 800 + 1{,}750 = 2{,}550$.\n\n## Simplified explanation\n\nThe pencils cost ₵800 and the pens cost ₵1,750. Together that is ₵2,550.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "John's uncle sent him ₵120,000.00 through a bank which charges 5% commission. How much commission was paid?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵5,000.00",
+        "hint": "This is 5% of ₵100,000.00."
+      },
+      {
+        "text": "₵6,000.00",
+        "hint": "Correct. 5% of ₵120,000.00 is ₵6,000.00."
+      },
+      {
+        "text": "₵7,000.00",
+        "hint": "This is 5% of ₵140,000.00."
+      },
+      {
+        "text": "₵7,200.00",
+        "hint": "This is 6% of ₵120,000.00."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find 5% of the amount.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{100} \\times 120{,}000 = 6{,}000$.\n\n## Simplified explanation\n\n10% of ₵120,000 is ₵12,000, and 5% is half of that, ₵6,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "8 girls can weed a plot of land in 10 days. How many days will 5 girls take to weed the same plot of land, if they work at the same rate?",
+    "media": [],
+    "options": [
+      {
+        "text": "6 days",
+        "hint": "Fewer girls take longer than 10 days."
+      },
+      {
+        "text": "8 days",
+        "hint": "Fewer girls take longer than 10 days."
+      },
+      {
+        "text": "12 days",
+        "hint": "$8 \\times 10 = 80$ girl-days, and $80 \\div 5$ is more than this."
+      },
+      {
+        "text": "16 days",
+        "hint": "Correct. $80 \\div 5 = 16$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Fewer girls take more days. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nWork needed: $8 \\times 10 = 80$ girl-days, and $\\frac{80}{5} = 16$ days.\n\n## Simplified explanation\n\nOne girl alone would take 80 days. Five girls share this work, and $80 \\div 5 = 16$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A mapping is defined by $x \\to x^2 - 1$. What is the image of 3 under the mapping?",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "This is $2(3) - 1$. Square the 3."
+      },
+      {
+        "text": "6",
+        "hint": "$3^2$ is 9, not 7."
+      },
+      {
+        "text": "7",
+        "hint": "$3^2$ is 9, not 8."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. $9 - 1 = 8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Put $x = 3$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$3^2 - 1 = 9 - 1 = 8$.\n\n## Simplified explanation\n\n$3 \\times 3 = 9$, and $9 - 1 = 8$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A typist charges ₵2,000.00 for the first 5 sheets typed and ₵600.00 for any additional sheet. How much will Barbara pay, if she presents 20 sheets for typing?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵8,000.00",
+        "hint": "There are 15 additional sheets."
+      },
+      {
+        "text": "₵11,000.00",
+        "hint": "Correct. $2{,}000 + 15 \\times 600 = 11{,}000$."
+      },
+      {
+        "text": "₵12,000.00",
+        "hint": "This charges ₵600.00 for all 20 sheets."
+      },
+      {
+        "text": "₵19,000.00",
+        "hint": "There are 15 additional sheets, at ₵600.00 each."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Only the sheets after the first 5 cost ₵600.00 each.",
+    "explanation": "## Advanced explanation\n\n$2{,}000 + (20 - 5) \\times 600 = 2{,}000 + 9{,}000 = 11{,}000$.\n\n## Simplified explanation\n\nThe first 5 sheets cost ₵2,000. The other 15 sheets cost $15 \\times 600 = 9{,}000$. Together that is ₵11,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama covered a distance of 100 m in 12 seconds. Express her speed in kilometres per hour.",
+    "media": [],
+    "options": [
+      {
+        "text": "5 km/h",
+        "hint": "Multiply metres per second by 3.6."
+      },
+      {
+        "text": "10 km/h",
+        "hint": "Multiply metres per second by 3.6."
+      },
+      {
+        "text": "20 km/h",
+        "hint": "Multiply metres per second by 3.6."
+      },
+      {
+        "text": "30 km/h",
+        "hint": "Correct. In 1 hour she covers 30,000 m."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How far does she go in 3,600 seconds?",
+    "explanation": "## Advanced explanation\n\n$\\frac{100}{12} \\times 3.6 = 30$ km/h.\n\n## Simplified explanation\n\nAn hour has 300 lots of 12 seconds. So she covers $300 \\times 100 = 30{,}000$ m, which is 30 km.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Yakubu, Seidu and Amina shared an amount of money in the ratio $3 : 4 : 5$. Find how much was shared, if Amina received ₵40,000.00.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵72,000.00",
+        "hint": "One part is ₵8,000.00, and there are 12 parts."
+      },
+      {
+        "text": "₵80,000.00",
+        "hint": "One part is ₵8,000.00, and there are 12 parts."
+      },
+      {
+        "text": "₵96,000.00",
+        "hint": "Correct. $12 \\times 8{,}000 = 96{,}000$."
+      },
+      {
+        "text": "₵120,000.00",
+        "hint": "One part is ₵8,000.00, and there are 12 parts."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "₵40,000.00 is 5 parts. Find 1 part.",
+    "explanation": "## Advanced explanation\n\nTotal $= \\frac{12}{5} \\times 40{,}000 = 96{,}000$.\n\n## Simplified explanation\n\n5 parts make ₵40,000, so 1 part is ₵8,000. There are 12 parts altogether, which is ₵96,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Abban paid ₵630,000.00 for a bicycle at a discount of 10%. Find the actual selling price of the bicycle.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵567,000.00",
+        "hint": "This takes off another 10%."
+      },
+      {
+        "text": "₵573,000.00",
+        "hint": "The actual price is higher than what he paid."
+      },
+      {
+        "text": "₵693,000.00",
+        "hint": "This adds 10% of what he paid. The 10% is of the actual price."
+      },
+      {
+        "text": "₵700,000.00",
+        "hint": "Correct. 90% of ₵700,000.00 is ₵630,000.00."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "He paid 90% of the actual price.",
+    "explanation": "## Advanced explanation\n\n$0.9P = 630{,}000$, so $P = 700{,}000$.\n\n## Simplified explanation\n\n₵630,000 is 90% of the price, so 10% is ₵70,000 and 100% is ₵700,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The population of a town in 1990 was 88,000. The population increased by 20% in 1998. Find the population in 1998.",
+    "media": [],
+    "options": [
+      {
+        "text": "70,400",
+        "hint": "This is a decrease of 20%."
+      },
+      {
+        "text": "94,600",
+        "hint": "20% of 88,000 is 17,600."
+      },
+      {
+        "text": "96,800",
+        "hint": "This is an increase of 10%."
+      },
+      {
+        "text": "105,600",
+        "hint": "Correct. $88{,}000 \\times 1.2 = 105{,}600$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 20% and add it on.",
+    "explanation": "## Advanced explanation\n\n$88{,}000 \\times 1.2 = 105{,}600$.\n\n## Simplified explanation\n\n20% of 88,000 is 17,600. Adding it gives 105,600.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a * b = 2a - b$, find $3 * 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "$2a$ means $2 \\times 3$, which is 6."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. $2(3) - 2 = 4$."
+      },
+      {
+        "text": "5",
+        "hint": "This adds 3 and 2."
+      },
+      {
+        "text": "6",
+        "hint": "This is $2a$. Subtract $b$ too."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put $a = 3$ and $b = 2$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$3 * 2 = 2(3) - 2 = 4$.\n\n## Simplified explanation\n\nDouble 3 to get 6, then take away 2 to get 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $r = \\dfrac{m + 1}{m - 2}$, express $m$ in terms of $r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$m = \\dfrac{2r + 1}{r - 1}$",
+        "hint": "Correct. $m(r - 1) = 2r + 1$."
+      },
+      {
+        "text": "$m = \\dfrac{2r + 1}{r + 1}$",
+        "hint": "Collecting the $m$ terms gives $rm - m$."
+      },
+      {
+        "text": "$m = \\dfrac{2r - 1}{r - 1}$",
+        "hint": "Moving $-2r$ across makes it $+2r$."
+      },
+      {
+        "text": "$m = \\dfrac{2r - 1}{r + 1}$",
+        "hint": "Check the signs when collecting the terms."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply both sides by $(m - 2)$.",
+    "explanation": "## Advanced explanation\n\n$rm - 2r = m + 1$, so $rm - m = 2r + 1$ and $m = \\frac{2r + 1}{r - 1}$.\n\n## Simplified explanation\n\nMultiply out to get $rm - 2r = m + 1$. Put the $m$ terms together, take out $m$, and divide by $r - 1$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Forty percent of students in a class speak Ga and seventy five percent speak Twi. Every student speaks at least one of the two languages.\n\nWhat percentage of the class speak both Ga and Twi?",
+    "media": [],
+    "options": [
+      {
+        "text": "5%",
+        "hint": "$40\\% + 75\\% - 100\\%$."
+      },
+      {
+        "text": "10%",
+        "hint": "$40\\% + 75\\% - 100\\%$."
+      },
+      {
+        "text": "15%",
+        "hint": "Correct. $115\\% - 100\\% = 15\\%$."
+      },
+      {
+        "text": "30%",
+        "hint": "$40\\% + 75\\% - 100\\%$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The two percentages add to more than 100%.",
+    "explanation": "## Advanced explanation\n\n$n(G \\cap T) = 40\\% + 75\\% - 100\\% = 15\\%$.\n\n## Simplified explanation\n\n40% and 75% make 115%, which is 15% too many. Those 15% were counted twice, so they speak both.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Sets",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Forty percent of students in a class speak Ga and seventy five percent speak Twi. Every student speaks at least one of the two languages.\n\nIf there are 40 students in the class, how many of them speak Twi?",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "This is 25% of 40."
+      },
+      {
+        "text": "16",
+        "hint": "This is the number who speak Ga."
+      },
+      {
+        "text": "24",
+        "hint": "This is 60% of 40."
+      },
+      {
+        "text": "30",
+        "hint": "Correct. 75% of 40 is 30."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 75% of 40.",
+    "explanation": "## Advanced explanation\n\n$0.75 \\times 40 = 30$.\n\n## Simplified explanation\n\n75% is three quarters. A quarter of 40 is 10, so three quarters is 30.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A point $(2, 1)$ is reflected in the $y$-axis. Find its image.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-1, 2)$",
+        "hint": "This is a rotation of $90^\\circ$ anticlockwise."
+      },
+      {
+        "text": "$(1, -2)$",
+        "hint": "This is a rotation of $90^\\circ$ clockwise."
+      },
+      {
+        "text": "$(-2, 1)$",
+        "hint": "Correct. The $x$-coordinate changes sign."
+      },
+      {
+        "text": "$(2, -1)$",
+        "hint": "This is a reflection in the $x$-axis."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Reflecting in the $y$-axis changes only the sign of $x$.",
+    "explanation": "## Advanced explanation\n\nA reflection in the $y$-axis maps $(x, y)$ to $(-x, y)$.\n\n## Simplified explanation\n\nThe $y$-axis acts as a mirror. The point keeps its $y$, and its $x$ flips from 2 to $-2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $(2a + b)(a - b)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2a^2 - 3ab - b^2$",
+        "hint": "The middle terms are $-2ab + ab = -ab$."
+      },
+      {
+        "text": "$2a^2 - ab - b^2$",
+        "hint": "Correct. $2a^2 - 2ab + ab - b^2$."
+      },
+      {
+        "text": "$2a^2 + ab + b^2$",
+        "hint": "$b \\times -b$ is $-b^2$."
+      },
+      {
+        "text": "$2a^2 + 3ab - b^2$",
+        "hint": "The middle terms are $-2ab + ab = -ab$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$2a^2 - 2ab + ab - b^2 = 2a^2 - ab - b^2$.\n\n## Simplified explanation\n\n$2a \\times a = 2a^2$. The middle terms give $-2ab + ab = -ab$. Last, $b \\times -b = -b^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $s = \\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$ and $r = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$, find $3s + r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ 14 \\end{pmatrix}$",
+        "hint": "Correct. $-3 + 3 = 0$ and $12 + 2 = 14$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ 6 \\end{pmatrix}$",
+        "hint": "For the bottom, $3 \\times 4 = 12$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 6 \\end{pmatrix}$",
+        "hint": "For the top, $3 \\times -1 = -3$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 14 \\end{pmatrix}$",
+        "hint": "For the top, $3 \\times -1 = -3$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply $s$ by 3 first, then add $r$.",
+    "explanation": "## Advanced explanation\n\n$3s + r = \\begin{pmatrix} -3 + 3 \\\\ 12 + 2 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 14 \\end{pmatrix}$.\n\n## Simplified explanation\n\nThree times $s$ gives $-3$ and 12. Adding $r$ gives 0 and 14.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $y$ in the equation: $\\dfrac{1}{3}y + \\dfrac{1}{5}y = 8$",
+    "media": [],
+    "options": [
+      {
+        "text": "15",
+        "hint": "Correct. $\\frac{8}{15}y = 8$."
+      },
+      {
+        "text": "30",
+        "hint": "This gives 16, not 8."
+      },
+      {
+        "text": "45",
+        "hint": "This gives 24, not 8."
+      },
+      {
+        "text": "60",
+        "hint": "This gives 32, not 8."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add the fractions, using 15 as the denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5y + 3y}{15} = 8$, so $8y = 120$ and $y = 15$.\n\n## Simplified explanation\n\n$\\frac{1}{3}$ and $\\frac{1}{5}$ add to $\\frac{8}{15}$. So $\\frac{8}{15}$ of $y$ is 8, which makes $y = 15$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following statements best describes the construction?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq28.png",
+        "caption": "A base line with a semicircular arc about a point on it, a small mark on the arc, and a line from the point passing through crossing arcs, making an acute angle with the base."
+      }
+    ],
+    "options": [
+      {
+        "text": "Constructing 30°",
+        "hint": "Correct. A 60° angle is marked on the arc and then bisected."
+      },
+      {
+        "text": "Constructing 60°",
+        "hint": "The bisecting arcs cut the 60° in half."
+      },
+      {
+        "text": "Constructing 120°",
+        "hint": "The line is below 60°, not above it."
+      },
+      {
+        "text": "Constructing 135°",
+        "hint": "The drawn angle is acute."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A 60° angle is marked on the arc. What do the crossing arcs do to it?",
+    "explanation": "## Advanced explanation\n\nAn arc of the compass radius marks $60^\\circ$, and bisecting it gives $30^\\circ$.\n\n## Simplified explanation\n\nThe small arc marks 60° on the big arc. The line through the crossing marks cuts that in half, which gives 30°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $\\triangle STR$ is the enlargement of $\\triangle PQR$. If $|PQ| = 2.4$ cm, $|TQ| = 8$ cm and $|QR| = 4$ cm, find $|ST|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq29.png",
+        "caption": "Right-angled triangle STR with Q on TR and P on SR. PQ is perpendicular to TR and is marked 2.4, TQ is marked 8 and QR is marked 4. The diagram gives these lengths in m."
+      }
+    ],
+    "options": [
+      {
+        "text": "4.8 cm",
+        "hint": "This uses a scale factor of 2. The factor is $12 \\div 4 = 3$."
+      },
+      {
+        "text": "7.2 cm",
+        "hint": "Correct. $2.4 \\times 3 = 7.2$."
+      },
+      {
+        "text": "8.4 cm",
+        "hint": "Multiply by the scale factor, 3."
+      },
+      {
+        "text": "9.6 cm",
+        "hint": "This uses a scale factor of 4. The factor is $12 \\div 4 = 3$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$|TR| = 8 + 4$. Find the scale factor.",
+    "explanation": "## Advanced explanation\n\nThe scale factor is $\\frac{|TR|}{|QR|} = \\frac{12}{4} = 3$, so $|ST| = 3 \\times 2.4 = 7.2$ cm.\n\n## Simplified explanation\n\n$TR$ is 12 and $QR$ is 4, so the large triangle is 3 times the small one. Then $2.4 \\times 3 = 7.2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Transformations",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows how a man spends his monthly salary.\n\nFind the value of $a$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq30-32.png",
+        "caption": "Pie chart of a monthly salary. Food 105°, Rent and Utilities 78°, Savings 60° and Other expenses a°."
+      }
+    ],
+    "options": [
+      {
+        "text": "75°",
+        "hint": "The angles must add to 360°."
+      },
+      {
+        "text": "78°",
+        "hint": "This is the angle for Rent and Utilities."
+      },
+      {
+        "text": "117°",
+        "hint": "Correct. $360 - 243 = 117$."
+      },
+      {
+        "text": "120°",
+        "hint": "The angles must add to 360°."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The angles of a pie chart add to 360°.",
+    "explanation": "## Advanced explanation\n\n$a = 360 - (105 + 78 + 60) = 117$.\n\n## Simplified explanation\n\nThe given angles add to 243. The rest of the 360 is 117.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows how a man spends his monthly salary.\n\nIf the man earns ₵720,000.00 monthly, find how much he spends on food.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq30-32.png",
+        "caption": "Pie chart of a monthly salary. Food 105°, Rent and Utilities 78°, Savings 60° and Other expenses a°."
+      }
+    ],
+    "options": [
+      {
+        "text": "₵120,000.00",
+        "hint": "This is the amount he saves."
+      },
+      {
+        "text": "₵180,000.00",
+        "hint": "This would be an angle of 90°."
+      },
+      {
+        "text": "₵210,000.00",
+        "hint": "Correct. $\\frac{105}{360} \\times 720{,}000$."
+      },
+      {
+        "text": "₵240,000.00",
+        "hint": "This would be an angle of 120°."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Each degree stands for ₵2,000.00.",
+    "explanation": "## Advanced explanation\n\n$\\frac{105}{360} \\times 720{,}000 = 210{,}000$.\n\n## Simplified explanation\n\n₵720,000 over 360° is ₵2,000 per degree. Food has 105°, which is ₵210,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows how a man spends his monthly salary.\n\nWhat percentage of his salary does he save?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq30-32.png",
+        "caption": "Pie chart of a monthly salary. Food 105°, Rent and Utilities 78°, Savings 60° and Other expenses a°."
+      }
+    ],
+    "options": [
+      {
+        "text": "16.7%",
+        "hint": "Correct. $\\frac{60}{360} \\times 100 \\approx 16.7$."
+      },
+      {
+        "text": "21.7%",
+        "hint": "This is the percentage for Rent and Utilities."
+      },
+      {
+        "text": "25.0%",
+        "hint": "This would be an angle of 90°."
+      },
+      {
+        "text": "29.2%",
+        "hint": "This is the percentage for Food."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Savings have an angle of 60°.",
+    "explanation": "## Advanced explanation\n\n$\\frac{60}{360} \\times 100\\% \\approx 16.7\\%$.\n\n## Simplified explanation\n\n60° is one sixth of the circle, which is about 16.7%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $XYZ$ is a triangle and $YW$ is a straight line. Angle $XYZ = 52^\\circ$ and angle $XZW = 125^\\circ$. Find angle $YXZ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002asecaq33.png",
+        "caption": "Triangle XYZ with YZ extended to W. Angle XYZ is 52° and angle XZW is 125°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$35^\\circ$",
+        "hint": "Use $125^\\circ - 52^\\circ$."
+      },
+      {
+        "text": "$55^\\circ$",
+        "hint": "This is angle $XZY$."
+      },
+      {
+        "text": "$73^\\circ$",
+        "hint": "Correct. $125^\\circ - 52^\\circ = 73^\\circ$."
+      },
+      {
+        "text": "$107^\\circ$",
+        "hint": "Use $125^\\circ - 52^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "An exterior angle equals the sum of the two interior opposite angles.",
+    "explanation": "## Advanced explanation\n\n$125^\\circ = 52^\\circ + \\text{angle } YXZ$, so angle $YXZ = 73^\\circ$.\n\n## Simplified explanation\n\nThe outside angle of 125° equals the two far inside angles added together. So $125 - 52 = 73$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 18 girls and 22 boys in a class. A prefect is to be chosen at random from the class. What is the probability that the prefect will be a girl?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{18}$",
+        "hint": "There are 18 girls out of 40 students."
+      },
+      {
+        "text": "$\\dfrac{9}{20}$",
+        "hint": "Correct. $\\frac{18}{40} = \\frac{9}{20}$."
+      },
+      {
+        "text": "$\\dfrac{11}{20}$",
+        "hint": "This is the probability of a boy."
+      },
+      {
+        "text": "$\\dfrac{9}{11}$",
+        "hint": "This is girls over boys. Use the total of 40."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The total number of students is 40.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{girl}) = \\frac{18}{18 + 22} = \\frac{9}{20}$.\n\n## Simplified explanation\n\n18 of the 40 students are girls, and $\\frac{18}{40}$ reduces to $\\frac{9}{20}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The length of a rectangle is three times its width. If its perimeter is 24 cm, find its width.",
+    "media": [],
+    "options": [
+      {
+        "text": "3 cm",
+        "hint": "Correct. $2(3 + 9) = 24$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This gives a perimeter of 32 cm."
+      },
+      {
+        "text": "6 cm",
+        "hint": "This gives a perimeter of 48 cm."
+      },
+      {
+        "text": "8 cm",
+        "hint": "This gives a perimeter of 64 cm."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let the width be $w$, so the length is $3w$.",
+    "explanation": "## Advanced explanation\n\n$2(w + 3w) = 24$, so $8w = 24$ and $w = 3$.\n\n## Simplified explanation\n\nGoing around uses 8 widths altogether. So $24 \\div 8 = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The interior angle of a regular polygon is 135°. How many sides has the polygon?",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "A regular hexagon has interior angles of 120°."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. Each exterior angle is 45°, and $360 \\div 45 = 8$."
+      },
+      {
+        "text": "9",
+        "hint": "A regular nonagon has interior angles of 140°."
+      },
+      {
+        "text": "12",
+        "hint": "A regular 12-sided polygon has interior angles of 150°."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the exterior angle first.",
+    "explanation": "## Advanced explanation\n\nExterior angle: $180^\\circ - 135^\\circ = 45^\\circ$. So $n = \\frac{360}{45} = 8$.\n\n## Simplified explanation\n\nThe outside angle is $180 - 135 = 45$. The outside angles add to 360, so $360 \\div 45 = 8$ sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A square of side 4 cm is enlarged by a scale factor of 3. Calculate the area of the enlarged square.",
+    "media": [],
+    "options": [
+      {
+        "text": "36 cm²",
+        "hint": "This uses a side of 6 cm. The new side is 12 cm."
+      },
+      {
+        "text": "72 cm²",
+        "hint": "The new side is 12 cm, and $12^2 = 144$."
+      },
+      {
+        "text": "96 cm²",
+        "hint": "The new side is 12 cm, and $12^2 = 144$."
+      },
+      {
+        "text": "144 cm²",
+        "hint": "Correct. $12 \\times 12 = 144$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the new side first.",
+    "explanation": "## Advanced explanation\n\nThe new side is $3 \\times 4 = 12$ cm, so the area is $12^2 = 144$ cm². This is $3^2 = 9$ times the old area.\n\n## Simplified explanation\n\nThe side becomes 12 cm. Then $12 \\times 12 = 144$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Transformations",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular tank has a length of 3 m, a width of 2 m and a height of 1.5 m.\n\nIf the tank is filled with water to $\\dfrac{2}{3}$ of its capacity, calculate the volume of the water in the tank.",
+    "media": [],
+    "options": [
+      {
+        "text": "4.5 m³",
+        "hint": "This is half of the capacity."
+      },
+      {
+        "text": "6.0 m³",
+        "hint": "Correct. $\\frac{2}{3} \\times 9 = 6$."
+      },
+      {
+        "text": "7.5 m³",
+        "hint": "The capacity is 9 m³, and $\\frac{2}{3}$ of it is 6 m³."
+      },
+      {
+        "text": "13.5 m³",
+        "hint": "This is more than the capacity."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the capacity first.",
+    "explanation": "## Advanced explanation\n\n$V = 3 \\times 2 \\times 1.5 = 9$ m³, and $\\frac{2}{3} \\times 9 = 6$ m³.\n\n## Simplified explanation\n\nThe tank holds 9 m³. Two thirds of 9 is 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular tank has a length of 3 m, a width of 2 m and a height of 1.5 m.\n\nThe Alpha Water Company charges ₵40,000.00 for every 1 m³ of water. Find how much it will cost to fill the tank completely.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵180,000.00",
+        "hint": "This is for 4.5 m³."
+      },
+      {
+        "text": "₵240,000.00",
+        "hint": "This is for 6 m³."
+      },
+      {
+        "text": "₵300,000.00",
+        "hint": "This is for 7.5 m³."
+      },
+      {
+        "text": "₵360,000.00",
+        "hint": "Correct. $9 \\times 40{,}000 = 360{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the capacity of the tank first.",
+    "explanation": "## Advanced explanation\n\n$9$ m³ $\\times$ ₵40,000.00 per m³ $=$ ₵360,000.00.\n\n## Simplified explanation\n\nThe tank holds 9 m³, and each one costs ₵40,000. That comes to ₵360,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 34 m 5 cm 6 mm in millimetres.",
+    "media": [],
+    "options": [
+      {
+        "text": "3,456 mm",
+        "hint": "1 m is 1,000 mm, not 100 mm."
+      },
+      {
+        "text": "34,056 mm",
+        "hint": "Correct. $34{,}000 + 50 + 6$."
+      },
+      {
+        "text": "34,506 mm",
+        "hint": "5 cm is 50 mm, not 500 mm."
+      },
+      {
+        "text": "340,506 mm",
+        "hint": "1 m is 1,000 mm, not 10,000 mm."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "1 m = 1,000 mm and 1 cm = 10 mm.",
+    "explanation": "## Advanced explanation\n\n$34 \\times 1{,}000 + 5 \\times 10 + 6 = 34{,}056$ mm.\n\n## Simplified explanation\n\n34 m is 34,000 mm and 5 cm is 50 mm. Adding 6 mm gives 34,056 mm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2002a Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $2\\dfrac{3}{4} \\div \\left(3\\dfrac{3}{8} - 1\\dfrac{1}{12}\\right)$",
+    "media": [],
+    "answer": "Bracket: $\\frac{81}{24} - \\frac{26}{24} = \\frac{55}{24}$\n\n$$\\frac{11}{4} \\div \\frac{55}{24} = \\frac{11}{4} \\times \\frac{24}{55} = \\frac{6}{5} = 1\\frac{1}{5}$$\n\n> [!answer]\n> {{green:$1\\dfrac{1}{5}$}}",
+    "hint": "Work out the bracket first, using 24 as the denominator.",
+    "explanation": "## Advanced explanation\n\nTo divide by a fraction, multiply by its reciprocal.\n\n## Simplified explanation\n\nThe bracket gives $\\frac{55}{24}$. $2\\frac{3}{4}$ is $\\frac{11}{4}$. Turn $\\frac{55}{24}$ upside down and multiply to get $\\frac{6}{5}$, which is $1\\frac{1}{5}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A ribbon of length 3 m is to be cut into strips of length 14 cm.\n\n(i) How many strips of length 14 cm were cut?\n\n(ii) What length of ribbon remained?",
+    "media": [],
+    "answer": "3 m is 300 cm:\n\n$$300 = 21 \\times 14 + 6$$\n\n> [!answer]\n> **(i)** {{green:21}}  **(ii)** {{green:6 cm}}",
+    "hint": "Change the metres to centimetres first.",
+    "explanation": "## Advanced explanation\n\nThis is division with a remainder, where the remainder is the unused ribbon.\n\n## Simplified explanation\n\n3 m is 300 cm. $21 \\times 14 = 294$, so 21 strips can be cut, and 6 cm is left over.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Measurement",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "One-fourth of a number is added to one-fifth of the number. If the result is 18, find the number.",
+    "media": [],
+    "answer": "$$\\frac{n}{4} + \\frac{n}{5} = 18$$\n\n$$\\frac{9n}{20} = 18$$\n\n$$n = 40$$\n\n> [!answer]\n> {{green:40}}",
+    "hint": "Let the number be $n$ and write an equation.",
+    "explanation": "## Advanced explanation\n\nCheck: $\\frac{40}{4} + \\frac{40}{5} = 10 + 8 = 18$.\n\n## Simplified explanation\n\nA quarter and a fifth add to $\\frac{9}{20}$. So $\\frac{9}{20}$ of the number is 18. One twentieth is 2, and twenty twentieths are 40.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A trader took a loan of ₵1,800,000.00 at an interest of $12\\dfrac{1}{2}$ percent per annum. It was agreed that the loan and the interest must be paid in one year in equal monthly instalments. Calculate\n\n(i) the interest on the loan;\n\n(ii) the amount to be paid at the end of the year;\n\n(iii) the monthly instalment.",
+    "media": [],
+    "answer": "**(i)** $12.5\\% \\times 1{,}800{,}000 = 225{,}000$\n\n**(ii)** $1{,}800{,}000 + 225{,}000 = 2{,}025{,}000$\n\n**(iii)** $2{,}025{,}000 \\div 12 = 168{,}750$\n\n> [!answer]\n> **(i)** {{green:₵225,000.00}}  **(ii)** {{green:₵2,025,000.00}}  **(iii)** {{green:₵168,750.00}}",
+    "hint": "$12\\frac{1}{2}\\%$ is $\\frac{1}{8}$.",
+    "explanation": "## Advanced explanation\n\nThe total repayment is $P\\left(1 + \\frac{R}{100}\\right)$ for one year, divided into 12 equal parts.\n\n## Simplified explanation\n\nOne eighth of ₵1,800,000 is ₵225,000. Adding the loan gives ₵2,025,000. Sharing that over 12 months gives ₵168,750.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A trader took a loan at an interest of $12\\dfrac{1}{2}$ percent per annum, to be repaid with the interest in one year in equal monthly instalments. If she had to pay ₵200,000.00 in monthly instalments, find, to the nearest cedi, how much she took.",
+    "media": [],
+    "answer": "Total repaid: $12 \\times 200{,}000 = 2{,}400{,}000$\n\nThis is $112\\frac{1}{2}\\%$ of the loan:\n\n$$\\frac{2{,}400{,}000}{1.125} \\approx 2{,}133{,}333$$\n\n> [!answer]\n> {{green:₵2,133,333}}",
+    "hint": "The total repaid is 112.5% of the loan.",
+    "explanation": "## Advanced explanation\n\nA reverse percentage divides by the multiplier: $1 + 0.125 = 1.125$.\n\n## Simplified explanation\n\nOver 12 months she pays ₵2,400,000. That is $1\\frac{1}{8}$ of the loan. Dividing by $\\frac{9}{8}$ gives about ₵2,133,333.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Simple Interest",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A teacher conducted a class test and the results are displayed in the frequency table.\n\n(a) Using the frequency table, find:\n\n(i) the modal mark for the class;\n\n(ii) the number of candidates who wrote the test;\n\n(iii) the mean mark for the test.\n\n(b) If the teacher decides that the pass mark is 4, what is the probability that a student chosen at random from the class failed the test?\n\n(c) Describe the bar chart you would draw for the distribution.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002aq3.png",
+        "caption": "Frequency table. Marks 1 to 9 have frequencies 2, 4, 2, 2, 10, 5, 6, 7 and 2."
+      }
+    ],
+    "answer": "**(a)(i)** Mark 5 has the highest frequency, 10.\n\n**(ii)** $2 + 4 + 2 + 2 + 10 + 5 + 6 + 7 + 2 = 40$\n\n**(iii)** $\\frac{2 + 8 + 6 + 8 + 50 + 30 + 42 + 56 + 18}{40} = \\frac{220}{40} = 5.5$\n\n**(b)** Failed (marks below 4): $2 + 4 + 2 = 8$, so the probability is $\\frac{8}{40} = \\frac{1}{5}$.\n\n**(c)** Draw marks on the horizontal axis and frequency on the vertical axis, with separate bars of equal width and heights 2, 4, 2, 2, 10, 5, 6, 7 and 2.\n\n> [!answer]\n> **(a)(i)** {{green:5}}  **(ii)** {{green:40}}  **(iii)** {{green:5.5}}  **(b)** {{green:$\\frac{1}{5}$}}",
+    "hint": "A pupil with exactly the pass mark has passed.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$. Only marks of 1, 2 and 3 count as failures.\n\n## Simplified explanation\n\nThe tallest frequency, 10, is at mark 5. The frequencies add to 40. Multiply each mark by its frequency to get 220, then divide by 40 to get 5.5. Eight pupils scored below 4, which is one fifth.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Three numbers are in the ratio $2 : 3 : 4$ and their average is 36.\n\n(i) Calculate the sum of the three numbers.\n\n(ii) Find the greatest number.",
+    "media": [],
+    "answer": "**(i)** $3 \\times 36 = 108$\n\n**(ii)** The ratio has 9 parts, so one part is $108 \\div 9 = 12$.\n\n$$4 \\times 12 = 48$$\n\n> [!answer]\n> **(i)** {{green:108}}  **(ii)** {{green:48}}",
+    "hint": "Sum $=$ average $\\times$ 3.",
+    "explanation": "## Advanced explanation\n\nThe numbers are 24, 36 and 48, which have a mean of 36.\n\n## Simplified explanation\n\nThree numbers with an average of 36 add to 108. There are 9 parts, so each part is 12. The greatest number has 4 parts, which is 48.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "It costs ₵875,000.00 to tile a rectangular floor measuring 7 m by 5 m. How much does it cost to tile a floor measuring 8 m by 4 m if the same type of tiles is used?",
+    "media": [],
+    "answer": "Cost per m²: $875{,}000 \\div 35 = 25{,}000$\n\nNew floor: $8 \\times 4 = 32$ m²\n\n$$32 \\times 25{,}000 = 800{,}000$$\n\n> [!answer]\n> {{green:₵800,000.00}}",
+    "hint": "Find the cost of tiling 1 m².",
+    "explanation": "## Advanced explanation\n\nCost is directly proportional to area: $\\frac{32}{35} \\times 875{,}000 = 800{,}000$.\n\n## Simplified explanation\n\nThe first floor is 35 m², so each m² costs ₵25,000. The second floor is 32 m², which costs ₵800,000.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Mensuration",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "It is estimated that the population of a village increases by 10 percent every five years. If the population of the village is 150,000 this year, what will be the estimated population ten years from now?",
+    "media": [],
+    "answer": "After 5 years: $150{,}000 \\times 1.1 = 165{,}000$\n\nAfter 10 years: $165{,}000 \\times 1.1 = 181{,}500$\n\n> [!answer]\n> {{green:181,500}}",
+    "hint": "Ten years is two periods of 5 years.",
+    "explanation": "## Advanced explanation\n\nThe growth compounds: $150{,}000 \\times 1.1^2 = 181{,}500$.\n\n## Simplified explanation\n\nAfter 5 years, the population grows by 15,000 to 165,000. After 5 more, it grows by 16,500 to 181,500.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The diagram is a plane figure made up of a rectangle of sides 50 cm by 28 cm and an equilateral triangle of height 24.25 cm. A circle is cut out of the rectangle as shown. If the circle touches three sides of the rectangle, calculate\n\n(a) the perimeter of the figure;\n\n(b) the area of the remaining portion of the figure. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2002a/2002q5.png",
+        "caption": "Rectangle 28 cm wide and 50 cm tall with an equilateral triangle of height 24.25 cm on top. A shaded circle inside the rectangle touches the two long sides and the bottom."
+      }
+    ],
+    "answer": "**(a)** The sides of the triangle are 28 cm each, so the outer boundary is\n\n$$50 + 50 + 28 + 28 + 28 = 184 \\text{ cm}$$\n\n**(b)** The circle has radius 14 cm.\n\nRectangle: $50 \\times 28 = 1{,}400$ cm²\n\nTriangle: $\\frac{1}{2} \\times 28 \\times 24.25 = 339.5$ cm²\n\nCircle: $\\frac{22}{7} \\times 14^2 = 616$ cm²\n\n$$1{,}400 + 339.5 - 616 = 1{,}123.5$$\n\n> [!answer]\n> **(a)** {{green:184 cm}}  **(b)** {{green:1,123.5 cm²}}",
+    "hint": "The circle's diameter equals the 28 cm width of the rectangle.",
+    "explanation": "## Advanced explanation\n\nTaking the outer boundary only, the side shared by the rectangle and triangle is not counted, and the hole is not included in the perimeter.\n\n## Simplified explanation\n\nWalk around the outside: two 50 cm sides, the 28 cm base and two 28 cm triangle sides, which makes 184 cm. For the area, add the rectangle and triangle, then take away the circle.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2002a Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  }
+]

@@ -1,0 +1,1534 @@
+[
+  {
+    "type": "choice",
+    "body": "$U = \\{0, 1\\}$. How many subsets has $U$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$1$",
+        "hint": "$\\{\\ \\}$, $\\{0\\}$, $\\{1\\}$ and $\\{0, 1\\}$ are all subsets."
+      },
+      {
+        "text": "$2$",
+        "hint": "This counts only the members. Include the empty set and $U$ itself."
+      },
+      {
+        "text": "$3$",
+        "hint": "Remember to include the empty set."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $\\{\\ \\}$, $\\{0\\}$, $\\{1\\}$ and $\\{0, 1\\}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Include the empty set and the set itself.",
+    "explanation": "## Advanced explanation\n\nA set with $n$ members has $2^n$ subsets, so $U$ has $2^2 = 4$.\n\n## Simplified explanation\n\nThe subsets are the empty set, $\\{0\\}$, $\\{1\\}$ and $\\{0, 1\\}$. That makes 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following addition is done in base ten. What number represents $abc$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq2.png",
+        "caption": "Column addition: 222 plus 343 plus abc gives 1000."
+      }
+    ],
+    "options": [
+      {
+        "text": "$324$",
+        "hint": "$222 + 343 + 324 = 889$."
+      },
+      {
+        "text": "$342$",
+        "hint": "$222 + 343 + 342 = 907$."
+      },
+      {
+        "text": "$423$",
+        "hint": "$222 + 343 + 423 = 988$."
+      },
+      {
+        "text": "$435$",
+        "hint": "Correct. $1000 - 565 = 435$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add the two known numbers, then subtract from 1000.",
+    "explanation": "## Advanced explanation\n\n$abc = 1000 - (222 + 343) = 435$.\n\n## Simplified explanation\n\n222 and 343 add to 565. Taking that from 1000 leaves 435.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\nWhat is the value of $a$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq3-4.png",
+        "caption": "Mapping: 2 to the power 3 → 8, 2 to the power 2 → 4, 2 to the power 1 → 2, 2 to the power 0 → a, and 2 to the power −1 → b."
+      }
+    ],
+    "options": [
+      {
+        "text": "$0$",
+        "hint": "Any non-zero number to the power 0 is 1, not 0."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is the value of $b$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $2^0 = 1$."
+      },
+      {
+        "text": "$16$",
+        "hint": "This is $2^4$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Each answer is half of the one above it.",
+    "explanation": "## Advanced explanation\n\n$2^0 = 1$, since any non-zero number to the power 0 equals 1.\n\n## Simplified explanation\n\nThe numbers go 8, 4, 2, halving each time. Half of 2 is 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Indices",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\nWhat is the value of $b$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq3-4.png",
+        "caption": "Mapping: 2 to the power 3 → 8, 2 to the power 2 → 4, 2 to the power 1 → 2, 2 to the power 0 → a, and 2 to the power −1 → b."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "A negative power does not make the number negative."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $2^{-1} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "This is $2^{-2}$."
+      },
+      {
+        "text": "$1$",
+        "hint": "This is the value of $a$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each answer is half of the one above it.",
+    "explanation": "## Advanced explanation\n\n$2^{-1} = \\frac{1}{2^1} = \\frac{1}{2}$.\n\n## Simplified explanation\n\nThe numbers keep halving: 8, 4, 2, 1. Half of 1 is $\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Indices",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write two hundred thousand and fifty seven in figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "20057",
+        "hint": "This is twenty thousand and fifty seven."
+      },
+      {
+        "text": "200057",
+        "hint": "Correct. $200{,}000 + 57$."
+      },
+      {
+        "text": "2000057",
+        "hint": "This is two million and fifty seven."
+      },
+      {
+        "text": "20000057",
+        "hint": "This is twenty million and fifty seven."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write two hundred thousand first.",
+    "explanation": "## Advanced explanation\n\n$200{,}000 + 57 = 200{,}057$.\n\n## Simplified explanation\n\nTwo hundred thousand is 200,000. Adding 57 gives 200,057.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What time is the clock showing?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq6.png",
+        "caption": "Clock face. The short hand points just past 3 and the long hand points at 4."
+      }
+    ],
+    "options": [
+      {
+        "text": "4.30",
+        "hint": "At this time, the long hand points at the 6."
+      },
+      {
+        "text": "4.15",
+        "hint": "At this time, the long hand points at the 3."
+      },
+      {
+        "text": "3.40",
+        "hint": "At this time, the long hand points at the 8."
+      },
+      {
+        "text": "3.20",
+        "hint": "Correct. The short hand is just past 3, and the long hand is at 4."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The long hand shows the minutes, and each number is 5 minutes.",
+    "explanation": "## Advanced explanation\n\nThe minute hand at 4 shows $4 \\times 5 = 20$ minutes. The hour hand is just past 3, so the time is 3.20.\n\n## Simplified explanation\n\nThe short hand is just past 3, so the hour is 3. The long hand is on the 4, which is 20 minutes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kojo, Ebo and Ama shared ₵14,000.00 among themselves. Kojo had twice as much as Ebo and Ebo also had twice as much as Ama. How much did Ebo get?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵8,000.00",
+        "hint": "This is Kojo's share."
+      },
+      {
+        "text": "₵6,000.00",
+        "hint": "Ama's share is 1 part out of 7."
+      },
+      {
+        "text": "₵4,000.00",
+        "hint": "Correct. 1 part is ₵2,000.00, and Ebo has 2 parts."
+      },
+      {
+        "text": "₵3,000.00",
+        "hint": "Ama's share is 1 part out of 7."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Let Ama have 1 part. How many parts do the others have?",
+    "explanation": "## Advanced explanation\n\nThe shares are in the ratio $4 : 2 : 1$, so Ebo gets $\\frac{2}{7} \\times 14{,}000 = 4{,}000$.\n\n## Simplified explanation\n\nAma has 1 part, Ebo has 2 and Kojo has 4, which makes 7 parts. Each part is ₵2,000, so Ebo gets ₵4,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "At what rate of simple interest will ₵5,000.00 amount to ₵7,500.00 if saved for 5 years?",
+    "media": [],
+    "options": [
+      {
+        "text": "$5\\%$",
+        "hint": "This yields ₵1,250.00 in 5 years."
+      },
+      {
+        "text": "$6\\dfrac{2}{3}\\%$",
+        "hint": "This yields about ₵1,667.00 in 5 years."
+      },
+      {
+        "text": "$7\\dfrac{1}{2}\\%$",
+        "hint": "This yields ₵1,875.00 in 5 years."
+      },
+      {
+        "text": "$10\\%$",
+        "hint": "Correct. This yields ₵2,500.00 in 5 years."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The interest is $7{,}500 - 5{,}000$.",
+    "explanation": "## Advanced explanation\n\n$R = \\frac{100I}{PT} = \\frac{100 \\times 2{,}500}{5{,}000 \\times 5} = 10\\%$.\n\n## Simplified explanation\n\nThe interest is ₵2,500 over 5 years, which is ₵500 a year. Out of ₵5,000, that is 10%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $\\dfrac{1}{3} - \\dfrac{1}{2} + \\dfrac{2}{5}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{17}{30}$",
+        "hint": "Over 30: $10 - 15 + 12 = 7$."
+      },
+      {
+        "text": "$\\dfrac{13}{30}$",
+        "hint": "Over 30: $10 - 15 + 12 = 7$."
+      },
+      {
+        "text": "$\\dfrac{7}{30}$",
+        "hint": "Correct. $\\frac{10 - 15 + 12}{30}$."
+      },
+      {
+        "text": "$-\\dfrac{7}{30}$",
+        "hint": "Check the sign: $10 - 15 + 12$ is positive."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use 30 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{10}{30} - \\frac{15}{30} + \\frac{12}{30} = \\frac{7}{30}$.\n\n## Simplified explanation\n\nChange them to 30ths: 10, 15 and 12. Then $10 - 15 + 12 = 7$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2^{2x} = 8$, what is the value of $x$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This is upside down. $2x = 3$."
+      },
+      {
+        "text": "$1$",
+        "hint": "This gives $2^2 = 4$."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "Correct. $2x = 3$."
+      },
+      {
+        "text": "$2$",
+        "hint": "This gives $2^4 = 16$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 8 as a power of 2.",
+    "explanation": "## Advanced explanation\n\n$2^{2x} = 2^3$, so $2x = 3$ and $x = \\frac{3}{2}$.\n\n## Simplified explanation\n\n8 is $2^3$. The powers must match, so $2x = 3$ and $x = \\frac{3}{2}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The relation between the Celsius ($C$) and Fahrenheit ($F$) scales of temperature is given by $C = \\dfrac{5}{9}(F - 32)$.\n\nIf $C$ is 40, $F$ will be",
+    "media": [],
+    "options": [
+      {
+        "text": "$104.0$",
+        "hint": "Correct. $F = \\frac{9}{5}(40) + 32 = 104$."
+      },
+      {
+        "text": "$78.4$",
+        "hint": "Multiply 40 by $\\frac{9}{5}$, not by $\\frac{5}{9}$ alone."
+      },
+      {
+        "text": "$72.0$",
+        "hint": "This is $F - 32$. Add 32."
+      },
+      {
+        "text": "$65.6$",
+        "hint": "Multiply 40 by $\\frac{9}{5}$, then add 32."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Rearrange to get $F - 32$ first.",
+    "explanation": "## Advanced explanation\n\n$F - 32 = \\frac{9}{5} \\times 40 = 72$, so $F = 104$.\n\n## Simplified explanation\n\n$40 \\times 9 \\div 5 = 72$. Then add 32 to get 104.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The relation between the Celsius ($C$) and Fahrenheit ($F$) scales of temperature is given by $C = \\dfrac{5}{9}(F - 32)$.\n\nIf $C$ is $-40$, find the value of $F$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$104.0$",
+        "hint": "This is the value when $C$ is $+40$."
+      },
+      {
+        "text": "$78.4$",
+        "hint": "Multiply $-40$ by $\\frac{9}{5}$, then add 32."
+      },
+      {
+        "text": "$-72.0$",
+        "hint": "This is $F - 32$. Add 32."
+      },
+      {
+        "text": "$-40.0$",
+        "hint": "Correct. $-72 + 32 = -40$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Rearrange to get $F - 32$ first.",
+    "explanation": "## Advanced explanation\n\n$F - 32 = \\frac{9}{5} \\times (-40) = -72$, so $F = -40$.\n\n## Simplified explanation\n\n$-40 \\times 9 \\div 5 = -72$. Then $-72 + 32 = -40$. So the two scales agree at $-40$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ages in years of 9 children at a birthday party are: 2, 3, 3, 3, 4, 5, 5, 5, 6.\n\nWhat is the mean age?",
+    "media": [],
+    "options": [
+      {
+        "text": "$3.0$",
+        "hint": "The ages add to 36."
+      },
+      {
+        "text": "$3.5$",
+        "hint": "The ages add to 36."
+      },
+      {
+        "text": "$4.0$",
+        "hint": "Correct. $36 \\div 9 = 4$."
+      },
+      {
+        "text": "$4.5$",
+        "hint": "The ages add to 36."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add all the ages and divide by 9.",
+    "explanation": "## Advanced explanation\n\n$\\frac{36}{9} = 4$.\n\n## Simplified explanation\n\nThe nine ages add to 36. Then $36 \\div 9 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ages in years of 9 children at a birthday party are: 2, 3, 3, 3, 4, 5, 5, 5, 6.\n\nWhat is the median age?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2.0$",
+        "hint": "This is the lowest age."
+      },
+      {
+        "text": "$3.0$",
+        "hint": "This is an age that occurs often, not the middle one."
+      },
+      {
+        "text": "$3.5$",
+        "hint": "With 9 ages, the median is one of the ages."
+      },
+      {
+        "text": "$4.0$",
+        "hint": "Correct. It is the 5th of the 9 ages."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The ages are already in order.",
+    "explanation": "## Advanced explanation\n\nWith 9 values, the median is the 5th value, which is 4.\n\n## Simplified explanation\n\nThe middle of 9 ages is the 5th age, and that is 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ages in years of 9 children at a birthday party are: 2, 3, 3, 3, 4, 5, 5, 5, 6.\n\nIf a child is picked at random, what is the probability that the child is 5 years old?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{9}$",
+        "hint": "Three children are 5 years old."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{3}{9} = \\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{4}{9}$",
+        "hint": "Three children are 5 years old."
+      },
+      {
+        "text": "$\\dfrac{5}{9}$",
+        "hint": "This uses the age. Three children are 5 years old."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count how many children are 5 years old.",
+    "explanation": "## Advanced explanation\n\n$P(5) = \\frac{3}{9} = \\frac{1}{3}$.\n\n## Simplified explanation\n\n3 of the 9 children are 5 years old, and $\\frac{3}{9}$ reduces to $\\frac{1}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$P(2, 5)$ and $Q(-2, 3)$ are points in the Cartesian plane. Find the vector $\\overrightarrow{PQ}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 4 \\\\ 2 \\end{pmatrix}$",
+        "hint": "This is $\\overrightarrow{QP}$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -4 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Correct. $-2 - 2 = -4$ and $3 - 5 = -2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 4 \\\\ -2 \\end{pmatrix}$",
+        "hint": "For the top, $-2 - 2 = -4$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}$",
+        "hint": "For the bottom, $3 - 5 = -2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtract the coordinates of $P$ from those of $Q$.",
+    "explanation": "## Advanced explanation\n\n$\\overrightarrow{PQ} = \\begin{pmatrix} -2 - 2 \\\\ 3 - 5 \\end{pmatrix} = \\begin{pmatrix} -4 \\\\ -2 \\end{pmatrix}$.\n\n## Simplified explanation\n\nFrom $P$ to $Q$, you go 4 to the left and 2 down.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find $k$ in the vector equation $\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} + k\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} = -\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "$1 + k = -1$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "Correct. $1 + k = -1$."
+      },
+      {
+        "text": "$2$",
+        "hint": "Check the sign: $1 + k = -1$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "All three terms use the same vector, so compare the multiples."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "All three terms are multiples of the same vector.",
+    "explanation": "## Advanced explanation\n\n$(1 + k)\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix} = -1\\begin{pmatrix} 3 \\\\ 4 \\end{pmatrix}$, so $1 + k = -1$ and $k = -2$.\n\n## Simplified explanation\n\nOn the left, there is 1 lot of the vector plus $k$ lots. On the right, there is $-1$ lot. So $1 + k = -1$, which gives $k = -2$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $|RS| = |RT|$. Find $a$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq18.png",
+        "caption": "Lines PT and QS crossing at R, with RS marked equal to RT. Angle RTS is 73°, angle QPR is a°, and PQ is extended beyond Q, with an exterior angle of 105° between the extension and QR."
+      }
+    ],
+    "options": [
+      {
+        "text": "146",
+        "hint": "This is $2 \\times 73$."
+      },
+      {
+        "text": "71",
+        "hint": "Correct. $105 - 34 = 71$."
+      },
+      {
+        "text": "73",
+        "hint": "This is angle $RTS$."
+      },
+      {
+        "text": "65",
+        "hint": "Angle $PRQ$ is 34°, and $105 - 34 = 71$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Triangle $RST$ is isosceles. Find the angle at $R$ first.",
+    "explanation": "## Advanced explanation\n\nAngle $SRT = 180^\\circ - 2(73^\\circ) = 34^\\circ$, and angle $PRQ = 34^\\circ$ (vertically opposite). The exterior angle at $Q$ gives $105 = a + 34$, so $a = 71$.\n\n## Simplified explanation\n\nThe small triangle has two 73° angles, which leaves 34° at $R$. The same 34° is inside the left triangle. The outside angle of 105° equals the two far inside angles, so $a = 105 - 34 = 71$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a^2 - b^2 = (a + b)(a - b)$, evaluate $9.32^2 - 0.68^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "87.32",
+        "hint": "$(9.32 + 0.68)(9.32 - 0.68) = 10 \\times 8.64$."
+      },
+      {
+        "text": "86.4",
+        "hint": "Correct. $10 \\times 8.64 = 86.4$."
+      },
+      {
+        "text": "74.65",
+        "hint": "$(9.32 + 0.68)(9.32 - 0.68) = 10 \\times 8.64$."
+      },
+      {
+        "text": "10.0",
+        "hint": "This is only $a + b$. Multiply by $a - b$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put $a = 9.32$ and $b = 0.68$.",
+    "explanation": "## Advanced explanation\n\n$(9.32 + 0.68)(9.32 - 0.68) = 10 \\times 8.64 = 86.4$.\n\n## Simplified explanation\n\n$9.32 + 0.68 = 10$ and $9.32 - 0.68 = 8.64$. Then $10 \\times 8.64 = 86.4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{6^2}{2^2 \\times 3}$",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "The top is 36 and the bottom is 12."
+      },
+      {
+        "text": "2",
+        "hint": "The top is 36 and the bottom is 12."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $36 \\div 12 = 3$."
+      },
+      {
+        "text": "6",
+        "hint": "The top is 36 and the bottom is 12."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out the top and the bottom.",
+    "explanation": "## Advanced explanation\n\n$\\frac{36}{4 \\times 3} = \\frac{36}{12} = 3$.\n\n## Simplified explanation\n\n$6^2$ is 36. The bottom is $4 \\times 3 = 12$. Then $36 \\div 12 = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of the ages of Kwaku and Kojo is 30 years. Kwaku is 4 years older than Kojo. How old is Kojo?",
+    "media": [],
+    "options": [
+      {
+        "text": "19",
+        "hint": "This gives a sum of 42."
+      },
+      {
+        "text": "17",
+        "hint": "This is Kwaku's age."
+      },
+      {
+        "text": "13",
+        "hint": "Correct. $13 + 17 = 30$."
+      },
+      {
+        "text": "11",
+        "hint": "This gives a sum of 26."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Let Kojo be $k$ years old, so Kwaku is $k + 4$.",
+    "explanation": "## Advanced explanation\n\n$2k + 4 = 30$, so $k = 13$.\n\n## Simplified explanation\n\nTake the extra 4 years from 30 to leave 26. Half of that is Kojo's age, 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What type of triangle is $\\triangle PQR$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq22.png",
+        "caption": "Triangle PQR with RQ extended beyond Q. The exterior angle at Q is 120°, and the angle at R is 60°."
+      }
+    ],
+    "options": [
+      {
+        "text": "Equilateral",
+        "hint": "Correct. All three angles are 60°."
+      },
+      {
+        "text": "Isosceles",
+        "hint": "All three angles are equal, so there is a more exact name."
+      },
+      {
+        "text": "Scalene",
+        "hint": "A scalene triangle has three different angles."
+      },
+      {
+        "text": "Right-angled",
+        "hint": "No angle here is 90°."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find angle $PQR$ on the straight line.",
+    "explanation": "## Advanced explanation\n\nAngle $PQR = 180^\\circ - 120^\\circ = 60^\\circ$ and angle $R = 60^\\circ$, so angle $P = 60^\\circ$.\n\n## Simplified explanation\n\nThe inside angle at $Q$ is 60°. With 60° at $R$, the angle at $P$ is also 60°. All three are equal, so the triangle is equilateral.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the equation $y = (x + 2)(x - 2)$ to answer the question.\n\nIf $x = -1$, find $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-4$",
+        "hint": "This is the value when $x = 0$."
+      },
+      {
+        "text": "$-3$",
+        "hint": "Correct. $(1)(-3) = -3$."
+      },
+      {
+        "text": "$3$",
+        "hint": "$(-1 - 2)$ is negative."
+      },
+      {
+        "text": "$4$",
+        "hint": "$(1)(-3)$ is $-3$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put $x = -1$ into both brackets.",
+    "explanation": "## Advanced explanation\n\n$y = (-1 + 2)(-1 - 2) = (1)(-3) = -3$.\n\n## Simplified explanation\n\nThe first bracket is 1 and the second is $-3$. Then $1 \\times -3 = -3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the equation $y = (x + 2)(x - 2)$ to answer the question.\n\nFind the set of values of $x$ for which $y$ is zero.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{0\\}$",
+        "hint": "When $x = 0$, $y = -4$."
+      },
+      {
+        "text": "$\\{0, 2\\}$",
+        "hint": "When $x = 0$, $y = -4$."
+      },
+      {
+        "text": "$\\{0, -2\\}$",
+        "hint": "When $x = 0$, $y = -4$."
+      },
+      {
+        "text": "$\\{-2, 2\\}$",
+        "hint": "Correct. Either bracket can be zero."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A product is zero when one of its factors is zero.",
+    "explanation": "## Advanced explanation\n\n$(x + 2)(x - 2) = 0$ gives $x = -2$ or $x = 2$.\n\n## Simplified explanation\n\nFor the answer to be 0, one bracket must be 0. That happens when $x$ is $-2$ or 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the cylinder has a diameter of 4 cm and a length of 14 cm. $\\left(\\text{Take } \\pi = \\dfrac{22}{7}\\right)$\n\nFind the circumference of the base.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq25-27.png",
+        "caption": "Cylinder with a diameter of 4 cm and a length of 14 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{44}{7}$ cm",
+        "hint": "This uses a diameter of 2 cm. The diameter is 4 cm."
+      },
+      {
+        "text": "$\\dfrac{88}{7}$ cm",
+        "hint": "Correct. $\\frac{22}{7} \\times 4 = \\frac{88}{7}$."
+      },
+      {
+        "text": "$\\dfrac{176}{7}$ cm",
+        "hint": "This uses a diameter of 8 cm. The diameter is 4 cm."
+      },
+      {
+        "text": "$44$ cm",
+        "hint": "This uses a diameter of 14 cm. The diameter is 4 cm."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Circumference $= \\pi d$.",
+    "explanation": "## Advanced explanation\n\n$C = \\frac{22}{7} \\times 4 = \\frac{88}{7}$ cm.\n\n## Simplified explanation\n\nMultiply the diameter, 4, by $\\frac{22}{7}$ to get $\\frac{88}{7}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the cylinder has a diameter of 4 cm and a length of 14 cm. $\\left(\\text{Take } \\pi = \\dfrac{22}{7}\\right)$\n\nThe area of the base is",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq25-27.png",
+        "caption": "Cylinder with a diameter of 4 cm and a length of 14 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$176$ cm²",
+        "hint": "This is the volume value."
+      },
+      {
+        "text": "$44$ cm²",
+        "hint": "Use $\\pi r^2$ with $r = 2$."
+      },
+      {
+        "text": "$\\dfrac{176}{7}$ cm²",
+        "hint": "This uses $d^2$ instead of $r^2$. The radius is 2 cm."
+      },
+      {
+        "text": "$\\dfrac{88}{7}$ cm²",
+        "hint": "Correct. $\\frac{22}{7} \\times 2^2 = \\frac{88}{7}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Halve the diameter to get the radius.",
+    "explanation": "## Advanced explanation\n\n$A = \\pi r^2 = \\frac{22}{7} \\times 4 = \\frac{88}{7}$ cm².\n\n## Simplified explanation\n\nThe radius is 2 cm, and $2^2 = 4$. Then $\\frac{22}{7} \\times 4 = \\frac{88}{7}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the cylinder has a diameter of 4 cm and a length of 14 cm. $\\left(\\text{Take } \\pi = \\dfrac{22}{7}\\right)$\n\nWhat is the volume of the cylinder?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq25-27.png",
+        "caption": "Cylinder with a diameter of 4 cm and a length of 14 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$176$ cm³",
+        "hint": "Correct. $\\frac{88}{7} \\times 14 = 176$."
+      },
+      {
+        "text": "$44$ cm³",
+        "hint": "Multiply the base area by the length, 14 cm."
+      },
+      {
+        "text": "$\\dfrac{176}{7}$ cm³",
+        "hint": "Multiply the base area by the length, 14 cm."
+      },
+      {
+        "text": "$\\dfrac{88}{7}$ cm³",
+        "hint": "This is the base area. Multiply it by 14 cm."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Volume $=$ base area $\\times$ length.",
+    "explanation": "## Advanced explanation\n\n$V = \\frac{88}{7} \\times 14 = 176$ cm³.\n\n## Simplified explanation\n\nThe base area is $\\frac{88}{7}$ cm². The 7 goes into 14 twice, so $88 \\times 2 = 176$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A woman bought 210 oranges for ₵650.00. She sold all of them at 3 for ₵20.00. How much profit did she make?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵350.00",
+        "hint": "The selling price is ₵1,400.00."
+      },
+      {
+        "text": "₵450.00",
+        "hint": "The selling price is ₵1,400.00."
+      },
+      {
+        "text": "₵750.00",
+        "hint": "Correct. $1{,}400 - 650 = 750$."
+      },
+      {
+        "text": "₵650.00",
+        "hint": "This is the cost price."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How many lots of 3 are in 210?",
+    "explanation": "## Advanced explanation\n\nSelling price: $\\frac{210}{3} \\times 20 = 1{,}400$. Profit: $1{,}400 - 650 = 750$.\n\n## Simplified explanation\n\n210 oranges make 70 lots of 3, which sell for ₵1,400. Taking off the ₵650 cost leaves ₵750.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ratio of boys to girls in a school is $9 : 11$. If there are 400 pupils in the school, how many boys are there?",
+    "media": [],
+    "options": [
+      {
+        "text": "80",
+        "hint": "One part is 20, and boys have 9 parts."
+      },
+      {
+        "text": "120",
+        "hint": "One part is 20, and boys have 9 parts."
+      },
+      {
+        "text": "180",
+        "hint": "Correct. $\\frac{9}{20} \\times 400 = 180$."
+      },
+      {
+        "text": "220",
+        "hint": "This is the number of girls."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The ratio has 20 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{9}{20} \\times 400 = 180$.\n\n## Simplified explanation\n\n20 parts make 400, so 1 part is 20. Boys have 9 parts, which is 180.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express the product of $162.5 \\times 0.5$ in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$81.25 \\times 10^{-1}$",
+        "hint": "81.25 is not between 1 and 10."
+      },
+      {
+        "text": "$81.25 \\times 10$",
+        "hint": "81.25 is not between 1 and 10."
+      },
+      {
+        "text": "$8.125 \\times 10^{-1}$",
+        "hint": "This equals 0.8125."
+      },
+      {
+        "text": "$8.125 \\times 10$",
+        "hint": "Correct. The product is 81.25."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The first number must be at least 1 and less than 10.",
+    "explanation": "## Advanced explanation\n\n$162.5 \\times 0.5 = 81.25 = 8.125 \\times 10$.\n\n## Simplified explanation\n\nHalf of 162.5 is 81.25. Moving the point 1 place gives $8.125 \\times 10$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is 16% of ₵500,000.00?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵80.00",
+        "hint": "1% of ₵500,000.00 is ₵5,000.00."
+      },
+      {
+        "text": "₵8,000.00",
+        "hint": "1% of ₵500,000.00 is ₵5,000.00."
+      },
+      {
+        "text": "₵80,000.00",
+        "hint": "Correct. $16 \\times 5{,}000 = 80{,}000$."
+      },
+      {
+        "text": "₵420,000.00",
+        "hint": "This is what is left after taking off 16%."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find 1% first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{16}{100} \\times 500{,}000 = 80{,}000$.\n\n## Simplified explanation\n\n1% of ₵500,000 is ₵5,000. Then $16 \\times 5{,}000 = 80{,}000$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $\\dfrac{0.24 \\times 14.3}{5.2}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "66",
+        "hint": "Check the place value. The answer is less than 1."
+      },
+      {
+        "text": "6.60",
+        "hint": "Check the place value. The answer is less than 1."
+      },
+      {
+        "text": "0.70",
+        "hint": "$14.3 \\div 5.2 = 2.75$, and $0.24 \\times 2.75 = 0.66$."
+      },
+      {
+        "text": "0.66",
+        "hint": "Correct. $0.24 \\times 2.75 = 0.66$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide 14.3 by 5.2 first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{14.3}{5.2} = 2.75$, and $0.24 \\times 2.75 = 0.66$.\n\n## Simplified explanation\n\n$14.3 \\div 5.2 = 2.75$. Then $0.24 \\times 2.75 = 0.66$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The product of $2x$ and 3 is 138. Find $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$23$",
+        "hint": "Correct. $6x = 138$."
+      },
+      {
+        "text": "$33$",
+        "hint": "This gives $6 \\times 33 = 198$."
+      },
+      {
+        "text": "$68$",
+        "hint": "This gives $6 \\times 68 = 408$."
+      },
+      {
+        "text": "$69$",
+        "hint": "This is $138 \\div 2$. Divide by 6."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "\"Product\" means multiply.",
+    "explanation": "## Advanced explanation\n\n$2x \\times 3 = 6x = 138$, so $x = 23$.\n\n## Simplified explanation\n\n$2x$ times 3 is $6x$. Then $138 \\div 6 = 23$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The travel graph describes the journey of a cyclist from Town $X$ to Town $Y$ and back to Town $X$.\n\nWhat is the average speed for the return journey from Town $Y$ to Town $X$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq34-36.png",
+        "caption": "Travel graph of distance against time. The cyclist leaves Town X, reaches 30 km at 1 p.m., rests until 1:30 p.m., reaches Town Y at 50 km at 2 p.m., stays until 3 p.m., and returns to Town X at 4 p.m."
+      }
+    ],
+    "options": [
+      {
+        "text": "100 km/h",
+        "hint": "The cyclist covers 50 km in 1 hour."
+      },
+      {
+        "text": "50 km/h",
+        "hint": "Correct. 50 km in 1 hour."
+      },
+      {
+        "text": "33.33 km/h",
+        "hint": "The cyclist covers 50 km in 1 hour."
+      },
+      {
+        "text": "25 km/h",
+        "hint": "The cyclist covers 50 km in 1 hour."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The return journey is from 3 p.m. to 4 p.m.",
+    "explanation": "## Advanced explanation\n\nSpeed $= \\frac{50 \\text{ km}}{1 \\text{ h}} = 50$ km/h.\n\n## Simplified explanation\n\nThe graph falls from 50 km to 0 between 3 p.m. and 4 p.m. That is 50 km in 1 hour.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Graphs",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The travel graph describes the journey of a cyclist from Town $X$ to Town $Y$ and back to Town $X$.\n\nState the period within which the cyclist travelled to Town $Y$ after the first rest.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq34-36.png",
+        "caption": "Travel graph of distance against time. The cyclist leaves Town X, reaches 30 km at 1 p.m., rests until 1:30 p.m., reaches Town Y at 50 km at 2 p.m., stays until 3 p.m., and returns to Town X at 4 p.m."
+      }
+    ],
+    "options": [
+      {
+        "text": "1:00 p.m. – 2:00 p.m.",
+        "hint": "The cyclist rested from 1:00 p.m. to 1:30 p.m."
+      },
+      {
+        "text": "1:00 p.m. – 4:00 p.m.",
+        "hint": "This includes the rests and the return journey."
+      },
+      {
+        "text": "1:15 p.m. – 1:30 p.m.",
+        "hint": "The cyclist was still resting at this time."
+      },
+      {
+        "text": "1:30 p.m. – 2:00 p.m.",
+        "hint": "Correct. The line rises from 30 km to 50 km."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A flat part of the graph shows a rest.",
+    "explanation": "## Advanced explanation\n\nThe graph is flat from 1:00 p.m. to 1:30 p.m., then rises to Town $Y$ at 2:00 p.m.\n\n## Simplified explanation\n\nThe flat part ends at 1:30 p.m. The line then goes up and reaches Town $Y$ at 2:00 p.m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The travel graph describes the journey of a cyclist from Town $X$ to Town $Y$ and back to Town $X$.\n\nHow many minutes did the cyclist spend at Town $Y$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq34-36.png",
+        "caption": "Travel graph of distance against time. The cyclist leaves Town X, reaches 30 km at 1 p.m., rests until 1:30 p.m., reaches Town Y at 50 km at 2 p.m., stays until 3 p.m., and returns to Town X at 4 p.m."
+      }
+    ],
+    "options": [
+      {
+        "text": "15 minutes",
+        "hint": "The graph is flat at 50 km from 2 p.m. to 3 p.m."
+      },
+      {
+        "text": "20 minutes",
+        "hint": "The graph is flat at 50 km from 2 p.m. to 3 p.m."
+      },
+      {
+        "text": "60 minutes",
+        "hint": "Correct. From 2 p.m. to 3 p.m."
+      },
+      {
+        "text": "45 minutes",
+        "hint": "The graph is flat at 50 km from 2 p.m. to 3 p.m."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the flat part of the graph at 50 km.",
+    "explanation": "## Advanced explanation\n\nThe distance stays at 50 km from 2 p.m. to 3 p.m., which is 60 minutes.\n\n## Simplified explanation\n\nThe graph is flat at Town $Y$ from 2 p.m. to 3 p.m. That is 1 hour, or 60 minutes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Graphs",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "200 bottles of equal capacity hold 350 litres of water. How much water does each bottle hold?",
+    "media": [],
+    "options": [
+      {
+        "text": "1,750 litres",
+        "hint": "Check the place value. Divide 350 by 200."
+      },
+      {
+        "text": "175 litres",
+        "hint": "Check the place value. Divide 350 by 200."
+      },
+      {
+        "text": "17.5 litres",
+        "hint": "Check the place value. Divide 350 by 200."
+      },
+      {
+        "text": "1.75 litres",
+        "hint": "Correct. $350 \\div 200 = 1.75$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide the water by the number of bottles.",
+    "explanation": "## Advanced explanation\n\n$\\frac{350}{200} = 1.75$ litres.\n\n## Simplified explanation\n\n$350 \\div 200 = 1.75$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the solution set of $2x + 4 > -6$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{x = -5\\}$",
+        "hint": "This is an inequality, so it has many solutions."
+      },
+      {
+        "text": "$\\{x < 5\\}$",
+        "hint": "$-6 - 4 = -10$, and the sign stays as $>$."
+      },
+      {
+        "text": "$\\{x > -5\\}$",
+        "hint": "Correct. $2x > -10$."
+      },
+      {
+        "text": "$\\{x < -5\\}$",
+        "hint": "Dividing by positive 2 keeps the sign."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract 4 from both sides first.",
+    "explanation": "## Advanced explanation\n\n$2x > -10$, so $x > -5$.\n\n## Simplified explanation\n\nTaking 4 from both sides gives $2x > -10$. Dividing by 2 gives $x > -5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular field 50 metres wide and $x$ metres long requires 260 metres of fencing. Which of the following statements is true?",
+    "media": [],
+    "options": [
+      {
+        "text": "$x + 100 = 260$",
+        "hint": "There are two lengths of $x$."
+      },
+      {
+        "text": "$2x + 50 = 260$",
+        "hint": "There are two widths of 50 m."
+      },
+      {
+        "text": "$4x + 200 = 260$",
+        "hint": "There are two lengths and two widths."
+      },
+      {
+        "text": "$2x + 100 = 260$",
+        "hint": "Correct. $2x + 2(50) = 260$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The fence goes around all four sides.",
+    "explanation": "## Advanced explanation\n\nThe perimeter is $2x + 2(50) = 2x + 100$, and this equals 260.\n\n## Simplified explanation\n\nTwo sides are $x$ and two sides are 50. Adding them gives $2x + 100$, which is the 260 m of fencing.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $PQSR$ is a trapezium. $PQ$ is parallel to $RS$, and angle $PQR$ = angle $QRS$. What type of triangle is triangle $RQS$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996secaq40.png",
+        "caption": "Trapezium PQSR with PQ parallel to RS and diagonal QR. No sides of triangle RQS are marked equal."
+      }
+    ],
+    "options": [
+      {
+        "text": "Isosceles",
+        "hint": "The diagram shows no two equal sides."
+      },
+      {
+        "text": "Scalene",
+        "hint": "Correct. All three sides have different lengths."
+      },
+      {
+        "text": "Equilateral",
+        "hint": "The three sides are clearly different."
+      },
+      {
+        "text": "Right-angled",
+        "hint": "The diagram marks no right angle in this triangle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Compare the three sides of triangle $RQS$ in the diagram.",
+    "explanation": "## Advanced explanation\n\nSides $QR$, $RS$ and $QS$ are all of different lengths, and no equal sides are marked, so the triangle is scalene.\n\n## Simplified explanation\n\nIn the diagram, $RS$ is the longest, $QS$ is the shortest, and $QR$ is in between. Three different sides make a scalene triangle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1996 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Kojo is $n$ years old now.\n\n(i) How old was he 5 years ago?\n\n(ii) How old will he be 10 years from now?\n\n(iii) If his age in 10 years' time will be four times his age 5 years ago, how old is he now?",
+    "media": [],
+    "answer": "**(i)** $n - 5$\n\n**(ii)** $n + 10$\n\n**(iii)** $n + 10 = 4(n - 5)$\n\n$$n + 10 = 4n - 20$$\n\n$$30 = 3n$$\n\n$$n = 10$$\n\n> [!answer]\n> **(i)** {{green:$(n - 5)$ years}}  **(ii)** {{green:$(n + 10)$ years}}  **(iii)** {{green:10 years}}",
+    "hint": "Use your answers to (i) and (ii) to write the equation.",
+    "explanation": "## Advanced explanation\n\nCheck: in 10 years he will be 20, and 5 years ago he was 5. Then $20 = 4 \\times 5$.\n\n## Simplified explanation\n\nPast ages subtract and future ages add. Putting the two together gives $n + 10 = 4(n - 5)$. Solving gives $n = 10$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Convert $2342_{\\text{five}}$ to a base 10 numeral.",
+    "media": [],
+    "answer": "$$2 \\times 125 + 3 \\times 25 + 4 \\times 5 + 2 = 250 + 75 + 20 + 2 = 347$$\n\n> [!answer]\n> {{green:347}}",
+    "hint": "The place values are 125, 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\nA base five numeral is expanded in powers of 5.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 250, 75, 20 and 2. They add to 347.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $f = \\dfrac{vu}{v + u}$, find $v$ if $f = 20$ and $u = 5$.",
+    "media": [],
+    "answer": "$$20 = \\frac{5v}{v + 5}$$\n\n$$20v + 100 = 5v$$\n\n$$15v = -100$$\n\n$$v = -\\frac{20}{3} = -6\\frac{2}{3}$$\n\n> [!answer]\n> {{green:$v = -6\\dfrac{2}{3}$}}",
+    "hint": "Multiply both sides by $(v + 5)$.",
+    "explanation": "## Advanced explanation\n\nRearranging first gives $v = \\frac{fu}{u - f} = \\frac{100}{-15}$, which agrees.\n\n## Simplified explanation\n\nMultiply both sides by $v + 5$ to get $20v + 100 = 5v$. Moving terms gives $15v = -100$, so $v = -6\\frac{2}{3}$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A man deposited ₵350,000.00 in his account at the bank. A simple interest of 4% per annum was paid on his deposit. Calculate the total amount at the end of 4 years.",
+    "media": [],
+    "answer": "$$I = \\frac{350{,}000 \\times 4 \\times 4}{100} = 56{,}000$$\n\nAmount: $350{,}000 + 56{,}000 = 406{,}000$\n\n> [!answer]\n> {{green:₵406,000.00}}",
+    "hint": "Amount $=$ principal $+$ interest.",
+    "explanation": "## Advanced explanation\n\nEquivalently, $A = P\\left(1 + \\frac{RT}{100}\\right) = 350{,}000 \\times 1.16 = 406{,}000$.\n\n## Simplified explanation\n\n4% of ₵350,000 is ₵14,000 a year, which is ₵56,000 in 4 years. Adding the deposit gives ₵406,000.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The cost of sending a telegram is ₵500.00 for the first 12 words and ₵25.00 for every extra word. Find the cost of sending a telegram containing 20 words.",
+    "media": [],
+    "answer": "Extra words: $20 - 12 = 8$\n\n$$500 + 8 \\times 25 = 700$$\n\n> [!answer]\n> {{green:₵700.00}}",
+    "hint": "Only the words after the first 12 cost ₵25.00 each.",
+    "explanation": "## Advanced explanation\n\nThe cost is $C = 500 + 25(n - 12)$ for $n \\ge 12$.\n\n## Simplified explanation\n\nThe first 12 words cost ₵500. The other 8 words cost $8 \\times 25 = 200$. Together that is ₵700.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of pupils in a JSS form 1 who speak some of the Ghanaian languages.\n\n(a) Calculate the angle of each sector of a pie chart for the distribution.\n\n(b) What is the modal Ghanaian language?\n\n(c) If a pupil is selected at random from the form, what is the probability that the pupil speaks Ga?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1996/1996q3.png",
+        "caption": "Table of Ghanaian languages and students. Nzema 5, Ga 20, Twi 30, Ewe 25, Fante 10."
+      }
+    ],
+    "answer": "**(a)** Total: $5 + 20 + 30 + 25 + 10 = 90$, so each pupil takes $360^\\circ \\div 90 = 4^\\circ$.\n\n| Language | Pupils | Angle |\n|---|---|---|\n| Nzema | 5 | 20° |\n| Ga | 20 | 80° |\n| Twi | 30 | 120° |\n| Ewe | 25 | 100° |\n| Fante | 10 | 40° |\n\n**(b)** Twi has the highest frequency, 30.\n\n**(c)** $\\frac{20}{90} = \\frac{2}{9}$\n\n> [!answer]\n> **(a)** {{green:Nzema 20°, Ga 80°, Twi 120°, Ewe 100°, Fante 40°}}\n>\n> **(b)** {{green:Twi}}  **(c)** {{green:$\\frac{2}{9}$}}",
+    "hint": "Add the pupils, then find the angle for one pupil.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{f}{90} \\times 360^\\circ = 4f$ degrees. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 90 pupils and 360° in a circle, so each pupil is 4°. Multiply each number by 4. Most pupils speak Twi. Twenty of the 90 speak Ga, which is $\\frac{2}{9}$.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a) construct triangle $ABC$, in which $|AB| = 6$ cm, $|AC| = 10$ cm and $|BC| = 8$ cm. Measure angle $ABC$.\n\n(b) Construct the perpendicular bisectors (mediators) of $AB$ and $BC$. Let the bisectors meet at $O$.\n\n(c) Construct a circle with centre $O$ and radius $OA$. Measure the radius of the circle.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|AC| = 10$ cm. Draw arcs of radius 6 cm from $A$ and 8 cm from $C$. They meet at $B$.\n\nBisect $AB$ and $BC$. The bisectors cross at $O$, and the circle with centre $O$ through $A$ also passes through $B$ and $C$.\n\n> [!answer]\n> **(a)** {{green:angle $ABC = 90^\\circ$}}  **(c)** {{green:radius 5 cm}}",
+    "hint": "Check whether $6^2 + 8^2 = 10^2$.",
+    "explanation": "## Advanced explanation\n\n$6^2 + 8^2 = 10^2$, so the triangle is right-angled at $B$. The circumcentre of a right-angled triangle is the midpoint of the hypotenuse, so the radius is $\\frac{10}{2} = 5$ cm.\n\n## Simplified explanation\n\nMake the triangle from its three sides using compass arcs. The angle at $B$ measures 90°. The bisectors meet at the middle of $AC$, so the radius is half of 10 cm, which is 5 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. On this graph sheet, mark the $x$-axis from $-10$ to $10$ and the $y$-axis from $-12$ to $12$.\n\n(a) Plot on the same graph sheet the points $A(2, 1)$, $B(3, 4)$ and $C(4, 2)$. Join the points to form a triangle $ABC$.\n\n(b) Draw the enlargement $A_1B_1C_1$ of triangle $ABC$ under a scale factor of 2 from the origin $(0, 0)$, such that $A \\to A_1$, $B \\to B_1$ and $C \\to C_1$. Write down the coordinates of triangle $A_1B_1C_1$.\n\n(c) Using the $x$-axis as the mirror line, draw the image $A_2B_2C_2$ of triangle $ABC$, where $A \\to A_2$, $B \\to B_2$ and $C \\to C_2$. Write down the coordinates of triangle $A_2B_2C_2$.",
+    "media": [],
+    "answer": "**(b)** An enlargement with scale factor 2 from the origin changes $(x, y)$ to $(2x, 2y)$:\n\n$A_1(4, 2)$, $B_1(6, 8)$, $C_1(8, 4)$\n\n**(c)** Reflecting in the $x$-axis changes $(x, y)$ to $(x, -y)$:\n\n$A_2(2, -1)$, $B_2(3, -4)$, $C_2(4, -2)$\n\n> [!answer]\n> **(b)** {{green:$A_1(4, 2)$, $B_1(6, 8)$, $C_1(8, 4)$}}\n>\n> **(c)** {{green:$A_2(2, -1)$, $B_2(3, -4)$, $C_2(4, -2)$}}",
+    "hint": "From the origin, a scale factor of 2 doubles both coordinates.",
+    "explanation": "## Advanced explanation\n\nAn enlargement multiplies distances from the centre by the scale factor, while a reflection preserves all lengths.\n\n## Simplified explanation\n\nFor the enlargement, double each number. For the mirror image in the $x$-axis, keep $x$ and flip the sign of $y$.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "1996 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  }
+]

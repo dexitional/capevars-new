@@ -1,0 +1,1513 @@
+[
+  {
+    "type": "choice",
+    "body": "Set $A$ is called ............. of set $B$ when all the members of set $A$ are also members of set $B$.",
+    "media": [],
+    "options": [
+      {
+        "text": "the universal set",
+        "hint": "The universal set contains all the members under discussion."
+      },
+      {
+        "text": "the union set",
+        "hint": "A union joins the members of two sets."
+      },
+      {
+        "text": "the null set",
+        "hint": "The null set has no members."
+      },
+      {
+        "text": "a subset",
+        "hint": "Correct. Every member of $A$ is in $B$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "What is the name for a set that sits inside another?",
+    "explanation": "## Advanced explanation\n\n$A \\subseteq B$ means that every element of $A$ is an element of $B$.\n\n## Simplified explanation\n\nWhen all of set $A$ is found inside set $B$, we call $A$ a subset of $B$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$M =$ {multiples of 3 between 10 and 20}.\n\n$N =$ {even numbers between 10 and 20}.\n\nFind $M \\cap N$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{12, 18\\}$",
+        "hint": "Correct. These are both multiples of 3 and even."
+      },
+      {
+        "text": "$\\{12, 15, 18\\}$",
+        "hint": "This is $M$, and 15 is not even."
+      },
+      {
+        "text": "$\\{12, 14, 16, 18\\}$",
+        "hint": "This is $N$, and 14 and 16 are not multiples of 3."
+      },
+      {
+        "text": "$\\{12, 14, 15, 16, 18\\}$",
+        "hint": "This is $M \\cup N$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "List both sets first.",
+    "explanation": "## Advanced explanation\n\n$M = \\{12, 15, 18\\}$ and $N = \\{12, 14, 16, 18\\}$, so $M \\cap N = \\{12, 18\\}$.\n\n## Simplified explanation\n\nThe multiples of 3 are 12, 15, 18. The even numbers are 12, 14, 16, 18. Both lists have 12 and 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 24 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3$",
+        "hint": "This equals 6."
+      },
+      {
+        "text": "$2^2 \\times 3$",
+        "hint": "This equals 12."
+      },
+      {
+        "text": "$2^3 \\times 3$",
+        "hint": "Correct. $8 \\times 3 = 24$."
+      },
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "This equals 36."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide by 2 repeatedly.",
+    "explanation": "## Advanced explanation\n\n$24 = 2 \\times 2 \\times 2 \\times 3 = 2^3 \\times 3$.\n\n## Simplified explanation\n\n$24 = 8 \\times 3$, and 8 is $2^3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 1342 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$0.1342 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$0.1342 \\times 10^{-4}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$13.42 \\times 10^2$",
+        "hint": "This equals 1342, but 13.42 is not between 1 and 10."
+      },
+      {
+        "text": "$1.342 \\times 10^3$",
+        "hint": "Correct. 1.342 is between 1 and 10."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The first number must be at least 1 and less than 10.",
+    "explanation": "## Advanced explanation\n\n$1342 = 1.342 \\times 10^3$.\n\n## Simplified explanation\n\nMove the point 3 places to the left to get 1.342. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Change $1011_{\\text{two}}$ to base 10.",
+    "media": [],
+    "options": [
+      {
+        "text": "15",
+        "hint": "This is $1111_{\\text{two}}$."
+      },
+      {
+        "text": "11",
+        "hint": "Correct. $8 + 2 + 1 = 11$."
+      },
+      {
+        "text": "23",
+        "hint": "This is $10111_{\\text{two}}$."
+      },
+      {
+        "text": "25",
+        "hint": "This is $11001_{\\text{two}}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The place values from the right are 1, 2, 4, 8.",
+    "explanation": "## Advanced explanation\n\n$2^3 + 2^1 + 2^0 = 8 + 2 + 1 = 11$.\n\n## Simplified explanation\n\nAdd the place values under each 1: $8 + 2 + 1 = 11$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $Y = 595$ and $Z = 7071$, find the sum of $Y$ and $Z$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6466$",
+        "hint": "This is near the difference. Add the numbers."
+      },
+      {
+        "text": "$7566$",
+        "hint": "Check the hundreds column when adding."
+      },
+      {
+        "text": "$7666$",
+        "hint": "Correct. $7071 + 595 = 7666$."
+      },
+      {
+        "text": "$12{,}021$",
+        "hint": "Line up the units before adding."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Line up the units, tens and hundreds.",
+    "explanation": "## Advanced explanation\n\n$7071 + 595 = 7666$.\n\n## Simplified explanation\n\nAdding 600 to 7071 gives 7671. Taking off the extra 5 gives 7666.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{1}{2} - \\dfrac{1}{4} + \\dfrac{1}{8}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Over 8: $4 - 2 + 1 = 3$."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Use 8 as the common denominator."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "Correct. $\\frac{4 - 2 + 1}{8}$."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "Subtract the $\\frac{1}{4}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use 8 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4}{8} - \\frac{2}{8} + \\frac{1}{8} = \\frac{3}{8}$.\n\n## Simplified explanation\n\nChange them to 8ths: 4, 2 and 1. Then $4 - 2 + 1 = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A ribbon is 4 m long. How many pieces 30 cm long can be cut from the ribbon? Give your answer to one decimal place.",
+    "media": [],
+    "options": [
+      {
+        "text": "7.3",
+        "hint": "Change 4 m to 400 cm, then divide by 30."
+      },
+      {
+        "text": "11.3",
+        "hint": "Change 4 m to 400 cm, then divide by 30."
+      },
+      {
+        "text": "12.0",
+        "hint": "This covers only 360 cm."
+      },
+      {
+        "text": "13.3",
+        "hint": "Correct. $400 \\div 30 \\approx 13.3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change the metres to centimetres first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{400}{30} \\approx 13.3$. In practice, this means 13 whole pieces with 10 cm left over.\n\n## Simplified explanation\n\n4 m is 400 cm. Then $400 \\div 30$ is about 13.3, which means 13 whole pieces and a short bit left over.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Measurement",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the integers within the interval $5 < x < 9$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{5, 6, 7\\}$",
+        "hint": "$5 < x$ leaves out 5, and 8 is included."
+      },
+      {
+        "text": "$\\{5, 6, 7, 8\\}$",
+        "hint": "$5 < x$ leaves out 5."
+      },
+      {
+        "text": "$\\{5, 6, 7, 8, 9\\}$",
+        "hint": "Both 5 and 9 are left out."
+      },
+      {
+        "text": "$\\{6, 7, 8\\}$",
+        "hint": "Correct. Both end values are left out."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$<$ leaves out the end values.",
+    "explanation": "## Advanced explanation\n\nThe integers strictly between 5 and 9 are 6, 7 and 8.\n\n## Simplified explanation\n\n$x$ must be above 5 and below 9. The whole numbers there are 6, 7 and 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate, correct to two decimal places: $0.61 \\div 0.8$",
+    "media": [],
+    "options": [
+      {
+        "text": "$0.07$",
+        "hint": "Check the place value: $6.1 \\div 8$."
+      },
+      {
+        "text": "$0.08$",
+        "hint": "Check the place value: $6.1 \\div 8$."
+      },
+      {
+        "text": "$0.76$",
+        "hint": "Correct. $0.7625 \\approx 0.76$."
+      },
+      {
+        "text": "$0.83$",
+        "hint": "Divide 6.1 by 8."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply both numbers by 10 first.",
+    "explanation": "## Advanced explanation\n\n$0.61 \\div 0.8 = 6.1 \\div 8 = 0.7625 \\approx 0.76$.\n\n## Simplified explanation\n\nMoving both points gives $6.1 \\div 8 = 0.7625$. Keeping two decimal places gives 0.76.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Number Operations",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows a circle with centre $O$. $S$ and $T$ are points on the circle.\n\nWhat name is given to the shaded region?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq11-12.png",
+        "caption": "Circle with centre O. Chord ST is drawn near the top. A shaded region at the bottom is bounded by two radii from O and the arc between them."
+      }
+    ],
+    "options": [
+      {
+        "text": "Sector",
+        "hint": "Correct. It is bounded by two radii and an arc."
+      },
+      {
+        "text": "Segment",
+        "hint": "A segment is bounded by a chord and an arc."
+      },
+      {
+        "text": "Arc",
+        "hint": "An arc is the curved line alone."
+      },
+      {
+        "text": "Radii",
+        "hint": "Radii are the straight lines from the centre."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Look at the lines that bound the region.",
+    "explanation": "## Advanced explanation\n\nA sector is the region bounded by two radii and the arc between them.\n\n## Simplified explanation\n\nThe shaded part looks like a slice of cake from the centre. That is a sector.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows a circle with centre $O$. $S$ and $T$ are points on the circle.\n\nThe line $ST$ is called",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq11-12.png",
+        "caption": "Circle with centre O. Chord ST is drawn near the top. A shaded region at the bottom is bounded by two radii from O and the arc between them."
+      }
+    ],
+    "options": [
+      {
+        "text": "an arc",
+        "hint": "An arc is curved."
+      },
+      {
+        "text": "a chord",
+        "hint": "Correct. It joins two points on the circle."
+      },
+      {
+        "text": "a diameter",
+        "hint": "A diameter passes through the centre."
+      },
+      {
+        "text": "a radius",
+        "hint": "A radius goes from the centre to the circle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The line joins two points on the circle, but misses the centre.",
+    "explanation": "## Advanced explanation\n\nA chord is a straight line segment joining two points on a circle.\n\n## Simplified explanation\n\n$ST$ goes from one point on the circle to another, without passing through $O$. That is a chord.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $2 \\times 3^2 \\times 3^4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3^5$",
+        "hint": "$2 + 4 = 6$."
+      },
+      {
+        "text": "$2 \\times 3^6$",
+        "hint": "Correct. Add the powers of 3."
+      },
+      {
+        "text": "$2 \\times 3^8$",
+        "hint": "This multiplies the powers. Add them."
+      },
+      {
+        "text": "$2 \\times 9^6$",
+        "hint": "Keep the base as 3."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the powers of 3.",
+    "explanation": "## Advanced explanation\n\n$3^2 \\times 3^4 = 3^{2 + 4} = 3^6$.\n\n## Simplified explanation\n\nThe base is the same, so add the powers: $2 + 4 = 6$. The 2 in front stays.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following fractions is the greatest: $\\dfrac{1}{6}, \\dfrac{1}{4}, \\dfrac{1}{2}, \\dfrac{1}{3}, \\dfrac{1}{5}$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "This is the smallest of the fractions."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. The smaller the denominator, the larger the fraction."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "$\\frac{1}{2}$ and $\\frac{1}{3}$ are larger."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "$\\frac{1}{2}$ is larger."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "All the numerators are 1.",
+    "explanation": "## Advanced explanation\n\nWith equal numerators, the fraction with the smallest denominator is the greatest.\n\n## Simplified explanation\n\nIf you share one thing among fewer people, each gets more. So $\\frac{1}{2}$ is the largest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of the ages of a man and his wife is 81 years. The ratio of their ages is $5 : 4$. Find the age of the younger person.",
+    "media": [],
+    "options": [
+      {
+        "text": "30 years",
+        "hint": "One part is 9 years, and the younger has 4 parts."
+      },
+      {
+        "text": "36 years",
+        "hint": "Correct. $4 \\times 9 = 36$."
+      },
+      {
+        "text": "45 years",
+        "hint": "This is the age of the older person."
+      },
+      {
+        "text": "51 years",
+        "hint": "One part is 9 years, and the younger has 4 parts."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The ratio has 9 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4}{9} \\times 81 = 36$.\n\n## Simplified explanation\n\n$81 \\div 9 = 9$ years per part. The younger person has 4 parts, which is 36.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car is travelling at 40 km per hour. How far will it travel in $2\\dfrac{1}{2}$ hours?",
+    "media": [],
+    "options": [
+      {
+        "text": "16 km",
+        "hint": "This divides. Multiply the speed by the time."
+      },
+      {
+        "text": "80 km",
+        "hint": "This is for 2 hours."
+      },
+      {
+        "text": "90 km",
+        "hint": "Half an hour adds 20 km, not 10 km."
+      },
+      {
+        "text": "100 km",
+        "hint": "Correct. $40 \\times 2.5 = 100$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Distance $=$ speed $\\times$ time.",
+    "explanation": "## Advanced explanation\n\n$d = 40 \\times 2.5 = 100$ km.\n\n## Simplified explanation\n\n2 hours is 80 km and half an hour is 20 km. Together that is 100 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 6 girls and 18 boys in a class. What percentage of the class are girls?",
+    "media": [],
+    "options": [
+      {
+        "text": "14.40%",
+        "hint": "There are 24 pupils, and $\\frac{6}{24} = \\frac{1}{4}$."
+      },
+      {
+        "text": "25.00%",
+        "hint": "Correct. $\\frac{6}{24} = \\frac{1}{4}$."
+      },
+      {
+        "text": "33.33%",
+        "hint": "This is girls over boys. Use the total of 24."
+      },
+      {
+        "text": "66.67%",
+        "hint": "There are 24 pupils, and $\\frac{6}{24} = \\frac{1}{4}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The class has $6 + 18 = 24$ pupils.",
+    "explanation": "## Advanced explanation\n\n$\\frac{6}{24} \\times 100\\% = 25\\%$.\n\n## Simplified explanation\n\n6 out of 24 is one quarter, which is 25%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the missing numbers in the sequence: $4, 8, 12, \\ldots, 28$",
+    "media": [],
+    "options": [
+      {
+        "text": "14, 16, 22",
+        "hint": "The numbers go up in steps of 4."
+      },
+      {
+        "text": "14, 18, 22",
+        "hint": "The numbers go up in steps of 4."
+      },
+      {
+        "text": "16, 18, 12",
+        "hint": "The numbers go up in steps of 4."
+      },
+      {
+        "text": "16, 20, 24",
+        "hint": "Correct. The next numbers are 16, 20 and 24."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How much is added each time?",
+    "explanation": "## Advanced explanation\n\nThe common difference is 4, so the terms are 16, 20 and 24 before 28.\n\n## Simplified explanation\n\nCount in 4s from 12: 16, 20, 24, and then 28.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A shop increased all its prices by 10%. Calculate the new price for an article which was previously sold for ₵7,500.00.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵6,750.00",
+        "hint": "This is a decrease of 10%."
+      },
+      {
+        "text": "₵7,500.00",
+        "hint": "This is the old price."
+      },
+      {
+        "text": "₵7,800.00",
+        "hint": "10% of ₵7,500.00 is ₵750.00."
+      },
+      {
+        "text": "₵8,250.00",
+        "hint": "Correct. $7{,}500 + 750 = 8{,}250$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 10% and add it on.",
+    "explanation": "## Advanced explanation\n\n$7{,}500 \\times 1.1 = 8{,}250$.\n\n## Simplified explanation\n\n10% of ₵7,500 is ₵750. Adding it gives ₵8,250.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $7(y + 1) - 2(2y + 3)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$3y - 5$",
+        "hint": "$7 - 6 = 1$."
+      },
+      {
+        "text": "$3y - 2$",
+        "hint": "$7 - 6 = 1$."
+      },
+      {
+        "text": "$3y + 1$",
+        "hint": "Correct. $7y + 7 - 4y - 6$."
+      },
+      {
+        "text": "$3y + 4$",
+        "hint": "$-2 \\times 3$ is $-6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply out both brackets.",
+    "explanation": "## Advanced explanation\n\n$7y + 7 - 4y - 6 = 3y + 1$.\n\n## Simplified explanation\n\nThe brackets give $7y + 7$ and $-4y - 6$. Then $7y - 4y = 3y$ and $7 - 6 = 1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the average monthly rainfall at Nankese from March 1996 to August 1996.\n\nWhich month recorded the highest amount of rainfall?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq21-22.png",
+        "caption": "Table of rainfall in mm. March 99, April 145, May 227, June 450, July 267, August 142."
+      }
+    ],
+    "options": [
+      {
+        "text": "March",
+        "hint": "March had 99 mm."
+      },
+      {
+        "text": "April",
+        "hint": "April had 145 mm."
+      },
+      {
+        "text": "May",
+        "hint": "May had 227 mm."
+      },
+      {
+        "text": "June",
+        "hint": "Correct. June had 450 mm."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the largest value in the table.",
+    "explanation": "## Advanced explanation\n\nThe maximum value is 450 mm, in June.\n\n## Simplified explanation\n\nThe largest number in the table is 450, under June.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the average monthly rainfall at Nankese from March 1996 to August 1996.\n\nWhat was the total amount of rainfall recorded in April, May and July?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq21-22.png",
+        "caption": "Table of rainfall in mm. March 99, April 145, May 227, June 450, July 267, August 142."
+      }
+    ],
+    "options": [
+      {
+        "text": "422 mm",
+        "hint": "Add April, May and July."
+      },
+      {
+        "text": "822 mm",
+        "hint": "Add April, May and July."
+      },
+      {
+        "text": "639 mm",
+        "hint": "Correct. $145 + 227 + 267 = 639$."
+      },
+      {
+        "text": "994 mm",
+        "hint": "Add April, May and July."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the three values from the table.",
+    "explanation": "## Advanced explanation\n\n$145 + 227 + 267 = 639$ mm.\n\n## Simplified explanation\n\nApril is 145, May is 227 and July is 267. They add to 639.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the median of the following numbers: $1, -1, -5, 3$ and $-4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1$",
+        "hint": "Correct. It is the middle number in order."
+      },
+      {
+        "text": "$-4$",
+        "hint": "This is the 2nd number in order."
+      },
+      {
+        "text": "$-5$",
+        "hint": "This is the lowest number."
+      },
+      {
+        "text": "$1$",
+        "hint": "This is the 4th number in order."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Arrange the numbers in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: $-5, -4, -1, 1, 3$. The median is the 3rd value, $-1$.\n\n## Simplified explanation\n\nFrom lowest to highest: $-5$, $-4$, $-1$, 1, 3. The middle one is $-1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 15 red and 25 black balls in a bag. What is the probability of selecting a black ball from the bag?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{25}$",
+        "hint": "There are 25 black balls, not 1."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "Use 25 black balls out of 40."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "This is the probability of a red ball."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "Correct. $\\frac{25}{40} = \\frac{5}{8}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The total number of balls is 40.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{black}) = \\frac{25}{15 + 25} = \\frac{5}{8}$.\n\n## Simplified explanation\n\n25 of the 40 balls are black, and $\\frac{25}{40}$ reduces to $\\frac{5}{8}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, triangle $K$ is an enlargement of triangle $J$.\n\nCalculate the scale factor.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq25-26.png",
+        "caption": "Right-angled triangle J with base 3 m and height 1.5 m, inside a larger similar triangle K. The base of K extends 6 m further, and its height is x."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This goes from $K$ back to $J$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "The base of $K$ is $3 + 6 = 9$ m."
+      },
+      {
+        "text": "$2$",
+        "hint": "This is $6 \\div 3$. The base of $K$ is 9 m."
+      },
+      {
+        "text": "$3$",
+        "hint": "Correct. $9 \\div 3 = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The base of $K$ is the whole $3 + 6$ m.",
+    "explanation": "## Advanced explanation\n\n$k = \\frac{3 + 6}{3} = 3$.\n\n## Simplified explanation\n\n$J$ has a base of 3 m and $K$ has a base of 9 m. So $K$ is 3 times as big.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, triangle $K$ is an enlargement of triangle $J$.\n\nFind the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq25-26.png",
+        "caption": "Right-angled triangle J with base 3 m and height 1.5 m, inside a larger similar triangle K. The base of K extends 6 m further, and its height is x."
+      }
+    ],
+    "options": [
+      {
+        "text": "3.0 m",
+        "hint": "Multiply 1.5 m by the scale factor, 3."
+      },
+      {
+        "text": "3.5 m",
+        "hint": "Multiply 1.5 m by the scale factor, 3."
+      },
+      {
+        "text": "4.5 m",
+        "hint": "Correct. $1.5 \\times 3 = 4.5$."
+      },
+      {
+        "text": "6.0 m",
+        "hint": "Multiply 1.5 m by the scale factor, 3."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the height of $J$ by the scale factor.",
+    "explanation": "## Advanced explanation\n\n$x = 3 \\times 1.5 = 4.5$ m.\n\n## Simplified explanation\n\nThe scale factor is 3, so the height of 1.5 m becomes 4.5 m.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader received a commission of 25% on the sales he made in a month. His commission was ₵180,000.00. Find his total sales for the month.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵135,000.00",
+        "hint": "This is less than the commission."
+      },
+      {
+        "text": "₵150,000.00",
+        "hint": "This is less than the commission."
+      },
+      {
+        "text": "₵240,000.00",
+        "hint": "This treats the commission as 75%."
+      },
+      {
+        "text": "₵720,000.00",
+        "hint": "Correct. 25% of ₵720,000.00 is ₵180,000.00."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "₵180,000.00 is 25% of the sales.",
+    "explanation": "## Advanced explanation\n\n$0.25S = 180{,}000$, so $S = 720{,}000$.\n\n## Simplified explanation\n\n25% is a quarter, so the sales are 4 times the commission: $4 \\times 180{,}000 = 720{,}000$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kwame travelled from Accra to Kumasi. He travelled $\\dfrac{3}{10}$ of the journey by lorry, $\\dfrac{2}{10}$ of the journey by taxi and the rest by train. What fraction of the journey did he travel by train?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $1 - \\frac{5}{10} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "$\\frac{3}{10} + \\frac{2}{10} = \\frac{5}{10}$."
+      },
+      {
+        "text": "$\\dfrac{7}{10}$",
+        "hint": "Take off the taxi part as well."
+      },
+      {
+        "text": "$\\dfrac{3}{25}$",
+        "hint": "Add the fractions, then subtract from 1."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The whole journey is 1.",
+    "explanation": "## Advanced explanation\n\n$1 - \\left(\\frac{3}{10} + \\frac{2}{10}\\right) = \\frac{5}{10} = \\frac{1}{2}$.\n\n## Simplified explanation\n\nLorry and taxi make $\\frac{5}{10}$ of the journey. The other half was by train.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $4(m + 4) = 18$, find the value of $m$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $m + 4 = 4\\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "This gives $4(5\\frac{1}{2}) = 22$."
+      },
+      {
+        "text": "$\\dfrac{5}{2}$",
+        "hint": "This gives $4(6\\frac{1}{2}) = 26$."
+      },
+      {
+        "text": "$\\dfrac{7}{2}$",
+        "hint": "This gives $4(7\\frac{1}{2}) = 30$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Expand the bracket, or divide both sides by 4.",
+    "explanation": "## Advanced explanation\n\n$4m + 16 = 18$, so $4m = 2$ and $m = \\frac{1}{2}$.\n\n## Simplified explanation\n\nOpening the bracket gives $4m + 16 = 18$. So $4m = 2$ and $m = \\frac{1}{2}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\n| $x$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $y$ | 3 | 5 | 7 | 9 |\n\nWhat is the rule for the mapping?",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to 4 - x$",
+        "hint": "When $x = 1$, this gives 3, but when $x = 2$, it gives 2."
+      },
+      {
+        "text": "$x \\to x - 2$",
+        "hint": "When $x = 1$, this gives $-1$."
+      },
+      {
+        "text": "$x \\to 2x$",
+        "hint": "When $x = 1$, this gives 2."
+      },
+      {
+        "text": "$x \\to 2x + 1$",
+        "hint": "Correct. It fits every column."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$y$ goes up by 2 each time.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 2, so $y = 2x + c$. With $(1, 3)$, $c = 1$.\n\n## Simplified explanation\n\nEach step adds 2, so the rule has $2x$. When $x = 1$, $2x$ is 2, and 1 more makes 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\n| $x$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $y$ | 3 | 5 | 7 | 9 |\n\nFind the value of $y$ when $x$ is 7.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Use the rule $y = 2x + 1$."
+      },
+      {
+        "text": "$9$",
+        "hint": "This is the value when $x = 4$."
+      },
+      {
+        "text": "$14$",
+        "hint": "This is $2x$. Add 1."
+      },
+      {
+        "text": "$15$",
+        "hint": "Correct. $2(7) + 1 = 15$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use the rule $y = 2x + 1$.",
+    "explanation": "## Advanced explanation\n\n$y = 2(7) + 1 = 15$.\n\n## Simplified explanation\n\nDouble 7 to get 14, then add 1 to get 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A square of side 6 cm has the same area as a rectangle of length 9 cm. Find the breadth of the rectangle.",
+    "media": [],
+    "options": [
+      {
+        "text": "3 cm",
+        "hint": "This gives an area of 27 cm²."
+      },
+      {
+        "text": "4 cm",
+        "hint": "Correct. $36 \\div 9 = 4$."
+      },
+      {
+        "text": "6 cm",
+        "hint": "This gives an area of 54 cm²."
+      },
+      {
+        "text": "24 cm",
+        "hint": "Divide the area by the length."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the area of the square first.",
+    "explanation": "## Advanced explanation\n\n$6^2 = 36 = 9b$, so $b = 4$ cm.\n\n## Simplified explanation\n\nThe square's area is 36 cm². Then $36 \\div 9 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise: $3r^2s - 9rs^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$rs(3r - s)$",
+        "hint": "This expands to give $-rs^2$."
+      },
+      {
+        "text": "$3rs(s - 3r)$",
+        "hint": "This expands to give $3rs^2 - 9r^2s$."
+      },
+      {
+        "text": "$3rs(r - 3s)$",
+        "hint": "Correct. It expands back to the original."
+      },
+      {
+        "text": "$r^2s^2(3r - 9s)$",
+        "hint": "This expands to give terms of higher power."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Take out the highest common factor of both terms.",
+    "explanation": "## Advanced explanation\n\nThe HCF is $3rs$, so $3r^2s - 9rs^2 = 3rs(r - 3s)$.\n\n## Simplified explanation\n\nBoth terms contain 3, $r$ and $s$. Taking out $3rs$ leaves $r$ and $-3s$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The average mass of 4 boys is 45 kg. When a fifth boy joins them the average mass changes to 40 kg. What is the mass of the fifth boy?",
+    "media": [],
+    "options": [
+      {
+        "text": "5 kg",
+        "hint": "This is the change in the average."
+      },
+      {
+        "text": "10 kg",
+        "hint": "Find the two totals first."
+      },
+      {
+        "text": "15 kg",
+        "hint": "Find the two totals first."
+      },
+      {
+        "text": "20 kg",
+        "hint": "Correct. $200 - 180 = 20$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Total $=$ average $\\times$ number of boys.",
+    "explanation": "## Advanced explanation\n\n$5 \\times 40 - 4 \\times 45 = 200 - 180 = 20$ kg.\n\n## Simplified explanation\n\nFour boys have a total of 180 kg. Five boys have a total of 200 kg. The new boy adds 20 kg.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$E$ is the point $(4, 2)$ and $F$ is the point $(2, 1)$. Calculate the gradient of the straight line $EF$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "Both changes have the same sign, so the gradient is positive."
+      },
+      {
+        "text": "$-2$",
+        "hint": "Both changes have the same sign, and this is upside down."
+      },
+      {
+        "text": "$2$",
+        "hint": "This is change in $x$ over change in $y$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{2 - 1}{4 - 2} = \\frac{1}{2}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Gradient $= \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{2 - 1}{4 - 2} = \\frac{1}{2}$.\n\n## Simplified explanation\n\n$y$ changes by 1 while $x$ changes by 2. So the gradient is $\\frac{1}{2}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$L = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$ and $K = \\begin{pmatrix} -4 \\\\ 2 \\end{pmatrix}$. Find $L + K$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -1 \\end{pmatrix}$",
+        "hint": "For the bottom, $-1 + 2 = 1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$",
+        "hint": "Correct. $3 - 4 = -1$ and $-1 + 2 = 1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$",
+        "hint": "Both signs are the wrong way round."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ -1 \\end{pmatrix}$",
+        "hint": "For the top, $3 + (-4) = -1$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add matching components.",
+    "explanation": "## Advanced explanation\n\n$\\begin{pmatrix} 3 - 4 \\\\ -1 + 2 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$.\n\n## Simplified explanation\n\nAdd the tops to get $-1$. Add the bottoms to get 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $LM$ and $PQ$ are parallel lines. Find the value of $V$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq37.png",
+        "caption": "Parallel lines LM and PQ cut by a slanted line. Angle V is below LM on the left of the line, and the angle above PQ on the left of the line is 148°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$32^\\circ$",
+        "hint": "Correct. $180^\\circ - 148^\\circ = 32^\\circ$."
+      },
+      {
+        "text": "$40^\\circ$",
+        "hint": "Use $180^\\circ - 148^\\circ$."
+      },
+      {
+        "text": "$58^\\circ$",
+        "hint": "This is $90^\\circ - 32^\\circ$."
+      },
+      {
+        "text": "$148^\\circ$",
+        "hint": "This is the given angle."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$V$ and the 148° angle lie between the parallel lines, on the same side.",
+    "explanation": "## Advanced explanation\n\nThey are co-interior angles, so $V + 148^\\circ = 180^\\circ$ and $V = 32^\\circ$.\n\n## Simplified explanation\n\nBoth angles are between the parallel lines on the left of the slanted line, so they add to 180°. Then $180 - 148 = 32$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given the relation $\\dfrac{1}{y} = \\dfrac{1}{c} + \\dfrac{1}{x}$, which of the following expressions is equal to $y$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$c + x$",
+        "hint": "Add the fractions first, then turn them upside down."
+      },
+      {
+        "text": "$\\dfrac{2}{cx}$",
+        "hint": "Add the fractions first, then turn them upside down."
+      },
+      {
+        "text": "$\\dfrac{c + x}{2}$",
+        "hint": "Add the fractions first, then turn them upside down."
+      },
+      {
+        "text": "$\\dfrac{cx}{c + x}$",
+        "hint": "Correct. $\\frac{1}{y} = \\frac{x + c}{cx}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add the two fractions on the right.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{y} = \\frac{x + c}{cx}$, so $y = \\frac{cx}{c + x}$.\n\n## Simplified explanation\n\nOver the denominator $cx$, the right side is $\\frac{x + c}{cx}$. Turn it upside down to get $y$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The figure is the net of",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq39.png",
+        "caption": "A sector of a circle: two straight edges meeting at a point, joined at their other ends by an arc."
+      }
+    ],
+    "options": [
+      {
+        "text": "a cylinder",
+        "hint": "A cylinder's net has two circles and a rectangle."
+      },
+      {
+        "text": "a triangle",
+        "hint": "A triangle is a flat shape, not a solid."
+      },
+      {
+        "text": "a pyramid",
+        "hint": "A pyramid's net has flat triangular faces."
+      },
+      {
+        "text": "a cone",
+        "hint": "Correct. A sector rolls up into the curved surface of a cone."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Imagine rolling up the shape.",
+    "explanation": "## Advanced explanation\n\nThe curved surface of a cone unrolls into a sector of a circle.\n\n## Simplified explanation\n\nBring the two straight edges together, and the shape rolls into a cone.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $MNO$ is a triangle. Angle $MON = 72^\\circ$ and angle $OMN = 68^\\circ$. Find angle $ONP$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999secaq40.png",
+        "caption": "Triangle MNO with MN extended to P. Angle MON is 72° and angle OMN is 68°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$40^\\circ$",
+        "hint": "This is angle $MNO$."
+      },
+      {
+        "text": "$68^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$72^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$140^\\circ$",
+        "hint": "Correct. $72^\\circ + 68^\\circ = 140^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "An exterior angle equals the sum of the two interior opposite angles.",
+    "explanation": "## Advanced explanation\n\nAngle $ONP = 72^\\circ + 68^\\circ = 140^\\circ$.\n\n## Simplified explanation\n\nThe outside angle at $N$ equals the two far inside angles added together. So $72 + 68 = 140$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1999 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Kofi and Kojo were given ₵38,000.00 to share. Kojo had ₵7,500.00 more than Kofi. Find\n\n(i) Kofi's share;\n\n(ii) Kojo's share.",
+    "media": [],
+    "answer": "**(i)** Let Kofi's share be $x$:\n\n$$x + (x + 7{,}500) = 38{,}000$$\n\n$$2x = 30{,}500$$\n\n$$x = 15{,}250$$\n\n**(ii)** $15{,}250 + 7{,}500 = 22{,}750$\n\n> [!answer]\n> **(i)** {{green:₵15,250.00}}  **(ii)** {{green:₵22,750.00}}",
+    "hint": "Take off the extra ₵7,500.00, then halve.",
+    "explanation": "## Advanced explanation\n\nCheck: $15{,}250 + 22{,}750 = 38{,}000$.\n\n## Simplified explanation\n\nTake the extra ₵7,500 from ₵38,000 to leave ₵30,500. Half of that is Kofi's share. Kojo has ₵7,500 more.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A trader paid ₵1,500.00 for 6 drinking cups. One of the cups got broken. The trader sold the remaining 5, making a profit of 10%. Calculate\n\n(i) the cost price of each of the six cups;\n\n(ii) the selling price of each of the five cups;\n\n(iii) the profit made on each of the cups sold.",
+    "media": [],
+    "answer": "**(i)** $1{,}500 \\div 6 = 250$\n\n**(ii)** Total selling price: $1.1 \\times 1{,}500 = 1{,}650$\n\n$$1{,}650 \\div 5 = 330$$\n\n**(iii)** Total profit: $1{,}650 - 1{,}500 = 150$\n\n$$150 \\div 5 = 30$$\n\n> [!answer]\n> **(i)** {{green:₵250.00}}  **(ii)** {{green:₵330.00}}  **(iii)** {{green:₵30.00}}",
+    "hint": "The 10% profit is on the ₵1,500.00 paid for all six cups.",
+    "explanation": "## Advanced explanation\n\nThe cost of the broken cup is carried by the five cups sold, so the profit per cup is the total profit divided by 5.\n\n## Simplified explanation\n\nEach cup cost ₵250. The trader needs ₵1,650 in all, which is ₵330 for each of 5 cups. The total profit of ₵150 over 5 cups is ₵30 each.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the inequality $\\dfrac{2x - 1}{4} - \\dfrac{x - 2}{3} \\ge 1$",
+    "media": [],
+    "answer": "Multiply both sides by 12:\n\n$$3(2x - 1) - 4(x - 2) \\ge 12$$\n\n$$6x - 3 - 4x + 8 \\ge 12$$\n\n$$2x \\ge 7$$\n\n$$x \\ge 3\\frac{1}{2}$$\n\n> [!answer]\n> {{green:$x \\ge 3\\dfrac{1}{2}$}}",
+    "hint": "The LCM of 4 and 3 is 12.",
+    "explanation": "## Advanced explanation\n\nMultiplying by a positive number keeps the direction of the inequality.\n\n## Simplified explanation\n\nMultiplying by 12 clears the fractions. Simplifying gives $2x + 5 \\ge 12$, so $2x \\ge 7$ and $x \\ge 3\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the value of the expression $2x - 3y$ if $x = \\dfrac{1}{3}$ and $y = -\\dfrac{1}{2}$.",
+    "media": [],
+    "answer": "$$2\\left(\\frac{1}{3}\\right) - 3\\left(-\\frac{1}{2}\\right) = \\frac{2}{3} + \\frac{3}{2} = \\frac{13}{6} = 2\\frac{1}{6}$$\n\n> [!answer]\n> {{green:$2\\dfrac{1}{6}$}}",
+    "hint": "Be careful with the negative value of $y$.",
+    "explanation": "## Advanced explanation\n\nSubtracting a negative value adds its size.\n\n## Simplified explanation\n\n$2x$ is $\\frac{2}{3}$. $3y$ is $-\\frac{3}{2}$, and taking it away adds $\\frac{3}{2}$. Over 6, that is $\\frac{4 + 9}{6} = \\frac{13}{6}$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "25 students in a class took an examination in Mathematics and Science. 17 of them passed in Science and 8 passed in both Mathematics and Science. 3 students did not pass in any of the subjects.\n\n(i) How many passed in Mathematics?\n\n(ii) Find the probability of meeting a student who passed in one subject only.",
+    "media": [],
+    "answer": "Passed at least one: $25 - 3 = 22$\n\nScience only: $17 - 8 = 9$\n\nMathematics only: $22 - 17 = 5$\n\n**(i)** $5 + 8 = 13$\n\n**(ii)** One subject only: $9 + 5 = 14$, so the probability is $\\frac{14}{25}$.\n\n> [!answer]\n> **(i)** {{green:13}}  **(ii)** {{green:$\\frac{14}{25}$}}",
+    "hint": "Take out the 3 students who passed nothing.",
+    "explanation": "## Advanced explanation\n\n$n(M \\cup S) = n(M) + n(S) - n(M \\cap S)$, so $22 = n(M) + 17 - 8$ and $n(M) = 13$.\n\n## Simplified explanation\n\n22 students passed something, and 17 of them passed Science. The other 5 passed Mathematics only. With the 8 who passed both, that is 13. Those with one subject only number $5 + 9 = 14$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Sets",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a pair of compasses and a ruler only,\n\n(i) construct triangle $ABC$ such that $|AB| = 10$ cm, angle $ABC = 30^\\circ$ and $|BC| = 8$ cm. Measure angle $ABC$.\n\n(ii) Construct a perpendicular from $C$ to meet line $AB$ at $D$. Measure $|CD|$.\n\n(iii) Calculate the area of triangle $ABC$.\n\nType your answers.",
+    "media": [],
+    "answer": "Draw $|AB| = 10$ cm. Construct $60^\\circ$ at $B$ and bisect it to get $30^\\circ$. Mark $C$ on this arm so that $|BC| = 8$ cm, and join $C$ to $A$.\n\nDrop the perpendicular from $C$ to $AB$ at $D$.\n\n**(iii)** $\\frac{1}{2} \\times 10 \\times 4 = 20$ cm²\n\n> [!answer]\n> **(i)** {{green:$30^\\circ$}}  **(ii)** {{green:$|CD| = 4$ cm}}  **(iii)** {{green:20 cm²}}",
+    "hint": "$CD$ is the height of the triangle on the base $AB$.",
+    "explanation": "## Advanced explanation\n\n$|CD| = 8\\sin 30^\\circ = 4$ cm, so the area is $\\frac{1}{2}(10)(4) = 20$ cm².\n\n## Simplified explanation\n\nBuild the triangle from the two sides and the 30° angle between them. Drop a line from $C$ straight down to $AB$. It measures 4 cm. The area is half of base times height.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. On the same graph sheet, mark the $x$-axis from $-10$ to $10$ and the $y$-axis from $-12$ to $12$. Plot the points $A(0, 10)$, $B(-6, -2)$, $C(4, 3)$ and $D(-3, -11)$. Use the ruler to join the points $A$ to $B$ and also $C$ to $D$.\n\n(i) Draw the line $x = -2$ to meet $AB$ at $P$ and $CD$ at $Q$.\n\n(ii) Use the protractor to measure angles $BPQ$ and $PQC$.\n\n(iii) What is the common name given to angles $BPQ$ and $PQC$?\n\n(iv) State the relationship between lines $AB$ and $CD$.",
+    "media": [],
+    "answer": "$AB$ has gradient $\\frac{10 - (-2)}{0 - (-6)} = 2$ and $CD$ has gradient $\\frac{3 - (-11)}{4 - (-3)} = 2$.\n\n**(i)** $P(-2, 6)$ and $Q(-2, -9)$\n\n**(ii)** Both angles measure about $27^\\circ$.\n\n**(iii)** They are alternate angles.\n\n**(iv)** The lines have the same gradient, so they are parallel.\n\n> [!answer]\n> **(ii)** {{green:both about $27^\\circ$}}  **(iii)** {{green:alternate angles}}  **(iv)** {{green:$AB$ is parallel to $CD$}}",
+    "hint": "Join the points carefully, and extend the line $x = -2$ to meet both lines.",
+    "explanation": "## Advanced explanation\n\n$\\tan$ of each angle is $\\frac{1}{2}$, so each is about $26.6^\\circ$. Equal alternate angles confirm that the lines are parallel.\n\n## Simplified explanation\n\nPlot the points and rule both lines. The vertical line through $-2$ cuts them at $P$ and $Q$. The two angles make a Z shape and both measure about 27°. Equal alternate angles mean that the lines are parallel.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Graphs",
+      "Geometry",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the marks scored out of 10 by some candidates in a test.\n\n(a) From the table, find\n\n(i) the modal mark;\n\n(ii) how many students took the test;\n\n(iii) the mean mark for the test.\n\n(b) If 20% of the candidates failed,\n\n(i) how many failed?\n\n(ii) What is the least mark a candidate should score in order to pass?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1999/1999q5.png",
+        "caption": "Table of marks and candidates. Mark 1: 2, mark 2: 3, mark 3: 5, mark 4: 7, mark 5: 8, mark 6: 13, mark 7: 7, mark 8: 5."
+      }
+    ],
+    "answer": "**(a)(i)** Mark 6 has the highest frequency, 13.\n\n**(ii)** $2 + 3 + 5 + 7 + 8 + 13 + 7 + 5 = 50$\n\n**(iii)** $\\frac{2 + 6 + 15 + 28 + 40 + 78 + 49 + 40}{50} = \\frac{258}{50} = 5.16$\n\n**(b)(i)** $20\\%$ of $50 = 10$\n\n**(ii)** From the lowest mark up, $2 + 3 + 5 = 10$ candidates scored 3 or less, so the least mark to pass is 4.\n\n> [!answer]\n> **(a)(i)** {{green:6}}  **(ii)** {{green:50}}  **(iii)** {{green:5.16}}\n>\n> **(b)(i)** {{green:10}}  **(ii)** {{green:4}}",
+    "hint": "Multiply each mark by its number of candidates to find the mean.",
+    "explanation": "## Advanced explanation\n\nThe cumulative frequencies from the lowest mark are 2, 5, 10, so the bottom 20% are exactly those with marks of 1, 2 and 3.\n\n## Simplified explanation\n\nThe biggest number, 13, is at mark 6. The candidates add to 50. Multiply and add to get 258, then divide by 50 to get 5.16. 20% of 50 is 10, and the 10 lowest scorers got 3 or less, so 4 is enough to pass.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "1999 Paper",
+      "Section B",
+      "Statistics",
+      "Percentages"
+    ]
+  }
+]

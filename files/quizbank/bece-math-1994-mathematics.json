@@ -1,0 +1,1525 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following is the set of factors of 12?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{12, 6, 4, 3, 2, 1\\}$",
+        "hint": "Correct. All of these divide 12 exactly."
+      },
+      {
+        "text": "$\\{12, 6, 4, 3, 2\\}$",
+        "hint": "1 is also a factor of 12."
+      },
+      {
+        "text": "$\\{12, 6, 4, 2\\}$",
+        "hint": "1 and 3 are also factors of 12."
+      },
+      {
+        "text": "$\\{6, 4, 2, 1\\}$",
+        "hint": "12 and 3 are also factors of 12."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A factor divides 12 exactly. Do not forget 1 and 12.",
+    "explanation": "## Advanced explanation\n\n$12 = 1 \\times 12 = 2 \\times 6 = 3 \\times 4$, which gives six factors.\n\n## Simplified explanation\n\nFind the pairs that multiply to 12: 1 and 12, 2 and 6, 3 and 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following describes the relationship between the sets $A$ and $B$ in the Venn diagram?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq2.png",
+        "caption": "Venn diagram with separate circles. A holds 1, 2, 3 and 4, and B holds 5 and 6."
+      }
+    ],
+    "options": [
+      {
+        "text": "$A \\subset B$",
+        "hint": "$A$ is not inside $B$."
+      },
+      {
+        "text": "$A \\cap B = 5$",
+        "hint": "5 is in $B$ only."
+      },
+      {
+        "text": "$A \\cap B = \\emptyset$",
+        "hint": "Correct. The circles do not overlap."
+      },
+      {
+        "text": "$A \\cap B = \\{1, 2, 3, 4, 5, 6, 7\\}$",
+        "hint": "This lists more than the overlap, and the circles do not overlap."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Do the two circles overlap?",
+    "explanation": "## Advanced explanation\n\nThe circles are separate, so the sets are disjoint and their intersection is empty.\n\n## Simplified explanation\n\nThe two circles do not touch, so no number is in both sets.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mark is 30 years old. Yaw is half as old as Mark. Paul is 10 years older than Yaw. How old is Paul?",
+    "media": [],
+    "options": [
+      {
+        "text": "30 years",
+        "hint": "This is Mark's age."
+      },
+      {
+        "text": "25 years",
+        "hint": "Correct. $15 + 10 = 25$."
+      },
+      {
+        "text": "20 years",
+        "hint": "Yaw is 15, and Paul is 10 years older."
+      },
+      {
+        "text": "15 years",
+        "hint": "This is Yaw's age."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find Yaw's age first.",
+    "explanation": "## Advanced explanation\n\nYaw: $\\frac{30}{2} = 15$. Paul: $15 + 10 = 25$.\n\n## Simplified explanation\n\nHalf of 30 is 15, so Yaw is 15. Paul is 10 more, which is 25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry does a rectangle have?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "A rectangle has both a vertical and a horizontal line of symmetry."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. One through the midpoints of each pair of opposite sides."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number for an equilateral triangle."
+      },
+      {
+        "text": "4",
+        "hint": "This is the number for a square."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Imagine folding a sheet of paper so that the halves match exactly.",
+    "explanation": "## Advanced explanation\n\nThe lines of symmetry join the midpoints of opposite sides. The diagonals are not lines of symmetry unless the rectangle is a square.\n\n## Simplified explanation\n\nYou can fold a rectangle in half across or along, so it has 2 lines.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a prime number?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "3 has only the factors 1 and 3."
+      },
+      {
+        "text": "5",
+        "hint": "5 has only the factors 1 and 5."
+      },
+      {
+        "text": "7",
+        "hint": "7 has only the factors 1 and 7."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $9 = 3 \\times 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A prime number has exactly two factors.",
+    "explanation": "## Advanced explanation\n\n$9 = 3^2$ has the factors 1, 3 and 9, so it is not prime.\n\n## Simplified explanation\n\n3 goes into 9, so 9 is not prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x \\in \\{1, 2, 3, 4, 5\\}$, find the truth set of $2x + 1 < 7$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{1, 2\\}$",
+        "hint": "Correct. $x < 3$."
+      },
+      {
+        "text": "$\\{2, 3\\}$",
+        "hint": "When $x = 3$, $2x + 1 = 7$, which is not less than 7."
+      },
+      {
+        "text": "$\\{1, 2, 3\\}$",
+        "hint": "When $x = 3$, $2x + 1 = 7$, which is not less than 7."
+      },
+      {
+        "text": "$\\{3\\}$",
+        "hint": "When $x = 3$, $2x + 1 = 7$, which is not less than 7."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Test each value of $x$.",
+    "explanation": "## Advanced explanation\n\n$2x < 6$ means $x < 3$. In the given set, this leaves 1 and 2.\n\n## Simplified explanation\n\nTry each one: 1 gives 3 and 2 gives 5, which are below 7. 3 gives 7, which is not below 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In how many years will ₵5,000.00 yield a simple interest of ₵1,000.00 at a rate of 5% per annum?",
+    "media": [],
+    "options": [
+      {
+        "text": "4 years",
+        "hint": "Correct. $4 \\times 250 = 1{,}000$."
+      },
+      {
+        "text": "5 years",
+        "hint": "This yields ₵1,250.00."
+      },
+      {
+        "text": "10 years",
+        "hint": "This yields ₵2,500.00."
+      },
+      {
+        "text": "25 years",
+        "hint": "This yields ₵6,250.00."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the interest for one year.",
+    "explanation": "## Advanced explanation\n\n$T = \\frac{100I}{PR} = \\frac{100 \\times 1{,}000}{5{,}000 \\times 5} = 4$ years.\n\n## Simplified explanation\n\n5% of ₵5,000 is ₵250 a year. Then $1{,}000 \\div 250 = 4$ years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $m$ the subject of the relation: $f = \\dfrac{t}{s} - m$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$m = \\dfrac{t}{s} + f$",
+        "hint": "Moving $f$ across makes it negative."
+      },
+      {
+        "text": "$m = \\dfrac{t}{s} - f$",
+        "hint": "Correct. Swap $f$ and $m$."
+      },
+      {
+        "text": "$m = \\dfrac{fs - t}{s}$",
+        "hint": "This has the signs the wrong way round."
+      },
+      {
+        "text": "$m = f - \\dfrac{t}{s}$",
+        "hint": "This has the signs the wrong way round."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add $m$ to both sides, then subtract $f$.",
+    "explanation": "## Advanced explanation\n\n$f + m = \\frac{t}{s}$, so $m = \\frac{t}{s} - f$.\n\n## Simplified explanation\n\nAdd $m$ to both sides to get $f + m = \\frac{t}{s}$. Then take $f$ from both sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What property of arithmetic operation is illustrated by $a(b + c) = ab + ac$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Addition",
+        "hint": "This is an operation, not a property."
+      },
+      {
+        "text": "Associative",
+        "hint": "This is about grouping, as in $(a + b) + c = a + (b + c)$."
+      },
+      {
+        "text": "Commutative",
+        "hint": "This is about order, as in $a + b = b + a$."
+      },
+      {
+        "text": "Distributive",
+        "hint": "Correct. The $a$ is shared across the bracket."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "What happens to $a$ when the bracket is opened?",
+    "explanation": "## Advanced explanation\n\nMultiplication distributes over addition.\n\n## Simplified explanation\n\nThe $a$ outside is shared out to both terms inside the bracket. That sharing is the distributive property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $15^9 \\div 15^7$.",
+    "media": [],
+    "options": [
+      {
+        "text": "30",
+        "hint": "This is $15 \\times 2$. Use $15^2$."
+      },
+      {
+        "text": "63",
+        "hint": "Subtract the powers: $9 - 7 = 2$."
+      },
+      {
+        "text": "225",
+        "hint": "Correct. $15^2 = 225$."
+      },
+      {
+        "text": "240",
+        "hint": "$15^2$ is 225."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract the powers when dividing with the same base.",
+    "explanation": "## Advanced explanation\n\n$15^{9 - 7} = 15^2 = 225$.\n\n## Simplified explanation\n\nThe base is the same, so take the powers away: $9 - 7 = 2$. Then $15 \\times 15 = 225$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{1}{x} = 1\\dfrac{1}{2}$, find $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "$\\frac{1}{3}$ is not $1\\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "This is $\\frac{1}{x}$. Turn it upside down."
+      },
+      {
+        "text": "$\\dfrac{4}{3}$",
+        "hint": "$1\\frac{1}{2} = \\frac{3}{2}$, and upside down it is $\\frac{2}{3}$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Correct. $\\frac{1}{x} = \\frac{3}{2}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change $1\\frac{1}{2}$ to an improper fraction.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{x} = \\frac{3}{2}$, so $x = \\frac{2}{3}$.\n\n## Simplified explanation\n\n$1\\frac{1}{2}$ is $\\frac{3}{2}$. So $x$ is the upside-down fraction, $\\frac{2}{3}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Fractions",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the size of an exterior angle of a regular pentagon.",
+    "media": [],
+    "options": [
+      {
+        "text": "$72^\\circ$",
+        "hint": "Correct. $360^\\circ \\div 5 = 72^\\circ$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is for a square."
+      },
+      {
+        "text": "$108^\\circ$",
+        "hint": "This is the interior angle."
+      },
+      {
+        "text": "$360^\\circ$",
+        "hint": "This is the sum of the exterior angles."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The exterior angles of a polygon add to 360°.",
+    "explanation": "## Advanced explanation\n\n$\\frac{360^\\circ}{5} = 72^\\circ$.\n\n## Simplified explanation\n\nThe outside angles add to 360°, and there are 5 of them. Then $360 \\div 5 = 72$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise $x^2 - 5x + 6$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(x + 3)(x - 2)$",
+        "hint": "This expands to give $+x$."
+      },
+      {
+        "text": "$(x - 2)(x - 3)$",
+        "hint": "Correct. $-2$ and $-3$ add to $-5$ and multiply to 6."
+      },
+      {
+        "text": "$(x + 1)(x - 6)$",
+        "hint": "This expands to give $-5x - 6$."
+      },
+      {
+        "text": "$(x + 2)(x + 3)$",
+        "hint": "This expands to give $+5x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find two numbers that multiply to 6 and add to $-5$.",
+    "explanation": "## Advanced explanation\n\n$-2 \\times -3 = 6$ and $-2 + (-3) = -5$, so $x^2 - 5x + 6 = (x - 2)(x - 3)$.\n\n## Simplified explanation\n\n$-2$ and $-3$ multiply to 6 and add to $-5$. So the factors are $(x - 2)$ and $(x - 3)$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kwame, Atsu and Kojo shared a profit of ₵50,000.00 in the ratio $1 : 4 : 3$ respectively. How much did Atsu get?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵62,500.00",
+        "hint": "This is more than the whole profit."
+      },
+      {
+        "text": "₵125,000.00",
+        "hint": "This is more than the whole profit."
+      },
+      {
+        "text": "₵187,500.00",
+        "hint": "This is more than the whole profit."
+      },
+      {
+        "text": "₵25,000.00",
+        "hint": "Correct. $\\frac{4}{8} \\times 50{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The ratio has 8 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4}{8} \\times 50{,}000 = 25{,}000$.\n\n## Simplified explanation\n\n8 parts make ₵50,000, so 1 part is ₵6,250. Atsu gets 4 parts, which is ₵25,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the identity $a^2 - b^2 = (a + b)(a - b)$ to evaluate $83^2 - 17^2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "660",
+        "hint": "$(83 + 17)(83 - 17) = 100 \\times 66$."
+      },
+      {
+        "text": "6,600",
+        "hint": "Correct. $100 \\times 66 = 6{,}600$."
+      },
+      {
+        "text": "7,718",
+        "hint": "$(83 + 17)(83 - 17) = 100 \\times 66$."
+      },
+      {
+        "text": "7,600",
+        "hint": "$(83 + 17)(83 - 17) = 100 \\times 66$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put $a = 83$ and $b = 17$.",
+    "explanation": "## Advanced explanation\n\n$(83 + 17)(83 - 17) = 100 \\times 66 = 6{,}600$.\n\n## Simplified explanation\n\n$83 + 17 = 100$ and $83 - 17 = 66$. Then $100 \\times 66 = 6{,}600$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the probability of obtaining a prime number when a fair die is thrown once?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "The primes on a die are 2, 3 and 5."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. 3 of the 6 numbers are prime."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "The primes on a die are 2, 3 and 5."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "The primes on a die are 2, 3 and 5."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "1 is not a prime number.",
+    "explanation": "## Advanced explanation\n\nThe prime outcomes are 2, 3 and 5, so $P = \\frac{3}{6} = \\frac{1}{2}$.\n\n## Simplified explanation\n\nOf the numbers 1 to 6, the primes are 2, 3 and 5. That is 3 out of 6, or a half.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following are the scores obtained by girls in a beauty contest: 12, 16, 19, 14, 17, 8, 11, 19. What is the probability of obtaining a score of 19?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{9}$",
+        "hint": "There are 8 scores, and 19 appears twice."
+      },
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "19 appears twice, not once."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{2}{8} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{19}{53}$",
+        "hint": "Use the number of scores, 8, as the denominator."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count how often 19 appears.",
+    "explanation": "## Advanced explanation\n\n$P(19) = \\frac{2}{8} = \\frac{1}{4}$.\n\n## Simplified explanation\n\n2 of the 8 scores are 19, and $\\frac{2}{8}$ reduces to $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 25 as a percentage of 75.",
+    "media": [],
+    "options": [
+      {
+        "text": "300%",
+        "hint": "This is 75 as a percentage of 25."
+      },
+      {
+        "text": "100%",
+        "hint": "25 is less than 75."
+      },
+      {
+        "text": "50%",
+        "hint": "25 is a third of 75, not a half."
+      },
+      {
+        "text": "33.3%",
+        "hint": "Correct. $\\frac{25}{75} \\times 100 \\approx 33.3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide 25 by 75, then multiply by 100.",
+    "explanation": "## Advanced explanation\n\n$\\frac{25}{75} \\times 100\\% \\approx 33.3\\%$.\n\n## Simplified explanation\n\n25 is one third of 75, which is about 33.3%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $M$, given that $M = (3^6 \\div 3^4) \\times 27$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3^1$",
+        "hint": "$27 = 3^3$, so add 3 to the power."
+      },
+      {
+        "text": "$3^2$",
+        "hint": "This is the bracket only. $27 = 3^3$."
+      },
+      {
+        "text": "$3^5$",
+        "hint": "Correct. $3^2 \\times 3^3 = 3^5$."
+      },
+      {
+        "text": "$3^6$",
+        "hint": "$3^6 \\div 3^4$ is $3^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 27 as a power of 3.",
+    "explanation": "## Advanced explanation\n\n$3^{6 - 4} \\times 3^3 = 3^2 \\times 3^3 = 3^5$.\n\n## Simplified explanation\n\nThe bracket gives $3^2$, and 27 is $3^3$. Add the powers to get $3^5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.0043216 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4.3216 \\times 10^{-4}$",
+        "hint": "This equals 0.00043216."
+      },
+      {
+        "text": "$4.3216 \\times 10^{-3}$",
+        "hint": "Correct. The point moves 3 places."
+      },
+      {
+        "text": "$4.3216 \\times 10$",
+        "hint": "This equals 43.216."
+      },
+      {
+        "text": "$4.3216 \\times 10^3$",
+        "hint": "This equals 4,321.6."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The number is less than 1, so the power is negative.",
+    "explanation": "## Advanced explanation\n\n$0.0043216 = 4.3216 \\times 10^{-3}$.\n\n## Simplified explanation\n\nMove the point 3 places to the right to get 4.3216. So the power of 10 is $-3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $a = 2$ and $b = 3$, evaluate $(2a + b)(a - 2b)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$28$",
+        "hint": "$a - 2b$ is negative."
+      },
+      {
+        "text": "$8$",
+        "hint": "$(4 + 3)(2 - 6) = 7 \\times -4$."
+      },
+      {
+        "text": "$-7$",
+        "hint": "$(4 + 3)(2 - 6) = 7 \\times -4$."
+      },
+      {
+        "text": "$-28$",
+        "hint": "Correct. $7 \\times -4 = -28$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out each bracket first.",
+    "explanation": "## Advanced explanation\n\n$(4 + 3)(2 - 6) = 7 \\times (-4) = -28$.\n\n## Simplified explanation\n\nThe first bracket is 7 and the second is $-4$. Then $7 \\times -4 = -28$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is illustrated on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq22.png",
+        "caption": "Number line from −2 to 2 with a solid dot at −1, an open dot at 3/2 and a line joining them."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-1 < x < \\dfrac{3}{2}$",
+        "hint": "The solid dot at $-1$ means that $-1$ is included."
+      },
+      {
+        "text": "$-1 \\le x < \\dfrac{3}{2}$",
+        "hint": "Correct. The dot is solid at $-1$ and open at $\\frac{3}{2}$."
+      },
+      {
+        "text": "$-1 < x \\le \\dfrac{3}{2}$",
+        "hint": "The dots are the other way round."
+      },
+      {
+        "text": "$-1 \\le x \\le \\dfrac{3}{2}$",
+        "hint": "The open dot at $\\frac{3}{2}$ means that it is left out."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "An open dot leaves out the value, and a solid dot includes it.",
+    "explanation": "## Advanced explanation\n\nA solid circle at $-1$ and an open circle at $\\frac{3}{2}$ give $-1 \\le x < \\frac{3}{2}$.\n\n## Simplified explanation\n\n$x$ can equal $-1$, because that dot is solid. $x$ cannot equal $\\frac{3}{2}$, because that dot is open.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $A$ is the centre of the circle with radius 20 cm. If angle $BAC$ is $90^\\circ$, find the perimeter of the shaded sector. $[$Take $\\pi = 3.14]$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq23.png",
+        "caption": "Circle with centre A. Radii AB and AC form a shaded quarter sector, and AB is marked 20 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "71.4 cm",
+        "hint": "Correct. $31.4 + 20 + 20 = 71.4$."
+      },
+      {
+        "text": "31.8 cm",
+        "hint": "The arc alone is 31.4 cm."
+      },
+      {
+        "text": "40.0 cm",
+        "hint": "This is only the two radii."
+      },
+      {
+        "text": "51.4 cm",
+        "hint": "Include both radii."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The perimeter is the arc plus two radii.",
+    "explanation": "## Advanced explanation\n\nArc: $\\frac{90}{360} \\times 2 \\times 3.14 \\times 20 = 31.4$ cm. Perimeter: $31.4 + 40 = 71.4$ cm.\n\n## Simplified explanation\n\nThe curved part is a quarter of the circle, which is 31.4 cm. Add the two straight sides of 20 cm to get 71.4 cm.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In triangle $ABC$, $|AB| = |BC| = 5$ cm and $|AC| = 8$ cm. Find $|BD|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq24.png",
+        "caption": "Isosceles triangle ABC with AB and BC both 5 cm and AC 8 cm. BD is perpendicular to AC at D."
+      }
+    ],
+    "options": [
+      {
+        "text": "3 cm",
+        "hint": "Correct. $\\sqrt{25 - 16} = 3$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This is $|AD|$."
+      },
+      {
+        "text": "9 cm",
+        "hint": "This is $|BD|^2$. Take the square root."
+      },
+      {
+        "text": "33 cm",
+        "hint": "Subtract the squares: $25 - 16$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$BD$ cuts $AC$ into two equal parts of 4 cm.",
+    "explanation": "## Advanced explanation\n\n$|BD|^2 = 5^2 - 4^2 = 9$, so $|BD| = 3$ cm.\n\n## Simplified explanation\n\n$AD$ is half of 8 cm, which is 4 cm. In the right-angled triangle, $25 - 16 = 9$, and its square root is 3.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write ₵35,632.00 correct to the nearest thousand cedis.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵40,000.00",
+        "hint": "This is to the nearest ten thousand."
+      },
+      {
+        "text": "₵36,000.00",
+        "hint": "Correct. The hundreds digit is 6, so round up."
+      },
+      {
+        "text": "₵35,600.00",
+        "hint": "This is to the nearest hundred."
+      },
+      {
+        "text": "₵35,000.00",
+        "hint": "The hundreds digit is 6, so round up."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the hundreds digit.",
+    "explanation": "## Advanced explanation\n\nThe hundreds digit is $6 \\ge 5$, so the thousands digit rounds up from 5 to 6.\n\n## Simplified explanation\n\n35,632 is closer to 36,000 than to 35,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $x$ if $2x + 5 = 3x - 7$.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "Correct. $5 + 7 = 3x - 2x$."
+      },
+      {
+        "text": "$2\\dfrac{2}{5}$",
+        "hint": "Collect the $x$ terms on one side."
+      },
+      {
+        "text": "$-\\dfrac{2}{5}$",
+        "hint": "Collect the $x$ terms on one side."
+      },
+      {
+        "text": "$-2\\dfrac{2}{5}$",
+        "hint": "Collect the $x$ terms on one side."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Collect the $x$ terms on the right.",
+    "explanation": "## Advanced explanation\n\n$5 + 7 = 3x - 2x$, so $x = 12$.\n\n## Simplified explanation\n\nTake $2x$ from both sides to get $5 = x - 7$. Then add 7 to get $x = 12$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\left(\\dfrac{2}{3} - \\dfrac{1}{4}\\right) \\div \\dfrac{5}{6}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{5}{12} \\times \\frac{6}{5} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "The bracket is $\\frac{5}{12}$."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "This is the bracket only. Divide by $\\frac{5}{6}$."
+      },
+      {
+        "text": "$\\dfrac{25}{72}$",
+        "hint": "This multiplies by $\\frac{5}{6}$. Divide instead."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{8}{12} - \\frac{3}{12} = \\frac{5}{12}$, and $\\frac{5}{12} \\times \\frac{6}{5} = \\frac{1}{2}$.\n\n## Simplified explanation\n\nThe bracket gives $\\frac{5}{12}$. Turn $\\frac{5}{6}$ upside down and multiply, which gives $\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy walked 7 km on a bearing of 060°. Which of the following diagrams shows his direction?",
+    "media": [],
+    "options": [
+      {
+        "text": "",
+        "hint": "The 60° here is measured below east.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq28a.png"
+      },
+      {
+        "text": "",
+        "hint": "This is 60° anticlockwise from north. Bearings are measured clockwise.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq28b.png"
+      },
+      {
+        "text": "",
+        "hint": "Correct. It is 60° clockwise from north.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq28c.png"
+      },
+      {
+        "text": "",
+        "hint": "The 60° here is measured from east, not north.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq28d.png"
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Bearings are measured clockwise from north.",
+    "explanation": "## Advanced explanation\n\nA bearing of $060^\\circ$ lies in the north-east quarter, $60^\\circ$ clockwise from the north line.\n\n## Simplified explanation\n\nStart facing north and turn right by 60°. That points up and to the right, with the 60° next to the north line.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $G_1OH_1$ is an enlargement of triangle $GOH$ with scale factor $k$. If $|GG_1| = 5$ cm and $|GO| = 2$ cm, what is the value of $k$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq29.png",
+        "caption": "Line GOG1 with O between G and G1, and line HOH1 through O. GH and G1H1 are perpendicular to GG1, on opposite sides."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-\\dfrac{5}{2}$",
+        "hint": "$|OG_1| = 5 - 2 = 3$ cm."
+      },
+      {
+        "text": "$-\\dfrac{3}{2}$",
+        "hint": "Correct. $\\frac{3}{2}$, on the opposite side of $O$."
+      },
+      {
+        "text": "$-\\dfrac{2}{5}$",
+        "hint": "$|OG_1| = 5 - 2 = 3$ cm."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "The image is on the opposite side of $O$, so $k$ is negative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The image lies on the opposite side of $O$.",
+    "explanation": "## Advanced explanation\n\n$|OG_1| = 5 - 2 = 3$ cm, so $|k| = \\frac{3}{2}$. The image is on the other side of the centre, so $k = -\\frac{3}{2}$.\n\n## Simplified explanation\n\n$OG$ is 2 cm and $OG_1$ is 3 cm, so the size is multiplied by $\\frac{3}{2}$. The image is flipped through $O$, so the factor is negative.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $14_x = 9_{10}$, find $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "Five",
+        "hint": "Correct. $x + 4 = 9$."
+      },
+      {
+        "text": "Eight",
+        "hint": "$14_{\\text{eight}}$ equals 12."
+      },
+      {
+        "text": "Seven",
+        "hint": "$14_{\\text{seven}}$ equals 11."
+      },
+      {
+        "text": "Six",
+        "hint": "$14_{\\text{six}}$ equals 10."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$14_x$ means $1 \\times x + 4$.",
+    "explanation": "## Advanced explanation\n\n$x + 4 = 9$, so $x = 5$.\n\n## Simplified explanation\n\nIn base $x$, the 1 stands for $x$. So $x + 4 = 9$, which gives $x = 5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces does a cuboid have?",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Correct. Top, bottom, front, back and two sides."
+      },
+      {
+        "text": "8",
+        "hint": "This is the number of corners."
+      },
+      {
+        "text": "12",
+        "hint": "This is the number of edges."
+      },
+      {
+        "text": "16",
+        "hint": "A cuboid has 6 faces."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Think of a closed box.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nCount the faces of a box: top, bottom, front, back, left and right. That is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is a factor of the expression $ac - 2bc + ad - 2bd$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$c - d$",
+        "hint": "The factors are $(a - 2b)$ and $(c + d)$."
+      },
+      {
+        "text": "$a - 2b$",
+        "hint": "Correct. $c(a - 2b) + d(a - 2b)$."
+      },
+      {
+        "text": "$a + b$",
+        "hint": "The factors are $(a - 2b)$ and $(c + d)$."
+      },
+      {
+        "text": "$a + 2b$",
+        "hint": "Check the sign: the factor is $a - 2b$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$c(a - 2b) + d(a - 2b) = (a - 2b)(c + d)$.\n\n## Simplified explanation\n\nTake $c$ out of the first pair and $d$ out of the second. Both leave $(a - 2b)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Three boys weeded a piece of land in 4 hours. How long would it take 18 boys to weed the same piece of land, weeding at the same rate?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$ hr",
+        "hint": "Correct. $12 \\div 18 = \\frac{2}{3}$."
+      },
+      {
+        "text": "$3\\dfrac{1}{3}$ hr",
+        "hint": "$3 \\times 4 = 12$ boy-hours, and $12 \\div 18$ is less than 1."
+      },
+      {
+        "text": "$4\\dfrac{2}{3}$ hr",
+        "hint": "More boys take less time, not more."
+      },
+      {
+        "text": "22 hr",
+        "hint": "More boys take less time, not more."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "More boys take less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nWork needed: $3 \\times 4 = 12$ boy-hours, and $\\frac{12}{18} = \\frac{2}{3}$ hour.\n\n## Simplified explanation\n\nOne boy alone would take 12 hours. Eighteen boys share this work, and $12 \\div 18 = \\frac{2}{3}$ hour.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the size of the angle marked $a$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq34.png",
+        "caption": "Three lines crossing at one point. On one side of a slanted line, the angles are b, 2b and 3b. Angle a is vertically opposite 2b."
+      }
+    ],
+    "options": [
+      {
+        "text": "$30^\\circ$",
+        "hint": "This is the value of $b$."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "Correct. $a = 2b = 60^\\circ$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is the value of $3b$."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "$a$ is vertically opposite $2b$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$b$, $2b$ and $3b$ lie along a straight line.",
+    "explanation": "## Advanced explanation\n\n$b + 2b + 3b = 180^\\circ$ gives $b = 30^\\circ$. Angle $a$ is vertically opposite $2b$, so $a = 60^\\circ$.\n\n## Simplified explanation\n\nThe three angles on one side make a straight line, so $6b = 180$ and $b = 30$. Angle $a$ is directly opposite $2b$, which is 60°.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is the net of a cube?",
+    "media": [],
+    "options": [
+      {
+        "text": "",
+        "hint": "This has rectangles that are not squares.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq35a.png"
+      },
+      {
+        "text": "",
+        "hint": "Correct. A row of four squares with one on each side folds into a cube.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq35b.png"
+      },
+      {
+        "text": "",
+        "hint": "A row of five squares in a line cannot fold into a cube.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq35c.png"
+      },
+      {
+        "text": "",
+        "hint": "This shape does not fold up to close all six faces.",
+        "imageUrl": "/quizbank/bece/maths/1994/1994secaq35d.png"
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "A cube needs six equal squares that fold up without overlapping.",
+    "explanation": "## Advanced explanation\n\nFour squares in a row form the sides, and one square above and one below form the top and bottom.\n\n## Simplified explanation\n\nWrap the row of four squares around to make the sides. The other two squares close the top and bottom.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to find the value of $x$.\n\n| Base ten | 5 | 10 | 20 | 40 | $y$ |\n|---|---|---|---|---|---|\n| Base five | 10 | 20 | 40 | $x$ | 310 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$30_{\\text{five}}$",
+        "hint": "This equals 15."
+      },
+      {
+        "text": "$100_{\\text{five}}$",
+        "hint": "This equals 25."
+      },
+      {
+        "text": "$110_{\\text{five}}$",
+        "hint": "This equals 30."
+      },
+      {
+        "text": "$130_{\\text{five}}$",
+        "hint": "Correct. $25 + 15 = 40$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write 40 in base five.",
+    "explanation": "## Advanced explanation\n\n$40 = 1 \\times 25 + 3 \\times 5 + 0$, which gives $130_{\\text{five}}$.\n\n## Simplified explanation\n\n40 holds one 25, leaving 15. That is three 5s and no units. So the digits are 1, 3, 0.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Number Bases",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, find the size of the angle marked $e$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq37.png",
+        "caption": "Three lines forming a triangle. Outside the top left corner the marked angle is 56°, outside the top right corner it is 72°, and at the bottom corner the angle e is outside the triangle."
+      }
+    ],
+    "options": [
+      {
+        "text": "$52^\\circ$",
+        "hint": "This is the angle inside the triangle at the third corner."
+      },
+      {
+        "text": "$56^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$72^\\circ$",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "$128^\\circ$",
+        "hint": "Correct. $56^\\circ + 72^\\circ = 128^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use vertically opposite angles to find the angles inside the triangle.",
+    "explanation": "## Advanced explanation\n\nThe interior angles at the top are $56^\\circ$ and $72^\\circ$ (vertically opposite). The exterior angle $e$ equals their sum, $128^\\circ$.\n\n## Simplified explanation\n\nThe 56° and 72° also appear inside the triangle. Angle $e$ is outside the triangle at the third corner, and it equals those two added: 128°.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the area of the figure is 60 cm², find $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq38.png",
+        "caption": "Rectangle with a top side made of x cm and 4 cm, and a height of 5 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "8 cm",
+        "hint": "Correct. $5(x + 4) = 60$."
+      },
+      {
+        "text": "9 cm",
+        "hint": "This gives an area of 65 cm²."
+      },
+      {
+        "text": "12 cm",
+        "hint": "This is $x + 4$."
+      },
+      {
+        "text": "16 cm",
+        "hint": "This gives an area of 100 cm²."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The length of the rectangle is $(x + 4)$ cm.",
+    "explanation": "## Advanced explanation\n\n$5(x + 4) = 60$, so $x + 4 = 12$ and $x = 8$.\n\n## Simplified explanation\n\n$60 \\div 5 = 12$, so the whole length is 12 cm. Taking off 4 leaves $x = 8$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The mean of the numbers 4, 3, 3, $x$ is 5. Find $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "This is the total of the four numbers."
+      },
+      {
+        "text": "10",
+        "hint": "Correct. $20 - 10 = 10$."
+      },
+      {
+        "text": "5",
+        "hint": "This is the mean."
+      },
+      {
+        "text": "4",
+        "hint": "The numbers must add to 20."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Total $=$ mean $\\times$ number of values.",
+    "explanation": "## Advanced explanation\n\n$\\frac{10 + x}{4} = 5$, so $x = 10$.\n\n## Simplified explanation\n\nFour numbers with a mean of 5 add to 20. The three known numbers add to 10, so $x$ is 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If a number is selected at random from the table, what is the probability that the number is 5?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994secaq40.png",
+        "caption": "Table of numbers and frequencies. 1: 25, 3: 15, 5: 8, 7: 10, 9: 2."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{8}{25}$",
+        "hint": "Use the total frequency, 60, as the denominator."
+      },
+      {
+        "text": "$\\dfrac{4}{25}$",
+        "hint": "Use the total frequency, 60, as the denominator."
+      },
+      {
+        "text": "$\\dfrac{1}{12}$",
+        "hint": "The frequency of 5 is 8, and $\\frac{8}{60} = \\frac{2}{15}$."
+      },
+      {
+        "text": "$\\dfrac{2}{15}$",
+        "hint": "Correct. $\\frac{8}{60} = \\frac{2}{15}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add all the frequencies first.",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 60$ and $f(5) = 8$, so $P = \\frac{8}{60} = \\frac{2}{15}$.\n\n## Simplified explanation\n\nThe frequencies add to 60, and the number 5 appears 8 times. $\\frac{8}{60}$ reduces to $\\frac{2}{15}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1994 Paper",
+      "Section A",
+      "Probability",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Multiply $(a - b)$ by $(2b - a)$.",
+    "media": [],
+    "answer": "$$(a - b)(2b - a) = 2ab - a^2 - 2b^2 + ab = 3ab - a^2 - 2b^2$$\n\n> [!answer]\n> {{green:$3ab - a^2 - 2b^2$}}",
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\nNote that $-b \\times -a = +ab$.\n\n## Simplified explanation\n\n$a \\times 2b = 2ab$ and $a \\times -a = -a^2$. Then $-b \\times 2b = -2b^2$ and $-b \\times -a = +ab$. Collecting gives $3ab - a^2 - 2b^2$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the truth set of $2x - 6 \\le 5(3 - x)$. Describe how to illustrate your answer on a number line.",
+    "media": [],
+    "answer": "$$2x - 6 \\le 15 - 5x$$\n\n$$7x \\le 21$$\n\n$$x \\le 3$$\n\nOn the number line, draw a solid dot at 3 with an arrow pointing to the left.\n\n> [!answer]\n> {{green:$\\{x : x \\le 3\\}$}}, shown by a solid dot at 3 and an arrow to the left.",
+    "hint": "Expand the bracket first.",
+    "explanation": "## Advanced explanation\n\nDividing by a positive number keeps the direction of the inequality.\n\n## Simplified explanation\n\nOpening the bracket gives $15 - 5x$. Moving terms gives $7x \\le 21$, so $x \\le 3$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $u = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $v = \\begin{pmatrix} 2 \\\\ 6 \\end{pmatrix}$, find $\\dfrac{1}{3}\\left(u + \\dfrac{1}{2}v\\right)$.",
+    "media": [],
+    "answer": "$$u + \\frac{1}{2}v = \\begin{pmatrix} -2 + 1 \\\\ 3 + 3 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 6 \\end{pmatrix}$$\n\n$$\\frac{1}{3}\\begin{pmatrix} -1 \\\\ 6 \\end{pmatrix} = \\begin{pmatrix} -\\frac{1}{3} \\\\ 2 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} -\\frac{1}{3} \\\\ 2 \\end{pmatrix}$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nScalar multiplication acts on each component.\n\n## Simplified explanation\n\nHalf of $v$ is 1 and 3. Adding $u$ gives $-1$ and 6. A third of those numbers is $-\\frac{1}{3}$ and 2.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A ladder leans against a wall. The end of the ladder touches the wall 12 m from the ground. The foot of the ladder is 9 m away from the foot of the wall.\n\n(i) What is the length of the ladder?\n\n(ii) Calculate the angle that the ladder makes with the ground.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994q2a.png",
+        "caption": "Right-angled triangle of a wall, a floor and a ladder of length x. The wall is 12 m and the floor distance is marked 9. The angle between the ladder and the floor is θ."
+      }
+    ],
+    "answer": "**(i)** $x^2 = 12^2 + 9^2 = 225$, so $x = 15$ m\n\n**(ii)** $\\tan\\theta = \\frac{12}{9} = \\frac{4}{3}$, so $\\theta \\approx 53.1^\\circ$\n\n> [!answer]\n> **(i)** {{green:15 m}}  **(ii)** {{green:about $53.1^\\circ$}}",
+    "hint": "The wall, the ground and the ladder form a right-angled triangle.",
+    "explanation": "## Advanced explanation\n\nThe opposite side is the height on the wall and the adjacent side is along the ground, so $\\theta = \\tan^{-1}\\frac{4}{3}$.\n\n## Simplified explanation\n\nSquare 12 and 9 to get 144 and 81. They add to 225, and its square root is 15. For the angle, use tan: $12 \\div 9$ gives an angle of about 53.1°.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Geometry",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $\\pi = 3.14$ and $g = 20$, find the value of $F$ in the relation $F = \\dfrac{3\\pi g^2}{4}$.",
+    "media": [],
+    "answer": "$$F = \\frac{3 \\times 3.14 \\times 20^2}{4} = \\frac{3 \\times 3.14 \\times 400}{4} = 942$$\n\n> [!answer]\n> {{green:$F = 942$}}",
+    "hint": "Square $g$ first.",
+    "explanation": "## Advanced explanation\n\nThe 4 cancels into 400, which leaves $3 \\times 3.14 \\times 100$.\n\n## Simplified explanation\n\n$20^2 = 400$ and $400 \\div 4 = 100$. Then $3 \\times 3.14 \\times 100 = 942$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a) construct triangle $PQR$ in which $|PQ| = 8$ cm, angle $QPR = 45^\\circ$ and angle $PQR = 90^\\circ$. Measure $|QR|$.\n\n(b) Construct the mediator of $PQ$ to meet $PR$ at the point $S$. With $S$ as centre and radius 3 cm, construct a circle.\n\nType your measurement.",
+    "media": [],
+    "answer": "Draw $|PQ| = 8$ cm. Construct $90^\\circ$ at $Q$, and construct $90^\\circ$ at $P$ and bisect it to get $45^\\circ$. The arms meet at $R$.\n\nBisect $PQ$, extend the bisector to meet $PR$ at $S$, and draw the circle.\n\n> [!answer]\n> {{green:$|QR| = 8$ cm}}",
+    "hint": "Angle $PRQ$ is also $45^\\circ$.",
+    "explanation": "## Advanced explanation\n\nAngles $P$ and $R$ are both $45^\\circ$, so the triangle is isosceles and $|QR| = |PQ| = 8$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the 8 cm base with the 45° and 90° angles. The third angle is also 45°, so $QR$ equals $PQ$, which is 8 cm.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular lines $Ox$ and $Oy$ on a graph sheet. Mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$. Mark the origin $O$.\n\n(i) Draw on the same graph sheet the square $ABCD$, where $A(1, 2)$, $B(4, 2)$, $C(4, 5)$ and $D(1, 5)$ are the respective points.\n\n(ii) Using the $y$-axis as a mirror line, draw the image $A_1B_1C_1D_1$ of square $ABCD$, where $A \\to A_1$, $B \\to B_1$, $C \\to C_1$, $D \\to D_1$. Write down the coordinates.\n\n(iii) Draw the enlargement $A_2B_2C_2D_2$ of the square with scale factor $-1$ from $O$, such that $A \\to A_2$, $B \\to B_2$, $C \\to C_2$, $D \\to D_2$. Write down the coordinates.\n\n(iv) What single transformation maps $A_2B_2C_2D_2$ to $A_1B_1C_1D_1$?",
+    "media": [],
+    "answer": "**(ii)** $(x, y)$ becomes $(-x, y)$:\n\n$A_1(-1, 2)$, $B_1(-4, 2)$, $C_1(-4, 5)$, $D_1(-1, 5)$\n\n**(iii)** $(x, y)$ becomes $(-x, -y)$:\n\n$A_2(-1, -2)$, $B_2(-4, -2)$, $C_2(-4, -5)$, $D_2(-1, -5)$\n\n**(iv)** Each point keeps its $x$-coordinate and its $y$-coordinate changes sign.\n\n> [!answer]\n> **(ii)** {{green:$A_1(-1, 2)$, $B_1(-4, 2)$, $C_1(-4, 5)$, $D_1(-1, 5)$}}\n>\n> **(iii)** {{green:$A_2(-1, -2)$, $B_2(-4, -2)$, $C_2(-4, -5)$, $D_2(-1, -5)$}}\n>\n> **(iv)** {{green:a reflection in the $x$-axis}}",
+    "hint": "An enlargement with scale factor $-1$ changes the sign of both coordinates.",
+    "explanation": "## Advanced explanation\n\nAn enlargement with scale factor $-1$ about the origin is a half-turn. Comparing the two images shows that only the sign of $y$ differs.\n\n## Simplified explanation\n\nFor the mirror image, flip the sign of each $x$. For the enlargement, flip both signs. Going from the second image to the first flips only $y$, which is a reflection in the $x$-axis.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of sales of soft drinks sold by Jatokrom JSS canteen in one week. Calculate the angle of each sector of a pie chart that illustrates the sales.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1994/1994q5.png",
+        "caption": "Table of soft drinks and bottles sold. Fanta 13, Pepsi Cola 21, Mirinda 14, Coca-Cola 17, Sprite 7."
+      }
+    ],
+    "answer": "Total bottles: $13 + 21 + 14 + 17 + 7 = 72$, so each bottle takes $360^\\circ \\div 72 = 5^\\circ$.\n\n| Soft drink | Bottles | Angle |\n|---|---|---|\n| Fanta | 13 | 65° |\n| Pepsi Cola | 21 | 105° |\n| Mirinda | 14 | 70° |\n| Coca-Cola | 17 | 85° |\n| Sprite | 7 | 35° |\n\n> [!answer]\n> {{green:Fanta 65°, Pepsi Cola 105°, Mirinda 70°, Coca-Cola 85°, Sprite 35°}}",
+    "hint": "Add the bottles, then find the angle for one bottle.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{f}{72} \\times 360^\\circ = 5f$ degrees. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 72 bottles and 360° in a circle, so each bottle is 5°. Multiply each number by 5, then draw the sectors with a protractor.",
+    "difficulty": "easy",
+    "marks": 6,
+    "tags": [
+      "1994 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  }
+]

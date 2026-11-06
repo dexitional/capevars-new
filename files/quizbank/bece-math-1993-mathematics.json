@@ -1,0 +1,1476 @@
+[
+  {
+    "type": "choice",
+    "body": "Expand $(2a + b)(a + 2b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2a^2 + 2b^2$",
+        "hint": "The middle terms are $4ab + ab = 5ab$."
+      },
+      {
+        "text": "$2a^2 + 2b^2 + ab$",
+        "hint": "The middle terms are $4ab + ab = 5ab$."
+      },
+      {
+        "text": "$5a^2 + 2a^2b^2$",
+        "hint": "Multiply each term by each term."
+      },
+      {
+        "text": "$2a^2 + 5ab + 2b^2$",
+        "hint": "Correct. $2a^2 + 4ab + ab + 2b^2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$2a^2 + 4ab + ab + 2b^2 = 2a^2 + 5ab + 2b^2$.\n\n## Simplified explanation\n\n$2a \\times a = 2a^2$. The middle terms give $4ab + ab = 5ab$. Last, $b \\times 2b = 2b^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the missing number in the following binary operation.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq2.png",
+        "caption": "Binary subtraction: 1100110 minus a missing number gives 111011."
+      }
+    ],
+    "options": [
+      {
+        "text": "11101",
+        "hint": "This equals 29, but the missing number is 43."
+      },
+      {
+        "text": "101001",
+        "hint": "This equals 41, but the missing number is 43."
+      },
+      {
+        "text": "100011",
+        "hint": "This equals 35, but the missing number is 43."
+      },
+      {
+        "text": "101011",
+        "hint": "Correct. $102 - 59 = 43$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract 111011 from 1100110.",
+    "explanation": "## Advanced explanation\n\n$1100110_{\\text{two}} = 102$ and $111011_{\\text{two}} = 59$. Then $102 - 59 = 43 = 101011_{\\text{two}}$.\n\n## Simplified explanation\n\nIn base ten, the numbers are 102 and 59. The missing number is $102 - 59 = 43$, which is 101011 in base two.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x \\in \\{1, 3, 5, 7, 9, 11, 13, 15\\}$, find the truth set of $x - 3 \\ge 10$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{15\\}$",
+        "hint": "13 also works: $13 - 3 = 10$."
+      },
+      {
+        "text": "$\\{13, 15\\}$",
+        "hint": "Correct. $x \\ge 13$."
+      },
+      {
+        "text": "$\\{11, 13, 15\\}$",
+        "hint": "$11 - 3 = 8$, which is less than 10."
+      },
+      {
+        "text": "$\\{9, 11, 14, 15\\}$",
+        "hint": "14 is not in the set, and 9 and 11 are too small."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Solve the inequality, then look in the given set.",
+    "explanation": "## Advanced explanation\n\n$x \\ge 13$, which leaves 13 and 15.\n\n## Simplified explanation\n\nAdd 3 to both sides to get $x \\ge 13$. In the list, only 13 and 15 fit.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of these has the least number of lines of symmetry?",
+    "media": [],
+    "options": [
+      {
+        "text": "An equilateral triangle",
+        "hint": "This has 3 lines of symmetry."
+      },
+      {
+        "text": "A rectangle",
+        "hint": "Correct. It has only 2 lines of symmetry."
+      },
+      {
+        "text": "A square",
+        "hint": "This has 4 lines of symmetry."
+      },
+      {
+        "text": "A circle",
+        "hint": "A circle has unlimited lines of symmetry."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count the lines of symmetry of each shape.",
+    "explanation": "## Advanced explanation\n\nAn equilateral triangle has 3, a rectangle has 2, a square has 4, and a circle has infinitely many.\n\n## Simplified explanation\n\nThe triangle has 3 lines, the rectangle has 2, the square has 4, and any diameter of the circle is a line. The rectangle has the fewest.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find $2\\dfrac{1}{2}\\%$ of ₵2,000.00.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵40.00",
+        "hint": "This is 2%."
+      },
+      {
+        "text": "₵50.00",
+        "hint": "Correct. $0.025 \\times 2{,}000 = 50$."
+      },
+      {
+        "text": "₵100.00",
+        "hint": "This is 5%."
+      },
+      {
+        "text": "₵800.00",
+        "hint": "This is 40%."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "1% of ₵2,000.00 is ₵20.00.",
+    "explanation": "## Advanced explanation\n\n$\\frac{2.5}{100} \\times 2{,}000 = 50$.\n\n## Simplified explanation\n\n1% is ₵20, so 2% is ₵40 and half a percent is ₵10. Together that is ₵50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Highest Common Factor (HCF) of 18, 36 and 120.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^3 \\times 3^2 \\times 5$",
+        "hint": "This is the LCM of the numbers."
+      },
+      {
+        "text": "$2^3 \\times 3 \\times 5$",
+        "hint": "This is 120, which does not divide 18."
+      },
+      {
+        "text": "$2 \\times 3$",
+        "hint": "Correct. The HCF is 6."
+      },
+      {
+        "text": "$3^2 \\times 2^2$",
+        "hint": "This is 36, which does not divide 18."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$18 = 2 \\times 3^2$, $36 = 2^2 \\times 3^2$ and $120 = 2^3 \\times 3 \\times 5$, so the HCF is $2 \\times 3 = 6$.\n\n## Simplified explanation\n\nAll three numbers have a 2 and a 3. Only one of each is shared by all of them, so the HCF is $2 \\times 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following in ascending order: $\\dfrac{3}{4}, \\dfrac{2}{3}, \\dfrac{3}{5}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{3}{4}, \\dfrac{3}{5}$",
+        "hint": "$\\frac{3}{5}$ is the smallest, so it must come first."
+      },
+      {
+        "text": "$\\dfrac{3}{4}, \\dfrac{2}{3}, \\dfrac{3}{5}$",
+        "hint": "This is descending order."
+      },
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{2}{3}, \\dfrac{3}{4}$",
+        "hint": "Correct. As decimals: 0.60, 0.67, 0.75."
+      },
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{3}{4}, \\dfrac{2}{3}$",
+        "hint": "$\\frac{2}{3}$ is less than $\\frac{3}{4}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Ascending means smallest first.",
+    "explanation": "## Advanced explanation\n\nOver 60: $\\frac{36}{60} < \\frac{40}{60} < \\frac{45}{60}$.\n\n## Simplified explanation\n\nAs decimals they are 0.75, 0.67 and 0.60. From smallest to largest: $\\frac{3}{5}$, $\\frac{2}{3}$, $\\frac{3}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $b$ the subject of the relation: $\\dfrac{1}{a} = \\dfrac{1}{b} + c$",
+    "media": [],
+    "options": [
+      {
+        "text": "$b = \\dfrac{ac - 1}{c}$",
+        "hint": "Get $\\frac{1}{b}$ by itself, then turn it upside down."
+      },
+      {
+        "text": "$b = \\dfrac{a}{1 + ac}$",
+        "hint": "Moving $c$ across makes it negative."
+      },
+      {
+        "text": "$b = \\dfrac{c}{1 + ac}$",
+        "hint": "Get $\\frac{1}{b}$ by itself, then turn it upside down."
+      },
+      {
+        "text": "$b = \\dfrac{a}{1 - ac}$",
+        "hint": "Correct. $\\frac{1}{b} = \\frac{1 - ac}{a}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Get $\\frac{1}{b}$ by itself first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{b} = \\frac{1}{a} - c = \\frac{1 - ac}{a}$, so $b = \\frac{a}{1 - ac}$.\n\n## Simplified explanation\n\nTake $c$ across, and write the right side as one fraction. Then turn both sides upside down.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man has three children whose ages are 9 years, 12 years and 24 years. Find the ratio of their ages.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1 : 2 : 3$",
+        "hint": "Divide all three ages by 3."
+      },
+      {
+        "text": "$1 : 2 : 4$",
+        "hint": "Divide all three ages by 3."
+      },
+      {
+        "text": "$2 : 3 : 6$",
+        "hint": "Divide all three ages by 3."
+      },
+      {
+        "text": "$3 : 4 : 8$",
+        "hint": "Correct. Divide all three ages by 3."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide by the highest common factor.",
+    "explanation": "## Advanced explanation\n\nThe HCF of 9, 12 and 24 is 3, so the ratio is $3 : 4 : 8$.\n\n## Simplified explanation\n\n3 goes into 9, 12 and 24. Dividing gives 3, 4 and 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ten students in Kwamekrom J.S.S. took 9 days to weed the school compound. How long would 15 students take to weed the compound if they worked at the same rate?",
+    "media": [],
+    "options": [
+      {
+        "text": "5 days",
+        "hint": "$10 \\times 9 = 90$ student-days, and $90 \\div 15 = 6$."
+      },
+      {
+        "text": "6 days",
+        "hint": "Correct. $90 \\div 15 = 6$."
+      },
+      {
+        "text": "$13\\dfrac{1}{2}$ days",
+        "hint": "More students take less time, not more."
+      },
+      {
+        "text": "14 days",
+        "hint": "More students take less time, not more."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "More students take less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nWork needed: $10 \\times 9 = 90$ student-days, and $\\frac{90}{15} = 6$ days.\n\n## Simplified explanation\n\nOne student alone would take 90 days. Fifteen students share this work, and $90 \\div 15 = 6$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is/are true?\n\nI: $\\dfrac{5}{6} > \\dfrac{3}{4}$\n\nII: $\\dfrac{3}{4} < \\dfrac{3}{5}$\n\nIII: $\\dfrac{3}{8} > \\dfrac{1}{2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "I only",
+        "hint": "Correct. Only $\\frac{5}{6} > \\frac{3}{4}$ is true."
+      },
+      {
+        "text": "II only",
+        "hint": "$\\frac{3}{4}$ is 0.75 and $\\frac{3}{5}$ is 0.6."
+      },
+      {
+        "text": "III only",
+        "hint": "$\\frac{3}{8}$ is 0.375 and $\\frac{1}{2}$ is 0.5."
+      },
+      {
+        "text": "I and II only",
+        "hint": "$\\frac{3}{4}$ is greater than $\\frac{3}{5}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change each fraction to a decimal.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{6} \\approx 0.83 > 0.75$ is true, while $0.75 < 0.6$ and $0.375 > 0.5$ are false.\n\n## Simplified explanation\n\nAs decimals: 0.83 is above 0.75, so I is true. 0.75 is not below 0.6, and 0.375 is not above 0.5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Fractions",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of $P$ in the mapping.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq12.png",
+        "caption": "Mapping with 1 → 3, 2 → 5, 3 → 7 and P → ?."
+      }
+    ],
+    "options": [
+      {
+        "text": "$P^2 + 2$",
+        "hint": "When $P = 1$, this gives 3, but when $P = 2$, it gives 6."
+      },
+      {
+        "text": "$P^2 + 1$",
+        "hint": "When $P = 1$, this gives 2."
+      },
+      {
+        "text": "$2P + 1$",
+        "hint": "Correct. It fits 1, 2 and 3."
+      },
+      {
+        "text": "$P + 2$",
+        "hint": "When $P = 2$, this gives 4."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The image goes up by 2 each time.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 2, so the rule is $2P + c$. With $(1, 3)$, $c = 1$.\n\n## Simplified explanation\n\nEach step adds 2, so the rule has $2P$. When $P = 1$, $2P$ is 2, and 1 more makes 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car travelled a distance of 50 km in an hour. What distance did it travel in 30 minutes at the same speed?",
+    "media": [],
+    "options": [
+      {
+        "text": "1,500 km",
+        "hint": "This multiplies by 30. 30 minutes is half an hour."
+      },
+      {
+        "text": "100 km",
+        "hint": "This is for 2 hours."
+      },
+      {
+        "text": "80 km",
+        "hint": "30 minutes is half an hour."
+      },
+      {
+        "text": "25 km",
+        "hint": "Correct. Half of 50 km is 25 km."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "30 minutes is half an hour.",
+    "explanation": "## Advanced explanation\n\n$d = 50 \\times \\frac{1}{2} = 25$ km.\n\n## Simplified explanation\n\nHalf an hour at 50 km an hour covers half of 50 km, which is 25 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an enlargement, the area of the object was multiplied by 144 to get the area of the image. Find the scale factor of the enlargement.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "Correct. $\\sqrt{144} = 12$."
+      },
+      {
+        "text": "36",
+        "hint": "Areas multiply by the square of the scale factor."
+      },
+      {
+        "text": "48",
+        "hint": "Areas multiply by the square of the scale factor."
+      },
+      {
+        "text": "144",
+        "hint": "This is the area factor. Take its square root."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Areas multiply by the square of the scale factor.",
+    "explanation": "## Advanced explanation\n\n$k^2 = 144$, so $k = 12$.\n\n## Simplified explanation\n\nLengths multiply by $k$, so areas multiply by $k \\times k$. Since $12 \\times 12 = 144$, the scale factor is 12.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mr Yevu saved ₵2,500.00 at a simple interest rate of 25% per annum for 4 years. Calculate the interest he earned on his savings.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵625.00",
+        "hint": "This is the interest for 1 year."
+      },
+      {
+        "text": "₵2,500.00",
+        "hint": "Correct. $625 \\times 4 = 2{,}500$."
+      },
+      {
+        "text": "₵3,125.00",
+        "hint": "This is the amount after 1 year."
+      },
+      {
+        "text": "₵5,000.00",
+        "hint": "This is the total amount after 4 years."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$I = \\frac{PRT}{100}$.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{2{,}500 \\times 25 \\times 4}{100} = 2{,}500$.\n\n## Simplified explanation\n\n25% a year for 4 years is 100%. So the interest is the same as the amount saved, ₵2,500.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the number of goals scored by a football team in a league season.\n\nFind the total number of goals scored by the team.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq16-q18.png",
+        "caption": "Table of goals scored in a match and frequency. 0 goals: 1, 1 goal: 7, 2 goals: 6, 3 goals: 4, 4 goals: 1, 5 goals: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "41",
+        "hint": "Multiply each number of goals by its frequency."
+      },
+      {
+        "text": "40",
+        "hint": "Correct. $0 + 7 + 12 + 12 + 4 + 5 = 40$."
+      },
+      {
+        "text": "20",
+        "hint": "This is the number of matches."
+      },
+      {
+        "text": "19",
+        "hint": "Multiply each number of goals by its frequency."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each number of goals by its frequency.",
+    "explanation": "## Advanced explanation\n\n$\\sum fx = 0 + 7 + 12 + 12 + 4 + 5 = 40$.\n\n## Simplified explanation\n\nSeven matches with 1 goal is 7 goals, six matches with 2 goals is 12, and so on. They add to 40.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the number of goals scored by a football team in a league season.\n\nWhat is the mean number of goals scored by the team?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq16-q18.png",
+        "caption": "Table of goals scored in a match and frequency. 0 goals: 1, 1 goal: 7, 2 goals: 6, 3 goals: 4, 4 goals: 1, 5 goals: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Divide 40 goals by 20 matches."
+      },
+      {
+        "text": "6",
+        "hint": "Divide 40 goals by 20 matches."
+      },
+      {
+        "text": "4",
+        "hint": "Divide 40 goals by 20 matches."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. $40 \\div 20 = 2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Mean $=$ total goals $\\div$ number of matches.",
+    "explanation": "## Advanced explanation\n\n$\\frac{\\sum fx}{\\sum f} = \\frac{40}{20} = 2$.\n\n## Simplified explanation\n\nThe team scored 40 goals in 20 matches. That is 2 goals per match.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the number of goals scored by a football team in a league season.\n\nWhat is the total number of matches played in the league season?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq16-q18.png",
+        "caption": "Table of goals scored in a match and frequency. 0 goals: 1, 1 goal: 7, 2 goals: 6, 3 goals: 4, 4 goals: 1, 5 goals: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "6",
+        "hint": "This is the number of columns."
+      },
+      {
+        "text": "15",
+        "hint": "Add all the frequencies."
+      },
+      {
+        "text": "19",
+        "hint": "Include the 1 match with no goals."
+      },
+      {
+        "text": "20",
+        "hint": "Correct. $1 + 7 + 6 + 4 + 1 + 1 = 20$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add the Frequency row.",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 1 + 7 + 6 + 4 + 1 + 1 = 20$.\n\n## Simplified explanation\n\nAdd the bottom row: $1 + 7 + 6 + 4 + 1 + 1 = 20$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The probability of obtaining a head when a coin is tossed is $\\dfrac{1}{3}$. What is the probability of obtaining a tail?",
+    "media": [],
+    "options": [
+      {
+        "text": "$1$",
+        "hint": "The two probabilities must add to 1."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Correct. $1 - \\frac{1}{3} = \\frac{2}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This coin is not fair. Use the given probability."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This is the probability of a head."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The probabilities of a head and a tail add to 1.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{tail}) = 1 - P(\\text{head}) = 1 - \\frac{1}{3} = \\frac{2}{3}$.\n\n## Simplified explanation\n\nA head or a tail must happen, so the two add to 1. Then $1 - \\frac{1}{3} = \\frac{2}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $a = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $b = \\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix}$, find $a + 2b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}$",
+        "hint": "Correct. $-2 + 4 = 2$ and $3 - 10 = -7$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ 13 \\end{pmatrix}$",
+        "hint": "For the bottom, $3 + (-10) = -7$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ -2 \\end{pmatrix}$",
+        "hint": "This is $a + b$. Double $b$ first."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 13 \\end{pmatrix}$",
+        "hint": "Keep the signs: $-2 + 4$ and $3 - 10$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Double $b$ first, then add.",
+    "explanation": "## Advanced explanation\n\n$a + 2b = \\begin{pmatrix} -2 + 4 \\\\ 3 - 10 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $b$ gives 4 and $-10$. Adding $a$ gives 2 and $-7$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find in base ten the value of the 4 in $143_{\\text{five}}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "This is the place value. Multiply it by 4."
+      },
+      {
+        "text": "40",
+        "hint": "This treats the place value as 10. In base five, it is 5."
+      },
+      {
+        "text": "25",
+        "hint": "This is the place value of the digit 1."
+      },
+      {
+        "text": "20",
+        "hint": "Correct. $4 \\times 5 = 20$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The place values in base five are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\nThe 4 is in the fives place, so its value is $4 \\times 5 = 20$.\n\n## Simplified explanation\n\nThe middle digit counts 5s. Four 5s is 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the interior angle of a regular polygon is $120^\\circ$, how many sides does it have?",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "A regular pentagon has interior angles of 108°."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. Each exterior angle is 60°, and $360 \\div 60 = 6$."
+      },
+      {
+        "text": "7",
+        "hint": "A regular heptagon has interior angles of about 128.6°."
+      },
+      {
+        "text": "8",
+        "hint": "A regular octagon has interior angles of 135°."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the exterior angle first.",
+    "explanation": "## Advanced explanation\n\nExterior angle: $180^\\circ - 120^\\circ = 60^\\circ$. So $n = \\frac{360}{60} = 6$.\n\n## Simplified explanation\n\nThe outside angle is $180 - 120 = 60$. The outside angles add to 360, so $360 \\div 60 = 6$ sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\left(3\\dfrac{1}{2} + 7\\right) \\div \\left(4\\dfrac{1}{3} - 3\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$6\\dfrac{7}{8}$",
+        "hint": "The brackets are $\\frac{21}{2}$ and $\\frac{4}{3}$."
+      },
+      {
+        "text": "$7$",
+        "hint": "The brackets are $\\frac{21}{2}$ and $\\frac{4}{3}$."
+      },
+      {
+        "text": "$7\\dfrac{7}{8}$",
+        "hint": "Correct. $\\frac{21}{2} \\times \\frac{3}{4} = \\frac{63}{8}$."
+      },
+      {
+        "text": "$10\\dfrac{1}{2}$",
+        "hint": "This is the first bracket only."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out each bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{21}{2} \\div \\frac{4}{3} = \\frac{21}{2} \\times \\frac{3}{4} = \\frac{63}{8} = 7\\frac{7}{8}$.\n\n## Simplified explanation\n\nThe brackets give $10\\frac{1}{2}$ and $1\\frac{1}{3}$. Turn $\\frac{4}{3}$ upside down and multiply to get $\\frac{63}{8}$, which is $7\\frac{7}{8}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the solution set of $n - \\dfrac{2}{3} > \\dfrac{1}{3} - n$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{n : n > -1\\}$",
+        "hint": "$2n > 1$."
+      },
+      {
+        "text": "$\\{n : n = 0\\}$",
+        "hint": "This is an inequality, and $n = 0$ does not satisfy it."
+      },
+      {
+        "text": "$\\left\\{n : n > \\dfrac{1}{3}\\right\\}$",
+        "hint": "$2n > 1$, so divide by 2."
+      },
+      {
+        "text": "$\\left\\{n : n > \\dfrac{1}{2}\\right\\}$",
+        "hint": "Correct. $2n > 1$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Collect the $n$ terms on one side.",
+    "explanation": "## Advanced explanation\n\n$2n > \\frac{1}{3} + \\frac{2}{3} = 1$, so $n > \\frac{1}{2}$.\n\n## Simplified explanation\n\nMove $n$ to the left to get $2n$. Move $\\frac{2}{3}$ to the right to get 1. So $2n > 1$ and $n > \\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $|AE| = |ED| = |DC| = |CE|$. Calculate the size of the angle marked $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq25.png",
+        "caption": "Triangle ABD with E on AD and C on BD. AE, ED, DC and CE are marked equal. AC is joined, and x is angle ACB."
+      }
+    ],
+    "options": [
+      {
+        "text": "$150^\\circ$",
+        "hint": "Angle $ACD$ is 90°, and $x$ is on a straight line with it."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "This is angle $AEC$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "Correct. Angle $ACD$ is 90°, so $x$ is 90°."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "This is angle $ECD$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Triangle $CDE$ has three equal sides.",
+    "explanation": "## Advanced explanation\n\nTriangle $CDE$ is equilateral, so angle $ECD = 60^\\circ$ and angle $AEC = 120^\\circ$. Triangle $AEC$ is isosceles, so angle $ACE = 30^\\circ$. Then angle $ACD = 90^\\circ$ and $x = 180^\\circ - 90^\\circ = 90^\\circ$.\n\n## Simplified explanation\n\nTriangle $CDE$ has all sides equal, so its angles are 60°. The angle at $E$ in triangle $AEC$ is 120°, which leaves 30° for each other angle. So $30 + 60 = 90$° at $C$, and $x$ is the other 90° on the straight line.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Five times a number is four more than the number. Find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "$5 \\times \\frac{3}{2}$ is 7.5, but $\\frac{3}{2} + 4$ is 5.5."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $5 = 1 + 4$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "$5n = n + 4$ gives $4n = 4$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "$5n = n + 4$ gives $4n = 4$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write the sentence as an equation.",
+    "explanation": "## Advanced explanation\n\n$5n = n + 4$, so $4n = 4$ and $n = 1$.\n\n## Simplified explanation\n\nTake the number from both sides to get $4n = 4$. So the number is 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A basket contains 450 oranges. If each orange costs ₵15.00, find the total cost of the oranges.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵30.00",
+        "hint": "Multiply 450 by 15."
+      },
+      {
+        "text": "₵435.00",
+        "hint": "This subtracts. Multiply instead."
+      },
+      {
+        "text": "₵465.00",
+        "hint": "This adds. Multiply instead."
+      },
+      {
+        "text": "₵6,750.00",
+        "hint": "Correct. $450 \\times 15 = 6{,}750$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the number of oranges by the price.",
+    "explanation": "## Advanced explanation\n\n$450 \\times 15 = 6{,}750$.\n\n## Simplified explanation\n\n$450 \\times 10 = 4{,}500$ and $450 \\times 5 = 2{,}250$. Together that is ₵6,750.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bottle of soft drink costs ₵200.00. The commission paid on one bottle is 2% of the cost price. Find the commission on 24 bottles of the soft drink.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵96.00",
+        "hint": "Correct. $4 \\times 24 = 96$."
+      },
+      {
+        "text": "₵296.00",
+        "hint": "This adds ₵200.00 to the commission."
+      },
+      {
+        "text": "₵400.00",
+        "hint": "This is the cost of 2 bottles."
+      },
+      {
+        "text": "₵4,704.00",
+        "hint": "This takes the commission off the cost of the bottles."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the commission on one bottle.",
+    "explanation": "## Advanced explanation\n\n$0.02 \\times 200 \\times 24 = 96$.\n\n## Simplified explanation\n\n2% of ₵200 is ₵4 a bottle. For 24 bottles, that is ₵96.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{9}{21}$ is equivalent to $\\dfrac{1 + x}{7}$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "This gives $\\frac{2}{7}$."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. $\\frac{3}{7} = \\frac{9}{21}$."
+      },
+      {
+        "text": "4",
+        "hint": "This gives $\\frac{5}{7}$."
+      },
+      {
+        "text": "5",
+        "hint": "This gives $\\frac{6}{7}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Simplify $\\frac{9}{21}$ first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{9}{21} = \\frac{3}{7}$, so $1 + x = 3$ and $x = 2$.\n\n## Simplified explanation\n\nDivide 9 and 21 by 3 to get $\\frac{3}{7}$. So $1 + x$ is 3, which makes $x = 2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Fractions",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 39.9748 km, correct to three significant figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "39.9 km",
+        "hint": "The fourth significant digit is 7, so round up."
+      },
+      {
+        "text": "39.975 km",
+        "hint": "This has five significant figures."
+      },
+      {
+        "text": "40 km",
+        "hint": "This has only two significant figures."
+      },
+      {
+        "text": "40.0 km",
+        "hint": "Correct. 39.9 rounds up to 40.0."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The fourth significant digit is 7.",
+    "explanation": "## Advanced explanation\n\nRounding up 39.9 gives 40.0, and the final 0 keeps three significant figures.\n\n## Simplified explanation\n\nKeep 3, 9, 9. The next digit is 7, so round up. The 9s carry over to give 40.0.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find $x$, if $\\dfrac{1}{x} + \\dfrac{1}{3} = 1$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This is $\\frac{1}{x}$. Turn it upside down."
+      },
+      {
+        "text": "$\\dfrac{-2}{3}$",
+        "hint": "$\\frac{1}{x} = \\frac{2}{3}$, which is positive."
+      },
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "Correct. $\\frac{1}{x} = \\frac{2}{3}$."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "$\\frac{1}{x} = \\frac{2}{3}$, and upside down it is $\\frac{3}{2}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Get $\\frac{1}{x}$ by itself first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{x} = 1 - \\frac{1}{3} = \\frac{2}{3}$, so $x = \\frac{3}{2}$.\n\n## Simplified explanation\n\nTake $\\frac{1}{3}$ from 1 to get $\\frac{2}{3}$. So $x$ is the upside-down fraction, $\\frac{3}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Fractions",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bearing of Aboku from Bebeka is $055^\\circ$. What is the bearing of Bebeka from Aboku?",
+    "media": [],
+    "options": [
+      {
+        "text": "$235^\\circ$",
+        "hint": "Correct. $55^\\circ + 180^\\circ = 235^\\circ$."
+      },
+      {
+        "text": "$055^\\circ$",
+        "hint": "This is the given bearing."
+      },
+      {
+        "text": "$125^\\circ$",
+        "hint": "This is $180^\\circ - 55^\\circ$. Add 180° instead."
+      },
+      {
+        "text": "$305^\\circ$",
+        "hint": "This is $360^\\circ - 55^\\circ$. Add 180° instead."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A back bearing differs from the bearing by 180°.",
+    "explanation": "## Advanced explanation\n\nSince $55^\\circ < 180^\\circ$, the back bearing is $55^\\circ + 180^\\circ = 235^\\circ$.\n\n## Simplified explanation\n\nLooking back the other way turns you through 180°. So add 180 to 55 to get 235°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows the construction of",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq33.png",
+        "caption": "Line AB with O between A and B, marks on the line on either side of O, and crossing arcs directly above O."
+      }
+    ],
+    "options": [
+      {
+        "text": "the perpendicular bisector of the line.",
+        "hint": "The arcs are centred about $O$, and only one crossing is shown."
+      },
+      {
+        "text": "an angle of 45° at the point $A$.",
+        "hint": "No angle is formed at $A$."
+      },
+      {
+        "text": "an angle of 45° at the point $B$.",
+        "hint": "No angle is formed at $B$."
+      },
+      {
+        "text": "an angle of 90° at the point $O$.",
+        "hint": "Correct. A line from $O$ through the crossing is at right angles to $AB$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Equal marks are made on either side of $O$. What do the crossing arcs give?",
+    "explanation": "## Advanced explanation\n\nFrom equal marks on either side of $O$, arcs of equal radius cross at a point directly above $O$, which gives a right angle at $O$.\n\n## Simplified explanation\n\nThe marks on the line are the same distance from $O$. Arcs from those marks cross straight above $O$. Joining $O$ to the crossing makes a 90° angle.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The dimensions of the rectangle are given in base two. Find its perimeter.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq34.png",
+        "caption": "Rectangle with sides marked 11 base two cm and 10 base two cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$100_{\\text{two}}$ cm",
+        "hint": "This equals 4 cm."
+      },
+      {
+        "text": "$1001_{\\text{two}}$ cm",
+        "hint": "This equals 9 cm."
+      },
+      {
+        "text": "$110_{\\text{two}}$ cm",
+        "hint": "This equals 6 cm, which is the value of the area."
+      },
+      {
+        "text": "$1010_{\\text{two}}$ cm",
+        "hint": "Correct. $2(3 + 2) = 10$ cm."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change the sides to base ten first.",
+    "explanation": "## Advanced explanation\n\n$11_{\\text{two}} = 3$ and $10_{\\text{two}} = 2$, so $P = 2(3 + 2) = 10 = 1010_{\\text{two}}$ cm.\n\n## Simplified explanation\n\nThe sides are 3 cm and 2 cm, so the perimeter is 10 cm. In base two, 10 is 1010.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Number Bases",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a circle, centre $O$, is 120 cm². Angle $AOB$ is $60^\\circ$. Find the area of the sector $AOB$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq35.png",
+        "caption": "Circle with centre O and a shaded sector AOB with a 60° angle at O."
+      }
+    ],
+    "options": [
+      {
+        "text": "2 cm²",
+        "hint": "Use $\\frac{60}{360}$ of 120 cm²."
+      },
+      {
+        "text": "3 cm²",
+        "hint": "Use $\\frac{60}{360}$ of 120 cm²."
+      },
+      {
+        "text": "6 cm²",
+        "hint": "This is $360 \\div 60$. Use $\\frac{60}{360}$ of 120 cm²."
+      },
+      {
+        "text": "20 cm²",
+        "hint": "Correct. $\\frac{1}{6} \\times 120 = 20$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "60° is what fraction of 360°?",
+    "explanation": "## Advanced explanation\n\n$\\frac{60}{360} \\times 120 = 20$ cm².\n\n## Simplified explanation\n\n60° is one sixth of the circle. One sixth of 120 is 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $ABCD$ is a parallelogram, $EC$ and $AF$ are straight lines, angle $ABC = 110^\\circ$ and angle $DEF = 40^\\circ$. Find the angle marked $\\theta$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq36.png",
+        "caption": "Parallelogram ABCD with CD extended to E and AD extended to F, joined by EF. Angle ABC is 110°, angle DEF is 40° and angle DFE is θ. DC is marked 12 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "$30^\\circ$",
+        "hint": "Correct. $180 - 40 - 110 = 30$."
+      },
+      {
+        "text": "$40^\\circ$",
+        "hint": "This is angle $DEF$."
+      },
+      {
+        "text": "$50^\\circ$",
+        "hint": "Angle $EDF$ is 110°."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "Angle $EDF$ is 110°."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Opposite angles of a parallelogram are equal.",
+    "explanation": "## Advanced explanation\n\nAngle $ADC = 110^\\circ$, so angle $EDF = 110^\\circ$ (vertically opposite). Then $\\theta = 180 - 40 - 110 = 30$.\n\n## Simplified explanation\n\nThe angle at $D$ in the parallelogram is 110°, and the same angle appears at $D$ in the small triangle. Then $180 - 110 - 40 = 30$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AC$ is parallel to $DF$. Angle $CBT$ is $40^\\circ$ and angle $DET$ is $140^\\circ$. Find the angle marked $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq37.png",
+        "caption": "Parallel lines AC and DF, with B on AC and E on DF. Lines from B and E meet at T. Angle CBT is 40°, angle DET is 140°, and y is the reflex angle at T."
+      }
+    ],
+    "options": [
+      {
+        "text": "$320^\\circ$",
+        "hint": "The smaller angle at $T$ is 80°, not 40°."
+      },
+      {
+        "text": "$280^\\circ$",
+        "hint": "Correct. $360^\\circ - 80^\\circ = 280^\\circ$."
+      },
+      {
+        "text": "$220^\\circ$",
+        "hint": "The smaller angle at $T$ is 80°."
+      },
+      {
+        "text": "$100^\\circ$",
+        "hint": "Angle $y$ is the reflex angle at $T$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Draw a line through $T$ parallel to $AC$.",
+    "explanation": "## Advanced explanation\n\nA line through $T$ parallel to $AC$ splits the smaller angle into $40^\\circ$ and $180^\\circ - 140^\\circ = 40^\\circ$, by alternate angles. So angle $BTE = 80^\\circ$ and $y = 360^\\circ - 80^\\circ = 280^\\circ$.\n\n## Simplified explanation\n\nA parallel line through $T$ makes two alternate angles of 40°, so the small angle at $T$ is 80°. Angle $y$ goes around the other way, which is $360 - 80 = 280$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the angle of elevation of $K$ from $M$ is",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/1993/1993secaq38.png",
+        "caption": "Triangle KGM with a right angle at G and an angle of 73° at K."
+      }
+    ],
+    "options": [
+      {
+        "text": "$17^\\circ$",
+        "hint": "Correct. $90^\\circ - 73^\\circ = 17^\\circ$."
+      },
+      {
+        "text": "$73^\\circ$",
+        "hint": "This is the angle at $K$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is the angle at $G$."
+      },
+      {
+        "text": "$107^\\circ$",
+        "hint": "This is $180^\\circ - 73^\\circ$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The angle of elevation of $K$ from $M$ is the angle at $M$.",
+    "explanation": "## Advanced explanation\n\nAngle $GMK = 180^\\circ - 90^\\circ - 73^\\circ = 17^\\circ$.\n\n## Simplified explanation\n\nThe angle at $M$ looks up from the ground to $K$. The angles of the triangle add to 180°, which leaves 17°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Three girls, Ama, Adjoa and Abena, measured the lengths of the sides of 3 right-angled triangles as follows:\n\nAma's measurements were 50 mm, 40 mm, 50 mm;\n\nAdjoa's measurements were 50 mm, 120 mm, 130 mm;\n\nAbena's measurements were 20 mm, 30 mm, 40 mm.\n\nWhose measurement(s) was/were correct?",
+    "media": [],
+    "options": [
+      {
+        "text": "Ama's only.",
+        "hint": "$40^2 + 50^2$ is not $50^2$."
+      },
+      {
+        "text": "Adjoa's only.",
+        "hint": "Correct. $50^2 + 120^2 = 130^2$."
+      },
+      {
+        "text": "Adjoa's and Abena's",
+        "hint": "$20^2 + 30^2 = 1{,}300$, but $40^2 = 1{,}600$."
+      },
+      {
+        "text": "Ama's and Adjoa's",
+        "hint": "$40^2 + 50^2$ is not $50^2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use Pythagoras' theorem on each set.",
+    "explanation": "## Advanced explanation\n\nOnly $50^2 + 120^2 = 2{,}500 + 14{,}400 = 16{,}900 = 130^2$ holds.\n\n## Simplified explanation\n\nSquare the two short sides and add. Only Adjoa's set matches the square of the longest side.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "1993 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\dfrac{2a + 4b}{3} - \\dfrac{3(a - b)}{2}$",
+    "media": [],
+    "answer": "$$\\frac{2(2a + 4b) - 3(3a - 3b)}{6} = \\frac{4a + 8b - 9a + 9b}{6} = \\frac{17b - 5a}{6}$$\n\n> [!answer]\n> {{green:$\\dfrac{17b - 5a}{6}$}}",
+    "hint": "Use 6 as the common denominator, and be careful with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$-3(-3b) = +9b$ when the second fraction is subtracted.\n\n## Simplified explanation\n\nOver 6, the tops are $4a + 8b$ and $9a - 9b$. Taking away gives $-5a + 17b$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $5(a - 5) - \\dfrac{1}{2}(2a + 6) = 4$",
+    "media": [],
+    "answer": "Multiply through by 2:\n\n$$10(a - 5) - (2a + 6) = 8$$\n\n$$10a - 50 - 2a - 6 = 8$$\n\n$$8a = 64$$\n\n$$a = 8$$\n\n> [!answer]\n> {{green:$a = 8$}}",
+    "hint": "Multiply every term by 2 first.",
+    "explanation": "## Advanced explanation\n\nCheck with $a = 8$: $5(3) - \\frac{1}{2}(22) = 15 - 11 = 4$.\n\n## Simplified explanation\n\nMultiplying by 2 clears the fraction. Opening the brackets gives $8a - 56 = 8$. So $8a = 64$ and $a = 8$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $r = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ and $q = \\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix}$, calculate $6(r + 2q)$.",
+    "media": [],
+    "answer": "$$r + 2q = \\begin{pmatrix} 3 - 4 \\\\ 1 + 2 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$$\n\n$$6\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 18 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} -6 \\\\ 18 \\end{pmatrix}$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nScalar multiplication acts on each component.\n\n## Simplified explanation\n\nDoubling $q$ gives $-4$ and 2. Adding $r$ gives $-1$ and 3. Multiplying by 6 gives $-6$ and 18.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a) construct a triangle $ABC$ such that $|BA| = 10$ cm, angle $ABC = 90^\\circ$ and angle $BAC = 30^\\circ$. Measure the length of $BC$.\n\n(b)(i) Bisect the angle $ACB$ to meet $BA$ at $D$.\n\n(b)(ii) What type of triangle is $CDA$?\n\n(c) Calculate the area of triangle $ABC$.\n\nType your answers.",
+    "media": [],
+    "answer": "Draw $|BA| = 10$ cm. Construct $90^\\circ$ at $B$, and construct $60^\\circ$ at $A$ and bisect it to get $30^\\circ$. The arms meet at $C$. Bisect angle $ACB$ to meet $BA$ at $D$.\n\n**(b)(ii)** Angle $ACB = 60^\\circ$, so angle $DCA = 30^\\circ$, which equals angle $DAC$. The triangle is isosceles.\n\n**(c)** $\\frac{1}{2} \\times 10 \\times 5.8 = 29$ cm²\n\n> [!answer]\n> **(a)** {{green:$|BC| \\approx 5.8$ cm}}  **(b)(ii)** {{green:isosceles}}  **(c)** {{green:about 29 cm²}}",
+    "hint": "Angle $ACB$ is $180^\\circ - 90^\\circ - 30^\\circ = 60^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$|BC| = 10\\tan 30^\\circ \\approx 5.77$ cm, so the area is $\\frac{1}{2}(10)(5.77) \\approx 28.9$ cm². Angles $DCA$ and $DAC$ are equal, so $|DC| = |DA|$.\n\n## Simplified explanation\n\nBuild the triangle from the 10 cm base with the 90° and 30° angles. $BC$ measures about 5.8 cm. Splitting the 60° angle gives 30°, which matches the angle at $A$, so triangle $CDA$ has two equal angles. The area is half of base times height, about 29 cm².",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Olu bought a radio for ₵65,000.00. After one year, the radio was valued at 75% of the cost price.\n\n(a) What was the value of the radio after one year?\n\n(b) If he sold the radio for ₵55,700.00, calculate his profit or loss over the cost price.",
+    "media": [],
+    "answer": "**(a)** $\\frac{75}{100} \\times 65{,}000 = 48{,}750$\n\n**(b)** The cost price was ₵65,000.00, and the selling price is lower:\n\n$$65{,}000 - 55{,}700 = 9{,}300$$\n\nThis is a loss on the cost price, although the sale is ₵6,950.00 above the value after one year.\n\n> [!answer]\n> **(a)** {{green:₵48,750.00}}  **(b)** {{green:a loss of ₵9,300.00}}",
+    "hint": "Compare the selling price with the ₵65,000.00 that he paid.",
+    "explanation": "## Advanced explanation\n\nA sale below the cost price is a loss. The ₵6,950.00 difference is only a gain compared with the reduced value of ₵48,750.00.\n\n## Simplified explanation\n\n75% of ₵65,000 is ₵48,750. He paid ₵65,000 and sold for ₵55,700, so he lost ₵9,300.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular lines $Ox$ and $Oy$ on a graph sheet. On this graph sheet, mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(a) Plot on the same graph sheet the points $A(-2, 4)$ and $B(4, -5)$. Join the points $A$ and $B$ with the help of a ruler.\n\n(b) Using the graph, find:\n\n(i) the gradient (or slope) of the line $AB$;\n\n(ii) the value of $x$ when $y = 0$;\n\n(iii) the value of $y$ when $x = 2$.\n\n(c) Plot on the same graph sheet the points $C(-3, -1)$ and $D(3, 3)$. Join the points $C$ and $D$. With the help of a protractor, measure the angle between the lines $AB$ and $CD$.\n\n(d) What is the gradient of the line $CD$?",
+    "media": [],
+    "answer": "**(b)(i)** $\\frac{-5 - 4}{4 - (-2)} = -\\frac{3}{2}$\n\n**(ii)** $x \\approx 0.7$, since the exact value is $\\frac{2}{3}$\n\n**(iii)** $y = -2$\n\n**(c)** The angle measures $90^\\circ$.\n\n**(d)** $\\frac{3 - (-1)}{3 - (-3)} = \\frac{2}{3}$\n\n> [!answer]\n> **(b)(i)** {{green:$-\\frac{3}{2}$}}  **(ii)** {{green:about 0.7}}  **(iii)** {{green:$-2$}}\n>\n> **(c)** {{green:$90^\\circ$}}  **(d)** {{green:$\\frac{2}{3}$}}",
+    "hint": "Gradient $=$ change in $y$ $\\div$ change in $x$.",
+    "explanation": "## Advanced explanation\n\nThe line $AB$ is $y = -\\frac{3}{2}x + 1$. The product of the gradients is $-\\frac{3}{2} \\times \\frac{2}{3} = -1$, so the lines are perpendicular.\n\n## Simplified explanation\n\nFrom $A$ to $B$, the line goes down 9 and across 6, so the gradient is $-\\frac{3}{2}$. It crosses the $x$-axis just before 1. When $x$ is 2, $y$ is $-2$. $CD$ goes up 4 and across 6, and the lines meet at a right angle.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The ages of 20 school children are recorded as follows:\n\n13, 9, 15, 17, 13\n\n9, 11, 9, 11, 15\n\n17, 15, 11, 9, 9\n\n11, 15, 11, 11, 11\n\n(a) Make a frequency table for the data using the ages 9, 11, 13, ...\n\n(b) Use your table to calculate the mean age, correct to the nearest whole number.",
+    "media": [],
+    "answer": "**(a)**\n\n| Age | 9 | 11 | 13 | 15 | 17 |\n|---|---|---|---|---|---|\n| Frequency | 5 | 7 | 2 | 4 | 2 |\n\n**(b)** $\\frac{45 + 77 + 26 + 60 + 34}{20} = \\frac{242}{20} = 12.1 \\approx 12$\n\n> [!answer]\n> **(b)** {{green:12 years}}",
+    "hint": "Tally the ages. The frequencies must add to 20.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$.\n\n## Simplified explanation\n\nCount each age to fill in the table. Multiply each age by its count to get 242, and $242 \\div 20 = 12.1$, which is 12 to the nearest whole number.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "1993 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  }
+]
