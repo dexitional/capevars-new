@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Loader2, Pencil } from "lucide-react";
+import { Loader2, Pencil, Plus } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { canManage } from "#/lib/permissions";
 import { AdminPageHeader, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { EVENT_CATEGORIES } from "#/lib/labels";
+import { MemberPicker } from "#/components/admin/member-picker";
+import type { PickedMember } from "#/components/admin/member-picker";
 import { EventEditor, RentalEditor, TripEditor } from "#/components/seller/forms";
 import { Button } from "#/components/ui/button";
 
@@ -20,12 +22,22 @@ type Row = Record<string, any>;
 type Tab = "events" | "trips" | "rentals";
 type Editing = { kind: "events"; event: Row; types: Array<Row> } | { kind: "trips"; trip: Row } | { kind: "rentals"; rental: Row };
 
+const ADD_LABEL: Record<Tab, string> = { events: "Add event", trips: "Add bus trip", rentals: "Add bus rental" };
+const PICK_TITLE: Record<Tab, string> = { events: "Add an event for which member?", trips: "Add a bus trip for which member?", rentals: "Add a bus rental for which member?" };
+
 function Tickets() {
   const { admin } = Route.useRouteContext();
   const editable = canManage(admin.role, "tickets");
   const queryClient = useQueryClient();
   const [tab, setTab] = useState<Tab>("events");
   const [editing, setEditing] = useState<Editing | null>(null);
+  // Adding for a member: first whose name it goes under, then the editor.
+  const [adding, setAdding] = useState<Tab | null>(null);
+  const [owner, setOwner] = useState<PickedMember | null>(null);
+  const closeAdding = () => {
+    setAdding(null);
+    setOwner(null);
+  };
   // Load the full record (an event with its ticket types) before opening its editor.
   const open = useMutation({
     mutationFn: async ({ kind, id }: { kind: Tab; id: number }): Promise<Editing> => {
@@ -54,7 +66,17 @@ function Tickets() {
 
   return (
     <div className="space-y-6">
-      <AdminPageHeader title="E-tickets" description="Review and edit events before tickets go on sale, and manage bus trips and rentals." />
+      <AdminPageHeader
+        title="E-tickets"
+        description="Review and edit events before tickets go on sale, manage bus trips and rentals, and add any of them for a member."
+        actions={
+          editable && (
+            <Button onClick={() => setAdding(tab)}>
+              <Plus /> {ADD_LABEL[tab]}
+            </Button>
+          )
+        }
+      />
       <Segmented
         value={tab}
         onChange={setTab}
@@ -105,6 +127,18 @@ function Tickets() {
         />
       )}
 
+      {adding && !owner && (
+        <MemberPicker
+          title={PICK_TITLE[adding]}
+          description="It goes under their name and they can manage it from Seller Center. Anyone without a store gets one created for them, already approved."
+          needsStore
+          onPick={setOwner}
+          onClose={closeAdding}
+        />
+      )}
+      {adding === "events" && owner && <EventEditor key={`new-e${owner.id}`} event={null} types={[]} open endpoint="/admin/tickets/events" owner={owner} onClose={closeAdding} onSaved={saved("events")} />}
+      {adding === "trips" && owner && <TripEditor key={`new-t${owner.id}`} trip={null} open endpoint="/admin/tickets/trips" owner={owner} onClose={closeAdding} onSaved={saved("trips")} />}
+      {adding === "rentals" && owner && <RentalEditor key={`new-r${owner.id}`} rental={null} open endpoint="/admin/tickets/rentals" owner={owner} onClose={closeAdding} onSaved={saved("rentals")} />}
       {editing?.kind === "events" && (
         <EventEditor
           key={`e${editing.event.id}`}

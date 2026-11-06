@@ -1,22 +1,24 @@
 // Admin → Members: create, edit and delete member accounts (the list,
 // suspend and verify actions live in moderation.ts).
 //
-// Deleting is deliberately strict. Most member data cascades on delete, and
-// some of it belongs to other people: a seller's store takes its customers'
-// orders and tickets with it, and a buyer's orders are part of a seller's
-// sales record. So a member with any trade history can't be deleted; they
-// can be suspended instead. Members without one are removed outright.
+// Deleting removes the member and everything tied to them, including records
+// other people rely on (see lib/member-purge.ts), so the admin reads a preview
+// first and confirms by sending back the member's username.
 import { Hono } from "hono";
 import { z } from "zod";
 import bcrypt from "bcryptjs";
 import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
-import { requirePermission } from "../../middleware/require-auth.js";
+import { requireAdminRole, requirePermission } from "../../middleware/require-auth.js";
+import { rolesWith } from "#/lib/permissions";
+import { likePattern } from "../../lib/query.js";
 import { validate } from "../../lib/validate.js";
 import { optionalText } from "../../lib/fields.js";
 import { toColumns, insertSql, updateSql } from "../../lib/columns.js";
 import { AppError } from "../../middleware/error-handler.js";
 import { logActivity } from "../../lib/activity.js";
+import { purgeMember, purgePreview } from "../../lib/member-purge.js";
+import { mediaUsage } from "./media.js";
 
 const memberSchema = z.object({
   fullName: z.string().trim().min(2, "Enter the member's full name").max(150),
@@ -68,39 +70,21 @@ async function assertUnique(email: string | undefined, username: string | undefi
   if (rows.some((r) => username && r.username === username)) throw new AppError("That username is taken.", 409);
 }
 
-// What stops a delete: records that other people (or the books) depend on.
-const BLOCKERS: Array<[one: string, many: string, sql: string]> = [
-  ["order placed", "orders placed", "SELECT COUNT(*) AS n FROM orders WHERE user_id = ?"],
-  ["order received by their store", "orders received by their store", "SELECT COUNT(*) AS n FROM orders o JOIN sellers s ON s.id = o.seller_id WHERE s.user_id = ?"],
-  ["ticket bought", "tickets bought", "SELECT COUNT(*) AS n FROM tickets WHERE user_id = ?"],
-  [
-    "ticket sold for their events and trips",
-    "tickets sold for their events and trips",
-    `SELECT COUNT(*) AS n FROM tickets t
-       LEFT JOIN ticket_events e ON e.id = t.event_id LEFT JOIN bus_trips b ON b.id = t.trip_id
-       JOIN sellers s ON s.id = COALESCE(e.seller_id, b.seller_id) WHERE s.user_id = ?`,
-  ],
-  [
-    "exhibition booking for their exhibitions",
-    "exhibition bookings for their exhibitions",
-    "SELECT COUNT(*) AS n FROM exhibition_bookings bk JOIN exhibitions x ON x.id = bk.exhibition_id JOIN sellers s ON s.id = x.seller_id WHERE s.user_id = ?",
-  ],
-  [
-    "rental request for their buses",
-    "rental requests for their buses",
-    "SELECT COUNT(*) AS n FROM rental_requests rr JOIN bus_rentals r ON r.id = rr.rental_id JOIN sellers s ON s.id = r.seller_id WHERE s.user_id = ?",
-  ],
-  ["student enrolled in their courses", "students enrolled in their courses", "SELECT COUNT(*) AS n FROM enrollments en JOIN courses c ON c.id = en.course_id WHERE c.instructor_id = ? AND en.user_id <> c.instructor_id"],
-  ["broadcast credit", "broadcast credits", "SELECT COALESCE(SUM(balance), 0) AS n FROM broadcast_wallets WHERE user_id = ?"],
-];
-
-async function deleteCheck(id: number) {
-  const pool = getPool();
-  const counts = await Promise.all(BLOCKERS.map(([, , sql]) => pool.execute<RowDataPacket[]>(sql, [id]).then(([r]) => Number(r[0]?.n ?? 0))));
-  return BLOCKERS.map(([one, many], i) => ({ label: counts[i] === 1 ? one : many, count: counts[i]! })).filter((b) => b.count > 0);
-}
+// Whoever may add listings on a member's behalf can look members up, even without the Members page.
+const LOOKUP_ROLES = [...new Set([...rolesWith("products", "manage"), ...rolesWith("tickets", "manage"), ...rolesWith("jobs", "manage")])];
 
 export const adminMembersRoute = new Hono()
+  .get("/lookup", requireAdminRole(LOOKUP_ROLES), async (c) => {
+    const q = (c.req.query("q") ?? "").trim().slice(0, 100);
+    const sellers = c.req.query("sellers") === "1";
+    const where = [...(sellers ? ["s.id IS NOT NULL"] : []), ...(q ? ["(u.full_name LIKE ? OR u.username LIKE ? OR u.email LIKE ? OR s.store_name LIKE ?)"] : [])];
+    const [rows] = await getPool().query<RowDataPacket[]>(
+      `SELECT u.id, u.full_name, u.username, u.email, u.is_active, s.store_name, s.status AS store_status
+       FROM users u LEFT JOIN sellers s ON s.user_id = u.id ${where.length ? `WHERE ${where.join(" AND ")}` : ""} ORDER BY u.full_name LIMIT 25`,
+      q ? Array.from({ length: 4 }, () => likePattern(q)) : [],
+    );
+    return c.json({ items: rows });
+  })
   .get("/:id", requirePermission("members", "view"), async (c) => {
     const [rows] = await getPool().execute<RowDataPacket[]>(`SELECT ${MEMBER_COLUMNS} FROM users WHERE id = ?`, [idParam(c.req.param("id"))]);
     if (!rows[0]) throw new AppError("Member not found.", 404);
@@ -144,21 +128,15 @@ export const adminMembersRoute = new Hono()
     );
     return c.json({ ok: true });
   })
-  .get("/:id/delete-check", requirePermission("members", "manage"), async (c) => {
-    return c.json({ blockers: await deleteCheck(idParam(c.req.param("id"))) });
+  .get("/:id/delete-preview", requirePermission("members", "manage"), async (c) => {
+    return c.json(await purgePreview(idParam(c.req.param("id"))));
   })
   .delete("/:id", requirePermission("members", "manage"), async (c) => {
     const id = idParam(c.req.param("id"));
     const [rows] = await getPool().execute<RowDataPacket[]>("SELECT id, full_name, username FROM users WHERE id = ?", [id]);
     if (!rows[0]) throw new AppError("Member not found.", 404);
-    const blockers = await deleteCheck(id);
-    if (blockers.length) {
-      throw new AppError(
-        `This member can't be deleted because they have ${blockers.map((b) => `${b.count} ${b.label}`).join(", ")}. Suspend the account instead.`,
-        409,
-      );
-    }
-    await getPool().execute("DELETE FROM users WHERE id = ?", [id]);
-    logActivity(c.get("admin").id, "deleted", "members", id, `Deleted member ${rows[0].full_name} (@${rows[0].username})`);
+    if (c.req.query("confirm") !== rows[0].username) throw new AppError("Type the member's username to confirm.", 422);
+    const removed = await purgeMember(id, async (url) => (await mediaUsage(url)).length > 0);
+    logActivity(c.get("admin").id, "deleted", "members", id, `Deleted member ${rows[0].full_name} (@${rows[0].username}) and ${removed} related records`);
     return c.body(null, 204);
   });

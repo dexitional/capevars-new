@@ -45,9 +45,12 @@ function EditorDialog({ open, onClose, title, children, wide }: { open: boolean;
   );
 }
 
-function useSave(path: string, id: number | undefined, onDone: () => void, success: string) {
+// Who a new listing is for, when an admin adds it on their behalf.
+export type ListingOwner = { id: number; name: string };
+
+function useSave(path: string, id: number | undefined, onDone: () => void, success: string, owner?: ListingOwner) {
   return useMutation({
-    mutationFn: (body: Record<string, unknown>) => (id ? api.patch(`${path}/${id}`, body) : api.post(path, body)),
+    mutationFn: (body: Record<string, unknown>) => (id ? api.patch(`${path}/${id}`, body) : api.post(path, owner ? { ...body, userId: owner.id } : body)),
     onSuccess: () => {
       toast.success(success);
       onDone();
@@ -201,6 +204,7 @@ export function ProductEditor({
   onSaved,
   endpoint = "/seller/products",
   moderator = false,
+  owner,
 }: {
   product: Row | null;
   kind: "product" | "food";
@@ -211,6 +215,7 @@ export function ProductEditor({
   endpoint?: string;
   /** Admin editing: "Blocked" is a status option and is kept as it is. */
   moderator?: boolean;
+  owner?: ListingOwner;
 }) {
   const { data: cats } = useQuery({ queryKey: ["market-categories"], queryFn: () => api.get<{ categories: Array<Row> }>("/market/categories"), staleTime: 300_000 });
   const [f, setF] = useState(() => ({
@@ -227,7 +232,7 @@ export function ProductEditor({
     status: product?.status === "blocked" && !moderator ? "hidden" : (product?.status ?? "active"),
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave(endpoint, product?.id, () => (onSaved(), onClose()), "Saved");
+  const save = useSave(endpoint, product?.id, () => (onSaved(), onClose()), "Saved", owner);
   const all = cats?.categories ?? [];
   const options: Array<[string, string]> = [
     ["", "— Category —"],
@@ -236,7 +241,7 @@ export function ProductEditor({
       .flatMap((p) => [[String(p.id), p.name] as [string, string], ...all.filter((c) => c.parent_id === p.id).map((c) => [String(c.id), `   ${p.name} › ${c.name}`] as [string, string])]),
   ];
   return (
-    <EditorDialog open={open} onClose={onClose} title={product ? `Edit ${kind === "food" ? "menu item" : "product"}` : kind === "food" ? "New menu item" : "New product"} wide>
+    <EditorDialog open={open} onClose={onClose} title={product ? `Edit ${kind === "food" ? "menu item" : "product"}` : `${kind === "food" ? "New menu item" : "New product"}${owner ? ` for ${owner.name}` : ""}`} wide>
       <form
         className="grid gap-4 sm:grid-cols-2"
         onSubmit={(e) => {
@@ -329,6 +334,7 @@ export function EventEditor({
   onClose,
   onSaved,
   endpoint = "/seller/events",
+  owner,
 }: {
   event: Row | null;
   types: Array<Row>;
@@ -337,6 +343,7 @@ export function EventEditor({
   onSaved: () => void;
   /** Where it saves: the organiser's own events, or /admin/tickets/events for moderators. */
   endpoint?: string;
+  owner?: ListingOwner;
 }) {
   const [f, setF] = useState(() => ({
     title: event?.title ?? "",
@@ -355,9 +362,9 @@ export function EventEditor({
       : [{ name: "Regular", description: "", price: "0", quantity: "100", maxPerOrder: "10" }],
   );
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave(endpoint, event?.id, () => (onSaved(), onClose()), event ? "Event saved" : "Event submitted for review");
+  const save = useSave(endpoint, event?.id, () => (onSaved(), onClose()), event ? "Event saved" : owner ? "Event published" : "Event submitted for review", owner);
   return (
-    <EditorDialog open={open} onClose={onClose} title={event ? "Edit event" : "New event"} wide>
+    <EditorDialog open={open} onClose={onClose} title={event ? "Edit event" : `New event${owner ? ` for ${owner.name}` : ""}`} wide>
       <form
         className="grid gap-4 sm:grid-cols-2"
         onSubmit={(e) => {
@@ -439,6 +446,7 @@ export function TripEditor({
   onClose,
   onSaved,
   endpoint = "/seller/trips",
+  owner,
 }: {
   trip: Row | null;
   open: boolean;
@@ -446,6 +454,7 @@ export function TripEditor({
   onSaved: () => void;
   /** Where it saves: the operator's own trips, or /admin/tickets/trips for moderators. */
   endpoint?: string;
+  owner?: ListingOwner;
 }) {
   const [f, setF] = useState(() => ({
     origin: trip?.origin ?? "",
@@ -461,7 +470,7 @@ export function TripEditor({
     status: trip?.status ?? "scheduled",
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave(endpoint, trip?.id, () => (onSaved(), onClose()), "Trip saved");
+  const save = useSave(endpoint, trip?.id, () => (onSaved(), onClose()), "Trip saved", owner);
   const pin = parsePin(f.pickupPin);
   const pinError =
     f.pickupPin.trim() && !pin ? "Enter coordinates like 5.1036, -1.2825, or a full Google Maps link (open a short maps.app.goo.gl link first, then copy the address bar)." : undefined;
@@ -476,7 +485,7 @@ export function TripEditor({
     );
   };
   return (
-    <EditorDialog open={open} onClose={onClose} title={trip ? "Edit trip" : "New bus trip"}>
+    <EditorDialog open={open} onClose={onClose} title={trip ? "Edit trip" : `New bus trip${owner ? ` for ${owner.name}` : ""}`}>
       <form
         className="grid gap-4 sm:grid-cols-2"
         onSubmit={(e) => {
@@ -569,6 +578,7 @@ export function RentalEditor({
   onSaved,
   endpoint = "/seller/rentals",
   moderator = false,
+  owner,
 }: {
   rental: Row | null;
   open: boolean;
@@ -578,6 +588,7 @@ export function RentalEditor({
   endpoint?: string;
   /** Admin editing: "Blocked" is a status option and is kept as it is. */
   moderator?: boolean;
+  owner?: ListingOwner;
 }) {
   const [f, setF] = useState(() => ({
     title: rental?.title ?? "",
@@ -590,9 +601,9 @@ export function RentalEditor({
     status: rental?.status === "blocked" && !moderator ? "hidden" : (rental?.status ?? "active"),
   }));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
-  const save = useSave(endpoint, rental?.id, () => (onSaved(), onClose()), "Rental saved");
+  const save = useSave(endpoint, rental?.id, () => (onSaved(), onClose()), "Rental saved", owner);
   return (
-    <EditorDialog open={open} onClose={onClose} title={rental ? "Edit rental" : "New bus rental"}>
+    <EditorDialog open={open} onClose={onClose} title={rental ? "Edit rental" : `New bus rental${owner ? ` for ${owner.name}` : ""}`}>
       <form
         className="grid gap-4 sm:grid-cols-2"
         onSubmit={(e) => {

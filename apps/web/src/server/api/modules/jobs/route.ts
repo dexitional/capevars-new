@@ -22,7 +22,7 @@ export const JOB_CATEGORIES = [
   "Legal", "Research", "Media", "Other",
 ];
 
-const jobSchema = z.object({
+export const jobSchema = z.object({
   companyName: z.string().trim().min(2).max(150),
   companyLogoUrl: optionalUrl,
   title: z.string().trim().min(3).max(200),
@@ -40,7 +40,7 @@ const jobSchema = z.object({
   applyTarget: optionalText(500),
   deadline: z.union([z.string().regex(/^\d{4}-\d{2}-\d{2}$/), z.literal(""), z.null()]).optional().transform((v) => v || null),
 });
-const FIELDS = {
+export const JOB_FIELDS = {
   companyName: "company_name",
   companyLogoUrl: "company_logo_url",
   title: "title",
@@ -58,6 +58,12 @@ const FIELDS = {
   applyTarget: "apply_target",
   deadline: "deadline",
 };
+
+export function assertApplyTarget(input: { applyMethod: string; applyTarget?: string | null }) {
+  if (input.applyMethod !== "platform" && !input.applyTarget) {
+    throw new AppError(input.applyMethod === "email" ? "Enter the email to apply to." : "Enter the application link.", 422);
+  }
+}
 
 const applySchema = z.object({
   phone: z.string().trim().min(9).max(30),
@@ -176,11 +182,9 @@ export const jobsRoute = new Hono()
   })
   .post("/", requireMember, validate("json", jobSchema), async (c) => {
     const input = c.req.valid("json");
-    if (input.applyMethod !== "platform" && !input.applyTarget) {
-      throw new AppError(input.applyMethod === "email" ? "Enter the email to apply to." : "Enter the application link.", 422);
-    }
+    assertApplyTarget(input);
     const slug = await uniqueSlug("jobs", `${input.title} ${input.companyName}`, null);
-    const { columns, params } = toColumns(input, FIELDS);
+    const { columns, params } = toColumns(input, JOB_FIELDS);
     await getPool().execute(insertSql("jobs", [...columns, "user_id", "slug"]), [...params, c.get("member").id, slug]);
     return c.json({ slug }, 201);
   })
@@ -190,7 +194,7 @@ export const jobsRoute = new Hono()
     const job = rows[0];
     if (!job) throw new AppError("Job not found.", 404);
     const { close, ...input } = c.req.valid("json");
-    const { columns, params } = toColumns(input, FIELDS);
+    const { columns, params } = toColumns(input, JOB_FIELDS);
     if (close) {
       columns.push("status");
       params.push("closed");

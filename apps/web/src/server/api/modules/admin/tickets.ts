@@ -1,5 +1,6 @@
-// Admin → E-tickets: editing any organiser's event (with its ticket types),
-// bus trip or bus rental. Listing and approve/reject live in moderation.ts.
+// Admin → E-tickets: adding an event, bus trip or bus rental for a member, and
+// editing any organiser's (an event with its ticket types). Added events go
+// live straight away. Listing and approve/reject live in moderation.ts.
 // The same rules apply as for the organiser: a ticket type with sales can't
 // be removed or cut below what's sold, and a trip can't drop below its
 // booked seats.
@@ -13,7 +14,9 @@ import { toColumns, updateSql } from "../../lib/columns.js";
 import { AppError } from "../../middleware/error-handler.js";
 import { logActivity } from "../../lib/activity.js";
 import { notify } from "../../lib/notify.js";
-import { EVENT_FIELDS, RENTAL_FIELDS, TRIP_FIELDS, eventSchema, rentalSchema, saveTicketTypes, tripSchema } from "../seller/route.js";
+import { uniqueSlug } from "../../lib/slug.js";
+import { storeForMember } from "../../lib/on-behalf.js";
+import { EVENT_FIELDS, RENTAL_FIELDS, TRIP_FIELDS, eventSchema, insert, rentalSchema, saveTicketTypes, tripSchema } from "../seller/route.js";
 
 // Status stays with the moderation actions (approve, reject, cancel...).
 const adminEventSchema = eventSchema.omit({ submit: true }).partial();
@@ -23,6 +26,13 @@ const adminRentalSchema = rentalSchema
   .omit({ status: true })
   .extend({ status: z.enum(["active", "hidden", "blocked"]).optional() })
   .partial();
+
+const forMember = { userId: z.number().int().positive() };
+
+function added(adminId: number, entity: string, id: number, title: string, userId: number, link: string) {
+  logActivity(adminId, "created", entity, id, `Added ${entity.replace(/s$/, "")} for member #${userId}: ${title.slice(0, 200)}`);
+  notify(userId, { kind: "moderation", title: `An admin added "${title}" for you`, link });
+}
 
 const idParam = (raw: string | undefined) => {
   const id = Number(raw);
@@ -52,6 +62,16 @@ function done(adminId: number, entity: string, id: number, title: string, ownerI
 
 export const adminTicketsRoute = new Hono()
   // ---- Events --------------------------------------------------------------------------
+  .post("/events", requirePermission("tickets", "manage"), validate("json", eventSchema.extend(forMember)), async (c) => {
+    const input = c.req.valid("json");
+    const admin = c.get("admin");
+    const sellerId = await storeForMember(input.userId, "events", admin.id, { create: true });
+    const slug = await uniqueSlug("ticket_events", input.title, null);
+    const id = await insert("ticket_events", input, EVENT_FIELDS, { seller_id: sellerId, slug, status: "published" });
+    await saveTicketTypes(id, input.ticketTypes);
+    added(admin.id, "events", id, input.title, input.userId, `/seller/events/${id}`);
+    return c.json({ id, slug }, 201);
+  })
   .get("/events/:id", requirePermission("tickets", "view"), async (c) => {
     const id = idParam(c.req.param("id"));
     const event = await load("ticket_events", id, "Event");
@@ -68,6 +88,14 @@ export const adminTicketsRoute = new Hono()
     return c.json({ ok: true });
   })
   // ---- Bus trips -----------------------------------------------------------------------
+  .post("/trips", requirePermission("tickets", "manage"), validate("json", tripSchema.extend(forMember)), async (c) => {
+    const input = c.req.valid("json");
+    const admin = c.get("admin");
+    const sellerId = await storeForMember(input.userId, "transport", admin.id, { create: true });
+    const id = await insert("bus_trips", input, TRIP_FIELDS, { seller_id: sellerId });
+    added(admin.id, "trips", id, `${input.origin} → ${input.destination}`, input.userId, "/seller/trips");
+    return c.json({ id }, 201);
+  })
   .get("/trips/:id", requirePermission("tickets", "view"), async (c) => {
     return c.json({ trip: await load("bus_trips", idParam(c.req.param("id")), "Trip") });
   })
@@ -84,6 +112,14 @@ export const adminTicketsRoute = new Hono()
     return c.json({ ok: true });
   })
   // ---- Bus rentals ---------------------------------------------------------------------
+  .post("/rentals", requirePermission("tickets", "manage"), validate("json", rentalSchema.extend(forMember)), async (c) => {
+    const input = c.req.valid("json");
+    const admin = c.get("admin");
+    const sellerId = await storeForMember(input.userId, "transport", admin.id, { create: true });
+    const id = await insert("bus_rentals", input, RENTAL_FIELDS, { seller_id: sellerId });
+    added(admin.id, "rentals", id, input.title, input.userId, "/seller/rentals");
+    return c.json({ id }, 201);
+  })
   .get("/rentals/:id", requirePermission("tickets", "view"), async (c) => {
     return c.json({ rental: await load("bus_rentals", idParam(c.req.param("id")), "Rental") });
   })

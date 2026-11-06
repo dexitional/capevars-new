@@ -1,12 +1,15 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { Loader2, Pencil } from "lucide-react";
+import { Loader2, Pencil, Plus } from "lucide-react";
 import { api } from "#/lib/api-client";
+import { canManage } from "#/lib/permissions";
 import { AdminPageHeader, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { ProductAnalyticsPanel } from "#/components/analytics/product-analytics";
+import { MemberPicker } from "#/components/admin/member-picker";
+import type { PickedMember } from "#/components/admin/member-picker";
 import { ProductEditor } from "#/components/seller/forms";
 import { Button } from "#/components/ui/button";
 
@@ -21,6 +24,14 @@ function Products() {
   const queryClient = useQueryClient();
   const [tab, setTab] = useState<"listings" | "analytics">("listings");
   const [editing, setEditing] = useState<Row | null>(null);
+  const { admin } = Route.useRouteContext();
+  // Adding for a seller: first which kind, then whose store, then the editor.
+  const [adding, setAdding] = useState<"product" | "food" | null>(null);
+  const [owner, setOwner] = useState<PickedMember | null>(null);
+  const refresh = () => {
+    void queryClient.invalidateQueries({ queryKey: ["admin-mod", "products"] });
+    void queryClient.invalidateQueries({ queryKey: ["analytics"] });
+  };
   // Fetch the full record (description, tags, gallery...) before opening the editor.
   const open = useMutation({
     mutationFn: (id: number) => api.get<{ product: Row }>(`/admin/products/${id}`),
@@ -29,7 +40,22 @@ function Products() {
   });
   return (
     <div className="space-y-6">
-      <AdminPageHeader title="Products & food" description="Everything listed in the Marketplace. Edit listings, block those that break the seller rules, and see how they sell." />
+      <AdminPageHeader
+        title="Products & food"
+        description="Everything listed in the Marketplace. Add listings for sellers, edit them, block those that break the seller rules, and see how they sell."
+        actions={
+          canManage(admin.role, "products") && (
+            <div className="flex flex-wrap gap-2">
+              <Button variant="outline" onClick={() => setAdding("food")}>
+                <Plus /> Add menu item
+              </Button>
+              <Button onClick={() => setAdding("product")}>
+                <Plus /> Add product
+              </Button>
+            </div>
+          )
+        }
+      />
       <Segmented
         value={tab}
         onChange={setTab}
@@ -74,10 +100,32 @@ function Products() {
           endpoint="/admin/products"
           moderator
           onClose={() => setEditing(null)}
-          onSaved={() => {
-            void queryClient.invalidateQueries({ queryKey: ["admin-mod", "products"] });
-            void queryClient.invalidateQueries({ queryKey: ["analytics"] });
+          onSaved={refresh}
+        />
+      )}
+      {adding && !owner && (
+        <MemberPicker
+          title={adding === "food" ? "Add a menu item for which seller?" : "Add a product for which seller?"}
+          description="It's listed under their store, and they're notified. A store that doesn't sell this kind of listing yet gets it switched on."
+          sellersOnly
+          needsStore
+          onPick={setOwner}
+          onClose={() => setAdding(null)}
+        />
+      )}
+      {adding && owner && (
+        <ProductEditor
+          key={`new-${owner.id}-${adding}`}
+          product={null}
+          kind={adding}
+          open
+          endpoint="/admin/products"
+          owner={owner}
+          onClose={() => {
+            setAdding(null);
+            setOwner(null);
           }}
+          onSaved={refresh}
         />
       )}
     </div>

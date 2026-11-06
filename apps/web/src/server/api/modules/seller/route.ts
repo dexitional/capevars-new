@@ -221,7 +221,7 @@ async function owned(table: string, id: number, c: Context, label: string) {
   return rows[0];
 }
 
-async function insert(table: string, input: object, fields: Record<string, string>, extra: Record<string, unknown>) {
+export async function insert(table: string, input: object, fields: Record<string, string>, extra: Record<string, unknown>) {
   const { columns, params } = toColumns(input, fields);
   const extraCols = Object.keys(extra);
   const [res] = await getPool().execute<ResultSetHeader>(insertSql(table, [...columns, ...extraCols]), [

@@ -35,6 +35,19 @@ const USAGE: Array<[string, string, Array<string>]> = [
   ["Setting", "SELECT setting_key AS id, setting_key AS label FROM site_settings WHERE CAST(value AS CHAR) LIKE ?", ["like"]],
 ];
 
+// The records that still show a file.
+export async function mediaUsage(url: string) {
+  const pool = getPool();
+  const results = await Promise.all(
+    USAGE.map(([kind, sql, shape]) =>
+      pool
+        .query<RowDataPacket[]>(sql, shape.map((s) => (s === "url" ? url : likePattern(url))))
+        .then(([rows]) => rows.map((r) => ({ kind, id: r.id as number | string, label: r.label as string }))),
+    ),
+  );
+  return results.flat();
+}
+
 export const mediaRoute = new Hono()
   .use("*", requirePermission("media", "manage"))
   .get("/", async (c) => {
@@ -78,15 +91,7 @@ export const mediaRoute = new Hono()
   })
   .get("/:id/usage", async (c) => {
     const asset = await findById<MediaAssetRow>("media_assets", idParam(c.req.param("id")), "File");
-    const pool = getPool();
-    const results = await Promise.all(
-      USAGE.map(([kind, sql, shape]) =>
-        pool
-          .query<RowDataPacket[]>(sql, shape.map((s) => (s === "url" ? asset.url : likePattern(asset.url))))
-          .then(([rows]) => rows.map((r) => ({ kind, id: r.id as number | string, label: r.label as string }))),
-      ),
-    );
-    return c.json({ usage: results.flat() });
+    return c.json({ usage: await mediaUsage(asset.url) });
   })
   .patch(
     "/:id",
