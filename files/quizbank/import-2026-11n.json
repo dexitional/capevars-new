@@ -1,0 +1,21 @@
+{
+  "courses": [
+    {
+      "code": "BECE MATH",
+      "title": "Mathematics",
+      "level": "jhs",
+      "description": "Past questions from the BECE Mathematics papers (2011 to 2026): number and percentages, ratio and proportion, algebra, sets, surds, indices, number bases, vectors and transformations, mensuration, geometry, trigonometry, graphs, statistics and probability. Every question has a worked solution.",
+      "updateDescription": true,
+      "examQuestions": 52,
+      "examMinutes": 120,
+      "tags": [
+        "BECE",
+        "Mathematics"
+      ],
+      "files": [
+        "bece-math-2012-mathematics.json",
+        "bece-math-2011-mathematics.json"
+      ]
+    }
+  ]
+}

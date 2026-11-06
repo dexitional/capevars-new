@@ -1,0 +1,1497 @@
+[
+  {
+    "type": "choice",
+    "body": "$P = \\{3, 6, 9, 12, 15\\}$. Which of the following best describes the set $P$?",
+    "media": [],
+    "options": [
+      {
+        "text": "The set of multiples of 3 less than 18.",
+        "hint": "Correct. It lists every such multiple and no others."
+      },
+      {
+        "text": "The set of multiples of 3.",
+        "hint": "This set would go on without end."
+      },
+      {
+        "text": "The set of odd numbers.",
+        "hint": "6 and 12 are even."
+      },
+      {
+        "text": "The set of odd numbers less than 16",
+        "hint": "6 and 12 are even."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "What do the members have in common, and where do they stop?",
+    "explanation": "## Advanced explanation\n\nEach member is a multiple of 3, and the next multiple, 18, is left out.\n\n## Simplified explanation\n\nAll the numbers are in the 3 times table, and they stop at 15, just before 18.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $Q = \\{2, 4, 6, 7, 8, 10\\}$ and $R = \\{3, 5, 7, 9, 10, 11\\}$, find $Q \\cap R$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{3, 5, 7, 9, 10, 11\\}$",
+        "hint": "This is $R$."
+      },
+      {
+        "text": "$\\{7, 10\\}$",
+        "hint": "Correct. 7 and 10 are in both sets."
+      },
+      {
+        "text": "$\\{10\\}$",
+        "hint": "7 is also in both sets."
+      },
+      {
+        "text": "$\\{7\\}$",
+        "hint": "10 is also in both sets."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$\\cap$ means the members found in both sets.",
+    "explanation": "## Advanced explanation\n\nThe elements common to $Q$ and $R$ are 7 and 10.\n\n## Simplified explanation\n\nGo through $Q$ and keep the numbers that are also in $R$: 7 and 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the set of missing numbers on the number line.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2003/2003secaq3.png",
+        "caption": "Number line with marks every 5 units. The labelled marks are −30, −20, −15, −5, 0, 5, 10, 20, 25 and 30, and three marks have no label."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\{21, -6, 11\\}$",
+        "hint": "The marks go up in steps of 5."
+      },
+      {
+        "text": "$\\{21, -10, 11\\}$",
+        "hint": "The marks go up in steps of 5, so the third number is 15."
+      },
+      {
+        "text": "$\\{25, -6, 15\\}$",
+        "hint": "The first missing mark is on the negative side, and the second is $-10$."
+      },
+      {
+        "text": "$\\{-25, -10, 15\\}$",
+        "hint": "Correct. The marks go up in steps of 5."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The labelled marks go up in steps of 5.",
+    "explanation": "## Advanced explanation\n\nWith a step of 5, the unlabelled marks are $-25$, $-10$ and 15.\n\n## Simplified explanation\n\nCount in 5s along the line. The marks without numbers are at $-25$, $-10$ and 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 7.2 and 7.9 are two points on a number line, find the number in the middle of these points.",
+    "media": [],
+    "options": [
+      {
+        "text": "7.35",
+        "hint": "This is not halfway. Add the numbers and halve."
+      },
+      {
+        "text": "7.45",
+        "hint": "This is not halfway. Add the numbers and halve."
+      },
+      {
+        "text": "7.55",
+        "hint": "Correct. $\\frac{7.2 + 7.9}{2} = 7.55$."
+      },
+      {
+        "text": "7.65",
+        "hint": "This is not halfway. Add the numbers and halve."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The middle number is the mean of the two points.",
+    "explanation": "## Advanced explanation\n\n$\\frac{7.2 + 7.9}{2} = \\frac{15.1}{2} = 7.55$.\n\n## Simplified explanation\n\nAdd them to get 15.1, then halve it to get 7.55.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Least Common Multiple (L.C.M.) of 12 and 20.",
+    "media": [],
+    "options": [
+      {
+        "text": "24",
+        "hint": "20 does not divide 24."
+      },
+      {
+        "text": "48",
+        "hint": "20 does not divide 48."
+      },
+      {
+        "text": "60",
+        "hint": "Correct. $12 \\times 5 = 20 \\times 3 = 60$."
+      },
+      {
+        "text": "80",
+        "hint": "12 does not divide 80."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "List the multiples of 20 until 12 divides one.",
+    "explanation": "## Advanced explanation\n\n$12 = 2^2 \\times 3$ and $20 = 2^2 \\times 5$, so the LCM is $2^2 \\times 3 \\times 5 = 60$.\n\n## Simplified explanation\n\nCount in 20s: 20, 40, 60. 12 goes into 60, so the LCM is 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 72 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3$",
+        "hint": "This equals 6."
+      },
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "This equals 36."
+      },
+      {
+        "text": "$2^2 \\times 3^3$",
+        "hint": "This equals 108."
+      },
+      {
+        "text": "$2^3 \\times 3^2$",
+        "hint": "Correct. $8 \\times 9 = 72$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write 72 as $8 \\times 9$.",
+    "explanation": "## Advanced explanation\n\n$72 = 8 \\times 9 = 2^3 \\times 3^2$.\n\n## Simplified explanation\n\n8 is $2^3$ and 9 is $3^2$. Together they make 72.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $3t - 2(t + 12) = 11$, find the value of $t$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-35$",
+        "hint": "Check the signs: $t - 24 = 11$."
+      },
+      {
+        "text": "$-13$",
+        "hint": "Add 24 to both sides, not $-24$."
+      },
+      {
+        "text": "$13$",
+        "hint": "$11 + 24 = 35$."
+      },
+      {
+        "text": "$35$",
+        "hint": "Correct. $t - 24 = 11$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket first.",
+    "explanation": "## Advanced explanation\n\n$3t - 2t - 24 = 11$, so $t = 35$.\n\n## Simplified explanation\n\nOpening the bracket gives $-2t - 24$. Then $t - 24 = 11$, so $t = 35$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of the digit 8 in the number 78000?",
+    "media": [],
+    "options": [
+      {
+        "text": "8 ten thousands",
+        "hint": "The ten thousands digit is 7."
+      },
+      {
+        "text": "8 thousands",
+        "hint": "Correct. 8 is in the thousands place."
+      },
+      {
+        "text": "8 hundred",
+        "hint": "The hundreds digit is 0."
+      },
+      {
+        "text": "8 ten",
+        "hint": "The tens digit is 0."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count the places from the right.",
+    "explanation": "## Advanced explanation\n\n$78{,}000 = 7 \\times 10{,}000 + 8 \\times 1{,}000$.\n\n## Simplified explanation\n\nFrom the right: units, tens, hundreds, thousands. The 8 is in the thousands place.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the product of 17 and 121.",
+    "media": [],
+    "options": [
+      {
+        "text": "968",
+        "hint": "Check the multiplication: $17 \\times 121$."
+      },
+      {
+        "text": "1,751",
+        "hint": "Check the multiplication: $17 \\times 121$."
+      },
+      {
+        "text": "2,057",
+        "hint": "Correct. $17 \\times 121 = 2{,}057$."
+      },
+      {
+        "text": "8,591",
+        "hint": "Check the multiplication: $17 \\times 121$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply 121 by 10 and by 7, then add.",
+    "explanation": "## Advanced explanation\n\n$17 \\times 121 = 1{,}210 + 847 = 2{,}057$.\n\n## Simplified explanation\n\n$10 \\times 121 = 1{,}210$ and $7 \\times 121 = 847$. They add to 2,057.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Araba owes ₵550,000.00 at a bank. She goes to pay ₵150,000.00. How much does Araba owe the bank now?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵700,000.00",
+        "hint": "This adds. Paying reduces the debt."
+      },
+      {
+        "text": "₵600,000.00",
+        "hint": "Paying reduces the debt."
+      },
+      {
+        "text": "₵500,000.00",
+        "hint": "Check the subtraction: $550{,}000 - 150{,}000$."
+      },
+      {
+        "text": "₵400,000.00",
+        "hint": "Correct. $550{,}000 - 150{,}000 = 400{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract what she pays from what she owes.",
+    "explanation": "## Advanced explanation\n\n$550{,}000 - 150{,}000 = 400{,}000$.\n\n## Simplified explanation\n\nTake ₵150,000 from ₵550,000 to get ₵400,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\dfrac{37}{100} \\times \\dfrac{7}{10}$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.259",
+        "hint": "Correct. $\\frac{259}{1000} = 0.259$."
+      },
+      {
+        "text": "2.590",
+        "hint": "The bottom is 1,000, so use 3 decimal places."
+      },
+      {
+        "text": "25.900",
+        "hint": "The bottom is 1,000, so use 3 decimal places."
+      },
+      {
+        "text": "259.000",
+        "hint": "The bottom is 1,000, so divide 259 by it."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply the tops and multiply the bottoms.",
+    "explanation": "## Advanced explanation\n\n$\\frac{37 \\times 7}{100 \\times 10} = \\frac{259}{1000} = 0.259$.\n\n## Simplified explanation\n\n$37 \\times 7 = 259$ and $100 \\times 10 = 1{,}000$. So the answer is 0.259.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 1.25 as a mixed fraction in its lowest term.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1\\dfrac{1}{25}$",
+        "hint": "This equals 1.04."
+      },
+      {
+        "text": "$1\\dfrac{4}{25}$",
+        "hint": "This equals 1.16."
+      },
+      {
+        "text": "$1\\dfrac{1}{4}$",
+        "hint": "Correct. $0.25 = \\frac{1}{4}$."
+      },
+      {
+        "text": "$1\\dfrac{3}{4}$",
+        "hint": "This equals 1.75."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Keep the 1 and change 0.25 to a fraction.",
+    "explanation": "## Advanced explanation\n\n$0.25 = \\frac{25}{100} = \\frac{1}{4}$, so $1.25 = 1\\frac{1}{4}$.\n\n## Simplified explanation\n\n0.25 is one quarter, so 1.25 is $1\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The total number of match sticks in 6 match boxes was 270. Find the total number of match sticks in 20 similar boxes.",
+    "media": [],
+    "options": [
+      {
+        "text": "710",
+        "hint": "One box holds 45 sticks."
+      },
+      {
+        "text": "800",
+        "hint": "One box holds 45 sticks."
+      },
+      {
+        "text": "810",
+        "hint": "This is for 18 boxes."
+      },
+      {
+        "text": "900",
+        "hint": "Correct. $45 \\times 20 = 900$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the number of sticks in one box.",
+    "explanation": "## Advanced explanation\n\n$\\frac{270}{6} \\times 20 = 45 \\times 20 = 900$.\n\n## Simplified explanation\n\n$270 \\div 6 = 45$ sticks in a box. Then $45 \\times 20 = 900$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car travels at an average speed of 45 km per hour. What distance does it cover in 12 hours?",
+    "media": [],
+    "options": [
+      {
+        "text": "450 km",
+        "hint": "This is for 10 hours."
+      },
+      {
+        "text": "480 km",
+        "hint": "Check the multiplication: $45 \\times 12$."
+      },
+      {
+        "text": "540 km",
+        "hint": "Correct. $45 \\times 12 = 540$."
+      },
+      {
+        "text": "500 km",
+        "hint": "Check the multiplication: $45 \\times 12$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Distance $=$ speed $\\times$ time.",
+    "explanation": "## Advanced explanation\n\n$d = 45 \\times 12 = 540$ km.\n\n## Simplified explanation\n\n10 hours is 450 km and 2 hours is 90 km. Together that is 540 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the simple interest on ₵130,000.00 for $2\\dfrac{1}{2}$ years at 12% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵78,000.00",
+        "hint": "This is for 5 years."
+      },
+      {
+        "text": "₵39,000.00",
+        "hint": "Correct. $\\frac{130{,}000 \\times 12 \\times 2.5}{100} = 39{,}000$."
+      },
+      {
+        "text": "₵36,000.00",
+        "hint": "Check the working: 12% of ₵130,000.00 is ₵15,600.00 a year."
+      },
+      {
+        "text": "₵31,200.00",
+        "hint": "This is for 2 years."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$I = \\frac{PRT}{100}$.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{130{,}000 \\times 12 \\times 2.5}{100} = 39{,}000$.\n\n## Simplified explanation\n\n12% of ₵130,000 is ₵15,600 a year. For $2\\frac{1}{2}$ years, that is ₵39,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{2}{5}$ as a percentage.",
+    "media": [],
+    "options": [
+      {
+        "text": "20%",
+        "hint": "This is $\\frac{1}{5}$."
+      },
+      {
+        "text": "25%",
+        "hint": "This is $\\frac{1}{4}$."
+      },
+      {
+        "text": "40%",
+        "hint": "Correct. $\\frac{2}{5} \\times 100 = 40$."
+      },
+      {
+        "text": "80%",
+        "hint": "This is $\\frac{4}{5}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply by 100.",
+    "explanation": "## Advanced explanation\n\n$\\frac{2}{5} \\times 100\\% = 40\\%$.\n\n## Simplified explanation\n\nOne fifth is 20%, so two fifths is 40%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kwame gets a commission of 20% on bread sold. In one week, Kwame's commission was ₵45,000.00. How much bread did he sell during that week?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵205,000.00",
+        "hint": "20% of this is ₵41,000.00."
+      },
+      {
+        "text": "₵220,000.00",
+        "hint": "20% of this is ₵44,000.00."
+      },
+      {
+        "text": "₵225,000.00",
+        "hint": "Correct. 20% of this is ₵45,000.00."
+      },
+      {
+        "text": "₵235,000.00",
+        "hint": "20% of this is ₵47,000.00."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "₵45,000.00 is 20% of the sales.",
+    "explanation": "## Advanced explanation\n\n$0.2S = 45{,}000$, so $S = 225{,}000$.\n\n## Simplified explanation\n\n20% is one fifth, so the sales are five times the commission: $5 \\times 45{,}000 = 225{,}000$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 83000 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$8.3 \\times 10^{-4}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$8.3 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$8.3 \\times 10^3$",
+        "hint": "This equals 8,300."
+      },
+      {
+        "text": "$8.3 \\times 10^4$",
+        "hint": "Correct. The point moves 4 places."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count how many places the point moves.",
+    "explanation": "## Advanced explanation\n\n$83{,}000 = 8.3 \\times 10^4$.\n\n## Simplified explanation\n\nMove the point 4 places to the left to get 8.3. So the power of 10 is 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following are the marks obtained by pupils in a test: 2, 3, 5, 2, 3, 4, 2, 3, 5, 3.\n\nWhat is the mode?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "2 appears three times, but another mark appears more."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. 3 appears four times."
+      },
+      {
+        "text": "4",
+        "hint": "4 appears once."
+      },
+      {
+        "text": "5",
+        "hint": "5 appears twice."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The mode is the most frequent mark.",
+    "explanation": "## Advanced explanation\n\nThe frequencies of 2, 3, 4 and 5 are 3, 4, 1 and 2, so the mode is 3.\n\n## Simplified explanation\n\nCount each mark. 3 appears most, four times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following are the marks obtained by pupils in a test: 2, 3, 5, 2, 3, 4, 2, 3, 5, 3.\n\nCalculate the mean.",
+    "media": [],
+    "options": [
+      {
+        "text": "3.0",
+        "hint": "The marks add to 32, not 30."
+      },
+      {
+        "text": "3.2",
+        "hint": "Correct. $32 \\div 10 = 3.2$."
+      },
+      {
+        "text": "4.0",
+        "hint": "The marks add to 32, and there are 10 marks."
+      },
+      {
+        "text": "4.2",
+        "hint": "The marks add to 32, and there are 10 marks."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the marks and divide by 10.",
+    "explanation": "## Advanced explanation\n\n$\\frac{32}{10} = 3.2$.\n\n## Simplified explanation\n\nThe ten marks add to 32. Then $32 \\div 10 = 3.2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 12 red and 8 blue balls in a bag. If a ball is selected at random from the bag, what is the probability that it is red?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "This is the probability of a blue ball."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This is blue over red. Use the total of 20."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "Correct. $\\frac{12}{20} = \\frac{3}{5}$."
+      },
+      {
+        "text": "$\\dfrac{4}{5}$",
+        "hint": "Use 12 red balls out of 20."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The total number of balls is 20.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{red}) = \\frac{12}{12 + 8} = \\frac{3}{5}$.\n\n## Simplified explanation\n\n12 of the 20 balls are red, and $\\frac{12}{20}$ reduces to $\\frac{3}{5}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y = \\dfrac{1}{3}(x - 2)$, express $x$ in terms of $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$x = 3y - 2$",
+        "hint": "Moving $-2$ across makes it $+2$."
+      },
+      {
+        "text": "$x = 3y + 2$",
+        "hint": "Correct. $3y = x - 2$."
+      },
+      {
+        "text": "$x = \\dfrac{3}{2}y$",
+        "hint": "Multiply by 3, then add 2."
+      },
+      {
+        "text": "$x = -\\dfrac{3}{2}y$",
+        "hint": "Multiply by 3, then add 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply both sides by 3.",
+    "explanation": "## Advanced explanation\n\n$3y = x - 2$, so $x = 3y + 2$.\n\n## Simplified explanation\n\nMultiply by 3 to remove the third. Then add 2 to both sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $6a^2 \\times 4a^2b^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$10a^4b^2$",
+        "hint": "This adds the numbers. Multiply them."
+      },
+      {
+        "text": "$24a^2b^2$",
+        "hint": "$a^2 \\times a^2 = a^4$."
+      },
+      {
+        "text": "$24a^4b^2$",
+        "hint": "Correct. Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$24a^2b^4$",
+        "hint": "$a^2 \\times a^2 = a^4$, and $b$ stays as $b^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the numbers, then add the powers of $a$.",
+    "explanation": "## Advanced explanation\n\n$6 \\times 4 = 24$, $a^{2 + 2} = a^4$, and $b^2$ is unchanged.\n\n## Simplified explanation\n\nThe numbers give 24. For $a$, the powers $2 + 2$ make 4. The $b^2$ stays the same.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Change $17_{\\text{ten}}$ to a base two numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "101",
+        "hint": "This equals 5."
+      },
+      {
+        "text": "1001",
+        "hint": "This equals 9."
+      },
+      {
+        "text": "1000",
+        "hint": "This equals 8."
+      },
+      {
+        "text": "10001",
+        "hint": "Correct. $16 + 1 = 17$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write 17 using powers of 2.",
+    "explanation": "## Advanced explanation\n\n$17 = 2^4 + 2^0$, which gives $10001_{\\text{two}}$.\n\n## Simplified explanation\n\n17 is 16 plus 1. In base two, 16 is 10000. Adding 1 gives 10001.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following statements is true?",
+    "media": [],
+    "options": [
+      {
+        "text": "$8 + 4 < 10$",
+        "hint": "$8 + 4 = 12$, which is not less than 10."
+      },
+      {
+        "text": "$7 + 4 < 10$",
+        "hint": "$7 + 4 = 11$, which is not less than 10."
+      },
+      {
+        "text": "$6 + 4 < 10$",
+        "hint": "$6 + 4 = 10$, which is equal to 10."
+      },
+      {
+        "text": "$5 + 4 < 10$",
+        "hint": "Correct. $5 + 4 = 9$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add each pair and compare with 10.",
+    "explanation": "## Advanced explanation\n\nOnly $5 + 4 = 9$ is strictly less than 10.\n\n## Simplified explanation\n\nThe sums are 12, 11, 10 and 9. Only 9 is below 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the set of integers within the interval $-2 < x < 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{-2, -1, 2\\}$",
+        "hint": "$-2$ and 2 are left out, and 0 is included."
+      },
+      {
+        "text": "$\\{-2, -1, 0\\}$",
+        "hint": "$-2$ is left out, and 1 is included."
+      },
+      {
+        "text": "$\\{-1, 0, 1\\}$",
+        "hint": "Correct. Both end values are left out."
+      },
+      {
+        "text": "$\\{-1, 1, 2\\}$",
+        "hint": "2 is left out, and 0 is included."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$<$ leaves out the end values.",
+    "explanation": "## Advanced explanation\n\nThe integers strictly between $-2$ and 2 are $-1$, 0 and 1.\n\n## Simplified explanation\n\n$x$ must be above $-2$ and below 2. The whole numbers there are $-1$, 0 and 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $y$ | $-4$ | $-2$ | 0 | 2 | $m$ |\n\nWhat is the rule of the mapping?",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to 2(x - 3)$",
+        "hint": "Correct. When $x = 1$, this gives $-4$."
+      },
+      {
+        "text": "$x \\to x - 5$",
+        "hint": "This fits $x = 1$, but gives $-3$ when $x = 2$."
+      },
+      {
+        "text": "$x \\to 2(x - 2)$",
+        "hint": "When $x = 1$, this gives $-2$."
+      },
+      {
+        "text": "$x \\to 2x - 3$",
+        "hint": "When $x = 1$, this gives $-1$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$y$ goes up by 2 each time, and is 0 when $x = 3$.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 2 and $y = 0$ at $x = 3$, so $y = 2(x - 3)$.\n\n## Simplified explanation\n\nEach step adds 2, so the rule has $2x$. It gives 0 when $x$ is 3, so the rule is $2(x - 3)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the mapping to answer the question.\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $y$ | $-4$ | $-2$ | 0 | 2 | $m$ |\n\nFind $m$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-4$",
+        "hint": "This is the value when $x = 1$."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $2(5 - 3) = 4$."
+      },
+      {
+        "text": "$6$",
+        "hint": "This is $x + 1$. Use the rule $2(x - 3)$."
+      },
+      {
+        "text": "$8$",
+        "hint": "Use the rule $2(x - 3)$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Continue the pattern, or use the rule.",
+    "explanation": "## Advanced explanation\n\n$m = 2(5 - 3) = 4$.\n\n## Simplified explanation\n\nThe values go up by 2. After 2 comes 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following represents the net of a pyramid?",
+    "media": [],
+    "options": [
+      {
+        "text": "",
+        "hint": "This T-shape cannot fold into a closed solid.",
+        "imageUrl": "/quizbank/bece/maths/2003/2003secaq29a.png"
+      },
+      {
+        "text": "",
+        "hint": "Correct. Four triangles fold into a triangular pyramid.",
+        "imageUrl": "/quizbank/bece/maths/2003/2003secaq29b.png"
+      },
+      {
+        "text": "",
+        "hint": "This net of squares folds into a cube.",
+        "imageUrl": "/quizbank/bece/maths/2003/2003secaq29c.png"
+      },
+      {
+        "text": "",
+        "hint": "This shape has a rectangle, so it cannot fold into a pyramid with one apex.",
+        "imageUrl": "/quizbank/bece/maths/2003/2003secaq29d.png"
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "All the faces of a pyramid, except the base, are triangles that meet at one point.",
+    "explanation": "## Advanced explanation\n\nThe large triangle is divided into four smaller triangles. The central one is the base, and the other three fold up to meet at an apex.\n\n## Simplified explanation\n\nFold the three outer triangles up. Their tips meet at the top to make a pyramid.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular tank has dimensions 2.5 m by 4 m by 5 m. It is filled with water to the brim. If 35 m³ of the water is used, how much water is left in the tank?",
+    "media": [],
+    "options": [
+      {
+        "text": "50 m³",
+        "hint": "This is the volume of the full tank."
+      },
+      {
+        "text": "35 m³",
+        "hint": "This is the water used."
+      },
+      {
+        "text": "25 m³",
+        "hint": "The tank holds 50 m³, and $50 - 35 = 15$."
+      },
+      {
+        "text": "15 m³",
+        "hint": "Correct. $50 - 35 = 15$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the volume of the tank first.",
+    "explanation": "## Advanced explanation\n\n$V = 2.5 \\times 4 \\times 5 = 50$ m³, and $50 - 35 = 15$ m³.\n\n## Simplified explanation\n\nThe tank holds 50 m³. Take away the 35 m³ used to leave 15 m³.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the triangle $XYZ$, angle $XZY = 90^\\circ$, $|XY| = 13$ cm and $|YZ| = 5$ cm. What is the length of $XZ$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2003/2003secaq31.png",
+        "caption": "Triangle XYZ with a right angle at Z. XY is 13 cm and YZ is 5 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "4 cm",
+        "hint": "Use Pythagoras' theorem."
+      },
+      {
+        "text": "8 cm",
+        "hint": "This is $13 - 5$. Subtract the squares, not the sides."
+      },
+      {
+        "text": "12 cm",
+        "hint": "Correct. $\\sqrt{169 - 25} = 12$."
+      },
+      {
+        "text": "65 cm",
+        "hint": "This is $13 \\times 5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$XY$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\n$|XZ|^2 = 13^2 - 5^2 = 144$, so $|XZ| = 12$ cm.\n\n## Simplified explanation\n\nSquare the sides: 169 and 25. Subtracting gives 144, and its square root is 12.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry does an equilateral triangle have?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "This is the number for an isosceles triangle."
+      },
+      {
+        "text": "2",
+        "hint": "An equilateral triangle has more."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. One from each vertex to the middle of the opposite side."
+      },
+      {
+        "text": "4",
+        "hint": "This is the number for a square."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Try a line from each corner.",
+    "explanation": "## Advanced explanation\n\nEach of the three medians of an equilateral triangle is a line of symmetry.\n\n## Simplified explanation\n\nYou can fold it in half from any of the 3 corners, so it has 3 lines.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The value of an obtuse angle lies between",
+    "media": [],
+    "options": [
+      {
+        "text": "0° and 90°",
+        "hint": "This is an acute angle."
+      },
+      {
+        "text": "90° and 180°",
+        "hint": "Correct. This is the definition of an obtuse angle."
+      },
+      {
+        "text": "90° and 270°",
+        "hint": "Angles above 180° are reflex."
+      },
+      {
+        "text": "180° and 360°",
+        "hint": "This is a reflex angle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Obtuse angles are larger than a right angle.",
+    "explanation": "## Advanced explanation\n\nAn obtuse angle is greater than $90^\\circ$ and less than $180^\\circ$.\n\n## Simplified explanation\n\nBigger than a right angle but smaller than a straight line: that is obtuse.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $AB$ is parallel to line $CD$. Angles $x$ and $y$ are",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2003/2003secaq34.png",
+        "caption": "Parallel lines CD and AB cut by the line ST. Angle y is above CD on the right of the line, and angle x is above AB on the right of the line."
+      }
+    ],
+    "options": [
+      {
+        "text": "alternate angles",
+        "hint": "Alternate angles lie on opposite sides of the line $ST$."
+      },
+      {
+        "text": "corresponding angles",
+        "hint": "Correct. They are in the same position at each parallel line."
+      },
+      {
+        "text": "vertically opposite angles",
+        "hint": "Vertically opposite angles meet at the same point."
+      },
+      {
+        "text": "co-interior angles",
+        "hint": "Co-interior angles lie between the parallel lines."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Compare the position of each angle at its parallel line.",
+    "explanation": "## Advanced explanation\n\nEach angle is above its parallel line and to the right of the line $ST$. That makes them corresponding, so they are equal.\n\n## Simplified explanation\n\nSlide line $AB$ up onto $CD$. Angle $x$ lands on angle $y$, so they are corresponding angles.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = \\begin{pmatrix} 2 \\\\ 1 \\end{pmatrix}$ and $b = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$, find $2a + b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Correct. $4 + 3 = 7$ and $2 - 4 = -2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ -3 \\end{pmatrix}$",
+        "hint": "This is $a + b$. Double $a$ first."
+      },
+      {
+        "text": "$\\begin{pmatrix} 8 \\\\ -7 \\end{pmatrix}$",
+        "hint": "This is $a + 2b$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$",
+        "hint": "This is $b$ alone."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Double $a$ first, then add $b$.",
+    "explanation": "## Advanced explanation\n\n$2a + b = \\begin{pmatrix} 4 + 3 \\\\ 2 - 4 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ -2 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $a$ gives 4 and 2. Adding $b$ gives 7 and $-2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the size of the angle marked $f$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2003/2003secaq36.png",
+        "caption": "Three lines forming a triangle. Outside the top left corner the marked angle is 72°, outside the top right corner it is 56°, and at the bottom corner the angle f is outside the triangle."
+      }
+    ],
+    "options": [
+      {
+        "text": "56°",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "72°",
+        "hint": "This is a given angle."
+      },
+      {
+        "text": "108°",
+        "hint": "This is $180^\\circ - 72^\\circ$."
+      },
+      {
+        "text": "128°",
+        "hint": "Correct. $72^\\circ + 56^\\circ = 128^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use vertically opposite angles to find the angles inside the triangle.",
+    "explanation": "## Advanced explanation\n\nThe interior angles at the top are $72^\\circ$ and $56^\\circ$ (vertically opposite). The exterior angle $f$ equals their sum, $128^\\circ$.\n\n## Simplified explanation\n\nThe 72° and 56° also appear inside the triangle. Angle $f$ is outside the triangle at the third corner, and it equals those two added: 128°.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The dimensions of a cuboid are 2 cm, $P$ cm and 5 cm. Which of the following is an expression for the volume of the cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "$7P$ cm³",
+        "hint": "$2$ and 5 are multiplied, not added."
+      },
+      {
+        "text": "$(7 + P)$ cm³",
+        "hint": "This adds the sides. Multiply them."
+      },
+      {
+        "text": "$10P$ cm³",
+        "hint": "Correct. $2 \\times P \\times 5 = 10P$."
+      },
+      {
+        "text": "$(10 + P)$ cm³",
+        "hint": "$P$ is multiplied, not added."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Volume $=$ length $\\times$ width $\\times$ height.",
+    "explanation": "## Advanced explanation\n\n$V = 2 \\times P \\times 5 = 10P$ cm³.\n\n## Simplified explanation\n\nMultiply all three sides. $2 \\times 5 = 10$, so the volume is $10P$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $5(3t + 1) - 6(t - 1)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$9t + 11$",
+        "hint": "Correct. $15t + 5 - 6t + 6$."
+      },
+      {
+        "text": "$9t + 7$",
+        "hint": "$5 + 6 = 11$."
+      },
+      {
+        "text": "$9t + 1$",
+        "hint": "$-6 \\times -1 = +6$."
+      },
+      {
+        "text": "$9t - 5$",
+        "hint": "$-6 \\times -1 = +6$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply out both brackets.",
+    "explanation": "## Advanced explanation\n\n$15t + 5 - 6t + 6 = 9t + 11$.\n\n## Simplified explanation\n\nThe brackets give $15t + 5$ and $-6t + 6$. Then $15t - 6t = 9t$ and $5 + 6 = 11$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $\\left(\\dfrac{2}{3} - \\dfrac{1}{2}\\right) \\div \\dfrac{1}{6}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{36}$",
+        "hint": "This multiplies by $\\frac{1}{6}$. Divide instead."
+      },
+      {
+        "text": "$\\dfrac{1}{12}$",
+        "hint": "The bracket is $\\frac{1}{6}$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $\\frac{1}{6} \\div \\frac{1}{6} = 1$."
+      },
+      {
+        "text": "$6$",
+        "hint": "The bracket is $\\frac{1}{6}$, and it is divided by $\\frac{1}{6}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4}{6} - \\frac{3}{6} = \\frac{1}{6}$, and $\\frac{1}{6} \\div \\frac{1}{6} = 1$.\n\n## Simplified explanation\n\nThe bracket comes to $\\frac{1}{6}$. Any number divided by itself is 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $P$ moves in a plane such that it is always at equal distance from two fixed points $A$ and $B$ in the same plane. Which of these is the locus of the point $P$?",
+    "media": [],
+    "options": [
+      {
+        "text": "The bisector of angle $PAB$.",
+        "hint": "Angle bisectors are equidistant from two lines, not two points."
+      },
+      {
+        "text": "A circle centre $B$ and radius $AB$.",
+        "hint": "Points on this circle are all the same distance from $B$, but not from $A$."
+      },
+      {
+        "text": "A circle with $AB$ as the diameter.",
+        "hint": "Points on this circle are not all equidistant from $A$ and $B$."
+      },
+      {
+        "text": "The perpendicular bisector of line $AB$.",
+        "hint": "Correct. Every point on it is equidistant from $A$ and $B$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Think of the set of points that are the same distance from $A$ and $B$.",
+    "explanation": "## Advanced explanation\n\nThe locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.\n\n## Simplified explanation\n\nThe line that cuts $AB$ in half at right angles is exactly where points are the same distance from $A$ and from $B$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2003 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "$\\xi = \\{1, 2, 3, 4, \\ldots, 18\\}$;\n\n$A =$ {Prime numbers} and\n\n$B =$ {Odd numbers greater than 3}.\n\n(a) If $A$ and $B$ are subsets of the universal set $\\xi$, list the members of $A$ and $B$.\n\n(b) Find the set\n\n(i) $A \\cap B$;\n\n(ii) $A \\cup B$.\n\n(c)(i) Illustrate $\\xi$, $A$ and $B$ on a Venn diagram.\n\n(c)(ii) Which region shows the prime factors of 18 on the Venn diagram?",
+    "media": [],
+    "answer": "**(a)**\n\n$A = \\{2, 3, 5, 7, 11, 13, 17\\}$\n\n$B = \\{5, 7, 9, 11, 13, 15, 17\\}$\n\n**(b)(i)** $A \\cap B = \\{5, 7, 11, 13, 17\\}$\n\n**(ii)** $A \\cup B = \\{2, 3, 5, 7, 9, 11, 13, 15, 17\\}$\n\n**(c)(i)** Draw two overlapping circles inside a rectangle. Write 5, 7, 11, 13, 17 in the overlap; 2, 3 in $A$ only; 9, 15 in $B$ only; and 1, 4, 6, 8, 10, 12, 14, 16, 18 outside the circles.\n\n**(ii)** The prime factors of 18 are 2 and 3, which are in the region for $A$ only.\n\n> [!answer]\n> **(b)(i)** {{green:$\\{5, 7, 11, 13, 17\\}$}}  **(ii)** {{green:$\\{2, 3, 5, 7, 9, 11, 13, 15, 17\\}$}}\n>\n> **(c)(ii)** {{green:the region for $A$ only, $\\{2, 3\\}$}}",
+    "hint": "1 is not prime, and 9 and 15 are odd but not prime.",
+    "explanation": "## Advanced explanation\n\nThe prime factors of 18 form the set $A \\setminus B$, because $18 = 2 \\times 3^2$ and neither 2 nor 3 is an odd number greater than 3.\n\n## Simplified explanation\n\nList the primes up to 18, then the odd numbers from 5 to 17. Numbers on both lists go in the overlap. 2 and 3 are prime but too small for $B$, so they are in $A$ only.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $2n - 5m + 10 = 0$, find\n\n(i) $m$, when $n = 2$;\n\n(ii) $n$, when $m = 5$.",
+    "media": [],
+    "answer": "**(i)** $2(2) - 5m + 10 = 0$, so $14 = 5m$ and $m = 2.8$\n\n**(ii)** $2n - 5(5) + 10 = 0$, so $2n = 15$ and $n = 7.5$\n\n> [!answer]\n> **(i)** {{green:$m = 2\\dfrac{4}{5}$}}  **(ii)** {{green:$n = 7\\dfrac{1}{2}$}}",
+    "hint": "Substitute the given value, then solve.",
+    "explanation": "## Advanced explanation\n\nEach part reduces the equation to a linear equation in one variable.\n\n## Simplified explanation\n\nFor (i), $4 + 10 = 14$, so $5m = 14$ and $m = 2.8$. For (ii), $-25 + 10 = -15$, so $2n = 15$ and $n = 7.5$.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\dfrac{6.4 \\times 0.25 \\times 16}{0.8 \\times 0.5}$, leaving your answer in standard form.",
+    "media": [],
+    "answer": "$$\\frac{6.4}{0.8} = 8, \\quad \\frac{0.25}{0.5} = 0.5$$\n\n$$8 \\times 0.5 \\times 16 = 64 = 6.4 \\times 10$$\n\n> [!answer]\n> {{green:$6.4 \\times 10$}}",
+    "hint": "Cancel $\\frac{6.4}{0.8}$ and $\\frac{0.25}{0.5}$ first.",
+    "explanation": "## Advanced explanation\n\nStandard form needs the first number to be at least 1 and less than 10, so 64 is $6.4 \\times 10^1$.\n\n## Simplified explanation\n\n$6.4 \\div 0.8 = 8$ and $0.25 \\div 0.5 = 0.5$. Then $8 \\times 0.5 \\times 16 = 64$, which is $6.4 \\times 10$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A number of sweets were shared among 8 children and each child received 30. If 12 children shared the same number of sweets, how many will each receive?",
+    "media": [],
+    "answer": "Sweets: $8 \\times 30 = 240$\n\nEach of 12 children: $240 \\div 12 = 20$\n\n> [!answer]\n> {{green:20}}",
+    "hint": "Find the total number of sweets first.",
+    "explanation": "## Advanced explanation\n\nThis is inverse proportion: more children means fewer sweets each.\n\n## Simplified explanation\n\n8 children with 30 each is 240 sweets. Sharing them among 12 gives 20 each.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of the ages (in years) of children in a nursery school.\n\n(a) Find\n\n(i) the modal age;\n\n(ii) the mean age.\n\n(b) Describe the bar chart you would draw for the distribution.\n\n(c) What is the probability that a child chosen from the school is 4 years old?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2003/2003q3.png",
+        "caption": "Table of ages and children. Age 1: 6 children, age 2: 4, age 3: 2, age 4: 3, age 5: 5."
+      }
+    ],
+    "answer": "Total children: $6 + 4 + 2 + 3 + 5 = 20$\n\n**(a)(i)** Age 1 has the highest frequency, 6.\n\n**(ii)** $\\frac{6 + 8 + 6 + 12 + 25}{20} = \\frac{57}{20} = 2.85$\n\n**(b)** Draw age on the horizontal axis and number of children on the vertical axis, with separate bars of equal width and heights 6, 4, 2, 3 and 5.\n\n**(c)** $\\frac{3}{20}$\n\n> [!answer]\n> **(a)(i)** {{green:1 year}}  **(ii)** {{green:2.85 years}}  **(c)** {{green:$\\frac{3}{20}$}}",
+    "hint": "Multiply each age by its number of children.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$, and the probability is the relative frequency of age 4.\n\n## Simplified explanation\n\nMost children, 6 of them, are aged 1. The ages add to 57 over 20 children, which gives 2.85. Three of the 20 children are 4 years old.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $p = \\begin{pmatrix} 4 \\\\ 5 \\end{pmatrix}$, $q = \\begin{pmatrix} 0 \\\\ -2 \\end{pmatrix}$ and $r = \\begin{pmatrix} -3 \\\\ 7 \\end{pmatrix}$, find $p + 2q + r$.",
+    "media": [],
+    "answer": "$$\\begin{pmatrix} 4 + 0 - 3 \\\\ 5 - 4 + 7 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 8 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} 1 \\\\ 8 \\end{pmatrix}$}}",
+    "hint": "Double $q$ first, then add matching components.",
+    "explanation": "## Advanced explanation\n\nVector addition is carried out component by component.\n\n## Simplified explanation\n\nDoubling $q$ gives 0 and $-4$. The top row gives $4 + 0 - 3 = 1$. The bottom row gives $5 - 4 + 7 = 8$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the solution set of the inequality $x - \\dfrac{4}{5} \\le \\dfrac{1}{5}$, if the domain is the set $\\{-2, -1, 0, 1, 2\\}$.",
+    "media": [],
+    "answer": "$$x \\le \\frac{1}{5} + \\frac{4}{5} = 1$$\n\nFrom the domain, the values are $-2$, $-1$, 0 and 1.\n\n> [!answer]\n> {{green:$\\{-2, -1, 0, 1\\}$}}",
+    "hint": "Add $\\frac{4}{5}$ to both sides.",
+    "explanation": "## Advanced explanation\n\nThe solution set is the part of the domain that satisfies $x \\le 1$.\n\n## Simplified explanation\n\nMoving $\\frac{4}{5}$ across gives $x \\le 1$. In the list, every number except 2 fits.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A rectangular sheet of metal has length 44 cm and breadth 10 cm. It is folded to form a cylinder with the breadth becoming the height. Calculate\n\n(i) the radius of the cylinder formed;\n\n(ii) the volume of the cylinder.\n\n$\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "answer": "**(i)** The length becomes the circumference:\n\n$$2 \\times \\frac{22}{7} \\times r = 44$$\n\n$$r = 7$$\n\n**(ii)** $\\frac{22}{7} \\times 7^2 \\times 10 = 1{,}540$\n\n> [!answer]\n> **(i)** {{green:7 cm}}  **(ii)** {{green:1,540 cm³}}",
+    "hint": "The 44 cm length wraps around to form the circle.",
+    "explanation": "## Advanced explanation\n\nThe curved surface has area $2\\pi rh = lb$, so the circumference equals the length of the sheet.\n\n## Simplified explanation\n\nThe 44 cm edge forms the circle, so the radius is 7 cm. The circle's area is $\\frac{22}{7} \\times 49 = 154$ cm². Multiplying by the height 10 gives 1,540 cm³.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a pair of compasses and a ruler only,\n\n(i) construct the triangle $ABC$ with $|AB| = 8$ cm, $|BC| = 8$ cm and $|AC| = 7$ cm;\n\n(ii) bisect angle $ABC$ and let the bisector meet $AC$ at $D$. Produce $BD$ to $P$ such that $|BD| = |DP|$. Join $AP$ and $CP$.\n\n(iii) Measure $|BD|$ and name the type of quadrilateral $ABCP$. Type your answers.",
+    "media": [],
+    "answer": "Draw $|AC| = 7$ cm. Draw arcs of radius 8 cm from $A$ and $C$ to meet at $B$.\n\nBisect angle $ABC$ to meet $AC$ at $D$. Extend $BD$ to $P$ so that $|DP| = |BD|$, and join $AP$ and $CP$.\n\n> [!answer]\n> **(iii)** {{green:$|BD| \\approx 7.2$ cm, and $ABCP$ is a rhombus}}",
+    "hint": "Triangle $ABC$ is isosceles, so the bisector cuts $AC$ in half at right angles.",
+    "explanation": "## Advanced explanation\n\nIn an isosceles triangle, the bisector of the apex angle is the perpendicular bisector of the base. So $|BD| = \\sqrt{8^2 - 3.5^2} \\approx 7.19$ cm. The diagonals of $ABCP$ bisect each other at right angles, so it is a rhombus.\n\n## Simplified explanation\n\nMake the triangle from its three sides using compass arcs. Split the angle at $B$ in half, and carry the line on as far again beyond $D$. All four sides of $ABCP$ are 8 cm, so it is a rhombus.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2003 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  }
+]

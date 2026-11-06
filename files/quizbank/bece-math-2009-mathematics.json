@@ -1,0 +1,1573 @@
+[
+  {
+    "type": "choice",
+    "body": "Given that $A = \\{1, 2, 3, 4, 5, 6\\}$ and $B = \\{3, 6, 9, 12\\}$, find $A \\cup B$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{3, 6\\}$",
+        "hint": "This is $A \\cap B$."
+      },
+      {
+        "text": "$\\{6, 12\\}$",
+        "hint": "$\\cup$ means all the members of both sets."
+      },
+      {
+        "text": "$\\{2, 3, 4, 5, 9, 12\\}$",
+        "hint": "1 and 6 are missing."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, 5, 6, 9, 12\\}$",
+        "hint": "Correct. Every member of either set appears once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins the two sets together.",
+    "explanation": "## Advanced explanation\n\n$A \\cup B$ holds all elements in $A$ or $B$, with each one listed once.\n\n## Simplified explanation\n\nWrite all the members of $A$, then add the new ones from $B$, which are 9 and 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 2340000 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2.34 \\times 10^{-6}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$2.34 \\times 10^{-5}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$2.34 \\times 10^6$",
+        "hint": "Correct. The point moves 6 places."
+      },
+      {
+        "text": "$2.34 \\times 10^7$",
+        "hint": "This equals 23,400,000."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count how many places the point moves.",
+    "explanation": "## Advanced explanation\n\n$2{,}340{,}000 = 2.34 \\times 10^6$.\n\n## Simplified explanation\n\nMove the point 6 places to the left to get 2.34. So the power of 10 is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces has a cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "This is the number of edges."
+      },
+      {
+        "text": "8",
+        "hint": "This is the number of corners."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. A cuboid has top, bottom, front, back and two sides."
+      },
+      {
+        "text": "4",
+        "hint": "A cuboid has more than 4 faces."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Think of a closed box.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nCount the faces of a box: top, bottom, front, back, left and right. That is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Subtract 125.47 from 203.90.",
+    "media": [],
+    "options": [
+      {
+        "text": "78.57",
+        "hint": "Check the decimal part: $0.90 - 0.47 = 0.43$."
+      },
+      {
+        "text": "78.43",
+        "hint": "Correct. $203.90 - 125.47 = 78.43$."
+      },
+      {
+        "text": "$-121.57$",
+        "hint": "Subtract the smaller number from the larger one."
+      },
+      {
+        "text": "$-122.38$",
+        "hint": "Subtract the smaller number from the larger one."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Start with 203.90, then take away 125.47.",
+    "explanation": "## Advanced explanation\n\n$203.90 - 125.47 = 78.43$.\n\n## Simplified explanation\n\nLine up the points. The decimals give $0.90 - 0.47 = 0.43$, and the whole numbers give $203 - 125 = 78$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $(5m + 3n) - (2m - n)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$5m - 4n$",
+        "hint": "Subtract $2m$ as well."
+      },
+      {
+        "text": "$3m + 4n$",
+        "hint": "Correct. $5m + 3n - 2m + n$."
+      },
+      {
+        "text": "$3m - 2n$",
+        "hint": "$-(-n)$ is $+n$."
+      },
+      {
+        "text": "$7m + 4n$",
+        "hint": "$-(2m)$ is $-2m$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The minus sign changes every sign in the second bracket.",
+    "explanation": "## Advanced explanation\n\n$5m + 3n - 2m + n = 3m + 4n$.\n\n## Simplified explanation\n\nOpening the bracket gives $-2m + n$. Then $5m - 2m = 3m$ and $3n + n = 4n$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following sets is equal to $\\{1, 2, 3, 4\\}$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2, 4, 1, 5\\}$",
+        "hint": "This has 5 instead of 3."
+      },
+      {
+        "text": "$\\{2, 1, 4, 3\\}$",
+        "hint": "Correct. It has the same members in a different order."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, \\ldots\\}$",
+        "hint": "The dots show that this set goes on."
+      },
+      {
+        "text": "$\\{2, 3, 4, 5, \\ldots\\}$",
+        "hint": "This does not contain 1, and it goes on."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Equal sets have exactly the same members. Order does not matter.",
+    "explanation": "## Advanced explanation\n\nTwo sets are equal if and only if each is a subset of the other. The order of listing has no effect.\n\n## Simplified explanation\n\nLook for the same four numbers, 1, 2, 3 and 4, even if they are mixed up.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a town of 42,800 inhabitants, 48% are male. The rest are female. How many more females are there than males?",
+    "media": [],
+    "options": [
+      {
+        "text": "22,256",
+        "hint": "This is the number of females."
+      },
+      {
+        "text": "20,544",
+        "hint": "This is the number of males."
+      },
+      {
+        "text": "1,712",
+        "hint": "Correct. 4% of 42,800 is 1,712."
+      },
+      {
+        "text": "1,612",
+        "hint": "Check the calculation: 4% of 42,800."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Females are 52%, so they are 4% more than males.",
+    "explanation": "## Advanced explanation\n\n$(52\\% - 48\\%) \\times 42{,}800 = 0.04 \\times 42{,}800 = 1{,}712$.\n\n## Simplified explanation\n\nFemales are 52% and males are 48%. The difference is 4%, and 4% of 42,800 is 1,712.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What set does the following graph represent?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq8.png",
+        "caption": "Number line from −3 to 3 with a solid dot at 2 and an arrow going to the left."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\{x : x < 2\\}$",
+        "hint": "A solid dot means that 2 is included."
+      },
+      {
+        "text": "$\\{x : x \\le 2\\}$",
+        "hint": "Correct. The dot is solid and the arrow points left."
+      },
+      {
+        "text": "$\\{x : x > 2\\}$",
+        "hint": "The arrow points left, so the values are below 2."
+      },
+      {
+        "text": "$\\{x : x \\ge 2\\}$",
+        "hint": "The arrow points left, so the values are below 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the type of dot and the direction of the arrow.",
+    "explanation": "## Advanced explanation\n\nA solid dot at 2 includes 2, and the arrow to the left covers smaller values, so the set is $x \\le 2$.\n\n## Simplified explanation\n\nThe solid dot means 2 counts. The arrow goes towards the smaller numbers. So $x$ is 2 or less.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the performance of Kate in her final examination.\n\nWhat is the angle for French?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq9-10.png",
+        "caption": "Pie chart of Kate's performance. Social Studies 120°, Economics 90°, English 55°, Maths 25°, and French with no angle given."
+      }
+    ],
+    "options": [
+      {
+        "text": "120°",
+        "hint": "This is the angle for Social Studies."
+      },
+      {
+        "text": "100°",
+        "hint": "Check the sum: $360 - 290 = 70$."
+      },
+      {
+        "text": "70°",
+        "hint": "Correct. $360 - 290 = 70$."
+      },
+      {
+        "text": "35°",
+        "hint": "This is half of the correct angle."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The angles of a pie chart add to 360°.",
+    "explanation": "## Advanced explanation\n\n$360^\\circ - (120^\\circ + 90^\\circ + 55^\\circ + 25^\\circ) = 70^\\circ$.\n\n## Simplified explanation\n\nThe four given angles add to 290. The rest of the 360 is 70.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the performance of Kate in her final examination.\n\nIf Kate scored 60% in Social Studies, what was her score in Economics?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq9-10.png",
+        "caption": "Pie chart of Kate's performance. Social Studies 120°, Economics 90°, English 55°, Maths 25°, and French with no angle given."
+      }
+    ],
+    "options": [
+      {
+        "text": "45%",
+        "hint": "Correct. $\\frac{90}{120} \\times 60 = 45$."
+      },
+      {
+        "text": "54%",
+        "hint": "Use the ratio of the two angles: $\\frac{90}{120}$."
+      },
+      {
+        "text": "72%",
+        "hint": "Use the ratio of the two angles: $\\frac{90}{120}$."
+      },
+      {
+        "text": "90%",
+        "hint": "90° is the angle, not the score."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "120° stands for 60%. What does 90° stand for?",
+    "explanation": "## Advanced explanation\n\nScores are proportional to angles, so the score is $\\frac{90}{120} \\times 60\\% = 45\\%$.\n\n## Simplified explanation\n\n120° is 60%, so every 2° is 1%. Then 90° is 45%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Statistics",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A teacher is to be chosen at random from a group of 6 male and 2 female teachers for a patron of a Mathematics Club. What is the probability that a female teacher is chosen?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "This is the probability of a male teacher."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Use the total of 8 teachers."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This is female over male. Use the total of 8 teachers."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{2}{8} = \\frac{1}{4}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "There are 8 teachers in all.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{female}) = \\frac{2}{6 + 2} = \\frac{1}{4}$.\n\n## Simplified explanation\n\n2 of the 8 teachers are female, and $\\frac{2}{8}$ reduces to $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the equation: $2x - 3(x - 1) = 6$",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "Check the signs: $-x = 3$."
+      },
+      {
+        "text": "$-3$",
+        "hint": "Correct. $2x - 3x + 3 = 6$."
+      },
+      {
+        "text": "$-7$",
+        "hint": "$-3 \\times -1 = +3$."
+      },
+      {
+        "text": "$-9$",
+        "hint": "$-3 \\times -1 = +3$, and then subtract 3 from 6."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Expand the bracket carefully.",
+    "explanation": "## Advanced explanation\n\n$2x - 3x + 3 = 6$, so $-x = 3$ and $x = -3$.\n\n## Simplified explanation\n\nOpening the bracket gives $-3x + 3$. The $x$ terms give $-x$. So $-x + 3 = 6$, $-x = 3$ and $x = -3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $m = 3$ and $n = -3$, evaluate $\\dfrac{1}{2}(3m - n)$",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{1}{2}(9 + 3) = 6$."
+      },
+      {
+        "text": "3",
+        "hint": "$-n$ is $+3$, so the bracket is 12."
+      },
+      {
+        "text": "0",
+        "hint": "$-n$ is $+3$, so the bracket is 12."
+      },
+      {
+        "text": "$-6$",
+        "hint": "$-n$ is $+3$, so the bracket is positive."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Be careful: $-n = -(-3) = 3$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{2}(3(3) - (-3)) = \\frac{1}{2}(12) = 6$.\n\n## Simplified explanation\n\n$3m$ is 9, and taking away $-3$ adds 3, which makes 12. Half of 12 is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following sets of angles form the interior angles of a right angled triangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{20^\\circ, 50^\\circ, 90^\\circ\\}$",
+        "hint": "These add to 160°."
+      },
+      {
+        "text": "$\\{80^\\circ, 60^\\circ, 90^\\circ\\}$",
+        "hint": "These add to 230°."
+      },
+      {
+        "text": "$\\{45^\\circ, 45^\\circ, 90^\\circ\\}$",
+        "hint": "Correct. These add to 180°."
+      },
+      {
+        "text": "$\\{65^\\circ, 90^\\circ, 35^\\circ\\}$",
+        "hint": "These add to 190°."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The angles of a triangle add to 180°.",
+    "explanation": "## Advanced explanation\n\nOnly $45^\\circ + 45^\\circ + 90^\\circ = 180^\\circ$.\n\n## Simplified explanation\n\nAdd each set. Only 45, 45 and 90 add to 180.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "State the rule for the mapping:\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $y$ | 0 | $\\frac{1}{4}$ | $\\frac{1}{2}$ | $\\frac{3}{4}$ | 1 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to \\dfrac{x}{4}$",
+        "hint": "Correct. Each $y$ is $x$ divided by 4."
+      },
+      {
+        "text": "$x \\to \\dfrac{x}{2}$",
+        "hint": "When $x = 1$, this gives $\\frac{1}{2}$."
+      },
+      {
+        "text": "$x \\to \\dfrac{3x}{4}$",
+        "hint": "When $x = 1$, this gives $\\frac{3}{4}$."
+      },
+      {
+        "text": "$x \\to \\dfrac{1}{2x}$",
+        "hint": "When $x = 1$, this gives $\\frac{1}{2}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Try the rule with $x = 4$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{y}{x} = \\frac{1}{4}$ for every non-zero $x$, so $y = \\frac{x}{4}$.\n\n## Simplified explanation\n\nWhen $x$ is 4, $y$ is 1. So $y$ is a quarter of $x$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangle has an area of 36 cm² and a width of 3 cm. Find its perimeter.",
+    "media": [],
+    "options": [
+      {
+        "text": "12 cm",
+        "hint": "This is the length."
+      },
+      {
+        "text": "18 cm",
+        "hint": "There are two lengths and two widths."
+      },
+      {
+        "text": "24 cm",
+        "hint": "This is only the two lengths."
+      },
+      {
+        "text": "30 cm",
+        "hint": "Correct. $2(12 + 3) = 30$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use the area to find the length.",
+    "explanation": "## Advanced explanation\n\nLength: $\\frac{36}{3} = 12$ cm. Then $P = 2(12 + 3) = 30$ cm.\n\n## Simplified explanation\n\n$36 \\div 3 = 12$, so the length is 12 cm. Going around gives $12 + 3 + 12 + 3 = 30$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $4 + x^0$, where $x \\ne 0$.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "$x^0$ is 1, and it is added."
+      },
+      {
+        "text": "4",
+        "hint": "$x^0$ is 1, not 0."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $4 + 1 = 5$."
+      },
+      {
+        "text": "6",
+        "hint": "$x^0$ is 1, not 2."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Any non-zero number to the power 0 equals 1.",
+    "explanation": "## Advanced explanation\n\n$x^0 = 1$ for $x \\ne 0$, so $4 + x^0 = 5$.\n\n## Simplified explanation\n\nA number with the power 0 is always 1. So the sum is $4 + 1 = 5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A van travels 154 km in $1\\dfrac{3}{4}$ hours. Find its speed in km/h.",
+    "media": [],
+    "options": [
+      {
+        "text": "77 km/h",
+        "hint": "This divides by 2, but the time is $1\\frac{3}{4}$ hours."
+      },
+      {
+        "text": "88 km/h",
+        "hint": "Correct. $154 \\div 1.75 = 88$."
+      },
+      {
+        "text": "100 km/h",
+        "hint": "Check the division: $154 \\times \\frac{4}{7}$."
+      },
+      {
+        "text": "269.5 km/h",
+        "hint": "This multiplies. Divide the distance by the time."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Speed $=$ distance $\\div$ time.",
+    "explanation": "## Advanced explanation\n\n$154 \\div \\frac{7}{4} = 154 \\times \\frac{4}{7} = 88$ km/h.\n\n## Simplified explanation\n\n$1\\frac{3}{4}$ is $\\frac{7}{4}$. Then $154 \\div 7 = 22$, and $22 \\times 4 = 88$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the figure, $PQ$ and $RS$ are straight lines. Find the value of the angle marked $w^\\circ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq19.png",
+        "caption": "Lines PQ and RS crossing. The angle between P and R is w°, and the angle between R and Q is 127°."
+      }
+    ],
+    "options": [
+      {
+        "text": "27°",
+        "hint": "This is $127^\\circ - 100^\\circ$. Subtract from 180°."
+      },
+      {
+        "text": "53°",
+        "hint": "Correct. $180^\\circ - 127^\\circ = 53^\\circ$."
+      },
+      {
+        "text": "63°",
+        "hint": "Check the subtraction: $180 - 127 = 53$."
+      },
+      {
+        "text": "127°",
+        "hint": "This is the given angle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Angles on a straight line add to 180°.",
+    "explanation": "## Advanced explanation\n\n$w + 127 = 180$, so $w = 53$.\n\n## Simplified explanation\n\nAngle $w$ and 127° together make the straight line $PQ$. So $w = 180 - 127 = 53$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x + 5 = -7$, find the value of $\\dfrac{x}{6}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-5\\dfrac{5}{6}$",
+        "hint": "First find $x$, then divide by 6."
+      },
+      {
+        "text": "$-2$",
+        "hint": "Correct. $x = -12$, and $-12 \\div 6 = -2$."
+      },
+      {
+        "text": "$-\\dfrac{1}{3}$",
+        "hint": "$x$ is $-12$, not $-2$."
+      },
+      {
+        "text": "$2$",
+        "hint": "A negative divided by a positive is negative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find $x$ first.",
+    "explanation": "## Advanced explanation\n\n$x = -7 - 5 = -12$, so $\\frac{x}{6} = -2$.\n\n## Simplified explanation\n\nTake 5 from both sides to get $x = -12$. Then $-12 \\div 6 = -2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, rectangle $OABC$ is enlarged into rectangle $OA_1B_1C_1$ from centre $O$. $|OC| = 5$ cm, $|OA| = 2$ cm and $|AA_1| = 1$ cm.\n\nFind the scale factor of the enlargement.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq21-22.png",
+        "caption": "Rectangle OABC inside rectangle OA1B1C1, sharing corner O. OC is 5 cm, OA is 2 cm and AA1 is 1 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "1",
+        "hint": "A scale factor of 1 leaves the size unchanged."
+      },
+      {
+        "text": "1.5",
+        "hint": "Correct. $3 \\div 2 = 1.5$."
+      },
+      {
+        "text": "2",
+        "hint": "$|OA_1|$ is 3 cm, not 4 cm."
+      },
+      {
+        "text": "2.5",
+        "hint": "This is $5 \\div 2$, which compares two sides of the same rectangle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$|OA_1| = 2 + 1$ cm.",
+    "explanation": "## Advanced explanation\n\n$k = \\frac{|OA_1|}{|OA|} = \\frac{3}{2} = 1.5$.\n\n## Simplified explanation\n\n$OA$ is 2 cm and grows to 3 cm. So the scale factor is $3 \\div 2 = 1.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, rectangle $OABC$ is enlarged into rectangle $OA_1B_1C_1$ from centre $O$. $|OC| = 5$ cm, $|OA| = 2$ cm and $|AA_1| = 1$ cm.\n\nCalculate $|OC_1|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq21-22.png",
+        "caption": "Rectangle OABC inside rectangle OA1B1C1, sharing corner O. OC is 5 cm, OA is 2 cm and AA1 is 1 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "7.5 cm",
+        "hint": "Correct. $5 \\times 1.5 = 7.5$."
+      },
+      {
+        "text": "8 cm",
+        "hint": "Multiply 5 cm by the scale factor, 1.5."
+      },
+      {
+        "text": "9 cm",
+        "hint": "Multiply 5 cm by the scale factor, 1.5."
+      },
+      {
+        "text": "12 cm",
+        "hint": "Multiply 5 cm by the scale factor, 1.5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply $|OC|$ by the scale factor.",
+    "explanation": "## Advanced explanation\n\n$|OC_1| = k|OC| = 1.5 \\times 5 = 7.5$ cm.\n\n## Simplified explanation\n\nThe scale factor is 1.5, so 5 cm becomes 7.5 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The height of a flag pole in scale drawing is 5 cm. If the scale is 1 cm to 3 m, what is the actual height of the pole?",
+    "media": [],
+    "options": [
+      {
+        "text": "10 m",
+        "hint": "Multiply 5 by 3."
+      },
+      {
+        "text": "15 m",
+        "hint": "Correct. $5 \\times 3 = 15$."
+      },
+      {
+        "text": "8 m",
+        "hint": "This adds. Multiply instead."
+      },
+      {
+        "text": "5 m",
+        "hint": "5 cm is the height in the drawing."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each centimetre stands for 3 m.",
+    "explanation": "## Advanced explanation\n\n$5 \\text{ cm} \\times 3 \\text{ m/cm} = 15$ m.\n\n## Simplified explanation\n\nEvery 1 cm is 3 m, so 5 cm is $5 \\times 3 = 15$ m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize $ax + 3x + a + 3$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x(a + x)$",
+        "hint": "This expands to give $x^2$."
+      },
+      {
+        "text": "$(x - a)(x + 3)$",
+        "hint": "This expands to give $x^2$."
+      },
+      {
+        "text": "$x(a - x)$",
+        "hint": "This expands to give $-x^2$."
+      },
+      {
+        "text": "$(a + 3)(x + 1)$",
+        "hint": "Correct. $x(a + 3) + 1(a + 3)$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$x(a + 3) + 1(a + 3) = (a + 3)(x + 1)$.\n\n## Simplified explanation\n\nTake $x$ out of the first pair to get $x(a + 3)$. The second pair is $1(a + 3)$. Then take out $(a + 3)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y = \\dfrac{x + 8}{x - 4}$, find the value of $y$ when $x = 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "The bottom is negative: $2 - 4 = -2$."
+      },
+      {
+        "text": "$-5$",
+        "hint": "Correct. $\\frac{10}{-2} = -5$."
+      },
+      {
+        "text": "4",
+        "hint": "The top is $2 + 8 = 10$."
+      },
+      {
+        "text": "$-4$",
+        "hint": "The top is $2 + 8 = 10$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Substitute $x = 2$ in the top and bottom.",
+    "explanation": "## Advanced explanation\n\n$y = \\frac{2 + 8}{2 - 4} = \\frac{10}{-2} = -5$.\n\n## Simplified explanation\n\nThe top is 10 and the bottom is $-2$. Then $10 \\div (-2) = -5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Greatest Common Factor (G.C.F.) of 90, 126 and 72.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "6 is a common factor, but not the greatest."
+      },
+      {
+        "text": "9",
+        "hint": "9 is a common factor, but not the greatest."
+      },
+      {
+        "text": "18",
+        "hint": "Correct. $90 = 18 \\times 5$, $126 = 18 \\times 7$ and $72 = 18 \\times 4$."
+      },
+      {
+        "text": "24",
+        "hint": "24 does not divide 90."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$90 = 2 \\times 3^2 \\times 5$, $126 = 2 \\times 3^2 \\times 7$ and $72 = 2^3 \\times 3^2$, so the G.C.F. is $2 \\times 3^2 = 18$.\n\n## Simplified explanation\n\nAll three numbers can be divided by 2 and by 9. Then $2 \\times 9 = 18$, and 5, 7 and 4 share no other factor.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $1 : 3 = x : 21$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "$4 : 21$ is not the same as $1 : 3$."
+      },
+      {
+        "text": "5",
+        "hint": "$5 : 21$ is not the same as $1 : 3$."
+      },
+      {
+        "text": "7",
+        "hint": "Correct. $7 : 21 = 1 : 3$."
+      },
+      {
+        "text": "63",
+        "hint": "This multiplies 21 by 3. Divide instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How do you get from 3 to 21?",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{3} = \\frac{x}{21}$, so $x = 7$.\n\n## Simplified explanation\n\n3 was multiplied by 7 to get 21. Do the same to 1, which gives 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the difference between $432_{\\text{five}}$ and $143_{\\text{five}}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$234_{\\text{five}}$",
+        "hint": "Correct. $117 - 48 = 69 = 234_{\\text{five}}$."
+      },
+      {
+        "text": "$334_{\\text{five}}$",
+        "hint": "This equals 94, but the difference is 69."
+      },
+      {
+        "text": "$1130_{\\text{five}}$",
+        "hint": "This is the sum of the two numbers."
+      },
+      {
+        "text": "$1310_{\\text{five}}$",
+        "hint": "This equals 205, but the difference is 69."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change both to base ten, or borrow 5s when you subtract.",
+    "explanation": "## Advanced explanation\n\n$432_{\\text{five}} = 117$ and $143_{\\text{five}} = 48$. Then $117 - 48 = 69 = 2 \\times 25 + 3 \\times 5 + 4$, which is $234_{\\text{five}}$.\n\n## Simplified explanation\n\nIn base ten, the numbers are 117 and 48, and the difference is 69. 69 holds two 25s, three 5s and 4 ones, so the answer is 234.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $14\\dfrac{1}{3} - 2\\dfrac{3}{8} + 5\\dfrac{7}{12}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$6\\dfrac{3}{8}$",
+        "hint": "The whole numbers alone give $14 - 2 + 5 = 17$."
+      },
+      {
+        "text": "$7\\dfrac{5}{12}$",
+        "hint": "The whole numbers alone give $14 - 2 + 5 = 17$."
+      },
+      {
+        "text": "$17\\dfrac{5}{12}$",
+        "hint": "Check the fractions over 24: $8 - 9 + 14 = 13$."
+      },
+      {
+        "text": "$17\\dfrac{13}{24}$",
+        "hint": "Correct. $17 + \\frac{13}{24}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work with the whole numbers and fractions separately.",
+    "explanation": "## Advanced explanation\n\n$14 - 2 + 5 = 17$, and $\\frac{8}{24} - \\frac{9}{24} + \\frac{14}{24} = \\frac{13}{24}$.\n\n## Simplified explanation\n\nThe whole numbers give 17. Over 24, the fractions give $8 - 9 + 14 = 13$. So the answer is $17\\frac{13}{24}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Nine bottles of equal capacity hold $4\\dfrac{1}{2}$ litres of water. How much do $x$ bottles hold?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}x$ litres",
+        "hint": "Correct. Each bottle holds $\\frac{1}{2}$ litre."
+      },
+      {
+        "text": "$2x$ litres",
+        "hint": "This is the number of bottles per litre, the wrong way round."
+      },
+      {
+        "text": "$20\\dfrac{1}{2}$ litres",
+        "hint": "The answer must depend on $x$."
+      },
+      {
+        "text": "$40\\dfrac{1}{2}$ litres",
+        "hint": "This is $9 \\times 4\\frac{1}{2}$, and the answer must depend on $x$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find how much one bottle holds.",
+    "explanation": "## Advanced explanation\n\n$4\\frac{1}{2} \\div 9 = \\frac{1}{2}$ litre per bottle, so $x$ bottles hold $\\frac{1}{2}x$ litres.\n\n## Simplified explanation\n\nShare 4.5 litres between 9 bottles, and each gets half a litre. So $x$ bottles hold $\\frac{1}{2}x$ litres.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A sales girl receives a 5% commission on all she sells. Find how much she has to sell to receive GH₵ 15.00.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 750.00",
+        "hint": "5% of this is GH₵ 37.50."
+      },
+      {
+        "text": "GH₵ 300.00",
+        "hint": "Correct. 5% of GH₵ 300.00 is GH₵ 15.00."
+      },
+      {
+        "text": "GH₵ 75.00",
+        "hint": "5% of this is GH₵ 3.75."
+      },
+      {
+        "text": "GH₵ 30.00",
+        "hint": "5% of this is GH₵ 1.50."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "GH₵ 15.00 is 5% of the sales.",
+    "explanation": "## Advanced explanation\n\n$0.05S = 15$, so $S = 300$.\n\n## Simplified explanation\n\nIf 5% is GH₵ 15, then 1% is GH₵ 3, and 100% is GH₵ 300.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions in ascending order: $\\dfrac{7}{12}, \\dfrac{3}{5}, \\dfrac{7}{15}, \\dfrac{3}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{7}{15}, \\dfrac{7}{12}, \\dfrac{3}{4}$",
+        "hint": "$\\frac{7}{15}$ is less than $\\frac{3}{5}$."
+      },
+      {
+        "text": "$\\dfrac{7}{12}, \\dfrac{7}{15}, \\dfrac{3}{5}, \\dfrac{3}{4}$",
+        "hint": "$\\frac{7}{15}$ is less than $\\frac{7}{12}$."
+      },
+      {
+        "text": "$\\dfrac{7}{15}, \\dfrac{7}{12}, \\dfrac{3}{5}, \\dfrac{3}{4}$",
+        "hint": "Correct. Over 60: 28, 35, 36, 45."
+      },
+      {
+        "text": "$\\dfrac{3}{5}, \\dfrac{3}{4}, \\dfrac{7}{12}, \\dfrac{7}{15}$",
+        "hint": "Ascending means smallest first."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use a common denominator of 60.",
+    "explanation": "## Advanced explanation\n\nOver 60, the numerators are 35, 36, 28 and 45, which order as $\\frac{7}{15} < \\frac{7}{12} < \\frac{3}{5} < \\frac{3}{4}$.\n\n## Simplified explanation\n\nChange each to 60ths: 35, 36, 28 and 45. Listing them from smallest to largest gives $\\frac{7}{15}$, $\\frac{7}{12}$, $\\frac{3}{5}$, $\\frac{3}{4}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Add 2.5 to the product of 4.2 and 0.2.",
+    "media": [],
+    "options": [
+      {
+        "text": "13.4",
+        "hint": "$4.2 \\times 0.2$ is 0.84, not 10.9."
+      },
+      {
+        "text": "10.9",
+        "hint": "$4.2 \\times 0.2$ is 0.84, not 8.4."
+      },
+      {
+        "text": "3.34",
+        "hint": "Correct. $0.84 + 2.5 = 3.34$."
+      },
+      {
+        "text": "1.34",
+        "hint": "$0.84 + 2.5$ is greater than 2.5."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the product first.",
+    "explanation": "## Advanced explanation\n\n$4.2 \\times 0.2 + 2.5 = 0.84 + 2.5 = 3.34$.\n\n## Simplified explanation\n\n$42 \\times 2 = 84$, and the two decimal places make it 0.84. Adding 2.5 gives 3.34.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of four in the number 7073.48?",
+    "media": [],
+    "options": [
+      {
+        "text": "four tenths",
+        "hint": "Correct. 4 is the first digit after the point."
+      },
+      {
+        "text": "four",
+        "hint": "The units digit is 3."
+      },
+      {
+        "text": "forty",
+        "hint": "The tens digit is 7."
+      },
+      {
+        "text": "four hundred",
+        "hint": "The hundreds digit is 0."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Look at the digit just after the decimal point.",
+    "explanation": "## Advanced explanation\n\n$7073.48 = 7073 + \\frac{4}{10} + \\frac{8}{100}$.\n\n## Simplified explanation\n\nThe first place after the point is tenths, so the 4 stands for four tenths.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the ages of children at a birthday party.\n\nWhat is the modal age?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq35-36.png",
+        "caption": "Table of ages and numbers of children. Age 1: 3 children, 2: 4, 3: 2, 4: 5, 5: 4, 6: 4, 7: 6, 8: 4, 9: 2, 10: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "10",
+        "hint": "10 is the oldest age, with just 1 child."
+      },
+      {
+        "text": "7",
+        "hint": "Correct. Age 7 has the most children, 6."
+      },
+      {
+        "text": "5",
+        "hint": "Only 4 children are 5 years old."
+      },
+      {
+        "text": "4",
+        "hint": "Only 5 children are 4 years old."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The mode is the age with the most children.",
+    "explanation": "## Advanced explanation\n\nThe highest frequency is 6, at age 7.\n\n## Simplified explanation\n\nLook for the largest number in the children column. It is 6, next to age 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the ages of children at a birthday party.\n\nA child is selected at random. What is the probability that he or she is 4 years old?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq35-36.png",
+        "caption": "Table of ages and numbers of children. Age 1: 3 children, 2: 4, 3: 2, 4: 5, 5: 4, 6: 4, 7: 6, 8: 4, 9: 2, 10: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{4}{35}$",
+        "hint": "This uses the age. Five children are 4 years old."
+      },
+      {
+        "text": "$\\dfrac{1}{7}$",
+        "hint": "Correct. $\\frac{5}{35} = \\frac{1}{7}$."
+      },
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Use 5 children out of 35."
+      },
+      {
+        "text": "$\\dfrac{4}{5}$",
+        "hint": "Use 5 children out of 35."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add all the children first.",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 35$ and $f(4) = 5$, so $P = \\frac{5}{35} = \\frac{1}{7}$.\n\n## Simplified explanation\n\nThere are 35 children, and 5 of them are 4 years old. $\\frac{5}{35}$ reduces to $\\frac{1}{7}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Probability",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the ages of children at a birthday party.\n\nHow many children are 7 or more years old?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009secaq35-36.png",
+        "caption": "Table of ages and numbers of children. Age 1: 3 children, 2: 4, 3: 2, 4: 5, 5: 4, 6: 4, 7: 6, 8: 4, 9: 2, 10: 1."
+      }
+    ],
+    "options": [
+      {
+        "text": "28",
+        "hint": "Add only the ages 7, 8, 9 and 10."
+      },
+      {
+        "text": "22",
+        "hint": "This is the number of children under 7."
+      },
+      {
+        "text": "13",
+        "hint": "Correct. $6 + 4 + 2 + 1 = 13$."
+      },
+      {
+        "text": "6",
+        "hint": "This is only the children aged 7."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the numbers for ages 7, 8, 9 and 10.",
+    "explanation": "## Advanced explanation\n\n$f(7) + f(8) + f(9) + f(10) = 6 + 4 + 2 + 1 = 13$.\n\n## Simplified explanation\n\nAdd the children aged 7, 8, 9 and 10: $6 + 4 + 2 + 1 = 13$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write the vector $\\begin{pmatrix} 6 \\text{ cm W} \\\\ 4 \\text{ cm S} \\end{pmatrix}$ in component form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ -4 \\end{pmatrix}$",
+        "hint": "Correct. West and south are both negative."
+      },
+      {
+        "text": "$\\begin{pmatrix} -4 \\\\ -6 \\end{pmatrix}$",
+        "hint": "The horizontal part goes on top."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 4 \\end{pmatrix}$",
+        "hint": "South is negative."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ -4 \\end{pmatrix}$",
+        "hint": "West is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "East and north are positive. West and south are negative.",
+    "explanation": "## Advanced explanation\n\nWest is the negative $x$-direction and south is the negative $y$-direction.\n\n## Simplified explanation\n\nGoing west is left, so it is $-6$. Going south is down, so it is $-4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $5 - 7 + 2(3 - 8)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-12$",
+        "hint": "Correct. $5 - 7 - 10 = -12$."
+      },
+      {
+        "text": "$-8$",
+        "hint": "$2(3 - 8)$ is $-10$."
+      },
+      {
+        "text": "$-5$",
+        "hint": "$5 - 7$ is $-2$, and $2(3 - 8)$ is $-10$."
+      },
+      {
+        "text": "$-4$",
+        "hint": "$2(3 - 8)$ is $-10$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$5 - 7 + 2(-5) = -2 - 10 = -12$.\n\n## Simplified explanation\n\nThe bracket gives $-5$, and doubling it gives $-10$. Then $5 - 7 = -2$, and $-2 - 10 = -12$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $r = \\begin{pmatrix} -10 \\\\ -3 \\end{pmatrix}$ and $n = \\begin{pmatrix} 8 \\\\ -6 \\end{pmatrix}$, find $n + r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ -9 \\end{pmatrix}$",
+        "hint": "Correct. $8 - 10 = -2$ and $-6 - 3 = -9$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ -9 \\end{pmatrix}$",
+        "hint": "$8 + (-10)$ is $-2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 18 \\\\ 9 \\end{pmatrix}$",
+        "hint": "Keep the signs: $8 + (-10)$ and $-6 + (-3)$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ -3 \\end{pmatrix}$",
+        "hint": "$-6 + (-3)$ is $-9$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add matching components.",
+    "explanation": "## Advanced explanation\n\n$\\begin{pmatrix} 8 + (-10) \\\\ -6 + (-3) \\end{pmatrix} = \\begin{pmatrix} -2 \\\\ -9 \\end{pmatrix}$.\n\n## Simplified explanation\n\nAdd the tops to get $-2$. Add the bottoms to get $-9$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2009 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\dfrac{1200 \\times 1260}{800}$ and write your answer in standard form.",
+    "media": [],
+    "answer": "$$\\frac{1200 \\times 1260}{800} = \\frac{3}{2} \\times 1260 = 1890$$\n\n$$1890 = 1.89 \\times 10^3$$\n\n> [!answer]\n> {{green:$1.89 \\times 10^3$}}",
+    "hint": "Cancel $\\frac{1200}{800}$ first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1200}{800} = 1.5$, so the expression equals $1.5 \\times 1260 = 1890$.\n\n## Simplified explanation\n\n1200 over 800 is $1\\frac{1}{2}$. One and a half times 1260 is 1890. Moving the point 3 places gives $1.89 \\times 10^3$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A plot of land measures 25 m by 12 m. A portion of this plot measuring 8 m by 8 m is used for the cultivation of vegetables. Find the area of the plot not cultivated.",
+    "media": [],
+    "answer": "Whole plot: $25 \\times 12 = 300$ m²\n\nVegetables: $8 \\times 8 = 64$ m²\n\n$$300 - 64 = 236$$\n\n> [!answer]\n> {{green:236 m²}}",
+    "hint": "Subtract the smaller area from the larger area.",
+    "explanation": "## Advanced explanation\n\nThe area not cultivated is the difference between the two rectangular areas.\n\n## Simplified explanation\n\nThe plot is 300 m² and the vegetables use 64 m². So 236 m² is left.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the performance of Aisha in her final examination. Calculate the angle of each sector of a pie chart that represents this information.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009q1c.png",
+        "caption": "Table of scores: English Language 54%, Mathematics 36%, Ga 68%, Science 50%, Social Studies 32%."
+      }
+    ],
+    "answer": "Total score: $54 + 36 + 68 + 50 + 32 = 240$, so each mark takes $360^\\circ \\div 240 = 1.5^\\circ$.\n\n| Subject | Score | Angle |\n|---|---|---|\n| English Language | 54 | 81° |\n| Mathematics | 36 | 54° |\n| Ga | 68 | 102° |\n| Science | 50 | 75° |\n| Social Studies | 32 | 48° |\n\n> [!answer]\n> {{green:English Language 81°, Mathematics 54°, Ga 102°, Science 75°, Social Studies 48°}}",
+    "hint": "Add the scores first. They do not add to 100.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{\\text{score}}{\\text{total}} \\times 360^\\circ$. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThe scores add to 240, and a circle has 360°, so each mark is 1.5°. Multiply each score by 1.5, then draw the sectors with a protractor.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the scores of some students in an examination. From the table, find\n\n(i) how many students wrote the examination;\n\n(ii) the modal score;\n\n(iii) the number of students that scored 7 or more;\n\n(iv) the mean score, correct to one decimal place.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009q2.png",
+        "caption": "Frequency table. Marks 0 to 10 have frequencies 3, 5, 3, 2, 7, 6, 5, 4, 2, 2 and 1."
+      }
+    ],
+    "answer": "**(i)** $3 + 5 + 3 + 2 + 7 + 6 + 5 + 4 + 2 + 2 + 1 = 40$\n\n**(ii)** Mark 4 has the highest frequency, 7.\n\n**(iii)** $4 + 2 + 2 + 1 = 9$\n\n**(iv)** $\\sum fx = 0 + 5 + 6 + 6 + 28 + 30 + 30 + 28 + 16 + 18 + 10 = 177$\n\n$$\\frac{177}{40} = 4.425 \\approx 4.4$$\n\n> [!answer]\n> **(i)** {{green:40}}  **(ii)** {{green:4}}  **(iii)** {{green:9}}  **(iv)** {{green:4.4}}",
+    "hint": "Multiply each mark by its frequency to find the mean.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$. Note that the score 0 still counts towards the number of students.\n\n## Simplified explanation\n\nAdd the frequencies to get 40 students. The largest frequency, 7, is at mark 4. Add the last four frequencies to get 9. Multiply and add to get 177, then divide by 40.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axes $OX$ and $OY$ on a graph sheet, marking the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(ii) Plot the points $A(2, 5)$, $B(2, 2)$ and $C(4, 2)$. Join the points to form a triangle $ABC$.\n\n(iii) Using the $y$-axis as mirror line, draw the image triangle $A_1B_1C_1$ of triangle $ABC$ such that $A \\to A_1$, $B \\to B_1$ and $C \\to C_1$. Write down the coordinates of $A_1$, $B_1$ and $C_1$.\n\n(iv) Draw the image triangle $A_2B_2C_2$ of triangle $ABC$ under an anticlockwise rotation of $180^\\circ$ about the origin, where $A \\to A_2$, $B \\to B_2$ and $C \\to C_2$. Write down the coordinates of $A_2$, $B_2$ and $C_2$.",
+    "media": [],
+    "answer": "**(iii)** Reflecting in the $y$-axis changes $(x, y)$ to $(-x, y)$:\n\n$A_1(-2, 5)$, $B_1(-2, 2)$, $C_1(-4, 2)$\n\n**(iv)** A rotation of $180^\\circ$ about the origin changes $(x, y)$ to $(-x, -y)$:\n\n$A_2(-2, -5)$, $B_2(-2, -2)$, $C_2(-4, -2)$\n\n> [!answer]\n> **(iii)** {{green:$A_1(-2, 5)$, $B_1(-2, 2)$, $C_1(-4, 2)$}}\n>\n> **(iv)** {{green:$A_2(-2, -5)$, $B_2(-2, -2)$, $C_2(-4, -2)$}}",
+    "hint": "Reflecting in the $y$-axis only changes the sign of $x$.",
+    "explanation": "## Advanced explanation\n\nA half-turn about the origin is the same whichever way it turns, and it equals a reflection in the $y$-axis followed by a reflection in the $x$-axis.\n\n## Simplified explanation\n\nFor the mirror image, keep $y$ and flip the sign of $x$. For the half-turn, flip both signs.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $a = \\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$, $b = \\begin{pmatrix} -5 \\\\ -7 \\end{pmatrix}$ and $c = \\begin{pmatrix} -4 \\\\ -1 \\end{pmatrix}$, evaluate $2a - 3c + b$.",
+    "media": [],
+    "answer": "$$\\begin{pmatrix} -6 \\\\ 4 \\end{pmatrix} - \\begin{pmatrix} -12 \\\\ -3 \\end{pmatrix} + \\begin{pmatrix} -5 \\\\ -7 \\end{pmatrix} = \\begin{pmatrix} -6 + 12 - 5 \\\\ 4 + 3 - 7 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} 1 \\\\ 0 \\end{pmatrix}$}}",
+    "hint": "Do the multiplications first, then combine each row.",
+    "explanation": "## Advanced explanation\n\nThe operations are applied component by component.\n\n## Simplified explanation\n\nThe top row gives $-6 + 12 - 5 = 1$. The bottom row gives $4 + 3 - 7 = 0$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The ratio of the sheep to goats on a farm is $4 : 7$. If there are 1,428 sheep, find how many goats are on the farm.",
+    "media": [],
+    "answer": "One part: $1{,}428 \\div 4 = 357$\n\nGoats: $357 \\times 7 = 2{,}499$\n\n> [!answer]\n> {{green:2,499}}",
+    "hint": "4 parts are 1,428.",
+    "explanation": "## Advanced explanation\n\n$\\frac{g}{1428} = \\frac{7}{4}$, so $g = 2{,}499$.\n\n## Simplified explanation\n\nSheep are 4 parts, so one part is 357. Goats are 7 parts, which is 2,499.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct a triangle $ABC$ with $|AB| = 6$ cm, $|AC| = 8$ cm and angle $BAC = 30^\\circ$. Construct the bisector of angle $ACB$ to meet line $AB$ at $D$.\n\n(i) Measure $|AD|$ and $|BD|$.\n\n(ii) Write down the ratio $|AD| : |BD|$.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|AC| = 8$ cm. Construct $60^\\circ$ at $A$ and bisect it to get $30^\\circ$. Mark $B$ on this arm so that $|AB| = 6$ cm, and join $B$ to $C$.\n\nBisect angle $ACB$ to meet $AB$ at $D$.\n\n> [!answer]\n> **(i)** {{green:$|AD| \\approx 4.0$ cm and $|BD| \\approx 2.0$ cm}}  **(ii)** {{green:about $2 : 1$}}",
+    "hint": "Construct $30^\\circ$ by bisecting $60^\\circ$.",
+    "explanation": "## Advanced explanation\n\nThe angle bisector theorem gives $\\frac{|AD|}{|BD|} = \\frac{|AC|}{|BC|}$. With $|BC| \\approx 4.11$ cm from the cosine rule, $|AD| \\approx 4.0$ cm and $|BD| \\approx 2.0$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the two given sides and the 30° angle between them. Split the angle at $C$ in half and draw the line down to $AB$. It cuts $AB$ into about 4 cm and 2 cm, which is a ratio of about $2 : 1$.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The diagram is a triangle $ABC$ with the side $AC$ produced to $D$. Find\n\n(i) the value of $x$;\n\n(ii) angle $ACB$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009q5.png",
+        "caption": "Triangle ABC with AC extended to D. Angle A is (x + 17)°, angle B is (2x + 7)° and angle BCD is (9x)°. Not drawn to scale."
+      }
+    ],
+    "answer": "**(i)** The exterior angle equals the sum of the interior opposite angles:\n\n$$9x = (x + 17) + (2x + 7)$$\n\n$$6x = 24$$\n\n$$x = 4$$\n\n**(ii)** Angle $BCD = 9(4) = 36^\\circ$\n\n$$\\text{Angle } ACB = 180^\\circ - 36^\\circ = 144^\\circ$$\n\n> [!answer]\n> **(i)** {{green:$x = 4$}}  **(ii)** {{green:$144^\\circ$}}",
+    "hint": "Use the exterior angle of a triangle.",
+    "explanation": "## Advanced explanation\n\nCheck: the interior angles are $21^\\circ$, $15^\\circ$ and $144^\\circ$, which add to $180^\\circ$.\n\n## Simplified explanation\n\nThe outside angle at $C$ equals the two far inside angles added together. This gives $9x = 3x + 24$, so $x = 4$. The outside angle is 36°, so the inside angle at $C$ is 144°.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The simple interest formula $I = \\dfrac{PTR}{100}$ gives the interest $I$ on a principal $P$ invested at a rate $R$ per annum for time $T$ years.\n\n(i) Find the simple interest on GH₵ 3,600.00 at 15% per annum for 2 years.\n\n(ii) Make $R$ the subject of the simple interest formula.\n\n(iii) At what rate per annum will GH₵ 6,000.00 earn GH₵ 2,400.00 simple interest in 2 years?",
+    "media": [],
+    "answer": "**(i)** $I = \\frac{3{,}600 \\times 2 \\times 15}{100} = 1{,}080$\n\n**(ii)** $R = \\frac{100I}{PT}$\n\n**(iii)** $R = \\frac{100 \\times 2{,}400}{6{,}000 \\times 2} = 20$\n\n> [!answer]\n> **(i)** {{green:GH₵ 1,080.00}}  **(ii)** {{green:$R = \\dfrac{100I}{PT}$}}  **(iii)** {{green:20%}}",
+    "hint": "For (ii), multiply both sides by 100 and then divide by $PT$.",
+    "explanation": "## Advanced explanation\n\nPart (iii) applies the rearranged formula from part (ii).\n\n## Simplified explanation\n\n15% of 3,600 is 540 a year, which is 1,080 in 2 years. For (iii), the interest is 1,200 a year, and 1,200 out of 6,000 is 20%.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Simple Interest",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that ₵10,000.00 = GH₵ 1.00:\n\n(a) Complete the table relating cedis $(x)$ to Ghana cedis $(y)$.\n\n(b) On a graph sheet, draw two perpendicular axes $Ox$ and $Oy$. Using a scale of 2 cm to ₵50,000.00 on the $Ox$ axis and 2 cm to GH₵ 5.00 on the $Oy$ axis, mark the $Ox$ axis from 0 to ₵500,000.00 and the $Oy$ axis from 0 to GH₵ 50.00. Plot the points and join them with a straight line.\n\n(c) From your graph, find the value of\n\n(i) GH₵ 8.00 in cedis (₵);\n\n(ii) GH₵ 35.00 in cedis (₵);\n\n(iii) ₵260,000.00 in Ghana cedis (GH₵).",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2009/2009q6.png",
+        "caption": "Table with ₵ (x) values 10,000, 50,000, 150,000, 250,000, 350,000 and 450,000. The only GH₵ (y) value given is 45, for 450,000."
+      }
+    ],
+    "answer": "**(a)**\n\n| ₵ $(x)$ | 10,000 | 50,000 | 150,000 | 250,000 | 350,000 | 450,000 |\n|---|---|---|---|---|---|---|\n| GH₵ $(y)$ | 1 | 5 | 15 | 25 | 35 | 45 |\n\n**(b)** Plot the points and rule a straight line through them.\n\n**(c)** The relation gives the exact readings:\n\n**(i)** $8 \\times 10{,}000 = 80{,}000$\n\n**(ii)** $35 \\times 10{,}000 = 350{,}000$\n\n**(iii)** $260{,}000 \\div 10{,}000 = 26$\n\n> [!answer]\n> **(c)(i)** {{green:₵80,000.00}}  **(ii)** {{green:₵350,000.00}}  **(iii)** {{green:GH₵ 26.00}}",
+    "hint": "Divide the old cedis by 10,000 to get Ghana cedis.",
+    "explanation": "## Advanced explanation\n\nThe relation $y = \\frac{x}{10{,}000}$ is a direct proportion, so its graph is a straight line through the origin.\n\n## Simplified explanation\n\nEach GH₵ 1 equals ₵10,000. So divide by 10,000 to fill in the table. On the graph, read across from the Ghana cedi value or up from the cedi value.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2009 Paper",
+      "Section B",
+      "Graphs",
+      "Ratio & Proportion"
+    ]
+  }
+]

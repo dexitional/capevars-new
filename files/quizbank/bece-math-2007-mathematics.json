@@ -1,0 +1,1552 @@
+[
+  {
+    "type": "choice",
+    "body": "List the members of the set $P =$ {factors of 30 which are odd}.",
+    "media": [],
+    "options": [
+      {
+        "text": "$P = \\{2, 3, 5\\}$",
+        "hint": "These are the prime factors of 30, and 2 is even."
+      },
+      {
+        "text": "$P = \\{1, 2, 3, 5\\}$",
+        "hint": "2 is even, and 15 is missing."
+      },
+      {
+        "text": "$P = \\{1, 3, 5, 15\\}$",
+        "hint": "Correct. These are all the odd factors of 30."
+      },
+      {
+        "text": "$P = \\{2, 6, 10, 30\\}$",
+        "hint": "These are the even factors of 30."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "List all the factors of 30 first.",
+    "explanation": "## Advanced explanation\n\nThe factors of 30 are 1, 2, 3, 5, 6, 10, 15 and 30. The odd ones are 1, 3, 5 and 15.\n\n## Simplified explanation\n\nList the numbers that divide 30, then keep the odd ones.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Sets",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$M = \\{g, o, q, s\\}$ and $W = \\{h, p, r, t\\}$. Find $M \\cup W$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{q, r, s, t\\}$",
+        "hint": "$\\cup$ includes every member of both sets."
+      },
+      {
+        "text": "$\\{g, h, o, q, r\\}$",
+        "hint": "$\\cup$ includes every member of both sets."
+      },
+      {
+        "text": "$\\{g, h, o, q, r, t\\}$",
+        "hint": "$p$ and $s$ are missing."
+      },
+      {
+        "text": "$\\{g, h, o, p, q, r, s, t\\}$",
+        "hint": "Correct. All 8 letters are included."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins the two sets together.",
+    "explanation": "## Advanced explanation\n\n$M$ and $W$ are disjoint, so $M \\cup W$ has $4 + 4 = 8$ elements.\n\n## Simplified explanation\n\nPut all the letters from both sets together. There are 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Name the geometrical figure shown in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq3.png",
+        "caption": "A solid with a circular base and a curved surface rising to a single point."
+      }
+    ],
+    "options": [
+      {
+        "text": "Cuboid",
+        "hint": "A cuboid has flat rectangular faces."
+      },
+      {
+        "text": "Cone",
+        "hint": "Correct. It has a circular base and a point at the top."
+      },
+      {
+        "text": "Pyramid",
+        "hint": "A pyramid has a flat, straight-sided base."
+      },
+      {
+        "text": "Sphere",
+        "hint": "A sphere is round all over."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the shape of the base and the top.",
+    "explanation": "## Advanced explanation\n\nA cone has a circular base and a curved surface that narrows to a single apex.\n\n## Simplified explanation\n\nIt looks like a party hat: round at the bottom and pointed at the top.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{5}{16}$ as a decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.3333",
+        "hint": "This is $\\frac{1}{3}$."
+      },
+      {
+        "text": "0.3125",
+        "hint": "Correct. $5 \\div 16 = 0.3125$."
+      },
+      {
+        "text": "0.2667",
+        "hint": "This is $\\frac{4}{15}$."
+      },
+      {
+        "text": "0.2500",
+        "hint": "This is $\\frac{1}{4}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 5 by 16.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{16} = 5 \\times 0.0625 = 0.3125$.\n\n## Simplified explanation\n\n$\\frac{1}{16}$ is 0.0625. Five of them make 0.3125.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y = -\\dfrac{1}{2}x + 6$, find $y$ when $x = 4$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-4$",
+        "hint": "Half of 4 is 2, and $-2 + 6 = 4$."
+      },
+      {
+        "text": "$2$",
+        "hint": "Half of 4 is 2, and $-2 + 6 = 4$."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $-2 + 6 = 4$."
+      },
+      {
+        "text": "$8$",
+        "hint": "This adds 2. The term is $-2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put $x = 4$ into the equation.",
+    "explanation": "## Advanced explanation\n\n$y = -\\frac{1}{2}(4) + 6 = -2 + 6 = 4$.\n\n## Simplified explanation\n\nHalf of 4 is 2, and the sign makes it $-2$. Then $-2 + 6 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 13 candidates in a test are: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2.\n\nWhat is the mode?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. 2 appears four times."
+      },
+      {
+        "text": "5",
+        "hint": "5 appears once."
+      },
+      {
+        "text": "9",
+        "hint": "9 appears twice."
+      },
+      {
+        "text": "18",
+        "hint": "18 is the highest mark, not the most common."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The mode is the most frequent mark.",
+    "explanation": "## Advanced explanation\n\nThe mark 2 has the highest frequency, 4.\n\n## Simplified explanation\n\nCount how often each mark appears. 2 appears the most, four times.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 13 candidates in a test are: 5, 7, 2, 9, 11, 10, 2, 12, 2, 9, 3, 18 and 2.\n\nWhat is the median?",
+    "media": [],
+    "options": [
+      {
+        "text": "9",
+        "hint": "9 is not the middle mark once the marks are in order."
+      },
+      {
+        "text": "7",
+        "hint": "Correct. 7 is the 7th of the 13 marks in order."
+      },
+      {
+        "text": "5",
+        "hint": "5 is the 6th mark in order."
+      },
+      {
+        "text": "2",
+        "hint": "This is the mode."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Arrange the marks in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: 2, 2, 2, 2, 3, 5, 7, 9, 9, 10, 11, 12, 18. With 13 values, the median is the 7th value, 7.\n\n## Simplified explanation\n\nPut the marks in order. The middle of 13 marks is the 7th, which is 7.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of 360 pupils to various houses in a school.\n\nFind the value of the angle marked $x^\\circ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq8-9.png",
+        "caption": "Pie chart of four houses. Red House 150°, Blue House 70°, Yellow House 100° and Green House x°."
+      }
+    ],
+    "options": [
+      {
+        "text": "30°",
+        "hint": "This is the difference between Yellow and Blue."
+      },
+      {
+        "text": "40°",
+        "hint": "Correct. $360 - 320 = 40$."
+      },
+      {
+        "text": "100°",
+        "hint": "This is the angle for Yellow House."
+      },
+      {
+        "text": "150°",
+        "hint": "This is the angle for Red House."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The angles of a pie chart add to 360°.",
+    "explanation": "## Advanced explanation\n\n$x = 360 - (150 + 70 + 100) = 40$.\n\n## Simplified explanation\n\nThe given angles add to 320. The rest of the 360 is 40.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the distribution of 360 pupils to various houses in a school.\n\nHow many more students are in Yellow House than in Blue House?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq8-9.png",
+        "caption": "Pie chart of four houses. Red House 150°, Blue House 70°, Yellow House 100° and Green House x°."
+      }
+    ],
+    "options": [
+      {
+        "text": "30",
+        "hint": "Correct. $100 - 70 = 30$."
+      },
+      {
+        "text": "40",
+        "hint": "This is the number in Green House."
+      },
+      {
+        "text": "70",
+        "hint": "This is the number in Blue House."
+      },
+      {
+        "text": "100",
+        "hint": "This is the number in Yellow House."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "360 pupils fill 360°, so each degree is one pupil.",
+    "explanation": "## Advanced explanation\n\nOne degree represents one pupil, so the difference is $100 - 70 = 30$.\n\n## Simplified explanation\n\nEach degree stands for 1 pupil. So Yellow has 100 pupils and Blue has 70, a difference of 30.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 242 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 11^2$",
+        "hint": "This equals 484."
+      },
+      {
+        "text": "$2 \\times 11^2$",
+        "hint": "Correct. $2 \\times 121 = 242$."
+      },
+      {
+        "text": "$2^2 \\times 11$",
+        "hint": "This equals 44."
+      },
+      {
+        "text": "$2 \\times 11$",
+        "hint": "This equals 22."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 242 by 2 first.",
+    "explanation": "## Advanced explanation\n\n$242 = 2 \\times 121 = 2 \\times 11^2$.\n\n## Simplified explanation\n\nHalf of 242 is 121, and 121 is $11 \\times 11$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Change $110011_{\\text{two}}$ to a number in base ten.",
+    "media": [],
+    "options": [
+      {
+        "text": "51",
+        "hint": "Correct. $32 + 16 + 2 + 1 = 51$."
+      },
+      {
+        "text": "50",
+        "hint": "The last digit adds 1."
+      },
+      {
+        "text": "48",
+        "hint": "This leaves out the last two digits."
+      },
+      {
+        "text": "32",
+        "hint": "This counts only the first digit."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The place values from the right are 1, 2, 4, 8, 16, 32.",
+    "explanation": "## Advanced explanation\n\n$2^5 + 2^4 + 2^1 + 2^0 = 32 + 16 + 2 + 1 = 51$.\n\n## Simplified explanation\n\nAdd the place values under each 1: $32 + 16 + 2 + 1 = 51$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy throws a die once. What is the probability of getting the number 4?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Correct. One of the six faces shows 4."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This is for two of the six faces."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is for three of the six faces."
+      },
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "This is the probability of not getting 4."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A die has six faces.",
+    "explanation": "## Advanced explanation\n\nThere is 1 favourable outcome out of 6 equally likely outcomes.\n\n## Simplified explanation\n\nOnly one face shows 4, out of 6 faces.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions from the highest to the lowest: $\\dfrac{5}{6}$, $\\dfrac{4}{5}$ and $\\dfrac{4}{7}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{4}{7}, \\dfrac{4}{5}, \\dfrac{5}{6}$",
+        "hint": "This goes from lowest to highest."
+      },
+      {
+        "text": "$\\dfrac{4}{5}, \\dfrac{5}{6}, \\dfrac{4}{7}$",
+        "hint": "$\\frac{5}{6}$ is greater than $\\frac{4}{5}$."
+      },
+      {
+        "text": "$\\dfrac{5}{6}, \\dfrac{4}{5}, \\dfrac{4}{7}$",
+        "hint": "Correct. As decimals: 0.83, 0.80, 0.57."
+      },
+      {
+        "text": "$\\dfrac{4}{7}, \\dfrac{5}{6}, \\dfrac{4}{5}$",
+        "hint": "$\\frac{4}{7}$ is the lowest, so it must come last."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change each to a decimal.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{6} \\approx 0.83$, $\\frac{4}{5} = 0.80$ and $\\frac{4}{7} \\approx 0.57$.\n\n## Simplified explanation\n\nAs decimals they are 0.83, 0.80 and 0.57, which is already highest to lowest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality: $3x + 6 \\le 5x - 2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\le 2$",
+        "hint": "Collect the numbers: $6 + 2 = 8$."
+      },
+      {
+        "text": "$x \\ge 2$",
+        "hint": "Collect the numbers: $6 + 2 = 8$."
+      },
+      {
+        "text": "$x \\le 4$",
+        "hint": "$8 \\le 2x$ means $x \\ge 4$."
+      },
+      {
+        "text": "$x \\ge 4$",
+        "hint": "Correct. $8 \\le 2x$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Collect the $x$ terms on the right.",
+    "explanation": "## Advanced explanation\n\n$6 + 2 \\le 5x - 3x$, so $8 \\le 2x$ and $x \\ge 4$.\n\n## Simplified explanation\n\nMoving terms gives $8 \\le 2x$. So $x$ is at least 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $8x - 3(2x - 4) = 4$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-8$",
+        "hint": "This is the value of $2x$."
+      },
+      {
+        "text": "$-4$",
+        "hint": "Correct. $2x + 12 = 4$."
+      },
+      {
+        "text": "$4$",
+        "hint": "Check the sign: $2x = -8$."
+      },
+      {
+        "text": "$8$",
+        "hint": "Check the sign, and divide by 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Expand the bracket carefully.",
+    "explanation": "## Advanced explanation\n\n$8x - 6x + 12 = 4$, so $2x = -8$ and $x = -4$.\n\n## Simplified explanation\n\nOpening the bracket gives $-6x + 12$. Then $2x + 12 = 4$, so $2x = -8$ and $x = -4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which $MN$ is parallel to $PQ$, to answer the question.\n\nFind the size of angle $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq16-17.png",
+        "caption": "Parallel lines MN and PQ cut by two lines. On the left, the angle between M and the slanted line going down to S is 80°. On the right, a line from W passes through T on MN and Z on PQ. Angle y is between W and N at T, and the angle between T and Q at Z is 105°."
+      }
+    ],
+    "options": [
+      {
+        "text": "75°",
+        "hint": "This is angle $NTZ$."
+      },
+      {
+        "text": "80°",
+        "hint": "This is the marked angle on the other slanted line."
+      },
+      {
+        "text": "100°",
+        "hint": "This is $180^\\circ - 80^\\circ$, on the other slanted line."
+      },
+      {
+        "text": "105°",
+        "hint": "Correct. Angle $y$ corresponds to the 105° angle."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Compare $y$ with the 105° angle along the line $WZ$.",
+    "explanation": "## Advanced explanation\n\nAngle $WTN$ and angle $TZQ$ are corresponding angles, so $y = 105^\\circ$.\n\n## Simplified explanation\n\nBoth angles are on the right of line $WZ$ and above their parallel line. So they are equal, and $y$ is 105°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram, in which $MN$ is parallel to $PQ$, to answer the question.\n\nAngles $NTZ$ and $QZT$ are",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq16-17.png",
+        "caption": "Parallel lines MN and PQ cut by two lines. On the left, the angle between M and the slanted line going down to S is 80°. On the right, a line from W passes through T on MN and Z on PQ. Angle y is between W and N at T, and the angle between T and Q at Z is 105°."
+      }
+    ],
+    "options": [
+      {
+        "text": "alternate angles",
+        "hint": "These angles are on the same side of $TZ$."
+      },
+      {
+        "text": "corresponding angles",
+        "hint": "These angles are between the parallel lines."
+      },
+      {
+        "text": "complementary angles",
+        "hint": "Complementary angles add to 90°."
+      },
+      {
+        "text": "supplementary angles",
+        "hint": "Correct. $75^\\circ + 105^\\circ = 180^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add the two angles.",
+    "explanation": "## Advanced explanation\n\nThey are co-interior angles between parallel lines, so they add to $180^\\circ$, which makes them supplementary.\n\n## Simplified explanation\n\nBoth angles are between the parallel lines on the same side of $TZ$. They add to 180°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $\\dfrac{1}{4}px^2 + \\dfrac{1}{8}px$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{4}px(x + 2)$",
+        "hint": "This expands to give $\\frac{1}{2}px$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}px\\left(x + \\dfrac{1}{2}\\right)$",
+        "hint": "Correct. It expands back to the original."
+      },
+      {
+        "text": "$\\dfrac{1}{8}px\\left(\\dfrac{1}{2}x + 2\\right)$",
+        "hint": "This expands to give $\\frac{1}{16}px^2$."
+      },
+      {
+        "text": "$\\dfrac{1}{8}px(x + 2)$",
+        "hint": "This expands to give $\\frac{1}{8}px^2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Expand each option to test it.",
+    "explanation": "## Advanced explanation\n\nTaking out $\\frac{1}{4}px$: $\\frac{1}{8}px \\div \\frac{1}{4}px = \\frac{1}{2}$, so the factorized form is $\\frac{1}{4}px\\left(x + \\frac{1}{2}\\right)$.\n\n## Simplified explanation\n\nTake out $\\frac{1}{4}px$. The first term leaves $x$, and the second leaves $\\frac{1}{2}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Jojo and Fiifi shared an amount of money in the ratio $3 : 4$ respectively. If Fiifi had ₵140,000.00, how much was shared?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵200,000.00",
+        "hint": "Fiifi's 4 parts are ₵140,000.00, so the 7 parts are more than this."
+      },
+      {
+        "text": "₵220,000.00",
+        "hint": "Fiifi's 4 parts are ₵140,000.00, so 1 part is ₵35,000.00."
+      },
+      {
+        "text": "₵245,000.00",
+        "hint": "Correct. $7 \\times 35{,}000 = 245{,}000$."
+      },
+      {
+        "text": "₵280,000.00",
+        "hint": "This is 8 parts. The total is 7 parts."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "₵140,000.00 is 4 parts. Find 1 part.",
+    "explanation": "## Advanced explanation\n\nTotal $= \\frac{7}{4} \\times 140{,}000 = 245{,}000$.\n\n## Simplified explanation\n\n4 parts make ₵140,000, so 1 part is ₵35,000. There are 7 parts altogether, which is ₵245,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $6(7a + 4) - 3(8a + 9)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$18a - 3$",
+        "hint": "Correct. $42a + 24 - 24a - 27$."
+      },
+      {
+        "text": "$18a + 51$",
+        "hint": "$-3 \\times 9$ is $-27$."
+      },
+      {
+        "text": "$42a - 27$",
+        "hint": "Include $-24a$ and $+24$."
+      },
+      {
+        "text": "$66a - 3$",
+        "hint": "$-3 \\times 8a$ is $-24a$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply out both brackets.",
+    "explanation": "## Advanced explanation\n\n$42a + 24 - 24a - 27 = 18a - 3$.\n\n## Simplified explanation\n\nThe brackets give $42a + 24$ and $-24a - 27$. Then $42a - 24a = 18a$ and $24 - 27 = -3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man invested ₵500,000.00 at 15% simple interest per annum for 2 years. Calculate the amount at the end of the period.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵350,000.00",
+        "hint": "The amount is more than the money invested."
+      },
+      {
+        "text": "₵650,000.00",
+        "hint": "Correct. $500{,}000 + 150{,}000$."
+      },
+      {
+        "text": "₵750,000.00",
+        "hint": "Interest for 2 years is ₵150,000.00."
+      },
+      {
+        "text": "₵800,000.00",
+        "hint": "Interest for 2 years is ₵150,000.00."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Amount $=$ principal $+$ interest.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{500{,}000 \\times 15 \\times 2}{100} = 150{,}000$, so $A = 650{,}000$.\n\n## Simplified explanation\n\n15% of ₵500,000 is ₵75,000 a year, which is ₵150,000 in 2 years. Adding the ₵500,000 gives ₵650,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $m$ the subject of $p = \\dfrac{3m + 1}{m}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$m = 3p + 1$",
+        "hint": "Multiply both sides by $m$ first."
+      },
+      {
+        "text": "$m = p - 3$",
+        "hint": "This leaves out the 1 on top."
+      },
+      {
+        "text": "$m = \\dfrac{1}{p - 3}$",
+        "hint": "Correct. $m(p - 3) = 1$."
+      },
+      {
+        "text": "$m = \\dfrac{3p + 1}{p}$",
+        "hint": "This swaps $m$ and $p$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply by $m$, then collect the $m$ terms.",
+    "explanation": "## Advanced explanation\n\n$pm = 3m + 1$, so $m(p - 3) = 1$ and $m = \\frac{1}{p - 3}$.\n\n## Simplified explanation\n\nMultiply by $m$ to get $pm = 3m + 1$. Move $3m$ across, take out $m$, and divide by $p - 3$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $200 \\times 0.01 \\times 372$, leaving your answer in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$74.4 \\times 10^1$",
+        "hint": "74.4 is not between 1 and 10."
+      },
+      {
+        "text": "$7.44 \\times 10^1$",
+        "hint": "This equals 74.4."
+      },
+      {
+        "text": "$7.44 \\times 10^2$",
+        "hint": "Correct. The product is 744."
+      },
+      {
+        "text": "$7.44 \\times 10^3$",
+        "hint": "This equals 7,440."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$200 \\times 0.01 = 2$.",
+    "explanation": "## Advanced explanation\n\n$200 \\times 0.01 \\times 372 = 2 \\times 372 = 744 = 7.44 \\times 10^2$.\n\n## Simplified explanation\n\n$200 \\times 0.01$ is 2, and $2 \\times 372 = 744$. Moving the point 2 places gives $7.44 \\times 10^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What percentage of 5 is 0.25?",
+    "media": [],
+    "options": [
+      {
+        "text": "4%",
+        "hint": "4% of 5 is 0.2."
+      },
+      {
+        "text": "5%",
+        "hint": "Correct. $\\frac{0.25}{5} \\times 100 = 5$."
+      },
+      {
+        "text": "20%",
+        "hint": "20% of 5 is 1."
+      },
+      {
+        "text": "25%",
+        "hint": "25% of 5 is 1.25."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 0.25 by 5, then multiply by 100.",
+    "explanation": "## Advanced explanation\n\n$\\frac{0.25}{5} \\times 100\\% = 5\\%$.\n\n## Simplified explanation\n\n$0.25 \\div 5 = 0.05$, and $0.05 \\times 100 = 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the area of the figure $ABCD$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq25.png",
+        "caption": "Trapezium ABCD with right angles at D and C. DA is 12 cm, DC is 6 cm and CB is 18 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "72 cm²",
+        "hint": "This is only the rectangle."
+      },
+      {
+        "text": "90 cm²",
+        "hint": "Correct. $\\frac{1}{2}(12 + 18) \\times 6 = 90$."
+      },
+      {
+        "text": "108 cm²",
+        "hint": "This uses $18 \\times 6$, the whole base."
+      },
+      {
+        "text": "126 cm²",
+        "hint": "Use the area of a trapezium."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The figure is a trapezium.",
+    "explanation": "## Advanced explanation\n\n$A = \\frac{1}{2}(12 + 18) \\times 6 = 90$ cm².\n\n## Simplified explanation\n\nAdd the parallel sides to get 30, and halve to get 15. Multiply by the height 6 to get 90.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a : 27 = 6 : 18$, find $a$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "$4 : 27$ is not the same as $1 : 3$."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $9 : 27 = 6 : 18 = 1 : 3$."
+      },
+      {
+        "text": "51",
+        "hint": "This adds. Use the ratio instead."
+      },
+      {
+        "text": "81",
+        "hint": "This multiplies 27 by 3. Divide instead."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Simplify $6 : 18$ first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{a}{27} = \\frac{6}{18} = \\frac{1}{3}$, so $a = 9$.\n\n## Simplified explanation\n\n$6 : 18$ is $1 : 3$. A third of 27 is 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram shows a circle with centre $O$. If $A$ and $B$ are points on the circle, what name is given to the shaded region?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq28.png",
+        "caption": "Circle with centre O and chord AB. The smaller region between chord AB and the arc is shaded."
+      }
+    ],
+    "options": [
+      {
+        "text": "Chord",
+        "hint": "A chord is the straight line $AB$."
+      },
+      {
+        "text": "Segment",
+        "hint": "Correct. A segment lies between a chord and an arc."
+      },
+      {
+        "text": "Sector",
+        "hint": "A sector is bounded by two radii and an arc."
+      },
+      {
+        "text": "Arc",
+        "hint": "An arc is the curved line alone."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The region is bounded by a chord and an arc.",
+    "explanation": "## Advanced explanation\n\nA segment is the region between a chord and the arc it cuts off.\n\n## Simplified explanation\n\nThe shaded part is cut off by the straight line $AB$ and the curve. That is a segment.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An amount of ₵5,400.00 is shared among three sisters in the ratio of their ages. Their ages are 10 years, 6 years and 2 years. Find the share of the youngest sister.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵300.00",
+        "hint": "1 part is ₵300.00, and she gets 2 parts."
+      },
+      {
+        "text": "₵600.00",
+        "hint": "Correct. $\\frac{2}{18} \\times 5{,}400 = 600$."
+      },
+      {
+        "text": "₵1,200.00",
+        "hint": "This doubles her share."
+      },
+      {
+        "text": "₵1,800.00",
+        "hint": "This is the share of the middle sister."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The ratio has $10 + 6 + 2 = 18$ parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{2}{18} \\times 5{,}400 = 600$.\n\n## Simplified explanation\n\nThere are 18 parts, so each part is ₵300. The youngest gets 2 parts, which is ₵600.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Least Common Multiple (L.C.M.) of 4, 5 and 6.",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "6 does not divide 20."
+      },
+      {
+        "text": "24",
+        "hint": "5 does not divide 24."
+      },
+      {
+        "text": "30",
+        "hint": "4 does not divide 30."
+      },
+      {
+        "text": "60",
+        "hint": "Correct. 4, 5 and 6 all divide 60."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$\\text{LCM} = 2^2 \\times 3 \\times 5 = 60$.\n\n## Simplified explanation\n\nCount in 5s until you reach a number that 4 and 6 also divide. That number is 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $(a + 2b)(a - 2b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$a^2 - 4ab - 4b^2$",
+        "hint": "The middle terms cancel."
+      },
+      {
+        "text": "$a^2 + 4ab - 4b^2$",
+        "hint": "The middle terms cancel."
+      },
+      {
+        "text": "$a^2 - 4b^2$",
+        "hint": "Correct. This is a difference of two squares."
+      },
+      {
+        "text": "$a^2 + 4b^2$",
+        "hint": "$2b \\times -2b$ is $-4b^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "This is a difference of two squares.",
+    "explanation": "## Advanced explanation\n\n$(x + y)(x - y) = x^2 - y^2$, with $x = a$ and $y = 2b$.\n\n## Simplified explanation\n\n$a \\times a = a^2$. The middle terms $-2ab$ and $+2ab$ cancel. Last, $2b \\times -2b = -4b^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If a woman was paid ₵180,000.00 for working for $4\\dfrac{1}{2}$ days, how much would be paid for one day?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵40,000.00",
+        "hint": "Correct. $180{,}000 \\div 4.5 = 40{,}000$."
+      },
+      {
+        "text": "₵45,000.00",
+        "hint": "This is $180{,}000 \\div 4$. Divide by 4.5."
+      },
+      {
+        "text": "₵54,000.00",
+        "hint": "Divide by 4.5."
+      },
+      {
+        "text": "₵81,000.00",
+        "hint": "Divide by 4.5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide the pay by the number of days.",
+    "explanation": "## Advanced explanation\n\n$180{,}000 \\div \\frac{9}{2} = 180{,}000 \\times \\frac{2}{9} = 40{,}000$.\n\n## Simplified explanation\n\n$4\\frac{1}{2}$ is $\\frac{9}{2}$. $180{,}000 \\div 9 = 20{,}000$, and doubling gives ₵40,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.68 as a fraction in its lowest term.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{7}{25}$",
+        "hint": "This equals 0.28."
+      },
+      {
+        "text": "$\\dfrac{17}{25}$",
+        "hint": "Correct. $\\frac{68}{100} = \\frac{17}{25}$."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This equals 0.6."
+      },
+      {
+        "text": "$\\dfrac{7}{15}$",
+        "hint": "This is about 0.47."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write 0.68 over 100 and reduce.",
+    "explanation": "## Advanced explanation\n\n$0.68 = \\frac{68}{100} = \\frac{17}{25}$.\n\n## Simplified explanation\n\n0.68 is 68 hundredths. Divide the top and bottom by 4 to get $\\frac{17}{25}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write down all the integers within the interval $21 < y \\le 27$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{21, 22, 23, 24, 25, 26, 27\\}$",
+        "hint": "$21 < y$ leaves out 21."
+      },
+      {
+        "text": "$\\{22, 23, 24, 25, 26, 27\\}$",
+        "hint": "Correct. 21 is left out and 27 is included."
+      },
+      {
+        "text": "$\\{21, 22, 23, 24, 25, 26\\}$",
+        "hint": "This leaves out 27 and includes 21."
+      },
+      {
+        "text": "$\\{22, 23, 24, 25, 26\\}$",
+        "hint": "$y \\le 27$ includes 27."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$<$ leaves out the end value, and $\\le$ includes it.",
+    "explanation": "## Advanced explanation\n\nThe bound 21 is excluded and the bound 27 is included.\n\n## Simplified explanation\n\n$y$ must be bigger than 21, so start at 22. $y$ can equal 27, so end at 27.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $(2^6 \\times 3^4) \\div (2^4 \\times 3^2)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "Correct. Subtract the powers of each number."
+      },
+      {
+        "text": "$2^2 \\times 3^6$",
+        "hint": "Subtract the powers of 3 as well."
+      },
+      {
+        "text": "$2^{10} \\times 3^2$",
+        "hint": "Subtract the powers of 2 as well."
+      },
+      {
+        "text": "$2^{10} \\times 3^6$",
+        "hint": "This adds the powers. Subtract them when dividing."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract the powers of each base.",
+    "explanation": "## Advanced explanation\n\n$2^{6 - 4} \\times 3^{4 - 2} = 2^2 \\times 3^2$.\n\n## Simplified explanation\n\nFor 2, the powers give $6 - 4 = 2$. For 3, they give $4 - 2 = 2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is represented by vector $\\overrightarrow{AB}$ in the diagram?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007secaq36.png",
+        "caption": "Compass directions at A. The 5 cm vector from A to B points below east, making 45° with the east line."
+      }
+    ],
+    "options": [
+      {
+        "text": "(5 cm, 045°)",
+        "hint": "This points north-east."
+      },
+      {
+        "text": "(5 cm, 135°)",
+        "hint": "Correct. It points south-east, $90^\\circ + 45^\\circ$ from north."
+      },
+      {
+        "text": "(5 cm, 180°)",
+        "hint": "This points due south."
+      },
+      {
+        "text": "(5 cm, 225°)",
+        "hint": "This points south-west."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Bearings are measured clockwise from north.",
+    "explanation": "## Advanced explanation\n\nFrom north, turn $90^\\circ$ to reach east, then $45^\\circ$ more to reach $B$. The bearing is $135^\\circ$.\n\n## Simplified explanation\n\nGoing clockwise from north to east is 90°. The arrow is another 45° past east, which makes 135°. The length is 5 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Vectors",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $y$, if $3 + 3y = 1 - 13y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-\\dfrac{1}{8}$",
+        "hint": "Correct. $16y = -2$."
+      },
+      {
+        "text": "$-\\dfrac{1}{4}$",
+        "hint": "Move $-13y$ across to get $16y$, not $8y$."
+      },
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Check the sign: $1 - 3 = -2$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Check the sign: $1 - 3 = -2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Collect the $y$ terms on one side.",
+    "explanation": "## Advanced explanation\n\n$3y + 13y = 1 - 3$, so $16y = -2$ and $y = -\\frac{1}{8}$.\n\n## Simplified explanation\n\nMoving terms gives $16y = -2$. Dividing gives $-\\frac{2}{16}$, which is $-\\frac{1}{8}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $37_{\\text{ten}}$ to a base two numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "100101",
+        "hint": "Correct. $32 + 4 + 1 = 37$."
+      },
+      {
+        "text": "100111",
+        "hint": "This equals 39."
+      },
+      {
+        "text": "101101",
+        "hint": "This equals 45."
+      },
+      {
+        "text": "110101",
+        "hint": "This equals 53."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write 37 using powers of 2.",
+    "explanation": "## Advanced explanation\n\n$37 = 2^5 + 2^2 + 2^0$, which gives $100101_{\\text{two}}$.\n\n## Simplified explanation\n\n37 is 32 plus 4 plus 1. Put 1s in those places and 0s in the others to get 100101.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The length of a rectangular playing field is 5 metres longer than its width. If the perimeter of the field is 150 metres, find its width.",
+    "media": [],
+    "options": [
+      {
+        "text": "30 metres",
+        "hint": "Then the perimeter would be 130 metres."
+      },
+      {
+        "text": "35 metres",
+        "hint": "Correct. $2(35 + 40) = 150$."
+      },
+      {
+        "text": "40 metres",
+        "hint": "This is the length."
+      },
+      {
+        "text": "45 metres",
+        "hint": "Then the perimeter would be 190 metres."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Let the width be $w$, so the length is $w + 5$.",
+    "explanation": "## Advanced explanation\n\n$2(w + w + 5) = 150$, so $2w + 5 = 75$ and $w = 35$.\n\n## Simplified explanation\n\nHalf the perimeter is 75. Take away the extra 5 to get 70, and halve it to get a width of 35.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the vector $m = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix}$ and $n = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$, find $m - 2n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$",
+        "hint": "For the top, $3 - (-2) = 5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$",
+        "hint": "For the top, $3 - (-2) = 5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ 4 \\end{pmatrix}$",
+        "hint": "For the bottom, $2 - 6 = -4$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 5 \\\\ -4 \\end{pmatrix}$",
+        "hint": "Correct. $3 + 2 = 5$ and $2 - 6 = -4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Double $n$ first, then subtract.",
+    "explanation": "## Advanced explanation\n\n$m - 2n = \\begin{pmatrix} 3 \\\\ 2 \\end{pmatrix} - \\begin{pmatrix} -2 \\\\ 6 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ -4 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $n$ gives $-2$ and 6. On top, $3 - (-2) = 5$. Below, $2 - 6 = -4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2007 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a class of 39 students, 19 offer French and 25 offer Ga. Five students do not offer any of the two languages. How many students offer only French?",
+    "media": [],
+    "answer": "Students who offer at least one language: $39 - 5 = 34$\n\nBoth languages: $19 + 25 - 34 = 10$\n\nOnly French: $19 - 10 = 9$\n\n> [!answer]\n> {{green:9}}",
+    "hint": "Take out the five students first.",
+    "explanation": "## Advanced explanation\n\n$n(F \\cup G) = n(F) + n(G) - n(F \\cap G)$, so $34 = 44 - n(F \\cap G)$.\n\n## Simplified explanation\n\n34 students offer a language. French and Ga add to 44, which is 10 too many, so 10 offer both. French alone is $19 - 10 = 9$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $AC$ is parallel to $DG$, angle $BFG = 118^\\circ$ and angle $ABE = 83^\\circ$. Find the value of\n\n(i) angle $CBF$;\n\n(ii) $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007q1.png",
+        "caption": "Parallel lines AC and DG. B is on AC, and E and F are on DG. Angle ABE is 83°, angle EBF is x and angle BFG is 118°."
+      }
+    ],
+    "answer": "**(i)** Angles $CBF$ and $BFG$ are co-interior:\n\n$$\\text{Angle } CBF = 180^\\circ - 118^\\circ = 62^\\circ$$\n\n**(ii)** Angles on the straight line $AC$:\n\n$$83 + x + 62 = 180$$\n\n$$x = 35$$\n\n> [!answer]\n> **(i)** {{green:$62^\\circ$}}  **(ii)** {{green:$x = 35$}}",
+    "hint": "Co-interior angles between parallel lines add to 180°.",
+    "explanation": "## Advanced explanation\n\nCheck with triangle $BEF$: angle $BEF = 83^\\circ$ (alternate to $ABE$) and angle $BFE = 62^\\circ$, so $x = 180 - 83 - 62 = 35$.\n\n## Simplified explanation\n\nAngle $CBF$ and the 118° angle are between the parallel lines on the same side, so they add to 180°, which gives 62°. The three angles at $B$ make a straight line, so $x = 180 - 83 - 62 = 35$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A fair die is thrown once.\n\n(i) Write down the set of all the possible outcomes.\n\n(ii) Find the probability of obtaining a multiple of 2.\n\n(iii) What is the probability of obtaining a prime number?",
+    "media": [],
+    "answer": "**(i)** $\\{1, 2, 3, 4, 5, 6\\}$\n\n**(ii)** Multiples of 2 are 2, 4 and 6: $\\frac{3}{6} = \\frac{1}{2}$\n\n**(iii)** Prime numbers are 2, 3 and 5: $\\frac{3}{6} = \\frac{1}{2}$\n\n> [!answer]\n> **(i)** {{green:$\\{1, 2, 3, 4, 5, 6\\}$}}  **(ii)** {{green:$\\frac{1}{2}$}}  **(iii)** {{green:$\\frac{1}{2}$}}",
+    "hint": "1 is not a prime number.",
+    "explanation": "## Advanced explanation\n\nAll six outcomes are equally likely, so $P = \\frac{\\text{favourable outcomes}}{6}$.\n\n## Simplified explanation\n\nA die shows 1 to 6. Three of them, 2, 4 and 6, are multiples of 2. Three of them, 2, 3 and 5, are prime. So both probabilities are one half.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A water tank in the form of a cuboid of height 22 cm and a rectangular base of length 7 cm and width 5 cm is filled with water. The water is then poured into a cylindrical container of diameter 14 cm. Calculate the height of the water in the cylindrical container. $\\left(\\text{Take } \\pi = \\dfrac{22}{7}\\right)$",
+    "media": [],
+    "answer": "Volume of water: $22 \\times 7 \\times 5 = 770$ cm³\n\nThe radius of the container is 7 cm:\n\n$$\\frac{22}{7} \\times 7^2 \\times h = 770$$\n\n$$154h = 770$$\n\n$$h = 5$$\n\n> [!answer]\n> {{green:5 cm}}",
+    "hint": "The volume of the water does not change when it is poured.",
+    "explanation": "## Advanced explanation\n\nEquate the two volumes: $lwH = \\pi r^2 h$.\n\n## Simplified explanation\n\nThe tank holds 770 cm³. The circular base of the container is 154 cm². Then $770 \\div 154 = 5$ cm.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A trader is given a 15 percent discount on goods bought from a factory. If the original price of an item in the factory is ₵45,000,000.00, calculate\n\n(i) the discount on the item;\n\n(ii) the amount the trader paid for the item.",
+    "media": [],
+    "answer": "**(i)** $\\frac{15}{100} \\times 45{,}000{,}000 = 6{,}750{,}000$\n\n**(ii)** $45{,}000{,}000 - 6{,}750{,}000 = 38{,}250{,}000$\n\n> [!answer]\n> **(i)** {{green:₵6,750,000.00}}  **(ii)** {{green:₵38,250,000.00}}",
+    "hint": "Find 15% of the price, then subtract it.",
+    "explanation": "## Advanced explanation\n\nThe trader pays 85% of the price: $0.85 \\times 45{,}000{,}000 = 38{,}250{,}000$.\n\n## Simplified explanation\n\n10% of the price is ₵4,500,000 and 5% is ₵2,250,000. So the discount is ₵6,750,000. Taking it off the price leaves ₵38,250,000.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the truth set of $\\dfrac{x - 3}{3} \\le \\dfrac{1}{2} + x$ and describe how to illustrate your answer on the number line.",
+    "media": [],
+    "answer": "Multiply both sides by 6:\n\n$$2(x - 3) \\le 3 + 6x$$\n\n$$2x - 6 \\le 3 + 6x$$\n\n$$-9 \\le 4x$$\n\n$$x \\ge -2\\frac{1}{4}$$\n\nOn the number line, draw a solid dot at $-2\\frac{1}{4}$ with an arrow pointing to the right.\n\n> [!answer]\n> {{green:$\\left\\{x : x \\ge -2\\frac{1}{4}\\right\\}$}}",
+    "hint": "The LCM of 3 and 2 is 6.",
+    "explanation": "## Advanced explanation\n\nCollecting $x$ on the right avoids dividing by a negative number. The dot is solid because the end value is included.\n\n## Simplified explanation\n\nMultiply by 6 to clear the fractions. Moving terms leaves $-9 \\le 4x$. Dividing by 4 gives $x \\ge -2\\frac{1}{4}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(a) construct triangle $PQR$ such that the length of $PQ = 10$ cm, angle $QPR = 90^\\circ$ and angle $PQR = 30^\\circ$;\n\n(b) measure the length of $PR$;\n\n(c) bisect the angle $QRP$ to meet $PQ$ at $M$;\n\n(d) with $M$ as centre and radius $MP$, draw a circle;\n\n(e) measure the radius of the circle.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|PQ| = 10$ cm. Construct $90^\\circ$ at $P$, and construct $60^\\circ$ at $Q$ and bisect it to get $30^\\circ$. The arms meet at $R$.\n\nBisect angle $QRP$ to meet $PQ$ at $M$, and draw the circle with radius $MP$.\n\n> [!answer]\n> **(b)** {{green:$|PR| \\approx 5.8$ cm}}  **(e)** {{green:radius $\\approx 3.3$ cm}}",
+    "hint": "Angle $QRP$ is $180^\\circ - 90^\\circ - 30^\\circ = 60^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$|PR| = 10\\tan 30^\\circ \\approx 5.77$ cm. Angle $PRM = 30^\\circ$, so $|MP| = |PR|\\tan 30^\\circ \\approx 3.33$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the 10 cm base with the 90° and 30° angles. $PR$ measures about 5.8 cm. Split the angle at $R$ in half and draw the line down to $PQ$. The distance from $M$ to $P$ is about 3.3 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The bar chart is for the distribution of marks in a class test.\n\n(a)(i) Write down the frequency table for the distribution.\n\n(a)(ii) Use the table to find the mean mark.\n\n(b) If the pass mark is 4, how many pupils failed the test?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2007/2007q4.png",
+        "caption": "Bar chart of marks and frequency. Mark 1: 0, mark 2: 3, mark 3: 2, mark 4: 1, mark 5: 4, mark 6: 5, mark 7: 4, mark 8: 1, mark 9: 2, mark 10: 3."
+      }
+    ],
+    "answer": "**(a)(i)**\n\n| Mark | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|---|---|---|\n| Frequency | 3 | 2 | 1 | 4 | 5 | 4 | 1 | 2 | 3 |\n\n**(a)(ii)** $\\sum f = 25$ and $\\sum fx = 6 + 6 + 4 + 20 + 30 + 28 + 8 + 18 + 30 = 150$\n\n$$\\frac{150}{25} = 6$$\n\n**(b)** Marks below 4: $3 + 2 = 5$\n\n> [!answer]\n> **(a)(ii)** {{green:6}}  **(b)** {{green:5}}",
+    "hint": "The height of each bar is the frequency.",
+    "explanation": "## Advanced explanation\n\nA pupil with exactly the pass mark has passed, so only marks of 2 and 3 count as failures. No pupil scored 1.\n\n## Simplified explanation\n\nRead each bar height to fill in the table. Multiply each mark by its frequency to get 150, then divide by 25 to get 6. Only those with 2 or 3 marks failed, which is 5 pupils.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Mr Jones used 173 units of electricity last month. If the charge for the first 110 units was ₵150 per unit and ₵200 per unit for the rest, calculate the total bill for Mr. Jones.",
+    "media": [],
+    "answer": "First 110 units: $110 \\times 150 = 16{,}500$\n\nThe rest: $173 - 110 = 63$ units, and $63 \\times 200 = 12{,}600$\n\nTotal: $16{,}500 + 12{,}600 = 29{,}100$\n\n> [!answer]\n> {{green:₵29,100.00}}",
+    "hint": "Split the units into two groups.",
+    "explanation": "## Advanced explanation\n\nThis is a two-part tariff, so each block of units is charged at its own rate.\n\n## Simplified explanation\n\nThe first 110 units cost ₵16,500. The other 63 units cost ₵12,600. Together that is ₵29,100.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Express 4 hours in seconds, leaving your answer in standard form.",
+    "media": [],
+    "answer": "$$4 \\times 60 \\times 60 = 14{,}400$$\n\n$$14{,}400 = 1.44 \\times 10^4$$\n\n> [!answer]\n> {{green:$1.44 \\times 10^4$ seconds}}",
+    "hint": "One hour has 3,600 seconds.",
+    "explanation": "## Advanced explanation\n\nA number in standard form is written as $A \\times 10^n$ with $1 \\le A < 10$.\n\n## Simplified explanation\n\n$4 \\times 3{,}600 = 14{,}400$. Moving the point 4 places gives $1.44 \\times 10^4$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Standard Form",
+      "Time"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given the vectors $r = \\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix}$ and $p = \\begin{pmatrix} -7 \\\\ -9 \\end{pmatrix}$, and $q = 2p - r$, find $q$.",
+    "media": [],
+    "answer": "$$q = \\begin{pmatrix} -14 \\\\ -18 \\end{pmatrix} - \\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix} = \\begin{pmatrix} -17 \\\\ -13 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} -17 \\\\ -13 \\end{pmatrix}$}}",
+    "hint": "Double $p$ first, then subtract $r$.",
+    "explanation": "## Advanced explanation\n\nSubtraction is carried out component by component: $-18 - (-5) = -13$.\n\n## Simplified explanation\n\nDoubling $p$ gives $-14$ and $-18$. On top, $-14 - 3 = -17$. Below, $-18 + 5 = -13$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. On the same graph sheet, mark the $x$-axis from $-10$ to $10$ and the $y$-axis from $-10$ to $10$.\n\n(i) Plot $A(2, 2)$, $B(6, 2)$ and $C(4, 6)$. Join $AB$, $BC$ and $AC$.\n\n(ii) Draw the image triangle $A_1B_1C_1$ of triangle $ABC$ under a clockwise rotation of $90^\\circ$ about the origin, where $A \\to A_1$, $B \\to B_1$ and $C \\to C_1$. Write down the coordinates of the image.\n\n(iii) Draw the image triangle $A_2B_2C_2$ of triangle $ABC$ under a reflection in the $y$-axis, where $A \\to A_2$, $B \\to B_2$ and $C \\to C_2$. Write down the coordinates of the image.",
+    "media": [],
+    "answer": "**(ii)** A clockwise rotation of $90^\\circ$ changes $(x, y)$ to $(y, -x)$:\n\n$A_1(2, -2)$, $B_1(2, -6)$, $C_1(6, -4)$\n\n**(iii)** Reflecting in the $y$-axis changes $(x, y)$ to $(-x, y)$:\n\n$A_2(-2, 2)$, $B_2(-6, 2)$, $C_2(-4, 6)$\n\n> [!answer]\n> **(ii)** {{green:$A_1(2, -2)$, $B_1(2, -6)$, $C_1(6, -4)$}}\n>\n> **(iii)** {{green:$A_2(-2, 2)$, $B_2(-6, 2)$, $C_2(-4, 6)$}}",
+    "hint": "For the rotation, swap the coordinates and then change the sign of the new $y$.",
+    "explanation": "## Advanced explanation\n\nBoth transformations are isometries, so each image is congruent to triangle $ABC$.\n\n## Simplified explanation\n\nTo turn a point 90° clockwise, $(x, y)$ becomes $(y, -x)$. To reflect in the $y$-axis, keep $y$ and flip the sign of $x$.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "When 12 is added to a certain number and the sum is multiplied by 4, the result is 60. Find the number.",
+    "media": [],
+    "answer": "$$4(x + 12) = 60$$\n\n$$x + 12 = 15$$\n\n$$x = 3$$\n\n> [!answer]\n> {{green:3}}",
+    "hint": "Let the number be $x$ and write an equation.",
+    "explanation": "## Advanced explanation\n\nCheck: $(3 + 12) \\times 4 = 60$.\n\n## Simplified explanation\n\nWork backwards. $60 \\div 4 = 15$, and $15 - 12 = 3$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2007 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  }
+]

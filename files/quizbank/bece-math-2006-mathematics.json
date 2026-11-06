@@ -1,0 +1,1579 @@
+[
+  {
+    "type": "choice",
+    "body": "If $Q = \\{1, 3, 5, 7, 9, 11, 13, 15\\}$ and $R = \\{1, 2, 3, 5, 6, 7, 10, 11, 12\\}$, find $Q \\cap R$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{1, 3, 5, 7, 11\\}$",
+        "hint": "Correct. These are in both sets."
+      },
+      {
+        "text": "$\\{1, 3, 5, 7, 9, 11\\}$",
+        "hint": "9 is not in $R$."
+      },
+      {
+        "text": "$\\{2, 4, 8, 9, 13, 14\\}$",
+        "hint": "None of 2, 4, 8 or 14 is in $Q$."
+      },
+      {
+        "text": "$\\{1, 2, 3, 5, 6, 7, 9, 10, 11, 12\\}$",
+        "hint": "This is close to the union. $\\cap$ means members of both sets."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$\\cap$ means the members found in both sets.",
+    "explanation": "## Advanced explanation\n\n$Q \\cap R$ holds the elements common to $Q$ and $R$, which are 1, 3, 5, 7 and 11.\n\n## Simplified explanation\n\nGo through $Q$ and keep the numbers that are also in $R$: 1, 3, 5, 7 and 11.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x$ is an integer, list the members of the set $\\{2 \\le x < 10\\}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{3, 4, 5, 6, 7, 8, 9\\}$",
+        "hint": "$2 \\le x$ includes 2."
+      },
+      {
+        "text": "$\\{2, 3, 4, 5, 6, 7, 8, 9\\}$",
+        "hint": "Correct. 2 is included and 10 is not."
+      },
+      {
+        "text": "$\\{3, 4, 5, 6, 7, 8, 9, 10\\}$",
+        "hint": "This includes 10 and leaves out 2."
+      },
+      {
+        "text": "$\\{2, 3, 4, 5, 6, 7, 8, 9, 10\\}$",
+        "hint": "$x < 10$ leaves out 10."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$\\le$ includes the end value, and $<$ leaves it out.",
+    "explanation": "## Advanced explanation\n\nThe lower bound 2 is included and the upper bound 10 is excluded.\n\n## Simplified explanation\n\nStart at 2, because $x$ can equal 2. Stop at 9, because $x$ must be less than 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Sets",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{4}{3}x - \\dfrac{2}{9}x$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{9}x$",
+        "hint": "Change $\\frac{4}{3}$ to ninths first."
+      },
+      {
+        "text": "$\\dfrac{2}{3}x$",
+        "hint": "Change $\\frac{4}{3}$ to ninths first."
+      },
+      {
+        "text": "$\\dfrac{10}{9}x$",
+        "hint": "Correct. $\\frac{12}{9} - \\frac{2}{9} = \\frac{10}{9}$."
+      },
+      {
+        "text": "$\\dfrac{14}{9}x$",
+        "hint": "This adds. Subtract instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use 9 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{12x}{9} - \\frac{2x}{9} = \\frac{10x}{9}$.\n\n## Simplified explanation\n\n$\\frac{4}{3}$ is $\\frac{12}{9}$. Then $12 - 2 = 10$, so the answer is $\\frac{10}{9}x$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The number of boys in a school is 120. If the ratio of boys to girls is $5 : 7$, find the total number of students in the school.",
+    "media": [],
+    "options": [
+      {
+        "text": "240",
+        "hint": "This assumes equal numbers of boys and girls."
+      },
+      {
+        "text": "288",
+        "hint": "Correct. 12 parts of 24 each."
+      },
+      {
+        "text": "600",
+        "hint": "This is $120 \\times 5$."
+      },
+      {
+        "text": "840",
+        "hint": "This is $120 \\times 7$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "5 parts are 120. Find 1 part.",
+    "explanation": "## Advanced explanation\n\n$\\frac{120}{5} = 24$ per part, and the total is $12 \\times 24 = 288$.\n\n## Simplified explanation\n\n5 parts make 120, so 1 part is 24. There are 12 parts altogether, which is 288.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the circumference of a circle with radius 3.5 cm. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "options": [
+      {
+        "text": "11 cm",
+        "hint": "This is $\\pi r$. Use $2\\pi r$."
+      },
+      {
+        "text": "22 cm",
+        "hint": "Correct. $2 \\times \\frac{22}{7} \\times 3.5 = 22$."
+      },
+      {
+        "text": "35 cm",
+        "hint": "Use $2\\pi r$."
+      },
+      {
+        "text": "38.5 cm",
+        "hint": "This is the area, $\\pi r^2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Circumference $= 2\\pi r$.",
+    "explanation": "## Advanced explanation\n\n$C = 2 \\times \\frac{22}{7} \\times 3.5 = 22$ cm.\n\n## Simplified explanation\n\nTwice 3.5 is 7. Then $\\frac{22}{7} \\times 7 = 22$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is the set of prime factors of 12?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{1, 3\\}$",
+        "hint": "1 is not prime, and 2 is missing."
+      },
+      {
+        "text": "$\\{2, 3\\}$",
+        "hint": "Correct. $12 = 2^2 \\times 3$."
+      },
+      {
+        "text": "$\\{2, 4, 6, 12\\}$",
+        "hint": "Of these, only 2 is prime."
+      },
+      {
+        "text": "$\\{2, 3, 4, 6\\}$",
+        "hint": "4 and 6 are not prime."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "List the factors of 12 that are prime.",
+    "explanation": "## Advanced explanation\n\n$12 = 2^2 \\times 3$, so the prime factors are 2 and 3.\n\n## Simplified explanation\n\nThe factors of 12 are 1, 2, 3, 4, 6 and 12. Only 2 and 3 are prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The base of an isosceles triangle is 7 cm long. Each of the other two sides is $x$ cm long. What will be the expression for its perimeter?",
+    "media": [],
+    "options": [
+      {
+        "text": "$x + 7$",
+        "hint": "There are two sides of length $x$."
+      },
+      {
+        "text": "$x + 14$",
+        "hint": "The base is 7 cm, and there are two sides of $x$ cm."
+      },
+      {
+        "text": "$2x - 7$",
+        "hint": "Add all the sides."
+      },
+      {
+        "text": "$2x + 7$",
+        "hint": "Correct. $x + x + 7$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add all three sides.",
+    "explanation": "## Advanced explanation\n\n$P = x + x + 7 = 2x + 7$.\n\n## Simplified explanation\n\nThe three sides are $x$, $x$ and 7. Adding them gives $2x + 7$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 0.003858 to three significant figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.00385",
+        "hint": "The next digit is 8, so round up."
+      },
+      {
+        "text": "0.00386",
+        "hint": "Correct. The first three significant figures are 3, 8, 5, and 5 rounds up."
+      },
+      {
+        "text": "0.0039",
+        "hint": "This is two significant figures."
+      },
+      {
+        "text": "386",
+        "hint": "The zeros after the point keep the place value."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Zeros before the first non-zero digit do not count.",
+    "explanation": "## Advanced explanation\n\nThe significant figures start at 3. The fourth is 8, so $0.003858 \\approx 0.00386$.\n\n## Simplified explanation\n\nStart counting at the 3. Keep 3, 8, 5. The next digit is 8, so 5 rounds up to 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $a - 3ab$ when $a = 2$ and $b = 3$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-20$",
+        "hint": "$a$ is $+2$, so $2 - 18 = -16$."
+      },
+      {
+        "text": "$-16$",
+        "hint": "Correct. $2 - 18 = -16$."
+      },
+      {
+        "text": "$16$",
+        "hint": "$2 - 18$ is negative."
+      },
+      {
+        "text": "$20$",
+        "hint": "$3ab$ is subtracted."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find $3ab$ first.",
+    "explanation": "## Advanced explanation\n\n$3ab = 3(2)(3) = 18$, so $a - 3ab = 2 - 18 = -16$.\n\n## Simplified explanation\n\n$3 \\times 2 \\times 3 = 18$. Then $2 - 18 = -16$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy sold some oranges at three for ₵500.00. If his total sales was ₵100,000.00, how many oranges did he sell?",
+    "media": [],
+    "options": [
+      {
+        "text": "300",
+        "hint": "This sells for ₵50,000.00."
+      },
+      {
+        "text": "400",
+        "hint": "Check: ₵100,000.00 is 200 lots of ₵500.00."
+      },
+      {
+        "text": "500",
+        "hint": "Check: ₵100,000.00 is 200 lots of ₵500.00."
+      },
+      {
+        "text": "600",
+        "hint": "Correct. $200 \\times 3 = 600$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How many lots of ₵500.00 are there?",
+    "explanation": "## Advanced explanation\n\n$\\frac{100{,}000}{500} = 200$ lots, and $200 \\times 3 = 600$ oranges.\n\n## Simplified explanation\n\n₵100,000 is 200 lots of ₵500. Each lot has 3 oranges, which gives 600.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A train travels at a speed of 80 km per hour. How long will it take to travel a distance of 320 km?",
+    "media": [],
+    "options": [
+      {
+        "text": "2 hours",
+        "hint": "This covers 160 km."
+      },
+      {
+        "text": "3 hours",
+        "hint": "This covers 240 km."
+      },
+      {
+        "text": "4 hours",
+        "hint": "Correct. $320 \\div 80 = 4$."
+      },
+      {
+        "text": "5 hours",
+        "hint": "This covers 400 km."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Time $=$ distance $\\div$ speed.",
+    "explanation": "## Advanced explanation\n\n$t = \\frac{320}{80} = 4$ hours.\n\n## Simplified explanation\n\n$320 \\div 80 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following figures is a rhombus?",
+    "media": [],
+    "options": [
+      {
+        "text": "",
+        "hint": "This is a parallelogram. Its adjacent sides are not marked as equal.",
+        "imageUrl": "/quizbank/bece/maths/2006/2006secaq12a.png"
+      },
+      {
+        "text": "",
+        "hint": "This is a trapezium, with one pair of parallel sides.",
+        "imageUrl": "/quizbank/bece/maths/2006/2006secaq12b.png"
+      },
+      {
+        "text": "",
+        "hint": "Correct. All four sides are marked as equal.",
+        "imageUrl": "/quizbank/bece/maths/2006/2006secaq12c.png"
+      },
+      {
+        "text": "",
+        "hint": "This is a kite, with two different pairs of equal sides.",
+        "imageUrl": "/quizbank/bece/maths/2006/2006secaq12d.png"
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A rhombus has four equal sides.",
+    "explanation": "## Advanced explanation\n\nA rhombus is a parallelogram with all sides equal, shown here by the same mark on each side.\n\n## Simplified explanation\n\nLook for the figure with the same mark on all four sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Three children share an amount of ₵910,800.00 in the ratio $2 : 3 : 4$. What will be the highest share?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵202,400.00",
+        "hint": "This is the smallest share, 2 parts."
+      },
+      {
+        "text": "₵303,600.00",
+        "hint": "This is the middle share, 3 parts."
+      },
+      {
+        "text": "₵404,800.00",
+        "hint": "Correct. $4 \\times 101{,}200 = 404{,}800$."
+      },
+      {
+        "text": "₵455,400.00",
+        "hint": "This is half of the amount. The highest share is $\\frac{4}{9}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The ratio has $2 + 3 + 4 = 9$ parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{4}{9} \\times 910{,}800 = 404{,}800$.\n\n## Simplified explanation\n\n$910{,}800 \\div 9 = 101{,}200$ per part. The highest share has 4 parts, which is ₵404,800.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The next term in the sequence 3, 6, 12, 24, ... is",
+    "media": [],
+    "options": [
+      {
+        "text": "27",
+        "hint": "This adds 3. Each term is doubled."
+      },
+      {
+        "text": "30",
+        "hint": "This adds 6. Each term is doubled."
+      },
+      {
+        "text": "36",
+        "hint": "This adds 12. Each term is doubled."
+      },
+      {
+        "text": "48",
+        "hint": "Correct. $24 \\times 2 = 48$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How do you get from one term to the next?",
+    "explanation": "## Advanced explanation\n\nThe sequence is geometric with common ratio 2, so the next term is $24 \\times 2 = 48$.\n\n## Simplified explanation\n\nEach number is double the one before it. Double 24 is 48.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 350 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 5 \\times 7$",
+        "hint": "This equals 70."
+      },
+      {
+        "text": "$2 \\times 5^2 \\times 7$",
+        "hint": "Correct. $2 \\times 25 \\times 7 = 350$."
+      },
+      {
+        "text": "$2 \\times 5 \\times 7^2$",
+        "hint": "This equals 490."
+      },
+      {
+        "text": "$2^2 \\times 5 \\times 7$",
+        "hint": "This equals 140."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide by 2, then by 5, and keep going.",
+    "explanation": "## Advanced explanation\n\n$350 = 2 \\times 175 = 2 \\times 5 \\times 35 = 2 \\times 5^2 \\times 7$.\n\n## Simplified explanation\n\n$350 = 2 \\times 175$, and 175 is $25 \\times 7$. So $350 = 2 \\times 5^2 \\times 7$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 962 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$96.2 \\times 10$",
+        "hint": "This equals 962, but 96.2 is not between 1 and 10."
+      },
+      {
+        "text": "$9.62 \\times 10^2$",
+        "hint": "Correct. 9.62 is between 1 and 10."
+      },
+      {
+        "text": "$0.962 \\times 10^3$",
+        "hint": "This equals 962, but 0.962 is less than 1."
+      },
+      {
+        "text": "$0.0962 \\times 10^2$",
+        "hint": "This equals 9.62."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The first number must be at least 1 and less than 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $A \\times 10^n$ with $1 \\le A < 10$, so $962 = 9.62 \\times 10^2$.\n\n## Simplified explanation\n\nMove the point 2 places to the left to get 9.62. So the power of 10 is 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is shown on the number line, where $p \\in$ {real numbers}?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006secaq17.png",
+        "caption": "Number line from −3 to 4 with an open dot at −2, a solid dot at 3 and a line joining them."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2 < p < 3$",
+        "hint": "The solid dot at 3 means that 3 is included."
+      },
+      {
+        "text": "$-2 \\ge p > 3$",
+        "hint": "No number is both at most $-2$ and greater than 3."
+      },
+      {
+        "text": "$-2 < p \\le 3$",
+        "hint": "Correct. The dot is open at $-2$ and solid at 3."
+      },
+      {
+        "text": "$-2 > p \\ge 3$",
+        "hint": "No number is both below $-2$ and at least 3."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "An open dot leaves out the value, and a solid dot includes it.",
+    "explanation": "## Advanced explanation\n\nThe segment runs between an open circle at $-2$ and a solid circle at 3, which gives $-2 < p \\le 3$.\n\n## Simplified explanation\n\n$p$ is above $-2$, but not equal to it, because that dot is open. $p$ can reach 3, because that dot is solid.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the equation: $\\dfrac{x + 2}{3} + 2x = 10$",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "This gives $\\frac{5}{3} + 6$, which is not 10."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. $2 + 8 = 10$."
+      },
+      {
+        "text": "5",
+        "hint": "This gives $\\frac{7}{3} + 10$, which is more than 10."
+      },
+      {
+        "text": "6",
+        "hint": "This gives $\\frac{8}{3} + 12$, which is more than 10."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply every term by 3.",
+    "explanation": "## Advanced explanation\n\n$x + 2 + 6x = 30$, so $7x = 28$ and $x = 4$.\n\n## Simplified explanation\n\nMultiplying by 3 gives $x + 2 + 6x = 30$. Then $7x = 28$, so $x = 4$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the fractions $\\dfrac{3}{4}, \\dfrac{2}{3}, \\dfrac{4}{5}$ in ascending order of magnitude.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{4}, \\dfrac{2}{3}, \\dfrac{4}{5}$",
+        "hint": "$\\frac{2}{3}$ is the smallest, so it must come first."
+      },
+      {
+        "text": "$\\dfrac{4}{5}, \\dfrac{2}{3}, \\dfrac{3}{4}$",
+        "hint": "$\\frac{4}{5}$ is the largest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{4}{5}, \\dfrac{3}{4}, \\dfrac{2}{3}$",
+        "hint": "This is descending order."
+      },
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{3}{4}, \\dfrac{4}{5}$",
+        "hint": "Correct. As decimals: 0.67, 0.75, 0.80."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Ascending means smallest first.",
+    "explanation": "## Advanced explanation\n\nOver 60: $\\frac{40}{60} < \\frac{45}{60} < \\frac{48}{60}$.\n\n## Simplified explanation\n\nAs decimals they are 0.75, 0.67 and 0.80. From smallest to largest, the order is $\\frac{2}{3}$, $\\frac{3}{4}$, $\\frac{4}{5}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $87_{\\text{ten}}$ as a base five numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "$302_{\\text{five}}$",
+        "hint": "This equals 77."
+      },
+      {
+        "text": "$322_{\\text{five}}$",
+        "hint": "Correct. $75 + 10 + 2 = 87$."
+      },
+      {
+        "text": "$3022_{\\text{five}}$",
+        "hint": "This equals 387."
+      },
+      {
+        "text": "$3202_{\\text{five}}$",
+        "hint": "This equals 427."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide by 5 repeatedly and read the remainders upwards.",
+    "explanation": "## Advanced explanation\n\n$87 = 3 \\times 25 + 2 \\times 5 + 2$, which gives $322_{\\text{five}}$.\n\n## Simplified explanation\n\n87 holds three 25s (75), leaving 12. That is two 5s and 2 left over, so the digits are 3, 2, 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 6 blue and 5 black balls. What is the probability of picking a black ball at random?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{11}$",
+        "hint": "There are 5 black balls, not 1."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "Use the number of black balls over the total."
+      },
+      {
+        "text": "$\\dfrac{5}{11}$",
+        "hint": "Correct. 5 of the 11 balls are black."
+      },
+      {
+        "text": "$\\dfrac{6}{11}$",
+        "hint": "This is the probability of a blue ball."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The total number of balls is 11.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{black}) = \\frac{5}{6 + 5} = \\frac{5}{11}$.\n\n## Simplified explanation\n\nThere are 11 balls, and 5 are black.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{2^3 \\times 3^4 \\times 3^3}{2^2 \\times 2 \\times 3^5}$",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "The powers of 2 cancel, which leaves only powers of 3."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $2^0 \\times 3^2 = 9$."
+      },
+      {
+        "text": "12",
+        "hint": "The powers of 2 cancel, which leaves only powers of 3."
+      },
+      {
+        "text": "18",
+        "hint": "The powers of 2 cancel, which leaves only powers of 3."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Collect the powers of 2 and the powers of 3 separately.",
+    "explanation": "## Advanced explanation\n\n$2^{3 - 3} \\times 3^{7 - 5} = 2^0 \\times 3^2 = 9$.\n\n## Simplified explanation\n\nOn the top and bottom, the 2s are both $2^3$, so they cancel. The 3s give $3^7 \\div 3^5 = 3^2 = 9$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the ages of members of a juvenile club.\n\nHow many people are in the club?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006secaq23-24.png",
+        "caption": "Table of ages and frequencies. Age 8: 5, age 9: 10, age 10: 6, age 11: 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "15",
+        "hint": "Add all the frequencies."
+      },
+      {
+        "text": "20",
+        "hint": "Add all the frequencies."
+      },
+      {
+        "text": "30",
+        "hint": "Correct. $5 + 10 + 6 + 9 = 30$."
+      },
+      {
+        "text": "38",
+        "hint": "This adds the ages, not the frequencies."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the Frequency row.",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 5 + 10 + 6 + 9 = 30$.\n\n## Simplified explanation\n\nAdd the bottom row: $5 + 10 + 6 + 9 = 30$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the ages of members of a juvenile club.\n\nWhat is the modal age of the members of the club?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006secaq23-24.png",
+        "caption": "Table of ages and frequencies. Age 8: 5, age 9: 10, age 10: 6, age 11: 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "8 years",
+        "hint": "Only 5 members are 8."
+      },
+      {
+        "text": "9 years",
+        "hint": "Correct. Age 9 has the highest frequency, 10."
+      },
+      {
+        "text": "10 years",
+        "hint": "This is the highest frequency, not the age."
+      },
+      {
+        "text": "11 years",
+        "hint": "Only 9 members are 11."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The mode has the highest frequency.",
+    "explanation": "## Advanced explanation\n\nThe highest frequency is 10, at age 9.\n\n## Simplified explanation\n\nThe most members, 10 of them, are aged 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an examination, 154 out of 175 candidates passed. What percentage failed?",
+    "media": [],
+    "options": [
+      {
+        "text": "6%",
+        "hint": "Failed: $175 - 154 = 21$."
+      },
+      {
+        "text": "12%",
+        "hint": "Correct. $\\frac{21}{175} \\times 100 = 12$."
+      },
+      {
+        "text": "13%",
+        "hint": "Check the division: $\\frac{21}{175} = 0.12$."
+      },
+      {
+        "text": "18%",
+        "hint": "Check the division: $\\frac{21}{175} = 0.12$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find how many candidates failed first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{175 - 154}{175} \\times 100\\% = 12\\%$.\n\n## Simplified explanation\n\n21 candidates failed out of 175. That is 12 out of every 100.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $(6 - x)(6 + y)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$36 - 6x + 6y - xy$",
+        "hint": "Correct. Multiply each term by each term."
+      },
+      {
+        "text": "$36 - 6x - 6y + xy$",
+        "hint": "$6 \\times y$ is $+6y$, and $-x \\times y$ is $-xy$."
+      },
+      {
+        "text": "$36 - 6x - xy$",
+        "hint": "$6 \\times y$ gives $+6y$."
+      },
+      {
+        "text": "$36 - 6y - xy$",
+        "hint": "$-x \\times 6$ gives $-6x$, and $6 \\times y$ gives $+6y$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$6(6 + y) - x(6 + y) = 36 + 6y - 6x - xy$.\n\n## Simplified explanation\n\n$6 \\times 6 = 36$, $6 \\times y = 6y$, $-x \\times 6 = -6x$ and $-x \\times y = -xy$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Highest Common Factor (HCF) of 20, 12 and 28.",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "2 is a common factor, but not the highest."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. 4 divides all three numbers."
+      },
+      {
+        "text": "8",
+        "hint": "8 does not divide 20."
+      },
+      {
+        "text": "12",
+        "hint": "12 does not divide 20."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the largest number that divides all three.",
+    "explanation": "## Advanced explanation\n\n$20 = 2^2 \\times 5$, $12 = 2^2 \\times 3$ and $28 = 2^2 \\times 7$, so the HCF is $2^2 = 4$.\n\n## Simplified explanation\n\n4 goes into 20, 12 and 28. After dividing, 5, 3 and 7 share no other factor.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $F = \\dfrac{9}{5}C + 32$, find $F$ when $C = 40$.",
+    "media": [],
+    "options": [
+      {
+        "text": "49",
+        "hint": "$\\frac{9}{5} \\times 40 = 72$."
+      },
+      {
+        "text": "78.4",
+        "hint": "$\\frac{9}{5} \\times 40 = 72$."
+      },
+      {
+        "text": "104",
+        "hint": "Correct. $72 + 32 = 104$."
+      },
+      {
+        "text": "129.6",
+        "hint": "$\\frac{9}{5} \\times 40 = 72$, not 97.6."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Substitute $C = 40$.",
+    "explanation": "## Advanced explanation\n\n$F = \\frac{9}{5}(40) + 32 = 72 + 32 = 104$.\n\n## Simplified explanation\n\nOne fifth of 40 is 8, and $8 \\times 9 = 72$. Adding 32 gives 104.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{2}{3}(27 - 12) - 6$",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "Correct. $10 - 6 = 4$."
+      },
+      {
+        "text": "6",
+        "hint": "Subtract the 6 after finding $\\frac{2}{3}$ of 15."
+      },
+      {
+        "text": "14",
+        "hint": "$\\frac{2}{3}$ of 15 is 10."
+      },
+      {
+        "text": "16",
+        "hint": "This adds 6. Subtract it."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{2}{3}(15) - 6 = 10 - 6 = 4$.\n\n## Simplified explanation\n\n$27 - 12 = 15$. Two thirds of 15 is 10. Then $10 - 6 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Fractions",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the figure, $PQR$ is a straight line. Angle $TQP = x^\\circ$, angle $TQS = 102^\\circ$ and angle $SQR = 2x^\\circ$. Find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006secaq30.png",
+        "caption": "Straight line PQR with lines from Q to T and S. Angle PQT is x°, angle TQS is 102° and angle SQR is 2x°."
+      }
+    ],
+    "options": [
+      {
+        "text": "78",
+        "hint": "This is $3x$. Divide it by 3."
+      },
+      {
+        "text": "39",
+        "hint": "$3x = 78$, so divide by 3, not 2."
+      },
+      {
+        "text": "34",
+        "hint": "This is $102 \\div 3$. Subtract 102 from 180 first."
+      },
+      {
+        "text": "26",
+        "hint": "Correct. $3x = 78$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Angles on a straight line add to 180°.",
+    "explanation": "## Advanced explanation\n\n$x + 102 + 2x = 180$, so $3x = 78$ and $x = 26$.\n\n## Simplified explanation\n\nThe three angles make a straight line. So $3x + 102 = 180$, then $3x = 78$ and $x = 26$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise: $22ab - 11ac + 6rb - 3rc$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(2b - c)(11a + 3r)$",
+        "hint": "Correct. $11a(2b - c) + 3r(2b - c)$."
+      },
+      {
+        "text": "$(2b + c)(11a - 3r)$",
+        "hint": "This expands to give $+11ac$."
+      },
+      {
+        "text": "$(2b - c)(11a - 3r)$",
+        "hint": "This expands to give $-6rb$."
+      },
+      {
+        "text": "$(2b + c)(11a + 3r)$",
+        "hint": "This expands to give $+11ac$ and $+3rc$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$11a(2b - c) + 3r(2b - c) = (2b - c)(11a + 3r)$.\n\n## Simplified explanation\n\nTake $11a$ out of the first pair and $3r$ out of the second. Both leave $(2b - c)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the sum of 124.3, 0.275 and 74.06. (Correct your answer to one decimal place.)",
+    "media": [],
+    "options": [
+      {
+        "text": "198.6",
+        "hint": "Correct. The sum is 198.635."
+      },
+      {
+        "text": "198.7",
+        "hint": "The second decimal digit is 3, so do not round up."
+      },
+      {
+        "text": "892.0",
+        "hint": "Line up the decimal points before adding."
+      },
+      {
+        "text": "892.4",
+        "hint": "Line up the decimal points before adding."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Line up the decimal points, then round.",
+    "explanation": "## Advanced explanation\n\nThe sum is 198.635. The digit after the first decimal place is 3, so round down to 198.6.\n\n## Simplified explanation\n\nAdding gives 198.635. Keep one decimal digit. The next digit is 3, so it stays 198.6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Operations",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $6p^3 \\times p^2 \\div 3p^4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2p$",
+        "hint": "Correct. $6 \\div 3 = 2$ and $3 + 2 - 4 = 1$."
+      },
+      {
+        "text": "$3p$",
+        "hint": "$6 \\div 3$ is 2."
+      },
+      {
+        "text": "$18p$",
+        "hint": "Divide by 3. Do not multiply."
+      },
+      {
+        "text": "$2p^2$",
+        "hint": "$3 + 2 - 4 = 1$, so the power is 1."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Deal with the numbers and the powers separately.",
+    "explanation": "## Advanced explanation\n\n$\\frac{6}{3}p^{3 + 2 - 4} = 2p$.\n\n## Simplified explanation\n\n$6 \\div 3 = 2$. For $p$, the powers give $3 + 2 - 4 = 1$. So the answer is $2p$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Indices",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mr Nkrumah saved ₵75,000.00 at a simple interest rate of 20% per annum for 3 years. Calculate the interest he earned on his savings.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵15,000.00",
+        "hint": "This is the interest for 1 year."
+      },
+      {
+        "text": "₵30,000.00",
+        "hint": "This is the interest for 2 years."
+      },
+      {
+        "text": "₵45,000.00",
+        "hint": "Correct. $15{,}000 \\times 3 = 45{,}000$."
+      },
+      {
+        "text": "₵60,000.00",
+        "hint": "This is the interest for 4 years."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$I = \\frac{PRT}{100}$.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{75{,}000 \\times 20 \\times 3}{100} = 45{,}000$.\n\n## Simplified explanation\n\n20% of ₵75,000 is ₵15,000 a year. Over 3 years, that is ₵45,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule for the mapping:\n\n| $n$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| Image | 10 | 21 | 32 | 43 | 54 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$n \\to 10n$",
+        "hint": "When $n = 2$, this gives 20."
+      },
+      {
+        "text": "$n \\to (10n + 1)$",
+        "hint": "When $n = 1$, this gives 11."
+      },
+      {
+        "text": "$n \\to (11n - 1)$",
+        "hint": "Correct. When $n = 1$, this gives 10, and when $n = 2$, it gives 21."
+      },
+      {
+        "text": "$n \\to (7n + 3)$",
+        "hint": "When $n = 2$, this gives 17."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The image goes up by 11 each time.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 11, so the rule is $11n + c$. With $(1, 10)$, $c = -1$.\n\n## Simplified explanation\n\nEach step adds 11, so the rule starts with $11n$. When $n = 1$, $11n$ is 11, and 1 less makes 10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of the digit 9 in the number 624.93?",
+    "media": [],
+    "options": [
+      {
+        "text": "9 hundreds",
+        "hint": "The hundreds digit is 6."
+      },
+      {
+        "text": "9 tens",
+        "hint": "The tens digit is 2."
+      },
+      {
+        "text": "9 units",
+        "hint": "The units digit is 4."
+      },
+      {
+        "text": "9 tenths",
+        "hint": "Correct. 9 is the first digit after the point."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look at the digit just after the decimal point.",
+    "explanation": "## Advanced explanation\n\n$624.93 = 624 + \\frac{9}{10} + \\frac{3}{100}$.\n\n## Simplified explanation\n\nThe first place after the point is tenths, so the 9 stands for 9 tenths.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks obtained by 5 girls in a test are: 10, 15, 8, 18, 12. Find the median mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "This is the 2nd mark in order."
+      },
+      {
+        "text": "11",
+        "hint": "With 5 marks, the median is one of the marks."
+      },
+      {
+        "text": "12",
+        "hint": "Correct. In order, the middle mark is 12."
+      },
+      {
+        "text": "15",
+        "hint": "This is the 4th mark in order."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Arrange the marks in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: 8, 10, 12, 15, 18. The median is the 3rd value, 12.\n\n## Simplified explanation\n\nPut them in order: 8, 10, 12, 15, 18. The middle one is 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $P(3, 4)$ is translated by the vector $\\begin{pmatrix} 3 \\\\ -2 \\end{pmatrix}$ to a new point $P'$. Find the coordinates of the image $P'$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(0, 2)$",
+        "hint": "Add 3 to the $x$-coordinate."
+      },
+      {
+        "text": "$(6, -2)$",
+        "hint": "Add $-2$ to the $y$-coordinate, 4."
+      },
+      {
+        "text": "$(6, 2)$",
+        "hint": "Correct. $3 + 3 = 6$ and $4 - 2 = 2$."
+      },
+      {
+        "text": "$(6, 6)$",
+        "hint": "The second component is $-2$, so subtract 2."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the vector to the point.",
+    "explanation": "## Advanced explanation\n\n$P' = (3 + 3, 4 + (-2)) = (6, 2)$.\n\n## Simplified explanation\n\nMove 3 to the right and 2 down. So $x$ becomes 6 and $y$ becomes 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Transformations",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $KGM$ is a right-angled triangle and angle $GKM = 62^\\circ$. Find the angle of elevation of $K$ from $M$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006secaq39.png",
+        "caption": "Triangle KGM with a right angle at G and an angle of 62° at K."
+      }
+    ],
+    "options": [
+      {
+        "text": "$28^\\circ$",
+        "hint": "Correct. $90^\\circ - 62^\\circ = 28^\\circ$."
+      },
+      {
+        "text": "$62^\\circ$",
+        "hint": "This is the given angle at $K$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is the angle at $G$."
+      },
+      {
+        "text": "$118^\\circ$",
+        "hint": "This is $180^\\circ - 62^\\circ$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The angle of elevation of $K$ from $M$ is the angle at $M$.",
+    "explanation": "## Advanced explanation\n\nAngle $GMK = 180^\\circ - 90^\\circ - 62^\\circ = 28^\\circ$.\n\n## Simplified explanation\n\nThe angle at $M$ looks up from the ground to $K$. The angles of the triangle add to 180°, which leaves 28°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Geometry",
+      "Trigonometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given the vectors $a = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $b = \\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix}$, find $a + 2b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 13 \\end{pmatrix}$",
+        "hint": "Keep the signs: $-2 + 4$ and $3 - 10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ -13 \\end{pmatrix}$",
+        "hint": "For the bottom, $3 + (-10) = -7$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 7 \\end{pmatrix}$",
+        "hint": "Both signs are the wrong way round."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}$",
+        "hint": "Correct. $-2 + 4 = 2$ and $3 - 10 = -7$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Double $b$ first, then add.",
+    "explanation": "## Advanced explanation\n\n$a + 2b = \\begin{pmatrix} -2 + 4 \\\\ 3 - 10 \\end{pmatrix} = \\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $b$ gives 4 and $-10$. Adding $a$ gives 2 and $-7$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2006 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A trader sold 250 articles for ₵525,000.00 at a profit of 25%.\n\n(i) Calculate the cost price of each article.\n\n(ii) If the trader had wanted a 45% profit on the cost price, at what price should each of the articles have been sold?",
+    "media": [],
+    "answer": "**(i)** Selling price of each: $525{,}000 \\div 250 = 2{,}100$\n\nThis is 125% of the cost price:\n\n$$\\frac{100}{125} \\times 2{,}100 = 1{,}680$$\n\n**(ii)** $\\frac{145}{100} \\times 1{,}680 = 2{,}436$\n\n> [!answer]\n> **(i)** {{green:₵1,680.00}}  **(ii)** {{green:₵2,436.00}}",
+    "hint": "The selling price is 125% of the cost price.",
+    "explanation": "## Advanced explanation\n\nPercentage profit is based on the cost price, so the cost price is found by dividing by 1.25, not by subtracting 25% of the selling price.\n\n## Simplified explanation\n\nEach article sold for ₵2,100, which is 125% of its cost. So 1% is ₵16.80, and the cost is ₵1,680. Then 145% of ₵1,680 is ₵2,436.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the simple interest on ₵880,000.00 for $2\\dfrac{1}{2}$ years at $3\\dfrac{1}{4}\\%$ per annum.",
+    "media": [],
+    "answer": "$$I = \\frac{880{,}000 \\times 2.5 \\times 3.25}{100} = 71{,}500$$\n\n> [!answer]\n> {{green:₵71,500.00}}",
+    "hint": "Change the mixed numbers to decimals.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{PRT}{100}$ with $R = 3.25$ and $T = 2.5$.\n\n## Simplified explanation\n\n$3\\frac{1}{4}\\%$ of ₵880,000 is ₵28,600 a year. For $2\\frac{1}{2}$ years, that is ₵71,500.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The ratio of men to women in a village is $12 : 25$. If there are 120 men,\n\n(i) how many women are there?\n\n(ii) what is the total number of men and women?",
+    "media": [],
+    "answer": "**(i)** One part: $120 \\div 12 = 10$\n\nWomen: $25 \\times 10 = 250$\n\n**(ii)** $120 + 250 = 370$\n\n> [!answer]\n> **(i)** {{green:250}}  **(ii)** {{green:370}}",
+    "hint": "12 parts are 120 men.",
+    "explanation": "## Advanced explanation\n\n$\\frac{w}{120} = \\frac{25}{12}$, so $w = 250$.\n\n## Simplified explanation\n\n12 parts make 120, so each part is 10. Women are 25 parts, which is 250. Altogether there are 370 people.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A bag contains 70 pencils out of which 15 are green and 30 blue.\n\n(i) How many pencils of other colours are in the bag?\n\n(ii) A pencil is selected from the bag at random. What is the probability that it is blue?",
+    "media": [],
+    "answer": "**(i)** $70 - 15 - 30 = 25$\n\n**(ii)** $\\frac{30}{70} = \\frac{3}{7}$\n\n> [!answer]\n> **(i)** {{green:25}}  **(ii)** {{green:$\\frac{3}{7}$}}",
+    "hint": "Probability $=$ blue pencils $\\div$ all pencils.",
+    "explanation": "## Advanced explanation\n\nEach of the 70 pencils is equally likely to be picked.\n\n## Simplified explanation\n\nTake the green and blue pencils from 70 to leave 25. There are 30 blue pencils out of 70, and $\\frac{30}{70}$ reduces to $\\frac{3}{7}$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $\\dfrac{1}{3}(x - 1) - \\dfrac{1}{2}(x - 3) \\le 1\\dfrac{1}{4}$ and describe how to illustrate your answer on the number line.",
+    "media": [],
+    "answer": "Multiply both sides by 12:\n\n$$4(x - 1) - 6(x - 3) \\le 15$$\n\n$$4x - 4 - 6x + 18 \\le 15$$\n\n$$-2x \\le 1$$\n\n$$x \\ge -\\frac{1}{2}$$\n\nOn the number line, draw a solid dot at $-\\frac{1}{2}$ with an arrow pointing to the right.\n\n> [!answer]\n> {{green:$x \\ge -\\dfrac{1}{2}$}}",
+    "hint": "The LCM of 3, 2 and 4 is 12.",
+    "explanation": "## Advanced explanation\n\nDividing by $-2$ reverses the inequality sign.\n\n## Simplified explanation\n\nMultiplying by 12 clears the fractions. Simplifying gives $-2x + 14 \\le 15$, so $-2x \\le 1$. Dividing by $-2$ flips the sign, which gives $x \\ge -\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Using a pair of compasses and a ruler only, construct triangle $XYZ$ with $|XZ| = 12$ cm, $|XY| = 10$ cm and angle $XYZ = 90^\\circ$.\n\n(ii) Measure $|YZ|$.\n\n(iii) Calculate the area of triangle $XYZ$.\n\n(iv) Measure angle $ZXY$.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|XY| = 10$ cm and construct $90^\\circ$ at $Y$. With centre $X$ and radius 12 cm, draw an arc to cut the perpendicular at $Z$.\n\n**(iii)** With $|YZ| \\approx 6.6$ cm, the area is $\\frac{1}{2} \\times 10 \\times 6.6 = 33$ cm².\n\n> [!answer]\n> **(ii)** {{green:$|YZ| \\approx 6.6$ cm}}  **(iii)** {{green:about 33 cm²}}  **(iv)** {{green:angle $ZXY \\approx 34^\\circ$}}",
+    "hint": "$XZ$ is the hypotenuse, so it is opposite the right angle at $Y$.",
+    "explanation": "## Advanced explanation\n\nBy Pythagoras' theorem, $|YZ| = \\sqrt{144 - 100} \\approx 6.63$ cm. Also, $\\cos X = \\frac{10}{12}$, so angle $X \\approx 33.6^\\circ$.\n\n## Simplified explanation\n\nDraw the 10 cm side and a right angle at $Y$. Swing a 12 cm arc from $X$ to find $Z$. $YZ$ measures about 6.6 cm. The area is half of base times height, which is about 33 cm². The angle at $X$ is about 34°.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An isosceles triangle has a perimeter of $(9y - 15)$ cm. What is the length of each of the two equal sides, if its third side is $(3y - 7)$ cm?",
+    "media": [],
+    "answer": "The two equal sides together:\n\n$$(9y - 15) - (3y - 7) = 6y - 8$$\n\nEach side:\n\n$$\\frac{6y - 8}{2} = 3y - 4$$\n\n> [!answer]\n> {{green:$(3y - 4)$ cm}}",
+    "hint": "Take the third side from the perimeter, then halve.",
+    "explanation": "## Advanced explanation\n\nCheck: $2(3y - 4) + (3y - 7) = 9y - 15$.\n\n## Simplified explanation\n\nSubtract the third side from the perimeter to get $6y - 8$. Half of that is $3y - 4$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Algebra",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mapping has the rule $y = 2x + 3$.\n\n(a)(i) Copy the mapping and fill in the missing numbers.\n\n(a)(ii) Using a scale of 2 cm to 1 unit on both axes on a graph sheet, choose the origin $O$ and draw the perpendicular axes $Ox$ and $Oy$. Mark the $x$-axis from 0 to 5 and the $y$-axis from 0 to 12.\n\n(a)(iii) Plot on the graph sheet the ordered pairs $(x, y)$ from the mapping and join all the points using a straight edge.\n\n(b) From your graph, find:\n\n(i) $y$ when $x = 3.5$;\n\n(ii) $x$ when $y = 8$;\n\n(iii) the gradient of the line $y = 2x + 3$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006q4.png",
+        "caption": "Mapping from x to y. x is 0, 1, 2, 3, 4. y is given only as 5 when x = 1 and 7 when x = 2."
+      }
+    ],
+    "answer": "**(a)(i)**\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $y$ | 3 | 5 | 7 | 9 | 11 |\n\n**(b)** The rule gives the exact readings:\n\n**(i)** $y = 2(3.5) + 3 = 10$\n\n**(ii)** $8 = 2x + 3$, so $x = 2.5$\n\n**(iii)** $\\frac{5 - 3}{1 - 0} = 2$\n\n> [!answer]\n> **(b)(i)** {{green:$y = 10$}}  **(ii)** {{green:$x = 2.5$}}  **(iii)** {{green:2}}",
+    "hint": "Put each $x$ into the rule to fill in the mapping.",
+    "explanation": "## Advanced explanation\n\nIn $y = mx + c$, the gradient is $m$, so the gradient can also be read from the rule directly.\n\n## Simplified explanation\n\nDouble $x$ and add 3 to fill in the mapping. From the line, go up from 3.5 to read 10, and go across from 8 to read 2.5. Each step of 1 along raises $y$ by 2, so the gradient is 2.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Graphs",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A man spent $\\dfrac{1}{4}$ of his monthly salary on rent, $\\dfrac{2}{5}$ on food and $\\dfrac{1}{6}$ on books. If he still had ₵55,000.00 left, what was his monthly salary?",
+    "media": [],
+    "answer": "Fraction spent:\n\n$$\\frac{1}{4} + \\frac{2}{5} + \\frac{1}{6} = \\frac{15 + 24 + 10}{60} = \\frac{49}{60}$$\n\nFraction left: $\\frac{11}{60}$\n\n$$\\frac{11}{60}s = 55{,}000$$\n\n$$s = 300{,}000$$\n\n> [!answer]\n> {{green:₵300,000.00}}",
+    "hint": "Add the fractions he spent, using 60 as the denominator.",
+    "explanation": "## Advanced explanation\n\nCheck: rent ₵75,000, food ₵120,000, books ₵50,000 and ₵55,000 left add to ₵300,000.\n\n## Simplified explanation\n\nHe spent 49 sixtieths, so 11 sixtieths are left. If 11 parts are ₵55,000, then 1 part is ₵5,000, and 60 parts are ₵300,000.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The average age of a family of eight is 30 years. The average age of the six children in the family is 19 years. If the mother is four years younger than the father, calculate the age of the father.",
+    "media": [],
+    "answer": "Family total: $8 \\times 30 = 240$\n\nChildren total: $6 \\times 19 = 114$\n\nParents total: $240 - 114 = 126$\n\nLet the father be $f$ years old:\n\n$$f + (f - 4) = 126$$\n\n$$f = 65$$\n\n> [!answer]\n> {{green:65 years}}",
+    "hint": "Total $=$ average $\\times$ number of people.",
+    "explanation": "## Advanced explanation\n\nThe family of eight is the six children and two parents. The mother is 61, and $65 + 61 = 126$ agrees.\n\n## Simplified explanation\n\nThe family's ages add to 240 and the children's add to 114, which leaves 126 for the parents. Take off the 4-year gap to get 122, and halve it to get 61. The father is 4 more, which is 65.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Statistics",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of grades obtained by 120 students in an examination. Calculate the angle of each sector of a pie chart for the distribution.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2006/2006q6.jpg",
+        "caption": "Table of grades: A 14 students, B 30, C 52, D 24."
+      }
+    ],
+    "answer": "Each student takes $360^\\circ \\div 120 = 3^\\circ$.\n\n| Grade | Students | Angle |\n|---|---|---|\n| A | 14 | 42° |\n| B | 30 | 90° |\n| C | 52 | 156° |\n| D | 24 | 72° |\n\n> [!answer]\n> {{green:A 42°, B 90°, C 156°, D 72°}}",
+    "hint": "Find the angle for one student.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{f}{120} \\times 360^\\circ = 3f$ degrees. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 120 students and 360° in a circle, so each student is 3°. Multiply each number by 3, then draw the sectors with a protractor.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Evaluate: $5\\dfrac{7}{15} - 2\\dfrac{2}{3} + 1\\dfrac{5}{12}$",
+    "media": [],
+    "answer": "Over 60:\n\n$$\\frac{328}{60} - \\frac{160}{60} + \\frac{85}{60} = \\frac{253}{60} = 4\\frac{13}{60}$$\n\n> [!answer]\n> {{green:$4\\dfrac{13}{60}$}}",
+    "hint": "The LCM of 15, 3 and 12 is 60.",
+    "explanation": "## Advanced explanation\n\nWorking with whole numbers and fractions separately: $5 - 2 + 1 = 4$, and $\\frac{28 - 40 + 25}{60} = \\frac{13}{60}$.\n\n## Simplified explanation\n\nThe whole numbers give 4. Over 60, the fractions give $28 - 40 + 25 = 13$. So the answer is $4\\frac{13}{60}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorise $xy - xz + 5y - 5z$",
+    "media": [],
+    "answer": "$$x(y - z) + 5(y - z) = (x + 5)(y - z)$$\n\n> [!answer]\n> {{green:$(x + 5)(y - z)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nFactorisation by grouping works because both groups share the factor $(y - z)$.\n\n## Simplified explanation\n\nTake $x$ out of the first pair and 5 out of the second. Both leave $(y - z)$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2006 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  }
+]

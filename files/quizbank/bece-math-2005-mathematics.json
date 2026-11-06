@@ -1,0 +1,1515 @@
+[
+  {
+    "type": "choice",
+    "body": "In the diagram, $A$ and $B$ are two intersecting sets. How many members are in the set $B$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2005/2005secaq1.png",
+        "caption": "Venn diagram with sets A and B. A only holds a and c, the overlap holds d, and B only holds b, i, o and u."
+      }
+    ],
+    "options": [
+      {
+        "text": "2",
+        "hint": "$B$ also includes the members outside the overlap."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number of members in $A$."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $b, i, o, u$ and $d$."
+      },
+      {
+        "text": "7",
+        "hint": "This is the number of members in $A \\cup B$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Remember to count the overlap.",
+    "explanation": "## Advanced explanation\n\n$B = \\{b, i, o, u, d\\}$, so $n(B) = 5$.\n\n## Simplified explanation\n\nCircle $B$ has 4 letters on its own and $d$ in the overlap, which makes 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is not a factor of 18?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "$18 = 3 \\times 6$."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. 4 does not divide 18 exactly."
+      },
+      {
+        "text": "6",
+        "hint": "$18 = 6 \\times 3$."
+      },
+      {
+        "text": "9",
+        "hint": "$18 = 9 \\times 2$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 18 by each number.",
+    "explanation": "## Advanced explanation\n\n$18 \\div 4 = 4.5$, which is not a whole number.\n\n## Simplified explanation\n\n3, 6 and 9 all go into 18 exactly, but 4 does not.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Multiply 0.014 by 0.2",
+    "media": [],
+    "options": [
+      {
+        "text": "0.00028",
+        "hint": "This has too many decimal places."
+      },
+      {
+        "text": "0.0028",
+        "hint": "Correct. $14 \\times 2 = 28$, with 4 decimal places."
+      },
+      {
+        "text": "0.028",
+        "hint": "This is $0.014 \\times 2$."
+      },
+      {
+        "text": "0.28",
+        "hint": "This has too few decimal places."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply 14 by 2 and count the decimal places.",
+    "explanation": "## Advanced explanation\n\n$0.014 \\times 0.2 = \\frac{14 \\times 2}{10{,}000} = 0.0028$.\n\n## Simplified explanation\n\n$14 \\times 2 = 28$. The numbers have 3 and 1 decimal places, so the answer needs 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $A = \\{b, c, i\\}$ and $B = \\{a, e, f, i\\}$, find $A \\cap B$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{a, b, c, e, f, i\\}$",
+        "hint": "This is $A \\cup B$."
+      },
+      {
+        "text": "$\\{f, i\\}$",
+        "hint": "$f$ is not in $A$."
+      },
+      {
+        "text": "$\\{a\\}$",
+        "hint": "$a$ is not in $A$."
+      },
+      {
+        "text": "$\\{i\\}$",
+        "hint": "Correct. $i$ is the only common member."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cap$ means the members found in both sets.",
+    "explanation": "## Advanced explanation\n\nThe only element common to $A$ and $B$ is $i$.\n\n## Simplified explanation\n\nLook for a letter in both sets. Only $i$ appears in both.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = 64$ and $b = 2^2$, find $\\dfrac{a}{b}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$32$",
+        "hint": "This divides by 2. $b$ is 4."
+      },
+      {
+        "text": "$16$",
+        "hint": "Correct. $64 \\div 4 = 16$."
+      },
+      {
+        "text": "$\\dfrac{1}{16}$",
+        "hint": "This is $\\frac{b}{a}$."
+      },
+      {
+        "text": "$\\dfrac{1}{32}$",
+        "hint": "This is upside down, and $b$ is 4, not 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the value of $b$ first.",
+    "explanation": "## Advanced explanation\n\n$b = 2^2 = 4$, so $\\frac{a}{b} = \\frac{64}{4} = 16$.\n\n## Simplified explanation\n\n$2^2$ is 4. Then $64 \\div 4 = 16$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following numbers from the highest to the lowest: $\\dfrac{2}{3}$, $-7$, $0$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-7, 0, \\dfrac{2}{3}$",
+        "hint": "This goes from lowest to highest."
+      },
+      {
+        "text": "$-7, \\dfrac{2}{3}, 0$",
+        "hint": "$-7$ is the lowest, so it must come last."
+      },
+      {
+        "text": "$0, \\dfrac{2}{3}, -7$",
+        "hint": "$\\frac{2}{3}$ is greater than 0."
+      },
+      {
+        "text": "$\\dfrac{2}{3}, 0, -7$",
+        "hint": "Correct. Positive, then zero, then negative."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Imagine the numbers on a number line.",
+    "explanation": "## Advanced explanation\n\nOn the number line, $\\frac{2}{3} > 0 > -7$.\n\n## Simplified explanation\n\nPositive numbers are highest, then 0, and negative numbers are lowest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $2^2 \\times 3^2 \\times 2^3 \\times 3^4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 3^6$",
+        "hint": "Add the powers of 2 as well."
+      },
+      {
+        "text": "$2^4 \\times 3^7$",
+        "hint": "Add the powers: $2 + 3$ and $2 + 4$."
+      },
+      {
+        "text": "$2^5 \\times 3^6$",
+        "hint": "Correct. Add the powers of each number."
+      },
+      {
+        "text": "$2^6 \\times 3^8$",
+        "hint": "This multiplies the powers. Add them instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the powers of each base.",
+    "explanation": "## Advanced explanation\n\n$2^{2 + 3} \\times 3^{2 + 4} = 2^5 \\times 3^6$.\n\n## Simplified explanation\n\nFor 2, the powers give $2 + 3 = 5$. For 3, they give $2 + 4 = 6$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an examination, 40% of the students failed. The number of students that passed was 180. How many students failed?",
+    "media": [],
+    "options": [
+      {
+        "text": "120",
+        "hint": "Correct. 60% is 180, so 40% is 120."
+      },
+      {
+        "text": "270",
+        "hint": "This is $180 \\times 1.5$. Fewer students failed than passed."
+      },
+      {
+        "text": "300",
+        "hint": "This is the total number of students."
+      },
+      {
+        "text": "450",
+        "hint": "This treats 180 as 40% of the students."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The students who passed make up 60%.",
+    "explanation": "## Advanced explanation\n\n$60\\% = 180$, so $100\\% = 300$ and the number who failed is $0.4 \\times 300 = 120$.\n\n## Simplified explanation\n\n60% passed, which is 180 students. So 20% is 60 students, and 40% is 120.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{1}{3}\\{(5 - 1) - (2 - 7)\\}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "$-(2 - 7)$ is $+5$."
+      },
+      {
+        "text": "$-1$",
+        "hint": "Inside the braces, $4 + 5 = 9$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Inside the braces, $4 + 5 = 9$."
+      },
+      {
+        "text": "$3$",
+        "hint": "Correct. $\\frac{1}{3}(9) = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out the inner brackets first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{3}\\{4 - (-5)\\} = \\frac{1}{3}(9) = 3$.\n\n## Simplified explanation\n\nThe brackets give 4 and $-5$. Taking away $-5$ adds 5, which makes 9. A third of 9 is 3.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $6n + 4 = 16$, find the value of $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. $6n = 12$."
+      },
+      {
+        "text": "3",
+        "hint": "This gives $6(3) + 4 = 22$."
+      },
+      {
+        "text": "5",
+        "hint": "This gives $6(5) + 4 = 34$."
+      },
+      {
+        "text": "6",
+        "hint": "This gives $6(6) + 4 = 40$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract 4 from both sides first.",
+    "explanation": "## Advanced explanation\n\n$6n = 12$, so $n = 2$.\n\n## Simplified explanation\n\n$16 - 4 = 12$, and $12 \\div 6 = 2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the next term in the following set of numbers: $\\{1, 3, 7, 15, 31, \\ldots\\}$?",
+    "media": [],
+    "options": [
+      {
+        "text": "35",
+        "hint": "The gaps double each time: 2, 4, 8, 16."
+      },
+      {
+        "text": "39",
+        "hint": "The gaps double each time: 2, 4, 8, 16."
+      },
+      {
+        "text": "47",
+        "hint": "The next gap is 32, not 16."
+      },
+      {
+        "text": "63",
+        "hint": "Correct. $31 + 32 = 63$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look at the gaps between the terms.",
+    "explanation": "## Advanced explanation\n\nThe differences are powers of 2, and the terms follow $2^n - 1$, so the next term is $2^6 - 1 = 63$.\n\n## Simplified explanation\n\nThe gaps are 2, 4, 8 and 16. The next gap is 32, and $31 + 32 = 63$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the mean of the following set of numbers: 10, 12, 14 and 16.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "Add all four numbers and divide by 4."
+      },
+      {
+        "text": "13",
+        "hint": "Correct. $52 \\div 4 = 13$."
+      },
+      {
+        "text": "14",
+        "hint": "Add all four numbers and divide by 4."
+      },
+      {
+        "text": "15",
+        "hint": "Add all four numbers and divide by 4."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Mean $=$ total $\\div$ number of values.",
+    "explanation": "## Advanced explanation\n\n$\\frac{10 + 12 + 14 + 16}{4} = \\frac{52}{4} = 13$.\n\n## Simplified explanation\n\nThe numbers add to 52. Sharing among 4 gives 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3a^2 \\times 2ab \\times 4bc$",
+    "media": [],
+    "options": [
+      {
+        "text": "$9a^3b^2c$",
+        "hint": "This adds the numbers. Multiply them."
+      },
+      {
+        "text": "$12a^2b^2c$",
+        "hint": "$3 \\times 2 \\times 4$ is 24, and the power of $a$ is 3."
+      },
+      {
+        "text": "$24a^2b^2c$",
+        "hint": "$a^2 \\times a = a^3$."
+      },
+      {
+        "text": "$24a^3b^2c$",
+        "hint": "Correct. Multiply the numbers and add the powers."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the numbers, then add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$3 \\times 2 \\times 4 = 24$, $a^{2 + 1} = a^3$, $b^{1 + 1} = b^2$ and $c$ stays.\n\n## Simplified explanation\n\nThe numbers give 24. There are three $a$s, two $b$s and one $c$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $3(2a + 3b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2a + 9b$",
+        "hint": "Multiply $2a$ by 3 as well."
+      },
+      {
+        "text": "$5a + 6b$",
+        "hint": "This adds 3. Multiply instead."
+      },
+      {
+        "text": "$6a + 3b$",
+        "hint": "Multiply $3b$ by 3 as well."
+      },
+      {
+        "text": "$6a + 9b$",
+        "hint": "Correct. Multiply each term by 3."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply each term in the bracket by 3.",
+    "explanation": "## Advanced explanation\n\n$3(2a) + 3(3b) = 6a + 9b$.\n\n## Simplified explanation\n\n$3 \\times 2a = 6a$ and $3 \\times 3b = 9b$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the area of a circle whose diameter is 28 cm. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "options": [
+      {
+        "text": "44 cm²",
+        "hint": "This is $\\pi r$. Area uses $\\pi r^2$."
+      },
+      {
+        "text": "88 cm²",
+        "hint": "This is the circumference."
+      },
+      {
+        "text": "352 cm²",
+        "hint": "Use $\\frac{22}{7} \\times 14 \\times 14$."
+      },
+      {
+        "text": "616 cm²",
+        "hint": "Correct. $\\frac{22}{7} \\times 14^2 = 616$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Halve the diameter to get the radius.",
+    "explanation": "## Advanced explanation\n\n$A = \\pi r^2 = \\frac{22}{7} \\times 14^2 = 616$ cm².\n\n## Simplified explanation\n\nThe radius is 14 cm. Then $\\frac{22}{7} \\times 14 \\times 14 = 616$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In sharing 95 oranges with Dede, Fofo kept 45 of them and shared the rest equally with Dede. How many oranges did Dede get?",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "The rest is 50, and half of it is 25."
+      },
+      {
+        "text": "25",
+        "hint": "Correct. $50 \\div 2 = 25$."
+      },
+      {
+        "text": "40",
+        "hint": "The rest is 50, and half of it is 25."
+      },
+      {
+        "text": "55",
+        "hint": "This is more than the rest."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the number of oranges left after Fofo keeps 45.",
+    "explanation": "## Advanced explanation\n\n$\\frac{95 - 45}{2} = 25$.\n\n## Simplified explanation\n\n$95 - 45 = 50$ oranges are left. Sharing them equally gives 25 each.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $c = \\dfrac{b^2 + 4r}{2ar}$, find $c$ when $b = 3$, $r = 4$ and $a = 5$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{19}{40}$",
+        "hint": "$3^2$ is 9, and $9 + 16 = 25$."
+      },
+      {
+        "text": "$\\dfrac{11}{20}$",
+        "hint": "$3^2$ is 9, and $9 + 16 = 25$."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "The top is 25 and the bottom is 40."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "Correct. $\\frac{25}{40} = \\frac{5}{8}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out the top and the bottom separately.",
+    "explanation": "## Advanced explanation\n\n$c = \\frac{9 + 16}{2(5)(4)} = \\frac{25}{40} = \\frac{5}{8}$.\n\n## Simplified explanation\n\nThe top is $9 + 16 = 25$. The bottom is $2 \\times 5 \\times 4 = 40$. $\\frac{25}{40}$ reduces to $\\frac{5}{8}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A woman bought a sewing machine for ₵800,000.00 and sold it for ₵920,000.00. Find the percentage profit.",
+    "media": [],
+    "options": [
+      {
+        "text": "12%",
+        "hint": "₵120,000.00 is the profit, not 12%."
+      },
+      {
+        "text": "13%",
+        "hint": "This uses the selling price. Divide by the cost price."
+      },
+      {
+        "text": "15%",
+        "hint": "Correct. $\\frac{120{,}000}{800{,}000} \\times 100 = 15$."
+      },
+      {
+        "text": "16.4%",
+        "hint": "Divide the profit by the cost price."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Percentage profit is worked on the cost price.",
+    "explanation": "## Advanced explanation\n\n$\\frac{920{,}000 - 800{,}000}{800{,}000} \\times 100\\% = 15\\%$.\n\n## Simplified explanation\n\nThe profit is ₵120,000 on a cost of ₵800,000. That is 12 out of 80, which is 15%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the rule for the following mapping?\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $y$ | 5 | 9 | 13 | 17 | 21 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$y = x + 5$",
+        "hint": "When $x = 1$, this gives 6."
+      },
+      {
+        "text": "$y = 4x + 5$",
+        "hint": "Correct. It fits every column."
+      },
+      {
+        "text": "$y = 5x + 4$",
+        "hint": "When $x = 0$, this gives 4."
+      },
+      {
+        "text": "$y = 6x + 1$",
+        "hint": "When $x = 0$, this gives 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$y$ goes up by 4 each time, and starts at 5.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 4 and the value at $x = 0$ is 5, so $y = 4x + 5$.\n\n## Simplified explanation\n\nEach step adds 4, so the rule has $4x$. When $x = 0$, $y$ is 5, so add 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the volume of a cuboid of sides 15 m by 12 m by 3 m.",
+    "media": [],
+    "options": [
+      {
+        "text": "36 m³",
+        "hint": "This is $12 \\times 3$. Multiply all three sides."
+      },
+      {
+        "text": "45 m³",
+        "hint": "This is $15 \\times 3$. Multiply all three sides."
+      },
+      {
+        "text": "180 m³",
+        "hint": "This is $15 \\times 12$. Multiply by 3 as well."
+      },
+      {
+        "text": "540 m³",
+        "hint": "Correct. $15 \\times 12 \\times 3 = 540$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Volume $=$ length $\\times$ width $\\times$ height.",
+    "explanation": "## Advanced explanation\n\n$V = 15 \\times 12 \\times 3 = 540$ m³.\n\n## Simplified explanation\n\n$15 \\times 12 = 180$, and $180 \\times 3 = 540$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A bag contains 4 blue and 8 red balls. What is the probability of picking a blue ball at random from the bag?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{4}{12} = \\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is blue over red. Use the total of 12."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This is the probability of a red ball."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "Use 4 blue balls out of 12."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The total number of balls is 12.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{blue}) = \\frac{4}{4 + 8} = \\frac{1}{3}$.\n\n## Simplified explanation\n\n4 of the 12 balls are blue, and $\\frac{4}{12}$ reduces to $\\frac{1}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the size of the angle marked $y$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2005/2005secaq22.png",
+        "caption": "A horizontal line and a vertical line crossing at right angles, with a slanted line through the same point. The angle between the upward vertical and the slanted line is 35°. Angle y is between the left horizontal and the lower part of the slanted line."
+      }
+    ],
+    "options": [
+      {
+        "text": "35°",
+        "hint": "This is the given angle. $y$ is vertically opposite $90^\\circ - 35^\\circ$."
+      },
+      {
+        "text": "45°",
+        "hint": "Use $90^\\circ - 35^\\circ$."
+      },
+      {
+        "text": "55°",
+        "hint": "Correct. $90^\\circ - 35^\\circ = 55^\\circ$."
+      },
+      {
+        "text": "90°",
+        "hint": "This is the marked right angle."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the angle between the slanted line and the horizontal on the right.",
+    "explanation": "## Advanced explanation\n\nThe angle on the upper right between the slanted line and the horizontal is $90^\\circ - 35^\\circ = 55^\\circ$, and $y$ is vertically opposite it.\n\n## Simplified explanation\n\nThe upper right corner is 90°, and 35° of it is marked. The other part is 55°. Angle $y$ is directly opposite that part, so it is also 55°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An equilateral triangle has side 16 cm. A square has the same perimeter as the equilateral triangle. What is the area of the square?",
+    "media": [],
+    "options": [
+      {
+        "text": "48 cm²",
+        "hint": "This is the perimeter."
+      },
+      {
+        "text": "96 cm²",
+        "hint": "The square's side is 12 cm, and $12^2 = 144$."
+      },
+      {
+        "text": "144 cm²",
+        "hint": "Correct. The side is $48 \\div 4 = 12$ cm."
+      },
+      {
+        "text": "256 cm²",
+        "hint": "This uses a side of 16 cm. The square's side is 12 cm."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the perimeter of the triangle first.",
+    "explanation": "## Advanced explanation\n\n$P = 3 \\times 16 = 48$ cm, so the square's side is 12 cm and its area is 144 cm².\n\n## Simplified explanation\n\nThe triangle's perimeter is 48 cm. A square with this perimeter has sides of 12 cm. Then $12 \\times 12 = 144$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi deposited ₵500,000.00 with a bank for 2 years at a rate of 10% per annum. Find the simple interest.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵10,000.00",
+        "hint": "10% of ₵500,000.00 is ₵50,000.00."
+      },
+      {
+        "text": "₵20,000.00",
+        "hint": "10% of ₵500,000.00 is ₵50,000.00."
+      },
+      {
+        "text": "₵50,000.00",
+        "hint": "This is the interest for 1 year."
+      },
+      {
+        "text": "₵100,000.00",
+        "hint": "Correct. $50{,}000 \\times 2 = 100{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$I = \\frac{PRT}{100}$.",
+    "explanation": "## Advanced explanation\n\n$I = \\frac{500{,}000 \\times 10 \\times 2}{100} = 100{,}000$.\n\n## Simplified explanation\n\n10% of ₵500,000 is ₵50,000 a year. Over 2 years, that is ₵100,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $T$ the subject of the relation: $l^2 = \\dfrac{4\\pi^2T}{g}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$T = \\dfrac{gl}{2\\pi}$",
+        "hint": "Do not take a square root. $T$ is not squared."
+      },
+      {
+        "text": "$T = \\dfrac{gl^2}{2\\pi}$",
+        "hint": "Divide by $4\\pi^2$, the whole coefficient of $T$."
+      },
+      {
+        "text": "$T = \\dfrac{l^2}{4g\\pi^2}$",
+        "hint": "$g$ moves to the top."
+      },
+      {
+        "text": "$T = \\dfrac{gl^2}{4\\pi^2}$",
+        "hint": "Correct. Multiply by $g$ and divide by $4\\pi^2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply both sides by $g$ first.",
+    "explanation": "## Advanced explanation\n\n$gl^2 = 4\\pi^2T$, so $T = \\frac{gl^2}{4\\pi^2}$.\n\n## Simplified explanation\n\nMultiply by $g$ to clear the fraction. Then divide by everything multiplying $T$, which is $4\\pi^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{0.54 \\times 0.7}{9}$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.0042",
+        "hint": "Check the decimal places: $0.54 \\div 9 = 0.06$."
+      },
+      {
+        "text": "0.042",
+        "hint": "Correct. $0.06 \\times 0.7 = 0.042$."
+      },
+      {
+        "text": "0.42",
+        "hint": "Check the decimal places: $0.54 \\div 9 = 0.06$."
+      },
+      {
+        "text": "4.2",
+        "hint": "Check the decimal places: $0.54 \\div 9 = 0.06$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide 0.54 by 9 first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{0.54}{9} = 0.06$, and $0.06 \\times 0.7 = 0.042$.\n\n## Simplified explanation\n\n$54 \\div 9 = 6$, so $0.54 \\div 9 = 0.06$. Then $0.06 \\times 0.7 = 0.042$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Eric and Ebo are to share an amount of ₵800,000.00 in the ratio $5 : 3$ respectively. What will be Ebo's share?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵30,000.00",
+        "hint": "One part is ₵100,000.00."
+      },
+      {
+        "text": "₵50,000.00",
+        "hint": "One part is ₵100,000.00."
+      },
+      {
+        "text": "₵300,000.00",
+        "hint": "Correct. $\\frac{3}{8} \\times 800{,}000$."
+      },
+      {
+        "text": "₵500,000.00",
+        "hint": "This is Eric's share."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The ratio has 8 parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{3}{8} \\times 800{,}000 = 300{,}000$.\n\n## Simplified explanation\n\n8 parts make ₵800,000, so 1 part is ₵100,000. Ebo gets 3 parts, which is ₵300,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces has a rectangular pyramid?",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "There are 4 triangles and a base as well."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. 1 rectangular base and 4 triangles."
+      },
+      {
+        "text": "6",
+        "hint": "This is the number for a cuboid."
+      },
+      {
+        "text": "7",
+        "hint": "A rectangular pyramid has fewer faces."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count the base as well as the sloping sides.",
+    "explanation": "## Advanced explanation\n\nA rectangular pyramid has 1 rectangular base and 4 triangular faces.\n\n## Simplified explanation\n\nThere is 1 base and 4 sloping triangles. That makes 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The perimeter of a rectangle is 24 cm. If the breadth of the rectangle is 4 cm, find the area of the rectangle.",
+    "media": [],
+    "options": [
+      {
+        "text": "32 cm²",
+        "hint": "Correct. The length is 8 cm and $8 \\times 4 = 32$."
+      },
+      {
+        "text": "48 cm²",
+        "hint": "The length is 8 cm, not 12 cm."
+      },
+      {
+        "text": "64 cm²",
+        "hint": "This is $8^2$. Use $8 \\times 4$."
+      },
+      {
+        "text": "144 cm²",
+        "hint": "This is $12^2$. Use $8 \\times 4$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Half of the perimeter is the length plus the breadth.",
+    "explanation": "## Advanced explanation\n\n$l + 4 = 12$, so $l = 8$ cm and $A = 8 \\times 4 = 32$ cm².\n\n## Simplified explanation\n\nHalf of 24 is 12, so the length is $12 - 4 = 8$. The area is $8 \\times 4 = 32$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize $4ab^2 - 20ba^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$4a(b^2 - 5b)$",
+        "hint": "This expands to give $-20ab$."
+      },
+      {
+        "text": "$4b(b - 5a)$",
+        "hint": "This leaves out the factor $a$."
+      },
+      {
+        "text": "$4ab(b - 5a)$",
+        "hint": "Correct. It expands back to the original."
+      },
+      {
+        "text": "$4ab(a - 5b)$",
+        "hint": "This expands to give $4a^2b - 20ab^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Take out the highest common factor of both terms.",
+    "explanation": "## Advanced explanation\n\nThe HCF is $4ab$, so $4ab^2 - 20a^2b = 4ab(b - 5a)$.\n\n## Simplified explanation\n\nBoth terms contain $4$, $a$ and $b$. Taking out $4ab$ leaves $b$ and $-5a$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the equation: $\\dfrac{2}{3}(x - 3) = \\dfrac{5}{6}(x + 6)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-42$",
+        "hint": "Correct. $4x - 12 = 5x + 30$."
+      },
+      {
+        "text": "$-12$",
+        "hint": "This does not satisfy the equation."
+      },
+      {
+        "text": "$18$",
+        "hint": "This does not satisfy the equation."
+      },
+      {
+        "text": "$42$",
+        "hint": "Check the sign: $x = -42$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply both sides by 6.",
+    "explanation": "## Advanced explanation\n\n$4(x - 3) = 5(x + 6)$ gives $4x - 12 = 5x + 30$, so $x = -42$.\n\n## Simplified explanation\n\nMultiplying by 6 gives $4x - 12 = 5x + 30$. Moving terms gives $-42 = x$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi had 100 mangoes and sold 80 of them. What is the percentage of mangoes left?",
+    "media": [],
+    "options": [
+      {
+        "text": "12.5%",
+        "hint": "20 of the 100 mangoes are left."
+      },
+      {
+        "text": "18%",
+        "hint": "20 of the 100 mangoes are left."
+      },
+      {
+        "text": "20%",
+        "hint": "Correct. 20 out of 100 is 20%."
+      },
+      {
+        "text": "25%",
+        "hint": "This is 20 out of 80. Use the 100 he started with."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find how many mangoes are left.",
+    "explanation": "## Advanced explanation\n\n$\\frac{100 - 80}{100} \\times 100\\% = 20\\%$.\n\n## Simplified explanation\n\nHe has 20 left out of 100, which is 20%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the median of the following marks: 2, 4, 10, 3, 6, 12",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the 3rd mark in order. With 6 marks, use the two middle ones."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $\\frac{4 + 6}{2} = 5$."
+      },
+      {
+        "text": "6",
+        "hint": "This is the 4th mark in order. With 6 marks, use the two middle ones."
+      },
+      {
+        "text": "10",
+        "hint": "This is the 5th mark in order."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Arrange the marks in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: 2, 3, 4, 6, 10, 12. The median is $\\frac{4 + 6}{2} = 5$.\n\n## Simplified explanation\n\nPut them in order. The two middle marks are 4 and 6, and halfway between them is 5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a class of 20 pupils, 8 pupils read Mathematics, 13 read English and 3 read both Mathematics and English.\n\nHow many pupils read English only?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "This is the number who read neither."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number who read both."
+      },
+      {
+        "text": "5",
+        "hint": "This is the number who read Mathematics only."
+      },
+      {
+        "text": "10",
+        "hint": "Correct. $13 - 3 = 10$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Take those who read both from those who read English.",
+    "explanation": "## Advanced explanation\n\n$n(E \\text{ only}) = 13 - 3 = 10$.\n\n## Simplified explanation\n\n13 read English, and 3 of them also read Mathematics. So 10 read English only.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a class of 20 pupils, 8 pupils read Mathematics, 13 read English and 3 read both Mathematics and English.\n\nHow many pupils do not read either Mathematics or English?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. $20 - 18 = 2$."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number who read both."
+      },
+      {
+        "text": "5",
+        "hint": "This is the number who read Mathematics only."
+      },
+      {
+        "text": "7",
+        "hint": "Count both subjects first: $8 + 13 - 3 = 18$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find how many read at least one subject.",
+    "explanation": "## Advanced explanation\n\n$n(M \\cup E) = 8 + 13 - 3 = 18$, so $20 - 18 = 2$ read neither.\n\n## Simplified explanation\n\n5 read only Mathematics, 10 read only English and 3 read both. That is 18, which leaves 2 of the 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate $82.5 \\div 0.25$, expressing the answer in the standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3.3 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$3.3 \\times 10$",
+        "hint": "This equals 33."
+      },
+      {
+        "text": "$3.3 \\times 10^2$",
+        "hint": "Correct. The answer is 330."
+      },
+      {
+        "text": "$3.3 \\times 10^3$",
+        "hint": "This equals 3,300."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Dividing by 0.25 is the same as multiplying by 4.",
+    "explanation": "## Advanced explanation\n\n$82.5 \\times 4 = 330 = 3.3 \\times 10^2$.\n\n## Simplified explanation\n\n$82.5 \\times 4 = 330$. Moving the point 2 places gives $3.3 \\times 10^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The price of a gas cooker costing ₵450,000.00 was increased by 10%. Find its new price.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵45,000.00",
+        "hint": "This is the increase only."
+      },
+      {
+        "text": "₵49,000.00",
+        "hint": "Add the increase to ₵450,000.00."
+      },
+      {
+        "text": "₵405,000.00",
+        "hint": "This is a decrease of 10%."
+      },
+      {
+        "text": "₵495,000.00",
+        "hint": "Correct. $450{,}000 + 45{,}000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find 10% and add it on.",
+    "explanation": "## Advanced explanation\n\n$450{,}000 \\times 1.1 = 495{,}000$.\n\n## Simplified explanation\n\n10% of ₵450,000 is ₵45,000. Adding it gives ₵495,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the number of all possible outcomes of tossing a die?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "This is the number for a coin."
+      },
+      {
+        "text": "3",
+        "hint": "A die has more faces."
+      },
+      {
+        "text": "4",
+        "hint": "A die has more faces."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. A die has six faces."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How many faces has a die?",
+    "explanation": "## Advanced explanation\n\nThe sample space is $\\{1, 2, 3, 4, 5, 6\\}$, which has 6 outcomes.\n\n## Simplified explanation\n\nA die can land on any of its 6 faces.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $QRS$ is a triangle. Angle $QRS = 50^\\circ$ and angle $RST = 120^\\circ$. Find angle $RQS$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2005/2005secaq39.png",
+        "caption": "Triangle QRS with QS extended to T. The angle at R is 50° and the angle RST is 120°."
+      }
+    ],
+    "options": [
+      {
+        "text": "60°",
+        "hint": "This is angle $RSQ$."
+      },
+      {
+        "text": "65°",
+        "hint": "Use $120^\\circ - 50^\\circ$."
+      },
+      {
+        "text": "70°",
+        "hint": "Correct. $120^\\circ - 50^\\circ = 70^\\circ$."
+      },
+      {
+        "text": "80°",
+        "hint": "Use $120^\\circ - 50^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "An exterior angle equals the sum of the two interior opposite angles.",
+    "explanation": "## Advanced explanation\n\n$120^\\circ = 50^\\circ + \\text{angle } RQS$, so angle $RQS = 70^\\circ$.\n\n## Simplified explanation\n\nThe outside angle of 120° equals the two far inside angles added together. So $120 - 50 = 70$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $r = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$ and $s = \\begin{pmatrix} -4 \\\\ -1 \\end{pmatrix}$, find $r + 2s$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -10 \\\\ 1 \\end{pmatrix}$",
+        "hint": "Correct. $-2 - 8 = -10$ and $3 - 2 = 1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -10 \\\\ -1 \\end{pmatrix}$",
+        "hint": "For the bottom, $3 - 2 = 1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 1 \\end{pmatrix}$",
+        "hint": "For the top, $2s$ gives $-8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 2 \\end{pmatrix}$",
+        "hint": "This adds $r$ and $s$ without doubling $s$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Double $s$ first, then add.",
+    "explanation": "## Advanced explanation\n\n$r + 2s = \\begin{pmatrix} -2 - 8 \\\\ 3 - 2 \\end{pmatrix} = \\begin{pmatrix} -10 \\\\ 1 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $s$ gives $-8$ and $-2$. Adding $r$ gives $-10$ and 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2005 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A boy has enough money to buy 14 pencils at ₵450.00 each. How many erasers costing ₵300.00 each can he buy with the same amount of money?",
+    "media": [],
+    "answer": "Money: $14 \\times 450 = 6{,}300$\n\nErasers: $6{,}300 \\div 300 = 21$\n\n> [!answer]\n> {{green:21}}",
+    "hint": "Find how much money he has first.",
+    "explanation": "## Advanced explanation\n\nThe number of items and the price are in inverse proportion: $14 \\times \\frac{450}{300} = 21$.\n\n## Simplified explanation\n\n14 pencils cost ₵6,300. At ₵300 each, that buys 21 erasers.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A circle has a circumference of 44 cm. Calculate its radius if $\\pi = \\dfrac{22}{7}$.",
+    "media": [],
+    "answer": "$$2 \\times \\frac{22}{7} \\times r = 44$$\n\n$$r = \\frac{44 \\times 7}{44} = 7$$\n\n> [!answer]\n> {{green:7 cm}}",
+    "hint": "Circumference $= 2\\pi r$.",
+    "explanation": "## Advanced explanation\n\nRearranging gives $r = \\frac{C}{2\\pi}$.\n\n## Simplified explanation\n\n$2 \\times \\frac{22}{7}$ is $\\frac{44}{7}$. So $\\frac{44}{7} \\times r = 44$, which means $r = 7$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\left(2\\dfrac{1}{4} - 1\\dfrac{5}{8}\\right) \\div 3\\dfrac{7}{16}$",
+    "media": [],
+    "answer": "Bracket: $\\frac{18}{8} - \\frac{13}{8} = \\frac{5}{8}$\n\n$$\\frac{5}{8} \\div \\frac{55}{16} = \\frac{5}{8} \\times \\frac{16}{55} = \\frac{2}{11}$$\n\n> [!answer]\n> {{green:$\\dfrac{2}{11}$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nTo divide by a fraction, multiply by its reciprocal.\n\n## Simplified explanation\n\nThe bracket gives $\\frac{5}{8}$. $3\\frac{7}{16}$ is $\\frac{55}{16}$. Turn it upside down and multiply: $\\frac{5}{8} \\times \\frac{16}{55} = \\frac{2}{11}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $\\dfrac{5(n + 6)}{n} = 1$, find $n$.",
+    "media": [],
+    "answer": "$$5(n + 6) = n$$\n\n$$5n + 30 = n$$\n\n$$4n = -30$$\n\n$$n = -7\\frac{1}{2}$$\n\n> [!answer]\n> {{green:$n = -7\\dfrac{1}{2}$}}",
+    "hint": "Multiply both sides by $n$.",
+    "explanation": "## Advanced explanation\n\nCheck: $\\frac{5(-7.5 + 6)}{-7.5} = \\frac{-7.5}{-7.5} = 1$.\n\n## Simplified explanation\n\nMultiplying by $n$ gives $5n + 30 = n$. Moving terms gives $4n = -30$, so $n = -7.5$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(a) Copy and complete the table for the relation $x + y = 180$.\n\n(b) Using a scale of 2 cm to 20 units on both axes, draw two perpendicular axes $Ox$ and $Oy$. Mark both axes from 0 to 180. Plot all the seven points. Use a ruler to join the points.\n\n(c) Using your graph, find\n\n(i) $y$ when $x = 100$;\n\n(ii) $x$ when $y = 70$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2005/2005q2.png",
+        "caption": "Table for x = 0, 30, 60, 90, 120, 150, 180. The y values are given only as 180 at x = 0, 90 at x = 90 and 0 at x = 180."
+      }
+    ],
+    "answer": "**(a)**\n\n| $x$ | 0 | 30 | 60 | 90 | 120 | 150 | 180 |\n|---|---|---|---|---|---|---|---|\n| $y$ | 180 | 150 | 120 | 90 | 60 | 30 | 0 |\n\n**(b)** Plot the points and rule a straight line through them.\n\n**(c)** The relation gives the exact readings:\n\n**(i)** $y = 180 - 100 = 80$\n\n**(ii)** $x = 180 - 70 = 110$\n\n> [!answer]\n> **(c)(i)** {{green:$y = 80$}}  **(ii)** {{green:$x = 110$}}",
+    "hint": "Each pair of values must add to 180.",
+    "explanation": "## Advanced explanation\n\nThe graph is a straight line with gradient $-1$, meeting both axes at 180.\n\n## Simplified explanation\n\nTake each $x$ from 180 to fill in the table. On the graph, go up from 100 to read 80, and go across from 70 to read 110.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "There are 30 boys in a sporting club. 20 of them play hockey and 15 play volleyball. Each boy plays at least one of the two games.\n\n(i) Illustrate the information on a Venn diagram.\n\n(ii) How many boys play volleyball only?",
+    "media": [],
+    "answer": "**(i)** Both games: $20 + 15 - 30 = 5$. Draw two overlapping circles, with 15 in hockey only, 5 in the overlap and 10 in volleyball only.\n\n**(ii)** $15 - 5 = 10$\n\n> [!answer]\n> {{green:10}}",
+    "hint": "Let $x$ be the number who play both games.",
+    "explanation": "## Advanced explanation\n\n$n(H \\cup V) = n(H) + n(V) - n(H \\cap V)$, so $30 = 35 - x$ and $x = 5$.\n\n## Simplified explanation\n\n20 and 15 make 35, which is 5 more than the 30 boys. So 5 boys play both games. Volleyball only is $15 - 5 = 10$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorise $xy + 3x + 6y + 18$",
+    "media": [],
+    "answer": "$$x(y + 3) + 6(y + 3) = (x + 6)(y + 3)$$\n\n> [!answer]\n> {{green:$(x + 6)(y + 3)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nFactorisation by grouping works because both groups share the factor $(y + 3)$.\n\n## Simplified explanation\n\nTake $x$ out of the first pair and 6 out of the second. Both leave $(y + 3)$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Multiply $(3 + x)$ by $(5 - 2x)$.",
+    "media": [],
+    "answer": "$$(3 + x)(5 - 2x) = 15 - 6x + 5x - 2x^2 = 15 - x - 2x^2$$\n\n> [!answer]\n> {{green:$15 - x - 2x^2$}}",
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\nCollect the like terms: $-6x + 5x = -x$.\n\n## Simplified explanation\n\n$3 \\times 5 = 15$ and $3 \\times -2x = -6x$. Then $x \\times 5 = 5x$ and $x \\times -2x = -2x^2$. Collecting gives $15 - x - 2x^2$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A woman borrowed ₵2,000,000.00 from a bank at a rate of 15% per annum simple interest for 2 years.\n\n(a) Find\n\n(i) the interest for the 2 years;\n\n(ii) how much she paid in all to the bank after the 2 years.\n\n(b) She used the ₵2,000,000.00 to purchase a fridge and sold it at a profit of 45%. Find the selling price of the fridge.\n\n(c) If she used the amount raised from the sale of the fridge to pay for the bank loan and interest, find how much money is left.",
+    "media": [],
+    "answer": "**(a)(i)** $\\frac{2{,}000{,}000 \\times 15 \\times 2}{100} = 600{,}000$\n\n**(a)(ii)** $2{,}000{,}000 + 600{,}000 = 2{,}600{,}000$\n\n**(b)** $\\frac{145}{100} \\times 2{,}000{,}000 = 2{,}900{,}000$\n\n**(c)** $2{,}900{,}000 - 2{,}600{,}000 = 300{,}000$\n\n> [!answer]\n> **(a)(i)** {{green:₵600,000.00}}  **(ii)** {{green:₵2,600,000.00}}\n>\n> **(b)** {{green:₵2,900,000.00}}  **(c)** {{green:₵300,000.00}}",
+    "hint": "Amount to repay $=$ loan $+$ interest.",
+    "explanation": "## Advanced explanation\n\nHer net gain is the 45% profit minus the 30% total interest, which is 15% of ₵2,000,000, or ₵300,000.\n\n## Simplified explanation\n\nInterest is ₵300,000 a year, so ₵600,000 for 2 years, and she owes ₵2,600,000. The fridge sells for ₵2,900,000. After paying the bank, ₵300,000 is left.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Simple Interest",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a pair of compasses and a ruler only, construct\n\n(i) triangle $ABC$ with $|AB| = 10$ cm, angle $ABC = 30^\\circ$ and angle $CAB = 60^\\circ$;\n\n(ii) a perpendicular from the point $C$ to meet the line $AB$ at $P$.\n\n(iii) Extend line $CP$ to the point $D$ such that $|BC| = |BD|$.\n\n(iv) Join $A$ to $D$ and $B$ to $D$.\n\n(v) Measure $|AC|$ and $|AD|$.\n\n(vi) What type of quadrilateral is $ADBC$?\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|AB| = 10$ cm. Construct $60^\\circ$ at $A$, and construct $60^\\circ$ at $B$ and bisect it to get $30^\\circ$. The arms meet at $C$.\n\nDrop the perpendicular from $C$ to $AB$ at $P$, extend it to $D$ with $|BD| = |BC|$, and join $AD$ and $BD$.\n\n> [!answer]\n> **(v)** {{green:$|AC| = 5$ cm and $|AD| = 5$ cm}}  **(vi)** {{green:a kite}}",
+    "hint": "The angle at $C$ is $180^\\circ - 60^\\circ - 30^\\circ = 90^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$|AC| = 10\\cos 60^\\circ = 5$ cm. $D$ is the reflection of $C$ in $AB$, so $|AD| = |AC|$ and $|BD| = |BC|$. Two pairs of adjacent equal sides make a kite.\n\n## Simplified explanation\n\nBuild the triangle from the 10 cm base. Drop a line from $C$ straight to $AB$ and continue the same distance below, to $D$. $AC$ and $AD$ both measure 5 cm, and $BC$ equals $BD$. Two pairs of equal sides next to each other make a kite.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The following marks were obtained by pupils in a test.\n\n6, 4, 8, 2, 8\n\n6, 8, 8, 8, 10\n\n8, 9, 8, 6, 10\n\n2, 2, 6, 6, 6\n\n(a) Construct a frequency distribution table for the data.\n\n(b) What is the modal mark?\n\n(c) Calculate the mean mark.\n\n(d) How many pupils scored more than 6 marks?\n\n(e) What is the probability that a student chosen at random obtained 2 marks?",
+    "media": [],
+    "answer": "**(a)**\n\n| Mark | 2 | 4 | 6 | 8 | 9 | 10 |\n|---|---|---|---|---|---|---|\n| Frequency | 3 | 1 | 6 | 7 | 1 | 2 |\n\n**(b)** Mark 8 has the highest frequency, 7.\n\n**(c)** $\\frac{6 + 4 + 36 + 56 + 9 + 20}{20} = \\frac{131}{20} = 6.55$\n\n**(d)** $7 + 1 + 2 = 10$\n\n**(e)** $\\frac{3}{20}$\n\n> [!answer]\n> **(b)** {{green:8}}  **(c)** {{green:6.55}}  **(d)** {{green:10}}  **(e)** {{green:$\\frac{3}{20}$}}",
+    "hint": "Tally the marks. The frequencies must add to 20.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$. \"More than 6\" excludes 6 itself.\n\n## Simplified explanation\n\nCount each mark. Mark 8 appears most. Multiply each mark by its count to get 131, and divide by 20 to get 6.55. Ten pupils scored 8, 9 or 10. Three of the 20 pupils scored 2.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2005 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  }
+]

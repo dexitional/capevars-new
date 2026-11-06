@@ -1,0 +1,1522 @@
+[
+  {
+    "type": "choice",
+    "body": "If the set $A = \\{1, 2, 3, 4, 5\\}$ and the set $B = \\{2, 4, 6\\}$, find the number of members in the set $A \\cup B$.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "This counts 2 and 4 twice."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\{1, 2, 3, 4, 5, 6\\}$."
+      },
+      {
+        "text": "5",
+        "hint": "This is the number of members in $A$."
+      },
+      {
+        "text": "2",
+        "hint": "This is the number of members in $A \\cap B$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "List the union and count each member once.",
+    "explanation": "## Advanced explanation\n\n$n(A \\cup B) = n(A) + n(B) - n(A \\cap B) = 5 + 3 - 2 = 6$.\n\n## Simplified explanation\n\nPut the sets together: 1, 2, 3, 4, 5 and 6. That is 6 members.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many faces has a cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "This is only the faces you can see at one time."
+      },
+      {
+        "text": "4",
+        "hint": "This leaves out the top and the bottom."
+      },
+      {
+        "text": "5",
+        "hint": "This leaves out one face, such as the lid of a closed box."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. Top, bottom, front, back and two sides."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Think of a closed box.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nCount the faces of a box: top, bottom, front, back, left and right. That is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{0.036}{0.02}$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.018",
+        "hint": "Check the place value. This is one hundredth of the answer."
+      },
+      {
+        "text": "0.18",
+        "hint": "Check the place value. This is one tenth of the answer."
+      },
+      {
+        "text": "1.8",
+        "hint": "Correct. $\\frac{36}{20} = 1.8$."
+      },
+      {
+        "text": "18.0",
+        "hint": "Check the place value. This is ten times the answer."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the top and bottom by 1,000.",
+    "explanation": "## Advanced explanation\n\n$\\frac{0.036}{0.02} = \\frac{36}{20} = 1.8$.\n\n## Simplified explanation\n\nMoving both points 3 places gives $36 \\div 20 = 1.8$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The angle formed by one complete revolution is equivalent to",
+    "media": [],
+    "options": [
+      {
+        "text": "one right angle",
+        "hint": "One right angle is 90°, which is a quarter turn."
+      },
+      {
+        "text": "two right angles",
+        "hint": "Two right angles make 180°, which is a half turn."
+      },
+      {
+        "text": "three right angles",
+        "hint": "Three right angles make 270°."
+      },
+      {
+        "text": "four right angles",
+        "hint": "Correct. $4 \\times 90^\\circ = 360^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "One complete revolution is 360°.",
+    "explanation": "## Advanced explanation\n\n$360^\\circ \\div 90^\\circ = 4$.\n\n## Simplified explanation\n\nA full turn is 360°, and each right angle is 90°. So a full turn is 4 right angles.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the set $P = \\{1, 2, 3, 4, 5\\}$, which of the following statements best describes $P$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Set of whole numbers up to 6.",
+        "hint": "This would include 6, and it may include 0."
+      },
+      {
+        "text": "Set of counting numbers less than 6.",
+        "hint": "Correct. Counting numbers start at 1."
+      },
+      {
+        "text": "Set of counting numbers greater than 6.",
+        "hint": "All the members of $P$ are less than 6."
+      },
+      {
+        "text": "Set of integers less than 6.",
+        "hint": "This would include 0 and the negative integers."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Counting numbers start at 1.",
+    "explanation": "## Advanced explanation\n\n$P$ contains exactly the positive integers below 6.\n\n## Simplified explanation\n\nThe counting numbers are 1, 2, 3, and so on. Those below 6 are exactly the members of $P$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following numbers is the next prime number greater than 23?",
+    "media": [],
+    "options": [
+      {
+        "text": "17",
+        "hint": "17 is less than 23."
+      },
+      {
+        "text": "24",
+        "hint": "24 is even, so it is not prime."
+      },
+      {
+        "text": "25",
+        "hint": "$25 = 5 \\times 5$, so it is not prime."
+      },
+      {
+        "text": "29",
+        "hint": "Correct. 24 to 28 are not prime, and 29 is."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Check the numbers after 23 one by one.",
+    "explanation": "## Advanced explanation\n\n24, 26 and 28 are even, 25 is divisible by 5 and 27 is divisible by 3. 29 has no factors other than 1 and itself.\n\n## Simplified explanation\n\nGo up from 23. None of 24, 25, 26, 27 or 28 is prime. The next prime is 29.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $-35 - (-15) + (-30)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$17$",
+        "hint": "Check the signs: $-35 + 15 - 30$."
+      },
+      {
+        "text": "$-50$",
+        "hint": "Correct. $-35 + 15 - 30 = -50$."
+      },
+      {
+        "text": "$50$",
+        "hint": "The result is negative."
+      },
+      {
+        "text": "$30$",
+        "hint": "Check the signs: $-35 + 15 - 30$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtracting a negative is the same as adding.",
+    "explanation": "## Advanced explanation\n\n$-35 + 15 - 30 = -50$.\n\n## Simplified explanation\n\n$-(-15)$ becomes $+15$ and $+(-30)$ becomes $-30$. So $-35 + 15 = -20$, and $-20 - 30 = -50$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 78910 correct to the nearest thousand.",
+    "media": [],
+    "options": [
+      {
+        "text": "70,000",
+        "hint": "This is to the nearest ten thousand, rounded the wrong way."
+      },
+      {
+        "text": "78,000",
+        "hint": "The hundreds digit is 9, so round up."
+      },
+      {
+        "text": "79,000",
+        "hint": "Correct. 910 rounds the thousands up."
+      },
+      {
+        "text": "80,000",
+        "hint": "This is to the nearest ten thousand."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the hundreds digit.",
+    "explanation": "## Advanced explanation\n\nThe hundreds digit is $9 \\ge 5$, so the thousands digit rounds up from 8 to 9.\n\n## Simplified explanation\n\n78,910 is closer to 79,000 than to 78,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{2^{10} \\times 3^2}{3^6 \\times 2^8}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2^2}{3^4}$",
+        "hint": "Correct. Subtract the powers of each number."
+      },
+      {
+        "text": "$\\dfrac{3^4}{2^2}$",
+        "hint": "This is upside down."
+      },
+      {
+        "text": "$3^3 \\times 2^4$",
+        "hint": "Subtract the powers. Do not divide them."
+      },
+      {
+        "text": "$\\dfrac{2^4}{3^4}$",
+        "hint": "For 2, the powers give $10 - 8 = 2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract the powers of each base.",
+    "explanation": "## Advanced explanation\n\n$2^{10 - 8} \\times 3^{2 - 6} = 2^2 \\times 3^{-4} = \\frac{2^2}{3^4}$.\n\n## Simplified explanation\n\nFor 2, the top is larger and $10 - 8 = 2$. For 3, the bottom is larger and $6 - 2 = 4$, so that power stays on the bottom.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is represented on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2004/2004secaq10.png",
+        "caption": "Number line from −3 to 4 with an open dot at −2, a solid dot at 3 and a line joining them."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2 < x < 3$",
+        "hint": "The solid dot at 3 means that 3 is included."
+      },
+      {
+        "text": "$-2 \\le x < 3$",
+        "hint": "The dot at $-2$ is open and the dot at 3 is solid."
+      },
+      {
+        "text": "$-2 \\le x \\le 3$",
+        "hint": "The open dot at $-2$ means that $-2$ is left out."
+      },
+      {
+        "text": "$-2 < x \\le 3$",
+        "hint": "Correct. The dot is open at $-2$ and solid at 3."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "An open dot leaves out the value, and a solid dot includes it.",
+    "explanation": "## Advanced explanation\n\nThe segment runs between an open circle at $-2$ and a solid circle at 3, which gives $-2 < x \\le 3$.\n\n## Simplified explanation\n\n$x$ is above $-2$, but not equal to it, because that dot is open. $x$ can reach 3, because that dot is solid.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorise completely the expression $4xy - 16x + 10y - 40$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(y + 4)(4x - 10)$",
+        "hint": "This expands to give $-10y$."
+      },
+      {
+        "text": "$(y - 4)(4x + 10)$",
+        "hint": "Correct. $4x(y - 4) + 10(y - 4)$."
+      },
+      {
+        "text": "$(4 - y)(10 - 4x)$",
+        "hint": "This expands to give $-10y$."
+      },
+      {
+        "text": "$(y + 4)(4x + 10)$",
+        "hint": "This expands to give $+16x$ and $+40$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$4x(y - 4) + 10(y - 4) = (y - 4)(4x + 10)$, which also equals $2(y - 4)(2x + 5)$.\n\n## Simplified explanation\n\nTake $4x$ out of the first pair and 10 out of the second. Both leave $(y - 4)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the image of 2 in the mapping $x \\to 2x + 5$?",
+    "media": [],
+    "options": [
+      {
+        "text": "7",
+        "hint": "This is $2 + 5$. Multiply 2 by 2 first."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. $2(2) + 5 = 9$."
+      },
+      {
+        "text": "12",
+        "hint": "Multiply 2 by 2, then add 5."
+      },
+      {
+        "text": "20",
+        "hint": "Multiply 2 by 2, then add 5."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put $x = 2$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$2(2) + 5 = 9$.\n\n## Simplified explanation\n\nDouble 2 to get 4. Then $4 + 5 = 9$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3a^2b^3 \\times 4a^3b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$7a^5b^4$",
+        "hint": "This adds the numbers. Multiply them."
+      },
+      {
+        "text": "$7ab$",
+        "hint": "Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$12a^5b^4$",
+        "hint": "Correct. Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$12a^4b^4$",
+        "hint": "$a^2 \\times a^3 = a^5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the numbers, then add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$3 \\times 4 = 12$, $a^{2 + 3} = a^5$ and $b^{3 + 1} = b^4$.\n\n## Simplified explanation\n\nThe numbers give 12. For $a$, the powers $2 + 3$ make 5. For $b$, the powers $3 + 1$ make 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the solution set of $2x + 1 < 5$ in the domain $\\{-1, 0, 1, 2, 3\\}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{-1, 1, 3\\}$",
+        "hint": "When $x = 3$, $2x + 1 = 7$."
+      },
+      {
+        "text": "$\\{-1, 0, 1\\}$",
+        "hint": "Correct. $x < 2$."
+      },
+      {
+        "text": "$\\{-1, 1, 2\\}$",
+        "hint": "When $x = 2$, $2x + 1 = 5$, which is not less than 5."
+      },
+      {
+        "text": "$\\{0, 1, 2\\}$",
+        "hint": "When $x = 2$, $2x + 1 = 5$, which is not less than 5."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Solve the inequality, then look in the domain.",
+    "explanation": "## Advanced explanation\n\n$2x < 4$ means $x < 2$. In the domain, this leaves $-1$, 0 and 1.\n\n## Simplified explanation\n\n$x$ must be less than 2. From the list, that leaves $-1$, 0 and 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Highest Common Factor of 48, 60 and 96.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "Correct. 12 divides all three, and 4, 5 and 8 share no other factor."
+      },
+      {
+        "text": "24",
+        "hint": "24 does not divide 60."
+      },
+      {
+        "text": "36",
+        "hint": "36 does not divide 48."
+      },
+      {
+        "text": "48",
+        "hint": "48 does not divide 60."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$48 = 2^4 \\times 3$, $60 = 2^2 \\times 3 \\times 5$ and $96 = 2^5 \\times 3$, so the HCF is $2^2 \\times 3 = 12$.\n\n## Simplified explanation\n\nDividing by 12 gives 4, 5 and 8, which share no other common factor. So the HCF is 12.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$P =$ {odd numbers between 20 and 30} and $Q = \\{23, 29\\}$. Which of the following is true?",
+    "media": [],
+    "options": [
+      {
+        "text": "$P \\subset Q$",
+        "hint": "$P$ has members, such as 21, that are not in $Q$."
+      },
+      {
+        "text": "$Q \\subset P$",
+        "hint": "Correct. 23 and 29 are both in $P$."
+      },
+      {
+        "text": "$P = Q$",
+        "hint": "$P$ has five members and $Q$ has two."
+      },
+      {
+        "text": "$P \\cap Q = \\emptyset$",
+        "hint": "23 and 29 are in both sets."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "List the members of $P$ first.",
+    "explanation": "## Advanced explanation\n\n$P = \\{21, 23, 25, 27, 29\\}$. Every member of $Q$ is in $P$, so $Q \\subset P$.\n\n## Simplified explanation\n\n$P$ is 21, 23, 25, 27 and 29. Both 23 and 29 are in $P$, so $Q$ sits inside $P$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule for the following mapping:\n\n| $x$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| $y$ | $-1$ | 1 | 3 | 5 | 7 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$y = 2x + 1$",
+        "hint": "When $x = 0$, this gives 1."
+      },
+      {
+        "text": "$y = 2x - 1$",
+        "hint": "Correct. It fits every column."
+      },
+      {
+        "text": "$y = x^2 - 1$",
+        "hint": "When $x = 2$, this gives 3, but when $x = 3$, it gives 8."
+      },
+      {
+        "text": "$y = x^2 + 1$",
+        "hint": "When $x = 0$, this gives 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$y$ goes up by 2 each time, and starts at $-1$.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 2 and the value at $x = 0$ is $-1$, so $y = 2x - 1$.\n\n## Simplified explanation\n\nEach step adds 2, so the rule has $2x$. When $x = 0$, $y$ is $-1$, so take away 1.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = \\begin{pmatrix} 2 \\\\ 4 \\end{pmatrix}$ and $b = \\begin{pmatrix} -3 \\\\ 2 \\end{pmatrix}$, find $2a - b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 6 \\end{pmatrix}$",
+        "hint": "For the top, $4 - (-3) = 7$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ 6 \\end{pmatrix}$",
+        "hint": "Correct. $4 + 3 = 7$ and $8 - 2 = 6$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 10 \\end{pmatrix}$",
+        "hint": "This adds $b$. Subtract it."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ 10 \\end{pmatrix}$",
+        "hint": "For the bottom, $8 - 2 = 6$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Double $a$ first, then subtract $b$.",
+    "explanation": "## Advanced explanation\n\n$2a - b = \\begin{pmatrix} 4 - (-3) \\\\ 8 - 2 \\end{pmatrix} = \\begin{pmatrix} 7 \\\\ 6 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $a$ gives 4 and 8. On top, $4 - (-3) = 7$. Below, $8 - 2 = 6$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $x$ in the polygon.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2004/2004secaq19.png",
+        "caption": "Pentagon with interior angles x, 2x, 3x, 4x and 5x."
+      }
+    ],
+    "options": [
+      {
+        "text": "12°",
+        "hint": "The angles of a pentagon add to 540°, not 180°."
+      },
+      {
+        "text": "36°",
+        "hint": "Correct. $15x = 540$."
+      },
+      {
+        "text": "60°",
+        "hint": "This uses a total of 900°. A pentagon's angles add to 540°."
+      },
+      {
+        "text": "72°",
+        "hint": "This is each exterior angle of a regular pentagon."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The polygon has 5 sides, so find the sum of its interior angles.",
+    "explanation": "## Advanced explanation\n\nThe sum is $(5 - 2) \\times 180^\\circ = 540^\\circ$. Then $x + 2x + 3x + 4x + 5x = 15x = 540$, so $x = 36$.\n\n## Simplified explanation\n\nA five-sided shape has angles adding to 540°. The angles add to $15x$, and $540 \\div 15 = 36$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An article costs ₵60,000.00. The price was increased by 10%. Find the new price.",
+    "media": [],
+    "options": [
+      {
+        "text": "₵54,000.00",
+        "hint": "This is a decrease of 10%."
+      },
+      {
+        "text": "₵61,000.00",
+        "hint": "10% of ₵60,000.00 is ₵6,000.00."
+      },
+      {
+        "text": "₵66,000.00",
+        "hint": "Correct. $60{,}000 + 6{,}000$."
+      },
+      {
+        "text": "₵70,000.00",
+        "hint": "10% of ₵60,000.00 is ₵6,000.00."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find 10% and add it on.",
+    "explanation": "## Advanced explanation\n\n$60{,}000 \\times 1.1 = 66{,}000$.\n\n## Simplified explanation\n\n10% of ₵60,000 is ₵6,000. Adding it gives ₵66,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $x$ in the equation $15 - 2x = 6$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-10.5$",
+        "hint": "This adds 6 to 15. Subtract instead."
+      },
+      {
+        "text": "$-45$",
+        "hint": "$2x = 9$."
+      },
+      {
+        "text": "$4.5$",
+        "hint": "Correct. $2x = 9$."
+      },
+      {
+        "text": "$10.5$",
+        "hint": "This adds 6 to 15. Subtract instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Get the $2x$ term by itself.",
+    "explanation": "## Advanced explanation\n\n$15 - 6 = 2x$, so $x = 4.5$.\n\n## Simplified explanation\n\n$15 - 6 = 9$, so $2x = 9$. Half of 9 is 4.5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The population of Ghana was 5,000,000 in 1957. The population in 1998 was estimated to be 17,000,000. Find the percentage increase in population from 1957 to 1998.",
+    "media": [],
+    "options": [
+      {
+        "text": "2.4%",
+        "hint": "The increase is more than the 1957 population."
+      },
+      {
+        "text": "24%",
+        "hint": "The increase is more than the 1957 population."
+      },
+      {
+        "text": "240%",
+        "hint": "Correct. $\\frac{12}{5} \\times 100 = 240$."
+      },
+      {
+        "text": "2400%",
+        "hint": "Check the place value: $\\frac{12}{5} = 2.4$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide the increase by the 1957 population.",
+    "explanation": "## Advanced explanation\n\n$\\frac{17{,}000{,}000 - 5{,}000{,}000}{5{,}000{,}000} \\times 100\\% = 240\\%$.\n\n## Simplified explanation\n\nThe increase is 12 million on a start of 5 million. $12 \\div 5 = 2.4$, which is 240%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The angles of a triangle are in the ratio $3 : 2 : 1$. Find the value of the smallest angle.",
+    "media": [],
+    "options": [
+      {
+        "text": "30°",
+        "hint": "Correct. $180 \\div 6 = 30$."
+      },
+      {
+        "text": "45°",
+        "hint": "The ratio has 6 parts, so 1 part is 30°."
+      },
+      {
+        "text": "60°",
+        "hint": "This is the middle angle."
+      },
+      {
+        "text": "90°",
+        "hint": "This is the largest angle."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The ratio has $3 + 2 + 1 = 6$ parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{6} \\times 180^\\circ = 30^\\circ$.\n\n## Simplified explanation\n\nThere are 6 parts sharing 180°, so 1 part is 30°. The smallest angle is 1 part.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Least Common Multiple (L.C.M.) of 4, 6 and 10.",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "4 and 6 do not divide 10."
+      },
+      {
+        "text": "24",
+        "hint": "10 does not divide 24."
+      },
+      {
+        "text": "30",
+        "hint": "4 does not divide 30."
+      },
+      {
+        "text": "60",
+        "hint": "Correct. 4, 6 and 10 all divide 60."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$\\text{LCM} = 2^2 \\times 3 \\times 5 = 60$.\n\n## Simplified explanation\n\nCount in 10s until you reach a number that 4 and 6 also divide. That number is 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $134_{\\text{five}}$ to a base ten numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "16",
+        "hint": "Use the place values 25, 5 and 1."
+      },
+      {
+        "text": "40",
+        "hint": "Include the last digit: 4."
+      },
+      {
+        "text": "44",
+        "hint": "Correct. $25 + 15 + 4 = 44$."
+      },
+      {
+        "text": "220",
+        "hint": "Use the place values 25, 5 and 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The place values in base five are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$1 \\times 25 + 3 \\times 5 + 4 = 44$.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 25, 15 and 4. They add to 44.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A circle has a radius of 7 cm. Find its area. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "options": [
+      {
+        "text": "22 cm²",
+        "hint": "This is $\\pi r$. Area uses $\\pi r^2$."
+      },
+      {
+        "text": "44 cm²",
+        "hint": "This is the circumference."
+      },
+      {
+        "text": "145 cm²",
+        "hint": "Check the working: $\\frac{22}{7} \\times 49$."
+      },
+      {
+        "text": "154 cm²",
+        "hint": "Correct. $\\frac{22}{7} \\times 49 = 154$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Area $= \\pi r^2$.",
+    "explanation": "## Advanced explanation\n\n$A = \\frac{22}{7} \\times 7^2 = 154$ cm².\n\n## Simplified explanation\n\n$7 \\times 7 = 49$, and $\\frac{22}{7} \\times 49 = 22 \\times 7 = 154$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{1}{2} - \\dfrac{2}{3} + \\dfrac{3}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{11}{12}$",
+        "hint": "Over 12: $6 - 8 + 9 = 7$."
+      },
+      {
+        "text": "$\\dfrac{7}{12}$",
+        "hint": "Correct. $\\frac{6 - 8 + 9}{12}$."
+      },
+      {
+        "text": "$\\dfrac{2}{12}$",
+        "hint": "Over 12: $6 - 8 + 9 = 7$."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "Over 12: $6 - 8 + 9 = 7$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use 12 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{6}{12} - \\frac{8}{12} + \\frac{9}{12} = \\frac{7}{12}$.\n\n## Simplified explanation\n\nChange them to 12ths: 6, 8 and 9. Then $6 - 8 + 9 = 7$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve for $x$, if $\\dfrac{1}{2}x - 4x > 20$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$x < -13\\dfrac{1}{3}$",
+        "hint": "$\\frac{1}{2}x - 4x = -\\frac{7}{2}x$."
+      },
+      {
+        "text": "$x < -5\\dfrac{5}{7}$",
+        "hint": "Correct. Dividing by $-\\frac{7}{2}$ reverses the sign."
+      },
+      {
+        "text": "$x > 5\\dfrac{5}{7}$",
+        "hint": "Dividing by a negative number reverses the sign, and the value is negative."
+      },
+      {
+        "text": "$x < 13\\dfrac{1}{3}$",
+        "hint": "$\\frac{1}{2}x - 4x = -\\frac{7}{2}x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Combine the $x$ terms first.",
+    "explanation": "## Advanced explanation\n\n$-\\frac{7}{2}x > 20$, so $x < -\\frac{40}{7} = -5\\frac{5}{7}$.\n\n## Simplified explanation\n\n$\\frac{1}{2} - 4 = -3\\frac{1}{2}$. Dividing 20 by this gives $-\\frac{40}{7}$, and dividing by a negative flips the sign.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is equivalent to $2^2 \\times 6^3$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^6 \\times 3^3$",
+        "hint": "$2^2 \\times 2^3 = 2^5$."
+      },
+      {
+        "text": "$2^5 \\times 3^3$",
+        "hint": "Correct. $6^3 = 2^3 \\times 3^3$."
+      },
+      {
+        "text": "$2^4 \\times 3$",
+        "hint": "$6^3 = 2^3 \\times 3^3$."
+      },
+      {
+        "text": "$2^3 \\times 3^3$",
+        "hint": "This is $6^3$ alone."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write 6 as $2 \\times 3$.",
+    "explanation": "## Advanced explanation\n\n$2^2 \\times (2 \\times 3)^3 = 2^2 \\times 2^3 \\times 3^3 = 2^5 \\times 3^3$.\n\n## Simplified explanation\n\n$6^3$ is $2^3 \\times 3^3$. Together with $2^2$, the powers of 2 add to 5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The volume of water in a rectangular tank is 30 cm³. The length of the tank is 5 cm and its breadth is 2 cm. Calculate the depth of water in the tank.",
+    "media": [],
+    "options": [
+      {
+        "text": "4.0 cm",
+        "hint": "This gives a volume of 40 cm³."
+      },
+      {
+        "text": "3.0 cm",
+        "hint": "Correct. $30 \\div 10 = 3$."
+      },
+      {
+        "text": "5.0 cm",
+        "hint": "This gives a volume of 50 cm³."
+      },
+      {
+        "text": "6.0 cm",
+        "hint": "This gives a volume of 60 cm³."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Volume $=$ length $\\times$ breadth $\\times$ depth.",
+    "explanation": "## Advanced explanation\n\n$d = \\frac{30}{5 \\times 2} = 3$ cm.\n\n## Simplified explanation\n\nThe base is $5 \\times 2 = 10$ cm². Then $30 \\div 10 = 3$ cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following temperatures in °C were recorded in 7 cities in Europe: $-4$, 5, 2, 0, $-6$, $-4$, 7. Find the modal temperature.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-2$ °C",
+        "hint": "This value is not in the list."
+      },
+      {
+        "text": "$-4$ °C",
+        "hint": "Correct. It appears twice."
+      },
+      {
+        "text": "$0$ °C",
+        "hint": "This appears only once."
+      },
+      {
+        "text": "$-6$ °C",
+        "hint": "This appears only once."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The mode is the value that appears most often.",
+    "explanation": "## Advanced explanation\n\n$-4$ has frequency 2, and every other value has frequency 1.\n\n## Simplified explanation\n\nOnly $-4$ appears more than once.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ratio of the ages of two sisters is $4 : 3$. The elder sister is 3 years older than the younger one. How old is the younger sister?",
+    "media": [],
+    "options": [
+      {
+        "text": "9 years",
+        "hint": "Correct. 1 part is 3 years, and 3 parts are 9."
+      },
+      {
+        "text": "12 years",
+        "hint": "This is the elder sister's age."
+      },
+      {
+        "text": "15 years",
+        "hint": "1 part is 3 years."
+      },
+      {
+        "text": "18 years",
+        "hint": "1 part is 3 years."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The difference of 1 part is 3 years.",
+    "explanation": "## Advanced explanation\n\n$4k - 3k = 3$, so $k = 3$ and the younger sister is $3k = 9$ years old.\n\n## Simplified explanation\n\nThe sisters differ by 1 part, and that is 3 years. The younger sister has 3 parts, which is 9 years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $n^2 + 4 = 40$, find $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Correct. $n^2 = 36$."
+      },
+      {
+        "text": "18",
+        "hint": "$n^2 = 36$, so take the square root and do not halve."
+      },
+      {
+        "text": "22",
+        "hint": "Subtract 4, then take the square root."
+      },
+      {
+        "text": "44",
+        "hint": "This adds 4. Subtract it."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract 4, then take the square root.",
+    "explanation": "## Advanced explanation\n\n$n^2 = 36$, so $n = \\pm 6$, and 6 is the value among the options.\n\n## Simplified explanation\n\n$40 - 4 = 36$. The number that multiplies by itself to give 36 is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An angle which is more than 90° but less than 180° is",
+    "media": [],
+    "options": [
+      {
+        "text": "an acute angle",
+        "hint": "An acute angle is less than 90°."
+      },
+      {
+        "text": "a right angle",
+        "hint": "A right angle is exactly 90°."
+      },
+      {
+        "text": "an obtuse angle",
+        "hint": "Correct. It lies between 90° and 180°."
+      },
+      {
+        "text": "a reflex angle",
+        "hint": "A reflex angle is more than 180°."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Recall the names of the types of angle.",
+    "explanation": "## Advanced explanation\n\nObtuse angles lie strictly between $90^\\circ$ and $180^\\circ$.\n\n## Simplified explanation\n\nBigger than a right angle but smaller than a straight line: that is obtuse.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions in ascending order: $4\\dfrac{1}{4}, 4\\dfrac{1}{2}, 4\\dfrac{1}{3}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$4\\dfrac{1}{4}, 4\\dfrac{1}{3}, 4\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{1}{4} < \\frac{1}{3} < \\frac{1}{2}$."
+      },
+      {
+        "text": "$4\\dfrac{1}{3}, 4\\dfrac{1}{2}, 4\\dfrac{1}{4}$",
+        "hint": "$4\\frac{1}{4}$ is the smallest, so it must come first."
+      },
+      {
+        "text": "$4\\dfrac{1}{2}, 4\\dfrac{1}{3}, 4\\dfrac{1}{4}$",
+        "hint": "This is descending order."
+      },
+      {
+        "text": "$4\\dfrac{1}{4}, 4\\dfrac{1}{2}, 4\\dfrac{1}{3}$",
+        "hint": "$4\\frac{1}{3}$ is less than $4\\frac{1}{2}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "All have the whole number 4, so compare the fractions.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{4} < \\frac{1}{3} < \\frac{1}{2}$, since a larger denominator gives a smaller unit fraction.\n\n## Simplified explanation\n\nThe whole numbers are the same. A quarter is smaller than a third, and a third is smaller than a half.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Prices of items in a shop were reduced by 10% during a reduction sale. If a customer bought an electric fan for ₵81,000.00, what was its original price?",
+    "media": [],
+    "options": [
+      {
+        "text": "₵72,900.00",
+        "hint": "This takes off another 10%."
+      },
+      {
+        "text": "₵73,900.00",
+        "hint": "The original price is higher than ₵81,000.00."
+      },
+      {
+        "text": "₵89,100.00",
+        "hint": "This adds 10% of the sale price. The 10% is of the original price."
+      },
+      {
+        "text": "₵90,000.00",
+        "hint": "Correct. 90% of ₵90,000.00 is ₵81,000.00."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The sale price is 90% of the original price.",
+    "explanation": "## Advanced explanation\n\n$0.9P = 81{,}000$, so $P = 90{,}000$.\n\n## Simplified explanation\n\n₵81,000 is 90% of the price, so 10% is ₵9,000 and 100% is ₵90,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks scored by 8 pupils in a Science test are: 3, 7, 8, 6, 4, 8, 4, 6.\n\nWhat is the median mark?",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "The two middle marks in order are 6 and 6."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{6 + 6}{2} = 6$."
+      },
+      {
+        "text": "7",
+        "hint": "The two middle marks in order are 6 and 6."
+      },
+      {
+        "text": "8",
+        "hint": "This is the highest mark."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Arrange the marks in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: 3, 4, 4, 6, 6, 7, 8, 8. The median is the mean of the 4th and 5th values, which is 6.\n\n## Simplified explanation\n\nPut them in order. With 8 marks, the two middle ones are both 6, so the median is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The marks scored by 8 pupils in a Science test are: 3, 7, 8, 6, 4, 8, 4, 6.\n\nWhat is the probability that a pupil chosen at random scored 4 marks?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Only 2 of the 8 pupils scored 4 marks."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{2}{8} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Two pupils scored 4 marks, not one."
+      },
+      {
+        "text": "$\\dfrac{2}{47}$",
+        "hint": "Use the number of pupils, 8, as the denominator."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count how many pupils scored 4 marks.",
+    "explanation": "## Advanced explanation\n\n$P(4) = \\frac{2}{8} = \\frac{1}{4}$.\n\n## Simplified explanation\n\n2 of the 8 pupils scored 4, and $\\frac{2}{8}$ reduces to $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y = k + ax^2$, find $y$ when $k = \\dfrac{14}{5}$, $a = \\dfrac{4}{5}$ and $x = 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$30$",
+        "hint": "This is the top of $\\frac{30}{5}$. Divide by 5."
+      },
+      {
+        "text": "$7\\dfrac{3}{5}$",
+        "hint": "Check: $\\frac{4}{5} \\times 4 = \\frac{16}{5}$."
+      },
+      {
+        "text": "$6$",
+        "hint": "Correct. $\\frac{14}{5} + \\frac{16}{5} = 6$."
+      },
+      {
+        "text": "$4$",
+        "hint": "Square $x$ first: $2^2 = 4$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Square $x$ before multiplying by $a$.",
+    "explanation": "## Advanced explanation\n\n$y = \\frac{14}{5} + \\frac{4}{5}(4) = \\frac{14 + 16}{5} = 6$.\n\n## Simplified explanation\n\n$2^2 = 4$, and $\\frac{4}{5} \\times 4 = \\frac{16}{5}$. Adding $\\frac{14}{5}$ gives $\\frac{30}{5} = 6$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following dimensions of a triangle form the sides of a right-angled triangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "3 cm, 4 cm, 6 cm",
+        "hint": "$3^2 + 4^2 = 25$, but $6^2 = 36$."
+      },
+      {
+        "text": "3 cm, 5 cm, 7 cm",
+        "hint": "$3^2 + 5^2 = 34$, but $7^2 = 49$."
+      },
+      {
+        "text": "5 cm, 13 cm, 17 cm",
+        "hint": "$5^2 + 13^2 = 194$, but $17^2 = 289$."
+      },
+      {
+        "text": "5 cm, 12 cm, 13 cm",
+        "hint": "Correct. $25 + 144 = 169$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use Pythagoras' theorem on each set.",
+    "explanation": "## Advanced explanation\n\nThe converse of Pythagoras' theorem: $5^2 + 12^2 = 13^2$.\n\n## Simplified explanation\n\nSquare the two short sides and add. Only $25 + 144 = 169$ matches the square of the longest side.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2004 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Factorise completely the expression $2xy - 8x + 3y - 12$.\n\n(ii) Evaluate the expression in (i) if $x = 5$ and $y = 7$.",
+    "media": [],
+    "answer": "**(i)** $2x(y - 4) + 3(y - 4) = (y - 4)(2x + 3)$\n\n**(ii)** $(7 - 4)(2 \\times 5 + 3) = 3 \\times 13 = 39$\n\n> [!answer]\n> **(i)** {{green:$(y - 4)(2x + 3)$}}  **(ii)** {{green:39}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nSubstituting into the factorised form is simpler, and the original gives the same value: $70 - 40 + 21 - 12 = 39$.\n\n## Simplified explanation\n\nTake $2x$ out of the first pair and 3 out of the second. Both leave $(y - 4)$. Then $7 - 4 = 3$ and $2 \\times 5 + 3 = 13$, and $3 \\times 13 = 39$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Make $q$ the subject of the equation\n\n$$t = \\frac{1}{p} + \\frac{1}{q}$$",
+    "media": [],
+    "answer": "$$\\frac{1}{q} = t - \\frac{1}{p} = \\frac{pt - 1}{p}$$\n\nTurn both sides upside down:\n\n$$q = \\frac{p}{pt - 1}$$\n\n> [!answer]\n> {{green:$q = \\dfrac{p}{pt - 1}$}}",
+    "hint": "Get $\\frac{1}{q}$ by itself first.",
+    "explanation": "## Advanced explanation\n\nCheck with $p = 2$ and $q = 2$: $t = 1$, and the formula gives $\\frac{2}{2 - 1} = 2$.\n\n## Simplified explanation\n\nMove $\\frac{1}{p}$ across, then write the right side as one fraction. Turning both sides upside down gives $q$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $u = \\begin{pmatrix} -5 \\\\ 9 \\end{pmatrix}$ and $v = \\begin{pmatrix} 8 \\\\ 12 \\end{pmatrix}$, find $3\\left(u + \\dfrac{1}{2}v\\right)$.",
+    "media": [],
+    "answer": "$$u + \\frac{1}{2}v = \\begin{pmatrix} -5 + 4 \\\\ 9 + 6 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 15 \\end{pmatrix}$$\n\n$$3\\begin{pmatrix} -1 \\\\ 15 \\end{pmatrix} = \\begin{pmatrix} -3 \\\\ 45 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} -3 \\\\ 45 \\end{pmatrix}$}}",
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\nScalar multiplication distributes over vector addition, so this also equals $3u + \\frac{3}{2}v$.\n\n## Simplified explanation\n\nHalf of $v$ is 4 and 6. Adding $u$ gives $-1$ and 15. Multiplying by 3 gives $-3$ and 45.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Ama and Kofi shared the profit earned from their business in the ratio $3 : 4$. The profit was ₵1,743,000.00.\n\n(i) Find how much of the profit each person received.\n\n(ii) Kofi lent out his share of the profit at a rate of 20% per annum for 2 years. Find the interest on his share.\n\n(iii) What will be Kofi's total amount at the end of the 2 years?",
+    "media": [],
+    "answer": "**(i)** One part: $1{,}743{,}000 \\div 7 = 249{,}000$\n\nAma: $3 \\times 249{,}000 = 747{,}000$\n\nKofi: $4 \\times 249{,}000 = 996{,}000$\n\n**(ii)** $\\frac{996{,}000 \\times 20 \\times 2}{100} = 398{,}400$\n\n**(iii)** $996{,}000 + 398{,}400 = 1{,}394{,}400$\n\n> [!answer]\n> **(i)** {{green:Ama ₵747,000.00, Kofi ₵996,000.00}}\n>\n> **(ii)** {{green:₵398,400.00}}  **(iii)** {{green:₵1,394,400.00}}",
+    "hint": "The ratio has 7 parts.",
+    "explanation": "## Advanced explanation\n\n$A = P\\left(1 + \\frac{RT}{100}\\right) = 996{,}000 \\times 1.4 = 1{,}394{,}400$.\n\n## Simplified explanation\n\nOne part of the 7 is ₵249,000. Ama gets 3 parts and Kofi gets 4. Kofi earns 20% a year for 2 years, which is 40% of his share, or ₵398,400. Adding his share gives ₵1,394,400.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Change $243_{\\text{five}}$ into a base ten numeral.",
+    "media": [],
+    "answer": "$$2 \\times 25 + 4 \\times 5 + 3 = 50 + 20 + 3 = 73$$\n\n> [!answer]\n> {{green:73}}",
+    "hint": "The place values are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\nA base five numeral is expanded in powers of 5.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 50, 20 and 3. They add to 73.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct\n\n(i) triangle $PQR$ such that $|PQ| = 8$ cm, angle $QPR = 60^\\circ$ and angle $PQR = 45^\\circ$.\n\n(ii) Measure $|QR|$. Type your measurement.",
+    "media": [],
+    "answer": "Draw $|PQ| = 8$ cm. Construct $60^\\circ$ at $P$, and construct $90^\\circ$ at $Q$ and bisect it to get $45^\\circ$. The arms meet at $R$.\n\n> [!answer]\n> {{green:$|QR| \\approx 7.2$ cm}}",
+    "hint": "Bisect a right angle to get $45^\\circ$.",
+    "explanation": "## Advanced explanation\n\nAngle $R = 75^\\circ$. By the sine rule, $|QR| = \\frac{8\\sin 60^\\circ}{\\sin 75^\\circ} \\approx 7.17$ cm.\n\n## Simplified explanation\n\nDraw the 8 cm base. Make the 60° and 45° angles at its two ends. The arms cross at $R$, and $QR$ measures about 7.2 cm.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A rectangular water tank has length 60 cm, width 45 cm and height 50 cm. Find\n\n(i) the total surface area of the tank when closed;\n\n(ii) the volume of the tank;\n\n(iii) the height of the water in the tank, if the tank contains 81,000 cm³ of water.",
+    "media": [],
+    "answer": "**(i)** $2(60 \\times 45 + 60 \\times 50 + 45 \\times 50) = 2(2{,}700 + 3{,}000 + 2{,}250) = 15{,}900$ cm²\n\n**(ii)** $60 \\times 45 \\times 50 = 135{,}000$ cm³\n\n**(iii)** $\\frac{81{,}000}{60 \\times 45} = 30$ cm\n\n> [!answer]\n> **(i)** {{green:15,900 cm²}}  **(ii)** {{green:135,000 cm³}}  **(iii)** {{green:30 cm}}",
+    "hint": "A closed tank has 6 faces, in 3 equal pairs.",
+    "explanation": "## Advanced explanation\n\nFor a cuboid, surface area is $2(lw + lh + wh)$ and volume is $lwh$. The water's height is its volume divided by the base area.\n\n## Simplified explanation\n\nFind the three different faces and double their total to get 15,900. Multiply all three lengths to get 135,000. The base is 2,700 cm², and $81{,}000 \\div 2{,}700 = 30$.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A car runs on the average at 45 km to 5 litres of fuel. Calculate how many litres of fuel are required for a journey of 117 km.",
+    "media": [],
+    "answer": "Distance per litre: $45 \\div 5 = 9$ km\n\nFuel: $117 \\div 9 = 13$ litres\n\n> [!answer]\n> {{green:13 litres}}",
+    "hint": "Find how far the car goes on one litre.",
+    "explanation": "## Advanced explanation\n\nDirect proportion: $\\frac{5}{45} \\times 117 = 13$.\n\n## Simplified explanation\n\n45 km on 5 litres means 9 km on each litre. Then $117 \\div 9 = 13$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Solve for $x$ in the inequality $\\dfrac{2}{3}(2x + 5) \\le 8\\dfrac{2}{3}$.\n\n(ii) Describe how to illustrate the solution on the number line.",
+    "media": [],
+    "answer": "**(i)** Multiply both sides by 3:\n\n$$2(2x + 5) \\le 26$$\n\n$$2x + 5 \\le 13$$\n\n$$x \\le 4$$\n\n**(ii)** Draw a solid dot at 4 with an arrow pointing to the left.\n\n> [!answer]\n> {{green:$x \\le 4$}}, shown by a solid dot at 4 and an arrow to the left.",
+    "hint": "Change $8\\frac{2}{3}$ to $\\frac{26}{3}$.",
+    "explanation": "## Advanced explanation\n\nMultiplying by positive numbers keeps the direction of the inequality. The dot is solid because 4 is included.\n\n## Simplified explanation\n\n$8\\frac{2}{3}$ is $\\frac{26}{3}$. Clearing the fractions gives $2x + 5 \\le 13$. So $2x \\le 8$ and $x \\le 4$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A factory increased its production by $22\\dfrac{1}{2}\\%$ and produced 49,000 tonnes. How many tonnes was it producing before?",
+    "media": [],
+    "answer": "49,000 tonnes is $122\\frac{1}{2}\\%$ of the earlier production:\n\n$$\\frac{49{,}000}{1.225} = 40{,}000$$\n\n> [!answer]\n> {{green:40,000 tonnes}}",
+    "hint": "The new production is $122\\frac{1}{2}\\%$ of the old.",
+    "explanation": "## Advanced explanation\n\nA reverse percentage divides by the multiplier: $1 + 0.225 = 1.225$.\n\n## Simplified explanation\n\nThe new amount is 122.5% of the old. So 1% is $49{,}000 \\div 122.5 = 400$ tonnes, and 100% is 40,000 tonnes.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(a) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. Mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(b) Plot the points\n\n(i) $P(1, -2)$ and $Q(4, 5)$;\n\n(ii) $P'$, the image of $P$ under a translation by the vector $\\begin{pmatrix} -5 \\\\ 0 \\end{pmatrix}$, and $Q'$, the image of $Q$ by the same vector.\n\n(c)(i) Join $PQQ'P'$.\n\n(c)(ii) Measure angles $PQQ'$ and $PP'Q'$.\n\n(d)(i) Find the vectors $\\overrightarrow{PQ}$ and $\\overrightarrow{P'Q'}$.\n\n(d)(ii) What is the shape of $PQQ'P'$?",
+    "media": [],
+    "answer": "**(b)(ii)** $P'(-4, -2)$ and $Q'(-1, 5)$\n\n**(c)(ii)** Both angles measure about $67^\\circ$.\n\n**(d)(i)** $\\overrightarrow{PQ} = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}$ and $\\overrightarrow{P'Q'} = \\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}$\n\n**(d)(ii)** Opposite sides are equal and parallel, so the shape is a parallelogram.\n\n> [!answer]\n> **(b)(ii)** {{green:$P'(-4, -2)$, $Q'(-1, 5)$}}  **(c)(ii)** {{green:both about $67^\\circ$}}\n>\n> **(d)(i)** {{green:both $\\begin{pmatrix} 3 \\\\ 7 \\end{pmatrix}$}}  **(d)(ii)** {{green:a parallelogram}}",
+    "hint": "A translation adds the vector to each point.",
+    "explanation": "## Advanced explanation\n\nA translation preserves length and direction, so $\\overrightarrow{PQ} = \\overrightarrow{P'Q'}$. The angles are opposite angles of a parallelogram, so they are equal.\n\n## Simplified explanation\n\nMove each point 5 to the left. $PQ$ and $P'Q'$ both go 3 along and 7 up, so they are equal and parallel. That makes the shape a parallelogram, and its opposite angles are both about 67°.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Transformations",
+      "Vectors",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The following are the ages in years of members of a group:\n\n8, 11, 8, 10, 6, 7, $3x$, 11, 11\n\n(a) If the mean age is 9 years, find\n\n(i) $x$;\n\n(ii) the modal age;\n\n(iii) the median age.\n\n(b) Describe the bar chart you would draw for the distribution.",
+    "media": [],
+    "answer": "**(a)(i)** There are 9 ages, so the total is $9 \\times 9 = 81$.\n\n$$72 + 3x = 81$$\n\n$$x = 3$$\n\n**(ii)** The ages are 8, 11, 8, 10, 6, 7, 9, 11, 11, so the mode is 11.\n\n**(iii)** In order: 6, 7, 8, 8, 9, 10, 11, 11, 11. The middle age is 9.\n\n**(b)** Draw age on the horizontal axis and frequency on the vertical axis, with separate bars of equal width: age 6 height 1, age 7 height 1, age 8 height 2, age 9 height 1, age 10 height 1 and age 11 height 3.\n\n> [!answer]\n> **(a)(i)** {{green:$x = 3$}}  **(ii)** {{green:11 years}}  **(iii)** {{green:9 years}}",
+    "hint": "Total $=$ mean $\\times$ number of members.",
+    "explanation": "## Advanced explanation\n\nThe term $3x$ counts as one age, so there are 9 values. Once $x = 3$, that age is 9.\n\n## Simplified explanation\n\nNine ages with a mean of 9 add to 81. The other ages add to 72, so $3x = 9$ and $x = 3$. The age 11 appears most, and the middle age in order is 9.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2004 Paper",
+      "Section B",
+      "Statistics",
+      "Algebra"
+    ]
+  }
+]

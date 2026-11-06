@@ -1,0 +1,1601 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following sets is well defined?",
+    "media": [],
+    "options": [
+      {
+        "text": "{Man, Kofi, Red, 14}",
+        "hint": "These members have nothing clear in common."
+      },
+      {
+        "text": "{Ink, Mango, Green, Nail}",
+        "hint": "These members have nothing clear in common."
+      },
+      {
+        "text": "{Car, Road, Glass, Book}",
+        "hint": "These members have nothing clear in common."
+      },
+      {
+        "text": "{Seth, Mary, Jacob, Evelyn}",
+        "hint": "Correct. All the members are names of people."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look for the set whose members clearly belong together.",
+    "explanation": "## Advanced explanation\n\nA set is well defined when it is clear what qualifies as a member. Here, all four members are people's names.\n\n## Simplified explanation\n\nSeth, Mary, Jacob and Evelyn are all people's names. The other sets are mixtures of unrelated things.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If set $B$ is a subset of set $A$, then",
+    "media": [],
+    "options": [
+      {
+        "text": "sets $A$ and $B$ have the same number of elements.",
+        "hint": "$A$ may have more elements than $B$."
+      },
+      {
+        "text": "some members of set $B$ can be found in set $A$.",
+        "hint": "Not just some: every member of $B$ is in $A$."
+      },
+      {
+        "text": "no member of set $B$ is in set $A$.",
+        "hint": "This is the opposite of what a subset means."
+      },
+      {
+        "text": "all the members of set $B$ are in set $A$.",
+        "hint": "Correct. This is the meaning of a subset."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "What does it mean for one set to sit inside another?",
+    "explanation": "## Advanced explanation\n\n$B \\subseteq A$ means that every element of $B$ is also an element of $A$.\n\n## Simplified explanation\n\nA subset sits completely inside the bigger set, so all of its members are in the bigger set.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The least common multiple (L.C.M.) of 16, 30 and 36 is",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "3 is not a multiple of any of these numbers."
+      },
+      {
+        "text": "6",
+        "hint": "6 is not a multiple of any of these numbers."
+      },
+      {
+        "text": "240",
+        "hint": "240 is a multiple of 16 and 30, but not of 36."
+      },
+      {
+        "text": "720",
+        "hint": "Correct. $720 = 2^4 \\times 3^2 \\times 5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$16 = 2^4$, $30 = 2 \\times 3 \\times 5$ and $36 = 2^2 \\times 3^2$, so the LCM is $2^4 \\times 3^2 \\times 5 = 720$.\n\n## Simplified explanation\n\nTake the biggest power of each prime: 16, 9 and 5. Then $16 \\times 9 \\times 5 = 720$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of 5 and $x$ divided by 4 is equal to 3.25. Find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "Correct. $(5 + 8) \\div 4 = 3.25$."
+      },
+      {
+        "text": "7",
+        "hint": "$(5 + 7) \\div 4 = 3$, not 3.25."
+      },
+      {
+        "text": "$2\\dfrac{1}{4}$",
+        "hint": "The sum is divided by 4, so multiply 3.25 by 4 first."
+      },
+      {
+        "text": "$-3\\dfrac{4}{13}$",
+        "hint": "The sum is divided by 4, so multiply 3.25 by 4 first."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write the sentence as an equation: $\\frac{5 + x}{4} = 3.25$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5 + x}{4} = 3.25$ gives $5 + x = 13$, so $x = 8$.\n\n## Simplified explanation\n\nMultiply 3.25 by 4 to get 13. Then 5 and $x$ must add to 13, so $x = 8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The numbers 32, 33, 34, ..., ..., 42 form a sequence in base 5. Find the missing numbers.",
+    "media": [],
+    "options": [
+      {
+        "text": "35, 36",
+        "hint": "The digit 5 is not used in base five."
+      },
+      {
+        "text": "30, 31",
+        "hint": "These come before 32, not after 34."
+      },
+      {
+        "text": "40, 41",
+        "hint": "Correct. After 34, the next number in base five is 40."
+      },
+      {
+        "text": "31, 41",
+        "hint": "31 comes before 34."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Base five uses only the digits 0 to 4.",
+    "explanation": "## Advanced explanation\n\nAdding 1 to $34_{\\text{five}}$ carries, which gives $40_{\\text{five}}$. The next number is $41_{\\text{five}}$, and then $42_{\\text{five}}$.\n\n## Simplified explanation\n\nIn base five you cannot write a 5. After 34 you carry to get 40, and then comes 41, which leads to the 42 given.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Bases",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write down all the integers in the set: $A = \\left\\{-10, -4, 0, \\dfrac{1}{4}, 2\\dfrac{1}{2}, 45, 100\\right\\}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{-10, -4, 0, 45, 100\\}$",
+        "hint": "Correct. These are all the whole numbers and their negatives."
+      },
+      {
+        "text": "$\\{-10, -4\\}$",
+        "hint": "0, 45 and 100 are integers too."
+      },
+      {
+        "text": "$\\{0, 45, 100\\}$",
+        "hint": "Negative whole numbers are integers too."
+      },
+      {
+        "text": "$\\left\\{\\dfrac{1}{4}, 2\\dfrac{1}{2}\\right\\}$",
+        "hint": "These are the only members that are not integers."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Integers are the whole numbers, zero and the negative whole numbers.",
+    "explanation": "## Advanced explanation\n\nOnly $\\frac{1}{4}$ and $2\\frac{1}{2}$ are not integers, so the rest form the required set.\n\n## Simplified explanation\n\nRemove the two fractions. Everything left is an integer.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the total cost of 25 pens and 75 books if each pen costs GH₵ 0.20 and each book costs GH₵ 0.30.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 22.50",
+        "hint": "This is the cost of the books only."
+      },
+      {
+        "text": "GH₵ 23.50",
+        "hint": "Check the cost of the pens: $25 \\times 0.20 = 5$."
+      },
+      {
+        "text": "GH₵ 27.50",
+        "hint": "Correct. $5.00 + 22.50 = 27.50$."
+      },
+      {
+        "text": "GH₵ 50.00",
+        "hint": "This treats all 100 items as costing GH₵ 0.50 each."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the cost of the pens and books separately.",
+    "explanation": "## Advanced explanation\n\n$25(0.20) + 75(0.30) = 5.00 + 22.50 = 27.50$.\n\n## Simplified explanation\n\nThe pens cost GH₵ 5 and the books cost GH₵ 22.50. Together that is GH₵ 27.50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $-27 + 18 - (10 - 14) - (-2)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Correct. $-27 + 18 + 4 + 2 = -3$."
+      },
+      {
+        "text": "$-7$",
+        "hint": "$-(10 - 14)$ is $+4$."
+      },
+      {
+        "text": "$-11$",
+        "hint": "$-(-2)$ is $+2$."
+      },
+      {
+        "text": "$-35$",
+        "hint": "$-27 + 18$ is $-9$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first, and take care with the minus signs.",
+    "explanation": "## Advanced explanation\n\n$-27 + 18 - (-4) + 2 = -27 + 18 + 4 + 2 = -3$.\n\n## Simplified explanation\n\nThe bracket gives $-4$, and taking it away adds 4. Taking away $-2$ adds 2. So $-27 + 18 + 4 + 2 = -3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following numbers from the lowest to the highest: 0.5, 3, $-5$, 0.",
+    "media": [],
+    "options": [
+      {
+        "text": "0, 0.5, $-5$, 3",
+        "hint": "$-5$ is the lowest, so it must come first."
+      },
+      {
+        "text": "0, $-5$, 0.5, 3",
+        "hint": "$-5$ is less than 0."
+      },
+      {
+        "text": "$-5$, 0, 0.5, 3",
+        "hint": "Correct. This is their order on a number line."
+      },
+      {
+        "text": "$-5$, 0.5, 0, 3",
+        "hint": "0 is less than 0.5."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Imagine the numbers on a number line.",
+    "explanation": "## Advanced explanation\n\nOn the number line, $-5 < 0 < 0.5 < 3$.\n\n## Simplified explanation\n\nNegative numbers come first, then 0, then the positive numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find how many pieces of cloth $5\\dfrac{1}{2}$ m long that can be cut from a roll of cloth 121 m long.",
+    "media": [],
+    "options": [
+      {
+        "text": "$665\\dfrac{1}{2}$",
+        "hint": "This multiplies. Divide instead."
+      },
+      {
+        "text": "$115\\dfrac{1}{2}$",
+        "hint": "This subtracts. Divide instead."
+      },
+      {
+        "text": "$66$",
+        "hint": "Check the division: $121 \\times \\frac{2}{11}$."
+      },
+      {
+        "text": "$22$",
+        "hint": "Correct. $22 \\times 5.5 = 121$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide the length of the roll by the length of a piece.",
+    "explanation": "## Advanced explanation\n\n$121 \\div \\frac{11}{2} = 121 \\times \\frac{2}{11} = 22$.\n\n## Simplified explanation\n\n$5\\frac{1}{2}$ is $\\frac{11}{2}$. Then $121 \\div 11 = 11$, and $11 \\times 2 = 22$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $124.3 + 0.275 + 74.06$, correcting your answer to one decimal place.",
+    "media": [],
+    "options": [
+      {
+        "text": "198.6",
+        "hint": "Correct. The sum is 198.635."
+      },
+      {
+        "text": "198.7",
+        "hint": "The second decimal digit is 3, so do not round up."
+      },
+      {
+        "text": "892.0",
+        "hint": "Line up the decimal points before adding."
+      },
+      {
+        "text": "892.4",
+        "hint": "Line up the decimal points before adding."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Line up the decimal points, then round.",
+    "explanation": "## Advanced explanation\n\nThe sum is 198.635. The digit after the first decimal place is 3, so round down to 198.6.\n\n## Simplified explanation\n\nAdding gives 198.635. Keep one decimal digit. The next digit is 3, so it stays 198.6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Number Operations",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Esi and Kwasi are 12 and 8 years old respectively. They share 60 mangoes in the ratio of their ages. How many mangoes does Esi get?",
+    "media": [],
+    "options": [
+      {
+        "text": "42",
+        "hint": "Esi's fraction is $\\frac{12}{20}$ of 60."
+      },
+      {
+        "text": "40",
+        "hint": "Esi's fraction is $\\frac{12}{20}$ of 60."
+      },
+      {
+        "text": "36",
+        "hint": "Correct. $\\frac{12}{20} \\times 60 = 36$."
+      },
+      {
+        "text": "18",
+        "hint": "Esi's fraction is $\\frac{12}{20}$ of 60."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The ratio has $12 + 8 = 20$ parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{12}{12 + 8} \\times 60 = 36$.\n\n## Simplified explanation\n\nThere are 20 parts in all, so each part is 3 mangoes. Esi gets 12 parts, which is 36.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "It takes 6 students 1 hour to sweep their school compound. How long will it take 15 students to sweep the same compound?",
+    "media": [],
+    "options": [
+      {
+        "text": "24 minutes",
+        "hint": "Correct. $360 \\div 15 = 24$."
+      },
+      {
+        "text": "12 minutes",
+        "hint": "This is what 30 students would take."
+      },
+      {
+        "text": "3 hours",
+        "hint": "More students take less time, not more."
+      },
+      {
+        "text": "2 hours",
+        "hint": "More students take less time, not more."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "More students take less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nWork needed: $6 \\times 60 = 360$ student-minutes, and $\\frac{360}{15} = 24$ minutes.\n\n## Simplified explanation\n\nOne student alone would take 360 minutes. Fifteen students share this work, and $360 \\div 15 = 24$ minutes.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A housing agent makes a commission of GH₵ 103,500.00 when he sells a house for GH₵ 690,000.00. Calculate the percentage of his commission.",
+    "media": [],
+    "options": [
+      {
+        "text": "15.0%",
+        "hint": "Correct. $\\frac{103{,}500}{690{,}000} \\times 100 = 15$."
+      },
+      {
+        "text": "10.0%",
+        "hint": "10% of GH₵ 690,000 is GH₵ 69,000."
+      },
+      {
+        "text": "7.5%",
+        "hint": "7.5% of GH₵ 690,000 is GH₵ 51,750."
+      },
+      {
+        "text": "5.0%",
+        "hint": "5% of GH₵ 690,000 is GH₵ 34,500."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide the commission by the selling price.",
+    "explanation": "## Advanced explanation\n\n$\\frac{103{,}500}{690{,}000} \\times 100\\% = 15\\%$.\n\n## Simplified explanation\n\n10% of 690,000 is 69,000 and 5% is 34,500. Together they make 103,500, so the commission is 15%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A simple interest of GH₵ 37,500.00 is earned on an amount of GH₵ 500,000.00 for 3 years. Find the rate of interest per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "20.0%",
+        "hint": "This yields GH₵ 300,000.00 in 3 years."
+      },
+      {
+        "text": "10.0%",
+        "hint": "This yields GH₵ 150,000.00 in 3 years."
+      },
+      {
+        "text": "5.0%",
+        "hint": "This yields GH₵ 75,000.00 in 3 years."
+      },
+      {
+        "text": "2.5%",
+        "hint": "Correct. This yields GH₵ 37,500.00 in 3 years."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$R = \\frac{100I}{PT}$.",
+    "explanation": "## Advanced explanation\n\n$R = \\frac{100 \\times 37{,}500}{500{,}000 \\times 3} = 2.5\\%$.\n\n## Simplified explanation\n\nThe interest for one year is $37{,}500 \\div 3 = 12{,}500$. Out of 500,000, that is 2.5%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $(8x^2y^3)\\left(\\dfrac{3}{8}xy^4\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$3x^3y^7$",
+        "hint": "Correct. Multiply the numbers and add the powers."
+      },
+      {
+        "text": "$3x^2y^7$",
+        "hint": "$x^2 \\times x = x^3$."
+      },
+      {
+        "text": "$3x^3y^4$",
+        "hint": "$y^3 \\times y^4 = y^7$."
+      },
+      {
+        "text": "$3xy$",
+        "hint": "Add the powers of $x$ and of $y$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply the numbers, then add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$8 \\times \\frac{3}{8} = 3$, $x^{2 + 1} = x^3$ and $y^{3 + 4} = y^7$.\n\n## Simplified explanation\n\nThe numbers give 3. For $x$, the powers $2 + 1$ make 3. For $y$, the powers $3 + 4$ make 7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The scores of 10 students in an examination are given as follows: 45, 12, 75, 81, 54, 51, 24, 67, 19 and 39. What is the median of the scores?",
+    "media": [],
+    "options": [
+      {
+        "text": "39",
+        "hint": "This is the 4th score in order."
+      },
+      {
+        "text": "48",
+        "hint": "Correct. $\\frac{45 + 51}{2} = 48$."
+      },
+      {
+        "text": "51",
+        "hint": "This is the 6th score in order."
+      },
+      {
+        "text": "54",
+        "hint": "This is the 7th score in order."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Arrange the scores in order first.",
+    "explanation": "## Advanced explanation\n\nIn order: 12, 19, 24, 39, 45, 51, 54, 67, 75, 81. The median is the mean of the 5th and 6th values: $\\frac{45 + 51}{2} = 48$.\n\n## Simplified explanation\n\nPut them in order. With 10 scores, the two middle ones are 45 and 51, and halfway between them is 48.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A pie chart is to be drawn from the data in the following table. What will be the value of the angle of the sector for maize?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq18.png",
+        "caption": "Table of percentages: Cassava 20%, Yam 17%, Plantain 28%, Maize 35%."
+      }
+    ],
+    "options": [
+      {
+        "text": "126.0°",
+        "hint": "Correct. 35% of 360° is 126°."
+      },
+      {
+        "text": "100.8°",
+        "hint": "This is the angle for plantain."
+      },
+      {
+        "text": "72.0°",
+        "hint": "This is the angle for cassava."
+      },
+      {
+        "text": "61.2°",
+        "hint": "This is the angle for yam."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find 35% of 360°.",
+    "explanation": "## Advanced explanation\n\n$\\frac{35}{100} \\times 360^\\circ = 126^\\circ$.\n\n## Simplified explanation\n\nMaize is 35% of the whole circle. 35% of 360 is 126.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Nineteen cards are numbered from 11 to 29. If one card is chosen at random, what is the probability that it contains the digit 2?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{9}$",
+        "hint": "Count the cards with a 2: 12, and 20 to 29."
+      },
+      {
+        "text": "$\\dfrac{7}{18}$",
+        "hint": "There are 19 cards from 11 to 29."
+      },
+      {
+        "text": "$\\dfrac{5}{9}$",
+        "hint": "There are 19 cards from 11 to 29."
+      },
+      {
+        "text": "$\\dfrac{11}{19}$",
+        "hint": "Correct. 11 of the 19 cards contain a 2."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "List the cards that contain a 2. Do not forget 12.",
+    "explanation": "## Advanced explanation\n\nThe cards are 12 and 20 to 29, which is $1 + 10 = 11$ cards. So $P = \\frac{11}{19}$.\n\n## Simplified explanation\n\n20 to 29 gives 10 cards, and 12 makes 11. There are 19 cards altogether, so the probability is $\\frac{11}{19}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $x$, if $\\dfrac{x}{4} + 1 = 5$",
+    "media": [],
+    "options": [
+      {
+        "text": "24",
+        "hint": "This multiplies by 4 and then adds 4 more."
+      },
+      {
+        "text": "20",
+        "hint": "This leaves out the $+1$. Subtract 1 first."
+      },
+      {
+        "text": "19",
+        "hint": "Subtract 1 from 5 before multiplying by 4."
+      },
+      {
+        "text": "16",
+        "hint": "Correct. $\\frac{x}{4} = 4$, so $x = 16$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract 1 from both sides first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{x}{4} = 4$, so $x = 16$.\n\n## Simplified explanation\n\nTake 1 from both sides to get $\\frac{x}{4} = 4$. Multiply by 4 to get 16.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $xy + 5x + 2y + 10$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(x + 5)(2y + 10)$",
+        "hint": "This expands to give $2xy$."
+      },
+      {
+        "text": "$(x + 2)(y + 10)$",
+        "hint": "This expands to give $10x$, not $5x$."
+      },
+      {
+        "text": "$(x + 5)(y + 2)$",
+        "hint": "This expands to give $2x + 5y$, not $5x + 2y$."
+      },
+      {
+        "text": "$(x + 2)(y + 5)$",
+        "hint": "Correct. $x(y + 5) + 2(y + 5)$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$x(y + 5) + 2(y + 5) = (x + 2)(y + 5)$.\n\n## Simplified explanation\n\nTake $x$ out of the first pair and 2 out of the second. Both leave $(y + 5)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $x \\in \\{2, 3, 4, 5\\}$, find the truth set of $2x + 1 < 8$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2, 3, 4\\}$",
+        "hint": "When $x = 4$, $2x + 1 = 9$, which is not less than 8."
+      },
+      {
+        "text": "$\\{2, 3\\}$",
+        "hint": "Correct. $x < 3.5$."
+      },
+      {
+        "text": "$\\{3, 4\\}$",
+        "hint": "2 works, but 4 does not."
+      },
+      {
+        "text": "$\\{4, 5\\}$",
+        "hint": "These both give values above 8."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Test each value of $x$.",
+    "explanation": "## Advanced explanation\n\n$2x < 7$ means $x < 3.5$. In the given set, this leaves 2 and 3.\n\n## Simplified explanation\n\nTry each one: 2 gives 5 and 3 gives 7, which are below 8. 4 gives 9 and 5 gives 11, which are not.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Inequalities",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality: $7x - (10x + 3) \\ge -9$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\ge 2$",
+        "hint": "Dividing by $-3$ reverses the inequality sign."
+      },
+      {
+        "text": "$x \\le 4$",
+        "hint": "$-9 + 3$ is $-6$, not $-12$."
+      },
+      {
+        "text": "$x \\ge 4$",
+        "hint": "$-9 + 3$ is $-6$, not $-12$."
+      },
+      {
+        "text": "$x \\le 2$",
+        "hint": "Correct. $-3x \\ge -6$, so $x \\le 2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Reverse the sign when you divide by a negative number.",
+    "explanation": "## Advanced explanation\n\n$-3x - 3 \\ge -9$, so $-3x \\ge -6$ and $x \\le 2$.\n\n## Simplified explanation\n\nThe left side simplifies to $-3x - 3$. Adding 3 gives $-3x \\ge -6$. Dividing by $-3$ flips the sign, so $x \\le 2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| $y$ | 7 | 11 | 15 | 19 | 23 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to 4x - 3$",
+        "hint": "When $x = 1$, this gives 1."
+      },
+      {
+        "text": "$x \\to 3 - 4x$",
+        "hint": "When $x = 1$, this gives $-1$."
+      },
+      {
+        "text": "$x \\to 4x + 3$",
+        "hint": "Correct. When $x = 1$, this gives 7."
+      },
+      {
+        "text": "$x \\to 4x + 5$",
+        "hint": "When $x = 1$, this gives 9."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$y$ goes up by 4 each time.",
+    "explanation": "## Advanced explanation\n\nThe constant difference is 4, so $y = 4x + c$. With $(1, 7)$, $c = 3$.\n\n## Simplified explanation\n\nEach step adds 4, so the rule starts with $4x$. When $x = 1$, $4x$ is 4, and 3 more makes 7.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the circumference of a circle whose area is equal to $64\\pi$ cm².",
+    "media": [],
+    "options": [
+      {
+        "text": "$32\\pi$ cm",
+        "hint": "This doubles the correct answer. Use $2\\pi r$ with $r = 8$."
+      },
+      {
+        "text": "$16\\pi$ cm",
+        "hint": "Correct. $r = 8$ and $2\\pi \\times 8 = 16\\pi$."
+      },
+      {
+        "text": "$8\\pi$ cm",
+        "hint": "This is $\\pi r$. Use $2\\pi r$."
+      },
+      {
+        "text": "$4\\pi$ cm",
+        "hint": "The radius is 8 cm, not 2 cm."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use the area to find the radius.",
+    "explanation": "## Advanced explanation\n\n$\\pi r^2 = 64\\pi$ gives $r = 8$, so $C = 2\\pi r = 16\\pi$ cm.\n\n## Simplified explanation\n\n$r^2 = 64$, so $r = 8$. The circumference is $2 \\times \\pi \\times 8 = 16\\pi$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following geometric figures is the plane shape of a cube?",
+    "media": [],
+    "options": [
+      {
+        "text": "Circle",
+        "hint": "A cube has no curved faces."
+      },
+      {
+        "text": "Rectangle",
+        "hint": "A cube's faces have equal sides."
+      },
+      {
+        "text": "Square",
+        "hint": "Correct. All six faces of a cube are squares."
+      },
+      {
+        "text": "Triangle",
+        "hint": "A cube has no triangular faces."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Think about the shape of a face of a cube.",
+    "explanation": "## Advanced explanation\n\nA cube is bounded by six congruent square faces.\n\n## Simplified explanation\n\nEach face of a cube, such as a side of a die, is a square.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has a rectangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the number for a square."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number for an equilateral triangle."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. One through the midpoints of each pair of opposite sides."
+      },
+      {
+        "text": "1",
+        "hint": "A rectangle has both a vertical and a horizontal line of symmetry."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Imagine folding a sheet of paper so that the halves match exactly.",
+    "explanation": "## Advanced explanation\n\nThe lines of symmetry join the midpoints of opposite sides. The diagonals are not lines of symmetry unless the rectangle is a square.\n\n## Simplified explanation\n\nYou can fold a rectangle in half across or along, so it has 2 lines. A fold along the diagonal does not match.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular box has length 20 cm, width 6 cm and height 4 cm. Find how many cubes of size 2 cm that will fit into the box?",
+    "media": [],
+    "options": [
+      {
+        "text": "120",
+        "hint": "This divides by 4. A 2 cm cube has a volume of 8 cm³."
+      },
+      {
+        "text": "60",
+        "hint": "Correct. $480 \\div 8 = 60$."
+      },
+      {
+        "text": "30",
+        "hint": "This divides by 16. A 2 cm cube has a volume of 8 cm³."
+      },
+      {
+        "text": "15",
+        "hint": "This divides by 32. A 2 cm cube has a volume of 8 cm³."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find how many cubes fit along each edge.",
+    "explanation": "## Advanced explanation\n\n$\\frac{20}{2} \\times \\frac{6}{2} \\times \\frac{4}{2} = 10 \\times 3 \\times 2 = 60$.\n\n## Simplified explanation\n\n10 cubes fit along the length, 3 along the width and 2 up the height. Then $10 \\times 3 \\times 2 = 60$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The interior angle of a regular polygon is 120°. How many sides has this polygon?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "A regular triangle has interior angles of 60°."
+      },
+      {
+        "text": "4",
+        "hint": "A square has interior angles of 90°."
+      },
+      {
+        "text": "5",
+        "hint": "A regular pentagon has interior angles of 108°."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. Each exterior angle is 60°, and $360 \\div 60 = 6$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the exterior angle first.",
+    "explanation": "## Advanced explanation\n\nExterior angle: $180^\\circ - 120^\\circ = 60^\\circ$. So $n = \\frac{360}{60} = 6$.\n\n## Simplified explanation\n\nThe outside angle is $180 - 120 = 60$. The outside angles add to 360, so $360 \\div 60 = 6$ sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the length of $PS$ = the length of $SQ$ and angle $SQR = 112^\\circ$. Find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq30.png",
+        "caption": "Triangle PSR with Q on PR, joined to S. Angle PSQ is x° and angle SQR is 112°. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "68°",
+        "hint": "This is each base angle of triangle $PSQ$."
+      },
+      {
+        "text": "56°",
+        "hint": "This is half of 112°."
+      },
+      {
+        "text": "46°",
+        "hint": "Check the sum: $180 - 2(68)$."
+      },
+      {
+        "text": "44°",
+        "hint": "Correct. $180 - 68 - 68 = 44$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find angle $SQP$ on the straight line first.",
+    "explanation": "## Advanced explanation\n\nAngle $SQP = 180^\\circ - 112^\\circ = 68^\\circ$, and angle $SPQ = 68^\\circ$ because $|PS| = |SQ|$. So $x = 180 - 2(68) = 44$.\n\n## Simplified explanation\n\nThe angle at $Q$ inside the left triangle is 68°. The triangle is isosceles, so the angle at $P$ is also 68°. The rest of 180° is 44°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$XYZ$ is a right-angled triangle with length of sides as shown. Which of the following equations gives the value of $z^2$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq31.png",
+        "caption": "Triangle XYZ with a right angle at Y. XY is z, YZ is x and XZ is y."
+      }
+    ],
+    "options": [
+      {
+        "text": "$z^2 = x^2 + y^2$",
+        "hint": "$y$ is the hypotenuse, so $y^2$ is the sum."
+      },
+      {
+        "text": "$z^2 = x - y$",
+        "hint": "Pythagoras' theorem uses squares."
+      },
+      {
+        "text": "$z^2 = y^2 - x^2$",
+        "hint": "Correct. $y^2 = x^2 + z^2$."
+      },
+      {
+        "text": "$z^2 = x^2 - y^2$",
+        "hint": "$y$ is the longest side, so this would be negative."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which side is opposite the right angle?",
+    "explanation": "## Advanced explanation\n\n$y$ is the hypotenuse, so $y^2 = x^2 + z^2$ and $z^2 = y^2 - x^2$.\n\n## Simplified explanation\n\nThe longest side is $y$, so $y^2$ equals the other two squares added. Take $x^2$ away to leave $z^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 7 min 30 sec as a percentage of 1 hour.",
+    "media": [],
+    "options": [
+      {
+        "text": "2.5%",
+        "hint": "Check the division: $7.5 \\div 60$."
+      },
+      {
+        "text": "7.5%",
+        "hint": "This treats 7.5 minutes as 7.5%. Divide by 60."
+      },
+      {
+        "text": "11.7%",
+        "hint": "30 seconds is 0.5 minutes, not 0.3 minutes."
+      },
+      {
+        "text": "12.5%",
+        "hint": "Correct. $\\frac{7.5}{60} \\times 100 = 12.5$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change everything to minutes.",
+    "explanation": "## Advanced explanation\n\n$\\frac{7.5}{60} \\times 100\\% = 12.5\\%$.\n\n## Simplified explanation\n\n7 min 30 sec is 7.5 minutes out of 60. That is one eighth, which is 12.5%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Percentages",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $(4, 5)$ is translated to the point $(3, 1)$. What is the translation vector?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 4 \\end{pmatrix}$",
+        "hint": "$y$ goes from 5 down to 1."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 4 \\end{pmatrix}$",
+        "hint": "This takes $(3, 1)$ to $(4, 5)$, which is the wrong way."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ -4 \\end{pmatrix}$",
+        "hint": "$x$ goes from 4 down to 3."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -4 \\end{pmatrix}$",
+        "hint": "Correct. $3 - 4 = -1$ and $1 - 5 = -4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract the old point from the new point.",
+    "explanation": "## Advanced explanation\n\n$\\begin{pmatrix} 3 - 4 \\\\ 1 - 5 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ -4 \\end{pmatrix}$.\n\n## Simplified explanation\n\n$x$ falls by 1 and $y$ falls by 4, so both components are negative.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Transformations",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, triangle $QRT$ is the enlargement of $QST$. Which side of triangle $QRT$ corresponds to side $QT$ of triangle $QST$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq34.png",
+        "caption": "Triangle QRT with a right angle at Q. S is on TR, and QS is perpendicular to TR."
+      }
+    ],
+    "options": [
+      {
+        "text": "$TS$",
+        "hint": "This is a side of the small triangle, and it matches $TQ$ in the large one."
+      },
+      {
+        "text": "$TR$",
+        "hint": "Correct. Both sides are opposite the right angle."
+      },
+      {
+        "text": "$QR$",
+        "hint": "This side matches $QS$."
+      },
+      {
+        "text": "$SR$",
+        "hint": "This is not a side of triangle $QRT$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Compare the sides opposite the right angles.",
+    "explanation": "## Advanced explanation\n\n$QT$ is the hypotenuse of triangle $QST$, with the right angle at $S$. In triangle $QRT$, the right angle is at $Q$, so the hypotenuse is $TR$.\n\n## Simplified explanation\n\nThe longest side of each triangle faces the right angle. In the small triangle it is $QT$, and in the large triangle it is $TR$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Transformations",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, Fig. I is an enlargement of Fig. II. Find the side $EF$ of Fig. II.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq35.png",
+        "caption": "Two similar quadrilaterals. In Fig. I, E'F' is 12 cm and E'H' is 20 cm. In Fig. II, EH is 5 cm. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "20 cm",
+        "hint": "This is $E'H'$ in Fig. I."
+      },
+      {
+        "text": "5 cm",
+        "hint": "This is $EH$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This is the scale factor."
+      },
+      {
+        "text": "3 cm",
+        "hint": "Correct. $12 \\div 4 = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use $E'H'$ and $EH$ to find the scale factor.",
+    "explanation": "## Advanced explanation\n\nThe scale factor is $\\frac{20}{5} = 4$, so $|EF| = \\frac{12}{4} = 3$ cm.\n\n## Simplified explanation\n\n5 cm grew to 20 cm, so everything was multiplied by 4. So $EF$ is $12 \\div 4 = 3$ cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 4037 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4.037 \\times 10^{-4}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$4.037 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$4.037 \\times 10^3$",
+        "hint": "Correct. The point moves 3 places."
+      },
+      {
+        "text": "$4.037 \\times 10^4$",
+        "hint": "This equals 40,370."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Move the point until one digit is in front of it.",
+    "explanation": "## Advanced explanation\n\n$4037 = 4.037 \\times 10^3$.\n\n## Simplified explanation\n\nMove the point 3 places to the left to get 4.037. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following angles can be constructed by using the arcs at point $C$ in the diagram?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq37.png",
+        "caption": "Line AB with a perpendicular through O, constructed with arcs. Further arcs on OB and the perpendicular intersect at point C, between the two arms."
+      }
+    ],
+    "options": [
+      {
+        "text": "30°",
+        "hint": "This comes from bisecting 60°."
+      },
+      {
+        "text": "45°",
+        "hint": "Correct. $C$ lies on the bisector of the 90° angle at $O$."
+      },
+      {
+        "text": "60°",
+        "hint": "This comes from a single arc of the same radius."
+      },
+      {
+        "text": "75°",
+        "hint": "This would need 60° and 90° together."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The lines at $O$ form a right angle. What do the arcs at $C$ do to it?",
+    "explanation": "## Advanced explanation\n\nThe arcs at $C$ come from equal arcs on $OB$ and the perpendicular. So $C$ is on the bisector of the right angle $BOD$, and angle $BOC = 45^\\circ$.\n\n## Simplified explanation\n\nThe diagram shows a right angle at $O$. Point $C$ is the same distance from both arms, so joining $O$ to $C$ cuts 90° in half, which gives 45°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that vector $a = \\begin{pmatrix} -5 \\\\ 12 \\end{pmatrix}$ and $b = \\begin{pmatrix} 10x \\\\ 12 \\end{pmatrix}$, find the value of $x$ if $a = b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "This is $-10 \\div 5$. Divide $-5$ by 10."
+      },
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "Correct. $10x = -5$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "The upper component of $a$ is negative."
+      },
+      {
+        "text": "$2$",
+        "hint": "Divide $-5$ by 10."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Equal vectors have equal matching components.",
+    "explanation": "## Advanced explanation\n\n$10x = -5$, so $x = -\\frac{1}{2}$.\n\n## Simplified explanation\n\nThe top numbers must match, so $10x = -5$. Divide by 10 to get $-\\frac{1}{2}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, the bearing of point $B$ from $A$ is",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010secaq39.png",
+        "caption": "Points A and B with north lines. A is north-east of B, and the angle between north at B and the line BA is 40°."
+      }
+    ],
+    "options": [
+      {
+        "text": "340°",
+        "hint": "Start with 040° and use the back bearing rule."
+      },
+      {
+        "text": "220°",
+        "hint": "Correct. $40^\\circ + 180^\\circ = 220^\\circ$."
+      },
+      {
+        "text": "140°",
+        "hint": "This is $180^\\circ - 40^\\circ$. Add 180° instead."
+      },
+      {
+        "text": "50°",
+        "hint": "This is $90^\\circ - 40^\\circ$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The 40° angle gives the bearing of $A$ from $B$.",
+    "explanation": "## Advanced explanation\n\nThe bearing of $A$ from $B$ is 040°, and the back bearing is $40^\\circ + 180^\\circ = 220^\\circ$.\n\n## Simplified explanation\n\nFrom $B$, you turn 40° to face $A$. To look back the other way, turn 180° more, which gives 220°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama is 9 years older than Kwame. If Kwame is 18 years old, find the ratio of the age of Kwame to that of Ama.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3 : 2$",
+        "hint": "This is Ama to Kwame. Kwame must come first."
+      },
+      {
+        "text": "$1 : 3$",
+        "hint": "Ama is 27 years old, so use $18 : 27$."
+      },
+      {
+        "text": "$2 : 3$",
+        "hint": "Correct. $18 : 27 = 2 : 3$."
+      },
+      {
+        "text": "$2 : 1$",
+        "hint": "Ama is older, so her part of the ratio is larger."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "First find Ama's age.",
+    "explanation": "## Advanced explanation\n\nAma is $18 + 9 = 27$, so the ratio is $18 : 27 = 2 : 3$.\n\n## Simplified explanation\n\nAma is 27 and Kwame is 18. Divide both by 9 to get $2 : 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2010 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize $(m + n)(2x - y) - x(m + n)$",
+    "media": [],
+    "answer": "$(m + n)$ is common to both terms:\n\n$$(m + n)[(2x - y) - x] = (m + n)(x - y)$$\n\n> [!answer]\n> {{green:$(m + n)(x - y)$}}",
+    "hint": "Look for the bracket that appears in both terms.",
+    "explanation": "## Advanced explanation\n\nTreat $(m + n)$ as a single factor and take it out. The remaining bracket simplifies to $x - y$.\n\n## Simplified explanation\n\nBoth parts have $(m + n)$, so take it out. What is left is $2x - y - x$, which is $x - y$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "$A$ and $B$ are subsets of a universal set\n\n$U = \\{1, 2, 3, \\ldots, 18\\}$\n\nsuch that $A =$ {even numbers} and $B =$ {multiples of 3}.\n\n(i) List the elements of the sets $A$, $B$, $(A \\cap B)$, $(A \\cup B)$ and $(A \\cup B)'$.\n\n(ii) Illustrate the information in (i) on a Venn diagram.",
+    "media": [],
+    "answer": "**(i)**\n\n$A = \\{2, 4, 6, 8, 10, 12, 14, 16, 18\\}$\n\n$B = \\{3, 6, 9, 12, 15, 18\\}$\n\n$A \\cap B = \\{6, 12, 18\\}$\n\n$A \\cup B = \\{2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18\\}$\n\n$(A \\cup B)' = \\{1, 5, 7, 11, 13, 17\\}$\n\n**(ii)** Draw two overlapping circles inside a rectangle. Write 6, 12, 18 in the overlap; 2, 4, 8, 10, 14, 16 in $A$ only; 3, 9, 15 in $B$ only; and 1, 5, 7, 11, 13, 17 outside the circles.\n\n> [!answer]\n> {{green:$A \\cap B = \\{6, 12, 18\\}$}}\n>\n> {{green:$A \\cup B = \\{2, 3, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18\\}$}}\n>\n> {{green:$(A \\cup B)' = \\{1, 5, 7, 11, 13, 17\\}$}}",
+    "hint": "$(A \\cup B)'$ holds the members of $U$ that are in neither set.",
+    "explanation": "## Advanced explanation\n\nCheck the counts: $n(A) + n(B) - n(A \\cap B) = 9 + 6 - 3 = 12$, and $12 + 6 = 18 = n(U)$.\n\n## Simplified explanation\n\nList the even numbers and the multiples of 3. The numbers on both lists are the overlap. Putting both lists together gives the union. The numbers left over are 1, 5, 7, 11, 13 and 17.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the values of $x$ and $y$ in the vector equation:\n\n$$\\begin{pmatrix} 5 \\\\ 3 \\end{pmatrix} + 2\\begin{pmatrix} x \\\\ y \\end{pmatrix} - \\begin{pmatrix} 1 \\\\ -7 \\end{pmatrix} = 0$$",
+    "media": [],
+    "answer": "Top: $5 + 2x - 1 = 0$, so $2x = -4$ and $x = -2$\n\nBottom: $3 + 2y + 7 = 0$, so $2y = -10$ and $y = -5$\n\n> [!answer]\n> {{green:$x = -2$}} and {{green:$y = -5$}}",
+    "hint": "Solve the top and bottom lines separately.",
+    "explanation": "## Advanced explanation\n\nA vector equation is equivalent to one scalar equation for each component.\n\n## Simplified explanation\n\nThe top numbers give $4 + 2x = 0$, so $x = -2$. The bottom numbers give $10 + 2y = 0$, so $y = -5$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the sum of 2,483.65, 701.532 and 102.7, leaving your answer to one decimal place.",
+    "media": [],
+    "answer": "$$2{,}483.65 + 701.532 + 102.7 = 3{,}287.882$$\n\nThe second decimal digit is 8, so round up.\n\n> [!answer]\n> {{green:3,287.9}}",
+    "hint": "Line up the decimal points before adding.",
+    "explanation": "## Advanced explanation\n\nRound only at the end, so that rounding errors do not build up.\n\n## Simplified explanation\n\nAdding gives 3,287.882. Keep one decimal digit. The next digit is 8, so 8 rounds up to 9.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Number Operations",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the quadrilateral $ABCD$, $|AB| = 3$ cm, $|BC| = 4$ cm, $|CD| = 12$ cm, angle $ABC = 90^\\circ$ and angle $ACD = 90^\\circ$. Calculate:\n\n(i) the perimeter of $ABCD$;\n\n(ii) the area of $ABCD$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010q2.png",
+        "caption": "Quadrilateral ABCD with diagonal AC. AB is 3 cm, BC is 4 cm, CD is 12 cm, AC is 5 cm and AD is 13 cm."
+      }
+    ],
+    "answer": "$|AC| = \\sqrt{3^2 + 4^2} = 5$ cm and $|AD| = \\sqrt{5^2 + 12^2} = 13$ cm\n\n**(i)** $3 + 4 + 12 + 13 = 32$ cm\n\n**(ii)** $\\frac{1}{2}(3)(4) + \\frac{1}{2}(5)(12) = 6 + 30 = 36$ cm²\n\n> [!answer]\n> **(i)** {{green:32 cm}}  **(ii)** {{green:36 cm²}}",
+    "hint": "$AC$ splits the shape into two right-angled triangles.",
+    "explanation": "## Advanced explanation\n\nPythagoras' theorem is applied twice: in triangle $ABC$ to get $|AC|$, and in triangle $ACD$ to get $|AD|$.\n\n## Simplified explanation\n\nTriangle $ABC$ gives $AC = 5$ cm, and then triangle $ACD$ gives $AD = 13$ cm. Add the four outer sides for the perimeter. Add the two triangle areas, 6 and 30, for the area.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Mensuration",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Evaluate $\\dfrac{2^7 \\times 3^4 \\times 5^3}{2^3 \\times 3^2 \\times 5^2}$, leaving your answer in standard form.",
+    "media": [],
+    "answer": "$$2^{7 - 3} \\times 3^{4 - 2} \\times 5^{3 - 2} = 2^4 \\times 3^2 \\times 5 = 720$$\n\n$$720 = 7.2 \\times 10^2$$\n\n> [!answer]\n> {{green:$7.2 \\times 10^2$}}",
+    "hint": "Subtract the powers of each number.",
+    "explanation": "## Advanced explanation\n\nApplying $\\frac{a^m}{a^n} = a^{m - n}$ to each base leaves $2^4 \\times 3^2 \\times 5$.\n\n## Simplified explanation\n\nTaking powers away leaves $2^4$, $3^2$ and $5$. That is $16 \\times 9 \\times 5 = 720$. Moving the point 2 places gives $7.2 \\times 10^2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Indices",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Kwame rode a bicycle for a distance of $x$ km and walked for another $\\dfrac{1}{2}$ hour at a rate of 6 km per hour. If Kwame covered a total distance of 10 km, find the distance $x$ he covered by bicycle.",
+    "media": [],
+    "answer": "Distance walked: $6 \\times \\frac{1}{2} = 3$ km\n\n$$x + 3 = 10$$\n\n$$x = 7$$\n\n> [!answer]\n> {{green:7 km}}",
+    "hint": "Distance $=$ speed $\\times$ time.",
+    "explanation": "## Advanced explanation\n\nThe total distance is the sum of the distance by bicycle and the distance on foot.\n\n## Simplified explanation\n\nWalking at 6 km an hour for half an hour covers 3 km. The other 7 km of the 10 km was by bicycle.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Speed",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A rectangular tank of length 22 cm, width 9 cm and height 16 cm is filled with water. The water is poured into a cylindrical container of radius 6 cm. Calculate the\n\n(i) volume of the rectangular tank;\n\n(ii) depth of water in the cylindrical container. $\\left[\\text{Take } \\pi = \\dfrac{22}{7}\\right]$",
+    "media": [],
+    "answer": "**(i)** $22 \\times 9 \\times 16 = 3{,}168$ cm³\n\n**(ii)** $\\pi r^2 h = 3{,}168$\n\n$$h = \\frac{3{,}168 \\times 7}{22 \\times 36} = 28$$\n\n> [!answer]\n> **(i)** {{green:3,168 cm³}}  **(ii)** {{green:28 cm}}",
+    "hint": "The volume of the water does not change when it is poured.",
+    "explanation": "## Advanced explanation\n\nEquate the two volumes: $lwh = \\pi r^2 h_c$.\n\n## Simplified explanation\n\nThe tank holds 3,168 cm³. The circular base of the container has an area of $\\frac{22}{7} \\times 36$, and dividing the volume by this area gives a depth of 28 cm.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $7\\dfrac{2}{3} - 4\\dfrac{5}{6} + 2\\dfrac{3}{8}$",
+    "media": [],
+    "answer": "Over 24:\n\n$$\\frac{184}{24} - \\frac{116}{24} + \\frac{57}{24} = \\frac{125}{24} = 5\\frac{5}{24}$$\n\n> [!answer]\n> {{green:$5\\dfrac{5}{24}$}}",
+    "hint": "Change each to an improper fraction over 24.",
+    "explanation": "## Advanced explanation\n\nThe LCM of 3, 6 and 8 is 24.\n\n## Simplified explanation\n\nChange the mixed numbers to 24ths: 184, 116 and 57. Then $184 - 116 + 57 = 125$, and $\\frac{125}{24}$ is $5\\frac{5}{24}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The area of a trapezium is 31.5 cm². If the parallel sides are of length 7.3 cm and 5.3 cm, calculate the perpendicular distance between them.",
+    "media": [],
+    "answer": "$$\\frac{1}{2}(7.3 + 5.3)h = 31.5$$\n\n$$6.3h = 31.5$$\n\n$$h = 5$$\n\n> [!answer]\n> {{green:5 cm}}",
+    "hint": "Area $= \\frac{1}{2}(a + b)h$.",
+    "explanation": "## Advanced explanation\n\nRearranging gives $h = \\frac{2A}{a + b} = \\frac{63}{12.6} = 5$.\n\n## Simplified explanation\n\nThe parallel sides add to 12.6, and half of that is 6.3. Then $31.5 \\div 6.3 = 5$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The marks scored by four students in a Mathematics test are as follows:\n\n| Student | Mark |\n|---|---|\n| Esi | 92 |\n| Seth | 85 |\n| Mary | 65 |\n| Efe | $x$ |\n\n(i) Write down an expression for the mean (average) of the marks.\n\n(ii) If the mean is less than 80, write a linear inequality for the information.\n\n(iii) Find the possible marks Efe scored in the test. Describe how to represent your answer on the number line.",
+    "media": [],
+    "answer": "**(i)** $\\frac{92 + 85 + 65 + x}{4} = \\frac{242 + x}{4}$\n\n**(ii)** $\\frac{242 + x}{4} < 80$\n\n**(iii)** $242 + x < 320$, so $x < 78$\n\nOn the number line, draw an open dot at 78 with an arrow pointing to the left.\n\n> [!answer]\n> **(i)** {{green:$\\frac{242 + x}{4}$}}  **(ii)** {{green:$\\frac{242 + x}{4} < 80$}}  **(iii)** {{green:$x < 78$}}",
+    "hint": "The mean is the total divided by 4.",
+    "explanation": "## Advanced explanation\n\nThe dot is open because 78 itself is not included. Since $x$ is a test mark, it also cannot be below 0.\n\n## Simplified explanation\n\nAdd the known marks to get 242, then add $x$ and divide by 4. For the mean to be below 80, the total must be below 320, so Efe scored less than 78.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Statistics",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve $\\dfrac{4x - 3}{2} = \\dfrac{8x - 10}{8} + 2\\dfrac{3}{4}$",
+    "media": [],
+    "answer": "Multiply every term by 8:\n\n$$4(4x - 3) = 8x - 10 + 22$$\n\n$$16x - 12 = 8x + 12$$\n\n$$8x = 24$$\n\n$$x = 3$$\n\n> [!answer]\n> {{green:$x = 3$}}",
+    "hint": "Change $2\\frac{3}{4}$ to $\\frac{11}{4}$ and multiply by 8.",
+    "explanation": "## Advanced explanation\n\nCheck with $x = 3$: the left side is $\\frac{9}{2}$, and the right side is $\\frac{14}{8} + \\frac{11}{4} = \\frac{36}{8} = \\frac{9}{2}$.\n\n## Simplified explanation\n\nMultiplying by 8 clears the fractions and gives $16x - 12 = 8x + 12$. Collecting terms gives $8x = 24$, so $x = 3$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular lines $OX$ and $OY$ on a graph sheet. Mark the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(i) Plot the points $A(2, 3)$ and $B(-3, 4)$ and join them with a long straight line.\n\n(ii) Plot on the same graph sheet the points $C(4, 2)$ and $D(-2, -3)$ and join them with a long straight line to meet the line through $AB$.\n\n(iii) Measure the angle formed between the lines $AB$ and $CD$.\n\n(iv) Find the coordinates of the point at which the lines through $AB$ and $CD$ meet.",
+    "media": [],
+    "answer": "The graph gives readings close to these values, which come from the equations of the lines.\n\nLine $AB$: gradient $= -\\frac{1}{5}$. Line $CD$: gradient $= \\frac{5}{6}$.\n\n**(iii)** The lines rise at about $39.8^\\circ$ and fall at about $11.3^\\circ$, so the angle is about $51^\\circ$. The adjacent angle is about $129^\\circ$.\n\n**(iv)** Solving the two equations gives $x \\approx 4.6$ and $y \\approx 2.5$.\n\n> [!answer]\n> **(iii)** {{green:about $51^\\circ$ (or $129^\\circ$)}}  **(iv)** {{green:about $(4.6, 2.5)$}}",
+    "hint": "Extend line $CD$ past $C$ until it meets line $AB$.",
+    "explanation": "## Advanced explanation\n\n$AB$: $y = -\\frac{1}{5}x + \\frac{17}{5}$. $CD$: $y = \\frac{5}{6}x - \\frac{4}{3}$. Equating them gives $x = \\frac{142}{31} \\approx 4.58$ and $y \\approx 2.48$.\n\n## Simplified explanation\n\nPlot the points and draw long lines through them. The lines cross on the right, near $(4.6, 2.5)$. Use a protractor at the crossing point to measure about 51°.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the frequency distribution of the number of letters in the surnames of some students in a school.\n\n(a) From the distribution, determine\n\n(i) the mode;\n\n(ii) the mean, correct to one decimal place.\n\n(b) If a student is selected at random, find the probability that the student's name will contain more than 7 letters.\n\n(c) Describe the bar chart you would draw for the distribution.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2010/2010q6.png",
+        "caption": "Table of letters and students. 4 letters: 7 students, 5: 3, 6: 2, 7: 8, 8: 5, 9: 3, 10: 1."
+      }
+    ],
+    "answer": "Total students: $7 + 3 + 2 + 8 + 5 + 3 + 1 = 29$\n\n**(a)(i)** 7 letters has the highest frequency, 8.\n\n**(ii)** $\\frac{28 + 15 + 12 + 56 + 40 + 27 + 10}{29} = \\frac{188}{29} \\approx 6.5$\n\n**(b)** More than 7 letters: $5 + 3 + 1 = 9$ students, so the probability is $\\frac{9}{29}$.\n\n**(c)** Draw the number of letters on the horizontal axis and the number of students on the vertical axis, with separate bars of equal width and heights 7, 3, 2, 8, 5, 3 and 1.\n\n> [!answer]\n> **(a)(i)** {{green:7}}  **(ii)** {{green:6.5}}  **(b)** {{green:$\\frac{9}{29}$}}",
+    "hint": "Multiply each number of letters by its frequency to find the mean.",
+    "explanation": "## Advanced explanation\n\nMean $= \\frac{\\sum fx}{\\sum f}$. \"More than 7\" excludes 7 itself, so only 8, 9 and 10 letters count.\n\n## Simplified explanation\n\nMost students, 8 of them, have 7 letters in their surnames. The letters add to 188 over 29 students, which gives about 6.5. Nine students have 8, 9 or 10 letters, so the probability is $\\frac{9}{29}$.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2010 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  }
+]

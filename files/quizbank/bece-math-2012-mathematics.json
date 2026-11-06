@@ -1,0 +1,1565 @@
+[
+  {
+    "type": "choice",
+    "body": "If $P = \\{2, 3, 5, 7\\}$ and $Q = \\{2, 4, 6, 8\\}$, find $P \\cap Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2\\}$",
+        "hint": "Correct. 2 is the only number in both sets."
+      },
+      {
+        "text": "$\\{3\\}$",
+        "hint": "3 is in $P$ but not in $Q$."
+      },
+      {
+        "text": "$\\{4\\}$",
+        "hint": "4 is in $Q$ but not in $P$."
+      },
+      {
+        "text": "$\\{5\\}$",
+        "hint": "5 is in $P$ but not in $Q$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$\\cap$ means the members found in both sets.",
+    "explanation": "## Advanced explanation\n\n$P \\cap Q$ is the set of common elements, and only 2 is common to $P$ and $Q$.\n\n## Simplified explanation\n\nLook for a number on both lists. Only 2 appears on both.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following numbers is an integer?",
+    "media": [],
+    "options": [
+      {
+        "text": "$-\\dfrac{5}{4}$",
+        "hint": "This is a fraction that does not reduce to a whole number."
+      },
+      {
+        "text": "$-\\dfrac{2}{3}$",
+        "hint": "This lies between $-1$ and 0, so it is not an integer."
+      },
+      {
+        "text": "$0.5$",
+        "hint": "This is one half, which is not a whole number."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. 1 is a whole number, so it is an integer."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Integers are the whole numbers and their negatives.",
+    "explanation": "## Advanced explanation\n\nThe integers are $\\{\\dots, -2, -1, 0, 1, 2, \\dots\\}$. Of the options, only 1 belongs to this set.\n\n## Simplified explanation\n\nAn integer has no fraction or decimal part. Only 1 fits.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Lowest Common Multiple (LCM) of $2^2 \\times 3 \\times 5^2$ and $2^3 \\times 3^2 \\times 5$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 3 \\times 5$",
+        "hint": "This takes the lowest powers, so it is the HCF."
+      },
+      {
+        "text": "$2^2 \\times 3^3 \\times 5^2$",
+        "hint": "The power of 2 should be 3 and the power of 3 should be 2."
+      },
+      {
+        "text": "$2^3 \\times 3 \\times 5$",
+        "hint": "The powers of 3 and 5 are too low."
+      },
+      {
+        "text": "$2^3 \\times 3^2 \\times 5^2$",
+        "hint": "Correct. This takes the highest power of each prime."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The LCM uses the highest power of each prime.",
+    "explanation": "## Advanced explanation\n\nFor the LCM, take the maximum exponent of each prime: $2^3$, $3^2$ and $5^2$.\n\n## Simplified explanation\n\nPick the biggest power of each number: $2^3$, $3^2$ and $5^2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many diagonals are in a rectangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "A diagonal runs from each pair of opposite corners, and there are two such pairs."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. Each pair of opposite corners gives one diagonal."
+      },
+      {
+        "text": "3",
+        "hint": "A rectangle has only two pairs of opposite corners."
+      },
+      {
+        "text": "4",
+        "hint": "4 is the number of sides, not diagonals."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Join opposite corners.",
+    "explanation": "## Advanced explanation\n\nA polygon with $n$ sides has $\\frac{n(n - 3)}{2}$ diagonals. For $n = 4$, that is 2.\n\n## Simplified explanation\n\nDraw a rectangle and join the opposite corners. You get 2 lines.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $-4(3 - 5) + 10 - 3(7 + 4) + 30$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1$",
+        "hint": "Check the first term: $-4 \\times -2 = +8$."
+      },
+      {
+        "text": "$15$",
+        "hint": "Correct. $8 + 10 - 33 + 30 = 15$."
+      },
+      {
+        "text": "$56$",
+        "hint": "$3(7 + 4)$ must be subtracted."
+      },
+      {
+        "text": "$65$",
+        "hint": "$3(7 + 4)$ must be subtracted."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Work out the brackets first.",
+    "explanation": "## Advanced explanation\n\n$-4(-2) + 10 - 3(11) + 30 = 8 + 10 - 33 + 30 = 15$.\n\n## Simplified explanation\n\nThe brackets give $-2$ and 11. Then $8 + 10 - 33 + 30 = 15$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An iron rod 15 m long is divided into 12 equal parts. How long is each part?",
+    "media": [],
+    "options": [
+      {
+        "text": "0.80 m",
+        "hint": "This is $12 \\div 15$. Divide the length by the number of parts."
+      },
+      {
+        "text": "1.25 m",
+        "hint": "Correct. $15 \\div 12 = 1.25$."
+      },
+      {
+        "text": "1.50 m",
+        "hint": "This would come from 10 equal parts."
+      },
+      {
+        "text": "3.00 m",
+        "hint": "This would come from 5 equal parts."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Divide the length by the number of parts.",
+    "explanation": "## Advanced explanation\n\n$\\frac{15}{12} = \\frac{5}{4} = 1.25$ m.\n\n## Simplified explanation\n\nShare 15 m into 12 parts: $15 \\div 12 = 1.25$ m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Operations",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert 42 to a base two numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1001010_{\\text{two}}$",
+        "hint": "This equals 74."
+      },
+      {
+        "text": "$1010010_{\\text{two}}$",
+        "hint": "This equals 82."
+      },
+      {
+        "text": "$1010100_{\\text{two}}$",
+        "hint": "This equals 84, which is double 42."
+      },
+      {
+        "text": "$101010_{\\text{two}}$",
+        "hint": "Correct. $32 + 8 + 2 = 42$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Divide by 2 repeatedly and read the remainders upwards.",
+    "explanation": "## Advanced explanation\n\n$42 = 32 + 8 + 2 = 2^5 + 2^3 + 2^1$, which gives $101010_{\\text{two}}$.\n\n## Simplified explanation\n\nKeep halving 42 and note the remainders: 0, 1, 0, 1, 0, 1. Read them from the last to the first to get 101010.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{5^7 \\times 5^4}{5^2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$5^7$",
+        "hint": "The top gives $5^{11}$. Then subtract the power 2."
+      },
+      {
+        "text": "$5^8$",
+        "hint": "Check the sum on top: $7 + 4 = 11$."
+      },
+      {
+        "text": "$5^9$",
+        "hint": "Correct. $7 + 4 - 2 = 9$."
+      },
+      {
+        "text": "$5^{13}$",
+        "hint": "This adds the 2. When dividing, subtract it."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add powers when multiplying and subtract them when dividing.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5^7 \\times 5^4}{5^2} = 5^{7 + 4 - 2} = 5^9$.\n\n## Simplified explanation\n\nSame base, so work with the powers: $7 + 4 = 11$, then $11 - 2 = 9$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A tank contains 400 litres of water. If 100 litres is used, what is the percentage left?",
+    "media": [],
+    "options": [
+      {
+        "text": "25%",
+        "hint": "This is the percentage used."
+      },
+      {
+        "text": "30%",
+        "hint": "300 litres are left, but that is not 30% of 400."
+      },
+      {
+        "text": "40%",
+        "hint": "This does not fit. Find $\\frac{300}{400} \\times 100$."
+      },
+      {
+        "text": "75%",
+        "hint": "Correct. $\\frac{300}{400} \\times 100 = 75$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "First find how many litres are left.",
+    "explanation": "## Advanced explanation\n\nRemaining: $400 - 100 = 300$ litres, and $\\frac{300}{400} \\times 100\\% = 75\\%$.\n\n## Simplified explanation\n\n300 litres are left out of 400. That is three quarters, or 75%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Triangle $ABC$ is a right-angled triangle. Find the length of $AC$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq10.png",
+        "caption": "Triangle ABC with a right angle at B, AB = 3 cm and BC = 4 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "1 cm",
+        "hint": "This is $4 - 3$. Use Pythagoras' theorem."
+      },
+      {
+        "text": "5 cm",
+        "hint": "Correct. $\\sqrt{3^2 + 4^2} = 5$."
+      },
+      {
+        "text": "7 cm",
+        "hint": "This is $3 + 4$. Add the squares, not the sides."
+      },
+      {
+        "text": "12 cm",
+        "hint": "This is $3 \\times 4$. Use Pythagoras' theorem."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$AC$ is the hypotenuse.",
+    "explanation": "## Advanced explanation\n\nBy Pythagoras' theorem, $|AC|^2 = 3^2 + 4^2 = 25$, so $|AC| = 5$ cm.\n\n## Simplified explanation\n\nSquare the short sides: 9 and 16. They add to 25, and its square root is 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions in descending order of magnitude: $\\dfrac{2}{3}, \\dfrac{5}{7}, \\dfrac{2}{5}, \\dfrac{1}{2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{7}, \\dfrac{2}{5}, \\dfrac{2}{3}, \\dfrac{1}{2}$",
+        "hint": "$\\frac{2}{5}$ is the smallest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{5}{7}, \\dfrac{2}{3}, \\dfrac{1}{2}, \\dfrac{2}{5}$",
+        "hint": "Correct. As decimals: 0.71, 0.67, 0.50, 0.40."
+      },
+      {
+        "text": "$\\dfrac{1}{2}, \\dfrac{2}{5}, \\dfrac{5}{7}, \\dfrac{2}{3}$",
+        "hint": "$\\frac{5}{7}$ is the largest, so it must come first."
+      },
+      {
+        "text": "$\\dfrac{1}{2}, \\dfrac{5}{7}, \\dfrac{2}{3}, \\dfrac{2}{5}$",
+        "hint": "$\\frac{5}{7}$ is larger than $\\frac{1}{2}$, so it must come first."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Descending means largest first.",
+    "explanation": "## Advanced explanation\n\nWith denominator 210: $\\frac{150}{210} > \\frac{140}{210} > \\frac{105}{210} > \\frac{84}{210}$, which is $\\frac{5}{7}, \\frac{2}{3}, \\frac{1}{2}, \\frac{2}{5}$.\n\n## Simplified explanation\n\nChange each to a decimal: $\\frac{5}{7}$ is 0.71, $\\frac{2}{3}$ is 0.67, $\\frac{1}{2}$ is 0.50 and $\\frac{2}{5}$ is 0.40. Then list them from largest to smallest.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of 3 under the mapping $x \\to 10 - 2x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "Correct. $10 - 2(3) = 4$."
+      },
+      {
+        "text": "5",
+        "hint": "Multiply 3 by 2 before subtracting."
+      },
+      {
+        "text": "8",
+        "hint": "This uses $2 + 2(3)$. The rule is $10 - 2x$."
+      },
+      {
+        "text": "16",
+        "hint": "This adds. The rule subtracts $2x$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Put $x = 3$ into the rule.",
+    "explanation": "## Advanced explanation\n\n$10 - 2(3) = 10 - 6 = 4$.\n\n## Simplified explanation\n\nDouble 3 to get 6. Then $10 - 6 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{1}{3} + \\dfrac{1}{9} + \\dfrac{1}{27}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{27}$",
+        "hint": "$\\frac{1}{3}$ alone is already $\\frac{9}{27}$."
+      },
+      {
+        "text": "$\\dfrac{7}{27}$",
+        "hint": "$\\frac{1}{3}$ alone is already $\\frac{9}{27}$."
+      },
+      {
+        "text": "$\\dfrac{11}{27}$",
+        "hint": "Check the numerators: $9 + 3 + 1$."
+      },
+      {
+        "text": "$\\dfrac{13}{27}$",
+        "hint": "Correct. $\\frac{9 + 3 + 1}{27} = \\frac{13}{27}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use 27 as the common denominator.",
+    "explanation": "## Advanced explanation\n\n$\\frac{9}{27} + \\frac{3}{27} + \\frac{1}{27} = \\frac{13}{27}$.\n\n## Simplified explanation\n\nChange each fraction to 27ths: 9, 3 and 1. They add to 13, so the answer is $\\frac{13}{27}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2x = 5(x - 2) + 7$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-5\\dfrac{2}{3}$",
+        "hint": "$5(x - 2)$ expands to $5x - 10$, and the two numbers combine to $-3$."
+      },
+      {
+        "text": "$-1$",
+        "hint": "Check the signs: $-3x = -3$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $2x = 5x - 3$, so $x = 1$."
+      },
+      {
+        "text": "$5\\dfrac{2}{3}$",
+        "hint": "$5(x - 2)$ expands to $5x - 10$, not $5x - 2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Expand the bracket first.",
+    "explanation": "## Advanced explanation\n\n$2x = 5x - 10 + 7 = 5x - 3$, so $3 = 3x$ and $x = 1$.\n\n## Simplified explanation\n\nMultiply out to get $5x - 10$. Adding 7 gives $5x - 3$. So $2x = 5x - 3$, which means $3x = 3$ and $x = 1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the day and night temperature of a town during a week.\n\nFind, correct to one decimal place, the average day temperature for the week.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq15-16.png",
+        "caption": "Table of day and night temperatures in °C. Monday 33 and 24, Tuesday 29 and 25, Wednesday 32 and 23, Thursday 34 and 26, Friday 32 and 24, Saturday 30 and 24, Sunday 30 and 25."
+      }
+    ],
+    "options": [
+      {
+        "text": "24.4 °C",
+        "hint": "This is the average night temperature."
+      },
+      {
+        "text": "30.2 °C",
+        "hint": "Check the total of the day column. It is 220."
+      },
+      {
+        "text": "31.4 °C",
+        "hint": "Correct. $220 \\div 7 \\approx 31.4$."
+      },
+      {
+        "text": "32.2 °C",
+        "hint": "Check the total of the day column. It is 220."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the Day column and divide by 7.",
+    "explanation": "## Advanced explanation\n\n$\\frac{33 + 29 + 32 + 34 + 32 + 30 + 30}{7} = \\frac{220}{7} \\approx 31.4$ °C.\n\n## Simplified explanation\n\nThe seven day temperatures add to 220. Then $220 \\div 7$ is about 31.4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the day and night temperature of a town during a week.\n\nOn which day was the change in temperature the least?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq15-16.png",
+        "caption": "Table of day and night temperatures in °C. Monday 33 and 24, Tuesday 29 and 25, Wednesday 32 and 23, Thursday 34 and 26, Friday 32 and 24, Saturday 30 and 24, Sunday 30 and 25."
+      }
+    ],
+    "options": [
+      {
+        "text": "Monday",
+        "hint": "The change is $33 - 24 = 9$ °C."
+      },
+      {
+        "text": "Saturday",
+        "hint": "The change is $30 - 24 = 6$ °C."
+      },
+      {
+        "text": "Sunday",
+        "hint": "The change is $30 - 25 = 5$ °C."
+      },
+      {
+        "text": "Tuesday",
+        "hint": "Correct. The change is only $29 - 25 = 4$ °C."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Subtract night from day for each day.",
+    "explanation": "## Advanced explanation\n\nThe differences from Monday to Sunday are 9, 4, 9, 8, 8, 6 and 5. The least is 4, on Tuesday.\n\n## Simplified explanation\n\nFind day minus night for each day. Tuesday has the smallest gap, 4 °C.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A box contains 30 identical balls of which 16 are white and the rest yellow. If a girl picks a ball at random from the box, what is the probability that it is a yellow ball?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{16}$",
+        "hint": "16 is the number of white balls. Use the number of yellow balls over the total."
+      },
+      {
+        "text": "$\\dfrac{7}{15}$",
+        "hint": "Correct. $\\frac{14}{30} = \\frac{7}{15}$."
+      },
+      {
+        "text": "$\\dfrac{8}{15}$",
+        "hint": "This is the probability of a white ball."
+      },
+      {
+        "text": "$\\dfrac{7}{8}$",
+        "hint": "This is yellow over white. Divide by the total of 30."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "First find the number of yellow balls.",
+    "explanation": "## Advanced explanation\n\nYellow balls: $30 - 16 = 14$, so $P(\\text{yellow}) = \\frac{14}{30} = \\frac{7}{15}$.\n\n## Simplified explanation\n\n14 of the 30 balls are yellow. $\\frac{14}{30}$ reduces to $\\frac{7}{15}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the truth set of $\\dfrac{1}{4}(x + 3) \\le 2x - 1$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{x : x \\le -3\\}$",
+        "hint": "Multiply both sides by 4 and collect the $x$ terms."
+      },
+      {
+        "text": "$\\{x : x \\le -1\\}$",
+        "hint": "Multiply both sides by 4 and collect the $x$ terms."
+      },
+      {
+        "text": "$\\{x : x \\ge 1\\}$",
+        "hint": "Correct. $7 \\le 7x$, so $x \\ge 1$."
+      },
+      {
+        "text": "$\\{x : x \\ge 3\\}$",
+        "hint": "Multiply both sides by 4, including the $-1$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply both sides by 4 first.",
+    "explanation": "## Advanced explanation\n\n$x + 3 \\le 8x - 4$, so $7 \\le 7x$ and $x \\ge 1$.\n\n## Simplified explanation\n\nClear the fraction to get $x + 3 \\le 8x - 4$. Moving terms gives $7 \\le 7x$, so $x$ is at least 1.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The perimeter of the figure is 71 cm. Find the diameter of the semi-circular portion. $\\left(\\text{Take } \\pi = \\dfrac{22}{7}\\right)$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq19.png",
+        "caption": "A figure made of a triangle with sides 25 cm and 24 cm, and a semicircle on its third side."
+      }
+    ],
+    "options": [
+      {
+        "text": "1.0 cm",
+        "hint": "The arc is 22 cm long. Solve $\\frac{1}{2}\\pi d = 22$."
+      },
+      {
+        "text": "2.5 cm",
+        "hint": "The arc is 22 cm long. Solve $\\frac{1}{2}\\pi d = 22$."
+      },
+      {
+        "text": "7.0 cm",
+        "hint": "This is the radius. The question asks for the diameter."
+      },
+      {
+        "text": "14.0 cm",
+        "hint": "Correct. $\\frac{1}{2} \\times \\frac{22}{7} \\times 14 = 22$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The straight diameter is inside the figure, so it is not part of the perimeter.",
+    "explanation": "## Advanced explanation\n\nArc length: $71 - 25 - 24 = 22$ cm. Then $\\frac{1}{2}\\pi d = 22$ gives $d = \\frac{44 \\times 7}{22} = 14$ cm.\n\n## Simplified explanation\n\nTake the two straight sides from 71 to leave 22 cm for the curve. Half a circle with diameter 14 cm has a curve of 22 cm.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{3x}{4} - \\dfrac{x - y}{3}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5x - 4y}{12}$",
+        "hint": "The minus sign changes $-y$ to $+y$ when the bracket opens."
+      },
+      {
+        "text": "$\\dfrac{13x - 4y}{12}$",
+        "hint": "The fractions are subtracted, so $9x - 4x$."
+      },
+      {
+        "text": "$\\dfrac{5x + 4y}{12}$",
+        "hint": "Correct. $\\frac{9x - 4x + 4y}{12}$."
+      },
+      {
+        "text": "$\\dfrac{13x + 4y}{12}$",
+        "hint": "The fractions are subtracted, so $9x - 4x$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use 12 as the common denominator, and be careful with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$\\frac{9x - 4(x - y)}{12} = \\frac{9x - 4x + 4y}{12} = \\frac{5x + 4y}{12}$.\n\n## Simplified explanation\n\nOver 12 the top is $9x - 4(x - y)$. Opening the bracket gives $9x - 4x + 4y$, which is $5x + 4y$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Algebra",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kojo is 20% heavier than Afua. If Kojo weighs 6 kg, what is Afua's weight?",
+    "media": [],
+    "options": [
+      {
+        "text": "4.8 kg",
+        "hint": "This takes 20% of Kojo's weight. The 20% is of Afua's weight."
+      },
+      {
+        "text": "5.0 kg",
+        "hint": "Correct. $1.2 \\times 5 = 6$."
+      },
+      {
+        "text": "6.0 kg",
+        "hint": "This is Kojo's weight."
+      },
+      {
+        "text": "7.2 kg",
+        "hint": "Afua is lighter than Kojo."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Kojo's weight is 120% of Afua's weight.",
+    "explanation": "## Advanced explanation\n\n$1.2a = 6$, so $a = 5$ kg.\n\n## Simplified explanation\n\nKojo is 120% of Afua. So 6 kg is 120%, 1 kg is 20%, and 100% is 5 kg.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the volume of a cylinder of height 3 cm and radius 2 cm.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6\\pi$ cm$^3$",
+        "hint": "The radius must be squared."
+      },
+      {
+        "text": "$12\\pi$ cm$^3$",
+        "hint": "Correct. $\\pi \\times 2^2 \\times 3 = 12\\pi$."
+      },
+      {
+        "text": "$18\\pi$ cm$^3$",
+        "hint": "This swaps the radius and the height."
+      },
+      {
+        "text": "$24\\pi$ cm$^3$",
+        "hint": "This doubles the correct answer. Use $\\pi r^2 h$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Volume $= \\pi r^2 h$.",
+    "explanation": "## Advanced explanation\n\n$V = \\pi r^2 h = \\pi \\times 4 \\times 3 = 12\\pi$ cm$^3$.\n\n## Simplified explanation\n\nSquare the radius to get 4. Multiply by the height 3 to get 12, so the volume is $12\\pi$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given the points $S(5, -2)$ and $T(3, 2)$, calculate the gradient of the line $ST$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-2$",
+        "hint": "Correct. $\\frac{2 - (-2)}{3 - 5} = \\frac{4}{-2} = -2$."
+      },
+      {
+        "text": "$-\\dfrac{3}{5}$",
+        "hint": "Use the change in $y$ over the change in $x$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is change in $x$ over change in $y$, with the wrong sign."
+      },
+      {
+        "text": "$2$",
+        "hint": "The change in $x$ is negative, so the gradient is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Gradient $= \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{2 - (-2)}{3 - 5} = \\frac{4}{-2} = -2$.\n\n## Simplified explanation\n\n$y$ goes up by 4 while $x$ goes down by 2. So the gradient is $4 \\div (-2) = -2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kofi invested GH₵ 150,000.00 at 2.5% per annum simple interest. How long will it take this amount to yield an interest of GH₵ 11,250.00?",
+    "media": [],
+    "options": [
+      {
+        "text": "2 years",
+        "hint": "This yields GH₵ 7,500.00."
+      },
+      {
+        "text": "3 years",
+        "hint": "Correct. $3 \\times 3{,}750 = 11{,}250$."
+      },
+      {
+        "text": "4 years",
+        "hint": "This yields GH₵ 15,000.00."
+      },
+      {
+        "text": "5 years",
+        "hint": "This yields GH₵ 18,750.00."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the interest for one year first.",
+    "explanation": "## Advanced explanation\n\n$T = \\frac{100I}{PR} = \\frac{100 \\times 11{,}250}{150{,}000 \\times 2.5} = 3$ years.\n\n## Simplified explanation\n\n2.5% of GH₵ 150,000 is GH₵ 3,750 a year. Then $11{,}250 \\div 3{,}750 = 3$ years.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 3.75 as a mixed fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3\\dfrac{1}{5}$",
+        "hint": "$\\frac{1}{5}$ is 0.2."
+      },
+      {
+        "text": "$3\\dfrac{1}{4}$",
+        "hint": "$\\frac{1}{4}$ is 0.25."
+      },
+      {
+        "text": "$3\\dfrac{1}{3}$",
+        "hint": "$\\frac{1}{3}$ is about 0.33."
+      },
+      {
+        "text": "$3\\dfrac{3}{4}$",
+        "hint": "Correct. $0.75 = \\frac{3}{4}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Keep the 3 and change 0.75 to a fraction.",
+    "explanation": "## Advanced explanation\n\n$0.75 = \\frac{75}{100} = \\frac{3}{4}$, so $3.75 = 3\\frac{3}{4}$.\n\n## Simplified explanation\n\n0.75 is three quarters, so 3.75 is $3\\frac{3}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A map is drawn to the scale $1 : 100,000$. What distance in kilometres is represented by 5 cm on the map?",
+    "media": [],
+    "options": [
+      {
+        "text": "0.5 km",
+        "hint": "1 cm on the map is 1 km, so 5 cm is more than this."
+      },
+      {
+        "text": "5.0 km",
+        "hint": "Correct. 1 cm represents 1 km."
+      },
+      {
+        "text": "50.0 km",
+        "hint": "$100{,}000$ cm is 1 km, not 10 km."
+      },
+      {
+        "text": "500.0 km",
+        "hint": "$500{,}000$ cm is 5 km, not 500 km."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change 100,000 cm to kilometres.",
+    "explanation": "## Advanced explanation\n\n$5 \\times 100{,}000 = 500{,}000$ cm, and $500{,}000 \\div 100{,}000 = 5$ km.\n\n## Simplified explanation\n\n100,000 cm is exactly 1 km. So each map centimetre stands for 1 km, and 5 cm stands for 5 km.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Ratio & Proportion",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $r = \\begin{pmatrix} -3 \\\\ 4 \\end{pmatrix}$ and $s = \\begin{pmatrix} 1 \\\\ -3 \\end{pmatrix}$, find the value of $r - 2s$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ 1 \\end{pmatrix}$",
+        "hint": "For the lower part, $4 - 2(-3) = 10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ 10 \\end{pmatrix}$",
+        "hint": "Correct. $-3 - 2 = -5$ and $4 + 6 = 10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 10 \\end{pmatrix}$",
+        "hint": "For the upper part, $-3 - 2(1) = -5$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 10 \\end{pmatrix}$",
+        "hint": "For the upper part, $-3 - 2(1) = -5$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Double $s$ first, then subtract it.",
+    "explanation": "## Advanced explanation\n\n$2s = \\begin{pmatrix} 2 \\\\ -6 \\end{pmatrix}$, so $r - 2s = \\begin{pmatrix} -3 - 2 \\\\ 4 + 6 \\end{pmatrix} = \\begin{pmatrix} -5 \\\\ 10 \\end{pmatrix}$.\n\n## Simplified explanation\n\nDoubling $s$ gives 2 and $-6$. On top, $-3 - 2 = -5$. Below, $4 - (-6) = 10$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Esi went to the market and bought 500 g of meat, 850 g of fish and 900 g of eggs. What is the total weight of the items she bought in kilograms?",
+    "media": [],
+    "options": [
+      {
+        "text": "2.20 kg",
+        "hint": "Check the total: it is 2,250 g."
+      },
+      {
+        "text": "2.25 kg",
+        "hint": "Correct. $2{,}250$ g $= 2.25$ kg."
+      },
+      {
+        "text": "2.35 kg",
+        "hint": "Check the total: it is 2,250 g."
+      },
+      {
+        "text": "22.50 kg",
+        "hint": "Divide grams by 1,000, not 100."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the grams and divide by 1,000.",
+    "explanation": "## Advanced explanation\n\n$500 + 850 + 900 = 2{,}250$ g $= 2.25$ kg.\n\n## Simplified explanation\n\nThe grams add to 2,250. Since 1,000 g is 1 kg, that is 2.25 kg.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A watch gains $1\\dfrac{1}{2}$ minutes per hour. What is the total time gained from 12 noon to 12 midnight in a day?",
+    "media": [],
+    "options": [
+      {
+        "text": "9 minutes",
+        "hint": "This is for 6 hours. Noon to midnight is 12 hours."
+      },
+      {
+        "text": "15 minutes",
+        "hint": "This is for 10 hours. Noon to midnight is 12 hours."
+      },
+      {
+        "text": "18 minutes",
+        "hint": "Correct. $1.5 \\times 12 = 18$."
+      },
+      {
+        "text": "36 minutes",
+        "hint": "This is for 24 hours. Noon to midnight is 12 hours."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "How many hours are there from noon to midnight?",
+    "explanation": "## Advanced explanation\n\n$12 \\times 1\\frac{1}{2} = 18$ minutes.\n\n## Simplified explanation\n\nNoon to midnight is 12 hours, and $12 \\times 1.5 = 18$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A printing machine prints 600 books in 3 hours. How many books will the machine print in 5 hours?",
+    "media": [],
+    "options": [
+      {
+        "text": "360 books",
+        "hint": "This multiplies by $\\frac{3}{5}$. More time means more books."
+      },
+      {
+        "text": "1,000 books",
+        "hint": "Correct. 200 books an hour for 5 hours."
+      },
+      {
+        "text": "1,800 books",
+        "hint": "This multiplies 600 by 3."
+      },
+      {
+        "text": "3,000 books",
+        "hint": "This multiplies 600 by 5."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the number of books printed in one hour.",
+    "explanation": "## Advanced explanation\n\nDirect proportion: $600 \\times \\frac{5}{3} = 1{,}000$ books.\n\n## Simplified explanation\n\n600 books in 3 hours is 200 an hour. In 5 hours, that is 1,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bearing of Atoru from Busase is 275°. What is the bearing of Busase from Atoru?",
+    "media": [],
+    "options": [
+      {
+        "text": "180°",
+        "hint": "Use the rule for a back bearing."
+      },
+      {
+        "text": "175°",
+        "hint": "Check the subtraction: $275 - 180 = 95$."
+      },
+      {
+        "text": "095°",
+        "hint": "Correct. $275^\\circ - 180^\\circ = 095^\\circ$."
+      },
+      {
+        "text": "075°",
+        "hint": "Check the subtraction: $275 - 180 = 95$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A back bearing differs from the bearing by 180°.",
+    "explanation": "## Advanced explanation\n\nSince $275^\\circ > 180^\\circ$, the back bearing is $275^\\circ - 180^\\circ = 095^\\circ$.\n\n## Simplified explanation\n\nGoing back the other way turns you through 180°. So take 180 from 275 to get 095°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a class of 24 pupils, 10 study French only and 8 study English only. If each pupil studies at least one of the two subjects, how many study English?",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "Find those who study both first."
+      },
+      {
+        "text": "14",
+        "hint": "Correct. $8 + 6 = 14$."
+      },
+      {
+        "text": "16",
+        "hint": "This is the number who study French."
+      },
+      {
+        "text": "18",
+        "hint": "This is French only plus English only."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Those who study both are $24 - 10 - 8$.",
+    "explanation": "## Advanced explanation\n\nBoth: $24 - 18 = 6$, so $n(E) = 8 + 6 = 14$.\n\n## Simplified explanation\n\n$24 - 10 - 8 = 6$ pupils study both. English pupils are the 8 who study only English and these 6, which makes 14.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert 84 to a base five numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4130_{\\text{five}}$",
+        "hint": "This equals 540."
+      },
+      {
+        "text": "$3014_{\\text{five}}$",
+        "hint": "This equals 384."
+      },
+      {
+        "text": "$314_{\\text{five}}$",
+        "hint": "Correct. $75 + 5 + 4 = 84$."
+      },
+      {
+        "text": "$114_{\\text{five}}$",
+        "hint": "This equals 34."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide by 5 repeatedly and read the remainders upwards.",
+    "explanation": "## Advanced explanation\n\n$84 = 3 \\times 25 + 1 \\times 5 + 4$, which gives $314_{\\text{five}}$.\n\n## Simplified explanation\n\n84 holds three 25s (75), leaving 9. That is one 5 and 4 left over, so the digits are 3, 1, 4.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, triangle $A_1B_1C_1$ is an enlargement of triangle $ABC$. Determine the scale factor.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq34.png",
+        "caption": "Two right-angled triangles. Triangle ABC has AB = 4 cm and BC = 3 cm. Triangle A1B1C1 has A1B1 = 8 cm and B1C1 = 6 cm. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "0.50",
+        "hint": "This goes from the image back to the object."
+      },
+      {
+        "text": "0.75",
+        "hint": "This compares two sides of the same triangle."
+      },
+      {
+        "text": "2.00",
+        "hint": "Correct. $8 \\div 4 = 2$."
+      },
+      {
+        "text": "4.00",
+        "hint": "This is the length of $AB$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Scale factor $=$ image length $\\div$ object length.",
+    "explanation": "## Advanced explanation\n\n$k = \\frac{|A_1B_1|}{|AB|} = \\frac{8}{4} = \\frac{6}{3} = 2$.\n\n## Simplified explanation\n\n4 cm became 8 cm and 3 cm became 6 cm. Each side doubled, so the scale factor is 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the least number that must be added to 308 to make it divisible by 19.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the remainder. Adding it gives 312, which 19 does not divide."
+      },
+      {
+        "text": "7",
+        "hint": "Adding 7 gives 315, which 19 does not divide."
+      },
+      {
+        "text": "15",
+        "hint": "Correct. $308 + 15 = 323 = 19 \\times 17$."
+      },
+      {
+        "text": "18",
+        "hint": "Adding 18 gives 326, which 19 does not divide."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide 308 by 19 and look at the remainder.",
+    "explanation": "## Advanced explanation\n\n$308 = 19 \\times 16 + 4$, so add $19 - 4 = 15$ to reach $19 \\times 17 = 323$.\n\n## Simplified explanation\n\n$19 \\times 16 = 304$, so 308 is 4 past a multiple. The next multiple is 323, which is 15 more than 308.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a school of 940 pupils, the number of girls exceeds the number of boys by 150. How many girls are there in the school?",
+    "media": [],
+    "options": [
+      {
+        "text": "620",
+        "hint": "With 620 girls there would be 320 boys, a gap of 300."
+      },
+      {
+        "text": "545",
+        "hint": "Correct. $545 + 395 = 940$ and $545 - 395 = 150$."
+      },
+      {
+        "text": "470",
+        "hint": "This is half the school. It ignores the difference."
+      },
+      {
+        "text": "395",
+        "hint": "This is the number of boys."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Let boys be $b$ and girls be $b + 150$.",
+    "explanation": "## Advanced explanation\n\n$2b + 150 = 940$, so $b = 395$ and the number of girls is $395 + 150 = 545$.\n\n## Simplified explanation\n\nTake the extra 150 away to leave 790. Half of that, 395, is the boys. Add 150 back to get 545 girls.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is equivalent to $\\dfrac{3}{5}$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{21}{30}$",
+        "hint": "This reduces to $\\frac{7}{10}$."
+      },
+      {
+        "text": "$\\dfrac{12}{20}$",
+        "hint": "Correct. Multiply the top and bottom of $\\frac{3}{5}$ by 4."
+      },
+      {
+        "text": "$\\dfrac{15}{45}$",
+        "hint": "This reduces to $\\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{6}{15}$",
+        "hint": "This reduces to $\\frac{2}{5}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Reduce each option to its lowest terms.",
+    "explanation": "## Advanced explanation\n\n$\\frac{12}{20} = \\frac{12 \\div 4}{20 \\div 4} = \\frac{3}{5}$.\n\n## Simplified explanation\n\nDivide 12 and 20 by 4 and you get 3 and 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $PQ$ is parallel to $RS$ and $UV$ is a line drawn through $PQ$ and $RS$.\n\nFind angle $a$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq38-39.png",
+        "caption": "Parallel lines PQ and RS cut by the line UV. Angle a is above PQ on the left of V, angle b is below PQ on the left of the line, angle c is below RS on the left of the line, and the angle above RS on the right of the line is 35°."
+      }
+    ],
+    "options": [
+      {
+        "text": "35°",
+        "hint": "This is the given angle. Angle $a$ lies on a straight line with its match."
+      },
+      {
+        "text": "55°",
+        "hint": "This is $90^\\circ - 35^\\circ$. The angles add to 180°, not 90°."
+      },
+      {
+        "text": "135°",
+        "hint": "Check the subtraction: $180 - 35 = 145$."
+      },
+      {
+        "text": "145°",
+        "hint": "Correct. $180^\\circ - 35^\\circ = 145^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the angle at $Q$ that matches the 35°, then use a straight line.",
+    "explanation": "## Advanced explanation\n\nThe angle between $Q$ and $V$ corresponds to the 35° angle. Angle $a$ is on a straight line with it, so $a = 180^\\circ - 35^\\circ = 145^\\circ$.\n\n## Simplified explanation\n\nThe angle to the right of the line at the top is also 35°. Angle $a$ sits next to it on the straight line $PQ$, so $a = 180 - 35 = 145$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $PQ$ is parallel to $RS$ and $UV$ is a line drawn through $PQ$ and $RS$.\n\nAngle $b$ and angle $c$ are",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012secaq38-39.png",
+        "caption": "Parallel lines PQ and RS cut by the line UV. Angle a is above PQ on the left of V, angle b is below PQ on the left of the line, angle c is below RS on the left of the line, and the angle above RS on the right of the line is 35°."
+      }
+    ],
+    "options": [
+      {
+        "text": "alternate angles.",
+        "hint": "Alternate angles lie on opposite sides of the line $UV$."
+      },
+      {
+        "text": "vertically opposite angles.",
+        "hint": "Vertically opposite angles meet at the same point."
+      },
+      {
+        "text": "corresponding angles.",
+        "hint": "Correct. They are in the same position at each parallel line."
+      },
+      {
+        "text": "interior opposite angles.",
+        "hint": "Angle $c$ is outside the parallel lines."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Compare the position of each angle at its parallel line.",
+    "explanation": "## Advanced explanation\n\nEach angle is below its parallel line and to the left of the line $UV$. That makes them corresponding, so they are equal.\n\n## Simplified explanation\n\nSlide line $PQ$ down onto $RS$. Angle $b$ lands on angle $c$, so they are corresponding angles.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $-x(3 - 2x)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-2x^2 - 3x$",
+        "hint": "$-x \\times -2x$ is positive."
+      },
+      {
+        "text": "$2x^2 - 3x$",
+        "hint": "Correct. $-3x + 2x^2$."
+      },
+      {
+        "text": "$-2x^2 + 3x$",
+        "hint": "Both signs are the wrong way round."
+      },
+      {
+        "text": "$2x^2 + 3x$",
+        "hint": "$-x \\times 3$ is negative."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the bracket by $-x$.",
+    "explanation": "## Advanced explanation\n\n$-x(3) + (-x)(-2x) = -3x + 2x^2 = 2x^2 - 3x$.\n\n## Simplified explanation\n\n$-x$ times 3 is $-3x$. $-x$ times $-2x$ is $+2x^2$. Put them together.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2012 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Evaluate $\\dfrac{0.035 \\times 1.02}{0.00015}$, leaving your answer in standard form.",
+    "media": [],
+    "answer": "$$\\frac{0.035 \\times 1.02}{0.00015} = \\frac{0.0357}{0.00015} = \\frac{3570}{15} = 238$$\n\n$$238 = 2.38 \\times 10^2$$\n\n> [!answer]\n> {{green:$2.38 \\times 10^2$}}",
+    "hint": "Multiply the top and bottom by 100,000 to remove the decimals.",
+    "explanation": "## Advanced explanation\n\nUsing standard form throughout: $\\frac{3.5 \\times 10^{-2} \\times 1.02}{1.5 \\times 10^{-4}} = 2.38 \\times 10^2$.\n\n## Simplified explanation\n\nThe top comes to 0.0357. Moving the point 5 places in both numbers gives $3570 \\div 15 = 238$, which is $2.38 \\times 10^2$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An amount of GH₵ 4,200.00 was shared between Aba and Kwame. If Aba had $\\dfrac{5}{7}$ of the amount,\n\n(i) how much did Kwame receive?\n\n(ii) what percentage of Aba's share did Kwame receive?",
+    "media": [],
+    "answer": "**(i)** Kwame's fraction: $1 - \\frac{5}{7} = \\frac{2}{7}$\n\n$$\\frac{2}{7} \\times 4{,}200 = 1{,}200$$\n\n**(ii)** Aba's share: $4{,}200 - 1{,}200 = 3{,}000$\n\n$$\\frac{1{,}200}{3{,}000} \\times 100\\% = 40\\%$$\n\n> [!answer]\n> **(i)** {{green:GH₵ 1,200.00}}  **(ii)** {{green:40%}}",
+    "hint": "Kwame gets the fraction that Aba does not get.",
+    "explanation": "## Advanced explanation\n\nThe ratio of the shares is $2 : 5$, so Kwame's share as a percentage of Aba's is $\\frac{2}{5} \\times 100\\% = 40\\%$ whatever the total.\n\n## Simplified explanation\n\nKwame gets 2 parts out of 7, which is GH₵ 1,200. Aba gets GH₵ 3,000. Then 1,200 out of 3,000 is 40%.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Fractions",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the value of $x$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012q1.png",
+        "caption": "Three lines meeting at a point, forming the angles x + 10, 4x − 30 and 2x + 30."
+      }
+    ],
+    "answer": "Angles at a point add to $360^\\circ$:\n\n$$(x + 10) + (4x - 30) + (2x + 30) = 360$$\n\n$$7x + 10 = 360$$\n\n$$x = 50$$\n\n> [!answer]\n> {{green:$x = 50$}}",
+    "hint": "The three angles go all the way round one point.",
+    "explanation": "## Advanced explanation\n\nCheck: the angles are $60^\\circ$, $170^\\circ$ and $130^\\circ$, which add to $360^\\circ$.\n\n## Simplified explanation\n\nA full turn is 360°. Adding the angles gives $7x + 10$. So $7x = 350$ and $x = 50$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A car consumes a gallon of petrol for every 30 km drive. The driver of the car set out on a journey of 420 km with 10 gallons of petrol in the fuel tank.\n\n(i) How many more gallons of petrol will be needed to complete the journey?\n\n(ii) Find the cost of the petrol used for the journey of 420 km if a gallon of petrol costs GH₵ 5.50.",
+    "media": [],
+    "answer": "**(i)** Gallons for the journey: $420 \\div 30 = 14$\n\nMore needed: $14 - 10 = 4$\n\n**(ii)** Petrol used is 14 gallons:\n\n$$14 \\times 5.50 = 77$$\n\n> [!answer]\n> **(i)** {{green:4 gallons}}  **(ii)** {{green:GH₵ 77.00}}",
+    "hint": "Find the total gallons for 420 km first.",
+    "explanation": "## Advanced explanation\n\nPart (ii) charges for all the petrol used, 14 gallons, and not only the 4 extra gallons.\n\n## Simplified explanation\n\n420 km at 30 km a gallon uses 14 gallons. The tank has 10, so 4 more are needed. The whole journey uses 14 gallons at GH₵ 5.50, which is GH₵ 77.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The average number of spectators at a football competition for the first five days was 3,144. The attendance on the sixth day was 3,990. Find the\n\n(i) total attendance on the first five days;\n\n(ii) average attendance for the 6 days.",
+    "media": [],
+    "answer": "**(i)** $5 \\times 3{,}144 = 15{,}720$\n\n**(ii)** Six-day total: $15{,}720 + 3{,}990 = 19{,}710$\n\n$$19{,}710 \\div 6 = 3{,}285$$\n\n> [!answer]\n> **(i)** {{green:15,720}}  **(ii)** {{green:3,285}}",
+    "hint": "Total $=$ average $\\times$ number of days.",
+    "explanation": "## Advanced explanation\n\nThe sixth day is 846 above the old average, so the new average rises by $\\frac{846}{6} = 141$ to 3,285.\n\n## Simplified explanation\n\nFive days at an average of 3,144 makes 15,720. Adding 3,990 gives 19,710. Sharing that over 6 days gives 3,285.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The area enclosed by a square garden is 121 m². What is the distance around the garden?",
+    "media": [],
+    "answer": "Side: $\\sqrt{121} = 11$ m\n\nPerimeter: $4 \\times 11 = 44$ m\n\n> [!answer]\n> {{green:44 m}}",
+    "hint": "Find the length of one side first.",
+    "explanation": "## Advanced explanation\n\nFor a square, $A = s^2$ and $P = 4s$, so $P = 4\\sqrt{A}$.\n\n## Simplified explanation\n\n$11 \\times 11 = 121$, so each side is 11 m. Four sides make 44 m.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the number of students who scored more than 80% in the listed subjects.\n\n(i) Calculate the angle of each sector of a pie chart for the distribution.\n\n(ii) What is the probability that a student chosen at random from the distribution offers Chemistry?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2012/2012q3.png",
+        "caption": "Table of students by subject: Biology 26, Physics 30, Chemistry 32, French 38, Geography 24, History 30."
+      }
+    ],
+    "answer": "**(i)** Total students: $26 + 30 + 32 + 38 + 24 + 30 = 180$, so each student takes $360^\\circ \\div 180 = 2^\\circ$.\n\n| Subject | Students | Angle |\n|---|---|---|\n| Biology | 26 | 52° |\n| Physics | 30 | 60° |\n| Chemistry | 32 | 64° |\n| French | 38 | 76° |\n| Geography | 24 | 48° |\n| History | 30 | 60° |\n\n**(ii)** $\\frac{32}{180} = \\frac{8}{45}$\n\n> [!answer]\n> **(i)** {{green:52°, 60°, 64°, 76°, 48°, 60°}}  **(ii)** {{green:$\\frac{8}{45}$}}",
+    "hint": "Add the students first, then find the angle for one student.",
+    "explanation": "## Advanced explanation\n\nSector angle $= \\frac{\\text{frequency}}{\\text{total}} \\times 360^\\circ$. The angles add to $360^\\circ$, which checks the working.\n\n## Simplified explanation\n\nThere are 180 students and 360° in a circle, so each student is 2°. Double each number to get its angle. Chemistry has 32 of the 180 students, and $\\frac{32}{180}$ reduces to $\\frac{8}{45}$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A woman bought 210 oranges for GH₵ 7.50. She sold all of them at 3 for 15 Gp. Find the\n\n(i) total selling price of the oranges;\n\n(ii) percentage profit.",
+    "media": [],
+    "answer": "**(i)** Groups of 3: $210 \\div 3 = 70$\n\n$$70 \\times 0.15 = 10.50$$\n\n**(ii)** Profit: $10.50 - 7.50 = 3.00$\n\n$$\\frac{3.00}{7.50} \\times 100\\% = 40\\%$$\n\n> [!answer]\n> **(i)** {{green:GH₵ 10.50}}  **(ii)** {{green:40%}}",
+    "hint": "15 Gp is GH₵ 0.15.",
+    "explanation": "## Advanced explanation\n\nPercentage profit is always worked on the cost price: $\\frac{\\text{profit}}{\\text{cost price}} \\times 100\\%$.\n\n## Simplified explanation\n\n210 oranges make 70 lots of 3, and each lot sells for GH₵ 0.15, which gives GH₵ 10.50. The profit is GH₵ 3, and 3 out of 7.50 is 40%.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The marks scored by some students in a Mathematics test are as follows:\n\n3, 3, 5, 6, 3, 4\n\n7, 8, 3, 4, 5, 4\n\n7, 4, 3, 7, 4, 6\n\n4, 8, 4, 5, 6, 3\n\n8, 4, 5, 6, 4, 5\n\n(a) Construct a frequency distribution table for the scores.\n\n(b) Using the table, find for the distribution, the\n\n(i) mode;\n\n(ii) mean, correct to one decimal place;\n\n(iii) median.",
+    "media": [],
+    "answer": "**(a)**\n\n| Mark | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|\n| Frequency | 6 | 9 | 5 | 4 | 3 | 3 |\n\n**(b)(i)** Mark 4 has the highest frequency.\n\n**(ii)** $\\frac{18 + 36 + 25 + 24 + 21 + 24}{30} = \\frac{148}{30} \\approx 4.9$\n\n**(iii)** The 15th and 16th marks in order are 4 and 5:\n\n$$\\frac{4 + 5}{2} = 4.5$$\n\n> [!answer]\n> **(b)(i)** {{green:4}}  **(ii)** {{green:4.9}}  **(iii)** {{green:4.5}}",
+    "hint": "Tally the marks. The frequencies must add to 30.",
+    "explanation": "## Advanced explanation\n\nWith $n = 30$ the median is the mean of the 15th and 16th ordered values. The cumulative frequencies are 6, 15, 20, 24, 27 and 30, so these values are 4 and 5.\n\n## Simplified explanation\n\nCount how often each mark appears. Mark 4 appears most, 9 times. Multiply each mark by its count and add to get 148, then divide by 30 for the mean. The middle two marks are 4 and 5, so the median is halfway, 4.5.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Find the Least Common Multiple (L.C.M.) of 9, 18 and 16.\n\n(ii) Arrange $\\dfrac{8}{9}$, $\\dfrac{7}{18}$ and $\\dfrac{10}{16}$ in ascending order of magnitude.",
+    "media": [],
+    "answer": "**(i)** $18 = 2 \\times 3^2$ and $16 = 2^4$, and 9 divides 18:\n\n$$\\text{LCM} = 2^4 \\times 3^2 = 144$$\n\n**(ii)** Over 144:\n\n$$\\frac{8}{9} = \\frac{128}{144}, \\quad \\frac{7}{18} = \\frac{56}{144}, \\quad \\frac{10}{16} = \\frac{90}{144}$$\n\n> [!answer]\n> **(i)** {{green:144}}  **(ii)** {{green:$\\frac{7}{18}, \\frac{10}{16}, \\frac{8}{9}$}}",
+    "hint": "Use the LCM from (i) as the common denominator.",
+    "explanation": "## Advanced explanation\n\nThe LCM takes the highest power of each prime. Once the denominators are equal, the fractions are ordered by their numerators.\n\n## Simplified explanation\n\n144 is the smallest number that 9, 18 and 16 all divide. Over 144, the tops are 128, 56 and 90. From smallest to largest, that is $\\frac{7}{18}$, $\\frac{10}{16}$, $\\frac{8}{9}$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Number Properties",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(i) construct a triangle $PQR$ with length $|PQ| = 10$ cm, angles $QPR = 45^\\circ$ and $PQR = 60^\\circ$;\n\n(ii) construct the perpendicular bisectors of $PR$ and $RQ$ to meet at $T$;\n\n(iii) measure the length of $TP$. Type your measurement.",
+    "media": [],
+    "answer": "Draw $|PQ| = 10$ cm. Construct $60^\\circ$ at $Q$, and construct $90^\\circ$ at $P$ and bisect it to get $45^\\circ$. The arms meet at $R$.\n\nBisect $PR$ and $RQ$. The bisectors cross at $T$.\n\n> [!answer]\n> {{green:$|TP| \\approx 5.2$ cm}}",
+    "hint": "$T$ is the same distance from $P$, $Q$ and $R$.",
+    "explanation": "## Advanced explanation\n\n$T$ is the circumcentre, so $|TP|$ is the circumradius: $\\frac{|PQ|}{2\\sin R} = \\frac{10}{2\\sin 75^\\circ} \\approx 5.18$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the 10 cm base with the 45° and 60° angles. The bisectors of $PR$ and $RQ$ cross at $T$. Measuring from $T$ to $P$ gives about 5.2 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Using a scale of 2 cm to 1 unit on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet, marking the $x$-axis from $-5$ to $5$ and the $y$-axis from $-6$ to $6$.\n\n(ii) Plot the points $P(4, 2)$, $Q(2, 5)$ and $R(2, 2)$. Join them to form triangle $PQR$.\n\n(iii) Using the $x$-axis as a mirror line, draw the image $P_1Q_1R_1$ of triangle $PQR$ such that $P \\to P_1$, $Q \\to Q_1$, $R \\to R_1$. Write down the coordinates of $P_1$, $Q_1$ and $R_1$.\n\n(iv) Translate triangle $PQR$ by the vector $\\begin{pmatrix} -1 \\\\ -1 \\end{pmatrix}$ such that $P \\to P_2$, $Q \\to Q_2$, $R \\to R_2$. Write down the coordinates of $P_2$, $Q_2$ and $R_2$.",
+    "media": [],
+    "answer": "**(iii)** Reflecting in the $x$-axis changes $(x, y)$ to $(x, -y)$:\n\n$P_1(4, -2)$, $Q_1(2, -5)$, $R_1(2, -2)$\n\n**(iv)** The translation changes $(x, y)$ to $(x - 1, y - 1)$:\n\n$P_2(3, 1)$, $Q_2(1, 4)$, $R_2(1, 1)$\n\n> [!answer]\n> **(iii)** {{green:$P_1(4, -2)$, $Q_1(2, -5)$, $R_1(2, -2)$}}\n>\n> **(iv)** {{green:$P_2(3, 1)$, $Q_2(1, 4)$, $R_2(1, 1)$}}",
+    "hint": "Reflecting in the $x$-axis only changes the sign of $y$.",
+    "explanation": "## Advanced explanation\n\nReflection and translation are both isometries, so each image triangle is congruent to $PQR$.\n\n## Simplified explanation\n\nFor the mirror image, keep $x$ and flip the sign of $y$. For the translation, take 1 from $x$ and 1 from $y$.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2012 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  }
+]

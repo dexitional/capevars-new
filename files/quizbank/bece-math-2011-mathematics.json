@@ -1,0 +1,1592 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following is the set of prime factors of 12?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2, 3\\}$",
+        "hint": "Correct. $12 = 2^2 \\times 3$."
+      },
+      {
+        "text": "$\\{1, 2, 3\\}$",
+        "hint": "1 is not a prime number."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4\\}$",
+        "hint": "1 and 4 are not prime numbers."
+      },
+      {
+        "text": "$\\{2, 3, 4, 6\\}$",
+        "hint": "4 and 6 are factors of 12, but they are not prime."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "List the factors of 12 that are prime.",
+    "explanation": "## Advanced explanation\n\n$12 = 2^2 \\times 3$, so the prime factors are 2 and 3.\n\n## Simplified explanation\n\nThe factors of 12 are 1, 2, 3, 4, 6 and 12. Only 2 and 3 are prime.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Properties",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand: $3a(a - 4b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$3a - 12ab$",
+        "hint": "$3a \\times a$ is $3a^2$."
+      },
+      {
+        "text": "$3a^2 - 12ab$",
+        "hint": "Correct. Multiply each term by $3a$."
+      },
+      {
+        "text": "$3a^2 - 12b$",
+        "hint": "$3a \\times 4b$ is $12ab$."
+      },
+      {
+        "text": "$3a^2 - 12a$",
+        "hint": "$3a \\times 4b$ is $12ab$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the bracket by $3a$.",
+    "explanation": "## Advanced explanation\n\n$3a(a) - 3a(4b) = 3a^2 - 12ab$.\n\n## Simplified explanation\n\n$3a$ times $a$ is $3a^2$. $3a$ times $4b$ is $12ab$. Keep the minus sign.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 5 as a percentage of 4.",
+    "media": [],
+    "options": [
+      {
+        "text": "125%",
+        "hint": "Correct. $\\frac{5}{4} \\times 100 = 125$."
+      },
+      {
+        "text": "120%",
+        "hint": "Check the division: $5 \\div 4 = 1.25$."
+      },
+      {
+        "text": "25%",
+        "hint": "This is 1 as a percentage of 4."
+      },
+      {
+        "text": "20%",
+        "hint": "This is 1 as a percentage of 5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide 5 by 4, then multiply by 100.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{4} \\times 100\\% = 125\\%$.\n\n## Simplified explanation\n\n$5 \\div 4 = 1.25$, and $1.25 \\times 100 = 125$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 2700 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 3^2 \\times 5^2$",
+        "hint": "This equals 900."
+      },
+      {
+        "text": "$2 \\times 3^3 \\times 5^2$",
+        "hint": "This equals 1,350."
+      },
+      {
+        "text": "$2^2 \\times 3^3 \\times 5^2$",
+        "hint": "Correct. $4 \\times 27 \\times 25 = 2{,}700$."
+      },
+      {
+        "text": "$2 \\times 3^2 \\times 5^3$",
+        "hint": "This equals 2,250."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write 2700 as $27 \\times 100$.",
+    "explanation": "## Advanced explanation\n\n$2700 = 27 \\times 100 = 3^3 \\times 2^2 \\times 5^2$.\n\n## Simplified explanation\n\n27 is $3^3$ and 100 is $2^2 \\times 5^2$. Put them together.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Properties",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ratio of mangoes to oranges in a basket is $3 : 2$. If there are 36 mangoes, how many oranges are in the basket?",
+    "media": [],
+    "options": [
+      {
+        "text": "90",
+        "hint": "This is the wrong way round. Oranges are fewer than mangoes."
+      },
+      {
+        "text": "60",
+        "hint": "This is the total number of fruits."
+      },
+      {
+        "text": "24",
+        "hint": "Correct. $36 \\times \\frac{2}{3} = 24$."
+      },
+      {
+        "text": "12",
+        "hint": "This is the value of one part."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "3 parts are 36. Find 1 part.",
+    "explanation": "## Advanced explanation\n\n$\\frac{m}{o} = \\frac{3}{2}$, so $o = \\frac{2}{3} \\times 36 = 24$.\n\n## Simplified explanation\n\n3 parts make 36, so 1 part is 12. Oranges are 2 parts, which is 24.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.125 as a fraction in its lowest form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Correct. $\\frac{125}{1000} = \\frac{1}{8}$."
+      },
+      {
+        "text": "$\\dfrac{1}{9}$",
+        "hint": "$\\frac{1}{9}$ is $0.111\\ldots$"
+      },
+      {
+        "text": "$\\dfrac{1}{12}$",
+        "hint": "$\\frac{1}{12}$ is about 0.083."
+      },
+      {
+        "text": "$\\dfrac{1}{16}$",
+        "hint": "$\\frac{1}{16}$ is 0.0625."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write 0.125 over 1,000 and reduce.",
+    "explanation": "## Advanced explanation\n\n$0.125 = \\frac{125}{1000} = \\frac{1}{8}$.\n\n## Simplified explanation\n\n125 goes into 1,000 exactly 8 times, so the fraction is $\\frac{1}{8}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $222_{\\text{five}}$ to a number in base ten.",
+    "media": [],
+    "options": [
+      {
+        "text": "30",
+        "hint": "This is $6 \\times 5$. Use the place values 25, 5 and 1."
+      },
+      {
+        "text": "52",
+        "hint": "Check the place values: $50 + 10 + 2$."
+      },
+      {
+        "text": "60",
+        "hint": "This leaves out the last digit, 2."
+      },
+      {
+        "text": "62",
+        "hint": "Correct. $50 + 10 + 2 = 62$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The place values in base five are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$2 \\times 5^2 + 2 \\times 5 + 2 = 50 + 10 + 2 = 62$.\n\n## Simplified explanation\n\nMultiply each 2 by its place value: 50, 10 and 2. They add to 62.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $A = \\{18, 19, 20\\}$ and $B = \\{15, 16, 17\\}$, find $A \\cap B$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{15, 16, 17, 18, 19, 20\\}$",
+        "hint": "This is $A \\cup B$."
+      },
+      {
+        "text": "$\\{15, 16, 18, 19\\}$",
+        "hint": "None of these numbers is in both sets."
+      },
+      {
+        "text": "$\\{18, 19\\}$",
+        "hint": "These are in $A$ but not in $B$."
+      },
+      {
+        "text": "$\\{\\ \\}$",
+        "hint": "Correct. The sets have no common member."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Look for numbers on both lists.",
+    "explanation": "## Advanced explanation\n\n$A$ and $B$ have no common elements, so they are disjoint and $A \\cap B = \\emptyset$.\n\n## Simplified explanation\n\nNo number appears in both sets, so the answer is the empty set.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3^9 \\div 3^3$",
+    "media": [],
+    "options": [
+      {
+        "text": "$3^{27}$",
+        "hint": "This multiplies the powers. Subtract them when dividing."
+      },
+      {
+        "text": "$3^{12}$",
+        "hint": "This adds the powers. Subtract them when dividing."
+      },
+      {
+        "text": "$3^6$",
+        "hint": "Correct. $9 - 3 = 6$."
+      },
+      {
+        "text": "$3^3$",
+        "hint": "This divides the powers. Subtract them instead."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract the powers when dividing with the same base.",
+    "explanation": "## Advanced explanation\n\n$3^9 \\div 3^3 = 3^{9 - 3} = 3^6$.\n\n## Simplified explanation\n\nThe base is the same, so take the powers away: $9 - 3 = 6$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An article which costs GH₵ 25.00 was sold for GH₵ 35.00. Find the percentage profit made.",
+    "media": [],
+    "options": [
+      {
+        "text": "10%",
+        "hint": "GH₵ 10 is the profit, not the percentage."
+      },
+      {
+        "text": "28%",
+        "hint": "This uses the selling price. Divide by the cost price."
+      },
+      {
+        "text": "40%",
+        "hint": "Correct. $\\frac{10}{25} \\times 100 = 40$."
+      },
+      {
+        "text": "70%",
+        "hint": "This is not the profit over the cost price."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Percentage profit is worked on the cost price.",
+    "explanation": "## Advanced explanation\n\n$\\frac{35 - 25}{25} \\times 100\\% = 40\\%$.\n\n## Simplified explanation\n\nThe profit is GH₵ 10 on a cost of GH₵ 25. That is $\\frac{2}{5}$, or 40%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize completely: $b^2 + fb - mb - fm$",
+    "media": [],
+    "options": [
+      {
+        "text": "$(b - f)(b - m)$",
+        "hint": "This expands to give $-fb$ and $+fm$."
+      },
+      {
+        "text": "$(b + f)(b - m)$",
+        "hint": "Correct. $b(b + f) - m(b + f)$."
+      },
+      {
+        "text": "$(b + f)(m - b)$",
+        "hint": "This expands to give $-b^2$."
+      },
+      {
+        "text": "$(b + f)(m + b)$",
+        "hint": "This expands to give $+mb$ and $+fm$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$b(b + f) - m(b + f) = (b + f)(b - m)$.\n\n## Simplified explanation\n\nTake $b$ out of the first pair and $-m$ out of the second. Both leave $(b + f)$, which is the common factor.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $-13 - (-3) + (-10)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-26$",
+        "hint": "$-(-3)$ is $+3$, not $-3$."
+      },
+      {
+        "text": "$-20$",
+        "hint": "Correct. $-13 + 3 - 10 = -20$."
+      },
+      {
+        "text": "$-10$",
+        "hint": "$-13 + 3$ is $-10$, but you must still add $-10$."
+      },
+      {
+        "text": "$-6$",
+        "hint": "Check the signs: $-13 + 3 - 10$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtracting a negative is the same as adding.",
+    "explanation": "## Advanced explanation\n\n$-13 + 3 - 10 = -20$.\n\n## Simplified explanation\n\n$-(-3)$ becomes $+3$ and $+(-10)$ becomes $-10$. So $-13 + 3 = -10$, and $-10 - 10 = -20$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the HCF of $3^3 \\times 5^2$ and $3^2 \\times 5^4$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3^2 \\times 5^2$",
+        "hint": "Correct. Take the lowest power of each prime."
+      },
+      {
+        "text": "$3^3 \\times 5^2$",
+        "hint": "The second number has only $3^2$."
+      },
+      {
+        "text": "$3^2 \\times 5^4$",
+        "hint": "The first number has only $5^2$."
+      },
+      {
+        "text": "$3^5 \\times 5^6$",
+        "hint": "This adds the powers, which gives the product of the numbers."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The HCF uses the lowest power of each prime.",
+    "explanation": "## Advanced explanation\n\nThe minimum exponents are 2 for 3 and 2 for 5, so the HCF is $3^2 \\times 5^2$.\n\n## Simplified explanation\n\nChoose the smaller power of each number: $3^2$ and $5^2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "State the rule for the mapping:\n\n| $x$ | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| $y$ | 15 | 30 | 45 | 60 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to 15x$",
+        "hint": "Correct. Each $y$ is 15 times $x$."
+      },
+      {
+        "text": "$x \\to 15 + x$",
+        "hint": "This gives 16 when $x = 1$."
+      },
+      {
+        "text": "$x \\to \\dfrac{15}{x}$",
+        "hint": "This gives a smaller $y$ as $x$ grows."
+      },
+      {
+        "text": "$x \\to 10 + 5x$",
+        "hint": "This fits $x = 1$ but gives 20 when $x = 2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Compare $y$ with $x$ in each column.",
+    "explanation": "## Advanced explanation\n\n$\\frac{y}{x} = 15$ in every column, so $y = 15x$.\n\n## Simplified explanation\n\n$1 \\times 15 = 15$, $2 \\times 15 = 30$, and so on. The rule is to multiply by 15.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality: $x - \\dfrac{1}{3} \\ge \\dfrac{2}{3} - x$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\le \\dfrac{1}{2}$",
+        "hint": "The inequality sign does not change here."
+      },
+      {
+        "text": "$x \\le \\dfrac{2}{3}$",
+        "hint": "Add $x$ to both sides and add $\\frac{1}{3}$ to both sides."
+      },
+      {
+        "text": "$x \\ge \\dfrac{1}{2}$",
+        "hint": "Correct. $2x \\ge 1$."
+      },
+      {
+        "text": "$x \\ge \\dfrac{2}{3}$",
+        "hint": "Add $x$ to both sides, which gives $2x$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Collect the $x$ terms on one side.",
+    "explanation": "## Advanced explanation\n\n$2x \\ge \\frac{2}{3} + \\frac{1}{3} = 1$, so $x \\ge \\frac{1}{2}$.\n\n## Simplified explanation\n\nMove $x$ to the left to get $2x$. Move $\\frac{1}{3}$ to the right to get 1. So $2x \\ge 1$ and $x$ is at least $\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the area of a square, if its perimeter is 28 cm.",
+    "media": [],
+    "options": [
+      {
+        "text": "784 cm²",
+        "hint": "This is $28^2$. Use the side, not the perimeter."
+      },
+      {
+        "text": "196 cm²",
+        "hint": "This is $14^2$. The side is 7 cm."
+      },
+      {
+        "text": "49 cm²",
+        "hint": "Correct. The side is 7 cm and $7^2 = 49$."
+      },
+      {
+        "text": "14 cm²",
+        "hint": "This is half the perimeter."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide the perimeter by 4 to get a side.",
+    "explanation": "## Advanced explanation\n\n$s = \\frac{28}{4} = 7$ cm, so $A = s^2 = 49$ cm².\n\n## Simplified explanation\n\nFour equal sides make 28, so one side is 7. Then $7 \\times 7 = 49$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{1}{3}\\left(\\dfrac{1}{2} - \\dfrac{1}{3}\\right) - \\dfrac{1}{3}\\left(\\dfrac{1}{3} - \\dfrac{1}{2}\\right)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-\\dfrac{1}{9}$",
+        "hint": "The second bracket is negative, so subtracting it adds."
+      },
+      {
+        "text": "$-\\dfrac{1}{18}$",
+        "hint": "The second bracket is negative, so subtracting it adds."
+      },
+      {
+        "text": "$\\dfrac{1}{18}$",
+        "hint": "This is only the first part. The second part adds another $\\frac{1}{18}$."
+      },
+      {
+        "text": "$\\dfrac{1}{9}$",
+        "hint": "Correct. $\\frac{1}{18} + \\frac{1}{18} = \\frac{1}{9}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Work out each bracket first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{3}\\left(\\frac{1}{6}\\right) - \\frac{1}{3}\\left(-\\frac{1}{6}\\right) = \\frac{1}{18} + \\frac{1}{18} = \\frac{1}{9}$.\n\n## Simplified explanation\n\nThe brackets are $\\frac{1}{6}$ and $-\\frac{1}{6}$. A third of each is $\\frac{1}{18}$ and $-\\frac{1}{18}$. Taking away the negative adds, which gives $\\frac{2}{18} = \\frac{1}{9}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $n$ the subject of the relation: $\\theta = 180 - \\dfrac{360}{n}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{\\theta + 360}{2}$",
+        "hint": "$n$ is in the denominator, so it must be brought up first."
+      },
+      {
+        "text": "$\\dfrac{\\theta - 360}{2}$",
+        "hint": "$n$ is in the denominator, so it must be brought up first."
+      },
+      {
+        "text": "$\\dfrac{360}{180 - \\theta}$",
+        "hint": "Correct. $\\frac{360}{n} = 180 - \\theta$."
+      },
+      {
+        "text": "$\\dfrac{360}{180 + \\theta}$",
+        "hint": "Moving $\\theta$ across gives $180 - \\theta$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Isolate the fraction $\\frac{360}{n}$ first.",
+    "explanation": "## Advanced explanation\n\n$\\frac{360}{n} = 180 - \\theta$, and so $n = \\frac{360}{180 - \\theta}$.\n\n## Simplified explanation\n\nSwap $\\theta$ and the fraction to get $\\frac{360}{n} = 180 - \\theta$. Then swap $n$ and the right-hand side.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $R = \\dfrac{h}{2} + \\dfrac{d^2}{8h}$, find $R$ when $d = 8$ and $h = 6$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3\\dfrac{1}{6}$",
+        "hint": "$d$ must be squared: $8^2 = 64$."
+      },
+      {
+        "text": "$4\\dfrac{1}{3}$",
+        "hint": "Correct. $3 + \\frac{64}{48} = 4\\frac{1}{3}$."
+      },
+      {
+        "text": "$4\\dfrac{3}{4}$",
+        "hint": "Check the second term: $\\frac{64}{48} = 1\\frac{1}{3}$."
+      },
+      {
+        "text": "$4\\dfrac{9}{16}$",
+        "hint": "Check the second term: $\\frac{64}{48} = 1\\frac{1}{3}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Substitute carefully and square $d$.",
+    "explanation": "## Advanced explanation\n\n$R = \\frac{6}{2} + \\frac{64}{48} = 3 + \\frac{4}{3} = 4\\frac{1}{3}$.\n\n## Simplified explanation\n\n$\\frac{6}{2}$ is 3. $8^2 = 64$ and $8 \\times 6 = 48$, so the second part is $1\\frac{1}{3}$. Together they make $4\\frac{1}{3}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Eight copies of a book cost GH₵ 16.00. Find the cost of five copies.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 2.00",
+        "hint": "This is the cost of one copy."
+      },
+      {
+        "text": "GH₵ 3.20",
+        "hint": "This is $16 \\div 5$. Find the cost of one copy first."
+      },
+      {
+        "text": "GH₵ 5.00",
+        "hint": "This assumes each copy costs GH₵ 1.00."
+      },
+      {
+        "text": "GH₵ 10.00",
+        "hint": "Correct. $5 \\times 2 = 10$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the cost of one copy.",
+    "explanation": "## Advanced explanation\n\n$\\frac{5}{8} \\times 16 = 10$.\n\n## Simplified explanation\n\nOne copy costs $16 \\div 8 = 2$ cedis. Five copies cost 10 cedis.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the equation: $\\dfrac{1}{5}(2 + y) = \\dfrac{1}{2}(y - 1)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Check the signs when collecting terms."
+      },
+      {
+        "text": "$-\\dfrac{3}{4}$",
+        "hint": "Cross-multiply: $2(2 + y) = 5(y - 1)$."
+      },
+      {
+        "text": "$\\dfrac{5}{3}$",
+        "hint": "Expand $5(y - 1)$ to get $5y - 5$."
+      },
+      {
+        "text": "$3$",
+        "hint": "Correct. $4 + 2y = 5y - 5$, so $y = 3$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply both sides by 10.",
+    "explanation": "## Advanced explanation\n\n$2(2 + y) = 5(y - 1)$ gives $4 + 2y = 5y - 5$, so $9 = 3y$ and $y = 3$.\n\n## Simplified explanation\n\nClear the fractions to get $4 + 2y = 5y - 5$. Moving terms gives $9 = 3y$, so $y = 3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The gradient of the straight line that passes through points $A(3, 2)$ and $B(4, 8)$ is",
+    "media": [],
+    "options": [
+      {
+        "text": "$-\\dfrac{1}{6}$",
+        "hint": "This is upside down and has the wrong sign."
+      },
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "Use the change in $y$ over the change in $x$."
+      },
+      {
+        "text": "2",
+        "hint": "Use the change in $y$ over the change in $x$."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{8 - 2}{4 - 3} = 6$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Gradient $= \\frac{y_2 - y_1}{x_2 - x_1}$.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{8 - 2}{4 - 3} = \\frac{6}{1} = 6$.\n\n## Simplified explanation\n\n$y$ goes up by 6 while $x$ goes up by 1. So the gradient is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car is travelling at 60 km per hour. How far does it travel in $2\\dfrac{1}{2}$ hours?",
+    "media": [],
+    "options": [
+      {
+        "text": "30 km",
+        "hint": "This is half an hour's travel."
+      },
+      {
+        "text": "60 km",
+        "hint": "This is one hour's travel."
+      },
+      {
+        "text": "120 km",
+        "hint": "This is two hours' travel."
+      },
+      {
+        "text": "150 km",
+        "hint": "Correct. $60 \\times 2.5 = 150$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Distance $=$ speed $\\times$ time.",
+    "explanation": "## Advanced explanation\n\n$d = st = 60 \\times 2.5 = 150$ km.\n\n## Simplified explanation\n\n2 hours is 120 km and half an hour is 30 km. Together that is 150 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $RS$ and $WV$ are parallel lines. The value of the angle marked $\\alpha$ is",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq24.png",
+        "caption": "Parallel lines RS and WV cut by a slanted line. The angle above WV on the W side is 128°, and the angle above RS on the S side is α."
+      }
+    ],
+    "options": [
+      {
+        "text": "38°",
+        "hint": "This is $90^\\circ - 52^\\circ$."
+      },
+      {
+        "text": "52°",
+        "hint": "Correct. $180^\\circ - 128^\\circ = 52^\\circ$."
+      },
+      {
+        "text": "58°",
+        "hint": "Check the subtraction: $180 - 128 = 52$."
+      },
+      {
+        "text": "64°",
+        "hint": "This is half of 128°."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the angle next to 128° on the straight line $WV$.",
+    "explanation": "## Advanced explanation\n\nThe angle on the right at $WV$ is $180^\\circ - 128^\\circ = 52^\\circ$. It corresponds to $\\alpha$, so $\\alpha = 52^\\circ$.\n\n## Simplified explanation\n\nThe two angles above $WV$ add to 180°, so the right one is 52°. Angle $\\alpha$ is in the same position at $RS$, so it is also 52°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $a = \\begin{pmatrix} 5 \\\\ 2n \\end{pmatrix}$ and $b = \\begin{pmatrix} 2n - 1 \\\\ 6 \\end{pmatrix}$, if $a = b$, find the value of $n$.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "6 is the value of $2n$, not $n$."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $2n = 6$, so $n = 3$."
+      },
+      {
+        "text": "2",
+        "hint": "This gives $2n = 4$, not 6."
+      },
+      {
+        "text": "1",
+        "hint": "This gives $2n = 2$, not 6."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Equal vectors have equal matching components.",
+    "explanation": "## Advanced explanation\n\n$2n = 6$ gives $n = 3$, and $2n - 1 = 5$ agrees.\n\n## Simplified explanation\n\nThe lower numbers must match, so $2n = 6$ and $n = 3$. On top, $2(3) - 1 = 5$, which also matches.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the volume of a cube of side 5 cm.",
+    "media": [],
+    "options": [
+      {
+        "text": "10 cm³",
+        "hint": "This is $5 \\times 2$."
+      },
+      {
+        "text": "15 cm³",
+        "hint": "This is $5 \\times 3$. Use $5 \\times 5 \\times 5$."
+      },
+      {
+        "text": "25 cm³",
+        "hint": "This is the area of one face."
+      },
+      {
+        "text": "125 cm³",
+        "hint": "Correct. $5^3 = 125$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Volume of a cube $=$ side $\\times$ side $\\times$ side.",
+    "explanation": "## Advanced explanation\n\n$V = s^3 = 5^3 = 125$ cm³.\n\n## Simplified explanation\n\n$5 \\times 5 = 25$, and $25 \\times 5 = 125$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $AB$ and $CD$ are two intersecting straight lines. Find the value of the angle marked $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq27.png",
+        "caption": "Lines AB and CD crossing. The angle between A and C is 65°, and the angle between A and D is y°."
+      }
+    ],
+    "options": [
+      {
+        "text": "130°",
+        "hint": "This is $2 \\times 65^\\circ$."
+      },
+      {
+        "text": "115°",
+        "hint": "Correct. $180^\\circ - 65^\\circ = 115^\\circ$."
+      },
+      {
+        "text": "65°",
+        "hint": "This is the angle vertically opposite the 65° angle, not $y$."
+      },
+      {
+        "text": "60°",
+        "hint": "Angle $y$ is on a straight line with the 65° angle."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Angles on a straight line add to 180°.",
+    "explanation": "## Advanced explanation\n\n$y + 65 = 180$, so $y = 115$.\n\n## Simplified explanation\n\nAngle $y$ and the 65° angle sit together on line $CD$. So $y = 180 - 65 = 115$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kwame and Ama shared an amount of money in the ratio $5 : 4$ respectively. If Kwame had GH₵ 9.00, how much did they share?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 16.20",
+        "hint": "Correct. 1 part is GH₵ 1.80, and $9 \\times 1.80 = 16.20$."
+      },
+      {
+        "text": "GH₵ 36.00",
+        "hint": "This is $9 \\times 4$. GH₵ 9.00 is 5 parts."
+      },
+      {
+        "text": "GH₵ 45.00",
+        "hint": "This is $9 \\times 5$. GH₵ 9.00 is 5 parts."
+      },
+      {
+        "text": "GH₵ 81.00",
+        "hint": "This is $9 \\times 9$. GH₵ 9.00 is 5 parts."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "GH₵ 9.00 is 5 parts. Find 1 part.",
+    "explanation": "## Advanced explanation\n\nTotal $= \\frac{9}{5} \\times 9 = 16.20$.\n\n## Simplified explanation\n\n5 parts make GH₵ 9, so 1 part is GH₵ 1.80. There are 9 parts altogether, which is GH₵ 16.20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of the trapezium is",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq29.png",
+        "caption": "Trapezium with parallel sides of 9 cm and 21 cm, and a perpendicular height of 24 cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "120 cm²",
+        "hint": "Use $\\frac{1}{2}(a + b)h$."
+      },
+      {
+        "text": "180 cm²",
+        "hint": "This is half the answer. The half applies only once."
+      },
+      {
+        "text": "256 cm²",
+        "hint": "Use $\\frac{1}{2}(a + b)h$."
+      },
+      {
+        "text": "360 cm²",
+        "hint": "Correct. $\\frac{1}{2}(9 + 21) \\times 24 = 360$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Area $= \\frac{1}{2}(a + b)h$.",
+    "explanation": "## Advanced explanation\n\n$\\frac{1}{2}(9 + 21) \\times 24 = 15 \\times 24 = 360$ cm².\n\n## Simplified explanation\n\nAdd the parallel sides to get 30 and halve it to get 15. Multiply by the height 24 to get 360.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $r = \\begin{pmatrix} 2 \\\\ -5 \\end{pmatrix}$ and $s = \\begin{pmatrix} -2 \\\\ 5 \\end{pmatrix}$, calculate $2r - 3s$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -10 \\\\ 25 \\end{pmatrix}$",
+        "hint": "Both signs are the wrong way round."
+      },
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 25 \\end{pmatrix}$",
+        "hint": "Check the top: $4 - (-6) = 10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 10 \\\\ -25 \\end{pmatrix}$",
+        "hint": "Correct. $4 + 6 = 10$ and $-10 - 15 = -25$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 10 \\\\ 25 \\end{pmatrix}$",
+        "hint": "Check the bottom: $-10 - 15 = -25$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply each vector first, then subtract.",
+    "explanation": "## Advanced explanation\n\n$2r - 3s = \\begin{pmatrix} 4 \\\\ -10 \\end{pmatrix} - \\begin{pmatrix} -6 \\\\ 15 \\end{pmatrix} = \\begin{pmatrix} 10 \\\\ -25 \\end{pmatrix}$.\n\n## Simplified explanation\n\n$2r$ has 4 and $-10$. $3s$ has $-6$ and 15. Subtracting gives $4 + 6 = 10$ and $-10 - 15 = -25$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 10 red and 15 green balls in a bag. Find the probability of selecting at random a red ball from the bag.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This is the probability of a green ball."
+      },
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Correct. $\\frac{10}{25} = \\frac{2}{5}$."
+      },
+      {
+        "text": "$\\dfrac{1}{10}$",
+        "hint": "Use the number of red balls over the total."
+      },
+      {
+        "text": "$\\dfrac{1}{25}$",
+        "hint": "There are 10 red balls, not 1."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The total number of balls is 25.",
+    "explanation": "## Advanced explanation\n\n$P(\\text{red}) = \\frac{10}{10 + 15} = \\frac{2}{5}$.\n\n## Simplified explanation\n\n10 of the 25 balls are red, and $\\frac{10}{25}$ reduces to $\\frac{2}{5}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the distribution of ages of students in a class.\n\nHow many students are in the class?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq32-34.png",
+        "caption": "Table of ages and numbers of students. Age 13: 3 students, age 14: 10, age 15: 6, age 16: 7, age 17: 4."
+      }
+    ],
+    "options": [
+      {
+        "text": "20",
+        "hint": "Add all the numbers of students."
+      },
+      {
+        "text": "30",
+        "hint": "Correct. $3 + 10 + 6 + 7 + 4 = 30$."
+      },
+      {
+        "text": "45",
+        "hint": "Add all the numbers of students."
+      },
+      {
+        "text": "75",
+        "hint": "This adds the ages, not the numbers of students."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the Number of students row.",
+    "explanation": "## Advanced explanation\n\n$\\sum f = 3 + 10 + 6 + 7 + 4 = 30$.\n\n## Simplified explanation\n\nAdd the bottom row: $3 + 10 + 6 + 7 + 4 = 30$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the distribution of ages of students in a class.\n\nWhat is the modal age?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq32-34.png",
+        "caption": "Table of ages and numbers of students. Age 13: 3 students, age 14: 10, age 15: 6, age 16: 7, age 17: 4."
+      }
+    ],
+    "options": [
+      {
+        "text": "14",
+        "hint": "Correct. 14 has the highest frequency, 10."
+      },
+      {
+        "text": "15",
+        "hint": "This is the middle age in the table, not the most common."
+      },
+      {
+        "text": "16",
+        "hint": "Only 7 students are 16."
+      },
+      {
+        "text": "17",
+        "hint": "17 is the oldest age, not the most common."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The mode is the age with the most students.",
+    "explanation": "## Advanced explanation\n\nThe highest frequency is 10, at age 14.\n\n## Simplified explanation\n\nMost students, 10 of them, are aged 14.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table gives the distribution of ages of students in a class.\n\nIf a student is selected at random from the class, what is the probability that the student is 15 years old?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq32-34.png",
+        "caption": "Table of ages and numbers of students. Age 13: 3 students, age 14: 10, age 15: 6, age 16: 7, age 17: 4."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "Correct. $\\frac{6}{30} = \\frac{1}{5}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This is the probability for age 14."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Half the class is 15 students. Only 6 are 15 years old."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Only 6 of the 30 students are 15 years old."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Six students are 15 years old.",
+    "explanation": "## Advanced explanation\n\n$P(15) = \\frac{6}{30} = \\frac{1}{5}$.\n\n## Simplified explanation\n\n6 of the 30 students are 15 years old, and $\\frac{6}{30}$ reduces to $\\frac{1}{5}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Probability",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The length of a ribbon is 16.8 m long. How many ribbons 0.36 m long can be cut from it?",
+    "media": [],
+    "options": [
+      {
+        "text": "0.46",
+        "hint": "You cannot cut less than one ribbon. Check the decimal point."
+      },
+      {
+        "text": "4.60",
+        "hint": "Check the decimal point."
+      },
+      {
+        "text": "46",
+        "hint": "Correct. $16.8 \\div 0.36 \\approx 46.7$, so 46 whole ribbons."
+      },
+      {
+        "text": "460",
+        "hint": "Check the decimal point."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide, then keep only the whole ribbons.",
+    "explanation": "## Advanced explanation\n\n$\\frac{16.8}{0.36} = 46\\frac{2}{3}$, so 46 complete ribbons can be cut.\n\n## Simplified explanation\n\n$1680 \\div 36$ is 46 with some left over. The leftover is too short for another ribbon, so the answer is 46.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A refrigerator was sold for GH₵ 200.00 at a loss of 10%. Find the cost price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 180.00",
+        "hint": "This takes 10% off the selling price."
+      },
+      {
+        "text": "GH₵ 190.48",
+        "hint": "This divides by 1.05. A 10% loss means dividing by 0.9."
+      },
+      {
+        "text": "GH₵ 220.00",
+        "hint": "This adds 10% of the selling price. The 10% is of the cost price."
+      },
+      {
+        "text": "GH₵ 222.22",
+        "hint": "Correct. $200 \\div 0.9 \\approx 222.22$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The selling price is 90% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$0.9C = 200$, so $C = \\frac{200}{0.9} \\approx 222.22$.\n\n## Simplified explanation\n\nGH₵ 200 is 90% of the cost. So 10% is GH₵ 22.22, and 100% is GH₵ 222.22.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagram is the net of a",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011secaq37.png",
+        "caption": "A net made of a square with a triangle on each of its four sides."
+      }
+    ],
+    "options": [
+      {
+        "text": "cone",
+        "hint": "A cone's net has a circle and a sector."
+      },
+      {
+        "text": "cuboid",
+        "hint": "A cuboid's net has six rectangles."
+      },
+      {
+        "text": "rectangular prism",
+        "hint": "A rectangular prism's net has six rectangles."
+      },
+      {
+        "text": "pyramid",
+        "hint": "Correct. A square base with four triangles folds into a pyramid."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Imagine folding the four triangles up to meet at a point.",
+    "explanation": "## Advanced explanation\n\nA square base and four congruent triangles with a common apex form a square-based pyramid.\n\n## Simplified explanation\n\nFold each triangle up from the square. Their tips meet at the top to make a pyramid.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of 7 in the number 832713?",
+    "media": [],
+    "options": [
+      {
+        "text": "Seven thousand",
+        "hint": "The thousands digit is 2."
+      },
+      {
+        "text": "Seven hundred",
+        "hint": "Correct. 7 is in the hundreds place."
+      },
+      {
+        "text": "Seventy",
+        "hint": "The tens digit is 1."
+      },
+      {
+        "text": "Seven",
+        "hint": "The units digit is 3."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count the places from the right: units, tens, hundreds.",
+    "explanation": "## Advanced explanation\n\n$832713 = 832{,}000 + 700 + 13$, so the 7 stands for 700.\n\n## Simplified explanation\n\nFrom the right, 3 is units, 1 is tens and 7 is hundreds. So the 7 means seven hundred.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write 3560 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3.56 \\times 10^{-4}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$3.56 \\times 10^{-3}$",
+        "hint": "A negative power gives a number less than 1."
+      },
+      {
+        "text": "$3.56 \\times 10^3$",
+        "hint": "Correct. $3.56 \\times 1{,}000 = 3{,}560$."
+      },
+      {
+        "text": "$3.56 \\times 10^4$",
+        "hint": "This equals 35,600."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Move the point until one digit is in front of it.",
+    "explanation": "## Advanced explanation\n\n$3560 = 3.56 \\times 10^3$, since the point moves 3 places.\n\n## Simplified explanation\n\nMove the point 3 places left to get 3.56. So the power of 10 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 0.02751 to three decimal places.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.027",
+        "hint": "The fourth decimal digit is 5, so round up."
+      },
+      {
+        "text": "0.028",
+        "hint": "Correct. The 7 rounds up to 8."
+      },
+      {
+        "text": "0.03",
+        "hint": "This is correct to two decimal places."
+      },
+      {
+        "text": "0.28",
+        "hint": "Check the place value. This is about ten times too large."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the fourth decimal place.",
+    "explanation": "## Advanced explanation\n\nThe fourth decimal digit is 5, so the third rounds up: $0.02751 \\approx 0.028$.\n\n## Simplified explanation\n\nKeep three digits after the point: 0.027. The next digit is 5, so round up to 0.028.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2011 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a school of 255 students, 80 of them study Arabic only and 125 study French only. Each student studies at least one of the two subjects.\n\n(i) Draw a Venn diagram to represent the information.\n\n(ii) How many students study\n\n($\\alpha$) both subjects?\n\n($\\beta$) French?",
+    "media": [],
+    "answer": "**(i)** Draw two overlapping circles, $A$ and $F$. Write 80 in $A$ only, 125 in $F$ only and $x$ in the overlap. Nothing lies outside the circles.\n\n**(ii)** $80 + x + 125 = 255$, so $x = 50$\n\nFrench: $125 + 50 = 175$\n\n> [!answer]\n> **($\\alpha$)** {{green:50}}  **($\\beta$)** {{green:175}}",
+    "hint": "Let $x$ be the number who study both subjects.",
+    "explanation": "## Advanced explanation\n\nSince every student studies at least one subject, the three regions make up the whole school, and $n(F) = n(F \\text{ only}) + n(A \\cap F)$.\n\n## Simplified explanation\n\nThose who study only one subject number 205. The other 50 of the 255 must study both. French students are the 125 and these 50, which makes 175.",
+    "difficulty": "easy",
+    "marks": 6,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Make $h$ the subject of $v = \\dfrac{1}{3}\\pi r^2 h$.",
+    "media": [],
+    "answer": "Multiply both sides by 3:\n\n$$3v = \\pi r^2 h$$\n\nDivide both sides by $\\pi r^2$:\n\n$$h = \\frac{3v}{\\pi r^2}$$\n\n> [!answer]\n> {{green:$h = \\dfrac{3v}{\\pi r^2}$}}",
+    "hint": "Clear the fraction first.",
+    "explanation": "## Advanced explanation\n\nThis rearranges the formula for the volume of a cone so that the height can be found from the volume and radius.\n\n## Simplified explanation\n\nMultiply by 3 to remove the third. Then divide by everything multiplying $h$, which is $\\pi r^2$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A bookseller bought 80 copies of books at GH₵ 3.50 per copy. The bookseller sold each of them at GH₵ 4.20. Find\n\n(i) the total cost price;\n\n(ii) the percentage profit.",
+    "media": [],
+    "answer": "**(i)** $80 \\times 3.50 = 280$\n\n**(ii)** Profit per copy: $4.20 - 3.50 = 0.70$\n\n$$\\frac{0.70}{3.50} \\times 100\\% = 20\\%$$\n\n> [!answer]\n> **(i)** {{green:GH₵ 280.00}}  **(ii)** {{green:20%}}",
+    "hint": "The percentage profit can be worked on one copy.",
+    "explanation": "## Advanced explanation\n\nSince every copy has the same cost and selling price, the percentage profit per copy equals the percentage profit overall: $\\frac{336 - 280}{280} \\times 100\\% = 20\\%$.\n\n## Simplified explanation\n\n80 copies at GH₵ 3.50 cost GH₵ 280. Each copy makes GH₵ 0.70, and 0.70 out of 3.50 is one fifth, or 20%.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Profit & Loss",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The pie chart shows the distribution of exercise books to six schools $A, B, C, D, E$ and $F$ in a town. School $D$ was given 8,000 exercise books.\n\n(i) How many exercise books were given to each of the rest of the schools?\n\n(ii) What is the average number of exercise books given to the schools?\n\n(iii) How many schools had less than the average number of exercise books?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011q2.png",
+        "caption": "Pie chart of six schools with sector angles A 60°, B 50°, C 42°, D 80° and F 70°. The angle for E is not given. Not drawn to scale."
+      }
+    ],
+    "answer": "**(i)** Angle for $E$: $360^\\circ - (60^\\circ + 50^\\circ + 42^\\circ + 80^\\circ + 70^\\circ) = 58^\\circ$\n\nEach degree represents $8{,}000 \\div 80 = 100$ books.\n\n| School | A | B | C | E | F |\n|---|---|---|---|---|---|\n| Books | 6,000 | 5,000 | 4,200 | 5,800 | 7,000 |\n\n**(ii)** Total: $360 \\times 100 = 36{,}000$\n\n$$36{,}000 \\div 6 = 6{,}000$$\n\n**(iii)** $B$, $C$ and $E$ are below 6,000. School $A$ is exactly on the average.\n\n> [!answer]\n> **(i)** {{green:$A$: 6,000, $B$: 5,000, $C$: 4,200, $E$: 5,800, $F$: 7,000}}\n>\n> **(ii)** {{green:6,000}}  **(iii)** {{green:3}}",
+    "hint": "Find the missing angle, then the number of books for 1°.",
+    "explanation": "## Advanced explanation\n\nThe conversion factor from degrees to books is constant, so the average corresponds to $360^\\circ \\div 6 = 60^\\circ$, and any sector smaller than $60^\\circ$ is below the average.\n\n## Simplified explanation\n\nThe angles left leave 58° for $E$. Since 80° is 8,000 books, 1° is 100 books, so multiply each angle by 100. The total is 36,000 books over 6 schools, which is 6,000 each. Only $B$, $C$ and $E$ have fewer.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the inequality below and describe how to illustrate the answer on the number line.\n\n$$\\frac{1}{3}x + 1 \\ge \\frac{1}{2}x + \\frac{1}{4}(2 - x)$$",
+    "media": [],
+    "answer": "Multiply both sides by 12:\n\n$$4x + 12 \\ge 6x + 3(2 - x)$$\n\n$$4x + 12 \\ge 3x + 6$$\n\n$$x \\ge -6$$\n\nOn the number line, draw a solid dot at $-6$ with an arrow pointing to the right.\n\n> [!answer]\n> {{green:$x \\ge -6$}}, shown by a solid dot at $-6$ and an arrow to the right.",
+    "hint": "The LCM of 3, 2 and 4 is 12.",
+    "explanation": "## Advanced explanation\n\nMultiplying by a positive number keeps the direction of the inequality. The dot is solid because $-6$ is included.\n\n## Simplified explanation\n\nMultiply everything by 12 to clear the fractions. The right side becomes $3x + 6$. Taking $3x$ and 12 from both sides leaves $x \\ge -6$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct\n\n(i) triangle $ABC$ such that $|AB| = 8$ cm, angle $CBA = 45^\\circ$ and angle $CAB = 60^\\circ$;\n\n(ii) the bisector of angle $ACB$ to meet $|AB|$ at $T$.\n\nMeasure\n\n(iii) $|CT|$;\n\n(iv) angle $CTB$.\n\nType your measurements.",
+    "media": [],
+    "answer": "Draw $|AB| = 8$ cm. Construct $60^\\circ$ at $A$, and construct $90^\\circ$ at $B$ and bisect it to get $45^\\circ$. The arms meet at $C$.\n\nBisect angle $ACB$ and extend the bisector to meet $AB$ at $T$.\n\n> [!answer]\n> **(iii)** {{green:$|CT| \\approx 5.1$ cm}}  **(iv)** {{green:angle $CTB \\approx 97.5^\\circ$}}",
+    "hint": "Angle $ACB$ is $180^\\circ - 60^\\circ - 45^\\circ = 75^\\circ$.",
+    "explanation": "## Advanced explanation\n\nAngle $TCB = 37.5^\\circ$, so angle $CTB = 180^\\circ - 45^\\circ - 37.5^\\circ = 97.5^\\circ$. The sine rule gives $|CT| \\approx 5.12$ cm.\n\n## Simplified explanation\n\nBuild the triangle from the 8 cm base with the 60° and 45° angles. Split the top angle in half and draw the line down to $AB$. It measures about 5.1 cm and makes an angle of about 97.5° with $TB$.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A boy spent $\\dfrac{3}{8}$ of his money and had GH₵ 15.00 left. How much did he have?",
+    "media": [],
+    "answer": "Fraction left: $1 - \\frac{3}{8} = \\frac{5}{8}$\n\n$$\\frac{5}{8}x = 15$$\n\n$$x = 15 \\times \\frac{8}{5} = 24$$\n\n> [!answer]\n> {{green:GH₵ 24.00}}",
+    "hint": "GH₵ 15.00 is the fraction he did not spend.",
+    "explanation": "## Advanced explanation\n\nCheck: $\\frac{3}{8} \\times 24 = 9$ was spent, and $24 - 9 = 15$ was left.\n\n## Simplified explanation\n\nHe kept 5 of the 8 parts. If 5 parts are GH₵ 15, then 1 part is GH₵ 3, and 8 parts are GH₵ 24.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The perimeter of a rectangular plot of land whose length is $(2x + 5)$ m and width $(x - 10)$ m is 80 m. Find the\n\n(i) value of $x$;\n\n(ii) area of the plot;\n\n(iii) cost of weeding the plot at GH₵ 0.24 per m².",
+    "media": [],
+    "answer": "**(i)** $2[(2x + 5) + (x - 10)] = 80$\n\n$$2(3x - 5) = 80$$\n\n$$x = 15$$\n\n**(ii)** Length: $2(15) + 5 = 35$ m. Width: $15 - 10 = 5$ m.\n\n$$35 \\times 5 = 175$$\n\n**(iii)** $175 \\times 0.24 = 42$\n\n> [!answer]\n> **(i)** {{green:$x = 15$}}  **(ii)** {{green:175 m²}}  **(iii)** {{green:GH₵ 42.00}}",
+    "hint": "Perimeter $= 2(\\text{length} + \\text{width})$.",
+    "explanation": "## Advanced explanation\n\nCheck: $2(35 + 5) = 80$ m, which is the given perimeter.\n\n## Simplified explanation\n\nHalf the perimeter is 40, so $3x - 5 = 40$ and $x = 15$. The plot is 35 m by 5 m, which is 175 m². At GH₵ 0.24 per m² that costs GH₵ 42.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Mensuration",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the value of $x$ and $w$ in the diagram if $|AB| = |BC|$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011q4.png",
+        "caption": "Triangle ABC with AB marked equal to BC. The angle at C is x°. On the straight line through A and B, the exterior angle at A is w° and the exterior angle at B is 134°."
+      }
+    ],
+    "answer": "Angle $ABC = 180^\\circ - 134^\\circ = 46^\\circ$\n\nSince $|AB| = |BC|$, angle $BAC$ = angle $BCA = x^\\circ$:\n\n$$2x + 46 = 180$$\n\n$$x = 67$$\n\n$$w = 180 - 67 = 113$$\n\n> [!answer]\n> {{green:$x = 67$}} and {{green:$w = 113$}}",
+    "hint": "The equal sides are $AB$ and $BC$, so the equal angles are at $A$ and $C$.",
+    "explanation": "## Advanced explanation\n\nUsing the exterior angle at $B$: $134^\\circ$ equals the sum of the interior opposite angles at $A$ and $C$, so $2x = 134$ and $x = 67$.\n\n## Simplified explanation\n\nThe angle inside the triangle at $B$ is 46°. The other two angles are equal and share the remaining 134°, so each is 67°. Then $w$ is on a straight line with 67°, which makes it 113°.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $a = \\begin{pmatrix} -3 \\\\ 3 \\end{pmatrix}$ and $b = \\begin{pmatrix} 4 \\\\ -6 \\end{pmatrix}$, calculate\n\n(i) $a + 2b$;\n\n(ii) $\\dfrac{1}{2}(2a - b)$.",
+    "media": [],
+    "answer": "**(i)** $\\begin{pmatrix} -3 \\\\ 3 \\end{pmatrix} + \\begin{pmatrix} 8 \\\\ -12 \\end{pmatrix} = \\begin{pmatrix} 5 \\\\ -9 \\end{pmatrix}$\n\n**(ii)** $\\frac{1}{2}\\left[\\begin{pmatrix} -6 \\\\ 6 \\end{pmatrix} - \\begin{pmatrix} 4 \\\\ -6 \\end{pmatrix}\\right] = \\frac{1}{2}\\begin{pmatrix} -10 \\\\ 12 \\end{pmatrix} = \\begin{pmatrix} -5 \\\\ 6 \\end{pmatrix}$\n\n> [!answer]\n> **(i)** {{green:$\\begin{pmatrix} 5 \\\\ -9 \\end{pmatrix}$}}  **(ii)** {{green:$\\begin{pmatrix} -5 \\\\ 6 \\end{pmatrix}$}}",
+    "hint": "Multiply first, then add or subtract matching components.",
+    "explanation": "## Advanced explanation\n\nScalar multiplication acts on each component, and vectors add component by component.\n\n## Simplified explanation\n\nFor (i), double $b$ to get 8 and $-12$, then add $a$. For (ii), double $a$, take away $b$ to get $-10$ and 12, then halve both numbers.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The number of pupils in a primary school is given in the table.\n\n(i) Find the number of pupils in the school.\n\n(ii) What is the mean number of pupils in a class?\n\n(iii) What percentage of pupils are in class six?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011q5.png",
+        "caption": "Table of pupils by class: One 24, Two 35, Three 35, Four 20, Five 21, Six 45."
+      }
+    ],
+    "answer": "**(i)** $24 + 35 + 35 + 20 + 21 + 45 = 180$\n\n**(ii)** $180 \\div 6 = 30$\n\n**(iii)** $\\frac{45}{180} \\times 100\\% = 25\\%$\n\n> [!answer]\n> **(i)** {{green:180}}  **(ii)** {{green:30}}  **(iii)** {{green:25%}}",
+    "hint": "There are six classes.",
+    "explanation": "## Advanced explanation\n\nThe mean is the total divided by the number of classes. The class names are labels, so they are not multiplied in.\n\n## Simplified explanation\n\nAdd the numbers to get 180. Sharing them across 6 classes gives 30. Class six has 45 of the 180, which is a quarter, or 25%.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Convert $312_{\\text{five}}$ to a base ten numeral.",
+    "media": [],
+    "answer": "$$3 \\times 5^2 + 1 \\times 5 + 2 \\times 1 = 75 + 5 + 2 = 82$$\n\n> [!answer]\n> {{green:82}}",
+    "hint": "The place values are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\nA base five numeral is expanded in powers of 5.\n\n## Simplified explanation\n\nMultiply each digit by its place value: 75, 5 and 2. They add to 82.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The relation $y = \\dfrac{x}{20}$ gives the cost $y$ (in Ghana cedis) of a weight $x$ (in grammes) of rice sold in a market.\n\n(a) Copy and complete the table for the relation.\n\n(b) On a graph sheet, draw two perpendicular axes $OX$ and $OY$. Using a scale of 2 cm to 50 grammes on the $x$-axis and 2 cm to GH₵ 2.00 on the $y$-axis, draw the graph of the relation.\n\n(c) Using the graph, find\n\n(i) the cost of 175 grammes of rice;\n\n(ii) the weight of rice that can be bought with GH₵ 14.00.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2011/2011q6.png",
+        "caption": "Table with x, the weight in grammes, as 50, 100, 150, 200, 250, 300. The cost y is given only as 5.00 at 100 g and 12.50 at 250 g."
+      }
+    ],
+    "answer": "**(a)**\n\n| $x$ (g) | 50 | 100 | 150 | 200 | 250 | 300 |\n|---|---|---|---|---|---|---|\n| $y$ (GH₵) | 2.50 | 5.00 | 7.50 | 10.00 | 12.50 | 15.00 |\n\n**(b)** Plot the points and rule a straight line through them.\n\n**(c)** The relation gives the exact readings:\n\n**(i)** $175 \\div 20 = 8.75$\n\n**(ii)** $14 \\times 20 = 280$\n\n> [!answer]\n> **(c)(i)** {{green:GH₵ 8.75}}  **(ii)** {{green:280 g}}",
+    "hint": "Divide each weight by 20.",
+    "explanation": "## Advanced explanation\n\nThe relation is a direct proportion, so its graph is a straight line through the origin with gradient $\\frac{1}{20}$.\n\n## Simplified explanation\n\nEach gram costs one twentieth of a cedi, so divide the weight by 20 to fill in the table. For the graph, go up from 175 on the bottom axis to read 8.75. Go across from 14 to read 280.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2011 Paper",
+      "Section B",
+      "Graphs",
+      "Ratio & Proportion"
+    ]
+  }
+]
