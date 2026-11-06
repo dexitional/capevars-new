@@ -78,6 +78,13 @@ export const settingsSchemas = {
       )
       .max(4),
   }),
+  quizbank: z.object({
+    momoAccount: z.object({
+      network: z.enum(Object.keys(MOMO_NETWORKS) as [MomoNetwork, ...Array<MomoNetwork>]),
+      name: text(100).min(3),
+      number: z.string().trim().regex(/^0\d{9}$/, "Use a 10-digit number like 0241234567"),
+    }),
+  }),
   learn: z.object({
     instructorGuidelines: text(8000),
     minLessons: z.number().int().min(1).max(50),
@@ -143,6 +150,9 @@ export const DEFAULT_SETTINGS: SiteSettings = {
       { network: "mtn", name: "Ebenezer Kwabena Blay Ackah", number: "0558641826" },
       { network: "telecel", name: "Ebenezer Kwabena Blay Ackah", number: "0204468229" },
     ],
+  },
+  quizbank: {
+    momoAccount: { network: "mtn", name: "Ebenezer Kwabena Blay Ackah", number: "0558641826" },
   },
   learn: {
     instructorGuidelines: [

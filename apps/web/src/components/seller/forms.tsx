@@ -61,7 +61,18 @@ function useSave(path: string, id: number | undefined, onDone: () => void, succe
 
 // ---- Store ----------------------------------------------------------------------------------
 
-export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSaved: () => void; terms?: string }) {
+export function StoreForm({
+  store,
+  onSaved,
+  terms,
+  admin,
+}: {
+  store: Row | null;
+  onSaved: () => void;
+  terms?: string;
+  /** An admin opening a store for this member, or editing `store`: saves through the admin API. */
+  admin?: { owner?: { id: number; phone: string | null; email: string } };
+}) {
   const [f, setF] = useState({
     storeName: store?.store_name ?? "",
     kinds: store ? String(store.kinds).split(",").filter(Boolean) : ["products"],
@@ -69,8 +80,8 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
     description: store?.description ?? "",
     logoUrl: store?.logo_url ?? null,
     bannerUrl: store?.banner_url ?? null,
-    email: store?.email ?? "",
-    phone: store?.phone ?? "",
+    email: store?.email ?? admin?.owner?.email ?? "",
+    phone: store?.phone ?? admin?.owner?.phone ?? "",
     whatsapp: store?.whatsapp ?? "",
     location: store?.location ?? "",
     businessRegNo: store?.business_reg_no ?? "",
@@ -81,15 +92,16 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
     deliveryFee: String(store?.delivery_fee ?? "0"),
     isOpen: store ? store.is_open === 1 : true,
   });
-  const [agree, setAgree] = useState(Boolean(store));
+  const [agree, setAgree] = useState(Boolean(store) || Boolean(admin));
   const set = <K extends keyof typeof f>(k: K, v: (typeof f)[K]) => setF((x) => ({ ...x, [k]: v }));
   const save = useMutation({
     mutationFn: () => {
       const body = { ...f, deliveryFee: Number(f.deliveryFee) || 0 };
+      if (admin) return store ? api.patch(`/admin/sellers/${store.id}`, body) : api.post("/admin/sellers", { ...body, userId: admin.owner?.id });
       return store ? api.patch("/seller/store", body) : api.post("/seller/store", body);
     },
     onSuccess: () => {
-      toast.success(store ? "Store saved" : "Application submitted! We'll review it shortly.");
+      toast.success(store ? "Store saved" : admin ? "Store opened and approved" : "Application submitted! We'll review it shortly.");
       onSaved();
     },
     onError: (e) => toast.error(e.message),
@@ -103,7 +115,7 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
       }}
     >
       <section className="rounded-2xl border bg-white p-5">
-        <h2 className="mb-4 font-bold text-primary">What will you sell?</h2>
+        <h2 className="mb-4 font-bold text-primary">{admin ? "What does it sell?" : "What will you sell?"}</h2>
         <div className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
           {Object.entries(SELLER_KINDS).map(([k, v]) => {
             const on = f.kinds.includes(k);
@@ -177,7 +189,7 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
         <Field label="Ghana Card / ID (PDF or image)" hint="Only seen by Capevars staff.">
           <FileUpload value={f.idDocumentUrl} onChange={(v) => set("idDocumentUrl", v)} folder="stores" />
         </Field>
-        {!store && (
+        {!store && !admin && (
           <label className="flex items-start gap-2 rounded-xl bg-accent p-3 text-sm sm:col-span-2">
             <input type="checkbox" checked={agree} onChange={(e) => setAgree(e.target.checked)} className="mt-0.5 size-4 accent-primary" />
             <span>
@@ -188,7 +200,7 @@ export function StoreForm({ store, onSaved, terms }: { store: Row | null; onSave
         )}
       </section>
       <Button type="submit" size="lg" disabled={save.isPending || !agree || !f.kinds.length}>
-        {save.isPending && <Loader2 className="animate-spin" />} {store ? "Save store" : "Submit application"}
+        {save.isPending && <Loader2 className="animate-spin" />} {store ? "Save store" : admin ? "Open store" : "Submit application"}
       </Button>
     </form>
   );

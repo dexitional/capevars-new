@@ -88,18 +88,22 @@ function Composer() {
 
   const audience = useMemo(() => ({ accessIds, vouchers, contacts: uploaded?.contacts ?? [] }), [accessIds, vouchers, uploaded]);
   const hasAudience = accessIds.length + vouchers.length + (uploaded?.contacts.length ?? 0) > 0;
-  const [debouncedBody, setDebouncedBody] = useState(body);
-  useEffect(() => {
-    const t = setTimeout(() => setDebouncedBody(body), 400);
-    return () => clearTimeout(t);
-  }, [body]);
+  // Working out the audience is the costly part (every contact, deduplicated and
+  // checked against opt-outs), so it only happens when the audience changes. The
+  // message's cost is worked out right here as they type; sending re-checks it all.
   const est = useQuery({
-    queryKey: ["leadgen", "estimate", channel, debouncedBody, audience],
-    queryFn: () => api.post<{ recipients: number; invalid: number; optedOut: number; segments: number; perRecipient: number; cost: number; balance: number }>("/leadgen/portal/broadcasts/estimate", { channel, body: debouncedBody, audience }),
+    queryKey: ["leadgen", "estimate", channel, audience],
+    queryFn: () => api.post<{ recipients: number; invalid: number; optedOut: number; segments: number; perRecipient: number; cost: number; balance: number }>("/leadgen/portal/broadcasts/estimate", { channel, body: "", audience }),
     enabled: hasAudience,
     retry: false,
   });
   const seg = segments(body);
+  const quote = est.data && {
+    ...est.data,
+    segments: seg.parts,
+    perRecipient: channel === "sms" ? Math.round(seg.parts * est.data.perRecipient * 100) / 100 : est.data.perRecipient,
+    cost: Math.round((channel === "sms" ? seg.parts * est.data.perRecipient : est.data.perRecipient) * est.data.recipients * 100) / 100,
+  };
   const send = useMutation({
     mutationFn: () =>
       api.post<{ id: number }>("/leadgen/portal/broadcasts", {
@@ -135,7 +139,7 @@ function Composer() {
     );
   }
   if (!access || !senders) return <Loading />;
-  const short = est.data ? est.data.cost > est.data.balance : false;
+  const short = quote ? quote.cost > quote.balance : false;
   return (
     <div className="grid grid-cols-1 gap-6 xl:grid-cols-[minmax(0,1fr)_320px]">
       <div className="min-w-0 space-y-5">
@@ -334,7 +338,7 @@ function Composer() {
             <p className="mt-3 text-sm text-muted-foreground">Choose who to send to.</p>
           ) : est.isError ? (
             <p className="mt-3 text-sm text-destructive">{est.error.message}</p>
-          ) : !est.data ? (
+          ) : !quote ? (
             <p className="mt-3 flex items-center gap-2 text-sm text-muted-foreground">
               <Loader2 className="size-4 animate-spin" /> Counting recipients…
             </p>
@@ -342,37 +346,37 @@ function Composer() {
             <dl className="mt-3 space-y-2 text-sm">
               <div className="flex justify-between">
                 <dt>Recipients</dt>
-                <dd className="font-bold">{est.data.recipients.toLocaleString()}</dd>
+                <dd className="font-bold">{quote.recipients.toLocaleString()}</dd>
               </div>
-              {(est.data.invalid > 0 || est.data.optedOut > 0) && (
+              {(quote.invalid > 0 || quote.optedOut > 0) && (
                 <p className="text-xs text-muted-foreground">
-                  {est.data.invalid > 0 && `${est.data.invalid} invalid skipped. `}
-                  {est.data.optedOut > 0 && `${est.data.optedOut} opted out.`}
+                  {quote.invalid > 0 && `${quote.invalid} invalid skipped. `}
+                  {quote.optedOut > 0 && `${quote.optedOut} opted out.`}
                 </p>
               )}
               {channel === "sms" && (
                 <div className="flex justify-between">
                   <dt>SMS per recipient</dt>
-                  <dd>{est.data.segments}</dd>
+                  <dd>{quote.segments}</dd>
                 </div>
               )}
               <div className="flex justify-between">
                 <dt>Credits per recipient</dt>
-                <dd>{est.data.perRecipient}</dd>
+                <dd>{quote.perRecipient}</dd>
               </div>
               <div className="flex justify-between border-t pt-2 text-base font-black text-primary">
                 <dt>{repeating ? "Cost per send" : "Total cost"}</dt>
-                <dd>{est.data.cost.toLocaleString()} credits</dd>
+                <dd>{quote.cost.toLocaleString()} credits</dd>
               </div>
               {repeating && sends >= 2 && (
                 <div className="flex justify-between text-muted-foreground">
                   <dt>All {sends} sends</dt>
-                  <dd>≈ {(est.data.cost * sends).toLocaleString()} credits</dd>
+                  <dd>≈ {(quote.cost * sends).toLocaleString()} credits</dd>
                 </div>
               )}
               <div className={cn("flex justify-between", short ? "text-destructive" : "text-muted-foreground")}>
                 <dt>Your balance</dt>
-                <dd>{Number(est.data.balance).toLocaleString()}</dd>
+                <dd>{Number(quote.balance).toLocaleString()}</dd>
               </div>
             </dl>
           )}
@@ -383,12 +387,12 @@ function Composer() {
           )}
           <Button
             className="mt-4 h-11 w-full rounded-xl bg-sys-leadgen hover:bg-sys-leadgen/90"
-            disabled={!est.data?.recipients || !body.trim() || short || send.isPending || (channel === "email" && !subject.trim()) || (schedule && !scheduledAt) || !repeatReady}
+            disabled={!quote?.recipients || !body.trim() || short || send.isPending || (channel === "email" && !subject.trim()) || (schedule && !scheduledAt) || !repeatReady}
             onClick={() =>
               confirm(
                 repeating
-                  ? `Send to ${est.data?.recipients.toLocaleString()} recipients ${sends} times, ${repeatLabel(Number(every), unit)}, for ${est.data?.cost} credits per send?`
-                  : `Send to ${est.data?.recipients.toLocaleString()} recipients for ${est.data?.cost} credits?`,
+                  ? `Send to ${quote?.recipients.toLocaleString()} recipients ${sends} times, ${repeatLabel(Number(every), unit)}, for ${quote?.cost} credits per send?`
+                  : `Send to ${quote?.recipients.toLocaleString()} recipients for ${quote?.cost} credits?`,
               ) && send.mutate()
             }
           >

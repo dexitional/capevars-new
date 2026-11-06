@@ -7,7 +7,7 @@ import { Container, EmptyState, Loading } from "#/components/site/kit";
 import { Studier } from "#/components/quizbank/studier";
 import { useStartExam } from "#/components/quizbank/exam-settings";
 
-type Study = { variation: { id: number; name: string }; topics: Array<string>; position: number; questions: Array<QbPublicQuestion> };
+type Study = { variation: { id: number; name: string }; lockedCourses: number; topics: Array<string>; position: number; questions: Array<QbPublicQuestion> };
 
 // Study mode for one of the member's study sets (a mix of courses and topics).
 export const Route = createFileRoute("/_site/learn/quizbank/s/$id")({
@@ -24,7 +24,7 @@ function StudySetPage() {
   if (!data.questions.length)
     return (
       <Container className="py-8">
-        <EmptyState icon={Layers} title="No questions in this set right now" text="Its courses or topics may have changed. Edit the set on your Study Board." />
+        <EmptyState icon={Layers} title="No questions in this set right now" text={data.lockedCourses ? "Its courses need a subscription. Subscribe on their course pages to study them here." : "Its courses or topics may have changed. Edit the set on your Study Board."} />
       </Container>
     );
   return (
@@ -34,6 +34,7 @@ function StudySetPage() {
           <ArrowLeft className="size-4 shrink-0" />
           <Layers className="size-4 shrink-0 text-indigo-600" />
           <span className="truncate">{data.variation.name}</span>
+          {data.lockedCourses > 0 && <span className="shrink-0 text-xs font-normal text-muted-foreground">{data.lockedCourses} course{data.lockedCourses === 1 ? "" : "s"} need a subscription</span>}
         </Link>
       }
       topics={data.topics}

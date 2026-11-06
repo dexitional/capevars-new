@@ -16,7 +16,7 @@ function BookmarksPage() {
   // Loaded once per visit, so removing a bookmark doesn't pull the question off the screen or shift the ones after it.
   const { data, error } = useQuery({
     queryKey: ["qb-bookmarks-study"],
-    queryFn: () => api.get<{ questions: Array<QbPublicQuestion> }>("/learn/quizbank/bookmarks/study"),
+    queryFn: () => api.get<{ questions: Array<QbPublicQuestion>; locked: number }>("/learn/quizbank/bookmarks/study"),
     gcTime: 0,
     refetchOnWindowFocus: false,
     refetchOnReconnect: false,
@@ -26,7 +26,11 @@ function BookmarksPage() {
   if (!data.questions.length)
     return (
       <Container className="py-8">
-        <EmptyState icon={Bookmark} title="No bookmarks yet" text="Bookmark a question in study mode to save it here, mixed with questions from any other course." />
+        <EmptyState
+          icon={Bookmark}
+          title={data.locked ? "Your bookmarks are in courses you're not subscribed to" : "No bookmarks yet"}
+          text={data.locked ? "Subscribe again to see them. They're still saved." : "Bookmark a question in study mode to save it here, mixed with questions from any other course."}
+        />
       </Container>
     );
   return (
@@ -36,6 +40,7 @@ function BookmarksPage() {
           <ArrowLeft className="size-4 shrink-0" />
           <Bookmark className="size-4 shrink-0 text-amber-600" />
           <span className="truncate">My bookmarks</span>
+          {data.locked > 0 && <span className="shrink-0 text-xs font-normal text-muted-foreground">{data.locked} hidden until you subscribe</span>}
         </Link>
       }
       topics={[]}

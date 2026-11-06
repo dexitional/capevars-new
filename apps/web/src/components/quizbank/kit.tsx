@@ -1,17 +1,16 @@
-// Shared Quizbank UI: course cards, the question stem with its diagrams, the
-// slide-down panel used for hints and lessons, and the written-answer box.
-import { useEffect, useRef, useState } from "react";
+// Shared Quizbank UI that stays light: course cards, badges and the slide-down
+// panel. Anything showing a question lives in question-kit.tsx, because it pulls
+// in the maths renderer, which pages that only list courses shouldn't download.
+import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { BookOpenCheck, Expand, Layers, Minimize2, Omega, Users } from "lucide-react";
+import { BookOpenCheck, Crown, Layers, Users } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { asset } from "#/lib/asset";
-import { QB_DIFFICULTY, QB_LEVELS, QB_MAX_TEXT_ANSWER, mediaSrc } from "#/lib/quizbank";
-import type { QbDifficulty, QbMark, QbMedia, QbPublicQuestion } from "#/lib/quizbank";
+import { formatMoney } from "#/lib/money";
+import { QB_DIFFICULTY, QB_LEVELS } from "#/lib/quizbank";
+import type { QbDifficulty, QbMark, QbPublicQuestion } from "#/lib/quizbank";
 import { Img } from "#/components/site/kit";
-import { RichText } from "./rich-text";
-import { SymbolPad } from "./symbol-pad";
-import type { SymbolInsert } from "./symbol-pad";
 
 export interface QbCourseCard {
   id: number;
@@ -27,6 +26,8 @@ export interface QbCourseCard {
   examMinutes: number;
   tags: Array<{ name: string; slug: string }>;
   onBoard: boolean;
+  fee: number | null; // null when free
+  subscribed: boolean;
 }
 
 export interface QbKey {
@@ -83,17 +84,26 @@ export function QbCourseTile({ c, footer }: { c: QbCourseCard; footer?: React.Re
       <div className="relative h-24 overflow-hidden bg-linear-to-br from-[#041d40] via-[#1e2a78] to-[#4c1d95]">
         {c.coverUrl && <Img src={c.coverUrl} className="absolute inset-0 size-full opacity-40" />}
         <div className="dot-grid absolute inset-0 opacity-30" aria-hidden="true" />
-        {/* The Capevars mark as a watermark glowing through the gradient. */}
-        <div className="absolute -right-2 -bottom-10 size-32 rounded-full bg-amber-300/25 blur-2xl" aria-hidden="true" />
-        <img
-          src={asset("logo-mark-light.png")}
-          alt=""
-          aria-hidden="true"
-          className="pointer-events-none absolute -top-3 -right-8 h-32 w-auto -rotate-12 opacity-20 mix-blend-screen transition duration-500 ease-out group-hover:-rotate-6 group-hover:scale-110 group-hover:opacity-30"
-        />
+        {/* Without a cover, the Capevars mark as a watermark glowing through the gradient. */}
+        {!c.coverUrl && (
+          <>
+            <div className="absolute -right-2 -bottom-10 size-32 rounded-full bg-amber-300/25 blur-2xl" aria-hidden="true" />
+            <img
+              src={asset("logo-mark-light.png")}
+              alt=""
+              aria-hidden="true"
+              className="pointer-events-none absolute -top-3 -right-8 h-32 w-auto -rotate-12 opacity-20 mix-blend-screen transition duration-500 ease-out group-hover:-rotate-6 group-hover:scale-110 group-hover:opacity-30"
+            />
+          </>
+        )}
+        {c.fee !== null && (
+          <span className={cn("absolute top-2.5 left-4 flex items-center gap-1 rounded-full px-2 py-0.5 text-[11px] font-bold", c.subscribed ? "bg-emerald-100 text-emerald-800" : "bg-amber-300 text-[#041d40]")}>
+            <Crown className="size-3" /> {c.subscribed ? "Subscribed" : formatMoney(c.fee)}
+          </span>
+        )}
         <div className="absolute inset-x-4 bottom-3 flex items-end justify-between gap-2">
           <LevelBadge level={c.level} />
-          {c.code && <span className="rounded-md bg-white/15 px-2 py-0.5 font-mono text-xs font-bold text-white ring-1 ring-white/25">{c.code}</span>}
+          {c.code && <span className={cn("rounded-md px-2 py-0.5 font-mono text-xs font-bold text-white", c.coverUrl ? "bg-[#041d40]/80 ring-2 ring-white/25" : "bg-white/15 ring-1 ring-white/25")}>{c.code}</span>}
         </div>
       </div>
       <div className="flex flex-1 flex-col p-4">
@@ -128,51 +138,6 @@ export function QbCourseTile({ c, footer }: { c: QbCourseCard; footer?: React.Re
   );
 }
 
-function MediaFigure({ m }: { m: QbMedia }) {
-  const [zoom, setZoom] = useState(false);
-  return (
-    <figure className="overflow-hidden rounded-xl border bg-white">
-      <button type="button" onClick={() => setZoom(true)} className="block w-full cursor-zoom-in bg-slate-50 p-2" aria-label={`Enlarge ${m.caption ?? "diagram"}`}>
-        <img src={mediaSrc(m)} alt={m.caption ?? "Question diagram"} className="mx-auto max-h-80 w-auto object-contain" />
-      </button>
-      {m.caption && <figcaption className="border-t px-3 py-1.5 text-xs text-muted-foreground">{m.caption}</figcaption>}
-      {zoom && (
-        <button type="button" onClick={() => setZoom(false)} className="fixed inset-0 z-50 grid cursor-zoom-out place-items-center bg-black/80 p-6" aria-label="Close enlarged diagram">
-          <img src={mediaSrc(m)} alt={m.caption ?? "Question diagram"} className="max-h-full max-w-full rounded-lg bg-white object-contain p-3" />
-        </button>
-      )}
-    </figure>
-  );
-}
-
-export function QuestionStem({ q, number, total }: { q: QbPublicQuestion; number?: number; total?: number }) {
-  return (
-    <div>
-      <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-muted-foreground">
-        {number !== undefined && (
-          <span className="rounded-full bg-primary px-2.5 py-0.5 text-white">
-            Question {number}
-            {total ? ` of ${total}` : ""}
-          </span>
-        )}
-        <span className="rounded-full bg-secondary px-2.5 py-0.5 text-primary">{q.type === "text" ? "Written answer" : "Multiple choice"}</span>
-        <DifficultyDots value={q.difficulty} />
-        <span>
-          {q.marks} mark{q.marks === 1 ? "" : "s"}
-        </span>
-      </div>
-      <RichText text={q.body} className="mt-3 text-lg leading-relaxed font-medium text-primary" />
-      {q.media.length > 0 && (
-        <div className={cn("mt-4 grid gap-3", q.media.length > 1 && "sm:grid-cols-2")}>
-          {q.media.map((m, i) => (
-            <MediaFigure key={i} m={m} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
 // Animates open by growing its grid row from 0fr to 1fr.
 export function SlideDown({ open, children, className }: { open: boolean; children: React.ReactNode; className?: string }) {
   const [shown, setShown] = useState(false);
@@ -185,127 +150,6 @@ export function SlideDown({ open, children, className }: { open: boolean; childr
       <div className="overflow-hidden">
         <div className={className}>{children}</div>
       </div>
-    </div>
-  );
-}
-
-const wordCount = (s: string) => (s.trim() ? s.trim().split(/\s+/).length : 0);
-
-// A roomy answer box that grows with the text and can expand to full screen, with a
-// pad of maths and subject symbols (chosen from `subjects`) that type at the caret.
-export function TextAnswer({
-  value,
-  onChange,
-  disabled,
-  placeholder,
-  subjects,
-}: {
-  value: string;
-  onChange: (v: string) => void;
-  disabled?: boolean;
-  placeholder?: string;
-  subjects?: Array<string>;
-}) {
-  const [full, setFull] = useState(false);
-  const [symbols, setSymbols] = useState(true);
-  const ref = useRef<HTMLTextAreaElement>(null);
-  // Replaces the selection; a template like "√()" wraps it and leaves the caret inside.
-  const insert = ({ text, back }: SymbolInsert) => {
-    const el = ref.current;
-    const start = el?.selectionStart ?? value.length;
-    const end = el?.selectionEnd ?? start;
-    const selected = value.slice(start, end);
-    const piece = back ? text.slice(0, text.length - back) + selected + text.slice(text.length - back) : text;
-    const next = (value.slice(0, start) + piece + value.slice(end)).slice(0, QB_MAX_TEXT_ANSWER);
-    onChange(next);
-    const caret = Math.min(start + piece.length - back, next.length);
-    requestAnimationFrame(() => {
-      el?.focus();
-      el?.setSelectionRange(caret, caret);
-    });
-  };
-  useEffect(() => {
-    const el = ref.current;
-    if (!el || full) return;
-    el.style.height = "auto";
-    el.style.height = `${Math.min(Math.max(el.scrollHeight, 160), 520)}px`;
-  }, [value, full]);
-  useEffect(() => {
-    if (!full) return;
-    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setFull(false);
-    window.addEventListener("keydown", onKey);
-    return () => window.removeEventListener("keydown", onKey);
-  }, [full]);
-  const box = (
-    <div className={cn("flex flex-col overflow-hidden rounded-2xl border-2 bg-white transition-colors focus-within:border-primary", full ? "h-full" : "border-border", disabled && "opacity-70")}>
-      <div className="flex items-center gap-1 border-b bg-secondary/50 px-4 py-2">
-        <span className="text-xs font-bold tracking-wide text-primary uppercase">Your answer</span>
-        <span className="ml-auto" />
-        <button
-          type="button"
-          onClick={() => setSymbols(!symbols)}
-          className={cn("flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-white", symbols && "bg-white shadow-xs")}
-          aria-pressed={symbols}
-          title={symbols ? "Hide the symbol pad" : "Show maths and subject symbols"}
-        >
-          <Omega className="size-3.5" /> Symbols
-        </button>
-        <button type="button" onClick={() => setFull(!full)} className="flex items-center gap-1 rounded-lg px-2 py-1 text-xs font-semibold text-primary hover:bg-white" aria-label={full ? "Exit full screen" : "Expand to full screen"}>
-          {full ? <Minimize2 className="size-3.5" /> : <Expand className="size-3.5" />} {full ? "Done" : "Expand"}
-        </button>
-      </div>
-      {symbols && <SymbolPad key={subjects?.join("|")} subjects={subjects} onInsert={insert} disabled={disabled} />}
-      <textarea
-        ref={ref}
-        value={value}
-        onChange={(e) => onChange(e.target.value.slice(0, QB_MAX_TEXT_ANSWER))}
-        disabled={disabled}
-        placeholder={placeholder ?? "Explain your answer in your own words. Use short paragraphs or points; show working where it helps."}
-        className={cn("w-full resize-none px-4 py-3 text-base leading-relaxed outline-none placeholder:text-muted-foreground/70", full && "flex-1")}
-        autoFocus={full}
-      />
-      <div className="flex items-center justify-between border-t px-4 py-1.5 text-[11px] text-muted-foreground">
-        <span>Marked on meaning, not exact wording</span>
-        <span>
-          {wordCount(value)} words · {value.length.toLocaleString()}/{QB_MAX_TEXT_ANSWER.toLocaleString()}
-        </span>
-      </div>
-    </div>
-  );
-  if (!full) return box;
-  return (
-    <>
-      <div className="h-40 rounded-2xl border-2 border-dashed bg-secondary/40" aria-hidden="true" />
-      <div className="fixed inset-0 z-50 bg-black/60 p-3 sm:p-8" role="dialog" aria-modal="true" aria-label="Your answer">
-        <div className="mx-auto h-full max-w-4xl">{box}</div>
-      </div>
-    </>
-  );
-}
-
-export function MarkBadge({ mark }: { mark: QbMark }) {
-  const tone = mark.correct ? "bg-emerald-100 text-emerald-800" : mark.score > 0 ? "bg-amber-100 text-amber-900" : "bg-red-100 text-red-800";
-  const label = mark.correct ? "Correct" : mark.score > 0 ? `Partly right · ${Math.round(mark.score * 100)}%` : "Not correct";
-  return <span className={cn("inline-flex rounded-full px-2.5 py-0.5 text-xs font-bold", tone)}>{label}</span>;
-}
-
-export function Lesson({ answer, explanation, title = "The lesson" }: { answer?: string | null; explanation?: string | null; title?: string }) {
-  if (!answer && !explanation) return null;
-  return (
-    <div className="rounded-2xl border border-indigo-200 bg-linear-to-br from-indigo-50 to-white p-4">
-      <p className="border-b border-indigo-100 pb-3 text-xs font-black tracking-[0.15em] text-indigo-700 uppercase">{title}</p>
-      {answer && (
-        <div className="mt-4">
-          <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Answer</p>
-          <RichText text={answer} className="rounded-xl border border-emerald-200 bg-white p-3.5 text-sm leading-relaxed text-primary" />
-        </div>
-      )}
-      {explanation && (
-        <div className={answer ? "mt-5 border-t border-indigo-100 pt-4" : "mt-4"}>
-          <p className="mb-1.5 text-[11px] font-bold text-muted-foreground uppercase">Why</p>
-          <RichText text={explanation} className="text-sm leading-relaxed text-primary/90" />
-        </div>
-      )}
     </div>
   );
 }

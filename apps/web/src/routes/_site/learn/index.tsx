@@ -1,3 +1,4 @@
+import { pageSeo } from "#/lib/seo";
 import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useState } from "react";
@@ -13,7 +14,12 @@ const learnHome = { queryKey: ["learn-home"], queryFn: () => api.get<Record<stri
 
 export const Route = createFileRoute("/_site/learn/")({
   loader: ({ context }) => context.queryClient.ensureQueryData(learnHome),
-  head: () => ({ meta: [{ title: "OpenLearn — courses by experts | Capevars" }] }),
+  head: () =>
+    pageSeo({
+      title: "OpenLearn: Online Courses, Quizbank and kidiLearn | Capevars",
+      description: "Learn online with courses by experts, practise past questions on Quizbank, and give children a learning journey from KG to Basic 9 with kidiLearn.",
+      path: "/learn",
+    }),
   component: LearnHome,
 });
 

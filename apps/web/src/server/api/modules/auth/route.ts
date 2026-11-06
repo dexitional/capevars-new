@@ -1,6 +1,7 @@
-// Member accounts: email/password and "Continue with Google".
+// Member accounts: email or phone with a password, and "Continue with Google".
 //
 //   POST /api/auth/register | /login | /logout
+//   POST /api/auth/password/forgot | /password/reset
 //   GET  /api/auth/me
 //   GET  /api/auth/google?next=/path   → Google consent screen
 //   GET  /api/auth/google/callback     → exchange the code, start a session
@@ -28,14 +29,21 @@ const secure = () => process.env.NODE_ENV === "production";
 export const registerSchema = z.object({
   fullName: z.string().trim().min(2, "Enter your full name").max(150),
   email: z.string().trim().toLowerCase().email("Enter a valid email").max(150),
+  // Optional: lets them sign in and reset their password by phone as well.
+  phone: z.string().trim().max(30).optional(),
   password: z.string().min(8, "Use at least 8 characters").max(200),
-  memberType: z.enum(["public", "student", "staff", "alumni"]).default("public"),
+  memberType: z.enum(["public", "student", "business"]).default("public"),
 });
 
-export const loginSchema = z.object({
-  email: z.string().trim().toLowerCase().email(),
-  password: z.string().min(1, "Password is required"),
-});
+// An email address or phone number; `email` is the older name for the same field.
+export const loginSchema = z
+  .object({
+    identifier: z.string().trim().max(150).optional(),
+    email: z.string().trim().max(150).optional(),
+    password: z.string().min(1, "Password is required"),
+  })
+  .transform((v) => ({ identifier: v.identifier || v.email || "", password: v.password }))
+  .refine((v) => v.identifier, { path: ["identifier"], message: "Enter your email or phone number" });
 
 function googleConfig() {
   const clientId = process.env.GOOGLE_CLIENT_ID;
@@ -46,6 +54,14 @@ function googleConfig() {
 function redirectUri(c: Context) {
   const base = (process.env.APP_URL || new URL(c.req.url).origin).replace(/\/$/, "");
   return `${base}/api/auth/google/callback`;
+}
+
+// Where reset links point. In production only the configured address will do:
+// the request's own Host header could be forged to send victims a poisoned link.
+function appUrl(c: Context) {
+  const configured = process.env.APP_URL?.replace(/\/$/, "");
+  if (configured) return configured;
+  return process.env.NODE_ENV === "production" ? null : new URL(c.req.url).origin;
 }
 
 // Only same-site paths, so ?next= can't be used as an open redirect.
@@ -79,6 +95,19 @@ export const authRoute = new Hono()
   })
   .post("/logout", (c) => {
     endMemberSession(c);
+    return c.json({ ok: true });
+  })
+  // Always the same answer, sent before any lookup or message, so this can't be
+  // used to find out whether someone has an account.
+  .post("/password/forgot", validate("json", z.object({ identifier: z.string().trim().min(3).max(150) })), (c) => {
+    const base = appUrl(c);
+    if (base) void service.requestPasswordReset(c.req.valid("json").identifier, base).catch((err) => console.error("Password reset failed:", err));
+    else console.error("Password reset skipped: APP_URL isn't set.");
+    return c.json({ ok: true });
+  })
+  .post("/password/reset", validate("json", z.object({ token: z.string().min(20).max(100), newPassword: z.string().min(8, "Use at least 8 characters").max(200) })), async (c) => {
+    const { token, newPassword } = c.req.valid("json");
+    await service.resetPassword(token, newPassword);
     return c.json({ ok: true });
   })
   .get("/google", (c) => {

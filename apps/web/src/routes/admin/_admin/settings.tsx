@@ -27,6 +27,7 @@ const GROUPS: Array<[SettingsKey, string]> = [
   ["marketplace", "Marketplace"],
   ["finder", "The Finder"],
   ["learn", "OpenLearn"],
+  ["quizbank", "Quizbank"],
   ["leadgen", "LeadGen"],
 ];
 
@@ -280,6 +281,31 @@ function SettingsPage() {
                   </div>
                 </Panel>
               </>
+            )}
+            {group === "quizbank" && (
+              <Panel title="Subscription payments" description="The mobile money wallet members pay into for Quizbank courses, and which gets an SMS for each payment. A change applies to new payments; ones already started still show the wallet they were given.">
+                <div className="grid gap-4 sm:grid-cols-3">
+                  <Field label="Network">
+                    <select
+                      value={d.quizbank.momoAccount.network}
+                      onChange={(e) => set("quizbank", { momoAccount: { ...d.quizbank.momoAccount, network: e.target.value as MomoNetwork } })}
+                      className="h-9 rounded-md border bg-white px-3 text-sm"
+                    >
+                      {Object.entries(MOMO_NETWORKS).map(([k, v]) => (
+                        <option key={k} value={k}>
+                          {v}
+                        </option>
+                      ))}
+                    </select>
+                  </Field>
+                  <Field label="Account name">
+                    <Input value={d.quizbank.momoAccount.name} onChange={(e) => set("quizbank", { momoAccount: { ...d.quizbank.momoAccount, name: e.target.value } })} />
+                  </Field>
+                  <Field label="Number">
+                    <Input value={d.quizbank.momoAccount.number} onChange={(e) => set("quizbank", { momoAccount: { ...d.quizbank.momoAccount, number: e.target.value.replace(/\D/g, "").slice(0, 10) } })} />
+                  </Field>
+                </div>
+              </Panel>
             )}
             {editable && (
               <Button type="submit" disabled={save.isPending}>

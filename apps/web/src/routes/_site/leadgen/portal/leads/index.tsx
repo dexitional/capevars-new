@@ -11,7 +11,14 @@ import { Button } from "#/components/ui/button";
 
 type Row = Record<string, any>;
 
-export const Route = createFileRoute("/_site/leadgen/portal/leads/")({ component: MyLeads });
+const ownedQuery = { queryKey: ["leadgen", "my-lists"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/lists"), staleTime: 15_000 };
+const accessQuery = { queryKey: ["leadgen", "access"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/access"), staleTime: 15_000 };
+
+export const Route = createFileRoute("/_site/leadgen/portal/leads/")({
+  loader: async ({ context }) => {
+    await Promise.all([context.queryClient.prefetchQuery(ownedQuery), context.queryClient.prefetchQuery(accessQuery)]);
+  },
+  component: MyLeads });
 
 const copy = (t: string) => {
   void navigator.clipboard?.writeText(t);
@@ -19,8 +26,8 @@ const copy = (t: string) => {
 };
 
 function MyLeads() {
-  const { data: owned } = useQuery({ queryKey: ["leadgen", "my-lists"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/lists") });
-  const { data: access } = useQuery({ queryKey: ["leadgen", "access"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/access") });
+  const { data: owned } = useQuery(ownedQuery);
+  const { data: access } = useQuery(accessQuery);
   if (!owned || !access) return <Loading />;
   const acquired = access.items.filter((a) => !a.is_owner);
   return (

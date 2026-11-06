@@ -42,7 +42,7 @@ export function BookmarkToggle({ questionId }: { questionId: number }) {
       onClick={() => data && !toggle.isPending && toggle.mutate(!saved)}
       aria-pressed={saved}
       className={cn(
-        "flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-bold transition-colors",
+        "flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-2 text-xs font-bold transition-colors sm:py-1",
         saved ? "border-amber-300 bg-amber-100 text-amber-900" : "bg-white text-muted-foreground hover:border-primary/40 hover:text-primary",
       )}
     >
@@ -57,18 +57,20 @@ export function BookmarksBar() {
   if (!data) return null;
   const n = data.questionIds.length;
   return (
-    <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-brand-gold/60 bg-white p-4">
-      <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-amber-100 text-amber-900">
-        <Bookmark className="size-5" />
-      </span>
-      <div className="min-w-0 flex-1">
-        <h2 className="font-black text-primary">My bookmarks</h2>
-        <p className="text-sm text-muted-foreground">
-          {n ? `${n.toLocaleString()} saved question${n === 1 ? "" : "s"} from across your courses.` : "Bookmark a question in study mode to save it here, mixed with questions from any other course."}
-        </p>
+    <div className="flex flex-col gap-3 rounded-2xl border border-brand-gold/60 bg-white p-4 sm:flex-row sm:items-center">
+      <div className="flex min-w-0 flex-1 items-center gap-3">
+        <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-amber-100 text-amber-900">
+          <Bookmark className="size-5" />
+        </span>
+        <div className="min-w-0 flex-1">
+          <h2 className="font-black text-primary">My bookmarks</h2>
+          <p className="text-sm text-muted-foreground">
+            {n ? `${n.toLocaleString()} saved question${n === 1 ? "" : "s"} from across your courses.` : "Bookmark a question in study mode to save it here, mixed with questions from any other course."}
+          </p>
+        </div>
       </div>
       {n > 0 && (
-        <Button asChild>
+        <Button asChild className="h-11 w-full rounded-xl sm:h-9 sm:w-auto sm:rounded-md">
           <Link to="/learn/quizbank/bookmarks">
             <Brain /> Study bookmarks
           </Link>

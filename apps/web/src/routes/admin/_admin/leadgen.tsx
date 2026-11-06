@@ -2,14 +2,15 @@ import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { AlertTriangle, CheckCircle2, Copy, Mail, MessageSquareText, XCircle } from "lucide-react";
+import { AlertTriangle, CheckCircle2, Copy, Mail, MessageSquareText, Pencil, Trash2, XCircle } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDateTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
-import { AdminPageHeader, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
+import { canManage } from "#/lib/permissions";
+import { AdminPageHeader, ConfirmDialog, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
-import { CreateSender, CreditPayments, PrivateLists } from "#/components/admin/leadgen-tools";
+import { CreateSender, CreditPayments, EditSender, PrivateLists } from "#/components/admin/leadgen-tools";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
@@ -22,7 +23,21 @@ export const Route = createFileRoute("/admin/_admin/leadgen")({
 
 function LeadGenAdmin() {
   const queryClient = useQueryClient();
+  const { admin } = Route.useRouteContext();
+  const editable = canManage(admin.role, "leadgen");
   const [tab, setTab] = useState<Tab>("lists");
+  const [editingSender, setEditingSender] = useState<Row | null>(null);
+  const [deletingSender, setDeletingSender] = useState<Row | null>(null);
+  const refreshSenders = () => void queryClient.invalidateQueries({ queryKey: ["admin-mod", "sender-ids"] });
+  const removeSender = useMutation({
+    mutationFn: (id: number) => api.delete(`/admin/leadgen/senders/${id}`),
+    onSuccess: () => {
+      toast.success("Sender ID deleted.");
+      setDeletingSender(null);
+      refreshSenders();
+    },
+    onError: errorToast("Couldn't delete the sender ID."),
+  });
   return (
     <div className="space-y-6">
       <AdminPageHeader title="LeadGen" description="Lead lists, sender IDs, broadcasts, credit payments and payouts." />
@@ -59,7 +74,7 @@ function LeadGenAdmin() {
       {tab === "private" && <PrivateLists />}
       {tab === "senders" && (
         <>
-          <CreateSender onCreated={() => void queryClient.invalidateQueries({ queryKey: ["admin-mod", "sender-ids"] })} />
+          <CreateSender onCreated={refreshSenders} />
           <p className="flex items-start gap-2 rounded-xl bg-amber-50 p-3 text-sm text-amber-900">
             <AlertTriangle className="mt-0.5 size-4 shrink-0" /> Register each SMS sender ID in your SMSOnlineGH account (SMS Messaging → Sender names) before approving it here — unregistered senders are rejected by the gateway.
           </p>
@@ -67,6 +82,16 @@ function LeadGenAdmin() {
             key="senders"
             entity="sender-ids"
             defaultStatus="pending"
+            extra={
+              editable
+                ? (row) => (
+                    <Button size="icon-xs" variant="ghost" onClick={() => setEditingSender(row)} aria-label="Edit" title="Edit">
+                      <Pencil />
+                    </Button>
+                  )
+                : undefined
+            }
+            onDelete={editable ? setDeletingSender : undefined}
             columns={[
               { label: "Sender", render: (r) => <TitleCell title={<span className="font-mono">{r.title}</span>} sub={`${r.channel.toUpperCase()}${r.reply_to ? ` · replies to ${r.reply_to}` : ""}`} /> },
               { label: "Requested by", render: (r) => <span className="text-xs">{r.owner_name}<br />{r.owner_email}</span> },
@@ -74,6 +99,16 @@ function LeadGenAdmin() {
               { label: "Requested", render: (r) => <DateCell value={r.created_at} /> },
               { label: "Status", render: (r) => <StatusCell row={r} /> },
             ]}
+          />
+          {editingSender && <EditSender key={editingSender.id as number} sender={editingSender} onClose={() => setEditingSender(null)} onSaved={refreshSenders} />}
+          <ConfirmDialog
+            open={Boolean(deletingSender)}
+            onOpenChange={(o) => !o && setDeletingSender(null)}
+            title={`Delete sender ID "${String(deletingSender?.title ?? "")}"?`}
+            description={`${String(deletingSender?.owner_name ?? "The member")} can no longer send under it, and they're notified. Broadcasts waiting to go out switch to the default sender; past ones keep this name.`}
+            confirmLabel="Delete sender ID"
+            pending={removeSender.isPending}
+            onConfirm={() => deletingSender && removeSender.mutate(deletingSender.id as number)}
           />
         </>
       )}
@@ -172,6 +207,17 @@ function Vouchers() {
   const toggle = useMutation({
     mutationFn: (v: Row) => api.patch(`/admin/leadgen/vouchers/${v.id}`, { isActive: !v.is_active }),
     onSuccess: () => void queryClient.invalidateQueries({ queryKey: ["admin-vouchers"] }),
+    onError: errorToast("Couldn't update the voucher."),
+  });
+  const [deleting, setDeleting] = useState<Row | null>(null);
+  const remove = useMutation({
+    mutationFn: (id: number) => api.delete(`/admin/leadgen/vouchers/${id}`),
+    onSuccess: () => {
+      toast.success("Voucher deleted.");
+      setDeleting(null);
+      void queryClient.invalidateQueries({ queryKey: ["admin-vouchers"] });
+    },
+    onError: errorToast("Couldn't delete the voucher."),
   });
   return (
     <div className="grid gap-6 xl:grid-cols-[360px_1fr]">
@@ -249,12 +295,24 @@ function Vouchers() {
                   <Button size="xs" variant="ghost" onClick={() => toggle.mutate(v)}>
                     {v.is_active ? "Disable" : "Enable"}
                   </Button>
+                  <Button size="icon-xs" variant="ghost" className="text-destructive" onClick={() => setDeleting(v)} aria-label={`Delete voucher ${String(v.code)}`} title="Delete">
+                    <Trash2 />
+                  </Button>
                 </td>
               </tr>
             ))}
           </tbody>
         </table>
       </div>
+      <ConfirmDialog
+        open={Boolean(deleting)}
+        onOpenChange={(o) => !o && setDeleting(null)}
+        title={`Delete voucher ${String(deleting?.code ?? "")}?`}
+        description={Number(deleting?.redeemed_count) > 0 ? `The code stops working. The ${String(deleting?.redeemed_count)} redemption(s) already made keep their credits, but the record of who redeemed it goes.` : "The code stops working. Nobody has redeemed it yet."}
+        confirmLabel="Delete voucher"
+        pending={remove.isPending}
+        onConfirm={() => deleting && remove.mutate(deleting.id as number)}
+      />
     </div>
   );
 }
@@ -269,6 +327,16 @@ function Wallets() {
       void refetch();
     },
     onError: errorToast("Couldn't adjust the wallet."),
+  });
+  const [deleting, setDeleting] = useState<Row | null>(null);
+  const remove = useMutation({
+    mutationFn: (userId: number) => api.delete(`/admin/leadgen/wallets/${userId}`),
+    onSuccess: () => {
+      toast.success("Wallet deleted.");
+      setDeleting(null);
+      void refetch();
+    },
+    onError: errorToast("Couldn't delete the wallet."),
   });
   return (
     <div className="space-y-4">
@@ -306,6 +374,11 @@ function Wallets() {
                   >
                     Add / remove credits
                   </Button>
+                  {Boolean(w.has_wallet) && (
+                    <Button size="icon-xs" variant="ghost" className="ml-1 text-destructive" onClick={() => setDeleting(w)} aria-label={`Delete wallet of ${String(w.full_name)}`} title="Delete wallet">
+                      <Trash2 />
+                    </Button>
+                  )}
                 </td>
               </tr>
             ))}
@@ -313,6 +386,15 @@ function Wallets() {
         </table>
         {data?.items.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">{q ? "No members match." : "No wallets yet — search for a member to top them up."}</p>}
       </div>
+      <ConfirmDialog
+        open={Boolean(deleting)}
+        onOpenChange={(o) => !o && setDeleting(null)}
+        title={`Delete ${String(deleting?.full_name ?? "this member")}'s wallet?`}
+        description={Number(deleting?.balance) > 0 ? `Their ${Number(deleting?.balance).toLocaleString()} credits are lost and nothing is refunded. They're notified, and their credit history stays, showing this removal.` : "It's empty, so no credits are lost. Their credit history stays."}
+        confirmLabel="Delete wallet"
+        pending={remove.isPending}
+        onConfirm={() => deleting && remove.mutate(deleting.id as number)}
+      />
     </div>
   );
 }

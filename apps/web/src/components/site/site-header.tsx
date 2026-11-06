@@ -249,7 +249,7 @@ export const SYSTEMS: Array<NavSystem> = [
         icon: BookOpenCheck,
       },
       {
-        to: "/learn/kidilearn",
+        to: "/kidilearn",
         label: "kidiLearn",
         text: "Your learning journey, KG to Basic 9",
         icon: BookOpen,

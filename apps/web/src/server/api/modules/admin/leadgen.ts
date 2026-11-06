@@ -1,7 +1,8 @@
 // Admin tools for LeadGen beyond the moderation queues: credit vouchers,
-// manual wallet adjustments, confirming mobile money top-ups, gateway status, cancelling broadcasts, sender IDs
-// created for members, and Capevars' own private lead lists shared with
-// chosen members until a per-member expiry date.
+// manual wallet adjustments and deleting wallets, confirming mobile money
+// top-ups, gateway status, cancelling broadcasts, sender IDs created, edited or
+// deleted for members, and Capevars' own private lead lists shared with chosen
+// members until a per-member expiry date.
 import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
@@ -20,7 +21,9 @@ import {
   approveCreditRequest,
   cancelBroadcast,
   contactsSchema,
+  deleteWallet,
   insertContacts,
+  leadgenSettings,
   recountAccess,
   rejectCreditRequest,
   resendCreditAlert,
@@ -38,6 +41,22 @@ const expiresOn = z
   .transform((v) => v || null)
   .refine((v) => !v || v >= new Date().toISOString().slice(0, 10), "Pick an expiry date from today onwards");
 const endOfDay = (date: string | null) => (date ? `${date} 23:59:59` : null);
+
+function assertSender(channel: string, sender: string, replyTo?: string | null) {
+  if (channel === "sms" && !/^[A-Za-z0-9][A-Za-z0-9 ]{1,9}[A-Za-z0-9]$/.test(sender)) {
+    throw new AppError("SMS sender IDs are 3–11 letters or numbers (spaces allowed inside).", 422);
+  }
+  if (channel === "email" && replyTo && !normalizeEmail(replyTo)) throw new AppError("Enter a valid reply-to email.", 422);
+}
+
+async function senderById(id: number) {
+  const [rows] = await getPool().execute<RowDataPacket[]>("SELECT * FROM sender_ids WHERE id = ?", [id]);
+  if (!rows[0]) throw new AppError("Sender ID not found.", 404);
+  return rows[0];
+}
+
+// Broadcasts still waiting to go out, which carry their own copy of the sender's name.
+const WAITING = "sender_id = ? AND status IN ('scheduled', 'queued')";
 
 async function adminList(id: number) {
   const [rows] = await getPool().execute<RowDataPacket[]>("SELECT * FROM lead_lists WHERE id = ? AND user_id IS NULL", [id]);
@@ -104,10 +123,19 @@ export const adminLeadgenRoute = new Hono()
     await getPool().execute("UPDATE credit_vouchers SET is_active = ? WHERE id = ?", [c.req.valid("json").isActive ? 1 : 0, Number(c.req.param("id"))]);
     return c.json({ ok: true });
   })
+  // Credits already redeemed from it stay in members' wallets.
+  .delete("/vouchers/:id", requirePermission("leadgen", "manage"), async (c) => {
+    const id = Number(c.req.param("id"));
+    const [rows] = await getPool().execute<RowDataPacket[]>("SELECT code, redeemed_count FROM credit_vouchers WHERE id = ?", [id]);
+    if (!rows[0]) throw new AppError("Voucher not found.", 404);
+    await getPool().execute("DELETE FROM credit_vouchers WHERE id = ?", [id]);
+    logActivity(c.get("admin").id, "deleted", "credit_voucher", id, `Deleted voucher ${rows[0].code} (redeemed ${rows[0].redeemed_count} times)`);
+    return c.body(null, 204);
+  })
   .get("/wallets", requirePermission("leadgen", "view"), async (c) => {
     const q = (c.req.query("q") ?? "").trim();
     const [items] = await getPool().query<RowDataPacket[]>(
-      `SELECT u.id, u.full_name, u.email, u.username, COALESCE(w.balance, 0) AS balance, w.updated_at
+      `SELECT u.id, u.full_name, u.email, u.username, COALESCE(w.balance, 0) AS balance, w.updated_at, w.user_id IS NOT NULL AS has_wallet
        FROM users u LEFT JOIN broadcast_wallets w ON w.user_id = u.id
        WHERE ${q ? "(u.full_name LIKE ? OR u.email LIKE ? OR u.username LIKE ?)" : "w.user_id IS NOT NULL"}
        ORDER BY balance DESC LIMIT 100`,
@@ -127,6 +155,14 @@ export const adminLeadgenRoute = new Hono()
       return c.json({ balance: await walletBalance(userId) });
     },
   )
+  .delete("/wallets/:userId", requirePermission("leadgen", "manage"), async (c) => {
+    const userId = Number(c.req.param("userId"));
+    const admin = c.get("admin");
+    const removed = await deleteWallet(userId, "Admin: wallet deleted");
+    logActivity(admin.id, "deleted", "wallet", userId, `Deleted the wallet of member #${userId}, removing ${removed} credits`);
+    if (removed > 0) notify(userId, { kind: "leadgen", title: `An admin closed your broadcast wallet, removing ${removed.toLocaleString("en-US")} credits`, link: "/leadgen/portal/wallet" });
+    return c.body(null, 204);
+  })
   // ---- Mobile money top-ups -------------------------------------------------------------------
   .get("/credit-requests", requirePermission("leadgen", "view"), async (c) => {
     const status = c.req.query("status") ?? "submitted";
@@ -213,10 +249,7 @@ export const adminLeadgenRoute = new Hono()
     async (c) => {
       const input = c.req.valid("json");
       const admin = c.get("admin");
-      if (input.channel === "sms" && !/^[A-Za-z0-9][A-Za-z0-9 ]{1,9}[A-Za-z0-9]$/.test(input.sender)) {
-        throw new AppError("SMS sender IDs are 3–11 letters or numbers (spaces allowed inside).", 422);
-      }
-      if (input.channel === "email" && input.replyTo && !normalizeEmail(input.replyTo)) throw new AppError("Enter a valid reply-to email.", 422);
+      assertSender(input.channel, input.sender, input.replyTo);
       const [users] = await getPool().execute<RowDataPacket[]>("SELECT id, email FROM users WHERE id = ?", [input.userId]);
       const user = users[0];
       if (!user) throw new AppError("Member not found.", 404);
@@ -239,6 +272,37 @@ export const adminLeadgenRoute = new Hono()
       return c.json({ ok: true }, 201);
     },
   )
+  .patch(
+    "/senders/:id",
+    requirePermission("leadgen", "manage"),
+    validate("json", z.object({ sender: z.string().trim().min(2).max(60), replyTo: optionalText(150), purpose: z.string().trim().min(3).max(500) })),
+    async (c) => {
+      const row = await senderById(Number(c.req.param("id")));
+      const input = c.req.valid("json");
+      assertSender(row.channel as string, input.sender, input.replyTo);
+      const replyTo = row.channel === "email" ? (input.replyTo ?? row.reply_to) : null;
+      try {
+        await getPool().execute("UPDATE sender_ids SET sender = ?, reply_to = ?, purpose = ? WHERE id = ?", [input.sender, replyTo, input.purpose, row.id]);
+      } catch (err) {
+        if ((err as { code?: string }).code === "ER_DUP_ENTRY") throw new AppError("This member already has a sender ID with that name.", 409);
+        throw err;
+      }
+      await getPool().execute(`UPDATE broadcasts SET sender_label = ?, reply_to = ? WHERE ${WAITING}`, [input.sender, replyTo, row.id]);
+      logActivity(c.get("admin").id, "updated", "sender_ids", row.id, `Edited ${String(row.channel).toUpperCase()} sender ID "${row.sender}"${input.sender === row.sender ? "" : ` to "${input.sender}"`}`);
+      if (input.sender !== row.sender) notify(row.user_id as number, { kind: "leadgen", title: `An admin renamed your sender ID "${row.sender}" to "${input.sender}"`, link: "/leadgen/portal/senders" });
+      return c.json({ ok: true });
+    },
+  )
+  // Past broadcasts keep the name they went out under; waiting ones move to the default sender.
+  .delete("/senders/:id", requirePermission("leadgen", "manage"), async (c) => {
+    const row = await senderById(Number(c.req.param("id")));
+    const settings = await leadgenSettings();
+    await getPool().execute(`UPDATE broadcasts SET sender_label = ? WHERE ${WAITING}`, [row.channel === "sms" ? settings.defaultSmsSender : settings.defaultEmailSender, row.id]);
+    await getPool().execute("DELETE FROM sender_ids WHERE id = ?", [row.id]);
+    logActivity(c.get("admin").id, "deleted", "sender_ids", row.id, `Deleted ${String(row.channel).toUpperCase()} sender ID "${row.sender}" of member #${row.user_id}`);
+    notify(row.user_id as number, { kind: "leadgen", title: `An admin removed your sender ID "${row.sender}"`, link: "/leadgen/portal/senders" });
+    return c.body(null, 204);
+  })
   // ---- Capevars' private lead lists -----------------------------------------------------------
   .get("/lists", requirePermission("leadgen", "view"), async (c) => {
     const [items] = await getPool().query<RowDataPacket[]>(

@@ -139,16 +139,23 @@ export async function sendSms(sender: string, text: string, destinations: Array<
   });
 }
 
+// Asked for on an admin page, so it's kept for a minute and given up on quickly:
+// a slow provider shouldn't hold that page up.
+let lastBalance: { at: number; value: { balance: number; model: string } | null } | undefined;
+
 export async function smsBalance(): Promise<{ balance: number; model: string } | null> {
   const key = process.env.SMSONLINEGH_API_KEY;
   if (!key) return null;
+  if (lastBalance && Date.now() - lastBalance.at < 60_000) return lastBalance.value;
   const res = await fetch("https://api.smsonlinegh.com/v5/account/balance", {
     method: "POST",
     headers: { "Content-Type": "application/json", Accept: "application/json", Authorization: `key ${key}` },
-    signal: AbortSignal.timeout(15_000),
+    signal: AbortSignal.timeout(3_000),
   }).catch(() => null);
   const json = (await res?.json().catch(() => null)) as { handshake?: { id: number }; data?: { balance: number; model: string } } | null;
-  return json?.handshake?.id === 0 && json.data ? json.data : null;
+  const value = json?.handshake?.id === 0 && json.data ? json.data : null;
+  lastBalance = { at: Date.now(), value };
+  return value;
 }
 
 // ---- Email via Gmail ---------------------------------------------------------------------

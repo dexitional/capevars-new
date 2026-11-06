@@ -2,12 +2,13 @@ import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Loader2, Pencil, Plus, ShieldAlert } from "lucide-react";
+import { Loader2, Pencil, Plus } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { canManage } from "#/lib/permissions";
 import { MEMBER_TYPES } from "#/lib/labels";
 import { AdminPageHeader, Field, Switch, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
+import { PurgeDialog } from "#/components/admin/purge-dialog";
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { Button } from "#/components/ui/button.tsx";
 import { Input } from "#/components/ui/input.tsx";
@@ -193,94 +194,17 @@ function MemberDialog({ id, onClose, onSaved }: { id: number | "new"; onClose: (
   );
 }
 
-// Shows everything that would go before anything does, with what belongs to
-// other people set apart, and asks for the username to confirm.
 function DeleteMember({ member, onClose, onDeleted }: { member: Row; onClose: () => void; onDeleted: () => void }) {
-  const [typed, setTyped] = useState("");
-  const { data, isLoading, isError } = useQuery({
-    queryKey: ["admin-member-delete-preview", member.id],
-    queryFn: () =>
-      api.get<{
-        own: Array<{ module: string; items: Array<{ label: string; count: number }> }>;
-        others: Array<{ module: string; label: string; count: number }>;
-        credits: number;
-      }>(`/admin/members/${member.id}/delete-preview`),
-    staleTime: 0,
-  });
-  const remove = useMutation({
-    mutationFn: () => api.delete(`/admin/members/${member.id}?confirm=${encodeURIComponent(member.username as string)}`),
-    onSuccess: () => {
-      toast.success("Member and their data deleted.");
-      onDeleted();
-      onClose();
-    },
-    onError: errorToast("Couldn't delete the member."),
-  });
   return (
-    <Dialog open onOpenChange={(o) => !o && onClose()}>
-      <DialogContent className="max-h-[90vh] overflow-y-auto sm:max-w-xl">
-        <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
-            <ShieldAlert className="size-5 text-destructive" /> Delete {member.title}?
-          </DialogTitle>
-          <DialogDescription>This permanently removes the account and everything below, from every module. It can't be undone. Consider suspending them if you may need any of it later.</DialogDescription>
-        </DialogHeader>
-        {isLoading ? (
-          <div className="flex justify-center py-10">
-            <Loader2 className="size-5 animate-spin text-muted-foreground" />
-          </div>
-        ) : isError || !data ? (
-          <p className="text-sm text-destructive">Couldn't work out what this member has. Nothing was deleted.</p>
-        ) : (
-          <div className="min-w-0 space-y-4 text-sm">
-            {data.others.length > 0 && (
-              <section className="rounded-lg border border-destructive/40 bg-destructive/5 p-3">
-                <h3 className="font-bold text-destructive">Also removed, belonging to other people</h3>
-                <p className="mt-0.5 text-xs text-muted-foreground">These people aren't told and nothing is refunded automatically.</p>
-                <ul className="mt-2 space-y-1">
-                  {data.others.map((o) => (
-                    <li key={o.label} className="flex justify-between gap-3">
-                      <span>{o.label}</span>
-                      <span className="font-semibold tabular-nums">{o.count.toLocaleString()}</span>
-                    </li>
-                  ))}
-                </ul>
-              </section>
-            )}
-            {data.credits > 0 && <p className="rounded-lg border border-amber-300 bg-amber-50 p-3 text-amber-900">Their {data.credits.toLocaleString()} unused broadcast credits are lost.</p>}
-            {data.own.length > 0 ? (
-              <section className="grid gap-3 sm:grid-cols-2">
-                {data.own.map((g) => (
-                  <div key={g.module}>
-                    <h3 className="font-bold text-primary">{g.module}</h3>
-                    <ul className="mt-1 space-y-0.5 text-xs text-muted-foreground">
-                      {g.items.map((i) => (
-                        <li key={i.label} className="flex justify-between gap-3">
-                          <span>{i.label}</span>
-                          <span className="tabular-nums">{i.count.toLocaleString()}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </section>
-            ) : (
-              <p className="text-muted-foreground">They have no other data, just the account.</p>
-            )}
-            <Field label={`Type ${member.username} to confirm`}>
-              <Input value={typed} onChange={(e) => setTyped(e.target.value)} autoComplete="off" aria-label="Type the username to confirm" />
-            </Field>
-          </div>
-        )}
-        <DialogFooter>
-          <Button variant="ghost" onClick={onClose}>
-            Cancel
-          </Button>
-          <Button variant="destructive" disabled={!data || typed !== member.username || remove.isPending} onClick={() => remove.mutate()}>
-            {remove.isPending && <Loader2 className="animate-spin" />} Delete everything
-          </Button>
-        </DialogFooter>
-      </DialogContent>
-    </Dialog>
+    <PurgeDialog
+      title={`Delete ${String(member.title)}?`}
+      description="This permanently removes the account and everything below, from every module. It can't be undone. Consider suspending them if you may need any of it later."
+      url={`/admin/members/${String(member.id)}`}
+      confirmWord={String(member.username)}
+      nothingElse="They have no other data, just the account."
+      success="Member and their data deleted."
+      onClose={onClose}
+      onDeleted={onDeleted}
+    />
   );
 }

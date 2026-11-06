@@ -8,11 +8,18 @@ import { SeriesActions, SeriesStatus, seriesSummary } from "#/components/leadgen
 
 type Row = Record<string, any>;
 
-export const Route = createFileRoute("/_site/leadgen/portal/broadcasts/")({ component: History });
+const historyQuery = { queryKey: ["leadgen", "broadcasts"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/broadcasts"), staleTime: 10_000 };
+const seriesQuery = { queryKey: ["leadgen", "series"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/series"), staleTime: 10_000 };
+
+export const Route = createFileRoute("/_site/leadgen/portal/broadcasts/")({
+  loader: async ({ context }) => {
+    await Promise.all([context.queryClient.prefetchQuery(historyQuery), context.queryClient.prefetchQuery(seriesQuery)]);
+  },
+  component: History });
 
 function History() {
-  const { data } = useQuery({ queryKey: ["leadgen", "broadcasts"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/broadcasts"), refetchInterval: 15_000 });
-  const { data: series } = useQuery({ queryKey: ["leadgen", "series"], queryFn: () => api.get<{ items: Array<Row> }>("/leadgen/portal/series"), refetchInterval: 30_000 });
+  const { data } = useQuery({ ...historyQuery, refetchInterval: 15_000 });
+  const { data: series } = useQuery({ ...seriesQuery, refetchInterval: 30_000 });
   if (!data) return <Loading />;
   return (
     <div>

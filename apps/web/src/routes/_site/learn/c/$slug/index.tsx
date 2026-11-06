@@ -1,3 +1,4 @@
+import { breadcrumbJsonLd, courseJsonLd, pageSeo } from "#/lib/seo";
 import { Link, createFileRoute, notFound, useNavigate } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { z } from "zod";
@@ -16,7 +17,8 @@ import { Button } from "#/components/ui/button";
 type Row = Record<string, any>;
 const courseQuery = (slug: string) => ({
   queryKey: ["course", slug],
-  queryFn: () => api.get<{ course: Row; curriculum: Array<Row>; reviews: Array<Row>; breakdown: Record<string, number>; instructorStats: Row; enrollment: Row | null; isInstructor: boolean; onlinePayments: boolean }>(`/learn/c/${slug}`),
+  staleTime: 30_000,
+  queryFn: () => api.get<{ course: Row; kidi: { level: string; subject: string } | null; curriculum: Array<Row>; reviews: Array<Row>; breakdown: Record<string, number>; instructorStats: Row; enrollment: Row | null; isInstructor: boolean; onlinePayments: boolean }>(`/learn/c/${slug}`),
 });
 
 export const Route = createFileRoute("/_site/learn/c/$slug/")({
@@ -29,9 +31,28 @@ export const Route = createFileRoute("/_site/learn/c/$slug/")({
       throw err;
     }
   },
-  head: ({ loaderData }) => ({
-    meta: loaderData ? [{ title: `${loaderData.course.title} | OpenLearn` }, { name: "description", content: loaderData.course.subtitle ?? "" }, { property: "og:image", content: loaderData.course.cover_url ?? "" }] : [],
-  }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return {};
+    const c = loaderData.course;
+    // A kidiLearn course also has a page in the public catalog, which is the one search engines should list.
+    const kidi = loaderData.kidi;
+    const path = kidi ? `/kidilearn/${kidi.level}/${kidi.subject}` : `/learn/c/${params.slug}`;
+    const image = kidi ? `/og/kidilearn/${kidi.level}/${kidi.subject}.png` : `/og/learn/${params.slug}.png`;
+    const description = [c.subtitle, c.description].filter(Boolean).map((t) => String(t).trim().replace(/\.+$/, "")).join(". ") || `Learn ${c.title} online with Capevars OpenLearn.`;
+    return pageSeo({
+      title: `${c.title}: Online Course | Capevars OpenLearn`,
+      description,
+      path,
+      image,
+      imageAlt: `${c.title} on Capevars OpenLearn`,
+      // A teacher previewing a course that isn't live.
+      noindex: c.status !== "published",
+      jsonLd: [
+        courseJsonLd({ name: c.title, description, path, image, level: c.level, price: Number(c.price), rating: Number(c.rating_avg) || null, ratingCount: Number(c.rating_count) || null, instructor: c.instructor_name }),
+        breadcrumbJsonLd([["OpenLearn", "/learn"], [c.title, path]]),
+      ],
+    });
+  },
   component: CoursePage,
 });
 

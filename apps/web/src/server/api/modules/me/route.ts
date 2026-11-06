@@ -5,11 +5,12 @@ import { z } from "zod";
 import bcrypt from "bcryptjs";
 import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
-import { loadSessionMember, requireMember } from "#/server/member-session-core";
+import { loadSessionMember, requireMember, startMemberSession } from "#/server/member-session-core";
 import { validate } from "../../lib/validate.js";
 import { optionalText, optionalUrl } from "../../lib/fields.js";
 import { toColumns, updateSql } from "../../lib/columns.js";
 import { AppError } from "../../middleware/error-handler.js";
+import { passwordChangedNotice, usablePhone } from "../auth/service.js";
 import { PUBLIC_USER_COLUMNS } from "../../lib/members.js";
 import { presignSchema, presignUpload, registerSchema, registerUpload } from "../../lib/uploads.js";
 
@@ -28,7 +29,7 @@ const profileSchema = z.object({
   location: optionalText(150),
   phone: optionalText(30),
   website: optionalUrl,
-  memberType: z.enum(["public", "student", "staff", "alumni"]).optional(),
+  memberType: z.enum(["public", "student", "staff", "alumni", "business"]).optional(),
   institution: optionalText(150),
   avatarUrl: optionalUrl,
   coverUrl: optionalUrl,
@@ -102,8 +103,23 @@ export const meRoute = new Hono()
     if (hash && !(await bcrypt.compare(currentPassword ?? "", hash))) {
       throw new AppError("Current password is incorrect.", 401);
     }
-    await getPool().execute("UPDATE users SET password_hash = ? WHERE id = ?", [await bcrypt.hash(newPassword, 12), id]);
+    await getPool().execute("UPDATE users SET password_hash = ?, session_valid_from = UNIX_TIMESTAMP() WHERE id = ?", [await bcrypt.hash(newPassword, 12), id]);
+    // Other devices are signed out; this one carries on with a fresh session.
+    await startMemberSession(c, id);
+    if (hash) passwordChangedNotice(id, c.get("member").email);
     return c.json({ ok: true });
+  })
+  // The number they sign in with, or null to stop using one. Needs their password, as it can reset the account.
+  .put("/login-phone", validate("json", z.object({ phone: z.string().trim().max(30).nullable(), currentPassword: z.string().min(1, "Enter your password") })), async (c) => {
+    const id = c.get("member").id;
+    const { phone, currentPassword } = c.req.valid("json");
+    const [rows] = await getPool().execute<RowDataPacket[]>("SELECT password_hash FROM users WHERE id = ?", [id]);
+    const hash = rows[0]?.password_hash as string | null;
+    if (!hash) throw new AppError("Set a password first. Phone sign-in needs one.", 409);
+    if (!(await bcrypt.compare(currentPassword, hash))) throw new AppError("Current password is incorrect.", 401);
+    const loginPhone = phone ? await usablePhone(phone, id) : null;
+    await getPool().execute("UPDATE users SET login_phone = ?, phone = COALESCE(phone, ?) WHERE id = ?", [loginPhone, phone, id]);
+    return c.json({ member: await loadSessionMember(id) });
   })
   .get("/notifications", async (c) => {
     const id = c.get("member").id;

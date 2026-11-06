@@ -1,0 +1,35 @@
+-- Payments for Quizbank courses and the access they give. Each row keeps its own
+-- copy of the course title, price and receiving account, so it stays a true
+-- record after a course, fee or account changes, or a member or course is deleted.
+CREATE TABLE IF NOT EXISTS qb_subscriptions (
+  id INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  user_id INT UNSIGNED NULL,
+  course_id INT UNSIGNED NULL,
+  course_title VARCHAR(200) NOT NULL,
+  reference VARCHAR(20) NOT NULL,
+  amount_ghs DECIMAL(10, 2) NOT NULL,
+  days SMALLINT UNSIGNED NULL,
+  network VARCHAR(20) NOT NULL,
+  account_name VARCHAR(100) NOT NULL,
+  account_number VARCHAR(20) NOT NULL,
+  transaction_id VARCHAR(40) NULL,
+  payer_phone VARCHAR(20) NULL,
+  status ENUM('awaiting', 'submitted', 'approved', 'rejected', 'cancelled', 'revoked') NOT NULL DEFAULT 'awaiting',
+  alert_status VARCHAR(100) NULL,
+  admin_note VARCHAR(300) NULL,
+  submitted_at DATETIME NULL,
+  handled_by INT UNSIGNED NULL,
+  handled_at DATETIME NULL,
+  starts_at DATETIME NULL,
+  expires_at DATETIME NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (id),
+  UNIQUE KEY uq_qb_subscriptions_reference (reference),
+  UNIQUE KEY uq_qb_subscriptions_transaction (network, transaction_id),
+  KEY idx_qb_subscriptions_user (user_id, course_id, status),
+  KEY idx_qb_subscriptions_course (course_id, status),
+  KEY idx_qb_subscriptions_status (status, id),
+  CONSTRAINT fk_qb_subscriptions_user FOREIGN KEY (user_id) REFERENCES users (id) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT fk_qb_subscriptions_course FOREIGN KEY (course_id) REFERENCES qb_courses (id) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT fk_qb_subscriptions_admin FOREIGN KEY (handled_by) REFERENCES admins (id) ON DELETE SET NULL ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

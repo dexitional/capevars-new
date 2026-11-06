@@ -123,6 +123,8 @@ export function CreditCheckout({
         ) : request ? (
           <PayStep
             request={request}
+            forWhat={`${Number(request.credits).toLocaleString()} credits`}
+            sentUrl={`/leadgen/portal/wallet/momo/${request.id}/sent`}
             onSent={() => {
               setDone(true);
               refresh();
@@ -183,13 +185,16 @@ export function CreditCheckout({
   );
 }
 
-function PayStep({ request, onSent, onLater }: { request: CreditRequest; onSent: () => void; onLater: () => void }) {
+// A payment to make by hand, as credit purchases and Quizbank subscriptions both are.
+export type PayableRequest = Pick<CreditRequest, "id" | "reference" | "amount_ghs" | "network" | "account_name" | "account_number">;
+
+export function PayStep({ request, forWhat, sentUrl, onSent, onLater }: { request: PayableRequest; forWhat: string; sentUrl: string; onSent: () => void; onLater: () => void }) {
   const [transactionId, setTransactionId] = useState("");
   const [payerPhone, setPayerPhone] = useState("");
   const style = styleOf(request.network);
   const amount = Number(request.amount_ghs);
   const sent = useMutation({
-    mutationFn: () => api.post(`/leadgen/portal/wallet/momo/${request.id}/sent`, { transactionId, payerPhone: payerPhone || undefined }),
+    mutationFn: () => api.post(sentUrl, { transactionId, payerPhone: payerPhone || undefined }),
     onSuccess: onSent,
     onError: (e) => toast.error(e.message),
   });
@@ -198,7 +203,7 @@ function PayStep({ request, onSent, onLater }: { request: CreditRequest; onSent:
       <DialogHeader>
         <DialogTitle className="text-xl font-black text-primary">Send {formatMoney(amount)}</DialogTitle>
         <DialogDescription>
-          For {Number(request.credits).toLocaleString()} credits · reference <span className="font-mono font-bold text-foreground">{request.reference}</span>
+          For {forWhat} · reference <span className="font-mono font-bold text-foreground">{request.reference}</span>
         </DialogDescription>
       </DialogHeader>
 

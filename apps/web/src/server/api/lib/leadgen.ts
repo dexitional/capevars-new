@@ -56,6 +56,19 @@ async function moveCredits(conn: PoolConnection, userId: number, credits: number
   return next;
 }
 
+// Closes a member's wallet: any balance leaves through a ledger line, so their
+// history still adds up, then the wallet goes. Returns the credits removed.
+export async function deleteWallet(userId: number, note: string) {
+  return withTransaction(async (conn) => {
+    const [rows] = await conn.execute<RowDataPacket[]>("SELECT balance FROM broadcast_wallets WHERE user_id = ? FOR UPDATE", [userId]);
+    if (!rows[0]) throw new AppError("This member has no wallet.", 404);
+    const balance = money(rows[0].balance);
+    if (balance > 0) await moveCredits(conn, userId, -balance, "debit", { note });
+    await conn.execute("DELETE FROM broadcast_wallets WHERE user_id = ?", [userId]);
+    return balance;
+  });
+}
+
 export async function addCredits(userId: number, credits: number, type: TxType, meta: TxMeta = {}) {
   return withTransaction((conn) => moveCredits(conn, userId, Math.abs(credits) * (type === "debit" ? -1 : 1), type, meta));
 }
@@ -109,6 +122,9 @@ export async function submitCreditRequest(userId: number, id: number, transactio
   const [rows] = await getPool().execute<RowDataPacket[]>(`${REQUEST_WITH_MEMBER} AND r.user_id = ?`, [id, userId]);
   const r = rows[0];
   if (!r) throw new AppError("Payment request not found.", 404);
+  // One transfer pays for one thing, across credits and Quizbank subscriptions alike.
+  const [used] = await getPool().execute<RowDataPacket[]>("SELECT 1 FROM qb_subscriptions WHERE network = ? AND transaction_id = ? LIMIT 1", [r.network, transactionId]);
+  if (used[0]) throw new AppError("That transaction ID has already been used. Check it and try again.", 409);
   if (r.status !== "awaiting") throw new AppError(r.status === "submitted" ? "You've already sent this payment's transaction ID." : "This payment request is closed.", 409);
   try {
     await getPool().execute("UPDATE credit_requests SET transaction_id = ?, payer_phone = ?, status = 'submitted', submitted_at = UTC_TIMESTAMP() WHERE id = ? AND status = 'awaiting'", [
@@ -121,6 +137,24 @@ export async function submitCreditRequest(userId: number, id: number, transactio
     throw err;
   }
   void alertPayee({ ...r, transaction_id: transactionId, payer_phone: payerPhone });
+}
+
+// An SMS from the platform itself, which never goes out under a member's sender
+// ID: the default sender, falling back to "ehub" if that's blank or rejected.
+// Returns what happened, for showing to admins.
+export async function sendPlatformSms(to: string, text: string): Promise<string> {
+  try {
+    const senders = [...new Set([(await leadgenSettings()).defaultSmsSender.trim() || ALERT_SENDER, ALERT_SENDER])];
+    let status = "failed: unknown";
+    for (const sender of senders) {
+      const [result] = await sendSms(sender, text, [{ number: to }]);
+      if (result?.ok) return `sent as ${sender}`;
+      status = `failed: ${result?.error ?? "unknown"}`;
+    }
+    return status;
+  } catch (err) {
+    return `failed: ${err instanceof Error ? err.message : String(err)}`;
+  }
 }
 
 // Tells the receiving wallet's owner a payment is claimed, so they can check
@@ -136,18 +170,7 @@ async function alertPayee(r: RowDataPacket): Promise<string> {
       `Capevars credit purchase ${r.reference}: ${r.full_name} (${from}) says they sent GHS ${money(r.amount_ghs).toFixed(2)} ` +
       `to your ${networkName(r.network)} for ${Number(r.credits).toLocaleString("en-US")} credits. ` +
       `Txn ID: ${r.transaction_id}. Verify, then approve in Admin > LeadGen > MoMo payments.`;
-    // Platform alerts never go out under a member's sender ID: the default
-    // sender, falling back to "ehub" if that's blank or rejected.
-    const senders = [...new Set([(await leadgenSettings()).defaultSmsSender.trim() || ALERT_SENDER, ALERT_SENDER])];
-    status = "failed: unknown";
-    for (const sender of senders) {
-      const [result] = await sendSms(sender, text, [{ number: to }]);
-      if (result?.ok) {
-        status = `sent as ${sender}`;
-        break;
-      }
-      status = `failed: ${result?.error ?? "unknown"}`;
-    }
+    status = await sendPlatformSms(to, text);
   } catch (err) {
     status = `failed: ${err instanceof Error ? err.message : String(err)}`;
   }

@@ -156,7 +156,7 @@ export const learnRoute = new Hono()
     const course = rows[0];
     const isInstructor = member?.id === course?.instructor_id;
     if (!course || (course.status !== "published" && !isInstructor)) throw new AppError("Course not found.", 404);
-    const [[sections], [lessons], [reviews], [instructorStats], [breakdown]] = await Promise.all([
+    const [[sections], [lessons], [reviews], [instructorStats], [breakdown], [kidi]] = await Promise.all([
       pool.query<RowDataPacket[]>("SELECT id, title FROM course_sections WHERE course_id = ? ORDER BY sort_order, id", [course.id]),
       pool.query<RowDataPacket[]>(
         "SELECT id, section_id, title, type, duration_minutes, is_preview FROM course_lessons WHERE course_id = ? ORDER BY sort_order, id",
@@ -173,10 +173,12 @@ export const learnRoute = new Hono()
         [course.instructor_id],
       ),
       pool.query<RowDataPacket[]>("SELECT rating, COUNT(*) AS n FROM course_reviews WHERE course_id = ? AND is_hidden = 0 GROUP BY rating", [course.id]),
+      pool.query<RowDataPacket[]>("SELECT level_key AS level, subject_key AS subject FROM kidi_course_links WHERE course_id = ? AND is_active = 1 LIMIT 1", [course.id]),
     ]);
     const enrollment = await enrollmentOf(course.id, member?.id);
     return c.json({
       course: { ...course, description: toRichHtml(course.description) },
+      kidi: (kidi[0] as { level: string; subject: string } | undefined) ?? null,
       curriculum: sections.map((s) => ({ ...s, lessons: lessons.filter((l) => l.section_id === s.id) })),
       reviews,
       breakdown: Object.fromEntries(breakdown.map((b) => [b.rating, Number(b.n)])),

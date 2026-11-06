@@ -19,6 +19,7 @@ export interface SessionMember {
   fullName: string;
   username: string;
   email: string;
+  loginPhone: string | null;
   avatarUrl: string | null;
   headline: string | null;
   memberType: MemberType;
@@ -50,21 +51,22 @@ export async function signMemberToken(userId: number): Promise<string> {
   );
 }
 
-async function readMemberId(token: string | undefined): Promise<number | null> {
+async function readMemberToken(token: string | undefined): Promise<{ id: number; issuedAt: number } | null> {
   if (!token) return null;
   try {
     const payload = await verify(token, memberKey(), "HS256");
     if (payload.aud !== "member") return null;
     const id = Number(payload.sub);
-    return Number.isFinite(id) ? id : null;
+    return Number.isFinite(id) ? { id, issuedAt: Number(payload.iat ?? 0) } : null;
   } catch {
     return null;
   }
 }
 
-export async function loadSessionMember(id: number): Promise<SessionMember | null> {
+// Pass `issuedAt` to reject a session started before their last password change.
+export async function loadSessionMember(id: number, issuedAt?: number): Promise<SessionMember | null> {
   const [rows] = await getPool().execute<RowDataPacket[]>(
-    `SELECT u.id, u.full_name, u.username, u.email, u.avatar_url, u.headline, u.member_type,
+    `SELECT u.id, u.full_name, u.username, u.email, u.login_phone, u.session_valid_from, u.avatar_url, u.headline, u.member_type,
             u.is_verified, u.password_hash IS NOT NULL AS has_password,
             s.id AS seller_id, s.slug AS seller_slug, s.store_name, s.status AS seller_status, s.kinds
        FROM users u LEFT JOIN sellers s ON s.user_id = u.id
@@ -73,11 +75,13 @@ export async function loadSessionMember(id: number): Promise<SessionMember | nul
   );
   const r = rows[0];
   if (!r) return null;
+  if (issuedAt !== undefined && r.session_valid_from !== null && issuedAt < r.session_valid_from) return null;
   return {
     id: r.id,
     fullName: r.full_name,
     username: r.username,
     email: r.email,
+    loginPhone: r.login_phone,
     avatarUrl: r.avatar_url,
     headline: r.headline,
     memberType: r.member_type,
@@ -96,8 +100,8 @@ export async function loadSessionMember(id: number): Promise<SessionMember | nul
 }
 
 export async function memberFromToken(token: string | undefined): Promise<SessionMember | null> {
-  const id = await readMemberId(token);
-  return id ? loadSessionMember(id) : null;
+  const session = await readMemberToken(token);
+  return session ? loadSessionMember(session.id, session.issuedAt) : null;
 }
 
 export async function startMemberSession(c: Context, userId: number) {

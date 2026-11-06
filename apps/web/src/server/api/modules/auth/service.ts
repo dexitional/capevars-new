@@ -1,3 +1,4 @@
+import { createHash, randomBytes } from "node:crypto";
 import bcrypt from "bcryptjs";
 import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
@@ -9,7 +10,11 @@ import {
   formatLockedUntil,
   isLockedOut,
 } from "../../lib/lockout.js";
+import { leadgenSettings } from "../../lib/leadgen.js";
+import { normalizeEmail, normalizePhone, sendEmail, sendSms } from "../../lib/messaging.js";
+import { notify } from "../../lib/notify.js";
 import { slugify } from "../../lib/slug.js";
+import { withTransaction } from "../../lib/tx.js";
 import type { loginSchema, registerSchema } from "./route.js";
 
 const RESERVED = new Set([
@@ -32,29 +37,49 @@ export async function uniqueUsername(seed: string) {
   for (let n = 2; ; n++) if (!taken.has(`${root}${n}`)) return `${root}${n}`;
 }
 
+// A phone number another member already signs in with can't be used again.
+export async function usablePhone(raw: string, exceptId = 0) {
+  const phone = normalizePhone(raw);
+  if (!phone) throw new AppError("Enter a valid phone number, e.g. 024 123 4567.", 422);
+  const [rows] = await getPool().execute<RowDataPacket[]>("SELECT id FROM users WHERE login_phone = ? AND id <> ?", [phone, exceptId]);
+  if (rows[0]) throw new AppError("That phone number is already on another account.", 409);
+  return phone;
+}
+
 export async function register(input: z.infer<typeof registerSchema>) {
   const pool = getPool();
+  const phone = input.phone ? await usablePhone(input.phone) : null;
   const [existing] = await pool.execute<RowDataPacket[]>("SELECT id FROM users WHERE email = ?", [input.email]);
   if (existing[0]) throw new AppError("An account with that email already exists. Sign in instead.", 409);
   const username = await uniqueUsername(input.fullName);
   const [result] = await pool.execute<ResultSetHeader>(
-    `INSERT INTO users (full_name, username, email, password_hash, member_type, last_login_at)
-     VALUES (?, ?, ?, ?, ?, NOW())`,
-    [input.fullName, username, input.email, await bcrypt.hash(input.password, 12), input.memberType],
+    `INSERT INTO users (full_name, username, email, phone, login_phone, password_hash, member_type, last_login_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, NOW())`,
+    [input.fullName, username, input.email, input.phone || null, phone, await bcrypt.hash(input.password, 12), input.memberType],
   );
   return result.insertId;
 }
 
-export async function login(input: z.infer<typeof loginSchema>) {
+// Finds an account by whichever the member typed. Null when it's neither a valid email nor phone.
+function identifierLookup(identifier: string) {
+  if (identifier.includes("@")) {
+    const email = normalizeEmail(identifier);
+    return email ? { column: "email", value: email, channel: "email" as const } : null;
+  }
+  const phone = normalizePhone(identifier);
+  return phone ? { column: "login_phone", value: phone, channel: "sms" as const } : null;
+}
+
+export async function login(input: z.output<typeof loginSchema>) {
   const pool = getPool();
-  const [rows] = await pool.execute<RowDataPacket[]>(
-    "SELECT id, password_hash, failed_login_attempts, locked_until, is_active FROM users WHERE email = ?",
-    [input.email],
-  );
+  const lookup = identifierLookup(input.identifier);
+  const [rows] = lookup
+    ? await pool.execute<RowDataPacket[]>(`SELECT id, password_hash, failed_login_attempts, locked_until, is_active FROM users WHERE ${lookup.column} = ?`, [lookup.value])
+    : [[] as Array<RowDataPacket>];
   const user = rows[0];
   if (!user || !user.is_active) {
     await bcrypt.compare(input.password, DUMMY_BCRYPT_HASH);
-    throw new AppError("Invalid email or password.", 401);
+    throw new AppError("Invalid email, phone number or password.", 401);
   }
   if (!user.password_hash) {
     throw new AppError("This account uses Google sign-in. Continue with Google instead.", 401);
@@ -72,13 +97,88 @@ export async function login(input: z.infer<typeof loginSchema>) {
       computeLockoutUntil(failed),
       user.id,
     ]);
-    throw new AppError("Invalid email or password.", 401);
+    throw new AppError("Invalid email, phone number or password.", 401);
   }
   await pool.execute(
     "UPDATE users SET failed_login_attempts = 0, locked_until = NULL, last_login_at = NOW() WHERE id = ?",
     [user.id],
   );
   return user.id as number;
+}
+
+// ---- Password reset ----------------------------------------------------------------------------
+
+const RESET_MINUTES = 30;
+const RESETS_PER_HOUR = 3;
+const hashToken = (token: string) => createHash("sha256").update(token).digest("hex");
+
+const plainEmail = (paragraphs: Array<string>) => `<div style="font-family:sans-serif;font-size:15px;line-height:1.5">${paragraphs.map((p) => `<p>${p}</p>`).join("")}</div>`;
+
+// Runs in the background of the request. Sends the link through the channel the
+// member gave. Accounts that only use Google have no password to reset, so an
+// email address gets a pointer to Google instead.
+export async function requestPasswordReset(identifier: string, baseUrl: string) {
+  const lookup = identifierLookup(identifier);
+  if (!lookup) return;
+  const pool = getPool();
+  const [rows] = await pool.execute<RowDataPacket[]>(`SELECT id, email, login_phone, password_hash, is_active FROM users WHERE ${lookup.column} = ?`, [lookup.value]);
+  const user = rows[0];
+  if (!user?.is_active) return;
+  if (!user.password_hash) {
+    if (lookup.channel === "email") {
+      const text = "You asked to reset your Capevars password, but you joined with Google, so there's no password to reset. Sign in with Continue with Google instead.";
+      await sendEmail({ fromName: "Capevars", to: user.email as string, subject: "Sign in to Capevars with Google", text, html: plainEmail([text]) });
+    }
+    return;
+  }
+  const [recent] = await pool.execute<RowDataPacket[]>("SELECT COUNT(*) AS n FROM password_resets WHERE user_id = ? AND created_at > UTC_TIMESTAMP() - INTERVAL 1 HOUR", [user.id]);
+  if (Number(recent[0]?.n) >= RESETS_PER_HOUR) return;
+  const token = randomBytes(32).toString("base64url");
+  await pool.execute("UPDATE password_resets SET used_at = UTC_TIMESTAMP() WHERE user_id = ? AND used_at IS NULL", [user.id]);
+  await pool.execute(
+    "INSERT INTO password_resets (user_id, token_hash, channel, expires_at, created_at) VALUES (?, ?, ?, UTC_TIMESTAMP() + INTERVAL ? MINUTE, UTC_TIMESTAMP())",
+    [user.id, hashToken(token), lookup.channel, RESET_MINUTES],
+  );
+  const link = `${baseUrl}/reset-password?token=${token}`;
+  if (lookup.channel === "sms") {
+    const settings = await leadgenSettings();
+    const [sent] = await sendSms(settings.defaultSmsSender, `Reset your Capevars password: ${link} It works once and expires in ${RESET_MINUTES} minutes. Didn't ask? Ignore this.`, [{ number: user.login_phone as string }]);
+    if (!sent?.ok) console.error(`Password reset SMS failed for member #${user.id}: ${sent?.status ?? "no result"}`);
+    return;
+  }
+  const lines = [`Someone asked to reset your Capevars password. Use this link to choose a new one. It works once and expires in ${RESET_MINUTES} minutes:`, link, "If it wasn't you, ignore this email and your password stays the same."];
+  await sendEmail({
+    fromName: "Capevars",
+    to: user.email as string,
+    subject: "Reset your Capevars password",
+    text: lines.join("\n\n"),
+    html: plainEmail([lines[0]!, `<a href="${link}">Choose a new password</a>`, lines[2]!]),
+  });
+}
+
+// Tells the member, so a change they didn't make doesn't go unnoticed.
+export function passwordChangedNotice(userId: number, email: string) {
+  notify(userId, { kind: "account", title: "Your password was changed", link: "/account/security" });
+  const text = "Your Capevars password was just changed, and other devices were signed out. If this wasn't you, reset your password straight away and contact support.";
+  void sendEmail({ fromName: "Capevars", to: email, subject: "Your Capevars password was changed", text, html: plainEmail([text]) }).catch((err) => console.error("Password change email failed:", err));
+}
+
+export async function resetPassword(token: string, newPassword: string) {
+  const hash = await bcrypt.hash(newPassword, 12);
+  const member = await withTransaction(async (conn) => {
+    const [rows] = await conn.execute<RowDataPacket[]>(
+      `SELECT r.id, r.user_id, u.email FROM password_resets r JOIN users u ON u.id = r.user_id AND u.is_active = 1
+       WHERE r.token_hash = ? AND r.used_at IS NULL AND r.expires_at > UTC_TIMESTAMP() FOR UPDATE`,
+      [hashToken(token)],
+    );
+    const row = rows[0];
+    if (!row) throw new AppError("This reset link has expired or was already used.", 400);
+    // A successful reset also clears any sign-in lockout and ends every existing session.
+    await conn.execute("UPDATE users SET password_hash = ?, failed_login_attempts = 0, locked_until = NULL, session_valid_from = UNIX_TIMESTAMP() WHERE id = ?", [hash, row.user_id]);
+    await conn.execute("UPDATE password_resets SET used_at = UTC_TIMESTAMP() WHERE user_id = ? AND used_at IS NULL", [row.user_id]);
+    return row;
+  });
+  passwordChangedNotice(member.user_id as number, member.email as string);
 }
 
 // Finds the member by Google id, else links Google to an existing account

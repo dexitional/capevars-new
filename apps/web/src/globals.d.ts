@@ -5,3 +5,4 @@ declare const __IMAGE_HOSTS__: Array<string>;
 
 /** Optional CDN origin for /files and /img URLs (CDN_URL), e.g. "https://cdn.capevars.com". */
 declare const __CDN_URL__: string;
+declare const __SITE_URL__: string;

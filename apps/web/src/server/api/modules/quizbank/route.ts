@@ -2,13 +2,14 @@
 // the Study Board (each narrowed to chosen topic tags), build study sets that
 // mix courses and topics, sit timed exam simulations (marked on submit,
 // written answers by Claude), study question by question with hints and
-// explanations, bookmark questions to study together, and discuss each question.
+// explanations, bookmark questions to study together, discuss each question, and
+// subscribe to the courses that charge (lib/quizbank-subscriptions.ts).
 import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
 import { memberOrNull, optionalMember, requireMember } from "#/server/member-session-core";
-import { QB_DISCUSSION_KINDS, QB_EXAM, QB_LEVEL_IDS, QB_MAX_TEXT_ANSWER, qbVariationSchema } from "#/lib/quizbank";
+import { QB_DISCUSSION_KINDS, QB_EXAM, QB_LEVEL_IDS, QB_MAX_COURSE_TAGS, QB_MAX_TEXT_ANSWER, qbVariationSchema } from "#/lib/quizbank";
 import type { QbDiscussionKind, QbMark } from "#/lib/quizbank";
 import { validate } from "../../lib/validate.js";
 import { likePattern, pageQuerySchema, paging } from "../../lib/query.js";
@@ -27,6 +28,18 @@ import {
   validTopicIds,
 } from "../../lib/quizbank.js";
 import type { Response } from "../../lib/quizbank.js";
+import { normalizePhone } from "../../lib/messaging.js";
+import {
+  ACTIVE_SUBSCRIPTION,
+  accessibleCourseIds,
+  accessibleQuestionIds,
+  assertCourseAccess,
+  assertQuestionAccess,
+  cancelSubscription,
+  courseAccess,
+  startSubscription,
+  submitSubscription,
+} from "../../lib/quizbank-subscriptions.js";
 
 const SUBMIT_GRACE_MS = 60_000;
 const PUBLISHED_QUESTION = "q.status = 'published'";
@@ -41,7 +54,7 @@ const settingsSchema = z.object({
   examQuestions: z.number().int().min(QB_EXAM.minQuestions).max(QB_EXAM.maxQuestions).nullable().optional(),
   examMinutes: z.number().int().min(QB_EXAM.minMinutes).max(QB_EXAM.maxMinutes).nullable().optional(),
   // Topic tags to draw from; empty means every question in the course.
-  tagIds: z.array(z.number().int().positive()).max(50).optional(),
+  tagIds: z.array(z.number().int().positive()).max(QB_MAX_COURSE_TAGS).optional(),
 });
 const tagList = (raw: unknown) => json<Array<number>>(raw, []);
 
@@ -87,6 +100,8 @@ function courseCard(row: RowDataPacket, tags: Map<number, Array<{ name: string; 
     examMinutes: row.exam_minutes,
     tags: tags.get(row.id) ?? [],
     onBoard: Boolean(row.on_board),
+    fee: row.subscription_enabled ? Number(row.subscription_fee) : null,
+    subscribed: Boolean(row.subscribed),
   };
 }
 
@@ -294,9 +309,10 @@ export const quizbankRoute = new Hono()
       const rank = q.q ? [likePattern(q.q), likePattern(q.q)] : [];
       const [[items], [count]] = await Promise.all([
         pool.query<RowDataPacket[]>(
-          `SELECT c.*, ${member ? "EXISTS (SELECT 1 FROM qb_board b WHERE b.course_id = c.id AND b.user_id = ?)" : "0"} AS on_board
+          `SELECT c.*, ${member ? "EXISTS (SELECT 1 FROM qb_board b WHERE b.course_id = c.id AND b.user_id = ?)" : "0"} AS on_board,
+             ${member ? `EXISTS (SELECT 1 FROM qb_subscriptions s WHERE s.course_id = c.id AND s.user_id = ? AND ${ACTIVE_SUBSCRIPTION})` : "0"} AS subscribed
            FROM qb_courses c WHERE ${where.join(" AND ")} ORDER BY ${rank.length ? "(c.code LIKE ? OR c.title LIKE ?) DESC, " : ""}c.board_count DESC, c.title LIMIT ? OFFSET ?`,
-          [...(member ? [member.id] : []), ...params, ...rank, limit, offset],
+          [...(member ? [member.id, member.id] : []), ...params, ...rank, limit, offset],
         ),
         pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS n FROM qb_courses c WHERE ${where.join(" AND ")}`, params),
       ]);
@@ -335,15 +351,17 @@ export const quizbankRoute = new Hono()
       board = b[0] ?? null;
       attempts = a;
     }
-    const [[types], topics] = await Promise.all([
+    const [[types], topics, access] = await Promise.all([
       getPool().execute<RowDataPacket[]>(
         `SELECT q.type, COUNT(*) AS n FROM qb_course_questions cq JOIN qb_questions q ON q.id = cq.question_id AND ${PUBLISHED_QUESTION} WHERE cq.course_id = ? GROUP BY q.type`,
         [course.id],
       ),
       topicsFor([course.id]),
+      courseAccess(course, member?.id ?? 0),
     ]);
     return c.json({
-      course: { ...courseCard({ ...course, on_board: Boolean(board) }, tags), questionTypes: Object.fromEntries(types.map((t) => [t.type, Number(t.n)])) },
+      course: { ...courseCard({ ...course, on_board: Boolean(board), subscribed: access.active }, tags), questionTypes: Object.fromEntries(types.map((t) => [t.type, Number(t.n)])) },
+      access,
       topics,
       board: board && {
         examQuestions: board.exam_questions ?? course.exam_questions,
@@ -365,10 +383,40 @@ export const quizbankRoute = new Hono()
       })),
     });
   })
+  // ---- Subscriptions ---------------------------------------------------------------------------
+  .post("/courses/:id/subscribe", requireMember, async (c) => {
+    const course = await publishedCourse("id", Number(c.req.param("id")));
+    return c.json({ subscription: await startSubscription(c.get("member").id, course) }, 201);
+  })
+  .post(
+    "/subscriptions/:id/sent",
+    requireMember,
+    validate("json", z.object({ transactionId: z.string().trim().min(5, "Enter the transaction ID from your confirmation SMS").max(40), payerPhone: z.string().trim().max(30).optional() })),
+    async (c) => {
+      const { transactionId, payerPhone } = c.req.valid("json");
+      const phone = payerPhone ? normalizePhone(payerPhone) : null;
+      if (payerPhone && !phone) throw new AppError("Enter a valid phone number, e.g. 024 123 4567.", 422);
+      await submitSubscription(c.get("member").id, Number(c.req.param("id")), transactionId, phone);
+      return c.json({ ok: true });
+    },
+  )
+  .post("/subscriptions/:id/cancel", requireMember, async (c) => {
+    await cancelSubscription(c.get("member").id, Number(c.req.param("id")));
+    return c.json({ ok: true });
+  })
+  .get("/subscriptions/mine", requireMember, async (c) => {
+    const [items] = await getPool().execute<RowDataPacket[]>(
+      `SELECT s.id, s.reference, s.course_title, s.status, s.amount_ghs, s.days, s.transaction_id, s.admin_note, s.created_at, s.submitted_at, s.starts_at, s.expires_at,
+         ${ACTIVE_SUBSCRIPTION} AS is_active, c.slug AS course_slug
+       FROM qb_subscriptions s LEFT JOIN qb_courses c ON c.id = s.course_id WHERE s.user_id = ? ORDER BY s.id DESC LIMIT 100`,
+      [c.get("member").id],
+    );
+    return c.json({ items });
+  })
   // ---- Study Board -----------------------------------------------------------------------------
   .get("/board", requireMember, async (c) => {
     const [rows] = await getPool().execute<RowDataPacket[]>(
-      `SELECT c.*, 1 AS on_board, b.exam_questions AS my_questions, b.exam_minutes AS my_minutes, b.tag_ids, b.study_position, b.added_at,
+      `SELECT c.*, 1 AS on_board, EXISTS (SELECT 1 FROM qb_subscriptions s WHERE s.course_id = c.id AND s.user_id = b.user_id AND ${ACTIVE_SUBSCRIPTION}) AS subscribed, b.exam_questions AS my_questions, b.exam_minutes AS my_minutes, b.tag_ids, b.study_position, b.added_at,
          (SELECT COUNT(*) FROM qb_attempts a WHERE a.user_id = b.user_id AND a.course_id = c.id AND a.status = 'submitted') AS exams_taken,
          (SELECT MAX(a.score / NULLIF(a.max_score, 0)) FROM qb_attempts a WHERE a.user_id = b.user_id AND a.course_id = c.id AND a.status = 'submitted') AS best,
          (SELECT a.score / NULLIF(a.max_score, 0) FROM qb_attempts a WHERE a.user_id = b.user_id AND a.course_id = c.id AND a.status = 'submitted' ORDER BY a.id DESC LIMIT 1) AS last
@@ -437,6 +485,7 @@ export const quizbankRoute = new Hono()
   .post("/courses/:id/exam", requireMember, validate("json", settingsSchema), async (c) => {
     const member = c.get("member");
     const course = await publishedCourse("id", Number(c.req.param("id")));
+    await assertCourseAccess(member.id, course.id as number);
     const input = c.req.valid("json");
     const [board] = await getPool().execute<RowDataPacket[]>("SELECT * FROM qb_board WHERE user_id = ? AND course_id = ?", [member.id, course.id]);
     const count = input.examQuestions ?? board[0]?.exam_questions ?? course.exam_questions;
@@ -488,6 +537,7 @@ export const quizbankRoute = new Hono()
   // Questions in the board's chosen topics, unless `?tags=1,2` picks others.
   .get("/courses/:id/study", requireMember, async (c) => {
     const course = await publishedCourse("id", Number(c.req.param("id")));
+    await assertCourseAccess(c.get("member").id, course.id as number);
     const [board] = await getPool().execute<RowDataPacket[]>("SELECT study_position, tag_ids FROM qb_board WHERE user_id = ? AND course_id = ?", [c.get("member").id, course.id]);
     const asked = c.req.query("tags");
     const wanted = asked !== undefined ? asked.split(",").map(Number).filter((n) => Number.isInteger(n) && n > 0) : tagList(board[0]?.tag_ids);
@@ -507,9 +557,11 @@ export const quizbankRoute = new Hono()
   // ---- Bookmarks -------------------------------------------------------------------------------
   .get("/bookmarks", requireMember, async (c) => c.json({ questionIds: await bookmarkedIds(c.get("member").id) }))
   .get("/bookmarks/study", requireMember, async (c) => {
-    const ids = await bookmarkedIds(c.get("member").id);
+    const saved = await bookmarkedIds(c.get("member").id);
+    // A bookmark in a course they no longer have access to waits until they do.
+    const ids = await accessibleQuestionIds(c.get("member").id, saved);
     const [questions, origins] = await Promise.all([questionsByIds(ids), questionOrigins(ids)]);
-    return c.json({ questions: questions.map((q) => ({ ...publicQuestion(q), origin: origins.get(q.id) })) });
+    return c.json({ questions: questions.map((q) => ({ ...publicQuestion(q), origin: origins.get(q.id) })), locked: saved.length - ids.length });
   })
   .post("/bookmarks/:questionId", requireMember, async (c) => {
     const member = c.get("member");
@@ -567,17 +619,19 @@ export const quizbankRoute = new Hono()
     const member = c.get("member");
     const v = await ownVariation(member.id, Number(c.req.param("id")));
     const input = c.req.valid("json");
-    const courses = await publishedCourseIds(tagList(v.course_ids));
+    const courses = await accessibleCourseIds(member.id, await publishedCourseIds(tagList(v.course_ids)));
     const picked = await pickQuestionIds(courses, tagList(v.tag_ids), "random", input.examQuestions ?? v.exam_questions);
     const id = await startAttempt(member.id, { courseId: courses.length === 1 ? (courses[0] ?? null) : null, variationId: v.id, title: v.name }, picked, input.examMinutes ?? v.exam_minutes);
     return c.json({ id }, 201);
   })
   .get("/variations/:id/study", requireMember, async (c) => {
     const v = await ownVariation(c.get("member").id, Number(c.req.param("id")));
-    const courses = await publishedCourseIds(tagList(v.course_ids));
+    const published = await publishedCourseIds(tagList(v.course_ids));
+    const courses = await accessibleCourseIds(c.get("member").id, published);
     const [questions, names] = await Promise.all([questionsByIds(await pickQuestionIds(courses, tagList(v.tag_ids), "course")), tagNames(tagList(v.tag_ids))]);
     return c.json({
       variation: { id: v.id, name: v.name },
+      lockedCourses: published.length - courses.length,
       topics: tagList(v.tag_ids).map((id) => names.get(id) ?? "").filter(Boolean),
       position: Math.min(v.study_position, Math.max(0, questions.length - 1)),
       questions: questions.map(publicQuestion),
@@ -591,6 +645,7 @@ export const quizbankRoute = new Hono()
   // answer, once marked) also reveals the answer and the lesson behind it.
   .post("/questions/:id/check", requireMember, validate("json", responseSchema.omit({ questionId: true })), async (c) => {
     const q = await liveQuestion(Number(c.req.param("id")));
+    await assertQuestionAccess(c.get("member").id, q.id as number);
     const input = c.req.valid("json");
     const mark = await markResponse(q, { questionId: q.id, ...input });
     const key = questionKey(q);
@@ -605,6 +660,7 @@ export const quizbankRoute = new Hono()
   // Gives up on a choice question: shows the answer and the lesson.
   .post("/questions/:id/reveal", requireMember, async (c) => {
     const q = await liveQuestion(Number(c.req.param("id")));
+    await assertQuestionAccess(c.get("member").id, q.id as number);
     const key = questionKey(q);
     return c.json({ correctIndex: key.correctIndex, answer: key.answer, explanation: key.explanation });
   })
@@ -612,6 +668,7 @@ export const quizbankRoute = new Hono()
   .get("/questions/:id/discussion", async (c) => {
     const q = await liveQuestion(Number(c.req.param("id")));
     const member = memberOrNull(c);
+    await assertQuestionAccess(member?.id ?? 0, q.id as number);
     const [rows] = await getPool().query<RowDataPacket[]>(
       `SELECT d.id, d.kind, d.body, d.helpful_count, d.created_at, d.user_id, u.full_name, u.username, u.avatar_url,
          ${member ? "EXISTS (SELECT 1 FROM qb_discussion_votes v WHERE v.discussion_id = d.id AND v.user_id = ?)" : "0"} AS voted
@@ -638,6 +695,7 @@ export const quizbankRoute = new Hono()
     validate("json", z.object({ kind: z.enum(Object.keys(QB_DISCUSSION_KINDS) as [QbDiscussionKind, ...Array<QbDiscussionKind>]), body: z.string().trim().min(3).max(4000) })),
     async (c) => {
       const q = await liveQuestion(Number(c.req.param("id")));
+      await assertQuestionAccess(c.get("member").id, q.id as number);
       const input = c.req.valid("json");
       const [res] = await getPool().execute<ResultSetHeader>("INSERT INTO qb_discussions (question_id, user_id, kind, body) VALUES (?, ?, ?, ?)", [
         q.id,

@@ -19,6 +19,8 @@ export type QbDiscussionKind = keyof typeof QB_DISCUSSION_KINDS;
 export const QB_EXAM = { minQuestions: 1, maxQuestions: 200, minMinutes: 1, maxMinutes: 300 } as const;
 export const QB_MAX_OPTIONS = 8;
 export const QB_MAX_TEXT_ANSWER = 5000;
+// A course also carries the tags of all its questions, so past-paper courses run to dozens.
+export const QB_MAX_COURSE_TAGS = 500;
 
 // A diagram or picture on a question: an uploaded image, or a vector drawing
 // pasted as SVG markup (always shown through <img>, so scripts in it never run).
@@ -109,17 +111,23 @@ export const qbQuestionSchema = z
   });
 export type QbQuestionInput = z.input<typeof qbQuestionSchema>;
 
-export const qbCourseSchema = z.object({
-  title: trimmed(200).min(3),
-  code: optionalText(40),
-  level: z.enum(QB_LEVEL_IDS),
-  description: optionalText(5000),
-  coverUrl: optionalText(500),
-  examQuestions: z.number().int().min(QB_EXAM.minQuestions).max(QB_EXAM.maxQuestions).default(20),
-  examMinutes: z.number().int().min(QB_EXAM.minMinutes).max(QB_EXAM.maxMinutes).default(30),
-  status: z.enum(["draft", "published"]).default("draft"),
-  tags: z.array(trimmed(60).min(1)).max(20).default([]),
-});
+export const qbCourseSchema = z
+  .object({
+    title: trimmed(200).min(3),
+    code: optionalText(40),
+    level: z.enum(QB_LEVEL_IDS),
+    description: optionalText(5000),
+    coverUrl: optionalText(500),
+    examQuestions: z.number().int().min(QB_EXAM.minQuestions).max(QB_EXAM.maxQuestions).default(20),
+    examMinutes: z.number().int().min(QB_EXAM.minMinutes).max(QB_EXAM.maxMinutes).default(30),
+    // Free until a subscription is switched on. No days means access doesn't expire.
+    subscriptionEnabled: z.boolean().default(false),
+    subscriptionFee: z.number().min(0).max(100_000).default(0),
+    subscriptionDays: z.number().int().min(1).max(3650).nullable().default(30),
+    status: z.enum(["draft", "published"]).default("draft"),
+    tags: z.array(trimmed(60).min(1)).max(QB_MAX_COURSE_TAGS).default([]),
+  })
+  .refine((c) => !c.subscriptionEnabled || c.subscriptionFee >= 1, { path: ["subscriptionFee"], message: "Set a fee of at least GH₵1, or switch the subscription off" });
 export type QbCourseInput = z.input<typeof qbCourseSchema>;
 
 // A member's own mix: questions from one or more courses, optionally only
@@ -127,7 +135,7 @@ export type QbCourseInput = z.input<typeof qbCourseSchema>;
 export const qbVariationSchema = z.object({
   name: trimmed(120).min(2, "Name your study set"),
   courseIds: z.array(z.number().int().positive()).min(1, "Pick at least one course").max(20),
-  tagIds: z.array(z.number().int().positive()).max(50).default([]),
+  tagIds: z.array(z.number().int().positive()).max(QB_MAX_COURSE_TAGS).default([]),
   examQuestions: z.number().int().min(QB_EXAM.minQuestions).max(QB_EXAM.maxQuestions).default(20),
   examMinutes: z.number().int().min(QB_EXAM.minMinutes).max(QB_EXAM.maxMinutes).default(30),
 });

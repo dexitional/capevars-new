@@ -1,3 +1,4 @@
+import { absoluteUrl } from "#/lib/seo";
 import { useEffect } from "react";
 import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
@@ -27,7 +28,10 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       },
       { name: "theme-color", content: "#041d40" },
       { property: "og:site_name", content: "Capevars" },
-      { property: "og:image", content: asset("og.png") },
+      { property: "og:type", content: "website" },
+      { property: "og:image", content: absoluteUrl("/og.png") },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: absoluteUrl("/og.png") },
     ],
     links: [
       { rel: "icon", type: "image/png", href: asset("favicon.png") },

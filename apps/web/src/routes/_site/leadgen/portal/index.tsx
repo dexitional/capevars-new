@@ -9,10 +9,12 @@ import { Button } from "#/components/ui/button";
 
 type Row = Record<string, any>;
 
-export const Route = createFileRoute("/_site/leadgen/portal/")({ component: PortalHome });
+const summaryQuery = { queryKey: ["leadgen", "summary"], queryFn: () => api.get<Record<string, any>>("/leadgen/portal/summary"), staleTime: 15_000 };
+
+export const Route = createFileRoute("/_site/leadgen/portal/")({ loader: ({ context }) => context.queryClient.prefetchQuery(summaryQuery), component: PortalHome });
 
 function PortalHome() {
-  const { data, error, isFetching, refetch } = useQuery({ queryKey: ["leadgen", "summary"], queryFn: () => api.get<Record<string, any>>("/leadgen/portal/summary") });
+  const { data, error, isFetching, refetch } = useQuery(summaryQuery);
   if (!data && error) {
     return (
       <div role="alert">

@@ -13,11 +13,13 @@ import { Route as SiteRouteRouteImport } from './routes/_site/route'
 import { Route as SiteIndexRouteImport } from './routes/_site/index'
 import { Route as SiteAccountRouteRouteImport } from './routes/_site/account/route'
 import { Route as SiteFinderRouteRouteImport } from './routes/_site/finder/route'
+import { Route as SiteForgotPasswordRouteImport } from './routes/_site/forgot-password'
 import { Route as SiteGroupsRouteRouteImport } from './routes/_site/groups/route'
 import { Route as SiteLeadgenRouteRouteImport } from './routes/_site/leadgen/route'
 import { Route as SiteLearnRouteRouteImport } from './routes/_site/learn/route'
 import { Route as SiteLoginRouteImport } from './routes/_site/login'
 import { Route as SiteMarketRouteRouteImport } from './routes/_site/market/route'
+import { Route as SiteResetPasswordRouteImport } from './routes/_site/reset-password'
 import { Route as SiteSearchRouteImport } from './routes/_site/search'
 import { Route as SiteSellerRouteRouteImport } from './routes/_site/seller/route'
 import { Route as SiteSignupRouteImport } from './routes/_site/signup'
@@ -40,6 +42,7 @@ import { Route as SiteGroupsIndexRouteImport } from './routes/_site/groups/index
 import { Route as SiteGroupsSlugRouteRouteImport } from './routes/_site/groups/$slug/route'
 import { Route as SiteGroupsMineRouteImport } from './routes/_site/groups/mine'
 import { Route as SiteGroupsNewRouteImport } from './routes/_site/groups/new'
+import { Route as SiteKidilearnIndexRouteImport } from './routes/_site/kidilearn/index'
 import { Route as SiteLeadgenIndexRouteImport } from './routes/_site/leadgen/index'
 import { Route as SiteLeadgenBrowseRouteImport } from './routes/_site/leadgen/browse'
 import { Route as SiteLeadgenPortalRouteRouteImport } from './routes/_site/leadgen/portal/route'
@@ -95,6 +98,7 @@ import { Route as SiteGroupsSlugDonateRouteImport } from './routes/_site/groups/
 import { Route as SiteGroupsSlugManageRouteImport } from './routes/_site/groups/$slug/manage'
 import { Route as SiteGroupsSlugMeetingsRouteImport } from './routes/_site/groups/$slug/meetings'
 import { Route as SiteGroupsSlugMembersRouteImport } from './routes/_site/groups/$slug/members'
+import { Route as SiteKidilearnLevelSubjectRouteImport } from './routes/_site/kidilearn/$level.$subject'
 import { Route as SiteLeadgenLSlugRouteImport } from './routes/_site/leadgen/l/$slug'
 import { Route as SiteLeadgenPortalIndexRouteImport } from './routes/_site/leadgen/portal/index'
 import { Route as SiteLeadgenPortalBroadcastRouteImport } from './routes/_site/leadgen/portal/broadcast'
@@ -175,6 +179,11 @@ const SiteFinderRouteRoute = SiteFinderRouteRouteImport.update({
   path: '/finder',
   getParentRoute: () => SiteRouteRoute,
 } as any)
+const SiteForgotPasswordRoute = SiteForgotPasswordRouteImport.update({
+  id: '/forgot-password',
+  path: '/forgot-password',
+  getParentRoute: () => SiteRouteRoute,
+} as any)
 const SiteGroupsRouteRoute = SiteGroupsRouteRouteImport.update({
   id: '/groups',
   path: '/groups',
@@ -198,6 +207,11 @@ const SiteLoginRoute = SiteLoginRouteImport.update({
 const SiteMarketRouteRoute = SiteMarketRouteRouteImport.update({
   id: '/market',
   path: '/market',
+  getParentRoute: () => SiteRouteRoute,
+} as any)
+const SiteResetPasswordRoute = SiteResetPasswordRouteImport.update({
+  id: '/reset-password',
+  path: '/reset-password',
   getParentRoute: () => SiteRouteRoute,
 } as any)
 const SiteSearchRoute = SiteSearchRouteImport.update({
@@ -309,6 +323,11 @@ const SiteGroupsNewRoute = SiteGroupsNewRouteImport.update({
   id: '/new',
   path: '/new',
   getParentRoute: () => SiteGroupsRouteRoute,
+} as any)
+const SiteKidilearnIndexRoute = SiteKidilearnIndexRouteImport.update({
+  id: '/kidilearn/',
+  path: '/kidilearn/',
+  getParentRoute: () => SiteRouteRoute,
 } as any)
 const SiteLeadgenIndexRoute = SiteLeadgenIndexRouteImport.update({
   id: '/',
@@ -585,6 +604,12 @@ const SiteGroupsSlugMembersRoute = SiteGroupsSlugMembersRouteImport.update({
   path: '/members',
   getParentRoute: () => SiteGroupsSlugRouteRoute,
 } as any)
+const SiteKidilearnLevelSubjectRoute =
+  SiteKidilearnLevelSubjectRouteImport.update({
+    id: '/kidilearn/$level/$subject',
+    path: '/kidilearn/$level/$subject',
+    getParentRoute: () => SiteRouteRoute,
+  } as any)
 const SiteLeadgenLSlugRoute = SiteLeadgenLSlugRouteImport.update({
   id: '/l/$slug',
   path: '/l/$slug',
@@ -921,7 +946,9 @@ export interface FileRoutesByFullPath {
   '/seller': typeof SiteSellerRouteRouteWithChildren
   '/social': typeof SiteSocialRouteRouteWithChildren
   '/admin': typeof AdminAdminRouteRouteWithChildren
+  '/forgot-password': typeof SiteForgotPasswordRoute
   '/login': typeof SiteLoginRoute
+  '/reset-password': typeof SiteResetPasswordRoute
   '/search': typeof SiteSearchRoute
   '/signup': typeof SiteSignupRoute
   '/welcome': typeof SiteWelcomeRoute
@@ -981,6 +1008,7 @@ export interface FileRoutesByFullPath {
   '/account/': typeof SiteAccountIndexRoute
   '/finder/': typeof SiteFinderIndexRoute
   '/groups/': typeof SiteGroupsIndexRoute
+  '/kidilearn/': typeof SiteKidilearnIndexRoute
   '/leadgen/': typeof SiteLeadgenIndexRoute
   '/learn/': typeof SiteLearnIndexRoute
   '/market/': typeof SiteMarketIndexRoute
@@ -995,6 +1023,7 @@ export interface FileRoutesByFullPath {
   '/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
   '/leadgen/portal/earnings': typeof SiteLeadgenPortalEarningsRoute
@@ -1058,7 +1087,9 @@ export interface FileRoutesByFullPath {
   '/market/tickets/rentals/$id/flyer': typeof SiteMarketTicketsRentalsIdFlyerRoute
 }
 export interface FileRoutesByTo {
+  '/forgot-password': typeof SiteForgotPasswordRoute
   '/login': typeof SiteLoginRoute
+  '/reset-password': typeof SiteResetPasswordRoute
   '/search': typeof SiteSearchRoute
   '/signup': typeof SiteSignupRoute
   '/welcome': typeof SiteWelcomeRoute
@@ -1115,6 +1146,7 @@ export interface FileRoutesByTo {
   '/account': typeof SiteAccountIndexRoute
   '/finder': typeof SiteFinderIndexRoute
   '/groups': typeof SiteGroupsIndexRoute
+  '/kidilearn': typeof SiteKidilearnIndexRoute
   '/leadgen': typeof SiteLeadgenIndexRoute
   '/learn': typeof SiteLearnIndexRoute
   '/market': typeof SiteMarketIndexRoute
@@ -1129,6 +1161,7 @@ export interface FileRoutesByTo {
   '/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
   '/leadgen/portal/earnings': typeof SiteLeadgenPortalEarningsRoute
@@ -1203,7 +1236,9 @@ export interface FileRoutesById {
   '/_site/seller': typeof SiteSellerRouteRouteWithChildren
   '/_site/social': typeof SiteSocialRouteRouteWithChildren
   '/admin/_admin': typeof AdminAdminRouteRouteWithChildren
+  '/_site/forgot-password': typeof SiteForgotPasswordRoute
   '/_site/login': typeof SiteLoginRoute
+  '/_site/reset-password': typeof SiteResetPasswordRoute
   '/_site/search': typeof SiteSearchRoute
   '/_site/signup': typeof SiteSignupRoute
   '/_site/welcome': typeof SiteWelcomeRoute
@@ -1264,6 +1299,7 @@ export interface FileRoutesById {
   '/_site/account/': typeof SiteAccountIndexRoute
   '/_site/finder/': typeof SiteFinderIndexRoute
   '/_site/groups/': typeof SiteGroupsIndexRoute
+  '/_site/kidilearn/': typeof SiteKidilearnIndexRoute
   '/_site/leadgen/': typeof SiteLeadgenIndexRoute
   '/_site/learn/': typeof SiteLearnIndexRoute
   '/_site/market/': typeof SiteMarketIndexRoute
@@ -1278,6 +1314,7 @@ export interface FileRoutesById {
   '/_site/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/_site/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/_site/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/_site/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/_site/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/_site/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
   '/_site/leadgen/portal/earnings': typeof SiteLeadgenPortalEarningsRoute
@@ -1353,7 +1390,9 @@ export interface FileRouteTypes {
     | '/seller'
     | '/social'
     | '/admin'
+    | '/forgot-password'
     | '/login'
+    | '/reset-password'
     | '/search'
     | '/signup'
     | '/welcome'
@@ -1413,6 +1452,7 @@ export interface FileRouteTypes {
     | '/account/'
     | '/finder/'
     | '/groups/'
+    | '/kidilearn/'
     | '/leadgen/'
     | '/learn/'
     | '/market/'
@@ -1427,6 +1467,7 @@ export interface FileRouteTypes {
     | '/groups/$slug/manage'
     | '/groups/$slug/meetings'
     | '/groups/$slug/members'
+    | '/kidilearn/$level/$subject'
     | '/leadgen/l/$slug'
     | '/leadgen/portal/broadcast'
     | '/leadgen/portal/earnings'
@@ -1490,7 +1531,9 @@ export interface FileRouteTypes {
     | '/market/tickets/rentals/$id/flyer'
   fileRoutesByTo: FileRoutesByTo
   to:
+    | '/forgot-password'
     | '/login'
+    | '/reset-password'
     | '/search'
     | '/signup'
     | '/welcome'
@@ -1547,6 +1590,7 @@ export interface FileRouteTypes {
     | '/account'
     | '/finder'
     | '/groups'
+    | '/kidilearn'
     | '/leadgen'
     | '/learn'
     | '/market'
@@ -1561,6 +1605,7 @@ export interface FileRouteTypes {
     | '/groups/$slug/manage'
     | '/groups/$slug/meetings'
     | '/groups/$slug/members'
+    | '/kidilearn/$level/$subject'
     | '/leadgen/l/$slug'
     | '/leadgen/portal/broadcast'
     | '/leadgen/portal/earnings'
@@ -1634,7 +1679,9 @@ export interface FileRouteTypes {
     | '/_site/seller'
     | '/_site/social'
     | '/admin/_admin'
+    | '/_site/forgot-password'
     | '/_site/login'
+    | '/_site/reset-password'
     | '/_site/search'
     | '/_site/signup'
     | '/_site/welcome'
@@ -1695,6 +1742,7 @@ export interface FileRouteTypes {
     | '/_site/account/'
     | '/_site/finder/'
     | '/_site/groups/'
+    | '/_site/kidilearn/'
     | '/_site/leadgen/'
     | '/_site/learn/'
     | '/_site/market/'
@@ -1709,6 +1757,7 @@ export interface FileRouteTypes {
     | '/_site/groups/$slug/manage'
     | '/_site/groups/$slug/meetings'
     | '/_site/groups/$slug/members'
+    | '/_site/kidilearn/$level/$subject'
     | '/_site/leadgen/l/$slug'
     | '/_site/leadgen/portal/broadcast'
     | '/_site/leadgen/portal/earnings'
@@ -1809,6 +1858,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteFinderRouteRouteImport
       parentRoute: typeof SiteRouteRoute
     }
+    '/_site/forgot-password': {
+      id: '/_site/forgot-password'
+      path: '/forgot-password'
+      fullPath: '/forgot-password'
+      preLoaderRoute: typeof SiteForgotPasswordRouteImport
+      parentRoute: typeof SiteRouteRoute
+    }
     '/_site/groups': {
       id: '/_site/groups'
       path: '/groups'
@@ -1842,6 +1898,13 @@ declare module '@tanstack/react-router' {
       path: '/market'
       fullPath: '/market'
       preLoaderRoute: typeof SiteMarketRouteRouteImport
+      parentRoute: typeof SiteRouteRoute
+    }
+    '/_site/reset-password': {
+      id: '/_site/reset-password'
+      path: '/reset-password'
+      fullPath: '/reset-password'
+      preLoaderRoute: typeof SiteResetPasswordRouteImport
       parentRoute: typeof SiteRouteRoute
     }
     '/_site/search': {
@@ -1997,6 +2060,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/groups/new'
       preLoaderRoute: typeof SiteGroupsNewRouteImport
       parentRoute: typeof SiteGroupsRouteRoute
+    }
+    '/_site/kidilearn/': {
+      id: '/_site/kidilearn/'
+      path: '/kidilearn'
+      fullPath: '/kidilearn/'
+      preLoaderRoute: typeof SiteKidilearnIndexRouteImport
+      parentRoute: typeof SiteRouteRoute
     }
     '/_site/leadgen/': {
       id: '/_site/leadgen/'
@@ -2382,6 +2452,13 @@ declare module '@tanstack/react-router' {
       fullPath: '/groups/$slug/members'
       preLoaderRoute: typeof SiteGroupsSlugMembersRouteImport
       parentRoute: typeof SiteGroupsSlugRouteRoute
+    }
+    '/_site/kidilearn/$level/$subject': {
+      id: '/_site/kidilearn/$level/$subject'
+      path: '/kidilearn/$level/$subject'
+      fullPath: '/kidilearn/$level/$subject'
+      preLoaderRoute: typeof SiteKidilearnLevelSubjectRouteImport
+      parentRoute: typeof SiteRouteRoute
     }
     '/_site/leadgen/l/$slug': {
       id: '/_site/leadgen/l/$slug'
@@ -3151,12 +3228,16 @@ interface SiteRouteRouteChildren {
   SiteMarketRouteRoute: typeof SiteMarketRouteRouteWithChildren
   SiteSellerRouteRoute: typeof SiteSellerRouteRouteWithChildren
   SiteSocialRouteRoute: typeof SiteSocialRouteRouteWithChildren
+  SiteForgotPasswordRoute: typeof SiteForgotPasswordRoute
   SiteLoginRoute: typeof SiteLoginRoute
+  SiteResetPasswordRoute: typeof SiteResetPasswordRoute
   SiteSearchRoute: typeof SiteSearchRoute
   SiteSignupRoute: typeof SiteSignupRoute
   SiteWelcomeRoute: typeof SiteWelcomeRoute
   SiteIndexRoute: typeof SiteIndexRoute
   SiteUUsernameRoute: typeof SiteUUsernameRoute
+  SiteKidilearnIndexRoute: typeof SiteKidilearnIndexRoute
+  SiteKidilearnLevelSubjectRoute: typeof SiteKidilearnLevelSubjectRoute
 }
 
 const SiteRouteRouteChildren: SiteRouteRouteChildren = {
@@ -3168,12 +3249,16 @@ const SiteRouteRouteChildren: SiteRouteRouteChildren = {
   SiteMarketRouteRoute: SiteMarketRouteRouteWithChildren,
   SiteSellerRouteRoute: SiteSellerRouteRouteWithChildren,
   SiteSocialRouteRoute: SiteSocialRouteRouteWithChildren,
+  SiteForgotPasswordRoute: SiteForgotPasswordRoute,
   SiteLoginRoute: SiteLoginRoute,
+  SiteResetPasswordRoute: SiteResetPasswordRoute,
   SiteSearchRoute: SiteSearchRoute,
   SiteSignupRoute: SiteSignupRoute,
   SiteWelcomeRoute: SiteWelcomeRoute,
   SiteIndexRoute: SiteIndexRoute,
   SiteUUsernameRoute: SiteUUsernameRoute,
+  SiteKidilearnIndexRoute: SiteKidilearnIndexRoute,
+  SiteKidilearnLevelSubjectRoute: SiteKidilearnLevelSubjectRoute,
 }
 
 const SiteRouteRouteWithChildren = SiteRouteRoute._addFileChildren(

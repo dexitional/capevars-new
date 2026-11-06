@@ -21,7 +21,7 @@ export interface AdminRow {
   updated_at: string;
 }
 
-export type MemberType = "public" | "student" | "staff" | "alumni";
+export type MemberType = "public" | "student" | "staff" | "alumni" | "business";
 
 export interface UserRow {
   id: number;

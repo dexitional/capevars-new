@@ -24,7 +24,7 @@ const dateTime = z
   .transform((v) => (v.replace("T", " ").length === 16 ? `${v.replace("T", " ")}:00` : v.replace("T", " ")));
 const imageList = urlListSchema(10);
 
-const storeSchema = z.object({
+export const storeSchema = z.object({
   storeName: z.string().trim().min(2).max(150),
   kinds: z.array(z.enum(KINDS)).min(1),
   tagline: optionalText(200),
@@ -43,7 +43,7 @@ const storeSchema = z.object({
   deliveryFee: z.number().min(0).max(10_000).optional(),
   isOpen: z.boolean().optional(),
 });
-const STORE_FIELDS = {
+export const STORE_FIELDS = {
   storeName: "store_name",
   tagline: "tagline",
   description: "description",

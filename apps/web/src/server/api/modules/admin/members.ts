@@ -29,7 +29,7 @@ const memberSchema = z.object({
     .regex(/^[a-z0-9_.]{3,40}$/, "Usernames use 3–40 letters, numbers, dots or underscores"),
   email: z.string().trim().toLowerCase().email("Enter a valid email address").max(150),
   phone: optionalText(30),
-  memberType: z.enum(["public", "student", "staff", "alumni"]),
+  memberType: z.enum(["public", "student", "staff", "alumni", "business"]),
   institution: optionalText(150),
   headline: optionalText(160),
   isVerified: z.boolean().optional(),
@@ -71,7 +71,7 @@ async function assertUnique(email: string | undefined, username: string | undefi
 }
 
 // Whoever may add listings on a member's behalf can look members up, even without the Members page.
-const LOOKUP_ROLES = [...new Set([...rolesWith("products", "manage"), ...rolesWith("tickets", "manage"), ...rolesWith("jobs", "manage")])];
+const LOOKUP_ROLES = [...new Set([...rolesWith("sellers", "manage"), ...rolesWith("products", "manage"), ...rolesWith("tickets", "manage"), ...rolesWith("jobs", "manage")])];
 
 export const adminMembersRoute = new Hono()
   .get("/lookup", requireAdminRole(LOOKUP_ROLES), async (c) => {
@@ -79,7 +79,7 @@ export const adminMembersRoute = new Hono()
     const sellers = c.req.query("sellers") === "1";
     const where = [...(sellers ? ["s.id IS NOT NULL"] : []), ...(q ? ["(u.full_name LIKE ? OR u.username LIKE ? OR u.email LIKE ? OR s.store_name LIKE ?)"] : [])];
     const [rows] = await getPool().query<RowDataPacket[]>(
-      `SELECT u.id, u.full_name, u.username, u.email, u.is_active, s.store_name, s.status AS store_status
+      `SELECT u.id, u.full_name, u.username, u.email, u.phone, u.is_active, s.store_name, s.status AS store_status
        FROM users u LEFT JOIN sellers s ON s.user_id = u.id ${where.length ? `WHERE ${where.join(" AND ")}` : ""} ORDER BY u.full_name LIMIT 25`,
       q ? Array.from({ length: 4 }, () => likePattern(q)) : [],
     );
@@ -110,9 +110,9 @@ export const adminMembersRoute = new Hono()
     await assertUnique(input.email, input.username, id);
     const { columns, params } = toColumns(input, FIELDS);
     if (input.password) {
-      // A new password also clears any sign-in lockout.
-      columns.push("password_hash", "failed_login_attempts", "locked_until");
-      params.push(await bcrypt.hash(input.password, 12), 0, null);
+      // A new password also clears any sign-in lockout and ends their existing sessions.
+      columns.push("password_hash", "failed_login_attempts", "locked_until", "session_valid_from");
+      params.push(await bcrypt.hash(input.password, 12), 0, null, Math.floor(Date.now() / 1000));
     }
     if (input.isActive && !input.password) {
       columns.push("failed_login_attempts");

@@ -5,6 +5,10 @@
 // tickets, a course's enrollments, applications to their jobs. The preview
 // lists those separately so the admin sees them before confirming. Groups and
 // forum threads with other active members survive without them.
+//
+// Payment records, group donations and Quizbank subscription payments stay for
+// the books, so references and totals still add up, but no longer say who they
+// were from.
 import { getPool } from "@cv/db";
 import type { PoolConnection } from "mysql2/promise";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
@@ -59,6 +63,7 @@ const STEPS: Array<Step> = [
   },
   { module: "Account", label: "reports they filed", table: "reports", where: "reporter_id = ?" },
   { module: "Account", label: "notifications", table: "notifications", where: "user_id = ? OR actor_id = ?" },
+  { module: "Account", label: "password reset links", table: "password_resets", where: "user_id = ?", hidden: true },
   { module: "Account", label: "friendships and requests", table: "friendships", where: "requester_id = ? OR addressee_id = ?" },
   { module: "Account", label: "saved items", table: "favourites", where: "user_id = ?" },
   // ---- Marketplace --------------------------------------------------------------------------
@@ -90,7 +95,6 @@ const STEPS: Array<Step> = [
   { module: "Groups", label: "topics", table: "group_topics", where: "user_id = ?" },
   { module: "Groups", label: "posts", table: "group_posts", where: "user_id = ?" },
   { module: "Groups", label: "meetings they set up", table: "group_meetings", where: "created_by = ?" },
-  { module: "Groups", label: "donations", table: "group_donations", where: "user_id = ?" },
   { module: "Groups", label: "group memberships", table: "group_members", where: "user_id = ?" },
   // ---- SocialNet ----------------------------------------------------------------------------
   { module: "SocialNet", label: "reactions", table: "post_reactions", where: "user_id = ?" },
@@ -134,8 +138,6 @@ const STEPS: Array<Step> = [
   { module: "LeadGen", label: "credit history", table: "credit_transactions", where: "user_id = ?" },
   { module: "LeadGen", label: "voucher redemptions", table: "credit_voucher_redemptions", where: "user_id = ?" },
   { module: "LeadGen", label: "credit wallet", table: "broadcast_wallets", where: "user_id = ?" },
-  // ---- Payments -----------------------------------------------------------------------------
-  { module: "Payments", label: "payment records", table: "payments", where: "user_id = ?" },
 ];
 
 const params = (sql: string, id: number) => Array.from(sql.matchAll(/\?/g), () => id);
@@ -157,8 +159,6 @@ const ADJUST = [
   `UPDATE courses c JOIN (SELECT course_id, COUNT(*) AS n FROM enrollments WHERE user_id = ? AND status IN ('active', 'completed') GROUP BY course_id) x
      ON x.course_id = c.id SET c.enrollment_count = IF(c.enrollment_count > x.n, c.enrollment_count - x.n, 0)`,
   `UPDATE qb_courses c JOIN qb_board b ON b.course_id = c.id AND b.user_id = ? SET c.board_count = IF(c.board_count > 0, c.board_count - 1, 0)`,
-  `UPDATE group_campaigns g JOIN (SELECT campaign_id, SUM(amount) AS amount, COUNT(*) AS n FROM group_donations WHERE user_id = ? AND status = 'confirmed' GROUP BY campaign_id) x
-     ON x.campaign_id = g.id SET g.raised_amount = IF(g.raised_amount > x.amount, g.raised_amount - x.amount, 0), g.donor_count = IF(g.donor_count > x.n, g.donor_count - x.n, 0)`,
   `UPDATE credit_vouchers v JOIN credit_voucher_redemptions r ON r.voucher_id = v.id AND r.user_id = ? SET v.redeemed_count = IF(v.redeemed_count > 0, v.redeemed_count - 1, 0)`,
   `UPDATE social_posts p JOIN (SELECT shared_post_id, COUNT(*) AS n FROM social_posts WHERE author_id = ? AND shared_post_id IS NOT NULL GROUP BY shared_post_id) x
      ON x.shared_post_id = p.id SET p.share_count = IF(p.share_count > x.n, p.share_count - x.n, 0)`,
@@ -230,6 +230,109 @@ const RECOUNT: Array<{ ids: string; update: string }> = [
   },
 ];
 
+// One store and everything it sells, leaving its owner's account and the rest of
+// their data alone. Every ? is the store's id.
+const STORE_STEPS: Array<Step> = [
+  {
+    module: "Store",
+    label: "reports about its listings",
+    table: "reports",
+    where: "(entity_type = 'product' AND entity_id IN (SELECT id FROM products WHERE seller_id = ?)) OR (entity_type = 'event' AND entity_id IN (SELECT id FROM ticket_events WHERE seller_id = ?))",
+    hidden: true,
+  },
+  {
+    module: "Store",
+    label: "saves of its listings by members",
+    table: "favourites",
+    where: "(entity_type = 'product' AND entity_id IN (SELECT id FROM products WHERE seller_id = ?)) OR (entity_type = 'event' AND entity_id IN (SELECT id FROM ticket_events WHERE seller_id = ?)) OR (entity_type = 'store' AND entity_id = ?)",
+    others: true,
+  },
+  { module: "Marketplace", label: "customer orders", table: "orders", where: "seller_id = ?", others: true },
+  { module: "E-tickets", label: "tickets customers hold", table: "tickets", where: "event_id IN (SELECT id FROM ticket_events WHERE seller_id = ?) OR trip_id IN (SELECT id FROM bus_trips WHERE seller_id = ?)", others: true },
+  { module: "E-tickets", label: "customer requests for its buses", table: "rental_requests", where: "rental_id IN (SELECT id FROM bus_rentals WHERE seller_id = ?)", others: true },
+  { module: "E-tickets", label: "customer bookings for its exhibitions", table: "exhibition_bookings", where: "exhibition_id IN (SELECT id FROM exhibitions WHERE seller_id = ?)", others: true },
+  { module: "Marketplace", label: "products and menu items", table: "products", where: "seller_id = ?" },
+  { module: "E-tickets", label: "events", table: "ticket_events", where: "seller_id = ?" },
+  { module: "E-tickets", label: "bus trips", table: "bus_trips", where: "seller_id = ?" },
+  { module: "E-tickets", label: "bus rentals", table: "bus_rentals", where: "seller_id = ?" },
+  { module: "E-tickets", label: "exhibitions", table: "exhibitions", where: "seller_id = ?" },
+  { module: "Marketplace", label: "the store itself", table: "sellers", where: "id = ?" },
+];
+
+export async function storePurgePreview(sellerId: number) {
+  const counted = await Promise.all(
+    STORE_STEPS.filter((s) => !s.hidden).map(async (s) => ({ ...s, count: await count(`SELECT COUNT(*) AS n FROM ${s.table} WHERE ${s.where}`, sellerId) })),
+  );
+  const found = counted.filter((s) => s.count > 0);
+  const own = new Map<string, Array<{ label: string; count: number }>>();
+  for (const s of found.filter((x) => !x.others)) own.set(s.module, [...(own.get(s.module) ?? []), { label: s.label, count: s.count }]);
+  return {
+    own: [...own].map(([module, items]) => ({ module, items })),
+    others: found.filter((x) => x.others).map((s) => ({ module: s.module, label: s.label, count: s.count })),
+  };
+}
+
+export async function purgeStore(sellerId: number) {
+  return withTransaction(async (conn) => {
+    let rows = 0;
+    for (const s of STORE_STEPS) {
+      const sql = `DELETE FROM ${s.table} WHERE ${s.where}`;
+      const [res] = await conn.query<ResultSetHeader>(sql, params(sql, sellerId));
+      rows += res.affectedRows;
+    }
+    return rows;
+  });
+}
+
+// One course and everything under it, leaving its teacher's account alone. Every
+// ? is the course's id. Students' payment records stay, as with a member.
+const LESSONS = "(SELECT id FROM course_lessons WHERE course_id = ?)";
+const COURSE_STEPS: Array<Step> = [
+  { module: "Course", label: "reports about it", table: "reports", where: "entity_type = 'course' AND entity_id = ?", hidden: true },
+  { module: "Course", label: "saves by members", table: "favourites", where: "entity_type = 'course' AND entity_id = ?", others: true },
+  { module: "Course", label: "course chat rooms, with students' messages", table: "chat_threads", where: "type = 'course' AND ref_id = ?", others: true },
+  { module: "Course", label: "students enrolled", table: "enrollments", where: "course_id = ?", others: true },
+  { module: "Course", label: "student reviews", table: "course_reviews", where: "course_id = ?", others: true },
+  { module: "Course", label: "discussion posts", table: "course_discussions", where: "course_id = ?", others: true },
+  { module: "Course", label: "assignment submissions", table: "assignment_submissions", where: `lesson_id IN ${LESSONS}`, others: true },
+  { module: "Course", label: "children's kidiLearn lesson progress", table: "kidi_child_progress", where: `lesson_id IN ${LESSONS}`, others: true },
+  { module: "Content", label: "lessons", table: "course_lessons", where: "course_id = ?" },
+  { module: "Content", label: "sections", table: "course_sections", where: "course_id = ?" },
+  { module: "Content", label: "the course itself", table: "courses", where: "id = ?" },
+];
+
+export async function coursePurgePreview(courseId: number) {
+  const counted = await Promise.all(
+    COURSE_STEPS.filter((s) => !s.hidden).map(async (s) => ({ ...s, count: await count(`SELECT COUNT(*) AS n FROM ${s.table} WHERE ${s.where}`, courseId) })),
+  );
+  const paid = await count("SELECT COUNT(*) AS n FROM enrollments WHERE course_id = ? AND amount_paid > 0", courseId);
+  const found = counted.filter((s) => s.count > 0);
+  const own = found.filter((s) => !s.others);
+  return {
+    own: own.length ? [{ module: "Content", items: own.map((s) => ({ label: s.label, count: s.count })) }] : [],
+    others: found
+      .filter((x) => x.others)
+      .flatMap((s) => {
+        const row = { module: s.module, label: s.label, count: s.count };
+        return s.table === "enrollments" && paid ? [row, { module: s.module, label: "of those students, how many paid for it", count: paid }] : [row];
+      }),
+  };
+}
+
+export async function purgeCourse(courseId: number) {
+  return withTransaction(async (conn) => {
+    let rows = 0;
+    // A kidiLearn subject built on it goes dark rather than pointing at nothing.
+    await conn.execute("UPDATE kidi_course_links SET is_active = 0 WHERE course_id = ?", [courseId]);
+    for (const s of COURSE_STEPS) {
+      const sql = `DELETE FROM ${s.table} WHERE ${s.where}`;
+      const [res] = await conn.query<ResultSetHeader>(sql, params(sql, courseId));
+      rows += res.affectedRows;
+    }
+    return rows;
+  });
+}
+
 // Groups they own or started, and forum threads they started, that nobody else is active in.
 const EMPTY_GROUPS = `SELECT g.id FROM campus_groups g WHERE (g.created_by = ? OR g.id IN (SELECT group_id FROM group_members WHERE user_id = ? AND role = 'owner'))
   AND NOT EXISTS (SELECT 1 FROM group_members m WHERE m.group_id = g.id AND m.user_id <> ? AND m.status = 'active')`;
@@ -247,10 +350,12 @@ export async function purgePreview(id: number) {
   const counted = await Promise.all(
     STEPS.filter((s) => !s.hidden).map(async (s) => ({ ...s, count: await count(`SELECT COUNT(*) AS n FROM ${s.table} WHERE ${s.where}`, id) })),
   );
-  const [groups, files, credits] = await Promise.all([
+  const [groups, files, credits, payments, donations] = await Promise.all([
     count(`SELECT COUNT(*) AS n FROM (${EMPTY_GROUPS}) g`, id),
     count("SELECT COUNT(*) AS n FROM media_assets WHERE user_id = ?", id),
     count("SELECT COALESCE(SUM(balance), 0) AS n FROM broadcast_wallets WHERE user_id = ?", id),
+    count("SELECT COUNT(*) AS n FROM payments WHERE user_id = ?", id),
+    count("SELECT (SELECT COUNT(*) FROM group_donations WHERE user_id = ?) + (SELECT COUNT(*) FROM qb_subscriptions WHERE user_id = ? AND status IN ('submitted', 'approved', 'revoked')) AS n", id),
   ]);
   const found = counted.filter((s) => s.count > 0);
   const own = new Map<string, Array<{ label: string; count: number }>>();
@@ -261,6 +366,7 @@ export async function purgePreview(id: number) {
     own: [...own].map(([module, items]) => ({ module, items })),
     others: found.filter((x) => x.others).map((s) => ({ module: s.module, label: s.label, count: s.count })),
     credits,
+    kept: payments + donations,
   };
 }
 
@@ -310,6 +416,10 @@ export async function purgeMember(id: number, stillUsed: (url: string) => Promis
       );
     }
     for (const r of recounts) if (r.ids.length) await conn.query(r.update, [r.ids]);
+    // Removing the account blanks their link on these; this clears what else names them.
+    await conn.execute("UPDATE payments SET email = NULL WHERE user_id = ?", [id]);
+    await conn.execute("UPDATE group_donations SET donor_name = 'Anonymous', message = NULL, is_anonymous = 1 WHERE user_id = ?", [id]);
+    await conn.execute("UPDATE qb_subscriptions SET payer_phone = NULL, status = IF(status = 'awaiting', 'cancelled', status) WHERE user_id = ?", [id]);
     await conn.execute("DELETE FROM users WHERE id = ?", [id]);
     return rows;
   });

@@ -461,11 +461,13 @@ export const ENTITIES: Record<string, Entity> = {
   payments: {
     module: "payments",
     table: "payments",
-    select: `SELECT t.*, t.reference AS title, t.user_id AS owner_id, u.full_name AS payer_name FROM payments t LEFT JOIN users u ON u.id = t.user_id`,
+    // The title goes in the activity log when a payment is deleted, so it says what the record was.
+    select: `SELECT t.*, CONCAT(t.reference, ' (', t.currency, ' ', t.amount, ', ', t.status, ')') AS title, t.user_id AS owner_id, u.full_name AS payer_name FROM payments t LEFT JOIN users u ON u.id = t.user_id`,
     search: ["t.reference", "t.email", "u.full_name"],
     statusColumn: "t.status",
     statuses: ["pending", "success", "failed"],
     actions: {},
+    deletable: true,
   },
 };
 

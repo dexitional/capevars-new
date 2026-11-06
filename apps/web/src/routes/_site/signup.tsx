@@ -6,7 +6,7 @@ import { useMutation } from "@tanstack/react-query";
 import { Loader2 } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
-import { MEMBER_TYPES } from "#/lib/labels";
+import { MEMBER_TYPES, SIGNUP_CATEGORIES } from "#/lib/labels";
 import { useSession } from "#/hooks/useMember";
 import { Input } from "#/components/ui/input";
 import { Label } from "#/components/ui/label";
@@ -28,8 +28,9 @@ export const Route = createFileRoute("/_site/signup")({
 const schema = z.object({
   fullName: z.string().trim().min(2, "Enter your full name"),
   email: z.string().trim().email("Enter a valid email"),
+  phone: z.string().trim().optional(),
   password: z.string().min(8, "Use at least 8 characters"),
-  memberType: z.enum(["public", "student", "staff", "alumni"]),
+  memberType: z.enum(SIGNUP_CATEGORIES),
 });
 type Values = z.infer<typeof schema>;
 
@@ -39,7 +40,7 @@ function SignupPage() {
   const { refresh } = useSession();
   const { register, handleSubmit, setError, watch, setValue, formState: { errors } } = useForm<Values>({
     resolver: zodResolver(schema),
-    defaultValues: { memberType: "student" },
+    defaultValues: { memberType: "public" },
   });
   const memberType = watch("memberType");
   const signup = useMutation({
@@ -66,21 +67,27 @@ function SignupPage() {
           {errors.email && <p className="text-xs text-destructive">{errors.email.message}</p>}
         </div>
         <div className="space-y-1.5">
+          <Label htmlFor="phone">Phone number</Label>
+          <Input id="phone" type="tel" autoComplete="tel" className="h-11" placeholder="024 123 4567" {...register("phone")} />
+          <p className="text-xs text-muted-foreground">Lets you sign in and reset your password by phone as well.</p>
+        </div>
+        <div className="space-y-1.5">
           <Label htmlFor="password">Password</Label>
           <Input id="password" type="password" autoComplete="new-password" className="h-11" {...register("password")} aria-invalid={Boolean(errors.password)} />
           {errors.password && <p className="text-xs text-destructive">{errors.password.message}</p>}
         </div>
         <fieldset>
-          <legend className="mb-1.5 text-sm font-medium">I am a…</legend>
-          <div className="grid grid-cols-2 gap-2">
-            {(Object.keys(MEMBER_TYPES) as Array<Values["memberType"]>).map((t) => (
+          <legend className="mb-1.5 text-sm font-medium">I'm signing up as</legend>
+          <div className="grid grid-cols-3 gap-2">
+            {SIGNUP_CATEGORIES.map((t) => (
               <button
                 key={t}
                 type="button"
                 onClick={() => setValue("memberType", t)}
+                aria-pressed={memberType === t}
                 className={cn("rounded-xl border px-3 py-2 text-sm font-medium", memberType === t ? "border-primary bg-primary text-white" : "hover:bg-muted")}
               >
-                {t === "public" ? "Member of public" : MEMBER_TYPES[t]}
+                {MEMBER_TYPES[t]}
               </button>
             ))}
           </div>

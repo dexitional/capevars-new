@@ -1,4 +1,4 @@
-// Admin-side LeadGen tools: creating sender IDs for members, Capevars' own
+// Admin-side LeadGen tools: creating and editing sender IDs for members, Capevars' own
 // private lead lists shared with chosen members (each until their own expiry
 // date), and confirming members' mobile money top-ups.
 import { useState } from "react";
@@ -15,6 +15,7 @@ import { StatusBadge } from "#/components/site/kit";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Button } from "#/components/ui/button";
+import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "#/components/ui/dialog";
 import { Input } from "#/components/ui/input";
 import { Textarea } from "#/components/ui/textarea";
 
@@ -74,6 +75,60 @@ function PickedMember({ member, onClear }: { member: Member; onClear: () => void
 }
 
 // ---- Sender IDs -----------------------------------------------------------------------------------
+
+export function EditSender({ sender, onClose, onSaved }: { sender: Row; onClose: () => void; onSaved: () => void }) {
+  const [f, setF] = useState({ sender: String(sender.sender), replyTo: String(sender.reply_to ?? ""), purpose: String(sender.purpose ?? "") });
+  const isSms = sender.channel === "sms";
+  const renamed = f.sender.trim() !== sender.sender;
+  const save = useMutation({
+    mutationFn: () => api.patch(`/admin/leadgen/senders/${sender.id}`, f),
+    onSuccess: () => {
+      toast.success("Sender ID updated.");
+      onSaved();
+      onClose();
+    },
+    onError: errorToast("Couldn't save the sender ID."),
+  });
+  return (
+    <Dialog open onOpenChange={(o) => !o && onClose()}>
+      <DialogContent className="sm:max-w-lg">
+        <DialogHeader>
+          <DialogTitle>Edit {isSms ? "SMS" : "email"} sender ID</DialogTitle>
+          <DialogDescription>Belongs to {String(sender.owner_name)}. Its approval status stays as it is.</DialogDescription>
+        </DialogHeader>
+        <form
+          id="edit-sender"
+          className="grid gap-4"
+          onSubmit={(e) => {
+            e.preventDefault();
+            save.mutate();
+          }}
+        >
+          <Field label={isSms ? "Sender name" : "From name"} hint={isSms ? "3–11 letters or numbers." : undefined}>
+            <Input value={f.sender} onChange={(e) => setF({ ...f, sender: e.target.value })} required />
+          </Field>
+          {!isSms && (
+            <Field label="Reply-to email">
+              <Input type="email" value={f.replyTo} onChange={(e) => setF({ ...f, replyTo: e.target.value })} />
+            </Field>
+          )}
+          <Field label="Purpose">
+            <Textarea rows={3} value={f.purpose} onChange={(e) => setF({ ...f, purpose: e.target.value })} required />
+          </Field>
+          {isSms && renamed && sender.status === "approved" && <p className="rounded-lg bg-amber-50 p-3 text-sm text-amber-900">Register the new name in SMSOnlineGH first, or its messages will be rejected. Broadcasts waiting to go out will use the new name.</p>}
+        </form>
+        <DialogFooter>
+          <Button variant="ghost" onClick={onClose}>
+            Cancel
+          </Button>
+          <Button type="submit" form="edit-sender" disabled={save.isPending}>
+            Save changes
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  );
+}
 
 export function CreateSender({ onCreated }: { onCreated: () => void }) {
   const [member, setMember] = useState<Member | null>(null);

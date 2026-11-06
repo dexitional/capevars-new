@@ -10,14 +10,17 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 export interface PickedMember {
   id: number;
   name: string;
+  phone: string | null;
+  email: string;
 }
-type Found = { id: number; full_name: string; username: string; email: string; is_active: number; store_name: string | null; store_status: string | null };
+type Found = { id: number; full_name: string; username: string; email: string; phone: string | null; is_active: number; store_name: string | null; store_status: string | null };
 
 export function MemberPicker({
   title,
   description,
   sellersOnly = false,
   needsStore = false,
+  storeless = false,
   onPick,
   onClose,
 }: {
@@ -27,6 +30,8 @@ export function MemberPicker({
   sellersOnly?: boolean;
   /** The listing needs an approved store; a member without one gets one created. */
   needsStore?: boolean;
+  /** Opening a store: members who already have one can't be picked. */
+  storeless?: boolean;
   onPick: (member: PickedMember) => void;
   onClose: () => void;
 }) {
@@ -43,6 +48,7 @@ export function MemberPicker({
   });
   const blocked = (m: Found) => {
     if (!m.is_active) return "Suspended";
+    if (storeless && m.store_name) return "Has a store";
     if (needsStore && m.store_name && m.store_status !== "approved") return `Store ${m.store_status}`;
     return null;
   };
@@ -69,7 +75,7 @@ export function MemberPicker({
                   key={m.id}
                   type="button"
                   disabled={Boolean(reason)}
-                  onClick={() => onPick({ id: m.id, name: m.store_name ?? m.full_name })}
+                  onClick={() => onPick({ id: m.id, name: m.store_name ?? m.full_name, phone: m.phone, email: m.email })}
                   className="flex w-full items-center gap-3 px-3 py-2 text-left hover:bg-secondary/60 disabled:cursor-not-allowed disabled:opacity-60"
                 >
                   <span className="min-w-0 flex-1">

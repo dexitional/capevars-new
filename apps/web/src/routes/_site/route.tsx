@@ -9,9 +9,13 @@ import type { KidiSession } from "#/lib/kidilearn/family";
 
 export const Route = createFileRoute("/_site")({
   // Resolve the session during SSR so the header renders signed-in state
-  // without a flash; the query stays the client's source of truth.
+  // without a flash; the query stays the client's source of truth. The site
+  // settings come along so no page needs a round trip for its footer and notice.
   beforeLoad: async ({ context }) => {
-    const member = await context.queryClient.ensureQueryData(memberQuery);
+    const [member] = await Promise.all([
+      context.queryClient.ensureQueryData(memberQuery),
+      context.queryClient.prefetchQuery(settingsQuery),
+    ]);
     return { member };
   },
   component: SiteLayout,

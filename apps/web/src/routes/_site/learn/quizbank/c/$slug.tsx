@@ -13,18 +13,23 @@ import type { QbCourseCard } from "#/components/quizbank/kit";
 import { ExamSettingsFields, clampSettings, useStartExam } from "#/components/quizbank/exam-settings";
 import type { ExamSettings } from "#/components/quizbank/exam-settings";
 import { StudySetDialog, TopicPicker, useTopics } from "#/components/quizbank/topics";
+import { SubscribeCard } from "#/components/quizbank/subscribe";
+import type { QbAccess } from "#/components/quizbank/subscribe";
+import { QB_LEVELS } from "#/lib/quizbank";
 import type { QbTopic } from "#/lib/quizbank";
+import { breadcrumbJsonLd, courseJsonLd, pageSeo, quizbankCourseName, quizbankDescription, quizbankSummary, realTopics } from "#/lib/seo";
 import { Button } from "#/components/ui/button";
 
 type Attempt = { id: number; title: string | null; status: string; score: number | null; maxScore: number | null; minutes: number; questions: number; startedAt: string; submittedAt: string | null };
 type CourseData = {
   course: QbCourseCard & { questionTypes: Partial<Record<"choice" | "text", number>> };
+  access: QbAccess;
   topics: { topics: Array<QbTopic>; total: number; untagged: number };
   board: (ExamSettings & { tagIds: Array<number>; studyPosition: number; custom: boolean }) | null;
   attempts: Array<Attempt>;
 };
 
-const courseQuery = (slug: string) => ({ queryKey: ["qb-course", slug], queryFn: () => api.get<CourseData>(`/learn/quizbank/courses/${slug}`) });
+const courseQuery = (slug: string) => ({ queryKey: ["qb-course", slug], queryFn: () => api.get<CourseData>(`/learn/quizbank/courses/${slug}`), staleTime: 30_000 });
 
 export const Route = createFileRoute("/_site/learn/quizbank/c/$slug")({
   loader: async ({ context, params }) => {
@@ -35,7 +40,34 @@ export const Route = createFileRoute("/_site/learn/quizbank/c/$slug")({
       throw err;
     }
   },
-  head: ({ loaderData }) => ({ meta: loaderData ? [{ title: `${loaderData.course.title} | Quizbank` }] : [] }),
+  head: ({ loaderData, params }) => {
+    if (!loaderData) return {};
+    const c = loaderData.course;
+    const name = quizbankCourseName(c);
+    const path = `/learn/quizbank/c/${params.slug}`;
+    const image = `/og/quizbank/${params.slug}.png`;
+    const description = quizbankSummary(c, loaderData.topics.topics);
+    return pageSeo({
+      title: `${name} Past Questions & Answers | Capevars Quizbank`,
+      description,
+      path,
+      image,
+      imageAlt: `${name} past questions on Capevars Quizbank`,
+      jsonLd: [
+        courseJsonLd({
+          name: `${name} Past Questions`,
+          description: quizbankDescription(c, loaderData.topics.topics),
+          path,
+          image,
+          code: c.code,
+          level: QB_LEVELS[c.level],
+          topics: realTopics(loaderData.topics.topics),
+          price: c.fee,
+        }),
+        breadcrumbJsonLd([["OpenLearn", "/learn"], ["Quizbank", "/learn/quizbank"], [name, path]]),
+      ],
+    });
+  },
   component: CoursePage,
 });
 
@@ -60,7 +92,8 @@ function CoursePage() {
   useEffect(() => {
     setTagIds(boardTags ? boardTags.split(",").map(Number) : []);
   }, [boardTags]);
-  const topics = useTopics(data ? [data.course.id] : [], tagIds);
+  // The page already knows the course's topics; this is only for how many questions a choice of them covers.
+  const topics = useTopics(data ? [data.course.id] : [], tagIds, tagIds.length > 0);
   const add = useMutation({
     mutationFn: () => api.post(`/learn/quizbank/board/${data!.course.id}`),
     onSuccess: () => {
@@ -87,6 +120,7 @@ function CoursePage() {
   const c = data.course;
   const matching = tagIds.length ? (topics.data?.matching ?? c.questionCount) : c.questionCount;
   const empty = matching === 0;
+  const locked = data.access.required && !data.access.active;
   const startExam = () =>
     requireMember(() => {
       const v = clampSettings(settings, matching);
@@ -147,24 +181,27 @@ function CoursePage() {
               </span>
               <h2 className="mt-3 text-lg font-black text-primary">Study mode</h2>
               <p className="mt-1 text-sm text-muted-foreground">No timer. Pick an option to see a hint about it; get it right to unlock the lesson behind the answer. Written answers get instant feedback.</p>
-              <Button
-                asChild
-                variant="outline"
-                className="attention-ping mt-4 bg-accent text-accent-foreground duration-200 hover:rotate-2 hover:scale-105 hover:bg-brand-cream motion-reduce:transform-none"
-                disabled={empty}
-              >
-                <Link to="/learn/quizbank/c/$slug/study" params={{ slug }} search={data.board ? {} : { tags: tagIds.join(",") }}>
-                  <Brain /> {data.board?.studyPosition ? "Continue studying" : "Start studying"}
-                </Link>
-              </Button>
+              {locked ? (
+                <p className="mt-4 text-sm font-semibold text-amber-900">Subscribe to start studying.</p>
+              ) : (
+                <Button
+                  asChild
+                  variant="outline"
+                  className="attention-ping mt-4 bg-accent text-accent-foreground duration-200 hover:rotate-2 hover:scale-105 hover:bg-brand-cream motion-reduce:transform-none"
+                  disabled={empty}
+                >
+                  <Link to="/learn/quizbank/c/$slug/study" params={{ slug }} search={data.board ? {} : { tags: tagIds.join(",") }}>
+                    <Brain /> {data.board?.studyPosition ? "Continue studying" : "Start studying"}
+                  </Link>
+                </Button>
+              )}
             </div>
           </div>
-          {c.description && (
-            <section className="rounded-2xl border bg-white p-6">
-              <h2 className="text-lg font-black text-primary">About this course</h2>
-              <TextBlock text={c.description} className="mt-2 text-sm leading-relaxed" />
-            </section>
-          )}
+          <section className="rounded-2xl border bg-white p-6">
+            <h2 className="text-lg font-black text-primary">About this course</h2>
+            <TextBlock text={quizbankDescription(c, data.topics.topics)} className="mt-2 text-sm leading-relaxed" />
+            {c.description && <TextBlock text={c.description} className="mt-2 text-sm leading-relaxed" />}
+          </section>
           {member && data.attempts.length > 0 && (
             <section className="overflow-hidden rounded-2xl border bg-white">
               <h2 className="border-b px-5 py-3 font-bold text-primary">Your exam history</h2>
@@ -200,6 +237,7 @@ function CoursePage() {
         </div>
 
         <aside className="h-fit space-y-4 rounded-2xl border bg-white p-5 lg:sticky lg:top-24">
+          {data.access.required && <SubscribeCard courseId={c.id} title={c.title} access={data.access} onChanged={() => void refetch()} />}
           <div className="flex items-center justify-between gap-2">
             <h2 className="font-black text-primary">Study Board</h2>
             {data.board ? (
@@ -222,7 +260,7 @@ function CoursePage() {
               <Tags className="size-4" /> Topics
             </p>
             <p className="mb-3 text-xs text-muted-foreground">{data.board ? "Your study plan for this course. Exams and study draw only from these." : "Narrow the questions to some topics."}</p>
-            <TopicPicker data={topics.data ?? { ...data.topics, matching: c.questionCount }} value={tagIds} onChange={chooseTopics} />
+            <TopicPicker data={(tagIds.length ? topics.data : undefined) ?? { ...data.topics, matching: c.questionCount }} value={tagIds} onChange={chooseTopics} />
             <button type="button" className="mt-3 flex items-center gap-1.5 text-xs font-semibold text-indigo-700 hover:underline" onClick={() => requireMember(() => setSaving(true))}>
               <Layers className="size-3.5" /> Save as a study set, or mix with other courses
             </button>
@@ -230,11 +268,11 @@ function CoursePage() {
           <div className="border-t pt-4">
             <p className="mb-3 text-sm font-bold text-primary">Exam simulation</p>
             <ExamSettingsFields value={settings} max={matching} onChange={setSettings} />
-            <Button className="mt-4 h-11 w-full rounded-xl" disabled={empty || start.isPending} onClick={startExam}>
+            <Button className="mt-4 h-11 w-full rounded-xl" disabled={empty || locked || start.isPending} onClick={startExam}>
               {start.isPending ? <Loader2 className="animate-spin" /> : <Timer />} Start exam
             </Button>
             <p className="mt-2 text-center text-xs text-muted-foreground">
-              {empty ? "No questions match yet." : data.board ? "Your settings are saved to your board." : "Add the course to your board to keep these settings."}
+              {locked ? "Subscribe to sit exams on this course." : empty ? "No questions match yet." : data.board ? "Your settings are saved to your board." : "Add the course to your board to keep these settings."}
             </p>
           </div>
         </aside>

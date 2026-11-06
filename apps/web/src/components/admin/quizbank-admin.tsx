@@ -2,19 +2,21 @@
 // question bank (choice or written questions with per-option hints, diagrams
 // and explanations, shareable across courses), JSON import, moderation of
 // question discussions, and analytics on views and exams.
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { CheckCircle2, Circle, FileJson, ImagePlus, Pencil, Plus, Shapes, Trash2, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
-import { QB_DIFFICULTY, QB_LEVELS, QB_LEVEL_IDS, QB_MAX_OPTIONS, mediaSrc, qbCourseSchema, qbQuestionSchema } from "#/lib/quizbank";
+import { QB_DIFFICULTY, QB_LEVELS, QB_LEVEL_IDS, QB_MAX_COURSE_TAGS, QB_MAX_OPTIONS, mediaSrc, qbCourseSchema, qbQuestionSchema } from "#/lib/quizbank";
 import type { QbCourseInput, QbMedia, QbOption, QbQuestionInput } from "#/lib/quizbank";
-import { Field, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
+import { Field, SearchInput, Segmented, Switch, errorToast } from "#/components/admin/ui";
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { ImageField } from "#/components/admin/media-fields";
 import { ModerationTable } from "#/components/admin/moderation-table";
 import { QuizbankAnalytics } from "#/components/admin/quizbank-analytics";
+import { QuizbankSubscriptions } from "#/components/admin/quizbank-subscriptions";
+import { formatMoney } from "#/lib/money";
 import { TagInput } from "#/components/site/tag-input";
 import { Pager } from "#/components/site/kit";
 import { LevelBadge } from "#/components/quizbank/kit";
@@ -25,7 +27,7 @@ import { Textarea } from "#/components/ui/textarea";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "#/components/ui/dialog";
 
 type Row = Record<string, any>;
-type Tab = "courses" | "questions" | "discussions" | "analytics";
+type Tab = "courses" | "questions" | "discussions" | "subscriptions" | "analytics";
 const selectClass = "h-9 rounded-md border bg-white px-3 text-sm";
 const LETTERS = "ABCDEFGH";
 
@@ -99,6 +101,9 @@ function CourseEditor({ course, onClose }: { course: Row | null; onClose: () => 
     coverUrl: course?.cover_url ?? "",
     examQuestions: course?.exam_questions ?? 20,
     examMinutes: course?.exam_minutes ?? 30,
+    subscriptionEnabled: Boolean(course?.subscription_enabled),
+    subscriptionFee: Number(course?.subscription_fee ?? 0),
+    subscriptionDays: course ? (course.subscription_days as number | null) : 30,
     status: course?.status ?? "draft",
     tags: course?.tags ?? [],
   }));
@@ -147,7 +152,7 @@ function CourseEditor({ course, onClose }: { course: Row | null; onClose: () => 
             </select>
           </Field>
           <Field label="Tags" className="sm:col-span-2" hint="For filtering, e.g. WASSCE, Algebra, Year 1. Press Enter after each; click × to remove.">
-            <TagInput value={d.tags ?? []} onChange={(tags) => set({ tags })} suggestions={knownTags?.items.map((t) => t.name as string)} />
+            <TagInput value={d.tags ?? []} onChange={(tags) => set({ tags })} max={QB_MAX_COURSE_TAGS} suggestions={knownTags?.items.map((t) => t.name as string)} />
           </Field>
           <Field label="Description" className="sm:col-span-2">
             <Textarea rows={3} value={d.description ?? ""} onChange={(e) => set({ description: e.target.value })} />
@@ -158,6 +163,26 @@ function CourseEditor({ course, onClose }: { course: Row | null; onClose: () => 
           <Field label="Default exam minutes">
             <Input type="number" min={1} max={300} value={d.examMinutes} onChange={(e) => set({ examMinutes: Number(e.target.value) })} />
           </Field>
+          <div className="grid gap-3 rounded-lg border p-3 sm:col-span-2 sm:grid-cols-2">
+            <div className="sm:col-span-2">
+              <Switch
+                checked={Boolean(d.subscriptionEnabled)}
+                onChange={(v) => set({ subscriptionEnabled: v })}
+                label="Charge a subscription"
+                description="Off, the course is free. On, members pay by mobile money before they can study it or sit its exams."
+              />
+            </div>
+            {d.subscriptionEnabled && (
+              <>
+                <Field label="Fee (GH₵)">
+                  <Input type="number" min={1} step="0.01" value={d.subscriptionFee || ""} onChange={(e) => set({ subscriptionFee: Number(e.target.value) })} required />
+                </Field>
+                <Field label="Access lasts (days)" hint="Leave empty if it doesn't expire.">
+                  <Input type="number" min={1} max={3650} value={d.subscriptionDays ?? ""} onChange={(e) => set({ subscriptionDays: e.target.value ? Number(e.target.value) : null })} />
+                </Field>
+              </>
+            )}
+          </div>
           <ImageField label="Cover image (optional)" value={d.coverUrl} onChange={(url) => set({ coverUrl: url ?? "" })} folder="courses" aspect="wide" className="sm:col-span-2" />
           <Field label="Status">
             <select className={selectClass} value={d.status} onChange={(e) => set({ status: e.target.value as "draft" | "published" })}>
@@ -251,11 +276,73 @@ function ImportDialog({ course, onClose }: { course: Row; onClose: () => void })
   );
 }
 
+// The first two tags, with the rest a click away in a popup, so the column stays narrow.
+const TAGS_SHOWN = 2;
+
+function CourseTags({ title, tags }: { title: string; tags: Array<string> }) {
+  const [open, setOpen] = useState(false);
+  if (!tags.length) return <span className="text-xs text-muted-foreground">—</span>;
+  const chip = "rounded-full bg-secondary px-2 py-0.5 text-[11px] font-medium text-primary/80";
+  return (
+    <div className="flex items-center gap-1 whitespace-nowrap">
+      {tags.slice(0, TAGS_SHOWN).map((t) => (
+        <span key={t} className={cn(chip, "max-w-24 truncate")} title={t}>
+          #{t}
+        </span>
+      ))}
+      {tags.length > TAGS_SHOWN && (
+        <button type="button" onClick={() => setOpen(true)} className="rounded-full border px-2 py-0.5 text-[11px] font-semibold text-primary hover:bg-secondary" aria-label={`Show all ${tags.length} tags for ${title}`}>
+          +{tags.length - TAGS_SHOWN}
+        </button>
+      )}
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="sm:max-w-lg">
+          <DialogHeader>
+            <DialogTitle>{title}</DialogTitle>
+            <DialogDescription>
+              {tags.length} tag{tags.length === 1 ? "" : "s"}
+            </DialogDescription>
+          </DialogHeader>
+          <div className="flex max-h-[60vh] flex-wrap gap-1.5 overflow-y-auto">
+            {tags.map((t) => (
+              <span key={t} className={chip}>
+                #{t}
+              </span>
+            ))}
+          </div>
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}
+
 function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
   const queryClient = useQueryClient();
   const { data } = useCourses();
   const [editing, setEditing] = useState<Row | "new" | null>(null);
   const [importing, setImporting] = useState<Row | null>(null);
+  const [q, setQ] = useState("");
+  const [level, setLevel] = useState("");
+  const [status, setStatus] = useState("");
+  const [access, setAccess] = useState<"" | "free" | "charging">("");
+  const filtering = Boolean(q.trim() || level || status || access);
+  // Every course is already loaded, so this filters as they type.
+  const rows = useMemo(() => {
+    const term = q.trim().toLowerCase();
+    return (data?.items ?? []).filter(
+      (c) =>
+        (!term || [c.title, c.code, c.slug, ...c.tags].some((v) => String(v ?? "").toLowerCase().includes(term))) &&
+        (!level || c.level === level) &&
+        (!status || c.status === status) &&
+        (!access || Boolean(c.subscription_enabled) === (access === "charging")),
+    );
+  }, [data, q, level, status, access]);
+  const clear = () => {
+    setQ("");
+    setLevel("");
+    setStatus("");
+    setAccess("");
+  };
   const remove = useMutation({
     mutationFn: (id: number) => api.delete(`/admin/quizbank/courses/${id}`),
     onSuccess: () => void queryClient.invalidateQueries({ queryKey: ["admin-qb-courses"] }),
@@ -263,8 +350,40 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
   });
   return (
     <div className="space-y-4">
-      <div className="flex justify-end">
-        <Button onClick={() => setEditing("new")}>
+      <div className="flex flex-wrap items-center gap-2">
+        <SearchInput value={q} onChange={setQ} placeholder="Search title, code or tag" className="w-64" />
+        <select className={selectClass} value={level} onChange={(e) => setLevel(e.target.value)} aria-label="Level">
+          <option value="">All levels</option>
+          {QB_LEVEL_IDS.map((l) => (
+            <option key={l} value={l}>
+              {QB_LEVELS[l]}
+            </option>
+          ))}
+        </select>
+        <select className={selectClass} value={status} onChange={(e) => setStatus(e.target.value)} aria-label="Status">
+          <option value="">All statuses</option>
+          <option value="published">Published</option>
+          <option value="draft">Draft</option>
+        </select>
+        <select className={selectClass} value={access} onChange={(e) => setAccess(e.target.value as typeof access)} aria-label="Access">
+          <option value="">Free and charging</option>
+          <option value="free">Free</option>
+          <option value="charging">Charging</option>
+        </select>
+        {data && (
+          <span className="text-xs text-muted-foreground">
+            {filtering ? `${rows.length} of ${data.items.length}` : data.items.length} courses
+            {filtering && (
+              <>
+                {" · "}
+                <button type="button" className="font-semibold text-primary underline" onClick={clear}>
+                  clear
+                </button>
+              </>
+            )}
+          </span>
+        )}
+        <Button className="ml-auto" onClick={() => setEditing("new")}>
           <Plus /> New course
         </Button>
       </div>
@@ -282,7 +401,7 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
             </tr>
           </thead>
           <tbody className="divide-y">
-            {data?.items.map((c) => (
+            {rows.map((c) => (
               <tr key={c.id}>
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-2">
@@ -290,7 +409,9 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
                     <TitleCell title={c.title} sub={c.code ?? c.slug} />
                   </div>
                 </td>
-                <td className="max-w-56 px-4 py-3 text-xs text-muted-foreground">{c.tags.length ? c.tags.map((t: string) => `#${t}`).join(" ") : "—"}</td>
+                <td className="px-4 py-3">
+                  <CourseTags title={c.title} tags={c.tags} />
+                </td>
                 <td className="px-4 py-3">
                   <button type="button" className="font-semibold text-primary underline" onClick={() => onQuestions(c.id)}>
                     {c.question_count}
@@ -303,6 +424,9 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
                 <td className="px-4 py-3 text-xs">{c.board_count}</td>
                 <td className="px-4 py-3">
                   <StatusCell row={c} />
+                  <span className="mt-1 block text-[11px] whitespace-nowrap text-muted-foreground">
+                    {c.subscription_enabled ? `${formatMoney(c.subscription_fee)} · ${c.subscription_days ? `${c.subscription_days} days` : "no expiry"}` : "Free"}
+                  </span>
                 </td>
                 <td className="px-4 py-3 text-right whitespace-nowrap">
                   <Button size="icon-sm" variant="ghost" onClick={() => setImporting(c)} aria-label="Import questions" title="Import questions (JSON)">
@@ -315,7 +439,7 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
                     size="icon-sm"
                     variant="ghost"
                     className="text-destructive"
-                    onClick={() => confirm(`Delete "${c.title}"? Its questions stay in the bank.`) && remove.mutate(c.id)}
+                    onClick={() => confirm(`Delete "${c.title}"? Its questions stay in the bank.${Number(c.active_subscribers) ? ` ${c.active_subscribers} member(s) with a paid subscription lose access, and nothing is refunded automatically.` : ""}`) && remove.mutate(c.id)}
                     aria-label="Delete course"
                   >
                     <Trash2 />
@@ -325,7 +449,7 @@ function Courses({ onQuestions }: { onQuestions: (courseId: number) => void }) {
             ))}
           </tbody>
         </table>
-        {data?.items.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">No courses yet. Create one, then add or import questions.</p>}
+        {data && rows.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">{data.items.length ? "No courses match these filters." : "No courses yet. Create one, then add or import questions."}</p>}
       </div>
       {editing && <CourseEditor course={editing === "new" ? null : editing} onClose={() => setEditing(null)} />}
       {importing && <ImportDialog course={importing} onClose={() => setImporting(null)} />}
@@ -631,7 +755,7 @@ function Questions({ courseId, setCourseId }: { courseId: number | undefined; se
             </option>
           ))}
         </select>
-        <select className={selectClass} value={type} onChange={(e) => setType(e.target.value as typeof type)} aria-label="Type">
+        <select className={selectClass} value={type} onChange={(e) => (setType(e.target.value as typeof type), setPage(1))} aria-label="Type">
           <option value="">All types</option>
           <option value="choice">Multiple choice</option>
           <option value="text">Written</option>
@@ -707,6 +831,7 @@ export function QuizbankAdmin() {
           { value: "courses", label: "Courses & tags" },
           { value: "questions", label: "Question bank" },
           { value: "discussions", label: "Discussions" },
+          { value: "subscriptions", label: "Subscriptions" },
           { value: "analytics", label: "Analytics" },
         ]}
       />
@@ -719,6 +844,7 @@ export function QuizbankAdmin() {
         />
       )}
       {tab === "questions" && <Questions courseId={courseId} setCourseId={setCourseId} />}
+      {tab === "subscriptions" && <QuizbankSubscriptions />}
       {tab === "analytics" && <QuizbankAnalytics />}
       {tab === "discussions" && (
         <ModerationTable

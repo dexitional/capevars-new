@@ -23,7 +23,7 @@ export const Route = createFileRoute("/_site/login")({
   component: LoginPage,
 });
 
-const schema = z.object({ email: z.string().trim().email("Enter a valid email"), password: z.string().min(1, "Enter your password") });
+const schema = z.object({ identifier: z.string().trim().min(1, "Enter your email or phone number"), password: z.string().min(1, "Enter your password") });
 type Values = z.infer<typeof schema>;
 
 function LoginPage() {
@@ -43,15 +43,20 @@ function LoginPage() {
     <AuthShell title="Welcome back" subtitle="Sign in to continue to Capevars.">
       {error && <p className="mb-4 rounded-xl bg-destructive/10 px-3 py-2 text-sm text-destructive">{OAUTH_ERRORS[error] ?? "Sign-in failed. Please try again."}</p>}
       <GoogleButton next={safeNext(next)} />
-      <Divider text="or with email" />
+      <Divider text="or with email or phone" />
       <form onSubmit={handleSubmit((v) => login.mutate(v))} className="space-y-4" noValidate>
         <div className="space-y-1.5">
-          <Label htmlFor="email">Email</Label>
-          <Input id="email" type="email" autoComplete="email" className="h-11" {...register("email")} aria-invalid={Boolean(errors.email)} />
-          {errors.email && <p className="text-xs text-destructive">{errors.email.message}</p>}
+          <Label htmlFor="identifier">Email or phone number</Label>
+          <Input id="identifier" autoComplete="username" className="h-11" {...register("identifier")} aria-invalid={Boolean(errors.identifier)} />
+          {errors.identifier && <p className="text-xs text-destructive">{errors.identifier.message}</p>}
         </div>
         <div className="space-y-1.5">
-          <Label htmlFor="password">Password</Label>
+          <div className="flex items-center justify-between gap-2">
+            <Label htmlFor="password">Password</Label>
+            <Link to="/forgot-password" className="text-xs font-semibold text-primary hover:underline">
+              Forgot password?
+            </Link>
+          </div>
           <Input id="password" type="password" autoComplete="current-password" className="h-11" {...register("password")} aria-invalid={Boolean(errors.password)} />
           {errors.password && <p className="text-xs text-destructive">{errors.password.message}</p>}
         </div>

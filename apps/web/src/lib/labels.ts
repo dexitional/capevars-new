@@ -91,7 +91,9 @@ export const ORDER_STATUSES: Record<string, string> = {
   cancelled: "Cancelled",
 };
 
-export const MEMBER_TYPES: Record<string, string> = { public: "Member of the public", student: "Student", staff: "Staff", alumni: "Alumni" };
+export const MEMBER_TYPES: Record<string, string> = { public: "Individual", student: "Student", business: "Business", staff: "Staff", alumni: "Alumni" };
+// What new members choose from. Staff and alumni stay for those who already have them.
+export const SIGNUP_CATEGORIES = ["public", "student", "business"] as const;
 
 export const SELLER_KINDS: Record<string, { label: string; text: string }> = {
   products: { label: "Products", text: "Sell new or used items in the marketplace." },

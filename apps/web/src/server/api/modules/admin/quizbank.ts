@@ -1,6 +1,7 @@
 // Admin authoring for OpenLearn Quizbank: courses (level, tags, exam
 // defaults), the question bank (a question can sit in several courses), JSON
-// import of questions into a course, and analytics on views and exams.
+// import of questions into a course, analytics on views and exams, and course
+// subscriptions: the fee on each course, and confirming members' payments.
 import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
@@ -17,6 +18,9 @@ import { uniqueSlug } from "../../lib/slug.js";
 import { withTransaction } from "../../lib/tx.js";
 import { json, options, questionTags, recountCourses, setCourseTags, setQuestionTags, tagsFor } from "../../lib/quizbank.js";
 import { qbAnalytics, qbAnalyticsQuerySchema, qbCourseAnalytics } from "../../lib/quizbank-analytics.js";
+import { ACTIVE_SUBSCRIPTION, approveSubscription, rejectSubscription, resendSubscriptionAlert, revokeSubscription } from "../../lib/quizbank-subscriptions.js";
+import { notify } from "../../lib/notify.js";
+import { DEFAULT_SETTINGS, mergeSetting } from "#/lib/settings";
 
 type QuestionInput = z.output<typeof qbQuestionSchema>;
 
@@ -90,7 +94,68 @@ function questionDetail(row: RowDataPacket, courseIds: Array<number>, tags: Arra
   };
 }
 
+const reasonSchema = z.object({ reason: z.string().trim().min(3, "Give a reason").max(300) });
+const courseLink = "/learn/quizbank";
+
 export const adminQuizbankRoute = new Hono()
+  // ---- Subscriptions ---------------------------------------------------------------------------
+  .get("/subscriptions", requirePermission("learn", "view"), async (c) => {
+    const status = c.req.query("status") ?? "submitted";
+    const q = (c.req.query("q") ?? "").trim().slice(0, 100);
+    const where = ["(? = 'all' OR s.status = ?)"];
+    const params: Array<string> = [status, status];
+    if (q) {
+      where.push("(s.reference LIKE ? OR s.transaction_id LIKE ? OR s.course_title LIKE ? OR c.code LIKE ? OR u.full_name LIKE ? OR u.email LIKE ?)");
+      params.push(...Array<string>(6).fill(likePattern(q)));
+    }
+    const pool = getPool();
+    const [[items], [counts], [totals], [setting]] = await Promise.all([
+      pool.query<RowDataPacket[]>(
+        `SELECT s.*, ${ACTIVE_SUBSCRIPTION} AS is_active, u.full_name, u.email, u.phone, c.code AS course_code
+         FROM qb_subscriptions s LEFT JOIN users u ON u.id = s.user_id LEFT JOIN qb_courses c ON c.id = s.course_id
+         WHERE ${where.join(" AND ")} ORDER BY s.status = 'submitted' DESC, s.id DESC LIMIT 200`,
+        params,
+      ),
+      pool.query<RowDataPacket[]>("SELECT status, COUNT(*) AS n FROM qb_subscriptions GROUP BY status"),
+      pool.query<RowDataPacket[]>(`SELECT COALESCE(SUM(CASE WHEN s.status = 'approved' THEN s.amount_ghs END), 0) AS revenue, COUNT(DISTINCT CASE WHEN ${ACTIVE_SUBSCRIPTION} THEN CONCAT(s.user_id, ':', s.course_id) END) AS active FROM qb_subscriptions s`),
+      pool.query<RowDataPacket[]>("SELECT value FROM site_settings WHERE setting_key = 'quizbank'"),
+    ]);
+    return c.json({
+      items,
+      counts: Object.fromEntries(counts.map((r) => [r.status, Number(r.n)])),
+      revenue: Number(totals[0]?.revenue ?? 0),
+      activeCount: Number(totals[0]?.active ?? 0),
+      account: (setting[0] ? mergeSetting("quizbank", setting[0].value) : DEFAULT_SETTINGS.quizbank).momoAccount,
+    });
+  })
+  .post("/subscriptions/:id/approve", requirePermission("learn", "manage"), async (c) => {
+    const admin = c.get("admin");
+    const r = await approveSubscription(Number(c.req.param("id")), admin.id, null);
+    notify(r.user_id as number, { kind: "moderation", title: `Your payment was confirmed. ${r.course_title} is open`, link: courseLink });
+    logActivity(admin.id, "approved", "qb_subscriptions", r.id as number, `Confirmed ${r.reference}: GHS ${r.amount_ghs} for "${r.course_title}"`);
+    return c.json({ ok: true });
+  })
+  .post("/subscriptions/:id/reject", requirePermission("learn", "manage"), validate("json", reasonSchema), async (c) => {
+    const admin = c.get("admin");
+    const { reason } = c.req.valid("json");
+    const r = await rejectSubscription(Number(c.req.param("id")), admin.id, reason);
+    if (r.user_id) notify(r.user_id as number, { kind: "moderation", title: `Your payment ${r.reference} for ${r.course_title} wasn't confirmed`, body: reason, link: "/account/payments" });
+    logActivity(admin.id, "rejected", "qb_subscriptions", r.id as number, `Rejected ${r.reference} — ${reason}`);
+    return c.json({ ok: true });
+  })
+  .post("/subscriptions/:id/revoke", requirePermission("learn", "manage"), validate("json", reasonSchema), async (c) => {
+    const admin = c.get("admin");
+    const { reason } = c.req.valid("json");
+    const r = await revokeSubscription(Number(c.req.param("id")), admin.id, reason);
+    if (r.user_id) notify(r.user_id as number, { kind: "moderation", title: `Your access to ${r.course_title} was ended`, body: reason, link: "/account/payments" });
+    logActivity(admin.id, "suspended", "qb_subscriptions", r.id as number, `Revoked ${r.reference} — ${reason}`);
+    return c.json({ ok: true });
+  })
+  .post("/subscriptions/:id/alert", requirePermission("learn", "manage"), async (c) => {
+    const status = await resendSubscriptionAlert(Number(c.req.param("id")));
+    if (!status.startsWith("sent")) throw new AppError(`The SMS alert failed again (${status.replace(/^failed: /, "")}).`, 409);
+    return c.json({ status });
+  })
   // ---- Analytics -------------------------------------------------------------------------------
   .get("/analytics", requirePermission("learn", "view"), validate("query", qbAnalyticsQuerySchema), async (c) => c.json(await qbAnalytics(c.req.valid("query").days)))
   .get("/analytics/courses/:id", requirePermission("learn", "view"), validate("query", qbAnalyticsQuerySchema), async (c) => {
@@ -103,7 +168,8 @@ export const adminQuizbankRoute = new Hono()
   .get("/courses", requirePermission("learn", "view"), async (c) => {
     const q = (c.req.query("q") ?? "").trim();
     const [rows] = await getPool().query<RowDataPacket[]>(
-      `SELECT c.*, (SELECT COUNT(*) FROM qb_course_questions cq WHERE cq.course_id = c.id) AS linked FROM qb_courses c
+      `SELECT c.*, (SELECT COUNT(*) FROM qb_course_questions cq WHERE cq.course_id = c.id) AS linked,
+         (SELECT COUNT(DISTINCT s.user_id) FROM qb_subscriptions s WHERE s.course_id = c.id AND ${ACTIVE_SUBSCRIPTION}) AS active_subscribers FROM qb_courses c
        ${q ? "WHERE c.title LIKE ? OR c.code LIKE ?" : ""} ORDER BY c.level, c.title LIMIT 500`,
       q ? [likePattern(q), likePattern(q)] : [],
     );
@@ -126,9 +192,9 @@ export const adminQuizbankRoute = new Hono()
     const slug = await uniqueSlug("qb_courses", input.code ? `${input.code} ${input.title}` : input.title, null);
     const id = await withTransaction(async (conn) => {
       const [res] = await conn.execute<ResultSetHeader>(
-        `INSERT INTO qb_courses (slug, title, code, level, description, cover_url, exam_questions, exam_minutes, status, created_by)
-         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
-        [slug, input.title, input.code ?? null, input.level, input.description ?? null, input.coverUrl ?? null, input.examQuestions, input.examMinutes, input.status, admin.id],
+        `INSERT INTO qb_courses (slug, title, code, level, description, cover_url, exam_questions, exam_minutes, subscription_enabled, subscription_fee, subscription_days, status, created_by)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        [slug, input.title, input.code ?? null, input.level, input.description ?? null, input.coverUrl ?? null, input.examQuestions, input.examMinutes, input.subscriptionEnabled ? 1 : 0, input.subscriptionFee, input.subscriptionDays, input.status, admin.id],
       );
       await setCourseTags(conn, res.insertId, input.tags);
       return res.insertId;
@@ -141,8 +207,8 @@ export const adminQuizbankRoute = new Hono()
     const input = c.req.valid("json");
     await withTransaction(async (conn) => {
       const [res] = await conn.execute<ResultSetHeader>(
-        `UPDATE qb_courses SET title = ?, code = ?, level = ?, description = ?, cover_url = ?, exam_questions = ?, exam_minutes = ?, status = ? WHERE id = ?`,
-        [input.title, input.code ?? null, input.level, input.description ?? null, input.coverUrl ?? null, input.examQuestions, input.examMinutes, input.status, id],
+        `UPDATE qb_courses SET title = ?, code = ?, level = ?, description = ?, cover_url = ?, exam_questions = ?, exam_minutes = ?, subscription_enabled = ?, subscription_fee = ?, subscription_days = ?, status = ? WHERE id = ?`,
+        [input.title, input.code ?? null, input.level, input.description ?? null, input.coverUrl ?? null, input.examQuestions, input.examMinutes, input.subscriptionEnabled ? 1 : 0, input.subscriptionFee, input.subscriptionDays, input.status, id],
       );
       if (!res.affectedRows) throw new AppError("Course not found.", 404);
       await setCourseTags(conn, id, input.tags);
@@ -152,6 +218,8 @@ export const adminQuizbankRoute = new Hono()
   })
   .delete("/courses/:id", requirePermission("learn", "manage"), async (c) => {
     const id = Number(c.req.param("id"));
+    // Payments stay on record without the course; ones not yet paid can't be finished now.
+    await getPool().execute("UPDATE qb_subscriptions SET status = 'cancelled' WHERE course_id = ? AND status = 'awaiting'", [id]);
     const [rows] = await getPool().execute<RowDataPacket[]>("SELECT title FROM qb_courses WHERE id = ?", [id]);
     if (!rows[0]) throw new AppError("Course not found.", 404);
     // Questions stay in the bank (and in any other courses they belong to).

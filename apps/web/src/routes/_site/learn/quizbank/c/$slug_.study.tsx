@@ -7,6 +7,7 @@ import type { QbLevel, QbPublicQuestion } from "#/lib/quizbank";
 import { Container, EmptyState, Loading } from "#/components/site/kit";
 import { LevelBadge } from "#/components/quizbank/kit";
 import { Studier } from "#/components/quizbank/studier";
+import { Button } from "#/components/ui/button";
 import { useStartExam } from "#/components/quizbank/exam-settings";
 
 type Study = { course: { id: number; slug: string; title: string; level: QbLevel }; topics: Array<string>; position: number; questions: Array<QbPublicQuestion> };
@@ -22,12 +23,13 @@ export const Route = createFileRoute("/_site/learn/quizbank/c/$slug_/study")({
       throw err;
     }
   },
-  head: () => ({ meta: [{ title: "Study mode | Quizbank" }] }),
+  head: () => ({ meta: [{ title: "Study mode | Quizbank" }, { name: "robots", content: "noindex" }] }),
   component: StudyPage,
 });
 
 function StudyPage() {
   const loaded = Route.useLoaderData();
+  const { slug } = Route.useParams();
   const { tags } = Route.useSearch();
   const start = useStartExam();
   const { data, error } = useQuery({
@@ -35,6 +37,17 @@ function StudyPage() {
     queryFn: () => api.get<Study>(`/learn/quizbank/courses/${loaded.course.id}/study`, tags === undefined ? {} : { tags }),
   });
   if (error instanceof ApiError && error.status === 401) return <Container className="py-16 text-center text-muted-foreground">Sign in to study this course.</Container>;
+  if (error instanceof ApiError && error.status === 403)
+    return (
+      <Container className="py-16 text-center">
+        <p className="text-muted-foreground">This course needs a subscription.</p>
+        <Button asChild className="mt-4">
+          <Link to="/learn/quizbank/c/$slug" params={{ slug }}>
+            See how to subscribe
+          </Link>
+        </Button>
+      </Container>
+    );
   if (!data) return <Loading className="py-24" />;
   if (!data.questions.length) return <EmptyState icon={Brain} title="No questions to study" text="No questions match the topics you picked. Choose more topics on the course page." className="m-8" />;
   const tagIds = tags?.split(",").map(Number).filter(Boolean);

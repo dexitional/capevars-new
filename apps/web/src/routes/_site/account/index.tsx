@@ -4,7 +4,7 @@ import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { Loader2, X } from "lucide-react";
 import { api } from "#/lib/api-client";
-import { MEMBER_TYPES } from "#/lib/labels";
+import { MEMBER_TYPES, SIGNUP_CATEGORIES } from "#/lib/labels";
 import { useSession } from "#/hooks/useMember";
 import { ImageUpload, Loading } from "#/components/site/kit";
 import { Input } from "#/components/ui/input";
@@ -76,7 +76,9 @@ function ProfileForm({ profile }: { profile: Profile }) {
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="I am a">
             <select value={form.memberType} onChange={(e) => set("memberType", e.target.value)} className="h-9 rounded-md border border-input bg-white px-3 text-sm">
-              {Object.entries(MEMBER_TYPES).map(([k, v]) => (
+              {Object.entries(MEMBER_TYPES)
+                .filter(([k]) => (SIGNUP_CATEGORIES as ReadonlyArray<string>).includes(k) || k === profile.member_type)
+                .map(([k, v]) => (
                 <option key={k} value={k}>
                   {v}
                 </option>

@@ -12,7 +12,8 @@ import type { QbMark, QbPublicQuestion } from "#/lib/quizbank";
 import { Container } from "#/components/site/kit";
 import { Button } from "#/components/ui/button";
 import { BookmarkToggle } from "./bookmarks";
-import { LETTERS, Lesson, QuestionStem, SlideDown } from "./kit";
+import { LETTERS, SlideDown } from "./kit";
+import { Lesson, QuestionStem } from "./question-kit";
 import { RichText } from "./rich-text";
 import { DiscussionToggle } from "./discussion";
 
@@ -102,7 +103,7 @@ export function Studier({
         <Container className="flex flex-wrap items-center gap-3 py-3">
           <div className="min-w-0 flex-1">{header}</div>
           <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900">
-            <Brain className="size-3.5" /> Study mode · no timer
+            <Brain className="size-3.5" /> Study mode<span className="hidden sm:inline"> · no timer</span>
           </span>
           {onExam && (
             <Button size="sm" variant="outline" disabled={examPending} onClick={onExam}>
@@ -128,7 +129,8 @@ export function Studier({
 
       <Container className="mt-6 max-w-3xl">
         <p className="mb-3 text-right text-xs text-muted-foreground">
-          {solvedCount} answered correctly this session · {q.type === "choice" ? `keys A–${LETTERS[q.options.length - 1]} pick, ` : ""}← → move
+          {solvedCount} answered correctly this session
+          <span className="hidden sm:inline"> · {q.type === "choice" ? `keys A–${LETTERS[q.options.length - 1]} pick, ` : ""}← → move</span>
         </p>
         <article className="rounded-3xl border bg-white p-5 shadow-sm sm:p-8">
           <div className="mb-3 flex items-center justify-between gap-3">

@@ -16,6 +16,8 @@ import { adminMembersRoute } from "./members.js";
 import { adminTicketsRoute } from "./tickets.js";
 import { adminQuizbankRoute } from "./quizbank.js";
 import { adminJobsRoute } from "./jobs.js";
+import { adminSellersRoute } from "./sellers.js";
+import { adminCoursesRoute } from "./courses.js";
 import { requirePermission } from "../../middleware/require-auth.js";
 import { pageQuerySchema, paging } from "../../lib/query.js";
 
@@ -50,4 +52,6 @@ export const adminRoute = new Hono()
   .route("/tickets", adminTicketsRoute)
   .route("/quizbank", adminQuizbankRoute)
   .route("/jobs", adminJobsRoute)
+  .route("/sellers", adminSellersRoute)
+  .route("/courses", adminCoursesRoute)
   .route("/mod", moderationRoute);

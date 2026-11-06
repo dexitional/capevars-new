@@ -1,5 +1,6 @@
 // Public, cacheable platform data: settings for the header/footer, the home
 // page (highlights from all five systems) and universal search.
+import { AppError } from "../../middleware/error-handler.js";
 import { Hono } from "hono";
 import { getPool } from "@cv/db";
 import type { RowDataPacket } from "mysql2";
@@ -16,6 +17,26 @@ export async function loadSettings(): Promise<SiteSettings> {
 }
 
 export const publicRoute = new Hono()
+  // kidiLearn's public catalog: what each subject covers, for parents and search
+  // engines. Nothing here touches a child's account or progress.
+  .get("/kidilearn", async (c) => {
+    const [items] = await getPool().query<RowDataPacket[]>(
+      `SELECT k.level_key AS level, k.subject_key AS subject, c.title, c.lesson_count AS lessons
+       FROM kidi_course_links k JOIN courses c ON c.id = k.course_id AND c.status = 'published' WHERE k.is_active = 1`,
+    );
+    return c.json({ items });
+  })
+  .get("/kidilearn/:level/:subject", async (c) => {
+    const [rows] = await getPool().execute<RowDataPacket[]>(
+      `SELECT c.id, c.title, c.subtitle, c.description, c.price, c.lesson_count AS lessons
+       FROM kidi_course_links k JOIN courses c ON c.id = k.course_id AND c.status = 'published' WHERE k.level_key = ? AND k.subject_key = ? AND k.is_active = 1`,
+      [c.req.param("level"), c.req.param("subject")],
+    );
+    const course = rows[0];
+    if (!course) throw new AppError("Subject not found.", 404);
+    const [lessons] = await getPool().execute<RowDataPacket[]>("SELECT title FROM course_lessons WHERE course_id = ? ORDER BY sort_order, id LIMIT 24", [course.id]);
+    return c.json({ course: { ...course, id: undefined }, lessons: lessons.map((l) => l.title as string) });
+  })
   .get("/settings", async (c) => {
     const s = await loadSettings();
     return c.json({ identity: s.identity, socials: s.socials, notice: s.notice, home: s.home, finder: s.finder, marketplace: s.marketplace });

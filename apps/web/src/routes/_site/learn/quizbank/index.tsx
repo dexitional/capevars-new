@@ -4,10 +4,11 @@ import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { keepPreviousData, useMutation, useQuery } from "@tanstack/react-query";
 import { z } from "zod";
 import { toast } from "sonner";
-import { ArrowRight, BookOpenCheck, Brain, Flame, GraduationCap, Hash, LayoutDashboard, Loader2, Search, Settings2, Tags, Timer, X } from "lucide-react";
+import { ArrowRight, BookOpenCheck, Brain, Crown, Flame, GraduationCap, Hash, LayoutDashboard, Loader2, Search, Settings2, Tags, Timer, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { QB_LEVELS, QB_LEVEL_IDS } from "#/lib/quizbank";
+import { breadcrumbJsonLd, pageSeo } from "#/lib/seo";
 import type { QbLevel } from "#/lib/quizbank";
 import { useMember } from "#/hooks/useMember";
 import { CardGridSkeleton, Container, EmptyState, Pager, SectionHeader } from "#/components/site/kit";
@@ -29,9 +30,27 @@ type S = z.infer<typeof search>;
 type BoardItem = QbCourseCard & { settings: { examQuestions: number; examMinutes: number }; topics: Array<{ id: number; name: string }>; matching: number; studyPosition: number; examsTaken: number; best: number | null; last: number | null };
 type Home = { levels: Partial<Record<QbLevel, { courses: number; questions: number }>>; tags: Array<{ name: string; slug: string; count: number }>; popular: Array<{ slug: string; code: string; title: string; level: QbLevel; questionCount: number }>; boardCount: number };
 
+const homeQuery = { queryKey: ["qb-home"], queryFn: () => api.get<Home>("/learn/quizbank/home"), staleTime: 60_000 };
+const coursesQuery = (s: S) => ({
+  queryKey: ["qb-courses", s],
+  queryFn: () => api.get<{ items: Array<QbCourseCard>; total: number }>("/learn/quizbank/courses", { ...s, page: s.page ?? 1, pageSize: 24 }),
+  staleTime: 30_000,
+});
+
 export const Route = createFileRoute("/_site/learn/quizbank/")({
   validateSearch: search,
-  head: () => ({ meta: [{ title: "Quizbank — practise past questions | OpenLearn" }] }),
+  loaderDeps: ({ search: s }) => s,
+  // On the server, so the courses arrive with the page: for visitors with no wait, and for search engines to see at all.
+  loader: async ({ context, deps }) => {
+    await Promise.all([context.queryClient.prefetchQuery(homeQuery), context.queryClient.prefetchQuery(coursesQuery(deps))]);
+  },
+  head: () =>
+    pageSeo({
+      title: "Quizbank: Past Questions & Practice Exams for BECE, WASSCE and University | Capevars",
+      description: "Practise past and practice questions for JHS, SHS, TVET, NVTI and tertiary courses in Ghana. Sit timed mock exams or study each question with hints, answers and clear explanations.",
+      path: "/learn/quizbank",
+      jsonLd: [breadcrumbJsonLd([["OpenLearn", "/learn"], ["Quizbank", "/learn/quizbank"]])],
+    }),
   component: QuizbankHome,
 });
 
@@ -83,14 +102,24 @@ function StudyBoard() {
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
-                  <Button size="sm" className="flex-1" disabled={start.isPending} onClick={() => start.mutate({ courseId: c.id })}>
-                    {start.isPending && start.variables.courseId === c.id ? <Loader2 className="animate-spin" /> : <Timer />} Exam
-                  </Button>
-                  <Button asChild size="sm" variant="outline" className="flex-1">
-                    <Link to="/learn/quizbank/c/$slug/study" params={{ slug: c.slug }}>
-                      <Brain /> Study
-                    </Link>
-                  </Button>
+                  {c.fee !== null && !c.subscribed ? (
+                    <Button asChild size="sm" className="flex-1">
+                      <Link to="/learn/quizbank/c/$slug" params={{ slug: c.slug }}>
+                        <Crown /> Subscribe
+                      </Link>
+                    </Button>
+                  ) : (
+                    <>
+                      <Button size="sm" className="flex-1" disabled={start.isPending} onClick={() => start.mutate({ courseId: c.id })}>
+                        {start.isPending && start.variables.courseId === c.id ? <Loader2 className="animate-spin" /> : <Timer />} Exam
+                      </Button>
+                      <Button asChild size="sm" variant="outline" className="flex-1">
+                        <Link to="/learn/quizbank/c/$slug/study" params={{ slug: c.slug }}>
+                          <Brain /> Study
+                        </Link>
+                      </Button>
+                    </>
+                  )}
                   <Button size="icon-sm" variant="ghost" onClick={() => setEditing(c)} aria-label={`Study plan for ${c.title}`} title="Topics & exam settings">
                     <Settings2 />
                   </Button>
@@ -175,16 +204,12 @@ function QuizbankHome() {
   const member = useMember();
   const [q, setQ] = useState(s.q ?? "");
   const page = s.page ?? 1;
-  const { data: home } = useQuery({ queryKey: ["qb-home"], queryFn: () => api.get<Home>("/learn/quizbank/home"), staleTime: 60_000 });
+  const { data: home } = useQuery(homeQuery);
   const tagRow = useRef<HTMLDivElement>(null);
   useStepScroll(tagRow, home?.tags.length ?? 0);
   const popularRow = useRef<HTMLDivElement>(null);
   useStepScroll(popularRow, home?.popular.length ?? 0);
-  const { data, isFetching } = useQuery({
-    queryKey: ["qb-courses", s],
-    queryFn: () => api.get<{ items: Array<QbCourseCard>; total: number }>("/learn/quizbank/courses", { ...s, page, pageSize: 24 }),
-    placeholderData: keepPreviousData,
-  });
+  const { data, isFetching } = useQuery({ ...coursesQuery(s), placeholderData: keepPreviousData });
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
   const input = useRef<HTMLInputElement>(null);
@@ -240,7 +265,7 @@ function QuizbankHome() {
       {/* Not overflow-hidden, and stacked above what follows: the live search results hang out of the bottom of the band. */}
       <section className="relative z-10 bg-linear-to-br from-[#041d40] via-[#1e2a78] to-[#4c1d95] text-white">
         <div className="dot-grid absolute inset-0 opacity-40" aria-hidden="true" />
-        <Container className="relative grid items-center gap-10 py-14 lg:grid-cols-[1.3fr_1fr]">
+        <Container className="relative grid grid-cols-[minmax(0,1fr)] items-center gap-10 py-14 lg:grid-cols-[1.3fr_1fr]">
           <div>
             <p className="text-xs font-bold tracking-[0.2em] text-brand-cream uppercase">OpenLearn · Quizbank</p>
             <h1 className="mt-3 font-hero text-4xl leading-tight font-bold sm:text-5xl">

@@ -5,7 +5,7 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
-import { MEMBER_TYPES } from "#/lib/labels";
+import { MEMBER_TYPES, SIGNUP_CATEGORIES } from "#/lib/labels";
 import { useMember, useSession } from "#/hooks/useMember";
 import { Avatar, ImageUpload } from "#/components/site/kit";
 import { Input } from "#/components/ui/input";
@@ -67,7 +67,7 @@ function WelcomePage() {
           <div>
             <p className="mb-1.5 text-sm font-medium">I am a…</p>
             <div className="grid grid-cols-2 gap-2">
-              {Object.entries(MEMBER_TYPES).map(([k, v]) => (
+              {SIGNUP_CATEGORIES.map((k) => [k, MEMBER_TYPES[k]] as const).map(([k, v]) => (
                 <button key={k} type="button" onClick={() => setMemberType(k)} className={cn("rounded-xl border px-3 py-2 text-sm font-medium", memberType === k ? "border-primary bg-primary text-white" : "hover:bg-muted")}>
                   {v}
                 </button>

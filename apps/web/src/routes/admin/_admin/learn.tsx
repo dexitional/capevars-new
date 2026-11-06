@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
+import { useQueryClient } from "@tanstack/react-query";
+import { canManage } from "#/lib/permissions";
 import { AdminPageHeader, Segmented } from "#/components/admin/ui";
 import { QuizbankAdmin } from "#/components/admin/quizbank-admin";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
+import { PurgeDialog } from "#/components/admin/purge-dialog";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { COURSE_LEVELS } from "#/lib/labels";
 import { formatDuration } from "#/lib/money";
@@ -11,7 +14,10 @@ export const Route = createFileRoute("/admin/_admin/learn")({
   loader: ({ context }) => prefetchModeration(context.queryClient, "courses", "in_review"), component: Learn });
 
 function Learn() {
+  const { admin } = Route.useRouteContext();
+  const queryClient = useQueryClient();
   const [tab, setTab] = useState<"courses" | "quizbank">("courses");
+  const [deleting, setDeleting] = useState<Record<string, any> | null>(null);
   return (
     <div className="space-y-6">
       <AdminPageHeader title="OpenLearn" description="Review courses before they go live, and manage the Quizbank question bank." />
@@ -27,6 +33,7 @@ function Learn() {
       {tab === "courses" && <ModerationTable
         entity="courses"
         defaultStatus="in_review"
+        onDelete={canManage(admin.role, "learn") ? setDeleting : undefined}
         columns={[
           { label: "Course", render: (r) => <TitleCell title={r.title} sub={`${r.instructor_name} · ${r.category_name ?? "Uncategorised"}`} image={r.cover_url} /> },
           { label: "Content", render: (r) => <span className="text-xs">{r.lesson_count} lessons · {formatDuration(r.duration_minutes)} · {COURSE_LEVELS[r.level]}</span> },
@@ -36,6 +43,22 @@ function Learn() {
           { label: "Status", render: (r) => <StatusCell row={r} /> },
         ]}
       />}
+      {deleting && (
+        <PurgeDialog
+          key={deleting.id as number}
+          title={`Delete ${String(deleting.title)}?`}
+          description={`This permanently removes the course and everything below, and enrolled students lose access. It can't be undone, and their payment records stay. ${String(deleting.instructor_name)} keeps their account and is notified. Consider unpublishing it if you may need any of this later.`}
+          url={`/admin/courses/${String(deleting.id)}`}
+          confirmWord={String(deleting.title)}
+          nothingElse="It has no content or students yet, so only the course goes."
+          success="Course deleted."
+          onClose={() => setDeleting(null)}
+          onDeleted={() => {
+            void queryClient.invalidateQueries({ queryKey: ["admin-mod", "courses"] });
+            void queryClient.invalidateQueries({ queryKey: ["admin-queues"] });
+          }}
+        />
+      )}
     </div>
   );
 }

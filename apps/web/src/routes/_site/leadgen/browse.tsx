@@ -18,8 +18,16 @@ const search = z.object({
 });
 type S = z.infer<typeof search>;
 
+const listsQuery = (s: S) => ({
+  queryKey: ["leadgen", "lists", s],
+  queryFn: () => api.get<{ items: Array<Row>; total: number }>("/leadgen/lists", { ...s, page: s.page ?? 1, pageSize: 24 }),
+  staleTime: 30_000,
+});
+
 export const Route = createFileRoute("/_site/leadgen/browse")({
   validateSearch: search,
+  loaderDeps: ({ search: s }) => s,
+  loader: ({ context, deps }) => context.queryClient.prefetchQuery(listsQuery(deps)),
   head: () => ({ meta: [{ title: "Browse lead lists | LeadGen" }] }),
   component: BrowseLeads,
 });
@@ -29,11 +37,7 @@ function BrowseLeads() {
   const navigate = useNavigate({ from: Route.fullPath });
   const set = (patch: Partial<S>) => void navigate({ search: (p) => ({ ...p, page: undefined, ...patch }) });
   const page = s.page ?? 1;
-  const { data } = useQuery({
-    queryKey: ["leadgen", "lists", s],
-    queryFn: () => api.get<{ items: Array<Row>; total: number }>("/leadgen/lists", { ...s, page, pageSize: 24 }),
-    placeholderData: keepPreviousData,
-  });
+  const { data } = useQuery({ ...listsQuery(s), placeholderData: keepPreviousData });
   return (
     <Container className="py-8">
       <div className="mb-5 flex flex-wrap items-end justify-between gap-3">

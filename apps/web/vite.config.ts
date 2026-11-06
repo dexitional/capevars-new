@@ -18,6 +18,8 @@ export default defineConfig(({ mode }) => {
       ),
       // Optional CDN origin for /files and /img URLs (see src/lib/asset.ts).
       __CDN_URL__: JSON.stringify((env.CDN_URL ?? "").trim().replace(/\/+$/, "")),
+      // The site's public address, for search engines and link previews (see src/lib/seo.ts).
+      __SITE_URL__: JSON.stringify((env.APP_URL ?? "").trim().replace(/\/+$/, "")),
     },
     // Optional override, e.g. when node_modules/.vite isn't writable.
     cacheDir: process.env.VITE_CACHE_DIR,
@@ -41,6 +43,10 @@ export default defineConfig(({ mode }) => {
           { route: "/img", method: "GET", handler: "./src/server/img-handler.ts" },
           // Uploads in local storage (src/server/file-server.ts).
           { route: "/files/**", handler: "./src/server/files-handler.ts" },
+          // For search engines and link previews (src/server/seo.ts).
+          { route: "/og/**", method: "GET", handler: "./src/server/og-handler.ts" },
+          { route: "/sitemap.xml", method: "GET", handler: "./src/server/sitemap-handler.ts" },
+          { route: "/robots.txt", method: "GET", handler: "./src/server/robots-handler.ts" },
         ],
         routeRules: {
           "/assets/**": { headers: { "cache-control": "public, max-age=31536000, immutable" } },
