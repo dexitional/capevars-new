@@ -1,0 +1,1603 @@
+[
+  {
+    "type": "choice",
+    "body": "Given that $A = \\{2, 4, 6, 8, 10\\}$ and $B = \\{4, 8, 12\\}$, find $A \\cup B$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{4, 8\\}$",
+        "hint": "This is $A \\cap B$, the members in both sets."
+      },
+      {
+        "text": "$\\{2, 8, 12\\}$",
+        "hint": "The union includes every member of both sets."
+      },
+      {
+        "text": "$\\{4, 6, 8, 12\\}$",
+        "hint": "The union includes every member of both sets, such as 2 and 10."
+      },
+      {
+        "text": "$\\{2, 4, 6, 8, 10, 12\\}$",
+        "hint": "Correct. All the members, each listed once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins all the members of both sets.",
+    "explanation": "## Advanced explanation\n\n$A \\cup B$ contains each member of $A$ or $B$, listed once: $\\{2, 4, 6, 8, 10, 12\\}$.\n\n## Simplified explanation\n\nPut the two lists together and write each number only once.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.000344 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3.44 \\times 10^{-6}$",
+        "hint": "This equals 0.00000344. The point moves 4 places."
+      },
+      {
+        "text": "$3.44 \\times 10^{-5}$",
+        "hint": "This equals 0.0000344. The point moves 4 places."
+      },
+      {
+        "text": "$3.44 \\times 10^{-4}$",
+        "hint": "Correct. The point moves 4 places to the right."
+      },
+      {
+        "text": "$34.4 \\times 10^{-3}$",
+        "hint": "The first number must be from 1 up to, but not including, 10."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count how many places the decimal point moves to reach 3.44.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Here $a = 3.44$ and, moving 4 places right, $n = -4$.\n\n## Simplified explanation\n\nMove the point 4 places to the right to get 3.44. The number is less than 1, so the power is $-4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following numbers is the largest?",
+    "media": [],
+    "options": [
+      {
+        "text": "$-70$",
+        "hint": "This is the smallest of the four."
+      },
+      {
+        "text": "$-50$",
+        "hint": "$-50$ is further below zero than $-2$."
+      },
+      {
+        "text": "$-3$",
+        "hint": "$-3$ is one step further below zero than $-2$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "Correct. It is the closest to zero."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "On a number line, numbers get larger as you move right.",
+    "explanation": "## Advanced explanation\n\nIn order, $-70 < -50 < -3 < -2$, so the largest is $-2$.\n\n## Simplified explanation\n\nWith negative numbers, the one closest to zero is the largest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 0.024561 to three significant figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "$0.03$",
+        "hint": "This has only one significant figure."
+      },
+      {
+        "text": "$0.025$",
+        "hint": "This has only two significant figures."
+      },
+      {
+        "text": "$0.0245$",
+        "hint": "The next digit is 6, so round the 5 up."
+      },
+      {
+        "text": "$0.0246$",
+        "hint": "Correct. The figures 2, 4 and 5 round up to 2, 4 and 6."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Leading zeros do not count. Start counting from the 2.",
+    "explanation": "## Advanced explanation\n\nThe first three significant figures are 2, 4 and 5. The next digit, 6, rounds the 5 up, giving 0.0246.\n\n## Simplified explanation\n\nIgnore the zeros at the front. Keep 2, 4, 5. The next digit is 6, so the 5 becomes 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $(7^5 \\times 7^3) \\div 7^6$",
+    "media": [],
+    "options": [
+      {
+        "text": "$7^{9}$",
+        "hint": "Subtract the 6, because it is a division."
+      },
+      {
+        "text": "$7^{4}$",
+        "hint": "$5 + 3 - 6 = 2$."
+      },
+      {
+        "text": "$7^{3}$",
+        "hint": "$5 + 3 - 6 = 2$."
+      },
+      {
+        "text": "$7^{2}$",
+        "hint": "Correct. $5 + 3 - 6 = 2$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add powers when multiplying and subtract powers when dividing.",
+    "explanation": "## Advanced explanation\n\n$$7^{5 + 3 - 6} = 7^2$$\n\n## Simplified explanation\n\nAdd 5 and 3 to get 8, then take away 6 to get 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has a square?",
+    "media": [],
+    "options": [
+      {
+        "text": "$0$",
+        "hint": "A square can be folded into matching halves."
+      },
+      {
+        "text": "$1$",
+        "hint": "A square has more than one fold line."
+      },
+      {
+        "text": "$2$",
+        "hint": "The two diagonals are also lines of symmetry."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. Two through the middles of the sides, and two diagonals."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count the fold lines, including the diagonals.",
+    "explanation": "## Advanced explanation\n\nA square has two lines through the midpoints of opposite sides and two diagonals, which makes 4.\n\n## Simplified explanation\n\nFold a square across, down, and along each corner-to-corner line. That makes 4 lines.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the equation $10 - \\dfrac{x + 3}{2} = 8$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-9$",
+        "hint": "This gives $10 - (-3) = 13$, not 8."
+      },
+      {
+        "text": "$-3$",
+        "hint": "This gives $10 - 0 = 10$, not 8."
+      },
+      {
+        "text": "$1$",
+        "hint": "Correct. $10 - \\frac{4}{2} = 8$."
+      },
+      {
+        "text": "$15$",
+        "hint": "This gives $10 - 9 = 1$, not 8."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find what the fraction must equal first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{x + 3}{2} = 2 \\implies x + 3 = 4 \\implies x = 1$$\n\n## Simplified explanation\n\n10 minus something is 8, so the fraction equals 2. Then $x + 3 = 4$, so $x = 1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize: $kx + 2xt - 4k - 8t$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(k - 2t)(x + 4)$",
+        "hint": "Expanding gives $kx + 4k - 2xt - 8t$."
+      },
+      {
+        "text": "$(k + 2t)(x + 4)$",
+        "hint": "Expanding gives $kx + 4k + 2xt + 8t$."
+      },
+      {
+        "text": "$(k + t)(x - 4)$",
+        "hint": "Expanding gives $kx - 4k + tx - 4t$."
+      },
+      {
+        "text": "$(k + 2t)(x - 4)$",
+        "hint": "Correct. Expanding gives $kx - 4k + 2xt - 8t$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$kx + 2xt - 4k - 8t = x(k + 2t) - 4(k + 2t) = (k + 2t)(x - 4)$$\n\n## Simplified explanation\n\nTake $x$ out of the first pair and $-4$ out of the second. Both leave $(k + 2t)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 12 boys and 18 girls in a class. Find the fraction of boys in the class.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Correct. $\\frac{12}{30} = \\frac{2}{5}$."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This is the fraction of girls."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This compares boys with girls. Divide by the whole class, 30."
+      },
+      {
+        "text": "$\\dfrac{3}{4}$",
+        "hint": "Divide the 12 boys by the whole class of 30."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the size of the whole class first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{12}{12 + 18} = \\frac{12}{30} = \\frac{2}{5}$$\n\n## Simplified explanation\n\nThere are 30 pupils and 12 are boys. Divide the top and bottom of $\\frac{12}{30}$ by 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 30% as a fraction in its lowest term.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{7}{10}$",
+        "hint": "This is 70%."
+      },
+      {
+        "text": "$\\dfrac{3}{20}$",
+        "hint": "This is 15%."
+      },
+      {
+        "text": "$\\dfrac{7}{20}$",
+        "hint": "This is 35%."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "Correct. $\\frac{30}{100} = \\frac{3}{10}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Percent means out of 100.",
+    "explanation": "## Advanced explanation\n\n$$30\\% = \\frac{30}{100} = \\frac{3}{10}$$\n\n## Simplified explanation\n\nWrite 30 over 100, then divide the top and bottom by 10.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $k$ the subject of the relation $ky - k = y^2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$k = \\dfrac{y^2}{y - 1}$",
+        "hint": "Correct. $k(y - 1) = y^2$."
+      },
+      {
+        "text": "$k = \\dfrac{y^2}{y + 1}$",
+        "hint": "Taking out $k$ gives $y - 1$, not $y + 1$."
+      },
+      {
+        "text": "$k = -\\dfrac{y^2}{y + 1}$",
+        "hint": "Taking out $k$ gives $y - 1$, and no minus sign is needed."
+      },
+      {
+        "text": "$k = \\dfrac{y^2 + 1}{y - 1}$",
+        "hint": "The top is just $y^2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Both terms on the left contain $k$. Take it out.",
+    "explanation": "## Advanced explanation\n\n$$k(y - 1) = y^2 \\implies k = \\frac{y^2}{y - 1}$$\n\n## Simplified explanation\n\nTake $k$ out on the left to get $k(y - 1)$. Then divide both sides by $(y - 1)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The mean of the numbers 5, $2x$, 4 and 3 is 5. Find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "The numbers would total 18, but they must total 20."
+      },
+      {
+        "text": "$4$",
+        "hint": "Correct. $5 + 8 + 4 + 3 = 20$."
+      },
+      {
+        "text": "$5$",
+        "hint": "The numbers would total 22, but they must total 20."
+      },
+      {
+        "text": "$8$",
+        "hint": "This is the value of $2x$. Halve it to find $x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The four numbers total $4 \\times 5$.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{5 + 2x + 4 + 3}{4} = 5 \\implies 12 + 2x = 20 \\implies x = 4$$\n\n## Simplified explanation\n\nThe total must be 20. The known numbers make 12, so $2x = 8$ and $x = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | 3 | 1 | $-1$ | $-3$ | $-5$ |",
+    "media": [],
+    "options": [
+      {
+        "text": "$y = 2x + 2$",
+        "hint": "This gives 4 when $x = 1$, not 3."
+      },
+      {
+        "text": "$y = -2x + 2$",
+        "hint": "This gives 0 when $x = 1$, not 3."
+      },
+      {
+        "text": "$y = 4x$",
+        "hint": "This gives 4 when $x = 1$, not 3."
+      },
+      {
+        "text": "$y = -2x + 5$",
+        "hint": "Correct. $-2(1) + 5 = 3$, $-2(2) + 5 = 1$, and so on."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How much does $y$ change each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\n$y$ falls by 2 for each step, so $y = -2x + c$. Using $x = 1, y = 3$ gives $c = 5$.\n\n## Simplified explanation\n\nThe bottom numbers go down by 2, so multiply by $-2$. For $x = 1$ this gives $-2$, but $y$ is 3, so add 5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The two sides of a parallelogram are 4.8 m and 7.2 m long. Find its perimeter.",
+    "media": [],
+    "options": [
+      {
+        "text": "48.0 m",
+        "hint": "$2(4.8 + 7.2) = 24$."
+      },
+      {
+        "text": "34.6 m",
+        "hint": "This is about $4.8 \\times 7.2$. A perimeter adds the sides."
+      },
+      {
+        "text": "24.0 m",
+        "hint": "Correct. $2(4.8 + 7.2) = 24$."
+      },
+      {
+        "text": "17.3 m",
+        "hint": "$2(4.8 + 7.2) = 24$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Opposite sides of a parallelogram are equal.",
+    "explanation": "## Advanced explanation\n\n$$P = 2(4.8 + 7.2) = 24 \\text{ m}$$\n\n## Simplified explanation\n\nOne of each side makes 12 m, and doubling gives 24 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A tank in the form of a cuboid has length 6 m and breadth 4 m. If the volume of the tank is 36 m$^3$, find the height.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.67 m",
+        "hint": "This is $4 \\div 6$. Divide the volume by the base area."
+      },
+      {
+        "text": "1.5 m",
+        "hint": "Correct. $36 \\div 24 = 1.5$."
+      },
+      {
+        "text": "1.8 m",
+        "hint": "$6 \\times 4 \\times 1.8 = 43.2$, not 36."
+      },
+      {
+        "text": "5.0 m",
+        "hint": "$6 \\times 4 \\times 5 = 120$, not 36."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Volume $=$ length $\\times$ breadth $\\times$ height.",
+    "explanation": "## Advanced explanation\n\n$$h = \\frac{36}{6 \\times 4} = 1.5 \\text{ m}$$\n\n## Simplified explanation\n\nThe base is $6 \\times 4 = 24$. Then $36 \\div 24 = 1.5$ m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the bearing of $A$ from $B$ is $240^\\circ$, find the bearing of $B$ from $A$",
+    "media": [],
+    "options": [
+      {
+        "text": "$040^\\circ$",
+        "hint": "A back bearing differs by exactly $180^\\circ$."
+      },
+      {
+        "text": "$060^\\circ$",
+        "hint": "Correct. $240^\\circ - 180^\\circ = 60^\\circ$."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "This is half of $240^\\circ$. A back bearing differs by $180^\\circ$."
+      },
+      {
+        "text": "$300^\\circ$",
+        "hint": "A back bearing differs by exactly $180^\\circ$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The return direction points exactly the opposite way.",
+    "explanation": "## Advanced explanation\n\nSince $240^\\circ > 180^\\circ$, subtract: $240^\\circ - 180^\\circ = 060^\\circ$.\n\n## Simplified explanation\n\nGoing back means facing the opposite way, which is half a turn. Take 180 from 240 to get 60.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the truth set of the inequality $2y + 5 < 4y - 5$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{y : y > 5\\}$",
+        "hint": "Correct. $10 < 2y$, so $y > 5$."
+      },
+      {
+        "text": "$\\{y : y < 5\\}$",
+        "hint": "$10 < 2y$ means $y$ is greater than 5."
+      },
+      {
+        "text": "$\\{y : y > 1\\}$",
+        "hint": "Collect the numbers: $5 + 5 = 10$."
+      },
+      {
+        "text": "$\\{y : y > 0\\}$",
+        "hint": "Collect the numbers: $5 + 5 = 10$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Move the $y$ terms to the side where they stay positive.",
+    "explanation": "## Advanced explanation\n\n$$5 + 5 < 4y - 2y \\implies 10 < 2y \\implies y > 5$$\n\n## Simplified explanation\n\nTake $2y$ from both sides and add 5, which gives $10 < 2y$. Halving gives $5 < y$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the gradient of the straight line which passes through the points $(-3, 4)$ and $(3, -2)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2$",
+        "hint": "The changes are $-6$ and 6, which give $-1$."
+      },
+      {
+        "text": "$1$",
+        "hint": "Check the sign: $y$ falls as $x$ rises."
+      },
+      {
+        "text": "$-2$",
+        "hint": "The changes are $-6$ and 6, which give $-1$."
+      },
+      {
+        "text": "$-1$",
+        "hint": "Correct. $\\frac{-6}{6} = -1$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{-2 - 4}{3 - (-3)} = \\frac{-6}{6} = -1$$\n\n## Simplified explanation\n\n$y$ goes from 4 to $-2$, a change of $-6$. $x$ goes from $-3$ to 3, a change of 6. Then $-6 \\div 6 = -1$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $6 : 8 = r : 48$, find the value of $r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$36$",
+        "hint": "Correct. $48 = 8 \\times 6$, so $r = 6 \\times 6$."
+      },
+      {
+        "text": "$34$",
+        "hint": "$34 : 48$ does not simplify to $3 : 4$."
+      },
+      {
+        "text": "$14$",
+        "hint": "This adds 8 to 6. Ratios multiply."
+      },
+      {
+        "text": "$12$",
+        "hint": "$12 : 48 = 1 : 4$, not $3 : 4$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "How many times bigger is 48 than 8?",
+    "explanation": "## Advanced explanation\n\n$$\\frac{6}{8} = \\frac{r}{48} \\implies r = \\frac{6 \\times 48}{8} = 36$$\n\n## Simplified explanation\n\n8 was multiplied by 6 to make 48. Do the same to 6: $6 \\times 6 = 36$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find $\\angle QPS$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q20.png",
+        "caption": "Triangle PQR with S on PR. PS and PQ are marked equal, SQ and SR are marked equal, and angle SRQ is 35°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$70^\\circ$",
+        "hint": "This is angle $PSQ$, the exterior angle of triangle $SQR$."
+      },
+      {
+        "text": "$40^\\circ$",
+        "hint": "Correct. $180^\\circ - 70^\\circ - 70^\\circ = 40^\\circ$."
+      },
+      {
+        "text": "$35^\\circ$",
+        "hint": "This is angle $SRQ$, not angle $QPS$."
+      },
+      {
+        "text": "$20^\\circ$",
+        "hint": "Use the two isosceles triangles to find angle $PSQ$ first."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The tick marks show two isosceles triangles.",
+    "explanation": "## Advanced explanation\n\n$SQ = SR$, so angle $SQR = 35^\\circ$, and the exterior angle $PSQ = 35^\\circ + 35^\\circ = 70^\\circ$. $PS = PQ$, so angle $PQS = 70^\\circ$. Then\n\n$$\\angle QPS = 180^\\circ - 70^\\circ - 70^\\circ = 40^\\circ$$\n\n## Simplified explanation\n\nIn the right triangle, two angles are 35, so the angle at $S$ outside it is 70. In the left triangle, two angles are 70, which leaves $180 - 140 = 40$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man travelled a distance of 8 km in an hour. How long will it take him to cover a distance of 12 km, travelling at the same speed?",
+    "media": [],
+    "options": [
+      {
+        "text": "$1\\dfrac{1}{3}$ hrs",
+        "hint": "In this time he would cover only about 10.7 km."
+      },
+      {
+        "text": "$1\\dfrac{1}{2}$ hrs",
+        "hint": "Correct. $12 \\div 8 = 1\\frac{1}{2}$."
+      },
+      {
+        "text": "$1\\dfrac{3}{4}$ hrs",
+        "hint": "In this time he would cover 14 km."
+      },
+      {
+        "text": "2 hrs",
+        "hint": "In this time he would cover 16 km."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Time $=$ distance $\\div$ speed.",
+    "explanation": "## Advanced explanation\n\n$$t = \\frac{12}{8} = 1\\frac{1}{2} \\text{ hours}$$\n\n## Simplified explanation\n\nHe goes 8 km in the first hour. The extra 4 km is half of 8, so it takes another half hour.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A number is selected at random from: 25, 26, 27, 28, …, 35. Find the probability that the number selected is a prime number.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{6}{11}$",
+        "hint": "This counts the odd numbers. Not all odd numbers are prime."
+      },
+      {
+        "text": "$\\dfrac{3}{11}$",
+        "hint": "Only 29 and 31 are prime here."
+      },
+      {
+        "text": "$\\dfrac{2}{11}$",
+        "hint": "Correct. 29 and 31 are prime, out of 11 numbers."
+      },
+      {
+        "text": "$\\dfrac{1}{11}$",
+        "hint": "Both 29 and 31 are prime."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count the numbers from 25 to 35, then find the primes.",
+    "explanation": "## Advanced explanation\n\nThere are 11 numbers, and the primes among them are 29 and 31, so $P = \\frac{2}{11}$.\n\n## Simplified explanation\n\nFrom 25 to 35 there are 11 numbers. Only 29 and 31 have no factors except 1 and themselves.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{12}{25}$ in decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.0408",
+        "hint": "$\\frac{12}{25} = \\frac{48}{100}$, which is 0.48."
+      },
+      {
+        "text": "0.048",
+        "hint": "This is $\\frac{48}{1000}$. The fraction equals $\\frac{48}{100}$."
+      },
+      {
+        "text": "0.408",
+        "hint": "Check the digits: $\\frac{48}{100}$ is 0.48."
+      },
+      {
+        "text": "0.48",
+        "hint": "Correct. $\\frac{12}{25} = \\frac{48}{100}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the top and bottom by 4 to make the denominator 100.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{12}{25} = \\frac{12 \\times 4}{25 \\times 4} = \\frac{48}{100} = 0.48$$\n\n## Simplified explanation\n\n25 goes into 100 four times. So multiply the top by 4 as well to get $\\frac{48}{100}$, which is 0.48.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the diameter of a circle whose circumference is 88 cm. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "options": [
+      {
+        "text": "14 cm",
+        "hint": "This is the radius. The diameter is twice that."
+      },
+      {
+        "text": "22 cm",
+        "hint": "$\\frac{22}{7} \\times 22$ is about 69 cm, not 88 cm."
+      },
+      {
+        "text": "28 cm",
+        "hint": "Correct. $88 \\times \\frac{7}{22} = 28$."
+      },
+      {
+        "text": "82 cm",
+        "hint": "$\\frac{22}{7} \\times 82$ is far more than 88 cm."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Circumference $= \\pi \\times$ diameter.",
+    "explanation": "## Advanced explanation\n\n$$d = \\frac{C}{\\pi} = 88 \\times \\frac{7}{22} = 28 \\text{ cm}$$\n\n## Simplified explanation\n\nDivide 88 by $\\frac{22}{7}$: $88 \\div 22 = 4$, and $4 \\times 7 = 28$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "When twelve is subtracted from three times a certain number and the result is divided by four, the answer is eighteen. Find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "$84$",
+        "hint": "$(3 \\times 84 - 12) \\div 4 = 60$, not 18."
+      },
+      {
+        "text": "$40$",
+        "hint": "$(3 \\times 40 - 12) \\div 4 = 27$, not 18."
+      },
+      {
+        "text": "$28$",
+        "hint": "Correct. $(84 - 12) \\div 4 = 18$."
+      },
+      {
+        "text": "$20$",
+        "hint": "$(3 \\times 20 - 12) \\div 4 = 12$, not 18."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write it as an equation, then undo each step.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{3n - 12}{4} = 18 \\implies 3n - 12 = 72 \\implies n = 28$$\n\n## Simplified explanation\n\nWork backwards: $18 \\times 4 = 72$, then $72 + 12 = 84$, then $84 \\div 3 = 28$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, line $MN$ is parallel to line $TU$, line $TS$ cuts line $MN$ at $O$ and $\\angle MOS = 115^\\circ$. Find $\\angle OTU$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q26.png",
+        "caption": "Parallel lines MN and TU, cut by the line TS at O on MN. Angle MOS is 115°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$65^\\circ$",
+        "hint": "Correct. $180^\\circ - 115^\\circ = 65^\\circ$."
+      },
+      {
+        "text": "$55^\\circ$",
+        "hint": "Angle $OTU$ equals angle $MOT$, which is $65^\\circ$."
+      },
+      {
+        "text": "$45^\\circ$",
+        "hint": "Angle $OTU$ equals angle $MOT$, which is $65^\\circ$."
+      },
+      {
+        "text": "$25^\\circ$",
+        "hint": "Angle $OTU$ equals angle $MOT$, which is $65^\\circ$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find angle $MOT$ on the straight line $TS$ first.",
+    "explanation": "## Advanced explanation\n\nAngle $MOT = 180^\\circ - 115^\\circ = 65^\\circ$ (straight line). Since $MN \\parallel TU$, angle $OTU = 65^\\circ$ (alternate angles).\n\n## Simplified explanation\n\nOn the straight line, the angle next to 115 is 65. The parallel lines make angle $OTU$ the same, so it is 65.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $r = \\begin{pmatrix} -3 \\\\ -5 \\end{pmatrix}$ and $t = \\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix}$, find $r + t$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 10 \\end{pmatrix}$",
+        "hint": "Top: $-3 + 3 = 0$. Bottom: $-5 + (-5) = -10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ -10 \\end{pmatrix}$",
+        "hint": "Check the top entry: $-3 + 3 = 0$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 0 \\\\ -10 \\end{pmatrix}$",
+        "hint": "Correct. Top: $0$. Bottom: $-10$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 10 \\end{pmatrix}$",
+        "hint": "Top: $-3 + 3 = 0$. Bottom: $-5 + (-5) = -10$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$r + t = \\begin{pmatrix} -3 + 3 \\\\ -5 - 5 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ -10 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $-3 + 3 = 0$. Bottom numbers: $-5 + (-5) = -10$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader sold 90 oranges at 3 for GH₵ 0.75. How much did she get from selling all the oranges?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 22.50",
+        "hint": "Correct. $30 \\times 0.75 = 22.50$."
+      },
+      {
+        "text": "GH₵ 67.50",
+        "hint": "This is $90 \\times 0.75$, but GH₵ 0.75 buys 3 oranges."
+      },
+      {
+        "text": "GH₵ 75.00",
+        "hint": "Find how many lots of 3 are in 90."
+      },
+      {
+        "text": "GH₵ 225.50",
+        "hint": "Check the decimal point: $30 \\times 0.75 = 22.50$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "How many lots of 3 are in 90?",
+    "explanation": "## Advanced explanation\n\n$$\\frac{90}{3} \\times 0.75 = 30 \\times 0.75 = 22.50$$\n\n## Simplified explanation\n\n90 oranges make 30 lots of 3. Each lot brings GH₵ 0.75, so she gets $30 \\times 0.75 =$ GH₵ 22.50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 72 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^3 \\times 3^2$",
+        "hint": "Correct. $8 \\times 9 = 72$."
+      },
+      {
+        "text": "$2^2 \\times 3^3$",
+        "hint": "This equals 108."
+      },
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "This equals 36."
+      },
+      {
+        "text": "$2 \\times 3$",
+        "hint": "This equals 6."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Keep dividing 72 by primes until you reach 1.",
+    "explanation": "## Advanced explanation\n\n$$72 = 2 \\times 36 = 2 \\times 2 \\times 18 = 2 \\times 2 \\times 2 \\times 9 = 2^3 \\times 3^2$$\n\n## Simplified explanation\n\n$72 = 8 \\times 9$. Then $8 = 2 \\times 2 \\times 2$ and $9 = 3 \\times 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3a \\times 24ab$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$27ab^2$",
+        "hint": "Multiply the numbers, $3 \\times 24$. Then $a \\times a = a^2$."
+      },
+      {
+        "text": "$27a^2b$",
+        "hint": "Multiply the numbers: $3 \\times 24 = 72$."
+      },
+      {
+        "text": "$72ab^2$",
+        "hint": "There are two $a$s and one $b$, so it is $a^2b$."
+      },
+      {
+        "text": "$72a^2b$",
+        "hint": "Correct. $3 \\times 24 = 72$ and $a \\times ab = a^2b$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the numbers, then the letters.",
+    "explanation": "## Advanced explanation\n\n$$3a \\times 24ab = (3 \\times 24)(a \\times a)b = 72a^2b$$\n\n## Simplified explanation\n\n$3 \\times 24 = 72$, $a \\times a = a^2$, and $b$ stays as it is.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix} + \\begin{pmatrix} -1 \\\\ 5 \\end{pmatrix}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ -2 \\end{pmatrix}$",
+        "hint": "The bottom entry is $3 + 5 = 8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$",
+        "hint": "This subtracts. Add the matching entries."
+      },
+      {
+        "text": "$\\begin{pmatrix} -3 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-3$. Bottom: $8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Add the matching entries: $-2 + (-1)$ and $3 + 5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} -2 - 1 \\\\ 3 + 5 \\end{pmatrix} = \\begin{pmatrix} -3 \\\\ 8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $-2 + (-1) = -3$. Bottom numbers: $3 + 5 = 8$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Multiply 247 by 32.",
+    "media": [],
+    "options": [
+      {
+        "text": "6916",
+        "hint": "This is $247 \\times 28$."
+      },
+      {
+        "text": "7804",
+        "hint": "Check the addition: $7410 + 494 = 7904$."
+      },
+      {
+        "text": "7904",
+        "hint": "Correct. $247 \\times 32 = 7904$."
+      },
+      {
+        "text": "1235",
+        "hint": "This is $247 \\times 5$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Split 32 into 30 and 2.",
+    "explanation": "## Advanced explanation\n\n$$247 \\times 32 = 247 \\times 30 + 247 \\times 2 = 7410 + 494 = 7904$$\n\n## Simplified explanation\n\n$247 \\times 30 = 7410$ and $247 \\times 2 = 494$. Add them to get 7904.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $(0.07 \\times 0.02) \\div 14$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.01",
+        "hint": "$0.07 \\times 0.02 = 0.0014$, and dividing by 14 makes it smaller."
+      },
+      {
+        "text": "0.001",
+        "hint": "$0.0014 \\div 14$ is smaller than this."
+      },
+      {
+        "text": "0.0001",
+        "hint": "Correct. $0.0014 \\div 14 = 0.0001$."
+      },
+      {
+        "text": "0.00001",
+        "hint": "$0.0014 \\div 14 = 0.0001$. Check the number of zeros."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out the bracket first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{0.07 \\times 0.02}{14} = \\frac{0.0014}{14} = 0.0001$$\n\n## Simplified explanation\n\n$7 \\times 2 = 14$, with four decimal places, so the bracket is 0.0014. Dividing by 14 gives 0.0001.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a class of 23 students, the girls were 7 more than the boys. How many boys were in the class?",
+    "media": [],
+    "options": [
+      {
+        "text": "$8$",
+        "hint": "Correct. 8 boys and 15 girls make 23."
+      },
+      {
+        "text": "$15$",
+        "hint": "This is the number of girls."
+      },
+      {
+        "text": "$16$",
+        "hint": "This is $23 - 7$. Halve it to find the boys."
+      },
+      {
+        "text": "$30$",
+        "hint": "This is $23 + 7$, which is more than the whole class."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let the boys be $b$, so the girls are $b + 7$.",
+    "explanation": "## Advanced explanation\n\n$$b + (b + 7) = 23 \\implies 2b = 16 \\implies b = 8$$\n\n## Simplified explanation\n\nTake away the extra 7 girls: $23 - 7 = 16$. Share 16 equally to get 8 boys.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 30 minutes as a percentage of 3 hours 20 minutes",
+    "media": [],
+    "options": [
+      {
+        "text": "12.5%",
+        "hint": "This would be 25 minutes out of 200."
+      },
+      {
+        "text": "15%",
+        "hint": "Correct. $\\frac{30}{200} \\times 100 = 15$."
+      },
+      {
+        "text": "$16\\dfrac{2}{3}$%",
+        "hint": "This compares with 3 hours only. Include the 20 minutes."
+      },
+      {
+        "text": "20%",
+        "hint": "This would be 40 minutes out of 200."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change 3 hours 20 minutes to minutes.",
+    "explanation": "## Advanced explanation\n\n3 hours 20 minutes is 200 minutes, so\n\n$$\\frac{30}{200} \\times 100\\% = 15\\%$$\n\n## Simplified explanation\n\n3 hours is 180 minutes, and 20 more makes 200. 30 out of 200 is the same as 15 out of 100.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Percentages",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Least Common Multiple (L.C.M) of 2, 3 and 5.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6$",
+        "hint": "6 is a multiple of 2 and 3, but not of 5."
+      },
+      {
+        "text": "$12$",
+        "hint": "12 is not a multiple of 5."
+      },
+      {
+        "text": "$24$",
+        "hint": "24 is not a multiple of 5."
+      },
+      {
+        "text": "$30$",
+        "hint": "Correct. $2 \\times 3 \\times 5 = 30$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "These numbers are all prime.",
+    "explanation": "## Advanced explanation\n\nThe numbers are distinct primes, so the LCM is their product: $2 \\times 3 \\times 5 = 30$.\n\n## Simplified explanation\n\nFind the smallest number that 2, 3 and 5 all divide into. That number is 30.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The simple interest on GH₵ 450.00 for 4 years is GH₵ 45.00, find the rate of interest.",
+    "media": [],
+    "options": [
+      {
+        "text": "2.5%",
+        "hint": "Correct. $\\frac{100 \\times 45}{450 \\times 4} = 2.5$."
+      },
+      {
+        "text": "10%",
+        "hint": "This ignores the 4 years. It is the total over all 4 years."
+      },
+      {
+        "text": "25%",
+        "hint": "Check the decimal point: the rate is 2.5%."
+      },
+      {
+        "text": "6.5%",
+        "hint": "$R = \\frac{100 I}{P T} = 2.5$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Use $R = \\dfrac{100 I}{P T}$.",
+    "explanation": "## Advanced explanation\n\n$$R = \\frac{100 \\times 45}{450 \\times 4} = 2.5\\%$$\n\n## Simplified explanation\n\nGH₵ 45 over 4 years is GH₵ 11.25 a year. As a percentage of GH₵ 450, that is 2.5%.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the median of the following numbers: 46, 68, 34, 37, 76 and 81.",
+    "media": [],
+    "options": [
+      {
+        "text": "35.5",
+        "hint": "Put the numbers in order first. The middle two are 46 and 68."
+      },
+      {
+        "text": "57",
+        "hint": "Correct. $\\frac{46 + 68}{2} = 57$."
+      },
+      {
+        "text": "67",
+        "hint": "The middle two are 46 and 68, and halfway between them is 57."
+      },
+      {
+        "text": "68",
+        "hint": "68 is the 4th number, but with 6 numbers the median uses the 3rd and 4th."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put the numbers in order. With 6 numbers, use the 3rd and 4th.",
+    "explanation": "## Advanced explanation\n\nIn order: 34, 37, 46, 68, 76, 81. So the median is $\\frac{46 + 68}{2} = 57$.\n\n## Simplified explanation\n\nLine them up from smallest to largest. The two in the middle are 46 and 68, and halfway between them is 57.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the Venn diagram to answer the question.\n\nFind $M \\cup N$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q39.png",
+        "caption": "Venn diagram of sets M and N in the universal set U. M only holds 3, 5 and 8. Both sets hold 2 and 7. N only holds 1, 4, 6 and 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "$\\{7\\}$",
+        "hint": "$\\cup$ joins all the members of both sets."
+      },
+      {
+        "text": "$\\{2, 7\\}$",
+        "hint": "This is $M \\cap N$, the members in both sets."
+      },
+      {
+        "text": "$\\{3, 5, 8\\}$",
+        "hint": "These are the members in $M$ only."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$",
+        "hint": "Correct. All the members of both sets."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins everything inside either circle.",
+    "explanation": "## Advanced explanation\n\n$M = \\{2, 3, 5, 7, 8\\}$ and $N = \\{1, 2, 4, 6, 7, 9\\}$, so $M \\cup N = \\{1, 2, 3, 4, 5, 6, 7, 8, 9\\}$.\n\n## Simplified explanation\n\nRead every number that is inside at least one of the circles. That gives all the numbers from 1 to 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the Venn diagram to answer the question.\n\nHow many members are in the set $N$?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q39.png",
+        "caption": "Venn diagram of sets M and N in the universal set U. M only holds 3, 5 and 8. Both sets hold 2 and 7. N only holds 1, 4, 6 and 9."
+      }
+    ],
+    "options": [
+      {
+        "text": "$2$",
+        "hint": "This counts only the members in the overlap."
+      },
+      {
+        "text": "$3$",
+        "hint": "Count every number inside circle $N$, including the overlap."
+      },
+      {
+        "text": "$4$",
+        "hint": "This leaves out the overlap, 2 and 7."
+      },
+      {
+        "text": "$6$",
+        "hint": "Correct. $N = \\{1, 2, 4, 6, 7, 9\\}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count every number inside circle $N$, including the overlap.",
+    "explanation": "## Advanced explanation\n\n$N = \\{1, 2, 4, 6, 7, 9\\}$, so $n(N) = 6$.\n\n## Simplified explanation\n\nCircle $N$ holds 1, 4, 6 and 9 on its own, plus 2 and 7 in the overlap. That makes 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2019 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $X =$ {whole numbers from 4 to 13} and $Y =$ {multiples of 3 between 2 and 20}, find $X \\cap Y$",
+    "media": [],
+    "answer": "$X = \\{4, 5, 6, 7, 8, 9, 10, 11, 12, 13\\}$\n\n$Y = \\{3, 6, 9, 12, 15, 18\\}$\n\n> [!answer]\n> {{green:$X \\cap Y = \\{6, 9, 12\\}$}}",
+    "hint": "List both sets first.",
+    "explanation": "## Advanced explanation\n\n$X \\cap Y$ contains the members common to both, which are the multiples of 3 from 4 to 13.\n\n## Simplified explanation\n\nWrite out both lists. The numbers on both are 6, 9 and 12.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the Least Common Multiple (L.C.M) of the following numbers: 3, 5 and 9.",
+    "media": [],
+    "answer": "Write each number as a product of primes: $3 = 3$, $5 = 5$ and $9 = 3^2$.\n\nTake the highest power of each prime:\n\n$$\\text{LCM} = 3^2 \\times 5 = 45$$\n\n> [!answer]\n> {{green:45}}",
+    "hint": "Use prime factors, or list the multiples of 9.",
+    "explanation": "## Advanced explanation\n\nThe LCM uses the highest power of each prime that appears, which is $3^2$ and 5.\n\n## Simplified explanation\n\nCount in 9s: 9, 18, 27, 36, 45. The first one that 5 also divides is 45, and 3 divides it too.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $\\dfrac{p + 2q}{p} = \\dfrac{7}{5}$, find the value of $\\dfrac{q}{p}$, where $p \\ne 0$.",
+    "media": [],
+    "answer": "Split the fraction on the left:\n\n$$\n\\begin{aligned}\n1 + \\frac{2q}{p} &= \\frac{7}{5} \\\\\n\\frac{2q}{p} &= \\frac{2}{5} \\\\\n\\frac{q}{p} &= \\frac{1}{5}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$\\dfrac{q}{p} = \\dfrac{1}{5}$}}",
+    "hint": "Split the left side into two fractions, $\\frac{p}{p} + \\frac{2q}{p}$.",
+    "explanation": "## Advanced explanation\n\nCross-multiplying also works: $5p + 10q = 7p$, so $10q = 2p$, and $\\frac{q}{p} = \\frac{1}{5}$.\n\n## Simplified explanation\n\n$\\frac{p}{p}$ is 1, so $1 + \\frac{2q}{p} = \\frac{7}{5}$. Take away 1 to leave $\\frac{2}{5}$, then halve it to get $\\frac{1}{5}$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Algebra",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve: $\\dfrac{4x + 5}{5} + \\dfrac{x - 3}{4} = -1$",
+    "media": [],
+    "answer": "Multiply every term by 20:\n\n$$\n\\begin{aligned}\n4(4x + 5) + 5(x - 3) &= -20 \\\\\n16x + 20 + 5x - 15 &= -20 \\\\\n21x + 5 &= -20 \\\\\n21x &= -25 \\\\\nx &= -\\frac{25}{21}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = -\\dfrac{25}{21}$ (that is, $-1\\dfrac{4}{21}$)}}",
+    "hint": "The LCM of 5 and 4 is 20. Multiply through by 20.",
+    "explanation": "## Advanced explanation\n\nMultiplying through by the LCM clears both denominators. Keep brackets round the numerators so each term gets multiplied.\n\n## Simplified explanation\n\nMultiply everything by 20. The first fraction becomes $4(4x + 5)$ and the second becomes $5(x - 3)$. Tidy up to get $21x + 5 = -20$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The ratio of boys to girls in a school is $12 : 25$. If there are 120 boys,\n\n(i) how many girls are in the school?\n\n(ii) what is the total number of boys and girls in the school?",
+    "media": [],
+    "answer": "**(i)** 12 parts are 120 boys, so one part is 10.\n\nGirls: $25 \\times 10 = 250$\n\n**(ii)** $120 + 250 = 370$\n\n> [!answer]\n> **(i)** {{green:250 girls}}  **(ii)** {{green:370}}",
+    "hint": "Find the value of one ratio part from the boys.",
+    "explanation": "## Advanced explanation\n\n$\\frac{\\text{girls}}{120} = \\frac{25}{12}$ gives 250. The total is also $37$ parts $\\times 10 = 370$.\n\n## Simplified explanation\n\n12 parts are 120 boys, so each part is 10 pupils. The girls have 25 parts, which is 250. Together that is 370.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $(8x^2y^3)\\left(\\dfrac{3}{8}xy^4\\right)$",
+    "media": [],
+    "answer": "$$8 \\times \\frac{3}{8} \\times x^{2 + 1} \\times y^{3 + 4} = 3x^3y^7$$\n\n> [!answer]\n> {{green:$3x^3y^7$}}",
+    "hint": "Multiply the numbers, then add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$x^a \\times x^b = x^{a + b}$, and $x$ on its own means $x^1$.\n\n## Simplified explanation\n\n$8 \\times \\frac{3}{8} = 3$. Then $x^2 \\times x = x^3$ and $y^3 \\times y^4 = y^7$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In an examination, 60 candidates passed Integrated Science or Mathematics. If 15 passed both subjects and 9 more passed Mathematics than Integrated Science, find the:\n\n(i) number of candidates who passed in each subject;\n\n(ii) probability that a candidate passed exactly one subject.",
+    "media": [],
+    "answer": "**(i)** Let $s$ passed Integrated Science, so $s + 9$ passed Mathematics.\n\n$$\n\\begin{aligned}\ns + (s + 9) - 15 &= 60 \\\\\n2s &= 66 \\\\\ns &= 33\n\\end{aligned}\n$$\n\nMathematics: $33 + 9 = 42$\n\n**(ii)** Exactly one subject: $60 - 15 = 45$\n\n$$P = \\frac{45}{60} = \\frac{3}{4}$$\n\n> [!answer]\n> **(i)** {{green:Integrated Science 33, Mathematics 42}}  **(ii)** {{green:$\\dfrac{3}{4}$}}",
+    "hint": "Draw a Venn diagram. Those who passed both are counted in each subject.",
+    "explanation": "## Advanced explanation\n\n$n(S \\cup M) = n(S) + n(M) - n(S \\cap M)$. In the Venn diagram, the regions are 18, 15 and 27, which total 60.\n\n## Simplified explanation\n\nAdding both subjects counts the 15 twice, so the subjects total $60 + 15 = 75$. Taking away the extra 9 and halving gives 33 and 42. Those who passed just one are $60 - 15 = 45$ of the 60.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Sets",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize: $xy + 6x + 3y + 18$",
+    "media": [],
+    "answer": "$$xy + 6x + 3y + 18 = x(y + 6) + 3(y + 6) = (x + 3)(y + 6)$$\n\n> [!answer]\n> {{green:$(x + 3)(y + 6)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nEach pair has the common factor $(y + 6)$. Expanding returns the original expression.\n\n## Simplified explanation\n\nTake $x$ out of the first pair and 3 out of the second. Both leave $(y + 6)$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Express 250% as a fraction in its lowest term.",
+    "media": [],
+    "answer": "$$250\\% = \\frac{250}{100} = \\frac{5}{2}$$\n\n> [!answer]\n> {{green:$\\dfrac{5}{2}$ (that is, $2\\dfrac{1}{2}$)}}",
+    "hint": "Percent means out of 100.",
+    "explanation": "## Advanced explanation\n\nThe HCF of 250 and 100 is 50. A percentage above 100% gives a fraction greater than 1.\n\n## Simplified explanation\n\nWrite 250 over 100, then divide the top and bottom by 50.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Use the diagram to find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q4.png",
+        "caption": "Triangle with a 107° angle at the top. The exterior angles at the two ends of the base are 4x° on the left and 3x° on the right. Not drawn to scale."
+      }
+    ],
+    "answer": "The inside base angles are $(180 - 4x)^\\circ$ and $(180 - 3x)^\\circ$. Angles in a triangle add up to $180^\\circ$:\n\n$$\n\\begin{aligned}\n107 + (180 - 4x) + (180 - 3x) &= 180 \\\\\n467 - 7x &= 180 \\\\\n7x &= 287 \\\\\nx &= 41\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = 41$}}",
+    "hint": "Each marked outside angle lies on a straight line with an inside angle.",
+    "explanation": "## Advanced explanation\n\nThe base angles are then $180 - 164 = 16^\\circ$ and $180 - 123 = 57^\\circ$, and $107 + 16 + 57 = 180$.\n\n## Simplified explanation\n\nEach inside base angle is 180 minus the outside angle. Add the three inside angles and set the total to 180. This gives $7x = 287$.",
+    "difficulty": "hard",
+    "marks": 4,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $2 \\div \\left(\\dfrac{15}{64} \\div \\dfrac{6}{7}\\right)$",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n\\frac{15}{64} \\div \\frac{6}{7} &= \\frac{15}{64} \\times \\frac{7}{6} = \\frac{35}{128} \\\\\n2 \\div \\frac{35}{128} &= 2 \\times \\frac{128}{35} = \\frac{256}{35}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$\\dfrac{256}{35}$ (that is, $7\\dfrac{11}{35}$)}}",
+    "hint": "Work out the bracket first. To divide by a fraction, multiply by its reciprocal.",
+    "explanation": "## Advanced explanation\n\nCancel 15 and 6 by 3 before multiplying, to get $\\frac{5 \\times 7}{64 \\times 2} = \\frac{35}{128}$.\n\n## Simplified explanation\n\nFlip $\\frac{6}{7}$ and multiply to get $\\frac{35}{128}$. Then flip that and multiply by 2 to get $\\frac{256}{35}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $q = \\begin{pmatrix} 7 \\\\ -1 \\end{pmatrix}$ and $r = \\begin{pmatrix} 4 \\\\ -5 \\end{pmatrix}$, find $(q + r)$.",
+    "media": [],
+    "answer": "$$q + r = \\begin{pmatrix} 7 + 4 \\\\ -1 + (-5) \\end{pmatrix} = \\begin{pmatrix} 11 \\\\ -6 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} 11 \\\\ -6 \\end{pmatrix}$}}",
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\nVectors add entry by entry, and the result is the single move equal to both moves together.\n\n## Simplified explanation\n\nTop numbers: $7 + 4 = 11$. Bottom numbers: $-1 + (-5) = -6$.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mapping shows the relationship between $x$ and $y$.\n\n(i) Using a scale of 2 cm to 1 unit on the $x$-axis and 2 cm to 2 units on the $y$-axis, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet for $1 \\le x \\le 5$ and $0 \\le y \\le 14$;\n\n(ii) Plot the point for each ordered pair, $(x, y)$;\n\n(iii) Join the points with a straight line;\n\n(iv) Using the graph, find the gradient of the line in (iii);\n\n(v) Use the graph to find the equation of the line in (iii).\n\nIn your answer, list the points, the gradient and the equation.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2019/2019q5.png",
+        "caption": "Mapping diagram: x values 1, 2, 3, 4, 5 map to y values 0, 3, 6, 9, 12."
+      }
+    ],
+    "answer": "Plot $(1, 0)$, $(2, 3)$, $(3, 6)$, $(4, 9)$ and $(5, 12)$, and join them with a straight line.\n\n**(iv)** Using $(1, 0)$ and $(5, 12)$:\n\n$$m = \\frac{12 - 0}{5 - 1} = 3$$\n\n**(v)** $y = 3x + c$. At $(1, 0)$: $0 = 3 + c$, so $c = -3$.\n\n> [!answer]\n> Points {{green:$(1, 0)$, $(2, 3)$, $(3, 6)$, $(4, 9)$, $(5, 12)$}}\n>\n> **(iv)** {{green:Gradient $= 3$}}  **(v)** {{green:$y = 3x - 3$}}",
+    "hint": "Each pair in the mapping is one point. Use any two of them for the gradient.",
+    "explanation": "## Advanced explanation\n\nCheck the equation with another point: at $x = 4$, $y = 3(4) - 3 = 9$. The equation can also be written $y = 3(x - 1)$.\n\n## Simplified explanation\n\nPlot the pairs and rule a line. $y$ goes up by 3 for each step in $x$, so the gradient is 3. For $x = 1$, $3x$ gives 3 but $y$ is 0, so subtract 3.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Graphs",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $32 \\times 8 \\times 4 \\times 2$, leaving your answer in the form $2^n$.",
+    "media": [],
+    "answer": "$$2^5 \\times 2^3 \\times 2^2 \\times 2^1 = 2^{5 + 3 + 2 + 1} = 2^{11}$$\n\n> [!answer]\n> {{green:$2^{11}$}}",
+    "hint": "Write each number as a power of 2, then add the powers.",
+    "explanation": "## Advanced explanation\n\n$a^p \\times a^q = a^{p + q}$. As a check, $32 \\times 8 \\times 4 \\times 2 = 2048 = 2^{11}$.\n\n## Simplified explanation\n\n$32 = 2^5$, $8 = 2^3$, $4 = 2^2$ and $2 = 2^1$. Add the small numbers: $5 + 3 + 2 + 1 = 11$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Indices"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The marks obtained by students in a class test were:\n\n4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n\nConstruct a frequency distribution table for the data.\n\nIn your answer, write out the frequency of each mark.",
+    "media": [],
+    "answer": "Count how many times each mark appears:\n\n| Mark | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| Frequency | 1 | 4 | 3 | 4 | 2 | 2 | 7 | 2 |\n\nThe frequencies add up to 25, which is the number of marks.\n\n> [!answer]\n> Marks 1 to 8 have frequencies {{green:1, 4, 3, 4, 2, 2, 7, 2}}",
+    "hint": "Go through the list once and tally each mark.",
+    "explanation": "## Advanced explanation\n\nA frequency table groups each value with its count. The check is that $\\sum f$ equals the number of data values, 25.\n\n## Simplified explanation\n\nList the marks from 1 to 8. Make a tally mark for each number in the list, then count the tallies.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The marks obtained by students in a class test were:\n\n4, 8, 7, 6, 7, 2, 1, 7, 4, 7, 3, 7, 6, 4, 3, 7, 5, 2, 7, 2, 5, 4, 8, 3, 2\n\nFind the:\n\n(i) mode of the distribution.\n\n(ii) median mark of the test.\n\n(iii) mean mark.",
+    "media": [],
+    "answer": "| Mark | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |\n|---|---|---|---|---|---|---|---|---|\n| Frequency | 1 | 4 | 3 | 4 | 2 | 2 | 7 | 2 |\n\n**(i)** Mark 7 has the highest frequency, 7.\n\n**(ii)** With 25 marks, the median is the 13th. The cumulative frequencies are 1, 5, 8, 12, 14, so the 13th mark is 5.\n\n**(iii)**\n\n$$\\text{Mean} = \\frac{\\sum fx}{\\sum f} = \\frac{1 + 8 + 9 + 16 + 10 + 12 + 49 + 16}{25} = \\frac{121}{25} = 4.84$$\n\n> [!answer]\n> **(i)** {{green:7}}  **(ii)** {{green:5}}  **(iii)** {{green:4.84}}",
+    "hint": "Make a frequency table first. The median is the 13th mark in order.",
+    "explanation": "## Advanced explanation\n\nThe median position is $\\frac{25 + 1}{2} = 13$. The mean uses $\\sum fx = 121$ and $\\sum f = 25$.\n\n## Simplified explanation\n\nThe mark seen most often is 7. In order, the middle mark of 25 is the 13th, which is 5. Adding all the marks gives 121, and $121 \\div 25 = 4.84$.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2019 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  }
+]

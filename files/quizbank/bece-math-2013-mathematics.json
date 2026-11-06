@@ -1,0 +1,1602 @@
+[
+  {
+    "type": "choice",
+    "body": "If $A =$ {5, 10, 15, 20, 25, 125} and $B =$ {5, 10, 15, 20, 25, 625}, list the elements of $A \\cup B$",
+    "media": [],
+    "options": [
+      {
+        "text": "{5, 25}",
+        "hint": "The union includes every member of both sets."
+      },
+      {
+        "text": "{10, 20, 125, 625}",
+        "hint": "The union also includes 5, 15 and 25."
+      },
+      {
+        "text": "{5, 15, 25, 125, 625}",
+        "hint": "The union also includes 10 and 20."
+      },
+      {
+        "text": "{5, 10, 15, 20, 25, 125, 625}",
+        "hint": "Correct. All the members, each listed once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins all the members of both sets.",
+    "explanation": "## Advanced explanation\n\n$A \\cup B$ contains each member of $A$ or $B$, listed once: $\\{5, 10, 15, 20, 25, 125, 625\\}$.\n\n## Simplified explanation\n\nPut the two lists together, and write each number only once.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 1.25 as a percentage.",
+    "media": [],
+    "options": [
+      {
+        "text": "25%",
+        "hint": "This is 0.25. The number is 1.25."
+      },
+      {
+        "text": "75%",
+        "hint": "This is 0.75. The number is 1.25."
+      },
+      {
+        "text": "125%",
+        "hint": "Correct. $1.25 \\times 100 = 125$."
+      },
+      {
+        "text": "175%",
+        "hint": "This is 1.75. The number is 1.25."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply by 100 to change a decimal to a percentage.",
+    "explanation": "## Advanced explanation\n\n$$1.25 \\times 100\\% = 125\\%$$\n\n## Simplified explanation\n\nMove the decimal point 2 places to the right to get 125%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following in ascending order of magnitude: 0.301, 0.3, 0.33, 0.03",
+    "media": [],
+    "options": [
+      {
+        "text": "0.03, 0.3, 0.301, 0.33",
+        "hint": "Correct. Each number is larger than the one before it."
+      },
+      {
+        "text": "0.03, 0.301, 0.3, 0.33",
+        "hint": "0.3 is 0.300, which is less than 0.301."
+      },
+      {
+        "text": "0.33, 0.3, 0.301, 0.03",
+        "hint": "Ascending starts with the smallest."
+      },
+      {
+        "text": "0.33, 0.301, 0.3, 0.03",
+        "hint": "This is descending order. Ascending starts with the smallest."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write each number with three decimal places.",
+    "explanation": "## Advanced explanation\n\nAs thousandths: $0.030 < 0.300 < 0.301 < 0.330$.\n\n## Simplified explanation\n\nWrite them as 0.301, 0.300, 0.330 and 0.030. Then put them in order from smallest to largest.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $53 - (-7) + (-15)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "31",
+        "hint": "Subtracting $-7$ means adding 7."
+      },
+      {
+        "text": "45",
+        "hint": "Correct. $53 + 7 - 15 = 45$."
+      },
+      {
+        "text": "61",
+        "hint": "Adding $-15$ means taking away 15."
+      },
+      {
+        "text": "75",
+        "hint": "Adding $-15$ means taking away 15, not adding it."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtracting a negative adds. Adding a negative subtracts.",
+    "explanation": "## Advanced explanation\n\n$$53 + 7 - 15 = 45$$\n\n## Simplified explanation\n\n$-(-7)$ becomes $+7$, so $53 + 7 = 60$. Adding $-15$ takes away 15, which gives 45.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $A =$ {a, e, i, o, u} and $B =$ {r, s, t}, how many elements are in $A \\cap B$?",
+    "media": [],
+    "options": [
+      {
+        "text": "0",
+        "hint": "Correct. The two sets share no members."
+      },
+      {
+        "text": "1",
+        "hint": "No letter appears in both sets."
+      },
+      {
+        "text": "2",
+        "hint": "No letter appears in both sets."
+      },
+      {
+        "text": "3",
+        "hint": "This is the number of elements in $B$, not in $A \\cap B$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Look for letters found in both sets.",
+    "explanation": "## Advanced explanation\n\n$A$ and $B$ have no common members, so $A \\cap B = \\{\\ \\}$ and $n(A \\cap B) = 0$.\n\n## Simplified explanation\n\n$A$ holds the vowels and $B$ holds consonants. No letter is in both.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Convert $2114_{five}$ to a base ten numeral.",
+    "media": [],
+    "options": [
+      {
+        "text": "194",
+        "hint": "The place values are 125, 25, 5 and 1."
+      },
+      {
+        "text": "280",
+        "hint": "This leaves out the 4 units."
+      },
+      {
+        "text": "284",
+        "hint": "Correct. $250 + 25 + 5 + 4 = 284$."
+      },
+      {
+        "text": "300",
+        "hint": "The place values are 125, 25, 5 and 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The place values in base five are 125, 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$$2 \\times 125 + 1 \\times 25 + 1 \\times 5 + 4 = 284$$\n\n## Simplified explanation\n\nTwo 125s make 250. Add one 25, one 5 and four units to get 284.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{2^2 \\times 3^2}{4^2 \\times 3^2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{12}$",
+        "hint": "The $3^2$ cancels, which leaves $\\frac{4}{16}$."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "The $3^2$ cancels, which leaves $\\frac{4}{16}$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "Correct. $\\frac{2^2}{4^2} = \\frac{4}{16} = \\frac{1}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "The $3^2$ cancels, which leaves $\\frac{4}{16}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The $3^2$ appears on the top and the bottom.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{2^2 \\times 3^2}{4^2 \\times 3^2} = \\frac{2^2}{4^2} = \\frac{4}{16} = \\frac{1}{4}$$\n\n## Simplified explanation\n\nCancel the $3^2$. That leaves $2 \\times 2 = 4$ over $4 \\times 4 = 16$, which is $\\frac{1}{4}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car uses 150 litres of petrol in 45 minutes. How many litres of petrol will it use in 1 hour?",
+    "media": [],
+    "options": [
+      {
+        "text": "375 litres",
+        "hint": "60 minutes is only a third more than 45 minutes."
+      },
+      {
+        "text": "230 litres",
+        "hint": "$150 \\times \\frac{60}{45} = 200$."
+      },
+      {
+        "text": "225 litres",
+        "hint": "This adds half of 150. 60 minutes is a third more than 45."
+      },
+      {
+        "text": "200 litres",
+        "hint": "Correct. $150 \\times \\frac{60}{45} = 200$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find how much it uses in 15 minutes.",
+    "explanation": "## Advanced explanation\n\n$$150 \\times \\frac{60}{45} = 200 \\text{ litres}$$\n\n## Simplified explanation\n\n45 minutes is 3 lots of 15 minutes, so 15 minutes uses 50 litres. An hour is 4 lots, which uses 200 litres.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{36a^3b^2x}{27ab^3y}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{4a^2x}{3by}$",
+        "hint": "Correct. $a^{3 - 1} = a^2$, and one $b$ stays on the bottom."
+      },
+      {
+        "text": "$\\dfrac{4abx}{3y}$",
+        "hint": "$a^3 \\div a = a^2$, and $b^2 \\div b^3 = \\frac{1}{b}$."
+      },
+      {
+        "text": "$\\dfrac{4a^2bx}{3y}$",
+        "hint": "$b^2 \\div b^3 = \\frac{1}{b}$, so $b$ belongs on the bottom."
+      },
+      {
+        "text": "$\\dfrac{4a^4b^5x}{3y}$",
+        "hint": "Subtract the powers when dividing. Do not add them."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Cancel the numbers, then subtract the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{36}{27} \\times a^{3 - 1} \\times b^{2 - 3} \\times \\frac{x}{y} = \\frac{4a^2x}{3by}$$\n\n## Simplified explanation\n\n$\\frac{36}{27} = \\frac{4}{3}$. $a^3 \\div a = a^2$. Two $b$s on top cancel with two of the three below, which leaves one $b$ on the bottom.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:\n\n| 1 | 2 | 3 | 4 | 5 | $x$ |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| 5 | 8 | 11 | 14 | 17 | $y$ |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to x + 2$",
+        "hint": "This gives 3 when $x = 1$, not 5."
+      },
+      {
+        "text": "$x \\to x + 4$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 6, not 8."
+      },
+      {
+        "text": "$x \\to 2x + 3$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 7, not 8."
+      },
+      {
+        "text": "$x \\to 3x + 2$",
+        "hint": "Correct. $3(1) + 2 = 5$, $3(2) + 2 = 8$, and so on."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "How much does $y$ go up each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\n$y$ rises by 3 for each step, so $y = 3x + c$. Using $x = 1, y = 5$ gives $c = 2$.\n\n## Simplified explanation\n\nThe bottom numbers go up by 3, so multiply by 3. For 1 this gives 3, but the answer is 5, so add 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $-1 = 2 - m$ find $m$.",
+    "media": [],
+    "options": [
+      {
+        "text": "-3",
+        "hint": "$2 - (-3) = 5$, not $-1$."
+      },
+      {
+        "text": "-1",
+        "hint": "$2 - (-1) = 3$, not $-1$."
+      },
+      {
+        "text": "1",
+        "hint": "$2 - 1 = 1$, not $-1$."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $2 - 3 = -1$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add $m$ and 1 to both sides.",
+    "explanation": "## Advanced explanation\n\n$$-1 = 2 - m \\implies m = 2 + 1 = 3$$\n\n## Simplified explanation\n\n2 take away what makes $-1$? Taking 2 reaches 0, and 1 more reaches $-1$, so $m = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The perimeter of a rectangle is 48 cm. If the length is 14 cm, find its width.",
+    "media": [],
+    "options": [
+      {
+        "text": "24 cm",
+        "hint": "This is half of the perimeter. Subtract the 14 cm too."
+      },
+      {
+        "text": "20 cm",
+        "hint": "This is $48 - 2 \\times 14$. Halve it to get the width."
+      },
+      {
+        "text": "10 cm",
+        "hint": "Correct. $2(14 + 10) = 48$."
+      },
+      {
+        "text": "3.4 cm",
+        "hint": "This divides the perimeter by the length."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Half of the perimeter is one length plus one width.",
+    "explanation": "## Advanced explanation\n\n$$2(14 + w) = 48 \\implies 14 + w = 24 \\implies w = 10 \\text{ cm}$$\n\n## Simplified explanation\n\nHalf of 48 is 24. Then $24 - 14 = 10$ cm.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $d$ the subject of the relation $n = 2d + 3$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$d = \\dfrac{3n}{n}$",
+        "hint": "Subtract 3, then divide by 2."
+      },
+      {
+        "text": "$d = \\dfrac{n + 3}{2}$",
+        "hint": "Moving the 3 across changes its sign."
+      },
+      {
+        "text": "$d = \\dfrac{n - 3}{2}$",
+        "hint": "Correct. $2d = n - 3$."
+      },
+      {
+        "text": "$d = \\dfrac{3 - n}{2}$",
+        "hint": "The signs are reversed. $2d = n - 3$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract 3 from both sides first.",
+    "explanation": "## Advanced explanation\n\n$$n - 3 = 2d \\implies d = \\frac{n - 3}{2}$$\n\n## Simplified explanation\n\nTake 3 from both sides to get $n - 3 = 2d$. Then divide by 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the gradient of the straight line joining the points $A(3, 5)$ and $B(-2, 3)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{2}$",
+        "hint": "This is change in $x$ over change in $y$."
+      },
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Correct. $\\frac{3 - 5}{-2 - 3} = \\frac{-2}{-5}$."
+      },
+      {
+        "text": "$-\\dfrac{2}{5}$",
+        "hint": "Both changes are negative, so the gradient is positive."
+      },
+      {
+        "text": "$-\\dfrac{5}{2}$",
+        "hint": "This has the fraction upside down and the wrong sign."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\n$$m = \\frac{3 - 5}{-2 - 3} = \\frac{-2}{-5} = \\frac{2}{5}$$\n\n## Simplified explanation\n\n$y$ changes by $-2$ and $x$ changes by $-5$. A negative divided by a negative is positive.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram to answer the question. (Not drawn to scale.)\n\nFind the angle marked $a$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq15-16.png",
+        "caption": "Isosceles triangle with two equal marked sides. The right base angle is 50°, the left base angle is a, and the sides extend past the top, where b is the exterior angle beside the top angle. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$70^\\circ$",
+        "hint": "The base angles are equal, and one is $50^\\circ$."
+      },
+      {
+        "text": "$50^\\circ$",
+        "hint": "Correct. The two base angles are equal."
+      },
+      {
+        "text": "$40^\\circ$",
+        "hint": "The base angles are equal, and one is $50^\\circ$."
+      },
+      {
+        "text": "$30^\\circ$",
+        "hint": "The base angles are equal, and one is $50^\\circ$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Two sides are marked equal, so the base angles are equal.",
+    "explanation": "## Advanced explanation\n\nThe triangle is isosceles, so the base angles are equal: $a = 50^\\circ$.\n\n## Simplified explanation\n\nEqual sides mean equal angles at the bottom. So $a$ matches the $50^\\circ$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram to answer the question. (Not drawn to scale.)\n\nFind the angle marked $b$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq15-16.png",
+        "caption": "Isosceles triangle with two equal marked sides. The right base angle is 50°, the left base angle is a, and the sides extend past the top, where b is the exterior angle beside the top angle. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$150^\\circ$",
+        "hint": "The top angle is $80^\\circ$, and $b$ is next to it on a straight line."
+      },
+      {
+        "text": "$140^\\circ$",
+        "hint": "The top angle is $80^\\circ$, and $b$ is next to it on a straight line."
+      },
+      {
+        "text": "$110^\\circ$",
+        "hint": "The top angle is $80^\\circ$, and $b$ is next to it on a straight line."
+      },
+      {
+        "text": "$100^\\circ$",
+        "hint": "Correct. $180^\\circ - 80^\\circ = 100^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the top angle of the triangle first.",
+    "explanation": "## Advanced explanation\n\nThe top angle is $180^\\circ - 2(50^\\circ) = 80^\\circ$, so $b = 180^\\circ - 80^\\circ = 100^\\circ$. It also equals the sum of the two base angles.\n\n## Simplified explanation\n\nThe bottom angles are 50 each, so the top is 80. $b$ sits beside it on a straight line, so $b = 180 - 80 = 100$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "$S =$ {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}. Find the probability that a number selected at random from $S$ is odd.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "There are 5 odd numbers out of 10."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "There are 5 odd numbers out of 10."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. 1, 3, 5, 7, 9 make 5 out of 10."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "There are 10 numbers, not 8."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "List the odd numbers in the set.",
+    "explanation": "## Advanced explanation\n\nThe odd members are $\\{1, 3, 5, 7, 9\\}$, so $P = \\frac{5}{10} = \\frac{1}{2}$.\n\n## Simplified explanation\n\nHalf of the numbers from 1 to 10 are odd.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the vector which translates the point $(4, -5)$ to $(3, -2)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -3 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $-2 - (-5) = 3$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "Correct. $3 - 4 = -1$ and $-2 + 5 = 3$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 7 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $-2 - (-5) = 3$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ 3 \\end{pmatrix}$",
+        "hint": "This adds the top entries. Use image minus object."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Translation vector $=$ image $-$ object.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} 3 - 4 \\\\ -2 - (-5) \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTo go from 4 to 3, take away 1. To go from $-5$ to $-2$, add 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Factorize completely the expression $2xy - 6y + 7x - 21$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(x - 3)(2y + 7)$",
+        "hint": "Correct. Expanding gives $2xy + 7x - 6y - 21$."
+      },
+      {
+        "text": "$(x + 3)(2y - 7)$",
+        "hint": "Expanding gives $2xy - 7x + 6y - 21$."
+      },
+      {
+        "text": "$(y - 3)(2x + 7)$",
+        "hint": "Expanding gives $2xy + 7y - 6x - 21$."
+      },
+      {
+        "text": "$(y + 3)(2x - 7)$",
+        "hint": "Expanding gives $2xy - 7y + 6x - 21$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\n$$2xy - 6y + 7x - 21 = 2y(x - 3) + 7(x - 3) = (x - 3)(2y + 7)$$\n\n## Simplified explanation\n\nTake $2y$ out of the first pair and 7 out of the second. Both leave $(x - 3)$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The area of a circle is 154 cm$^2$. Find the diameter. (Take $\\pi = \\dfrac{22}{7}$)",
+    "media": [],
+    "options": [
+      {
+        "text": "7 cm",
+        "hint": "This is the radius. The diameter is twice that."
+      },
+      {
+        "text": "14 cm",
+        "hint": "Correct. $r = 7$, so $d = 14$."
+      },
+      {
+        "text": "21 cm",
+        "hint": "$r = 7$, so $d = 2 \\times 7$."
+      },
+      {
+        "text": "49 cm",
+        "hint": "This is $r^2$. Take the square root, then double."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the radius from the area, then double it.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{22}{7} r^2 = 154 \\implies r^2 = 49 \\implies r = 7 \\implies d = 14 \\text{ cm}$$\n\n## Simplified explanation\n\n$154 \\div \\frac{22}{7} = 49$, so the radius is 7 cm. The diameter is twice that.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mame Esi rides her bicycle to school and back everyday. If the distance from her home to the school is 2345 m, how many kilometres does she cover everyday?",
+    "media": [],
+    "options": [
+      {
+        "text": "4.98 km",
+        "hint": "$2 \\times 2345 = 4690$ m."
+      },
+      {
+        "text": "4.69 km",
+        "hint": "Correct. $4690$ m $= 4.69$ km."
+      },
+      {
+        "text": "3.96 km",
+        "hint": "$2 \\times 2345 = 4690$ m."
+      },
+      {
+        "text": "3.68 km",
+        "hint": "$2 \\times 2345 = 4690$ m."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "She rides the distance twice. 1 km = 1000 m.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{2 \\times 2345}{1000} = 4.69 \\text{ km}$$\n\n## Simplified explanation\n\nThere and back is $2 \\times 2345 = 4690$ m. Divide by 1000 to get 4.69 km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The length of a rectangular fence is 25 m. The ratio of the length to the width is 5 : 3. Find the width of the rectangular fence.",
+    "media": [],
+    "options": [
+      {
+        "text": "9 m",
+        "hint": "The length has 5 parts of 5 m each. The width has 3 parts."
+      },
+      {
+        "text": "13 m",
+        "hint": "The length has 5 parts of 5 m each. The width has 3 parts."
+      },
+      {
+        "text": "15 m",
+        "hint": "Correct. $3 \\times 5 = 15$."
+      },
+      {
+        "text": "16 m",
+        "hint": "The length has 5 parts of 5 m each. The width has 3 parts."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "25 m is 5 parts of the ratio.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{w}{25} = \\frac{3}{5} \\implies w = 15 \\text{ m}$$\n\n## Simplified explanation\n\n5 parts are 25 m, so 1 part is 5 m. The width has 3 parts, which is 15 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\dfrac{20}{a} - b$, if $a = 30$ and $b = 1$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1\\dfrac{2}{3}$",
+        "hint": "$\\frac{20}{30} = \\frac{2}{3}$, and $\\frac{2}{3} - 1 = -\\frac{1}{3}$."
+      },
+      {
+        "text": "$-\\dfrac{1}{3}$",
+        "hint": "Correct. $\\frac{2}{3} - 1 = -\\frac{1}{3}$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Check the sign: $\\frac{2}{3}$ is less than 1."
+      },
+      {
+        "text": "$1\\dfrac{2}{3}$",
+        "hint": "This adds 1. The sign is minus."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Work out the fraction first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{20}{30} - 1 = \\frac{2}{3} - 1 = -\\frac{1}{3}$$\n\n## Simplified explanation\n\n$\\frac{20}{30}$ simplifies to $\\frac{2}{3}$. Taking away 1 gives $-\\frac{1}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many 15 Gp Christmas cards can be bought with GH₵ 18.00?",
+    "media": [],
+    "options": [
+      {
+        "text": "120",
+        "hint": "Correct. $1800 \\div 15 = 120$."
+      },
+      {
+        "text": "150",
+        "hint": "$150 \\times 15 = 2250$ Gp, which is GH₵ 22.50."
+      },
+      {
+        "text": "180",
+        "hint": "$180 \\times 15 = 2700$ Gp, which is GH₵ 27.00."
+      },
+      {
+        "text": "270",
+        "hint": "$270 \\times 15 = 4050$ Gp, which is GH₵ 40.50."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change the cedis to pesewas.",
+    "explanation": "## Advanced explanation\n\nGH₵ 18.00 is 1800 Gp, so $\\frac{1800}{15} = 120$ cards.\n\n## Simplified explanation\n\nGH₵ 18 is 1800 pesewas. Then $1800 \\div 15 = 120$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $u = \\begin{pmatrix} 6 \\\\ 9 \\end{pmatrix}$ and $v = \\begin{pmatrix} 4 \\\\ -5 \\end{pmatrix}$, find $u + v$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -2 \\\\ 2 \\end{pmatrix}$",
+        "hint": "Add the matching entries: $6 + 4$ and $9 + (-5)$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 2 \\\\ -4 \\end{pmatrix}$",
+        "hint": "Add the matching entries: $6 + 4$ and $9 + (-5)$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 10 \\\\ -14 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $9 + (-5) = 4$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix}$",
+        "hint": "Correct. Top: $10$. Bottom: $4$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} 6 + 4 \\\\ 9 + (-5) \\end{pmatrix} = \\begin{pmatrix} 10 \\\\ 4 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $6 + 4 = 10$. Bottom numbers: $9 + (-5) = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $4956 \\times 25 = 123,900$, evaluate $495.6 \\times 2.5$ leaving the answer in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$1.239 \\times 10^{2}$",
+        "hint": "This equals 123.9. The answer is 1239."
+      },
+      {
+        "text": "$1.239 \\times 10^{3}$",
+        "hint": "Correct. $123900 \\div 100 = 1239$."
+      },
+      {
+        "text": "$1.239 \\times 10^{4}$",
+        "hint": "This equals 12390. The answer is 1239."
+      },
+      {
+        "text": "$1.239 \\times 10^{5}$",
+        "hint": "This is the original product, 123900."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each number is 10 times smaller than in the given product.",
+    "explanation": "## Advanced explanation\n\n$495.6 \\times 2.5 = \\frac{4956 \\times 25}{10 \\times 10} = \\frac{123900}{100} = 1239 = 1.239 \\times 10^3$.\n\n## Simplified explanation\n\nBoth numbers are 10 times smaller, so the answer is 100 times smaller: 1239. In standard form that is $1.239 \\times 10^3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following expressions is illustrated on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq27.png",
+        "caption": "Number line from −5 to 5, with a solid dot at −2 and an arrow running to the left."
+      }
+    ],
+    "options": [
+      {
+        "text": "$x \\le -2$",
+        "hint": "Correct. A solid dot at $-2$ and an arrow to the left."
+      },
+      {
+        "text": "$x < -2$",
+        "hint": "A solid dot includes $-2$, so the sign is $\\le$."
+      },
+      {
+        "text": "$x \\ge -2$",
+        "hint": "The arrow points left, towards smaller numbers."
+      },
+      {
+        "text": "$x > -2$",
+        "hint": "The arrow points left, and the dot is solid."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "A solid dot includes the number. Then look at the arrow.",
+    "explanation": "## Advanced explanation\n\nThe solid dot includes $-2$, and the arrow runs towards smaller numbers, which gives $x \\le -2$.\n\n## Simplified explanation\n\nThe filled dot means $-2$ is included. The arrow goes left, so $x$ is $-2$ or less.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 180 oranges were shared among Kwame and Ama in the ratio 7 : 5, respectively, how many oranges did Ama receive?",
+    "media": [],
+    "options": [
+      {
+        "text": "45",
+        "hint": "Each part is 15 oranges, and Ama has 5 parts."
+      },
+      {
+        "text": "60",
+        "hint": "Each part is 15 oranges, and Ama has 5 parts."
+      },
+      {
+        "text": "75",
+        "hint": "Correct. $\\frac{5}{12} \\times 180 = 75$."
+      },
+      {
+        "text": "90",
+        "hint": "This is half of the oranges, which would be an equal share."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the ratio parts first. Ama has the second part.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{5}{7 + 5} \\times 180 = 75$$\n\n## Simplified explanation\n\nThere are 12 parts, so each is 15 oranges. Ama has 5 parts, which is 75.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Calculate the simple interest on GH₵ 450.00 for 2 years at 12% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 191.00",
+        "hint": "12% of GH₵ 450 is GH₵ 54 a year."
+      },
+      {
+        "text": "GH₵ 108.00",
+        "hint": "Correct. $\\frac{450 \\times 12 \\times 2}{100} = 108$."
+      },
+      {
+        "text": "GH₵ 54.00",
+        "hint": "This is the interest for only 1 year."
+      },
+      {
+        "text": "GH₵ 27.00",
+        "hint": "This is the interest for only 6 months."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use $I = \\dfrac{P \\times R \\times T}{100}$.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{450 \\times 12 \\times 2}{100} = 108$$\n\n## Simplified explanation\n\n12% of GH₵ 450 is GH₵ 54 a year. For 2 years that is GH₵ 108.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 15% of the length of a rope is 75 cm, find half of the length of the rope.",
+    "media": [],
+    "options": [
+      {
+        "text": "500 cm",
+        "hint": "This is the whole rope. The question asks for half."
+      },
+      {
+        "text": "250 cm",
+        "hint": "Correct. 50% is $\\frac{50}{15} \\times 75 = 250$."
+      },
+      {
+        "text": "150 cm",
+        "hint": "This is 30% of the rope."
+      },
+      {
+        "text": "100 cm",
+        "hint": "This is 20% of the rope."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Half of the length is the same as 50%.",
+    "explanation": "## Advanced explanation\n\n$$50\\% = \\frac{50}{15} \\times 75 = 250 \\text{ cm}$$\n\n## Simplified explanation\n\n15% is 75 cm, so 5% is 25 cm. 50% is ten lots of 5%, which is 250 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an office, $\\dfrac{2}{3}$ of the telephone bill is paid by Tom, $\\dfrac{1}{5}$ by Azuma and the remaining by Tina. What fraction is paid by Tina?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{15}$",
+        "hint": "Correct. $1 - \\frac{13}{15} = \\frac{2}{15}$."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$",
+        "hint": "In 15ths, the remainder is $15 - 10 - 3 = 2$."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "This is what is left after Tom alone. Take off Azuma's share too."
+      },
+      {
+        "text": "$\\dfrac{7}{15}$",
+        "hint": "In 15ths, the remainder is $15 - 10 - 3 = 2$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Add the two fractions paid, then subtract from 1.",
+    "explanation": "## Advanced explanation\n\n$$1 - \\left(\\frac{2}{3} + \\frac{1}{5}\\right) = 1 - \\frac{13}{15} = \\frac{2}{15}$$\n\n## Simplified explanation\n\nThink of the bill as 15 parts. Tom pays 10 and Azuma pays 3, which leaves 2 parts for Tina.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following best describes the construction?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq32.png",
+        "caption": "Line PQ with construction arcs at P and a line drawn from P through crossing arcs above PQ."
+      }
+    ],
+    "options": [
+      {
+        "text": "Constructing a perpendicular at $P$.",
+        "hint": "A perpendicular makes $90^\\circ$ at $P$. This line is much lower."
+      },
+      {
+        "text": "Constructing the bisector of line $PQ$.",
+        "hint": "A bisector of $PQ$ would cross it at its middle, not start at $P$."
+      },
+      {
+        "text": "Constructing an angle of $30^\\circ$ at $P$.",
+        "hint": "Correct. A $60^\\circ$ arc is constructed, then bisected."
+      },
+      {
+        "text": "Constructing an angle of $45^\\circ$ at $P$.",
+        "hint": "$45^\\circ$ comes from bisecting $90^\\circ$. This bisects $60^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the arcs: a $60^\\circ$ mark, then a bisector.",
+    "explanation": "## Advanced explanation\n\nThe arcs from $P$ mark off $60^\\circ$, and the crossing arcs bisect it, giving $30^\\circ$.\n\n## Simplified explanation\n\nThe first arcs make a 60° angle at $P$. The line drawn splits it in half, so it makes 30° with $PQ$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 0.055 as a common fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{11}{40}$",
+        "hint": "This equals 0.275."
+      },
+      {
+        "text": "$\\dfrac{5}{18}$",
+        "hint": "This is about 0.278."
+      },
+      {
+        "text": "$\\dfrac{1}{40}$",
+        "hint": "This equals 0.025."
+      },
+      {
+        "text": "$\\dfrac{11}{200}$",
+        "hint": "Correct. $\\frac{55}{1000} = \\frac{11}{200}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write 0.055 over 1000, then simplify.",
+    "explanation": "## Advanced explanation\n\n$$0.055 = \\frac{55}{1000} = \\frac{11}{200}$$\n\n## Simplified explanation\n\n0.055 means 55 out of 1000. Divide the top and bottom by 5.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the distribution of workers in some trades.\n\nWhich trade employed the most number of workers?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq34-35.png",
+        "caption": "Table of workers by trade: Shoe making 300,000, Mining 25,000, Road Transport 160,000, Agriculture 225,000, Manufacturing goods 165,000."
+      }
+    ],
+    "options": [
+      {
+        "text": "Agriculture",
+        "hint": "Agriculture has 225,000, but shoe making has more."
+      },
+      {
+        "text": "Manufacturing goods",
+        "hint": "Manufacturing has 165,000, but shoe making has more."
+      },
+      {
+        "text": "Shoe making",
+        "hint": "Correct. It has the most, with 300,000."
+      },
+      {
+        "text": "Road transport",
+        "hint": "Road transport has 160,000, but shoe making has more."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the largest number in the table.",
+    "explanation": "## Advanced explanation\n\nThe largest value in the table is 300,000, for shoe making.\n\n## Simplified explanation\n\nLook along the numbers for the biggest. 300,000 belongs to shoe making.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the distribution of workers in some trades.\n\nHow many people are employed under all the trades?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq34-35.png",
+        "caption": "Table of workers by trade: Shoe making 300,000, Mining 25,000, Road Transport 160,000, Agriculture 225,000, Manufacturing goods 165,000."
+      }
+    ],
+    "options": [
+      {
+        "text": "325,000",
+        "hint": "Add all five numbers in the table."
+      },
+      {
+        "text": "485,000",
+        "hint": "Add all five numbers in the table."
+      },
+      {
+        "text": "650,000",
+        "hint": "Add all five numbers in the table."
+      },
+      {
+        "text": "875,000",
+        "hint": "Correct. All five trades add up to 875,000."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Add all five numbers.",
+    "explanation": "## Advanced explanation\n\n$$300000 + 25000 + 160000 + 225000 + 165000 = 875000$$\n\n## Simplified explanation\n\nAdd the five trades one at a time: 300,000, then 325,000, 485,000, 710,000 and 875,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Aba bought a carton of fish at GH₵ 80.00 and sold it at a profit of GH₵ 13.60. Find the selling price.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 66.40",
+        "hint": "This subtracts the profit. A profit is added."
+      },
+      {
+        "text": "GH₵ 93.60",
+        "hint": "Correct. $80 + 13.60 = 93.60$."
+      },
+      {
+        "text": "GH₵ 103.60",
+        "hint": "$80 + 13.60 = 93.60$."
+      },
+      {
+        "text": "GH₵ 144.00",
+        "hint": "$80 + 13.60 = 93.60$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Selling price $=$ cost price $+$ profit.",
+    "explanation": "## Advanced explanation\n\n$$80.00 + 13.60 = 93.60$$\n\n## Simplified explanation\n\nShe adds her GH₵ 13.60 profit to the GH₵ 80 she paid, which gives GH₵ 93.60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If the two figures $ABCD$ and $PQRS$ are similar, find the value of $b$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013secaq37.png",
+        "caption": "Two similar trapeziums. ABCD has sides AB 6 cm, AD 9 cm, BC 12 cm and DC 18 cm. PQRS has sides PS 10 cm, PQ 15 cm, SR 20 cm and QR b cm."
+      }
+    ],
+    "options": [
+      {
+        "text": "60 cm",
+        "hint": "The scale is $\\frac{10}{6} = \\frac{5}{3}$, and $18 \\times \\frac{5}{3} = 30$."
+      },
+      {
+        "text": "40 cm",
+        "hint": "The scale is $\\frac{10}{6} = \\frac{5}{3}$, and $18 \\times \\frac{5}{3} = 30$."
+      },
+      {
+        "text": "33 cm",
+        "hint": "The scale is $\\frac{10}{6} = \\frac{5}{3}$, and $18 \\times \\frac{5}{3} = 30$."
+      },
+      {
+        "text": "30 cm",
+        "hint": "Correct. $18 \\times \\frac{5}{3} = 30$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Corresponding sides are in the same ratio.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{b}{18} = \\frac{10}{6} \\implies b = 30 \\text{ cm}$$\n\n## Simplified explanation\n\n6 cm becomes 10 cm, 9 becomes 15, and 12 becomes 20. Each is multiplied by $\\frac{5}{3}$. So 18 becomes 30.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man shared an amount of money between his two children, Esi and Ato in the ratio 2 : 3 respectively. If Ato received GH₵ 45.00, what was the total amount shared?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 18.00",
+        "hint": "The total must be more than Ato's GH₵ 45."
+      },
+      {
+        "text": "GH₵ 27.50",
+        "hint": "The total must be more than Ato's GH₵ 45."
+      },
+      {
+        "text": "GH₵ 75.00",
+        "hint": "Correct. Each part is GH₵ 15, and $5 \\times 15 = 75$."
+      },
+      {
+        "text": "GH₵ 112.50",
+        "hint": "This uses Ato's GH₵ 45 as 2 parts. He has 3 parts."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Ato's GH₵ 45.00 makes 3 parts.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Total} = \\frac{5}{3} \\times 45 = 75$$\n\n## Simplified explanation\n\n3 parts are GH₵ 45, so 1 part is GH₵ 15. There are 5 parts altogether, which makes GH₵ 75.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many edges has a cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "16",
+        "hint": "Count: 4 on top, 4 at the bottom and 4 going up."
+      },
+      {
+        "text": "12",
+        "hint": "Correct. 4 on top, 4 at the bottom and 4 going up."
+      },
+      {
+        "text": "8",
+        "hint": "A cuboid has 8 vertices. Count the edges."
+      },
+      {
+        "text": "4",
+        "hint": "This counts only the top face."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Count the top, the bottom, and the upright edges.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nA box has 4 edges round the top, 4 round the bottom, and 4 going up the sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two sets whose intersection is an empty set are",
+    "media": [],
+    "options": [
+      {
+        "text": "disjoint sets",
+        "hint": "Correct. They share no members."
+      },
+      {
+        "text": "equivalent sets",
+        "hint": "Equivalent sets have the same number of members."
+      },
+      {
+        "text": "finite sets",
+        "hint": "Finite sets can be counted, and this says nothing about sharing."
+      },
+      {
+        "text": "empty sets",
+        "hint": "Disjoint sets need not be empty themselves."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Which word means they have nothing in common?",
+    "explanation": "## Advanced explanation\n\n$A$ and $B$ are disjoint when $A \\cap B = \\{\\ \\}$.\n\n## Simplified explanation\n\nSets with no members in common are called disjoint.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2013 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Fifty students in a class took an examination in French and Mathematics. If 14 of them passed French only, 23 passed in both French and Mathematics and 5 of them failed in both subjects, find\n\n(i) the number of students who passed in French,\n\n(ii) the probability of selecting a student who passed in Mathematics.",
+    "media": [],
+    "answer": "**(i)** French: $14 + 23 = 37$\n\n**(ii)** Mathematics only: $50 - 14 - 23 - 5 = 8$\n\nMathematics: $8 + 23 = 31$\n\n$$P = \\frac{31}{50}$$\n\n> [!answer]\n> **(i)** {{green:37}}  **(ii)** {{green:$\\dfrac{31}{50}$}}",
+    "hint": "Draw a Venn diagram, with 5 outside the circles.",
+    "explanation": "## Advanced explanation\n\nThe regions are 14, 23, 8 and 5, which total 50. Those who passed Mathematics are the overlap plus Mathematics only.\n\n## Simplified explanation\n\n14 passed only French and 23 passed both, which makes 37. Everyone else accounted for leaves 8 who passed only Mathematics. So 31 passed Mathematics.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Sets",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the inequality $2x - 1\\dfrac{1}{2} \\le 5x - 6$",
+    "media": [],
+    "answer": "$$\n\\begin{aligned}\n6 - 1\\frac{1}{2} &\\le 5x - 2x \\\\\n4\\frac{1}{2} &\\le 3x \\\\\n1\\frac{1}{2} &\\le x\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x \\ge 1\\dfrac{1}{2}$}}",
+    "hint": "Move the $x$ terms to the side where they stay positive.",
+    "explanation": "## Advanced explanation\n\nKeeping $x$ positive avoids reversing the sign. Check at $x = 1.5$: both sides equal 1.5.\n\n## Simplified explanation\n\nTake $2x$ from both sides and add 6, which gives $4.5 \\le 3x$. Divide by 3 to get $1.5 \\le x$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Convert $444_{five}$ to a base two numeral.",
+    "media": [],
+    "answer": "First change to base ten:\n\n$$444_{five} = 4 \\times 25 + 4 \\times 5 + 4 = 124$$\n\nThen divide by 2 repeatedly, and read the remainders from the bottom up:\n\n$124 \\to 62$ r 0, $62 \\to 31$ r 0, $31 \\to 15$ r 1, $15 \\to 7$ r 1, $7 \\to 3$ r 1, $3 \\to 1$ r 1, $1 \\to 0$ r 1\n\n> [!answer]\n> {{green:$1111100_{two}$}}",
+    "hint": "Change to base ten first, then divide by 2 repeatedly.",
+    "explanation": "## Advanced explanation\n\nCheck: $64 + 32 + 16 + 8 + 4 = 124$. Base ten is the bridge between the two other bases.\n\n## Simplified explanation\n\n$444_{five}$ is $100 + 20 + 4 = 124$. Keep halving 124 and write the remainders. Read them from the last to the first.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A man had three GH₵ 50.00, seven GH₵ 20.00 and five GH₵ 10.00 notes in his pocket. If he bought a bicycle for GH₵ 150.00 and two mobile phones at GH₵ 80.00 each, how many GH₵ 20.00 and GH₵ 10.00 notes did he have left?",
+    "media": [],
+    "answer": "Total money: $3(50) + 7(20) + 5(10) = 150 + 140 + 50 = 340$\n\nTotal spent: $150 + 2(80) = 310$\n\nAmount left: $340 - 310 = 30$\n\nGH₵ 30.00 can be one GH₵ 20.00 note and one GH₵ 10.00 note.\n\n> [!answer]\n> {{green:GH₵ 30.00 left: one GH₵ 20.00 note and one GH₵ 10.00 note}}\n>\n> Three GH₵ 10.00 notes are also possible, if he paid for the phones with seven GH₵ 20.00 notes and two GH₵ 10.00 notes.",
+    "hint": "Find the total money and the total spent, then look at what is left.",
+    "explanation": "## Advanced explanation\n\nHe can pay the GH₵ 150 with the three GH₵ 50 notes. The remaining GH₵ 160 can be paid as $6(20) + 4(10)$ or $7(20) + 2(10)$, so the GH₵ 30 left can be made up in two ways.\n\n## Simplified explanation\n\nHe has GH₵ 340 and spends GH₵ 310, which leaves GH₵ 30. That can be a twenty and a ten.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only,\n\n(i) construct a triangle $XYZ$ with length $XY = 7$ cm, length $YZ = 5$ cm and angle $XYZ = 45^\\circ$.\n\n(ii) Measure and write down the length of $XZ$.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|XY| = 7$ cm.\n2. At $Y$, construct a perpendicular to $XY$, then bisect the $90^\\circ$ angle to get $45^\\circ$.\n3. Mark $Z$ on this line so that $|YZ| = 5$ cm, then join $X$ to $Z$.\n\n**Measurement** (allow a small drawing error)\n\n> [!answer]\n> {{green:$|XZ| \\approx 5.0$ cm}}",
+    "hint": "To construct $45^\\circ$, construct $90^\\circ$ and bisect it.",
+    "explanation": "## Advanced explanation\n\nBy the cosine rule, $|XZ|^2 = 49 + 25 - 2(7)(5)\\cos 45^\\circ \\approx 24.5$, so $|XZ| \\approx 4.95$ cm.\n\n## Simplified explanation\n\nDraw the 7 cm side. Make a 45° angle at $Y$ by bisecting a right angle. Measure 5 cm along it to find $Z$, then join and measure $XZ$.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that the circumference of a circle is 44 cm, find\n\n(i) the radius of the circle.\n\n(ii) the area of the circle.\n\n[Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "answer": "**(i)**\n\n$$2 \\times \\frac{22}{7} \\times r = 44 \\implies r = 7 \\text{ cm}$$\n\n**(ii)**\n\n$$A = \\frac{22}{7} \\times 7^2 = 154 \\text{ cm}^2$$\n\n> [!answer]\n> **(i)** {{green:7 cm}}  **(ii)** {{green:154 cm$^2$}}",
+    "hint": "Use $C = 2\\pi r$ for the radius, then $A = \\pi r^2$.",
+    "explanation": "## Advanced explanation\n\nA common error is to swap the two formulas. The radius from (i) feeds into (ii).\n\n## Simplified explanation\n\n$2 \\times \\frac{22}{7} = \\frac{44}{7}$. So $\\frac{44}{7} \\times r = 44$, and $r = 7$. Then $\\frac{22}{7} \\times 7 \\times 7 = 154$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks of students in a class test.\n\nUsing a graph sheet, draw a bar chart for the distribution.\n\nIn your answer, state the height of each bar.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013q4.png",
+        "caption": "Table of marks 1, 2, 3, 4, 5, 6 with frequencies 5, 6, 5, 3, 4, 2."
+      }
+    ],
+    "answer": "Mark the marks across and the frequency up, using a suitable scale. Draw bars of equal width, with equal gaps between them.\n\n> [!answer]\n> Marks 1 to 6 have bar heights {{green:5, 6, 5, 3, 4, 2}}",
+    "hint": "The height of each bar is its frequency.",
+    "explanation": "## Advanced explanation\n\nIn a bar chart, height shows frequency, and the bars have equal width with gaps. Label both axes and give the chart a title.\n\n## Simplified explanation\n\nDraw one bar for each mark, as tall as its frequency. Keep all the bars the same width.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Statistics",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table shows the distribution of marks of students in a class test.\n\nCalculate the mean mark of the distribution correct to the nearest whole number.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013q4.png",
+        "caption": "Table of marks 1, 2, 3, 4, 5, 6 with frequencies 5, 6, 5, 3, 4, 2."
+      }
+    ],
+    "answer": "$$\\text{Mean} = \\frac{\\sum fx}{\\sum f} = \\frac{5 + 12 + 15 + 12 + 20 + 12}{5 + 6 + 5 + 3 + 4 + 2} = \\frac{76}{25} = 3.04 \\approx 3$$\n\n> [!answer]\n> {{green:3}}",
+    "hint": "Multiply each mark by its frequency, and add.",
+    "explanation": "## Advanced explanation\n\nThe mean of a frequency distribution is $\\frac{\\sum fx}{\\sum f}$, and the denominator is the total frequency, 25.\n\n## Simplified explanation\n\nMultiply each mark by how many students got it, and add to get 76. There are 25 students, and $76 \\div 25 = 3.04$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $6\\left(3\\dfrac{5}{6} - 1\\dfrac{1}{4}\\right)$",
+    "media": [],
+    "answer": "Multiply each term by 6:\n\n$$6 \\times \\frac{23}{6} - 6 \\times \\frac{5}{4} = 23 - \\frac{15}{2} = 15\\frac{1}{2}$$\n\n> [!answer]\n> {{green:$15\\dfrac{1}{2}$}}",
+    "hint": "Change to improper fractions first.",
+    "explanation": "## Advanced explanation\n\nAlternatively, the bracket is $\\frac{46 - 15}{12} = \\frac{31}{12}$, and $6 \\times \\frac{31}{12} = \\frac{31}{2}$.\n\n## Simplified explanation\n\n$6 \\times \\frac{23}{6} = 23$ and $6 \\times \\frac{5}{4} = 7.5$. Then $23 - 7.5 = 15.5$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Copy and complete the magic square so that the sum of numbers in each row or column or diagonal is 18.\n\nIn your answer, write out the three rows.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013q5.png",
+        "caption": "A 3 by 3 grid with 4 in the middle of the top row, 7 and 8 in the first two cells of the bottom row, and the other cells empty."
+      }
+    ],
+    "answer": "Use the lines that already have two numbers:\n\n- Bottom row: $18 - 7 - 8 = 3$\n- Middle column: $18 - 4 - 8 = 6$\n- Rising diagonal: $18 - 7 - 6 = 5$\n- Falling diagonal: $18 - 6 - 3 = 9$\n- Left column: $18 - 9 - 7 = 2$\n- Right column: $18 - 5 - 3 = 10$\n\n| 9 | 4 | 5 |\n|---|---|---|\n| 2 | 6 | 10 |\n| 7 | 8 | 3 |\n\n> [!answer]\n> Rows: {{green:9, 4, 5}}; {{green:2, 6, 10}}; {{green:7, 8, 3}}",
+    "hint": "Start with the bottom row, because it already has two numbers.",
+    "explanation": "## Advanced explanation\n\nEvery row, column and diagonal of the completed square sums to 18, and the centre value, 6, is one-third of the magic sum.\n\n## Simplified explanation\n\nEach line must add up to 18. Find a line with only one gap and work out the missing number. Each new number fills another line.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the sum of all the factors of 24.",
+    "media": [],
+    "answer": "The factors of 24 are 1, 2, 3, 4, 6, 8, 12 and 24.\n\n$$1 + 2 + 3 + 4 + 6 + 8 + 12 + 24 = 60$$\n\n> [!answer]\n> {{green:60}}",
+    "hint": "List the factors in pairs, for example $1 \\times 24$ and $2 \\times 12$.",
+    "explanation": "## Advanced explanation\n\nPairing factors helps avoid missing any: $(1, 24)$, $(2, 12)$, $(3, 8)$ and $(4, 6)$. The pairs add up to $25 + 14 + 11 + 10 = 60$.\n\n## Simplified explanation\n\nFind every number that divides 24 exactly. Remember to include 1 and 24. Then add them.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $m = \\begin{pmatrix} 3 \\\\ -1 \\end{pmatrix}$, $n = \\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$ and $r = \\begin{pmatrix} 18 \\\\ -6 \\end{pmatrix}$. Find $m + n + r$",
+    "media": [],
+    "answer": "$$m + n + r = \\begin{pmatrix} 3 - 1 + 18 \\\\ -1 + 2 - 6 \\end{pmatrix} = \\begin{pmatrix} 20 \\\\ -5 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} 20 \\\\ -5 \\end{pmatrix}$}}",
+    "hint": "Add the matching entries of all three vectors.",
+    "explanation": "## Advanced explanation\n\nVector addition works entry by entry, and the order of adding does not matter.\n\n## Simplified explanation\n\nTop numbers: $3 + (-1) + 18 = 20$. Bottom numbers: $-1 + 2 + (-6) = -5$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Copy and complete the table for the relation $y = 2x + 5$ for $x = -3, -2, -1, 0, 1, 2, 3, 4$.\n\nIn your answer, write out the $y$ row.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2013/2013q6.png",
+        "caption": "Table with x values from −3 to 4. The y row gives −1 at x = −3, 1 at x = −2, 5 at x = 0 and 13 at x = 4, and the other cells are empty."
+      }
+    ],
+    "answer": "Substitute each $x$ into $y = 2x + 5$:\n\n| $x$ | $-3$ | $-2$ | $-1$ | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|---|---|---|\n| $y$ | $-1$ | 1 | 3 | 5 | 7 | 9 | 11 | 13 |\n\n> [!answer]\n> {{green:$-1$, 1, 3, 5, 7, 9, 11, 13}}",
+    "hint": "Each time $x$ goes up by 1, $y$ goes up by the same amount.",
+    "explanation": "## Advanced explanation\n\nThe relation is linear with gradient 2, so consecutive $y$ values differ by 2.\n\n## Simplified explanation\n\nDouble $x$ and add 5. You can also count up in 2s from $-1$.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Graphs",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "For the relation $y = 2x + 5$, whose values are $(-3, -1)$, $(-2, 1)$, $(-1, 3)$, $(0, 5)$, $(1, 7)$, $(2, 9)$, $(3, 11)$ and $(4, 13)$:\n\n(i) Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet.\n\n(ii) Mark the $x$-axis from $-6$ to 10 and the $y$-axis from $-6$ to 14.\n\n(iii) Plot all the points of the relation $y = 2x + 5$ on the graph.\n\n(iv) Draw a straight line through the points.\n\nUse the graph to find\n\n(v) $y$ when $x = 1.6$,\n\n(vi) $x$ when $y = 10$.\n\nIn your answer, give your two readings.",
+    "media": [],
+    "answer": "Plot the points and rule a straight line through them. The relation gives the exact readings:\n\n**(v)** $y = 2(1.6) + 5 = 8.2$\n\n**(vi)** $10 = 2x + 5$, so $x = 2.5$\n\n> [!answer]\n> **(v)** {{green:$y = 8.2$}}  **(vi)** {{green:$x = 2.5$}}",
+    "hint": "Go up or across from the given value to the line, then read the other axis.",
+    "explanation": "## Advanced explanation\n\nThe line has gradient 2 and $y$-intercept 5. Readings from a drawn graph may differ slightly from the exact values.\n\n## Simplified explanation\n\nPlot the pairs and rule a line. From 1.6 on the bottom, go up to the line and read across. From 10 on the side, go across to the line and read down.",
+    "difficulty": "medium",
+    "marks": 9,
+    "tags": [
+      "2013 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  }
+]

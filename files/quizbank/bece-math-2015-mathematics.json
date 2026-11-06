@@ -1,0 +1,1535 @@
+[
+  {
+    "type": "choice",
+    "body": "List the members of the set $Q =$ {Prime factors of 30}",
+    "media": [],
+    "options": [
+      {
+        "text": "{2, 3, 5}",
+        "hint": "Correct. $30 = 2 \\times 3 \\times 5$."
+      },
+      {
+        "text": "{2, 6, 10}",
+        "hint": "6 and 10 are factors of 30, but they are not prime."
+      },
+      {
+        "text": "{3, 5, 15}",
+        "hint": "15 is not prime, and 2 is missing."
+      },
+      {
+        "text": "{3, 6, 15}",
+        "hint": "6 and 15 are not prime."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "List the factors of 30, then keep only the primes.",
+    "explanation": "## Advanced explanation\n\n$30 = 2 \\times 3 \\times 5$, so the prime factors are 2, 3 and 5.\n\n## Simplified explanation\n\nSplit 30 into primes: $30 = 2 \\times 15 = 2 \\times 3 \\times 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Sets",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that set $P = \\{m, n, o, p\\}$, find the number of subsets of $P$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the number of members, not subsets."
+      },
+      {
+        "text": "8",
+        "hint": "This is for a set of 3 members. $P$ has 4."
+      },
+      {
+        "text": "10",
+        "hint": "A set of 4 members has $2^4$ subsets."
+      },
+      {
+        "text": "16",
+        "hint": "Correct. $2^4 = 16$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A set with $n$ members has $2^n$ subsets.",
+    "explanation": "## Advanced explanation\n\n$n = 4$, so the number of subsets is $2^4 = 16$, including the empty set and $P$ itself.\n\n## Simplified explanation\n\nEach member is either in or out of a subset. With 4 members, that is $2 \\times 2 \\times 2 \\times 2 = 16$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $M =$ {Multiples of 4 between 10 and 25} and $N =$ {even numbers between 11 and 23}, find $M \\cup N$.",
+    "media": [],
+    "options": [
+      {
+        "text": "{12, 16, 20}",
+        "hint": "This is $M \\cap N$, the members in both sets."
+      },
+      {
+        "text": "{14, 18, 22}",
+        "hint": "These are in $N$ but not in $M$."
+      },
+      {
+        "text": "{12, 14, 16, 18, 22}",
+        "hint": "The union also includes 20 and 24."
+      },
+      {
+        "text": "{12, 14, 16, 18, 20, 22, 24}",
+        "hint": "Correct. All the members of both sets."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "List both sets, then join them.",
+    "explanation": "## Advanced explanation\n\n$M = \\{12, 16, 20, 24\\}$ and $N = \\{12, 14, 16, 18, 20, 22\\}$, so $M \\cup N = \\{12, 14, 16, 18, 20, 22, 24\\}$.\n\n## Simplified explanation\n\nWrite out both lists, put them together, and write each number only once.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the place value of 7 in 24.376?",
+    "media": [],
+    "options": [
+      {
+        "text": "Unit",
+        "hint": "The unit digit is 4."
+      },
+      {
+        "text": "Ten",
+        "hint": "The tens digit is 2."
+      },
+      {
+        "text": "Tenth",
+        "hint": "The tenths digit is 3, the first after the point."
+      },
+      {
+        "text": "Hundredth",
+        "hint": "Correct. 7 is the second digit after the point."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count the places after the decimal point.",
+    "explanation": "## Advanced explanation\n\nIn 24.376, the digits after the point are tenths (3), hundredths (7) and thousandths (6).\n\n## Simplified explanation\n\nThe first place after the point is tenths, and the second is hundredths. 7 is in the second place.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Highest Common Factor of 24, 42, and 72.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "4 does not divide 42."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. 6 divides all three, and nothing higher does."
+      },
+      {
+        "text": "7",
+        "hint": "7 does not divide 24 or 72."
+      },
+      {
+        "text": "12",
+        "hint": "12 does not divide 42."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write each number as a product of primes.",
+    "explanation": "## Advanced explanation\n\n$24 = 2^3 \\times 3$, $42 = 2 \\times 3 \\times 7$ and $72 = 2^3 \\times 3^2$. The common part is $2 \\times 3 = 6$.\n\n## Simplified explanation\n\nAll three numbers divide by 2 and by 3, so by 6. Nothing bigger divides 42 as well.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $120_5$ as a number in base 10.",
+    "media": [],
+    "options": [
+      {
+        "text": "25",
+        "hint": "This counts only $1 \\times 5^2$. Add $2 \\times 5$ as well."
+      },
+      {
+        "text": "27",
+        "hint": "The middle digit is worth $2 \\times 5$, not 2."
+      },
+      {
+        "text": "32",
+        "hint": "$25 + 10 + 0 = 35$."
+      },
+      {
+        "text": "35",
+        "hint": "Correct. $25 + 10 + 0 = 35$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The place values in base 5 are 25, 5 and 1.",
+    "explanation": "## Advanced explanation\n\n$$120_5 = 1 \\times 5^2 + 2 \\times 5^1 + 0 \\times 5^0 = 25 + 10 = 35$$\n\n## Simplified explanation\n\nIn base 5, the places are worth 25, 5 and 1. So we have one 25, two 5s and no units.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Bases"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $p \\times q \\times r = 1197$, and $p = 19$, $q = 3$, find $r$.",
+    "media": [],
+    "options": [
+      {
+        "text": "21",
+        "hint": "Correct. $1197 \\div 57 = 21$."
+      },
+      {
+        "text": "49",
+        "hint": "$57 \\times 49$ is much more than 1197."
+      },
+      {
+        "text": "57",
+        "hint": "This is $19 \\times 3$, the product of $p$ and $q$."
+      },
+      {
+        "text": "61",
+        "hint": "$57 \\times 61$ is much more than 1197."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply $p$ and $q$ first.",
+    "explanation": "## Advanced explanation\n\n$$19 \\times 3 \\times r = 1197 \\implies 57r = 1197 \\implies r = 21$$\n\n## Simplified explanation\n\n$19 \\times 3 = 57$. Then $1197 \\div 57 = 21$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many integers are within the interval $-5 < x < 7$?",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "Count from $-4$ to 6, and include 0."
+      },
+      {
+        "text": "11",
+        "hint": "Correct. $-4, -3, \\dots, 6$ make 11 integers."
+      },
+      {
+        "text": "12",
+        "hint": "The end values $-5$ and 7 are not included."
+      },
+      {
+        "text": "13",
+        "hint": "The end values $-5$ and 7 are not included."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Neither $-5$ nor 7 is included.",
+    "explanation": "## Advanced explanation\n\nThe integers are $-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6$, so there are $6 - (-4) + 1 = 11$.\n\n## Simplified explanation\n\nThere are 4 negative ones, zero, and 6 positive ones, which makes 11.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Divide 1.612 by 0.4",
+    "media": [],
+    "options": [
+      {
+        "text": "4.3",
+        "hint": "$0.4 \\times 4.3 = 1.72$, not 1.612."
+      },
+      {
+        "text": "4.03",
+        "hint": "Correct. $0.4 \\times 4.03 = 1.612$."
+      },
+      {
+        "text": "0.403",
+        "hint": "$0.4 \\times 0.403 = 0.1612$, which is 10 times too small."
+      },
+      {
+        "text": "0.43",
+        "hint": "$0.4 \\times 0.43 = 0.172$, not 1.612."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply both numbers by 10 to divide by a whole number.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1.612}{0.4} = \\frac{16.12}{4} = 4.03$$\n\n## Simplified explanation\n\nMove the point one place in both numbers: $16.12 \\div 4 = 4.03$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following fractions in ascending order: $\\dfrac{5}{8}$, $\\dfrac{11}{20}$, $\\dfrac{7}{10}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{8}$, $\\dfrac{11}{20}$, $\\dfrac{7}{10}$",
+        "hint": "$\\frac{11}{20} = 0.55$ is the smallest, so it comes first."
+      },
+      {
+        "text": "$\\dfrac{7}{10}$, $\\dfrac{5}{8}$, $\\dfrac{11}{20}$",
+        "hint": "This is descending order, from largest to smallest."
+      },
+      {
+        "text": "$\\dfrac{11}{20}$, $\\dfrac{5}{8}$, $\\dfrac{7}{10}$",
+        "hint": "Correct. As decimals: 0.55, 0.625, 0.7."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$, $\\dfrac{7}{10}$, $\\dfrac{11}{20}$",
+        "hint": "$\\frac{11}{20} = 0.55$ is the smallest, so it comes first."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change the fractions to decimals. Ascending means smallest first.",
+    "explanation": "## Advanced explanation\n\nWith denominator 40: $\\frac{22}{40}$, $\\frac{25}{40}$ and $\\frac{28}{40}$ are $\\frac{11}{20}$, $\\frac{5}{8}$ and $\\frac{7}{10}$.\n\n## Simplified explanation\n\nAs decimals they are 0.625, 0.55 and 0.7. From smallest to largest: 0.55, 0.625, 0.7.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Abena spent $\\dfrac{1}{5}$ of her money on sweets, $\\dfrac{4}{7}$ on provisions and the rest on gari. What fraction of her money did she spend on gari?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{27}{35}$",
+        "hint": "This is what she spent on sweets and provisions."
+      },
+      {
+        "text": "$\\dfrac{13}{35}$",
+        "hint": "In 35ths the amount left is $35 - 7 - 20 = 8$."
+      },
+      {
+        "text": "$\\dfrac{8}{35}$",
+        "hint": "Correct. $1 - \\frac{27}{35} = \\frac{8}{35}$."
+      },
+      {
+        "text": "$\\dfrac{5}{35}$",
+        "hint": "In 35ths the amount left is $35 - 7 - 20 = 8$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the two fractions spent, then subtract from 1.",
+    "explanation": "## Advanced explanation\n\n$$1 - \\left(\\frac{1}{5} + \\frac{4}{7}\\right) = 1 - \\frac{27}{35} = \\frac{8}{35}$$\n\n## Simplified explanation\n\nThink of the money as 35 parts. Sweets take 7 parts and provisions take 20, which leaves 8 parts for gari.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 5 boys took 14 days to cultivate a piece of land, how long will it take 7 boys working at the same rate to cultivate the land?",
+    "media": [],
+    "options": [
+      {
+        "text": "14 days",
+        "hint": "More boys should finish faster than this."
+      },
+      {
+        "text": "12 days",
+        "hint": "$7 \\times 12 = 84$ boy-days, but the job needs 70."
+      },
+      {
+        "text": "10 days",
+        "hint": "Correct. $70 \\div 7 = 10$."
+      },
+      {
+        "text": "8 days",
+        "hint": "$7 \\times 8 = 56$ boy-days, but the job needs 70."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "More boys take less time. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nTotal work $= 5 \\times 14 = 70$ boy-days, so 7 boys take $\\frac{70}{7} = 10$ days.\n\n## Simplified explanation\n\nThe job takes $5 \\times 14 = 70$ days of one boy's work. Share that among 7 boys: 10 days.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man invested GH₵ 800.00 in a bank at a simple interest rate of 5% per annum. Find his total amount in the bank at the end of one year.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 840.00",
+        "hint": "Correct. $800 + 40 = 840$."
+      },
+      {
+        "text": "GH₵ 860.00",
+        "hint": "5% of GH₵ 800 is GH₵ 40, not GH₵ 60."
+      },
+      {
+        "text": "GH₵ 900.00",
+        "hint": "5% of GH₵ 800 is GH₵ 40, not GH₵ 100."
+      },
+      {
+        "text": "GH₵ 960.00",
+        "hint": "5% of GH₵ 800 is GH₵ 40, not GH₵ 160."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Amount $=$ principal $+$ interest.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{800 \\times 5 \\times 1}{100} = 40, \\qquad A = 800 + 40 = 840$$\n\n## Simplified explanation\n\n1% of GH₵ 800 is GH₵ 8, so 5% is GH₵ 40. Adding it gives GH₵ 840.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "John sold a car for GH₵ 60,000.00 and made a profit of 20%. What is the cost price of the car?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 48,000.00",
+        "hint": "This takes 20% off the selling price. The 20% is worked on the cost price."
+      },
+      {
+        "text": "GH₵ 50,000.00",
+        "hint": "Correct. $60000 \\div 1.2 = 50000$."
+      },
+      {
+        "text": "GH₵ 72,000.00",
+        "hint": "This adds 20% to the selling price, but the cost must be lower."
+      },
+      {
+        "text": "GH₵ 132,000.00",
+        "hint": "With a profit, the cost must be less than GH₵ 60,000."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The selling price is 120% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Cost} = \\frac{100}{120} \\times 60000 = 50000$$\n\n## Simplified explanation\n\nCost is 100%, and adding 20% makes 120%. So 120% is GH₵ 60,000, 1% is GH₵ 500, and 100% is GH₵ 50,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the value of $x$ if $10^x = 1000$?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "$10^1 = 10$."
+      },
+      {
+        "text": "2",
+        "hint": "$10^2 = 100$."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $10^3 = 1000$."
+      },
+      {
+        "text": "4",
+        "hint": "$10^4 = 10000$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Count the zeros in 1000.",
+    "explanation": "## Advanced explanation\n\n$1000 = 10^3$, so $x = 3$.\n\n## Simplified explanation\n\n$10 \\times 10 \\times 10 = 1000$. That is three 10s.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 625.13 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6.2513 \\times 10^{-2}$",
+        "hint": "A number greater than 1 needs a positive power here."
+      },
+      {
+        "text": "$6.2513 \\times 10^{-4}$",
+        "hint": "A number greater than 1 needs a positive power here."
+      },
+      {
+        "text": "$6.2513 \\times 10^{2}$",
+        "hint": "Correct. The point moves 2 places to the left."
+      },
+      {
+        "text": "$6.2513 \\times 10^{4}$",
+        "hint": "This equals 62513. The point moves only 2 places."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Move the decimal point until you get a number between 1 and 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Here $a = 6.2513$ and $n = 2$.\n\n## Simplified explanation\n\nMove the point 2 places left to get 6.2513. So the power is 2.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the median of the numbers 17, 12, 15, 16, 8, 18, 13 and 14.",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "8 is the smallest number. Put them in order and find the middle."
+      },
+      {
+        "text": "12",
+        "hint": "Put them in order: the middle two are 14 and 15."
+      },
+      {
+        "text": "14.5",
+        "hint": "Correct. $\\frac{14 + 15}{2} = 14.5$."
+      },
+      {
+        "text": "15.5",
+        "hint": "The middle two are 14 and 15."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put the numbers in order. With 8 numbers, use the 4th and 5th.",
+    "explanation": "## Advanced explanation\n\nIn order: 8, 12, 13, 14, 15, 16, 17, 18. So the median is $\\frac{14 + 15}{2} = 14.5$.\n\n## Simplified explanation\n\nLine them up from smallest to largest. The two in the middle are 14 and 15, and halfway is 14.5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ages in years of 10 children at a party are 2, 3, 3, 3, 4, 4, 5, 5, 5 and 6. If a child is chosen at random, what is the probability that he or she is not less than 5 years old?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "4 of the 10 children are 5 or older."
+      },
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "Correct. 5, 5, 5 and 6 make 4 out of 10."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "This counts only the 5-year-olds. Include the 6-year-old."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "4 of the 10 children are 5 or older."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "\"Not less than 5\" means 5 or more.",
+    "explanation": "## Advanced explanation\n\nThe favourable ages are 5, 5, 5 and 6, so $P = \\frac{4}{10} = \\frac{2}{5}$.\n\n## Simplified explanation\n\nCount the children aged 5 or more: three 5s and one 6 make 4 out of 10.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand $(2x + y)(2x - y)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2x^2 - y^2$",
+        "hint": "$2x \\times 2x = 4x^2$."
+      },
+      {
+        "text": "$4x^2 - y^2$",
+        "hint": "Correct. This is a difference of two squares."
+      },
+      {
+        "text": "$2x^2 + 4xy - y^2$",
+        "hint": "The middle terms cancel: $-2xy + 2xy = 0$."
+      },
+      {
+        "text": "$4x^2 + 4xy - y^2$",
+        "hint": "The middle terms cancel: $-2xy + 2xy = 0$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$$(2x + y)(2x - y) = (2x)^2 - y^2 = 4x^2 - y^2$$\n\n## Simplified explanation\n\n$2x \\times 2x = 4x^2$ and $y \\times (-y) = -y^2$. The middle terms, $-2xy$ and $+2xy$, cancel.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $n$, if $25.003 = (2 \\times 10) + (5 \\times 1) + (3 \\times n)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.001",
+        "hint": "Correct. $3 \\times 0.001 = 0.003$."
+      },
+      {
+        "text": "0.011",
+        "hint": "$3 \\times 0.011 = 0.033$, not 0.003."
+      },
+      {
+        "text": "0.01",
+        "hint": "$3 \\times 0.01 = 0.03$, not 0.003."
+      },
+      {
+        "text": "0.1",
+        "hint": "$3 \\times 0.1 = 0.3$, not 0.003."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "What is left after taking away the 20 and the 5?",
+    "explanation": "## Advanced explanation\n\n$25.003 - 25 = 0.003 = 3n$, so $n = 0.001$.\n\n## Simplified explanation\n\n20 and 5 make 25, which leaves 0.003. That is 3 lots of 0.001.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $(3m)^2 - 3m^2$, when $m = 2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "12",
+        "hint": "This is $3m^2$. $(3m)^2 = 36$."
+      },
+      {
+        "text": "18",
+        "hint": "$(3m)^2 = 36$ and $3m^2 = 12$."
+      },
+      {
+        "text": "20",
+        "hint": "$(3m)^2 = 36$ and $3m^2 = 12$."
+      },
+      {
+        "text": "24",
+        "hint": "Correct. $36 - 12 = 24$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "In $(3m)^2$ the 3 is squared too, but in $3m^2$ only $m$ is squared.",
+    "explanation": "## Advanced explanation\n\n$$(3 \\times 2)^2 - 3 \\times 2^2 = 36 - 12 = 24$$\n\n## Simplified explanation\n\n$(3 \\times 2)^2 = 6 \\times 6 = 36$. Next, $3 \\times 2^2 = 3 \\times 4 = 12$. Then $36 - 12 = 24$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A wrist watch is priced GH₵ 2,000.00. A shopkeeper allows a discount of 2% on the cost price. Find the discount on 20 of such wrist watches.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 500.00",
+        "hint": "2% of GH₵ 2,000 is GH₵ 40 per watch."
+      },
+      {
+        "text": "GH₵ 600.00",
+        "hint": "2% of GH₵ 2,000 is GH₵ 40 per watch."
+      },
+      {
+        "text": "GH₵ 800.00",
+        "hint": "Correct. $20 \\times 40 = 800$."
+      },
+      {
+        "text": "GH₵ 1,000.00",
+        "hint": "2% of GH₵ 2,000 is GH₵ 40 per watch."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the discount on one watch first.",
+    "explanation": "## Advanced explanation\n\n$$20 \\times \\frac{2}{100} \\times 2000 = 800$$\n\n## Simplified explanation\n\n2% of GH₵ 2,000 is GH₵ 40. For 20 watches, that is GH₵ 800.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $m$ if $4(m + 4) = -8$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-6$",
+        "hint": "Correct. $m + 4 = -2$."
+      },
+      {
+        "text": "$-2$",
+        "hint": "This is $m + 4$. Subtract 4 to find $m$."
+      },
+      {
+        "text": "$2$",
+        "hint": "$m + 4 = -2$, so $m$ is negative."
+      },
+      {
+        "text": "$6$",
+        "hint": "$m + 4 = -2$, so $m$ is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Divide both sides by 4 first.",
+    "explanation": "## Advanced explanation\n\n$$m + 4 = -2 \\implies m = -6$$\n\n## Simplified explanation\n\n$-8 \\div 4 = -2$, so $m + 4 = -2$. Take away 4 to get $-6$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule for the following mapping:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | 1 | 4 | 9 | 16 | 25 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\to x + 2$",
+        "hint": "This gives 3 when $x = 1$, not 1."
+      },
+      {
+        "text": "$x \\to 2x$",
+        "hint": "This gives 2 when $x = 1$, not 1."
+      },
+      {
+        "text": "$x \\to x^2$",
+        "hint": "Correct. These are the square numbers."
+      },
+      {
+        "text": "$x \\to 2x + 2$",
+        "hint": "This gives 4 when $x = 1$, not 1."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Do you recognise the numbers 1, 4, 9, 16, 25?",
+    "explanation": "## Advanced explanation\n\nEach $y$ equals $x$ squared: $1^2, 2^2, 3^2, 4^2, 5^2$.\n\n## Simplified explanation\n\nEach bottom number is the top number multiplied by itself.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many vertices has a cuboid?",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "A cuboid has 6 faces. Count the corners."
+      },
+      {
+        "text": "7",
+        "hint": "Count the corners: 4 on top and 4 below."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. 4 on top and 4 below."
+      },
+      {
+        "text": "14",
+        "hint": "This adds the faces and vertices together."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "A vertex is a corner.",
+    "explanation": "## Advanced explanation\n\nA cuboid has 6 faces, 12 edges and 8 vertices.\n\n## Simplified explanation\n\nCount the corners of a box: 4 on top and 4 at the bottom.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The circumference of a circle is 440 m. Find the area of the circle. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "options": [
+      {
+        "text": "14,400 m$^2$",
+        "hint": "The radius is 70 m, and $\\frac{22}{7} \\times 70^2 = 15400$."
+      },
+      {
+        "text": "15,400 m$^2$",
+        "hint": "Correct. $\\frac{22}{7} \\times 70^2 = 15400$."
+      },
+      {
+        "text": "16,400 m$^2$",
+        "hint": "The radius is 70 m, and $\\frac{22}{7} \\times 70^2 = 15400$."
+      },
+      {
+        "text": "18,000 m$^2$",
+        "hint": "The radius is 70 m, and $\\frac{22}{7} \\times 70^2 = 15400$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Use the circumference to find the radius first.",
+    "explanation": "## Advanced explanation\n\n$$2 \\times \\frac{22}{7} \\times r = 440 \\implies r = 70, \\qquad A = \\frac{22}{7} \\times 70^2 = 15400 \\text{ m}^2$$\n\n## Simplified explanation\n\n$440 \\div (2 \\times \\frac{22}{7}) = 70$, so the radius is 70 m. Then $\\frac{22}{7} \\times 70 \\times 70 = 15400$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What name is given to a triangle which has all its sides equal?",
+    "media": [],
+    "options": [
+      {
+        "text": "Isosceles triangle",
+        "hint": "An isosceles triangle has two equal sides."
+      },
+      {
+        "text": "Scalene triangle",
+        "hint": "A scalene triangle has no equal sides."
+      },
+      {
+        "text": "Equilateral triangle",
+        "hint": "Correct. All three sides are equal."
+      },
+      {
+        "text": "Right-angled triangle",
+        "hint": "This name describes an angle, not equal sides."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "\"Equi\" means equal.",
+    "explanation": "## Advanced explanation\n\nAn equilateral triangle has three equal sides, and each of its angles is $60^\\circ$.\n\n## Simplified explanation\n\nEqual sides all round means equilateral.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "At eight o'clock, which of the following is the angle between the hour and the minute hands of the clock?",
+    "media": [],
+    "options": [
+      {
+        "text": "$150^\\circ$",
+        "hint": "This would be 5 hours apart. At eight o'clock they are 4 hours apart the short way."
+      },
+      {
+        "text": "$120^\\circ$",
+        "hint": "Correct. $4 \\times 30^\\circ = 120^\\circ$."
+      },
+      {
+        "text": "$90^\\circ$",
+        "hint": "This would be 3 hours apart."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "This would be 2 hours apart."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each hour mark on a clock is $30^\\circ$ from the next.",
+    "explanation": "## Advanced explanation\n\nThe clock face has 12 divisions of $30^\\circ$. From 8 to 12 is 4 divisions, so the angle is $120^\\circ$.\n\n## Simplified explanation\n\nThe minute hand points to 12 and the hour hand to 8. They are 4 numbers apart, and each gap is 30°.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A rectangular field 50 m wide and $y$ m long requires 260 m of fencing. Find $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "15 m",
+        "hint": "$2(50 + 15) = 130$, not 260."
+      },
+      {
+        "text": "40 m",
+        "hint": "$2(50 + 40) = 180$, not 260."
+      },
+      {
+        "text": "80 m",
+        "hint": "Correct. $2(50 + 80) = 260$."
+      },
+      {
+        "text": "105 m",
+        "hint": "$2(50 + 105) = 310$, not 260."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The fencing is the perimeter of the field.",
+    "explanation": "## Advanced explanation\n\n$$2(50 + y) = 260 \\implies 50 + y = 130 \\implies y = 80$$\n\n## Simplified explanation\n\nHalf of the fence, 130 m, covers one width and one length. Then $130 - 50 = 80$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following best describes the statement: \"The locus of a point which moves so that its distance from two fixed points are always equal\"?",
+    "media": [],
+    "options": [
+      {
+        "text": "Bisector of an angle",
+        "hint": "This is equidistant from two lines, not two points."
+      },
+      {
+        "text": "Perpendicular bisector",
+        "hint": "Correct. Every point on it is equally far from the two points."
+      },
+      {
+        "text": "Circle",
+        "hint": "A circle is equidistant from one fixed point."
+      },
+      {
+        "text": "Two parallel lines",
+        "hint": "These are at a fixed distance from a line."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Think of the point halfway between the two fixed points.",
+    "explanation": "## Advanced explanation\n\nThe locus of points equidistant from two fixed points is the perpendicular bisector of the line joining them.\n\n## Simplified explanation\n\nStand halfway between the two points. You can also move along the line at right angles through that spot and stay equally far from both.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $K(1, 5)$ is rotated through $90^\\circ$ anti-clockwise about the origin. Find the coordinates of the image of $K$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(5, -1)$",
+        "hint": "This is a clockwise quarter turn."
+      },
+      {
+        "text": "$(-5, 1)$",
+        "hint": "Correct. $(x, y) \\to (-y, x)$."
+      },
+      {
+        "text": "$(-1, 5)$",
+        "hint": "This is a reflection in the $y$-axis."
+      },
+      {
+        "text": "$(1, -5)$",
+        "hint": "This is a reflection in the $x$-axis."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "An anticlockwise rotation through $90^\\circ$ maps $(x, y)$ to $(-y, x)$.",
+    "explanation": "## Advanced explanation\n\n$(x, y) \\to (-y, x)$, so $(1, 5) \\to (-5, 1)$. The point moves from the first quadrant to the second.\n\n## Simplified explanation\n\nSwap the numbers to get $(5, 1)$, then change the sign of the first to get $(-5, 1)$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Kwame is facing west. Through how many degrees should he turn anti-clockwise to face north?",
+    "media": [],
+    "options": [
+      {
+        "text": "$90^\\circ$",
+        "hint": "This is the clockwise turn. Anti-clockwise goes the long way round."
+      },
+      {
+        "text": "$180^\\circ$",
+        "hint": "This would make him face east."
+      },
+      {
+        "text": "$270^\\circ$",
+        "hint": "Correct. West to south to east to north is three quarter turns."
+      },
+      {
+        "text": "$360^\\circ$",
+        "hint": "A full turn would leave him facing west."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Turning anti-clockwise from west, the order is south, east, north.",
+    "explanation": "## Advanced explanation\n\nAnti-clockwise from west passes south and east before reaching north, which is $3 \\times 90^\\circ = 270^\\circ$.\n\n## Simplified explanation\n\nTurn left from west: first to south, then to east, then to north. That is three quarter turns.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that vectors $u = \\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix}$ and $v = \\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix}$, find $2v + u$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$",
+        "hint": "Correct. Top: $4 - 3 = 1$. Bottom: $-6 + 5 = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 1 \\end{pmatrix}$",
+        "hint": "This has both signs reversed."
+      },
+      {
+        "text": "$\\begin{pmatrix} -7 \\\\ -11 \\end{pmatrix}$",
+        "hint": "Top: $4 + (-3) = 1$. Bottom: $-6 + 5 = -1$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 7 \\\\ -11 \\end{pmatrix}$",
+        "hint": "This is $2v - u$. The question asks for $2v + u$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Double $v$ first, then add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$2\\begin{pmatrix} 2 \\\\ -3 \\end{pmatrix} + \\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix} = \\begin{pmatrix} 4 - 3 \\\\ -6 + 5 \\end{pmatrix} = \\begin{pmatrix} 1 \\\\ -1 \\end{pmatrix}$$\n\n## Simplified explanation\n\nDouble $v$ to get 4 and $-6$. Add $u$: $4 + (-3) = 1$ and $-6 + 5 = -1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the name of the figure above?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2015/2015secaq34.png",
+        "caption": "Solid figure with a triangular base and three sloping faces meeting at a point. Hidden edges are shown as dashed lines."
+      }
+    ],
+    "options": [
+      {
+        "text": "Cuboid",
+        "hint": "A cuboid has rectangular faces and 8 corners."
+      },
+      {
+        "text": "Kite",
+        "hint": "A kite is a flat four-sided shape, not a solid."
+      },
+      {
+        "text": "Triangle",
+        "hint": "A triangle is flat, but this figure is a solid with hidden edges."
+      },
+      {
+        "text": "Pyramid",
+        "hint": "Correct. Triangular faces meet at a point above the base."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The dashed lines show hidden edges, so this is a solid.",
+    "explanation": "## Advanced explanation\n\nThe solid has a triangular base and sloping triangular faces meeting at one vertex, so it is a triangular pyramid.\n\n## Simplified explanation\n\nThe dashed lines show it is a solid. Its sides slope up to a point, so it is a pyramid.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the magic square to answer the question.\n\nFind the value of $F$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2015/2014secaq35-37.png",
+        "caption": "3 by 3 magic square. Top row: 13, 12, 17. Middle row: E, F, 10. Bottom row: 11, 16, G."
+      }
+    ],
+    "options": [
+      {
+        "text": "14",
+        "hint": "Correct. $42 - 12 - 16 = 14$."
+      },
+      {
+        "text": "15",
+        "hint": "This is the value of $G$."
+      },
+      {
+        "text": "18",
+        "hint": "This is the value of $E$."
+      },
+      {
+        "text": "23",
+        "hint": "Each line adds up to 42, so $F = 42 - 12 - 16$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The top row shows what every line must add up to.",
+    "explanation": "## Advanced explanation\n\nThe magic sum is $13 + 12 + 17 = 42$. The middle column gives $F = 42 - 12 - 16 = 14$.\n\n## Simplified explanation\n\nThe top row adds up to 42. In the middle column, 12 and 16 make 28, so $F = 42 - 28 = 14$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the magic square to answer the question.\n\nFind the value of $E$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2015/2014secaq35-37.png",
+        "caption": "3 by 3 magic square. Top row: 13, 12, 17. Middle row: E, F, 10. Bottom row: 11, 16, G."
+      }
+    ],
+    "options": [
+      {
+        "text": "14",
+        "hint": "This is the value of $F$."
+      },
+      {
+        "text": "15",
+        "hint": "This is the value of $G$."
+      },
+      {
+        "text": "18",
+        "hint": "Correct. $42 - 13 - 11 = 18$."
+      },
+      {
+        "text": "23",
+        "hint": "Each line adds up to 42, so $E = 42 - 13 - 11$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use the left column, which has only one unknown.",
+    "explanation": "## Advanced explanation\n\nThe magic sum is 42. The left column gives $E = 42 - 13 - 11 = 18$.\n\n## Simplified explanation\n\nThe top row adds up to 42. In the left column, 13 and 11 make 24, so $E = 42 - 24 = 18$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the magic square to answer the question.\n\nEvaluate $E + G$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2015/2014secaq35-37.png",
+        "caption": "3 by 3 magic square. Top row: 13, 12, 17. Middle row: E, F, 10. Bottom row: 11, 16, G."
+      }
+    ],
+    "options": [
+      {
+        "text": "29",
+        "hint": "$E = 18$ and $G = 15$."
+      },
+      {
+        "text": "30",
+        "hint": "$E = 18$ and $G = 15$."
+      },
+      {
+        "text": "33",
+        "hint": "Correct. $18 + 15 = 33$."
+      },
+      {
+        "text": "38",
+        "hint": "$E = 18$ and $G = 15$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find $E$ from the left column and $G$ from the bottom row.",
+    "explanation": "## Advanced explanation\n\n$E = 42 - 13 - 11 = 18$ and $G = 42 - 11 - 16 = 15$, so $E + G = 33$.\n\n## Simplified explanation\n\nThe left column gives $E = 18$. The bottom row gives $G = 42 - 27 = 15$. Together they make 33.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The hypotenuse and a side of a right-angled triangle are 13 cm and 5 cm respectively. Find the length of the third side",
+    "media": [],
+    "options": [
+      {
+        "text": "8 cm",
+        "hint": "This is $13 - 5$. Use Pythagoras' theorem."
+      },
+      {
+        "text": "9 cm",
+        "hint": "$5^2 + 9^2 = 106$, but $13^2 = 169$."
+      },
+      {
+        "text": "12 cm",
+        "hint": "Correct. $\\sqrt{169 - 25} = 12$."
+      },
+      {
+        "text": "17 cm",
+        "hint": "A side cannot be longer than the hypotenuse."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use Pythagoras' theorem, with 13 as the longest side.",
+    "explanation": "## Advanced explanation\n\n$$\\sqrt{13^2 - 5^2} = \\sqrt{144} = 12 \\text{ cm}$$\n\n## Simplified explanation\n\nTake the squares: $169 - 25 = 144$. The square root of 144 is 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the missing number in the sequence below:\n\n11, 16, 22, 29, __, 46, 56.",
+    "media": [],
+    "options": [
+      {
+        "text": "30",
+        "hint": "The gaps go 5, 6, 7, so the next gap is 8."
+      },
+      {
+        "text": "36",
+        "hint": "The gaps go 5, 6, 7, so the next gap is 8."
+      },
+      {
+        "text": "37",
+        "hint": "Correct. $29 + 8 = 37$, and $37 + 9 = 46$."
+      },
+      {
+        "text": "39",
+        "hint": "From 39, adding 7 reaches 46, but the gaps are increasing."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the gaps between the terms.",
+    "explanation": "## Advanced explanation\n\nThe differences increase by 1: 5, 6, 7, 8, 9, 10. So the missing term is $29 + 8 = 37$.\n\n## Simplified explanation\n\nThe gaps grow by 1 each time. After 7 comes 8, so $29 + 8 = 37$. Then $37 + 9 = 46$, which fits.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A hall which is 20 m long is represented on a diagram as 10 cm long. What is the scale of the diagram?",
+    "media": [],
+    "options": [
+      {
+        "text": "1 : 200",
+        "hint": "Correct. $2000 \\text{ cm} : 10 \\text{ cm} = 200 : 1$."
+      },
+      {
+        "text": "1 : 250",
+        "hint": "20 m is 2000 cm, and $2000 \\div 10 = 200$."
+      },
+      {
+        "text": "1 : 400",
+        "hint": "20 m is 2000 cm, and $2000 \\div 10 = 200$."
+      },
+      {
+        "text": "1 : 500",
+        "hint": "20 m is 2000 cm, and $2000 \\div 10 = 200$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Change 20 m to centimetres first.",
+    "explanation": "## Advanced explanation\n\n$$10 \\text{ cm} : 2000 \\text{ cm} = 1 : 200$$\n\n## Simplified explanation\n\n20 m is 2000 cm. So 10 cm on the diagram stands for 2000 cm, and 1 cm stands for 200 cm.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2015 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a class of 70 students, 40 belong to the Red Cross Society, 27 belong to the Girls' Guide Society and 12 belong to both the Red Cross Society and the Girls' Guide Society. The remaining students do not belong to any of the two societies.\n\n(i) Illustrate the information on a Venn diagram. In your answer, give the number in each region.\n\n(ii) How many students belong to the Red Cross Society only?\n\n(iii) How many students do not belong to any of the two societies?",
+    "media": [],
+    "answer": "**(i)** Draw two overlapping circles in a rectangle, and fill them in:\n\n| Region | Students |\n|---|---|\n| Red Cross only | $40 - 12 = 28$ |\n| Both societies | 12 |\n| Girls' Guide only | $27 - 12 = 15$ |\n| Neither society | $70 - 55 = 15$ |\n\n**(ii)** 28 students\n\n**(iii)** $28 + 12 + 15 = 55$ belong to a society, so $70 - 55 = 15$ do not.\n\n> [!answer]\n> **(i)** {{green:28, 12, 15, and 15 outside the circles}}\n>\n> **(ii)** {{green:28}}  **(iii)** {{green:15}}",
+    "hint": "Fill in the overlap first, then subtract it from each society.",
+    "explanation": "## Advanced explanation\n\n$n(R \\cup G) = 40 + 27 - 12 = 55$, and the complement is $70 - 55 = 15$. Label the rectangle $U(70)$ and the circles $R(40)$ and $G(27)$.\n\n## Simplified explanation\n\n12 belong to both, so 28 are only in the Red Cross and 15 are only in the Girls' Guide. That makes 55 members. The other 15 are in neither.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A farmer uses $\\dfrac{1}{3}$ of his land to plant cassava, $\\dfrac{2}{5}$ of the remaining land to plant maize and the rest vegetables. If vegetables cover an area of 10 acres, what is the total area of the farmer's land?",
+    "media": [],
+    "answer": "Remaining after cassava: $1 - \\dfrac{1}{3} = \\dfrac{2}{3}$\n\nMaize: $\\dfrac{2}{5} \\times \\dfrac{2}{3} = \\dfrac{4}{15}$\n\nVegetables: $\\dfrac{2}{3} - \\dfrac{4}{15} = \\dfrac{6}{15} = \\dfrac{2}{5}$\n\nSo $\\dfrac{2}{5}$ of the land is 10 acres:\n\n$$\\text{Total} = 10 \\times \\frac{5}{2} = 25 \\text{ acres}$$\n\n> [!answer]\n> {{green:25 acres}}",
+    "hint": "The $\\frac{2}{5}$ is of the remaining land, not of the whole.",
+    "explanation": "## Advanced explanation\n\nVegetables take $\\frac{3}{5}$ of the remaining $\\frac{2}{3}$, which is $\\frac{2}{5}$ of the whole. Check: cassava $8\\frac{1}{3}$, maize $6\\frac{2}{3}$ and vegetables 10 make 25 acres.\n\n## Simplified explanation\n\nAfter cassava, two-thirds is left. Vegetables get three-fifths of that, which is two-fifths of the farm. If two-fifths is 10 acres, one-fifth is 5, and the whole farm is 25.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve for $x$, if $2 - \\dfrac{3}{5}x \\le 1\\dfrac{1}{3}$",
+    "media": [],
+    "answer": "Write $1\\dfrac{1}{3} = \\dfrac{4}{3}$, and multiply every term by 15:\n\n$$\n\\begin{aligned}\n30 - 9x &\\le 20 \\\\\n-9x &\\le -10 \\\\\nx &\\ge \\frac{10}{9}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x \\ge 1\\dfrac{1}{9}$}}",
+    "hint": "Dividing by a negative number reverses the inequality.",
+    "explanation": "## Advanced explanation\n\nMultiplying by the LCM of 5 and 3 clears the fractions. Dividing by $-9$ reverses the sign. Leave the answer as a mixed number.\n\n## Simplified explanation\n\nChange $1\\frac{1}{3}$ to $\\frac{4}{3}$. Multiply by 15 to get $30 - 9x \\le 20$. Take away 30 to get $-9x \\le -10$. Dividing by $-9$ flips the sign.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "At a rally attended by 520 people, 30% were Fantes, 25% Ewes, 15% Nzemas, 20% Gas and the rest Gonjas.\n\n(i) How many Gonjas were at the rally?\n\n(ii) How many more Fantes than Nzemas were at the rally?\n\n(iii) Draw a pie chart to illustrate the information. In your answer, give the angle of each sector.",
+    "media": [],
+    "answer": "**(i)** Gonjas: $100\\% - (30 + 25 + 15 + 20)\\% = 10\\%$, and $10\\%$ of 520 is 52.\n\n**(ii)** Fantes: 156. Nzemas: 78. The difference is $156 - 78 = 78$.\n\n**(iii)** Each 1% is $3.6^\\circ$:\n\n| Group | Fantes | Ewes | Nzemas | Gas | Gonjas |\n|---|---|---|---|---|---|\n| Angle | $108^\\circ$ | $90^\\circ$ | $54^\\circ$ | $72^\\circ$ | $36^\\circ$ |\n\n> [!answer]\n> **(i)** {{green:52}}  **(ii)** {{green:78}}\n>\n> **(iii)** {{green:Fantes $108^\\circ$, Ewes $90^\\circ$, Nzemas $54^\\circ$, Gas $72^\\circ$, Gonjas $36^\\circ$}}",
+    "hint": "Part (i) asks for a number of people, not a percentage.",
+    "explanation": "## Advanced explanation\n\n$\\text{Angle} = \\frac{\\%}{100} \\times 360^\\circ$, and the angles total $360^\\circ$. A common error in (i) is to stop at 10% without finding 10% of 520.\n\n## Simplified explanation\n\nThe groups given make 90%, so Gonjas are 10%, which is 52 people. Fantes are 15% more than Nzemas, and 15% of 520 is 78. Multiply each percentage by 3.6 for the angles.",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Percentages",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Mr. Mensah's farm is 20 km from his house. He uses his car to travel $y$ km of the distance from his house and then walks $1\\dfrac{1}{2}$ hours at the rate of 3 km per hour to get to his farm. Find $y$.",
+    "media": [],
+    "answer": "Distance walked: $1\\dfrac{1}{2} \\times 3 = 4\\dfrac{1}{2}$ km\n\n$$y = 20 - 4\\frac{1}{2} = 15\\frac{1}{2}$$\n\n> [!answer]\n> {{green:$y = 15\\dfrac{1}{2}$}} (15.5 km)",
+    "hint": "Find how far he walks, then subtract from 20 km.",
+    "explanation": "## Advanced explanation\n\nThe car distance and walking distance together make the whole journey: $y + 4.5 = 20$.\n\n## Simplified explanation\n\nHe walks 3 km each hour for $1\\frac{1}{2}$ hours, which is 4.5 km. The car covers the rest: $20 - 4.5 = 15.5$ km.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Speed"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The perimeter of a square field is the same as that of a rectangular field. If the length of the rectangular field is 8 km and the width is 5 km, calculate the area of the square field.",
+    "media": [],
+    "answer": "Perimeter of rectangle: $2(8 + 5) = 26$ km\n\nSide of square: $\\dfrac{26}{4} = 6.5$ km\n\nArea of square: $6.5^2 = 42.25$ km$^2$\n\n> [!answer]\n> {{green:42.25 km$^2$}}",
+    "hint": "Find the perimeter, then the side of the square.",
+    "explanation": "## Advanced explanation\n\nA square with the same perimeter has a larger area than the rectangle, here $42.25$ against 40 km$^2$.\n\n## Simplified explanation\n\nThe rectangle's edge is 26 km long. A square shares that into 4 equal sides of 6.5 km. Then $6.5 \\times 6.5 = 42.25$.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the gradient of the line which passes through the points $M(2, -1)$ and $K(-3, 6)$.",
+    "media": [],
+    "answer": "$$\\text{Gradient} = \\frac{6 - (-1)}{-3 - 2} = \\frac{7}{-5} = -\\frac{7}{5}$$\n\n> [!answer]\n> {{green:$-\\dfrac{7}{5}$}}",
+    "hint": "Gradient $=$ change in $y$ divided by change in $x$.",
+    "explanation": "## Advanced explanation\n\nA negative gradient means the line falls from left to right. Keep the same order of points on the top and the bottom.\n\n## Simplified explanation\n\n$y$ goes from $-1$ to 6, a change of 7. $x$ goes from 2 to $-3$, a change of $-5$. So the gradient is $-\\frac{7}{5}$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct triangle $PST$ with angle $PST = 30^\\circ$, $|ST| = 9$ cm and $|PS| = 12$ cm.\n\nWith $T$ as the center, draw a circle of radius 6 cm.\n\nConstruct the perpendicular bisector (mediator) of line $PS$.\n\nLabel the intersection of the circle and the mediator $Q_1$ and $Q_2$.\n\n(i) Measure $|Q_1Q_2|$.\n\n(ii) Measure angle $Q_1TQ_2$.\n\nIn your answer, give your two measurements.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|PS| = 12$ cm. At $S$, construct $60^\\circ$ with compasses and bisect it to get $30^\\circ$. Mark $T$ on this line so that $|ST| = 9$ cm, then join $P$ to $T$.\n2. With centre $T$ and radius 6 cm, draw the circle.\n3. From $P$ and $S$, with equal radii, draw arcs on both sides of $PS$. Join their crossing points to get the mediator.\n4. Label $Q_1$ and $Q_2$ where the mediator cuts the circle, and join each to $T$.\n\n**Measurements** (allow a small drawing error)\n\n> [!answer]\n> {{green:$|Q_1Q_2| \\approx 11.5$ cm}} and {{green:angle $Q_1TQ_2 \\approx 145^\\circ$}}",
+    "hint": "To construct $30^\\circ$, construct $60^\\circ$ and bisect it. Join $Q_1$ and $Q_2$ to $T$ to measure the angle.",
+    "explanation": "## Advanced explanation\n\nBy calculation, with $S$ at the origin and $P$ on the $x$-axis, $T$ is 1.79 cm from the mediator. So half of the chord is $\\sqrt{6^2 - 1.79^2} \\approx 5.73$ cm, giving $|Q_1Q_2| \\approx 11.5$ cm and angle $Q_1TQ_2 \\approx 145^\\circ$.\n\n## Simplified explanation\n\nBuild the triangle, draw the circle round $T$, and bisect $PS$. The bisector cuts the circle at two points. Measure the distance between them, then join them to $T$ and measure the angle.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Anita bought 51 tubers of yam at 3 for GH₵ 10.00. If she sold them and made a loss of 40%, how much did she sell each tuber of yam?",
+    "media": [],
+    "answer": "Cost: $\\dfrac{51}{3} \\times 10 = 170$\n\nSelling price is 60% of the cost: $\\dfrac{60}{100} \\times 170 = 102$\n\nEach tuber: $\\dfrac{102}{51} = 2$\n\n> [!answer]\n> {{green:GH₵ 2.00}}",
+    "hint": "Find the total cost first. A loss of 40% means she received 60% of it.",
+    "explanation": "## Advanced explanation\n\nSelling price $=$ cost $\\times (1 - 0.40)$. Per tuber, the cost is $\\frac{10}{3}$, so the price is $\\frac{10}{3} \\times 0.6 = 2$.\n\n## Simplified explanation\n\n51 tubers make 17 lots of 3, which cost GH₵ 170. She got back 60% of that, GH₵ 102. Shared across 51 tubers, that is GH₵ 2 each.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The volume of a cylinder closed at one end is 1056 cm$^3$. If its height is 21 cm, find its:\n\n(i) diameter\n\n(ii) total surface area.\n\n[Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "answer": "**(i)**\n\n$$\\frac{22}{7} \\times r^2 \\times 21 = 1056 \\implies 66r^2 = 1056 \\implies r^2 = 16 \\implies r = 4$$\n\nDiameter: $2 \\times 4 = 8$ cm\n\n**(ii)** The cylinder has one circular end and a curved side:\n\n$$\\pi r^2 + 2\\pi rh = \\frac{22}{7}(16) + 2 \\times \\frac{22}{7} \\times 4 \\times 21 = 50\\frac{2}{7} + 528 = 578\\frac{2}{7} \\text{ cm}^2$$\n\n> [!answer]\n> **(i)** {{green:8 cm}}  **(ii)** {{green:$578\\dfrac{2}{7}$ cm$^2$ (about 578.29 cm$^2$)}}",
+    "hint": "Closed at one end means only one circular face.",
+    "explanation": "## Advanced explanation\n\nA common error is to use $2\\pi r(h + r)$, which is for a cylinder closed at both ends. Here the surface area is $\\pi r(2h + r)$.\n\n## Simplified explanation\n\n$\\frac{22}{7} \\times 21 = 66$, so $66 \\times r^2 = 1056$ and $r = 4$. The surface is one circle, about 50.29, plus the curved side, 528.",
+    "difficulty": "hard",
+    "marks": 7,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Copy and complete the following mapping:\n\n(ii) Determine the rule for the mapping.\n\nIn your answer, write out the missing values of $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2015/2015q6.png",
+        "caption": "Mapping diagram: x values 1, 2, 3, 4, 5, 6, 7 map to y values 5, 7, 9, blank, blank, blank, 17."
+      }
+    ],
+    "answer": "**(ii)** $y$ rises by 2 each time $x$ rises by 1, so $y = 2x + c$. When $x = 1$, $y = 5$, so $c = 3$:\n\n$$x \\to 2x + 3$$\n\n**(i)** Use the rule for $x = 4, 5, 6$:\n\n| $x$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |\n|---|---|---|---|---|---|---|---|\n| $y$ | 5 | 7 | 9 | 11 | 13 | 15 | 17 |\n\n> [!answer]\n> **(i)** {{green:11, 13, 15}}  **(ii)** {{green:$x \\to 2x + 3$}} (or $y = 2x + 3$)",
+    "hint": "How much does $y$ go up each time $x$ goes up by 1?",
+    "explanation": "## Advanced explanation\n\nWrite the rule as $x \\to 2x + 3$ or $y = 2x + 3$. Writing just $2x + 3$ or $y \\to 2x + 3$ is incomplete or incorrect notation.\n\n## Simplified explanation\n\nThe bottom numbers go up by 2, so multiply by 2. For $x = 1$ this gives 2, but $y$ is 5, so add 3.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The mapping $x \\to 2x + 3$ gives $y$ values 5, 7, 9, 11, 13, 15, 17 for $x = 1, 2, 3, 4, 5, 6, 7$.\n\nDraw two perpendicular axes $Ox$ and $Oy$ on a graph sheet. Using a scale of 2 cm to 1 unit on the $x$-axis and 2 cm to 2 units on the $y$-axis, mark the $x$-axis from 0 to 8 and the $y$-axis from 0 to 20.\n\nPlot the point for each ordered pair $(x, y)$ and join them with a straight line.\n\nFind:\n\n(i) $y$ when $x$ is 0.\n\n(ii) $x$ when $y$ is 14.\n\nIn your answer, list the points and give the two values.",
+    "media": [],
+    "answer": "Plot $(1, 5)$, $(2, 7)$, $(3, 9)$, $(4, 11)$, $(5, 13)$, $(6, 15)$ and $(7, 17)$, and join them with a straight line. Extend the line back to the $y$-axis.\n\n**(i)** $y = 2(0) + 3 = 3$\n\n**(ii)** $14 = 2x + 3$, so $x = 5.5$\n\n> [!answer]\n> Points {{green:$(1, 5)$, $(2, 7)$, $(3, 9)$, $(4, 11)$, $(5, 13)$, $(6, 15)$, $(7, 17)$}}\n>\n> **(i)** {{green:$y = 3$}}  **(ii)** {{green:$x = 5.5$}}",
+    "hint": "Extend the line back to $x = 0$ for (i).",
+    "explanation": "## Advanced explanation\n\nThe line has gradient 2 and $y$-intercept 3. These values can be read from the graph or found from the rule.\n\n## Simplified explanation\n\nPlot the pairs and rule a line. Where it meets the $y$-axis, $y$ is 3. From 14 on the $y$-axis, go across to the line and read down to 5.5.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2015 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  }
+]

@@ -1,0 +1,1557 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following is a finite set?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2, 4, 6, 8, \\dots\\}$",
+        "hint": "The dots show that this set goes on for ever."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, \\dots\\}$",
+        "hint": "The dots show that this set goes on for ever."
+      },
+      {
+        "text": "$\\{\\dots, 2, 3, 5, 7\\}$",
+        "hint": "The dots show more members that are not counted."
+      },
+      {
+        "text": "$\\{3, 6, 9, 12\\}$",
+        "hint": "Correct. It has exactly 4 members."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A finite set can be counted to an end.",
+    "explanation": "## Advanced explanation\n\n$\\{3, 6, 9, 12\\}$ has a definite number of members, $n = 4$. The other sets use dots to show that they continue.\n\n## Simplified explanation\n\nOnly this set lists all its members, with no dots.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $M = \\{a, b, c\\}$ find the number of subsets of $M$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$3$",
+        "hint": "This is the number of members, not subsets."
+      },
+      {
+        "text": "$4$",
+        "hint": "A set of 3 members has $2^3$ subsets."
+      },
+      {
+        "text": "$6$",
+        "hint": "This leaves out the empty set and $M$ itself."
+      },
+      {
+        "text": "$8$",
+        "hint": "Correct. $2^3 = 8$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "A set with $n$ members has $2^n$ subsets.",
+    "explanation": "## Advanced explanation\n\n$n = 3$, so the number of subsets is $2^3 = 8$, including $\\{\\ \\}$ and $M$ itself.\n\n## Simplified explanation\n\nList them: the empty set, 3 single letters, 3 pairs, and all three. That makes 8.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P = \\{2, 3, 4, 6, 8\\}$, and $Q = \\{1, 2, 3, 4\\}$, find $P \\cap Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{2, 3, 4\\}$",
+        "hint": "Correct. These are in both sets."
+      },
+      {
+        "text": "$\\{7, 9, 10\\}$",
+        "hint": "None of these is in either set."
+      },
+      {
+        "text": "$\\{2, 3, 4, 6, 8\\}$",
+        "hint": "This is $P$. 6 and 8 are not in $Q$."
+      },
+      {
+        "text": "$\\{1, 2, 3, 4, 6, 8\\}$",
+        "hint": "This is $P \\cup Q$, all the members of both sets."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$\\cap$ keeps only the members found in both sets.",
+    "explanation": "## Advanced explanation\n\nThe common members of $P$ and $Q$ are 2, 3 and 4.\n\n## Simplified explanation\n\nLook for numbers on both lists: 2, 3 and 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A boy bought 3 pairs of socks at GH₵ 17.50 per pair and paid with two GH₵ 50.00 notes. How much change was he given?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 27.50",
+        "hint": "The socks cost GH₵ 52.50, and he paid GH₵ 100."
+      },
+      {
+        "text": "GH₵ 37.50",
+        "hint": "The socks cost GH₵ 52.50, and he paid GH₵ 100."
+      },
+      {
+        "text": "GH₵ 47.50",
+        "hint": "Correct. $100 - 52.50 = 47.50$."
+      },
+      {
+        "text": "GH₵ 48.50",
+        "hint": "Check the subtraction: $100 - 52.50 = 47.50$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the total cost and the total paid.",
+    "explanation": "## Advanced explanation\n\n$$2(50) - 3(17.50) = 100 - 52.50 = 47.50$$\n\n## Simplified explanation\n\nThree pairs cost GH₵ 52.50. Two notes make GH₵ 100. The change is GH₵ 47.50.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the Least Common Multiple (L.C.M) of the numbers 5, 10, 12.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2 \\times 3 \\times 5$",
+        "hint": "This is 30, which 12 does not divide."
+      },
+      {
+        "text": "$2 \\times 3^2 \\times 5$",
+        "hint": "This is 90, which 12 does not divide."
+      },
+      {
+        "text": "$2^2 \\times 3 \\times 5$",
+        "hint": "Correct. This is 60."
+      },
+      {
+        "text": "$2^2 \\times 3^2 \\times 5^2$",
+        "hint": "This is 900, a common multiple but not the least."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Take the highest power of each prime.",
+    "explanation": "## Advanced explanation\n\n$5 = 5$, $10 = 2 \\times 5$ and $12 = 2^2 \\times 3$, so the LCM is $2^2 \\times 3 \\times 5 = 60$.\n\n## Simplified explanation\n\nCount in 12s: 12, 24, 36, 48, 60. The first that 5 and 10 both divide is 60.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 48,947.2547 to the nearest hundred.",
+    "media": [],
+    "options": [
+      {
+        "text": "490",
+        "hint": "This changes the size of the number. It should stay near 48,947."
+      },
+      {
+        "text": "48,900",
+        "hint": "Correct. The tens digit, 4, means round down."
+      },
+      {
+        "text": "48,950",
+        "hint": "This is correct to the nearest ten."
+      },
+      {
+        "text": "49,000",
+        "hint": "This is correct to the nearest thousand."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Look at the tens digit to decide whether to round up.",
+    "explanation": "## Advanced explanation\n\nThe hundreds digit is 9 and the tens digit is 4, which is less than 5, so round down to 48,900.\n\n## Simplified explanation\n\nKeep the 48,9 part. The next digit is 4, so it stays. Fill the rest with zeros.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $16 + 5.6 + 0.681$",
+    "media": [],
+    "options": [
+      {
+        "text": "2.2281",
+        "hint": "The sum must be more than 16. Line up the decimal points."
+      },
+      {
+        "text": "22.281",
+        "hint": "Correct. $16.000 + 5.600 + 0.681 = 22.281$."
+      },
+      {
+        "text": "222.81",
+        "hint": "Check the decimal point. Line up the points when adding."
+      },
+      {
+        "text": "2228.1",
+        "hint": "Check the decimal point. Line up the points when adding."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Line up the decimal points before adding.",
+    "explanation": "## Advanced explanation\n\n$$16.000 + 5.600 + 0.681 = 22.281$$\n\n## Simplified explanation\n\nWrite them with the points in a column, as 16.000, 5.600 and 0.681, then add.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\dfrac{4}{5} - \\dfrac{1}{3} + \\dfrac{2}{9}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{5}{11}$",
+        "hint": "This adds the tops and bottoms. Use a common denominator of 45."
+      },
+      {
+        "text": "$\\dfrac{11}{45}$",
+        "hint": "In 45ths the sum is $36 - 15 + 10 = 31$."
+      },
+      {
+        "text": "$\\dfrac{31}{45}$",
+        "hint": "Correct. $\\frac{36 - 15 + 10}{45}$."
+      },
+      {
+        "text": "$\\dfrac{41}{45}$",
+        "hint": "In 45ths the sum is $36 - 15 + 10 = 31$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The LCM of 5, 3 and 9 is 45.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{36}{45} - \\frac{15}{45} + \\frac{10}{45} = \\frac{31}{45}$$\n\n## Simplified explanation\n\nChange to 45ths: 36, take away 15, add 10 makes 31.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following integers from the least to the highest: $-4$, $9$, $-10$, $-7$ and $2$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-10$, $-7$, $-4$, $2$, $9$",
+        "hint": "Correct. Each number is larger than the one before it."
+      },
+      {
+        "text": "$-10$, $9$, $-7$, $-4$, $2$",
+        "hint": "9 is the highest, so it must come last."
+      },
+      {
+        "text": "$-4$, $-7$, $-10$, $2$, $9$",
+        "hint": "$-10$ is less than $-4$, so it must come first."
+      },
+      {
+        "text": "$2$, $-4$, $-7$, $9$, $-10$",
+        "hint": "$-10$ is the least, so it must come first."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The most negative number is the least.",
+    "explanation": "## Advanced explanation\n\nOn a number line: $-10 < -7 < -4 < 2 < 9$.\n\n## Simplified explanation\n\nStart with the most negative number, $-10$, and work up to the biggest, 9.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $(46 \\times 102) + (102 \\times 54)$",
+    "media": [],
+    "options": [
+      {
+        "text": "1,020",
+        "hint": "$46 + 54 = 100$, and $100 \\times 102 = 10200$."
+      },
+      {
+        "text": "10,200",
+        "hint": "Correct. $102(46 + 54) = 10200$."
+      },
+      {
+        "text": "102,000",
+        "hint": "$46 + 54 = 100$, not 1000."
+      },
+      {
+        "text": "1,020,000",
+        "hint": "$46 + 54 = 100$, not 10000."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "102 is in both brackets. Take it out as a common factor.",
+    "explanation": "## Advanced explanation\n\nBy the distributive property:\n\n$$102(46 + 54) = 102 \\times 100 = 10200$$\n\n## Simplified explanation\n\nBoth parts have 102. Add the other numbers: $46 + 54 = 100$. Then $102 \\times 100 = 10200$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Correct 5178.3426 to two decimal places.",
+    "media": [],
+    "options": [
+      {
+        "text": "5178.00",
+        "hint": "This has rounded away the decimal digits. Keep two of them."
+      },
+      {
+        "text": "5178.30",
+        "hint": "This is correct to one decimal place only."
+      },
+      {
+        "text": "5178.34",
+        "hint": "Correct. The next digit is 2, so round down."
+      },
+      {
+        "text": "5178.35",
+        "hint": "The next digit is 2, so the 4 stays as it is."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look at the third decimal digit.",
+    "explanation": "## Advanced explanation\n\nThe third decimal digit is 2, which is less than 5, so the second stays: 5178.34.\n\n## Simplified explanation\n\nKeep .34. The next digit is 2, so nothing changes.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Approximation"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the simple interest on GH₵ 120,000.00 for 5 months at 12% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 6,000.00",
+        "hint": "Correct. $120000 \\times \\frac{12}{100} \\times \\frac{5}{12} = 6000$."
+      },
+      {
+        "text": "GH₵ 7,200.00",
+        "hint": "This is the interest for 6 months."
+      },
+      {
+        "text": "GH₵ 50,000.00",
+        "hint": "This leaves out the rate of 12%."
+      },
+      {
+        "text": "GH₵ 72,000.00",
+        "hint": "This treats 5 months as 5 years."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The rate is per year, so write 5 months as $\\frac{5}{12}$ of a year.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{120000 \\times 12 \\times \\frac{5}{12}}{100} = 6000$$\n\n## Simplified explanation\n\n12% a year is 1% a month. 1% of GH₵ 120,000 is GH₵ 1,200. For 5 months that is GH₵ 6,000.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Fifteen boys took 12 hours to weed a plot of land. If nine boys work at the same rate, how long will it take them to weed the plot of land?",
+    "media": [],
+    "options": [
+      {
+        "text": "6 hours",
+        "hint": "Fewer boys must take longer than 12 hours."
+      },
+      {
+        "text": "$7\\dfrac{1}{2}$ hours",
+        "hint": "This multiplies by $\\frac{9}{15}$. Fewer boys take longer."
+      },
+      {
+        "text": "$11\\dfrac{1}{4}$ hours",
+        "hint": "Fewer boys must take longer than 12 hours."
+      },
+      {
+        "text": "20 hours",
+        "hint": "Correct. $180 \\div 9 = 20$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Fewer boys take longer. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nTotal work $= 15 \\times 12 = 180$ boy-hours, so 9 boys take $\\frac{180}{9} = 20$ hours.\n\n## Simplified explanation\n\nThe job takes $15 \\times 12 = 180$ hours of one boy's work. Share that among 9 boys: $180 \\div 9 = 20$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car costs GH₵ 12,500.00. A discount of 9% is given for cash payment. Find the cost of the car when payment is made by cash.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 10,250.00",
+        "hint": "This is a discount of 18%. The discount is 9%."
+      },
+      {
+        "text": "GH₵ 11,250.00",
+        "hint": "This is a discount of 10%. The discount is 9%."
+      },
+      {
+        "text": "GH₵ 11,375.00",
+        "hint": "Correct. $12500 - 1125 = 11375$."
+      },
+      {
+        "text": "GH₵ 13,625.00",
+        "hint": "This adds the 9%. A discount is subtracted."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find 9% of the price, then subtract it.",
+    "explanation": "## Advanced explanation\n\n$$12500 \\times \\frac{91}{100} = 11375$$\n\n## Simplified explanation\n\n9% of GH₵ 12,500 is GH₵ 1,125. Taking it off leaves GH₵ 11,375.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $5^2 \\times 2^2 \\times 5^2 \\times 2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 5^2$",
+        "hint": "Add the powers of 2, and add the powers of 5."
+      },
+      {
+        "text": "$2^2 \\times 5^4$",
+        "hint": "The powers of 2 are $2 + 1 = 3$."
+      },
+      {
+        "text": "$2^3 \\times 5^2$",
+        "hint": "The powers of 5 are $2 + 2 = 4$."
+      },
+      {
+        "text": "$2^3 \\times 5^4$",
+        "hint": "Correct. Add the powers of each base."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Group the same bases, then add their powers.",
+    "explanation": "## Advanced explanation\n\n$$5^{2 + 2} \\times 2^{2 + 1} = 2^3 \\times 5^4$$\n\n## Simplified explanation\n\nThere are $5^2$ twice, which makes $5^4$. Then $2^2$ and 2 together make $2^3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the marks of some students in a test.\n\nWhat is the modal mark?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016secaq16-17.png",
+        "caption": "Table of marks 0 to 10 with numbers of students 3, 4, 5, 4, 5, 4, 7, 3, 4, 2, 2."
+      }
+    ],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Mark 2 has frequency 5, but mark 6 has 7."
+      },
+      {
+        "text": "5",
+        "hint": "Mark 5 has frequency 4, but mark 6 has 7."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. Mark 6 has the highest frequency, 7."
+      },
+      {
+        "text": "10",
+        "hint": "This is the highest mark, not the most common."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The mode is the mark with the most students.",
+    "explanation": "## Advanced explanation\n\nThe highest frequency is 7, which belongs to mark 6.\n\n## Simplified explanation\n\nLook along the bottom row for the biggest number, 7. The mark above it is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The table shows the marks of some students in a test.\n\nHow many students failed the test, if the pass mark was 4?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016secaq16-17.png",
+        "caption": "Table of marks 0 to 10 with numbers of students 3, 4, 5, 4, 5, 4, 7, 3, 4, 2, 2."
+      }
+    ],
+    "options": [
+      {
+        "text": "4",
+        "hint": "This is the pass mark. Add the students who scored below it."
+      },
+      {
+        "text": "6",
+        "hint": "Add the students who scored 0, 1, 2 and 3."
+      },
+      {
+        "text": "16",
+        "hint": "Correct. $3 + 4 + 5 + 4 = 16$."
+      },
+      {
+        "text": "21",
+        "hint": "This includes those who scored 4, but they passed."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Those who failed scored 0, 1, 2 or 3.",
+    "explanation": "## Advanced explanation\n\n$$3 + 4 + 5 + 4 = 16$$\n\n## Simplified explanation\n\nA mark of 4 is a pass. So add the students with marks 0, 1, 2 and 3, which makes 16.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the probability of obtaining 4, when a fair die is tossed once?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "Correct. One face out of six."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is the probability of an even number, for example."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Only one face of the die shows 4."
+      },
+      {
+        "text": "$\\dfrac{5}{6}$",
+        "hint": "This is the probability of not obtaining 4."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "How many faces show a 4? How many faces are there?",
+    "explanation": "## Advanced explanation\n\nOne of six equally likely outcomes is favourable, so $P = \\frac{1}{6}$.\n\n## Simplified explanation\n\nA die has 6 faces and only one shows 4.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $P$ the subject of the relation: $R = \\dfrac{(P + Q)}{2}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$P = Q - 2R$",
+        "hint": "The signs are reversed. $P = 2R - Q$."
+      },
+      {
+        "text": "$P = 2R - Q$",
+        "hint": "Correct. $2R = P + Q$."
+      },
+      {
+        "text": "$P = 2R + Q$",
+        "hint": "Moving $Q$ across changes its sign."
+      },
+      {
+        "text": "$P = 2Q + R$",
+        "hint": "Multiply $R$ by 2, not $Q$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply both sides by 2 first.",
+    "explanation": "## Advanced explanation\n\n$$2R = P + Q \\implies P = 2R - Q$$\n\n## Simplified explanation\n\nMultiply by 2 to get $2R = P + Q$. Then take $Q$ from both sides.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $t = p^2 + 1$, find $p$ when $t = 10$.",
+    "media": [],
+    "options": [
+      {
+        "text": "3.0",
+        "hint": "Correct. $3^2 + 1 = 10$."
+      },
+      {
+        "text": "4.5",
+        "hint": "This is $9 \\div 2$. Take the square root instead."
+      },
+      {
+        "text": "11.0",
+        "hint": "This adds 1 to 10. Subtract 1 instead."
+      },
+      {
+        "text": "81.0",
+        "hint": "This squares 9. Take the square root instead."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Subtract 1, then take the square root.",
+    "explanation": "## Advanced explanation\n\n$$p^2 = 10 - 1 = 9 \\implies p = 3$$\n\n(The value $p = -3$ also satisfies the relation, but it is not offered here.)\n\n## Simplified explanation\n\nTake away 1 to get $p^2 = 9$. The number that multiplies by itself to give 9 is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $4(x + 2) - 3(x + 1)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x + 5$",
+        "hint": "Correct. $4x + 8 - 3x - 3$."
+      },
+      {
+        "text": "$x + 11$",
+        "hint": "Check the sign: $-3 \\times 1 = -3$."
+      },
+      {
+        "text": "$7x + 5$",
+        "hint": "Check the sign: $4x - 3x = x$."
+      },
+      {
+        "text": "$7x + 11$",
+        "hint": "The second bracket is subtracted, so its terms change sign."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Expand both brackets, and take care with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$$4x + 8 - 3x - 3 = x + 5$$\n\n## Simplified explanation\n\nMultiply out to get $4x + 8$ and $-3x - 3$. Combine to get $x + 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "When a number is doubled and the result is decreased by 9, the answer is 19. Find the number.",
+    "media": [],
+    "options": [
+      {
+        "text": "5",
+        "hint": "$2 \\times 5 - 9 = 1$, not 19."
+      },
+      {
+        "text": "7",
+        "hint": "$2 \\times 7 - 9 = 5$, not 19."
+      },
+      {
+        "text": "14",
+        "hint": "Correct. $2 \\times 14 - 9 = 19$."
+      },
+      {
+        "text": "16",
+        "hint": "$2 \\times 16 - 9 = 23$, not 19."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Write it as an equation: $2n - 9 = 19$.",
+    "explanation": "## Advanced explanation\n\n$$2n - 9 = 19 \\implies 2n = 28 \\implies n = 14$$\n\n## Simplified explanation\n\nWork backwards: $19 + 9 = 28$, and half of 28 is 14.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality: $2x + 10 \\ge \\dfrac{7}{2}x - 5$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\ge 10$",
+        "hint": "$15 \\ge \\frac{3}{2}x$ means $x$ is 10 or less."
+      },
+      {
+        "text": "$x \\le 10$",
+        "hint": "Correct. $15 \\ge \\frac{3}{2}x$."
+      },
+      {
+        "text": "$x \\le 40$",
+        "hint": "Collect the terms again: $\\frac{7}{2}x - 2x = \\frac{3}{2}x$."
+      },
+      {
+        "text": "$x \\ge 40$",
+        "hint": "Collect the terms again: $\\frac{7}{2}x - 2x = \\frac{3}{2}x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply through by 2 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 4x + 20 &\\ge 7x - 10 \\\\ 30 &\\ge 3x \\\\ 10 &\\ge x \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply by 2 to get $4x + 20 \\ge 7x - 10$. Moving the terms gives $30 \\ge 3x$, so $x$ is 10 or less.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of 5, under the mapping $x \\to 4x - 7$",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "$4 \\times 5 = 20$, and $20 - 7 = 13$."
+      },
+      {
+        "text": "13",
+        "hint": "Correct. $4(5) - 7 = 13$."
+      },
+      {
+        "text": "20",
+        "hint": "This forgets to subtract 7."
+      },
+      {
+        "text": "27",
+        "hint": "This adds 7. The rule subtracts 7."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Replace $x$ with 5.",
+    "explanation": "## Advanced explanation\n\n$$4(5) - 7 = 20 - 7 = 13$$\n\n## Simplified explanation\n\nMultiply 5 by 4 to get 20. Take away 7 to get 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "An angle which is greater than $180^\\circ$ but less than $360^\\circ$ is",
+    "media": [],
+    "options": [
+      {
+        "text": "a right angle.",
+        "hint": "A right angle is exactly $90^\\circ$."
+      },
+      {
+        "text": "an acute angle.",
+        "hint": "An acute angle is less than $90^\\circ$."
+      },
+      {
+        "text": "an obtuse angle.",
+        "hint": "An obtuse angle is between $90^\\circ$ and $180^\\circ$."
+      },
+      {
+        "text": "a reflex angle.",
+        "hint": "Correct. Reflex angles are between $180^\\circ$ and $360^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Which type of angle is bigger than a straight line?",
+    "explanation": "## Advanced explanation\n\nA reflex angle lies strictly between $180^\\circ$ and $360^\\circ$.\n\n## Simplified explanation\n\nAn angle that is more than a straight line but less than a full turn is called reflex.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has a rectangle?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "A rectangle folds both across and down its middle."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. One across and one down the middle."
+      },
+      {
+        "text": "3",
+        "hint": "A rectangle's diagonals are not lines of symmetry."
+      },
+      {
+        "text": "4",
+        "hint": "A square has 4, but a rectangle's diagonals do not work."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Try folding along each middle line and each diagonal.",
+    "explanation": "## Advanced explanation\n\nA rectangle has 2 lines of symmetry, through the midpoints of opposite sides. Its diagonals are not lines of symmetry unless it is a square.\n\n## Simplified explanation\n\nFold a rectangle in half across or down and the halves match. A corner-to-corner fold does not match.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The perimeter of an isosceles triangle is 45 cm. Find the length of the third side, if each of the equal sides is 14 cm long.",
+    "media": [],
+    "options": [
+      {
+        "text": "11 cm",
+        "hint": "$14 + 14 + 11 = 39$, not 45."
+      },
+      {
+        "text": "14 cm",
+        "hint": "$14 + 14 + 14 = 42$, not 45."
+      },
+      {
+        "text": "17 cm",
+        "hint": "Correct. $45 - 28 = 17$."
+      },
+      {
+        "text": "31 cm",
+        "hint": "This takes away only one of the equal sides."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Subtract both equal sides from the perimeter.",
+    "explanation": "## Advanced explanation\n\n$$45 - 2(14) = 17 \\text{ cm}$$\n\n## Simplified explanation\n\nThe two equal sides make 28 cm. The third side is the rest: $45 - 28 = 17$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the area of a circle whose diameter is 7 cm. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "options": [
+      {
+        "text": "11 cm$^2$",
+        "hint": "This is $\\pi r$. Area uses $\\pi r^2$."
+      },
+      {
+        "text": "$38\\dfrac{1}{2}$ cm$^2$",
+        "hint": "Correct. $\\frac{22}{7} \\times 3.5^2 = 38.5$."
+      },
+      {
+        "text": "$44\\dfrac{1}{2}$ cm$^2$",
+        "hint": "$\\frac{22}{7} \\times 3.5 \\times 3.5 = 38.5$."
+      },
+      {
+        "text": "54 cm$^2$",
+        "hint": "$\\frac{22}{7} \\times 3.5 \\times 3.5 = 38.5$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Halve the diameter to get the radius.",
+    "explanation": "## Advanced explanation\n\n$$A = \\pi r^2 = \\frac{22}{7} \\times \\left(\\frac{7}{2}\\right)^2 = \\frac{77}{2} = 38\\frac{1}{2} \\text{ cm}^2$$\n\n## Simplified explanation\n\nThe radius is 3.5 cm. Then $\\frac{22}{7} \\times 3.5 \\times 3.5 = 38.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The mean of three numbers is 12. If two of the numbers are 14 and 16, find the third number.",
+    "media": [],
+    "options": [
+      {
+        "text": "6",
+        "hint": "Correct. $36 - 30 = 6$."
+      },
+      {
+        "text": "12",
+        "hint": "12 is the mean. The third number makes the total 36."
+      },
+      {
+        "text": "30",
+        "hint": "This is the sum of 14 and 16."
+      },
+      {
+        "text": "26",
+        "hint": "The total is 36, so the third number is $36 - 30$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The three numbers total $3 \\times 12$.",
+    "explanation": "## Advanced explanation\n\n$$3 \\times 12 - 14 - 16 = 36 - 30 = 6$$\n\n## Simplified explanation\n\nThree numbers with a mean of 12 add up to 36. The two known ones make 30, so the third is 6.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of the interior angles of a regular polygon is $540^\\circ$. Find the number of sides of the polygon.",
+    "media": [],
+    "options": [
+      {
+        "text": "7",
+        "hint": "7 sides give $900^\\circ$."
+      },
+      {
+        "text": "6",
+        "hint": "6 sides give $720^\\circ$."
+      },
+      {
+        "text": "5",
+        "hint": "Correct. $(5 - 2) \\times 180^\\circ = 540^\\circ$."
+      },
+      {
+        "text": "4",
+        "hint": "4 sides give $360^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use: sum of interior angles $= (n - 2) \\times 180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$$(n - 2) \\times 180 = 540 \\implies n - 2 = 3 \\implies n = 5$$\n\n## Simplified explanation\n\n$540 \\div 180 = 3$, so the shape splits into 3 triangles. A polygon has 2 more sides than triangles, so it has 5 sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The figure $QPR$ is an equilateral triangle. If angle $PRS = (2x - 10)^\\circ$, find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016secaq31.png",
+        "caption": "Equilateral triangle PQR with QR extended to S. The exterior angle PRS is (2x − 10)°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$55^\\circ$",
+        "hint": "$2(55) - 10 = 100$, but the angle is $120^\\circ$."
+      },
+      {
+        "text": "$65^\\circ$",
+        "hint": "Correct. $2(65) - 10 = 120$."
+      },
+      {
+        "text": "$85^\\circ$",
+        "hint": "$2(85) - 10 = 160$, but the angle is $120^\\circ$."
+      },
+      {
+        "text": "$95^\\circ$",
+        "hint": "$2(95) - 10 = 180$, but the angle is $120^\\circ$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Each angle of an equilateral triangle is $60^\\circ$, and $QRS$ is a straight line.",
+    "explanation": "## Advanced explanation\n\nAngle $PRS = 180^\\circ - 60^\\circ = 120^\\circ$, so\n\n$$2x - 10 = 120 \\implies x = 65$$\n\n## Simplified explanation\n\nThe inside angle at $R$ is 60, so the outside angle is 120. Then $2x - 10 = 120$, so $2x = 130$ and $x = 65$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The diagonal of a rectangle is 10 cm long. If the length of the rectangle is 8 cm, find its breadth.",
+    "media": [],
+    "options": [
+      {
+        "text": "2 cm",
+        "hint": "This is $10 - 8$. Use Pythagoras' theorem."
+      },
+      {
+        "text": "3 cm",
+        "hint": "$8^2 + 3^2 = 73$, but $10^2 = 100$."
+      },
+      {
+        "text": "5 cm",
+        "hint": "$8^2 + 5^2 = 89$, but $10^2 = 100$."
+      },
+      {
+        "text": "6 cm",
+        "hint": "Correct. $\\sqrt{100 - 64} = 6$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The diagonal, length and breadth form a right-angled triangle.",
+    "explanation": "## Advanced explanation\n\n$$b = \\sqrt{10^2 - 8^2} = \\sqrt{36} = 6 \\text{ cm}$$\n\n## Simplified explanation\n\nTake the squares: $100 - 64 = 36$. The square root of 36 is 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an enlargement, $XY \\to X_1Y_1$. If $|XY| = 24$ cm and $|X_1Y_1| = 8$ cm, calculate the scale factor of the enlargement.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{32}$",
+        "hint": "This adds 24 and 8. Divide the image by the object."
+      },
+      {
+        "text": "$\\dfrac{1}{24}$",
+        "hint": "Divide the image length, 8, by the object length, 24."
+      },
+      {
+        "text": "$\\dfrac{1}{8}$",
+        "hint": "Divide the image length, 8, by the object length, 24."
+      },
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "Correct. $8 \\div 24 = \\frac{1}{3}$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Scale factor $=$ image length $\\div$ object length.",
+    "explanation": "## Advanced explanation\n\n$$k = \\frac{|X_1Y_1|}{|XY|} = \\frac{8}{24} = \\frac{1}{3}$$\n\n## Simplified explanation\n\nThe image is one-third of the size of the object, because $8 \\div 24 = \\frac{1}{3}$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Study the triangle of odd numbers in the diagram.\n\nEvaluate: $13 + b + c + 19$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016secaq34-35.png",
+        "caption": "Triangle of odd numbers. Bottom row: 1. Next row: 3, 5. Next row: 7, 9, a. Top row: 13, b, c, 19."
+      }
+    ],
+    "options": [
+      {
+        "text": "62",
+        "hint": "The top row is 13, 15, 17, 19, which adds up to 64."
+      },
+      {
+        "text": "64",
+        "hint": "Correct. $13 + 15 + 17 + 19 = 64$."
+      },
+      {
+        "text": "74",
+        "hint": "The top row is 13, 15, 17, 19, which adds up to 64."
+      },
+      {
+        "text": "76",
+        "hint": "The top row is 13, 15, 17, 19, which adds up to 64."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The odd numbers run in order along the rows.",
+    "explanation": "## Advanced explanation\n\nThe odd numbers continue in order, so $a = 11$, $b = 15$ and $c = 17$. Then $13 + 15 + 17 + 19 = 64$.\n\n## Simplified explanation\n\nOdd numbers go up by 2. After 13 come 15 and 17, so $b = 15$ and $c = 17$. Add the row to get 64.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Study the triangle of odd numbers in the diagram.\n\nEvaluate $a + b + c$",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016secaq34-35.png",
+        "caption": "Triangle of odd numbers. Bottom row: 1. Next row: 3, 5. Next row: 7, 9, a. Top row: 13, b, c, 19."
+      }
+    ],
+    "options": [
+      {
+        "text": "24",
+        "hint": "$a = 11$, $b = 15$ and $c = 17$."
+      },
+      {
+        "text": "29",
+        "hint": "$a = 11$, $b = 15$ and $c = 17$."
+      },
+      {
+        "text": "36",
+        "hint": "$a = 11$, $b = 15$ and $c = 17$."
+      },
+      {
+        "text": "43",
+        "hint": "Correct. $11 + 15 + 17 = 43$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The odd numbers run in order along the rows.",
+    "explanation": "## Advanced explanation\n\n$a$ follows 9, so $a = 11$. After 13 come $b = 15$ and $c = 17$. The sum is 43.\n\n## Simplified explanation\n\nAfter 9 comes 11, so $a = 11$. In the top row, $b = 15$ and $c = 17$. Then $11 + 15 + 17 = 43$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Sequences"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\begin{pmatrix} -3 \\\\ 5 \\end{pmatrix} + \\begin{pmatrix} 2 \\\\ -7 \\end{pmatrix}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 2 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $5 + (-7) = -2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ 12 \\end{pmatrix}$",
+        "hint": "This subtracts. Add the matching entries."
+      },
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-1$. Bottom: $-2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} -5 \\\\ -12 \\end{pmatrix}$",
+        "hint": "Add the matching entries: $-3 + 2$ and $5 + (-7)$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} -3 + 2 \\\\ 5 - 7 \\end{pmatrix} = \\begin{pmatrix} -1 \\\\ -2 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $-3 + 2 = -1$. Bottom numbers: $5 + (-7) = -2$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bearing of $X$ from $Y$ is $196^\\circ$. What is the bearing of $Y$ from $X$?",
+    "media": [],
+    "options": [
+      {
+        "text": "$016^\\circ$",
+        "hint": "Correct. $196^\\circ - 180^\\circ = 16^\\circ$."
+      },
+      {
+        "text": "$074^\\circ$",
+        "hint": "A back bearing differs by exactly $180^\\circ$."
+      },
+      {
+        "text": "$106^\\circ$",
+        "hint": "This subtracts $90^\\circ$. Subtract $180^\\circ$."
+      },
+      {
+        "text": "$244^\\circ$",
+        "hint": "A back bearing differs by exactly $180^\\circ$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The return direction points exactly the opposite way.",
+    "explanation": "## Advanced explanation\n\nSince $196^\\circ > 180^\\circ$, subtract: $196^\\circ - 180^\\circ = 016^\\circ$.\n\n## Simplified explanation\n\nGoing back means facing the opposite way, which is half a turn. Take 180 from 196 to get 16.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $a = -4$ and $b = 3$, evaluate $\\dfrac{3a + 2b}{ab}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "The top is $-12 + 6 = -6$ and the bottom is $-12$."
+      },
+      {
+        "text": "$1$",
+        "hint": "The top is $-12 + 6 = -6$ and the bottom is $-12$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{-6}{-12} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$-\\dfrac{3}{2}$",
+        "hint": "The top and bottom are both negative, so the result is positive."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Work out the top and bottom separately, taking care with signs.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{3(-4) + 2(3)}{(-4)(3)} = \\frac{-12 + 6}{-12} = \\frac{-6}{-12} = \\frac{1}{2}$$\n\n## Simplified explanation\n\nThe top is $-12 + 6 = -6$. The bottom is $-4 \\times 3 = -12$. Dividing gives $\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $P(-3, 7)$ is reflected in the $x$-axis. Find its image.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-3, -7)$",
+        "hint": "Correct. $x$ stays the same and $y$ changes sign."
+      },
+      {
+        "text": "$(-3, 7)$",
+        "hint": "This is the original point. A reflection moves it."
+      },
+      {
+        "text": "$(-7, 3)$",
+        "hint": "Reflection in the $x$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(3, -7)$",
+        "hint": "This changes both signs. Only $y$ changes."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The $x$-axis acts as a mirror, so only the height changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $x$-axis maps $(x, y) \\to (x, -y)$, so $(-3, 7) \\to (-3, -7)$.\n\n## Simplified explanation\n\nThe point is 7 above the $x$-axis. Its mirror image is 7 below, at the same left-right position.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The instrument used to measure the angle between two lines that meet at a point is known as a",
+    "media": [],
+    "options": [
+      {
+        "text": "pair of compasses",
+        "hint": "Compasses draw circles and arcs."
+      },
+      {
+        "text": "set-squares",
+        "hint": "Set squares draw right angles and parallel lines."
+      },
+      {
+        "text": "protractor",
+        "hint": "Correct. A protractor measures angles in degrees."
+      },
+      {
+        "text": "pair of dividers",
+        "hint": "Dividers measure and transfer lengths."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which instrument is marked in degrees?",
+    "explanation": "## Advanced explanation\n\nA protractor is the instrument graduated in degrees for measuring angles.\n\n## Simplified explanation\n\nTo measure an angle in degrees, use a protractor.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2016 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In an examination, 50 candidates sat for either Mathematics or English Language. 60% passed in Mathematics and 48% passed in English Language. Each candidate passed in at least one of the subjects.\n\nHow many candidates passed in:\n\n(i) Mathematics?\n\n(ii) English Language?",
+    "media": [],
+    "answer": "**(i)** $\\dfrac{60}{100} \\times 50 = 30$\n\n**(ii)** $\\dfrac{48}{100} \\times 50 = 24$\n\n> [!answer]\n> **(i)** {{green:30 candidates}}  **(ii)** {{green:24 candidates}}",
+    "hint": "Find each percentage of 50.",
+    "explanation": "## Advanced explanation\n\nEach percentage applies to the whole group of 50. The two values add up to more than 50 because some candidates passed both.\n\n## Simplified explanation\n\nHalf of 50 is 25, and 10% is 5. So 60% is 30. Similarly, 48% of 50 is 24.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Percentages",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In an examination, 50 candidates sat for either Mathematics or English Language. 60% passed in Mathematics and 48% passed in English Language. Each candidate passed in at least one of the subjects.\n\nIllustrate the information on a Venn diagram. In your answer, give the number in each region.",
+    "media": [],
+    "answer": "30 passed Mathematics and 24 passed English, out of 50, so\n\n$$\\text{Both} = 30 + 24 - 50 = 4$$\n\nDraw two overlapping circles and fill them in:\n\n| Region | Candidates |\n|---|---|\n| Mathematics only | $30 - 4 = 26$ |\n| Both subjects | 4 |\n| English only | $24 - 4 = 20$ |\n\nNo candidate lies outside the circles.\n\n> [!answer]\n> {{green:Mathematics only 26, both 4, English only 20, outside 0}}",
+    "hint": "Everyone passed at least one subject, so the circles account for all 50.",
+    "explanation": "## Advanced explanation\n\n$n(M \\cup E) = n(M) + n(E) - n(M \\cap E)$, so $50 = 30 + 24 - n(M \\cap E)$, which gives $n(M \\cap E) = 4$.\n\n## Simplified explanation\n\n30 and 24 add up to 54, but there are only 50 candidates. So 4 are counted twice, and they passed both.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In an examination, 50 candidates sat for either Mathematics or English Language. 60% passed in Mathematics and 48% passed in English Language. Each candidate passed in at least one of the subjects.\n\nUsing a Venn diagram, find the number of candidates who passed in\n\n(i) both subjects;\n\n(ii) Mathematics only.",
+    "media": [],
+    "answer": "30 passed Mathematics and 24 passed English.\n\n**(i)** $30 + 24 - 50 = 4$\n\n**(ii)** $30 - 4 = 26$\n\n> [!answer]\n> **(i)** {{green:4 candidates}}  **(ii)** {{green:26 candidates}}",
+    "hint": "Adding the two subjects counts those who passed both twice.",
+    "explanation": "## Advanced explanation\n\nWith $n(M) = 30$, $n(E) = 24$ and $n(M \\cup E) = 50$, the overlap is 4, and $M$ only is $30 - 4$.\n\n## Simplified explanation\n\n54 passes among 50 candidates means 4 passed both. Take those 4 from the 30 to get Mathematics only.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The cost $P$, in Ghana cedis, of producing $n$ items is given by the formula, $P = \\dfrac{3}{4}n + 1800$. Find the\n\n(i) cost of producing 2,000 items;\n\n(ii) number of items that will be produced with GH₵ 2,400.00;\n\n(iii) cost when no items are produced.",
+    "media": [],
+    "answer": "**(i)** $P = \\dfrac{3}{4}(2000) + 1800 = 1500 + 1800 = 3300$\n\n**(ii)** $2400 = \\dfrac{3}{4}n + 1800$, so $\\dfrac{3}{4}n = 600$ and $n = 800$\n\n**(iii)** $P = \\dfrac{3}{4}(0) + 1800 = 1800$\n\n> [!answer]\n> **(i)** {{green:GH₵ 3,300.00}}  **(ii)** {{green:800 items}}  **(iii)** {{green:GH₵ 1,800.00}}",
+    "hint": "Substitute the given value, then solve.",
+    "explanation": "## Advanced explanation\n\nThe formula is linear: a fixed cost of GH₵ 1,800 plus GH₵ 0.75 per item. Part (iii) is the fixed cost.\n\n## Simplified explanation\n\nEach item costs three-quarters of a cedi, on top of GH₵ 1,800. For (ii), take off 1,800 to get 600, then $600 \\div \\frac{3}{4} = 800$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A passenger travelling by air is allowed a maximum of 20 kg luggage. A man has four bags weighing 3.5 kg, 15 kg, 2 kg and 1.5 kg.\n\n(i) Find the excess weight of his luggage.\n\n(ii) Express the excess weight as a percentage of the maximum weight allowed.",
+    "media": [],
+    "answer": "**(i)** Total: $3.5 + 15 + 2 + 1.5 = 22$ kg\n\nExcess: $22 - 20 = 2$ kg\n\n**(ii)** $\\dfrac{2}{20} \\times 100\\% = 10\\%$\n\n> [!answer]\n> **(i)** {{green:2 kg}}  **(ii)** {{green:10%}}",
+    "hint": "Add the four bags first.",
+    "explanation": "## Advanced explanation\n\nThe percentage compares the excess with the 20 kg allowance, not with the 22 kg total.\n\n## Simplified explanation\n\nThe bags weigh 22 kg, which is 2 kg too much. 2 out of 20 is one-tenth, or 10%.",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Percentages",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A doctor treated 2,000 patients over a period of time. If he worked 5 hours a day and spent 15 minutes on each patient, how many days did the doctor spend to treat all the patients?",
+    "media": [],
+    "answer": "In 5 hours there are $5 \\times 60 = 300$ minutes, so he treats $\\dfrac{300}{15} = 20$ patients a day.\n\n$$\\frac{2000}{20} = 100 \\text{ days}$$\n\n> [!answer]\n> {{green:100 days}}",
+    "hint": "How many patients can he treat in one day?",
+    "explanation": "## Advanced explanation\n\nTotal time is $2000 \\times 15 = 30000$ minutes, or 500 hours. At 5 hours a day, that is 100 days.\n\n## Simplified explanation\n\n15 minutes per patient means 4 patients an hour, or 20 patients in a 5-hour day. Then $2000 \\div 20 = 100$ days.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Time"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The pie chart shows the distribution of textbooks to six classes $A$, $B$, $C$, $D$, $E$ and $F$ in a school.\n\n(i) If class $D$ was given 720 textbooks, how many textbooks were distributed to each of the remaining classes?\n\n(ii) What is the average number of textbooks distributed to the classes?\n\n(iii) How many classes had less than the average number of textbooks?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2016/2016q3.png",
+        "caption": "Pie chart of six classes, not drawn to scale. A 60°, B 50°, C 42°, D 80°, F 70°, and E with no angle given."
+      }
+    ],
+    "answer": "Class $E$'s angle is $360^\\circ - (60^\\circ + 50^\\circ + 42^\\circ + 80^\\circ + 70^\\circ) = 58^\\circ$.\n\nClass $D$ has $80^\\circ$ for 720 books, so each degree is 9 books.\n\n**(i)**\n\n| Class | $A$ | $B$ | $C$ | $E$ | $F$ |\n|---|---|---|---|---|---|\n| Angle | $60^\\circ$ | $50^\\circ$ | $42^\\circ$ | $58^\\circ$ | $70^\\circ$ |\n| Books | 540 | 450 | 378 | 522 | 630 |\n\n**(ii)** Total: $360 \\times 9 = 3240$, so the average is $\\dfrac{3240}{6} = 540$.\n\n**(iii)** $B$, $C$ and $E$ have less than 540. Class $A$ has exactly 540.\n\n> [!answer]\n> **(i)** {{green:$A$ 540, $B$ 450, $C$ 378, $E$ 522, $F$ 630}}\n>\n> **(ii)** {{green:540}}  **(iii)** {{green:3 classes}}",
+    "hint": "Find the missing angle first, then the number of books for each degree.",
+    "explanation": "## Advanced explanation\n\nBooks are proportional to angles, with 9 books per degree. The average angle is $60^\\circ$, so the classes below average are those with an angle under $60^\\circ$.\n\n## Simplified explanation\n\n720 books for 80° is 9 books per degree. Multiply each angle by 9. All the books make 3240, shared among 6 classes gives 540. Three classes get fewer.",
+    "difficulty": "hard",
+    "marks": 8,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw on a graph sheet two perpendicular axes $Ox$ and $Oy$ for $-5 \\le x \\le 5$ and $-5 \\le y \\le 5$.\n\n(i) Plot, indicating the coordinates of all points $P(1, 1)$, $Q(1, 2)$, $R(2, 2)$ and $S(2, 1)$ on the graph sheet. Join the points to form square $PQRS$.\n\n(ii) Draw and indicate clearly all coordinates, the image $P_1Q_1R_1S_1$ of square $PQRS$ under an enlargement from the origin with a scale factor of 2, where $P \\to P_1$, $Q \\to Q_1$, $R \\to R_1$ and $S \\to S_1$.\n\n(iii) Draw and indicate clearly all coordinates, the image $P_2Q_2R_2S_2$ of square $P_1Q_1R_1S_1$ under a reflection in the $x$-axis where $P_1 \\to P_2$, $Q_1 \\to Q_2$, $R_1 \\to R_2$ and $S_1 \\to S_2$.\n\nIn your answer, list the vertices of both images.",
+    "media": [],
+    "answer": "Draw and label the axes, then plot and join these points:\n\n| Vertex | Original | Enlarged by 2 | Reflected in the $x$-axis |\n|---|---|---|---|\n| $P$ | $(1, 1)$ | $P_1(2, 2)$ | $P_2(2, -2)$ |\n| $Q$ | $(1, 2)$ | $Q_1(2, 4)$ | $Q_2(2, -4)$ |\n| $R$ | $(2, 2)$ | $R_1(4, 4)$ | $R_2(4, -4)$ |\n| $S$ | $(2, 1)$ | $S_1(4, 2)$ | $S_2(4, -2)$ |\n\n> [!answer]\n> {{green:$P_1(2, 2)$, $Q_1(2, 4)$, $R_1(4, 4)$, $S_1(4, 2)$}}\n>\n> {{green:$P_2(2, -2)$, $Q_2(2, -4)$, $R_2(4, -4)$, $S_2(4, -2)$}}",
+    "hint": "An enlargement from the origin multiplies each coordinate by the scale factor. A reflection in the $x$-axis changes the sign of $y$.",
+    "explanation": "## Advanced explanation\n\nEnlargement maps $(x, y) \\to (2x, 2y)$, and reflection maps $(x, y) \\to (x, -y)$. The second image is the same size as the first.\n\n## Simplified explanation\n\nDouble both numbers in each point to get the first image. Then keep $x$ and change the sign of $y$ to get the second.",
+    "difficulty": "medium",
+    "marks": 8,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Transformations",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The square $PQRS$ has vertices $P(1, 1)$, $Q(1, 2)$, $R(2, 2)$ and $S(2, 1)$. Its image under an enlargement from the origin with a scale factor of 2 is $P_1Q_1R_1S_1$. The image of $P_1Q_1R_1S_1$ under a reflection in the $x$-axis is $P_2Q_2R_2S_2$.\n\nFind the gradient of the line $R_2S$.",
+    "media": [],
+    "answer": "$R_1$ is $(4, 4)$, so $R_2$ is $(4, -4)$, and $S$ is $(2, 1)$.\n\n$$\\text{Gradient} = \\frac{1 - (-4)}{2 - 4} = \\frac{5}{-2} = -\\frac{5}{2}$$\n\n> [!answer]\n> {{green:$-\\dfrac{5}{2}$}}",
+    "hint": "Find $R_2$ first. $S$ is a vertex of the original square.",
+    "explanation": "## Advanced explanation\n\nThe gradient uses change in $y$ over change in $x$, and either point can come first if the order is kept the same.\n\n## Simplified explanation\n\n$R$ doubles to $(4, 4)$, and reflecting gives $(4, -4)$. From there to $(2, 1)$, $y$ changes by 5 and $x$ changes by $-2$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Coordinate Geometry",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $u = 4$, $t = 5$, $a = 10$ and $s = ut + \\dfrac{1}{2}at^2$, find the value of $s$.",
+    "media": [],
+    "answer": "$$s = 4(5) + \\frac{1}{2}(10)(5)^2 = 20 + 125 = 145$$\n\n> [!answer]\n> {{green:$s = 145$}}",
+    "hint": "Square $t$ first, then multiply.",
+    "explanation": "## Advanced explanation\n\nOnly $t$ is squared in the second term: $\\frac{1}{2} \\times 10 \\times 25$.\n\n## Simplified explanation\n\n$4 \\times 5 = 20$. Half of 10 is 5, and $5 \\times 25 = 125$. Together they make 145.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The selling price of a gas cooker is GH₵ 450.00. If a customer is allowed a discount of 20%, calculate the:\n\n(i) discount\n\n(ii) amount paid by the customer.",
+    "media": [],
+    "answer": "**(i)** $\\dfrac{20}{100} \\times 450 = 90$\n\n**(ii)** $450 - 90 = 360$\n\n> [!answer]\n> **(i)** {{green:GH₵ 90.00}}  **(ii)** {{green:GH₵ 360.00}}",
+    "hint": "Find 20% of the price, then subtract it.",
+    "explanation": "## Advanced explanation\n\nDirectly, the customer pays 80%: $0.8 \\times 450 = 360$.\n\n## Simplified explanation\n\n10% of GH₵ 450 is GH₵ 45, so 20% is GH₵ 90. Taking it off leaves GH₵ 360.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A crate of minerals containing ten bottles of Coca Cola and fourteen bottles of Fanta was given to some children for a birthday party. If a child chose a drink at random from the crate, find the probability that it was Fanta.",
+    "media": [],
+    "answer": "$$P(\\text{Fanta}) = \\frac{14}{10 + 14} = \\frac{14}{24} = \\frac{7}{12}$$\n\n> [!answer]\n> {{green:$\\dfrac{7}{12}$}}",
+    "hint": "Find the total number of bottles first.",
+    "explanation": "## Advanced explanation\n\nThe outcomes are equally likely, so the probability is the favourable count over the total.\n\n## Simplified explanation\n\nThere are 24 bottles and 14 are Fanta. Divide the top and bottom of $\\frac{14}{24}$ by 2.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct:\n\n(i) triangle $XYZ$ with $|XY| = 9$ cm, $|YZ| = 12$ cm and $|XZ| = 8$ cm;\n\n(ii) the perpendicular bisector of line $XY$;\n\n(iii) the perpendicular bisector of line $XZ$.\n\nLabel the point of intersection of the two bisectors as $T$. With the point $T$ as center, draw a circle of radius 6 cm.\n\nMeasure:\n\n(i) $|TX|$\n\n(ii) angle $XYZ$.\n\nIn your answer, give your two measurements.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|YZ| = 12$ cm. With centre $Y$ and radius 9 cm, and centre $Z$ and radius 8 cm, draw arcs that cross at $X$. Join $X$ to $Y$ and $Z$.\n2. For each of $XY$ and $XZ$, draw equal arcs from both ends, on both sides of the line. Join the crossing points to get the perpendicular bisector.\n3. Mark $T$ where the two bisectors meet, and draw the circle with centre $T$ and radius 6 cm. It passes through $X$, $Y$ and $Z$.\n\n**Measurements** (allow a small drawing error)\n\n> [!answer]\n> {{green:$|TX| \\approx 6$ cm}} and {{green:angle $XYZ \\approx 42^\\circ$}}",
+    "hint": "Use arcs to construct the triangle from its three sides.",
+    "explanation": "## Advanced explanation\n\n$T$ is the circumcentre, equally far from all three vertices. By calculation, the area is 36 cm$^2$, so the circumradius is $\\frac{9 \\times 12 \\times 8}{4 \\times 36} = 6$ cm. The cosine rule gives angle $XYZ \\approx 41.8^\\circ$.\n\n## Simplified explanation\n\nBuild the triangle from its three sides. Bisect $XY$ and $XZ$, and mark $T$ where the lines cross. The circle round $T$ passes through all three corners, so $|TX|$ is about 6 cm.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2016 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  }
+]

@@ -1,0 +1,1581 @@
+[
+  {
+    "type": "choice",
+    "body": "Which of the following is arranged in ascending order?",
+    "media": [],
+    "options": [
+      {
+        "text": "$-25, -64, 4, 17$",
+        "hint": "$-64$ is smaller than $-25$, so it must come first."
+      },
+      {
+        "text": "$-64, -25, 4, 17$",
+        "hint": "Correct. Each number is larger than the one before it."
+      },
+      {
+        "text": "$-64, -25, 17, 4$",
+        "hint": "4 is smaller than 17, so it must come first."
+      },
+      {
+        "text": "$17, 4, -25, -64$",
+        "hint": "This is descending order, from largest to smallest."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Ascending means from smallest to largest.",
+    "explanation": "## Advanced explanation\n\nOn a number line, $-64 < -25 < 4 < 17$.\n\n## Simplified explanation\n\nThe most negative number is the smallest, so start with $-64$, then $-25$, then 4, then 17.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P =$ {$x : x$ is an even number greater than two and less or equal to twelve}, list the members of $P$.",
+    "media": [],
+    "options": [
+      {
+        "text": "{2, 4, 6, 8, 10, 12}",
+        "hint": "$x$ must be greater than 2, so 2 is left out."
+      },
+      {
+        "text": "{3, 4, 6, 8, 10, 12}",
+        "hint": "3 is not an even number."
+      },
+      {
+        "text": "{2, 4, 6, 8, 10}",
+        "hint": "2 is left out, but 12 is included."
+      },
+      {
+        "text": "{4, 6, 8, 10, 12}",
+        "hint": "Correct. The even numbers from above 2 up to 12."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "\"Greater than two\" leaves 2 out. \"Less or equal to twelve\" includes 12.",
+    "explanation": "## Advanced explanation\n\nWe need even $x$ with $2 < x \\le 12$, which gives $\\{4, 6, 8, 10, 12\\}$.\n\n## Simplified explanation\n\nCount in even numbers, starting after 2 and stopping at 12: 4, 6, 8, 10, 12.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following is an infinite set?",
+    "media": [],
+    "options": [
+      {
+        "text": "{1, 2, ..., 5, 6, 7}",
+        "hint": "This set ends at 7, so it is finite."
+      },
+      {
+        "text": "{4, 6, 8, 10, 12}",
+        "hint": "This set has only 5 members, so it is finite."
+      },
+      {
+        "text": "{2, 3, 5, 7, 11, ...}",
+        "hint": "Correct. The dots at the end show that the primes go on for ever."
+      },
+      {
+        "text": "{3, 6, ..., 18, 21, ..., 33, 36}",
+        "hint": "This set ends at 36, so it is finite."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Look for a set with no last member.",
+    "explanation": "## Advanced explanation\n\nA set is infinite when it has no last member. The dots at the end of $\\{2, 3, 5, 7, 11, \\dots\\}$ show the primes continue without end.\n\n## Simplified explanation\n\nThree of these sets stop at a last number. Only the set of primes keeps going.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the H.C.F of 18, 36 and 60.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^2 \\times 3^2 \\times 5$",
+        "hint": "This is 180, the L.C.M. of the numbers."
+      },
+      {
+        "text": "$2^2 \\times 3^2$",
+        "hint": "This is 36, which does not divide 18 or 60."
+      },
+      {
+        "text": "$2 \\times 3 \\times 5$",
+        "hint": "This is 30, which does not divide 18 or 36."
+      },
+      {
+        "text": "$2 \\times 3$",
+        "hint": "Correct. 6 is the largest number that divides all three."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Write each number as a product of primes, and take the lowest powers.",
+    "explanation": "## Advanced explanation\n\n$18 = 2 \\times 3^2$, $36 = 2^2 \\times 3^2$ and $60 = 2^2 \\times 3 \\times 5$. The lowest common powers give $2 \\times 3 = 6$.\n\n## Simplified explanation\n\nAll three numbers divide by 2 and by 3, so by 6. No larger number divides all three.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Write two hundred and two million, two thousand, two hundred and two in figures.",
+    "media": [],
+    "options": [
+      {
+        "text": "202,002,202",
+        "hint": "Correct. 202 million, 002 thousand, 202."
+      },
+      {
+        "text": "202,020,202",
+        "hint": "This is twenty thousand, not two thousand."
+      },
+      {
+        "text": "202,022,202",
+        "hint": "This is twenty-two thousand, not two thousand."
+      },
+      {
+        "text": "202,200,202",
+        "hint": "This is two hundred thousand, not two thousand."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write each group of three digits: millions, thousands, then the rest.",
+    "explanation": "## Advanced explanation\n\nGroup the digits in threes: millions 202, thousands 002 and units 202.\n\n## Simplified explanation\n\nTwo hundred and two million is 202, then two thousand is 002, then two hundred and two is 202.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the least number that can be added to 207 to make the sum divisible by 17.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "$207 + 3 = 210$, which 17 does not divide."
+      },
+      {
+        "text": "13",
+        "hint": "$207 + 13 = 220$, which 17 does not divide."
+      },
+      {
+        "text": "14",
+        "hint": "Correct. $207 + 14 = 221 = 17 \\times 13$."
+      },
+      {
+        "text": "30",
+        "hint": "$207 + 30 = 237$, which 17 does not divide."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide 207 by 17 and look at the remainder.",
+    "explanation": "## Advanced explanation\n\n$207 = 17 \\times 12 + 3$, so the least number to add is $17 - 3 = 14$.\n\n## Simplified explanation\n\n$17 \\times 12 = 204$, and the next multiple is 221. Then $221 - 207 = 14$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P =$ {factors of 36} and $Q =$ {multiples of 4 less than 40}, find the number of subsets in $P \\cap Q$.",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "$P \\cap Q$ has 3 members, so it has $2^3$ subsets."
+      },
+      {
+        "text": "8",
+        "hint": "Correct. $P \\cap Q = \\{4, 12, 36\\}$, which has $2^3 = 8$ subsets."
+      },
+      {
+        "text": "6",
+        "hint": "$P \\cap Q$ has 3 members, so it has $2^3$ subsets."
+      },
+      {
+        "text": "4",
+        "hint": "$P \\cap Q$ has 3 members, so it has $2^3$ subsets."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find $P \\cap Q$ first. A set with $n$ members has $2^n$ subsets.",
+    "explanation": "## Advanced explanation\n\n$P \\cap Q = \\{4, 12, 36\\}$, so the number of subsets is $2^3 = 8$.\n\n## Simplified explanation\n\nThe numbers on both lists are 4, 12 and 36. Three members give $2 \\times 2 \\times 2 = 8$ subsets, including the empty set.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the L.C.M of 10, 15 and 25.",
+    "media": [],
+    "options": [
+      {
+        "text": "90",
+        "hint": "90 is not a multiple of 25."
+      },
+      {
+        "text": "120",
+        "hint": "120 is not a multiple of 25."
+      },
+      {
+        "text": "150",
+        "hint": "Correct. $150 = 2 \\times 3 \\times 5^2$."
+      },
+      {
+        "text": "300",
+        "hint": "300 is a common multiple, but 150 is smaller."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use prime factors, or list the multiples of 25.",
+    "explanation": "## Advanced explanation\n\n$10 = 2 \\times 5$, $15 = 3 \\times 5$ and $25 = 5^2$. The LCM is $2 \\times 3 \\times 5^2 = 150$.\n\n## Simplified explanation\n\nCount in 25s: 25, 50, 75, 100, 125, 150. The first that 10 and 15 both divide is 150.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate: $\\left(\\dfrac{2}{3} - \\dfrac{1}{4}\\right) \\div \\dfrac{5}{6}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{5}{12} \\times \\frac{6}{5} = \\frac{1}{2}$."
+      },
+      {
+        "text": "$\\dfrac{12}{25}$",
+        "hint": "To divide by $\\frac{5}{6}$, multiply by $\\frac{6}{5}$."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "This is the value of the bracket. You still need to divide by $\\frac{5}{6}$."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "To divide by $\\frac{5}{6}$, multiply by $\\frac{6}{5}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first, then multiply by the reciprocal.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{8 - 3}{12} \\div \\frac{5}{6} = \\frac{5}{12} \\times \\frac{6}{5} = \\frac{1}{2}$$\n\n## Simplified explanation\n\nThe bracket is $\\frac{5}{12}$. Flip $\\frac{5}{6}$ and multiply: the 5s cancel, and $\\frac{6}{12} = \\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange $\\dfrac{2}{3}$, $\\dfrac{4}{9}$ and $\\dfrac{3}{7}$ in ascending order.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}, \\dfrac{3}{7}, \\dfrac{4}{9}$",
+        "hint": "$\\frac{2}{3}$ is the largest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{4}{9}, \\dfrac{3}{7}, \\dfrac{2}{3}$",
+        "hint": "$\\frac{3}{7} \\approx 0.429$ is smaller than $\\frac{4}{9} \\approx 0.444$."
+      },
+      {
+        "text": "$\\dfrac{3}{7}, \\dfrac{2}{3}, \\dfrac{4}{9}$",
+        "hint": "$\\frac{2}{3}$ is the largest, so it must come last."
+      },
+      {
+        "text": "$\\dfrac{3}{7}, \\dfrac{4}{9}, \\dfrac{2}{3}$",
+        "hint": "Correct. As decimals: 0.429, 0.444, 0.667."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Change the fractions to decimals. Ascending means smallest first.",
+    "explanation": "## Advanced explanation\n\nWith denominator 63: $\\frac{3}{7} = \\frac{27}{63}$, $\\frac{4}{9} = \\frac{28}{63}$ and $\\frac{2}{3} = \\frac{42}{63}$.\n\n## Simplified explanation\n\nAs decimals they are about 0.67, 0.44 and 0.43. From smallest to largest: 0.43, 0.44, 0.67.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the simple interest on GH₵ 600.00 saved for 2 years 8 months at 5% per annum.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 64.00",
+        "hint": "One year earns GH₵ 30, and the time is $2\\frac{2}{3}$ years."
+      },
+      {
+        "text": "GH₵ 80.00",
+        "hint": "Correct. $30 \\times 2\\frac{2}{3} = 80$."
+      },
+      {
+        "text": "GH₵ 84.00",
+        "hint": "This treats 2 years 8 months as 2.8 years. It is $2\\frac{8}{12}$ years."
+      },
+      {
+        "text": "GH₵ 92.00",
+        "hint": "One year earns GH₵ 30, and the time is $2\\frac{2}{3}$ years."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write the time in years: 8 months is $\\frac{8}{12}$ of a year.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{600 \\times 5 \\times \\frac{8}{3}}{100} = 80$$\n\n## Simplified explanation\n\nEach year earns 5% of GH₵ 600, which is GH₵ 30. Two years earn GH₵ 60. Eight months is two-thirds of a year, which earns GH₵ 20.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The number of girls in a mixed school is 420. If the ratio of boys to girls in the school is $3 : 2$, how many students are in the school?",
+    "media": [],
+    "options": [
+      {
+        "text": "1050",
+        "hint": "Correct. Each part is 210, and $5 \\times 210 = 1050$."
+      },
+      {
+        "text": "1470",
+        "hint": "This adds the 420 girls to the total again."
+      },
+      {
+        "text": "1630",
+        "hint": "Each part is 210, and there are 5 parts."
+      },
+      {
+        "text": "1680",
+        "hint": "This is $420 \\times 4$. The girls are 2 parts out of 5."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "420 girls make 2 parts of the ratio.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Total} = \\frac{5}{2} \\times 420 = 1050$$\n\n## Simplified explanation\n\n2 parts are 420, so 1 part is 210. There are 5 parts altogether, which makes 1050 students.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mary had a chance to select a number from 1 to 20 randomly. What is the probability that the number is divisible by 3?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{20}$",
+        "hint": "There are 6 multiples of 3 from 1 to 20, not 3."
+      },
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "This counts 4 numbers, but there are 6 multiples of 3."
+      },
+      {
+        "text": "$\\dfrac{3}{10}$",
+        "hint": "Correct. 3, 6, 9, 12, 15, 18 make 6 out of 20."
+      },
+      {
+        "text": "$\\dfrac{7}{20}$",
+        "hint": "This counts 7 numbers, but there are 6 multiples of 3."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "List the multiples of 3 up to 20.",
+    "explanation": "## Advanced explanation\n\nThe favourable outcomes are $\\{3, 6, 9, 12, 15, 18\\}$, so $P = \\frac{6}{20} = \\frac{3}{10}$.\n\n## Simplified explanation\n\nCount in 3s up to 20: 3, 6, 9, 12, 15, 18. That is 6 numbers out of 20.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Ama bought a pair of sandals for GH₵ 20.00 and sold it at GH₵ 24.00. Find the percentage profit.",
+    "media": [],
+    "options": [
+      {
+        "text": "4%",
+        "hint": "GH₵ 4 is the profit in cedis, not as a percentage."
+      },
+      {
+        "text": "17%",
+        "hint": "This divides by the selling price. Profit is compared with the cost price."
+      },
+      {
+        "text": "20%",
+        "hint": "Correct. $\\frac{4}{20} \\times 100 = 20$."
+      },
+      {
+        "text": "44%",
+        "hint": "$\\frac{4}{20} \\times 100 = 20$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Percentage profit compares the profit with the cost price.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{24 - 20}{20} \\times 100\\% = 20\\%$$\n\n## Simplified explanation\n\nShe gains GH₵ 4 on GH₵ 20. That is $\\frac{1}{5}$ of the cost, which is 20%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "8 men can do a piece of work in 12 days. How long will 6 men take to do the same work if they work at the same rate?",
+    "media": [],
+    "options": [
+      {
+        "text": "14 days",
+        "hint": "$6 \\times 14 = 84$ man-days, but the work needs 96."
+      },
+      {
+        "text": "16 days",
+        "hint": "Correct. $96 \\div 6 = 16$."
+      },
+      {
+        "text": "18 days",
+        "hint": "$6 \\times 18 = 108$ man-days, but the work needs 96."
+      },
+      {
+        "text": "20 days",
+        "hint": "$6 \\times 20 = 120$ man-days, but the work needs 96."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Fewer men take longer. This is inverse proportion.",
+    "explanation": "## Advanced explanation\n\nTotal work $= 8 \\times 12 = 96$ man-days, so 6 men take $\\frac{96}{6} = 16$ days.\n\n## Simplified explanation\n\nThe job takes $8 \\times 12 = 96$ days of one man's work. Share that among 6 men: $96 \\div 6 = 16$ days.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $QP$ is parallel to $ST$, angle $QPR = 68^\\circ$ and angle $SRT = 40^\\circ$.\n\nFind the value of angle $PQR$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2018/2018secaq16-17.png",
+        "caption": "Parallel lines QP and ST, with lines PS and QT crossing at R. Angle QPR is 68° and angle SRT is 40°. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$40^\\circ$",
+        "hint": "This is angle $PRQ$, not angle $PQR$."
+      },
+      {
+        "text": "$68^\\circ$",
+        "hint": "This is angle $QPR$, not angle $PQR$."
+      },
+      {
+        "text": "$72^\\circ$",
+        "hint": "Correct. $180^\\circ - 68^\\circ - 40^\\circ = 72^\\circ$."
+      },
+      {
+        "text": "$108^\\circ$",
+        "hint": "This adds the two known angles. Subtract them from $180^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Angle $PRQ$ is vertically opposite angle $SRT$.",
+    "explanation": "## Advanced explanation\n\nAngle $PRQ = 40^\\circ$ (vertically opposite). In triangle $PQR$:\n\n$$\\angle PQR = 180^\\circ - 68^\\circ - 40^\\circ = 72^\\circ$$\n\n## Simplified explanation\n\nThe angle at $R$ inside the left triangle is also $40^\\circ$. The three angles make 180, so the last angle is $180 - 68 - 40 = 72$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $QP$ is parallel to $ST$, angle $QPR = 68^\\circ$ and angle $SRT = 40^\\circ$.\n\nFind the value of angle $TSR$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2018/2018secaq16-17.png",
+        "caption": "Parallel lines QP and ST, with lines PS and QT crossing at R. Angle QPR is 68° and angle SRT is 40°. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$40^\\circ$",
+        "hint": "This is angle $SRT$, not angle $TSR$."
+      },
+      {
+        "text": "$68^\\circ$",
+        "hint": "Correct. Angles $TSR$ and $QPR$ are alternate angles."
+      },
+      {
+        "text": "$72^\\circ$",
+        "hint": "This is angle $PQR$, which equals angle $STR$."
+      },
+      {
+        "text": "$112^\\circ$",
+        "hint": "$QP$ and $ST$ are parallel, so the alternate angles are equal."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "$QP$ and $ST$ are parallel, and $PS$ crosses both.",
+    "explanation": "## Advanced explanation\n\n$QP \\parallel ST$ with transversal $PS$, so angle $TSR$ equals the alternate angle $QPR = 68^\\circ$.\n\n## Simplified explanation\n\nBecause the lines are parallel, the angles at $P$ and $S$ on opposite sides of $PS$ are equal. So angle $TSR$ is $68^\\circ$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A train is travelling at a speed of 60 km/h. What distance will it cover from 10.45 am to 12.15 pm?",
+    "media": [],
+    "options": [
+      {
+        "text": "75 km",
+        "hint": "This is only 1 hour 15 minutes of travel."
+      },
+      {
+        "text": "87 km",
+        "hint": "The time is exactly $1\\frac{1}{2}$ hours."
+      },
+      {
+        "text": "90 km",
+        "hint": "Correct. $60 \\times 1\\frac{1}{2} = 90$."
+      },
+      {
+        "text": "150 km",
+        "hint": "This is $2\\frac{1}{2}$ hours of travel. The time is $1\\frac{1}{2}$ hours."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the time taken first.",
+    "explanation": "## Advanced explanation\n\nFrom 10.45 am to 12.15 pm is $1\\frac{1}{2}$ hours, so $d = 60 \\times 1\\frac{1}{2} = 90$ km.\n\n## Simplified explanation\n\n10.45 to 11.45 is 1 hour, and on to 12.15 is 30 more minutes. At 60 km an hour, that is $60 + 30 = 90$ km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Speed",
+      "Time"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The perimeter of a rectangle is 26 cm. If its length is 10 cm, find its area.",
+    "media": [],
+    "options": [
+      {
+        "text": "30 cm$^2$",
+        "hint": "Correct. The width is 3 cm, and $10 \\times 3 = 30$."
+      },
+      {
+        "text": "60 cm$^2$",
+        "hint": "The width is 3 cm, not 6 cm."
+      },
+      {
+        "text": "130 cm$^2$",
+        "hint": "This is $26 \\times 5$. Find the width first."
+      },
+      {
+        "text": "160 cm$^2$",
+        "hint": "The width is 3 cm, not 16 cm."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Use the perimeter to find the width first.",
+    "explanation": "## Advanced explanation\n\n$2(10 + w) = 26$, so $w = 3$ cm and the area is $10 \\times 3 = 30$ cm$^2$.\n\n## Simplified explanation\n\nHalf of the perimeter is 13, so the width is $13 - 10 = 3$ cm. Then $10 \\times 3 = 30$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the slope of the line $3x - 6y = 33$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Make $y$ the subject: the number in front of $x$ is $\\frac{3}{6}$."
+      },
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "Check the sign: $-6y = -3x + 33$ gives $y = \\frac{1}{2}x - \\frac{11}{2}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $y = \\frac{1}{2}x - \\frac{11}{2}$."
+      },
+      {
+        "text": "$3$",
+        "hint": "3 is the number in front of $x$ before $y$ is made the subject."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Make $y$ the subject, then compare with $y = mx + c$.",
+    "explanation": "## Advanced explanation\n\n$$-6y = -3x + 33 \\implies y = \\frac{1}{2}x - \\frac{11}{2}$$\n\nSo the slope is $\\frac{1}{2}$.\n\n## Simplified explanation\n\nMove $3x$ across to get $-6y = -3x + 33$. Dividing by $-6$ gives $y = \\frac{1}{2}x - 5.5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $y = c + bx^2$, find $y$ when $c = \\dfrac{14}{5}$, $b = \\dfrac{4}{5}$ and $x = 2$",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "$bx^2 = \\frac{4}{5} \\times 4 = \\frac{16}{5}$."
+      },
+      {
+        "text": "4",
+        "hint": "$bx^2 = \\frac{4}{5} \\times 4 = \\frac{16}{5}$."
+      },
+      {
+        "text": "6",
+        "hint": "Correct. $\\frac{14}{5} + \\frac{16}{5} = 6$."
+      },
+      {
+        "text": "7",
+        "hint": "$bx^2 = \\frac{4}{5} \\times 4 = \\frac{16}{5}$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Square $x$ first, then multiply by $b$.",
+    "explanation": "## Advanced explanation\n\n$$y = \\frac{14}{5} + \\frac{4}{5}(2)^2 = \\frac{14}{5} + \\frac{16}{5} = \\frac{30}{5} = 6$$\n\n## Simplified explanation\n\n$x^2 = 4$, and $\\frac{4}{5} \\times 4 = \\frac{16}{5}$. Adding $\\frac{14}{5}$ gives $\\frac{30}{5} = 6$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The volume of a cylinder is $20\\pi$ cm$^3$. If the height of the cylinder is 5 cm, find the base radius.",
+    "media": [],
+    "options": [
+      {
+        "text": "1 cm",
+        "hint": "This gives a volume of only $5\\pi$ cm$^3$."
+      },
+      {
+        "text": "2 cm",
+        "hint": "Correct. $\\pi(2)^2(5) = 20\\pi$."
+      },
+      {
+        "text": "3 cm",
+        "hint": "This gives a volume of $45\\pi$ cm$^3$."
+      },
+      {
+        "text": "4 cm",
+        "hint": "This is $r^2$. The radius is its square root."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Volume of a cylinder $= \\pi r^2 h$.",
+    "explanation": "## Advanced explanation\n\n$$\\pi r^2 (5) = 20\\pi \\implies r^2 = 4 \\implies r = 2 \\text{ cm}$$\n\n## Simplified explanation\n\nCancel $\\pi$ to get $r^2 \\times 5 = 20$. Then $r^2 = 4$, so $r = 2$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $PQR$ is a right-angled triangle with $|PR| = 15$ cm and $|QR| = 12$ cm. Find the length $PQ$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2018/2018secaq23.png",
+        "caption": "Right-angled triangle PQR with the right angle at Q. PR is 15 cm and QR is 12 cm. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "3.0 cm",
+        "hint": "This is $15 - 12$. Use Pythagoras' theorem."
+      },
+      {
+        "text": "8.0 cm",
+        "hint": "$8^2 + 12^2 = 208$, but $15^2 = 225$."
+      },
+      {
+        "text": "9.0 cm",
+        "hint": "Correct. $\\sqrt{225 - 144} = 9$."
+      },
+      {
+        "text": "19.2 cm",
+        "hint": "This treats $PR$ as a shorter side. $PR$ is the longest side."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "$PR$ is opposite the right angle, so it is the longest side.",
+    "explanation": "## Advanced explanation\n\n$$|PQ|^2 = 15^2 - 12^2 = 225 - 144 = 81 \\implies |PQ| = 9 \\text{ cm}$$\n\n## Simplified explanation\n\nTake the squares: $225 - 144 = 81$. The square root of 81 is 9.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many edges has a triangular prism?",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "Each triangular end alone has 3 edges."
+      },
+      {
+        "text": "5",
+        "hint": "A triangular prism has 5 faces. Count the edges."
+      },
+      {
+        "text": "6",
+        "hint": "A triangular prism has 6 vertices. Count the edges."
+      },
+      {
+        "text": "9",
+        "hint": "Correct. 3 on each triangle, plus 3 joining them."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Count the edges of the two triangles, then those joining them.",
+    "explanation": "## Advanced explanation\n\nEach triangular face has 3 edges, and 3 more join the triangles: $3 + 3 + 3 = 9$.\n\n## Simplified explanation\n\nThere are 3 edges around the top triangle, 3 around the bottom, and 3 going between them.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $m$ the subject of the relation: $q = \\dfrac{1}{3}(m + n)h$",
+    "media": [],
+    "options": [
+      {
+        "text": "$m = \\dfrac{3q}{h} - n$",
+        "hint": "Correct. $\\frac{3q}{h} = m + n$."
+      },
+      {
+        "text": "$m = 3q - hn$",
+        "hint": "Divide by $h$ before moving $n$ across."
+      },
+      {
+        "text": "$m = 3q + hn$",
+        "hint": "Divide by $h$, and moving $n$ across changes its sign."
+      },
+      {
+        "text": "$m = \\dfrac{3q}{h} + n$",
+        "hint": "Moving $n$ across changes its sign."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply both sides by 3, then divide by $h$.",
+    "explanation": "## Advanced explanation\n\n$$3q = (m + n)h \\implies \\frac{3q}{h} = m + n \\implies m = \\frac{3q}{h} - n$$\n\n## Simplified explanation\n\nMultiply by 3 to get $3q = (m + n)h$. Divide by $h$. Then take $n$ from both sides.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $16^2 \\times 8^2$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^{10}$",
+        "hint": "$16 = 2^4$, so $16^2 = 2^8$. And $8^2 = 2^6$."
+      },
+      {
+        "text": "$2^{14}$",
+        "hint": "Correct. $2^8 \\times 2^6 = 2^{14}$."
+      },
+      {
+        "text": "$2^{15}$",
+        "hint": "$2^8 \\times 2^6$: add the powers, $8 + 6$."
+      },
+      {
+        "text": "$2^{16}$",
+        "hint": "$2^8 \\times 2^6$: add the powers, $8 + 6$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write 16 and 8 as powers of 2.",
+    "explanation": "## Advanced explanation\n\n$$16^2 \\times 8^2 = (2^4)^2 \\times (2^3)^2 = 2^8 \\times 2^6 = 2^{14}$$\n\n## Simplified explanation\n\n$16 = 2^4$, so $16^2 = 2^8$. $8 = 2^3$, so $8^2 = 2^6$. Add the powers: $8 + 6 = 14$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $4a - 9b - 2(2a - 3b)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$8a + 3b$",
+        "hint": "$-2 \\times 2a = -4a$, so the $a$ terms cancel."
+      },
+      {
+        "text": "$8a - 3b$",
+        "hint": "$-2 \\times 2a = -4a$, so the $a$ terms cancel."
+      },
+      {
+        "text": "$-15b$",
+        "hint": "$-2 \\times (-3b) = +6b$, so the $b$ terms give $-3b$."
+      },
+      {
+        "text": "$-3b$",
+        "hint": "Correct. $4a - 9b - 4a + 6b$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket, and take care with the minus sign.",
+    "explanation": "## Advanced explanation\n\n$$4a - 9b - 4a + 6b = -3b$$\n\n## Simplified explanation\n\nMultiply out to get $-4a + 6b$. The $a$ terms cancel, and $-9b + 6b = -3b$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $u = \\begin{pmatrix} 3 \\\\ 1 \\end{pmatrix}$ and $v = \\begin{pmatrix} -2 \\\\ 1 \\end{pmatrix}$, evaluate $6v + 2u$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "Multiply each vector by its number first."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Correct. Top: $-12 + 6$. Bottom: $6 + 2$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 1 \\\\ 3 \\end{pmatrix}$",
+        "hint": "Multiply each vector by its number first."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Check the sign of the top entry: $-12 + 6 = -6$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply each vector by its number, then add the matching entries.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} -12 \\\\ 6 \\end{pmatrix} + \\begin{pmatrix} 6 \\\\ 2 \\end{pmatrix} = \\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nTop numbers: $6 \\times (-2) + 2 \\times 3 = -6$. Bottom numbers: $6 \\times 1 + 2 \\times 1 = 8$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of the point $(2, 5)$ under the transformation: $\\begin{pmatrix} x \\\\ y \\end{pmatrix} \\to \\begin{pmatrix} x \\\\ 2 - y \\end{pmatrix}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(2, -3)$",
+        "hint": "Correct. $2 - 5 = -3$, and $x$ stays as 2."
+      },
+      {
+        "text": "$(2, 2)$",
+        "hint": "The new $y$ is $2 - 5$, not 2."
+      },
+      {
+        "text": "$(2, 3)$",
+        "hint": "This is $5 - 2$. The rule is $2 - y$."
+      },
+      {
+        "text": "$(2, 7)$",
+        "hint": "This is $2 + 5$. The rule is $2 - y$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Keep $x$ the same. The new $y$ is 2 minus the old $y$.",
+    "explanation": "## Advanced explanation\n\nSubstitute $x = 2$, $y = 5$: the image is $(2, 2 - 5) = (2, -3)$.\n\n## Simplified explanation\n\nThe first number stays as 2. The second becomes $2 - 5 = -3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of $Q(-4, 5)$ when rotated anticlockwise through $90^\\circ$ about the origin.",
+    "media": [],
+    "options": [
+      {
+        "text": "$Q'(-5, 4)$",
+        "hint": "An anticlockwise quarter turn maps $(x, y)$ to $(-y, x)$."
+      },
+      {
+        "text": "$Q'(-5, -4)$",
+        "hint": "Correct. $(x, y) \\to (-y, x)$."
+      },
+      {
+        "text": "$Q'(4, -5)$",
+        "hint": "This is a half turn, through $180^\\circ$."
+      },
+      {
+        "text": "$Q'(4, 5)$",
+        "hint": "This is a reflection in the $y$-axis."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "An anticlockwise rotation through $90^\\circ$ maps $(x, y)$ to $(-y, x)$.",
+    "explanation": "## Advanced explanation\n\n$(x, y) \\to (-y, x)$, so $(-4, 5) \\to (-5, -4)$.\n\n## Simplified explanation\n\nSwap the numbers to get $(5, -4)$, then change the sign of the first: $(-5, -4)$. The point moves from the top-left to the bottom-left.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following data show the marks of students in a test:\n\n10, 4, 1, 4, 3, 3, 2, 1, 1, 7, 8\n\nIf the pass mark is 4, find the number of students who scored more than the pass mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Count the marks above 4: 10, 7 and 8."
+      },
+      {
+        "text": "2",
+        "hint": "Count the marks above 4: 10, 7 and 8."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. 10, 7 and 8 are above 4."
+      },
+      {
+        "text": "4",
+        "hint": "Marks of exactly 4 are not more than the pass mark."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "\"More than\" leaves out marks equal to 4.",
+    "explanation": "## Advanced explanation\n\nThe marks greater than 4 are 10, 7 and 8, so there are 3.\n\n## Simplified explanation\n\nLook for marks bigger than 4. There are 10, 7 and 8, which makes 3 students.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The following data show the marks of students in a test:\n\n10, 4, 1, 4, 3, 3, 2, 1, 1, 7, 8\n\nFind the mean mark.",
+    "media": [],
+    "options": [
+      {
+        "text": "3",
+        "hint": "The total is 44 and there are 11 marks."
+      },
+      {
+        "text": "4",
+        "hint": "Correct. $44 \\div 11 = 4$."
+      },
+      {
+        "text": "7",
+        "hint": "The total is 44 and there are 11 marks."
+      },
+      {
+        "text": "8",
+        "hint": "The total is 44 and there are 11 marks."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Mean $=$ total of the marks $\\div$ number of marks.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Mean} = \\frac{10 + 4 + 1 + 4 + 3 + 3 + 2 + 1 + 1 + 7 + 8}{11} = \\frac{44}{11} = 4$$\n\n## Simplified explanation\n\nThe marks add up to 44. There are 11 students, and $44 \\div 11 = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry has a rhombus?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. Its two diagonals are its lines of symmetry."
+      },
+      {
+        "text": "3",
+        "hint": "A rhombus folds along only its two diagonals."
+      },
+      {
+        "text": "4",
+        "hint": "A square has 4, but a general rhombus has 2."
+      },
+      {
+        "text": "5",
+        "hint": "A rhombus folds along only its two diagonals."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Try folding along each diagonal.",
+    "explanation": "## Advanced explanation\n\nA rhombus has exactly 2 lines of symmetry, its diagonals. A square, as a special rhombus, has 4.\n\n## Simplified explanation\n\nFold a rhombus along either corner-to-corner line and the halves match. No other fold works.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In an enlargement, length $AB = 3$ cm and the length of its image $A_1B_1 = 15$ cm. Calculate the scale factor.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{5}$",
+        "hint": "This is object over image. Use image over object."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "Use image over object: $15 \\div 3$."
+      },
+      {
+        "text": "$5$",
+        "hint": "Correct. $15 \\div 3 = 5$."
+      },
+      {
+        "text": "$12$",
+        "hint": "This is $15 - 3$. A scale factor comes from dividing."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Scale factor $=$ image length $\\div$ object length.",
+    "explanation": "## Advanced explanation\n\n$$k = \\frac{|A_1B_1|}{|AB|} = \\frac{15}{3} = 5$$\n\n## Simplified explanation\n\nThe image is 5 times as long as the object, because $15 \\div 3 = 5$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the rule of the mapping:\n\n| $x$ | 0 | 3 | 6 | 9 | 12 |\n|---|---|---|---|---|---|\n| ↓ | ↓ | ↓ | ↓ | ↓ | ↓ |\n| $y$ | $-2$ | 4 | 10 | 16 | 22 |",
+    "media": [],
+    "options": [
+      {
+        "text": "$y \\to \\dfrac{x}{2} - 2$",
+        "hint": "This works for $x = 0$, but $x = 3$ gives $-\\frac{1}{2}$, not 4."
+      },
+      {
+        "text": "$y \\to x - 2$",
+        "hint": "This works for $x = 0$, but $x = 3$ gives 1, not 4."
+      },
+      {
+        "text": "$y \\to x^2 - 2$",
+        "hint": "This works for $x = 0$, but $x = 3$ gives 7, not 4."
+      },
+      {
+        "text": "$y \\to 2x - 2$",
+        "hint": "Correct. $2(3) - 2 = 4$, $2(6) - 2 = 10$, and so on."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "When $x$ goes up by 3, how much does $y$ go up?",
+    "explanation": "## Advanced explanation\n\n$y$ rises by 6 when $x$ rises by 3, so the gradient is 2. At $x = 0$, $y = -2$, so $y = 2x - 2$.\n\n## Simplified explanation\n\nWhen $x$ goes up by 3, $y$ goes up by 6, so multiply by 2. When $x$ is 0, $y$ is $-2$, so subtract 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve the inequality: $\\dfrac{1}{2}(3x - 1) + 1 \\le 7 + 2x$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\ge -14$",
+        "hint": "The numbers give $14 - 1 = 13$, not 14."
+      },
+      {
+        "text": "$x \\le -14$",
+        "hint": "The numbers give $14 - 1 = 13$, and $-13 \\le x$ means $x \\ge -13$."
+      },
+      {
+        "text": "$x \\ge -13$",
+        "hint": "Correct. $3x + 1 \\le 14 + 4x$ gives $-13 \\le x$."
+      },
+      {
+        "text": "$x \\le -13$",
+        "hint": "$-13 \\le x$ means $x$ is greater than or equal to $-13$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply every term by 2 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 3x - 1 + 2 &\\le 14 + 4x \\\\ 3x + 1 &\\le 14 + 4x \\\\ -13 &\\le x \\end{aligned}$$\n\n## Simplified explanation\n\nMultiply by 2 to get $3x + 1 \\le 14 + 4x$. Take $3x$ and 14 from both sides, which gives $-13 \\le x$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $4 - x = 3(4x + 5)$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{11}{13}$",
+        "hint": "Check the sign: $13x = 4 - 15 = -11$."
+      },
+      {
+        "text": "$1\\dfrac{6}{13}$",
+        "hint": "$13x = 4 - 15$, which gives $-11$, not 19."
+      },
+      {
+        "text": "$-1\\dfrac{6}{13}$",
+        "hint": "$13x = 4 - 15$, which gives $-11$, not $-19$."
+      },
+      {
+        "text": "$-\\dfrac{11}{13}$",
+        "hint": "Correct. $13x = -11$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Expand the bracket, then collect the $x$ terms.",
+    "explanation": "## Advanced explanation\n\n$$4 - x = 12x + 15 \\implies -11 = 13x \\implies x = -\\frac{11}{13}$$\n\n## Simplified explanation\n\nMultiply out to get $12x + 15$. Add $x$ and take away 15 from both sides, which gives $-11 = 13x$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In a class, there are 12 girls and 48 boys. Find the percentage of boys in the class.",
+    "media": [],
+    "options": [
+      {
+        "text": "20%",
+        "hint": "This is the percentage of girls."
+      },
+      {
+        "text": "40%",
+        "hint": "$\\frac{48}{60} \\times 100$ is 80, not 40."
+      },
+      {
+        "text": "60%",
+        "hint": "60 is the size of the class, not the percentage."
+      },
+      {
+        "text": "80%",
+        "hint": "Correct. $\\frac{48}{60} \\times 100 = 80$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the size of the whole class first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{48}{12 + 48} \\times 100\\% = 80\\%$$\n\n## Simplified explanation\n\nThere are 60 pupils, and 48 are boys. That is $\\frac{4}{5}$ of the class, or 80%.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The bearing of $P$ from $Q$ is $060^\\circ$. Find the bearing of $Q$ from $P$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$120^\\circ$",
+        "hint": "This is $2 \\times 60^\\circ$. Add $180^\\circ$ instead."
+      },
+      {
+        "text": "$150^\\circ$",
+        "hint": "This adds $90^\\circ$. Add $180^\\circ$ instead."
+      },
+      {
+        "text": "$210^\\circ$",
+        "hint": "This adds $150^\\circ$. Add $180^\\circ$ instead."
+      },
+      {
+        "text": "$240^\\circ$",
+        "hint": "Correct. $60^\\circ + 180^\\circ = 240^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "The return direction points exactly the opposite way.",
+    "explanation": "## Advanced explanation\n\nSince $60^\\circ < 180^\\circ$, the back bearing is $60^\\circ + 180^\\circ = 240^\\circ$.\n\n## Simplified explanation\n\nGoing back means facing the opposite way, which is half a turn. Add 180 to 60 to get 240.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Bearings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following statements best describes the construction below?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2018/2018secaq40.png",
+        "caption": "Line AB with a point P above it. An arc centred at P cuts AB, two small arcs cross below AB, and a line runs from P down through the crossing."
+      }
+    ],
+    "options": [
+      {
+        "text": "Construction of line $AB$ from $P$",
+        "hint": "Line $AB$ was already there. The construction starts from $P$."
+      },
+      {
+        "text": "Construction of a perpendicular from $P$ to meet line $AB$",
+        "hint": "Correct. The arcs give a line from $P$ at right angles to $AB$."
+      },
+      {
+        "text": "Construction of an arc of a circle with centre $P$.",
+        "hint": "The arc is only one step. The result is a perpendicular line."
+      },
+      {
+        "text": "Construction of the bisector of line $AB$.",
+        "hint": "A bisector needs arcs centred at $A$ and $B$. Here the first arc is centred at $P$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Where does the line start, and how does it meet $AB$?",
+    "explanation": "## Advanced explanation\n\nAn arc centred at $P$ cuts $AB$ at two points. Arcs from those two points cross below $AB$, and the line from $P$ through this crossing is perpendicular to $AB$.\n\n## Simplified explanation\n\nThe line starts at $P$ and meets $AB$ at a right angle, so it is a perpendicular from $P$ to $AB$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2018 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve the inequality $5x - 3 \\ge \\dfrac{15x - 11}{2}$ and represent the answer on a number line. In your answer, describe the dot and the arrow.",
+    "media": [],
+    "answer": "Multiply both sides by 2:\n\n$$\n\\begin{aligned}\n10x - 6 &\\ge 15x - 11 \\\\\n5 &\\ge 5x \\\\\n1 &\\ge x\n\\end{aligned}\n$$\n\nOn the number line, put a solid dot at 1 and draw an arrow to the left.\n\n> [!answer]\n> {{green:$x \\le 1$}}, with a {{green:solid dot at 1 and an arrow to the left}}",
+    "hint": "Multiply through by 2, then collect the $x$ terms where they stay positive.",
+    "explanation": "## Advanced explanation\n\nKeeping $x$ on the larger side avoids dividing by a negative number. A solid dot shows that 1 is included.\n\n## Simplified explanation\n\nMultiply by 2 to get $10x - 6 \\ge 15x - 11$. Move the terms to get $5 \\ge 5x$, so $x$ is 1 or less.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $t = \\begin{pmatrix} -1 \\\\ 3 \\end{pmatrix}$ and $k = \\begin{pmatrix} 2 \\\\ -4 \\end{pmatrix}$, find $2t + k$",
+    "media": [],
+    "answer": "$$2t + k = \\begin{pmatrix} -2 \\\\ 6 \\end{pmatrix} + \\begin{pmatrix} 2 \\\\ -4 \\end{pmatrix} = \\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}$$\n\n> [!answer]\n> {{green:$\\begin{pmatrix} 0 \\\\ 2 \\end{pmatrix}$}}",
+    "hint": "Double $t$ first, then add the matching entries.",
+    "explanation": "## Advanced explanation\n\nScalar multiplication applies to each entry, and addition is done entry by entry.\n\n## Simplified explanation\n\nDouble $t$ to get $-2$ and 6. Add $k$: $-2 + 2 = 0$ and $6 + (-4) = 2$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Vectors"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The sides of a triangle are in the ratio $6 : 8 : 10$. If the perimeter of the triangle is 288 cm, find the\n\n(i) longest side\n\n(ii) shortest side\n\n(iii) difference between the longest and shortest sides.",
+    "media": [],
+    "answer": "Total parts: $6 + 8 + 10 = 24$, so one part is $\\dfrac{288}{24} = 12$ cm.\n\n**(i)** $10 \\times 12 = 120$ cm\n\n**(ii)** $6 \\times 12 = 72$ cm\n\n**(iii)** $120 - 72 = 48$ cm\n\n> [!answer]\n> **(i)** {{green:120 cm}}  **(ii)** {{green:72 cm}}  **(iii)** {{green:48 cm}}",
+    "hint": "Add the ratio parts, and find the value of one part.",
+    "explanation": "## Advanced explanation\n\nThe sides are 72, 96 and 120 cm, which total 288. The ratio simplifies to $3 : 4 : 5$, so the triangle is right-angled.\n\n## Simplified explanation\n\nThere are 24 parts in the 288 cm, so each part is 12 cm. Multiply by 10 and by 6, then subtract.",
+    "difficulty": "easy",
+    "marks": 5,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An English textbook costs GH₵ 25.00. The author of the book agreed to take 20% of the cost of each book sold. If 1,702 copies were sold, calculate the author's share.",
+    "media": [],
+    "answer": "Share per book: $\\dfrac{20}{100} \\times 25 = 5$\n\nTotal share: $1702 \\times 5 = 8510$\n\n> [!answer]\n> {{green:GH₵ 8,510.00}}",
+    "hint": "Find the author's share of one book first.",
+    "explanation": "## Advanced explanation\n\nEquivalently, 20% of total sales: $0.2 \\times (1702 \\times 25) = 0.2 \\times 42550 = 8510$.\n\n## Simplified explanation\n\n20% of GH₵ 25 is GH₵ 5 per book. For 1,702 books, that is $1702 \\times 5 =$ GH₵ 8,510.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $\\left(\\dfrac{2}{15} + \\dfrac{2}{5}\\right) + \\left(\\dfrac{9}{10} \\times \\dfrac{4}{3}\\right) + \\left(\\dfrac{1}{5} \\div \\dfrac{1}{4}\\right)$",
+    "media": [],
+    "answer": "Work out each bracket:\n\n$$\\frac{2}{15} + \\frac{6}{15} = \\frac{8}{15}, \\qquad \\frac{9}{10} \\times \\frac{4}{3} = \\frac{6}{5}, \\qquad \\frac{1}{5} \\times 4 = \\frac{4}{5}$$\n\nThen add:\n\n$$\\frac{8}{15} + \\frac{6}{5} + \\frac{4}{5} = \\frac{8}{15} + 2 = 2\\frac{8}{15}$$\n\n> [!answer]\n> {{green:$2\\dfrac{8}{15}$}}",
+    "hint": "Work out each bracket separately, then add.",
+    "explanation": "## Advanced explanation\n\nNoticing that $\\frac{6}{5} + \\frac{4}{5} = 2$ avoids needing a common denominator of 15 for those two terms.\n\n## Simplified explanation\n\nThe brackets give $\\frac{8}{15}$, $\\frac{6}{5}$ and $\\frac{4}{5}$. The last two add up to 2, so the answer is $2\\frac{8}{15}$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $|MN| = 13$ cm, $|MP| = 15$ cm, $|MS| = 12$ cm and $\\overline{MS}$ is perpendicular to $\\overline{NP}$. Calculate length $NP$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2018/2018q2.png",
+        "caption": "Triangle MNP with S on NP and MS perpendicular to NP. MN is 13 cm, MP is 15 cm and MS is 12 cm. Not drawn to scale."
+      }
+    ],
+    "answer": "Use Pythagoras' theorem in each right-angled triangle:\n\n$$|NS| = \\sqrt{13^2 - 12^2} = \\sqrt{25} = 5 \\text{ cm}$$\n\n$$|SP| = \\sqrt{15^2 - 12^2} = \\sqrt{81} = 9 \\text{ cm}$$\n\n$$|NP| = 5 + 9 = 14 \\text{ cm}$$\n\n> [!answer]\n> {{green:14 cm}}",
+    "hint": "$MS$ splits the triangle into two right-angled triangles.",
+    "explanation": "## Advanced explanation\n\nThe sides 5, 12, 13 and 9, 12, 15 are Pythagorean triples, so both results are whole numbers.\n\n## Simplified explanation\n\nIn the left triangle, $169 - 144 = 25$, so $NS$ is 5. In the right triangle, $225 - 144 = 81$, so $SP$ is 9. Together they make 14.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $\\dfrac{0.084 \\times 0.81}{0.027 \\times 0.04}$, leaving your answer in standard form.",
+    "media": [],
+    "answer": "Multiply the top and bottom to remove the decimals, then cancel:\n\n$$\\frac{0.084 \\times 0.81}{0.027 \\times 0.04} = \\frac{84 \\times 81 \\times 10^{-5}}{27 \\times 4 \\times 10^{-5}} = \\frac{84 \\times 81}{27 \\times 4} = 21 \\times 3 = 63$$\n\n$$63 = 6.3 \\times 10^{1}$$\n\n> [!answer]\n> {{green:$6.3 \\times 10^{1}$}}",
+    "hint": "Pair up the numbers: $\\frac{0.084}{0.04}$ and $\\frac{0.81}{0.027}$.",
+    "explanation": "## Advanced explanation\n\nBoth top and bottom have 5 decimal places in total, so the powers of 10 cancel. $\\frac{84}{4} = 21$ and $\\frac{81}{27} = 3$.\n\n## Simplified explanation\n\n$0.084 \\div 0.04 = 2.1$ and $0.81 \\div 0.027 = 30$. Then $2.1 \\times 30 = 63$, which is $6.3 \\times 10$.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Make $r$ the subject of the relation $y = \\dfrac{x - r}{x + r}$\n\n(ii) From (i), find the value of $r$ when $y = 3$ and $x = 10$.",
+    "media": [],
+    "answer": "**(i)**\n\n$$\n\\begin{aligned}\ny(x + r) &= x - r \\\\\nxy + ry &= x - r \\\\\nry + r &= x - xy \\\\\nr(y + 1) &= x(1 - y) \\\\\nr &= \\frac{x(1 - y)}{y + 1}\n\\end{aligned}\n$$\n\n**(ii)**\n\n$$r = \\frac{10(1 - 3)}{3 + 1} = \\frac{-20}{4} = -5$$\n\n> [!answer]\n> **(i)** {{green:$r = \\dfrac{x(1 - y)}{1 + y}$}}  **(ii)** {{green:$r = -5$}}",
+    "hint": "Multiply both sides by $(x + r)$, then collect the $r$ terms on one side.",
+    "explanation": "## Advanced explanation\n\nCheck in the original: $\\frac{10 - (-5)}{10 + (-5)} = \\frac{15}{5} = 3 = y$.\n\n## Simplified explanation\n\nMultiply across to remove the fraction. Bring both $r$ terms together and take out $r$. Then divide by $(y + 1)$.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Juliet bought 1,756 kg of frozen chicken, 675 g of vegetables and 95 g of corn oil from a Shopping Mall. What is the total weight of the items she bought in kilograms?",
+    "media": [],
+    "answer": "Change the grams to kilograms (1 kg = 1,000 g):\n\n$675 \\text{ g} = 0.675$ kg and $95 \\text{ g} = 0.095$ kg\n\n$$1756 + 0.675 + 0.095 = 1756.77 \\text{ kg}$$\n\n> [!answer]\n> {{green:1,756.77 kg}}",
+    "hint": "Change all the weights to kilograms before adding.",
+    "explanation": "## Advanced explanation\n\nLine up the decimal points: $1756.000 + 0.675 + 0.095$.\n\n## Simplified explanation\n\nDivide the grams by 1,000: 675 g is 0.675 kg and 95 g is 0.095 kg. Together they make 0.77 kg, which you add to 1,756 kg.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The sum of the interior angles of a regular polygon is $900^\\circ$. Find the number of sides of the polygon.",
+    "media": [],
+    "answer": "Let the number of sides be $n$. The sum of the interior angles is $(n - 2) \\times 180^\\circ$:\n\n$$\n\\begin{aligned}\n(n - 2) \\times 180^\\circ &= 900^\\circ \\\\\nn - 2 &= 5 \\\\\nn &= 7\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:7 sides}}",
+    "hint": "Use the formula: sum of interior angles $= (n - 2) \\times 180^\\circ$.",
+    "explanation": "## Advanced explanation\n\nA polygon with $n$ sides can be split into $n - 2$ triangles from one vertex, and each contributes $180^\\circ$.\n\n## Simplified explanation\n\n$900 \\div 180 = 5$, so the polygon splits into 5 triangles. A polygon has 2 more sides than triangles, so it has 7 sides.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct:\n\n(i) triangle $XYZ$ such that the length $XY = 10$ cm, angle $XYZ = 30^\\circ$ and length $YZ = 9$ cm;\n\n(ii) perpendicular from $Z$ to meet line $XY$ at $P$;\n\n(iii) Measure the:\n\n$(\\alpha)$ length $PZ$\n\n$(\\beta)$ angle $XZY$.\n\n(iv) Calculate, correct to the nearest whole number, the area of triangle $XYZ$.\n\nIn your answer, give your two measurements and the area.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|XY| = 10$ cm.\n2. At $Y$, construct $60^\\circ$ with compasses and bisect it to get $30^\\circ$. Mark $Z$ on this line so that $|YZ| = 9$ cm, then join $X$ to $Z$.\n3. From $Z$, draw an arc cutting $XY$ at two points. From these points, draw two arcs that cross on the far side of $XY$. Join $Z$ to the crossing point, and mark $P$ on $XY$.\n\n**Measurements** (allow a small drawing error)\n\n$|PZ| \\approx 4.5$ cm and angle $XZY \\approx 86^\\circ$\n\n**Area**\n\n$$\\text{Area} = \\frac{1}{2} \\times 10 \\times 4.5 = 22.5 \\approx 23 \\text{ cm}^2$$\n\n> [!answer]\n> {{green:$|PZ| \\approx 4.5$ cm}}, {{green:angle $XZY \\approx 86^\\circ$}}, area {{green:$\\approx 23$ cm$^2$}}",
+    "hint": "Use $PZ$ as the height and $XY$ as the base of the triangle.",
+    "explanation": "## Advanced explanation\n\nThe values can be checked by calculation. $|PZ| = 9 \\sin 30^\\circ = 4.5$ cm. The cosine rule gives $|XZ| \\approx 5.01$ cm and angle $XZY \\approx 86^\\circ$. The area is exactly 22.5 cm$^2$.\n\n## Simplified explanation\n\nBuild the triangle, then drop a line from $Z$ to meet $XY$ at a right angle. That line is the height. The area is half of the base times the height.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Geometry",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A property worth GH₵ 10,480.00 is shared between a widow and her 10 children in the ratio $1 : 4$ respectively. The children shared their portion equally. Find each child's share.",
+    "media": [],
+    "answer": "Total parts: $1 + 4 = 5$\n\nChildren's portion: $\\dfrac{4}{5} \\times 10480 = 8384$\n\nEach child: $\\dfrac{8384}{10} = 838.40$\n\n> [!answer]\n> {{green:GH₵ 838.40}}",
+    "hint": "Find the children's portion first, then divide by 10.",
+    "explanation": "## Advanced explanation\n\nThe ratio $1 : 4$ compares the widow with all the children together, not with each child. The widow receives GH₵ 2,096.00.\n\n## Simplified explanation\n\nOne part of five is GH₵ 2,096. The children have 4 parts, which is GH₵ 8,384. Sharing that among 10 gives GH₵ 838.40.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The data shows the distribution of marks in a class test.\n\n27, 55, 19, 65, 69, 46, 38, 42, 14, 57, 11, 13, 14, 67, 22, 10, 25, 17, 45, 39, 61, 52, 43, 24, 28, 63, 56, 49, 64, 32\n\nUse the data to answer the following questions:\n\n(i) make the Stem and Leaf plot of the data;\n\n(ii) how many students scored more than 10 marks and less than 20 marks?\n\n(iii) what is the probability of a student scoring less than 20 marks?",
+    "media": [],
+    "answer": "**(i)**\n\n| Stem | Leaf |\n|---|---|\n| 1 | 0 1 3 4 4 7 9 |\n| 2 | 2 4 5 7 8 |\n| 3 | 2 8 9 |\n| 4 | 2 3 5 6 9 |\n| 5 | 2 5 6 7 |\n| 6 | 1 3 4 5 7 9 |\n\n**(ii)** 11, 13, 14, 14, 17 and 19 make 6 students. The mark of 10 is not more than 10.\n\n**(iii)** 7 of the 30 marks are below 20:\n\n$$P = \\frac{7}{30}$$\n\n> [!answer]\n> **(ii)** {{green:6 students}}  **(iii)** {{green:$\\dfrac{7}{30}$}}",
+    "hint": "The tens digit is the stem and the units digit is the leaf. Count all 30 marks.",
+    "explanation": "## Advanced explanation\n\nThe leaves add up to $7 + 5 + 3 + 5 + 4 + 6 = 30$, which matches the number of data values. Part (iii) includes 10, while part (ii) does not.\n\n## Simplified explanation\n\nPut each mark in the row for its tens digit, and sort each row. The row for stem 1 has 7 marks. Leave out 10 for (ii), but keep it for (iii).",
+    "difficulty": "medium",
+    "marks": 7,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Statistics",
+      "Probability"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "An aeroplane left the Kotoka International Airport on Wednesday at 7:26 pm and reached its destination after nine hours thirty minutes. Find the day and the time the aeroplane reached its destination.",
+    "media": [],
+    "answer": "Add the journey time:\n\n7:26 pm + 9 hours = 4:26 am the next day\n\n4:26 am + 30 minutes = 4:56 am\n\n> [!answer]\n> {{green:Thursday at 4:56 am}}",
+    "hint": "The journey goes past midnight, so the day changes.",
+    "explanation": "## Advanced explanation\n\nIn 24-hour time, $19{:}26 + 9{:}30 = 28{:}56$. Subtracting 24 hours gives $04{:}56$ on the following day.\n\n## Simplified explanation\n\nFrom 7:26 pm to midnight is 4 hours 34 minutes. That leaves 4 hours 56 minutes after midnight, on Thursday.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Time"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Using a scale of 2 cm to 2 units on both axes, draw two perpendicular axes $Ox$ and $Oy$ on a graph sheet for $-10 \\le x \\le 10$ and $-12 \\le y \\le 12$.\n\n(ii) Draw on this graph indicating the coordinates of all vertices, the quadrilateral $ABCD$ with vertices $A(0, 10)$, $B(-6, -2)$, $C(-3, -11)$ and $D(4, 3)$.\n\n(iii) Draw the line $x = -2$ to meet $AB$ at $P$ and $CD$ at $Q$.\n\n(iv) Measure angles $BPQ$ and $PQD$.\n\n(v) State the relationship between:\n\n$(\\alpha)$ angles $BPQ$ and $PQD$;\n\n$(\\beta)$ lines $AB$ and $CD$.\n\nIn your answer, give the coordinates of $P$ and $Q$, your measurements and the relationships.",
+    "media": [],
+    "answer": "Plot the vertices, join them in order, and draw the vertical line $x = -2$.\n\nLine $AB$ has gradient 2 and equation $y = 2x + 10$, so $P$ is $(-2, 6)$.\n\nLine $CD$ has gradient 2 and equation $y = 2x - 5$, so $Q$ is $(-2, -9)$.\n\n**(iv)** Each angle measures about $27^\\circ$.\n\n**(v)** The two angles are equal alternate angles, so the lines are parallel.\n\n> [!answer]\n> {{green:$P(-2, 6)$}} and {{green:$Q(-2, -9)$}}\n>\n> **(iv)** {{green:Both angles $\\approx 27^\\circ$}}\n>\n> **(v)** $(\\alpha)$ {{green:They are equal (alternate angles).}} $(\\beta)$ {{green:$AB$ is parallel to $CD$.}}",
+    "hint": "Read where the line $x = -2$ crosses $AB$ and $CD$. Then measure with a protractor.",
+    "explanation": "## Advanced explanation\n\nBoth lines have gradient $\\frac{12}{6} = \\frac{14}{7} = 2$, so they are parallel. The angle each makes with a vertical line is $\\tan^{-1}\\left(\\frac{1}{2}\\right) \\approx 26.6^\\circ$.\n\n## Simplified explanation\n\nPlot the four points and join them up. The upright line through $-2$ cuts $AB$ and $CD$. The two marked angles sit on opposite sides of it and come out the same, which shows that the lines are parallel.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2018 Paper",
+      "Section B",
+      "Graphs",
+      "Geometry"
+    ]
+  }
+]

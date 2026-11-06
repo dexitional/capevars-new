@@ -1,0 +1,1637 @@
+[
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{3}{4} - \\dfrac{1}{3} + \\dfrac{1}{12}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{3}$",
+        "hint": "In twelfths the sum is $9 - 4 + 1 = 6$, which is $\\frac{6}{12}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "Correct. $\\frac{9 - 4 + 1}{12} = \\frac{6}{12}$."
+      },
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "In twelfths the sum is $9 - 4 + 1 = 6$, which is $\\frac{6}{12}$."
+      },
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "In twelfths the sum is $9 - 4 + 1 = 6$, which is $\\frac{6}{12}$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Write every fraction with denominator 12.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{9}{12} - \\frac{4}{12} + \\frac{1}{12} = \\frac{6}{12} = \\frac{1}{2}$$\n\n## Simplified explanation\n\nChange to twelfths: 9, take away 4, add 1 makes 6 twelfths, which is one half.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $N = \\{x : x \\text{ is a factor of } 18\\}$ and $M = \\{x : x \\text{ is a multiple of } 12\\}$, find $N \\cap M$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{1, 2, 3, 6\\}$",
+        "hint": "These are factors of 18, but none is a multiple of 12."
+      },
+      {
+        "text": "$\\{1, 2, 3, 6, 12\\}$",
+        "hint": "12 is not a factor of 18, and the others are not multiples of 12."
+      },
+      {
+        "text": "$\\{2, 3, 6, 12, 18\\}$",
+        "hint": "18 is not a multiple of 12, and 12 is not a factor of 18."
+      },
+      {
+        "text": "$\\{\\ \\}$",
+        "hint": "Correct. No number is in both sets."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "List the factors of 18 and the first few multiples of 12.",
+    "explanation": "## Advanced explanation\n\n$N = \\{1, 2, 3, 6, 9, 18\\}$ and $M = \\{12, 24, 36, \\dots\\}$. These sets share no members, so $N \\cap M$ is the empty set.\n\n## Simplified explanation\n\nThe factors of 18 stop at 18, and the only multiple of 12 up to 18 is 12. But 12 is not a factor of 18, so no number is in both.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 4382.93 in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$438293 \\times 10^{4}$",
+        "hint": "The first number must be from 1 up to, but not including, 10."
+      },
+      {
+        "text": "$43.8293 \\times 10^{2}$",
+        "hint": "The first number must be from 1 up to, but not including, 10."
+      },
+      {
+        "text": "$4.38293 \\times 10^{4}$",
+        "hint": "This equals 43829.3. The point moves only 3 places."
+      },
+      {
+        "text": "$4.38293 \\times 10^{3}$",
+        "hint": "Correct. The point moves 3 places to the left."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Move the decimal point until you get a number between 1 and 10.",
+    "explanation": "## Advanced explanation\n\nStandard form is $a \\times 10^n$ with $1 \\le a < 10$. Here $a = 4.38293$ and $n = 3$.\n\n## Simplified explanation\n\nMove the point 3 places left to get 4.38293. So the power is 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What property of arithmetic is used in $a(x + y) = ax + ay$?",
+    "media": [],
+    "options": [
+      {
+        "text": "Associative",
+        "hint": "The associative property changes the grouping, as in $(a + b) + c = a + (b + c)$."
+      },
+      {
+        "text": "Commutative",
+        "hint": "The commutative property changes the order, as in $a + b = b + a$."
+      },
+      {
+        "text": "Distributive",
+        "hint": "Correct. Multiplication is spread over the addition."
+      },
+      {
+        "text": "Initiative",
+        "hint": "This is not a property of arithmetic."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "What happens to $a$ when the bracket is removed?",
+    "explanation": "## Advanced explanation\n\nThe distributive property states that $a(x + y) = ax + ay$: multiplication distributes over addition.\n\n## Simplified explanation\n\n$a$ multiplies each term in the bracket. Sharing out a multiplication like this is the distributive property.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Subtract $(7x - 3)$ from $(5 - 3x)$",
+    "media": [],
+    "options": [
+      {
+        "text": "$10x - 8$",
+        "hint": "This subtracts in the wrong order. Start with $(5 - 3x)$."
+      },
+      {
+        "text": "$4x - 8$",
+        "hint": "Start with $(5 - 3x)$, then take away $7x$ and add 3."
+      },
+      {
+        "text": "$8 - 10x$",
+        "hint": "Correct. $5 - 3x - 7x + 3 = 8 - 10x$."
+      },
+      {
+        "text": "$2 - 10x$",
+        "hint": "Subtracting $-3$ means adding 3, so the number part is $5 + 3$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "\"Subtract A from B\" means $B - A$.",
+    "explanation": "## Advanced explanation\n\n$$(5 - 3x) - (7x - 3) = 5 - 3x - 7x + 3 = 8 - 10x$$\n\n## Simplified explanation\n\nStart with $5 - 3x$. Take away $7x$ to get $-10x$. Taking away $-3$ adds 3, so the numbers make 8.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The cost of 12 note books is GH₵ 54.84. Find the cost of 1 notebook.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 5.57",
+        "hint": "$12 \\times 5.57 = 66.84$, not 54.84."
+      },
+      {
+        "text": "GH₵ 4.67",
+        "hint": "$12 \\times 4.67 = 56.04$, not 54.84."
+      },
+      {
+        "text": "GH₵ 4.57",
+        "hint": "Correct. $54.84 \\div 12 = 4.57$."
+      },
+      {
+        "text": "GH₵ 3.57",
+        "hint": "$12 \\times 3.57 = 42.84$, not 54.84."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide the total cost by 12.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{54.84}{12} = 4.57$$\n\n## Simplified explanation\n\nShare GH₵ 54.84 among 12 books: $54.84 \\div 12 = 4.57$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following inequalities is represented on the number line?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q7.png",
+        "caption": "Number line from −3 to 3 with an open dot at −2, a solid dot at 2, and a line joining them."
+      }
+    ],
+    "options": [
+      {
+        "text": "$-2 > y > 2$",
+        "hint": "No number can be below $-2$ and above 2 at once."
+      },
+      {
+        "text": "$-2 \\le y < 2$",
+        "hint": "The dots are the wrong way round: the open dot is at $-2$."
+      },
+      {
+        "text": "$-2 \\ge y > 2$",
+        "hint": "No number can be below $-2$ and above 2 at once."
+      },
+      {
+        "text": "$-2 < y \\le 2$",
+        "hint": "Correct. Open dot at $-2$, solid dot at 2."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "An open dot leaves the number out. A solid dot includes it.",
+    "explanation": "## Advanced explanation\n\nThe open circle at $-2$ gives $-2 < y$, and the solid circle at 2 gives $y \\le 2$. Together, $-2 < y \\le 2$.\n\n## Simplified explanation\n\n$y$ lies between $-2$ and 2. The empty dot means $-2$ is not included, and the filled dot means 2 is included.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $(2ab^2)^2 \\times 3a^3b$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$6a^4b^5$",
+        "hint": "The square applies to the 2 and to $a$ as well: $(2ab^2)^2 = 4a^2b^4$."
+      },
+      {
+        "text": "$12a^3b^4$",
+        "hint": "Add the powers when multiplying: $a^2 \\times a^3$ and $b^4 \\times b$."
+      },
+      {
+        "text": "$12a^6b^4$",
+        "hint": "Add the powers when multiplying: $a^2 \\times a^3 = a^5$."
+      },
+      {
+        "text": "$12a^5b^5$",
+        "hint": "Correct. $4a^2b^4 \\times 3a^3b$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Square everything in the bracket first.",
+    "explanation": "## Advanced explanation\n\n$$(2ab^2)^2 \\times 3a^3b = 4a^2b^4 \\times 3a^3b = 12a^5b^5$$\n\n## Simplified explanation\n\nSquaring the bracket gives $4a^2b^4$. Multiply the numbers to get 12, then add the powers: $a^{2 + 3}$ and $b^{4 + 1}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Indices",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following polygons does not have a line of symmetry?",
+    "media": [],
+    "options": [
+      {
+        "text": "Kite",
+        "hint": "A kite has one line of symmetry, along its long diagonal."
+      },
+      {
+        "text": "Isosceles triangle",
+        "hint": "An isosceles triangle has one line of symmetry, through its top vertex."
+      },
+      {
+        "text": "Trapezium",
+        "hint": "Correct. A general trapezium has no line of symmetry."
+      },
+      {
+        "text": "Rhombus",
+        "hint": "A rhombus has two lines of symmetry, along its diagonals."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Imagine folding each shape so that its two halves match.",
+    "explanation": "## Advanced explanation\n\nA kite has 1 line of symmetry, an isosceles triangle has 1, and a rhombus has 2. A general trapezium has none, though the special isosceles trapezium has one.\n\n## Simplified explanation\n\nYou can fold a kite, an isosceles triangle and a rhombus into matching halves. An ordinary trapezium does not fold that way.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A trader sold a radio set for GH₵ 72.00 making a profit of 8%. Find, correct to the nearest Ghana cedi, the cost of the radio set.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 66.00",
+        "hint": "This takes 8% off the selling price. The 8% is worked on the cost price."
+      },
+      {
+        "text": "GH₵ 67.00",
+        "hint": "Correct. $72 \\div 1.08 \\approx 66.67$."
+      },
+      {
+        "text": "GH₵ 77.00",
+        "hint": "With a profit, the cost must be less than GH₵ 72."
+      },
+      {
+        "text": "GH₵ 78.00",
+        "hint": "This adds 8% to the selling price, but the cost must be less than GH₵ 72."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "The selling price is 108% of the cost price.",
+    "explanation": "## Advanced explanation\n\n$$\\text{Cost} = \\frac{100}{108} \\times 72 \\approx 66.67 \\approx 67$$\n\n## Simplified explanation\n\nCost is 100%, and adding 8% makes 108%. So 108% is GH₵ 72. Then $72 \\div 1.08$ is about 66.67, which rounds to GH₵ 67.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Vera is 11 years old and her brother is 9 years old. They shared 60 oranges in the ratio of their ages. How many more oranges does Vera get?",
+    "media": [],
+    "options": [
+      {
+        "text": "$6$",
+        "hint": "Correct. Vera gets 33 and her brother gets 27."
+      },
+      {
+        "text": "$27$",
+        "hint": "This is her brother's share. Find the difference."
+      },
+      {
+        "text": "$34$",
+        "hint": "Vera gets 33, and the question asks for the difference."
+      },
+      {
+        "text": "$39$",
+        "hint": "Vera gets 33, and the question asks for the difference."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The ratio is $11 : 9$, which has 20 parts.",
+    "explanation": "## Advanced explanation\n\nEach part is $\\frac{60}{20} = 3$ oranges, and Vera has $11 - 9 = 2$ more parts, so she gets $2 \\times 3 = 6$ more.\n\n## Simplified explanation\n\nThere are 20 parts, so each part is 3 oranges. Vera gets 33 and her brother gets 27. The difference is 6.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $(x - 3)^2 = 16$, find the positive value of $x$",
+    "media": [],
+    "options": [
+      {
+        "text": "$1$",
+        "hint": "$(1 - 3)^2 = 4$, not 16."
+      },
+      {
+        "text": "$3$",
+        "hint": "$(3 - 3)^2 = 0$, not 16."
+      },
+      {
+        "text": "$4$",
+        "hint": "4 is the square root of 16, but $x - 3 = 4$."
+      },
+      {
+        "text": "$7$",
+        "hint": "Correct. $(7 - 3)^2 = 16$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Take the square root of both sides.",
+    "explanation": "## Advanced explanation\n\n$x - 3 = \\pm 4$, so $x = 7$ or $x = -1$. The positive value is 7.\n\n## Simplified explanation\n\nThe square root of 16 is 4, so $x - 3 = 4$. Add 3 to get $x = 7$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the image of the point $(-2, 3)$ under a reflection in the $y$-axis.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(2, -3)$",
+        "hint": "This changes both signs. Reflecting in the $y$-axis changes only $x$."
+      },
+      {
+        "text": "$(-3, 2)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(2, 3)$",
+        "hint": "Correct. $x$ changes sign and $y$ stays the same."
+      },
+      {
+        "text": "$(3, 2)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The $y$-axis acts as a mirror, so only the left-right position changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $y$-axis maps $(x, y) \\to (-x, y)$, so $(-2, 3) \\to (2, 3)$.\n\n## Simplified explanation\n\nThe point is 2 to the left of the $y$-axis. Its mirror image is 2 to the right, at the same height.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What fraction of 3 weeks is 18 days?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{1}{6}$",
+        "hint": "3 weeks is 21 days, so compare 18 with 21."
+      },
+      {
+        "text": "$\\dfrac{6}{7}$",
+        "hint": "Correct. $\\frac{18}{21} = \\frac{6}{7}$."
+      },
+      {
+        "text": "$\\dfrac{1}{7}$",
+        "hint": "This is the fraction left over: 3 days out of 21."
+      },
+      {
+        "text": "$\\dfrac{9}{11}$",
+        "hint": "3 weeks is 21 days, so compare 18 with 21."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Change the 3 weeks to days.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{18}{3 \\times 7} = \\frac{18}{21} = \\frac{6}{7}$$\n\n## Simplified explanation\n\n3 weeks is 21 days. So the fraction is 18 out of 21. Divide the top and bottom by 3.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the median of the following numbers: 4, 16, 13, 18, 3, 20, 6, 7, 15, 2, 10, 12?",
+    "media": [],
+    "options": [
+      {
+        "text": "$7$",
+        "hint": "Put the numbers in order first. The middle two are 10 and 12."
+      },
+      {
+        "text": "$10$",
+        "hint": "10 is the 6th number, but with 12 numbers the median uses the 6th and 7th."
+      },
+      {
+        "text": "$11$",
+        "hint": "Correct. $\\frac{10 + 12}{2} = 11$."
+      },
+      {
+        "text": "$12$",
+        "hint": "12 is the 7th number, but with 12 numbers the median uses the 6th and 7th."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Put the numbers in order. With 12 numbers, use the 6th and 7th.",
+    "explanation": "## Advanced explanation\n\nIn order: 2, 3, 4, 6, 7, 10, 12, 13, 15, 16, 18, 20. So the median is $\\frac{10 + 12}{2} = 11$.\n\n## Simplified explanation\n\nLine up the numbers from smallest to largest. The two in the middle are 10 and 12, and halfway between them is 11.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $\\dfrac{w}{3} = 3(w - 1) - 1$, find the value of $w$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{2}$",
+        "hint": "Correct. $w = 9w - 12$ gives $8w = 12$."
+      },
+      {
+        "text": "$\\dfrac{5}{4}$",
+        "hint": "This gives $\\frac{5}{12}$ on the left but $-\\frac{1}{4}$ on the right."
+      },
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This gives $\\frac{1}{5}$ on the left but a negative number on the right."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This gives $\\frac{1}{6}$ on the left but a negative number on the right."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Simplify the right side, then multiply both sides by 3.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} \\frac{w}{3} &= 3w - 4 \\\\ w &= 9w - 12 \\\\ 8w &= 12 \\\\ w &= \\frac{3}{2} \\end{aligned}$$\n\n## Simplified explanation\n\nThe right side is $3w - 4$. Multiply everything by 3 to get $w = 9w - 12$. So $8w = 12$, and $w = \\frac{3}{2}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram to find the value of $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q17.png",
+        "caption": "Isosceles triangle with two equal marked sides. The base angle on the right is 56°, the angle at the top is y, and x is the exterior angle at the left end of the base. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$68^\\circ$",
+        "hint": "This is the value of $y$, the angle at the top."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "The base angle is $56^\\circ$, and $x$ is next to it on a straight line."
+      },
+      {
+        "text": "$112^\\circ$",
+        "hint": "This is $2 \\times 56^\\circ$. Use the straight line instead."
+      },
+      {
+        "text": "$124^\\circ$",
+        "hint": "Correct. $180^\\circ - 56^\\circ = 124^\\circ$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Two sides are equal, so the two base angles are equal.",
+    "explanation": "## Advanced explanation\n\nThe triangle is isosceles, so both base angles are $56^\\circ$. Then $x$ and the left base angle lie on a straight line: $x = 180^\\circ - 56^\\circ = 124^\\circ$.\n\n## Simplified explanation\n\nEqual sides mean the left base angle is also $56^\\circ$. Next to it on the straight line is $x$, so $x = 180 - 56 = 124$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Use the diagram to find the value of $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q17.png",
+        "caption": "Isosceles triangle with two equal marked sides. The base angle on the right is 56°, the angle at the top is y, and x is the exterior angle at the left end of the base. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$68^\\circ$",
+        "hint": "Correct. $180^\\circ - 56^\\circ - 56^\\circ = 68^\\circ$."
+      },
+      {
+        "text": "$75^\\circ$",
+        "hint": "Both base angles are $56^\\circ$, and the angles add up to $180^\\circ$."
+      },
+      {
+        "text": "$112^\\circ$",
+        "hint": "This is the sum of the base angles. Subtract it from $180^\\circ$."
+      },
+      {
+        "text": "$124^\\circ$",
+        "hint": "This is the value of $x$, the exterior angle."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Two sides are equal, so the two base angles are equal.",
+    "explanation": "## Advanced explanation\n\nBoth base angles are $56^\\circ$, so\n\n$$y = 180^\\circ - 2(56^\\circ) = 68^\\circ$$\n\n## Simplified explanation\n\nThe two bottom angles are each 56, which makes 112. The three angles make 180, so $y = 180 - 112 = 68$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A car used 8 hours to travel from town A to town B at a speed of 18 km/h. Find the distance travelled.",
+    "media": [],
+    "options": [
+      {
+        "text": "22.5 km",
+        "hint": "Multiply the speed by the time. Do not divide."
+      },
+      {
+        "text": "135 km",
+        "hint": "This is only 7.5 hours of travel."
+      },
+      {
+        "text": "140 km",
+        "hint": "$18 \\times 8 = 144$."
+      },
+      {
+        "text": "144 km",
+        "hint": "Correct. $18 \\times 8 = 144$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Distance $=$ speed $\\times$ time.",
+    "explanation": "## Advanced explanation\n\n$$d = 18 \\times 8 = 144 \\text{ km}$$\n\n## Simplified explanation\n\nThe car goes 18 km each hour for 8 hours: $18 \\times 8 = 144$ km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the household budget of a family.\n\nFind the angle for insurance and taxes.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q20.png",
+        "caption": "Pie chart of a family budget: Food 22%, Rent 28%, Others 16%, Entertainment 5%, Savings 3%, Clothing 11%, and Insurance and Taxes with no percentage given. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$45^\\circ$",
+        "hint": "This would be 12.5%, but insurance and taxes are 15%."
+      },
+      {
+        "text": "$54^\\circ$",
+        "hint": "Correct. $15\\% \\times 360^\\circ = 54^\\circ$."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "This would be about 16.7%, but insurance and taxes are 15%."
+      },
+      {
+        "text": "$72^\\circ$",
+        "hint": "This would be 20%, but insurance and taxes are 15%."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "All the percentages add up to 100%.",
+    "explanation": "## Advanced explanation\n\nThe given sectors total $22 + 28 + 16 + 5 + 3 + 11 = 85\\%$, leaving 15%. So the angle is $\\frac{15}{100} \\times 360^\\circ = 54^\\circ$.\n\n## Simplified explanation\n\nThe other parts make 85%, so insurance and taxes are 15%. A full circle is 360°, and 15% of 360 is 54.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The pie chart shows the household budget of a family.\n\nIf the family's income was GH₵ 40,000.00, how much was spent on clothing?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q20.png",
+        "caption": "Pie chart of a family budget: Food 22%, Rent 28%, Others 16%, Entertainment 5%, Savings 3%, Clothing 11%, and Insurance and Taxes with no percentage given. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "GH₵ 1,600.00",
+        "hint": "This is 4% of the income. Clothing is 11%."
+      },
+      {
+        "text": "GH₵ 2,000.00",
+        "hint": "This is 5%, the share for entertainment. Clothing is 11%."
+      },
+      {
+        "text": "GH₵ 3,200.00",
+        "hint": "This is 8% of the income. Clothing is 11%."
+      },
+      {
+        "text": "GH₵ 4,400.00",
+        "hint": "Correct. 11% of 40,000 is 4,400."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Read the percentage for clothing from the chart.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{11}{100} \\times 40000 = 4400$$\n\n## Simplified explanation\n\n1% of GH₵ 40,000 is GH₵ 400. Clothing is 11%, so $11 \\times 400 =$ GH₵ 4,400.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Statistics",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two sides of a parallelogram are 5.8 m and 8.2 m long. Find its perimeter",
+    "media": [],
+    "options": [
+      {
+        "text": "11.0 m",
+        "hint": "Add all four sides: two of each length."
+      },
+      {
+        "text": "36.6 m",
+        "hint": "$2(5.8 + 8.2) = 28$."
+      },
+      {
+        "text": "28.0 m",
+        "hint": "Correct. $2(5.8 + 8.2) = 28$."
+      },
+      {
+        "text": "47.6 m",
+        "hint": "This is about $5.8 \\times 8.2$. A perimeter adds the sides."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Opposite sides of a parallelogram are equal.",
+    "explanation": "## Advanced explanation\n\n$$P = 2(5.8 + 8.2) = 2(14) = 28 \\text{ m}$$\n\n## Simplified explanation\n\nThere are two sides of each length. One of each makes 14 m, and doubling gives 28 m.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man earned an interest of GH₵ 240.00 in 4 years at 20% per annum simple interest. Calculate the principal.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 300.00",
+        "hint": "Correct. $\\frac{100 \\times 240}{20 \\times 4} = 300$."
+      },
+      {
+        "text": "GH₵ 450.00",
+        "hint": "Interest on this would be GH₵ 360.00."
+      },
+      {
+        "text": "GH₵ 480.00",
+        "hint": "Interest on this would be GH₵ 384.00."
+      },
+      {
+        "text": "GH₵ 1,200.00",
+        "hint": "This ignores the 4 years. Interest on it would be GH₵ 960.00."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Use $P = \\dfrac{100 I}{R T}$.",
+    "explanation": "## Advanced explanation\n\n$$P = \\frac{100 \\times 240}{20 \\times 4} = 300$$\n\n## Simplified explanation\n\nEach year's interest is GH₵ $240 \\div 4 = 60$. That is 20% of the principal, so the principal is $60 \\times 5 =$ GH₵ 300.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A labourer worked for $20\\dfrac{1}{2}$ hours. If he was paid GH₵ 2.50 per hour, what was his total wage?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 51.00",
+        "hint": "$20.5 \\times 2.50 = 51.25$."
+      },
+      {
+        "text": "GH₵ 51.25",
+        "hint": "Correct. $20.5 \\times 2.50 = 51.25$."
+      },
+      {
+        "text": "GH₵ 512.00",
+        "hint": "Check the decimal point: the wage is near $20 \\times 2.50 = 50$."
+      },
+      {
+        "text": "GH₵ 512.25",
+        "hint": "Check the decimal point: the wage is near $20 \\times 2.50 = 50$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Wage $=$ hours $\\times$ rate.",
+    "explanation": "## Advanced explanation\n\n$$20\\frac{1}{2} \\times 2.50 = 51.25$$\n\n## Simplified explanation\n\n20 hours earn GH₵ 50. Half an hour earns GH₵ 1.25. Together that is GH₵ 51.25.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If 480 pupils in a school are boys representing 80% of the school's enrolment, find the total number of pupils in the school.",
+    "media": [],
+    "options": [
+      {
+        "text": "$384$",
+        "hint": "This is 80% of 480. But 480 is already 80% of the total."
+      },
+      {
+        "text": "$540$",
+        "hint": "80% of 540 is 432, not 480."
+      },
+      {
+        "text": "$600$",
+        "hint": "Correct. 80% of 600 is 480."
+      },
+      {
+        "text": "$864$",
+        "hint": "80% of 864 is about 691, not 480."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "480 is 80% of the total. What is 100%?",
+    "explanation": "## Advanced explanation\n\n$$\\text{Total} = \\frac{100}{80} \\times 480 = 600$$\n\n## Simplified explanation\n\n80% is 480 pupils, so 10% is 60 pupils. Then 100% is 600 pupils.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the rule for the mapping?",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q26.png",
+        "caption": "Mapping diagram: x values 1, 2, 3, 4 map to y values 2, 5, 10, 17."
+      }
+    ],
+    "options": [
+      {
+        "text": "$x \\to 3x^2 - 1$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 11, not 5."
+      },
+      {
+        "text": "$x \\to 5x^2 - 3$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 17, not 5."
+      },
+      {
+        "text": "$x \\to x^2 + 1$",
+        "hint": "Correct. 2, 5, 10 and 17 are each one more than a square."
+      },
+      {
+        "text": "$x \\to 4x - 2$",
+        "hint": "This works for $x = 1$, but $x = 2$ gives 6, not 5."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Test each rule on more than one pair of values.",
+    "explanation": "## Advanced explanation\n\n$1^2 + 1 = 2$, $2^2 + 1 = 5$, $3^2 + 1 = 10$ and $4^2 + 1 = 17$, so the rule is $x \\to x^2 + 1$.\n\n## Simplified explanation\n\nEach bottom number is one more than the top number squared: $1 + 1$, $4 + 1$, $9 + 1$ and $16 + 1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Mappings"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $t$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q27.png",
+        "caption": "Right-angled triangle MNO with the right angle at N. MN is 5 cm, MO is 13 cm and NO is t cm. Not drawn to scale."
+      }
+    ],
+    "options": [
+      {
+        "text": "$12$",
+        "hint": "Correct. $\\sqrt{13^2 - 5^2} = 12$."
+      },
+      {
+        "text": "$8$",
+        "hint": "This is $13 - 5$. Use Pythagoras' theorem."
+      },
+      {
+        "text": "$4$",
+        "hint": "$5^2 + 4^2 = 41$, but $13^2 = 169$."
+      },
+      {
+        "text": "$3$",
+        "hint": "$5^2 + 3^2 = 34$, but $13^2 = 169$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The triangle has a right angle, so use Pythagoras' theorem.",
+    "explanation": "## Advanced explanation\n\n$$t^2 = 13^2 - 5^2 = 169 - 25 = 144 \\implies t = 12$$\n\n## Simplified explanation\n\nThe longest side is 13. Take the squares: $169 - 25 = 144$. The square root of 144 is 12.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Add the following numbers: 2.4, 0.042, 1.12 and 0.342.",
+    "media": [],
+    "options": [
+      {
+        "text": "3.184",
+        "hint": "Line up the decimal points and add again."
+      },
+      {
+        "text": "3.904",
+        "hint": "Correct. $2.4 + 0.042 + 1.12 + 0.342 = 3.904$."
+      },
+      {
+        "text": "4.282",
+        "hint": "Line up the decimal points and add again."
+      },
+      {
+        "text": "6.200",
+        "hint": "Line up the decimal points and add again."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Line up the decimal points before adding.",
+    "explanation": "## Advanced explanation\n\n$$2.400 + 0.042 + 1.120 + 0.342 = 3.904$$\n\n## Simplified explanation\n\nWrite them as 2.400, 0.042, 1.120 and 0.342, with the points in a column. Then add.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $4^x = 32$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2\\dfrac{1}{2}$",
+        "hint": "Correct. $2^{2x} = 2^5$, so $2x = 5$."
+      },
+      {
+        "text": "$3\\dfrac{1}{2}$",
+        "hint": "$4^{3.5} = 128$, not 32."
+      },
+      {
+        "text": "$5$",
+        "hint": "This is the power of 2. Here the base is 4, so $2x = 5$."
+      },
+      {
+        "text": "$7$",
+        "hint": "$4^7$ is far more than 32."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write 4 and 32 as powers of 2.",
+    "explanation": "## Advanced explanation\n\n$$(2^2)^x = 2^5 \\implies 2x = 5 \\implies x = 2\\frac{1}{2}$$\n\n## Simplified explanation\n\n$4 = 2^2$ and $32 = 2^5$. So $2x$ must equal 5, which gives $x = 2\\frac{1}{2}$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the equation of the straight line passing through the points $(-3, 5)$ and $(6, 8)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$y = \\dfrac{1}{3}x$",
+        "hint": "At $x = 6$ this gives 2, not 8."
+      },
+      {
+        "text": "$y = \\dfrac{1}{3}x + 6$",
+        "hint": "Correct. Both points fit."
+      },
+      {
+        "text": "$y = \\dfrac{1}{3}x - 10$",
+        "hint": "At $x = 6$ this gives $-8$, not 8."
+      },
+      {
+        "text": "$y = \\dfrac{1}{3}x + 14$",
+        "hint": "At $x = 6$ this gives 16, not 8."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find the gradient, then substitute one point to find $c$.",
+    "explanation": "## Advanced explanation\n\n$m = \\frac{8 - 5}{6 + 3} = \\frac{1}{3}$. Using $(6, 8)$: $8 = 2 + c$, so $c = 6$. The line is $y = \\frac{1}{3}x + 6$.\n\n## Simplified explanation\n\nThe gradient is $3 \\div 9 = \\frac{1}{3}$. At $x = 6$, $\\frac{1}{3}x$ is 2, but $y$ is 8, so add 6.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "There are 15 females in a debating club. If the ratio of females to males is 3:2, how many members are in the club?",
+    "media": [],
+    "options": [
+      {
+        "text": "$6$",
+        "hint": "15 females are 3 parts, so each part is 5 people."
+      },
+      {
+        "text": "$10$",
+        "hint": "This is the number of males. The question asks for all members."
+      },
+      {
+        "text": "$22$",
+        "hint": "Each part is 5 people, and there are 5 parts."
+      },
+      {
+        "text": "$25$",
+        "hint": "Correct. $5 \\times 5 = 25$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the value of one ratio part from the females.",
+    "explanation": "## Advanced explanation\n\n$\\frac{15}{3} = 5$ per part, and the club has $3 + 2 = 5$ parts, so there are 25 members.\n\n## Simplified explanation\n\n3 parts are 15 people, so 1 part is 5. There are 5 parts altogether, which makes 25 members.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P'(4, -5)$ is the image of $P(x, y)$ translated by $r = \\begin{pmatrix} -2 \\\\ 3 \\end{pmatrix}$, find the values of $x$ and $y$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "This has both signs reversed. Use object $=$ image $-$ vector."
+      },
+      {
+        "text": "$\\begin{pmatrix} -6 \\\\ -8 \\end{pmatrix}$",
+        "hint": "Check the top entry: $4 - (-2) = 6$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$",
+        "hint": "Correct. $4 + 2 = 6$ and $-5 - 3 = -8$."
+      },
+      {
+        "text": "$\\begin{pmatrix} 6 \\\\ 8 \\end{pmatrix}$",
+        "hint": "Check the bottom entry: $-5 - 3 = -8$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Object $+$ vector $=$ image, so object $=$ image $-$ vector.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{pmatrix} x \\\\ y \\end{pmatrix} = \\begin{pmatrix} 4 - (-2) \\\\ -5 - 3 \\end{pmatrix} = \\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$$\n\n## Simplified explanation\n\nUndo the move. The vector took 2 away from $x$, so add 2 to 4. It added 3 to $y$, so take 3 from $-5$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $2y = 1 - 3x^2 + 4x$, find $y$ when $x = -1$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$-3$",
+        "hint": "Correct. $2y = 1 - 3 - 4 = -6$."
+      },
+      {
+        "text": "$-\\dfrac{1}{2}$",
+        "hint": "$2y = 1 - 3(1) + 4(-1) = -6$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "$2y = 1 - 3(1) + 4(-1) = -6$."
+      },
+      {
+        "text": "$3$",
+        "hint": "Check the sign: $2y = -6$, so $y$ is negative."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$(-1)^2 = 1$, and $4 \\times (-1) = -4$.",
+    "explanation": "## Advanced explanation\n\n$$2y = 1 - 3(-1)^2 + 4(-1) = 1 - 3 - 4 = -6 \\implies y = -3$$\n\n## Simplified explanation\n\nPut in $-1$: the square is 1, so $-3x^2$ is $-3$, and $4x$ is $-4$. Then $1 - 3 - 4 = -6$, and half of that is $-3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $P = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\\}$, what is the probability of selecting a prime number from the set?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{2}{3}$",
+        "hint": "This counts 8 numbers, but there are 5 primes."
+      },
+      {
+        "text": "$\\dfrac{7}{12}$",
+        "hint": "This is the probability of a number that is not prime."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This counts 1 as prime, but 1 is not prime."
+      },
+      {
+        "text": "$\\dfrac{5}{12}$",
+        "hint": "Correct. The primes are 2, 3, 5, 7 and 11."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "List the primes in the set. Remember that 1 is not prime.",
+    "explanation": "## Advanced explanation\n\nThe primes are $\\{2, 3, 5, 7, 11\\}$, so $P = \\frac{5}{12}$.\n\n## Simplified explanation\n\n2, 3, 5, 7 and 11 are the primes, which makes 5 out of 12 numbers.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $3 - (3x + 4) \\le -4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\le 1$",
+        "hint": "Dividing by $-3$ reverses the inequality sign."
+      },
+      {
+        "text": "$x \\ge 1$",
+        "hint": "Correct. $-3x \\le -3$, so $x \\ge 1$."
+      },
+      {
+        "text": "$x \\ge 1\\dfrac{2}{3}$",
+        "hint": "Open the bracket again: $3 - 3x - 4 = -3x - 1$."
+      },
+      {
+        "text": "$x < 1\\dfrac{1}{2}$",
+        "hint": "Open the bracket again, and keep the $\\ge$ sign."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Open the bracket first. Dividing by a negative number reverses the inequality.",
+    "explanation": "## Advanced explanation\n\n$$\\begin{aligned} 3 - 3x - 4 &\\le -4 \\\\ -3x - 1 &\\le -4 \\\\ -3x &\\le -3 \\\\ x &\\ge 1 \\end{aligned}$$\n\n## Simplified explanation\n\nThe bracket gives $-3x - 1 \\le -4$. Add 1 to get $-3x \\le -3$. Dividing by $-3$ flips the sign, so $x \\ge 1$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Two sides of a rectangle are 10 cm and 6 cm. Calculate the area of a square with the same perimeter as that of the rectangle.",
+    "media": [],
+    "options": [
+      {
+        "text": "16 cm$^2$",
+        "hint": "16 is half of the perimeter. Find the square's side first."
+      },
+      {
+        "text": "30 cm$^2$",
+        "hint": "The square's side is 8 cm, so its area is $8 \\times 8$."
+      },
+      {
+        "text": "60 cm$^2$",
+        "hint": "This is the area of the rectangle, not the square."
+      },
+      {
+        "text": "64 cm$^2$",
+        "hint": "Correct. The side is 8 cm, and $8^2 = 64$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the perimeter first, then divide by 4.",
+    "explanation": "## Advanced explanation\n\nPerimeter $= 2(10 + 6) = 32$ cm, so the square has side $\\frac{32}{4} = 8$ cm and area $8^2 = 64$ cm$^2$.\n\n## Simplified explanation\n\nThe rectangle's edge is 32 cm long. A square shares that into 4 equal sides of 8 cm. Its area is $8 \\times 8 = 64$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Make $n$ the subject of the relation $y = \\dfrac{n - x}{x}$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$n = x(y + 1)$",
+        "hint": "Correct. $xy = n - x$, so $n = xy + x$."
+      },
+      {
+        "text": "$n = y(x + 1)$",
+        "hint": "$n = xy + x$, so the common factor is $x$, not $y$."
+      },
+      {
+        "text": "$n = \\dfrac{x}{y - 1}$",
+        "hint": "Multiply by $x$ first, so that no fraction remains."
+      },
+      {
+        "text": "$n = \\dfrac{x}{y + 1}$",
+        "hint": "Multiply by $x$ first, so that no fraction remains."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Multiply both sides by $x$ first.",
+    "explanation": "## Advanced explanation\n\n$$xy = n - x \\implies n = xy + x = x(y + 1)$$\n\n## Simplified explanation\n\nMultiply by $x$ to get $xy = n - x$. Add $x$ to both sides to get $n = xy + x$. Then take out $x$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Expand and simplify: $(a - 2)(2a + 3)$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$a^2 - a + 6$",
+        "hint": "$a \\times 2a = 2a^2$, and $-2 \\times 3 = -6$."
+      },
+      {
+        "text": "$2a^2 + 7a - 6$",
+        "hint": "The middle terms are $+3a$ and $-4a$, which give $-a$."
+      },
+      {
+        "text": "$2a^2 - a - 6$",
+        "hint": "Correct. $2a^2 + 3a - 4a - 6$."
+      },
+      {
+        "text": "$2a^2 - 12a + 6$",
+        "hint": "The middle terms are $+3a$ and $-4a$, and the last term is $-6$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply each term in the first bracket by each term in the second.",
+    "explanation": "## Advanced explanation\n\n$$(a - 2)(2a + 3) = 2a^2 + 3a - 4a - 6 = 2a^2 - a - 6$$\n\n## Simplified explanation\n\n$a \\times 2a = 2a^2$, $a \\times 3 = 3a$, $-2 \\times 2a = -4a$ and $-2 \\times 3 = -6$. Then $3a - 4a = -a$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify $2^2 \\times 2^7 \\div 2^4$",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^{-1}$",
+        "hint": "Add the powers when multiplying: $2 + 7 - 4$."
+      },
+      {
+        "text": "$2^{5}$",
+        "hint": "Correct. $2 + 7 - 4 = 5$."
+      },
+      {
+        "text": "$2^{11}$",
+        "hint": "Subtract the 4 because it is a division: $2 + 7 - 4$."
+      },
+      {
+        "text": "$2^{13}$",
+        "hint": "This adds all the powers. The 4 is subtracted."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add powers when multiplying and subtract powers when dividing.",
+    "explanation": "## Advanced explanation\n\n$$2^{2 + 7 - 4} = 2^5$$\n\n## Simplified explanation\n\nAdd 2 and 7 to get 9, then take away 4 to get 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $P = \\{7, 11, 13\\}$ and $Q = \\{9, 11, 13\\}$, find $P \\cup Q$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\{7, 9, 11, 13\\}$",
+        "hint": "Correct. All the members of both sets, each listed once."
+      },
+      {
+        "text": "$\\{7, 9\\}$",
+        "hint": "These are in only one set each. The union includes 11 and 13 as well."
+      },
+      {
+        "text": "$\\{11, 13\\}$",
+        "hint": "This is $P \\cap Q$, the members in both sets."
+      },
+      {
+        "text": "$\\{9, 13\\}$",
+        "hint": "The union includes every member of both sets."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "$\\cup$ joins all the members of both sets.",
+    "explanation": "## Advanced explanation\n\n$P \\cup Q$ contains every member of $P$ or $Q$: $\\{7, 9, 11, 13\\}$.\n\n## Simplified explanation\n\nPut the two lists together and write each number only once: 7, 9, 11, 13.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2020 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $M =$ {Prime integers between 1 and 11} and $N =$ {factors of 12}, find:\n\n(i) $M \\cup N$\n\n(ii) $M \\cap N$",
+    "media": [],
+    "answer": "$M = \\{2, 3, 5, 7\\}$ and $N = \\{1, 2, 3, 4, 6, 12\\}$\n\n**(i)** Join all the members, listing each once.\n\n**(ii)** The members in both sets are 2 and 3.\n\n> [!answer]\n> **(i)** {{green:$\\{1, 2, 3, 4, 5, 6, 7, 12\\}$}}  **(ii)** {{green:$\\{2, 3\\}$}}",
+    "hint": "List both sets first. \"Between 1 and 11\" does not include 1 or 11.",
+    "explanation": "## Advanced explanation\n\n$\\cup$ keeps every member of either set, and $\\cap$ keeps only the shared members. Note that $n(M \\cup N) = 4 + 6 - 2 = 8$.\n\n## Simplified explanation\n\nWrite out the primes and the factors of 12. Put the lists together for (i). Pick out the numbers on both lists for (ii).",
+    "difficulty": "easy",
+    "marks": 4,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify $45 \\div 3 + 2 \\times 8 - 12 + 42$",
+    "media": [],
+    "answer": "Divide and multiply first:\n\n$$15 + 16 - 12 + 42 = 61$$\n\n> [!answer]\n> {{green:61}}",
+    "hint": "Do the division and multiplication before the addition and subtraction.",
+    "explanation": "## Advanced explanation\n\nBy BODMAS, $45 \\div 3 = 15$ and $2 \\times 8 = 16$ come first. Addition and subtraction are then done from left to right.\n\n## Simplified explanation\n\n$45 \\div 3 = 15$ and $2 \\times 8 = 16$. Then $15 + 16 = 31$, $31 - 12 = 19$ and $19 + 42 = 61$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $x$, $y$ and $z$ are angles on a straight line. If $x^\\circ : z^\\circ = 2 : 3$, and $y = 80^\\circ$, find $x$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q1.png",
+        "caption": "Three angles x, y and z on a straight line. Not drawn to scale."
+      }
+    ],
+    "answer": "Angles on a straight line add up to $180^\\circ$:\n\n$$x + z = 180^\\circ - 80^\\circ = 100^\\circ$$\n\nThe ratio has $2 + 3 = 5$ parts:\n\n$$x = \\frac{2}{5} \\times 100^\\circ = 40^\\circ$$\n\n> [!answer]\n> {{green:$x = 40^\\circ$}}",
+    "hint": "Find $x + z$ first, then share it in the ratio.",
+    "explanation": "## Advanced explanation\n\nLet $x = 2k$ and $z = 3k$. Then $5k + 80 = 180$, so $k = 20$, which gives $x = 40^\\circ$ and $z = 60^\\circ$.\n\n## Simplified explanation\n\nThe two outer angles make $180 - 80 = 100$. Share 100 into 5 parts of 20. $x$ has 2 parts, which is 40.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Geometry",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Simplify: $5(6 - ab) + 2(-7 + 3ab)$",
+    "media": [],
+    "answer": "$$30 - 5ab - 14 + 6ab = 16 + ab$$\n\n> [!answer]\n> {{green:$16 + ab$}}",
+    "hint": "Expand both brackets, then collect like terms.",
+    "explanation": "## Advanced explanation\n\n$ab$ is one term, so $-5ab + 6ab = ab$, and the constants give $30 - 14 = 16$.\n\n## Simplified explanation\n\nMultiply out to get $30 - 5ab$ and $-14 + 6ab$. The numbers make 16 and the $ab$ terms make $ab$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The equation of a straight line is given by $3x - 2y - 6 = 0$. Find the:\n\n(i) gradient of the line;\n\n(ii) $y$-intercept.",
+    "media": [],
+    "answer": "Rearrange into the form $y = mx + c$:\n\n$$2y = 3x - 6 \\implies y = \\frac{3}{2}x - 3$$\n\n> [!answer]\n> **(i)** {{green:$\\dfrac{3}{2}$}}  **(ii)** {{green:$-3$}}",
+    "hint": "Make $y$ the subject, then compare with $y = mx + c$.",
+    "explanation": "## Advanced explanation\n\nIn $y = mx + c$, $m$ is the gradient and $c$ is the $y$-intercept. At $x = 0$, $-2y - 6 = 0$ gives $y = -3$, which agrees.\n\n## Simplified explanation\n\nMove things across to get $2y = 3x - 6$, then halve everything. The number in front of $x$ is the gradient, and the number on its own is the intercept.",
+    "difficulty": "medium",
+    "marks": 4,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Coordinate Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Adwoa received a commission of 20% on bread she sold. In one week, Adwoa's commission was GH₵ 540.00.\n\n(i) How much bread did she sell during that week?\n\n(ii) Find her average daily commission.",
+    "media": [],
+    "answer": "**(i)** 20% of her sales is GH₵ 540:\n\n$$\\text{Sales} = \\frac{100}{20} \\times 540 = 2700$$\n\n**(ii)** A week has 7 days:\n\n$$\\frac{540}{7} \\approx 77.14$$\n\n> [!answer]\n> **(i)** {{green:GH₵ 2,700.00 worth of bread}}  **(ii)** {{green:about GH₵ 77.14}}",
+    "hint": "GH₵ 540 is 20% of her sales. What is 100%?",
+    "explanation": "## Advanced explanation\n\nCommission $=$ rate $\\times$ sales, so sales $= \\frac{540}{0.2}$. The average assumes she earned commission across all 7 days of the week.\n\n## Simplified explanation\n\n20% is GH₵ 540, so 100% is $5 \\times 540 =$ GH₵ 2,700. Share GH₵ 540 across 7 days to get about GH₵ 77.14 a day.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Express $\\left(\\dfrac{13}{15} - \\dfrac{7}{10}\\right)$ as a percentage.",
+    "media": [],
+    "answer": "$$\\frac{26 - 21}{30} = \\frac{5}{30} = \\frac{1}{6}$$\n\n$$\\frac{1}{6} \\times 100\\% = 16\\frac{2}{3}\\%$$\n\n> [!answer]\n> {{green:$16\\dfrac{2}{3}$% (about 16.67%)}}",
+    "hint": "Work out the subtraction first, using denominator 30.",
+    "explanation": "## Advanced explanation\n\nThe LCM of 15 and 10 is 30. A fraction becomes a percentage on multiplying by 100%.\n\n## Simplified explanation\n\nIn thirtieths, the sum is $26 - 21 = 5$, which is $\\frac{1}{6}$. One-sixth of 100 is $16\\frac{2}{3}$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Fractions",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Factorize: $ay - y - a + 1$.",
+    "media": [],
+    "answer": "$$ay - y - a + 1 = y(a - 1) - 1(a - 1) = (y - 1)(a - 1)$$\n\n> [!answer]\n> {{green:$(y - 1)(a - 1)$}}",
+    "hint": "Group the first two terms and the last two terms.",
+    "explanation": "## Advanced explanation\n\nEach pair has the common factor $(a - 1)$. Expanding $(y - 1)(a - 1)$ returns the original expression.\n\n## Simplified explanation\n\nTake $y$ out of the first pair and $-1$ out of the second. Both leave $(a - 1)$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a fishing community of 9,400 people, the number of women exceeds the number of men by 1,500. Find the ratio of men to women in the community.",
+    "media": [],
+    "answer": "Let the number of men be $m$, so the women number $m + 1500$.\n\n$$\n\\begin{aligned}\nm + m + 1500 &= 9400 \\\\\n2m &= 7900 \\\\\nm &= 3950\n\\end{aligned}\n$$\n\nWomen: $3950 + 1500 = 5450$\n\nRatio: $3950 : 5450 = 79 : 109$\n\n> [!answer]\n> {{green:$79 : 109$}}",
+    "hint": "Write the number of women using the number of men.",
+    "explanation": "## Advanced explanation\n\nDivide both terms by their HCF, 50, to reach the lowest terms. As a check, $3950 + 5450 = 9400$.\n\n## Simplified explanation\n\nTake away the extra 1,500 to get 7,900, and halve it: there are 3,950 men and 5,450 women. Divide both by 50.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Ratio & Proportion",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Solve: $\\dfrac{2x + 3}{3} + 2x = 10$",
+    "media": [],
+    "answer": "Multiply every term by 3:\n\n$$\n\\begin{aligned}\n2x + 3 + 6x &= 30 \\\\\n8x &= 27 \\\\\nx &= \\frac{27}{8} = 3\\frac{3}{8}\n\\end{aligned}\n$$\n\n> [!answer]\n> {{green:$x = 3\\dfrac{3}{8}$}}",
+    "hint": "Multiply through by 3 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\nCheck: $\\frac{2(3.375) + 3}{3} + 2(3.375) = 3.25 + 6.75 = 10$.\n\n## Simplified explanation\n\nMultiply everything by 3 to get $2x + 3 + 6x = 30$. That is $8x + 3 = 30$, so $8x = 27$.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Multiply 0.03858 by 0.02, leaving the answer in standard form.",
+    "media": [],
+    "answer": "$$0.03858 \\times 0.02 = 0.0007716 = 7.716 \\times 10^{-4}$$\n\n> [!answer]\n> {{green:$7.716 \\times 10^{-4}$}}",
+    "hint": "Multiply 3858 by 2, then place the decimal point.",
+    "explanation": "## Advanced explanation\n\nIn standard form: $(3.858 \\times 10^{-2})(2 \\times 10^{-2}) = 7.716 \\times 10^{-4}$.\n\n## Simplified explanation\n\n$3858 \\times 2 = 7716$. The two numbers have 7 decimal places between them, so the product is 0.0007716. Move the point 4 places to get 7.716.",
+    "difficulty": "medium",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A cylindrical container of height 28 cm and diameter 18 cm is filled with water. The water is then poured into another container with a rectangular base of length 27 cm and width 11 cm. Calculate the depth of the water in the container. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "answer": "The radius is 9 cm, so the volume of water is:\n\n$$V = \\pi r^2 h = \\frac{22}{7} \\times 9^2 \\times 28 = 7128 \\text{ cm}^3$$\n\nThe volume stays the same in the new container:\n\n$$\\text{Depth} = \\frac{7128}{27 \\times 11} = \\frac{7128}{297} = 24 \\text{ cm}$$\n\n> [!answer]\n> {{green:24 cm}}",
+    "hint": "The volume of water does not change when it is poured.",
+    "explanation": "## Advanced explanation\n\nEquate the volumes: $\\pi r^2 h = l \\times b \\times d$. Remember to halve the diameter to get the radius.\n\n## Simplified explanation\n\nFind how much water there is: $\\frac{22}{7} \\times 81 \\times 28 = 7128$. The new base has area $27 \\times 11 = 297$. Then $7128 \\div 297 = 24$.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $11y = (18)^2 - (15)^2$, find the value of $y$.",
+    "media": [],
+    "answer": "$$11y = 324 - 225 = 99 \\implies y = 9$$\n\n> [!answer]\n> {{green:$y = 9$}}",
+    "hint": "Work out the two squares first.",
+    "explanation": "## Advanced explanation\n\nA difference of two squares gives the same result: $(18 - 15)(18 + 15) = 3 \\times 33 = 99$.\n\n## Simplified explanation\n\n$18 \\times 18 = 324$ and $15 \\times 15 = 225$. The difference is 99, and $99 \\div 11 = 9$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Find the perimeter of a circle with radius 35 cm. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [],
+    "answer": "$$C = 2\\pi r = 2 \\times \\frac{22}{7} \\times 35 = 220 \\text{ cm}$$\n\n> [!answer]\n> {{green:220 cm}}",
+    "hint": "The perimeter of a circle is its circumference.",
+    "explanation": "## Advanced explanation\n\n$C = 2\\pi r$, and 35 divides exactly by 7, which leaves $2 \\times 22 \\times 5$.\n\n## Simplified explanation\n\n$35 \\div 7 = 5$. Then $2 \\times 22 \\times 5 = 220$ cm.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $m = \\dfrac{r - s}{2nr}$\n\n(i) make $r$ the subject of the relation.\n\n(ii) find the value of $r$ when $s = 117$, $m = 2$ and $n = -3$.",
+    "media": [],
+    "answer": "**(i)**\n\n$$\n\\begin{aligned}\n2mnr &= r - s \\\\\ns &= r - 2mnr \\\\\ns &= r(1 - 2mn) \\\\\nr &= \\frac{s}{1 - 2mn}\n\\end{aligned}\n$$\n\n**(ii)**\n\n$$r = \\frac{117}{1 - 2(2)(-3)} = \\frac{117}{13} = 9$$\n\n> [!answer]\n> **(i)** {{green:$r = \\dfrac{s}{1 - 2mn}$}}  **(ii)** {{green:$r = 9$}}",
+    "hint": "Multiply both sides by $2nr$, then collect the $r$ terms on one side.",
+    "explanation": "## Advanced explanation\n\nCheck in the original: $\\frac{9 - 117}{2(-3)(9)} = \\frac{-108}{-54} = 2 = m$.\n\n## Simplified explanation\n\nMultiply across to get $2mnr = r - s$. Bring the $r$ terms together and take out $r$. Then divide. For (ii), the bottom is $1 + 12 = 13$.",
+    "difficulty": "hard",
+    "marks": 6,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Copy and complete the table for the relation $y = 12x - 9$ for $x = -2, -1, 0, 1, 2, 3, 4, 5$.\n\n(i) Using a scale of 2 cm to 1 unit on the $x$-axis and 2 cm to 10 units on the $y$-axis, draw on a graph sheet two perpendicular axes $Ox$ and $Oy$.\n\n(ii) Using the table, plot all the points of the relation $y = 12x - 9$ on the graph.\n\n(iii) Draw a straight line through the points.\n\n(iv) Use the graph to find:\n\n$(\\alpha)$ $y$ when $x = 2.5$;\n\n$(\\beta)$ $x$ when $y = 10$.\n\nIn your answer, write out the $y$ row and your two readings.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2020/2020q6.png",
+        "caption": "Table with x values from −2 to 5. The y row gives −9 at x = 0 and 39 at x = 4, and the other cells are empty."
+      }
+    ],
+    "answer": "Substitute each $x$ into $y = 12x - 9$:\n\n| $x$ | $-2$ | $-1$ | 0 | 1 | 2 | 3 | 4 | 5 |\n|---|---|---|---|---|---|---|---|---|\n| $y$ | $-33$ | $-21$ | $-9$ | 3 | 15 | 27 | 39 | 51 |\n\nPlot these points and join them with a straight line. The relation gives the exact readings:\n\n$(\\alpha)$ $y = 12(2.5) - 9 = 21$\n\n$(\\beta)$ $10 = 12x - 9$, so $x = \\dfrac{19}{12} \\approx 1.6$\n\n> [!answer]\n> $y$ row: {{green:$-33$, $-21$, $-9$, 3, 15, 27, 39, 51}}\n>\n> $(\\alpha)$ {{green:$y = 21$}}  $(\\beta)$ {{green:$x \\approx 1.6$}}",
+    "hint": "Each time $x$ goes up by 1, $y$ goes up by 12.",
+    "explanation": "## Advanced explanation\n\nThe line has gradient 12 and $y$-intercept $-9$. Readings from a drawn graph may differ slightly from the exact values.\n\n## Simplified explanation\n\nCount up in 12s from $-33$ to fill the table. Plot the pairs and rule a line. From 2.5 on the bottom, go up to the line and read across. From 10 on the side, go across to the line and read down.",
+    "difficulty": "medium",
+    "marks": 10,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Graphs"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "List the integers within the interval $7 < x \\le 14$",
+    "media": [],
+    "answer": "$x$ must be greater than 7, so 7 is left out. $x$ can equal 14, so 14 is included.\n\n> [!answer]\n> {{green:$\\{8, 9, 10, 11, 12, 13, 14\\}$}}",
+    "hint": "$<$ leaves the end number out, but $\\le$ includes it.",
+    "explanation": "## Advanced explanation\n\nThe strict inequality excludes 7, and the inclusive inequality includes 14, which leaves 7 integers.\n\n## Simplified explanation\n\nStart just after 7, at 8. Keep going up to 14, and include 14.",
+    "difficulty": "easy",
+    "marks": 2,
+    "tags": [
+      "2020 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  }
+]

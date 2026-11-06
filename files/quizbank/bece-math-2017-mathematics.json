@@ -1,0 +1,1502 @@
+[
+  {
+    "type": "choice",
+    "body": "If $Q =$ {1, 3, 5, 7, 9, 10, 11, 13, 15} and $T =$ {1, 2, 3, 5, 6, 7, 10, 11, 12}, find $Q \\cup T$",
+    "media": [],
+    "options": [
+      {
+        "text": "{1, 2, 3, 5, 7, 10, 11}",
+        "hint": "The union includes every member of both sets, such as 6, 9 and 12."
+      },
+      {
+        "text": "{1, 3, 5, 7, 9, 11, 13, 15}",
+        "hint": "These are only the odd members. The union also has 2, 6, 10 and 12."
+      },
+      {
+        "text": "{1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}",
+        "hint": "4 and 8 are in neither set, and 15 is missing."
+      },
+      {
+        "text": "{1, 2, 3, 5, 6, 7, 9, 10, 11, 12, 13, 15}",
+        "hint": "Correct. All the members of both sets, each listed once."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "$\\cup$ joins all the members of both sets.",
+    "explanation": "## Advanced explanation\n\n$Q \\cup T$ lists each member of $Q$ or $T$ once: $\\{1, 2, 3, 5, 6, 7, 9, 10, 11, 12, 13, 15\\}$.\n\n## Simplified explanation\n\nPut the two lists together, and write each number only once.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $21 : 2x = 7 : 12$, find the value of $x$.",
+    "media": [],
+    "options": [
+      {
+        "text": "10",
+        "hint": "$21 : 20$ does not equal $7 : 12$."
+      },
+      {
+        "text": "12",
+        "hint": "$21 : 24$ does not equal $7 : 12$."
+      },
+      {
+        "text": "15",
+        "hint": "$21 : 30$ does not equal $7 : 12$."
+      },
+      {
+        "text": "18",
+        "hint": "Correct. $21 : 36 = 7 : 12$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "21 is 3 times 7, so $2x$ is 3 times 12.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{21}{2x} = \\frac{7}{12} \\implies 14x = 252 \\implies x = 18$$\n\n## Simplified explanation\n\n$7 \\times 3 = 21$, so multiply 12 by 3 as well. That gives $2x = 36$, so $x = 18$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Given that $\\dfrac{1}{2p} = \\dfrac{1}{8}$, find the value of $p$.",
+    "media": [],
+    "options": [
+      {
+        "text": "4",
+        "hint": "Correct. $2p = 8$, so $p = 4$."
+      },
+      {
+        "text": "3",
+        "hint": "$\\frac{1}{2 \\times 3} = \\frac{1}{6}$, not $\\frac{1}{8}$."
+      },
+      {
+        "text": "2",
+        "hint": "$\\frac{1}{2 \\times 2} = \\frac{1}{4}$, not $\\frac{1}{8}$."
+      },
+      {
+        "text": "1",
+        "hint": "$\\frac{1}{2 \\times 1} = \\frac{1}{2}$, not $\\frac{1}{8}$."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "If the tops match, the bottoms must match too.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1}{2p} = \\frac{1}{8} \\implies 2p = 8 \\implies p = 4$$\n\n## Simplified explanation\n\nThe tops are both 1, so the bottoms are equal: $2p = 8$. Then $p = 4$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $3q \\times 12pq$",
+    "media": [],
+    "options": [
+      {
+        "text": "$15pq^2$",
+        "hint": "Multiply the numbers: $3 \\times 12 = 36$."
+      },
+      {
+        "text": "$15p^2q$",
+        "hint": "Multiply the numbers, and there are two $q$s and one $p$."
+      },
+      {
+        "text": "$36pq^2$",
+        "hint": "Correct. $3 \\times 12 = 36$ and $q \\times pq = pq^2$."
+      },
+      {
+        "text": "$36p^2q$",
+        "hint": "There are two $q$s and one $p$, so it is $pq^2$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Multiply the numbers, then the letters.",
+    "explanation": "## Advanced explanation\n\n$$3q \\times 12pq = 36 \\times p \\times q \\times q = 36pq^2$$\n\n## Simplified explanation\n\n$3 \\times 12 = 36$. There is one $p$ and two $q$s.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "If $A =$ {2, 6, 8} and $B =$ {4, 6, 8, 10}, which of the following statements is true?",
+    "media": [],
+    "options": [
+      {
+        "text": "$A \\subset B$",
+        "hint": "2 is in $A$ but not in $B$."
+      },
+      {
+        "text": "$A \\cap B =$ {2, 6, 8}",
+        "hint": "2 is not in $B$, so $A \\cap B = \\{6, 8\\}$."
+      },
+      {
+        "text": "$A \\cup B =$ {2, 4, 6, 8, 10}",
+        "hint": "Correct. All the members of both sets."
+      },
+      {
+        "text": "$A \\supset B$",
+        "hint": "4 and 10 are in $B$ but not in $A$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Test each statement against the two lists.",
+    "explanation": "## Advanced explanation\n\n$A \\cup B = \\{2, 4, 6, 8, 10\\}$ is true. $A \\cap B$ is $\\{6, 8\\}$, and neither set is a subset of the other.\n\n## Simplified explanation\n\nPut both lists together and you get 2, 4, 6, 8, 10. The other statements each fail because of a number in only one set.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the product of $4xy^4$ and $x^2yz$.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4x^3y^4z$",
+        "hint": "$y^4 \\times y = y^5$."
+      },
+      {
+        "text": "$4x^3y^5z$",
+        "hint": "Correct. Add the powers of each letter."
+      },
+      {
+        "text": "$4x^2y^4z$",
+        "hint": "Add the powers: $x \\times x^2 = x^3$ and $y^4 \\times y = y^5$."
+      },
+      {
+        "text": "$4x^2y^4$",
+        "hint": "Add the powers of each letter, and keep the $z$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Add the powers of each letter.",
+    "explanation": "## Advanced explanation\n\n$$4xy^4 \\times x^2yz = 4x^{1 + 2}y^{4 + 1}z = 4x^3y^5z$$\n\n## Simplified explanation\n\nThe number stays 4. $x \\times x^2 = x^3$, $y^4 \\times y = y^5$, and $z$ stays.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra",
+      "Indices"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The sum of the interior angles of a regular polygon with 10 sides is",
+    "media": [],
+    "options": [
+      {
+        "text": "$144^\\circ$",
+        "hint": "This is one interior angle. The question asks for the sum."
+      },
+      {
+        "text": "$900^\\circ$",
+        "hint": "This is for 7 sides. Use $(n - 2) \\times 180^\\circ$."
+      },
+      {
+        "text": "$1,440^\\circ$",
+        "hint": "Correct. $8 \\times 180^\\circ = 1440^\\circ$."
+      },
+      {
+        "text": "$1,800^\\circ$",
+        "hint": "This is $10 \\times 180^\\circ$. Use $n - 2$, not $n$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Use: sum of interior angles $= (n - 2) \\times 180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$$(10 - 2) \\times 180^\\circ = 1440^\\circ$$\n\n## Simplified explanation\n\nA 10-sided shape splits into 8 triangles, and each has 180°. Then $8 \\times 180 = 1440$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve: $2 + \\dfrac{x}{3} = 1 - 2x$",
+    "media": [],
+    "options": [
+      {
+        "text": "$-1\\dfrac{2}{7}$",
+        "hint": "Multiply through by 3: $6 + x = 3 - 6x$."
+      },
+      {
+        "text": "$-\\dfrac{3}{7}$",
+        "hint": "Correct. $7x = -3$."
+      },
+      {
+        "text": "$\\dfrac{3}{7}$",
+        "hint": "Check the sign: $7x = 3 - 6 = -3$."
+      },
+      {
+        "text": "$1\\dfrac{2}{7}$",
+        "hint": "Multiply through by 3: $6 + x = 3 - 6x$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply every term by 3 to clear the fraction.",
+    "explanation": "## Advanced explanation\n\n$$6 + x = 3 - 6x \\implies 7x = -3 \\implies x = -\\frac{3}{7}$$\n\n## Simplified explanation\n\nMultiply by 3 to get $6 + x = 3 - 6x$. Add $6x$ and take away 6, which gives $7x = -3$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The ages of the members of a social club are 20 years, 55 years, 60 years and 25 years. Find the mean age of the members of the club.",
+    "media": [],
+    "options": [
+      {
+        "text": "20 years",
+        "hint": "This is the youngest age, not the mean."
+      },
+      {
+        "text": "30 years",
+        "hint": "The total is 160 and there are 4 members."
+      },
+      {
+        "text": "40 years",
+        "hint": "Correct. $160 \\div 4 = 40$."
+      },
+      {
+        "text": "50 years",
+        "hint": "The total is 160 and there are 4 members."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Mean $=$ total $\\div$ number of members.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{20 + 55 + 60 + 25}{4} = \\frac{160}{4} = 40$$\n\n## Simplified explanation\n\nThe ages add up to 160. There are 4 members, and $160 \\div 4 = 40$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evelyn saved GH₵ 35.48 every month for 8 months. How much did she save?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 183.60",
+        "hint": "$35.48 \\times 8$ is close to $35 \\times 8 = 280$."
+      },
+      {
+        "text": "GH₵ 280.63",
+        "hint": "$35.48 \\times 8 = 283.84$."
+      },
+      {
+        "text": "GH₵ 283.20",
+        "hint": "$35.48 \\times 8 = 283.84$."
+      },
+      {
+        "text": "GH₵ 283.84",
+        "hint": "Correct. $35.48 \\times 8 = 283.84$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Multiply the monthly amount by 8.",
+    "explanation": "## Advanced explanation\n\n$$35.48 \\times 8 = 283.84$$\n\n## Simplified explanation\n\n$35 \\times 8 = 280$ and $0.48 \\times 8 = 3.84$. Together that is GH₵ 283.84.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Evaluate $\\dfrac{0.00492}{0.041}$",
+    "media": [],
+    "options": [
+      {
+        "text": "0.012",
+        "hint": "$0.012 \\times 0.041$ is far less than 0.00492."
+      },
+      {
+        "text": "0.12",
+        "hint": "Correct. $4.92 \\div 41 = 0.12$."
+      },
+      {
+        "text": "1.2",
+        "hint": "$1.2 \\times 0.041 = 0.0492$, which is 10 times too big."
+      },
+      {
+        "text": "12.0",
+        "hint": "$12 \\times 0.041 = 0.492$, which is 100 times too big."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply the top and bottom by 1000 to divide by a whole number.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{0.00492}{0.041} = \\frac{4.92}{41} = 0.12$$\n\n## Simplified explanation\n\nMove the point 3 places in both numbers to get $4.92 \\div 41 = 0.12$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A woman deposited an amount of GH₵ 50,000.00 at a bank for 2 years at a rate of 20% per annum. Find the Simple Interest.",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 1,000.00",
+        "hint": "20% of GH₵ 50,000 is GH₵ 10,000 each year."
+      },
+      {
+        "text": "GH₵ 2,000.00",
+        "hint": "20% of GH₵ 50,000 is GH₵ 10,000 each year."
+      },
+      {
+        "text": "GH₵ 10,000.00",
+        "hint": "This is the interest for only 1 year."
+      },
+      {
+        "text": "GH₵ 20,000.00",
+        "hint": "Correct. $\\frac{50000 \\times 20 \\times 2}{100} = 20000$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Use $I = \\dfrac{P \\times R \\times T}{100}$.",
+    "explanation": "## Advanced explanation\n\n$$I = \\frac{50000 \\times 20 \\times 2}{100} = 20000$$\n\n## Simplified explanation\n\n20% of GH₵ 50,000 is GH₵ 10,000 a year. For 2 years that is GH₵ 20,000.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Simple Interest"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "What is the total cost of $x$ shirts at GH₵ 5.00 each and $y$ shirts at GH₵ 1.50 each?",
+    "media": [],
+    "options": [
+      {
+        "text": "$5x + 1.5y$",
+        "hint": "Correct. Each group's number times its price."
+      },
+      {
+        "text": "$5y + 1.5x$",
+        "hint": "The prices are swapped. $x$ shirts cost GH₵ 5.00 each."
+      },
+      {
+        "text": "$5(x + 1.5y)$",
+        "hint": "This multiplies the $y$ shirts by 5 as well."
+      },
+      {
+        "text": "$1.5(5x + y)$",
+        "hint": "This multiplies the $x$ shirts by 1.5 as well."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the cost of each group of shirts, then add.",
+    "explanation": "## Advanced explanation\n\nCost of the first group is $5x$, and of the second is $1.5y$. The total is $5x + 1.5y$.\n\n## Simplified explanation\n\n$x$ shirts at GH₵ 5 cost $5x$. $y$ shirts at GH₵ 1.50 cost $1.5y$. Add them.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "At a meeting attended by 23 people, the females were 7 more than the males. How many males were there?",
+    "media": [],
+    "options": [
+      {
+        "text": "8",
+        "hint": "Correct. 8 males and 15 females make 23."
+      },
+      {
+        "text": "15",
+        "hint": "This is the number of females."
+      },
+      {
+        "text": "16",
+        "hint": "This is $23 - 7$. Halve it to find the males."
+      },
+      {
+        "text": "30",
+        "hint": "This is $23 + 7$, which is more than the whole meeting."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Let the males be $m$, so the females are $m + 7$.",
+    "explanation": "## Advanced explanation\n\n$$m + (m + 7) = 23 \\implies 2m = 16 \\implies m = 8$$\n\n## Simplified explanation\n\nTake away the extra 7 females: $23 - 7 = 16$. Share 16 equally to get 8 males.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Find the value of $x$ in the diagram.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2017/2016secaq15.png",
+        "caption": "Two parallel lines with an isosceles triangle between them. The top angle of the triangle is 2x°, and the angle between its right side and the top line is 56°."
+      }
+    ],
+    "options": [
+      {
+        "text": "$28^\\circ$",
+        "hint": "This sets $2x = 56^\\circ$. The $56^\\circ$ angle lies outside the triangle."
+      },
+      {
+        "text": "$30^\\circ$",
+        "hint": "This treats the triangle as equilateral. Its base angles are $56^\\circ$."
+      },
+      {
+        "text": "$34^\\circ$",
+        "hint": "Correct. $2x = 180^\\circ - 112^\\circ = 68^\\circ$."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "Only two sides are marked equal, and the top angle is $2x$, not $x$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The lines are parallel, and two sides of the triangle are equal.",
+    "explanation": "## Advanced explanation\n\nThe $56^\\circ$ angle equals the base angle at the right (alternate angles). The triangle is isosceles, so both base angles are $56^\\circ$:\n\n$$2x = 180^\\circ - 112^\\circ = 68^\\circ \\implies x = 34^\\circ$$\n\n## Simplified explanation\n\nParallel lines make the bottom right angle $56^\\circ$, and equal sides make the bottom left one $56^\\circ$ too. That leaves 68 for $2x$, so $x = 34$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "How many lines of symmetry does a rhombus have?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "Correct. Its two diagonals are its lines of symmetry."
+      },
+      {
+        "text": "3",
+        "hint": "A rhombus folds along only its two diagonals."
+      },
+      {
+        "text": "4",
+        "hint": "A square has 4, but a general rhombus has 2."
+      },
+      {
+        "text": "5",
+        "hint": "A rhombus folds along only its two diagonals."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Try folding along each diagonal.",
+    "explanation": "## Advanced explanation\n\nA rhombus has exactly 2 lines of symmetry, its diagonals. A square, as a special rhombus, has 4.\n\n## Simplified explanation\n\nFold along either corner-to-corner line and the halves match. No other fold works for a rhombus that is not a square.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In 1995, 215 boys and 185 girls were admitted into a Senior Secondary School. Find, correct to the nearest whole number, the percentage of girls admitted.",
+    "media": [],
+    "options": [
+      {
+        "text": "46%",
+        "hint": "Correct. $\\frac{185}{400} \\times 100 = 46.25$."
+      },
+      {
+        "text": "47%",
+        "hint": "$46.25$ rounds down to 46."
+      },
+      {
+        "text": "53%",
+        "hint": "This is about the percentage of boys, which is 53.75%."
+      },
+      {
+        "text": "54%",
+        "hint": "This is the percentage of boys, rounded."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Find the total admitted first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{185}{215 + 185} \\times 100\\% = \\frac{185}{400} \\times 100\\% = 46.25\\% \\approx 46\\%$$\n\n## Simplified explanation\n\n400 pupils were admitted, and 185 are girls. Then $185 \\div 4 = 46.25$, which rounds to 46.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Percentages"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $\\dfrac{2(u - v)(2u + 3v)}{(4u + 6v)}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{(u - v)(2u + v)}{(u + v)}$",
+        "hint": "Factorize the bottom: $4u + 6v = 2(2u + 3v)$."
+      },
+      {
+        "text": "$\\dfrac{(u - v)(u + v)}{(u + 2v)}$",
+        "hint": "Factorize the bottom: $4u + 6v = 2(2u + 3v)$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}(u - v)$",
+        "hint": "The 2 on top cancels with the 2 from the bottom."
+      },
+      {
+        "text": "$(u - v)$",
+        "hint": "Correct. Both $2$ and $(2u + 3v)$ cancel."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Factorize the denominator.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{2(u - v)(2u + 3v)}{2(2u + 3v)} = u - v$$\n\n## Simplified explanation\n\nThe bottom is $2(2u + 3v)$. The 2 and the $(2u + 3v)$ both cancel with the top, which leaves $u - v$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Solve $25x + 450 \\le 3000$",
+    "media": [],
+    "options": [
+      {
+        "text": "$x \\ge 102$",
+        "hint": "Dividing by positive 25 does not reverse the inequality."
+      },
+      {
+        "text": "$x \\le 102$",
+        "hint": "Correct. $25x \\le 2550$."
+      },
+      {
+        "text": "$x \\ge 138$",
+        "hint": "Subtract the 450: $3000 - 450 = 2550$."
+      },
+      {
+        "text": "$x \\le 138$",
+        "hint": "Subtract the 450: $3000 - 450 = 2550$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Subtract 450 from both sides first.",
+    "explanation": "## Advanced explanation\n\n$$25x \\le 2550 \\implies x \\le 102$$\n\n## Simplified explanation\n\nTake away 450 to get $25x \\le 2550$. Then $2550 \\div 25 = 102$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Mr. Agyekum has 11 of the GH₵ 20.00 notes, 15 of the GH₵ 10.00 notes and 6 of the GH₵ 5.00 notes. How much does Mr. Agyekum have altogether?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 280.00",
+        "hint": "The notes are worth GH₵ 220, GH₵ 150 and GH₵ 30."
+      },
+      {
+        "text": "GH₵ 320.00",
+        "hint": "The notes are worth GH₵ 220, GH₵ 150 and GH₵ 30."
+      },
+      {
+        "text": "GH₵ 360.00",
+        "hint": "This leaves out some of the notes."
+      },
+      {
+        "text": "GH₵ 400.00",
+        "hint": "Correct. $220 + 150 + 30 = 400$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Find the value of each type of note, then add.",
+    "explanation": "## Advanced explanation\n\n$$11(20) + 15(10) + 6(5) = 220 + 150 + 30 = 400$$\n\n## Simplified explanation\n\nTwenties make GH₵ 220, tens make GH₵ 150, and fives make GH₵ 30. Together that is GH₵ 400.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Number Operations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A man travelled a distance of 1.5 km in 30 minutes. What distance can he cover in 50 minutes, travelling at the same speed?",
+    "media": [],
+    "options": [
+      {
+        "text": "2.2 km",
+        "hint": "He covers 0.05 km each minute, so 50 minutes gives 2.5 km."
+      },
+      {
+        "text": "2.5 km",
+        "hint": "Correct. $1.5 \\times \\frac{50}{30} = 2.5$."
+      },
+      {
+        "text": "2.8 km",
+        "hint": "He covers 0.05 km each minute, so 50 minutes gives 2.5 km."
+      },
+      {
+        "text": "3.2 km",
+        "hint": "He covers 0.05 km each minute, so 50 minutes gives 2.5 km."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Find how far he goes in 10 minutes.",
+    "explanation": "## Advanced explanation\n\n$$d = 1.5 \\times \\frac{50}{30} = 2.5 \\text{ km}$$\n\n## Simplified explanation\n\n30 minutes covers 1.5 km, so 10 minutes covers 0.5 km. Then 50 minutes covers $5 \\times 0.5 = 2.5$ km.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Speed"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "In the diagram, $UVW$ is an isosceles triangle. $|UV| = |UW|$ and angle $VUW = 70^\\circ$. Find angle $UVW$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2017/2017secaq23.png",
+        "caption": "Isosceles triangle UVW with UV and UW marked equal, and a 70° angle at U."
+      }
+    ],
+    "options": [
+      {
+        "text": "$70^\\circ$",
+        "hint": "This is angle $VUW$, the angle at the top."
+      },
+      {
+        "text": "$60^\\circ$",
+        "hint": "This would be an equilateral triangle, but the top angle is $70^\\circ$."
+      },
+      {
+        "text": "$55^\\circ$",
+        "hint": "Correct. $\\frac{180^\\circ - 70^\\circ}{2} = 55^\\circ$."
+      },
+      {
+        "text": "$35^\\circ$",
+        "hint": "This halves $70^\\circ$. Halve what is left after subtracting from $180^\\circ$."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The two base angles are equal, and all three add up to $180^\\circ$.",
+    "explanation": "## Advanced explanation\n\n$$\\angle UVW = \\frac{180^\\circ - 70^\\circ}{2} = 55^\\circ$$\n\n## Simplified explanation\n\nTake 70 from 180 to get 110. The two equal base angles share it, so each is 55.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Arrange the following in descending order: $\\dfrac{7}{20}$, $\\dfrac{7}{25}$, $\\dfrac{37}{100}$, $\\dfrac{1}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{37}{100}$, $\\dfrac{7}{20}$, $\\dfrac{7}{25}$, $\\dfrac{1}{4}$",
+        "hint": "Correct. As decimals: 0.37, 0.35, 0.28, 0.25."
+      },
+      {
+        "text": "$\\dfrac{1}{4}$, $\\dfrac{7}{25}$, $\\dfrac{7}{20}$, $\\dfrac{37}{100}$",
+        "hint": "This is ascending order. Descending starts with the largest."
+      },
+      {
+        "text": "$\\dfrac{37}{100}$, $\\dfrac{7}{20}$, $\\dfrac{1}{4}$, $\\dfrac{7}{25}$",
+        "hint": "$\\frac{7}{25} = 0.28$ is larger than $\\frac{1}{4} = 0.25$."
+      },
+      {
+        "text": "$\\dfrac{7}{25}$, $\\dfrac{1}{4}$, $\\dfrac{7}{20}$, $\\dfrac{37}{100}$",
+        "hint": "$\\frac{37}{100}$ is the largest, so it must come first."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Write each fraction over 100. Descending means largest first.",
+    "explanation": "## Advanced explanation\n\nOver 100: $\\frac{35}{100}$, $\\frac{28}{100}$, $\\frac{37}{100}$ and $\\frac{25}{100}$. In descending order: 37, 35, 28, 25.\n\n## Simplified explanation\n\nAs decimals they are 0.35, 0.28, 0.37 and 0.25. From largest to smallest: 0.37, 0.35, 0.28, 0.25.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $D(4, 3)$ is reflected in the $y$-axis. Find the coordinates of its image.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-4, -3)$",
+        "hint": "This changes both signs. Reflecting in the $y$-axis changes only $x$."
+      },
+      {
+        "text": "$(-3, 4)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      },
+      {
+        "text": "$(-4, 3)$",
+        "hint": "Correct. $x$ changes sign and $y$ stays the same."
+      },
+      {
+        "text": "$(3, -4)$",
+        "hint": "Reflection in the $y$-axis does not swap the coordinates."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "The $y$-axis acts as a mirror, so only the left-right position changes.",
+    "explanation": "## Advanced explanation\n\nReflection in the $y$-axis maps $(x, y) \\to (-x, y)$, so $(4, 3) \\to (-4, 3)$.\n\n## Simplified explanation\n\nThe point is 4 to the right of the $y$-axis. Its mirror image is 4 to the left, at the same height.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Simplify: $7\\dfrac{1}{2} \\times \\left(\\dfrac{1}{4} \\div \\dfrac{1}{2}\\right) - \\dfrac{1}{4}$",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{7}{2}$",
+        "hint": "Correct. $\\frac{15}{2} \\times \\frac{1}{2} - \\frac{1}{4} = \\frac{7}{2}$."
+      },
+      {
+        "text": "$\\dfrac{11}{16}$",
+        "hint": "The bracket is $\\frac{1}{2}$, and $7\\frac{1}{2} \\times \\frac{1}{2} = 3\\frac{3}{4}$."
+      },
+      {
+        "text": "$\\dfrac{7}{32}$",
+        "hint": "The bracket is $\\frac{1}{2}$, and $7\\frac{1}{2} \\times \\frac{1}{2} = 3\\frac{3}{4}$."
+      },
+      {
+        "text": "$\\dfrac{1}{2}$",
+        "hint": "This is the value of the bracket, not the whole expression."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "Work out the bracket first, then multiply, then subtract.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{15}{2} \\times \\frac{1}{2} - \\frac{1}{4} = \\frac{15}{4} - \\frac{1}{4} = \\frac{14}{4} = \\frac{7}{2}$$\n\n## Simplified explanation\n\n$\\frac{1}{4} \\div \\frac{1}{2} = \\frac{1}{2}$. Half of $7\\frac{1}{2}$ is $3\\frac{3}{4}$. Taking away $\\frac{1}{4}$ leaves $3\\frac{1}{2}$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Divide 64.5 by 0.015, leaving the answer in standard form.",
+    "media": [],
+    "options": [
+      {
+        "text": "$4.3 \\times 10^{4}$",
+        "hint": "This equals 43000. The answer is 4300."
+      },
+      {
+        "text": "$4.3 \\times 10^{3}$",
+        "hint": "Correct. $64.5 \\div 0.015 = 4300$."
+      },
+      {
+        "text": "$4.3 \\times 10^{2}$",
+        "hint": "This equals 430. The answer is 4300."
+      },
+      {
+        "text": "$4.3 \\times 10$",
+        "hint": "This equals 43. The answer is 4300."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Multiply both numbers by 1000 first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{64.5}{0.015} = \\frac{64500}{15} = 4300 = 4.3 \\times 10^3$$\n\n## Simplified explanation\n\nMove the point 3 places in both numbers to get $64500 \\div 15 = 4300$. Then 4300 is $4.3 \\times 1000$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Standard Form"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The point $Q(-2, 3)$ is rotated anticlockwise about the origin through an angle of $90^\\circ$. Find the coordinates of its image.",
+    "media": [],
+    "options": [
+      {
+        "text": "$(-3, -2)$",
+        "hint": "Correct. $(x, y) \\to (-y, x)$ gives $(-3, -2)$."
+      },
+      {
+        "text": "$(-3, 2)$",
+        "hint": "Check the second coordinate: it is the old $x$, which is $-2$."
+      },
+      {
+        "text": "$(3, -2)$",
+        "hint": "The first coordinate is $-y$, which is $-3$, and the second is the old $x$, which is $-2$."
+      },
+      {
+        "text": "$(3, 2)$",
+        "hint": "This is a clockwise quarter turn. The rotation is anticlockwise."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "An anticlockwise rotation through $90^\\circ$ maps $(x, y)$ to $(-y, x)$.",
+    "explanation": "## Advanced explanation\n\n$(x, y) \\to (-y, x)$, so $(-2, 3) \\to (-3, -2)$. The point moves from the second quadrant to the third.\n\n## Simplified explanation\n\nThe point starts top-left. A quarter turn anticlockwise takes it to bottom-left, so both numbers are negative: $(-3, -2)$.",
+    "difficulty": "hard",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Transformations"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Elias bought five books. Their mean price was GH₵ 3.25. The total cost for four of the books was GH₵ 11.75. What was the cost of the fifth book?",
+    "media": [],
+    "options": [
+      {
+        "text": "GH₵ 3.50",
+        "hint": "All five books cost $5 \\times 3.25 =$ GH₵ 16.25."
+      },
+      {
+        "text": "GH₵ 4.00",
+        "hint": "All five books cost $5 \\times 3.25 =$ GH₵ 16.25."
+      },
+      {
+        "text": "GH₵ 4.20",
+        "hint": "All five books cost $5 \\times 3.25 =$ GH₵ 16.25."
+      },
+      {
+        "text": "GH₵ 4.50",
+        "hint": "Correct. $16.25 - 11.75 = 4.50$."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Mean $\\times$ number of books gives the total cost.",
+    "explanation": "## Advanced explanation\n\n$$5 \\times 3.25 - 11.75 = 16.25 - 11.75 = 4.50$$\n\n## Simplified explanation\n\nAll five books cost $5 \\times 3.25 =$ GH₵ 16.25. Taking away the GH₵ 11.75 leaves GH₵ 4.50.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Tins of milk each of volume 77 cm$^3$ and weight 170 g were packed into an empty carton of volume 1540 cm$^3$ and weight 500 g.\n\nHow many tins of milk can be packed to fill the carton?",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "$2 \\times 77 = 154$ cm$^3$, far less than 1540 cm$^3$."
+      },
+      {
+        "text": "3",
+        "hint": "$3 \\times 77 = 231$ cm$^3$, far less than 1540 cm$^3$."
+      },
+      {
+        "text": "20",
+        "hint": "Correct. $1540 \\div 77 = 20$."
+      },
+      {
+        "text": "22",
+        "hint": "$22 \\times 77 = 1694$ cm$^3$, which is more than the carton holds."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Divide the volume of the carton by the volume of one tin.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1540}{77} = 20$$\n\n## Simplified explanation\n\n$77 \\times 20 = 1540$, so 20 tins fill the carton.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Tins of milk each of volume 77 cm$^3$ and weight 170 g were packed into an empty carton of volume 1540 cm$^3$ and weight 500 g.\n\nWhat is the weight of the carton when packed with the tins of milk?",
+    "media": [],
+    "options": [
+      {
+        "text": "2.06 kg",
+        "hint": "20 tins weigh $20 \\times 170 =$ 3400 g, plus the 500 g carton."
+      },
+      {
+        "text": "2.94 kg",
+        "hint": "20 tins weigh $20 \\times 170 =$ 3400 g, plus the 500 g carton."
+      },
+      {
+        "text": "3.90 kg",
+        "hint": "Correct. $3400 + 500 = 3900$ g."
+      },
+      {
+        "text": "8.50 kg",
+        "hint": "20 tins weigh 3400 g, which is 3.4 kg."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "20 tins fill the carton. Remember to add the carton's own weight.",
+    "explanation": "## Advanced explanation\n\n$$20 \\times 170 + 500 = 3900 \\text{ g} = 3.90 \\text{ kg}$$\n\n## Simplified explanation\n\n20 tins at 170 g each make 3400 g. Adding the 500 g carton gives 3900 g, which is 3.9 kg.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A piece of cloth is 8.4 m long. If 30 cm is needed to sew a napkin, how many napkins can be sewn from this piece of cloth?",
+    "media": [],
+    "options": [
+      {
+        "text": "20",
+        "hint": "$20 \\times 30 = 600$ cm, which leaves cloth over."
+      },
+      {
+        "text": "25",
+        "hint": "$25 \\times 30 = 750$ cm, which leaves enough for more."
+      },
+      {
+        "text": "28",
+        "hint": "Correct. $840 \\div 30 = 28$."
+      },
+      {
+        "text": "30",
+        "hint": "$30 \\times 30 = 900$ cm, which is more than 840 cm."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Change the metres to centimetres first.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{8.4 \\times 100}{30} = \\frac{840}{30} = 28$$\n\n## Simplified explanation\n\n8.4 m is 840 cm. Then $840 \\div 30 = 28$ napkins.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Measurement"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express $\\dfrac{10}{32}$ as a decimal fraction.",
+    "media": [],
+    "options": [
+      {
+        "text": "0.3200",
+        "hint": "This uses 10 and 32 as digits. Divide 10 by 32."
+      },
+      {
+        "text": "0.3125",
+        "hint": "Correct. $10 \\div 32 = 0.3125$."
+      },
+      {
+        "text": "0.3676",
+        "hint": "$10 \\div 32 = 0.3125$."
+      },
+      {
+        "text": "0.3222",
+        "hint": "$10 \\div 32 = 0.3125$."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Simplify to $\\frac{5}{16}$, then divide.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{10}{32} = \\frac{5}{16} = 0.3125$$\n\n## Simplified explanation\n\n$\\frac{1}{16} = 0.0625$, and $5 \\times 0.0625 = 0.3125$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Fractions"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "A match box contains 40 sticks. If 15 of them are spoilt, find the probability that a stick chosen at random is not spoilt?",
+    "media": [],
+    "options": [
+      {
+        "text": "$\\dfrac{3}{5}$",
+        "hint": "This is $\\frac{24}{40}$, but 25 sticks are not spoilt."
+      },
+      {
+        "text": "$\\dfrac{3}{8}$",
+        "hint": "This is the probability of a spoilt stick."
+      },
+      {
+        "text": "$\\dfrac{5}{8}$",
+        "hint": "Correct. $\\frac{25}{40} = \\frac{5}{8}$."
+      },
+      {
+        "text": "$\\dfrac{2}{5}$",
+        "hint": "This is $\\frac{16}{40}$, but 25 sticks are not spoilt."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Find the number of good sticks first.",
+    "explanation": "## Advanced explanation\n\n$$P = \\frac{40 - 15}{40} = \\frac{25}{40} = \\frac{5}{8}$$\n\n## Simplified explanation\n\n25 of the 40 sticks are good. Divide the top and bottom of $\\frac{25}{40}$ by 5.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Probability"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1.\n\nFind the median number.",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "This is the mode. Put the numbers in order and find the middle."
+      },
+      {
+        "text": "2",
+        "hint": "Correct. $\\frac{1 + 3}{2} = 2$."
+      },
+      {
+        "text": "3",
+        "hint": "3 is the 5th value, but with 8 values the median uses the 4th and 5th."
+      },
+      {
+        "text": "4",
+        "hint": "In order the middle values are 1 and 3, and halfway is 2."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Put the numbers in order. With 8 numbers, use the 4th and 5th.",
+    "explanation": "## Advanced explanation\n\nIn order: 1, 1, 1, 1, 3, 5, 5, 7. The median is $\\frac{1 + 3}{2} = 2$.\n\n## Simplified explanation\n\nLine them up from smallest to largest. The two in the middle are 1 and 3, and halfway between them is 2.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1.\n\nWhat is the modal number?",
+    "media": [],
+    "options": [
+      {
+        "text": "1",
+        "hint": "Correct. 1 appears four times."
+      },
+      {
+        "text": "4",
+        "hint": "4 does not appear in the list. It is how many times 1 appears."
+      },
+      {
+        "text": "5",
+        "hint": "5 appears only twice."
+      },
+      {
+        "text": "7",
+        "hint": "7 is the highest number, and it appears once."
+      }
+    ],
+    "correctIndex": 0,
+    "hint": "The mode is the number that appears most often.",
+    "explanation": "## Advanced explanation\n\nThe value 1 has the highest frequency, 4, so the mode is 1.\n\n## Simplified explanation\n\nCount how often each number appears. The number 1 appears the most.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The number of pupils who attended hospital from eight classes on a particular day are: 1, 5, 3, 1, 7, 5, 1, 1.\n\nCalculate the mean.",
+    "media": [],
+    "options": [
+      {
+        "text": "2",
+        "hint": "This is the median. The total is 24 and there are 8 classes."
+      },
+      {
+        "text": "3",
+        "hint": "Correct. $24 \\div 8 = 3$."
+      },
+      {
+        "text": "4",
+        "hint": "The total is 24 and there are 8 classes."
+      },
+      {
+        "text": "5",
+        "hint": "The total is 24 and there are 8 classes."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Mean $=$ total $\\div$ number of classes.",
+    "explanation": "## Advanced explanation\n\n$$\\frac{1 + 5 + 3 + 1 + 7 + 5 + 1 + 1}{8} = \\frac{24}{8} = 3$$\n\n## Simplified explanation\n\nThe numbers add up to 24. There are 8 classes, and $24 \\div 8 = 3$.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "The distance from the centre of a circle to any point on it is called",
+    "media": [],
+    "options": [
+      {
+        "text": "circumference.",
+        "hint": "The circumference is the distance round the circle."
+      },
+      {
+        "text": "diameter.",
+        "hint": "A diameter goes all the way across, through the centre."
+      },
+      {
+        "text": "radius.",
+        "hint": "Correct. A radius joins the centre to the circle."
+      },
+      {
+        "text": "sector.",
+        "hint": "A sector is a region between two radii."
+      }
+    ],
+    "correctIndex": 2,
+    "hint": "Which length starts at the centre and stops at the edge?",
+    "explanation": "## Advanced explanation\n\nA radius is a line segment from the centre of a circle to any point on the circle.\n\n## Simplified explanation\n\nFrom the middle to the edge is the radius. All the way across is the diameter.",
+    "difficulty": "easy",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Express 1352 as a product of prime factors.",
+    "media": [],
+    "options": [
+      {
+        "text": "$2^3 \\times 13^3$",
+        "hint": "This equals 17576, not 1352."
+      },
+      {
+        "text": "$2^3 \\times 13^2$",
+        "hint": "Correct. $8 \\times 169 = 1352$."
+      },
+      {
+        "text": "$2^2 \\times 13^3$",
+        "hint": "This equals 8788, not 1352."
+      },
+      {
+        "text": "$2^2 \\times 13^2$",
+        "hint": "This equals 676, not 1352."
+      }
+    ],
+    "correctIndex": 1,
+    "hint": "Keep dividing by 2, then try 13.",
+    "explanation": "## Advanced explanation\n\n$$1352 = 2 \\times 676 = 2^2 \\times 338 = 2^3 \\times 169 = 2^3 \\times 13^2$$\n\n## Simplified explanation\n\nHalve three times: 676, 338, 169. Then $169 = 13 \\times 13$.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Number Properties"
+    ]
+  },
+  {
+    "type": "choice",
+    "body": "Which of the following statements about sets is true?",
+    "media": [],
+    "options": [
+      {
+        "text": "Every set is a subset of the null set.",
+        "hint": "It is the other way round: the null set is a subset of every set."
+      },
+      {
+        "text": "The universal set is the subset of the null set.",
+        "hint": "The null set has no members, so it cannot contain the universal set."
+      },
+      {
+        "text": "The intersection of two sets is always a null set.",
+        "hint": "Two sets can share members, so their intersection need not be empty."
+      },
+      {
+        "text": "The universal set is the union of all its subsets.",
+        "hint": "Correct. Together its subsets contain every member."
+      }
+    ],
+    "correctIndex": 3,
+    "hint": "Recall that the null set is a subset of every set.",
+    "explanation": "## Advanced explanation\n\nEach member of the universal set forms a subset, so the union of all the subsets is the universal set itself.\n\n## Simplified explanation\n\nThe universal set holds everything being considered. Joining all its parts gives the whole set back.",
+    "difficulty": "medium",
+    "marks": 1,
+    "tags": [
+      "2017 Paper",
+      "Section A",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In a class of 30 girls, 17 play football, 12 play hockey and 4 play both games.\n\n(i) Draw a Venn diagram to illustrate the given information. In your answer, give the number in each region.\n\n(ii) How many girls play:\n\n$(\\alpha)$ one or two of the games?\n\n$(\\beta)$ none of the games?",
+    "media": [],
+    "answer": "**(i)** Draw two overlapping circles inside a rectangle, and fill them in:\n\n| Region | Girls |\n|---|---|\n| Football only | $17 - 4 = 13$ |\n| Both games | 4 |\n| Hockey only | $12 - 4 = 8$ |\n| Neither game | 5 |\n\n**(ii)** $(\\alpha)$ $13 + 4 + 8 = 25$\n\n$(\\beta)$ $30 - 25 = 5$\n\n> [!answer]\n> **(i)** {{green:13, 4, 8, and 5 outside the circles}}\n>\n> **(ii)** $(\\alpha)$ {{green:25 girls}}  $(\\beta)$ {{green:5 girls}}",
+    "hint": "Fill in the overlap first, then subtract it from each game.",
+    "explanation": "## Advanced explanation\n\n$n(F \\cup H) = n(F) + n(H) - n(F \\cap H) = 17 + 12 - 4 = 25$, and the complement is $30 - 25 = 5$.\n\n## Simplified explanation\n\n4 girls play both, so 13 play only football and 8 play only hockey. That makes 25 girls who play. The other 5 play neither.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Sets"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $ABCD$ is a circle of radius 14 cm and center $O$. Line $BO$ is perpendicular to line $AC$. Calculate the total area of the shaded portions. [Take $\\pi = \\dfrac{22}{7}$]",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2017/2017q1.png",
+        "caption": "Circle with centre O and radius 14 cm. AC is a diameter, and BO is perpendicular to AC. The two segments between triangle ABC and the upper arc are shaded."
+      }
+    ],
+    "answer": "The shaded portions are the semicircle $ABC$ without triangle $ABC$.\n\nArea of semicircle: $\\dfrac{1}{2} \\times \\dfrac{22}{7} \\times 14^2 = 308$ cm$^2$\n\nArea of triangle: $\\dfrac{1}{2} \\times 28 \\times 14 = 196$ cm$^2$\n\nShaded area: $308 - 196 = 112$ cm$^2$\n\n> [!answer]\n> {{green:112 cm$^2$}}",
+    "hint": "The shaded part lies only within the top half of the circle.",
+    "explanation": "## Advanced explanation\n\n$AC$ is a diameter of length 28 cm, and $BO$ is the height of the triangle, 14 cm. The shaded area is semicircle minus triangle.\n\n## Simplified explanation\n\nHalf of the circle has area 308. The triangle inside it has base 28 and height 14, so its area is 196. The shaded part is what is left: $308 - 196 = 112$.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Mensuration"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Two consecutive odd numbers are such that seven times the smaller, subtracted from nine times the bigger, gives 144. Find the two numbers.",
+    "media": [],
+    "answer": "Let the numbers be $x$ and $x + 2$:\n\n$$\n\\begin{aligned}\n9(x + 2) - 7x &= 144 \\\\\n9x + 18 - 7x &= 144 \\\\\n2x &= 126 \\\\\nx &= 63\n\\end{aligned}\n$$\n\nThe numbers are 63 and 65.\n\n> [!answer]\n> {{green:63 and 65}}",
+    "hint": "Consecutive odd numbers differ by 2.",
+    "explanation": "## Advanced explanation\n\nCheck: $9(65) - 7(63) = 585 - 441 = 144$.\n\n## Simplified explanation\n\nCall the smaller number $x$ and the bigger $x + 2$. Nine times the bigger minus seven times the smaller gives $2x + 18 = 144$, so $x = 63$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "A paint manufacturing company has a machine which fills 24 tins with paint in 5 minutes.\n\n(i) How many tins will the machine fill in\n\n$(\\alpha)$ 1 minute, correct to the nearest whole number?\n\n$(\\beta)$ 1 hour?\n\n(ii) How many hours will it take to fill 1440 tins?",
+    "media": [],
+    "answer": "**(i)** $(\\alpha)$ $\\dfrac{24}{5} = 4.8 \\approx 5$ tins\n\n$(\\beta)$ 1 hour has 12 lots of 5 minutes: $12 \\times 24 = 288$ tins\n\n**(ii)** $\\dfrac{1440}{288} = 5$ hours\n\n> [!answer]\n> **(i)** $(\\alpha)$ {{green:5 tins}}  $(\\beta)$ {{green:288 tins}}  **(ii)** {{green:5 hours}}",
+    "hint": "How many lots of 5 minutes are in 1 hour?",
+    "explanation": "## Advanced explanation\n\nUse the exact rate of 4.8 tins per minute for (β), since $4.8 \\times 60 = 288$. Using the rounded 5 would give the wrong result.\n\n## Simplified explanation\n\nIn 1 minute it fills $24 \\div 5 = 4.8$, about 5 tins. An hour has 12 lots of 5 minutes, so $12 \\times 24 = 288$ tins. Then $1440 \\div 288 = 5$ hours.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Ratio & Proportion"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Given that $s = \\dfrac{n}{2}[2a + (n - 1)d]$, $a = 3$, $d = 4$ and $n = 10$, find the value of $s$.",
+    "media": [],
+    "answer": "$$s = \\frac{10}{2}[2(3) + (10 - 1)(4)] = 5[6 + 36] = 5 \\times 42 = 210$$\n\n> [!answer]\n> {{green:$s = 210$}}",
+    "hint": "Work out the inside of the square bracket first.",
+    "explanation": "## Advanced explanation\n\nThis is the formula for the sum of an arithmetic sequence, here $3, 7, 11, \\dots$ with 10 terms.\n\n## Simplified explanation\n\n$2 \\times 3 = 6$ and $9 \\times 4 = 36$, which make 42. Then $\\frac{10}{2} = 5$, and $5 \\times 42 = 210$.",
+    "difficulty": "easy",
+    "marks": 3,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a ruler and a pair of compasses only, construct:\n\n(i) a triangle $ABC$ with $|BC| = 9$ cm, $|AC| = 8$ cm and $|AB| = 6$ cm;\n\n(ii) the perpendicular bisector of line $BC$;\n\n(iii) the bisector of angle $ACB$.\n\nLabel the point of intersection of the two bisectors as $Y$. Draw a line to join $B$ and $Y$.\n\nMeasure:\n\n(i) $|BY|$;\n\n(ii) $|YC|$;\n\n(iii) the base angles of triangle $BYC$.\n\nWhat type of triangle is $BYC$?\n\nIn your answer, give your measurements and the type of triangle.",
+    "media": [],
+    "answer": "**Construction**\n\n1. Draw $|BC| = 9$ cm. With centre $B$ and radius 6 cm, and centre $C$ and radius 8 cm, draw arcs that cross at $A$. Join $A$ to $B$ and $C$.\n2. From $B$ and $C$, with equal radii, draw arcs on both sides of $BC$. Join their crossing points to get the perpendicular bisector.\n3. From $C$, draw an arc cutting $CA$ and $CB$. From these points, draw arcs that cross, and join $C$ to the crossing point.\n4. Mark $Y$ where the two bisectors meet, and join $B$ to $Y$.\n\n**Measurements** (allow a small drawing error)\n\n$|BY| = |YC| \\approx 4.8$ cm, and each base angle is about $20^\\circ$.\n\n> [!answer]\n> {{green:$|BY| \\approx 4.8$ cm}}, {{green:$|YC| \\approx 4.8$ cm}}, base angles {{green:$\\approx 20^\\circ$ each}}\n>\n> Triangle $BYC$ is {{green:isosceles}}.",
+    "hint": "Any point on the perpendicular bisector of $BC$ is the same distance from $B$ and from $C$.",
+    "explanation": "## Advanced explanation\n\nSince $Y$ lies on the perpendicular bisector of $BC$, $|BY| = |YC|$. By calculation, angle $ACB \\approx 40.8^\\circ$, so each base angle is about $20.4^\\circ$ and $|YC| = \\frac{4.5}{\\cos 20.4^\\circ} \\approx 4.8$ cm.\n\n## Simplified explanation\n\nBuild the triangle from its three sides. Bisect $BC$ and bisect the angle at $C$. Where they meet is $Y$. Lines $BY$ and $YC$ come out the same length, so the triangle is isosceles.",
+    "difficulty": "hard",
+    "marks": 10,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "The table below shows the ages of students admitted in a hospital.\n\nUse the information to answer the following questions:\n\n(i) What is the modal age?\n\n(ii) Calculate, correct to two decimal places, the mean age of the students.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2017/2017q4.png",
+        "caption": "Table of ages 10, 11, 12, 13, 14, 15 years with numbers of students 5, 1, 7, 10, 3, 4."
+      }
+    ],
+    "answer": "**(i)** The highest frequency is 10, which belongs to age 13.\n\n**(ii)**\n\n$$\\text{Mean} = \\frac{\\sum fx}{\\sum f} = \\frac{50 + 11 + 84 + 130 + 42 + 60}{5 + 1 + 7 + 10 + 3 + 4} = \\frac{377}{30} \\approx 12.57$$\n\n> [!answer]\n> **(i)** {{green:13 years}}  **(ii)** {{green:12.57 years}}",
+    "hint": "The mode is the age, not the frequency. For the mean, multiply each age by its frequency.",
+    "explanation": "## Advanced explanation\n\nA common error is to give the highest frequency, 10, as the mode. The mean is $\\frac{\\sum fx}{\\sum f}$, not the reverse.\n\n## Simplified explanation\n\nMost students, 10 of them, are aged 13. Multiply each age by its number of students and add to get 377. There are 30 students, and $377 \\div 30 = 12.57$.",
+    "difficulty": "medium",
+    "marks": 6,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Statistics"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Rice is sold at GH₵ 56.00 per bag of 50 kg. A trader bought some bags of rice and paid GH₵ 1,344.00.\n\n(i) How many bags of rice did the trader buy?\n\n(ii) If the trader retailed the bags of rice at GH₵ 1.40 per kg, how much profit was made on 1 kg of rice?",
+    "media": [],
+    "answer": "**(i)** $\\dfrac{1344}{56} = 24$ bags\n\n**(ii)** Cost of 1 kg: $\\dfrac{56}{50} = 1.12$\n\nProfit on 1 kg: $1.40 - 1.12 = 0.28$\n\n> [!answer]\n> **(i)** {{green:24 bags}}  **(ii)** {{green:GH₵ 0.28}}",
+    "hint": "For (ii), find what 1 kg cost the trader.",
+    "explanation": "## Advanced explanation\n\nThe total-based working agrees: $24 \\times 50 = 1200$ kg sold for $1200 \\times 1.40 = 1680$, so the profit is $\\frac{1680 - 1344}{1200} = 0.28$ per kg.\n\n## Simplified explanation\n\n$1344 \\div 56 = 24$ bags. Each kg cost $56 \\div 50 =$ GH₵ 1.12 and sold for GH₵ 1.40, so the profit is GH₵ 0.28.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Profit & Loss"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "Using a scale of 2 cm to 1 unit on both axes, draw on a graph sheet two perpendicular axes $Ox$ and $Oy$ for $-5 \\le x \\le 5$ and $-5 \\le y \\le 5$.\n\n(i) Plot, indicating the coordinates of all points $A(2, 3)$ and $B(-3, 4)$. Draw a line passing through the points $A$ and $B$.\n\n(ii) Plot on the same graph sheet, indicating the coordinates of the points $C(4, 2)$ and $D(-2, -3)$. Draw a straight line passing through the points to meet line $\\overline{AB}$.\n\nUsing the graphs:\n\n(iii) find the values of $y$ when $x = -2$;\n\n(iv) measure the angle between the lines $AB$ and $CD$.\n\nIn your answer, give the values of $y$ and the angle.",
+    "media": [],
+    "answer": "Plot the four points and rule the two lines.\n\n**(iii)** Read up and down from $x = -2$:\n\n- On line $AB$: $y \\approx 3.8$\n- On line $CD$: $y = -3$, which is point $D$\n\n**(iv)** With a protractor, the angle between the lines is about $51^\\circ$. The angle next to it on the straight line is about $129^\\circ$.\n\n> [!answer]\n> **(iii)** {{green:$y \\approx 3.8$ on $AB$}} and {{green:$y = -3$ on $CD$}}\n>\n> **(iv)** {{green:about $51^\\circ$}}",
+    "hint": "Use a protractor at the point where the two lines meet.",
+    "explanation": "## Advanced explanation\n\nLine $AB$ has gradient $-\\frac{1}{5}$ and line $CD$ has gradient $\\frac{5}{6}$. Their directions are about $-11.3^\\circ$ and $39.8^\\circ$, so the angle between them is about $51^\\circ$. Accurate plotting needs the equal scales the question gives.\n\n## Simplified explanation\n\nPlot the points and rule the lines. Go up from $-2$ on the bottom axis to each line and read across. Then put a protractor where the lines cross.",
+    "difficulty": "hard",
+    "marks": 9,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Graphs",
+      "Geometry"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "If $m = \\begin{pmatrix} 2x + 1 \\\\ 2 - 3y \\end{pmatrix}$, $n = \\begin{pmatrix} 6 \\\\ -8 \\end{pmatrix}$ and $(m + n) = \\begin{pmatrix} 9 \\\\ -12 \\end{pmatrix}$, find the:\n\n(i) values of $x$ and $y$;\n\n(ii) components of $m$.",
+    "media": [],
+    "answer": "**(i)** Add $m$ and $n$, then match the entries:\n\n$$2x + 1 + 6 = 9 \\implies 2x = 2 \\implies x = 1$$\n\n$$2 - 3y - 8 = -12 \\implies -3y = -6 \\implies y = 2$$\n\n**(ii)**\n\n$$m = \\begin{pmatrix} 2(1) + 1 \\\\ 2 - 3(2) \\end{pmatrix} = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$$\n\n> [!answer]\n> **(i)** {{green:$x = 1$}} and {{green:$y = 2$}}  **(ii)** {{green:$m = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$}}",
+    "hint": "Equal vectors have equal matching entries.",
+    "explanation": "## Advanced explanation\n\nDirectly, $m = (m + n) - n = \\begin{pmatrix} 3 \\\\ -4 \\end{pmatrix}$, and then $2x + 1 = 3$ and $2 - 3y = -4$ give the same values.\n\n## Simplified explanation\n\nThe top numbers give $2x + 7 = 9$, so $x = 1$. The bottom numbers give $-6 - 3y = -12$, so $y = 2$. Put these back into $m$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Vectors",
+      "Algebra"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "(i) Solve the inequality: $\\dfrac{3}{4}(x + 1) + 1 \\le \\dfrac{1}{2}(x - 2) + 5$\n\n(ii) Illustrate the answer in (i) on a number line. In your answer, describe the dot and the arrow.",
+    "media": [],
+    "answer": "**(i)** Multiply every term by 4:\n\n$$\n\\begin{aligned}\n3(x + 1) + 4 &\\le 2(x - 2) + 20 \\\\\n3x + 7 &\\le 2x + 16 \\\\\nx &\\le 9\n\\end{aligned}\n$$\n\n**(ii)** Put a solid dot at 9 and draw an arrow to the left.\n\n> [!answer]\n> **(i)** {{green:$x \\le 9$}}  **(ii)** {{green:Solid dot at 9, with an arrow to the left.}}",
+    "hint": "The LCM of 4 and 2 is 4. Multiply through by 4.",
+    "explanation": "## Advanced explanation\n\nCheck the boundary at $x = 9$: the left side is $7.5 + 1 = 8.5$ and the right side is $3.5 + 5 = 8.5$. A solid dot shows that 9 is included.\n\n## Simplified explanation\n\nMultiply by 4 to clear the fractions, and expand. Then $3x + 7 \\le 2x + 16$, and collecting terms gives $x \\le 9$.",
+    "difficulty": "medium",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Inequalities"
+    ]
+  },
+  {
+    "type": "text",
+    "body": "In the diagram, $\\overline{AB}$ is parallel to $\\overline{CD}$. Find the value of:\n\n(i) $x$;\n\n(ii) $y$.",
+    "media": [
+      {
+        "kind": "image",
+        "url": "/quizbank/bece/maths/2017/2017q6.png",
+        "caption": "Parallel lines AB and CD cut by a transversal. Where the transversal meets CD, a short line drops down, marking angles of 47° and 102° between CD, the short line and the transversal. Angle x is above CD at this point, and angle y is at the left of the crossing on AB."
+      }
+    ],
+    "answer": "**(i)** $x$ is vertically opposite the two marked angles together:\n\n$$x = 47^\\circ + 102^\\circ = 149^\\circ$$\n\n**(ii)** $y$ is a corresponding angle to the angle next to $x$ on line $CD$:\n\n$$y = 180^\\circ - 149^\\circ = 31^\\circ$$\n\n> [!answer]\n> **(i)** {{green:$x = 149^\\circ$}}  **(ii)** {{green:$y = 31^\\circ$}}",
+    "hint": "Look for the angle directly opposite $x$ where the two lines cross.",
+    "explanation": "## Advanced explanation\n\nThe lines $CD$ and the transversal form vertically opposite angles, so $x = 47^\\circ + 102^\\circ$. Since $AB \\parallel CD$, $y$ equals the angle between $DC$ and the transversal on the same side, which is $180^\\circ - x$.\n\n## Simplified explanation\n\nWhere the two lines cross, the angle opposite $x$ is the $47^\\circ$ and $102^\\circ$ together, so $x = 149$. Next to $x$ on the straight line is $31^\\circ$, and the parallel lines make $y$ the same.",
+    "difficulty": "hard",
+    "marks": 5,
+    "tags": [
+      "2017 Paper",
+      "Section B",
+      "Geometry"
+    ]
+  }
+]
