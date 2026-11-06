@@ -7,7 +7,8 @@ import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
 import type { ResultSetHeader, RowDataPacket } from "mysql2";
-import { requirePermission } from "../../middleware/require-auth.js";
+import { PAYMENT_CONTROL_ROLES } from "#/lib/permissions";
+import { requireAdminRole, requirePermission } from "../../middleware/require-auth.js";
 import { validate } from "../../lib/validate.js";
 import { optionalText } from "../../lib/fields.js";
 import { AppError } from "../../middleware/error-handler.js";
@@ -185,7 +186,7 @@ export const adminLeadgenRoute = new Hono()
     ]);
     return c.json({ items, counts: Object.fromEntries(counts.map((r) => [r.status, Number(r.n)])) });
   })
-  .post("/credit-requests/:id/approve", requirePermission("leadgen", "manage"), validate("json", z.object({ note: optionalText(300) })), async (c) => {
+  .post("/credit-requests/:id/approve", requireAdminRole(PAYMENT_CONTROL_ROLES), validate("json", z.object({ note: optionalText(300) })), async (c) => {
     const admin = c.get("admin");
     const r = await approveCreditRequest(Number(c.req.param("id")), admin.id, c.req.valid("json").note ?? null);
     notify(r.user_id, {
@@ -202,7 +203,7 @@ export const adminLeadgenRoute = new Hono()
     if (!status.startsWith("sent")) throw new AppError(`The SMS alert failed again (${status.replace(/^failed: /, "")}).`, 409);
     return c.json({ status });
   })
-  .post("/credit-requests/:id/reject", requirePermission("leadgen", "manage"), validate("json", z.object({ reason: z.string().trim().min(3).max(300) })), async (c) => {
+  .post("/credit-requests/:id/reject", requireAdminRole(PAYMENT_CONTROL_ROLES), validate("json", z.object({ reason: z.string().trim().min(3).max(300) })), async (c) => {
     const admin = c.get("admin");
     const { reason } = c.req.valid("json");
     const r = await rejectCreditRequest(Number(c.req.param("id")), admin.id, reason);

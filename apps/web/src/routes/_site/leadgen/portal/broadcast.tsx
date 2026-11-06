@@ -4,6 +4,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { z } from "zod";
 import { toast } from "sonner";
 import { AlertTriangle, CalendarClock, Coins, Loader2, Mail, MessageSquareText, Plus, Repeat, Send, Users, X } from "lucide-react";
+import { plainSmsText, smsLength } from "#/lib/sms-length";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { EmptyState, Loading } from "#/components/site/kit";
@@ -22,22 +23,6 @@ export const Route = createFileRoute("/_site/leadgen/portal/broadcast")({
   validateSearch: z.object({ voucher: z.string().optional().catch(undefined) }),
   component: Composer,
 });
-
-// Client-side mirror of the server's SMS segment count (GSM-7 vs Unicode).
-const GSM = "@£$¥èéùìòÇ\nØø\rÅåΔ_ΦΓΛΩΠΨΣΘΞÆæßÉ !\"#¤%&'()*+,-./0123456789:;<=>?¡ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÑÜ§¿abcdefghijklmnopqrstuvwxyzäöñüà";
-const GSM_EXT = "^{}\\[~]|€";
-function segments(text: string) {
-  let len = 0;
-  for (const ch of text) {
-    if (GSM.includes(ch)) len += 1;
-    else if (GSM_EXT.includes(ch)) len += 2;
-    else {
-      const u = [...text].length;
-      return { length: u, unicode: true, parts: u <= 70 ? 1 : Math.ceil(u / 67), limit: u <= 70 ? 70 : 67 * Math.ceil(u / 67) };
-    }
-  }
-  return { length: len, unicode: false, parts: len <= 160 ? 1 : Math.ceil(len / 153), limit: len <= 160 ? 160 : 153 * Math.ceil(len / 153) };
-}
 
 function Composer() {
   const { voucher } = Route.useSearch();
@@ -93,16 +78,18 @@ function Composer() {
   // message's cost is worked out right here as they type; sending re-checks it all.
   const est = useQuery({
     queryKey: ["leadgen", "estimate", channel, audience],
-    queryFn: () => api.post<{ recipients: number; invalid: number; optedOut: number; segments: number; perRecipient: number; cost: number; balance: number }>("/leadgen/portal/broadcasts/estimate", { channel, body: "", audience }),
+    queryFn: () => api.post<{ recipients: number; invalid: number; optedOut: number; segments: number; nameLength: number; perRecipient: number; cost: number; balance: number }>("/leadgen/portal/broadcasts/estimate", { channel, body: "", audience }),
     enabled: hasAudience,
     retry: false,
   });
-  const seg = segments(body);
+  const seg = smsLength(body, est.data?.nameLength);
+  const hasName = /\{name\}/i.test(body);
+  const tidied = plainSmsText(body) !== body;
   const quote = est.data && {
     ...est.data,
-    segments: seg.parts,
-    perRecipient: channel === "sms" ? Math.round(seg.parts * est.data.perRecipient * 100) / 100 : est.data.perRecipient,
-    cost: Math.round((channel === "sms" ? seg.parts * est.data.perRecipient : est.data.perRecipient) * est.data.recipients * 100) / 100,
+    segments: seg.segments,
+    perRecipient: channel === "sms" ? Math.round(seg.segments * est.data.perRecipient * 100) / 100 : est.data.perRecipient,
+    cost: Math.round((channel === "sms" ? seg.segments * est.data.perRecipient : est.data.perRecipient) * est.data.recipients * 100) / 100,
   };
   const send = useMutation({
     mutationFn: () =>
@@ -272,13 +259,24 @@ function Composer() {
               + Insert {"{name}"}
             </button>
             {channel === "sms" ? (
-              <span className={cn(seg.parts > 1 && "font-semibold text-amber-700")}>
-                {seg.length}/{seg.limit} characters · {seg.parts} SMS {seg.unicode ? "· Unicode (emoji/special characters)" : ""}
+              <span className={cn(seg.segments > 1 && "font-semibold text-amber-700")}>
+                {seg.length}/{seg.limit} characters · {seg.segments} SMS
               </span>
             ) : (
               <span>An unsubscribe link is added automatically.</span>
             )}
           </div>
+          {channel === "sms" && (seg.unicode || hasName || tidied) && (
+            <div className="mt-2 space-y-1 text-xs text-muted-foreground">
+              {seg.unicode && (
+                <p className="font-medium text-amber-700">
+                  {seg.specials.slice(0, 6).join(" ")} {seg.specials.length > 1 ? "are special characters, which limit" : "is a special character, which limits"} each SMS to 70 characters. Remove {seg.specials.length > 1 ? "them" : "it"} to fit 160.
+                </p>
+              )}
+              {hasName && <p>{"{name}"} counts as {est.data ? `${est.data.nameLength} characters, the longest first name in this audience` : "10 characters until you choose an audience"}.</p>}
+              {tidied && <p>Curly quotes, long dashes and ₵ are sent as plain ' " - and GHS, so they don't add to the cost.</p>}
+            </div>
+          )}
           <label className="mt-4 flex items-center gap-2 text-sm font-medium">
             <input type="checkbox" checked={schedule} onChange={(e) => setSchedule(e.target.checked)} className="accent-cyan-700" />
             <CalendarClock className="size-4" /> Schedule for later

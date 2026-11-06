@@ -2,11 +2,13 @@
 // private lead lists shared with chosen members (each until their own expiry
 // date), and confirming members' mobile money top-ups.
 import { useState } from "react";
+import { useRouteContext } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { ArrowLeft, Plus, Trash2, UserPlus, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { formatDate } from "#/lib/format";
+import { canControlPayments } from "#/lib/permissions";
 import { Field, Panel, SearchInput, Segmented, StatusPill, Switch, errorToast } from "#/components/admin/ui";
 import { DateCell, TitleCell } from "#/components/admin/cells";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
@@ -482,6 +484,8 @@ type RequestStatus = (typeof REQUEST_STATUSES)[number]["value"];
 // receiving wallet (the payee gets an SMS when one is claimed), then approve
 // to add the credits, or reject with a reason the member sees.
 export function CreditPayments() {
+  const { admin } = useRouteContext({ from: "/admin/_admin" });
+  const canConfirm = canControlPayments(admin.role);
   const [status, setStatus] = useState<RequestStatus>("submitted");
   const [q, setQ] = useState("");
   const { data, refetch } = useQuery({
@@ -560,7 +564,7 @@ export function CreditPayments() {
                   {r.handled_by_name && <p className="mt-1 text-muted-foreground">by {r.handled_by_name}</p>}
                 </td>
                 <td className="px-4 py-3 text-right whitespace-nowrap">
-                  {(r.status === "submitted" || r.status === "awaiting") && (
+                  {canConfirm && (r.status === "submitted" || r.status === "awaiting") && (
                     <div className="flex justify-end gap-1">
                       <Button
                         size="xs"

@@ -10,6 +10,7 @@
 // With MESSAGING_SIMULATE=true (ignored in production) and no credentials,
 // sends are logged and reported as successful so the whole flow can be tried
 // locally without spending real credit.
+import { firstName, plainSmsText, smsLength } from "#/lib/sms-length";
 import nodemailer from "nodemailer";
 import type { Transporter } from "nodemailer";
 
@@ -51,32 +52,6 @@ export function normalizeEmail(raw: unknown): string | null {
   return /^[^@\s]+@[^@\s]+\.[a-z]{2,}$/.test(s) && s.length <= 150 ? s : null;
 }
 
-// ---- SMS length -----------------------------------------------------------------------
-
-const GSM7 =
-  "@£$¥èéùìòÇ\nØø\rÅåΔ_ΦΓΛΩΠΨΣΘΞÆæßÉ !\"#¤%&'()*+,-./0123456789:;<=>?¡ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÑÜ§¿abcdefghijklmnopqrstuvwxyzäöñüà";
-const GSM7_EXT = "^{}\\[~]|€";
-
-// How many SMS segments a message uses: GSM-7 is 160 chars (153 per part when
-// split); anything else (emoji, many accents) is Unicode at 70 (67 per part).
-export function smsSegments(text: string): { segments: number; unicode: boolean; length: number } {
-  let gsmLen = 0;
-  let unicode = false;
-  for (const ch of text) {
-    if (GSM7.includes(ch)) gsmLen += 1;
-    else if (GSM7_EXT.includes(ch)) gsmLen += 2;
-    else {
-      unicode = true;
-      break;
-    }
-  }
-  if (unicode) {
-    const len = [...text].length;
-    return { segments: len <= 70 ? 1 : Math.ceil(len / 67), unicode, length: len };
-  }
-  return { segments: gsmLen <= 160 ? 1 : Math.ceil(gsmLen / 153), unicode, length: gsmLen };
-}
-
 // ---- SMS via SMSOnlineGH ---------------------------------------------------------------
 
 export interface SmsDestination {
@@ -102,12 +77,13 @@ export async function sendSms(sender: string, text: string, destinations: Array<
     }
     throw new Error("SMS isn't configured. Set SMSONLINEGH_API_KEY.");
   }
-  const personalised = /\{name\}/i.test(text);
+  const plain = plainSmsText(text);
+  const personalised = /\{name\}/i.test(plain);
   const body = {
-    text: personalised ? text.replace(/\{name\}/gi, "{$name}") : text,
-    type: smsSegments(text).unicode ? 1 : 0, // 0 = GSM default, 1 = Unicode
+    text: personalised ? plain.replace(/\{name\}/gi, "{$name}") : plain,
+    type: smsLength(plain).unicode ? 1 : 0, // 0 = GSM default, 1 = Unicode
     sender,
-    destinations: personalised ? destinations.map((d) => ({ number: d.number, values: [d.name?.split(/\s+/)[0] || "there"] })) : destinations.map((d) => d.number),
+    destinations: personalised ? destinations.map((d) => ({ number: d.number, values: [firstName(d.name)] })) : destinations.map((d) => d.number),
   };
   const res = await fetch(SMS_URL, {
     method: "POST",

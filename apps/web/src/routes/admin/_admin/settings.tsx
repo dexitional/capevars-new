@@ -252,7 +252,8 @@ function SettingsPage() {
                   title="Mobile money payments"
                   description="Wallets members can send money to by hand when buying credits. The number gets an SMS each time a payment is claimed; approve it under LeadGen → MoMo payments."
                 >
-                  <div className="space-y-2">
+                  {!canControlPayments(admin.role) && <p className="mb-3 text-sm text-muted-foreground">Only a super admin can change these accounts.</p>}
+                  <fieldset disabled={!canControlPayments(admin.role)} className="space-y-2">
                     {d.leadgen.momoAccounts.map((a, i) => {
                       const update = (patch: Partial<MomoAccount>) => set("leadgen", { momoAccounts: d.leadgen.momoAccounts.map((x, j) => (j === i ? { ...x, ...patch } : x)) });
                       return (
@@ -278,7 +279,7 @@ function SettingsPage() {
                         <Plus /> Add account
                       </Button>
                     )}
-                  </div>
+                  </fieldset>
                 </Panel>
               </>
             )}

@@ -14,7 +14,8 @@ import { randomCode } from "./codes.js";
 import { notify } from "./notify.js";
 import { money } from "./search.js";
 import { withTransaction } from "./tx.js";
-import { messagingStatus, normalizeEmail, normalizePhone, sendEmail, sendSms, smsSegments } from "./messaging.js";
+import { longestFirstName, smsLength } from "#/lib/sms-length";
+import { messagingStatus, normalizeEmail, normalizePhone, sendEmail, sendSms } from "./messaging.js";
 
 export type Channel = "sms" | "email";
 
@@ -413,11 +414,13 @@ export async function buildRecipients(userId: number, channel: Channel, accessId
   return { recipients, invalid, optedOut };
 }
 
-export async function estimate(channel: Channel, body: string, recipientCount: number) {
+export async function estimate(channel: Channel, body: string, recipients: Array<{ name: string | null }>) {
   const s = await leadgenSettings();
-  const seg = channel === "sms" ? smsSegments(body) : { segments: 1, unicode: false, length: body.length };
+  const recipientCount = recipients.length;
+  const nameLength = longestFirstName(recipients);
+  const seg = channel === "sms" ? smsLength(body, nameLength) : { segments: 1, unicode: false, length: body.length };
   const perRecipient = channel === "sms" ? seg.segments * s.smsCreditCost : s.emailCreditCost;
-  return { segments: seg.segments, unicode: seg.unicode, length: seg.length, perRecipient: money(perRecipient), cost: money(perRecipient * recipientCount) };
+  return { segments: seg.segments, unicode: seg.unicode, length: seg.length, nameLength, perRecipient: money(perRecipient), cost: money(perRecipient * recipientCount) };
 }
 
 // Creates the broadcast, reserves its full cost from the wallet and stores the
@@ -436,7 +439,7 @@ export async function createBroadcast(input: {
   scheduledAt: string | null;
 }) {
   if (!input.recipients.length) throw new AppError("There's nobody to send to. Pick a lead list or upload contacts.", 422);
-  const est = await estimate(input.channel, input.body, input.recipients.length);
+  const est = await estimate(input.channel, input.body, input.recipients);
   const id = await withTransaction(async (conn) => {
     const [res] = await conn.execute<ResultSetHeader>(
       `INSERT INTO broadcasts (user_id, series_id, channel, sender_id, sender_label, reply_to, subject, body, audience, recipient_count, units_per_message, cost_credits, status, scheduled_at)

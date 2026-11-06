@@ -559,7 +559,7 @@ export const leadgenRoute = new Hono()
     const accessIds = await resolveAudience(member.id, input.audience.accessIds, input.audience.vouchers);
     const s = await leadgenSettings();
     const r = await buildRecipients(member.id, input.channel, accessIds, input.audience.contacts, s.maxRecipients);
-    const est = await estimate(input.channel, input.body || " ", r.recipients.length);
+    const est = await estimate(input.channel, input.body || " ", r.recipients);
     return c.json({ recipients: r.recipients.length, invalid: r.invalid, optedOut: r.optedOut, ...est, balance: await walletBalance(member.id), accessIds });
   })
   .post("/portal/broadcasts", requireMember, validate("json", broadcastSchema), async (c) => {
