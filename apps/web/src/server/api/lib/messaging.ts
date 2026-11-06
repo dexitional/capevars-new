@@ -10,7 +10,7 @@
 // With MESSAGING_SIMULATE=true (ignored in production) and no credentials,
 // sends are logged and reported as successful so the whole flow can be tried
 // locally without spending real credit.
-import { firstName, plainSmsText, smsLength } from "#/lib/sms-length";
+import { firstName, plainFirstName, plainSmsText, smsLength } from "#/lib/sms-length";
 import nodemailer from "nodemailer";
 import type { Transporter } from "nodemailer";
 
@@ -79,11 +79,12 @@ export async function sendSms(sender: string, text: string, destinations: Array<
   }
   const plain = plainSmsText(text);
   const personalised = /\{name\}/i.test(plain);
+  const unicode = smsLength(plain).unicode;
   const body = {
     text: personalised ? plain.replace(/\{name\}/gi, "{$name}") : plain,
-    type: smsLength(plain).unicode ? 1 : 0, // 0 = GSM default, 1 = Unicode
+    type: unicode ? 1 : 0, // 0 = GSM default, 1 = Unicode
     sender,
-    destinations: personalised ? destinations.map((d) => ({ number: d.number, values: [firstName(d.name)] })) : destinations.map((d) => d.number),
+    destinations: personalised ? destinations.map((d) => ({ number: d.number, values: [unicode ? firstName(d.name) : plainFirstName(d.name)] })) : destinations.map((d) => d.number),
   };
   const res = await fetch(SMS_URL, {
     method: "POST",

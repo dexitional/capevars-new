@@ -26,9 +26,26 @@ export function plainSmsText(text: string) {
 
 export const firstName = (name: string | null | undefined) => name?.trim().split(/\s+/)[0] || "there";
 
+// Letters in Ghanaian and West African names that accents alone can't reduce to a plain one.
+const NAME_LETTERS: Record<string, string> = { ɔ: "o", Ɔ: "O", ɛ: "e", Ɛ: "E", ŋ: "n", Ŋ: "N", ɖ: "d", Ɖ: "D", ƒ: "f", Ƒ: "F", ɣ: "g", Ɣ: "G", ʋ: "v", Ʋ: "V", ɓ: "b", Ɓ: "B", ɗ: "d", Ɗ: "D", ƙ: "k", Ƙ: "K" };
+const fitsGsm7 = (ch: string) => GSM7.includes(ch) || GSM7_EXT.includes(ch);
+
+// A plain message can't carry letters like ɔ: they'd arrive garbled, and switching
+// to Unicode would cost more than the member was charged. So Kɔfi is sent as Kofi,
+// and a name with no plain spelling gets the same greeting as a contact with no name.
+export function plainFirstName(name: string | null | undefined) {
+  let plain = "";
+  for (const ch of plainSmsText(firstName(name))) {
+    const letter = fitsGsm7(ch) ? ch : (NAME_LETTERS[ch] ?? ch.normalize("NFD").replace(/\p{M}/gu, ""));
+    if (![...letter].every(fitsGsm7)) return firstName(null);
+    plain += letter;
+  }
+  return plain || firstName(null);
+}
+
 // The longest name {name} will become, so a message is never charged for less than it takes.
 export function longestFirstName(recipients: Array<{ name: string | null }>) {
-  return recipients.length ? recipients.reduce((longest, r) => Math.max(longest, firstName(r.name).length), 0) : DEFAULT_NAME_LENGTH;
+  return recipients.length ? recipients.reduce((longest, r) => Math.max(longest, firstName(r.name).length, plainFirstName(r.name).length), 0) : DEFAULT_NAME_LENGTH;
 }
 
 // GSM-7 fits 160 characters (153 per part when split). Anything else makes the
