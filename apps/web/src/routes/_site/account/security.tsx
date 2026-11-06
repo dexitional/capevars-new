@@ -7,20 +7,20 @@ import { useMember, useSession } from "#/hooks/useMember";
 import { Input } from "#/components/ui/input";
 import { Button } from "#/components/ui/button";
 import { Field } from "#/components/admin/ui";
+import { PhoneVerify } from "#/components/auth/phone-verify";
 
 export const Route = createFileRoute("/_site/account/security")({ component: SecurityPage });
 
 function SignInPhone() {
   const member = useMember()!;
   const { refresh } = useSession();
-  const [phone, setPhone] = useState(member.loginPhone ?? "");
+  const [changing, setChanging] = useState(false);
   const [currentPassword, setCurrent] = useState("");
-  const save = useMutation({
-    mutationFn: (value: string | null) => api.put("/me/login-phone", { phone: value, currentPassword }),
-    onSuccess: async (_r, value) => {
-      toast.success(value ? "You can now sign in with this number" : "Phone sign-in removed");
+  const remove = useMutation({
+    mutationFn: () => api.post("/me/login-phone/remove", { currentPassword: currentPassword || undefined }),
+    onSuccess: async () => {
+      toast.success("Phone sign-in removed");
       setCurrent("");
-      if (!value) setPhone("");
       await refresh();
     },
     onError: (e) => toast.error(e.message),
@@ -34,33 +34,46 @@ function SignInPhone() {
             You can sign in and reset your password with <strong>+{member.loginPhone}</strong>.
           </>
         ) : (
-          "Add a number to sign in and reset your password with it, as well as your email."
+          "Confirm a number to sign in and reset your password with it, as well as your email."
         )}
       </p>
-      <form
-        className="mt-5 space-y-4"
-        onSubmit={(e) => {
-          e.preventDefault();
-          save.mutate(phone.trim());
-        }}
-      >
-        <Field label="Phone number">
-          <Input type="tel" autoComplete="tel" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="024 123 4567" required />
-        </Field>
-        <Field label="Current password" hint="Needed because this number can reset your account.">
-          <Input type="password" autoComplete="current-password" value={currentPassword} onChange={(e) => setCurrent(e.target.value)} required />
-        </Field>
-        <div className="flex flex-wrap gap-2">
-          <Button type="submit" disabled={save.isPending}>
-            Save number
-          </Button>
-          {member.loginPhone && (
-            <Button type="button" variant="ghost" disabled={save.isPending || !currentPassword} onClick={() => save.mutate(null)}>
+      {member.loginPhone && !changing ? (
+        <form
+          className="mt-5 space-y-4"
+          onSubmit={(e) => {
+            e.preventDefault();
+            remove.mutate();
+          }}
+        >
+          {member.hasPassword && (
+            <Field label="Current password" hint="Needed to remove this number.">
+              <Input type="password" autoComplete="current-password" value={currentPassword} onChange={(e) => setCurrent(e.target.value)} />
+            </Field>
+          )}
+          <div className="flex flex-wrap gap-2">
+            <Button type="button" onClick={() => setChanging(true)}>
+              Change number
+            </Button>
+            <Button type="submit" variant="ghost" disabled={remove.isPending || (member.hasPassword && !currentPassword)}>
               Remove it
+            </Button>
+          </div>
+        </form>
+      ) : (
+        <div className="mt-5">
+          <PhoneVerify
+            onDone={() => {
+              setChanging(false);
+              toast.success("You can now sign in with this number");
+            }}
+          />
+          {changing && (
+            <Button type="button" variant="ghost" className="mt-2" onClick={() => setChanging(false)}>
+              Keep my current number
             </Button>
           )}
         </div>
-      </form>
+      )}
     </div>
   );
 }
@@ -108,7 +121,7 @@ function SecurityPage() {
           </Button>
         </form>
       </div>
-      {member.hasPassword && <SignInPhone />}
+      <SignInPhone />
     </div>
   );
 }

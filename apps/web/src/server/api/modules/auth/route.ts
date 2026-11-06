@@ -29,8 +29,7 @@ const secure = () => process.env.NODE_ENV === "production";
 export const registerSchema = z.object({
   fullName: z.string().trim().min(2, "Enter your full name").max(150),
   email: z.string().trim().toLowerCase().email("Enter a valid email").max(150),
-  // Optional: lets them sign in and reset their password by phone as well.
-  phone: z.string().trim().max(30).optional(),
+  phone: z.string().trim().min(1, "Enter your phone number").max(30),
   password: z.string().min(8, "Use at least 8 characters").max(200),
   memberType: z.enum(["public", "student", "business"]).default("public"),
 });
@@ -84,8 +83,15 @@ export const authRoute = new Hono()
   .get("/config", (c) => c.json({ google: Boolean(googleConfig()), devLogin: devLoginEnabled() }))
   .get("/me", optionalMember, (c) => c.json({ member: memberOrNull(c) }))
   .post("/register", validate("json", registerSchema), async (c) => {
-    const id = await service.register(c.req.valid("json"));
+    const input = c.req.valid("json");
+    const id = await service.register(input);
     await startMemberSession(c, id);
+    // Their account is ready either way, and the next step can always send another code.
+    const deliver = await service.issuePhoneCode(id, input.phone, service.clientAddress(c)).catch((err: unknown) => {
+      console.error("Couldn't start confirming a new member's phone:", err);
+      return null;
+    });
+    void deliver?.().catch((err: unknown) => console.error("Couldn't text a new member's code:", err));
     return c.json({ member: await loadSessionMember(id) }, 201);
   })
   .post("/login", validate("json", loginSchema), async (c) => {
@@ -179,7 +185,7 @@ export const authRoute = new Hono()
     });
     if ("error" in result) return fail(result.error);
     await startMemberSession(c, result.id);
-    return c.redirect(result.isNew ? `/welcome?next=${encodeURIComponent(next)}` : next, 302);
+    return c.redirect(result.isNew ? `/verify-phone?next=${encodeURIComponent(`/welcome?next=${encodeURIComponent(next)}`)}` : next, 302);
   })
   // Local development without Google credentials (MEMBER_DEV_LOGIN=true).
   .get("/dev", async (c) => {

@@ -32,6 +32,11 @@ export type AdminModule =
   | "users"
   | "activity";
 
+// Where members' money goes and whose payment counts: changing the receiving
+// account or confirming a payment is kept to super admins, whatever else a role can manage.
+export const PAYMENT_CONTROL_ROLES: Array<AdminRole> = ["super_admin"];
+export const canControlPayments = (role: AdminRole) => PAYMENT_CONTROL_ROLES.includes(role);
+
 export type Access = "view" | "manage";
 
 const ALL_MODULES: Array<AdminModule> = [

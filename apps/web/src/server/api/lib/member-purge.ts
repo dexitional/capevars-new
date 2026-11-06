@@ -64,6 +64,7 @@ const STEPS: Array<Step> = [
   { module: "Account", label: "reports they filed", table: "reports", where: "reporter_id = ?" },
   { module: "Account", label: "notifications", table: "notifications", where: "user_id = ? OR actor_id = ?" },
   { module: "Account", label: "password reset links", table: "password_resets", where: "user_id = ?", hidden: true },
+  { module: "Account", label: "phone confirmation codes", table: "phone_verifications", where: "user_id = ?", hidden: true },
   { module: "Account", label: "friendships and requests", table: "friendships", where: "requester_id = ? OR addressee_id = ?" },
   { module: "Account", label: "saved items", table: "favourites", where: "user_id = ?" },
   // ---- Marketplace --------------------------------------------------------------------------

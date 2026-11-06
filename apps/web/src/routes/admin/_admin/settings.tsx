@@ -9,7 +9,7 @@ import { MOMO_NETWORKS } from "#/lib/credits";
 import type { MomoAccount, MomoNetwork } from "#/lib/credits";
 import { SOCIAL_PLATFORMS } from "#/lib/settings";
 import type { SettingsKey, SiteSettings } from "#/lib/settings";
-import { canManage } from "#/lib/permissions";
+import { canControlPayments, canManage } from "#/lib/permissions";
 import { AdminPageHeader, Field, Panel, Switch, errorToast } from "#/components/admin/ui";
 import { ImageField } from "#/components/admin/media-fields";
 import { TagInput } from "#/components/site/tag-input";
@@ -50,7 +50,7 @@ function SettingsPage() {
   });
   if (!draft) return null;
   const set = <K extends SettingsKey>(key: K, value: Partial<SiteSettings[K]>) => setDraft({ ...draft, [key]: { ...draft[key], ...value } });
-  const editable = canManage(admin.role, "settings");
+  const editable = canManage(admin.role, "settings") && (group !== "quizbank" || canControlPayments(admin.role));
   const d = draft;
   return (
     <div className="space-y-6">
@@ -284,6 +284,7 @@ function SettingsPage() {
             )}
             {group === "quizbank" && (
               <Panel title="Subscription payments" description="The mobile money wallet members pay into for Quizbank courses, and which gets an SMS for each payment. A change applies to new payments; ones already started still show the wallet they were given.">
+                {!canControlPayments(admin.role) && <p className="mb-4 text-sm text-muted-foreground">Only a super admin can change this account.</p>}
                 <div className="grid gap-4 sm:grid-cols-3">
                   <Field label="Network">
                     <select

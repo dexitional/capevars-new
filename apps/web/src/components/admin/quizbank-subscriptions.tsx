@@ -1,7 +1,7 @@
 // Admin → OpenLearn → Quizbank → Subscriptions: who has paid for which course,
 // confirming mobile money payments, and the account the money goes to.
 import { useState } from "react";
-import { Link } from "@tanstack/react-router";
+import { Link, useRouteContext } from "@tanstack/react-router";
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { CheckCircle2, Clock, Crown, Loader2, Wallet } from "lucide-react";
@@ -9,6 +9,7 @@ import { api } from "#/lib/api-client";
 import { formatDate, formatDateTime } from "#/lib/format";
 import { formatMoney } from "#/lib/money";
 import { networkName } from "#/lib/credits";
+import { canControlPayments } from "#/lib/permissions";
 import { ConfirmDialog, SearchInput, Segmented, StatusPill, errorToast } from "#/components/admin/ui";
 import { TitleCell } from "#/components/admin/cells";
 import { Kpi } from "#/components/analytics/product-analytics";
@@ -21,6 +22,8 @@ const STATUSES = ["submitted", "awaiting", "approved", "rejected", "revoked", "c
 const LABEL: Record<string, string> = { submitted: "To confirm", awaiting: "Not paid yet", approved: "Approved", rejected: "Rejected", revoked: "Revoked", cancelled: "Cancelled" };
 
 export function QuizbankSubscriptions() {
+  const { admin } = useRouteContext({ from: "/admin/_admin" });
+  const canConfirm = canControlPayments(admin.role);
   const queryClient = useQueryClient();
   const [status, setStatus] = useState<string>("submitted");
   const [q, setQ] = useState("");
@@ -51,10 +54,15 @@ export function QuizbankSubscriptions() {
           <Kpi icon={CheckCircle2} label="Confirmed payments" value={formatMoney(data.revenue)} />
           <Kpi icon={Wallet} label="Paid into" value={data.account.number}>
             <span className="text-xs text-muted-foreground">
-              {networkName(data.account.network)} · {data.account.name} ·{" "}
-              <Link to="/admin/settings" className="font-semibold text-info underline">
-                change
-              </Link>
+              {networkName(data.account.network)} · {data.account.name}
+              {canConfirm && (
+                <>
+                  {" · "}
+                  <Link to="/admin/settings" className="font-semibold text-info underline">
+                    change
+                  </Link>
+                </>
+              )}
             </span>
           </Kpi>
         </div>
@@ -107,7 +115,7 @@ export function QuizbankSubscriptions() {
                 </td>
                 <td className="px-4 py-3 text-right">
                   <div className="flex flex-wrap justify-end gap-1">
-                    {["awaiting", "submitted"].includes(r.status) && (
+                    {canConfirm && ["awaiting", "submitted"].includes(r.status) && (
                       <>
                         <Button size="xs" disabled={act.isPending} onClick={() => act.mutate({ id: r.id, action: "approve" })} aria-label={`Confirm ${String(r.reference)}`}>
                           {act.isPending && act.variables.id === r.id && <Loader2 className="animate-spin" />} Confirm
@@ -122,7 +130,7 @@ export function QuizbankSubscriptions() {
                         Re-alert
                       </Button>
                     )}
-                    {r.status === "approved" && Boolean(r.is_active) && (
+                    {canConfirm && r.status === "approved" && Boolean(r.is_active) && (
                       <Button size="xs" variant="outline" className="text-destructive" onClick={() => setClosing({ row: r, action: "revoke" })} aria-label={`Revoke ${String(r.reference)}`}>
                         Revoke
                       </Button>

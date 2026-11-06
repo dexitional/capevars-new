@@ -10,7 +10,7 @@ import { validate } from "../../lib/validate.js";
 import { optionalText, optionalUrl } from "../../lib/fields.js";
 import { toColumns, updateSql } from "../../lib/columns.js";
 import { AppError } from "../../middleware/error-handler.js";
-import { passwordChangedNotice, usablePhone } from "../auth/service.js";
+import { clientAddress, confirmPhoneCode, passwordChangedNotice, phoneStatus, requestPhoneCode } from "../auth/service.js";
 import { PUBLIC_USER_COLUMNS } from "../../lib/members.js";
 import { presignSchema, presignUpload, registerSchema, registerUpload } from "../../lib/uploads.js";
 
@@ -109,16 +109,26 @@ export const meRoute = new Hono()
     if (hash) passwordChangedNotice(id, c.get("member").email);
     return c.json({ ok: true });
   })
-  // The number they sign in with, or null to stop using one. Needs their password, as it can reset the account.
-  .put("/login-phone", validate("json", z.object({ phone: z.string().trim().max(30).nullable(), currentPassword: z.string().min(1, "Enter your password") })), async (c) => {
-    const id = c.get("member").id;
+  // The number they sign in with only changes once they've confirmed a code texted to it.
+  .get("/phone", async (c) => c.json(await phoneStatus(c.get("member").id)))
+  .post("/phone/code", validate("json", z.object({ phone: z.string().trim().min(1, "Enter your phone number").max(30), currentPassword: z.string().optional() })), async (c) => {
     const { phone, currentPassword } = c.req.valid("json");
+    await requestPhoneCode(c.get("member").id, phone, currentPassword, clientAddress(c));
+    return c.json({ ok: true });
+  })
+  .post("/phone/verify", validate("json", z.object({ code: z.string().trim().regex(/^\d{6}$/, "Enter the 6-digit code") })), async (c) => {
+    const id = c.get("member").id;
+    await confirmPhoneCode(id, c.req.valid("json").code);
+    return c.json({ member: await loadSessionMember(id) });
+  })
+  // Stops signing in by phone. Needs their password, if they have one, as it changes how the account can be reset.
+  .post("/login-phone/remove", validate("json", z.object({ currentPassword: z.string().optional() })), async (c) => {
+    const id = c.get("member").id;
+    const { currentPassword } = c.req.valid("json");
     const [rows] = await getPool().execute<RowDataPacket[]>("SELECT password_hash FROM users WHERE id = ?", [id]);
     const hash = rows[0]?.password_hash as string | null;
-    if (!hash) throw new AppError("Set a password first. Phone sign-in needs one.", 409);
-    if (!(await bcrypt.compare(currentPassword, hash))) throw new AppError("Current password is incorrect.", 401);
-    const loginPhone = phone ? await usablePhone(phone, id) : null;
-    await getPool().execute("UPDATE users SET login_phone = ?, phone = COALESCE(phone, ?) WHERE id = ?", [loginPhone, phone, id]);
+    if (hash && !(currentPassword && (await bcrypt.compare(currentPassword, hash)))) throw new AppError("Current password is incorrect.", 401);
+    await getPool().execute("UPDATE users SET login_phone = NULL WHERE id = ?", [id]);
     return c.json({ member: await loadSessionMember(id) });
   })
   .get("/notifications", async (c) => {

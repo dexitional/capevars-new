@@ -24,6 +24,7 @@ import { Route as SiteSearchRouteImport } from './routes/_site/search'
 import { Route as SiteSellerRouteRouteImport } from './routes/_site/seller/route'
 import { Route as SiteSignupRouteImport } from './routes/_site/signup'
 import { Route as SiteSocialRouteRouteImport } from './routes/_site/social/route'
+import { Route as SiteVerifyPhoneRouteImport } from './routes/_site/verify-phone'
 import { Route as SiteWelcomeRouteImport } from './routes/_site/welcome'
 import { Route as AdminAdminRouteRouteImport } from './routes/admin/_admin/route'
 import { Route as AdminLoginRouteImport } from './routes/admin/login'
@@ -232,6 +233,11 @@ const SiteSignupRoute = SiteSignupRouteImport.update({
 const SiteSocialRouteRoute = SiteSocialRouteRouteImport.update({
   id: '/social',
   path: '/social',
+  getParentRoute: () => SiteRouteRoute,
+} as any)
+const SiteVerifyPhoneRoute = SiteVerifyPhoneRouteImport.update({
+  id: '/verify-phone',
+  path: '/verify-phone',
   getParentRoute: () => SiteRouteRoute,
 } as any)
 const SiteWelcomeRoute = SiteWelcomeRouteImport.update({
@@ -951,6 +957,7 @@ export interface FileRoutesByFullPath {
   '/reset-password': typeof SiteResetPasswordRoute
   '/search': typeof SiteSearchRoute
   '/signup': typeof SiteSignupRoute
+  '/verify-phone': typeof SiteVerifyPhoneRoute
   '/welcome': typeof SiteWelcomeRoute
   '/admin/login': typeof AdminLoginRoute
   '/api/$': typeof ApiSplatRoute
@@ -1092,6 +1099,7 @@ export interface FileRoutesByTo {
   '/reset-password': typeof SiteResetPasswordRoute
   '/search': typeof SiteSearchRoute
   '/signup': typeof SiteSignupRoute
+  '/verify-phone': typeof SiteVerifyPhoneRoute
   '/welcome': typeof SiteWelcomeRoute
   '/admin/login': typeof AdminLoginRoute
   '/api/$': typeof ApiSplatRoute
@@ -1241,6 +1249,7 @@ export interface FileRoutesById {
   '/_site/reset-password': typeof SiteResetPasswordRoute
   '/_site/search': typeof SiteSearchRoute
   '/_site/signup': typeof SiteSignupRoute
+  '/_site/verify-phone': typeof SiteVerifyPhoneRoute
   '/_site/welcome': typeof SiteWelcomeRoute
   '/admin/login': typeof AdminLoginRoute
   '/api/$': typeof ApiSplatRoute
@@ -1395,6 +1404,7 @@ export interface FileRouteTypes {
     | '/reset-password'
     | '/search'
     | '/signup'
+    | '/verify-phone'
     | '/welcome'
     | '/admin/login'
     | '/api/$'
@@ -1536,6 +1546,7 @@ export interface FileRouteTypes {
     | '/reset-password'
     | '/search'
     | '/signup'
+    | '/verify-phone'
     | '/welcome'
     | '/admin/login'
     | '/api/$'
@@ -1684,6 +1695,7 @@ export interface FileRouteTypes {
     | '/_site/reset-password'
     | '/_site/search'
     | '/_site/signup'
+    | '/_site/verify-phone'
     | '/_site/welcome'
     | '/admin/login'
     | '/api/$'
@@ -1933,6 +1945,13 @@ declare module '@tanstack/react-router' {
       path: '/social'
       fullPath: '/social'
       preLoaderRoute: typeof SiteSocialRouteRouteImport
+      parentRoute: typeof SiteRouteRoute
+    }
+    '/_site/verify-phone': {
+      id: '/_site/verify-phone'
+      path: '/verify-phone'
+      fullPath: '/verify-phone'
+      preLoaderRoute: typeof SiteVerifyPhoneRouteImport
       parentRoute: typeof SiteRouteRoute
     }
     '/_site/welcome': {
@@ -3233,6 +3252,7 @@ interface SiteRouteRouteChildren {
   SiteResetPasswordRoute: typeof SiteResetPasswordRoute
   SiteSearchRoute: typeof SiteSearchRoute
   SiteSignupRoute: typeof SiteSignupRoute
+  SiteVerifyPhoneRoute: typeof SiteVerifyPhoneRoute
   SiteWelcomeRoute: typeof SiteWelcomeRoute
   SiteIndexRoute: typeof SiteIndexRoute
   SiteUUsernameRoute: typeof SiteUUsernameRoute
@@ -3254,6 +3274,7 @@ const SiteRouteRouteChildren: SiteRouteRouteChildren = {
   SiteResetPasswordRoute: SiteResetPasswordRoute,
   SiteSearchRoute: SiteSearchRoute,
   SiteSignupRoute: SiteSignupRoute,
+  SiteVerifyPhoneRoute: SiteVerifyPhoneRoute,
   SiteWelcomeRoute: SiteWelcomeRoute,
   SiteIndexRoute: SiteIndexRoute,
   SiteUUsernameRoute: SiteUUsernameRoute,

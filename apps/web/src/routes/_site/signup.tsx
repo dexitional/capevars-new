@@ -28,7 +28,7 @@ export const Route = createFileRoute("/_site/signup")({
 const schema = z.object({
   fullName: z.string().trim().min(2, "Enter your full name"),
   email: z.string().trim().email("Enter a valid email"),
-  phone: z.string().trim().optional(),
+  phone: z.string().trim().min(1, "Enter your phone number"),
   password: z.string().min(8, "Use at least 8 characters"),
   memberType: z.enum(SIGNUP_CATEGORIES),
 });
@@ -47,7 +47,7 @@ function SignupPage() {
     mutationFn: (v: Values) => api.post("/auth/register", v),
     onSuccess: async () => {
       await refresh();
-      await navigate({ to: "/welcome", search: { next: safeNext(next) } });
+      await navigate({ to: "/verify-phone", search: { next: `/welcome?next=${encodeURIComponent(safeNext(next))}` } });
     },
     onError: (e) => setError("root", { message: e.message }),
   });
@@ -68,8 +68,8 @@ function SignupPage() {
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="phone">Phone number</Label>
-          <Input id="phone" type="tel" autoComplete="tel" className="h-11" placeholder="024 123 4567" {...register("phone")} />
-          <p className="text-xs text-muted-foreground">Lets you sign in and reset your password by phone as well.</p>
+          <Input id="phone" type="tel" autoComplete="tel" className="h-11" placeholder="024 123 4567" {...register("phone")} aria-invalid={Boolean(errors.phone)} />
+          {errors.phone ? <p className="text-xs text-destructive">{errors.phone.message}</p> : <p className="text-xs text-muted-foreground">We'll text you a code to confirm it. You can then sign in and reset your password with it too.</p>}
         </div>
         <div className="space-y-1.5">
           <Label htmlFor="password">Password</Label>

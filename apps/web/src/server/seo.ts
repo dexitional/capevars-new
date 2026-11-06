@@ -27,7 +27,7 @@ export function handleRobots(request: Request) {
     "User-agent: *",
     "Allow: /",
     // Accounts, tools and anything personal: nothing here belongs in search results.
-    ...["/admin", "/api/", "/account", "/seller", "/login", "/signup", "/welcome", "/forgot-password", "/reset-password", "/search", "/leadgen/portal", "/learn/kidilearn", "/learn/my", "/learn/teach", "/learn/quizbank/exam/", "/learn/quizbank/s/", "/learn/quizbank/bookmarks", "/*/study"].map((p) => `Disallow: ${p}`),
+    ...["/admin", "/api/", "/account", "/seller", "/login", "/signup", "/welcome", "/verify-phone", "/forgot-password", "/reset-password", "/search", "/leadgen/portal", "/learn/kidilearn", "/learn/my", "/learn/teach", "/learn/quizbank/exam/", "/learn/quizbank/s/", "/learn/quizbank/bookmarks", "/*/study"].map((p) => `Disallow: ${p}`),
     "",
     `Sitemap: ${baseUrl(request)}/sitemap.xml`,
     "",

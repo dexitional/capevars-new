@@ -9,7 +9,8 @@ import type { ResultSetHeader, RowDataPacket } from "mysql2";
 import type { PoolConnection } from "mysql2/promise";
 import { qbCourseSchema, qbQuestionSchema } from "#/lib/quizbank";
 import type { QbMedia } from "#/lib/quizbank";
-import { requirePermission } from "../../middleware/require-auth.js";
+import { PAYMENT_CONTROL_ROLES } from "#/lib/permissions";
+import { requireAdminRole, requirePermission } from "../../middleware/require-auth.js";
 import { validate } from "../../lib/validate.js";
 import { likePattern, pageQuerySchema, paging } from "../../lib/query.js";
 import { AppError } from "../../middleware/error-handler.js";
@@ -128,14 +129,14 @@ export const adminQuizbankRoute = new Hono()
       account: (setting[0] ? mergeSetting("quizbank", setting[0].value) : DEFAULT_SETTINGS.quizbank).momoAccount,
     });
   })
-  .post("/subscriptions/:id/approve", requirePermission("learn", "manage"), async (c) => {
+  .post("/subscriptions/:id/approve", requireAdminRole(PAYMENT_CONTROL_ROLES), async (c) => {
     const admin = c.get("admin");
     const r = await approveSubscription(Number(c.req.param("id")), admin.id, null);
     notify(r.user_id as number, { kind: "moderation", title: `Your payment was confirmed. ${r.course_title} is open`, link: courseLink });
     logActivity(admin.id, "approved", "qb_subscriptions", r.id as number, `Confirmed ${r.reference}: GHS ${r.amount_ghs} for "${r.course_title}"`);
     return c.json({ ok: true });
   })
-  .post("/subscriptions/:id/reject", requirePermission("learn", "manage"), validate("json", reasonSchema), async (c) => {
+  .post("/subscriptions/:id/reject", requireAdminRole(PAYMENT_CONTROL_ROLES), validate("json", reasonSchema), async (c) => {
     const admin = c.get("admin");
     const { reason } = c.req.valid("json");
     const r = await rejectSubscription(Number(c.req.param("id")), admin.id, reason);
@@ -143,7 +144,7 @@ export const adminQuizbankRoute = new Hono()
     logActivity(admin.id, "rejected", "qb_subscriptions", r.id as number, `Rejected ${r.reference} — ${reason}`);
     return c.json({ ok: true });
   })
-  .post("/subscriptions/:id/revoke", requirePermission("learn", "manage"), validate("json", reasonSchema), async (c) => {
+  .post("/subscriptions/:id/revoke", requireAdminRole(PAYMENT_CONTROL_ROLES), validate("json", reasonSchema), async (c) => {
     const admin = c.get("admin");
     const { reason } = c.req.valid("json");
     const r = await revokeSubscription(Number(c.req.param("id")), admin.id, reason);
