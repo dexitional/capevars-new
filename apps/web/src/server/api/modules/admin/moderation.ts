@@ -18,6 +18,7 @@ import { requireAdminRole, ANY_ADMIN } from "../../middleware/require-auth.js";
 import { AppError } from "../../middleware/error-handler.js";
 import { likePattern, paging, pageQuerySchema } from "../../lib/query.js";
 import { logActivity } from "../../lib/activity.js";
+import { leadgenSettings } from "../../lib/leadgen.js";
 import type { ActivityAction } from "../../lib/activity.js";
 import { notify } from "../../lib/notify.js";
 
@@ -416,6 +417,18 @@ export const ENTITIES: Record<string, Entity> = {
         set: { status: "rejected", status_reason: "$reason", reviewed_by: "$admin", reviewed_at: "$now" },
         log: "rejected",
         notify: { title: "Sender ID \"{title}\" was not approved", link: "/leadgen/portal/senders" },
+      },
+      // Back to awaiting review. Broadcasts waiting to go out move to the default
+      // sender, and repeating ones pause at their next send until it's approved again.
+      unapprove: {
+        label: "Un-approve",
+        set: { status: "pending", status_reason: "$reason", reviewed_by: "$admin", reviewed_at: "$now" },
+        log: "updated",
+        notify: { title: "Sender ID \"{title}\" is no longer approved", link: "/leadgen/portal/senders" },
+        after: async (row) => {
+          const settings = await leadgenSettings();
+          await getPool().execute("UPDATE broadcasts SET sender_label = ? WHERE sender_id = ? AND status IN ('scheduled', 'queued')", [row.channel === "sms" ? settings.defaultSmsSender : settings.defaultEmailSender, row.id]);
+        },
       },
     },
   },

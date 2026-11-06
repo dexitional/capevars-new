@@ -10,6 +10,8 @@ import { cn } from "#/lib/utils";
 import { EmptyState, Loading } from "#/components/site/kit";
 import { MAX_SENDS, REPEAT_UNITS, repeatLabel, sendsUntil } from "#/components/leadgen/repeat";
 import type { RepeatUnit } from "#/components/leadgen/repeat";
+import { ManualReceivers } from "#/components/leadgen/manual-receivers";
+import type { ManualReceiver } from "#/components/leadgen/manual-receivers";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Field } from "#/components/admin/ui";
@@ -37,6 +39,7 @@ function Composer() {
   const [voucherText, setVoucherText] = useState("");
   const [uploaded, setUploaded] = useState<{ name: string; contacts: Array<SheetContact> } | null>(null);
   const [showUpload, setShowUpload] = useState(false);
+  const [manual, setManual] = useState<Array<ManualReceiver>>([]);
   const [schedule, setSchedule] = useState(false);
   const [scheduledAt, setScheduledAt] = useState("");
   const [repeat, setRepeat] = useState(false);
@@ -71,8 +74,11 @@ function Composer() {
     }
   }, [lists, vouchers]);
 
-  const audience = useMemo(() => ({ accessIds, vouchers, contacts: uploaded?.contacts ?? [] }), [accessIds, vouchers, uploaded]);
-  const hasAudience = accessIds.length + vouchers.length + (uploaded?.contacts.length ?? 0) > 0;
+  const audience = useMemo(
+    () => ({ accessIds, vouchers, contacts: [...(uploaded?.contacts ?? []), ...manual.filter((r) => (channel === "sms" ? r.phone : r.email))] }),
+    [accessIds, vouchers, uploaded, manual, channel],
+  );
+  const hasAudience = accessIds.length + vouchers.length + audience.contacts.length > 0;
   // Working out the audience is the costly part (every contact, deduplicated and
   // checked against opt-outs), so it only happens when the audience changes. The
   // message's cost is worked out right here as they type; sending re-checks it all.
@@ -166,7 +172,7 @@ function Composer() {
               <Link to="/leadgen/browse" className="font-semibold underline">
                 Browse lists
               </Link>{" "}
-              or upload contacts below.
+              or add people below.
             </p>
           ) : (
             <ul className="max-h-72 space-y-2 overflow-y-auto">
@@ -243,6 +249,9 @@ function Composer() {
                 + Upload contacts from Excel/CSV for this broadcast
               </button>
             )}
+          </div>
+          <div className="mt-4">
+            <ManualReceivers channel={channel} value={manual} onChange={setManual} />
           </div>
         </section>
 

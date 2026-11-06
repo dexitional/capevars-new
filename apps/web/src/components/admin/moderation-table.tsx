@@ -49,8 +49,8 @@ export function prefetchModeration(queryClient: QueryClient, entity: string, sta
 }
 
 // Actions that tell the owner why — they open a reason box.
-const NEEDS_REASON = new Set(["reject", "suspend", "cancel", "hide", "archive", "paid"]);
-const DESTRUCTIVE = new Set(["reject", "suspend", "cancel", "hide", "archive", "block", "dismiss"]);
+const NEEDS_REASON = new Set(["reject", "unapprove", "suspend", "cancel", "hide", "archive", "paid"]);
+const DESTRUCTIVE = new Set(["reject", "unapprove", "suspend", "cancel", "hide", "archive", "block", "dismiss"]);
 
 // Hide actions that wouldn't change anything for this row.
 function applicable(action: string, row: Row) {
@@ -60,6 +60,8 @@ function applicable(action: string, row: Row) {
       return !["published", "approved"].includes(s ?? "");
     case "reject":
       return ["pending", "in_review", "requested", "draft"].includes(s ?? "");
+    case "unapprove":
+      return s === "approved";
     case "suspend":
       return s !== "suspended";
     case "activate":
@@ -232,7 +234,13 @@ export function ModerationTable({
         open={Boolean(pending)}
         onOpenChange={(o) => !o && setPending(null)}
         title={`${pending?.label ?? ""}: ${String(pending?.row.title ?? "")}`}
-        description={pending?.action === "paid" ? "Add the payment reference or a note (optional)." : "Tell the owner why. They'll see this message."}
+        description={
+          pending?.action === "paid"
+            ? "Add the payment reference or a note (optional)."
+            : pending?.action === "unapprove"
+              ? "Tell the owner why. They'll see this message. They can't choose this sender ID until it's approved again. Broadcasts waiting to go out switch to the default sender, repeating ones pause, and one already sending finishes under this name unless you cancel it under Broadcasts."
+              : "Tell the owner why. They'll see this message."
+        }
         confirmLabel={pending?.label ?? "Confirm"}
         destructive={pending ? DESTRUCTIVE.has(pending.action) : false}
         pending={act.isPending}
