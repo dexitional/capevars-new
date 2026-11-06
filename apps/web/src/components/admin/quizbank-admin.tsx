@@ -1,7 +1,7 @@
 // Admin → OpenLearn → Quizbank: courses (level, tags, exam defaults), the
 // question bank (choice or written questions with per-option hints, diagrams
-// and explanations, shareable across courses), JSON import, and moderation of
-// question discussions.
+// and explanations, shareable across courses), JSON import, moderation of
+// question discussions, and analytics on views and exams.
 import { useEffect, useState } from "react";
 import { keepPreviousData, useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
@@ -14,6 +14,7 @@ import { Field, SearchInput, Segmented, errorToast } from "#/components/admin/ui
 import { DateCell, StatusCell, TitleCell } from "#/components/admin/cells";
 import { ImageField } from "#/components/admin/media-fields";
 import { ModerationTable } from "#/components/admin/moderation-table";
+import { QuizbankAnalytics } from "#/components/admin/quizbank-analytics";
 import { TagInput } from "#/components/site/tag-input";
 import { Pager } from "#/components/site/kit";
 import { LevelBadge } from "#/components/quizbank/kit";
@@ -24,7 +25,7 @@ import { Textarea } from "#/components/ui/textarea";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "#/components/ui/dialog";
 
 type Row = Record<string, any>;
-type Tab = "courses" | "questions" | "discussions";
+type Tab = "courses" | "questions" | "discussions" | "analytics";
 const selectClass = "h-9 rounded-md border bg-white px-3 text-sm";
 const LETTERS = "ABCDEFGH";
 
@@ -706,6 +707,7 @@ export function QuizbankAdmin() {
           { value: "courses", label: "Courses & tags" },
           { value: "questions", label: "Question bank" },
           { value: "discussions", label: "Discussions" },
+          { value: "analytics", label: "Analytics" },
         ]}
       />
       {tab === "courses" && (
@@ -717,6 +719,7 @@ export function QuizbankAdmin() {
         />
       )}
       {tab === "questions" && <Questions courseId={courseId} setCourseId={setCourseId} />}
+      {tab === "analytics" && <QuizbankAnalytics />}
       {tab === "discussions" && (
         <ModerationTable
           key="qb-discussions"

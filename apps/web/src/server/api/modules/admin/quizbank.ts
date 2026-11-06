@@ -1,6 +1,6 @@
 // Admin authoring for OpenLearn Quizbank: courses (level, tags, exam
-// defaults), the question bank (a question can sit in several courses), and
-// JSON import of questions into a course.
+// defaults), the question bank (a question can sit in several courses), JSON
+// import of questions into a course, and analytics on views and exams.
 import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
@@ -16,6 +16,7 @@ import { logActivity } from "../../lib/activity.js";
 import { uniqueSlug } from "../../lib/slug.js";
 import { withTransaction } from "../../lib/tx.js";
 import { json, options, questionTags, recountCourses, setCourseTags, setQuestionTags, tagsFor } from "../../lib/quizbank.js";
+import { qbAnalytics, qbAnalyticsQuerySchema, qbCourseAnalytics } from "../../lib/quizbank-analytics.js";
 
 type QuestionInput = z.output<typeof qbQuestionSchema>;
 
@@ -90,6 +91,14 @@ function questionDetail(row: RowDataPacket, courseIds: Array<number>, tags: Arra
 }
 
 export const adminQuizbankRoute = new Hono()
+  // ---- Analytics -------------------------------------------------------------------------------
+  .get("/analytics", requirePermission("learn", "view"), validate("query", qbAnalyticsQuerySchema), async (c) => c.json(await qbAnalytics(c.req.valid("query").days)))
+  .get("/analytics/courses/:id", requirePermission("learn", "view"), validate("query", qbAnalyticsQuerySchema), async (c) => {
+    const id = Number(c.req.param("id"));
+    const [rows] = await getPool().execute<RowDataPacket[]>("SELECT id FROM qb_courses WHERE id = ?", [id]);
+    if (!rows[0]) throw new AppError("Course not found.", 404);
+    return c.json(await qbCourseAnalytics(id, c.req.valid("query").days));
+  })
   // ---- Courses ---------------------------------------------------------------------------------
   .get("/courses", requirePermission("learn", "view"), async (c) => {
     const q = (c.req.query("q") ?? "").trim();

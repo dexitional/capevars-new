@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { BookOpenCheck, Expand, Layers, Minimize2, Omega, Users } from "lucide-react";
+import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { asset } from "#/lib/asset";
 import { QB_DIFFICULTY, QB_LEVELS, QB_MAX_TEXT_ANSWER, mediaSrc } from "#/lib/quizbank";
@@ -47,6 +48,18 @@ export const LEVEL_STYLE: Record<keyof typeof QB_LEVELS, string> = {
 
 export const LETTERS = "ABCDEFGH";
 export const percent = (fraction: number | null | undefined) => (fraction === null || fraction === undefined ? "—" : `${Math.round(fraction * 100)}%`);
+
+// Counts a course page view for admin analytics, once per course per browser session.
+export function recordCourseView(courseId: number) {
+  try {
+    const key = `qb-viewed-${courseId}`;
+    if (sessionStorage.getItem(key)) return;
+    sessionStorage.setItem(key, "1");
+  } catch {
+    // Storage is blocked: it may count more than once, which beats not counting.
+  }
+  void api.post(`/learn/quizbank/courses/${courseId}/view`).catch(() => undefined);
+}
 
 export function LevelBadge({ level, className }: { level: keyof typeof QB_LEVELS; className?: string }) {
   return <span className={cn("inline-flex rounded-full px-2.5 py-0.5 text-[11px] font-bold tracking-wide uppercase", LEVEL_STYLE[level], className)}>{QB_LEVELS[level]}</span>;

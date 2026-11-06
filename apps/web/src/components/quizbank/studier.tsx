@@ -2,6 +2,7 @@
 // right option unveils the lesson behind it; a written question shows its model answer
 // and lesson straight away (written answers are only typed and marked in exams).
 import { useEffect, useState } from "react";
+import { Link } from "@tanstack/react-router";
 import { useMutation, useQuery } from "@tanstack/react-query";
 import { toast } from "sonner";
 import { ArrowLeft, ArrowRight, Brain, CheckCircle2, Eye, Lightbulb, Loader2, Tags, Timer, XCircle } from "lucide-react";
@@ -10,6 +11,7 @@ import { cn } from "#/lib/utils";
 import type { QbMark, QbPublicQuestion } from "#/lib/quizbank";
 import { Container } from "#/components/site/kit";
 import { Button } from "#/components/ui/button";
+import { BookmarkToggle } from "./bookmarks";
 import { LETTERS, Lesson, QuestionStem, SlideDown } from "./kit";
 import { RichText } from "./rich-text";
 import { DiscussionToggle } from "./discussion";
@@ -37,8 +39,8 @@ export function Studier({
   questions: Array<QbPublicQuestion>;
   position: number;
   positionUrl: string; // where progress is saved; "" for a one-off session
-  onExam: () => void;
-  examPending: boolean;
+  onExam?: () => void; // no exam button when left out
+  examPending?: boolean;
 }) {
   const [index, setIndex] = useState(position);
   const [states, setStates] = useState<Record<number, QState | undefined>>({});
@@ -102,9 +104,11 @@ export function Studier({
           <span className="flex items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1 text-xs font-bold text-amber-900">
             <Brain className="size-3.5" /> Study mode · no timer
           </span>
-          <Button size="sm" variant="outline" disabled={examPending} onClick={onExam}>
-            <Timer /> Take an exam
-          </Button>
+          {onExam && (
+            <Button size="sm" variant="outline" disabled={examPending} onClick={onExam}>
+              <Timer /> Take an exam
+            </Button>
+          )}
         </Container>
         {topics.length > 0 && (
           <Container className="flex flex-wrap items-center gap-1.5 pb-3 text-xs">
@@ -127,6 +131,17 @@ export function Studier({
           {solvedCount} answered correctly this session · {q.type === "choice" ? `keys A–${LETTERS[q.options.length - 1]} pick, ` : ""}← → move
         </p>
         <article className="rounded-3xl border bg-white p-5 shadow-sm sm:p-8">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            {q.origin ? (
+              <Link to="/learn/quizbank/c/$slug" params={{ slug: q.origin.slug }} className="flex min-w-0 items-center gap-1.5 text-xs font-semibold text-muted-foreground hover:text-primary">
+                {q.origin.code && <span className="shrink-0 rounded-md bg-secondary px-1.5 py-0.5 font-mono font-bold text-primary">{q.origin.code}</span>}
+                <span className="truncate">{q.origin.title}</span>
+              </Link>
+            ) : (
+              <span />
+            )}
+            <BookmarkToggle key={q.id} questionId={q.id} />
+          </div>
           <QuestionStem q={q} number={index + 1} total={total} />
           {q.hint && (
             <p className="mt-4 flex items-start gap-2 rounded-xl bg-amber-50 px-3 py-2 text-sm text-amber-900">

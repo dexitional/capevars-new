@@ -106,6 +106,7 @@ import { Route as SiteLearnKidilearnIndexRouteImport } from './routes/_site/lear
 import { Route as SiteLearnKidilearnFamilyRouteImport } from './routes/_site/learn/kidilearn/family'
 import { Route as SiteLearnKidilearnLoginRouteImport } from './routes/_site/learn/kidilearn/login'
 import { Route as SiteLearnQuizbankIndexRouteImport } from './routes/_site/learn/quizbank/index'
+import { Route as SiteLearnQuizbankBookmarksRouteImport } from './routes/_site/learn/quizbank/bookmarks'
 import { Route as SiteLearnTeachIndexRouteImport } from './routes/_site/learn/teach/index'
 import { Route as SiteLearnTeachIdRouteImport } from './routes/_site/learn/teach/$id'
 import { Route as SiteMarketExhibitionsIndexRouteImport } from './routes/_site/market/exhibitions/index'
@@ -644,6 +645,12 @@ const SiteLearnQuizbankIndexRoute = SiteLearnQuizbankIndexRouteImport.update({
   path: '/quizbank/',
   getParentRoute: () => SiteLearnRouteRoute,
 } as any)
+const SiteLearnQuizbankBookmarksRoute =
+  SiteLearnQuizbankBookmarksRouteImport.update({
+    id: '/quizbank/bookmarks',
+    path: '/quizbank/bookmarks',
+    getParentRoute: () => SiteLearnRouteRoute,
+  } as any)
 const SiteLearnTeachIndexRoute = SiteLearnTeachIndexRouteImport.update({
   id: '/teach/',
   path: '/teach/',
@@ -996,6 +1003,7 @@ export interface FileRoutesByFullPath {
   '/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
   '/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
   '/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
+  '/learn/quizbank/bookmarks': typeof SiteLearnQuizbankBookmarksRoute
   '/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -1129,6 +1137,7 @@ export interface FileRoutesByTo {
   '/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
   '/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
   '/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
+  '/learn/quizbank/bookmarks': typeof SiteLearnQuizbankBookmarksRoute
   '/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -1277,6 +1286,7 @@ export interface FileRoutesById {
   '/_site/learn/certificate/$code': typeof SiteLearnCertificateCodeRoute
   '/_site/learn/kidilearn/family': typeof SiteLearnKidilearnFamilyRoute
   '/_site/learn/kidilearn/login': typeof SiteLearnKidilearnLoginRoute
+  '/_site/learn/quizbank/bookmarks': typeof SiteLearnQuizbankBookmarksRoute
   '/_site/learn/teach/$id': typeof SiteLearnTeachIdRoute
   '/_site/market/exhibitions/$slug': typeof SiteMarketExhibitionsSlugRoute
   '/_site/market/food/$slug': typeof SiteMarketFoodSlugRoute
@@ -1425,6 +1435,7 @@ export interface FileRouteTypes {
     | '/learn/certificate/$code'
     | '/learn/kidilearn/family'
     | '/learn/kidilearn/login'
+    | '/learn/quizbank/bookmarks'
     | '/learn/teach/$id'
     | '/market/exhibitions/$slug'
     | '/market/food/$slug'
@@ -1558,6 +1569,7 @@ export interface FileRouteTypes {
     | '/learn/certificate/$code'
     | '/learn/kidilearn/family'
     | '/learn/kidilearn/login'
+    | '/learn/quizbank/bookmarks'
     | '/learn/teach/$id'
     | '/market/exhibitions/$slug'
     | '/market/food/$slug'
@@ -1705,6 +1717,7 @@ export interface FileRouteTypes {
     | '/_site/learn/certificate/$code'
     | '/_site/learn/kidilearn/family'
     | '/_site/learn/kidilearn/login'
+    | '/_site/learn/quizbank/bookmarks'
     | '/_site/learn/teach/$id'
     | '/_site/market/exhibitions/$slug'
     | '/_site/market/food/$slug'
@@ -2447,6 +2460,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteLearnQuizbankIndexRouteImport
       parentRoute: typeof SiteLearnRouteRoute
     }
+    '/_site/learn/quizbank/bookmarks': {
+      id: '/_site/learn/quizbank/bookmarks'
+      path: '/quizbank/bookmarks'
+      fullPath: '/learn/quizbank/bookmarks'
+      preLoaderRoute: typeof SiteLearnQuizbankBookmarksRouteImport
+      parentRoute: typeof SiteLearnRouteRoute
+    }
     '/_site/learn/teach/': {
       id: '/_site/learn/teach/'
       path: '/teach'
@@ -2955,6 +2975,7 @@ interface SiteLearnRouteRouteChildren {
   SiteLearnMyRoute: typeof SiteLearnMyRoute
   SiteLearnIndexRoute: typeof SiteLearnIndexRoute
   SiteLearnCertificateCodeRoute: typeof SiteLearnCertificateCodeRoute
+  SiteLearnQuizbankBookmarksRoute: typeof SiteLearnQuizbankBookmarksRoute
   SiteLearnTeachIdRoute: typeof SiteLearnTeachIdRoute
   SiteLearnQuizbankIndexRoute: typeof SiteLearnQuizbankIndexRoute
   SiteLearnTeachIndexRoute: typeof SiteLearnTeachIndexRoute
@@ -2972,6 +2993,7 @@ const SiteLearnRouteRouteChildren: SiteLearnRouteRouteChildren = {
   SiteLearnMyRoute: SiteLearnMyRoute,
   SiteLearnIndexRoute: SiteLearnIndexRoute,
   SiteLearnCertificateCodeRoute: SiteLearnCertificateCodeRoute,
+  SiteLearnQuizbankBookmarksRoute: SiteLearnQuizbankBookmarksRoute,
   SiteLearnTeachIdRoute: SiteLearnTeachIdRoute,
   SiteLearnQuizbankIndexRoute: SiteLearnQuizbankIndexRoute,
   SiteLearnTeachIndexRoute: SiteLearnTeachIndexRoute,

@@ -133,7 +133,7 @@ export async function countQuestions(courseIds: Array<number>, tagIds: Array<num
 }
 
 // Random for exams (up to `limit`); for study, course by course in authored order.
-export async function pickQuestionIds(courseIds: Array<number>, tagIds: Array<number>, order: "random" | "course", limit = 1000) {
+export async function pickQuestionIds(courseIds: Array<number>, tagIds: Array<number>, order: "random" | "course", limit = 5000) {
   if (!courseIds.length) return [];
   const f = questionFilter(courseIds, tagIds);
   const [rows] = await getPool().query<RowDataPacket[]>(

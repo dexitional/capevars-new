@@ -3,7 +3,7 @@
 // product/food split, catalogue health and (platform-wide) top stores.
 // One component for the seller dashboard (/seller/analytics) and the admin
 // products page (/admin/products/analytics). Charts are plain SVG.
-import { useState } from "react";
+import { useId, useState } from "react";
 import { keepPreviousData, useQuery } from "@tanstack/react-query";
 import { ArrowDownRight, ArrowUpRight, Eye, Loader2, MousePointerClick, Package, ShoppingBag, Store, TrendingUp, Utensils } from "lucide-react";
 import { api } from "#/lib/api-client";
@@ -42,7 +42,7 @@ const pct = (n: number | null) => (n === null ? "—" : `${(n * 100).toFixed(n <
 const shortDate = (d: string) => new Date(`${d}T00:00:00Z`).toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" });
 
 // Change vs the previous period. No baseline (0 before) shows as "new".
-function Delta({ now, before }: { now: number; before: number }) {
+export function Delta({ now, before }: { now: number; before: number }) {
   if (!before && !now) return <span className="text-xs text-muted-foreground">No activity</span>;
   if (!before) return <span className="text-xs font-semibold text-emerald-600">New this period</span>;
   const change = (now - before) / before;
@@ -56,7 +56,7 @@ function Delta({ now, before }: { now: number; before: number }) {
   );
 }
 
-function Kpi({ icon: Icon, label, value, children }: { icon: typeof Eye; label: string; value: string; children?: React.ReactNode }) {
+export function Kpi({ icon: Icon, label, value, children }: { icon: typeof Eye; label: string; value: string; children?: React.ReactNode }) {
   return (
     <div className="rounded-2xl border bg-white p-4">
       <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
@@ -72,40 +72,57 @@ function Kpi({ icon: Icon, label, value, children }: { icon: typeof Eye; label: 
 }
 
 // Area chart with a hover readout per day.
-function TrendChart({ data, metric }: { data: Array<Day>; metric: Metric }) {
-  const values = data.map((d) => d[metric]);
-  const max = Math.max(1, ...values);
+export function TrendChart<T extends { day: string }>({
+  data,
+  label,
+  value,
+  format,
+  scale,
+  readout,
+}: {
+  data: Array<T>;
+  label: string;
+  value: (d: T) => number;
+  format: (n: number) => string;
+  /** Labels the axis; left out for whole-number counts. */
+  scale?: (n: number) => string;
+  readout: (d: T) => React.ReactNode;
+}) {
+  const gradient = `fill-${useId().replace(/\W/g, "")}`;
+  const values = data.map(value);
+  const top = Math.max(1, ...values);
+  // Counts keep whole-number gridlines, so the top is rounded up to an even number.
+  const max = scale ? top : top + (top % 2);
   const W = 100;
   const H = 40;
   const step = data.length > 1 ? W / (data.length - 1) : W;
   const points = values.map((v, i) => [i * step, H - (v / max) * (H - 2) - 1] as const);
   const line = points.map(([x, y], i) => `${i ? "L" : "M"}${x.toFixed(2)} ${y.toFixed(2)}`).join(" ");
   const area = `${line} L${W} ${H} L0 ${H} Z`;
-  const fmt = METRICS[metric].format;
   const total = values.reduce((a, b) => a + b, 0);
   return (
     <div>
       <p className="text-sm text-muted-foreground">
-        {METRICS[metric].label} over the period: <span className="font-bold text-primary">{fmt(total)}</span>
+        {label} over the period: <span className="font-bold text-primary">{format(total)}</span>
       </p>
       <div className="relative mt-4 h-52">
         {/* Gridlines with the scale. */}
         {[1, 0.5, 0].map((f) => (
           <div key={f} className="absolute inset-x-0 flex items-center gap-2" style={{ top: `${(1 - f) * 100}%` }}>
             <span className="w-14 -translate-y-1/2 text-right text-[10px] text-muted-foreground tabular-nums">
-              {metric === "revenue" ? formatCompact(max * f) : Math.round(max * f)}
+              {scale ? scale(max * f) : Math.round(max * f)}
             </span>
             <span className="h-px flex-1 -translate-y-1/2 bg-border" />
           </div>
         ))}
         <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="absolute inset-y-0 right-0 left-16 h-full w-[calc(100%-4rem)]" aria-hidden="true">
           <defs>
-            <linearGradient id={`fill-${metric}`} x1="0" y1="0" x2="0" y2="1">
+            <linearGradient id={gradient} x1="0" y1="0" x2="0" y2="1">
               <stop offset="0%" stopColor="var(--brand-gold)" stopOpacity="0.45" />
               <stop offset="100%" stopColor="var(--brand-gold)" stopOpacity="0" />
             </linearGradient>
           </defs>
-          <path d={area} fill={`url(#fill-${metric})`} />
+          <path d={area} fill={`url(#${gradient})`} />
           <path d={line} fill="none" stroke="var(--primary)" strokeWidth="2" vectorEffect="non-scaling-stroke" strokeLinejoin="round" />
         </svg>
         {/* Hover columns: one per day, each with its own readout. */}
@@ -127,7 +144,7 @@ function TrendChart({ data, metric }: { data: Array<Day>; metric: Metric }) {
                 )}
               >
                 <span className="block font-semibold">{shortDate(d.day)}</span>
-                {formatMoney(d.revenue)} · {d.orders} orders · {d.units} units · {d.views} views
+                {readout(d)}
               </span>
             </div>
           ))}
@@ -249,7 +266,14 @@ export function ProductAnalyticsPanel({
               />
             </div>
             <div className="mt-4">
-              <TrendChart data={data.daily} metric={metric} />
+              <TrendChart
+                data={data.daily}
+                label={METRICS[metric].label}
+                value={(d) => d[metric]}
+                format={METRICS[metric].format}
+                scale={metric === "revenue" ? formatCompact : undefined}
+                readout={(d) => `${formatMoney(d.revenue)} · ${d.orders} orders · ${d.units} units · ${d.views} views`}
+              />
             </div>
           </div>
 

@@ -8,7 +8,7 @@ import { cn } from "#/lib/utils";
 import { formatDateTime } from "#/lib/format";
 import { useMember, useRequireMember } from "#/hooks/useMember";
 import { Container, Img, TextBlock } from "#/components/site/kit";
-import { LevelBadge, percent } from "#/components/quizbank/kit";
+import { LevelBadge, percent, recordCourseView } from "#/components/quizbank/kit";
 import type { QbCourseCard } from "#/components/quizbank/kit";
 import { ExamSettingsFields, clampSettings, useStartExam } from "#/components/quizbank/exam-settings";
 import type { ExamSettings } from "#/components/quizbank/exam-settings";
@@ -49,6 +49,10 @@ function CoursePage() {
   const [settings, setSettings] = useState<ExamSettings>({ examQuestions: 20, examMinutes: 30 });
   const [tagIds, setTagIds] = useState<Array<number>>([]);
   const [saving, setSaving] = useState(false);
+  const courseId = data?.course.id;
+  useEffect(() => {
+    if (courseId) recordCourseView(courseId);
+  }, [courseId]);
   const boardTags = data?.board?.tagIds.join(",");
   useEffect(() => {
     if (data) setSettings(clampSettings(data.board ?? { examQuestions: data.course.examQuestions, examMinutes: data.course.examMinutes }, data.course.questionCount));

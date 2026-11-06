@@ -2,7 +2,7 @@
 // the Study Board (each narrowed to chosen topic tags), build study sets that
 // mix courses and topics, sit timed exam simulations (marked on submit,
 // written answers by Claude), study question by question with hints and
-// explanations, and discuss each question.
+// explanations, bookmark questions to study together, and discuss each question.
 import { Hono } from "hono";
 import { z } from "zod";
 import { getPool } from "@cv/db";
@@ -213,17 +213,47 @@ async function variationList(userId: number) {
   );
 }
 
+const MAX_BOOKMARKS = 1000;
+
+// The member's bookmarked questions that are still live, newest first.
+async function bookmarkedIds(userId: number) {
+  const [rows] = await getPool().execute<RowDataPacket[]>(
+    `SELECT b.question_id FROM qb_bookmarks b JOIN qb_questions q ON q.id = b.question_id AND ${PUBLISHED_QUESTION}
+     WHERE b.user_id = ? AND EXISTS (SELECT 1 FROM qb_course_questions cq JOIN qb_courses c ON c.id = cq.course_id WHERE cq.question_id = q.id AND c.status = 'published')
+     ORDER BY b.created_at DESC, b.question_id DESC`,
+    [userId],
+  );
+  return rows.map((r) => r.question_id as number);
+}
+
+// A published course each question sits in, to show where it came from in a mix.
+async function questionOrigins(questionIds: Array<number>) {
+  const map = new Map<number, { slug: string; title: string; code: string | null }>();
+  if (!questionIds.length) return map;
+  const [rows] = await getPool().query<RowDataPacket[]>(
+    "SELECT cq.question_id, c.slug, c.title, c.code FROM qb_course_questions cq JOIN qb_courses c ON c.id = cq.course_id AND c.status = 'published' WHERE cq.question_id IN (?) ORDER BY c.id",
+    [questionIds],
+  );
+  for (const r of rows) if (!map.has(r.question_id)) map.set(r.question_id, { slug: r.slug, title: r.title, code: r.code });
+  return map;
+}
+
 export const quizbankRoute = new Hono()
   .use("*", optionalMember)
   // ---- Browse ----------------------------------------------------------------------------------
   .get("/home", async (c) => {
     const member = memberOrNull(c);
     const pool = getPool();
-    const [[levels], [tags]] = await Promise.all([
+    const [[levels], [tags], [popular]] = await Promise.all([
       pool.query<RowDataPacket[]>("SELECT level, COUNT(*) AS courses, SUM(question_count) AS questions FROM qb_courses WHERE status = 'published' GROUP BY level"),
       pool.query<RowDataPacket[]>(
         `SELECT t.name, t.slug, COUNT(*) AS n FROM qb_tags t JOIN qb_course_tags ct ON ct.tag_id = t.id JOIN qb_courses c ON c.id = ct.course_id AND c.status = 'published'
          GROUP BY t.id ORDER BY n DESC, t.name LIMIT 60`,
+      ),
+      pool.query<RowDataPacket[]>(
+        `SELECT c.slug, c.code, c.title, c.level, c.question_count FROM qb_courses c
+         WHERE c.status = 'published' AND c.code IS NOT NULL AND c.code <> '' AND c.question_count > 0
+         ORDER BY c.board_count DESC, (SELECT COUNT(*) FROM qb_attempts a WHERE a.course_id = c.id) DESC, c.question_count DESC, c.code LIMIT 12`,
       ),
     ]);
     let boardCount = 0;
@@ -234,6 +264,7 @@ export const quizbankRoute = new Hono()
     return c.json({
       levels: Object.fromEntries(levels.map((l) => [l.level, { courses: Number(l.courses), questions: Number(l.questions ?? 0) }])),
       tags: tags.map((t) => ({ name: t.name, slug: t.slug, count: Number(t.n) })),
+      popular: popular.map((p) => ({ slug: p.slug, code: p.code, title: p.title, level: p.level, questionCount: p.question_count })),
       boardCount,
     });
   })
@@ -259,11 +290,13 @@ export const quizbankRoute = new Hono()
       }
       const { limit, offset } = paging(q.page, q.pageSize);
       const pool = getPool();
+      // A search ranks code and title matches above ones found only in the description.
+      const rank = q.q ? [likePattern(q.q), likePattern(q.q)] : [];
       const [[items], [count]] = await Promise.all([
         pool.query<RowDataPacket[]>(
           `SELECT c.*, ${member ? "EXISTS (SELECT 1 FROM qb_board b WHERE b.course_id = c.id AND b.user_id = ?)" : "0"} AS on_board
-           FROM qb_courses c WHERE ${where.join(" AND ")} ORDER BY c.board_count DESC, c.title LIMIT ? OFFSET ?`,
-          [...(member ? [member.id] : []), ...params, limit, offset],
+           FROM qb_courses c WHERE ${where.join(" AND ")} ORDER BY ${rank.length ? "(c.code LIKE ? OR c.title LIKE ?) DESC, " : ""}c.board_count DESC, c.title LIMIT ? OFFSET ?`,
+          [...(member ? [member.id] : []), ...params, ...rank, limit, offset],
         ),
         pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS n FROM qb_courses c WHERE ${where.join(" AND ")}`, params),
       ]);
@@ -271,6 +304,20 @@ export const quizbankRoute = new Hono()
       return c.json({ items: items.map((r) => courseCard(r, tags)), total: Number(count[0]?.n ?? 0) });
     },
   )
+  // Sent by the course page itself: the course API also runs when a link is hovered, so it can't count views.
+  .post("/courses/:id/view", async (c) => {
+    const course = await publishedCourse("id", Number(c.req.param("id")));
+    const member = memberOrNull(c);
+    await Promise.all([
+      getPool().execute("INSERT INTO qb_course_daily_views (course_id, day, views, guest_views) VALUES (?, UTC_DATE(), 1, ?) ON DUPLICATE KEY UPDATE views = views + 1, guest_views = guest_views + ?", [
+        course.id,
+        member ? 0 : 1,
+        member ? 0 : 1,
+      ]),
+      ...(member ? [getPool().execute("INSERT INTO qb_course_member_views (course_id, user_id, day, views) VALUES (?, ?, UTC_DATE(), 1) ON DUPLICATE KEY UPDATE views = views + 1", [course.id, member.id])] : []),
+    ]);
+    return c.json({ ok: true });
+  })
   .get("/courses/:slug", async (c) => {
     const course = await publishedCourse("slug", c.req.param("slug"));
     const member = memberOrNull(c);
@@ -455,6 +502,25 @@ export const quizbankRoute = new Hono()
   })
   .post("/courses/:id/study/position", requireMember, validate("json", z.object({ position: z.number().int().min(0).max(100_000) })), async (c) => {
     await getPool().execute("UPDATE qb_board SET study_position = ? WHERE user_id = ? AND course_id = ?", [c.req.valid("json").position, c.get("member").id, Number(c.req.param("id"))]);
+    return c.json({ ok: true });
+  })
+  // ---- Bookmarks -------------------------------------------------------------------------------
+  .get("/bookmarks", requireMember, async (c) => c.json({ questionIds: await bookmarkedIds(c.get("member").id) }))
+  .get("/bookmarks/study", requireMember, async (c) => {
+    const ids = await bookmarkedIds(c.get("member").id);
+    const [questions, origins] = await Promise.all([questionsByIds(ids), questionOrigins(ids)]);
+    return c.json({ questions: questions.map((q) => ({ ...publicQuestion(q), origin: origins.get(q.id) })) });
+  })
+  .post("/bookmarks/:questionId", requireMember, async (c) => {
+    const member = c.get("member");
+    const q = await liveQuestion(Number(c.req.param("questionId")));
+    const [count] = await getPool().execute<RowDataPacket[]>("SELECT COUNT(*) AS n FROM qb_bookmarks WHERE user_id = ?", [member.id]);
+    if (Number(count[0]?.n) >= MAX_BOOKMARKS) throw new AppError(`You can keep up to ${MAX_BOOKMARKS} bookmarks. Remove one first.`, 409);
+    await getPool().execute("INSERT IGNORE INTO qb_bookmarks (user_id, question_id) VALUES (?, ?)", [member.id, q.id]);
+    return c.json({ ok: true });
+  })
+  .delete("/bookmarks/:questionId", requireMember, async (c) => {
+    await getPool().execute("DELETE FROM qb_bookmarks WHERE user_id = ? AND question_id = ?", [c.get("member").id, Number(c.req.param("questionId"))]);
     return c.json({ ok: true });
   })
   // ---- Study sets (variations) -------------------------------------------------------------------

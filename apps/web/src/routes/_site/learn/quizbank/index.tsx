@@ -4,17 +4,18 @@ import { Link, createFileRoute, useNavigate } from "@tanstack/react-router";
 import { keepPreviousData, useMutation, useQuery } from "@tanstack/react-query";
 import { z } from "zod";
 import { toast } from "sonner";
-import { BookOpenCheck, Brain, GraduationCap, Hash, LayoutDashboard, Loader2, Search, Settings2, Tags, Timer, X } from "lucide-react";
+import { ArrowRight, BookOpenCheck, Brain, Flame, GraduationCap, Hash, LayoutDashboard, Loader2, Search, Settings2, Tags, Timer, X } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { QB_LEVELS, QB_LEVEL_IDS } from "#/lib/quizbank";
 import type { QbLevel } from "#/lib/quizbank";
 import { useMember } from "#/hooks/useMember";
 import { CardGridSkeleton, Container, EmptyState, Pager, SectionHeader } from "#/components/site/kit";
-import { QbCourseTile, percent } from "#/components/quizbank/kit";
+import { LevelBadge, QbCourseTile, percent } from "#/components/quizbank/kit";
 import type { QbCourseCard } from "#/components/quizbank/kit";
 import { ExamSettingsDialog, useStartExam } from "#/components/quizbank/exam-settings";
 import { StudySets } from "#/components/quizbank/topics";
+import { BookmarksBar } from "#/components/quizbank/bookmarks";
 import { Button } from "#/components/ui/button";
 
 const search = z.object({
@@ -26,7 +27,7 @@ const search = z.object({
 type S = z.infer<typeof search>;
 
 type BoardItem = QbCourseCard & { settings: { examQuestions: number; examMinutes: number }; topics: Array<{ id: number; name: string }>; matching: number; studyPosition: number; examsTaken: number; best: number | null; last: number | null };
-type Home = { levels: Partial<Record<QbLevel, { courses: number; questions: number }>>; tags: Array<{ name: string; slug: string; count: number }>; boardCount: number };
+type Home = { levels: Partial<Record<QbLevel, { courses: number; questions: number }>>; tags: Array<{ name: string; slug: string; count: number }>; popular: Array<{ slug: string; code: string; title: string; level: QbLevel; questionCount: number }>; boardCount: number };
 
 export const Route = createFileRoute("/_site/learn/quizbank/")({
   validateSearch: search,
@@ -169,6 +170,7 @@ function useStepScroll(ref: RefObject<HTMLElement | null>, items: number, every 
 function QuizbankHome() {
   const s = Route.useSearch();
   const navigate = useNavigate({ from: Route.fullPath });
+  const goToCourse = useNavigate();
   const set = (patch: Partial<S>) => void navigate({ search: (p) => ({ ...p, page: undefined, ...patch }) });
   const member = useMember();
   const [q, setQ] = useState(s.q ?? "");
@@ -176,15 +178,67 @@ function QuizbankHome() {
   const { data: home } = useQuery({ queryKey: ["qb-home"], queryFn: () => api.get<Home>("/learn/quizbank/home"), staleTime: 60_000 });
   const tagRow = useRef<HTMLDivElement>(null);
   useStepScroll(tagRow, home?.tags.length ?? 0);
+  const popularRow = useRef<HTMLDivElement>(null);
+  useStepScroll(popularRow, home?.popular.length ?? 0);
   const { data, isFetching } = useQuery({
     queryKey: ["qb-courses", s],
     queryFn: () => api.get<{ items: Array<QbCourseCard>; total: number }>("/learn/quizbank/courses", { ...s, page, pageSize: 24 }),
     placeholderData: keepPreviousData,
   });
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(-1);
+  const input = useRef<HTMLInputElement>(null);
+  const resultsSection = useRef<HTMLDivElement>(null);
+  const panel = useRef<HTMLDivElement>(null);
+  const term = q.trim();
+  // Filters without a new history entry or moving the page, so typing feels like one search.
+  const sentTerm = useRef(s.q);
+  const applySearch = (value: string) => {
+    sentTerm.current = value || undefined;
+    void navigate({ search: (p) => ({ ...p, page: undefined, q: value || undefined }), replace: true, resetScroll: false });
+  };
+  // Runs on each keystroke, once the visitor pauses.
+  useEffect(() => {
+    if (term === (s.q ?? "")) return;
+    const timer = window.setTimeout(() => applySearch(term), 250);
+    return () => window.clearTimeout(timer);
+  }, [q]);
+  // The address changed some other way (a link, or Back), so the box follows it.
+  useEffect(() => {
+    if (s.q === sentTerm.current) return;
+    sentTerm.current = s.q;
+    setQ(s.q ?? "");
+  }, [s.q]);
+  const settled = term === (s.q ?? "") && !isFetching;
+  const suggestions = data?.items.slice(0, 6) ?? [];
+  // Brings the whole list into view, keeping the box clear of the sticky header.
+  useEffect(() => {
+    if (!open || !term || !panel.current || !input.current) return;
+    const below = panel.current.getBoundingClientRect().bottom + 16 - (window.visualViewport?.height ?? window.innerHeight);
+    const room = input.current.getBoundingClientRect().top - (document.querySelector("header")?.getBoundingClientRect().bottom ?? 0) - 16;
+    if (below > 0 && room > 0) window.scrollBy({ top: Math.min(below, room), behavior: "smooth" });
+  }, [open, Boolean(term), suggestions.length]);
+  const showAll = () => {
+    if (term !== (s.q ?? "")) applySearch(term);
+    setOpen(false);
+    resultsSection.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+  const onSearchKey = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Escape") setOpen(false);
+    else if ((e.key === "ArrowDown" || e.key === "ArrowUp") && term && suggestions.length) {
+      e.preventDefault();
+      setOpen(true);
+      setActive((i) => (e.key === "ArrowDown" ? (i + 1) % suggestions.length : (Math.max(i, 0) + suggestions.length - 1) % suggestions.length));
+    } else if (e.key === "Enter" && open && suggestions[active]) {
+      e.preventDefault();
+      void goToCourse({ to: "/learn/quizbank/c/$slug", params: { slug: suggestions[active].slug } });
+    }
+  };
   const totals = Object.values(home?.levels ?? {}).reduce((t, l) => ({ courses: t.courses + l.courses, questions: t.questions + l.questions }), { courses: 0, questions: 0 });
   return (
     <div className="pb-16">
-      <section className="relative overflow-hidden bg-linear-to-br from-[#041d40] via-[#1e2a78] to-[#4c1d95] text-white">
+      {/* Not overflow-hidden, and stacked above what follows: the live search results hang out of the bottom of the band. */}
+      <section className="relative z-10 bg-linear-to-br from-[#041d40] via-[#1e2a78] to-[#4c1d95] text-white">
         <div className="dot-grid absolute inset-0 opacity-40" aria-hidden="true" />
         <Container className="relative grid items-center gap-10 py-14 lg:grid-cols-[1.3fr_1fr]">
           <div>
@@ -195,17 +249,96 @@ function QuizbankHome() {
             <p className="mt-4 max-w-xl text-lg text-white/75">
               Past and practice questions for Tertiary, SHS, JHS, TVET and NVTI — sit timed exam simulations, or study each question with hints and clear explanations.
             </p>
-            <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                set({ q: q || undefined });
+            <div
+              className="relative mt-7 max-w-xl"
+              onBlur={(e) => {
+                if (!e.currentTarget.contains(e.relatedTarget)) setOpen(false);
               }}
-              className="mt-7 flex max-w-xl items-center gap-2 rounded-2xl bg-white p-2"
             >
-              <Search className="ml-3 size-5 text-muted-foreground" />
-              <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search a course, e.g. Core Maths, ECON 101" className="flex-1 bg-transparent py-2.5 text-foreground outline-none" />
-              <button className="rounded-xl bg-amber-400 px-5 py-2.5 text-sm font-bold text-[#041d40]">Search</button>
-            </form>
+              <form
+                onSubmit={(e) => {
+                  e.preventDefault();
+                  showAll();
+                }}
+                className="flex items-center gap-2 rounded-2xl bg-white p-2"
+              >
+                <Search className="ml-3 size-5 shrink-0 text-muted-foreground" />
+                <input
+                  ref={input}
+                  value={q}
+                  maxLength={100}
+                  onChange={(e) => {
+                    setQ(e.target.value);
+                    setOpen(true);
+                    setActive(-1);
+                  }}
+                  onFocus={() => setOpen(true)}
+                  onKeyDown={onSearchKey}
+                  placeholder="Search a course, e.g. Core Maths, ECON 101"
+                  role="combobox"
+                  aria-expanded={open && Boolean(term)}
+                  aria-controls="qb-search-results"
+                  aria-activedescendant={open && suggestions[active] ? `qb-search-${suggestions[active].id}` : undefined}
+                  aria-label="Search courses"
+                  autoComplete="off"
+                  className="min-w-0 flex-1 bg-transparent py-2.5 text-foreground outline-none"
+                />
+                {q && (
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setQ("");
+                      input.current?.focus();
+                    }}
+                    aria-label="Clear search"
+                    className="shrink-0 rounded-full p-1 text-muted-foreground hover:bg-secondary hover:text-primary"
+                  >
+                    <X className="size-4" />
+                  </button>
+                )}
+                <button className="shrink-0 rounded-xl bg-amber-400 px-5 py-2.5 text-sm font-bold text-[#041d40]">Search</button>
+              </form>
+              {open && term && (
+                // Keeps focus in the box while clicking here, so its blur doesn't close the list before the click lands.
+                <div ref={panel} className="absolute inset-x-0 top-full z-30 mt-2 overflow-hidden rounded-2xl border bg-white text-foreground shadow-xl" onMouseDown={(e) => e.preventDefault()}>
+                  {suggestions.length > 0 ? (
+                    <ul id="qb-search-results" role="listbox" aria-label="Matching courses" className={cn("max-h-[50vh] divide-y overflow-y-auto transition-opacity", !settled && "opacity-60")}>
+                      {suggestions.map((c, i) => (
+                        <li key={c.id} id={`qb-search-${c.id}`} role="option" aria-selected={i === active}>
+                          <Link to="/learn/quizbank/c/$slug" params={{ slug: c.slug }} tabIndex={-1} className={cn("flex items-center gap-3 px-4 py-2.5 hover:bg-secondary/60", i === active && "bg-secondary/60")}>
+                            <span className="min-w-0 flex-1">
+                              <span className="block truncate text-sm font-semibold text-primary">{c.title}</span>
+                              <span className="block truncate text-xs text-muted-foreground">
+                                {c.code && <span className="font-mono font-bold">{c.code} · </span>}
+                                {c.questionCount.toLocaleString()} question{c.questionCount === 1 ? "" : "s"}
+                              </span>
+                            </span>
+                            <LevelBadge level={c.level} className="shrink-0" />
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  ) : settled ? (
+                    <p id="qb-search-results" className="px-4 py-4 text-sm text-muted-foreground">
+                      No courses match “{term}”{s.level || s.tag ? " with the level or tag you've picked" : ""}.
+                    </p>
+                  ) : (
+                    <p id="qb-search-results" className="flex items-center gap-2 px-4 py-4 text-sm text-muted-foreground">
+                      <Loader2 className="size-4 animate-spin" /> Searching…
+                    </p>
+                  )}
+                  {suggestions.length > 0 && data && (
+                    <button type="button" onClick={showAll} className="flex w-full items-center justify-between gap-2 border-t bg-secondary/40 px-4 py-2.5 text-xs font-bold text-primary hover:bg-secondary">
+                      <span>
+                        {data.total > suggestions.length ? `See all ${data.total.toLocaleString()} results` : `${data.total.toLocaleString()} result${data.total === 1 ? "" : "s"}`}
+                        {s.level && ` in ${QB_LEVELS[s.level]}`}
+                      </span>
+                      <ArrowRight className="size-3.5" />
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
           <div className="grid grid-cols-2 gap-3">
             {[
@@ -227,10 +360,38 @@ function QuizbankHome() {
         </Container>
       </section>
 
+      {home && home.popular.length > 0 && (
+        <Container className="mt-6">
+          <h2 className="mb-2 flex items-center gap-1.5 text-sm font-black text-primary">
+            <Flame className="size-4 text-amber-500" aria-hidden="true" /> Popular course codes
+          </h2>
+          {/* One row that scrolls sideways on its own (useStepScroll), so the scrollbar is hidden. */}
+          <div ref={popularRow} className="relative flex gap-2 no-scrollbar overflow-x-auto py-0.5">
+            {home.popular.map((c) => (
+              <Link
+                key={c.slug}
+                to="/learn/quizbank/c/$slug"
+                params={{ slug: c.slug }}
+                title={c.title}
+                className="w-40 shrink-0 rounded-xl border bg-white px-3 py-2 transition-colors hover:border-primary/40 hover:bg-secondary/40"
+              >
+                <span className="block truncate font-mono text-xs font-bold text-primary">{c.code}</span>
+                <span className="mt-0.5 block truncate text-[11px] text-muted-foreground">{c.title}</span>
+              </Link>
+            ))}
+          </div>
+        </Container>
+      )}
+
       {member && (
         <Container className="mt-10">
           <SectionHeader title="My Study Board" />
           <StudyBoard />
+        </Container>
+      )}
+      {member && (
+        <Container className="mt-10">
+          <BookmarksBar />
         </Container>
       )}
       {member && (
@@ -240,6 +401,7 @@ function QuizbankHome() {
       )}
 
       <Container className="mt-10">
+        <div ref={resultsSection} className="scroll-mt-40" aria-hidden="true" />
         <SectionHeader title="Find a course" />
         <div className="flex flex-wrap gap-2" role="tablist" aria-label="Level">
           {[undefined, ...QB_LEVEL_IDS].map((level) => {
