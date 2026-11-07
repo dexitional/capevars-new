@@ -26,7 +26,14 @@ export type Art =
     }
   | { kind: 'chart'; start: number; focus: number }
   | { kind: 'compare'; a: number; b: number }
-  | { kind: 'balance'; left: string; right: string; equal: boolean }
+  | {
+      kind: 'balance'
+      left: string
+      right: string
+      equal: boolean
+      // Needed when the sides are things, not sums the drawing can add up.
+      heavier?: 'left' | 'right'
+    }
   | { kind: 'tenframe'; first: number; second: number; label?: string }
   | {
       kind: 'frame'
@@ -97,6 +104,9 @@ export type Art =
   // Coins by value in pesewas: 1, 5, 10, 20, 50 or 100 (one cedi).
   | { kind: 'coins'; coins: Array<number>; label?: string }
   | { kind: 'repeat'; items: Array<Motif | null>; label?: string }
+  | { kind: 'grid'; rows: number; cols: number; label?: string }
+  | { kind: 'angle'; degrees: number; label?: string }
+  | { kind: 'ruler'; cm: number; label?: string }
   | {
       kind: 'position'
       word: 'above' | 'below' | 'beside' | 'in front of' | 'behind' | 'inside'
@@ -180,6 +190,8 @@ export type Shape =
   | 'pentagon'
   | 'hexagon'
   | 'rhombus'
+  | 'parallelogram'
+  | 'trapezoid'
 
 export interface WorkedExample {
   title: string

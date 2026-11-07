@@ -552,11 +552,10 @@ function Compare({ id, art }: P & { art: Extract<Art, { kind: 'compare' }> }) {
 
 function Balance({ id, art }: P & { art: Extract<Art, { kind: 'balance' }> }) {
   // The heavier side goes down, as it would on a real scale.
-  const tilt = art.equal
-    ? 0
-    : sideValue(art.left) > sideValue(art.right)
-      ? -7
-      : 7
+  const heavier =
+    art.heavier ??
+    (sideValue(art.left) > sideValue(art.right) ? 'left' : 'right')
+  const tilt = art.equal ? 0 : heavier === 'left' ? -7 : 7
   return (
     <>
       <Table id={id} y={290} />
@@ -1107,6 +1106,20 @@ function SmallShape({
         {...style}
       />
     )
+  if (name === 'parallelogram')
+    return (
+      <polygon
+        points={`${x - r * 0.75},${y - r * 0.55} ${x + r * 1.15},${y - r * 0.55} ${x + r * 0.75},${y + r * 0.55} ${x - r * 1.15},${y + r * 0.55}`}
+        {...style}
+      />
+    )
+  if (name === 'trapezoid')
+    return (
+      <polygon
+        points={`${x - r * 0.55},${y - r * 0.55} ${x + r * 0.55},${y - r * 0.55} ${x + r * 1.1},${y + r * 0.55} ${x - r * 1.1},${y + r * 0.55}`}
+        {...style}
+      />
+    )
   if (name === 'rhombus')
     return (
       <polygon
@@ -1137,6 +1150,8 @@ const SHAPE_TONES = [
   '#d9628e',
 ]
 const SIDES: Record<Shape, string> = {
+  parallelogram: 'Opposite sides parallel',
+  trapezoid: 'One pair of parallel sides',
   rhombus: '4 equal sides, slanted',
   square: '4 equal sides',
   rectangle: '4 sides',
@@ -3769,6 +3784,140 @@ function Position({
   )
 }
 
+// Rows and columns of counters: an array for multiplying.
+function Grid({ id, art }: P & { art: Extract<Art, { kind: 'grid' }> }) {
+  const gap = Math.min(440 / art.cols, 220 / art.rows, 64)
+  const left = 320 - ((art.cols - 1) * gap) / 2
+  const top = 150 - ((art.rows - 1) * gap) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {Array.from({ length: art.rows * art.cols }, (_, i) => (
+        <Cap
+          key={i}
+          id={id}
+          x={left + (i % art.cols) * gap}
+          y={top + Math.floor(i / art.cols) * gap}
+          r={Math.min(gap * 0.36, 20)}
+          tone={Math.floor(i / art.cols)}
+        />
+      ))}
+      <Caption text={art.label ?? `${art.rows} rows of ${art.cols}`} y={318} />
+    </>
+  )
+}
+
+// Two arms meeting at a corner; a square marks a right angle.
+function Angle({ id, art }: P & { art: Extract<Art, { kind: 'angle' }> }) {
+  const cx = 220
+  const cy = 250
+  const [ex, ey] = polar(cx, cy, 200, 0.25 - art.degrees / 360)
+  const right = art.degrees === 90
+  return (
+    <>
+      <Paper id={id} />
+      <line
+        x1={cx}
+        y1={cy}
+        x2={cx + 240}
+        y2={cy}
+        stroke={INK}
+        strokeWidth="7"
+        strokeLinecap="round"
+      />
+      <line
+        x1={cx}
+        y1={cy}
+        x2={ex}
+        y2={ey}
+        stroke="#d9412f"
+        strokeWidth="7"
+        strokeLinecap="round"
+      />
+      {right ? (
+        <path
+          d={`M${cx + 34} ${cy}v-34h-34`}
+          fill="none"
+          stroke="#1f8a70"
+          strokeWidth="4"
+        />
+      ) : (
+        <path
+          d={`M${cx + 48} ${cy}A48 48 0 0 0 ${polar(cx, cy, 48, 0.25 - art.degrees / 360).join(' ')}`}
+          fill="none"
+          stroke="#1f8a70"
+          strokeWidth="4"
+        />
+      )}
+      <circle cx={cx} cy={cy} r="8" fill={INK} />
+      <Caption
+        text={
+          art.label ??
+          (right
+            ? 'A right angle (square corner)'
+            : art.degrees < 90
+              ? 'Smaller than a square corner'
+              : 'Bigger than a square corner')
+        }
+        y={318}
+      />
+    </>
+  )
+}
+
+function Ruler({ id, art }: P & { art: Extract<Art, { kind: 'ruler' }> }) {
+  const unit = 540 / Math.max(art.cm, 10)
+  return (
+    <>
+      <Table id={id} y={0} />
+      <g filter={`url(#${id}shadow)`}>
+        <rect
+          x="40"
+          y="150"
+          width={unit * Math.max(art.cm, 10) + 20}
+          height="78"
+          rx="4"
+          fill="#f6e7a6"
+          stroke="#b9a35a"
+        />
+        {Array.from({ length: Math.max(art.cm, 10) + 1 }, (_, i) => (
+          <g key={i}>
+            <line
+              x1={50 + i * unit}
+              y1="150"
+              x2={50 + i * unit}
+              y2={i % 5 === 0 ? 186 : 174}
+              stroke="#3a3a3a"
+              strokeWidth="2"
+            />
+            {i % (art.cm > 20 ? 5 : 1) === 0 && (
+              <text
+                x={50 + i * unit}
+                y="208"
+                textAnchor="middle"
+                fontSize={art.cm > 20 ? 14 : 16}
+                fill="#3a3a3a"
+              >
+                {i}
+              </text>
+            )}
+          </g>
+        ))}
+      </g>
+      <rect
+        x="50"
+        y="110"
+        width={unit * art.cm}
+        height="18"
+        rx="9"
+        fill="#d9412f"
+        filter={`url(#${id}shadow)`}
+      />
+      <Caption text={art.label ?? `${art.cm} cm`} y={300} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -3868,6 +4017,12 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Goods id={id} art={art} />
     case 'coins':
       return <Coins id={id} art={art} />
+    case 'grid':
+      return <Grid id={id} art={art} />
+    case 'angle':
+      return <Angle id={id} art={art} />
+    case 'ruler':
+      return <Ruler id={id} art={art} />
     case 'repeat':
       return <Repeat id={id} art={art} />
     case 'position':
