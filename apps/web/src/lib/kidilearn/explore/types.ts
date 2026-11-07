@@ -199,6 +199,9 @@ export type Pose =
   | 'liftBad'
   | 'raise'
   | 'pulse'
+  | 'sitUp'
+  | 'twist'
+  | 'hockey'
 
 export interface Figure {
   pose: Pose
@@ -207,7 +210,7 @@ export interface Figure {
   // Kit colour, and how broad the build is (about 0.85 to 1.25).
   kit?: number
   build?: number
-  holds?: 'ball' | 'racket' | 'box' | 'bottle' | 'lime'
+  holds?: 'ball' | 'racket' | 'box' | 'bottle' | 'lime' | 'stick'
   // A tick or a cross above the figure, for right and wrong ways.
   mark?: 'good' | 'bad'
 }

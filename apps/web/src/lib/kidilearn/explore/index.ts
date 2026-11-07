@@ -15,6 +15,7 @@ const COURSES: Record<string, () => Promise<{ guides: CourseGuides }>> = {
   'b5/history': () => import('./b5-history'),
   'b6/history': () => import('./b6-history'),
   'b5/pe': () => import('./b5-pe'),
+  'b6/pe': () => import('./b6-pe'),
 }
 
 export function hasGuides(level: string, subject: string) {

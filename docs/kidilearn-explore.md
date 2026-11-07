@@ -21,6 +21,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 6 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
+| Basic 6 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 
 The other courses still use their imported notes.
 
@@ -101,6 +102,8 @@ Scope for other subjects and levels has not yet been checked.
 - The PE curriculum says the body is “made of 75% water”. A child is closer to two-thirds water, so the guide says “more than half”.
 - The PE curriculum's high-jump explanation is garbled; the guide explains take-off and landing force plainly.
 - The PE curriculum's “back roll” steps describe a forward roll. No guide uses them.
+- The Basic 6 PE lessons carry malformed codes (such as B61.5.1.6), and lesson 18's title was cut to “With” (from “Discuss with learners the effects of drug addiction”). The guides use the curriculum's codes.
+- The Basic 6 PE curriculum lists the effects of drug addiction as “madness, uneasiness, death”. The guide describes harm to the body and mind without stigmatising words, says that people with an addiction need help, not mockery, and a test keeps the word out. Sit-ups are taught with bent knees and no pulling on the neck.
 
 ### Pictures
 

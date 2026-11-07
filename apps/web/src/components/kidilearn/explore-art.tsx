@@ -1799,6 +1799,10 @@ const POSES: Record<Pose, Joints> = {
   liftBad: { lean: 82, legs: [-2, -2, 3, 3], arms: [-4, -2, 2, 4] },
   raise: { lean: 0, legs: [-3, -3, 3, 3], arms: [-8, -4, 172, 178] },
   pulse: { lean: 0, legs: [-3, -3, 3, 3], arms: [62, 132, 56, 96] },
+  // Seated poses keep the feet level with the hips, so both rest on the ground.
+  sitUp: { lean: -40, legs: [135, 40, 138, 38], arms: [72, 88, 80, 96] },
+  twist: { lean: -6, legs: [90, 90, 118, 62], arms: [-30, -22, 74, 128] },
+  hockey: { lean: 38, legs: [-22, -28, 30, 12], arms: [30, 44, 40, 52] },
 }
 const SKINS = ['#6b3d24', '#8a5634', '#4f2c1a', '#7a4a2b']
 const KITS: Array<[string, string]> = [
@@ -2011,6 +2015,15 @@ function Person({ id, figure }: P & { figure: Figure }) {
             stroke="#4f7d22"
           />
         </g>
+      )}
+      {figure.holds === 'stick' && (
+        <path
+          d={`M${hand[0]} ${hand[1]}L${hand[0] + 34 * f} ${GROUND_Y - 10}q${6 * f} 8 ${16 * f} 2`}
+          fill="none"
+          stroke="#6b4a2b"
+          strokeWidth="6"
+          strokeLinecap="round"
+        />
       )}
       {figure.holds === 'ball' && (
         <circle
