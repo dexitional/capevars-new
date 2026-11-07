@@ -12,6 +12,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 3 Mathematics | 39 of 39 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 4 Mathematics | 41 of 41 | [Mathematics Curriculum for Primary Schools, B4–B6](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-UPPER-PRIMARY-B4-B6.pdf) |
+| Basic 5 Mathematics | 54 of 54 | [Mathematics Curriculum for Primary Schools, B4–B6](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-UPPER-PRIMARY-B4-B6.pdf) |
 | Basic 1 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 2 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 3 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
@@ -38,7 +39,8 @@ Checked against the Mathematics curriculum:
 - **Basic 1:** counting and comparing go to 100, but adding and subtracting stay within 20, which a test checks. Coins are 1, 5, 10, 20 and 50 pesewas and one cedi. Patterns have 2 to 4 repeating parts. Data has up to three categories.
 - **Basic 3:** counting and place value go to 10,000, while adding and subtracting stay within 1,000. Multiplication goes up to 5 × 5, which a test checks, with the chart to 9 × 9. Fractions are now written in symbols as well as words. Negative numbers go down to −10.
 - **Basic 4:** numbers go to 100,000, with rounding to the nearest 10, 100 and 1000. Roman numerals go to XXX. Factors go to 50, and multiplication facts to 12 × 12; a test checks that every written product has a factor of 12 or less, or a multiple of ten. Division is by one-digit numbers. Decimals go to hundredths, and percent is introduced as hundredths. Area is in cm² and m², and time includes the 24-hour clock.
-- **Basic 4 lessons have no codes:** the imported lessons carry no indicator codes, and each title joins two topics. Each guide names the indicator its lesson mainly teaches.
+- **Basic 5:** numbers go to 1,000,000, and Roman numerals to C. Factors and primes go to 100, with the HCF found by prime factorisation. Division is still by one-digit numbers, which a test checks. Fractions are added, subtracted and multiplied by whole numbers. Decimals go to thousandths. Algebra begins with letters for unknowns and simple expressions such as 3 × n + 2. Volume is counted in cubes, angles are measured with a protractor, and probability is described as impossible, possible or certain.
+- **Basic 4 and 5 lessons have no codes:** the imported lessons carry no indicator codes, and in Basic 4 each title joins two topics. Each guide names the indicator its lesson mainly teaches.
 - **Basic 2 numbers:** counting and place value go to 1000, and comparing goes to 100.
 - **Basic 2 money:** coins and notes up to at least 50 Ghana cedis.
 - **Basic 2 measuring:** non-standard units. Standard units are met only as a need.
@@ -90,6 +92,8 @@ Scope for other subjects and levels has not yet been checked.
 - The Basic 3 Mathematics compensation example for 48 − 19 gives 48 − 20 as 18 and the answer as 19. The correct values are 28 and 29.
 - The Mathematics curriculum's compensation example for 26 + 39 gives 26 + 40 as 76 and the answer as 75. The correct values are 66 and 65, and the guide uses them.
 - The Mathematics curriculum's Basic 4 rounding table gives 14,765 to the nearest ten as 14,970. The correct value is 14,770, and the guide uses it.
+- The Basic 5 Mathematics curriculum counts on in 500s from 15,290 as 15,790, 16,290, 17,290, missing 16,790. It gives 1 m³ as 100 cm × 100 cm × 10 cm (it is 100 cm on every side) and lists a 2 cm × 2 cm × 6 cm box among those holding 12 cubes (it holds 24). The guides use the correct values.
+- The Basic 5 Mathematics curriculum misprints some indicator codes: B5.1.2.1.1 appears twice (the second is multiplication, B5.1.2.2.1), the volume indicator is printed B5.3.3.2.2 between B5.3.2.2.1 and B5.3.2.2.3, and decimal rounding is printed “B5.1. 4.1.3”. The guides use the codes that fit the sequence.
 - The PE curriculum says the body is “made of 75% water”. A child is closer to two-thirds water, so the guide says “more than half”.
 - The PE curriculum's high-jump explanation is garbled; the guide explains take-off and landing force plainly.
 - The PE curriculum's “back roll” steps describe a forward roll. No guide uses them.

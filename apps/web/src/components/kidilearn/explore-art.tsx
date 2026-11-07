@@ -443,12 +443,9 @@ function Groups({ id, art }: P & { art: Extract<Art, { kind: 'groups' }> }) {
 }
 
 function Chart({ id, art }: P & { art: Extract<Art, { kind: 'chart' }> }) {
-  const near = new Map([
-    [art.focus - 10, 'above'],
-    [art.focus + 10, 'below'],
-    [art.focus - 1, 'left'],
-    [art.focus + 1, 'right'],
-  ])
+  const focus = art.focus ?? Number.NaN
+  const near = new Set([focus - 10, focus + 10, focus - 1, focus + 1])
+  const marked = new Set(art.marked)
   return (
     <>
       <Paper id={id} />
@@ -457,7 +454,7 @@ function Chart({ id, art }: P & { art: Extract<Art, { kind: 'chart' }> }) {
         const x = 44 + (i % 10) * 56
         const y = 30 + Math.floor(i / 10) * 60
         const focus = n === art.focus
-        const by = near.has(n)
+        const by = near.has(n) || marked.has(n)
         return (
           <g key={n}>
             <rect
@@ -912,6 +909,9 @@ function Cedis({ id, art }: P & { art: Extract<Art, { kind: 'cedis' }> }) {
 function Pattern({ id, art }: P & { art: Extract<Art, { kind: 'pattern' }> }) {
   const w = Math.min(560 / art.terms.length, 100)
   const left = 320 - (art.terms.length * w) / 2
+  // Long numbers shrink to stay inside their ball.
+  const size = (n: number | null) =>
+    Math.min(33, (w * 0.72) / (String(n ?? '?').length * 0.62))
   return (
     <>
       <Paper id={id} />
@@ -928,9 +928,9 @@ function Pattern({ id, art }: P & { art: Extract<Art, { kind: 'pattern' }> }) {
           />
           <text
             x={left + w * (i + 0.5)}
-            y="178"
+            y={166 + size(n) * 0.36}
             textAnchor="middle"
-            fontSize="33"
+            fontSize={size(n)}
             fontWeight="800"
             fill={n === null ? '#d9412f' : '#fff'}
             stroke={n === null ? undefined : '#00000055'}
@@ -4157,6 +4157,360 @@ function Bars({ id, art }: P & { art: Extract<Art, { kind: 'bars' }> }) {
   )
 }
 
+function DoubleBars({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'doubleBars' }> }) {
+  const most = Math.max(...art.rows.flatMap(([, a, b]) => [a, b]), 1)
+  const w = 460 / art.rows.length
+  const tones = ['#e45d4b', '#3f86c1']
+  return (
+    <>
+      <Paper id={id} />
+      <path d="M80 70V260H580" fill="none" stroke={INK} strokeWidth="3" />
+      {art.keys.map((key, k) => (
+        <g key={key}>
+          <rect
+            x={120 + k * 220}
+            y="22"
+            width="22"
+            height="22"
+            rx="4"
+            fill={tones[k]}
+          />
+          <text
+            x={150 + k * 220}
+            y="40"
+            fontSize="18"
+            fontWeight="700"
+            fill={INK}
+          >
+            {key}
+          </text>
+        </g>
+      ))}
+      {art.rows.map(([name, ...values], i) => (
+        <g key={name}>
+          {values.map((value, k) => {
+            const h = (value / most) * 165
+            const x = 96 + i * w + w * 0.12 + k * w * 0.38
+            return (
+              <g key={k}>
+                <rect
+                  x={x}
+                  y={260 - h}
+                  width={w * 0.36}
+                  height={h}
+                  fill={tones[k]}
+                  filter={`url(#${id}shadow)`}
+                />
+                <text
+                  x={x + w * 0.18}
+                  y={252 - h}
+                  textAnchor="middle"
+                  fontSize="16"
+                  fontWeight="800"
+                  fill={INK}
+                >
+                  {value}
+                </text>
+              </g>
+            )
+          })}
+          <text
+            x={96 + i * w + w * 0.5}
+            y="284"
+            textAnchor="middle"
+            fontSize="16"
+            fontWeight="700"
+            fill={INK}
+          >
+            {name}
+          </text>
+        </g>
+      ))}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+// A place-value table: headings above, one digit in each column.
+function PlaceValue({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'placeValue' }> }) {
+  const w = Math.min(540 / art.places.length, 110)
+  const left = 320 - (w * art.places.length) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {art.places.map(([name, digit], i) => (
+        <g key={i}>
+          <rect
+            x={left + i * w + 3}
+            y="60"
+            width={w - 6}
+            height="56"
+            rx="10"
+            fill={SHAPE_TONES[i % 6]}
+          />
+          <text
+            x={left + i * w + w / 2}
+            y="96"
+            textAnchor="middle"
+            fontSize={name.length > 5 ? 15 : 20}
+            fontWeight="800"
+            fill="#fff"
+          >
+            {name}
+          </text>
+          <rect
+            x={left + i * w + 3}
+            y="124"
+            width={w - 6}
+            height="110"
+            rx="10"
+            fill="#fffdf8"
+            stroke="#d6dee5"
+            strokeWidth="2"
+          />
+          <text
+            x={left + i * w + w / 2}
+            y="200"
+            textAnchor="middle"
+            fontSize={digit.length > 2 ? 40 : 58}
+            fontWeight="800"
+            fill={INK}
+          >
+            {digit}
+          </text>
+        </g>
+      ))}
+      <Caption text={art.label} y={300} />
+    </>
+  )
+}
+
+// Splits off the smallest prime factor at each step, until a prime is left.
+function FactorTree({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'factorTree' }> }) {
+  const splits: Array<[number, number]> = []
+  for (let n = art.n; ;) {
+    const p = [2, 3, 5, 7].find((q) => n % q === 0 && n !== q)
+    if (!p) break
+    splits.push([p, n / p])
+    n /= p
+  }
+  const step = Math.min(64, 215 / Math.max(splits.length, 1))
+  const dx = Math.min(62, 260 / Math.max(splits.length, 1))
+  const x0 = 320 - (splits.length * dx) / 2
+  const primes = [...splits.map(([p]) => p), splits.at(-1)?.[1] ?? art.n]
+  const node = (x: number, y: number, n: number, prime: boolean) => (
+    <g key={`${x}-${y}`}>
+      <circle
+        cx={x}
+        cy={y}
+        r="24"
+        fill={prime ? '#d9412f' : '#fffdf8'}
+        stroke={prime ? '#a52f22' : '#8b99a7'}
+        strokeWidth="3"
+      />
+      <text
+        x={x}
+        y={y + 8}
+        textAnchor="middle"
+        fontSize="22"
+        fontWeight="800"
+        fill={prime ? '#fff' : INK}
+      >
+        {n}
+      </text>
+    </g>
+  )
+  return (
+    <>
+      <Paper id={id} />
+      {splits.map(([p, rest], i) => {
+        const x = x0 + i * dx
+        const y = 40 + i * step
+        const last = i === splits.length - 1
+        return (
+          <g key={i}>
+            <path
+              d={`M${x} ${y}L${x - dx} ${y + step}M${x} ${y}L${x + dx} ${y + step}`}
+              stroke="#8b99a7"
+              strokeWidth="3"
+            />
+            {node(x - dx, y + step, p, true)}
+            {node(x + dx, y + step, rest, last)}
+          </g>
+        )
+      })}
+      {node(x0, 40, art.n, splits.length === 0)}
+      <Caption text={art.label ?? `${art.n} = ${primes.join(' × ')}`} y={322} />
+    </>
+  )
+}
+
+// A box built from unit cubes, drawn in isometric view.
+function Cubes({ id, art }: P & { art: Extract<Art, { kind: 'cubes' }> }) {
+  const { length: L, width: W, height: H } = art
+  const s = Math.min(500 / ((L + W) * 0.866), 250 / ((L + W) * 0.5 + H), 46)
+  const ox = 320 - ((L - W) / 2) * s * 0.866
+  const oy = 160 - ((L + W) * 0.5 * s - H * s) / 2
+  const at = (a: number, b: number, c: number) =>
+    `${ox + (a - b) * s * 0.866},${oy + (a + b) * s * 0.5 - c * s}`
+  const cubes = []
+  for (let i = 0; i < L; i++)
+    for (let j = 0; j < W; j++)
+      for (let k = 0; k < H; k++) cubes.push([i, j, k] as const)
+  cubes.sort((a, b) => a[0] + a[1] + a[2] - (b[0] + b[1] + b[2]))
+  return (
+    <>
+      <Paper id={id} />
+      <g stroke="#2f6f5b" strokeWidth={s > 24 ? 1.5 : 1} strokeLinejoin="round">
+        {cubes.map(([i, j, k]) => (
+          <g key={`${i}${j}${k}`}>
+            <polygon
+              points={`${at(i, j, k + 1)} ${at(i + 1, j, k + 1)} ${at(i + 1, j + 1, k + 1)} ${at(i, j + 1, k + 1)}`}
+              fill="#c8eadc"
+            />
+            <polygon
+              points={`${at(i + 1, j, k)} ${at(i + 1, j + 1, k)} ${at(i + 1, j + 1, k + 1)} ${at(i + 1, j, k + 1)}`}
+              fill="#5aa98f"
+            />
+            <polygon
+              points={`${at(i, j + 1, k)} ${at(i + 1, j + 1, k)} ${at(i + 1, j + 1, k + 1)} ${at(i, j + 1, k + 1)}`}
+              fill="#8fcab3"
+            />
+          </g>
+        ))}
+      </g>
+      <Caption
+        text={art.label ?? `${L} × ${W} × ${H} = ${L * W * H} cubes`}
+        y={330}
+      />
+    </>
+  )
+}
+
+const TONES = {
+  red: '#e45d4b',
+  blue: '#3f86c1',
+  yellow: '#f0b64a',
+  green: '#3f9e7c',
+}
+
+// A spinner with equal sectors and a pointer.
+function Spinner({ id, art }: P & { art: Extract<Art, { kind: 'spinner' }> }) {
+  const cx = 320
+  const cy = 160
+  const r = 120
+  const n = art.sectors.length
+  return (
+    <>
+      <Paper id={id} />
+      <circle
+        cx={cx}
+        cy={cy}
+        r={r + 8}
+        fill="#f6f1e4"
+        filter={`url(#${id}shadow)`}
+      />
+      {art.sectors.map((tone, i) => {
+        const [x1, y1] = polar(cx, cy, r, i / n)
+        const [x2, y2] = polar(cx, cy, r, (i + 1) / n)
+        return (
+          <path
+            key={i}
+            d={`M${cx} ${cy}L${x1} ${y1}A${r} ${r} 0 ${n === 1 ? 1 : 0} 1 ${x2} ${y2}Z`}
+            fill={TONES[tone]}
+            stroke="#fffdf8"
+            strokeWidth="3"
+          />
+        )
+      })}
+      <line
+        x1={cx}
+        y1={cy}
+        x2={polar(cx, cy, 96, 0.12)[0]}
+        y2={polar(cx, cy, 96, 0.12)[1]}
+        stroke={INK}
+        strokeWidth="9"
+        strokeLinecap="round"
+      />
+      <circle cx={cx} cy={cy} r="13" fill={INK} />
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+// A flag shape on squared paper and its mirror image.
+function Reflect({ id, art }: P & { art: Extract<Art, { kind: 'reflect' }> }) {
+  const size = 38
+  const left = 320 - 6 * size
+  const top = 40
+  const cells: Array<[number, number]> = [
+    [2, 0],
+    [2, 1],
+    [3, 1],
+    [2, 2],
+    [3, 2],
+    [4, 2],
+    [2, 3],
+    [2, 4],
+    [2, 5],
+  ]
+  return (
+    <>
+      <Paper id={id} />
+      {Array.from({ length: 72 }, (_, i) => (
+        <rect
+          key={i}
+          x={left + (i % 12) * size}
+          y={top + Math.floor(i / 12) * size}
+          width={size}
+          height={size}
+          fill="#ffffff"
+          stroke="#d6dee5"
+        />
+      ))}
+      {cells.map(([c, r]) => (
+        <g key={`${c}-${r}`}>
+          <rect
+            x={left + c * size}
+            y={top + r * size}
+            width={size}
+            height={size}
+            fill="#e45d4b"
+            stroke="#a52f22"
+          />
+          <rect
+            x={left + (11 - c) * size}
+            y={top + r * size}
+            width={size}
+            height={size}
+            fill="#3f86c1"
+            stroke="#2a5d88"
+          />
+        </g>
+      ))}
+      <line
+        x1="320"
+        y1={top - 12}
+        x2="320"
+        y2={top + 6 * size + 12}
+        stroke={INK}
+        strokeWidth="4"
+        strokeDasharray="10 7"
+      />
+      <Caption text={art.label ?? 'The mirror line is dashed'} y={330} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -4276,6 +4630,18 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Repeat id={id} art={art} />
     case 'position':
       return <Position id={id} art={art} />
+    case 'doubleBars':
+      return <DoubleBars id={id} art={art} />
+    case 'placeValue':
+      return <PlaceValue id={id} art={art} />
+    case 'factorTree':
+      return <FactorTree id={id} art={art} />
+    case 'cubes':
+      return <Cubes id={id} art={art} />
+    case 'spinner':
+      return <Spinner id={id} art={art} />
+    case 'reflect':
+      return <Reflect id={id} art={art} />
   }
 }
 

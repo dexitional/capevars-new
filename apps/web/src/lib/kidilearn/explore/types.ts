@@ -24,7 +24,8 @@ export type Art =
       left?: number
       label?: string
     }
-  | { kind: 'chart'; start: number; focus: number }
+  // Fifty numbers from start; focus lights its neighbours, marked are shaded.
+  | { kind: 'chart'; start: number; focus?: number; marked?: Array<number> }
   | { kind: 'compare'; a: number; b: number }
   | {
       kind: 'balance'
@@ -126,9 +127,29 @@ export type Art =
   | { kind: 'fractionLine'; parts: number; mark: number; label?: string }
   | { kind: 'bars'; rows: Array<[string, number]>; label?: string }
   | {
+      kind: 'doubleBars'
+      keys: [string, string]
+      rows: Array<[string, number, number]>
+      label?: string
+    }
+  // Column headings and digits, such as ['Th', '4'] or ['Tenths', '7'].
+  | { kind: 'placeValue'; places: Array<[string, string]>; label?: string }
+  | { kind: 'factorTree'; n: number; label?: string }
+  | {
+      kind: 'cubes'
+      length: number
+      width: number
+      height: number
+      label?: string
+    }
+  | { kind: 'spinner'; sectors: Array<Tone>; label?: string }
+  | { kind: 'reflect'; label?: string }
+  | {
       kind: 'position'
       word: 'above' | 'below' | 'beside' | 'in front of' | 'behind' | 'inside'
     }
+
+export type Tone = 'red' | 'blue' | 'yellow' | 'green'
 
 export type Solid =
   'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid' | 'box' | 'prism'

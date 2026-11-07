@@ -171,10 +171,12 @@ const FRACTION_WORDS: Record<string, string> = {
 // What a voice should read, which is not always what the screen shows.
 export function speakable(text: string) {
   return text
+    .replace(/☐/g, ' box ')
     .replace(/\p{Extended_Pictographic}/gu, '')
     .replace(/‍|️/g, '')
-    .replace(/\b(\d+)\/(\d+)\b/g, (all, a, b) =>
-      FRACTION_WORDS[all] ?? `${a} over ${b}`,
+    .replace(
+      /\b(\d+)\/(\d+)\b/g,
+      (all, a, b) => FRACTION_WORDS[all] ?? `${a} over ${b}`,
     )
     .replace(/GH₵\s?([\d.,]+)/g, '$1 Ghana cedis')
     .replace(/₵\s?([\d.,]+)/g, '$1 Ghana cedis')
@@ -184,7 +186,13 @@ export function speakable(text: string) {
     .replace(/\((-?\d+)\)/g, '$1')
     .replace(/_{2,}/g, ' blank ')
     .replace(/(^|[\s(])[-−](?=\d)/g, '$1minus ')
+    .replace(
+      /\b(c?m)([²³])/g,
+      (_, unit: string, power: string) =>
+        `${power === '²' ? 'square' : 'cubic'} ${unit === 'cm' ? 'centimetres' : 'metres'}`,
+    )
     .replace(/(\w)²/g, '$1 squared')
+    .replace(/(\w)³/g, '$1 cubed')
     .replace(/\s*[×]\s*/g, ' times ')
     .replace(/\s*÷\s*/g, ' divided by ')
     .replace(/(\d)\s*[-−–]\s*(\d)/g, '$1 minus $2')
