@@ -114,7 +114,7 @@ export type Art =
   | { kind: 'grid'; rows: number; cols: number; label?: string }
   | { kind: 'angle'; degrees: number; label?: string }
   | { kind: 'ruler'; cm: number; label?: string }
-  | { kind: 'compass'; label?: string }
+  | { kind: 'compass'; eight?: boolean; label?: string }
   | { kind: 'symmetry'; shape: 'butterfly' | 'house' | 'leaf'; label?: string }
   // Square units; with shaded, also tenths or hundredths of a whole.
   | {
@@ -142,8 +142,25 @@ export type Art =
       height: number
       label?: string
     }
-  | { kind: 'spinner'; sectors: Array<Tone>; label?: string }
-  | { kind: 'reflect'; label?: string }
+  | {
+      kind: 'spinner'
+      sectors: Array<Tone>
+      // Numbers the sectors 1, 2, 3 and so on.
+      numbered?: boolean
+      label?: string
+    }
+  | { kind: 'reflect'; move?: 'reflect' | 'translate'; label?: string }
+  | {
+      kind: 'numberLine'
+      from: number
+      to: number
+      marks: Array<number>
+      label?: string
+    }
+  | { kind: 'lineGraph'; points: Array<[string, number]>; label?: string }
+  | { kind: 'net'; solid: 'box' | 'prism'; label?: string }
+  // Rows of counters, one row for each part of a ratio.
+  | { kind: 'ratio'; parts: Array<[string, number]>; label?: string }
   | {
       kind: 'position'
       word: 'above' | 'below' | 'beside' | 'in front of' | 'behind' | 'inside'

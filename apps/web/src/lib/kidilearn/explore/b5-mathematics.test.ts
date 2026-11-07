@@ -77,7 +77,7 @@ test('every calculation written is correct', () => {
   const side = String.raw`${num}(?:\s*[+−×÷/]\s*${num})*`
   // Sentences with an unknown (☐ + 5 = −11, p + 9 = 24) are left out.
   const chain = new RegExp(
-    String.raw`(?<![\d.]|[+−×÷/]\s*)${side}(?:\s*=\s*${side})+(?!\s*[+−×÷/])`,
+    String.raw`(?<![\d.]|[+−×÷/]\s*)${side}(?:\s*=\s*${side})+(?!\d|\.\d|\s*[+−×÷/])`,
     'g',
   )
   const value = (text: string) => {

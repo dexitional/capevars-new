@@ -3944,6 +3944,14 @@ function Compass({ id, art }: P & { art: Extract<Art, { kind: 'compass' }> }) {
     ['S', 0.5],
     ['W', 0.75],
   ] as const
+  const between = art.eight
+    ? ([
+        ['NE', 0.125],
+        ['SE', 0.375],
+        ['SW', 0.625],
+        ['NW', 0.875],
+      ] as const)
+    : []
   return (
     <>
       <Paper id={id} />
@@ -3974,6 +3982,30 @@ function Compass({ id, art }: P & { art: Extract<Art, { kind: 'compass' }> }) {
               fontSize="28"
               fontWeight="800"
               fill={name === 'N' ? '#d9412f' : INK}
+            >
+              {name}
+            </text>
+          </g>
+        )
+      })}
+      {between.map(([name, turn]) => {
+        const [x, y] = polar(cx, cy, 64, turn)
+        const [lx, ly] = polar(cx, cy, 11, turn + 0.25)
+        const [rx, ry] = polar(cx, cy, 11, turn - 0.25)
+        const [tx, ty] = polar(cx, cy, 136, turn)
+        return (
+          <g key={name}>
+            <polygon
+              points={`${x},${y} ${lx},${ly} ${rx},${ry}`}
+              fill="#9aa7b2"
+            />
+            <text
+              x={tx}
+              y={ty + 7}
+              textAnchor="middle"
+              fontSize="20"
+              fontWeight="800"
+              fill="#5b6b78"
             >
               {name}
             </text>
@@ -4432,6 +4464,25 @@ function Spinner({ id, art }: P & { art: Extract<Art, { kind: 'spinner' }> }) {
           />
         )
       })}
+      {art.numbered &&
+        art.sectors.map((_, i) => {
+          const [x, y] = polar(cx, cy, r * 0.7, (i + 0.5) / n)
+          return (
+            <text
+              key={i}
+              x={x}
+              y={y + 10}
+              textAnchor="middle"
+              fontSize="28"
+              fontWeight="800"
+              fill="#fff"
+              stroke="#00000055"
+              strokeWidth=".6"
+            >
+              {i + 1}
+            </text>
+          )
+        })}
       <line
         x1={cx}
         y1={cy}
@@ -4447,22 +4498,34 @@ function Spinner({ id, art }: P & { art: Extract<Art, { kind: 'spinner' }> }) {
   )
 }
 
-// A flag shape on squared paper and its mirror image.
+// A flag shape on squared paper and its mirror image, or the shape slid
+// 6 squares right and 1 down.
 function Reflect({ id, art }: P & { art: Extract<Art, { kind: 'reflect' }> }) {
   const size = 38
   const left = 320 - 6 * size
   const top = 40
-  const cells: Array<[number, number]> = [
-    [2, 0],
-    [2, 1],
-    [3, 1],
-    [2, 2],
-    [3, 2],
-    [4, 2],
-    [2, 3],
-    [2, 4],
-    [2, 5],
-  ]
+  const slide = art.move === 'translate'
+  const image = ([c, r]: [number, number]): [number, number] =>
+    slide ? [c + 6, r + 1] : [11 - c, r]
+  const cells: Array<[number, number]> = slide
+    ? [
+        [1, 1],
+        [1, 2],
+        [2, 2],
+        [3, 2],
+        [1, 3],
+      ]
+    : [
+        [2, 0],
+        [2, 1],
+        [3, 1],
+        [2, 2],
+        [3, 2],
+        [4, 2],
+        [2, 3],
+        [2, 4],
+        [2, 5],
+      ]
   return (
     <>
       <Paper id={id} />
@@ -4488,8 +4551,8 @@ function Reflect({ id, art }: P & { art: Extract<Art, { kind: 'reflect' }> }) {
             stroke="#a52f22"
           />
           <rect
-            x={left + (11 - c) * size}
-            y={top + r * size}
+            x={left + image([c, r])[0] * size}
+            y={top + image([c, r])[1] * size}
             width={size}
             height={size}
             fill="#3f86c1"
@@ -4497,16 +4560,252 @@ function Reflect({ id, art }: P & { art: Extract<Art, { kind: 'reflect' }> }) {
           />
         </g>
       ))}
-      <line
-        x1="320"
-        y1={top - 12}
-        x2="320"
-        y2={top + 6 * size + 12}
-        stroke={INK}
-        strokeWidth="4"
-        strokeDasharray="10 7"
+      {slide ? (
+        <g stroke={INK} strokeWidth="4" fill={INK}>
+          <line
+            x1={left + 1.5 * size}
+            y1={top + 1.5 * size}
+            x2={left + 7.5 * size - 14}
+            y2={top + 2.5 * size - 2}
+          />
+          <polygon
+            stroke="none"
+            points={`${left + 7.5 * size},${top + 2.5 * size} ${left + 7.5 * size - 20},${top + 2.5 * size - 13} ${left + 7.5 * size - 23},${top + 2.5 * size + 6}`}
+          />
+        </g>
+      ) : (
+        <line
+          x1="320"
+          y1={top - 12}
+          x2="320"
+          y2={top + 6 * size + 12}
+          stroke={INK}
+          strokeWidth="4"
+          strokeDasharray="10 7"
+        />
+      )}
+      <Caption
+        text={
+          art.label ??
+          (slide
+            ? '6 squares right, 1 square down'
+            : 'The mirror line is dashed')
+        }
+        y={330}
       />
-      <Caption text={art.label ?? 'The mirror line is dashed'} y={330} />
+    </>
+  )
+}
+
+// Whole numbers from `from` to `to`, with some marked in red.
+function NumberLine({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'numberLine' }> }) {
+  const span = art.to - art.from
+  const at = (n: number) => 60 + ((n - art.from) / span) * 520
+  const marks = new Set(art.marks)
+  return (
+    <>
+      <Paper id={id} />
+      <path
+        d="M44 180H596"
+        stroke={INK}
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+      {Array.from({ length: span + 1 }, (_, k) => {
+        const n = art.from + k
+        const marked = marks.has(n)
+        return (
+          <g key={n}>
+            <line
+              x1={at(n)}
+              y1="168"
+              x2={at(n)}
+              y2="192"
+              stroke={INK}
+              strokeWidth={n === 0 ? 4 : 2.5}
+            />
+            <text
+              x={at(n)}
+              y="224"
+              textAnchor="middle"
+              fontSize={span > 12 ? 15 : 19}
+              fontWeight={marked || n === 0 ? 800 : 600}
+              fill={marked ? '#d9412f' : INK}
+            >
+              {n < 0 ? `−${-n}` : n}
+            </text>
+            {marked && <circle cx={at(n)} cy="180" r="11" fill="#d9412f" />}
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={300} />
+    </>
+  )
+}
+
+function LineGraph({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'lineGraph' }> }) {
+  const most = Math.max(...art.points.map(([, v]) => v), 1)
+  const step = 470 / Math.max(art.points.length - 1, 1)
+  const xy = art.points.map(
+    ([, v], i) => [100 + i * step, 260 - (v / most) * 190] as const,
+  )
+  return (
+    <>
+      <Paper id={id} />
+      <path d="M80 40V260H590" fill="none" stroke={INK} strokeWidth="3" />
+      {[0.25, 0.5, 0.75, 1].map((f) => (
+        <line
+          key={f}
+          x1="80"
+          y1={260 - f * 190}
+          x2="590"
+          y2={260 - f * 190}
+          stroke="#d6dee5"
+        />
+      ))}
+      <polyline
+        points={xy.map(([x, y]) => `${x},${y}`).join(' ')}
+        fill="none"
+        stroke="#3f86c1"
+        strokeWidth="5"
+        strokeLinejoin="round"
+      />
+      {art.points.map(([name, value], i) => (
+        <g key={name}>
+          <circle
+            cx={xy[i]![0]}
+            cy={xy[i]![1]}
+            r="8"
+            fill="#e45d4b"
+            stroke="#fff"
+            strokeWidth="2"
+          />
+          <text
+            x={xy[i]![0]}
+            y={xy[i]![1] - 16}
+            textAnchor="middle"
+            fontSize="17"
+            fontWeight="800"
+            fill={INK}
+          >
+            {value}
+          </text>
+          <text
+            x={xy[i]![0]}
+            y="286"
+            textAnchor="middle"
+            fontSize="16"
+            fontWeight="700"
+            fill={INK}
+          >
+            {name}
+          </text>
+        </g>
+      ))}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+// The flat pattern that folds into a box or a triangular prism.
+function Net({ id, art }: P & { art: Extract<Art, { kind: 'net' }> }) {
+  const face = (x: number, y: number, w: number, h: number, i: number) => (
+    <rect
+      key={`${x}-${y}`}
+      x={x}
+      y={y}
+      width={w}
+      height={h}
+      fill={SHAPE_TONES[i % 6]}
+      fillOpacity=".55"
+      stroke={INK}
+      strokeWidth="2.5"
+    />
+  )
+  const parts =
+    art.solid === 'box'
+      ? [
+          face(192, 118, 64, 80, 0),
+          face(256, 118, 64, 80, 1),
+          face(320, 118, 64, 80, 2),
+          face(384, 118, 64, 80, 3),
+          face(256, 38, 64, 80, 4),
+          face(256, 198, 64, 80, 5),
+        ]
+      : [
+          face(200, 99, 80, 110, 0),
+          face(280, 99, 80, 110, 1),
+          face(360, 99, 80, 110, 2),
+          <polygon
+            key="top"
+            points="280,99 360,99 320,30"
+            fill={SHAPE_TONES[3]}
+            fillOpacity=".55"
+            stroke={INK}
+            strokeWidth="2.5"
+          />,
+          <polygon
+            key="bottom"
+            points="280,209 360,209 320,278"
+            fill={SHAPE_TONES[4]}
+            fillOpacity=".55"
+            stroke={INK}
+            strokeWidth="2.5"
+          />,
+        ]
+  return (
+    <>
+      <Paper id={id} />
+      <g filter={`url(#${id}shadow)`}>{parts}</g>
+      <Caption
+        text={
+          art.label ??
+          (art.solid === 'box'
+            ? 'A net of a box: 6 rectangles'
+            : 'A net of a triangular prism: 3 rectangles, 2 triangles')
+        }
+        y={326}
+      />
+    </>
+  )
+}
+
+function Ratio({ id, art }: P & { art: Extract<Art, { kind: 'ratio' }> }) {
+  const gap = 230 / Math.max(art.parts.length, 1)
+  const top = 160 - ((art.parts.length - 1) * gap) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {art.parts.map(([name, count], i) => (
+        <g key={name}>
+          <text
+            x="60"
+            y={top + i * gap + 8}
+            fontSize="22"
+            fontWeight="800"
+            fill={INK}
+          >
+            {name}
+          </text>
+          {Array.from({ length: count }, (_, k) => (
+            <Cap
+              key={k}
+              id={id}
+              x={210 + k * 42}
+              y={top + i * gap}
+              r={17}
+              tone={i}
+            />
+          ))}
+        </g>
+      ))}
+      <Caption text={art.label} y={326} />
     </>
   )
 }
@@ -4642,6 +4941,14 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Spinner id={id} art={art} />
     case 'reflect':
       return <Reflect id={id} art={art} />
+    case 'numberLine':
+      return <NumberLine id={id} art={art} />
+    case 'lineGraph':
+      return <LineGraph id={id} art={art} />
+    case 'net':
+      return <Net id={id} art={art} />
+    case 'ratio':
+      return <Ratio id={id} art={art} />
   }
 }
 

@@ -170,40 +170,44 @@ const FRACTION_WORDS: Record<string, string> = {
 
 // What a voice should read, which is not always what the screen shows.
 export function speakable(text: string) {
-  return text
-    .replace(/☐/g, ' box ')
-    .replace(/\p{Extended_Pictographic}/gu, '')
-    .replace(/‍|️/g, '')
-    .replace(
-      /\b(\d+)\/(\d+)\b/g,
-      (all, a, b) => FRACTION_WORDS[all] ?? `${a} over ${b}`,
-    )
-    .replace(/GH₵\s?([\d.,]+)/g, '$1 Ghana cedis')
-    .replace(/₵\s?([\d.,]+)/g, '$1 Ghana cedis')
-    .replace(/(\d)\s*°\s*C\b/g, '$1 degrees Celsius')
-    .replace(/(\d)\s*°/g, '$1 degrees')
-    .replace(/(\d)\s*%/g, '$1 percent')
-    .replace(/\((-?\d+)\)/g, '$1')
-    .replace(/_{2,}/g, ' blank ')
-    .replace(/(^|[\s(])[-−](?=\d)/g, '$1minus ')
-    .replace(
-      /\b(c?m)([²³])/g,
-      (_, unit: string, power: string) =>
-        `${power === '²' ? 'square' : 'cubic'} ${unit === 'cm' ? 'centimetres' : 'metres'}`,
-    )
-    .replace(/(\w)²/g, '$1 squared')
-    .replace(/(\w)³/g, '$1 cubed')
-    .replace(/\s*[×]\s*/g, ' times ')
-    .replace(/\s*÷\s*/g, ' divided by ')
-    .replace(/(\d)\s*[-−–]\s*(\d)/g, '$1 minus $2')
-    .replace(/\s*−\s*/g, ' minus ')
-    .replace(/\s*\+\s*/g, ' plus ')
-    .replace(/\s*=\s*/g, ' equals ')
-    .replace(/\s+<\s+/g, ' is less than ')
-    .replace(/\s+>\s+/g, ' is greater than ')
-    .replace(/\s*→\s*/g, ', then ')
-    .replace(/\s+/g, ' ')
-    .trim()
+  return (
+    text
+      .replace(/☐/g, ' box ')
+      .replace(/\p{Extended_Pictographic}/gu, '')
+      .replace(/‍|️/g, '')
+      .replace(
+        /\b(\d+)\/(\d+)\b/g,
+        (all, a, b) => FRACTION_WORDS[all] ?? `${a} over ${b}`,
+      )
+      .replace(/GH₵\s?([\d.,]+)/g, '$1 Ghana cedis')
+      .replace(/₵\s?([\d.,]+)/g, '$1 Ghana cedis')
+      .replace(/(\d)\s*°\s*C\b/g, '$1 degrees Celsius')
+      .replace(/(\d)\s*°/g, '$1 degrees')
+      .replace(/(\d)\s*%/g, '$1 percent')
+      .replace(/\((-?\d+)\)/g, '$1')
+      .replace(/_{2,}/g, ' blank ')
+      // Ratios are written with spaces (2 : 3); times are not (14:30).
+      .replace(/(\w) : (\w)/g, '$1 to $2')
+      .replace(/(^|[\s(])[-−](?=\d)/g, '$1minus ')
+      .replace(
+        /\b(c?m)([²³])/g,
+        (_, unit: string, power: string) =>
+          `${power === '²' ? 'square' : 'cubic'} ${unit === 'cm' ? 'centimetres' : 'metres'}`,
+      )
+      .replace(/(\w)²/g, '$1 squared')
+      .replace(/(\w)³/g, '$1 cubed')
+      .replace(/\s*[×]\s*/g, ' times ')
+      .replace(/\s*÷\s*/g, ' divided by ')
+      .replace(/(\d)\s*[-−–]\s*(\d)/g, '$1 minus $2')
+      .replace(/\s*−\s*/g, ' minus ')
+      .replace(/\s*\+\s*/g, ' plus ')
+      .replace(/\s*=\s*/g, ' equals ')
+      .replace(/\s+<\s+/g, ' is less than ')
+      .replace(/\s+>\s+/g, ' is greater than ')
+      .replace(/\s*→\s*/g, ', then ')
+      .replace(/\s+/g, ' ')
+      .trim()
+  )
 }
 
 // Every line a recorded voice needs, for the narration renderer. The server
