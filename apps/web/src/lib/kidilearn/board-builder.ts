@@ -37,6 +37,7 @@ const ICONS: Record<string, string> = {
 const LINE_CHARS = 95
 const SCENE_CHARS = 120
 const SCENE_POINTS = 3
+const TASK_CHARS = 150
 const MAX_CHECKS = 2
 const MAX_PICTURES = 4
 
@@ -634,14 +635,24 @@ export function buildBoard(
         },
         cautions.map((say, show) => ({ say, show })),
       )
+    // As many steps as fit a small phone; the page lists them all.
+    const task = written.tryIt.steps
+      .slice(0, 3)
+      .reduce<Array<string>>(
+        (kept, step) =>
+          kept.length && [...kept, step].join('').length > TASK_CHARS
+            ? kept
+            : [...kept, step],
+        [],
+      )
     scene(
       'recap',
       'Try it yourself',
       {
         type: 'steps',
-        steps: written.tryIt.steps.slice(0, 3).map((text) => ({ text })),
+        steps: task.map((text) => ({ text })),
       },
-      written.tryIt.steps.slice(0, 3).map((say, show) => ({ say, show })),
+      task.map((say, show) => ({ say, show })),
     )
     return finished()
   }

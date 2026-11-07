@@ -71,6 +71,19 @@ export type Art =
     }
   | { kind: 'course'; path: 'line' | 'zigzag'; ball?: boolean; label?: string }
   | { kind: 'pulse'; label?: string }
+  | { kind: 'timeline'; events: Array<[string, string]>; focus?: number }
+  | { kind: 'sources'; items: Array<HistorySource> }
+  | {
+      kind: 'building'
+      building: 'fort' | 'lighthouse' | 'mosque' | 'palace' | 'school'
+      // Forts and lighthouses stand by the sea unless this says otherwise.
+      coast?: boolean
+      label?: string
+    }
+  | { kind: 'scroll'; title: string; lines: Array<string>; date?: string }
+  | { kind: 'family'; rows: Array<Array<string>> }
+  | { kind: 'flag'; label?: string }
+  | { kind: 'belts'; belts: Array<{ name: string; places: Array<string> }> }
 
 export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
 
@@ -114,6 +127,16 @@ export interface Figure {
   // A tick or a cross above the figure, for right and wrong ways.
   mark?: 'good' | 'bad'
 }
+export type HistorySource =
+  | 'coin'
+  | 'letter'
+  | 'photo'
+  | 'pot'
+  | 'drum'
+  | 'newspaper'
+  | 'brochure'
+  | 'painting'
+
 export type Shape =
   'square' | 'rectangle' | 'triangle' | 'circle' | 'pentagon' | 'hexagon'
 

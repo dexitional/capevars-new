@@ -2,6 +2,7 @@ import { useId } from 'react'
 import type {
   Art,
   Figure,
+  HistorySource,
   Pose,
   Shape,
   Solid,
@@ -2162,6 +2163,624 @@ function Pulse({ id, art }: P & { art: Extract<Art, { kind: 'pulse' }> }) {
   )
 }
 
+// Events in order along a line, the newest on the right.
+function Timeline({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'timeline' }> }) {
+  const n = art.events.length
+  // Inset from the edges, so the first and last labels are never cut off.
+  const step = 440 / Math.max(n - 1, 1)
+  return (
+    <>
+      <Paper id={id} />
+      <path
+        d="M40 180H600"
+        stroke={INK}
+        strokeWidth="6"
+        strokeLinecap="round"
+      />
+      <path d="M600 180l-16-10v20Z" fill={INK} />
+      {art.events.map(([when, what], i) => {
+        const x = 100 + (n === 1 ? 220 : i * step)
+        const up = i % 2 === 0
+        const focus = art.focus === i
+        const words = what.split(' ')
+        const lines = words.reduce<Array<string>>((all, w) => {
+          const last = all.at(-1)
+          if (last !== undefined && (last + ' ' + w).length <= 16)
+            all[all.length - 1] = last + ' ' + w
+          else all.push(w)
+          return all
+        }, [])
+        return (
+          <g key={i}>
+            <circle
+              cx={x}
+              cy="180"
+              r={focus ? 13 : 10}
+              fill={focus ? '#d9412f' : '#e8a317'}
+              stroke="#fff"
+              strokeWidth="3"
+            />
+            <path
+              d={`M${x} ${up ? 168 : 192}V${up ? 132 : 228}`}
+              stroke="#8a9aa8"
+              strokeWidth="2"
+            />
+            <text
+              x={x}
+              y={up ? 120 : 252}
+              textAnchor="middle"
+              fontSize="21"
+              fontWeight="800"
+              fill={focus ? '#d9412f' : INK}
+            >
+              {when}
+            </text>
+            {lines.slice(0, 3).map((line, l) => (
+              <text
+                key={l}
+                x={x}
+                y={
+                  up ? 120 - 24 * (lines.slice(0, 3).length - l) : 276 + 20 * l
+                }
+                textAnchor="middle"
+                fontSize="15"
+                fill={INK}
+              >
+                {line}
+              </text>
+            ))}
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+const SOURCE_NAMES: Record<HistorySource, string> = {
+  coin: 'Old coin',
+  letter: 'Old letter',
+  photo: 'Old photograph',
+  pot: 'Clay pot from a dig',
+  drum: 'Talking drum',
+  newspaper: 'Old newspaper',
+  brochure: 'Funeral brochure',
+  painting: 'Wall painting',
+}
+
+function SourceItem({
+  id,
+  item,
+  x,
+  y,
+}: P & { item: HistorySource; x: number; y: number }) {
+  const shadow = `url(#${id}shadow)`
+  switch (item) {
+    case 'coin':
+      return (
+        <g filter={shadow}>
+          <circle
+            cx={x}
+            cy={y}
+            r="40"
+            fill={`url(#${id}cap1)`}
+            stroke="#9a6b12"
+            strokeWidth="3"
+          />
+          <circle
+            cx={x}
+            cy={y}
+            r="30"
+            fill="none"
+            stroke="#9a6b12"
+            strokeDasharray="3 4"
+          />
+          <text
+            x={x}
+            y={y + 8}
+            textAnchor="middle"
+            fontSize="22"
+            fontWeight="800"
+            fill="#7a520c"
+          >
+            1
+          </text>
+        </g>
+      )
+    case 'letter':
+    case 'newspaper':
+    case 'brochure':
+      return (
+        <g
+          filter={shadow}
+          transform={`rotate(${item === 'letter' ? -6 : item === 'newspaper' ? 4 : -2} ${x} ${y})`}
+        >
+          <rect
+            x={x - 46}
+            y={y - 56}
+            width="92"
+            height="112"
+            rx="3"
+            fill={
+              item === 'letter'
+                ? '#f3e2bd'
+                : item === 'brochure'
+                  ? '#2a2a2a'
+                  : '#f2efe6'
+            }
+          />
+          {item === 'brochure' && (
+            <rect x={x - 26} y={y - 40} width="52" height="44" fill="#d8d0c0" />
+          )}
+          {item === 'newspaper' && (
+            <rect x={x - 38} y={y - 48} width="76" height="12" fill="#3a3a3a" />
+          )}
+          {Array.from({ length: item === 'brochure' ? 3 : 6 }, (_, i) => (
+            <rect
+              key={i}
+              x={x - 36}
+              y={
+                y -
+                (item === 'newspaper' ? 28 : item === 'brochure' ? -12 : 40) +
+                i * 13
+              }
+              width={i % 3 === 2 ? 46 : 72}
+              height="4"
+              rx="2"
+              fill={item === 'brochure' ? '#cfc6b4' : '#7c6a52'}
+              opacity=".7"
+            />
+          ))}
+        </g>
+      )
+    case 'photo':
+      return (
+        <g filter={shadow} transform={`rotate(5 ${x} ${y})`}>
+          <rect x={x - 48} y={y - 42} width="96" height="84" fill="#f7f1e3" />
+          <rect x={x - 40} y={y - 34} width="80" height="60" fill="#8f8270" />
+          <circle cx={x - 12} cy={y - 10} r="9" fill="#5e5446" />
+          <circle cx={x + 14} cy={y - 8} r="9" fill="#5e5446" />
+          <rect x={x - 22} y={y + 1} width="20" height="24" fill="#5e5446" />
+          <rect x={x + 4} y={y + 3} width="20" height="22" fill="#5e5446" />
+        </g>
+      )
+    case 'pot':
+      return (
+        <g filter={shadow}>
+          <path
+            d={`M${x - 22} ${y - 46}h44l-6 12c34 10 40 46 18 70-12 12-56 12-68 0-22-24-16-60 18-70Z`}
+            fill={`url(#${id}crust)`}
+          />
+          <path
+            d={`M${x - 34} ${y}h68`}
+            stroke="#6d4120"
+            strokeWidth="3"
+            strokeDasharray="6 5"
+          />
+        </g>
+      )
+    case 'drum':
+      return (
+        <g filter={shadow}>
+          <path d={`M${x - 28} ${y - 50}h56l-10 100h-36Z`} fill="#8d5b37" />
+          <ellipse
+            cx={x}
+            cy={y - 50}
+            rx="28"
+            ry="8"
+            fill="#e7d3ad"
+            stroke="#6d4120"
+          />
+          <path
+            d={`M${x - 25} ${y - 40}L${x + 18} ${y + 40}M${x + 25} ${y - 40}L${x - 18} ${y + 40}`}
+            stroke="#e7d3ad"
+            strokeWidth="2"
+          />
+        </g>
+      )
+    case 'painting':
+      return (
+        <g filter={shadow}>
+          <rect x={x - 54} y={y - 46} width="108" height="92" fill="#c98b5a" />
+          <path
+            d={`M${x - 40} ${y + 20}l18-30 14 22 12-14 24 22`}
+            stroke="#3b2414"
+            strokeWidth="4"
+            fill="none"
+          />
+          <circle cx={x + 26} cy={y - 22} r="9" fill="#f6efe2" />
+          <path
+            d={`M${x - 36} ${y - 28}h30M${x - 36} ${y - 18}h20`}
+            stroke="#f6efe2"
+            strokeWidth="5"
+          />
+        </g>
+      )
+  }
+}
+
+function Sources({ id, art }: P & { art: Extract<Art, { kind: 'sources' }> }) {
+  const across = Math.min(art.items.length, 4)
+  const rows = Math.ceil(art.items.length / 4)
+  const w = 600 / across
+  const h = 330 / rows
+  return (
+    <>
+      <Table id={id} y={0} />
+      {art.items.map((item, i) => {
+        const x = 20 + (i % 4) * w + w / 2
+        const y = 12 + Math.floor(i / 4) * h + h / 2 - 22
+        return (
+          <g key={item}>
+            <SourceItem id={id} item={item} x={x} y={y} />
+            <rect
+              x={x - Math.min(w / 2 - 6, 74)}
+              y={y + 66}
+              width={Math.min(w - 12, 148)}
+              height="26"
+              rx="13"
+              fill="#fffdf8"
+              opacity=".95"
+            />
+            <text
+              x={x}
+              y={y + 84}
+              textAnchor="middle"
+              fontSize="14"
+              fontWeight="700"
+              fill={INK}
+            >
+              {SOURCE_NAMES[item]}
+            </text>
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+function Building({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'building' }> }) {
+  const shadow = `url(#${id}shadow)`
+  const sea =
+    art.coast ?? (art.building === 'fort' || art.building === 'lighthouse')
+  return (
+    <>
+      <linearGradient id={`${id}sky2`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#9fd3ef" />
+        <stop offset="1" stopColor="#eaf6fb" />
+      </linearGradient>
+      <rect width="640" height="360" fill={`url(#${id}sky2)`} />
+      {sea ? (
+        <>
+          <rect y="268" width="640" height="92" fill={`url(#${id}water)`} />
+          <path
+            d="M0 268h640"
+            stroke="#fff"
+            strokeOpacity=".6"
+            strokeWidth="3"
+          />
+        </>
+      ) : (
+        <rect y="268" width="640" height="92" fill="#c98b5a" />
+      )}
+      {art.building === 'fort' && (
+        <g filter={shadow}>
+          <rect x="120" y="150" width="400" height="120" fill="#f4f1ea" />
+          {Array.from({ length: 13 }, (_, i) => (
+            <rect
+              key={i}
+              x={120 + i * 31}
+              y="134"
+              width="18"
+              height="18"
+              fill="#f4f1ea"
+            />
+          ))}
+          <rect x="250" y="88" width="140" height="64" fill="#ece7dc" />
+          {Array.from({ length: 6 }, (_, i) => (
+            <rect
+              key={i}
+              x={250 + i * 25}
+              y="74"
+              width="14"
+              height="16"
+              fill="#ece7dc"
+            />
+          ))}
+          <path d="M296 270v-56a24 24 0 0 1 48 0v56Z" fill="#5a4632" />
+          {[160, 210, 430, 480].map((x) => (
+            <rect key={x} x={x} y="190" width="18" height="26" fill="#8b6c4c" />
+          ))}
+          <rect x="150" y="160" width="40" height="7" rx="3" fill="#3a3a3a" />
+          <rect x="450" y="160" width="40" height="7" rx="3" fill="#3a3a3a" />
+        </g>
+      )}
+      {art.building === 'lighthouse' && (
+        <g filter={shadow}>
+          <rect x="230" y="240" width="180" height="30" fill="#ddd6c8" />
+          <path d="M282 240l14-170h48l14 170Z" fill="#f4f1ea" />
+          {[0, 1, 2].map((i) => (
+            <path
+              key={i}
+              d={`M${284 + i * 4.3} ${218 - i * 56}l3-28h${66 - i * 8.6}l3 28Z`}
+              fill="#d9412f"
+            />
+          ))}
+          <rect
+            x="288"
+            y="46"
+            width="64"
+            height="26"
+            fill="#f9e7a1"
+            stroke="#3a3a3a"
+            strokeWidth="3"
+          />
+          <path d="M282 46h76l-38-24Z" fill="#3a3a3a" />
+        </g>
+      )}
+      {art.building === 'mosque' && (
+        <g filter={shadow}>
+          <rect x="140" y="176" width="360" height="94" fill="#f2ead8" />
+          {[
+            [180, 104],
+            [440, 120],
+          ].map(([x, top]) => (
+            <g key={x}>
+              <path
+                d={`M${x! - 34} 270V${top! + 40}l34-${40}l34 40V270Z`}
+                fill="#efe6d2"
+              />
+              {Array.from({ length: 4 }, (_, i) =>
+                [-1, 1].map((side) => (
+                  <line
+                    key={`${i}${side}`}
+                    x1={x! + side * 34}
+                    y1={top! + 60 + i * 34}
+                    x2={x! + side * 48}
+                    y2={top! + 60 + i * 34}
+                    stroke="#5a3a22"
+                    strokeWidth="4"
+                  />
+                )),
+              )}
+            </g>
+          ))}
+          <path d="M296 270v-46a24 24 0 0 1 48 0v46Z" fill="#5a3a22" />
+          <path d="M140 176h360" stroke="#d8ccb2" strokeWidth="4" />
+        </g>
+      )}
+      {art.building === 'palace' && (
+        <g filter={shadow}>
+          {[150, 320, 490].map((x, i) => (
+            <g key={x}>
+              <rect
+                x={x - 70}
+                y={190 - (i === 1 ? 20 : 0)}
+                width="140"
+                height={80 + (i === 1 ? 20 : 0)}
+                rx={i === 1 ? 4 : 50}
+                fill="#c98b5a"
+              />
+              <path
+                d={`M${x - 84} ${194 - (i === 1 ? 20 : 0)}L${x} ${110 - (i === 1 ? 30 : 0)}L${x + 84} ${194 - (i === 1 ? 20 : 0)}Z`}
+                fill="#c8a24f"
+              />
+              <path
+                d={`M${x - 16} 270v-38a16 16 0 0 1 32 0v38Z`}
+                fill="#4a2e1a"
+              />
+            </g>
+          ))}
+        </g>
+      )}
+      {art.building === 'school' && (
+        <g filter={shadow}>
+          <rect x="130" y="150" width="380" height="120" fill="#f1e3c4" />
+          <path d="M110 154L320 70L530 154Z" fill="#a8432f" />
+          {[170, 250, 390, 470].map((x) => (
+            <rect
+              key={x}
+              x={x - 20}
+              y="186"
+              width="40"
+              height="40"
+              fill="#7fb6cf"
+              stroke="#fff"
+              strokeWidth="3"
+            />
+          ))}
+          <rect x="296" y="196" width="48" height="74" fill="#5a3a22" />
+          <path d="M320 70V30" stroke="#5a3a22" strokeWidth="4" />
+          <path d="M306 30h28v10h-28Z" fill="#8a7a6a" />
+        </g>
+      )}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+function Scroll({ id, art }: P & { art: Extract<Art, { kind: 'scroll' }> }) {
+  return (
+    <>
+      <Table id={id} y={0} />
+      <g filter={`url(#${id}shadow)`}>
+        <rect x="110" y="28" width="420" height="300" rx="6" fill="#f3e2bd" />
+        <rect x="96" y="20" width="448" height="22" rx="11" fill="#d9bf8a" />
+        <rect x="96" y="316" width="448" height="22" rx="11" fill="#d9bf8a" />
+      </g>
+      <text
+        x="320"
+        y="84"
+        textAnchor="middle"
+        fontSize="27"
+        fontWeight="800"
+        fill="#4a3216"
+      >
+        {art.title}
+      </text>
+      {art.date && (
+        <text
+          x="320"
+          y="110"
+          textAnchor="middle"
+          fontSize="16"
+          fontStyle="italic"
+          fill="#6d4f2a"
+        >
+          {art.date}
+        </text>
+      )}
+      {art.lines.slice(0, 5).map((line, i) => (
+        <text key={i} x="140" y={150 + i * 32} fontSize="17" fill="#4a3216">
+          {i + 1}. {line}
+        </text>
+      ))}
+      <circle cx="470" cy="286" r="22" fill="#a8322a" />
+      <circle
+        cx="470"
+        cy="286"
+        r="13"
+        fill="none"
+        stroke="#e08b80"
+        strokeWidth="2"
+      />
+    </>
+  )
+}
+
+function Family({ id, art }: P & { art: Extract<Art, { kind: 'family' }> }) {
+  const rows = art.rows.length
+  const rowY = (r: number) => 50 + r * (250 / Math.max(rows - 1, 1))
+  return (
+    <>
+      <Paper id={id} />
+      {art.rows.map((row, r) =>
+        row.map((name, i) => {
+          const x = 320 + (i - (row.length - 1) / 2) * 150
+          return (
+            <g key={`${r}${i}`}>
+              {r > 0 && (
+                <path
+                  d={`M${x} ${rowY(r) - 26}V${rowY(r) - 50}H320V${rowY(r - 1) + 26}`}
+                  fill="none"
+                  stroke="#8a9aa8"
+                  strokeWidth="2.5"
+                />
+              )}
+              <rect
+                x={x - 66}
+                y={rowY(r) - 24}
+                width="132"
+                height="48"
+                rx="24"
+                fill={r === rows - 1 ? '#fdeec3' : '#d6eef0'}
+                stroke="#8a9aa8"
+              />
+              <text
+                x={x}
+                y={rowY(r) + 7}
+                textAnchor="middle"
+                fontSize="18"
+                fontWeight="700"
+                fill={INK}
+              >
+                {name}
+              </text>
+            </g>
+          )
+        }),
+      )}
+    </>
+  )
+}
+
+// Red, gold and green, with the black star at the centre.
+function Flag({ id, art }: P & { art: Extract<Art, { kind: 'flag' }> }) {
+  const star = Array.from({ length: 10 }, (_, i) =>
+    polar(320, 158, i % 2 ? 19 : 48, i / 10).join(','),
+  ).join(' ')
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <rect
+        x="96"
+        y="40"
+        width="10"
+        height="290"
+        rx="4"
+        fill={`url(#${id}metal)`}
+      />
+      <g filter={`url(#${id}shadow)`}>
+        <rect x="106" y="56" width="430" height="68" fill="#ce1126" />
+        <rect x="106" y="124" width="430" height="68" fill="#fcd116" />
+        <rect x="106" y="192" width="430" height="68" fill="#006b3f" />
+        <polygon points={star} fill="#000" />
+      </g>
+      <Caption text={art.label} y={318} />
+    </>
+  )
+}
+
+// The country from north to south, as three belts. A diagram, not a map.
+function Belts({ id, art }: P & { art: Extract<Art, { kind: 'belts' }> }) {
+  const tones = ['#e9c98a', '#7fb36a', '#7fc0d9']
+  const h = 300 / art.belts.length
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <text
+        x="320"
+        y="30"
+        textAnchor="middle"
+        fontSize="15"
+        fontWeight="700"
+        fill="#5b6b78"
+      >
+        North
+      </text>
+      {art.belts.map((belt, i) => (
+        <g key={belt.name}>
+          <rect
+            x="30"
+            y={40 + i * h}
+            width="580"
+            height={h - 6}
+            rx="12"
+            fill={tones[i % 3]}
+          />
+          <text
+            x="52"
+            y={40 + i * h + 34}
+            fontSize="21"
+            fontWeight="800"
+            fill={INK}
+          >
+            {belt.name}
+          </text>
+          <text x="52" y={40 + i * h + 62} fontSize="16" fill={INK}>
+            {belt.places.join(' · ')}
+          </text>
+        </g>
+      ))}
+      <text
+        x="320"
+        y="354"
+        textAnchor="middle"
+        fontSize="15"
+        fontWeight="700"
+        fill="#5b6b78"
+      >
+        South (the sea)
+      </text>
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -2225,6 +2844,20 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Course id={id} art={art} />
     case 'pulse':
       return <Pulse id={id} art={art} />
+    case 'timeline':
+      return <Timeline id={id} art={art} />
+    case 'sources':
+      return <Sources id={id} art={art} />
+    case 'building':
+      return <Building id={id} art={art} />
+    case 'scroll':
+      return <Scroll id={id} art={art} />
+    case 'family':
+      return <Family id={id} art={art} />
+    case 'flag':
+      return <Flag id={id} art={art} />
+    case 'belts':
+      return <Belts id={id} art={art} />
   }
 }
 
