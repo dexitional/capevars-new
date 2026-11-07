@@ -2689,12 +2689,24 @@ function Scroll({ id, art }: P & { art: Extract<Art, { kind: 'scroll' }> }) {
 function Family({ id, art }: P & { art: Extract<Art, { kind: 'family' }> }) {
   const rows = art.rows.length
   const rowY = (r: number) => 50 + r * (250 / Math.max(rows - 1, 1))
+  // Each box fits its words, and a row is centred as a whole.
+  const width = (name: string) => Math.max(132, name.length * 10.5 + 28)
+  const centres = (row: Array<string>) => {
+    const total =
+      row.reduce((sum, n) => sum + width(n), 0) + 20 * (row.length - 1)
+    let left = 320 - total / 2
+    return row.map((n) => {
+      const x = left + width(n) / 2
+      left += width(n) + 20
+      return x
+    })
+  }
   return (
     <>
       <Paper id={id} />
       {art.rows.map((row, r) =>
         row.map((name, i) => {
-          const x = 320 + (i - (row.length - 1) / 2) * 150
+          const x = centres(row)[i]!
           return (
             <g key={`${r}${i}`}>
               {r > 0 && (
@@ -2706,9 +2718,9 @@ function Family({ id, art }: P & { art: Extract<Art, { kind: 'family' }> }) {
                 />
               )}
               <rect
-                x={x - 66}
+                x={x - width(name) / 2}
                 y={rowY(r) - 24}
-                width="132"
+                width={width(name)}
                 height="48"
                 rx="24"
                 fill={r === rows - 1 ? '#fdeec3' : '#d6eef0'}
@@ -3167,6 +3179,73 @@ function Cocoa({ id, art }: P & { art: Extract<Art, { kind: 'cocoa' }> }) {
   )
 }
 
+// A ballot box, and a ballot paper marked with an inked thumb.
+function Ballot({ id, art }: P & { art: Extract<Art, { kind: 'ballot' }> }) {
+  return (
+    <>
+      <Table id={id} y={250} />
+      <g filter={`url(#${id}shadow)`}>
+        <rect
+          x="120"
+          y="110"
+          width="220"
+          height="150"
+          rx="6"
+          fill="#e9eef2"
+          stroke="#9aa8b4"
+          strokeWidth="3"
+        />
+        <rect x="120" y="96" width="220" height="22" rx="4" fill="#cfd8df" />
+        <rect x="186" y="102" width="88" height="8" rx="4" fill="#3a3a3a" />
+        <text
+          x="230"
+          y="196"
+          textAnchor="middle"
+          fontSize="20"
+          fontWeight="800"
+          fill="#5b6b78"
+        >
+          BALLOT BOX
+        </text>
+      </g>
+      <g filter={`url(#${id}shadow)`} transform="rotate(8 470 170)">
+        <rect x="390" y="70" width="160" height="200" rx="4" fill="#fffdf8" />
+        {[0, 1, 2].map((i) => (
+          <g key={i}>
+            <rect
+              x="406"
+              y={92 + i * 58}
+              width="84"
+              height="40"
+              rx="3"
+              fill="#eef1f4"
+            />
+            <rect
+              x="500"
+              y={92 + i * 58}
+              width="36"
+              height="40"
+              rx="3"
+              fill="none"
+              stroke="#9aa8b4"
+              strokeWidth="2"
+            />
+          </g>
+        ))}
+        <ellipse
+          cx="518"
+          cy="170"
+          rx="12"
+          ry="15"
+          fill="#2b4a8b"
+          opacity=".85"
+        />
+      </g>
+      <Caption text={art.label} y={322} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -3250,6 +3329,8 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Triangle id={id} art={art} />
     case 'cocoa':
       return <Cocoa id={id} art={art} />
+    case 'ballot':
+      return <Ballot id={id} art={art} />
   }
 }
 

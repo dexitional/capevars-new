@@ -88,6 +88,7 @@ export type Art =
   | { kind: 'thenNow'; rows: Array<ThenNow> }
   | { kind: 'triangle'; label?: string }
   | { kind: 'cocoa'; label?: string }
+  | { kind: 'ballot'; label?: string }
 
 export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
 

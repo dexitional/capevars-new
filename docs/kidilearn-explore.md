@@ -11,6 +11,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 4 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
+| Basic 6 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 
 The other courses still use their imported notes.
@@ -50,6 +51,12 @@ Checked against the History of Ghana curriculum, Basic 5:
 - **Repeated lessons:** lessons 13 to 20 repeat the indicators of 1 to 8, and take a new angle on each.
 - **The slave trade:** taught with care for ten-year-olds, through the humanity of the people taken, their resistance, abolition and remembrance. The lessons say “enslaved people”, and a test holds them to it.
 - **People:** Ghanaians in the lessons are honoured by what they did. No picture claims to show them.
+
+Checked against the History of Ghana curriculum, Basic 6:
+
+- **Repeated lessons:** lessons 10 to 18 repeat the indicators of 1 to 9, and lessons 19 and 20 repeat 1 and 2 a third time. Each repeat takes a new angle.
+- **Political history:** told neutrally, with dates, offices and events. Debates, such as whether military rule did any good, are presented as debates. No party or leader is praised or blamed.
+- **Keeping it current:** the Fourth Republic lessons (history-07 and history-15) list governments up to January 2025. They need updating after each election, and a test checks their order.
 
 Scope for other subjects and levels has not yet been checked.
 
