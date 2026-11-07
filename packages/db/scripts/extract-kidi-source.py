@@ -3,10 +3,11 @@
 Keep supplied teaching fields and media intact. A content fingerprint, independent
 of the outer ZIP name, makes standalone and bundled imports interchangeable.
 """
+import copy
 import hashlib
 import io
 import json
-from pathlib import PurePosixPath
+from pathlib import Path, PurePosixPath
 import re
 import zipfile
 
@@ -18,6 +19,26 @@ TITLES = {
     'rme': 'Religious & moral education', 'history': 'History',
     'pe': 'Physical education', 'french': 'French',
 }
+
+
+# Text the supplied data cut short, fixed on every import (see the JSON file).
+# Only exact old values are replaced, and the content fingerprint still
+# covers the data as supplied.
+CORRECTIONS = json.loads(Path(__file__).with_name('kidi-source-corrections.json').read_text())['lessons']
+
+
+def corrected(row, level, subject):
+    fixes = CORRECTIONS.get(f'{level}/{subject}/{row["id"]}')
+    if not fixes:
+        return row
+    row = copy.deepcopy(row)
+    for field, (old, new) in fixes.items():
+        value = row.get(field)
+        if isinstance(value, list):
+            row[field] = [new if v == old else v for v in value]
+        elif value == old:
+            row[field] = new
+    return row
 
 
 def supports(name):
@@ -56,6 +77,7 @@ def identity(name):
 
 
 def normalize(row, subject, level, base, names, metadata):
+    row = corrected(row, level, subject)
     index = row['id']
     assert type(index) is int and index > 0
     play = [question(q) for q in row['questions'] if q['mode'] == 'Play']

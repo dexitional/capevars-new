@@ -37,6 +37,26 @@ def package(row, missing=False, image=b'original-image'):
 
 
 class SourceCourseTests(unittest.TestCase):
+    def test_corrections_replace_only_the_damaged_text(self):
+        row = dict(lesson(), id=18, title='With', statement='Discuss with',
+                   steps=['Look.', 'Practise the skill slowly: Discuss with.', 'Reflect.'])
+        fixed = source.corrected(row, 'b6', 'pe')
+        self.assertEqual(fixed['title'], 'Discuss the effects of drug addiction')
+        self.assertEqual(fixed['statement'], 'Discuss with learners the effects of drug addiction.')
+        self.assertEqual(fixed['steps'][0], 'Look.')
+        self.assertNotIn('Discuss with.', fixed['steps'][1])
+        self.assertEqual(row['title'], 'With')  # the supplied row is untouched
+        # A source that has since been corrected, or another course, is left alone.
+        self.assertEqual(source.corrected(dict(row, title='Drug addiction'), 'b6', 'pe')['title'], 'Drug addiction')
+        self.assertEqual(source.corrected(row, 'b5', 'pe')['title'], 'With')
+
+    def test_every_correction_names_a_real_field_and_changes_it(self):
+        for key, fixes in source.CORRECTIONS.items():
+            self.assertRegex(key, r'^b[1-6]/[a-z_]+/[0-9]+$')
+            for field, (old, new) in fixes.items():
+                self.assertIn(field, ('title', 'statement', 'steps'), key)
+                self.assertTrue(old and new and old != new, key)
+
     def test_nested_library_preserves_fields_media_and_language_identity(self):
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             root = Path(tmp)
