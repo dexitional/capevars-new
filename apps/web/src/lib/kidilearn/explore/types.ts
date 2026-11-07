@@ -63,7 +63,13 @@ export type Art =
       startsOn: number
       focus?: number
     }
-  | { kind: 'clock'; hour: number; label?: string }
+  | {
+      kind: 'clock'
+      hour: number
+      minute?: number
+      roman?: boolean
+      label?: string
+    }
   | { kind: 'tally'; rows: Array<[string, number]> }
   | {
       kind: 'picto'
@@ -107,6 +113,18 @@ export type Art =
   | { kind: 'grid'; rows: number; cols: number; label?: string }
   | { kind: 'angle'; degrees: number; label?: string }
   | { kind: 'ruler'; cm: number; label?: string }
+  | { kind: 'compass'; label?: string }
+  | { kind: 'symmetry'; shape: 'butterfly' | 'house' | 'leaf'; label?: string }
+  // Square units; with shaded, also tenths or hundredths of a whole.
+  | {
+      kind: 'area'
+      rows: number
+      cols: number
+      shaded?: number
+      label?: string
+    }
+  | { kind: 'fractionLine'; parts: number; mark: number; label?: string }
+  | { kind: 'bars'; rows: Array<[string, number]>; label?: string }
   | {
       kind: 'position'
       word: 'above' | 'below' | 'beside' | 'in front of' | 'behind' | 'inside'

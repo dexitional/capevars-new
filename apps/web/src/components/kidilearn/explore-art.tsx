@@ -1549,10 +1549,27 @@ function Calendar({
   )
 }
 
+const ROMAN = [
+  'I',
+  'II',
+  'III',
+  'IV',
+  'V',
+  'VI',
+  'VII',
+  'VIII',
+  'IX',
+  'X',
+  'XI',
+  'XII',
+]
+
 function Clock({ id, art }: P & { art: Extract<Art, { kind: 'clock' }> }) {
   const cx = 320
   const cy = 160
-  const [hx, hy] = polar(cx, cy, 72, (art.hour % 12) / 12)
+  const minute = art.minute ?? 0
+  const [hx, hy] = polar(cx, cy, 72, ((art.hour % 12) + minute / 60) / 12)
+  const [mx, my] = polar(cx, cy, 82, minute / 60)
   return (
     <>
       <rect width="640" height="360" fill={`url(#${id}wall)`} />
@@ -1572,11 +1589,11 @@ function Clock({ id, art }: P & { art: Extract<Art, { kind: 'clock' }> }) {
             x={x}
             y={y + 10}
             textAnchor="middle"
-            fontSize="28"
+            fontSize={art.roman ? 21 : 28}
             fontWeight="700"
             fill={INK}
           >
-            {i + 1}
+            {art.roman ? ROMAN[i] : i + 1}
           </text>
         )
       })}
@@ -1592,8 +1609,8 @@ function Clock({ id, art }: P & { art: Extract<Art, { kind: 'clock' }> }) {
       <line
         x1={cx}
         y1={cy}
-        x2={cx}
-        y2={cy - 82}
+        x2={mx}
+        y2={my}
         stroke={INK}
         strokeWidth="6"
         strokeLinecap="round"
@@ -3918,6 +3935,228 @@ function Ruler({ id, art }: P & { art: Extract<Art, { kind: 'ruler' }> }) {
   )
 }
 
+function Compass({ id, art }: P & { art: Extract<Art, { kind: 'compass' }> }) {
+  const cx = 320
+  const cy = 158
+  const points = [
+    ['N', 0],
+    ['E', 0.25],
+    ['S', 0.5],
+    ['W', 0.75],
+  ] as const
+  return (
+    <>
+      <Paper id={id} />
+      <circle
+        cx={cx}
+        cy={cy}
+        r="112"
+        fill="#f6f1e4"
+        stroke="#b9a35a"
+        strokeWidth="4"
+        filter={`url(#${id}shadow)`}
+      />
+      {points.map(([name, turn]) => {
+        const [x, y] = polar(cx, cy, 92, turn)
+        const [lx, ly] = polar(cx, cy, 18, turn + 0.25)
+        const [rx, ry] = polar(cx, cy, 18, turn - 0.25)
+        const [tx, ty] = polar(cx, cy, 134, turn)
+        return (
+          <g key={name}>
+            <polygon
+              points={`${x},${y} ${lx},${ly} ${rx},${ry}`}
+              fill={name === 'N' ? '#d9412f' : '#5b6b78'}
+            />
+            <text
+              x={tx}
+              y={ty + 9}
+              textAnchor="middle"
+              fontSize="28"
+              fontWeight="800"
+              fill={name === 'N' ? '#d9412f' : INK}
+            >
+              {name}
+            </text>
+          </g>
+        )
+      })}
+      <circle cx={cx} cy={cy} r="10" fill={INK} />
+      <Caption text={art.label} y={336} />
+    </>
+  )
+}
+
+// A shape and its mirror image, either side of a dashed line of symmetry.
+function Symmetry({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'symmetry' }> }) {
+  const half = {
+    butterfly:
+      'M320 170C300 90 200 60 180 110C165 150 230 170 320 175C230 185 175 220 200 255C230 290 300 240 320 180Z',
+    house: 'M320 90L210 160V280H320Z',
+    leaf: 'M320 60C250 110 230 210 320 290Z',
+  }[art.shape]
+  const tone = { butterfly: '#e8a317', house: '#d9412f', leaf: '#3f9e7c' }[
+    art.shape
+  ]
+  return (
+    <>
+      <Paper id={id} />
+      <g filter={`url(#${id}shadow)`}>
+        <path d={half} fill={tone} />
+        <path
+          d={half}
+          fill={tone}
+          transform="translate(640 0) scale(-1 1)"
+          opacity=".85"
+        />
+      </g>
+      <line
+        x1="320"
+        y1="36"
+        x2="320"
+        y2="300"
+        stroke={INK}
+        strokeWidth="4"
+        strokeDasharray="12 9"
+      />
+      <Caption
+        text={art.label ?? 'Fold along the dashed line: both halves match.'}
+        y={330}
+      />
+    </>
+  )
+}
+
+function Area({ id, art }: P & { art: Extract<Art, { kind: 'area' }> }) {
+  const size = Math.min(500 / art.cols, 240 / art.rows, 60)
+  const left = 320 - (art.cols * size) / 2
+  const top = 150 - (art.rows * size) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {Array.from({ length: art.rows * art.cols }, (_, i) => (
+        <rect
+          key={i}
+          x={left + (i % art.cols) * size}
+          y={top + Math.floor(i / art.cols) * size}
+          width={size}
+          height={size}
+          fill={
+            art.shaded === undefined || i < art.shaded ? '#9fd8c6' : '#ffffff'
+          }
+          stroke="#38806b"
+          strokeWidth={size > 20 ? 2 : 1}
+        />
+      ))}
+      <Caption
+        text={
+          art.label ??
+          `${art.rows} × ${art.cols} = ${art.rows * art.cols} square units`
+        }
+        y={318}
+      />
+    </>
+  )
+}
+
+function FractionLine({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'fractionLine' }> }) {
+  const at = (k: number) => 80 + (480 * k) / art.parts
+  return (
+    <>
+      <Paper id={id} />
+      <path
+        d="M80 180H560"
+        stroke={INK}
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+      {Array.from({ length: art.parts + 1 }, (_, k) => (
+        <g key={k}>
+          <line
+            x1={at(k)}
+            y1="166"
+            x2={at(k)}
+            y2="194"
+            stroke={INK}
+            strokeWidth="3"
+          />
+          <text
+            x={at(k)}
+            y="226"
+            textAnchor="middle"
+            fontSize={k === 0 || k === art.parts ? 24 : 17}
+            fontWeight="700"
+            fill={INK}
+          >
+            {k === 0 ? '0' : k === art.parts ? '1' : `${k}/${art.parts}`}
+          </text>
+        </g>
+      ))}
+      <circle cx={at(art.mark)} cy="180" r="13" fill="#d9412f" />
+      <path
+        d={`M80 150H${at(art.mark)}`}
+        stroke="#d9412f"
+        strokeWidth="6"
+        strokeLinecap="round"
+      />
+      <Caption text={art.label ?? `${art.mark}/${art.parts}`} y={300} />
+    </>
+  )
+}
+
+function Bars({ id, art }: P & { art: Extract<Art, { kind: 'bars' }> }) {
+  const most = Math.max(...art.rows.map(([, v]) => v), 1)
+  const w = 480 / art.rows.length
+  return (
+    <>
+      <Paper id={id} />
+      <path d="M80 40V260H580" fill="none" stroke={INK} strokeWidth="3" />
+      {art.rows.map(([name, value], i) => {
+        const h = (value / most) * 190
+        const x = 90 + i * w + w * 0.18
+        return (
+          <g key={name}>
+            <rect
+              x={x}
+              y={260 - h}
+              width={w * 0.64}
+              height={h}
+              fill={SHAPE_TONES[i % 6]}
+              filter={`url(#${id}shadow)`}
+            />
+            <text
+              x={x + w * 0.32}
+              y={252 - h}
+              textAnchor="middle"
+              fontSize="18"
+              fontWeight="800"
+              fill={INK}
+            >
+              {value}
+            </text>
+            <text
+              x={x + w * 0.32}
+              y="284"
+              textAnchor="middle"
+              fontSize="16"
+              fontWeight="700"
+              fill={INK}
+            >
+              {name}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -4023,6 +4262,16 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Angle id={id} art={art} />
     case 'ruler':
       return <Ruler id={id} art={art} />
+    case 'compass':
+      return <Compass id={id} art={art} />
+    case 'symmetry':
+      return <Symmetry id={id} art={art} />
+    case 'area':
+      return <Area id={id} art={art} />
+    case 'fractionLine':
+      return <FractionLine id={id} art={art} />
+    case 'bars':
+      return <Bars id={id} art={art} />
     case 'repeat':
       return <Repeat id={id} art={art} />
     case 'position':

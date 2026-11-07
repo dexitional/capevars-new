@@ -11,6 +11,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 1 Mathematics | 24 of 24 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 3 Mathematics | 39 of 39 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
+| Basic 4 Mathematics | 41 of 41 | [Mathematics Curriculum for Primary Schools, B4–B6](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-UPPER-PRIMARY-B4-B6.pdf) |
 | Basic 1 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 2 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 3 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
@@ -36,6 +37,8 @@ Checked against the Mathematics curriculum:
 - **Fractions:** Basic 1 and 2 use words and pictures only; the curriculum says “exclude notation”. Writing fractions begins in Basic 3. Boards at these levels pass `inWords` so that the theatre hides fraction symbols.
 - **Basic 1:** counting and comparing go to 100, but adding and subtracting stay within 20, which a test checks. Coins are 1, 5, 10, 20 and 50 pesewas and one cedi. Patterns have 2 to 4 repeating parts. Data has up to three categories.
 - **Basic 3:** counting and place value go to 10,000, while adding and subtracting stay within 1,000. Multiplication goes up to 5 × 5, which a test checks, with the chart to 9 × 9. Fractions are now written in symbols as well as words. Negative numbers go down to −10.
+- **Basic 4:** numbers go to 100,000, with rounding to the nearest 10, 100 and 1000. Roman numerals go to XXX. Factors go to 50, and multiplication facts to 12 × 12; a test checks that every written product has a factor of 12 or less, or a multiple of ten. Division is by one-digit numbers. Decimals go to hundredths, and percent is introduced as hundredths. Area is in cm² and m², and time includes the 24-hour clock.
+- **Basic 4 lessons have no codes:** the imported lessons carry no indicator codes, and each title joins two topics. Each guide names the indicator its lesson mainly teaches.
 - **Basic 2 numbers:** counting and place value go to 1000, and comparing goes to 100.
 - **Basic 2 money:** coins and notes up to at least 50 Ghana cedis.
 - **Basic 2 measuring:** non-standard units. Standard units are met only as a need.
@@ -86,6 +89,7 @@ Scope for other subjects and levels has not yet been checked.
 
 - The Basic 3 Mathematics compensation example for 48 − 19 gives 48 − 20 as 18 and the answer as 19. The correct values are 28 and 29.
 - The Mathematics curriculum's compensation example for 26 + 39 gives 26 + 40 as 76 and the answer as 75. The correct values are 66 and 65, and the guide uses them.
+- The Mathematics curriculum's Basic 4 rounding table gives 14,765 to the nearest ten as 14,970. The correct value is 14,770, and the guide uses it.
 - The PE curriculum says the body is “made of 75% water”. A child is closer to two-thirds water, so the guide says “more than half”.
 - The PE curriculum's high-jump explanation is garbled; the guide explains take-off and landing force plainly.
 - The PE curriculum's “back roll” steps describe a forward roll. No guide uses them.
