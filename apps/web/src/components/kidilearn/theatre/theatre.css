@@ -1,0 +1,69 @@
+/* Each age band gets its own look, from a bright KG room to a JHS chalkboard. */
+.theatre {
+  --th-bg: #fff7dc;
+  --th-panel: #ffffff;
+  --th-ink: #2f2350;
+  --th-muted: #6f6488;
+  --th-line: #eadfc0;
+  --th-accent: #e8590c;
+  --th-accent-soft: #ffe3c7;
+  --th-accent-ink: #ffffff;
+  --th-second: #0b8f83;
+  --th-second-soft: #cdf3ee;
+  --th-good: #12805c;
+  --th-bad: #c0264a;
+  --th-chrome: #2f2350;
+  font-family: 'Kidi Fredoka', ui-rounded, system-ui, sans-serif;
+  color: var(--th-ink);
+}
+.theatre[data-band='lower'] {
+  --th-bg: #e7f6ff;
+  --th-line: #bfe2f5;
+  --th-ink: #0d3049;
+  --th-muted: #4d6b80;
+  --th-accent: #0a78b5;
+  --th-accent-soft: #cdeafa;
+  --th-second: #d9480f;
+  --th-second-soft: #ffe2d1;
+  --th-chrome: #0d3049;
+}
+.theatre[data-band='upper'] {
+  --th-bg: #f1f2ff;
+  --th-line: #d3d6f7;
+  --th-ink: #1d1f55;
+  --th-muted: #565a8c;
+  --th-accent: #4338ca;
+  --th-accent-soft: #e0e0fd;
+  --th-second: #b45309;
+  --th-second-soft: #fdeccd;
+  --th-chrome: #1d1f55;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+.theatre[data-band='jhs'] {
+  --th-bg: #10243a;
+  --th-panel: #1a334f;
+  --th-ink: #f2f6fb;
+  --th-muted: #a9bdd2;
+  --th-line: #33506f;
+  --th-accent: #fbbf24;
+  --th-accent-soft: #3d3a26;
+  --th-accent-ink: #10243a;
+  --th-second: #5eead4;
+  --th-second-soft: #17423f;
+  --th-good: #4ade80;
+  --th-bad: #fb7185;
+  --th-chrome: #0a1828;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+/* A stage scales like a video: its type follows the stage, not the page. */
+.th-stage {
+  container-type: inline-size;
+  background: var(--th-bg);
+}
+.th-h1 { font-size: clamp(1.35rem, 5.6cqw, 3.1rem); line-height: 1.12; font-weight: 700; }
+.th-h2 { font-size: clamp(1.05rem, 3.5cqw, 2rem); line-height: 1.2; font-weight: 700; }
+.th-p { font-size: clamp(0.92rem, 2.7cqw, 1.5rem); line-height: 1.32; }
+.th-small { font-size: clamp(0.72rem, 1.9cqw, 1.05rem); line-height: 1.3; }
+.th-huge { font-size: clamp(2.4rem, 11cqw, 6.5rem); line-height: 1; font-weight: 700; }
+.th-svg text { font-family: inherit; fill: var(--th-ink); }
+.th-frame:fullscreen { overflow-y: auto; background: var(--th-chrome); padding: 12px; }

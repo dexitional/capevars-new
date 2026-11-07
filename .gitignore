@@ -26,3 +26,6 @@ apps/web/public/apps/*.apk
 # Local file storage (uploads). Carry it between machines with npm run storage:push / storage:pack.
 apps/web/storage/
 capevars-uploads-*.tar.gz
+
+# Recorded theatre narration. Render it on the server: see docs/kidilearn-explore.md
+apps/web/public/kidilearn/theatre/

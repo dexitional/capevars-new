@@ -49,6 +49,7 @@ export interface LearningQuestion {
   interaction?: PlayInteraction | null
 }
 export interface LessonContent {
+  key?: string
   sourceScope?: string
   sourceVideo?: {
     audio: 'english-guide' | 'synthetic-english' | 'silent'

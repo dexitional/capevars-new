@@ -1,0 +1,1736 @@
+import { useId } from 'react'
+import type { Art, Shape, Solid } from '#/lib/kidilearn/explore/types'
+
+// Pictures drawn from code, so they stay sharp on any screen and a small phone
+// downloads text rather than images. Light, shading and shadow make each object
+// look like the thing a child can pick up.
+
+const INK = '#22303c'
+const CAP_COLOURS = ['#d9412f', '#e8a317', '#1f8a70', '#2b6cb0']
+
+type P = { id: string }
+
+function Defs({ id }: P) {
+  return (
+    <defs>
+      <linearGradient id={`${id}wall`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#fdf8ee" />
+        <stop offset="1" stopColor="#f3e7d2" />
+      </linearGradient>
+      <linearGradient id={`${id}wood`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#c58b52" />
+        <stop offset="1" stopColor="#8f5a2c" />
+      </linearGradient>
+      <linearGradient id={`${id}crust`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#e2a65a" />
+        <stop offset=".55" stopColor="#c47f33" />
+        <stop offset="1" stopColor="#8d5420" />
+      </linearGradient>
+      <radialGradient id={`${id}crumb`} cx=".4" cy=".35" r=".8">
+        <stop offset="0" stopColor="#fff5df" />
+        <stop offset="1" stopColor="#f0d6a6" />
+      </radialGradient>
+      <radialGradient id={`${id}cream`} cx=".4" cy=".3" r=".9">
+        <stop offset="0" stopColor="#fffdf8" />
+        <stop offset="1" stopColor="#f2dfc9" />
+      </radialGradient>
+      <radialGradient id={`${id}berry`} cx=".4" cy=".3" r=".9">
+        <stop offset="0" stopColor="#f58aa0" />
+        <stop offset="1" stopColor="#c93a5c" />
+      </radialGradient>
+      {CAP_COLOURS.map((c, i) => (
+        <radialGradient key={c} id={`${id}cap${i}`} cx=".35" cy=".3" r=".85">
+          <stop offset="0" stopColor="#fff" stopOpacity=".85" />
+          <stop offset=".3" stopColor={c} />
+          <stop offset="1" stopColor={c} stopOpacity=".78" />
+        </radialGradient>
+      ))}
+      <linearGradient id={`${id}metal`} x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stopColor="#fbfdff" />
+        <stop offset=".5" stopColor="#c7d2dc" />
+        <stop offset="1" stopColor="#8b99a7" />
+      </linearGradient>
+      <linearGradient id={`${id}glass`} x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stopColor="#a9d6e8" stopOpacity=".55" />
+        <stop offset=".22" stopColor="#f2fbff" stopOpacity=".9" />
+        <stop offset=".6" stopColor="#b7deee" stopOpacity=".5" />
+        <stop offset="1" stopColor="#7fb6cf" stopOpacity=".75" />
+      </linearGradient>
+      <linearGradient id={`${id}water`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#6fc3e6" />
+        <stop offset="1" stopColor="#2a7fb5" />
+      </linearGradient>
+      <filter id={`${id}shadow`} x="-20%" y="-20%" width="140%" height="150%">
+        <feDropShadow
+          dx="0"
+          dy="4"
+          stdDeviation="4"
+          floodColor="#3b2a14"
+          floodOpacity=".32"
+        />
+      </filter>
+      <filter id={`${id}soft`} x="-30%" y="-80%" width="160%" height="260%">
+        <feGaussianBlur stdDeviation="7" />
+      </filter>
+    </defs>
+  )
+}
+
+// A label on a light card, so it stays readable over wood or a busy picture.
+const Caption = ({ text, y = 340 }: { text?: string; y?: number }) =>
+  text ? (
+    <g>
+      <rect
+        x={320 - Math.min(text.length * 6.4 + 18, 310)}
+        y={y - 25}
+        width={Math.min(text.length * 12.8 + 36, 620)}
+        height="36"
+        rx="18"
+        fill="#fffdf8"
+        opacity=".94"
+      />
+      <text
+        x="320"
+        y={y}
+        textAnchor="middle"
+        fontSize="22"
+        fontWeight="700"
+        fill={INK}
+      >
+        {text}
+      </text>
+    </g>
+  ) : null
+
+// The total of a side such as "8 + 5".
+const sideValue = (side: string) =>
+  side.split('+').reduce((sum, part) => sum + Number(part.trim() || 0), 0)
+
+// A table top in soft light, for objects to sit on.
+function Table({ id, y = 250 }: P & { y?: number }) {
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <rect y={y} width="640" height={360 - y} fill={`url(#${id}wood)`} />
+      <rect y={y} width="640" height="4" fill="#fff" opacity=".22" />
+      {[0.25, 0.55, 0.8].map((f) => (
+        <path
+          key={f}
+          d={`M0 ${y + (360 - y) * f}C200 ${y + (360 - y) * f - 7} 430 ${y + (360 - y) * f + 8} 640 ${y + (360 - y) * f}`}
+          fill="none"
+          stroke="#6d4120"
+          strokeOpacity=".22"
+          strokeWidth="2"
+        />
+      ))}
+    </>
+  )
+}
+
+function Paper({ id }: P) {
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <rect
+        x="18"
+        y="14"
+        width="604"
+        height="332"
+        rx="14"
+        fill="#fff"
+        filter={`url(#${id}shadow)`}
+      />
+    </>
+  )
+}
+
+function Cap({
+  id,
+  x,
+  y,
+  r = 9,
+  tone = 0,
+}: P & { x: number; y: number; r?: number; tone?: number }) {
+  return (
+    <g>
+      <circle
+        cx={x}
+        cy={y}
+        r={r}
+        fill={`url(#${id}cap${tone % CAP_COLOURS.length})`}
+        stroke="#00000033"
+      />
+      <circle
+        cx={x}
+        cy={y}
+        r={r * 0.62}
+        fill="none"
+        stroke="#ffffff66"
+        strokeWidth="1.2"
+      />
+    </g>
+  )
+}
+
+function Loaf({ id, art }: P & { art: Extract<Art, { kind: 'loaf' }> }) {
+  const bounds = art.unequal
+    ? [0, 0.72, 1]
+    : Array.from({ length: art.cuts + 1 }, (_, i) => i / art.cuts)
+  const gap = art.cuts === 1 ? 0 : 14
+  const total = 500 - gap * (bounds.length - 2)
+  let x = 70
+  return (
+    <>
+      <Table id={id} />
+      <ellipse
+        cx="320"
+        cy="252"
+        rx="280"
+        ry="14"
+        fill="#2a1a0a"
+        opacity=".45"
+        filter={`url(#${id}soft)`}
+      />
+      {bounds.slice(1).map((end, i) => {
+        const w = (end - bounds[i]!) * total
+        const left = x
+        x += w + gap
+        const picked = art.picked === i
+        return (
+          <g
+            key={i}
+            transform={picked ? 'translate(0 -18)' : undefined}
+            filter={`url(#${id}shadow)`}
+          >
+            <rect
+              x={left}
+              y="118"
+              width={w}
+              height="130"
+              rx={i === 0 || i === bounds.length - 2 ? 38 : 14}
+              fill={`url(#${id}crust)`}
+              stroke={picked ? '#d9412f' : '#00000022'}
+              strokeWidth={picked ? 5 : 1}
+            />
+            <rect
+              x={left + 12}
+              y="132"
+              width={Math.max(w - 24, 6)}
+              height="10"
+              rx="5"
+              fill="#fff"
+              opacity=".22"
+            />
+            {i > 0 && (
+              <rect
+                x={left}
+                y="124"
+                width="9"
+                height="118"
+                rx="4"
+                fill={`url(#${id}crumb)`}
+              />
+            )}
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={320} />
+    </>
+  )
+}
+
+function polar(cx: number, cy: number, r: number, turn: number) {
+  const a = turn * 2 * Math.PI - Math.PI / 2
+  return [cx + r * Math.cos(a), cy + r * Math.sin(a)] as const
+}
+
+function Cake({ id, art }: P & { art: Extract<Art, { kind: 'cake' }> }) {
+  const cx = 320
+  const cy = 165
+  const r = 118
+  return (
+    <>
+      <Table id={id} y={150} />
+      <ellipse
+        cx={cx}
+        cy={cy + 10}
+        rx={r + 26}
+        ry={r + 16}
+        fill="#2a1a0a"
+        opacity=".35"
+        filter={`url(#${id}soft)`}
+      />
+      <circle cx={cx} cy={cy} r={r + 16} fill={`url(#${id}metal)`} />
+      {Array.from({ length: art.parts }, (_, i) => {
+        const [x1, y1] = polar(cx, cy, r, i / art.parts)
+        const [x2, y2] = polar(cx, cy, r, (i + 1) / art.parts)
+        const on = i < art.picked
+        const [dx, dy] = polar(0, 0, on ? 12 : 0, (i + 0.5) / art.parts)
+        return (
+          <path
+            key={i}
+            transform={`translate(${dx} ${dy})`}
+            d={
+              art.parts === 1
+                ? `M${cx - r} ${cy}a${r} ${r} 0 1 0 ${2 * r} 0a${r} ${r} 0 1 0 ${-2 * r} 0`
+                : `M${cx} ${cy}L${x1} ${y1}A${r} ${r} 0 ${art.parts <= 2 ? 1 : 0} 1 ${x2} ${y2}Z`
+            }
+            fill={`url(#${id}${on ? 'berry' : 'cream'})`}
+            stroke="#a9825a"
+            strokeWidth="2.5"
+          />
+        )
+      })}
+      <Caption text={art.label} y={336} />
+    </>
+  )
+}
+
+function Caps({ id, art }: P & { art: Extract<Art, { kind: 'caps' }> }) {
+  const columns: Array<React.ReactNode> = []
+  let x = 40
+  for (let h = 0; h < art.hundreds; h++) {
+    const left = x
+    columns.push(
+      <g key={`h${h}`} filter={`url(#${id}shadow)`}>
+        <rect
+          x={left - 5}
+          y="34"
+          width="146"
+          height="206"
+          rx="8"
+          fill="#fff8ea"
+          stroke="#c9b48c"
+        />
+        {Array.from({ length: 100 }, (_, i) => (
+          <Cap
+            key={i}
+            id={id}
+            x={left + 7 + (i % 10) * 13.6}
+            y={46 + Math.floor(i / 10) * 20}
+            r={5.8}
+            tone={0}
+          />
+        ))}
+      </g>,
+    )
+    x += 160
+  }
+  for (let t = 0; t < art.tens; t++) {
+    const left = x
+    columns.push(
+      <g key={`t${t}`} filter={`url(#${id}shadow)`}>
+        <line
+          x1={left}
+          x2={left}
+          y1="28"
+          y2="240"
+          stroke="#7a5a33"
+          strokeWidth="2.5"
+        />
+        {Array.from({ length: 10 }, (_, i) => (
+          <Cap key={i} id={id} x={left} y={42 + i * 20.5} tone={2} />
+        ))}
+      </g>,
+    )
+    x += 26
+  }
+  x += 8
+  for (let o = 0; o < art.ones; o++)
+    columns.push(
+      <Cap
+        key={`o${o}`}
+        id={id}
+        x={x + (o % 3) * 22}
+        y={218 - Math.floor(o / 3) * 24}
+        r={10}
+        tone={1}
+      />,
+    )
+  return (
+    <>
+      <Table id={id} />
+      {columns}
+      <Caption
+        text={
+          art.label ??
+          `${art.hundreds} hundreds, ${art.tens} tens, ${art.ones} ones`
+        }
+        y={320}
+      />
+    </>
+  )
+}
+
+function Groups({ id, art }: P & { art: Extract<Art, { kind: 'groups' }> }) {
+  const left = art.left ?? 0
+  const perRow = Math.ceil(Math.sqrt(art.groups + (left ? 1 : 0)) * 1.6)
+  const cell = 600 / perRow
+  const rows = Math.ceil((art.groups + (left ? 1 : 0)) / perRow)
+  const height = 240 / rows
+  const place = (i: number) =>
+    [20 + (i % perRow) * cell, 14 + Math.floor(i / perRow) * height] as const
+  const items = (x: number, y: number, n: number, tone: number) => {
+    const across = Math.ceil(Math.sqrt(n))
+    const r = Math.min(
+      (cell - 24) / across / 2.3,
+      (height - 26) / Math.ceil(n / across) / 2.3,
+      12,
+    )
+    return Array.from({ length: n }, (_, i) => (
+      <Cap
+        key={i}
+        id={id}
+        x={x + cell / 2 - ((across - 1) * r * 2.3) / 2 + (i % across) * r * 2.3}
+        y={
+          y +
+          height / 2 -
+          ((Math.ceil(n / across) - 1) * r * 2.3) / 2 +
+          Math.floor(i / across) * r * 2.3 -
+          3
+        }
+        r={r}
+        tone={tone}
+      />
+    ))
+  }
+  return (
+    <>
+      <Table id={id} y={40} />
+      {Array.from({ length: art.groups }, (_, g) => {
+        const [x, y] = place(g)
+        return (
+          <g key={g}>
+            <rect
+              x={x + 5}
+              y={y + 4}
+              width={cell - 10}
+              height={height - 10}
+              rx="16"
+              fill="#fbf1dc"
+              stroke="#d3bb91"
+              strokeWidth="2.5"
+              filter={`url(#${id}shadow)`}
+            />
+            {items(x, y, art.each, g)}
+          </g>
+        )
+      })}
+      {left > 0 && <g>{items(...place(art.groups), left, 1)}</g>}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+function Chart({ id, art }: P & { art: Extract<Art, { kind: 'chart' }> }) {
+  const near = new Map([
+    [art.focus - 10, 'above'],
+    [art.focus + 10, 'below'],
+    [art.focus - 1, 'left'],
+    [art.focus + 1, 'right'],
+  ])
+  return (
+    <>
+      <Paper id={id} />
+      {Array.from({ length: 50 }, (_, i) => {
+        const n = art.start + i
+        const x = 44 + (i % 10) * 56
+        const y = 30 + Math.floor(i / 10) * 60
+        const focus = n === art.focus
+        const by = near.has(n)
+        return (
+          <g key={n}>
+            <rect
+              x={x}
+              y={y}
+              width="52"
+              height="56"
+              rx="7"
+              fill={focus ? '#d9412f' : by ? '#ffe7a8' : '#f3f6f8'}
+              stroke={by || focus ? '#b9791b' : '#d6dee5'}
+              strokeWidth="1.5"
+            />
+            <text
+              x={x + 26}
+              y={y + 36}
+              textAnchor="middle"
+              fontSize="20"
+              fontWeight={focus || by ? 700 : 500}
+              fill={focus ? '#fff' : INK}
+            >
+              {n}
+            </text>
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+function Compare({ id, art }: P & { art: Extract<Art, { kind: 'compare' }> }) {
+  const stack = (n: number, x: number) => {
+    const tens = Math.floor(n / 10)
+    return (
+      <g>
+        {Array.from({ length: tens }, (_, t) =>
+          Array.from({ length: 10 }, (_unused, i) => (
+            <Cap
+              key={`${t}${i}`}
+              id={id}
+              x={x + t * 19}
+              y={40 + i * 17}
+              r={7.6}
+              tone={2}
+            />
+          )),
+        )}
+        {Array.from({ length: n % 10 }, (_, i) => (
+          <Cap
+            key={i}
+            id={id}
+            x={x + tens * 19 + 4}
+            y={40 + i * 17}
+            r={7.6}
+            tone={1}
+          />
+        ))}
+        <text
+          x={x + 62}
+          y="256"
+          textAnchor="middle"
+          fontSize="42"
+          fontWeight="800"
+          fill={INK}
+        >
+          {n}
+        </text>
+        <text x={x + 62} y="284" textAnchor="middle" fontSize="16" fill={INK}>
+          {tens} tens, {n % 10} ones
+        </text>
+      </g>
+    )
+  }
+  const sign = art.a > art.b ? '>' : art.a < art.b ? '<' : '='
+  return (
+    <>
+      <Paper id={id} />
+      {stack(art.a, 60)}
+      <text
+        x="320"
+        y="180"
+        textAnchor="middle"
+        fontSize="88"
+        fontWeight="800"
+        fill="#d9412f"
+      >
+        {sign}
+      </text>
+      {stack(art.b, 400)}
+    </>
+  )
+}
+
+function Balance({ id, art }: P & { art: Extract<Art, { kind: 'balance' }> }) {
+  // The heavier side goes down, as it would on a real scale.
+  const tilt = art.equal
+    ? 0
+    : sideValue(art.left) > sideValue(art.right)
+      ? -7
+      : 7
+  return (
+    <>
+      <Table id={id} y={290} />
+      <rect x="312" y="96" width="16" height="196" fill={`url(#${id}metal)`} />
+      <path
+        d="M262 292h116l-20-20h-76Z"
+        fill={`url(#${id}metal)`}
+        filter={`url(#${id}shadow)`}
+      />
+      <g transform={`rotate(${tilt} 320 96)`}>
+        <rect
+          x="88"
+          y="90"
+          width="464"
+          height="11"
+          rx="5"
+          fill={`url(#${id}metal)`}
+          filter={`url(#${id}shadow)`}
+        />
+        {[
+          [110, art.left],
+          [530, art.right],
+        ].map(([x, label]) => (
+          <g key={x as number} transform={`rotate(${-tilt} ${x} 96)`}>
+            <path
+              d={`M${x} 96l-70 96M${x} 96l70 96`}
+              stroke="#6e7b87"
+              strokeWidth="2"
+            />
+            <path
+              d={`M${(x as number) - 86} 192h172c-8 34-36 40-86 40s-78-6-86-40Z`}
+              fill={`url(#${id}metal)`}
+              filter={`url(#${id}shadow)`}
+            />
+            <text
+              x={x as number}
+              y="222"
+              textAnchor="middle"
+              fontSize="28"
+              fontWeight="800"
+              fill={INK}
+            >
+              {label}
+            </text>
+          </g>
+        ))}
+      </g>
+      <circle
+        cx="320"
+        cy="96"
+        r="13"
+        fill={`url(#${id}metal)`}
+        stroke="#6e7b87"
+      />
+      <text
+        x="320"
+        y="60"
+        textAnchor="middle"
+        fontSize="54"
+        fontWeight="800"
+        fill={art.equal ? '#1f8a70' : '#d9412f'}
+      >
+        {art.equal ? '=' : '≠'}
+      </text>
+    </>
+  )
+}
+
+function TenFrame({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'tenframe' }> }) {
+  return (
+    <>
+      <Paper id={id} />
+      {[0, 1].map((f) => (
+        <g key={f}>
+          <rect
+            x="60"
+            y={38 + f * 136}
+            width="520"
+            height="124"
+            rx="8"
+            fill="#fbf6ea"
+            stroke="#8a6a3a"
+            strokeWidth="4"
+          />
+          {Array.from({ length: 10 }, (_, i) => {
+            const n = f * 10 + i
+            const x = 60 + (i % 5) * 104
+            const y = 38 + f * 136 + Math.floor(i / 5) * 62
+            return (
+              <g key={i}>
+                <rect
+                  x={x}
+                  y={y}
+                  width="104"
+                  height="62"
+                  fill="none"
+                  stroke="#8a6a3a"
+                  strokeWidth="2"
+                />
+                {n < art.first + art.second && (
+                  <Cap
+                    id={id}
+                    x={x + 52}
+                    y={y + 31}
+                    r={23}
+                    tone={n < art.first ? 0 : 3}
+                  />
+                )}
+              </g>
+            )
+          })}
+        </g>
+      ))}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+function Frame({ id, art }: P & { art: Extract<Art, { kind: 'frame' }> }) {
+  const row = (r: [number, number], y: number, bold = false) => (
+    <g
+      key={y}
+      fontSize="46"
+      fontWeight={bold ? 800 : 600}
+      textAnchor="middle"
+      fill={bold ? '#d9412f' : INK}
+    >
+      <text x="285" y={y}>
+        {r[0] || ''}
+      </text>
+      <text x="415" y={y}>
+        {r[1]}
+      </text>
+    </g>
+  )
+  const last = 92 + art.rows.length * 58
+  return (
+    <>
+      <Paper id={id} />
+      <rect x="220" y="28" width="130" height="50" fill="#d6eef0" />
+      <rect x="350" y="28" width="130" height="50" fill="#fdeec3" />
+      <text
+        x="285"
+        y="62"
+        textAnchor="middle"
+        fontSize="24"
+        fontWeight="700"
+        fill={INK}
+      >
+        Tens
+      </text>
+      <text
+        x="415"
+        y="62"
+        textAnchor="middle"
+        fontSize="24"
+        fontWeight="700"
+        fill={INK}
+      >
+        Ones
+      </text>
+      <path d="M350 28v290" stroke="#8a9aa8" strokeWidth="2.5" />
+      <rect
+        x="220"
+        y="28"
+        width="260"
+        height="290"
+        rx="4"
+        fill="none"
+        stroke="#8a9aa8"
+        strokeWidth="2.5"
+      />
+      {art.rows.map((r, i) => row(r, 124 + i * 58))}
+      <text
+        x="180"
+        y={124 + (art.rows.length - 1) * 58}
+        textAnchor="middle"
+        fontSize="50"
+        fontWeight="800"
+        fill={INK}
+      >
+        {art.sign}
+      </text>
+      <path d={`M170 ${last - 10}h310`} stroke={INK} strokeWidth="4" />
+      {art.answer && row(art.answer, last + 44, true)}
+    </>
+  )
+}
+
+function Jumps({ id, art }: P & { art: Extract<Art, { kind: 'jumps' }> }) {
+  const stops = art.jumps.reduce<Array<number>>(
+    (all, j) => [...all, all.at(-1)! + j],
+    [art.start],
+  )
+  const low = Math.min(...stops)
+  const high = Math.max(...stops)
+  const span = Math.max(high - low, 1)
+  const at = (n: number) => 60 + ((n - low) / span) * 520
+  return (
+    <>
+      <Paper id={id} />
+      <path
+        d="M30 230H610"
+        stroke={INK}
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+      {stops.slice(1).map((n, i) => {
+        const a = at(stops[i]!)
+        const b = at(n)
+        const h = 60 + Math.min(Math.abs(b - a) * 0.5, 80)
+        const j = art.jumps[i]!
+        return (
+          <g key={i}>
+            <path
+              d={`M${a} 222Q${(a + b) / 2} ${222 - h} ${b} 222`}
+              fill="none"
+              stroke={j < 0 ? '#d9412f' : '#1f8a70'}
+              strokeWidth="5"
+            />
+            <text
+              x={(a + b) / 2}
+              y={222 - h / 2 - 12}
+              textAnchor="middle"
+              fontSize="23"
+              fontWeight="800"
+              fill={j < 0 ? '#d9412f' : '#1f8a70'}
+            >
+              {j > 0 ? `+${j}` : `−${-j}`}
+            </text>
+          </g>
+        )
+      })}
+      {stops.map((n, i) => {
+        // Numbers close together take turns on two lines, so they do not touch.
+        const crowded = i > 0 && Math.abs(at(n) - at(stops[i - 1]!)) < 44
+        return (
+          <g key={i}>
+            <circle
+              cx={at(n)}
+              cy="230"
+              r="9"
+              fill={
+                i === 0 ? '#2b6cb0' : i === stops.length - 1 ? '#d9412f' : INK
+              }
+            />
+            <text
+              x={at(n)}
+              y={crowded ? 292 : 268}
+              textAnchor="middle"
+              fontSize="24"
+              fontWeight="700"
+              fill={INK}
+            >
+              {n}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={334} />
+    </>
+  )
+}
+
+const NOTE: Record<number, [string, string]> = {
+  1: ['#a8c97f', '#5d8238'],
+  2: ['#a7cfe6', '#3d7ea6'],
+  5: ['#e7a9a1', '#a84d43'],
+  10: ['#f2ca76', '#b5842a'],
+  20: ['#c7a8dc', '#7c55a0'],
+  50: ['#9fd8c6', '#38806b'],
+}
+
+// Plain money for counting, marked so it can never be mistaken for real notes.
+function Cedis({ id, art }: P & { art: Extract<Art, { kind: 'cedis' }> }) {
+  const across = Math.min(art.notes.length, 3)
+  const w = Math.min(560 / across - 14, 178)
+  return (
+    <>
+      <Table id={id} y={40} />
+      {art.notes.map((value, i) => {
+        const x = (640 - across * (w + 14)) / 2 + (i % 3) * (w + 14) + 7
+        const y =
+          24 + Math.floor(i / 3) * 124 + (art.notes.length <= 3 ? 56 : 0)
+        const [light, dark] = NOTE[value] ?? NOTE[1]!
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            <rect
+              x={x}
+              y={y}
+              width={w}
+              height="108"
+              rx="7"
+              fill={light}
+              stroke={dark}
+              strokeWidth="2.5"
+            />
+            <rect
+              x={x + 8}
+              y={y + 8}
+              width={w - 16}
+              height="92"
+              rx="4"
+              fill="none"
+              stroke={dark}
+              strokeWidth="1.2"
+            />
+            <circle
+              cx={x + w / 2}
+              cy={y + 54}
+              r="33"
+              fill="#ffffff55"
+              stroke={dark}
+            />
+            <text
+              x={x + w / 2}
+              y={y + 68}
+              textAnchor="middle"
+              fontSize="38"
+              fontWeight="800"
+              fill={dark}
+            >
+              {value}
+            </text>
+            <text
+              x={x + 14}
+              y={y + 28}
+              fontSize="14"
+              fontWeight="700"
+              fill={dark}
+            >
+              GH₵
+            </text>
+            <text
+              x={x + w - 14}
+              y={y + 96}
+              textAnchor="end"
+              fontSize="11"
+              fill={dark}
+            >
+              practice
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={334} />
+    </>
+  )
+}
+
+function Pattern({ id, art }: P & { art: Extract<Art, { kind: 'pattern' }> }) {
+  const w = Math.min(560 / art.terms.length, 100)
+  const left = 320 - (art.terms.length * w) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {art.terms.map((n, i) => (
+        <g key={i}>
+          <circle
+            cx={left + w * (i + 0.5)}
+            cy="166"
+            r={w * 0.42}
+            fill={n === null ? '#fff' : `url(#${id}cap${i % 4})`}
+            stroke={n === null ? '#d9412f' : '#00000033'}
+            strokeWidth={n === null ? 4 : 1}
+            strokeDasharray={n === null ? '8 6' : undefined}
+          />
+          <text
+            x={left + w * (i + 0.5)}
+            y="178"
+            textAnchor="middle"
+            fontSize="33"
+            fontWeight="800"
+            fill={n === null ? '#d9412f' : '#fff'}
+            stroke={n === null ? undefined : '#00000055'}
+            strokeWidth=".6"
+          >
+            {n ?? '?'}
+          </text>
+          {i > 0 && (
+            <path
+              d={`M${left + w * (i - 0.5) + 6} ${166 - w * 0.5}Q${left + w * i} ${166 - w * 0.95} ${left + w * (i + 0.5) - 6} ${166 - w * 0.5}`}
+              fill="none"
+              stroke="#8a9aa8"
+              strokeWidth="3"
+            />
+          )}
+        </g>
+      ))}
+      <Caption text={art.rule} y={290} />
+    </>
+  )
+}
+
+function SolidArt({ id, name, x }: P & { name: Solid; x: number }) {
+  const y = 210
+  const label = {
+    cube: 'Cube',
+    sphere: 'Sphere',
+    cylinder: 'Cylinder',
+    cone: 'Cone',
+    pyramid: 'Pyramid',
+  }[name]
+  const c = {
+    cube: ['#f0b64a', '#d9962b', '#b07418'],
+    sphere: ['#e45d4b'],
+    cylinder: ['#5aa9d6', '#2f7cab', '#a6d4ec'],
+    cone: ['#7bc08a', '#3b8b52'],
+    pyramid: ['#c9a06a', '#a47c47', '#7f5d31'],
+  }[name]
+  return (
+    <g filter={`url(#${id}shadow)`}>
+      {name === 'cube' && (
+        <>
+          <path d={`M${x - 48} ${y - 76}l48 -24 48 24 -48 24Z`} fill={c[0]} />
+          <path d={`M${x - 48} ${y - 76}v76l48 24v-76Z`} fill={c[1]} />
+          <path d={`M${x + 48} ${y - 76}v76l-48 24v-76Z`} fill={c[2]} />
+        </>
+      )}
+      {name === 'sphere' && (
+        <>
+          <radialGradient id={`${id}ball`} cx=".35" cy=".3" r=".8">
+            <stop offset="0" stopColor="#fff" stopOpacity=".95" />
+            <stop offset=".25" stopColor={c[0]} />
+            <stop offset="1" stopColor="#7c1f15" />
+          </radialGradient>
+          <circle cx={x} cy={y - 42} r="58" fill={`url(#${id}ball)`} />
+        </>
+      )}
+      {name === 'cylinder' && (
+        <>
+          <linearGradient id={`${id}can`} x1="0" x2="1">
+            <stop offset="0" stopColor={c[1]} />
+            <stop offset=".35" stopColor={c[2]} />
+            <stop offset="1" stopColor={c[1]} />
+          </linearGradient>
+          <path
+            d={`M${x - 46} ${y - 92}v96c0 26 92 26 92 0v-96Z`}
+            fill={`url(#${id}can)`}
+          />
+          <ellipse
+            cx={x}
+            cy={y - 92}
+            rx="46"
+            ry="15"
+            fill={c[2]}
+            stroke={c[1]}
+          />
+        </>
+      )}
+      {name === 'cone' && (
+        <>
+          <linearGradient id={`${id}cone`} x1="0" x2="1">
+            <stop offset="0" stopColor={c[1]} />
+            <stop offset=".4" stopColor={c[0]} />
+            <stop offset="1" stopColor="#245c35" />
+          </linearGradient>
+          <path
+            d={`M${x} ${y - 104}L${x - 54} ${y + 2}c0 24 108 24 108 0Z`}
+            fill={`url(#${id}cone)`}
+          />
+        </>
+      )}
+      {name === 'pyramid' && (
+        <>
+          <path
+            d={`M${x} ${y - 104}L${x - 58} ${y - 6}L${x + 12} ${y + 22}Z`}
+            fill={c[0]}
+          />
+          <path
+            d={`M${x} ${y - 104}L${x + 12} ${y + 22}L${x + 60} ${y - 10}Z`}
+            fill={c[2]}
+          />
+        </>
+      )}
+      <text
+        x={x}
+        y={y + 76}
+        textAnchor="middle"
+        fontSize="23"
+        fontWeight="700"
+        fill="#fff"
+        stroke="#00000055"
+        strokeWidth=".5"
+      >
+        {label}
+      </text>
+    </g>
+  )
+}
+
+function SmallShape({
+  name,
+  x,
+  y,
+  r,
+  tone,
+}: {
+  name: Shape
+  x: number
+  y: number
+  r: number
+  tone: string
+}) {
+  const regular = (sides: number) =>
+    Array.from({ length: sides }, (_, i) =>
+      polar(x, y, r, i / sides).join(','),
+    ).join(' ')
+  const style = {
+    fill: tone,
+    stroke: '#00000044',
+    strokeWidth: 2.5,
+    strokeLinejoin: 'round' as const,
+  }
+  if (name === 'circle') return <circle cx={x} cy={y} r={r} {...style} />
+  if (name === 'square')
+    return (
+      <rect
+        x={x - r * 0.85}
+        y={y - r * 0.85}
+        width={r * 1.7}
+        height={r * 1.7}
+        {...style}
+      />
+    )
+  if (name === 'rectangle')
+    return (
+      <rect
+        x={x - r * 1.15}
+        y={y - r * 0.62}
+        width={r * 2.3}
+        height={r * 1.24}
+        {...style}
+      />
+    )
+  const sides = { triangle: 3, pentagon: 5, hexagon: 6 }[name]
+  return <polygon points={regular(sides)} {...style} />
+}
+
+const SHAPE_TONES = [
+  '#e45d4b',
+  '#f0b64a',
+  '#3f9e7c',
+  '#3f86c1',
+  '#8c63b5',
+  '#d9628e',
+]
+const SIDES: Record<Shape, string> = {
+  square: '4 equal sides',
+  rectangle: '4 sides',
+  triangle: '3 sides',
+  circle: 'No corners',
+  pentagon: '5 sides',
+  hexagon: '6 sides',
+}
+
+function Shapes({ id, art }: P & { art: Extract<Art, { kind: 'shapes' }> }) {
+  const across = Math.min(art.names.length, 3)
+  const rows = Math.ceil(art.names.length / 3)
+  const w = 600 / across
+  const h = 320 / rows
+  return (
+    <>
+      <Paper id={id} />
+      {art.names.map((name, i) => {
+        const x = 20 + (i % 3) * w + w / 2
+        const y = 28 + Math.floor(i / 3) * h + h / 2 - 24
+        return (
+          <g key={name} filter={`url(#${id}shadow)`}>
+            <SmallShape
+              name={name}
+              x={x}
+              y={y}
+              r={Math.min(h * 0.28, 62)}
+              tone={SHAPE_TONES[i % 6]!}
+            />
+            {art.labelled !== false && (
+              <>
+                <text
+                  x={x}
+                  y={y + Math.min(h * 0.28, 62) + 24}
+                  textAnchor="middle"
+                  fontSize="20"
+                  fontWeight="700"
+                  fill={INK}
+                  style={{ textTransform: 'capitalize' }}
+                >
+                  {name}
+                </text>
+                <text
+                  x={x}
+                  y={y + Math.min(h * 0.28, 62) + 44}
+                  textAnchor="middle"
+                  fontSize="14"
+                  fill={INK}
+                >
+                  {SIDES[name]}
+                </text>
+              </>
+            )}
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+const STICK_LENGTH = 265
+
+// Drawn as rectangles: a shadow filter hides a perfectly level or upright line.
+function Stick({
+  id,
+  x,
+  y,
+  turn = 0,
+}: P & { x: number; y: number; turn?: number }) {
+  return (
+    <g transform={`rotate(${turn} ${x} ${y})`} filter={`url(#${id}shadow)`}>
+      <rect
+        x={x}
+        y={y - 8}
+        width={STICK_LENGTH}
+        height="16"
+        rx="8"
+        fill="#8b5a2b"
+      />
+      <rect
+        x={x + 3}
+        y={y - 5}
+        width={STICK_LENGTH - 6}
+        height="6"
+        rx="3"
+        fill="#d4a56c"
+      />
+    </g>
+  )
+}
+
+function Sticks({ id, art }: P & { art: Extract<Art, { kind: 'sticks' }> }) {
+  return (
+    <>
+      <Table id={id} y={0} />
+      {art.together ? (
+        [70, 140, 210].map((y) => <Stick key={y} id={id} x={188} y={y} />)
+      ) : (
+        <>
+          <Stick id={id} x={50} y={40} turn={28} />
+          <Stick id={id} x={560} y={22} turn={90} />
+          <Stick id={id} x={120} y={268} />
+        </>
+      )}
+      <rect x="0" y="296" width="640" height="64" fill="#00000033" />
+      <text
+        x="320"
+        y="336"
+        textAnchor="middle"
+        fontSize="23"
+        fontWeight="700"
+        fill="#fff"
+      >
+        {art.together
+          ? 'Side by side, all the same length'
+          : 'Which stick is the longest?'}
+      </text>
+    </>
+  )
+}
+
+function Measure({ id, art }: P & { art: Extract<Art, { kind: 'measure' }> }) {
+  const unitW = 520 / art.count
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <rect
+        x="60"
+        y="130"
+        width="520"
+        height="40"
+        rx="5"
+        fill={`url(#${id}crust)`}
+        filter={`url(#${id}shadow)`}
+      />
+      <rect
+        x="60"
+        y="130"
+        width="520"
+        height="8"
+        rx="4"
+        fill="#fff"
+        opacity=".2"
+      />
+      {Array.from({ length: art.count }, (_, i) => {
+        const x = 60 + i * unitW
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            {art.unit === 'hand' ? (
+              <g fill={i % 2 ? '#a9744a' : '#8d5b37'}>
+                <rect x={x + 4} y="196" width={unitW - 8} height="34" rx="14" />
+                {[0, 1, 2, 3].map((f) => (
+                  <rect
+                    key={f}
+                    x={x + 6 + f * ((unitW - 12) / 4)}
+                    y="174"
+                    width={(unitW - 12) / 4 - 2}
+                    height="34"
+                    rx="6"
+                  />
+                ))}
+              </g>
+            ) : art.unit === 'stick' ? (
+              <rect
+                x={x + 3}
+                y="190"
+                width={unitW - 6}
+                height="13"
+                rx="6"
+                fill={i % 2 ? '#c8965a' : '#a7743f'}
+              />
+            ) : (
+              <rect
+                x={x + 3}
+                y="190"
+                width={unitW - 6}
+                height="13"
+                rx="6"
+                fill="none"
+                stroke={`url(#${id}metal)`}
+                strokeWidth="4"
+              />
+            )}
+            <text
+              x={x + unitW / 2}
+              y="254"
+              textAnchor="middle"
+              fontSize="19"
+              fontWeight="700"
+              fill={INK}
+            >
+              {i + 1}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={320} />
+    </>
+  )
+}
+
+function Bottle({ id, x, height }: P & { x: number; height: number }) {
+  const bottom = 268
+  const top = bottom - height
+  const shoulder = top + 34
+  return (
+    <g filter={`url(#${id}shadow)`}>
+      <path
+        d={`M${x - 12} ${top}h24v28q18 14 18 34V${bottom - 6}q0 6-6 6h-48q-6 0-6-6V${shoulder + 28}q0-20 18-34Z`}
+        fill={`url(#${id}glass)`}
+        stroke="#6fa6bd"
+        strokeWidth="1.5"
+      />
+      <rect
+        x={x - 14}
+        y={top - 10}
+        width="28"
+        height="13"
+        rx="3"
+        fill={`url(#${id}cap0)`}
+      />
+    </g>
+  )
+}
+
+function Bottles({ id, art }: P & { art: Extract<Art, { kind: 'bottles' }> }) {
+  const w = 560 / art.heights.length
+  return (
+    <>
+      <Table id={id} y={262} />
+      {art.heights.map((h, i) => (
+        <Bottle key={i} id={id} x={40 + w * (i + 0.5)} height={h} />
+      ))}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+function Fill({ id, art }: P & { art: Extract<Art, { kind: 'fill' }> }) {
+  return (
+    <>
+      <Table id={id} y={232} />
+      <g filter={`url(#${id}shadow)`}>
+        <path
+          d="M60 74h190l-22 170h-146Z"
+          fill={`url(#${id}metal)`}
+          stroke="#6e7b87"
+          strokeWidth="2"
+        />
+        <path
+          d="M66 120h178l-17 124h-144Z"
+          fill={`url(#${id}water)`}
+          opacity=".85"
+        />
+        <ellipse
+          cx="155"
+          cy="74"
+          rx="95"
+          ry="14"
+          fill="#dfe7ee"
+          stroke="#6e7b87"
+          strokeWidth="2"
+        />
+      </g>
+      {Array.from({ length: art.cups }, (_, i) => {
+        const x = 300 + (i % 6) * 54
+        const y = 170 - Math.floor(i / 6) * 66
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            <path
+              d={`M${x} ${y}h40l-5 56h-30Z`}
+              fill={`url(#${id}cap${i % 4})`}
+              stroke="#00000033"
+            />
+            <text
+              x={x + 20}
+              y={y + 35}
+              textAnchor="middle"
+              fontSize="19"
+              fontWeight="800"
+              fill="#fff"
+            >
+              {i + 1}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={315} />
+    </>
+  )
+}
+
+// One wall height measured by two different hands.
+function Hands({ id, art }: P & { art: Extract<Art, { kind: 'hands' }> }) {
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      {art.counts.map((count, c) => {
+        const x = 110 + c * 280
+        const size = 230 / count
+        return (
+          <g key={c}>
+            <rect
+              x={x}
+              y="40"
+              width="130"
+              height="230"
+              rx="4"
+              fill={`url(#${id}crust)`}
+              filter={`url(#${id}shadow)`}
+            />
+            {Array.from({ length: count }, (_, i) => (
+              <rect
+                key={i}
+                x={x + 150}
+                y={40 + i * size + 2}
+                width="60"
+                height={size - 4}
+                rx={Math.min(size / 3, 13)}
+                fill={i % 2 ? '#a9744a' : '#8d5b37'}
+              />
+            ))}
+            <text
+              x={x + 90}
+              y="306"
+              textAnchor="middle"
+              fontSize="23"
+              fontWeight="800"
+              fill={INK}
+            >
+              {count} hand spans
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={345} />
+    </>
+  )
+}
+
+function Calendar({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'calendar' }> }) {
+  const heads = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+  return (
+    <>
+      <Paper id={id} />
+      <rect x="18" y="14" width="604" height="48" rx="12" fill="#d9412f" />
+      <text
+        x="320"
+        y="48"
+        textAnchor="middle"
+        fontSize="27"
+        fontWeight="800"
+        fill="#fff"
+      >
+        {art.month}
+      </text>
+      {heads.map((h, i) => (
+        <text
+          key={h}
+          x={70 + i * 83}
+          y="88"
+          textAnchor="middle"
+          fontSize="18"
+          fontWeight="700"
+          fill="#5b6b78"
+        >
+          {h}
+        </text>
+      ))}
+      {Array.from({ length: art.days }, (_, i) => {
+        const cell = i + art.startsOn
+        const x = 70 + (cell % 7) * 83
+        const y = 122 + Math.floor(cell / 7) * 44
+        const focus = art.focus === i + 1
+        return (
+          <g key={i}>
+            {focus && <circle cx={x} cy={y - 7} r="20" fill="#f6c343" />}
+            <text
+              x={x}
+              y={y}
+              textAnchor="middle"
+              fontSize="21"
+              fontWeight={focus ? 800 : 500}
+              fill={INK}
+            >
+              {i + 1}
+            </text>
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+function Clock({ id, art }: P & { art: Extract<Art, { kind: 'clock' }> }) {
+  const cx = 320
+  const cy = 160
+  const [hx, hy] = polar(cx, cy, 72, (art.hour % 12) / 12)
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <circle
+        cx={cx}
+        cy={cy}
+        r="142"
+        fill={`url(#${id}metal)`}
+        filter={`url(#${id}shadow)`}
+      />
+      <circle cx={cx} cy={cy} r="126" fill="#fffdf8" stroke="#8b99a7" />
+      {Array.from({ length: 12 }, (_, i) => {
+        const [x, y] = polar(cx, cy, 102, (i + 1) / 12)
+        return (
+          <text
+            key={i}
+            x={x}
+            y={y + 10}
+            textAnchor="middle"
+            fontSize="28"
+            fontWeight="700"
+            fill={INK}
+          >
+            {i + 1}
+          </text>
+        )
+      })}
+      <line
+        x1={cx}
+        y1={cy}
+        x2={hx}
+        y2={hy}
+        stroke={INK}
+        strokeWidth="11"
+        strokeLinecap="round"
+      />
+      <line
+        x1={cx}
+        y1={cy}
+        x2={cx}
+        y2={cy - 82}
+        stroke={INK}
+        strokeWidth="6"
+        strokeLinecap="round"
+      />
+      <circle cx={cx} cy={cy} r="9" fill="#d9412f" />
+      <Caption text={art.label} y={340} />
+    </>
+  )
+}
+
+function Tally({ id, art }: P & { art: Extract<Art, { kind: 'tally' }> }) {
+  return (
+    <>
+      <Paper id={id} />
+      {art.rows.map(([name, count], r) => {
+        const y = 52 + r * (280 / art.rows.length)
+        return (
+          <g key={name}>
+            <text x="44" y={y + 34} fontSize="25" fontWeight="700" fill={INK}>
+              {name}
+            </text>
+            {Array.from({ length: count }, (_, i) => {
+              const group = Math.floor(i / 5)
+              const x = 210 + group * 74 + (i % 5) * 12
+              return i % 5 === 4 ? (
+                <line
+                  key={i}
+                  x1={210 + group * 74 - 8}
+                  y1={y + 42}
+                  x2={210 + group * 74 + 48}
+                  y2={y + 2}
+                  stroke="#d9412f"
+                  strokeWidth="4.5"
+                  strokeLinecap="round"
+                />
+              ) : (
+                <line
+                  key={i}
+                  x1={x}
+                  y1={y}
+                  x2={x}
+                  y2={y + 44}
+                  stroke={INK}
+                  strokeWidth="4.5"
+                  strokeLinecap="round"
+                />
+              )
+            })}
+            <text
+              x="590"
+              y={y + 34}
+              textAnchor="end"
+              fontSize="29"
+              fontWeight="800"
+              fill="#1f8a70"
+            >
+              {count}
+            </text>
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+function Picto({ id, art }: P & { art: Extract<Art, { kind: 'picto' }> }) {
+  return (
+    <>
+      <Paper id={id} />
+      {art.rows.map(([name, count], r) => {
+        const y = 40 + r * (290 / art.rows.length)
+        return (
+          <g key={name}>
+            <text x="44" y={y + 32} fontSize="23" fontWeight="700" fill={INK}>
+              {name}
+            </text>
+            {Array.from({ length: count }, (_, i) => {
+              const x = 170 + i * 50
+              return art.item === 'mango' ? (
+                <g key={i} filter={`url(#${id}shadow)`}>
+                  <ellipse
+                    cx={x + 18}
+                    cy={y + 24}
+                    rx="20"
+                    ry="24"
+                    fill={`url(#${id}cap1)`}
+                    transform={`rotate(24 ${x + 18} ${y + 24})`}
+                  />
+                  <path
+                    d={`M${x + 12} ${y + 2}q10-12 18-4`}
+                    stroke="#3b8b52"
+                    strokeWidth="4"
+                    fill="none"
+                  />
+                </g>
+              ) : (
+                <g key={i} filter={`url(#${id}shadow)`}>
+                  <rect
+                    x={x}
+                    y={y + 2}
+                    width="38"
+                    height="46"
+                    rx="3"
+                    fill={`url(#${id}cap3)`}
+                  />
+                  <rect
+                    x={x + 5}
+                    y={y + 2}
+                    width="3"
+                    height="46"
+                    fill="#ffffff66"
+                  />
+                </g>
+              )
+            })}
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+function Scene({ art, id }: { art: Art; id: string }) {
+  switch (art.kind) {
+    case 'loaf':
+      return <Loaf id={id} art={art} />
+    case 'cake':
+      return <Cake id={id} art={art} />
+    case 'caps':
+      return <Caps id={id} art={art} />
+    case 'groups':
+      return <Groups id={id} art={art} />
+    case 'chart':
+      return <Chart id={id} art={art} />
+    case 'compare':
+      return <Compare id={id} art={art} />
+    case 'balance':
+      return <Balance id={id} art={art} />
+    case 'tenframe':
+      return <TenFrame id={id} art={art} />
+    case 'frame':
+      return <Frame id={id} art={art} />
+    case 'jumps':
+      return <Jumps id={id} art={art} />
+    case 'cedis':
+      return <Cedis id={id} art={art} />
+    case 'pattern':
+      return <Pattern id={id} art={art} />
+    case 'solids': {
+      const w = 600 / art.names.length
+      return (
+        <>
+          <Table id={id} y={190} />
+          {art.names.map((name, i) => (
+            <SolidArt key={name} id={id} name={name} x={20 + w * (i + 0.5)} />
+          ))}
+        </>
+      )
+    }
+    case 'shapes':
+      return <Shapes id={id} art={art} />
+    case 'sticks':
+      return <Sticks id={id} art={art} />
+    case 'measure':
+      return <Measure id={id} art={art} />
+    case 'fill':
+      return <Fill id={id} art={art} />
+    case 'bottles':
+      return <Bottles id={id} art={art} />
+    case 'hands':
+      return <Hands id={id} art={art} />
+    case 'calendar':
+      return <Calendar id={id} art={art} />
+    case 'clock':
+      return <Clock id={id} art={art} />
+    case 'tally':
+      return <Tally id={id} art={art} />
+    case 'picto':
+      return <Picto id={id} art={art} />
+  }
+}
+
+export function ExploreArt({
+  art,
+  alt,
+  className,
+}: {
+  art: Art
+  alt: string
+  className?: string
+}) {
+  const id = useId().replace(/[^a-zA-Z0-9]/g, '')
+  return (
+    <svg
+      viewBox="0 0 640 360"
+      role="img"
+      aria-label={alt}
+      className={className ?? 'w-full rounded-2xl'}
+      style={{ fontFamily: 'inherit' }}
+    >
+      <Defs id={id} />
+      <Scene art={art} id={id} />
+    </svg>
+  )
+}

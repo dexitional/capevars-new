@@ -15,6 +15,8 @@ The table above accounts for the original **30 courses and 907 lessons**. The re
 
 The new packs add 16 courses and 348 lessons: Computing (141), Creative Arts (120) and OWOP (87). See [new content and media workflow](kidilearn-new-courses.md) for provenance, visual explainers, practical activities and narration commands.
 
+See [Explore guides and the lesson theatre](kidilearn-explore.md) for how lessons are explained and told.
+
 ## Import and upgrades
 
 Use Node 24 and Python 3, with the existing database configuration:

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, lazy, useMemo, useState } from 'react'
 import { Link } from '@tanstack/react-router'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import {
@@ -22,6 +22,9 @@ import type {
   Phase,
   SubjectLibrary,
 } from '#/lib/kidilearn/library'
+import { buildBoard } from '#/lib/kidilearn/board-builder'
+import { hasGuides, loadGuides } from '#/lib/kidilearn/explore'
+import { boardFor } from '#/lib/kidilearn/boards'
 import { LEVELS, SUBJECTS } from '#/lib/kidilearn/catalog'
 import type { SubjectId } from '#/lib/kidilearn/catalog'
 import { api } from '#/lib/api-client'
@@ -31,9 +34,16 @@ import { Button } from '#/components/ui/button'
 import { LearningActivity } from './activities'
 import { QuestionVisual } from './visual'
 import { PlayInteractionView } from './play-interaction'
+import { LessonGuide } from './lesson-guide'
 import { LessonVideo } from './lesson-video'
 import { VisualStory } from './discovery-lab'
 import { SourceDetails } from './source-practice'
+import type { ServerVerdict } from './theatre/checks'
+
+// A separate download: a learner who only opens the video never needs it.
+const LessonTheatre = lazy(() =>
+  import('./theatre/player').then((m) => ({ default: m.LessonTheatre })),
+)
 
 const phases = [
   { id: 'explore', title: 'Explore', icon: BookOpen },
@@ -207,6 +217,7 @@ export function SubjectPlayer({
                   <LessonPlayer
                     key={lesson.data.id}
                     lesson={lesson.data}
+                    level={level}
                     subject={subject}
                   />
                 )}
@@ -237,9 +248,11 @@ export function SubjectPlayer({
 
 function LessonPlayer({
   lesson,
+  level,
   subject,
 }: {
   lesson: LearningLesson
+  level: string
   subject: string
 }) {
   const [phase, setPhase] = useState<Phase>('explore')
@@ -263,6 +276,23 @@ function LessonPlayer({
     onError: (e) => toast.error(e.message),
   })
   const content = lesson.content
+  const guides = useQuery({
+    queryKey: ['kidilearn', 'guides', level, subject],
+    queryFn: () => loadGuides(level, subject),
+    enabled: hasGuides(level, subject),
+    staleTime: Infinity,
+  })
+  const guide = content.key ? guides.data?.[content.key] : undefined
+  // The script depends on the guide, so it must not change after a child starts.
+  const waitingForGuide = hasGuides(level, subject) && guides.isPending
+  // A refetch that changes only progress must not restart the lesson.
+  const board = useMemo(
+    () =>
+      boardFor(level, subject, lesson.title) ??
+      buildBoard(lesson, level, subject, guide),
+    [level, subject, lesson.id, lesson.title, content, lesson.play, guide],
+  )
+  const [watchVideo, setWatchVideo] = useState(false)
   return (
     <>
       <div>
@@ -309,57 +339,99 @@ function LessonPlayer({
           </section>
           <section className={panel}>
             <h3 className="font-black">Watch and notice</h3>
-            <LessonVideo
-              key={content.video}
-              title={lesson.title}
-              video={content.video}
-              scenes={content.scenes}
-              source={content.sourceVideo}
-            />
+            {waitingForGuide ? (
+              <div className="mt-4 aspect-[4/3] w-full animate-pulse rounded-3xl bg-slate-100 sm:aspect-video" />
+            ) : board && !watchVideo ? (
+              <Suspense
+                fallback={
+                  <div className="mt-4 aspect-[4/3] w-full animate-pulse rounded-3xl bg-slate-100 sm:aspect-video" />
+                }
+              >
+                <LessonTheatre
+                  key={board.id}
+                  board={board}
+                  marker={(questionId, optionIndex) =>
+                    api.post<ServerVerdict>(
+                      `/learn/kidilearn/lessons/${lesson.id}/check`,
+                      { questionId, optionIndex },
+                    )
+                  }
+                  finishLabel="Save Explore & start Play"
+                  onFinish={() => {
+                    if (!explore.isPending) explore.mutate()
+                  }}
+                />
+              </Suspense>
+            ) : (
+              <LessonVideo
+                key={content.video}
+                title={lesson.title}
+                video={content.video}
+                scenes={content.scenes}
+                source={content.sourceVideo}
+              />
+            )}
+            {board && (
+              <button
+                type="button"
+                onClick={() => setWatchVideo(!watchVideo)}
+                className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-teal-800 underline"
+              >
+                {watchVideo
+                  ? 'Go back to the interactive lesson'
+                  : 'Watch the video instead'}
+              </button>
+            )}
           </section>
           <section className={panel}>
             <h3 className="font-black">Let’s discover</h3>
-            {content.visualGuide ? (
-              <VisualStory key={lesson.id} lesson={lesson} />
+            {guide ? (
+              <LessonGuide guide={guide} />
             ) : (
-              content.illustration && (
-                <img
-                  src={content.illustration}
-                  alt={`Illustrated model for ${lesson.title}`}
-                  loading="lazy"
-                  className="mt-4 max-h-96 w-full rounded-2xl object-contain"
-                />
-              )
+              <>
+                {content.visualGuide ? (
+                  <VisualStory key={lesson.id} lesson={lesson} />
+                ) : (
+                  content.illustration && (
+                    <img
+                      src={content.illustration}
+                      alt={`Illustrated model for ${lesson.title}`}
+                      loading="lazy"
+                      className="mt-4 max-h-96 w-full rounded-2xl object-contain"
+                    />
+                  )
+                )}
+                <div className="mt-3 space-y-3 text-sm leading-7">
+                  {content.notes.map((note, i) => (
+                    <p key={i}>{note}</p>
+                  ))}
+                </div>
+                {content.passage && (
+                  <blockquote className="mt-5 rounded-2xl border-l-4 border-amber-400 bg-amber-50 p-4 text-base leading-8">
+                    {content.passage}
+                  </blockquote>
+                )}
+                {content.examples.length > 0 && (
+                  <div className="mt-5 space-y-3">
+                    <h4 className="text-sm font-bold">Think it through</h4>
+                    {content.examples.map((e, i) => (
+                      <details
+                        key={i}
+                        className="rounded-xl bg-slate-50 p-3 text-sm"
+                      >
+                        <summary className="cursor-pointer font-semibold leading-relaxed">
+                          {e.question}
+                        </summary>
+                        <p className="mt-3 leading-relaxed text-teal-800">
+                          {e.answer}
+                        </p>
+                      </details>
+                    ))}
+                  </div>
+                )}
+                {content.sourceLesson && <SourceDetails lesson={lesson} />}
+              </>
             )}
-            <div className="mt-3 space-y-3 text-sm leading-7">
-              {content.notes.map((note, i) => (
-                <p key={i}>{note}</p>
-              ))}
-            </div>
-            {content.passage && (
-              <blockquote className="mt-5 rounded-2xl border-l-4 border-amber-400 bg-amber-50 p-4 text-base leading-8">
-                {content.passage}
-              </blockquote>
-            )}
-            {content.examples.length > 0 && (
-              <div className="mt-5 space-y-3">
-                <h4 className="text-sm font-bold">Think it through</h4>
-                {content.examples.map((e, i) => (
-                  <details
-                    key={i}
-                    className="rounded-xl bg-slate-50 p-3 text-sm"
-                  >
-                    <summary className="cursor-pointer font-semibold leading-relaxed">
-                      {e.question}
-                    </summary>
-                    <p className="mt-3 leading-relaxed text-teal-800">
-                      {e.answer}
-                    </p>
-                  </details>
-                ))}
-              </div>
-            )}
-            {content.sourceLesson && <SourceDetails lesson={lesson} />}
           </section>
           <LearningActivity subject={subject} lesson={lesson} />
           <section className={panel}>
