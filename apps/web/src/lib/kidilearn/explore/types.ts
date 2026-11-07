@@ -89,6 +89,7 @@ export type Art =
   | { kind: 'triangle'; label?: string }
   | { kind: 'cocoa'; label?: string }
   | { kind: 'ballot'; label?: string }
+  | { kind: 'goods'; items: Array<Good>; label?: string }
 
 export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
 
@@ -132,6 +133,18 @@ export interface Figure {
   // A tick or a cross above the figure, for right and wrong ways.
   mark?: 'good' | 'bad'
 }
+export type Good =
+  | 'salt'
+  | 'fish'
+  | 'gold'
+  | 'kola'
+  | 'shea'
+  | 'pot'
+  | 'cloth'
+  | 'iron'
+  | 'cowries'
+  | 'jar'
+
 export type ThenNow = 'home' | 'travel' | 'message' | 'money'
 
 export type HistorySource =

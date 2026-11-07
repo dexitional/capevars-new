@@ -9,6 +9,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Course | Lessons with guides | Curriculum source |
 | --- | ---: | --- |
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
+| Basic 3 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 4 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 6 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
@@ -39,6 +40,14 @@ Checked against the Physical Education curriculum, Basic 5:
 - **Codes:** the imported lessons carry indicator codes that differ from the curriculum's own numbering; for example, “Walk on straight lines” is stored as B5.1.2.1.1, but the curriculum gives B5.1.1.1.1. One code is malformed (`B51.5.1.5`). The guides use the curriculum's codes.
 - **Body types:** the curriculum names ectomorph, mesomorph and endomorph. The guide teaches the terms, but frames them as strengths that every build has, and asks learners never to label classmates.
 - **Heart rate:** learners count their pulse for 15 seconds and multiply by 4, as the curriculum describes.
+
+Checked against the History of Ghana curriculum, Basic 3:
+
+- **Written for eight-year-olds:** short sentences, which a test checks.
+- **Repeated lessons:** most indicators appear three times, and each repeat takes a new angle.
+- **A malformed code:** three lessons carry “B32.2.1.1”; the guides use B3.2.2.1.1.
+- **Origins:** where each people came from is told as what its traditions say, since historians still study these accounts.
+- **Entrepreneurs:** the curriculum names seven. Only Esther Ocloo and George Grant, whose stories are well documented, are described in detail; the others are named as the curriculum names them.
 
 Checked against the History of Ghana curriculum, Basic 4:
 

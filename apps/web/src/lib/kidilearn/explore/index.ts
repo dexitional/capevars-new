@@ -3,6 +3,7 @@ import type { CourseGuides } from './types'
 // A course's guides download only when a learner opens that course.
 const COURSES: Record<string, () => Promise<{ guides: CourseGuides }>> = {
   'b2/mathematics': () => import('./b2-mathematics'),
+  'b3/history': () => import('./b3-history'),
   'b4/history': () => import('./b4-history'),
   'b5/history': () => import('./b5-history'),
   'b6/history': () => import('./b6-history'),

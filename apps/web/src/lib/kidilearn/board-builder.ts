@@ -537,7 +537,7 @@ export function buildBoard(
         type: 'title',
         icon: ICONS[subject] ?? '⭐',
         title,
-        tagline: lesson.strand,
+        tagline: title.length > 55 ? undefined : lesson.strand,
       },
       beatsOf(written.hook),
     )

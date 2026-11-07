@@ -2,6 +2,7 @@ import { useId } from 'react'
 import type {
   Art,
   Figure,
+  Good,
   HistorySource,
   Pose,
   Shape,
@@ -3246,6 +3247,229 @@ function Ballot({ id, art }: P & { art: Extract<Art, { kind: 'ballot' }> }) {
   )
 }
 
+const GOOD_NAMES: Record<Good, string> = {
+  salt: 'Salt',
+  fish: 'Dried fish',
+  gold: 'Gold',
+  kola: 'Kola nuts',
+  shea: 'Shea butter',
+  pot: 'Clay pots',
+  cloth: 'Woven cloth',
+  iron: 'Iron tools',
+  cowries: 'Cowrie shells',
+  jar: 'Jam and marmalade',
+}
+
+function GoodItem({
+  id,
+  good,
+  x,
+  y,
+}: P & { good: Good; x: number; y: number }) {
+  const shadow = `url(#${id}shadow)`
+  switch (good) {
+    case 'salt':
+      return (
+        <path
+          d={`M${x - 46} ${y + 30}Q${x} ${y - 50} ${x + 46} ${y + 30}Z`}
+          fill="#f7f7f2"
+          stroke="#d8d8cc"
+          filter={shadow}
+        />
+      )
+    case 'fish':
+      return (
+        <g filter={shadow}>
+          {[-14, 10].map((dy) => (
+            <g key={dy}>
+              <ellipse cx={x - 6} cy={y + dy} rx="34" ry="11" fill="#8a6a42" />
+              <path d={`M${x + 24} ${y + dy}l18-11v22Z`} fill="#6d5233" />
+              <circle cx={x - 30} cy={y + dy - 2} r="2.5" fill="#2a2a2a" />
+            </g>
+          ))}
+        </g>
+      )
+    case 'gold':
+      return (
+        <g filter={shadow}>
+          {[
+            [-18, 10, 14],
+            [10, 14, 11],
+            [0, -8, 13],
+            [22, -6, 9],
+          ].map(([dx, dy, r]) => (
+            <circle
+              key={`${dx}${dy}`}
+              cx={x + dx!}
+              cy={y + dy!}
+              r={r}
+              fill={`url(#${id}cap1)`}
+            />
+          ))}
+        </g>
+      )
+    case 'kola':
+      return (
+        <g filter={shadow}>
+          {[
+            [-20, 6],
+            [6, 12],
+            [-4, -12],
+            [22, -4],
+          ].map(([dx, dy]) => (
+            <ellipse
+              key={`${dx}${dy}`}
+              cx={x + dx!}
+              cy={y + dy!}
+              rx="15"
+              ry="12"
+              fill={dx! > 0 ? '#c94a5a' : '#e9c6a8'}
+              stroke="#00000022"
+            />
+          ))}
+        </g>
+      )
+    case 'shea':
+      return (
+        <g filter={shadow}>
+          <path d={`M${x - 42} ${y}a42 34 0 0 0 84 0Z`} fill="#b0773c" />
+          <ellipse cx={x} cy={y} rx="42" ry="10" fill="#c48a4f" />
+          <ellipse cx={x} cy={y - 6} rx="28" ry="14" fill="#f3e6bf" />
+        </g>
+      )
+    case 'pot':
+      return <SourceItem id={id} item="pot" x={x} y={y} />
+    case 'cloth':
+      return (
+        <g filter={shadow}>
+          <rect x={x - 46} y={y - 34} width="92" height="68" fill="#e8a317" />
+          {[0, 1, 2, 3, 4].map((i) => (
+            <rect
+              key={i}
+              x={x - 46 + i * 19}
+              y={y - 34}
+              width="9"
+              height="68"
+              fill={i % 2 ? '#1f8a70' : '#d9412f'}
+            />
+          ))}
+          <rect x={x - 46} y={y - 6} width="92" height="10" fill="#1f2a44" />
+        </g>
+      )
+    case 'iron':
+      return (
+        <g filter={shadow}>
+          <path
+            d={`M${x - 40} ${y + 30}L${x + 20} ${y - 30}`}
+            stroke="#8d5b37"
+            strokeWidth="8"
+            strokeLinecap="round"
+          />
+          <path
+            d={`M${x + 4} ${y - 40}l34 4-6 30-28-8Z`}
+            fill={`url(#${id}metal)`}
+          />
+        </g>
+      )
+    case 'cowries':
+      return (
+        <g filter={shadow}>
+          {Array.from({ length: 6 }, (_, i) => (
+            <g key={i}>
+              <ellipse
+                cx={x - 30 + (i % 3) * 30}
+                cy={y - 10 + Math.floor(i / 3) * 24}
+                rx="13"
+                ry="9"
+                fill="#f4ecd8"
+                stroke="#bfae8a"
+              />
+              <path
+                d={`M${x - 38 + (i % 3) * 30} ${y - 10 + Math.floor(i / 3) * 24}h16`}
+                stroke="#9a8a6a"
+                strokeWidth="1.5"
+              />
+            </g>
+          ))}
+        </g>
+      )
+    case 'jar':
+      return (
+        <g filter={shadow}>
+          {[-26, 26].map((dx) => (
+            <g key={dx}>
+              <rect
+                x={x + dx - 20}
+                y={y - 26}
+                width="40"
+                height="56"
+                rx="8"
+                fill={dx < 0 ? '#e8742c' : '#c0392b'}
+              />
+              <rect
+                x={x + dx - 22}
+                y={y - 36}
+                width="44"
+                height="12"
+                rx="3"
+                fill="#d4af37"
+              />
+              <rect
+                x={x + dx - 14}
+                y={y - 8}
+                width="28"
+                height="18"
+                rx="2"
+                fill="#fffdf8"
+              />
+            </g>
+          ))}
+        </g>
+      )
+  }
+}
+
+function Goods({ id, art }: P & { art: Extract<Art, { kind: 'goods' }> }) {
+  const across = Math.min(art.items.length, 4)
+  const rows = Math.ceil(art.items.length / 4)
+  const w = 600 / across
+  const h = (art.label ? 290 : 330) / rows
+  return (
+    <>
+      <Table id={id} y={0} />
+      {art.items.map((good, i) => {
+        const x = 20 + (i % 4) * w + w / 2
+        const y = 16 + Math.floor(i / 4) * h + h / 2 - 18
+        return (
+          <g key={good}>
+            <GoodItem id={id} good={good} x={x} y={y} />
+            <rect
+              x={x - Math.max(62, GOOD_NAMES[good].length * 3.9 + 14)}
+              y={y + 50}
+              width={Math.max(124, GOOD_NAMES[good].length * 7.8 + 28)}
+              height="26"
+              rx="13"
+              fill="#fffdf8"
+              opacity=".95"
+            />
+            <text
+              x={x}
+              y={y + 68}
+              textAnchor="middle"
+              fontSize="14"
+              fontWeight="700"
+              fill={INK}
+            >
+              {GOOD_NAMES[good]}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={340} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -3331,6 +3555,8 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Cocoa id={id} art={art} />
     case 'ballot':
       return <Ballot id={id} art={art} />
+    case 'goods':
+      return <Goods id={id} art={art} />
   }
 }
 
