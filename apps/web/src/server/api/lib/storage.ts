@@ -16,12 +16,14 @@ import {
 } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { AppError } from "../middleware/error-handler.js";
+import { Readable } from "node:stream";
 import {
   deleteLocalObject,
   localKeyFromUrl,
   localPublicUrl,
   readLocalObject,
   signLocalUpload,
+  writeLocalObject,
 } from "./local-storage.js";
 
 export type StorageDriver = "local" | "r2";
@@ -107,6 +109,27 @@ export async function createPresignedUpload(key: string, contentType: string, si
     signableHeaders: new Set(["content-type", "content-length"]),
   });
   return { uploadUrl, publicUrl: `${publicDomain}/${key}` };
+}
+
+// Stores a file the server made itself, such as an optimised upload, with the
+// same year-long caching as browser uploads. Keys are unique, so a published
+// file is never replaced.
+export async function writeObject(key: string, body: Buffer, contentType: string, driver = storageDriver()) {
+  if (driver === "local") {
+    await writeLocalObject(key, Readable.from(body), body.length, contentType);
+    return;
+  }
+  const { s3, bucket } = r2();
+  await s3.send(
+    new PutObjectCommand({
+      Bucket: bucket,
+      Key: key,
+      Body: body,
+      ContentType: contentType,
+      ContentLength: body.length,
+      CacheControl: "public, max-age=31536000, immutable",
+    }),
+  );
 }
 
 export async function deleteObject(key: string, driver = storageDriver()) {

@@ -9,10 +9,11 @@ import type { RowDataPacket } from "mysql2";
 import { z } from "zod";
 import { AppError } from "../middleware/error-handler.js";
 import { createPresignedUpload, keyPrefix, publicUrlFor, storageDriver } from "./storage.js";
-import { localPublicUrl, statLocalObject } from "./local-storage.js";
+import { statLocalObject } from "./local-storage.js";
 import { insertRow } from "./columns.js";
 import { slugify } from "./slug.js";
 import { optionalText } from "./fields.js";
+import { optimiseUpload } from "./image-upload.js";
 
 export const MEDIA_FOLDERS = [
   "general",
@@ -130,16 +131,25 @@ export async function registerUpload(owner: Owner, input: z.infer<typeof registe
     const found = await statLocalObject(input.key);
     if (!found || found.info.size !== input.size) throw new AppError("The upload didn't finish. Try again.", 400);
   }
+  // Photos are stored as WebP, sized for their folder.
+  const file = await optimiseUpload(input.folder, {
+    key: input.key,
+    filename: input.filename,
+    contentType: input.contentType,
+    size: input.size,
+    width: input.width ?? null,
+    height: input.height ?? null,
+  });
   const id = await insertRow(
     "media_assets",
     {
-      key: input.key,
-      url: publicUrlFor(input.key),
-      filename: input.filename,
-      contentType: input.contentType,
-      size: input.size,
-      width: input.width ?? null,
-      height: input.height ?? null,
+      key: file.key,
+      url: publicUrlFor(file.key),
+      filename: file.filename,
+      contentType: file.contentType,
+      size: file.size,
+      width: file.width,
+      height: file.height,
       altText: input.altText,
       folder: input.folder,
     },
@@ -158,21 +168,22 @@ export async function registerUpload(owner: Owner, input: z.infer<typeof registe
   );
   const [rows] = await getPool().execute<RowDataPacket[]>("SELECT * FROM media_assets WHERE id = ?", [id]);
   const asset = rows[0] as MediaAssetRow;
-  if (storageDriver() === "local" && asset.mime_type.startsWith("image/")) prewarm(asset.file_key);
+  if (asset.mime_type.startsWith("image/")) prewarm(asset.url);
   return asset;
 }
 
 // Renders the sizes cards and pages ask for most, in the background, so the
 // first visitor (usually the uploader, looking at their preview) gets a cached
-// image. Nearly every browser accepts AVIF, the optimiser's first choice.
+// image. Nearly every browser accepts AVIF, the optimiser's first choice. On
+// R2 the optimiser reads the original from the bucket, as it does for visitors.
 const PREWARM_WIDTHS = [384, 768];
 
-function prewarm(key: string) {
+function prewarm(url: string) {
   if (process.env.IMAGE_PREWARM === "false") return;
   void (async () => {
     const { handleImageRequest } = await import("../../image-optimizer.js");
     for (const w of PREWARM_WIDTHS) {
-      const src = encodeURIComponent(localPublicUrl(key));
+      const src = encodeURIComponent(url);
       await handleImageRequest(
         new Request(`http://prewarm.internal/img?src=${src}&w=${w}&q=75`, { headers: { accept: "image/avif,image/webp" } }),
       );

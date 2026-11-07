@@ -1,5 +1,6 @@
 import type { MediaAssetRow } from "@cv/db";
 import { api } from "./api-client";
+import { type ImageTarget, imageTarget, webpName } from "./image-targets";
 
 export type MediaFolder =
   | "general"
@@ -63,6 +64,50 @@ function imageSize(file: File): Promise<{ width: number; height: number } | null
   });
 }
 
+// Halves the picture until one more step reaches the target size, so a big
+// reduction still blends every pixel instead of skipping most of them.
+function shrink(source: CanvasImageSource, width: number, height: number, toWidth: number, toHeight: number) {
+  let current = source;
+  let canvas: HTMLCanvasElement;
+  do {
+    const half = width / 2 >= toWidth && height / 2 >= toHeight;
+    width = half ? Math.round(width / 2) : toWidth;
+    height = half ? Math.round(height / 2) : toHeight;
+    canvas = document.createElement("canvas");
+    canvas.width = width;
+    canvas.height = height;
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return null;
+    ctx.imageSmoothingQuality = "high";
+    ctx.drawImage(current, 0, 0, width, height);
+    current = canvas;
+  } while (width !== toWidth || height !== toHeight);
+  return canvas;
+}
+
+// Turns a photo upright, fits it to its folder's target and encodes it as
+// WebP, so uploads are small and quick. Anything that can't be done here
+// (Safari can't encode WebP) is uploaded as it is and finished by the server.
+async function prepareImage(file: File, target: ImageTarget): Promise<File> {
+  try {
+    const bitmap = await createImageBitmap(file, { imageOrientation: "from-image" });
+    const scale = Math.min(1, target.edge / Math.max(bitmap.width, bitmap.height));
+    const width = Math.max(1, Math.round(bitmap.width * scale));
+    const height = Math.max(1, Math.round(bitmap.height * scale));
+    const canvas = shrink(bitmap, bitmap.width, bitmap.height, width, height);
+    bitmap.close();
+    if (!canvas) return file;
+    const blob = await new Promise<Blob | null>((resolve) =>
+      canvas.toBlob(resolve, "image/webp", target.quality / 100),
+    );
+    if (!blob || blob.type !== "image/webp") return file;
+    if (file.type === "image/webp" && scale === 1 && blob.size >= file.size) return file;
+    return new File([blob], webpName(file.name), { type: "image/webp", lastModified: file.lastModified });
+  } catch {
+    return file;
+  }
+}
+
 // The local storage endpoint explains a refused upload in JSON; R2 sends XML.
 function uploadError(body: string) {
   try {
@@ -75,15 +120,18 @@ function uploadError(body: string) {
 }
 
 // Uploads straight to storage (this server's disk, or R2) with a signed URL,
-// then records the file in the media library. Returns the library record (its `url` is public). `endpoint`
+// then records the file in the media library. Photos are first converted to
+// WebP sized for their folder (lib/image-targets.ts). Returns the library record (its `url` is public). `endpoint`
 // is the API that signs and records it: /admin/media for the admin portal, or
 // /me/uploads for a signed-in member (see uploadAsMember).
 export async function uploadToLibrary(
-  file: File,
+  original: File,
   folder: MediaFolder,
   onProgress?: (fraction: number) => void,
   endpoint = "/admin/media",
 ): Promise<MediaAsset> {
+  const target = imageTarget(folder, original.type);
+  const file = target ? await prepareImage(original, target) : original;
   const { uploadUrl, key } = await api.post<{ uploadUrl: string; key: string }>(`${endpoint}/presign`, {
     filename: file.name,
     contentType: file.type,
