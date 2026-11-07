@@ -4,6 +4,7 @@ import type { CourseGuides } from './types'
 const COURSES: Record<string, () => Promise<{ guides: CourseGuides }>> = {
   'b2/mathematics': () => import('./b2-mathematics'),
   'b4/history': () => import('./b4-history'),
+  'b5/history': () => import('./b5-history'),
   'b5/pe': () => import('./b5-pe'),
 }
 

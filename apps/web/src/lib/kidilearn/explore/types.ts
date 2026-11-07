@@ -75,7 +75,8 @@ export type Art =
   | { kind: 'sources'; items: Array<HistorySource> }
   | {
       kind: 'building'
-      building: 'fort' | 'lighthouse' | 'mosque' | 'palace' | 'school'
+      building:
+        'fort' | 'lighthouse' | 'mosque' | 'palace' | 'school' | 'hospital'
       // Forts and lighthouses stand by the sea unless this says otherwise.
       coast?: boolean
       label?: string
@@ -84,6 +85,9 @@ export type Art =
   | { kind: 'family'; rows: Array<Array<string>> }
   | { kind: 'flag'; label?: string }
   | { kind: 'belts'; belts: Array<{ name: string; places: Array<string> }> }
+  | { kind: 'thenNow'; rows: Array<ThenNow> }
+  | { kind: 'triangle'; label?: string }
+  | { kind: 'cocoa'; label?: string }
 
 export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
 
@@ -127,6 +131,8 @@ export interface Figure {
   // A tick or a cross above the figure, for right and wrong ways.
   mark?: 'good' | 'bad'
 }
+export type ThenNow = 'home' | 'travel' | 'message' | 'money'
+
 export type HistorySource =
   | 'coin'
   | 'letter'

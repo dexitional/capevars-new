@@ -6,6 +6,7 @@ import type {
   Pose,
   Shape,
   Solid,
+  ThenNow,
 } from '#/lib/kidilearn/explore/types'
 
 // Pictures drawn from code, so they stay sharp on any screen and a small phone
@@ -2578,6 +2579,38 @@ function Building({
           ))}
         </g>
       )}
+      {art.building === 'hospital' && (
+        <g filter={shadow}>
+          <rect x="110" y="120" width="420" height="150" fill="#f6f4ee" />
+          <rect x="110" y="110" width="420" height="14" fill="#7d8b97" />
+          {[0, 1].map((r) =>
+            [150, 210, 270, 370, 430, 490].map((x) => (
+              <rect
+                key={`${r}${x}`}
+                x={x - 16}
+                y={140 + r * 52}
+                width="32"
+                height="30"
+                fill="#9fcde0"
+                stroke="#fff"
+                strokeWidth="3"
+              />
+            )),
+          )}
+          <rect x="300" y="196" width="40" height="74" fill="#5c7080" />
+          <rect x="296" y="128" width="48" height="48" rx="6" fill="#1f8a70" />
+          <text
+            x="320"
+            y="164"
+            textAnchor="middle"
+            fontSize="34"
+            fontWeight="900"
+            fill="#fff"
+          >
+            H
+          </text>
+        </g>
+      )}
       {art.building === 'school' && (
         <g filter={shadow}>
           <rect x="130" y="150" width="380" height="120" fill="#f1e3c4" />
@@ -2781,6 +2814,359 @@ function Belts({ id, art }: P & { art: Extract<Art, { kind: 'belts' }> }) {
   )
 }
 
+// Small pictures of everyday life, long ago and today.
+function LifeIcon({
+  id,
+  what,
+  past,
+  x,
+  y,
+}: P & { what: ThenNow; past: boolean; x: number; y: number }) {
+  const shadow = `url(#${id}shadow)`
+  if (what === 'home')
+    return past ? (
+      <g filter={shadow}>
+        <ellipse cx={x} cy={y + 20} rx="42" ry="26" fill="#b9774a" />
+        <rect x={x - 42} y={y - 6} width="84" height="26" fill="#b9774a" />
+        <path
+          d={`M${x - 54} ${y - 2}L${x} ${y - 48}L${x + 54} ${y - 2}Z`}
+          fill="#d1b06a"
+        />
+        <path
+          d={`M${x - 10} ${y + 40}v-26a10 10 0 0 1 20 0v26Z`}
+          fill="#4a2e1a"
+        />
+      </g>
+    ) : (
+      <g filter={shadow}>
+        <rect x={x - 50} y={y - 14} width="100" height="58" fill="#f1e3c4" />
+        <path
+          d={`M${x - 58} ${y - 12}L${x} ${y - 46}L${x + 58} ${y - 12}Z`}
+          fill="#8a9aa8"
+        />
+        <rect x={x - 38} y={y} width="22" height="20" fill="#9fcde0" />
+        <rect x={x + 16} y={y} width="22" height="20" fill="#9fcde0" />
+        <rect x={x - 9} y={y + 12} width="18" height="32" fill="#5a3a22" />
+      </g>
+    )
+  if (what === 'travel')
+    return past ? (
+      <g filter={shadow}>
+        <path d={`M${x - 60} ${y + 10}h120l-14 18h-92Z`} fill="#8d5b37" />
+        <path
+          d={`M${x + 20} ${y + 10}l20-46`}
+          stroke="#5a3a22"
+          strokeWidth="4"
+        />
+        <path
+          d={`M${x - 70} ${y + 30}q35-8 70 0t70 0`}
+          stroke={`url(#${id}water)`}
+          strokeWidth="6"
+          fill="none"
+        />
+      </g>
+    ) : (
+      <g filter={shadow}>
+        <rect
+          x={x - 58}
+          y={y - 6}
+          width="116"
+          height="30"
+          rx="10"
+          fill="#d9412f"
+        />
+        <path d={`M${x - 36} ${y - 6}l14-22h44l14 22Z`} fill="#c0392b" />
+        <rect x={x - 28} y={y - 24} width="22" height="16" fill="#9fcde0" />
+        <rect x={x + 4} y={y - 24} width="22" height="16" fill="#9fcde0" />
+        <circle cx={x - 32} cy={y + 26} r="11" fill="#2a2a2a" />
+        <circle cx={x + 32} cy={y + 26} r="11" fill="#2a2a2a" />
+      </g>
+    )
+  if (what === 'message')
+    return past ? (
+      <SourceItem id={id} item="drum" x={x} y={y + 6} />
+    ) : (
+      <g filter={shadow}>
+        <rect
+          x={x - 22}
+          y={y - 40}
+          width="44"
+          height="82"
+          rx="8"
+          fill="#2a2a2a"
+        />
+        <rect
+          x={x - 17}
+          y={y - 32}
+          width="34"
+          height="62"
+          rx="3"
+          fill="#7fb6cf"
+        />
+        <circle cx={x} cy={y + 36} r="3" fill="#888" />
+      </g>
+    )
+  return past ? (
+    <g filter={shadow}>
+      {Array.from({ length: 6 }, (_, i) => (
+        <ellipse
+          key={i}
+          cx={x - 30 + (i % 3) * 30}
+          cy={y - 8 + Math.floor(i / 3) * 26}
+          rx="12"
+          ry="9"
+          fill="#f4ecd8"
+          stroke="#bfae8a"
+        />
+      ))}
+    </g>
+  ) : (
+    <g filter={shadow}>
+      <rect
+        x={x - 50}
+        y={y - 24}
+        width="100"
+        height="52"
+        rx="5"
+        fill={NOTE[10]![0]}
+        stroke={NOTE[10]![1]}
+        strokeWidth="2.5"
+      />
+      <text
+        x={x}
+        y={y + 10}
+        textAnchor="middle"
+        fontSize="24"
+        fontWeight="800"
+        fill={NOTE[10]![1]}
+      >
+        GH₵
+      </text>
+    </g>
+  )
+}
+
+const LIFE_NAMES: Record<ThenNow, [string, string]> = {
+  home: ['Mud and thatch', 'Block and roofing sheets'],
+  travel: ['On foot and by canoe', 'By car and trotro'],
+  message: ['Talking drums', 'Mobile phones'],
+  money: ['Cowries and gold dust', 'Cedi notes and coins'],
+}
+
+function ThenNowArt({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'thenNow' }> }) {
+  const h = 290 / art.rows.length
+  return (
+    <>
+      <rect width="640" height="360" fill={`url(#${id}wall)`} />
+      <rect x="20" y="16" width="290" height="328" rx="14" fill="#f1dfbf" />
+      <rect x="330" y="16" width="290" height="328" rx="14" fill="#d6eef0" />
+      <text
+        x="165"
+        y="44"
+        textAnchor="middle"
+        fontSize="22"
+        fontWeight="800"
+        fill={INK}
+      >
+        Long ago
+      </text>
+      <text
+        x="475"
+        y="44"
+        textAnchor="middle"
+        fontSize="22"
+        fontWeight="800"
+        fill={INK}
+      >
+        Today
+      </text>
+      {art.rows.map((what, i) => {
+        const y = 56 + i * h + h / 2 - 8
+        return (
+          <g key={what}>
+            {[false, true].map((now) => (
+              <g key={String(now)}>
+                {/* Icons are drawn about 100px tall; fit them to the row. */}
+                <g
+                  transform={`translate(${now ? 420 : 110} ${y}) scale(${Math.min(1, (h - 8) / 104)}) translate(${now ? -420 : -110} ${-y})`}
+                >
+                  <LifeIcon
+                    id={id}
+                    what={what}
+                    past={!now}
+                    x={now ? 420 : 110}
+                    y={y}
+                  />
+                </g>
+                <text
+                  x={now ? 540 : 230}
+                  y={y + 4}
+                  textAnchor="middle"
+                  fontSize="14"
+                  fontWeight="700"
+                  fill={INK}
+                >
+                  {LIFE_NAMES[what][now ? 1 : 0]
+                    .split(' and ')
+                    .map((part, k, all) => (
+                      <tspan key={k} x={now ? 540 : 230} dy={k ? 17 : 0}>
+                        {part}
+                        {k < all.length - 1 ? ' and' : ''}
+                      </tspan>
+                    ))}
+                </text>
+              </g>
+            ))}
+          </g>
+        )
+      })}
+    </>
+  )
+}
+
+// The three sides of the Trans-Atlantic trade, as a diagram rather than a map.
+function Triangle({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'triangle' }> }) {
+  const places = [
+    { name: 'Europe', x: 320, y: 64 },
+    { name: 'The Americas', x: 112, y: 262 },
+    { name: 'West Africa', x: 528, y: 262 },
+  ]
+  const legs = [
+    { from: 0, to: 2, text: 'Guns, cloth, alcohol' },
+    { from: 2, to: 1, text: 'Enslaved Africans' },
+    { from: 1, to: 0, text: 'Sugar, cotton, tobacco' },
+  ]
+  return (
+    <>
+      <Paper id={id} />
+      <defs>
+        <marker
+          id={`${id}arrow`}
+          viewBox="0 0 10 10"
+          refX="8"
+          refY="5"
+          markerWidth="7"
+          markerHeight="7"
+          orient="auto"
+        >
+          <path d="M0 0L10 5L0 10Z" fill="#5b6b78" />
+        </marker>
+      </defs>
+      {legs.map((leg) => {
+        const a = places[leg.from]!
+        const b = places[leg.to]!
+        const mx = (a.x + b.x) / 2
+        const my = (a.y + b.y) / 2
+        const middle = leg.from === 2
+        return (
+          <g key={leg.text}>
+            <line
+              x1={a.x + (b.x - a.x) * 0.22}
+              y1={a.y + (b.y - a.y) * 0.22}
+              x2={a.x + (b.x - a.x) * 0.78}
+              y2={a.y + (b.y - a.y) * 0.78}
+              stroke={middle ? '#a8322a' : '#5b6b78'}
+              strokeWidth={middle ? 5 : 3.5}
+              markerEnd={`url(#${id}arrow)`}
+            />
+            <text
+              x={mx}
+              y={my + (middle ? 34 : -10)}
+              textAnchor="middle"
+              fontSize="16"
+              fontWeight="700"
+              fill={middle ? '#a8322a' : INK}
+            >
+              {leg.text}
+            </text>
+          </g>
+        )
+      })}
+      {places.map((p) => (
+        <g key={p.name}>
+          <rect
+            x={p.x - 74}
+            y={p.y - 20}
+            width="148"
+            height="40"
+            rx="20"
+            fill="#fdeec3"
+            stroke="#b9791b"
+          />
+          <text
+            x={p.x}
+            y={p.y + 7}
+            textAnchor="middle"
+            fontSize="18"
+            fontWeight="800"
+            fill={INK}
+          >
+            {p.name}
+          </text>
+        </g>
+      ))}
+      <Caption text={art.label} y={330} />
+    </>
+  )
+}
+
+function Cocoa({ id, art }: P & { art: Extract<Art, { kind: 'cocoa' }> }) {
+  return (
+    <>
+      <Table id={id} y={230} />
+      <linearGradient id={`${id}pod`} x1="0" x2="1">
+        <stop offset="0" stopColor="#c46a1c" />
+        <stop offset=".45" stopColor="#f0a33a" />
+        <stop offset="1" stopColor="#a8551a" />
+      </linearGradient>
+      <g filter={`url(#${id}shadow)`}>
+        <path
+          d="M70 160C110 92 350 92 390 160C350 228 110 228 70 160Z"
+          fill={`url(#${id}pod)`}
+          transform="rotate(-24 230 160)"
+        />
+        {[-36, -12, 12, 36].map((dy) => (
+          <path
+            key={dy}
+            d={`M84 160C150 ${160 + dy * 1.5} 310 ${160 + dy * 1.5} 376 160`}
+            stroke="#9a4c14"
+            strokeOpacity=".4"
+            strokeWidth="3"
+            fill="none"
+            transform="rotate(-24 230 160)"
+          />
+        ))}
+        <path
+          d="M386 62l24-18"
+          stroke="#5a3a22"
+          strokeWidth="9"
+          strokeLinecap="round"
+        />
+      </g>
+      {Array.from({ length: 9 }, (_, i) => (
+        <ellipse
+          key={i}
+          cx={420 + (i % 3) * 52}
+          cy={150 + Math.floor(i / 3) * 40}
+          rx="22"
+          ry="14"
+          fill="#6b3d24"
+          stroke="#4a2716"
+          transform={`rotate(${((i * 37) % 50) - 25} ${420 + (i % 3) * 52} ${150 + Math.floor(i / 3) * 40})`}
+          filter={`url(#${id}shadow)`}
+        />
+      ))}
+      <Caption text={art.label} y={318} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -2858,6 +3244,12 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Flag id={id} art={art} />
     case 'belts':
       return <Belts id={id} art={art} />
+    case 'thenNow':
+      return <ThenNowArt id={id} art={art} />
+    case 'triangle':
+      return <Triangle id={id} art={art} />
+    case 'cocoa':
+      return <Cocoa id={id} art={art} />
   }
 }
 

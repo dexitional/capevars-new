@@ -10,6 +10,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | --- | ---: | --- |
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
 | Basic 4 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
+| Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 
 The other courses still use their imported notes.
@@ -43,6 +44,12 @@ Checked against the History of Ghana curriculum, Basic 4:
 - **Repeated lessons:** the imported course has 20 lessons but only 11 indicators. Lessons 12 to 20 repeat the indicators of 1 to 9, so each repeat takes a new angle on the topic (for example, why we study history, then your own family's history).
 - **A misplaced indicator:** lesson 11, on sources about the 1948 riots, is printed as B4.5.3.1.2, but it sits in the curriculum's Basic 5 section. The guide uses B5.5.3.1.2 and teaches it at a Basic 4 level.
 - **Dates:** where a date is uncertain, as with the founding of the Larabanga Mosque, the guide says “is said to”. A test checks that shared dates agree across lessons.
+
+Checked against the History of Ghana curriculum, Basic 5:
+
+- **Repeated lessons:** lessons 13 to 20 repeat the indicators of 1 to 8, and take a new angle on each.
+- **The slave trade:** taught with care for ten-year-olds, through the humanity of the people taken, their resistance, abolition and remembrance. The lessons say “enslaved people”, and a test holds them to it.
+- **People:** Ghanaians in the lessons are honoured by what they did. No picture claims to show them.
 
 Scope for other subjects and levels has not yet been checked.
 
