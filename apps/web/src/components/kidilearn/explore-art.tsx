@@ -4,6 +4,7 @@ import type {
   Figure,
   Good,
   HistorySource,
+  Motif,
   Pose,
   Shape,
   Solid,
@@ -379,7 +380,11 @@ function Caps({ id, art }: P & { art: Extract<Art, { kind: 'caps' }> }) {
 
 function Groups({ id, art }: P & { art: Extract<Art, { kind: 'groups' }> }) {
   const left = art.left ?? 0
-  const perRow = Math.ceil(Math.sqrt(art.groups + (left ? 1 : 0)) * 1.6)
+  // A single group sits alone in the middle.
+  const perRow =
+    art.groups === 1 && !left
+      ? 1
+      : Math.ceil(Math.sqrt(art.groups + (left ? 1 : 0)) * 1.6)
   const cell = 600 / perRow
   const rows = Math.ceil((art.groups + (left ? 1 : 0)) / perRow)
   const height = 240 / rows
@@ -957,9 +962,13 @@ function SolidArt({ id, name, x }: P & { name: Solid; x: number }) {
     cylinder: 'Cylinder',
     cone: 'Cone',
     pyramid: 'Pyramid',
+    box: 'Cuboid',
+    prism: 'Triangular prism',
   }[name]
   const c = {
     cube: ['#f0b64a', '#d9962b', '#b07418'],
+    box: ['#d8b07a', '#b98d55', '#9a7040'],
+    prism: ['#8fbfdf', '#5b95bd', '#3f7aa3'],
     sphere: ['#e45d4b'],
     cylinder: ['#5aa9d6', '#2f7cab', '#a6d4ec'],
     cone: ['#7bc08a', '#3b8b52'],
@@ -972,6 +981,24 @@ function SolidArt({ id, name, x }: P & { name: Solid; x: number }) {
           <path d={`M${x - 48} ${y - 76}l48 -24 48 24 -48 24Z`} fill={c[0]} />
           <path d={`M${x - 48} ${y - 76}v76l48 24v-76Z`} fill={c[1]} />
           <path d={`M${x + 48} ${y - 76}v76l-48 24v-76Z`} fill={c[2]} />
+        </>
+      )}
+      {name === 'box' && (
+        <>
+          <path d={`M${x - 66} ${y - 60}l30 -20h96l-30 20Z`} fill={c[0]} />
+          <path d={`M${x - 66} ${y - 60}h96v74h-96Z`} fill={c[1]} />
+          <path d={`M${x + 30} ${y - 60}l30 -20v74l-30 20Z`} fill={c[2]} />
+        </>
+      )}
+      {name === 'prism' && (
+        <>
+          <path d={`M${x - 52} ${y + 10}l40 -86l40 86Z`} fill={c[1]} />
+          <path d={`M${x - 12} ${y - 76}l54 -14l40 86l-54 14Z`} fill={c[0]} />
+          <path
+            d={`M${x + 28} ${y + 10}l54 -14`}
+            stroke={c[2]}
+            strokeWidth="2"
+          />
         </>
       )}
       {name === 'sphere' && (
@@ -1080,6 +1107,13 @@ function SmallShape({
         {...style}
       />
     )
+  if (name === 'rhombus')
+    return (
+      <polygon
+        points={`${x},${y - r} ${x + r * 0.75},${y} ${x},${y + r} ${x - r * 0.75},${y}`}
+        {...style}
+      />
+    )
   if (name === 'rectangle')
     return (
       <rect
@@ -1103,6 +1137,7 @@ const SHAPE_TONES = [
   '#d9628e',
 ]
 const SIDES: Record<Shape, string> = {
+  rhombus: '4 equal sides, slanted',
   square: '4 equal sides',
   rectangle: '4 sides',
   triangle: '3 sides',
@@ -1622,6 +1657,21 @@ function Picto({ id, art }: P & { art: Extract<Art, { kind: 'picto' }> }) {
             </text>
             {Array.from({ length: count }, (_, i) => {
               const x = 170 + i * 50
+              if (art.item === 'child')
+                return (
+                  <g key={i} filter={`url(#${id}shadow)`}>
+                    <circle
+                      cx={x + 19}
+                      cy={y + 10}
+                      r="9"
+                      fill={`url(#${id}skin1)`}
+                    />
+                    <path
+                      d={`M${x + 6} ${y + 46}q0-26 13-26t13 26Z`}
+                      fill={name.startsWith('B') ? '#2b6cb0' : '#d9628e'}
+                    />
+                  </g>
+                )
               return art.item === 'mango' ? (
                 <g key={i} filter={`url(#${id}shadow)`}>
                   <ellipse
@@ -3495,6 +3545,230 @@ function Goods({ id, art }: P & { art: Extract<Art, { kind: 'goods' }> }) {
   )
 }
 
+// Ghana's coins, drawn plainly by value.
+function CoinArt({
+  id,
+  value,
+  x,
+  y,
+}: P & { value: number; x: number; y: number }) {
+  const cedi = value >= 100
+  const r = cedi ? 54 : 30 + Math.min(value, 50) * 0.36
+  return (
+    <g filter={`url(#${id}shadow)`}>
+      <circle
+        cx={x}
+        cy={y}
+        r={r}
+        fill={cedi ? `url(#${id}cap1)` : `url(#${id}metal)`}
+        stroke={cedi ? '#9a6b12' : '#6e7b87'}
+        strokeWidth="2.5"
+      />
+      {cedi && (
+        <circle
+          cx={x}
+          cy={y}
+          r={r - 9}
+          fill="none"
+          stroke="#c8ccd2"
+          strokeWidth="6"
+        />
+      )}
+      <circle
+        cx={x}
+        cy={y}
+        r={r - 5}
+        fill="none"
+        stroke="#00000022"
+        strokeDasharray="3 4"
+      />
+      <text
+        x={x}
+        y={y + 8}
+        textAnchor="middle"
+        fontSize={cedi ? 24 : 21}
+        fontWeight="800"
+        fill="#3a3a3a"
+      >
+        {cedi ? 'GH₵1' : `${value}p`}
+      </text>
+    </g>
+  )
+}
+
+function Coins({ id, art }: P & { art: Extract<Art, { kind: 'coins' }> }) {
+  const across = Math.min(art.coins.length, 6)
+  const rows = Math.ceil(art.coins.length / 6)
+  const w = 600 / across
+  const h = (art.label ? 280 : 320) / rows
+  return (
+    <>
+      <Table id={id} y={0} />
+      {art.coins.map((value, i) => (
+        <CoinArt
+          key={i}
+          id={id}
+          value={value}
+          x={20 + (i % 6) * w + w / 2}
+          y={24 + Math.floor(i / 6) * h + h / 2}
+        />
+      ))}
+      <Caption text={art.label} y={334} />
+    </>
+  )
+}
+
+const MOTIF_TONES: Record<Motif, string> = {
+  star: '#e8a317',
+  circle: '#1f8a70',
+  square: '#d9412f',
+  triangle: '#2b6cb0',
+  clap: '#8d5b37',
+  snap: '#7955aa',
+}
+
+function MotifArt({
+  motif,
+  x,
+  y,
+}: {
+  motif: Motif | null
+  x: number
+  y: number
+}) {
+  if (motif === null)
+    return (
+      <g>
+        <circle
+          cx={x}
+          cy={y}
+          r="30"
+          fill="#fff"
+          stroke="#d9412f"
+          strokeWidth="4"
+          strokeDasharray="8 6"
+        />
+        <text
+          x={x}
+          y={y + 12}
+          textAnchor="middle"
+          fontSize="34"
+          fontWeight="800"
+          fill="#d9412f"
+        >
+          ?
+        </text>
+      </g>
+    )
+  const tone = MOTIF_TONES[motif]
+  if (motif === 'star')
+    return (
+      <polygon
+        points={Array.from({ length: 10 }, (_, i) =>
+          polar(x, y, i % 2 ? 13 : 32, i / 10).join(','),
+        ).join(' ')}
+        fill={tone}
+      />
+    )
+  if (motif === 'circle') return <circle cx={x} cy={y} r="28" fill={tone} />
+  if (motif === 'square')
+    return <rect x={x - 26} y={y - 26} width="52" height="52" fill={tone} />
+  if (motif === 'triangle')
+    return (
+      <polygon
+        points={`${x},${y - 30} ${x + 30},${y + 24} ${x - 30},${y + 24}`}
+        fill={tone}
+      />
+    )
+  return (
+    <g>
+      <text x={x} y={y + 14} textAnchor="middle" fontSize="40">
+        {motif === 'clap' ? '👏' : '🫰'}
+      </text>
+      <text
+        x={x}
+        y={y + 50}
+        textAnchor="middle"
+        fontSize="15"
+        fontWeight="700"
+        fill={tone}
+      >
+        {motif}
+      </text>
+    </g>
+  )
+}
+
+function Repeat({ id, art }: P & { art: Extract<Art, { kind: 'repeat' }> }) {
+  const w = Math.min(560 / art.items.length, 80)
+  const left = 320 - (art.items.length * w) / 2
+  return (
+    <>
+      <Paper id={id} />
+      {art.items.map((motif, i) => (
+        <MotifArt key={i} motif={motif} x={left + w * (i + 0.5)} y={160} />
+      ))}
+      <Caption text={art.label} y={300} />
+    </>
+  )
+}
+
+// A ball placed in relation to a box, for position words.
+function Position({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'position' }> }) {
+  const box = { x: 250, y: 170, w: 140, h: 100 }
+  const at = {
+    above: [320, 120],
+    below: [320, 300],
+    beside: [440, 240],
+    'in front of': [320, 250],
+    behind: [372, 150],
+    inside: [320, 200],
+  }[art.word]
+  const back = art.word === 'behind' || art.word === 'inside'
+  const ball = <Ball id={id} x={at[0]!} y={at[1]!} />
+  return (
+    <>
+      <Table id={id} y={art.word === 'below' ? 330 : 270} />
+      {art.word === 'below' && (
+        <rect
+          x={box.x - 20}
+          y="268"
+          width={box.w + 40}
+          height="14"
+          fill={`url(#${id}wood)`}
+        />
+      )}
+      {back && ball}
+      <g filter={`url(#${id}shadow)`}>
+        <path
+          d={`M${box.x} ${box.y}h${box.w}v${box.h}h-${box.w}Z`}
+          fill="#d8b07a"
+          stroke="#9a7040"
+          strokeWidth="2"
+          opacity={art.word === 'inside' ? 0.8 : 1}
+        />
+        <path
+          d={`M${box.x} ${box.y}l24 -22h${box.w}l-24 22Z`}
+          fill="#e6c590"
+          stroke="#9a7040"
+          strokeWidth="2"
+        />
+        <path
+          d={`M${box.x + box.w} ${box.y}l24 -22v${box.h}l-24 22Z`}
+          fill="#b98d55"
+          stroke="#9a7040"
+          strokeWidth="2"
+        />
+      </g>
+      {!back && ball}
+      <Caption text={`The ball is ${art.word} the box.`} y={342} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -3526,9 +3800,19 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return (
         <>
           <Table id={id} y={190} />
-          {art.names.map((name, i) => (
-            <SolidArt key={name} id={id} name={name} x={20 + w * (i + 0.5)} />
-          ))}
+          {art.names.map((name, i) => {
+            // Five solids share the table, so each is drawn a little smaller.
+            const x = 20 + w * (i + 0.5)
+            const scale = art.names.length > 4 ? 0.8 : 1
+            return (
+              <g
+                key={name}
+                transform={`translate(${x} 210) scale(${scale}) translate(${-x} -210)`}
+              >
+                <SolidArt id={id} name={name} x={x} />
+              </g>
+            )
+          })}
         </>
       )
     }
@@ -3582,6 +3866,12 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Ballot id={id} art={art} />
     case 'goods':
       return <Goods id={id} art={art} />
+    case 'coins':
+      return <Coins id={id} art={art} />
+    case 'repeat':
+      return <Repeat id={id} art={art} />
+    case 'position':
+      return <Position id={id} art={art} />
   }
 }
 

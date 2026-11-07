@@ -58,7 +58,11 @@ export type Art =
     }
   | { kind: 'clock'; hour: number; label?: string }
   | { kind: 'tally'; rows: Array<[string, number]> }
-  | { kind: 'picto'; rows: Array<[string, number]>; item: 'mango' | 'book' }
+  | {
+      kind: 'picto'
+      rows: Array<[string, number]>
+      item: 'mango' | 'book' | 'child'
+    }
   | {
       kind: 'people'
       ground: 'grass' | 'track' | 'floor' | 'compound'
@@ -90,8 +94,16 @@ export type Art =
   | { kind: 'cocoa'; label?: string }
   | { kind: 'ballot'; label?: string }
   | { kind: 'goods'; items: Array<Good>; label?: string }
+  // Coins by value in pesewas: 1, 5, 10, 20, 50 or 100 (one cedi).
+  | { kind: 'coins'; coins: Array<number>; label?: string }
+  | { kind: 'repeat'; items: Array<Motif | null>; label?: string }
+  | {
+      kind: 'position'
+      word: 'above' | 'below' | 'beside' | 'in front of' | 'behind' | 'inside'
+    }
 
-export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
+export type Solid =
+  'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid' | 'box' | 'prism'
 
 export type Pose =
   | 'stand'
@@ -133,6 +145,8 @@ export interface Figure {
   // A tick or a cross above the figure, for right and wrong ways.
   mark?: 'good' | 'bad'
 }
+export type Motif = 'star' | 'circle' | 'square' | 'triangle' | 'clap' | 'snap'
+
 export type Good =
   | 'salt'
   | 'fish'
@@ -159,7 +173,13 @@ export type HistorySource =
   | 'painting'
 
 export type Shape =
-  'square' | 'rectangle' | 'triangle' | 'circle' | 'pentagon' | 'hexagon'
+  | 'square'
+  | 'rectangle'
+  | 'triangle'
+  | 'circle'
+  | 'pentagon'
+  | 'hexagon'
+  | 'rhombus'
 
 export interface WorkedExample {
   title: string
