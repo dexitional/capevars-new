@@ -202,6 +202,7 @@ export type Pose =
   | 'sitUp'
   | 'twist'
   | 'hockey'
+  | 'seatLift'
 
 export interface Figure {
   pose: Pose

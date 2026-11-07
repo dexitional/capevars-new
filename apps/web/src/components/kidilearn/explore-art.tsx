@@ -1803,6 +1803,8 @@ const POSES: Record<Pose, Joints> = {
   sitUp: { lean: -40, legs: [135, 40, 138, 38], arms: [72, 88, 80, 96] },
   twist: { lean: -6, legs: [90, 90, 118, 62], arms: [-30, -22, 74, 128] },
   hockey: { lean: 38, legs: [-22, -28, 30, 12], arms: [30, 44, 40, 52] },
+  // Sitting with straight legs, palms pressing the floor to lift the hips.
+  seatLift: { lean: -8, legs: [88, 90, 92, 90], arms: [-10, -6, -8, -4], air: 6 },
 }
 const SKINS = ['#6b3d24', '#8a5634', '#4f2c1a', '#7a4a2b']
 const KITS: Array<[string, string]> = [

@@ -20,6 +20,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 4 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 6 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
+| Basic 4 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 | Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 | Basic 6 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 
@@ -102,6 +103,8 @@ Scope for other subjects and levels has not yet been checked.
 - The PE curriculum says the body is “made of 75% water”. A child is closer to two-thirds water, so the guide says “more than half”.
 - The PE curriculum's high-jump explanation is garbled; the guide explains take-off and landing force plainly.
 - The PE curriculum's “back roll” steps describe a forward roll. No guide uses them.
+- The Basic 4 PE curriculum says push-ups strengthen the biceps and chin-ups the triceps. It is the other way round (push-ups: triceps and chest; chin-ups: biceps and back); the guide is correct and a test holds it. Its codes are misprinted in places: “B4.1.2.1.1sa0” is B4.1.2.1.10, and the drug indicator printed B4.5.5.4.1 sits in strand 4 (B4.4.5.4.1).
+- The Basic 4 PE lessons include a tripod balance, which is in the curriculum's glossary but has no Basic 4 indicator. The guide links it to B4.1.2.1.2 (balance) and teaches it only on a mat with a teacher, knees resting on elbows, never kicking up.
 - The Basic 6 PE lessons carry malformed codes (such as B61.5.1.6), and lesson 18 (id 1337) was imported with its title cut to “With”, from “Discuss with learners the effects of drug addiction”. The guides use the curriculum's codes. The supplied source data cuts most PE titles at about 65 characters, often mid-phrase, or runs exemplar text into them. Fixes live in `packages/db/scripts/kidi-source-corrections.json`: `extract-kidi-source.py` applies them on every import, and `fix-kidi-source.ts` applies them to lessons already in the database (dry run unless `--apply`). Each fix replaces an exact old value only.
 - The Basic 6 PE curriculum lists the effects of drug addiction as “madness, uneasiness, death”. The guide describes harm to the body and mind without stigmatising words, says that people with an addiction need help, not mockery, and a test keeps the word out. Sit-ups are taught with bent knees and no pulling on the neck.
 
