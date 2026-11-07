@@ -4,6 +4,7 @@ import type { Band } from '#/lib/kidilearn/storyboard'
 export type VoiceMode = 'recorded' | 'device' | 'silent'
 const SPEAK_DELAY_MS = 60
 const RETRY_MS = 150
+const STALL_MS = 2000
 type Line = {
   text: string
   lang?: 'en' | 'fr'
@@ -98,13 +99,8 @@ export class Narrator {
     const audio = new Audio(url)
     audio.playbackRate = this.rate
     this.audio = audio
-    // A clip stuck on a slow network must not hold the lesson up.
-    let started = false
-    audio.onplaying = () => {
-      started = true
-    }
-    this.schedule(() => {
-      if (started || run !== this.run) return
+    const abandon = () => {
+      if (run !== this.run || this.audio !== audio) return
       audio.onended =
         audio.onerror =
         audio.ontimeupdate =
@@ -112,6 +108,24 @@ export class Narrator {
           null
       audio.pause()
       fallback()
+    }
+    // A clip stuck on a slow network must not hold the lesson up, and nor must
+    // one that starts but whose sound never moves on.
+    let started = false
+    audio.onplaying = () => {
+      if (started) return
+      started = true
+      let heard = audio.currentTime
+      const check = () => {
+        if (run !== this.run || this.audio !== audio || audio.ended) return
+        if (!audio.paused && audio.currentTime <= heard + 0.05) return abandon()
+        heard = audio.currentTime
+        this.schedule(check, STALL_MS)
+      }
+      this.schedule(check, STALL_MS)
+    }
+    this.schedule(() => {
+      if (!started) abandon()
     }, 4000)
     this.schedule(
       finish,

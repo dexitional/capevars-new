@@ -28,6 +28,29 @@ beforeEach(() => {
 })
 afterEach(() => mock.timers.reset())
 
+// A recorded clip that starts playing but whose sound never moves on.
+class StuckAudio {
+  static made: Array<StuckAudio> = []
+  currentTime = 0
+  paused = false
+  ended = false
+  playbackRate = 1
+  onplaying: (() => void) | null = null
+  onended: (() => void) | null = null
+  onerror: (() => void) | null = null
+  ontimeupdate: (() => void) | null = null
+  constructor(public src: string) {
+    StuckAudio.made.push(this)
+  }
+  play() {
+    this.onplaying?.()
+    return Promise.resolve()
+  }
+  pause() {
+    this.paused = true
+  }
+}
+
 const say = (narrator: Narrator, text: string, onEnd = () => {}) =>
   narrator.speak({ text, band: 'lower', onEnd })
 const words = () => spoken.map((u) => u.text)
@@ -82,5 +105,35 @@ test('a line stopped straight away is never sent to the voice', () => {
   say(narrator, 'Hello there.')
   narrator.stop()
   mock.timers.tick(1000)
+  assert.equal(spoken.length, 0)
+})
+
+test('moves to the device voice when a recorded clip stalls', async () => {
+  StuckAudio.made = []
+  Object.assign(globalThis, { Audio: StuckAudio })
+  const narrator = new Narrator()
+  narrator.clips = { 'en:Look at the tens first.': '/clip.m4a' }
+  say(narrator, 'Look at the tens first.')
+  await Promise.resolve()
+  assert.equal(StuckAudio.made.length, 1)
+  mock.timers.tick(2100)
+  assert.ok(StuckAudio.made[0]!.paused, 'the stuck clip is stopped')
+  mock.timers.tick(100)
+  assert.deepEqual(words(), ['Look at the tens first.'])
+})
+
+test('lets a recorded clip that is moving play on', async () => {
+  StuckAudio.made = []
+  Object.assign(globalThis, { Audio: StuckAudio })
+  const narrator = new Narrator()
+  narrator.clips = { 'en:Look at the tens first.': '/clip.m4a' }
+  say(narrator, 'Look at the tens first.')
+  await Promise.resolve()
+  const clip = StuckAudio.made[0]!
+  for (let i = 1; i <= 3; i++) {
+    clip.currentTime = i * 0.9
+    mock.timers.tick(1000)
+  }
+  assert.equal(clip.paused, false)
   assert.equal(spoken.length, 0)
 })
