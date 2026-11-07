@@ -3,7 +3,8 @@ import type { CourseGuides } from './types'
 // Basic 6 Physical Education, written for this course and scoped to the NaCCA
 // Physical Education Curriculum for Primary Schools (2019). Notes:
 // - Codes are the curriculum's own. The imported lessons carry malformed
-//   ones (such as B61.5.1.6), and lesson 18's title was cut to "With".
+//   ones (such as B61.5.1.6). Lesson 18 was imported with its title cut to
+//   "With"; the database record was corrected (see docs/kidilearn-explore.md).
 // - The curriculum lists the effects of drug addiction as "madness,
 //   uneasiness, death". The guide explains harm to the body and mind without
 //   labels, and says that people with an addiction need help, not mockery.
