@@ -3258,6 +3258,7 @@ const GOOD_NAMES: Record<Good, string> = {
   iron: 'Iron tools',
   cowries: 'Cowrie shells',
   jar: 'Jam and marmalade',
+  wax: 'Wax print cloth',
 }
 
 function GoodItem({
@@ -3391,6 +3392,30 @@ function GoodItem({
               />
             </g>
           ))}
+        </g>
+      )
+    case 'wax':
+      return (
+        <g filter={shadow}>
+          <rect x={x - 46} y={y - 34} width="92" height="68" fill="#1d5fa8" />
+          {[0, 1, 2].map((r) =>
+            [0, 1, 2, 3].map((c) => (
+              <g key={`${r}${c}`}>
+                <circle
+                  cx={x - 34 + c * 23 + (r % 2) * 11}
+                  cy={y - 22 + r * 22}
+                  r="9"
+                  fill="#f2b632"
+                />
+                <circle
+                  cx={x - 34 + c * 23 + (r % 2) * 11}
+                  cy={y - 22 + r * 22}
+                  r="4"
+                  fill="#d9412f"
+                />
+              </g>
+            )),
+          )}
         </g>
       )
     case 'jar':

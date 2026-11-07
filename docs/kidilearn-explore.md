@@ -9,6 +9,8 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Course | Lessons with guides | Curriculum source |
 | --- | ---: | --- |
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
+| Basic 1 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
+| Basic 2 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 3 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 4 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
 | Basic 5 History | 20 of 20 | [History of Ghana Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/HISTORY-OF-GHANA-B1-B6-1.pdf) |
@@ -40,6 +42,13 @@ Checked against the Physical Education curriculum, Basic 5:
 - **Codes:** the imported lessons carry indicator codes that differ from the curriculum's own numbering; for example, “Walk on straight lines” is stored as B5.1.2.1.1, but the curriculum gives B5.1.1.1.1. One code is malformed (`B51.5.1.5`). The guides use the curriculum's codes.
 - **Body types:** the curriculum names ectomorph, mesomorph and endomorph. The guide teaches the terms, but frames them as strengths that every build has, and asks learners never to label classmates.
 - **Heart rate:** learners count their pulse for 15 seconds and multiply by 4, as the curriculum describes.
+
+Checked against the History of Ghana curriculum, Basic 1 and 2:
+
+- **Written for six- and seven-year-olds:** sentences of about 20 words or fewer, which a test checks.
+- **Heavy repetition:** Basic 2 has only four indicators across 20 lessons, so each topic is taught five times, from five angles. For example, historical places are covered as an overview, then the Komfo Anokye sword, Assin Manso, the Gbewaa Palace, and finally a place in the learner’s own community.
+- **Presidents:** Basic 1 names every President since 1960, in order, up to John Dramani Mahama’s return in 2025. A test checks the order. This needs updating after each election, as do the Basic 6 lessons. No picture claims to show a President.
+- **Assin Manso:** explained gently, as a place where people remember and honour those taken away.
 
 Checked against the History of Ghana curriculum, Basic 3:
 

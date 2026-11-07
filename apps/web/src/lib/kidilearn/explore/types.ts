@@ -144,6 +144,7 @@ export type Good =
   | 'iron'
   | 'cowries'
   | 'jar'
+  | 'wax'
 
 export type ThenNow = 'home' | 'travel' | 'message' | 'money'
 
