@@ -59,8 +59,61 @@ export type Art =
   | { kind: 'clock'; hour: number; label?: string }
   | { kind: 'tally'; rows: Array<[string, number]> }
   | { kind: 'picto'; rows: Array<[string, number]>; item: 'mango' | 'book' }
+  | {
+      kind: 'people'
+      ground: 'grass' | 'track' | 'floor' | 'compound'
+      people: Array<Figure>
+      // Balls placed on the scene, as [x, y] on a 640 by 360 picture.
+      balls?: Array<[number, number]>
+      cones?: Array<number>
+      sun?: boolean
+      label?: string
+    }
+  | { kind: 'course'; path: 'line' | 'zigzag'; ball?: boolean; label?: string }
+  | { kind: 'pulse'; label?: string }
 
 export type Solid = 'cube' | 'sphere' | 'cylinder' | 'cone' | 'pyramid'
+
+export type Pose =
+  | 'stand'
+  | 'walk'
+  | 'beam'
+  | 'run'
+  | 'skip'
+  | 'leap'
+  | 'tiptoe'
+  | 'reach'
+  | 'lean'
+  | 'throw'
+  | 'catch'
+  | 'forehand'
+  | 'backhand'
+  | 'trap'
+  | 'kick'
+  | 'volley'
+  | 'dance'
+  | 'jumpUp'
+  | 'crouch'
+  | 'land'
+  | 'pushUp'
+  | 'pushDown'
+  | 'drink'
+  | 'liftGood'
+  | 'liftBad'
+  | 'raise'
+  | 'pulse'
+
+export interface Figure {
+  pose: Pose
+  x: number
+  facing?: 1 | -1
+  // Kit colour, and how broad the build is (about 0.85 to 1.25).
+  kit?: number
+  build?: number
+  holds?: 'ball' | 'racket' | 'box' | 'bottle' | 'lime'
+  // A tick or a cross above the figure, for right and wrong ways.
+  mark?: 'good' | 'bad'
+}
 export type Shape =
   'square' | 'rectangle' | 'triangle' | 'circle' | 'pentagon' | 'hexagon'
 
@@ -85,6 +138,8 @@ export interface ExploreGuide {
   mistakes: Array<{ wrong: string; right: string }>
   realLife: Array<string>
   tryIt: { need: string; steps: Array<string> }
+  // Shown before the task. Physical lessons must have it.
+  safety?: Array<string>
 }
 
 export type CourseGuides = Record<string, ExploreGuide>

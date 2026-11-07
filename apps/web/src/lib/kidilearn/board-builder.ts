@@ -620,6 +620,20 @@ export function buildBoard(
         },
         [{ say: mistake.right, show: 0 }],
       )
+    // Safety advice always comes before what the lesson asks a child to do.
+    const cautions = written.safety?.slice(0, 2) ?? []
+    if (cautions.length)
+      scene(
+        'teach',
+        'Stay safe',
+        {
+          type: 'idea',
+          heading: 'Stay safe',
+          icon: '🦺',
+          points: cautions.flatMap(pieces),
+        },
+        cautions.map((say, show) => ({ say, show })),
+      )
     scene(
       'recap',
       'Try it yourself',

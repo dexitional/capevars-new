@@ -4,11 +4,12 @@ A lesson's Explore step can be told in two ways. A **guide** explains the lesson
 
 ## Guides
 
-A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an explanation, a picture, key words, worked examples that a learner thinks about before opening, common mistakes, everyday uses and a practical task. Each one names its NaCCA indicator.
+A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an explanation, a picture, key words, worked examples that a learner thinks about before opening, common mistakes, everyday uses and a practical task. Physical lessons also have safety advice, shown before the task. Each guide names its NaCCA indicator. The guides are written for kidiLearn, with the curriculum setting the scope.
 
 | Course | Lessons with guides | Curriculum source |
 | --- | ---: | --- |
 | Basic 2 Mathematics | 29 of 29 | [Mathematics Curriculum for Primary Schools, B1–B3](https://nacca.gov.gh/wp-content/uploads/2019/04/MATHS-LOWER-PRIMARY-B1-B3.pdf) |
+| Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 
 The other courses still use their imported notes.
 
@@ -30,13 +31,24 @@ Checked against the Mathematics curriculum:
 - **Basic 2 measuring:** non-standard units. Standard units are met only as a need.
 - **Basic 2 data:** tallies and pictographs with up to 3 categories.
 
+Checked against the Physical Education curriculum, Basic 5:
+
+- **Codes:** the imported lessons carry indicator codes that differ from the curriculum's own numbering; for example, “Walk on straight lines” is stored as B5.1.2.1.1, but the curriculum gives B5.1.1.1.1. One code is malformed (`B51.5.1.5`). The guides use the curriculum's codes.
+- **Body types:** the curriculum names ectomorph, mesomorph and endomorph. The guide teaches the terms, but frames them as strengths that every build has, and asks learners never to label classmates.
+- **Heart rate:** learners count their pulse for 15 seconds and multiply by 4, as the curriculum describes.
+
 Scope for other subjects and levels has not yet been checked.
 
-**A misprint in the source:** the curriculum's compensation example for 26 + 39 gives 26 + 40 as 76 and the answer as 75. The correct values are 66 and 65, and the guide uses them.
+**Errors in the sources:**
+
+- The Mathematics curriculum's compensation example for 26 + 39 gives 26 + 40 as 76 and the answer as 75. The correct values are 66 and 65, and the guide uses them.
+- The PE curriculum says the body is “made of 75% water”. A child is closer to two-thirds water, so the guide says “more than half”.
+- The PE curriculum's high-jump explanation is garbled; the guide explains take-off and landing force plainly.
+- The PE curriculum's “back roll” steps describe a forward roll. No guide uses them.
 
 ### Pictures
 
-`components/kidilearn/explore-art.tsx` draws real objects from code, with light and shadow. Pictures stay sharp at any size and add no image downloads. They are refined illustrations, not photographs. Money is drawn as plain practice notes and marked “practice”.
+`components/kidilearn/explore-art.tsx` draws real objects from code, with light and shadow. People are drawn from joint angles in named poses, such as `kick`, `pushUp` and `liftGood`, so a new movement is a new set of angles. Pictures stay sharp at any size and add no image downloads. They are refined illustrations, not photographs. Money is drawn as plain practice notes and marked “practice”.
 
 ## The theatre
 

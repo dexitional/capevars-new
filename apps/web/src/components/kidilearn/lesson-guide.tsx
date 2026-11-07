@@ -4,6 +4,7 @@ import {
   CheckCircle2,
   Lightbulb,
   MapPin,
+  ShieldCheck,
   TriangleAlert,
 } from 'lucide-react'
 import type { ExploreGuide, WorkedExample } from '#/lib/kidilearn/explore/types'
@@ -122,6 +123,18 @@ export function LessonGuide({ guide }: { guide: ExploreGuide }) {
           ))}
         </ul>
       </section>
+      {guide.safety && (
+        <section className="rounded-2xl bg-sky-50 p-4">
+          <h4 className="flex items-center gap-2 font-black text-sky-950">
+            <ShieldCheck className="size-5" /> Stay safe
+          </h4>
+          <ul className="mt-2 list-disc space-y-1.5 pl-5 text-base leading-7">
+            {guide.safety.map((text) => (
+              <li key={text}>{text}</li>
+            ))}
+          </ul>
+        </section>
+      )}
       <section className="rounded-2xl border-2 border-dashed border-teal-300 p-4">
         <h4 className="font-black">Try it yourself</h4>
         <p className="mt-1 text-sm font-semibold text-slate-600">
