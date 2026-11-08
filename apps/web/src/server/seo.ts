@@ -13,6 +13,7 @@ import type { QbLevel } from "#/lib/quizbank";
 import { LEVELS, SUBJECTS } from "#/lib/kidilearn/catalog";
 import type { SubjectId } from "#/lib/kidilearn/catalog";
 import { quizbankCourseName } from "#/lib/seo";
+import { notKidiCourse } from "./api/lib/query.js";
 
 const baseUrl = (request: Request) => (process.env.APP_URL?.replace(/\/$/, "") || new URL(request.url).origin);
 const escapeXml = (s: string) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
@@ -43,7 +44,7 @@ export async function handleSitemap(request: Request) {
   const [[quizbank], [learn], [kidi]] = await Promise.all([
     pool.query<RowDataPacket[]>("SELECT slug, DATE_FORMAT(updated_at, '%Y-%m-%d') AS d FROM qb_courses WHERE status = 'published' ORDER BY id"),
     pool.query<RowDataPacket[]>(// kidiLearn courses are listed under their catalog page below, which their course page points to.
-    "SELECT c.slug, DATE_FORMAT(c.updated_at, '%Y-%m-%d') AS d FROM courses c WHERE c.status = 'published' AND NOT EXISTS (SELECT 1 FROM kidi_course_links k WHERE k.course_id = c.id AND k.is_active = 1) ORDER BY c.id"),
+    `SELECT c.slug, DATE_FORMAT(c.updated_at, '%Y-%m-%d') AS d FROM courses c WHERE c.status = 'published' AND ${notKidiCourse()} ORDER BY c.id`),
     pool.query<RowDataPacket[]>(
       "SELECT k.level_key, k.subject_key, DATE_FORMAT(c.updated_at, '%Y-%m-%d') AS d FROM kidi_course_links k JOIN courses c ON c.id = k.course_id AND c.status = 'published' WHERE k.is_active = 1 ORDER BY k.id",
     ),

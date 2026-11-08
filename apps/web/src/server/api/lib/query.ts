@@ -7,6 +7,11 @@ export const pageQuerySchema = z.object({
   q: z.string().trim().max(100).optional().catch(undefined),
 });
 
+// kidiLearn courses live in their own catalogue (/learn/kidilearn), so the
+// course library, search and site stats leave them out.
+export const notKidiCourse = (alias = "c") =>
+  `NOT EXISTS (SELECT 1 FROM kidi_course_links k WHERE k.course_id = ${alias}.id AND k.is_active = 1)`;
+
 export function paging(page: number, pageSize: number) {
   return { limit: pageSize, offset: (page - 1) * pageSize };
 }
