@@ -12,6 +12,7 @@ import { memberOrNull, optionalMember, requireMember } from "#/server/member-ses
 import { QB_DISCUSSION_KINDS, QB_EXAM, QB_LEVEL_IDS, QB_MAX_COURSE_TAGS, QB_MAX_TEXT_ANSWER, qbVariationSchema } from "#/lib/quizbank";
 import type { QbDiscussionKind, QbMark } from "#/lib/quizbank";
 import { validate } from "../../lib/validate.js";
+import { optionalText } from "../../lib/fields.js";
 import { likePattern, pageQuerySchema, paging } from "../../lib/query.js";
 import { AppError } from "../../middleware/error-handler.js";
 import {
@@ -102,6 +103,65 @@ function courseCard(row: RowDataPacket, tags: Map<number, Array<{ name: string; 
     onBoard: Boolean(row.on_board),
     fee: row.subscription_enabled ? Number(row.subscription_fee) : null,
     subscribed: Boolean(row.subscribed),
+    ratingAvg: row.rating_avg === null || row.rating_avg === undefined ? null : Number(row.rating_avg),
+    ratingCount: Number(row.rating_count ?? 0),
+  };
+}
+
+// ---- Reviews ---------------------------------------------------------------------------------
+
+const reviewSchema = z.object({ rating: z.number().int().min(1).max(5), body: optionalText(2000) });
+
+// Members who have sat an exam on a course or put it on their Study Board.
+async function canReview(courseId: number, userId: number) {
+  const [rows] = await getPool().execute<RowDataPacket[]>(
+    `SELECT EXISTS (SELECT 1 FROM qb_attempts WHERE course_id = ? AND user_id = ?)
+       OR EXISTS (SELECT 1 FROM qb_board WHERE course_id = ? AND user_id = ?) AS ok`,
+    [courseId, userId, courseId, userId],
+  );
+  return Boolean(rows[0]?.ok);
+}
+
+async function refreshRating(courseId: number) {
+  await getPool().execute(
+    `UPDATE qb_courses c SET rating_avg = (SELECT ROUND(AVG(rating), 1) FROM qb_course_reviews WHERE course_id = c.id AND is_hidden = 0),
+       rating_count = (SELECT COUNT(*) FROM qb_course_reviews WHERE course_id = c.id AND is_hidden = 0) WHERE c.id = ?`,
+    [courseId],
+  );
+}
+
+const reviewRow = (r: RowDataPacket) => ({
+  id: r.id,
+  rating: r.rating,
+  body: r.body,
+  createdAt: r.created_at,
+  updatedAt: r.updated_at,
+  author: { name: r.full_name, username: r.username, avatarUrl: r.avatar_url },
+});
+
+async function courseReviews(courseId: number, memberId: number | null) {
+  const pool = getPool();
+  const [[items], [breakdown], [mine], eligible] = await Promise.all([
+    pool.execute<RowDataPacket[]>(
+      `SELECT r.id, r.rating, r.body, r.created_at, r.updated_at, u.full_name, u.username, u.avatar_url
+       FROM qb_course_reviews r JOIN users u ON u.id = r.user_id WHERE r.course_id = ? AND r.is_hidden = 0 ORDER BY r.updated_at DESC LIMIT 30`,
+      [courseId],
+    ),
+    pool.execute<RowDataPacket[]>("SELECT rating, COUNT(*) AS n FROM qb_course_reviews WHERE course_id = ? AND is_hidden = 0 GROUP BY rating", [courseId]),
+    memberId
+      ? pool.execute<RowDataPacket[]>(
+          `SELECT r.id, r.rating, r.body, r.created_at, r.updated_at, u.full_name, u.username, u.avatar_url
+           FROM qb_course_reviews r JOIN users u ON u.id = r.user_id WHERE r.course_id = ? AND r.user_id = ?`,
+          [courseId, memberId],
+        )
+      : Promise.resolve([[]] as unknown as [RowDataPacket[]]),
+    memberId ? canReview(courseId, memberId) : Promise.resolve(false),
+  ]);
+  return {
+    items: items.map(reviewRow),
+    breakdown: Object.fromEntries(breakdown.map((b) => [b.rating, Number(b.n)])) as Record<number, number>,
+    mine: mine[0] ? reviewRow(mine[0]) : null,
+    canReview: eligible,
   };
 }
 
@@ -351,15 +411,17 @@ export const quizbankRoute = new Hono()
       board = b[0] ?? null;
       attempts = a;
     }
-    const [[types], topics, access] = await Promise.all([
+    const [[types], topics, access, reviews] = await Promise.all([
       getPool().execute<RowDataPacket[]>(
         `SELECT q.type, COUNT(*) AS n FROM qb_course_questions cq JOIN qb_questions q ON q.id = cq.question_id AND ${PUBLISHED_QUESTION} WHERE cq.course_id = ? GROUP BY q.type`,
         [course.id],
       ),
       topicsFor([course.id]),
       courseAccess(course, member?.id ?? 0),
+      courseReviews(course.id as number, member?.id ?? null),
     ]);
     return c.json({
+      reviews,
       course: { ...courseCard({ ...course, on_board: Boolean(board), subscribed: access.active }, tags), questionTypes: Object.fromEntries(types.map((t) => [t.type, Number(t.n)])) },
       access,
       topics,
@@ -382,6 +444,25 @@ export const quizbankRoute = new Hono()
         submittedAt: a.submitted_at,
       })),
     });
+  })
+  .put("/courses/:id/review", requireMember, validate("json", reviewSchema), async (c) => {
+    const course = await publishedCourse("id", Number(c.req.param("id")));
+    const member = c.get("member");
+    if (!(await canReview(course.id as number, member.id))) throw new AppError("Practise this course, or add it to your Study Board, before reviewing it.", 403);
+    const { rating, body } = c.req.valid("json");
+    await getPool().execute(
+      `INSERT INTO qb_course_reviews (course_id, user_id, rating, body) VALUES (?, ?, ?, ?)
+       ON DUPLICATE KEY UPDATE rating = VALUES(rating), body = VALUES(body)`,
+      [course.id, member.id, rating, body ?? null],
+    );
+    await refreshRating(course.id as number);
+    return c.json({ ok: true });
+  })
+  .delete("/courses/:id/review", requireMember, async (c) => {
+    const courseId = Number(c.req.param("id"));
+    await getPool().execute("DELETE FROM qb_course_reviews WHERE course_id = ? AND user_id = ?", [courseId, c.get("member").id]);
+    await refreshRating(courseId);
+    return c.json({ ok: true });
   })
   // ---- Subscriptions ---------------------------------------------------------------------------
   .post("/courses/:id/subscribe", requireMember, async (c) => {
