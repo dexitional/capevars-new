@@ -159,6 +159,10 @@ export type Art =
     }
   | { kind: 'lineGraph'; points: Array<[string, number]>; label?: string }
   | { kind: 'net'; solid: 'box' | 'prism'; label?: string }
+  // Sun, hills, trees, a river, fish, birds and people: the natural world.
+  | { kind: 'nature'; label?: string }
+  // A church, a mosque and a traditional shrine; focus lights one of them.
+  | { kind: 'worship'; focus?: 'church' | 'mosque' | 'shrine'; label?: string }
   // Rows of counters, one row for each part of a ratio.
   | { kind: 'ratio'; parts: Array<[string, number]>; label?: string }
   | {

@@ -1804,7 +1804,12 @@ const POSES: Record<Pose, Joints> = {
   twist: { lean: -6, legs: [90, 90, 118, 62], arms: [-30, -22, 74, 128] },
   hockey: { lean: 38, legs: [-22, -28, 30, 12], arms: [30, 44, 40, 52] },
   // Sitting with straight legs, palms pressing the floor to lift the hips.
-  seatLift: { lean: -8, legs: [88, 90, 92, 90], arms: [-10, -6, -8, -4], air: 6 },
+  seatLift: {
+    lean: -8,
+    legs: [88, 90, 92, 90],
+    arms: [-10, -6, -8, -4],
+    air: 6,
+  },
 }
 const SKINS = ['#6b3d24', '#8a5634', '#4f2c1a', '#7a4a2b']
 const KITS: Array<[string, string]> = [
@@ -4825,6 +4830,205 @@ function Ratio({ id, art }: P & { art: Extract<Art, { kind: 'ratio' }> }) {
   )
 }
 
+// The natural world: sky and sun, hills, trees, a river with fish, birds,
+// a goat and two people. Used for creation and the environment.
+function Nature({ id, art }: P & { art: Extract<Art, { kind: 'nature' }> }) {
+  const tree = (x: number, s: number) => (
+    <g key={x} transform={`translate(${x} ${200 - 60 * s}) scale(${s})`}>
+      <rect x="-6" y="40" width="12" height="60" fill="#7a4a2b" />
+      <circle cx="0" cy="30" r="34" fill="#3f9e5a" />
+      <circle cx="-22" cy="44" r="22" fill="#4caf63" />
+      <circle cx="22" cy="44" r="22" fill="#38914f" />
+    </g>
+  )
+  return (
+    <>
+      <linearGradient id={`${id}natsky`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#8ecdf0" />
+        <stop offset="1" stopColor="#e9f6fc" />
+      </linearGradient>
+      <rect width="640" height="360" fill={`url(#${id}natsky)`} />
+      <circle cx="540" cy="70" r="38" fill="#f6c443" />
+      <circle cx="540" cy="70" r="52" fill="#f6c443" opacity=".25" />
+      {(
+        [
+          [120, 70],
+          [160, 58],
+          [205, 80],
+        ] as Array<[number, number]>
+      ).map(([x, y]) => (
+        <path
+          key={x}
+          d={`M${x - 12} ${y}q6 -8 12 0q6 -8 12 0`}
+          fill="none"
+          stroke="#35505f"
+          strokeWidth="3"
+          strokeLinecap="round"
+        />
+      ))}
+      <path d="M0 210Q120 120 250 200T520 180T640 200V360H0Z" fill="#9ccf7a" />
+      <path d="M0 240Q160 200 330 236T640 232V360H0Z" fill="#7dbb5c" />
+      <path
+        d="M0 300Q170 268 330 292T640 284V330Q470 314 330 334T0 336Z"
+        fill="#5aa7d8"
+      />
+      {(
+        [
+          [210, 304],
+          [430, 300],
+        ] as Array<[number, number]>
+      ).map(([x, y]) => (
+        <path
+          key={x}
+          d={`M${x} ${y}q14 -8 26 0q-12 8 -26 0Zm26 0l8 -6v12Z`}
+          fill="#f08a3c"
+        />
+      ))}
+      {tree(70, 1)}
+      {tree(470, 0.8)}
+      {tree(590, 1.05)}
+      <g transform="translate(330 222)">
+        <ellipse cx="0" cy="0" rx="28" ry="15" fill="#f4efe6" />
+        <circle cx="28" cy="-10" r="10" fill="#f4efe6" />
+        <path
+          d="M-18 12v14M-6 12v14M8 12v14M18 12v14"
+          stroke="#6b5a48"
+          strokeWidth="4"
+        />
+      </g>
+      {/* People at a distance, standing on the grass. */}
+      <g transform="translate(140 104) scale(0.52)">
+        <Person id={id} figure={{ pose: 'walk', x: 0, kit: 1 }} />
+        <Person id={id} figure={{ pose: 'stand', x: 80, kit: 3, facing: -1 }} />
+      </g>
+      <Caption text={art.label} y={350} />
+    </>
+  )
+}
+
+// Three places of worship in Ghana, each with its usual symbol.
+function Worship({ id, art }: P & { art: Extract<Art, { kind: 'worship' }> }) {
+  const places = [
+    ['church', 'Church', 110],
+    ['mosque', 'Mosque', 320],
+    ['shrine', 'Shrine', 530],
+  ] as const
+  return (
+    <>
+      <Paper id={id} />
+      <rect y="250" width="640" height="110" fill="#e8d6b8" />
+      {places.map(([kind, name, x]) => {
+        const lit = !art.focus || art.focus === kind
+        return (
+          <g key={kind} opacity={lit ? 1 : 0.35} filter={`url(#${id}shadow)`}>
+            {kind === 'church' && (
+              <g>
+                <rect
+                  x={x - 60}
+                  y="150"
+                  width="120"
+                  height="100"
+                  fill="#f4f1ea"
+                  stroke="#c9bfae"
+                />
+                <path
+                  d={`M${x - 70} 152L${x} 104L${x + 70} 152Z`}
+                  fill="#b5523b"
+                />
+                <rect
+                  x={x - 16}
+                  y="76"
+                  width="32"
+                  height="40"
+                  fill="#f4f1ea"
+                  stroke="#c9bfae"
+                />
+                <path
+                  d={`M${x} 46v30M${x - 10} 56h20`}
+                  stroke="#8b6b2e"
+                  strokeWidth="5"
+                  strokeLinecap="round"
+                />
+                <path
+                  d={`M${x - 16} 250v-44a16 16 0 0 1 32 0v44Z`}
+                  fill="#7a4a2b"
+                />
+              </g>
+            )}
+            {kind === 'mosque' && (
+              <g>
+                <rect
+                  x={x - 62}
+                  y="160"
+                  width="124"
+                  height="90"
+                  fill="#f4f1ea"
+                  stroke="#c9bfae"
+                />
+                <path d={`M${x - 44} 162a44 44 0 0 1 88 0Z`} fill="#3f9e7c" />
+                <rect
+                  x={x + 72}
+                  y="92"
+                  width="18"
+                  height="158"
+                  fill="#f4f1ea"
+                  stroke="#c9bfae"
+                />
+                <path d={`M${x + 70} 94l11 -18l11 18Z`} fill="#3f9e7c" />
+                <path
+                  d={`M${x + 86} 62a9 9 0 1 1 -2 -14a7 7 0 1 0 2 14Z`}
+                  fill="#d9a520"
+                />
+                <path
+                  d={`M${x - 14} 250v-40a14 14 0 0 1 28 0v40Z`}
+                  fill="#7a4a2b"
+                />
+              </g>
+            )}
+            {kind === 'shrine' && (
+              <g>
+                <ellipse cx={x} cy="250" rx="60" ry="6" fill="#00000022" />
+                <rect
+                  x={x - 46}
+                  y="182"
+                  width="92"
+                  height="68"
+                  rx="8"
+                  fill="#b9794a"
+                />
+                <path
+                  d={`M${x - 64} 186L${x} 120L${x + 64} 186Z`}
+                  fill="#c9a352"
+                  stroke="#9c7a33"
+                />
+                <path
+                  d={`M${x - 12} 250v-36a12 12 0 0 1 24 0v36Z`}
+                  fill="#5b3a22"
+                />
+                <path d={`M${x + 48} 250a16 14 0 1 1 30 0Z`} fill="#8a4f2a" />
+              </g>
+            )}
+            <text
+              x={x}
+              y="292"
+              textAnchor="middle"
+              fontSize="24"
+              fontWeight="800"
+              fill={INK}
+            >
+              {name}
+            </text>
+          </g>
+        )
+      })}
+      <Caption
+        text={art.label ?? 'Christian, Muslim and traditional worship'}
+        y={338}
+      />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -4964,6 +5168,10 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Net id={id} art={art} />
     case 'ratio':
       return <Ratio id={id} art={art} />
+    case 'nature':
+      return <Nature id={id} art={art} />
+    case 'worship':
+      return <Worship id={id} art={art} />
   }
 }
 
