@@ -14,6 +14,7 @@ const COURSES: Record<string, () => Promise<{ guides: CourseGuides }>> = {
   'b4/history': () => import('./b4-history'),
   'b5/history': () => import('./b5-history'),
   'b6/history': () => import('./b6-history'),
+  'b1/pe': () => import('./b1-pe'),
   'b2/pe': () => import('./b2-pe'),
   'b3/pe': () => import('./b3-pe'),
   'b4/pe': () => import('./b4-pe'),
