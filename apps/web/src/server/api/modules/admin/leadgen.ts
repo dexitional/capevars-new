@@ -16,6 +16,7 @@ import { logActivity } from "../../lib/activity.js";
 import { randomCode } from "../../lib/codes.js";
 import { notify } from "../../lib/notify.js";
 import { uniqueSlug } from "../../lib/slug.js";
+import { uniqueTags } from "#/lib/leadgen-campaigns";
 import {
   CATEGORIES,
   addCredits,
@@ -42,6 +43,9 @@ const expiresOn = z
   .transform((v) => v || null)
   .refine((v) => !v || v >= new Date().toISOString().slice(0, 10), "Pick an expiry date from today onwards");
 const endOfDay = (date: string | null) => (date ? `${date} 23:59:59` : null);
+// Tags on Capevars' private lists; a campaign target's id here unlocks the
+// list for students who choose that campaign (see /leadgen/onboarding).
+const tagsSchema = z.array(z.string().trim().min(1).max(40)).max(15).transform(uniqueTags);
 
 function assertSender(channel: string, sender: string, replyTo?: string | null) {
   if (channel === "sms" && !/^[A-Za-z0-9][A-Za-z0-9 ]{1,9}[A-Za-z0-9]$/.test(sender)) {
@@ -307,7 +311,7 @@ export const adminLeadgenRoute = new Hono()
   // ---- Capevars' private lead lists -----------------------------------------------------------
   .get("/lists", requirePermission("leadgen", "view"), async (c) => {
     const [items] = await getPool().query<RowDataPacket[]>(
-      `SELECT l.id, l.title, l.slug, l.category, l.status, l.contact_count, l.phone_count, l.email_count, l.allow_download, l.created_at,
+      `SELECT l.id, l.title, l.slug, l.category, l.status, l.tags, l.contact_count, l.phone_count, l.email_count, l.allow_download, l.created_at,
          (SELECT COUNT(*) FROM lead_access a WHERE a.list_id = l.id AND a.status = 'active' AND (a.expires_at IS NULL OR a.expires_at > NOW())) AS live_shares,
          (SELECT COUNT(*) FROM lead_access a WHERE a.list_id = l.id AND a.status = 'active' AND a.expires_at <= NOW()) AS expired_shares
        FROM lead_lists l WHERE l.user_id IS NULL ORDER BY l.id DESC`,
@@ -324,6 +328,7 @@ export const adminLeadgenRoute = new Hono()
         category: z.enum(CATEGORIES),
         description: optionalText(5000),
         allowDownload: z.boolean().default(false),
+        tags: tagsSchema.default([]),
         contacts: contactsSchema.min(1, "Upload at least one contact"),
       }),
     ),
@@ -332,8 +337,8 @@ export const adminLeadgenRoute = new Hono()
       const slug = await uniqueSlug("lead_lists", input.title, null);
       const shareCode = await uniqueVoucher("lead_lists", "share_code", "LS");
       const [res] = await getPool().execute<ResultSetHeader>(
-        "INSERT INTO lead_lists (user_id, title, slug, category, description, allow_download, share_code, status) VALUES (NULL, ?, ?, ?, ?, ?, ?, 'private')",
-        [input.title, slug, input.category, input.description ?? null, input.allowDownload ? 1 : 0, shareCode],
+        "INSERT INTO lead_lists (user_id, title, slug, category, description, tags, allow_download, share_code, status) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, 'private')",
+        [input.title, slug, input.category, input.description ?? null, JSON.stringify(input.tags), input.allowDownload ? 1 : 0, shareCode],
       );
       const result = await insertContacts(res.insertId, input.contacts);
       logActivity(c.get("admin").id, "created", "lead_lists", res.insertId, `Created private lead list "${input.title}" (${result.added} contacts)`);
@@ -353,14 +358,15 @@ export const adminLeadgenRoute = new Hono()
   .patch(
     "/lists/:id",
     requirePermission("leadgen", "manage"),
-    validate("json", z.object({ title: z.string().trim().min(3).max(200).optional(), description: optionalText(5000), allowDownload: z.boolean().optional() })),
+    validate("json", z.object({ title: z.string().trim().min(3).max(200).optional(), description: optionalText(5000), allowDownload: z.boolean().optional(), tags: tagsSchema.optional() })),
     async (c) => {
       const list = await adminList(Number(c.req.param("id")));
       const input = c.req.valid("json");
-      await getPool().execute("UPDATE lead_lists SET title = ?, description = ?, allow_download = ? WHERE id = ?", [
+      await getPool().execute("UPDATE lead_lists SET title = ?, description = ?, allow_download = ?, tags = ? WHERE id = ?", [
         input.title ?? list.title,
         input.description === undefined ? list.description : input.description,
         input.allowDownload === undefined ? list.allow_download : input.allowDownload ? 1 : 0,
+        input.tags === undefined ? JSON.stringify(list.tags ?? []) : JSON.stringify(input.tags),
         list.id,
       ]);
       return c.json({ ok: true });

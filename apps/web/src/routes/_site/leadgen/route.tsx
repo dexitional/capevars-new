@@ -1,6 +1,7 @@
 import { Link, Outlet, createFileRoute } from "@tanstack/react-router";
 import { Send } from "lucide-react";
 import { SystemNav } from "#/components/site/site-header";
+import { LeadgenOnboarding } from "#/components/leadgen/onboarding";
 
 export const Route = createFileRoute("/_site/leadgen")({ component: LeadGenLayout });
 
@@ -16,6 +17,7 @@ function LeadGenLayout() {
         }
       />
       <Outlet />
+      <LeadgenOnboarding />
     </>
   );
 }

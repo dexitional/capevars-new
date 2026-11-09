@@ -18,6 +18,7 @@ import { notify } from "../../lib/notify.js";
 import { createPayment, paystackEnabled } from "../../lib/payments.js";
 import { messagingStatus, normalizeEmail, normalizePhone } from "../../lib/messaging.js";
 import { MAX_CREDIT_PURCHASE, MIN_CREDIT_PURCHASE, creditPrice, creditsFor } from "#/lib/credits";
+import { LEADGEN_CAMPAIGNS, LEADGEN_CAMPAIGN_IDS } from "#/lib/leadgen-campaigns";
 import {
   ACCESS_STATUS,
   CATEGORIES,
@@ -293,6 +294,51 @@ export const leadgenRoute = new Hono()
        <p style="color:#5a6478">${ok ? `${email} won't receive LeadGen broadcasts from Capevars members again.` : "This unsubscribe link is incomplete or has expired."}</p></div>`,
       ok ? 200 : 400,
     );
+  })
+  // ---- Student onboarding ---------------------------------------------------------------
+  // Students pick a campaign target once; it unlocks, free, Capevars' private
+  // lists tagged with it. Individual and business accounts don't onboard.
+  .get("/onboarding", requireMember, async (c) => {
+    const member = c.get("member");
+    if (member.memberType !== "student") return c.json({ show: false, campaign: null, campaigns: [] });
+    const pool = getPool();
+    const [[user], [lists]] = await Promise.all([
+      pool.execute<RowDataPacket[]>("SELECT leadgen_campaign, leadgen_onboarded_at FROM users WHERE id = ?", [member.id]),
+      pool.query<RowDataPacket[]>("SELECT tags, contact_count FROM lead_lists WHERE user_id IS NULL AND status = 'private' AND JSON_LENGTH(tags) > 0"),
+    ]);
+    const campaigns = LEADGEN_CAMPAIGNS.map((camp) => {
+      const tagged = lists.filter((l) => Array.isArray(l.tags) && l.tags.includes(camp.id));
+      return { ...camp, lists: tagged.length, contacts: tagged.reduce((n, l) => n + Number(l.contact_count), 0) };
+    });
+    // Shown once, and only when some campaign has leads to unlock.
+    const show = !user[0]?.leadgen_onboarded_at && campaigns.some((camp) => camp.lists > 0);
+    return c.json({ show, campaign: user[0]?.leadgen_campaign ?? null, campaigns });
+  })
+  .post("/onboarding", requireMember, validate("json", z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS) })), async (c) => {
+    const member = c.get("member");
+    if (member.memberType !== "student") throw new AppError("Campaign onboarding is for student accounts.", 403);
+    const { campaign } = c.req.valid("json");
+    const pool = getPool();
+    // Claims the onboarding first, so two clicks can't unlock twice.
+    const [claimed] = await pool.execute<ResultSetHeader>(
+      "UPDATE users SET leadgen_campaign = ?, leadgen_onboarded_at = NOW() WHERE id = ? AND leadgen_onboarded_at IS NULL",
+      [campaign, member.id],
+    );
+    if (!claimed.affectedRows) throw new AppError("You've already chosen your campaign.", 409);
+    const [lists] = await pool.execute<RowDataPacket[]>(
+      "SELECT id, title, contact_count FROM lead_lists WHERE user_id IS NULL AND status = 'private' AND JSON_CONTAINS(tags, JSON_QUOTE(?)) ORDER BY title",
+      [campaign],
+    );
+    const unlocked: Array<{ title: string; contacts: number; voucher: string }> = [];
+    for (const list of lists) {
+      try {
+        const access = await grantAccess(list.id, member.id, "admin");
+        unlocked.push({ title: list.title, contacts: Number(list.contact_count), voucher: access.voucher_code });
+      } catch {
+        // Access an admin revoked stays revoked.
+      }
+    }
+    return c.json({ campaign, unlocked });
   })
   // ---- Portal ---------------------------------------------------------------------------
   .get("/portal/summary", requireMember, async (c) => {

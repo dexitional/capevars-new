@@ -15,6 +15,8 @@ import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { networkLabel } from "#/components/leadgen/momo-checkout";
 import { StatusBadge } from "#/components/site/kit";
 import { SheetImport } from "#/components/leadgen/sheet-import";
+import { TagInput } from "#/components/site/tag-input";
+import { LEADGEN_CAMPAIGN_IDS, normalizeTag } from "#/lib/leadgen-campaigns";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Button } from "#/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "#/components/ui/dialog";
@@ -186,6 +188,21 @@ export function CreateSender({ onCreated }: { onCreated: () => void }) {
 
 // ---- Private lead lists ---------------------------------------------------------------------------
 
+const CAMPAIGN_HINT = "A campaign tag (such as ucc-src) unlocks this list free for students who choose that campaign when they first open LeadGen.";
+
+function ListTags({ tags }: { tags: unknown }) {
+  if (!Array.isArray(tags) || !tags.length) return null;
+  return (
+    <div className="mt-1 flex flex-wrap gap-1">
+      {tags.map((t: string) => (
+        <span key={t} className={`rounded-full px-2 py-0.5 text-[11px] font-medium ${(LEADGEN_CAMPAIGN_IDS as Array<string>).includes(t) ? "bg-sys-leadgen/15 text-sys-leadgen" : "bg-muted text-muted-foreground"}`}>
+          #{t}
+        </span>
+      ))}
+    </div>
+  );
+}
+
 export function PrivateLists() {
   const [openId, setOpenId] = useState<number | null>(null);
   const [creating, setCreating] = useState(false);
@@ -215,6 +232,7 @@ export function PrivateLists() {
               <tr key={l.id} className="cursor-pointer hover:bg-muted/30" onClick={() => setOpenId(l.id)}>
                 <td className="px-4 py-3">
                   <TitleCell title={l.title} sub={`${LEAD_CATEGORIES[l.category]} · ${l.allow_download ? "download allowed" : "broadcast-only"}`} />
+                  <ListTags tags={l.tags} />
                 </td>
                 <td className="px-4 py-3 text-xs">
                   {Number(l.contact_count).toLocaleString()} ({l.phone_count} phones · {l.email_count} emails)
@@ -238,7 +256,7 @@ export function PrivateLists() {
 function NewPrivateList({ onDone }: { onDone: (id?: number) => void }) {
   const queryClient = useQueryClient();
   const [contacts, setContacts] = useState<{ name: string; items: Array<SheetContact> } | null>(null);
-  const [f, setF] = useState({ title: "", category: "other", description: "", allowDownload: false });
+  const [f, setF] = useState({ title: "", category: "other", description: "", allowDownload: false, tags: [] as Array<string> });
   const save = useMutation({
     mutationFn: () => api.post<{ id: number; added: number; invalid: number; duplicates: number }>("/admin/leadgen/lists", { ...f, contacts: contacts?.items ?? [] }),
     onSuccess: (r) => {
@@ -286,6 +304,9 @@ function NewPrivateList({ onDone }: { onDone: (id?: number) => void }) {
               <Textarea rows={3} value={f.description} onChange={(e) => setF({ ...f, description: e.target.value })} />
             </Field>
             <Switch checked={f.allowDownload} onChange={(allowDownload) => setF({ ...f, allowDownload })} label="Allow CSV download" description="Off: members can broadcast to the list but never see the full contacts." />
+            <Field label="Tags (optional)" hint={CAMPAIGN_HINT}>
+              <TagInput value={f.tags} onChange={(tags) => setF({ ...f, tags })} max={15} normalize={normalizeTag} suggestions={[...LEADGEN_CAMPAIGN_IDS]} />
+            </Field>
           </div>
         </Panel>
       </div>
@@ -364,6 +385,9 @@ function PrivateListDetail({ id, onBack }: { id: number; onBack: () => void }) {
           <Panel title={l.title} description={`${LEAD_CATEGORIES[l.category]} · ${Number(l.contact_count).toLocaleString()} contacts (${l.phone_count} phones · ${l.email_count} emails)`}>
             <div className="space-y-4">
               <Switch checked={Boolean(l.allow_download)} onChange={(allowDownload) => update.mutate({ allowDownload })} label="Allow CSV download" />
+              <Field label="Tags" hint={CAMPAIGN_HINT}>
+                <TagInput value={Array.isArray(l.tags) ? l.tags : []} onChange={(tags) => update.mutate({ tags })} max={15} normalize={normalizeTag} suggestions={[...LEADGEN_CAMPAIGN_IDS]} />
+              </Field>
               <div>
                 <p className="mb-2 text-xs font-semibold text-muted-foreground">Add more contacts</p>
                 <SheetImport compact onContacts={(items) => addContacts.mutate(items)} />
