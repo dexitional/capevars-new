@@ -34,6 +34,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 6 Religious and Moral Education | 13 of 13 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 4 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 | Basic 5 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
+| Basic 6 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 
 The other courses still use their imported notes.
 
@@ -118,7 +119,8 @@ Checked against the French curriculum:
 - **Scope:** the curriculum covers Basic 4 to 6 only. The Basic 1 to 3 French lessons repeat the same 20 topics at each level, without curriculum codes.
 - **Basic 4 gaps:** the published curriculum has no Basic 4 pages for describing the family, so the imported codes B4.1.3.4.3 (a postcard describing a friend) and B4.1.5.3.2 (a text about a family) cannot be checked; the guides keep them. Where the curriculum describes people by "une grosse tête" or "le nez plat", the guide describes height, hair and eyes. Personal details in examples are made up, and lessons that ask for them say to keep real ones private.
 - **Basic 5:** the curriculum's example of a public figure's family is the President's; the guide uses a made-up athlete, so it does not go out of date. Lessons on text messages and pen friends say to keep real addresses private and to message only people the family knows.
-- **Titles:** the imported Basic 4 to 6 French titles are cut from the curriculum's exemplar text, often mid-phrase. Basic 4's and 5's are replaced with short English titles, like Basic 1 to 3's, through the source corrections.
+- **Basic 6:** the curriculum's inventory example gives "4 cahiers x 5 cahiers = 20 cahiers"; the guide says four packs of five exercise books make twenty. National dates are given by date only, not by whether they are public holidays, which can change.
+- **Titles:** the imported Basic 4 to 6 French titles are cut from the curriculum's exemplar text, often mid-phrase. Basic 4, 5 and 6's are replaced with short English titles, like Basic 1 to 3's, through the source corrections.
 
 Scope for other subjects and levels has not yet been checked.
 

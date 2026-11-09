@@ -269,7 +269,7 @@ export const guides: CourseGuides = {
       { term: 'Je te présente', meaning: 'Let me introduce, to a friend.' },
       {
         term: 'le correspondant',
-        meaning: 'Pen friend. A girl pen friend is la correspondante.',
+        meaning: 'Pen friend. A girl pen friend is «la correspondante».',
       },
       { term: 'trente', meaning: 'Thirty.' },
       { term: 'quarante', meaning: 'Forty.' },
