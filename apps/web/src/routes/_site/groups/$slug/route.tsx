@@ -107,7 +107,7 @@ function GroupLayout() {
                   <Users /> {g.join_policy === "approval" ? "Request to join" : "Join group"}
                 </Button>
               )}
-              {g.status === "approved" && <GroupQrButton group={{ name: g.name, slug }} />}
+              {g.status === "approved" && <GroupQrButton group={{ name: g.name, slug, logo: g.logo_url ?? null }} />}
               {data.canManage && (
                 <Button asChild size="icon" variant="outline">
                   <a href={`/groups/${slug}/manage`} aria-label="Manage group">

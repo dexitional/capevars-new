@@ -99,6 +99,7 @@ import { Route as SiteGroupsSlugDonateRouteImport } from './routes/_site/groups/
 import { Route as SiteGroupsSlugManageRouteImport } from './routes/_site/groups/$slug/manage'
 import { Route as SiteGroupsSlugMeetingsRouteImport } from './routes/_site/groups/$slug/meetings'
 import { Route as SiteGroupsSlugMembersRouteImport } from './routes/_site/groups/$slug/members'
+import { Route as SiteGroupsSlugQrRouteImport } from './routes/_site/groups/$slug_.qr'
 import { Route as SiteKidilearnLevelSubjectRouteImport } from './routes/_site/kidilearn/$level.$subject'
 import { Route as SiteLeadgenLSlugRouteImport } from './routes/_site/leadgen/l/$slug'
 import { Route as SiteLeadgenPortalIndexRouteImport } from './routes/_site/leadgen/portal/index'
@@ -610,6 +611,11 @@ const SiteGroupsSlugMembersRoute = SiteGroupsSlugMembersRouteImport.update({
   path: '/members',
   getParentRoute: () => SiteGroupsSlugRouteRoute,
 } as any)
+const SiteGroupsSlugQrRoute = SiteGroupsSlugQrRouteImport.update({
+  id: '/$slug_/qr',
+  path: '/$slug/qr',
+  getParentRoute: () => SiteGroupsRouteRoute,
+} as any)
 const SiteKidilearnLevelSubjectRoute =
   SiteKidilearnLevelSubjectRouteImport.update({
     id: '/kidilearn/$level/$subject',
@@ -1030,6 +1036,7 @@ export interface FileRoutesByFullPath {
   '/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/groups/$slug/qr': typeof SiteGroupsSlugQrRoute
   '/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
@@ -1169,6 +1176,7 @@ export interface FileRoutesByTo {
   '/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/groups/$slug/qr': typeof SiteGroupsSlugQrRoute
   '/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
@@ -1323,6 +1331,7 @@ export interface FileRoutesById {
   '/_site/groups/$slug/manage': typeof SiteGroupsSlugManageRoute
   '/_site/groups/$slug/meetings': typeof SiteGroupsSlugMeetingsRoute
   '/_site/groups/$slug/members': typeof SiteGroupsSlugMembersRoute
+  '/_site/groups/$slug_/qr': typeof SiteGroupsSlugQrRoute
   '/_site/kidilearn/$level/$subject': typeof SiteKidilearnLevelSubjectRoute
   '/_site/leadgen/l/$slug': typeof SiteLeadgenLSlugRoute
   '/_site/leadgen/portal/broadcast': typeof SiteLeadgenPortalBroadcastRoute
@@ -1477,6 +1486,7 @@ export interface FileRouteTypes {
     | '/groups/$slug/manage'
     | '/groups/$slug/meetings'
     | '/groups/$slug/members'
+    | '/groups/$slug/qr'
     | '/kidilearn/$level/$subject'
     | '/leadgen/l/$slug'
     | '/leadgen/portal/broadcast'
@@ -1616,6 +1626,7 @@ export interface FileRouteTypes {
     | '/groups/$slug/manage'
     | '/groups/$slug/meetings'
     | '/groups/$slug/members'
+    | '/groups/$slug/qr'
     | '/kidilearn/$level/$subject'
     | '/leadgen/l/$slug'
     | '/leadgen/portal/broadcast'
@@ -1769,6 +1780,7 @@ export interface FileRouteTypes {
     | '/_site/groups/$slug/manage'
     | '/_site/groups/$slug/meetings'
     | '/_site/groups/$slug/members'
+    | '/_site/groups/$slug_/qr'
     | '/_site/kidilearn/$level/$subject'
     | '/_site/leadgen/l/$slug'
     | '/_site/leadgen/portal/broadcast'
@@ -2472,6 +2484,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SiteGroupsSlugMembersRouteImport
       parentRoute: typeof SiteGroupsSlugRouteRoute
     }
+    '/_site/groups/$slug_/qr': {
+      id: '/_site/groups/$slug_/qr'
+      path: '/$slug/qr'
+      fullPath: '/groups/$slug/qr'
+      preLoaderRoute: typeof SiteGroupsSlugQrRouteImport
+      parentRoute: typeof SiteGroupsRouteRoute
+    }
     '/_site/kidilearn/$level/$subject': {
       id: '/_site/kidilearn/$level/$subject'
       path: '/kidilearn/$level/$subject'
@@ -2979,6 +2998,7 @@ interface SiteGroupsRouteRouteChildren {
   SiteGroupsMineRoute: typeof SiteGroupsMineRoute
   SiteGroupsNewRoute: typeof SiteGroupsNewRoute
   SiteGroupsIndexRoute: typeof SiteGroupsIndexRoute
+  SiteGroupsSlugQrRoute: typeof SiteGroupsSlugQrRoute
 }
 
 const SiteGroupsRouteRouteChildren: SiteGroupsRouteRouteChildren = {
@@ -2986,6 +3006,7 @@ const SiteGroupsRouteRouteChildren: SiteGroupsRouteRouteChildren = {
   SiteGroupsMineRoute: SiteGroupsMineRoute,
   SiteGroupsNewRoute: SiteGroupsNewRoute,
   SiteGroupsIndexRoute: SiteGroupsIndexRoute,
+  SiteGroupsSlugQrRoute: SiteGroupsSlugQrRoute,
 }
 
 const SiteGroupsRouteRouteWithChildren = SiteGroupsRouteRoute._addFileChildren(
