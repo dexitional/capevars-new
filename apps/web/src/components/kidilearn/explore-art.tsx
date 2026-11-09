@@ -1496,7 +1496,7 @@ function Calendar({
   id,
   art,
 }: P & { art: Extract<Art, { kind: 'calendar' }> }) {
-  const heads = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+  const heads = art.heads ?? ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
   return (
     <>
       <Paper id={id} />
@@ -2773,7 +2773,7 @@ function Scroll({ id, art }: P & { art: Extract<Art, { kind: 'scroll' }> }) {
       )}
       {art.lines.slice(0, 5).map((line, i) => (
         <text key={i} x="140" y={150 + i * 32} fontSize="17" fill="#4a3216">
-          {i + 1}. {line}
+          {art.plain ? line : `${i + 1}. ${line}`}
         </text>
       ))}
       <circle cx="470" cy="286" r="22" fill="#a8322a" />
@@ -5029,6 +5029,173 @@ function Worship({ id, art }: P & { art: Extract<Art, { kind: 'worship' }> }) {
   )
 }
 
+// Two people talking. Each speaks in a bubble on their own side, edged in
+// the colour they wear, so a reader can follow who says what.
+const BUBBLE_H = 38
+function Dialogue({
+  id,
+  art,
+}: P & { art: Extract<Art, { kind: 'dialogue' }> }) {
+  const lines = art.lines.slice(0, 4)
+  const top = 192 - lines.length * (BUBBLE_H + 8)
+  return (
+    <>
+      <Ground id={id} kind={art.setting ?? 'compound'} />
+      {([0, 1] as const).map((who) => (
+        <g
+          key={who}
+          transform={`translate(${who ? 560 : 80} 338) scale(0.62) translate(0 ${-GROUND_Y})`}
+        >
+          <Person
+            id={id}
+            figure={{
+              pose: 'stand',
+              x: 0,
+              kit: who ? 2 : 1,
+              facing: who ? -1 : 1,
+            }}
+          />
+        </g>
+      ))}
+      {lines.map((line, i) => {
+        const width = Math.min(560, line.text.length * 10.4 + 36)
+        const x = line.who ? 620 - width : 20
+        const y = top + i * (BUBBLE_H + 8)
+        const edge = KITS[line.who ? 2 : 1]![0]
+        const tail = line.who ? x + width - 30 : x + 30
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            <path
+              d={`M${tail - 7} ${y + BUBBLE_H - 2}l7 9 7-9Z`}
+              fill="#fff"
+              stroke={edge}
+              strokeWidth="2"
+            />
+            <rect
+              x={x}
+              y={y}
+              width={width}
+              height={BUBBLE_H}
+              rx="16"
+              fill="#fff"
+              stroke={edge}
+              strokeWidth="2.5"
+            />
+            <text
+              x={x + width / 2}
+              y={y + 26}
+              textAnchor="middle"
+              fontSize="19"
+              fontWeight="600"
+              fill="#1f2a44"
+            >
+              {line.text}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={346} />
+    </>
+  )
+}
+
+// A street of buildings, each with its name on a sign.
+const TOWN_COLOURS = ['#f2c48d', '#9fd3c7', '#f4a7a3', '#c3b4e8', '#f7e08a']
+function Town({ id, art }: P & { art: Extract<Art, { kind: 'town' }> }) {
+  const places = art.places.slice(0, 5)
+  const slot = 600 / places.length
+  return (
+    <>
+      <linearGradient id={`${id}townsky`} x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stopColor="#bfe3f5" />
+        <stop offset="1" stopColor="#f3f9fc" />
+      </linearGradient>
+      <rect width="640" height="360" fill={`url(#${id}townsky)`} />
+      <rect y="262" width="640" height="14" fill="#c9c2b6" />
+      <rect y="276" width="640" height="84" fill="#5d6470" />
+      {[40, 160, 280, 400, 520].map((x) => (
+        <rect
+          key={x}
+          x={x}
+          y="314"
+          width="70"
+          height="6"
+          rx="3"
+          fill="#f4f1e8"
+        />
+      ))}
+      {places.map((name, i) => {
+        const w = Math.min(150, slot - 22)
+        const h = 120 + (i % 2) * 28
+        const x = 20 + i * slot + (slot - w) / 2
+        const y = 262 - h
+        const lit = art.focus === i
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            <rect
+              x={x}
+              y={y}
+              width={w}
+              height={h}
+              rx="4"
+              fill={TOWN_COLOURS[i % TOWN_COLOURS.length]}
+              stroke={lit ? '#d9412f' : '#7a6a58'}
+              strokeWidth={lit ? 5 : 2}
+            />
+            <path
+              d={`M${x - 6} ${y}l${w / 2 + 6} -30 ${w / 2 + 6} 30Z`}
+              fill="#8f4a2f"
+            />
+            <rect
+              x={x + w / 2 - 14}
+              y={262 - 44}
+              width="28"
+              height="44"
+              rx="3"
+              fill="#6b4226"
+            />
+            <rect
+              x={x + 12}
+              y={y + 46}
+              width="22"
+              height="22"
+              rx="2"
+              fill="#e8f4fb"
+            />
+            <rect
+              x={x + w - 34}
+              y={y + 46}
+              width="22"
+              height="22"
+              rx="2"
+              fill="#e8f4fb"
+            />
+            <rect
+              x={x + 6}
+              y={y + 10}
+              width={w - 12}
+              height="26"
+              rx="5"
+              fill="#fff"
+            />
+            <text
+              x={x + w / 2}
+              y={y + 29}
+              textAnchor="middle"
+              fontSize={name.length > 11 ? 13 : 16}
+              fontWeight="700"
+              fill="#1f2a44"
+            >
+              {name}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={346} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -5172,6 +5339,10 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Nature id={id} art={art} />
     case 'worship':
       return <Worship id={id} art={art} />
+    case 'dialogue':
+      return <Dialogue id={id} art={art} />
+    case 'town':
+      return <Town id={id} art={art} />
   }
 }
 

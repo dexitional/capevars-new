@@ -63,6 +63,8 @@ export type Art =
       days: number
       startsOn: number
       focus?: number
+      // Day names from Sunday, for a calendar in the language taught.
+      heads?: Array<string>
     }
   | {
       kind: 'clock'
@@ -99,7 +101,14 @@ export type Art =
       coast?: boolean
       label?: string
     }
-  | { kind: 'scroll'; title: string; lines: Array<string>; date?: string }
+  | {
+      kind: 'scroll'
+      title: string
+      lines: Array<string>
+      date?: string
+      // Lines without numbers, for a letter, a list or a poem.
+      plain?: boolean
+    }
   | { kind: 'family'; rows: Array<Array<string>> }
   | { kind: 'flag'; label?: string }
   | { kind: 'belts'; belts: Array<{ name: string; places: Array<string> }> }
@@ -163,6 +172,15 @@ export type Art =
   | { kind: 'nature'; label?: string }
   // A church, a mosque and a traditional shrine; focus lights one of them.
   | { kind: 'worship'; focus?: 'church' | 'mosque' | 'shrine'; label?: string }
+  // Two people talking, each line in a speech bubble near its speaker.
+  | {
+      kind: 'dialogue'
+      lines: Array<{ who: 0 | 1; text: string }>
+      setting?: 'compound' | 'floor' | 'grass'
+      label?: string
+    }
+  // A street of labelled buildings, for saying where places are.
+  | { kind: 'town'; places: Array<string>; focus?: number; label?: string }
   // Rows of counters, one row for each part of a ratio.
   | { kind: 'ratio'; parts: Array<[string, number]>; label?: string }
   | {
@@ -280,6 +298,17 @@ export interface ExploreGuide {
   tryIt: { need: string; steps: Array<string> }
   // Shown before the task. Physical lessons must have it.
   safety?: Array<string>
+  // Language lessons, whose Play banks ask about the lesson rather than the
+  // language. A question and its explanation are read in English, so only the
+  // options carry the language taught.
+  quiz?: Array<{
+    prompt: string
+    options: Array<string>
+    answer: number
+    why?: string
+  }>
+  // A phrase for the learner to say aloud at the end.
+  sayIt?: { phrase: string; meaning: string }
 }
 
 export type CourseGuides = Record<string, ExploreGuide>

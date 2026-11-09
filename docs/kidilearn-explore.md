@@ -32,6 +32,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 4 Religious and Moral Education | 12 of 12 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 5 Religious and Moral Education | 15 of 15 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 6 Religious and Moral Education | 13 of 13 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
+| Basic 4 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 
 The other courses still use their imported notes.
 
@@ -109,6 +110,13 @@ Checked against the Religious and Moral Education curriculum:
 - **Basic 5 care points:** the curriculum suggests grouping pupils by colour and mass to show how people differ; the guide uses talents and fingerprints and never compares children's bodies. The lesson on skin bleaching says to be proud of one's natural colour, and the lesson on parental discipline says it should teach, not hurt, and that a child who is harmed should tell a trusted adult.
 - **Basic 6:** the curriculum lists a festival called "Tedudu", which we could not confirm, so the data lesson names festivals we could. Okomfo Anokye's later life (the sword in Kumasi, his going away) is told as tradition.
 - **Damba:** the curriculum lists it as a traditional festival; it marks the birth of the Prophet Muhammad with Dagomba traditions, and the guide says so.
+
+Checked against the French curriculum:
+
+- **Two voices:** guides explain in English and put French inside «…». The theatre reads French with the French voice and English with the English voice, so neither reads the other's words; a test checks that no French word is left outside the quotation marks. Words are shown on a phrase card, said in French and then explained in English. A guide's own questions (`quiz`) replace the Play bank, which asks about the lesson rather than the language, and every lesson ends with a phrase to say aloud (`sayIt`).
+- **Scope:** the curriculum covers Basic 4 to 6 only. The Basic 1 to 3 French lessons repeat the same 20 topics at each level, without curriculum codes.
+- **Basic 4 gaps:** the published curriculum has no Basic 4 pages for describing the family, so the imported codes B4.1.3.4.3 (a postcard describing a friend) and B4.1.5.3.2 (a text about a family) cannot be checked; the guides keep them. Where the curriculum describes people by "une grosse tête" or "le nez plat", the guide describes height, hair and eyes. Personal details in examples are made up, and lessons that ask for them say to keep real ones private.
+- **Titles:** the imported Basic 4 to 6 French titles are cut from the curriculum's exemplar text, often mid-phrase. Basic 4's are replaced with short English titles, like Basic 1 to 3's, through the source corrections.
 
 Scope for other subjects and levels has not yet been checked.
 

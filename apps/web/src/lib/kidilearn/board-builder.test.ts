@@ -3,6 +3,7 @@ import test from 'node:test'
 import { buildBoard } from './board-builder'
 import type { LearningLesson, LearningQuestion } from './library'
 import type { Storyboard } from './storyboard'
+import type { ExploreGuide } from './explore/types'
 
 const question = (
   id: number,
@@ -251,4 +252,62 @@ test('reads a list of French words as a group, and a French goal not at all', ()
   assert.ok(spoken(board).includes('Family words include these words.'))
   assert.deepEqual(french(board), ['mère', 'père', 'sœur'])
   assert.ok(!spoken(board).join(' ').includes(goal))
+})
+
+test('a French guide has French read in French, and English in English', () => {
+  const guide: ExploreGuide = {
+    indicator: { code: 'B4.1.1.1.1', text: 'Greet people.' },
+    hook: 'How do you greet a friend in French? Say «Bonjour ! Ça va ?» with a smile.',
+    explain: ['In the evening, say «Bonsoir».'],
+    art: { kind: 'dialogue', lines: [{ who: 0, text: 'Bonjour !' }] },
+    artCaption: 'Two friends greet each other.',
+    words: [{ term: 'Bonjour', meaning: 'Hello, or good morning.' }],
+    examples: [
+      {
+        title: 'Leaving',
+        situation: 'You are going home. What do you say?',
+        steps: ['Wave and say «Au revoir».'],
+        answer: '«Au revoir».',
+      },
+    ],
+    mistakes: [{ wrong: 'x', right: 'Use «Bonsoir» only in the evening.' }],
+    realLife: [],
+    tryIt: { need: 'A partner', steps: ['Greet your partner with «Salut».'] },
+    quiz: [
+      {
+        prompt: 'Which greeting is for the evening?',
+        options: ['Bonsoir', 'Bonjour'],
+        answer: 0,
+        why: 'That is the evening greeting.',
+      },
+    ],
+    sayIt: { phrase: 'Bonjour, ça va ?', meaning: 'Hello, how are you?' },
+  }
+  const board = buildBoard(
+    lesson({}, [question(1, 'Bonjour: What is this lesson mainly about?')]),
+    'b4',
+    'french',
+    guide,
+  )!
+  // The exclamation inside the quotation does not split the hook.
+  assert.deepEqual(french(board), [
+    'Bonjour ! Ça va ?',
+    'Bonsoir',
+    'Bonjour',
+    'Au revoir',
+    'Au revoir',
+    'Bonsoir',
+    'Salut',
+  ])
+  for (const line of spoken(board)) {
+    assert.doesNotMatch(line, /«|»|Bonjour|Bonsoir|Salut|revoir/, line)
+  }
+  assert.ok(spoken(board).includes('Hello, or good morning.'))
+  const checks = board.scenes.flatMap((s) => (s.check ? [s.check] : []))
+  assert.deepEqual(
+    checks.map((c) => c.type),
+    ['choice', 'say'],
+  )
+  assert.equal(checks[0]!.type === 'choice' && checks[0]!.answer, 0)
+  assert.equal(board.scenes.at(-1)!.chapter, 'Try it yourself')
 })

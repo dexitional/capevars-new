@@ -66,6 +66,43 @@ function pieces(sentence: string) {
   return out
 }
 
+// Sentences of a written French guide, where French sits inside «…»: a
+// question or exclamation inside the quotation does not end the sentence.
+function quotedSentences(text: string) {
+  const out: Array<string> = []
+  let current = ''
+  for (const part of clean(text).split(/(«[^»]*»)/)) {
+    if (part.startsWith('«')) {
+      current += part
+      continue
+    }
+    part.split(/(?<=[.!?])\s+/).forEach((bit, i) => {
+      if (i > 0 && current.trim()) {
+        out.push(current.trim())
+        current = ''
+      }
+      current += bit
+    })
+  }
+  if (current.trim()) out.push(current.trim())
+  return out
+}
+
+// A guide sentence read by two voices: the French in «…» by the French
+// voice, and the English around it by the English voice.
+function twoVoices(sentence: string, show: number): Array<Beat> {
+  return clean(sentence)
+    .split(/(«[^»]*»)/)
+    .flatMap((part): Array<Beat> => {
+      const quoted = /^«\s*([^»]*?)\s*»$/.exec(part)
+      if (quoted) return quoted[1] ? [{ say: quoted[1], show, lang: 'fr' }] : []
+      const english = part.replace(/^[\s,.;:!?)]+/, '').trim()
+      return /[\p{L}\p{N}]/u.test(english)
+        ? pieces(english).map((say) => ({ say, show }))
+        : []
+    })
+}
+
 const NOT_ENGLISH = /[^ -~’‘“”—–…]/
 const READ_IT = 'Read the words on the screen.'
 
@@ -525,11 +562,19 @@ export function buildBoard(
   // A written guide already explains the lesson well, so the theatre follows it.
   function guideBoard(): Storyboard {
     const written = guide!
+    // French guides mark their French with «…», for the French voice to read.
+    const quoting = subject === 'french'
+    const voiced = (text: string, show = 0): Array<Beat> =>
+      quoting ? twoVoices(text, show) : [{ say: text, show }]
     const beatsOf = (text: string): Array<Beat> =>
-      sentences(text)
-        .filter(fresh)
-        .flatMap(pieces)
-        .map((say) => ({ say, show: 0 }))
+      quoting
+        ? quotedSentences(text)
+            .filter(fresh)
+            .flatMap((s) => twoVoices(s, 0))
+        : sentences(text)
+            .filter(fresh)
+            .flatMap(pieces)
+            .map((say) => ({ say, show: 0 }))
     scene(
       'hook',
       'Welcome',
@@ -546,10 +591,25 @@ export function buildBoard(
       'teach',
       'Big idea',
       { type: 'art', art: written.art, alt: written.artCaption },
-      told.length ? told : [{ say: written.artCaption, show: 0 }],
+      told.length ? told : voiced(written.artCaption),
     )
     const words = written.words.filter((w) => fresh(w.term))
-    if (words.length)
+    // A French word is said in French first, then what it means in English.
+    if (words.length && quoting)
+      scene(
+        'teach',
+        'New words',
+        {
+          type: 'phrase',
+          lang: 'French',
+          items: words.map((w) => ({ phrase: w.term, meaning: w.meaning })),
+        },
+        words.flatMap((w, show): Array<Beat> => [
+          { say: w.term, show, lang: 'fr' },
+          ...voiced(w.meaning, show),
+        ]),
+      )
+    else if (words.length)
       scene(
         'teach',
         'New words',
@@ -570,19 +630,43 @@ export function buildBoard(
               points: pieces(clean(worked.situation)),
             },
         [
-          { say: clean(worked.situation), show: 0 },
-          ...worked.steps.map((say): Beat => ({ say, show: 0 })),
-          { say: worked.answer, show: 0 },
+          ...voiced(clean(worked.situation)),
+          ...worked.steps.flatMap((say) => voiced(say)),
+          ...voiced(worked.answer),
         ],
       )
     }
+    // A guide's own questions come first: a language's Play bank asks about
+    // the lesson, not the language.
+    for (const own of (written.quiz ?? []).slice(0, MAX_CHECKS))
+      scene(
+        'check',
+        'Your turn',
+        {
+          type: 'idea',
+          heading: 'Your turn',
+          icon: '✏️',
+          points: ['Think about what you have just learned.'],
+        },
+        [{ say: 'Now it is your turn.', show: 9 }],
+        {
+          type: 'choice',
+          prompt: own.prompt,
+          options: own.options,
+          answer: own.answer,
+          why: own.why,
+        },
+      )
     const usable = lesson.play.filter(
       (q) =>
         !q.interaction &&
         !ABOUT_THE_LESSON.test(q.question) &&
-        q.options.length > 1,
+        q.options.length > 1 &&
+        !(isLanguage && NOT_ENGLISH.test(promptOf(q, title))) &&
+        !(isLanguage && q.question.includes('«')),
     )
-    for (const question of usable.slice(0, MAX_CHECKS)) {
+    const room = written.quiz?.length ? 0 : MAX_CHECKS
+    for (const question of usable.slice(0, room)) {
       const visual = pictureOf(question.visual, level)
       scene(
         'check',
@@ -605,6 +689,7 @@ export function buildBoard(
           options: question.options,
           answer: -1,
           questionId: question.id,
+          mute: isLanguage || undefined,
         },
       )
     }
@@ -619,7 +704,7 @@ export function buildBoard(
           icon: '⚠️',
           points: pieces(mistake.right),
         },
-        [{ say: mistake.right, show: 0 }],
+        voiced(mistake.right),
       )
     // Safety advice always comes before what the lesson asks a child to do.
     const cautions = written.safety?.slice(0, 2) ?? []
@@ -634,6 +719,21 @@ export function buildBoard(
           points: cautions.flatMap(pieces),
         },
         cautions.map((say, show) => ({ say, show })),
+      )
+    const phrase = written.sayIt
+    if (phrase && quoting)
+      scene(
+        'try',
+        'Say it',
+        { type: 'phrase', lang: 'French', items: [phrase] },
+        [{ say: 'Now it is your turn to say it.', show: 0 }],
+        {
+          type: 'say',
+          phrase: phrase.phrase,
+          meaning: phrase.meaning,
+          lang: 'French',
+          prompt: 'Practise saying this phrase out loud.',
+        },
       )
     // As many steps as fit a small phone; the page lists them all.
     const task = written.tryIt.steps
@@ -652,7 +752,7 @@ export function buildBoard(
         type: 'steps',
         steps: task.map((text) => ({ text })),
       },
-      task.map((say, show) => ({ say, show })),
+      task.flatMap((say, show) => voiced(say, show)),
     )
     return finished()
   }
