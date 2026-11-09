@@ -22,6 +22,7 @@ const COURSES: Record<string, () => Promise<{ guides: CourseGuides }>> = {
   'b5/rme': () => import('./b5-rme'),
   'b6/rme': () => import('./b6-rme'),
   'b4/french': () => import('./b4-french'),
+  'b5/french': () => import('./b5-french'),
   'b2/pe': () => import('./b2-pe'),
   'b3/pe': () => import('./b3-pe'),
   'b4/pe': () => import('./b4-pe'),
