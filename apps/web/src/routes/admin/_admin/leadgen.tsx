@@ -10,13 +10,13 @@ import { canManage } from "#/lib/permissions";
 import { AdminPageHeader, ConfirmDialog, Field, Panel, SearchInput, Segmented, errorToast } from "#/components/admin/ui";
 import { ModerationTable, prefetchModeration } from "#/components/admin/moderation-table";
 import { DateCell, MoneyCell, StatusCell, TitleCell } from "#/components/admin/cells";
-import { CreateSender, CreditPayments, EditSender, PrivateLists } from "#/components/admin/leadgen-tools";
+import { CreateSender, CreditPayments, EditSender, PrivateLists, StudentCampaigns } from "#/components/admin/leadgen-tools";
 import { LEAD_CATEGORIES } from "#/components/leadgen/lead-card";
 import { Button } from "#/components/ui/button";
 import { Input } from "#/components/ui/input";
 
 type Row = Record<string, any>;
-type Tab = "lists" | "private" | "senders" | "broadcasts" | "momo" | "payouts" | "vouchers" | "wallets" | "status";
+type Tab = "lists" | "private" | "campaigns" | "senders" | "broadcasts" | "momo" | "payouts" | "vouchers" | "wallets" | "status";
 
 export const Route = createFileRoute("/admin/_admin/leadgen")({
   loader: ({ context }) => prefetchModeration(context.queryClient, "lead-lists", "pending"), component: LeadGenAdmin });
@@ -47,6 +47,7 @@ function LeadGenAdmin() {
         options={[
           { value: "lists", label: "Lead lists" },
           { value: "private", label: "Private lists" },
+          { value: "campaigns", label: "Student campaigns" },
           { value: "senders", label: "Sender IDs" },
           { value: "broadcasts", label: "Broadcasts" },
           { value: "momo", label: "MoMo payments" },
@@ -72,6 +73,7 @@ function LeadGenAdmin() {
         />
       )}
       {tab === "private" && <PrivateLists />}
+      {tab === "campaigns" && <StudentCampaigns editable={editable} />}
       {tab === "senders" && (
         <>
           <CreateSender onCreated={refreshSenders} />

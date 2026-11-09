@@ -33,6 +33,7 @@ import {
   createSeries,
   estimate,
   grantAccess,
+  syncStudentCampaign,
   insertContacts,
   leadgenSettings,
   optoutToken,
@@ -296,8 +297,9 @@ export const leadgenRoute = new Hono()
     );
   })
   // ---- Student onboarding ---------------------------------------------------------------
-  // Students pick a campaign target once; it unlocks, free, Capevars' private
-  // lists tagged with it. Individual and business accounts don't onboard.
+  // Every student account answers once: whether it works on a student
+  // leadership agenda or campaign, and if so which target. A target unlocks,
+  // free, Capevars' private lists tagged with it. Only admins change it after.
   .get("/onboarding", requireMember, async (c) => {
     const member = c.get("member");
     if (member.memberType !== "student") return c.json({ show: false, campaign: null, campaigns: [] });
@@ -310,35 +312,21 @@ export const leadgenRoute = new Hono()
       const tagged = lists.filter((l) => Array.isArray(l.tags) && l.tags.includes(camp.id));
       return { ...camp, lists: tagged.length, contacts: tagged.reduce((n, l) => n + Number(l.contact_count), 0) };
     });
-    // Shown once, and only when some campaign has leads to unlock.
-    const show = !user[0]?.leadgen_onboarded_at && campaigns.some((camp) => camp.lists > 0);
-    return c.json({ show, campaign: user[0]?.leadgen_campaign ?? null, campaigns });
+    return c.json({ show: !user[0]?.leadgen_onboarded_at, campaign: user[0]?.leadgen_campaign ?? null, campaigns });
   })
-  .post("/onboarding", requireMember, validate("json", z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS) })), async (c) => {
+  // campaign: a target id, or null for "not working on a campaign".
+  .post("/onboarding", requireMember, validate("json", z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS).nullable() })), async (c) => {
     const member = c.get("member");
     if (member.memberType !== "student") throw new AppError("Campaign onboarding is for student accounts.", 403);
     const { campaign } = c.req.valid("json");
-    const pool = getPool();
-    // Claims the onboarding first, so two clicks can't unlock twice.
-    const [claimed] = await pool.execute<ResultSetHeader>(
+    // Claims the answer first, so it is set once even if sent twice.
+    const [claimed] = await getPool().execute<ResultSetHeader>(
       "UPDATE users SET leadgen_campaign = ?, leadgen_onboarded_at = NOW() WHERE id = ? AND leadgen_onboarded_at IS NULL",
       [campaign, member.id],
     );
-    if (!claimed.affectedRows) throw new AppError("You've already chosen your campaign.", 409);
-    const [lists] = await pool.execute<RowDataPacket[]>(
-      "SELECT id, title, contact_count FROM lead_lists WHERE user_id IS NULL AND status = 'private' AND JSON_CONTAINS(tags, JSON_QUOTE(?)) ORDER BY title",
-      [campaign],
-    );
-    const unlocked: Array<{ title: string; contacts: number; voucher: string }> = [];
-    for (const list of lists) {
-      try {
-        const access = await grantAccess(list.id, member.id, "admin");
-        unlocked.push({ title: list.title, contacts: Number(list.contact_count), voucher: access.voucher_code });
-      } catch {
-        // Access an admin revoked stays revoked.
-      }
-    }
-    return c.json({ campaign, unlocked });
+    if (!claimed.affectedRows) throw new AppError("You've already answered. Ask a Capevars admin to change it.", 409);
+    const lists = await syncStudentCampaign(member.id);
+    return c.json({ campaign, unlocked: lists.map((l) => ({ id: l.id, title: l.title, contacts: Number(l.contact_count) })) });
   })
   // ---- Portal ---------------------------------------------------------------------------
   .get("/portal/summary", requireMember, async (c) => {

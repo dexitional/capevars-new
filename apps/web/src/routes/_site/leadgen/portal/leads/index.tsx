@@ -110,7 +110,7 @@ function MyLeads() {
                   <StatusBadge status={a.access_status} label={a.access_status === "pending" ? "awaiting payment" : undefined} />
                 </div>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  {Number(a.contact_count).toLocaleString()} contacts · {a.phone_count} phones · {a.email_count} emails · {a.source === "admin" ? "shared by Capevars" : `via ${a.source}`}
+                  {Number(a.contact_count).toLocaleString()} contacts · {a.phone_count} phones · {a.email_count} emails · {a.source === "admin" ? "shared by Capevars" : a.source === "campaign" ? "unlocked by your campaign" : `via ${a.source}`}
                 </p>
                 {a.expires_at && (
                   <p className={cn("mt-1 text-xs font-medium", a.access_status === "expired" ? "text-destructive" : "text-amber-700")}>

@@ -16,7 +16,8 @@ import { logActivity } from "../../lib/activity.js";
 import { randomCode } from "../../lib/codes.js";
 import { notify } from "../../lib/notify.js";
 import { uniqueSlug } from "../../lib/slug.js";
-import { uniqueTags } from "#/lib/leadgen-campaigns";
+import { LEADGEN_CAMPAIGN_IDS, uniqueTags } from "#/lib/leadgen-campaigns";
+import { likePattern, pageQuerySchema, paging } from "../../lib/query.js";
 import {
   CATEGORIES,
   addCredits,
@@ -31,6 +32,8 @@ import {
   resendCreditAlert,
   setSeriesStatus,
   shareList,
+  syncListCampaigns,
+  syncStudentCampaign,
   uniqueVoucher,
   walletBalance,
 } from "../../lib/leadgen.js";
@@ -227,6 +230,66 @@ export const adminLeadgenRoute = new Hono()
     logActivity(c.get("admin").id, "suspended", "broadcast_series", id, `Stopped repeating broadcast series #${id}`);
     return c.json({ ok: true });
   })
+  // ---- Student campaigns ---------------------------------------------------------------------
+  // Each student's LeadGen onboarding answer. Students set it once; only admins change it.
+  .get(
+    "/campaigns",
+    requirePermission("leadgen", "view"),
+    validate("query", pageQuerySchema.extend({ status: z.enum(["all", "campaign", "none", "pending"]).catch("all") })),
+    async (c) => {
+      const q = c.req.valid("query");
+      const where = ["u.member_type = 'student'"];
+      const params: Array<string | number> = [];
+      if (q.status === "campaign") where.push("u.leadgen_campaign IS NOT NULL");
+      if (q.status === "none") where.push("u.leadgen_onboarded_at IS NOT NULL AND u.leadgen_campaign IS NULL");
+      if (q.status === "pending") where.push("u.leadgen_onboarded_at IS NULL");
+      if (q.q) {
+        where.push("(u.full_name LIKE ? OR u.email LIKE ? OR u.username LIKE ? OR u.leadgen_campaign LIKE ?)");
+        params.push(...Array(4).fill(likePattern(q.q)));
+      }
+      const { limit, offset } = paging(q.page, q.pageSize);
+      const pool = getPool();
+      const [[items], [count], [summary]] = await Promise.all([
+        pool.query<RowDataPacket[]>(
+          `SELECT u.id, u.full_name, u.email, u.username, u.leadgen_campaign, u.leadgen_onboarded_at,
+             (SELECT COUNT(*) FROM lead_access a WHERE a.user_id = u.id AND a.source = 'campaign' AND a.status = 'active') AS campaign_lists
+           FROM users u WHERE ${where.join(" AND ")} ORDER BY u.leadgen_onboarded_at IS NULL, u.leadgen_onboarded_at DESC, u.full_name LIMIT ? OFFSET ?`,
+          [...params, limit, offset],
+        ),
+        pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS n FROM users u WHERE ${where.join(" AND ")}`, params),
+        pool.query<RowDataPacket[]>(
+          `SELECT COALESCE(leadgen_campaign, IF(leadgen_onboarded_at IS NULL, '_pending', '_none')) AS k, COUNT(*) AS n
+           FROM users WHERE member_type = 'student' GROUP BY k`,
+        ),
+      ]);
+      return c.json({ items, total: Number(count[0]?.n ?? 0), summary: Object.fromEntries(summary.map((r) => [r.k, Number(r.n)])) });
+    },
+  )
+  .patch(
+    "/campaigns/:userId",
+    requirePermission("leadgen", "manage"),
+    // campaign: a target, null for "not working on a campaign"; reset: ask the student again.
+    validate("json", z.union([z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS).nullable() }), z.object({ reset: z.literal(true) })])),
+    async (c) => {
+      const userId = Number(c.req.param("userId"));
+      const [users] = await getPool().execute<RowDataPacket[]>("SELECT id, full_name, leadgen_campaign FROM users WHERE id = ? AND member_type = 'student'", [userId]);
+      const user = users[0];
+      if (!user) throw new AppError("Student not found.", 404);
+      const input = c.req.valid("json");
+      if ("reset" in input) {
+        await getPool().execute("UPDATE users SET leadgen_campaign = NULL, leadgen_onboarded_at = NULL WHERE id = ?", [userId]);
+      } else {
+        await getPool().execute("UPDATE users SET leadgen_campaign = ?, leadgen_onboarded_at = COALESCE(leadgen_onboarded_at, NOW()) WHERE id = ?", [input.campaign, userId]);
+      }
+      const lists = await syncStudentCampaign(userId);
+      const now = "reset" in input ? "reset (they'll be asked again)" : (input.campaign ?? "not working on a campaign");
+      logActivity(c.get("admin").id, "updated", "users", userId, `LeadGen campaign of ${user.full_name}: ${user.leadgen_campaign ?? "none"} → ${now}`);
+      if (!("reset" in input) && input.campaign) {
+        notify(userId, { kind: "leadgen", title: `Your LeadGen campaign is now ${input.campaign}`, body: `${lists.length} lead list${lists.length === 1 ? "" : "s"} unlocked for you.`, link: "/leadgen/portal/leads" });
+      }
+      return c.json({ ok: true, lists: lists.length });
+    },
+  )
   // ---- Member picker -----------------------------------------------------------------------
   .get("/members", requirePermission("leadgen", "view"), async (c) => {
     const q = (c.req.query("q") ?? "").trim();
@@ -341,6 +404,7 @@ export const adminLeadgenRoute = new Hono()
         [input.title, slug, input.category, input.description ?? null, JSON.stringify(input.tags), input.allowDownload ? 1 : 0, shareCode],
       );
       const result = await insertContacts(res.insertId, input.contacts);
+      await syncListCampaigns(res.insertId);
       logActivity(c.get("admin").id, "created", "lead_lists", res.insertId, `Created private lead list "${input.title}" (${result.added} contacts)`);
       return c.json({ id: res.insertId, ...result }, 201);
     },
@@ -369,6 +433,7 @@ export const adminLeadgenRoute = new Hono()
         input.tags === undefined ? JSON.stringify(list.tags ?? []) : JSON.stringify(input.tags),
         list.id,
       ]);
+      if (input.tags !== undefined) await syncListCampaigns(list.id);
       return c.json({ ok: true });
     },
   )

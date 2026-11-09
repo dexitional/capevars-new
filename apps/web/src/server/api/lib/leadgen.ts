@@ -15,6 +15,7 @@ import { notify } from "./notify.js";
 import { money } from "./search.js";
 import { withTransaction } from "./tx.js";
 import { longestFirstName, smsLength } from "#/lib/sms-length";
+import { LEADGEN_CAMPAIGN_IDS } from "#/lib/leadgen-campaigns";
 import { messagingStatus, normalizeEmail, normalizePhone, sendEmail, sendSms } from "./messaging.js";
 
 export type Channel = "sms" | "email";
@@ -332,6 +333,68 @@ export async function shareList(listId: number, userId: number, expiresAt: strin
       expiresAt,
     ]);
   }
+  await recountAccess(listId);
+}
+
+// ---- Campaign onboarding ---------------------------------------------------------------------
+// A student who chose a campaign target gets every Capevars private list
+// tagged with it, under source 'campaign'. That access follows the student's
+// campaign and the lists' tags; shares and purchases are never touched.
+
+async function setCampaignAccess(listId: number, userId: number) {
+  const pool = getPool();
+  const [existing] = await pool.execute<RowDataPacket[]>("SELECT id, source, status FROM lead_access WHERE list_id = ? AND user_id = ?", [listId, userId]);
+  const row = existing[0];
+  if (row) {
+    if (row.source === "campaign" && row.status === "revoked") await pool.execute("UPDATE lead_access SET status = 'active' WHERE id = ?", [row.id]);
+    return;
+  }
+  const code = await uniqueVoucher("lead_access", "voucher_code", "LV");
+  await pool.execute("INSERT INTO lead_access (list_id, user_id, voucher_code, source, status) VALUES (?, ?, ?, 'campaign', 'active')", [listId, userId, code]);
+}
+
+async function revokeCampaignAccess(listId: number, userId: number) {
+  await getPool().execute("UPDATE lead_access SET status = 'revoked' WHERE list_id = ? AND user_id = ? AND source = 'campaign'", [listId, userId]);
+}
+
+// Brings a student's campaign access in line with their campaign; returns the lists it unlocks.
+export async function syncStudentCampaign(userId: number) {
+  const pool = getPool();
+  const [users] = await pool.execute<RowDataPacket[]>("SELECT leadgen_campaign FROM users WHERE id = ? AND member_type = 'student'", [userId]);
+  const campaign = (users[0]?.leadgen_campaign as string | null | undefined) ?? null;
+  const [lists] = campaign
+    ? await pool.execute<RowDataPacket[]>(
+        "SELECT id, title, contact_count FROM lead_lists WHERE user_id IS NULL AND status = 'private' AND JSON_CONTAINS(tags, JSON_QUOTE(?)) ORDER BY title",
+        [campaign],
+      )
+    : [[] as Array<RowDataPacket>];
+  const wanted = new Set(lists.map((l) => l.id as number));
+  const [held] = await pool.execute<RowDataPacket[]>("SELECT list_id FROM lead_access WHERE user_id = ? AND source = 'campaign' AND status = 'active'", [userId]);
+  const touched = new Set<number>(wanted);
+  for (const id of wanted) await setCampaignAccess(id, userId);
+  for (const r of held) {
+    if (wanted.has(r.list_id)) continue;
+    await revokeCampaignAccess(r.list_id, userId);
+    touched.add(r.list_id);
+  }
+  for (const id of touched) await recountAccess(id);
+  return lists;
+}
+
+// Brings a list's campaign access in line with its tags, after an admin edits them.
+export async function syncListCampaigns(listId: number) {
+  const pool = getPool();
+  const [rows] = await pool.execute<RowDataPacket[]>("SELECT tags, status, user_id FROM lead_lists WHERE id = ?", [listId]);
+  const list = rows[0];
+  const tags: Array<string> = list && list.user_id === null && list.status === "private" && Array.isArray(list.tags) ? list.tags : [];
+  const campaigns = tags.filter((t) => (LEADGEN_CAMPAIGN_IDS as Array<string>).includes(t));
+  const [students] = campaigns.length
+    ? await pool.query<RowDataPacket[]>("SELECT id FROM users WHERE member_type = 'student' AND leadgen_campaign IN (?)", [campaigns])
+    : [[] as Array<RowDataPacket>];
+  const wanted = new Set(students.map((u) => u.id as number));
+  const [held] = await pool.execute<RowDataPacket[]>("SELECT user_id FROM lead_access WHERE list_id = ? AND source = 'campaign' AND status = 'active'", [listId]);
+  for (const id of wanted) await setCampaignAccess(listId, id);
+  for (const r of held) if (!wanted.has(r.user_id)) await revokeCampaignAccess(listId, r.user_id);
   await recountAccess(listId);
 }
 

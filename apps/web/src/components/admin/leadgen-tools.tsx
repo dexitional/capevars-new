@@ -16,7 +16,7 @@ import { networkLabel } from "#/components/leadgen/momo-checkout";
 import { StatusBadge } from "#/components/site/kit";
 import { SheetImport } from "#/components/leadgen/sheet-import";
 import { TagInput } from "#/components/site/tag-input";
-import { LEADGEN_CAMPAIGN_IDS, normalizeTag } from "#/lib/leadgen-campaigns";
+import { LEADGEN_CAMPAIGNS, LEADGEN_CAMPAIGN_IDS, normalizeTag } from "#/lib/leadgen-campaigns";
 import type { SheetContact } from "#/components/leadgen/sheet-import";
 import { Button } from "#/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle } from "#/components/ui/dialog";
@@ -199,6 +199,123 @@ function ListTags({ tags }: { tags: unknown }) {
           #{t}
         </span>
       ))}
+    </div>
+  );
+}
+
+// Each student's LeadGen onboarding answer: a campaign target, "not working on
+// a campaign", or not answered yet. Students set it once; admins change it here.
+export function StudentCampaigns({ editable }: { editable: boolean }) {
+  const [q, setQ] = useState("");
+  const [status, setStatus] = useState<"all" | "campaign" | "none" | "pending">("all");
+  const [page, setPage] = useState(1);
+  const { data, refetch } = useQuery({
+    queryKey: ["admin-student-campaigns", q, status, page],
+    queryFn: () => api.get<{ items: Array<Row>; total: number; summary: Record<string, number> }>("/admin/leadgen/campaigns", { q, status, page, pageSize: 50 }),
+  });
+  const change = useMutation({
+    mutationFn: ({ userId, body }: { userId: number; body: { campaign: string | null } | { reset: true } }) => api.patch<{ lists: number }>(`/admin/leadgen/campaigns/${userId}`, body),
+    onSuccess: (r, v) => {
+      toast.success("reset" in v.body ? "Reset: they'll be asked again" : v.body.campaign ? `Campaign set · ${r.lists} list(s) unlocked` : "Set to not working on a campaign");
+      void refetch();
+    },
+    onError: errorToast("Couldn't change the campaign."),
+  });
+  const s = data?.summary ?? {};
+  const pages = Math.max(1, Math.ceil((data?.total ?? 0) / 50));
+  return (
+    <div className="space-y-4">
+      <p className="text-sm text-muted-foreground">
+        Every student answers once when they open LeadGen. A campaign unlocks Capevars' private lists tagged with it, and follows any later tag changes. Students can't change their answer; you can.
+      </p>
+      <div className="flex flex-wrap gap-1.5 text-xs">
+        {LEADGEN_CAMPAIGNS.map((camp) => (
+          <span key={camp.id} className="rounded-full bg-sys-leadgen/10 px-2.5 py-1 font-medium text-sys-leadgen">
+            {camp.label}: {s[camp.id] ?? 0}
+          </span>
+        ))}
+        <span className="rounded-full bg-muted px-2.5 py-1 font-medium">No campaign: {s._none ?? 0}</span>
+        <span className="rounded-full bg-muted px-2.5 py-1 font-medium">Not answered: {s._pending ?? 0}</span>
+      </div>
+      <div className="flex flex-wrap items-center gap-3">
+        <SearchInput value={q} onChange={(v) => (setQ(v), setPage(1))} placeholder="Find a student or campaign" className="w-80" />
+        <Segmented
+          value={status}
+          onChange={(v) => (setStatus(v), setPage(1))}
+          options={[
+            { value: "all", label: "All students" },
+            { value: "campaign", label: "With a campaign" },
+            { value: "none", label: "No campaign" },
+            { value: "pending", label: "Not answered" },
+          ]}
+        />
+      </div>
+      <div className="overflow-x-auto rounded-xl border bg-white">
+        <table className="w-full text-sm">
+          <thead className="bg-muted/60 text-left text-xs text-muted-foreground uppercase">
+            <tr>
+              <th className="px-4 py-3">Student</th>
+              <th className="px-4 py-3">Campaign</th>
+              <th className="px-4 py-3">Lists unlocked</th>
+              <th className="px-4 py-3">Answered</th>
+              <th className="px-4 py-3" />
+            </tr>
+          </thead>
+          <tbody className="divide-y">
+            {data?.items.map((u) => (
+              <tr key={u.id}>
+                <td className="px-4 py-2">
+                  <TitleCell title={u.full_name} sub={u.email} />
+                </td>
+                <td className="px-4 py-2">
+                  <select
+                    value={u.leadgen_onboarded_at ? (u.leadgen_campaign ?? "") : "_pending"}
+                    disabled={!editable || change.isPending}
+                    onChange={(e) => change.mutate({ userId: u.id, body: { campaign: e.target.value || null } })}
+                    className={selectClass}
+                    aria-label={`Campaign of ${u.full_name}`}
+                  >
+                    {!u.leadgen_onboarded_at && (
+                      <option value="_pending" disabled>
+                        Not answered yet
+                      </option>
+                    )}
+                    <option value="">Not working on a campaign</option>
+                    {LEADGEN_CAMPAIGNS.map((camp) => (
+                      <option key={camp.id} value={camp.id}>
+                        {camp.label} ({camp.id})
+                      </option>
+                    ))}
+                  </select>
+                </td>
+                <td className="px-4 py-2 text-xs">{u.campaign_lists}</td>
+                <td className="px-4 py-2">{u.leadgen_onboarded_at ? <DateCell value={u.leadgen_onboarded_at} /> : <span className="text-xs text-muted-foreground">—</span>}</td>
+                <td className="px-4 py-2 text-right">
+                  {editable && u.leadgen_onboarded_at && (
+                    <Button size="xs" variant="ghost" disabled={change.isPending} onClick={() => confirm(`Ask ${u.full_name} to choose again? Lists their campaign unlocked are removed until they do.`) && change.mutate({ userId: u.id, body: { reset: true } })}>
+                      Reset
+                    </Button>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+        {data?.items.length === 0 && <p className="p-6 text-center text-sm text-muted-foreground">No students match.</p>}
+      </div>
+      {pages > 1 && (
+        <div className="flex items-center justify-end gap-2 text-sm">
+          <Button size="sm" variant="outline" disabled={page <= 1} onClick={() => setPage(page - 1)}>
+            Previous
+          </Button>
+          <span className="text-muted-foreground">
+            Page {page} of {pages}
+          </span>
+          <Button size="sm" variant="outline" disabled={page >= pages} onClick={() => setPage(page + 1)}>
+            Next
+          </Button>
+        </div>
+      )}
     </div>
   );
 }
