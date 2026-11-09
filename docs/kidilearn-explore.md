@@ -27,6 +27,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 5 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 | Basic 6 Physical Education | 20 of 20 | [Physical Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/PHYSICAL-EDUCATION-B1-B6-2.pdf) |
 | Basic 1 Religious and Moral Education | 9 of 9 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
+| Basic 2 Religious and Moral Education | 13 of 13 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 
 The other courses still use their imported notes.
 
@@ -98,6 +99,7 @@ Checked against the Religious and Moral Education curriculum:
 - **Three religions, side by side:** the curriculum aims at understanding and tolerance of the three major religions in Ghana (Christianity, Islam and African Traditional Religion) and says lessons must not become "preaching sessions". The guides describe each faith in its own terms ("Christians believe…", "Muslims believe…"), never call one true, and a test checks that lessons about religion cover all three.
 - **No pictures of God or prophets:** places of worship are shown by their buildings and symbols (cross, crescent, clay pot). Sacred texts such as the Lord's Prayer, Psalm 23 and Al-Fātiḥah are named, not quoted, so the narrator never recites them.
 - **Founders:** African Traditional Religion has no single founder, so the guide says so rather than give it a birth story; Akan traditions about the priest Okomfo Anokye are told as traditions.
+- **Traditional leaders (Basic 2):** the curriculum names Okomfo Anokye, Toha Zie and Egya Ahor. The guides tell of Okomfo Anokye and Egya Ahor as traditions, and leave out Toha Zie because we found no account reliable enough to tell children.
 - **Damba:** the curriculum lists it as a traditional festival; it marks the birth of the Prophet Muhammad with Dagomba traditions, and the guide says so.
 
 Scope for other subjects and levels has not yet been checked.
