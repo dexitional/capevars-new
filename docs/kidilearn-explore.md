@@ -29,6 +29,7 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 1 Religious and Moral Education | 9 of 9 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 2 Religious and Moral Education | 13 of 13 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 3 Religious and Moral Education | 15 of 15 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
+| Basic 4 Religious and Moral Education | 12 of 12 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 
 The other courses still use their imported notes.
 
@@ -102,6 +103,7 @@ Checked against the Religious and Moral Education curriculum:
 - **Founders:** African Traditional Religion has no single founder, so the guide says so rather than give it a birth story; Akan traditions about the priest Okomfo Anokye are told as traditions.
 - **Traditional leaders (Basic 2):** the curriculum names Okomfo Anokye, Toha Zie and Egya Ahor. The guides tell of Okomfo Anokye and Egya Ahor as traditions, and leave out Toha Zie because we found no account reliable enough to tell children.
 - **Abraham's promise (Basic 3):** the curriculum says God promised Abraham eternal life. The Bible and the Qur'an tell of a promise to bless him and his family, so the guide says that. The imported code for the first Basic 3 lesson is cut short (B3.1.1.1); the guide uses the curriculum's B3.1.1.1.1.
+- **Basic 4 sources:** the curriculum places the Prophet's call in a "Cave-Hijrah". The cave was Hira; the Hijrah was his later move to Madina, and the guide keeps them apart. It cites Matthew 14 for the boy who offered his bread, but only John 6 mentions the boy, so the guide names John.
 - **Damba:** the curriculum lists it as a traditional festival; it marks the birth of the Prophet Muhammad with Dagomba traditions, and the guide says so.
 
 Scope for other subjects and levels has not yet been checked.
