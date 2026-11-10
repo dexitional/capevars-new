@@ -5197,6 +5197,14 @@ function Town({ id, art }: P & { art: Extract<Art, { kind: 'town' }> }) {
 }
 
 // Word cards, each with a picture or a colour, and the word under it.
+// Several emoji in one card shrink to fit its width.
+const iconSize = (icon: string, base: number, width: number) =>
+  Math.min(
+    base,
+    ((width - 20) /
+      Math.max(1, Array.from(icon.replace(/\uFE0F/g, '')).length)) *
+      0.95,
+  )
 function Cards({ id, art }: P & { art: Extract<Art, { kind: 'cards' }> }) {
   const items = art.items.slice(0, 6)
   const perRow = items.length <= 4 ? items.length : Math.ceil(items.length / 2)
@@ -5237,7 +5245,7 @@ function Cards({ id, art }: P & { art: Extract<Art, { kind: 'cards' }> }) {
                 x={x + w / 2}
                 y={y + h / 2 + 4}
                 textAnchor="middle"
-                fontSize={rows > 1 ? 50 : 70}
+                fontSize={iconSize(item.icon ?? '', rows > 1 ? 50 : 70, w)}
               >
                 {item.icon}
               </text>
@@ -5246,7 +5254,7 @@ function Cards({ id, art }: P & { art: Extract<Art, { kind: 'cards' }> }) {
               x={x + w / 2}
               y={y + h - 16}
               textAnchor="middle"
-              fontSize={item.label.length > 14 ? 17 : 21}
+              fontSize={Math.min(21, ((w - 14) / item.label.length) * 1.8)}
               fontWeight="700"
               fill="#1f2a44"
             >

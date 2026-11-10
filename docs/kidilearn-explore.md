@@ -33,6 +33,8 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 5 Religious and Moral Education | 15 of 15 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 6 Religious and Moral Education | 13 of 13 | [Religious and Moral Education Curriculum for Primary Schools, B1–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/RELIGIOUS-AND-MORAL-EDUCATION-B1-B6-1.pdf) |
 | Basic 1 French | 20 of 20 | KidiLearn early-French goals; the national curriculum starts at Basic 4 |
+| Basic 2 French | 20 of 20 | KidiLearn early-French goals; the national curriculum starts at Basic 4 |
+| Basic 3 French | 20 of 20 | KidiLearn early-French goals; the national curriculum starts at Basic 4 |
 | Basic 4 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 | Basic 5 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 | Basic 6 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
