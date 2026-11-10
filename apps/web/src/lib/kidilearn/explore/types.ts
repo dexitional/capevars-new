@@ -179,6 +179,12 @@ export type Art =
       setting?: 'compound' | 'floor' | 'grass'
       label?: string
     }
+  // Word cards: a picture (an emoji) or a colour swatch, with its word.
+  | {
+      kind: 'cards'
+      items: Array<{ label: string; icon?: string; colour?: string }>
+      label?: string
+    }
   // A street of labelled buildings, for saying where places are.
   | { kind: 'town'; places: Array<string>; focus?: number; label?: string }
   // Rows of counters, one row for each part of a ratio.
@@ -285,8 +291,10 @@ export interface WorkedExample {
 }
 
 export interface ExploreGuide {
-  // The curriculum indicator this lesson teaches.
-  indicator: { code: string; text: string }
+  // The curriculum indicator this lesson teaches. A course the national
+  // curriculum does not cover, such as French before Basic 4, has a KidiLearn
+  // goal instead, with no code.
+  indicator: { code: string; text: string; source?: 'kidilearn' }
   hook: string
   explain: Array<string>
   art: Art

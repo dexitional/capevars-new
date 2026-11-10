@@ -5196,6 +5196,70 @@ function Town({ id, art }: P & { art: Extract<Art, { kind: 'town' }> }) {
   )
 }
 
+// Word cards, each with a picture or a colour, and the word under it.
+function Cards({ id, art }: P & { art: Extract<Art, { kind: 'cards' }> }) {
+  const items = art.items.slice(0, 6)
+  const perRow = items.length <= 4 ? items.length : Math.ceil(items.length / 2)
+  const rows = Math.ceil(items.length / perRow)
+  const w = Math.min(180, 600 / perRow - 16)
+  const h = rows > 1 ? 136 : 200
+  return (
+    <>
+      <Paper id={id} />
+      {items.map((item, i) => {
+        const row = Math.floor(i / perRow)
+        const inRow = Math.min(perRow, items.length - row * perRow)
+        const x = 320 - (inRow * (w + 16) - 16) / 2 + (i % perRow) * (w + 16)
+        const y = (rows > 1 ? 24 : 60) + row * (h + 16)
+        return (
+          <g key={i} filter={`url(#${id}shadow)`}>
+            <rect
+              x={x}
+              y={y}
+              width={w}
+              height={h}
+              rx="16"
+              fill="#fff"
+              stroke="#e2d6c2"
+              strokeWidth="2"
+            />
+            {item.colour ? (
+              <circle
+                cx={x + w / 2}
+                cy={y + h / 2 - 16}
+                r={Math.min(40, h / 2 - 30)}
+                fill={item.colour}
+                stroke="#7a6a58"
+                strokeWidth="2"
+              />
+            ) : (
+              <text
+                x={x + w / 2}
+                y={y + h / 2 + 4}
+                textAnchor="middle"
+                fontSize={rows > 1 ? 50 : 70}
+              >
+                {item.icon}
+              </text>
+            )}
+            <text
+              x={x + w / 2}
+              y={y + h - 16}
+              textAnchor="middle"
+              fontSize={item.label.length > 14 ? 17 : 21}
+              fontWeight="700"
+              fill="#1f2a44"
+            >
+              {item.label}
+            </text>
+          </g>
+        )
+      })}
+      <Caption text={art.label} y={346} />
+    </>
+  )
+}
+
 function Scene({ art, id }: { art: Art; id: string }) {
   switch (art.kind) {
     case 'loaf':
@@ -5343,6 +5407,8 @@ function Scene({ art, id }: { art: Art; id: string }) {
       return <Dialogue id={id} art={art} />
     case 'town':
       return <Town id={id} art={art} />
+    case 'cards':
+      return <Cards id={id} art={art} />
   }
 }
 
