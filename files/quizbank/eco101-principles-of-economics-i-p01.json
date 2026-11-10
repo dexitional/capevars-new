@@ -1,0 +1,2754 @@
+[
+ {
+  "type": "text",
+  "body": "Ghana recently accelerated its plan to privatize tens of thousands of state-owned firms. The estimates of the market demand and supply for the goods are given by\n\n$Q_d = -2P + 10$, $\\quad Q_s = 2P - 2$\n\n(a) Determine the equilibrium price and quantity.\n(b) Graph the trading locus of the market.\n(c) Calculate the price elasticity of demand and supply and comment on your results.\n(d) The government raises a concern that the free-market price might be too high for the consumers and is planning to set a price ceiling of GH₵1.5. What problem will arise out of these concerns from the government?\n(e) Briefly explain 3 main effects of the above problem on the market.\n(f) Suggest some measures that the government should adopt to make the price ceiling effective.",
+  "media": [],
+  "answer": "**(a)** $10 - 2P = 2P - 2 \\Rightarrow P^* = 3$, $Q^* = 4$.\n\n**(b)** Demand meets the price axis at $P = 5$ and the quantity axis at $Q = 10$; supply starts at $P = 1$ (where $Q_s = 0$) and slopes upward. They cross at $(Q, P) = (4, 3)$.\n\n**(c)** $E_d = \\dfrac{dQ_d}{dP}\\cdot\\dfrac{P}{Q} = -2 \\times \\dfrac{3}{4} = -1.5$ (elastic). $E_s = 2 \\times \\dfrac{3}{4} = 1.5$ (elastic). Both buyers and sellers respond more than proportionately to price changes.\n\n**(d)** At $P = 1.5$: $Q_d = 7$, $Q_s = 1$, so a **shortage (excess demand) of 6 units** arises.\n\n**(e)** Effects: (1) **black markets** where the good is resold above the ceiling; (2) **queues and non-price rationing** (first come, first served, favouritism, bribery); (3) lower **quality** and less investment by producers, with falling quantity supplied over time.\n\n**(f)** Measures: **rationing** (coupons/quotas) to share the limited supply fairly; **subsidies** to producers or direct government production/imports to raise supply; strict **enforcement and penalties** against black-market sales.\n\n> [!answer]\n> $P^* = 3$, $Q^* = 4$; $E_d = -1.5$, $E_s = 1.5$; ceiling of 1.5 gives a shortage of 6 → black markets, queues, lower quality; use rationing, subsidies/state supply and enforcement.",
+  "explanation": "## Advanced explanation\n\nA **binding price ceiling** (below $P^*$) raises quantity demanded and lowers quantity supplied, so the market cannot clear by price. Some other mechanism must allocate the scarce goods, which creates welfare losses (deadweight loss plus rent-seeking costs).\n\n## Simplified explanation\n\nThe market clears at a price of 3 and quantity 4. If the government forces the price down to 1.5, people want 7 but sellers offer only 1, so there is a shortage of 6.",
+  "hint": "Set Qd = Qs; a ceiling below equilibrium creates excess demand.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Price Controls",
+   "Elasticity",
+   "2023/24 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "For the market with $Q_d = -2P + 10$ and $Q_s = 2P - 2$, suppose the government imposes a per-unit tax of 2 Ghana cedis on the quantity supplied.\n\n(i) Calculate the consumer and producer surplus before and after the imposition of the tax.\n(ii) Determine the fraction of tax borne by the consumer and producer.\n(iii) How much money goes to the government?",
+  "media": [],
+  "answer": "Before the tax: $P^* = 3$, $Q^* = 4$.\nWith the tax, sellers receive $P - 2$: $Q_s = 2(P-2) - 2 = 2P - 6$. Then $10 - 2P = 2P - 6 \\Rightarrow P_c = 4$, $Q = 2$, $P_p = 2$.\n\n**(i)** Demand choke price = 5; supply minimum price = 1.\n\n| | Before | After |\n|---|---|---|\n| CS | $\\tfrac12(4)(5-3) = 4$ | $\\tfrac12(2)(5-4) = 1$ |\n| PS | $\\tfrac12(4)(3-1) = 4$ | $\\tfrac12(2)(2-1) = 1$ |\n\n**(ii)** Consumers pay 4 instead of 3 (GH₵1 of the 2): **50%**; producers receive 2 instead of 3 (GH₵1): **50%**. Equal shares because $|E_d| = E_s$ at equilibrium.\n\n**(iii)** Tax revenue $= 2 \\times 2 =$ **GH₵4**.\n\n> [!answer]\n> CS 4 → 1, PS 4 → 1; burden 50% consumers, 50% producers; revenue GH₵4 (deadweight loss = 8 − 6 = 2).",
+  "explanation": "## Advanced explanation\n\nTax incidence depends on relative elasticities: the burden falls more on the less elastic side. Here the slopes are equal in magnitude, so the tax is shared equally. Total surplus falls from 8 to $1 + 1 + 4 = 6$, so the **deadweight loss** is 2.\n\n## Simplified explanation\n\nThe tax pushes the buyer price from 3 to 4 and the seller's take from 3 to 2, so each side pays half. The government collects 2 × 2 = 4.",
+  "hint": "Shift supply up by 2, i.e. replace P by (P − 2) in the supply equation.",
+  "difficulty": "hard",
+  "marks": 8,
+  "tags": [
+   "Taxes & Incidence",
+   "Consumer & Producer Surplus",
+   "2023/24 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the difference between **explicit costs** and **implicit costs**?",
+  "media": [],
+  "answer": "**Explicit costs** are actual money payments to outside suppliers of resources (wages, rent, raw materials, interest). **Implicit costs** are the opportunity costs of using resources the firm already owns, for which no money is paid (e.g. the owner's forgone salary, forgone rent on own building, normal return on own capital).\n\n> [!answer]\n> Explicit = out-of-pocket payments; implicit = opportunity cost of self-owned resources.",
+  "explanation": "## Advanced explanation\n\nAccounting profit = TR − explicit costs; economic profit = TR − explicit − implicit costs. Including implicit costs ensures the firm compares its return with the best alternative use of its own resources.\n\n## Simplified explanation\n\nExplicit costs are bills you pay; implicit costs are what you give up by using your own things.",
+  "hint": "One involves a cash payment; the other does not.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Costs of Production",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is **marginal cost** the relevant cost to consider when a producer is deciding whether to produce more or less of a product?",
+  "media": [],
+  "answer": "Because the decision is about a **change** in output. Marginal cost is the extra cost of producing one more unit, so it is the cost actually affected by the decision. The producer compares MC with marginal revenue: expand if $MR > MC$, cut back if $MR < MC$, and profit is maximised where $MR = MC$. Fixed costs and past (sunk) costs do not change with the decision and so are irrelevant.\n\n> [!answer]\n> Decisions are made at the margin: compare the extra cost (MC) with the extra revenue (MR) of one more unit.",
+  "explanation": "## Advanced explanation\n\nRational choice compares **marginal benefit** with **marginal cost**. Average or total costs include fixed and sunk components that do not vary with a small change in output and so should not affect the decision.\n\n## Simplified explanation\n\nTo decide whether to make one more, ask what that one more costs and what it brings in.",
+  "hint": "Think at the margin.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Costs of Production",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why does the **average total cost** rise at some point as output expands further?",
+  "media": [],
+  "answer": "In the short run, because of the **law of diminishing returns**: as more variable inputs are added to fixed capital, marginal product eventually falls, so **marginal cost rises**. Once MC rises above ATC it pulls ATC up. (Falling AFC is eventually outweighed by rising AVC.) In the long run, ATC rises because of **diseconomies of scale** (coordination and management problems in very large firms).\n\n> [!answer]\n> Diminishing marginal returns make MC rise; when MC > ATC, ATC rises (long run: diseconomies of scale).",
+  "explanation": "## Advanced explanation\n\n$ATC = AFC + AVC$. AFC always falls, but AVC rises once diminishing returns set in. The MC curve cuts ATC at its minimum; beyond that point $MC > ATC$ and ATC rises.\n\n## Simplified explanation\n\nToo many workers on the same machines get in each other's way, so each extra unit costs more and the average cost goes up.",
+  "hint": "What happens to marginal product as more workers share fixed capital?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Costs of Production",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How does a **market system** allocate resources?",
+  "media": [],
+  "answer": "Through the **price mechanism**. Consumers signal what they want by their spending (dollar/cedi votes); rising prices and profits draw resources into goods in high demand, and falling prices and losses push resources out of goods in low demand. Competition forces firms to use the **least-cost** methods (how to produce), and output goes to those willing and able to pay (for whom), according to incomes earned in resource markets.\n\n> [!answer]\n> Prices, profits and competition (the 'invisible hand') answer what, how and for whom to produce.",
+  "explanation": "## Advanced explanation\n\nIn a market economy, decentralised decisions of households and firms, coordinated by **relative prices**, answer the basic economic questions. Prices ration goods, signal scarcity and provide incentives.\n\n## Simplified explanation\n\nPrices tell firms what people want and how scarce things are, and profits reward firms that respond.",
+  "hint": "Think of prices as signals.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Economic Systems",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether the following statement is **True or False** and explain: *Certain inherently desirable products such as education and health care should be produced so long as resources are available.*",
+  "media": [],
+  "answer": "**False.** Resources used for education and health care have alternative uses, so producing more of them has an **opportunity cost**. They should be produced only up to the point where **marginal benefit equals marginal cost**; beyond it, the value of what is given up exceeds the benefit gained.\n\n> [!answer]\n> False: produce until MB = MC, not until resources run out, because of opportunity cost.",
+  "explanation": "## Advanced explanation\n\nAllocative efficiency requires $MB = MC$ for every good. Even very valuable goods have diminishing marginal benefit and rising marginal cost.\n\n## Simplified explanation\n\nUsing all available resources on schools and hospitals means giving up food, roads and other things people also value.",
+  "hint": "Every use of resources has an opportunity cost.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Opportunity Cost",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether the following statement is **True or False** and explain: *A ceiling price in a competitive market will result in persistent surpluses of a product.*",
+  "media": [],
+  "answer": "**False.** A binding price ceiling is set **below** the equilibrium price; quantity demanded exceeds quantity supplied, so it causes persistent **shortages**, not surpluses. Persistent surpluses result from a binding price **floor** (above equilibrium).\n\n> [!answer]\n> False: a ceiling causes shortages; a floor causes surpluses.",
+  "explanation": "## Advanced explanation\n\nBelow $P^*$, $Q_d > Q_s$. The price cannot rise to clear the market, so the excess demand persists, leading to queues, rationing and black markets.\n\n## Simplified explanation\n\nHolding the price down makes more people want to buy and fewer want to sell, so there is not enough to go round.",
+  "hint": "Where is a ceiling set relative to equilibrium?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Price Controls",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether the following statement is **True or False** and explain: *An economy cannot produce at a point outside of its production possibilities curve because human economic wants are insatiable.*",
+  "media": [],
+  "answer": "**False.** The economy cannot produce outside its PPC because its **resources and technology are limited (scarce)**. The PPC shows the maximum output attainable with available resources and technology; points outside are unattainable for that reason. Insatiable wants explain why we would *like* to be outside the curve, not why we cannot be.\n\n> [!answer]\n> False: the reason is limited resources and technology, not unlimited wants.",
+  "explanation": "## Advanced explanation\n\nThe PPC is drawn for given quantities of resources and a given state of technology. Only economic growth (more resources or better technology) shifts it outward.\n\n## Simplified explanation\n\nWe can't produce beyond the curve because we don't have enough resources, not because we want too much.",
+  "hint": "What does the PPC hold fixed?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Production Possibilities",
+   "2023/24 Quiz 3",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose the demand and supply curves for goose-down winter jackets in 2014 were as given below:\n\nDemand: $P = 2000 - 50Q$ $\\quad$ Supply: $P = 500 + 50Q$\n\n(a) Find the market clearing price and quantity.\n(b) Calculate the consumer surplus and producer surplus. What is the total surplus? Provide a graph of this market and show these areas on the graph.\n(c) Compute the price elasticity of demand and supply at the equilibrium price using the point elasticity formula. At the equilibrium point, is demand elastic, unit elastic or inelastic? Explain.\n(d) Obtain an expression for the total revenue function. Hence or otherwise find the total revenue at the market equilibrium.\n(e) With your knowledge of elasticity, how will the total revenue for this firm be affected if it increases the selling price?\n(f) Obtain an expression for the marginal revenue function. Hence or otherwise find the marginal revenue at the market equilibrium.\n(g) Derive the relationship between marginal revenue and price elasticity of demand.",
+  "media": [],
+  "answer": "**(a)** $2000 - 50Q = 500 + 50Q \\Rightarrow Q^* = 15$, $P^* = 1250$.\n\n**(b)** $CS = \\tfrac12(15)(2000-1250) = 5625$; $PS = \\tfrac12(15)(1250-500) = 5625$; total surplus $= 11{,}250$. (CS is the triangle between demand and $P = 1250$; PS the triangle between $P = 1250$ and supply.)\n\n**(c)** Demand: $Q = 40 - P/50$, $dQ/dP = -0.02$; $E_d = -0.02 \\times \\dfrac{1250}{15} \\approx -1.67$ → **elastic** ($|E_d| > 1$). Supply: $Q = (P-500)/50$, $dQ/dP = 0.02$; $E_s \\approx 1.67$.\n\n**(d)** $TR = PQ = 2000Q - 50Q^2$; at $Q = 15$: $TR = 30{,}000 - 11{,}250 = 18{,}750$ $(= 1250 \\times 15)$.\n\n**(e)** Demand is elastic, so a price rise reduces quantity proportionately more: **TR falls**.\n\n**(f)** $MR = dTR/dQ = 2000 - 100Q$; at $Q = 15$: $MR = 500$.\n\n**(g)** $MR = \\dfrac{d(PQ)}{dQ} = P + Q\\dfrac{dP}{dQ} = P\\left(1 + \\dfrac{Q}{P}\\dfrac{dP}{dQ}\\right) = P\\left(1 + \\dfrac{1}{E_d}\\right) = P\\left(1 - \\dfrac{1}{|E_d|}\\right)$. Check: $1250(1 - 1/1.667) = 500$ ✓.\n\n> [!answer]\n> $P^* = 1250$, $Q^* = 15$; CS = PS = 5625, TS = 11,250; $E_d \\approx -1.67$ (elastic), $E_s \\approx 1.67$; TR = 18,750, falls if price rises; MR = 500; $MR = P(1 - 1/|E_d|)$.",
+  "explanation": "## Advanced explanation\n\nLinear demand $P = a - bQ$ has $MR = a - 2bQ$, twice as steep. The formula $MR = P(1 - 1/|E_d|)$ shows MR > 0 only where demand is elastic, which is why TR falls when price rises in the elastic range.\n\n## Simplified explanation\n\nFind where the lines cross (15 jackets at 1250). The surpluses are two triangles. Demand is elastic there, so raising the price loses revenue.",
+  "hint": "Write demand as Q in terms of P to get dQ/dP.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Elasticity",
+   "Consumer & Producer Surplus",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose that the demand equation for good X is\n\n$Q_x = 100 - 10P_x - 2P_y + 0.1M + 0.2A$\n\nwhere $Q_x$ is sales of good X in units of output, $P_x$ the price of good X, $P_y$ the price of related good Y, $M$ per-capita income and $A$ the level of advertising expenditure. Suppose $P_x = ₵2$, $P_y = ₵3$, $M = ₵10$ and $A = ₵20$.\n\n(a) Find the quantity demanded of good X.\n(b) Calculate the price elasticity of demand. What does your result mean? What effect will an increase in the price of good X have on the firm's total revenues?\n(c) Calculate the income elasticity of demand. What type of good is good X?\n(d) Calculate the cross-price elasticity of demand. What is the relationship between goods X and Y?\n(e) Calculate the advertising elasticity of demand. What does your result mean?",
+  "media": [],
+  "answer": "**(a)** $Q_x = 100 - 20 - 6 + 1 + 4 = 79$.\n\n**(b)** $E_p = -10 \\times \\dfrac{2}{79} \\approx -0.25$: **inelastic** (a 1% rise in $P_x$ cuts $Q_x$ by about 0.25%). So a price **increase raises total revenue**.\n\n**(c)** $E_M = 0.1 \\times \\dfrac{10}{79} \\approx 0.013$: positive, so X is a **normal good** (and, being less than 1, a necessity).\n\n**(d)** $E_{xy} = -2 \\times \\dfrac{3}{79} \\approx -0.076$: negative, so X and Y are **complements** (e.g. cars and fuel, bread and margarine).\n\n**(e)** $E_A = 0.2 \\times \\dfrac{20}{79} \\approx 0.05$: a 1% rise in advertising raises sales by about 0.05%; advertising works but demand is very insensitive to it.\n\n> [!answer]\n> $Q_x = 79$; $E_p \\approx -0.25$ (inelastic, raise price → TR up); $E_M \\approx 0.013$ (normal); $E_{xy} \\approx -0.076$ (complements); $E_A \\approx 0.05$.",
+  "explanation": "## Advanced explanation\n\nFor a linear demand function, the point elasticity with respect to any variable $Z$ is $\\dfrac{\\partial Q}{\\partial Z}\\cdot\\dfrac{Z}{Q}$. The sign of income elasticity classifies normal/inferior goods; the sign of cross elasticity classifies substitutes (+) and complements (−).\n\n## Simplified explanation\n\nPlug in the numbers to get 79. Then for each variable multiply its coefficient by (its value ÷ 79). The signs tell you the type of good and the relationship.",
+  "hint": "Each elasticity = coefficient × (variable ÷ Qx).",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the demand equation $Q = 80 - 10P$. Calculate the point-price elasticity of demand ($e_p$) and total revenue (TR) for $P = 0$ to $P = 8$. At what point is TR maximized?",
+  "media": [],
+  "answer": "$e_p = \\dfrac{dQ}{dP}\\cdot\\dfrac{P}{Q} = -10\\dfrac{P}{Q}$; $TR = P \\times Q$.\n\n| P | Q | $e_p$ | TR |\n|---|---|---|---|\n| 0 | 80 | 0 | 0 |\n| 1 | 70 | −0.14 | 70 |\n| 2 | 60 | −0.33 | 120 |\n| 3 | 50 | −0.6 | 150 |\n| 4 | 40 | −1 | **160** |\n| 5 | 30 | −1.67 | 150 |\n| 6 | 20 | −3 | 120 |\n| 7 | 10 | −7 | 70 |\n| 8 | 0 | −∞ | 0 |\n\nTR is **maximised at P = 4, Q = 40 (TR = 160)**, where demand is **unit elastic** ($e_p = -1$).\n\n> [!answer]\n> TR peaks at 160 when P = 4, Q = 40, the unit-elastic midpoint of the demand curve.",
+  "explanation": "## Advanced explanation\n\n$TR = P(80 - 10P) = 80P - 10P^2$; $dTR/dP = 80 - 20P = 0 \\Rightarrow P = 4$. On a linear demand curve elasticity falls from ∞ to 0 moving down the curve; TR rises while demand is elastic (price cuts raise TR) and falls once it is inelastic.\n\n## Simplified explanation\n\nMake a table of P, Q, P × Q. The biggest revenue (160) is at the middle of the demand line, P = 4.",
+  "hint": "TR is maximised where |e| = 1.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why does a decrease in a good's price increase the consumer surplus from consumption of that good?",
+  "media": [],
+  "answer": "Consumer surplus is the difference between what consumers are **willing to pay** and what they **actually pay**. When price falls, (1) existing buyers pay less for the units they already bought, so their surplus on each unit rises, and (2) new units are bought whose value now exceeds the lower price, adding extra surplus. Graphically, the triangle under the demand curve and above the price line gets bigger.\n\n> [!answer]\n> Lower price widens the gap between willingness to pay and price, and more units are bought.",
+  "explanation": "## Advanced explanation\n\n$CS = \\int_0^{Q} D(q)\\,dq - PQ$. A fall from $P_1$ to $P_2$ raises CS by the area to the left of the demand curve between the two prices (a rectangle plus a small triangle).\n\n## Simplified explanation\n\nIf you would pay ₵10 but the price drops from ₵8 to ₵6, your 'bargain' grows from ₵2 to ₵4.",
+  "hint": "CS = willingness to pay − price paid.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Consumer & Producer Surplus",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why does total revenue vary **inversely** with price if demand is relatively price elastic, and **directly** with price if demand is relatively price inelastic?",
+  "media": [],
+  "answer": "$TR = P \\times Q$. If demand is **elastic** ($|E_d| > 1$), the % change in quantity is larger than the % change in price, so the quantity effect dominates: a price rise lowers TR and a price cut raises it (inverse). If demand is **inelastic** ($|E_d| < 1$), the % change in quantity is smaller than the % change in price, so the price effect dominates: a price rise raises TR and a price cut lowers it (direct).\n\n> [!answer]\n> Elastic: %ΔQ > %ΔP, so TR moves opposite to price. Inelastic: %ΔQ < %ΔP, so TR moves with price.",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{dTR}{dP} = Q(1 + E_d)$: negative when $E_d < -1$, positive when $-1 < E_d < 0$. This is the **total revenue test**.\n\n## Simplified explanation\n\nIf buyers are very sensitive, raising the price loses so many sales that revenue falls. If they hardly react, raising the price brings in more money.",
+  "hint": "Compare %ΔQ with %ΔP.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is a linear demand curve more price elastic at higher price ranges and more price inelastic at lower price ranges?",
+  "media": [],
+  "answer": "Elasticity is $E_d = \\dfrac{\\Delta Q}{\\Delta P}\\cdot\\dfrac{P}{Q}$. Along a straight line the slope ($\\Delta Q/\\Delta P$) is constant, but $P/Q$ changes. At high prices, P is large and Q small, so a given change is a **large percentage** of the small quantity and a small percentage of the high price: elastic. At low prices, Q is large and P small, so the same change is a small % of quantity and a large % of price: inelastic. Elasticity is −1 at the midpoint.\n\n> [!answer]\n> Constant slope but changing P/Q: high P/Q at the top (elastic), low P/Q at the bottom (inelastic).",
+  "explanation": "## Advanced explanation\n\nFor $Q = a - bP$: $E_d = -bP/(a - bP)$, which goes from −∞ at the price intercept, through −1 at the midpoint, to 0 at the quantity intercept.\n\n## Simplified explanation\n\nNear the top only a few units are sold, so losing a few is a big percentage; near the bottom many are sold, so the same loss is a small percentage.",
+  "hint": "Slope is constant, elasticity is not.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If demand for some good was **perfectly price inelastic**, how would total revenue from its sales change as its price changed?",
+  "media": [],
+  "answer": "Quantity demanded would not change at all ($E_d = 0$), so **total revenue would change in the same direction and by the same percentage as price**: a 10% price rise raises TR by 10%, a price cut lowers TR proportionately.\n\n> [!answer]\n> TR moves exactly in proportion to price, because quantity stays fixed.",
+  "explanation": "## Advanced explanation\n\nWith a vertical demand curve, $TR = P \\times \\bar Q$, a linear function of price. Sellers face no loss of sales from raising price.\n\n## Simplified explanation\n\nBuyers take the same amount whatever the price, so revenue just follows the price.",
+  "hint": "Q is fixed.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If the cross elasticity of demand between potato chips and popcorn was **positive and large**, would popcorn makers benefit from a tax imposed on potato chips?",
+  "media": [],
+  "answer": "**Yes.** A positive cross elasticity means the goods are **substitutes**, and a large value means close substitutes. A tax raises the price of potato chips, so consumers switch strongly to popcorn: the **demand for popcorn increases**, raising popcorn sales (and probably price), which benefits popcorn makers.\n\n> [!answer]\n> Yes: they are close substitutes, so a tax on chips shifts demand toward popcorn.",
+  "explanation": "## Advanced explanation\n\n$E_{xy} = \\%\\Delta Q_{\\text{popcorn}} / \\%\\Delta P_{\\text{chips}} > 0$ and large: a rise in the price of chips causes a large rise in popcorn demand.\n\n## Simplified explanation\n\nWhen chips get dearer, people buy popcorn instead, so popcorn sellers gain.",
+  "hint": "Positive cross elasticity → substitutes.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "As people's incomes rise, why will they spend an **increasing** portion of their incomes on goods with income elasticities greater than 1 (e.g. DVDs) and a **decreasing** portion on goods with income elasticities less than 1 (e.g. food)?",
+  "media": [],
+  "answer": "Income elasticity $E_M = \\%\\Delta Q / \\%\\Delta M$. If $E_M > 1$ (luxuries), spending on the good grows **faster** than income, so its share of the budget rises. If $0 < E_M < 1$ (necessities such as food), spending grows **more slowly** than income, so its budget share falls, even though absolute spending may still rise (Engel's law).\n\n> [!answer]\n> Budget share rises when spending grows faster than income (E_M > 1) and falls when it grows slower (E_M < 1).",
+  "explanation": "## Advanced explanation\n\nBudget share $s = PQ/M$. With constant prices, $\\%\\Delta s = \\%\\Delta Q - \\%\\Delta M = (E_M - 1)\\%\\Delta M$: positive if $E_M > 1$, negative if $E_M < 1$.\n\n## Simplified explanation\n\nWhen you get richer you don't eat twice as much food, but you do buy many more gadgets and treats, so food takes a smaller share of your money.",
+  "hint": "Compare the growth of spending with the growth of income.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Elasticity",
+   "Tutorial Set IV",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "\"Reducing inflation is a more important objective than economic growth\" is an example of:",
+  "options": [
+   {
+    "text": "Normative economics",
+    "hint": "Correct. It is a value judgement about what is more important."
+   },
+   {
+    "text": "Positive economics",
+    "hint": "It cannot be tested against facts."
+   },
+   {
+    "text": "Objective economics",
+    "hint": "Not a standard category."
+   },
+   {
+    "text": "Reality economics",
+    "hint": "Not a standard category."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Can it be tested with data?",
+  "explanation": "## Advanced explanation\n\n**Normative** statements express value judgements about what *ought* to be (priorities, 'more important', 'should'). **Positive** statements describe what *is* and can be tested.\n\n## Simplified explanation\n\nIt is an opinion about priorities, so it is normative.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "\"All children should have health insurance\" is a",
+  "options": [
+   {
+    "text": "fallacy of composition.",
+    "hint": "That is about wrongly generalising from part to whole."
+   },
+   {
+    "text": "normative statement.",
+    "hint": "Correct. 'Should' signals a value judgement."
+   },
+   {
+    "text": "positive statement.",
+    "hint": "It cannot be tested."
+   },
+   {
+    "text": "post hoc fallacy.",
+    "hint": "That is about mistaking sequence for causation."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Look for 'should'.",
+  "explanation": "## Advanced explanation\n\nStatements containing **should/ought** express value judgements and are **normative**.\n\n## Simplified explanation\n\n'Should' means opinion, so normative.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an example of a **normative** statement?",
+  "options": [
+   {
+    "text": "Households should save more",
+    "hint": "Correct. 'Should' makes it a value judgement."
+   },
+   {
+    "text": "Government spending rose in the 1990s",
+    "hint": "Testable fact: positive."
+   },
+   {
+    "text": "Household consumption is the largest component of spending",
+    "hint": "Testable fact: positive."
+   },
+   {
+    "text": "The business sector is the primary source of jobs",
+    "hint": "Testable fact: positive."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Find the 'should'.",
+  "explanation": "## Advanced explanation\n\nOptions B–D can be checked against data (positive). 'Households should save more' expresses an opinion (normative).\n\n## Simplified explanation\n\nOnly option A is an opinion.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Economic models",
+  "options": [
+   {
+    "text": "simplify reality.",
+    "hint": "Correct. Models abstract from detail to focus on key relationships."
+   },
+   {
+    "text": "include all relevant facts.",
+    "hint": "Then they would be as complex as reality."
+   },
+   {
+    "text": "are essentially different from those used in other sciences.",
+    "hint": "Economics uses models just as other sciences do."
+   },
+   {
+    "text": "always use graphs.",
+    "hint": "Models can be verbal, algebraic or graphical."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "A map is not the territory.",
+  "explanation": "## Advanced explanation\n\nA model is a **simplified representation** of reality built on assumptions; it abstracts from detail to highlight the relationships that matter for a question.\n\n## Simplified explanation\n\nModels are simple versions of the real world.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Holding all variables except one constant and assessing the impact of the one variable that has changed is an example of using",
+  "options": [
+   {
+    "text": "normative economic analysis.",
+    "hint": "Normative analysis is about value judgements."
+   },
+   {
+    "text": "a flawed economic model.",
+    "hint": "It is standard method, not a flaw."
+   },
+   {
+    "text": "the ceteris paribus assumption.",
+    "hint": "Correct. Ceteris paribus = 'other things equal'."
+   },
+   {
+    "text": "an untestable proposition.",
+    "hint": "It makes propositions testable."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Latin for 'other things being equal'.",
+  "explanation": "## Advanced explanation\n\n**Ceteris paribus** isolates the effect of one variable by holding all others constant, e.g. the law of demand holds income, tastes and other prices fixed.\n\n## Simplified explanation\n\nChange one thing, keep everything else the same: ceteris paribus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Positive and normative statements differ in that",
+  "options": [
+   {
+    "text": "normative statements can be tested, whereas positive statements cannot.",
+    "hint": "Reversed."
+   },
+   {
+    "text": "normative statements depict \"what is\" and positive statements depict \"what ought to be.\"",
+    "hint": "Reversed."
+   },
+   {
+    "text": "positive statements can be tested, whereas normative statements cannot.",
+    "hint": "Correct. Positive = testable facts; normative = value judgements."
+   },
+   {
+    "text": "positive statements can be graphed, whereas normative statements cannot.",
+    "hint": "Graphing is not the distinction."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which kind can be checked against evidence?",
+  "explanation": "## Advanced explanation\n\nPositive statements describe **what is** and can be tested against evidence; normative statements describe **what ought to be** and rest on values.\n\n## Simplified explanation\n\nPositive = can check with facts; normative = opinion.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most fundamental economic problem is",
+  "options": [
+   {
+    "text": "Security",
+    "hint": "Not the core problem."
+   },
+   {
+    "text": "Scarcity",
+    "hint": "Correct. Unlimited wants vs limited resources."
+   },
+   {
+    "text": "Opportunity cost",
+    "hint": "A consequence of scarcity."
+   },
+   {
+    "text": "Trade-Off",
+    "hint": "A consequence of scarcity."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Everything else follows from it.",
+  "explanation": "## Advanced explanation\n\n**Scarcity**, limited resources relative to unlimited wants, forces choice; choices involve trade-offs, and the value of the best alternative forgone is opportunity cost.\n\n## Simplified explanation\n\nBecause we cannot have everything, we must choose: scarcity is the root problem.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "On Saturday morning, you rank your choices for activities in the following order: go to the library, work out at the gym, have breakfast with friends, and sleep late. Suppose you decide to go to the library. Your opportunity cost is ______.",
+  "options": [
+   {
+    "text": "working out at the gym, having breakfast with friends, and sleeping late",
+    "hint": "Opportunity cost is only the next best alternative."
+   },
+   {
+    "text": "zero because you do not have to pay money to use the library",
+    "hint": "Opportunity cost need not be money."
+   },
+   {
+    "text": "working out at the gym.",
+    "hint": "Correct. The gym is the next best alternative forgone."
+   },
+   {
+    "text": "not clear because not enough information is given.",
+    "hint": "The ranking gives enough information."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Only the next best alternative counts.",
+  "explanation": "## Advanced explanation\n\nOpportunity cost is the value of the **single next-best alternative** forgone. You cannot do all the alternatives with the same time, so only the second-ranked choice (the gym) is given up.\n\n## Simplified explanation\n\nYour second choice, the gym, is what you give up.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Opportunity Cost",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements about factors of production is **false**?",
+  "options": [
+   {
+    "text": "The term 'factors of production' is another term for resources",
+    "hint": "True."
+   },
+   {
+    "text": "The factor of production termed labour means human resources",
+    "hint": "True."
+   },
+   {
+    "text": "The factor of production termed land means natural resources",
+    "hint": "True."
+   },
+   {
+    "text": "The factor of production termed capital means the money that the owners of firms need to set their firms up",
+    "hint": "Correct. False: capital means man-made means of production (machines, buildings), not money."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "In economics, capital is not money.",
+  "explanation": "## Advanced explanation\n\nIn economics **capital** means produced means of production (machinery, tools, buildings, infrastructure). Money is financial capital and is not itself a factor of production.\n\n## Simplified explanation\n\nCapital = machines and buildings, not cash.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Factors of Production",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements about the use of resources is **not** one of the key questions in economics?",
+  "options": [
+   {
+    "text": "How are resources used?",
+    "hint": "How to produce: a key question."
+   },
+   {
+    "text": "Where are resources used?",
+    "hint": "Correct. Not one of the three basic questions."
+   },
+   {
+    "text": "For what are resources used?",
+    "hint": "What to produce: a key question."
+   },
+   {
+    "text": "For whom are resources used?",
+    "hint": "For whom to produce: a key question."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What, how and for whom.",
+  "explanation": "## Advanced explanation\n\nEvery economy must answer **what** to produce, **how** to produce and **for whom** to produce. 'Where' is not one of these basic questions.\n\n## Simplified explanation\n\nThe three questions are what, how and for whom.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The circular flow model for goods and services is where\n\ni. the households sell their factors of production to the factor market where they are purchased by firms\nii. firms consume goods and services offered on the goods market\niii. firms combine factors of production and produce goods and services\niv. goods and services are offered for sale on the factor market",
+  "options": [
+   {
+    "text": "Only i",
+    "hint": "iii is also true."
+   },
+   {
+    "text": "Only i and iii",
+    "hint": "Correct. Households sell factors; firms combine them to produce."
+   },
+   {
+    "text": "Only i, iii, and iv",
+    "hint": "iv is false: goods are sold in the product market."
+   },
+   {
+    "text": "Only iv",
+    "hint": "iv is false."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Households consume; firms produce.",
+  "explanation": "## Advanced explanation\n\nIn the simple circular flow, households supply factors in the **factor market** and buy goods in the **product market**; firms hire factors and combine them to produce goods sold in the product market. So ii (firms consume goods) and iv (goods sold in factor market) are false.\n\n## Simplified explanation\n\nHouseholds sell labour etc. to firms; firms make goods. Only i and iii are correct.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Circular Flow",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Who earns money and spends their income on goods and services?",
+  "options": [
+   {
+    "text": "Firms",
+    "hint": "Firms earn revenue and buy factors."
+   },
+   {
+    "text": "Businesses",
+    "hint": "Same as firms."
+   },
+   {
+    "text": "Households",
+    "hint": "Correct. Households earn factor incomes and spend on goods."
+   },
+   {
+    "text": "Schools",
+    "hint": "Not a sector of the simple model."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Circular flow.",
+  "explanation": "## Advanced explanation\n\n**Households** earn income (wages, rent, interest, profit) by selling factor services and spend it on goods and services in the product market.\n\n## Simplified explanation\n\nPeople (households) earn wages and spend them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Circular Flow",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the role of firms in the circular flow of income?",
+  "options": [
+   {
+    "text": "To purchase goods",
+    "hint": "Households purchase goods."
+   },
+   {
+    "text": "To produce goods",
+    "hint": "Correct. Firms hire factors and produce goods and services."
+   },
+   {
+    "text": "To earn income through wages",
+    "hint": "Households earn wages."
+   },
+   {
+    "text": "To provide capital",
+    "hint": "Households own and supply factors, including capital."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Firms are producers.",
+  "explanation": "## Advanced explanation\n\nFirms buy factor services from households and **produce goods and services** sold to households, paying factor incomes in return.\n\n## Simplified explanation\n\nFirms make the goods.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Circular Flow",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is **not** required for a country to be producing at a point on its production possibility frontier?",
+  "options": [
+   {
+    "text": "Full employment of labour.",
+    "hint": "Required: unemployed resources put you inside the frontier."
+   },
+   {
+    "text": "All producers use the latest technology",
+    "hint": "Required: the frontier assumes the best available technology."
+   },
+   {
+    "text": "Stable prices.",
+    "hint": "Correct. Price stability is not a condition for being on the PPF."
+   },
+   {
+    "text": "All producers have productive efficiency.",
+    "hint": "Required: inefficiency puts you inside."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Being on the PPF = full and efficient use of resources.",
+  "explanation": "## Advanced explanation\n\nA point on the PPF requires **full employment** of resources and **productive efficiency** using the best available technology. The price level is irrelevant to the physical production frontier.\n\n## Simplified explanation\n\nThe PPF is about using all resources well; prices don't matter.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is true?",
+  "options": [
+   {
+    "text": "The production possibility frontier is steeper at the right end than the left because some resources are better suited to making some products than others.",
+    "hint": "Correct. Bowed-out PPF gets steeper as you move right: increasing opportunity cost."
+   },
+   {
+    "text": "The production possibility frontier is straight because some resources are better suited to making some products than others.",
+    "hint": "Specialised resources make it bowed out, not straight."
+   },
+   {
+    "text": "The production possibility frontier is steeper at the left end than the right because some resources are better suited to making some products than others.",
+    "hint": "A concave PPF is flatter at the left end."
+   },
+   {
+    "text": "The production possibility passes the point which represents total wants in the economy.",
+    "hint": "Wants are unlimited; the PPF shows what is possible."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Increasing opportunity cost makes the curve bowed out.",
+  "explanation": "## Advanced explanation\n\nBecause resources are not equally suited to all products, producing more of the good on the horizontal axis requires giving up ever more of the other good: the slope (opportunity cost) increases, so the concave PPF is **steeper at the right end**.\n\n## Simplified explanation\n\nThe more of one good you make, the more of the other you give up for each extra unit, so the curve gets steeper to the right.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following will **not** shift a country's production possibility frontier?",
+  "options": [
+   {
+    "text": "A fall in unemployment",
+    "hint": "Correct. This moves the economy towards the frontier, not the frontier itself."
+   },
+   {
+    "text": "An increase in the age at which people retire",
+    "hint": "Increases the labour force: shifts outward."
+   },
+   {
+    "text": "The introduction of improved technology",
+    "hint": "Shifts outward."
+   },
+   {
+    "text": "Purchases of new capital by firms",
+    "hint": "More capital shifts it outward."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Using existing resources more fully vs having more resources.",
+  "explanation": "## Advanced explanation\n\nThe PPF shifts when the **quantity or quality of resources or technology** changes. A fall in unemployment uses existing resources more fully: a movement from inside toward the frontier.\n\n## Simplified explanation\n\nFewer unemployed moves the point closer to the curve; the curve itself stays put.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following policies would increase production by taking it to a point closer to the production possibility frontier, but would **not** shift the frontier?",
+  "options": [
+   {
+    "text": "A policy that encouraged firms to buy more industrial plants",
+    "hint": "More capital shifts the frontier."
+   },
+   {
+    "text": "A policy that encouraged firms to develop and introduce improved technology",
+    "hint": "New technology shifts the frontier."
+   },
+   {
+    "text": "A policy that encouraged firms to buy more machinery",
+    "hint": "More capital shifts the frontier."
+   },
+   {
+    "text": "A policy that encouraged firms to adopt better technologies that are already available",
+    "hint": "Correct. The PPF already assumes the best available technology; adopting it removes inefficiency."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The frontier is drawn with the best technology already available.",
+  "explanation": "## Advanced explanation\n\nThe PPF assumes resources are used with the **best available** technology. Firms using inferior methods are inside the frontier; adopting existing better methods moves them towards it. New technology or more capital would shift the frontier outward.\n\n## Simplified explanation\n\nUsing techniques that already exist just catches up to the curve; inventing new ones or adding machines moves the curve.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is a **positive** statement?",
+  "options": [
+   {
+    "text": "Bankers' bonuses should be taxed.",
+    "hint": "'Should': normative."
+   },
+   {
+    "text": "The eurozone ought to allow member countries in difficulty to stop using the euro and use currencies of their own instead.",
+    "hint": "'Ought': normative."
+   },
+   {
+    "text": "One of the largest industries in the UK is the financial services industry.",
+    "hint": "Correct. A testable factual claim."
+   },
+   {
+    "text": "The UK government ought to split up some of the largest UK banks to promote more competition in the banking industry.",
+    "hint": "'Ought': normative."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one can be checked with data?",
+  "explanation": "## Advanced explanation\n\nPositive statements are testable claims about what is. Only C can be checked against industry statistics.\n\n## Simplified explanation\n\nOnly C is a fact you can check.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following types of goods does **not** change its demand significantly when income levels change?",
+  "options": [
+   {
+    "text": "Normal goods",
+    "hint": "Demand rises with income."
+   },
+   {
+    "text": "Neutral goods",
+    "hint": "Correct. Income elasticity ≈ 0: demand barely responds to income."
+   },
+   {
+    "text": "Giffen goods",
+    "hint": "Giffen goods are about price, and are inferior."
+   },
+   {
+    "text": "Zero good",
+    "hint": "Not a standard category."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Income elasticity close to zero.",
+  "explanation": "## Advanced explanation\n\nGoods whose demand is insensitive to income have an income elasticity close to zero; they are sometimes called **neutral** (income-neutral) goods, e.g. salt.\n\n## Simplified explanation\n\nIf income changes but you buy the same amount, it's a neutral good.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Elasticity",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Victor's Company Limited is known for the production of Cupcakes and Robots. The following is a PPF for Victor's Company Limited:\n\n| Point | A | B | C | D | E | F | G | H | I | J |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Cupcakes | 0 | 2 | 6 | 10 | 14 | 18 | 22 | 26 | 28 | 30 |\n| Robots | 30 | 28 | 26 | 22 | 18 | 14 | 10 | 6 | 2 | 0 |\n\n(a) Draw and label the PPF for the company (each axis and each point). Put cupcakes on the Y axis.\n(b) Indicate on the graph with a Point K that shows where inefficient production occurs.\n(c) Calculate the opportunity cost for the company if they choose to increase production of Cupcakes from point H to point I. Explain your answer.\n(d) Is the PPF curve concave or convex? Explain why.",
+  "media": [],
+  "answer": "**(a)** Robots on the horizontal axis (0–30), cupcakes on the vertical axis (0–30). Plot A(30 robots, 0 cupcakes), B(28, 2), C(26, 6), D(22, 10), E(18, 14), F(14, 18), G(10, 22), H(6, 26), I(2, 28), J(0, 30) and join them.\n\n**(b)** Any point **inside** the curve, e.g. **K = (10 robots, 10 cupcakes)**: the firm could produce more of both, so resources are idle or misused.\n\n**(c)** H → I: cupcakes rise 26 → 28 (+2); robots fall 6 → 2 (−4). Opportunity cost $= 4$ robots for 2 cupcakes $= $ **2 robots per cupcake**.\n\n**(d)** **Concave (bowed out from the origin).** Every interior point lies beyond the straight line joining A and J (robots + cupcakes = 32 at C–H vs 30 on the line). Moving toward more cupcakes, the opportunity cost per cupcake is around 1 robot in the middle but rises to 2 robots near H–I. Resources are not equally suited to both products, so shifting more of them into cupcakes means giving up increasing amounts of robots (law of increasing opportunity cost).\n\n> [!answer]\n> K is any point inside the curve; H→I costs 4 robots for 2 cupcakes (2 robots each); the PPF is concave because of increasing opportunity cost.",
+  "explanation": "## Advanced explanation\n\nThe slope of the PPF is the marginal rate of transformation. A concave PPF means the MRT rises along the curve, reflecting **specialised resources**. A straight PPF would imply constant opportunity cost.\n\n## Simplified explanation\n\nPlot the ten points and join them. Going from H to I you gain 2 cupcakes but lose 4 robots, so each cupcake costs 2 robots. The curve bulges outwards.",
+  "hint": "Opportunity cost = units given up ÷ units gained.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Production Possibilities",
+   "Opportunity Cost",
+   "Group 28 & 31 Quiz 1",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: ________ occurs because our unlimited wants exceed our limited resources.",
+  "media": [],
+  "answer": "**Scarcity**.\n\n> [!answer]\n> Scarcity",
+  "explanation": "## Advanced explanation\n\nScarcity is the condition in which wants exceed the resources available to satisfy them; it forces choice.\n\n## Simplified explanation\n\nNot enough to go round = scarcity.",
+  "hint": "The basic economic problem.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: Because of the complexity of human behaviour, economists must ________ to focus on the most important components of a particular problem.",
+  "media": [],
+  "answer": "**abstract** (i.e. build simplified models/theories).\n\n> [!answer]\n> abstract",
+  "explanation": "## Advanced explanation\n\nAbstraction means leaving out detail that is not essential to the question. Economic models and theories are abstractions of reality.\n\n## Simplified explanation\n\nEconomists leave out details and keep what matters most.",
+  "hint": "Simplify.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: To isolate the effects of one variable on another, economists invoke the ________ assumption.",
+  "media": [],
+  "answer": "**ceteris paribus** ('other things being equal').\n\n> [!answer]\n> ceteris paribus",
+  "explanation": "## Advanced explanation\n\nHolding all other relevant variables constant lets the economist identify the effect of one variable, e.g. price on quantity demanded.\n\n## Simplified explanation\n\nKeep everything else the same.",
+  "hint": "Latin phrase.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: The objective, value-free approach to economics, based on the scientific method, is called ________ analysis.",
+  "media": [],
+  "answer": "**positive**.\n\n> [!answer]\n> positive",
+  "explanation": "## Advanced explanation\n\nPositive analysis describes and predicts using testable statements; normative analysis adds value judgements.\n\n## Simplified explanation\n\nFact-based economics is positive economics.",
+  "hint": "Opposite of normative.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: ________ means that two things are related; ________ means that one thing caused the other to occur.",
+  "media": [],
+  "answer": "**Correlation**; **causation**.\n\n> [!answer]\n> correlation; causation",
+  "explanation": "## Advanced explanation\n\nCorrelation does not imply causation: two variables may move together because of a third factor or by coincidence. Mistaking correlation for causation is a common pitfall (related to the post hoc fallacy).\n\n## Simplified explanation\n\nMoving together is correlation; one making the other happen is causation.",
+  "hint": "Related vs caused.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: The scarce resources that are used in the production of goods and services can be grouped into four categories: ________, ________, ________ and ________.",
+  "media": [],
+  "answer": "**Land**, **labour**, **capital** and **entrepreneurship** (enterprise).\n\n> [!answer]\n> land, labour, capital, entrepreneurship",
+  "explanation": "## Advanced explanation\n\nTheir rewards are rent, wages, interest and profit respectively.\n\n## Simplified explanation\n\nNatural resources, workers, machines, and the people who organise them.",
+  "hint": "Four factors of production.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Factors of Production",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: The highest or best forgone alternative resulting from a decision is called the ________.",
+  "media": [],
+  "answer": "**opportunity cost**.\n\n> [!answer]\n> opportunity cost",
+  "explanation": "## Advanced explanation\n\nOpportunity cost is the value of the next-best alternative given up when a choice is made.\n\n## Simplified explanation\n\nWhat you give up to get something.",
+  "hint": "What you give up.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Opportunity Cost",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: Sometimes a painful trade-off exists between how much an economy can produce (________) and how that output is ________.",
+  "media": [],
+  "answer": "**efficiency**; **distributed** (**equity**).\n\n> [!answer]\n> efficiency; distributed (equity)",
+  "explanation": "## Advanced explanation\n\nThe **efficiency–equity trade-off**: policies that redistribute income (taxes, transfers) can weaken incentives and reduce total output.\n\n## Simplified explanation\n\nMaking the cake bigger vs sharing it fairly.",
+  "hint": "Efficiency vs equity.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: If an economy is operating ________ its production possibilities curve, it is not at full capacity and is operating ________. Such an economy's actual output is less than ________ output.",
+  "media": [],
+  "answer": "**inside**; **inefficiently**; **potential**.\n\n> [!answer]\n> inside; inefficiently; potential",
+  "explanation": "## Advanced explanation\n\nPoints inside the PPC reflect unemployment or misallocation of resources; actual output is below potential output.\n\n## Simplified explanation\n\nInside the curve means wasted resources and less output than possible.",
+  "hint": "Points inside the PPC.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: A technological ________ is most likely to shift the production possibilities curve outward.",
+  "media": [],
+  "answer": "**advance** (improvement).\n\n> [!answer]\n> advance",
+  "explanation": "## Advanced explanation\n\nTechnological progress raises the output obtainable from given resources, shifting the PPC outward (economic growth).\n\n## Simplified explanation\n\nBetter technology lets you make more of everything.",
+  "hint": "Better methods.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: Buyers determine the ________ side of the market; sellers determine the ________ side of the market.",
+  "media": [],
+  "answer": "**demand**; **supply**.\n\n> [!answer]\n> demand; supply",
+  "explanation": "## Advanced explanation\n\nMarket demand aggregates buyers' plans; market supply aggregates sellers' plans.\n\n## Simplified explanation\n\nBuyers = demand, sellers = supply.",
+  "hint": "Who wants vs who offers.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: If the demand for *koobi* is downward sloping, then an increase in the price of koobi will result in a(n) ________.",
+  "media": [],
+  "answer": "**decrease in the quantity demanded** of koobi (a movement up along the demand curve).\n\n> [!answer]\n> decrease in quantity demanded",
+  "explanation": "## Advanced explanation\n\nA change in the good's own price causes a movement along the curve, not a shift.\n\n## Simplified explanation\n\nHigher price → people buy less koobi.",
+  "hint": "Law of demand.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: A change in the price of the good itself causes a change in ________, and a change in the price of related goods and services causes a change in ________.",
+  "media": [],
+  "answer": "**quantity demanded**; **demand**.\n\n> [!answer]\n> quantity demanded; demand",
+  "explanation": "## Advanced explanation\n\nOwn price → movement along the curve (quantity demanded). Other determinants (prices of related goods, income, tastes, expectations, number of buyers) → shift of the curve (demand).\n\n## Simplified explanation\n\nOwn price moves you along the curve; other things shift the curve.",
+  "hint": "Movement vs shift.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: Two commodities are seen as complements whenever the price of one commodity ________, the demand for the other ________.",
+  "media": [],
+  "answer": "**increases** (rises); **decreases** (falls). (Equivalently: falls; rises.)\n\n> [!answer]\n> increases; decreases",
+  "explanation": "## Advanced explanation\n\nComplements have negative cross-price elasticity: a rise in the price of one reduces demand for the other.\n\n## Simplified explanation\n\nIf fuel gets dearer, people want fewer cars.",
+  "hint": "Goods used together.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: A market will experience a ________ in a situation where quantity supplied exceeds quantity demanded and a ________ in a situation where quantity demanded exceeds quantity supplied.",
+  "media": [],
+  "answer": "**surplus**; **shortage**.\n\n> [!answer]\n> surplus; shortage",
+  "explanation": "## Advanced explanation\n\nA surplus (excess supply) occurs above equilibrium; a shortage (excess demand) occurs below it.\n\n## Simplified explanation\n\nToo much on offer = surplus; too little = shortage.",
+  "hint": "Excess supply vs excess demand.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: An individual supply curve is a graphical representation that shows the ________ relationship between the price and the quantity supplied.",
+  "media": [],
+  "answer": "**positive (direct)**.\n\n> [!answer]\n> positive (direct)",
+  "explanation": "## Advanced explanation\n\nThe law of supply: other things equal, higher prices lead sellers to offer more, so the supply curve slopes upward.\n\n## Simplified explanation\n\nHigher price → more supplied.",
+  "hint": "Law of supply.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: The price at the intersection of the market demand curve and the market supply curve is called the ________ price, and the quantity is called the ________ quantity.",
+  "media": [],
+  "answer": "**equilibrium**; **equilibrium**.\n\n> [!answer]\n> equilibrium; equilibrium",
+  "explanation": "## Advanced explanation\n\nAt equilibrium, quantity demanded equals quantity supplied, so there is no pressure on price to change.\n\n## Simplified explanation\n\nWhere the lines cross is equilibrium.",
+  "hint": "Market-clearing.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: A situation where quantity supplied is greater than quantity demanded is called a(n) ________.",
+  "media": [],
+  "answer": "**surplus** (excess supply).\n\n> [!answer]\n> surplus",
+  "explanation": "## Advanced explanation\n\nA surplus puts downward pressure on price until the market clears.\n\n## Simplified explanation\n\nMore on offer than wanted = surplus.",
+  "hint": "Excess supply.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: If both the demand and supply increase, the equilibrium quantity ________ and the equilibrium price is ________.",
+  "media": [],
+  "answer": "**increases**; **indeterminate** (it may rise, fall or stay the same depending on which shift is larger).\n\n> [!answer]\n> increases; indeterminate",
+  "explanation": "## Advanced explanation\n\nDemand ↑ raises P and Q; supply ↑ lowers P and raises Q. Q rises for sure; the effect on P depends on the relative size of the shifts.\n\n## Simplified explanation\n\nBoth shifts mean more is sold; the price effect depends on which shift is bigger.",
+  "hint": "Both shifts push quantity the same way.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fill in the blank: If supply decreases and demand increases, the equilibrium price will ________ and the equilibrium quantity will be ________.",
+  "media": [],
+  "answer": "**increase**; **indeterminate** (may rise, fall or stay the same).\n\n> [!answer]\n> increase; indeterminate",
+  "explanation": "## Advanced explanation\n\nDemand ↑ raises P; supply ↓ raises P, so P rises for sure. Demand ↑ raises Q but supply ↓ lowers Q, so the quantity change depends on the relative shifts.\n\n## Simplified explanation\n\nBoth changes push the price up; quantity could go either way.",
+  "hint": "Both shifts push price the same way.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "Quiz 1 (April 2022)",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose that the market demand curve for wrist watches in Bonzie's town is\n\n$D = 80 - 2P + 5I$\n\nwhere D is quantity demanded per month, P is price per wrist watch and I is consumer income (in tens of thousands of cedis). The supply curve is $S = 2P$, where S is the quantity supplied per month.\n\n(a) According to this model, are wrist watches a normal or inferior good?\n(b) Suppose $I = 3$. Find the equilibrium price and quantity of wrist watches.\n(c) Due to recession, I falls to 2. What happens in the wrist watch market?",
+  "media": [],
+  "answer": "**(a)** The coefficient on income is **+5**: demand rises with income, so wrist watches are a **normal good**.\n\n**(b)** $D = 80 - 2P + 15 = 95 - 2P$. $95 - 2P = 2P \\Rightarrow P^* = 23.75$, $Q^* = 47.5$.\n\n**(c)** $D = 90 - 2P$; $90 - 2P = 2P \\Rightarrow P = 22.5$, $Q = 45$. Demand shifts **left**, so equilibrium price falls (23.75 → 22.5) and quantity falls (47.5 → 45).\n\n> [!answer]\n> Normal good; $P^* = 23.75$, $Q^* = 47.5$; after the recession $P = 22.5$, $Q = 45$.",
+  "explanation": "## Advanced explanation\n\nA positive income coefficient implies positive income elasticity (normal good). A fall in income shifts demand left along an unchanged supply curve, lowering both P and Q.\n\n## Simplified explanation\n\nHigher income → more watches bought, so they are normal goods. When income drops, fewer people buy and the price falls.",
+  "hint": "Substitute the income value first.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Market Equilibrium",
+   "2022/23 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Diagrammatically, explain why there is no exchange in the area where the supply curve is above the demand curve.",
+  "media": [],
+  "answer": "Draw an upward-sloping supply curve and a downward-sloping demand curve crossing at equilibrium E. To the **right** of E the supply curve lies above the demand curve. For each of those units, the **minimum price sellers will accept** (the height of the supply curve, their marginal cost) is **greater than the maximum price buyers are willing to pay** (the height of the demand curve, their marginal benefit). No price can satisfy both sides, so no mutually beneficial trade exists and those units are not exchanged. Trade takes place only up to $Q^*$, where demand price ≥ supply price.\n\n> [!answer]\n> Beyond equilibrium, sellers' minimum acceptable price exceeds buyers' maximum willingness to pay, so no voluntary trade is possible.",
+  "explanation": "## Advanced explanation\n\nThe demand curve measures **marginal benefit** and the supply curve **marginal cost**. Exchange of a unit creates surplus only if $MB \\ge MC$. Where $MC > MB$, producing and trading the unit would destroy value, so voluntary exchange does not occur.\n\n## Simplified explanation\n\nFor those units, buyers would pay less than sellers need to cover their cost, so no deal happens.",
+  "hint": "Compare willingness to pay with the minimum acceptable price.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Market Equilibrium",
+   "2022/23 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "It has been said that if government wishes to tax certain goods, it should tax goods that have **inelastic** demand rather than elastic demand. What is the rationale for this statement?",
+  "media": [],
+  "answer": "When demand is **inelastic**, quantity bought falls only a little when the tax raises the price, so: (1) the tax **base stays large and revenue is high and predictable**; (2) the **deadweight loss** (inefficiency) is small because consumption is barely distorted. With elastic demand, buyers cut purchases sharply, so revenue is low and the efficiency loss is large. (A side effect is that consumers bear most of the tax burden.)\n\n> [!answer]\n> Inelastic demand → small fall in quantity → more revenue and smaller deadweight loss.",
+  "explanation": "## Advanced explanation\n\nTax revenue $= t \\times Q_{\\text{after tax}}$. Deadweight loss ≈ $\\tfrac12 t \\Delta Q$, which is small when $\\Delta Q$ is small. This is the logic of the **Ramsey rule**: tax goods with inelastic demand more heavily.\n\n## Simplified explanation\n\nPeople keep buying goods they really need even when taxed, so the government collects more and the market is disturbed less.",
+  "hint": "What happens to quantity when price rises?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Taxes & Incidence",
+   "Elasticity",
+   "2022/23 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The Department of Applied Economics raised its annual tuition from GHC 2,000 to GHC 2,500, and its student enrollment fell from 4,877 to 4,705. Compute the price elasticity of demand. Is the demand elastic or inelastic?",
+  "media": [],
+  "answer": "Midpoint (arc) formula:\n\n$\\%\\Delta Q = \\dfrac{4705 - 4877}{(4877+4705)/2} = \\dfrac{-172}{4791} = -3.59\\%$\n\n$\\%\\Delta P = \\dfrac{2500 - 2000}{(2000+2500)/2} = \\dfrac{500}{2250} = 22.22\\%$\n\n$E_d = \\dfrac{-3.59}{22.22} \\approx -0.16$\n\n(Simple percentage method: $(-172/4877)/(500/2000) = -0.141$.)\n\n$|E_d| < 1$, so demand is **inelastic**: the 25% fee rise cut enrollment by under 4%, and total tuition revenue rose.\n\n> [!answer]\n> $E_d \\approx -0.16$ (arc), inelastic.",
+  "explanation": "## Advanced explanation\n\nThe arc formula avoids the asymmetry of choosing a base. Inelastic demand for tuition reflects few close substitutes and the high value of the qualification. Revenue: 2,000 × 4,877 = 9.75 m vs 2,500 × 4,705 = 11.76 m, consistent with the total revenue test.\n\n## Simplified explanation\n\nFees went up a lot but students hardly fell, so demand is inelastic.",
+  "hint": "Use the midpoint formula.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Elasticity",
+   "2022/23 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The idea of opportunity cost:",
+  "options": [
+   {
+    "text": "applies to consumers, but not to businesses.",
+    "hint": "Businesses also face choices."
+   },
+   {
+    "text": "applies to businesses, but not to consumers.",
+    "hint": "Consumers also face choices."
+   },
+   {
+    "text": "is relevant to economies of all ideological persuasions.",
+    "hint": "Correct. Scarcity, and hence opportunity cost, exists in every economic system."
+   },
+   {
+    "text": "would disappear if we were able to eliminate poverty.",
+    "hint": "Scarcity remains even without poverty."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Scarcity is universal.",
+  "explanation": "## Advanced explanation\n\nOpportunity cost arises from **scarcity**, which affects every individual, firm and society, whether capitalist, socialist or mixed. Ending poverty would not end scarcity, since wants remain unlimited.\n\n## Simplified explanation\n\nEvery economy has to choose, so every economy faces opportunity cost.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Opportunity Cost",
+   "2022/23 Quiz 2",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When economists say that people act rationally in their self-interest, they mean that individuals:",
+  "options": [
+   {
+    "text": "look for and pursue opportunities to increase their utility.",
+    "hint": "Correct. Rational self-interest = purposeful pursuit of greater satisfaction."
+   },
+   {
+    "text": "generally, disregard the interests of others.",
+    "hint": "Self-interest is not selfishness; people may value others' welfare."
+   },
+   {
+    "text": "are mainly creatures of habit.",
+    "hint": "Habit is not the economic assumption."
+   },
+   {
+    "text": "are unpredictable.",
+    "hint": "Rationality makes behaviour broadly predictable."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Rational = purposeful.",
+  "explanation": "## Advanced explanation\n\nThe economic perspective assumes people make **purposeful choices** that compare marginal benefits and costs in order to increase their utility. Self-interest is not the same as selfishness: giving to charity can raise a person's utility.\n\n## Simplified explanation\n\nPeople try to make themselves better off.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Perspective",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The study of economics is primarily concerned with:",
+  "options": [
+   {
+    "text": "keeping private businesses from losing money.",
+    "hint": "That is business management."
+   },
+   {
+    "text": "demonstrating that capitalistic economies are superior to socialistic economies.",
+    "hint": "That is a normative claim, not the subject itself."
+   },
+   {
+    "text": "choices that are made in seeking to use scarce resources efficiently.",
+    "hint": "Correct. Economics studies choice under scarcity."
+   },
+   {
+    "text": "determining the most equitable distribution of society's output.",
+    "hint": "Only one normative issue within economics."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Scarcity and choice.",
+  "explanation": "## Advanced explanation\n\nEconomics is the social science of how individuals, institutions and society make **optimal choices under conditions of scarcity**.\n\n## Simplified explanation\n\nEconomics is about choosing how to use limited resources well.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following terms implies the **least** degree of confidence in an economic generalization?",
+  "options": [
+   {
+    "text": "a hypothesis",
+    "hint": "Correct. An untested proposition: least confidence."
+   },
+   {
+    "text": "a theory",
+    "hint": "A tested, well-supported explanation."
+   },
+   {
+    "text": "a principle",
+    "hint": "A widely accepted generalisation."
+   },
+   {
+    "text": "a law",
+    "hint": "A highly reliable regularity."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which has not yet been tested?",
+  "explanation": "## Advanced explanation\n\nA **hypothesis** is a tentative, untested explanation. When repeatedly supported by evidence it becomes a theory, principle or law (in increasing order of confidence).\n\n## Simplified explanation\n\nA hypothesis is just an educated guess not yet tested.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Economic theories:",
+  "options": [
+   {
+    "text": "are useless because they are not based on laboratory experimentation.",
+    "hint": "Economists test theories with real-world data."
+   },
+   {
+    "text": "that are true for individual economic units are never true for the economy as a whole.",
+    "hint": "'Never' is too strong; this confuses the fallacy of composition."
+   },
+   {
+    "text": "are generalizations based on a careful observation of facts.",
+    "hint": "Correct. Theories are systematic generalisations from facts."
+   },
+   {
+    "text": "are abstractions and therefore of no application to real situations.",
+    "hint": "Abstraction makes theories useful, not useless."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Theories come from organised facts.",
+  "explanation": "## Advanced explanation\n\nEconomic theories are **generalisations** derived from systematically observed facts, tested against evidence and used to explain and predict.\n\n## Simplified explanation\n\nTheories sum up patterns seen in the facts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Productive efficiency refers to:",
+  "options": [
+   {
+    "text": "the use of the least-cost method of production.",
+    "hint": "Correct. Producing at minimum average total cost."
+   },
+   {
+    "text": "the production of the product-mix most wanted by society.",
+    "hint": "That is allocative efficiency."
+   },
+   {
+    "text": "the full employment of all available resources.",
+    "hint": "That is full employment."
+   },
+   {
+    "text": "production at some point inside of the production possibilities curve.",
+    "hint": "Inside the curve is inefficient."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Productive vs allocative.",
+  "explanation": "## Advanced explanation\n\n**Productive efficiency**: goods are produced at the lowest possible cost (minimum ATC). **Allocative efficiency**: the mix of goods is the one society values most ($P = MC$).\n\n## Simplified explanation\n\nMaking things in the cheapest way = productive efficiency.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Efficiency",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The production possibilities curve tells us:",
+  "options": [
+   {
+    "text": "the specific combination of two products that is most desired by society.",
+    "hint": "The PPC shows options, not preferences."
+   },
+   {
+    "text": "that costs do not change as society varies its output.",
+    "hint": "A bowed-out PPC shows increasing costs."
+   },
+   {
+    "text": "costs are irrelevant in a society that has fixed resources.",
+    "hint": "Costs are central to the PPC."
+   },
+   {
+    "text": "the combinations of two goods that can be produced with society's available resources.",
+    "hint": "Correct. Definition of the PPC."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Definition of the PPC.",
+  "explanation": "## Advanced explanation\n\nThe PPC shows the **maximum combinations** of two goods an economy can produce with its fixed resources and technology, fully and efficiently employed.\n\n## Simplified explanation\n\nIt shows all the possible combinations you can make.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following will shift the production possibilities curve to the right?",
+  "options": [
+   {
+    "text": "an increase in the unemployment rate from 6 to 8 percent",
+    "hint": "Moves the economy inside the curve."
+   },
+   {
+    "text": "a decline in the efficiency with which the present labour force is allocated",
+    "hint": "Moves the economy inside the curve."
+   },
+   {
+    "text": "a decrease in the unemployment rate from 8 to 6 percent",
+    "hint": "A movement toward the curve, not a shift."
+   },
+   {
+    "text": "a technological advancement that allows farmers to produce more output from given inputs",
+    "hint": "Correct. Better technology shifts the PPC outward."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Shift = more resources or better technology.",
+  "explanation": "## Advanced explanation\n\nOnly changes in resource quantity/quality or **technology** shift the PPC. Changes in unemployment or allocation move the point relative to a fixed curve.\n\n## Simplified explanation\n\nNew technology lets you produce more: the curve moves out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An economic system:",
+  "options": [
+   {
+    "text": "requires a grouping of private markets linked to one another.",
+    "hint": "Only market systems rely on private markets."
+   },
+   {
+    "text": "is a particular set of institutional arrangements and a coordinating mechanism used to respond to the economizing problem.",
+    "hint": "Correct. Definition of an economic system."
+   },
+   {
+    "text": "requires some sort of centralized authority (such as government) to coordinate economic activity.",
+    "hint": "Market systems coordinate without central authority."
+   },
+   {
+    "text": "is a plan or scheme that allows a firm to make money at some other firm's expense.",
+    "hint": "Not a definition of an economic system."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Institutions + coordinating mechanism.",
+  "explanation": "## Advanced explanation\n\nAn **economic system** is the set of institutions (property rights, markets, government) and the coordinating mechanism (prices or planning) by which a society answers what, how and for whom to produce.\n\n## Simplified explanation\n\nIt's the set of rules and arrangements a society uses to solve scarcity.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Economic Systems",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the resource market:",
+  "options": [
+   {
+    "text": "businesses borrow financial capital from households.",
+    "hint": "That is the financial market."
+   },
+   {
+    "text": "businesses sell services to households.",
+    "hint": "That happens in the product market."
+   },
+   {
+    "text": "households sell resources to businesses.",
+    "hint": "Correct. Households supply land, labour, capital and entrepreneurship."
+   },
+   {
+    "text": "firms sell raw materials to households.",
+    "hint": "Households do not buy resources in this model."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Who owns the resources?",
+  "explanation": "## Advanced explanation\n\nIn the circular flow, **households** own resources and **sell** their services to firms in the resource (factor) market, receiving wages, rent, interest and profit.\n\n## Simplified explanation\n\nHouseholds sell their labour and other resources to firms.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Circular Flow",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The relationship between quantity supplied and price is ______ and the relationship between quantity demanded and price is ______.",
+  "options": [
+   {
+    "text": "direct, inverse",
+    "hint": "Correct. Law of supply (direct), law of demand (inverse)."
+   },
+   {
+    "text": "inverse, direct",
+    "hint": "Reversed."
+   },
+   {
+    "text": "inverse, inverse",
+    "hint": "Supply is direct."
+   },
+   {
+    "text": "direct, direct",
+    "hint": "Demand is inverse."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Supply slopes up; demand slopes down.",
+  "explanation": "## Advanced explanation\n\nLaw of supply: $Q_s$ rises with price (direct). Law of demand: $Q_d$ falls as price rises (inverse).\n\n## Simplified explanation\n\nSupply goes up with price; demand goes down.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When product prices change, consumers are inclined to purchase larger amounts of the now cheaper products and less of the now more expensive products. This describes:",
+  "options": [
+   {
+    "text": "the cost effect.",
+    "hint": "Not a standard term here."
+   },
+   {
+    "text": "the price effect.",
+    "hint": "The total price effect combines income and substitution effects."
+   },
+   {
+    "text": "the income effect.",
+    "hint": "That concerns changes in real income."
+   },
+   {
+    "text": "the substitution effect.",
+    "hint": "Correct. Switching towards relatively cheaper goods."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Switching between goods.",
+  "explanation": "## Advanced explanation\n\nThe **substitution effect**: when a good's relative price falls, consumers substitute it for relatively dearer goods. The **income effect** comes from the change in purchasing power.\n\n## Simplified explanation\n\nBuying more of what got cheaper instead of what got dearer = substitution.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If L and M are complementary goods, an increase in the price of L will result in:",
+  "options": [
+   {
+    "text": "an increase in the sales of L.",
+    "hint": "Higher price lowers quantity demanded of L."
+   },
+   {
+    "text": "no change in either the price or sales of M.",
+    "hint": "Complements are linked."
+   },
+   {
+    "text": "a decrease in the sales of M",
+    "hint": "Correct. Less L is bought, so less M is needed."
+   },
+   {
+    "text": "an increase in the sales of M.",
+    "hint": "That would be substitutes."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Complements are used together.",
+  "explanation": "## Advanced explanation\n\nComplements have negative cross elasticity: $P_L \\uparrow \\Rightarrow Q_L \\downarrow \\Rightarrow D_M$ shifts left, so sales of M fall.\n\n## Simplified explanation\n\nIf L gets dearer, people buy less L and also less M that goes with it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Assume the demand curve for product X shifts to the right. This might be caused by:",
+  "options": [
+   {
+    "text": "a decline in income if X is an inferior good.",
+    "hint": "Correct. For inferior goods, lower income raises demand."
+   },
+   {
+    "text": "a decline in the price of Z if X and Z are substitute goods.",
+    "hint": "A cheaper substitute reduces demand for X."
+   },
+   {
+    "text": "a change in consumer tastes that is unfavorable to X.",
+    "hint": "Shifts demand left."
+   },
+   {
+    "text": "an increase in the price of Y if X and Y are complementary goods.",
+    "hint": "A dearer complement reduces demand for X."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Check each determinant's direction.",
+  "explanation": "## Advanced explanation\n\nInferior goods have negative income elasticity: when income falls, demand for them **increases** (rightward shift). B, C and D all shift demand to the left.\n\n## Simplified explanation\n\nWhen people get poorer they buy more of inferior goods.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The demand for a product is inelastic with respect to price if:",
+  "options": [
+   {
+    "text": "consumers are largely unresponsive to a per unit price change.",
+    "hint": "Correct. Inelastic = weak response."
+   },
+   {
+    "text": "the elasticity coefficient is greater than 1.",
+    "hint": "That is elastic."
+   },
+   {
+    "text": "a drop in price is accompanied by a decrease in the quantity demanded.",
+    "hint": "That contradicts the law of demand."
+   },
+   {
+    "text": "a drop in price is accompanied by an increase in the quantity demanded.",
+    "hint": "True of all normal demand curves, elastic or not."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "|E| < 1.",
+  "explanation": "## Advanced explanation\n\nDemand is **inelastic** when $|E_d| < 1$: the % change in quantity is smaller than the % change in price, i.e. buyers are relatively unresponsive.\n\n## Simplified explanation\n\nInelastic means buyers barely react to price changes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Where total utility is at a maximum, marginal utility is:",
+  "options": [
+   {
+    "text": "negative.",
+    "hint": "TU would then be falling."
+   },
+   {
+    "text": "positive and increasing.",
+    "hint": "TU would still be rising."
+   },
+   {
+    "text": "zero.",
+    "hint": "Correct. TU peaks where MU = 0."
+   },
+   {
+    "text": "positive but decreasing.",
+    "hint": "TU would still be rising."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "MU is the slope of TU.",
+  "explanation": "## Advanced explanation\n\n$MU = dTU/dQ$. TU is maximised where its slope is zero, so $MU = 0$.\n\n## Simplified explanation\n\nWhen an extra unit adds nothing, total satisfaction is at its peak.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Utility",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "To maximise utility a consumer should allocate money income so that the:",
+  "options": [
+   {
+    "text": "elasticity of demand on all products purchased is the same.",
+    "hint": "Elasticity is irrelevant to the rule."
+   },
+   {
+    "text": "marginal utility obtained from the last dollar spent on each product is the same.",
+    "hint": "Correct. Equi-marginal principle."
+   },
+   {
+    "text": "total utility derived from each product consumed is the same.",
+    "hint": "Total utilities need not be equal."
+   },
+   {
+    "text": "marginal utility of the last unit of each product consumed is the same.",
+    "hint": "Ignores prices."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "MU per cedi.",
+  "explanation": "## Advanced explanation\n\nThe **utility-maximising rule**: $\\dfrac{MU_A}{P_A} = \\dfrac{MU_B}{P_B} = \\dots$ with all income spent. Otherwise moving a cedi from the lower to the higher ratio raises total utility.\n\n## Simplified explanation\n\nEach last cedi spent should give the same extra satisfaction whatever you spend it on.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Utility",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Because the marginal product of a variable resource at first increases and then decreases as the output of the firm is increased:",
+  "options": [
+   {
+    "text": "total cost at first increases at a decreasing rate and then increases at an increasing rate.",
+    "hint": "Correct. Rising MP → falling MC; then falling MP → rising MC."
+   },
+   {
+    "text": "total variable cost at first increases at an increasing rate and then increases at a decreasing rate.",
+    "hint": "Reversed."
+   },
+   {
+    "text": "average total cost at first increases and then diminishes.",
+    "hint": "ATC first falls then rises."
+   },
+   {
+    "text": "average fixed cost will rise beyond the point of diminishing returns.",
+    "hint": "AFC always falls."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "MC = w / MP.",
+  "explanation": "## Advanced explanation\n\n$MC = w/MP$: while MP rises, MC falls, so TC rises at a **decreasing** rate; after diminishing returns MP falls, MC rises and TC rises at an **increasing** rate. This gives the S-shaped TC curve.\n\n## Simplified explanation\n\nAt first extra workers are very productive, so costs rise slowly; later they are less productive, so costs rise faster.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Costs of Production",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The demand schedule or curve confronted by the individual purely competitive firm is:",
+  "options": [
+   {
+    "text": "relatively elastic, that is, the elasticity coefficient is greater than unity.",
+    "hint": "It is more than relatively elastic."
+   },
+   {
+    "text": "perfectly elastic.",
+    "hint": "Correct. A price taker faces a horizontal demand curve."
+   },
+   {
+    "text": "relatively inelastic, that is, the elasticity coefficient is less than unity.",
+    "hint": "Wrong for a price taker."
+   },
+   {
+    "text": "perfectly inelastic.",
+    "hint": "That would be vertical."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Price taker.",
+  "explanation": "## Advanced explanation\n\nA purely competitive firm is a **price taker**: it can sell any quantity at the market price, so its demand curve is horizontal (perfectly elastic) and $P = MR = AR$.\n\n## Simplified explanation\n\nThe firm can sell as much as it likes at the going price, so its demand line is flat.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Perfect Competition",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the short run, a purely competitive firm will earn a normal profit when:",
+  "options": [
+   {
+    "text": "P = AVC.",
+    "hint": "That is the shutdown point."
+   },
+   {
+    "text": "P > MC.",
+    "hint": "The firm would expand output."
+   },
+   {
+    "text": "that firm's MR = market equilibrium price.",
+    "hint": "Always true for a price taker."
+   },
+   {
+    "text": "P = ATC.",
+    "hint": "Correct. Zero economic profit = normal profit."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Normal profit = zero economic profit.",
+  "explanation": "## Advanced explanation\n\nProducing where $P = MC$, the firm earns a **normal profit** when $P = ATC$ (break-even). $P > ATC$ → economic profit; $AVC < P < ATC$ → loss but keep producing; $P < AVC$ → shut down.\n\n## Simplified explanation\n\nIf price just covers average cost (including normal profit), the firm breaks even.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Perfect Competition",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Price exceeds marginal revenue for the pure monopolist because the:",
+  "options": [
+   {
+    "text": "law of diminishing returns is inapplicable.",
+    "hint": "Irrelevant to MR."
+   },
+   {
+    "text": "demand curve is down sloping.",
+    "hint": "Correct. To sell more it must cut the price on all units."
+   },
+   {
+    "text": "monopolist produces a smaller output than would a purely competitive firm.",
+    "hint": "A consequence, not the reason."
+   },
+   {
+    "text": "demand curve lies below the marginal revenue curve.",
+    "hint": "Reversed: MR lies below demand."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Selling one more requires a lower price on all units.",
+  "explanation": "## Advanced explanation\n\nWith downward-sloping demand, $MR = P + Q\\dfrac{dP}{dQ} < P$: the extra revenue from one more unit is its price minus the revenue lost by cutting the price on all previous units.\n\n## Simplified explanation\n\nThe monopolist must lower its price to sell more, so each extra sale adds less than the price.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Monopoly",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "As a fundamental principle, to think from the economic perspective is to think critically and closely from related concepts.\n\n(A) Using the four decision-making units and the basic principles of the economic problem, discuss how these ideas connect decision-making in each of the units. **[12 marks]**\n(B) From the four primary domains identified in (A), use appropriate examples to briefly explain and demonstrate the relevance of the phrase 'economists think at the margin'. **[4 marks]**",
+  "media": [],
+  "answer": "**(A)** The **economic problem** is **scarcity**: unlimited wants, limited resources. It forces **choice**, every choice has an **opportunity cost**, and rational agents choose by comparing **marginal benefits and marginal costs**. It also raises the basic questions *what, how and for whom* to produce. The four decision-making units:\n\n| Unit | Scarce means | Objective | Choices / trade-offs |\n|---|---|---|---|\n| **Households** | Limited income and time | Maximise utility | What to buy, how much to work and save; buying one good means forgoing another |\n| **Firms** | Limited capital, inputs | Maximise profit | What and how much to produce, which technique (least cost), whom to hire |\n| **Government** | Limited revenue | Maximise social welfare | How to spend the budget (roads vs schools), taxes, regulation, redistribution (for whom) |\n| **Foreign sector (rest of the world)** | Limited foreign exchange | Gains from trade | What to export/import, specialise by comparative advantage |\n\nThe units are linked through the **circular flow**: households sell resources to firms and buy their output; government taxes and spends; the foreign sector buys exports and supplies imports. Each unit's choice under scarcity becomes another unit's income or constraint, and prices coordinate them.\n\n**(B)** 'Thinking at the margin' means deciding on **one more unit** by comparing its extra benefit with its extra cost:\n- Household: buy another bag of rice only if its marginal utility per cedi is at least that from other goods.\n- Firm: hire one more worker if the worker's marginal revenue product ≥ the wage; produce until $MR = MC$.\n- Government: build one more clinic if its marginal social benefit ≥ its marginal social cost.\n- Foreign sector: import an extra unit if it is cheaper than the domestic marginal cost of producing it.\n\n> [!answer]\n> Scarcity → choice → opportunity cost → marginal decisions, made by households, firms, government and the foreign sector, all linked by the circular flow; each compares MB with MC for the next unit.",
+  "explanation": "## Advanced explanation\n\nThe economic perspective rests on three ideas: **scarcity and choice**, **purposeful (rational) behaviour**, and **marginal analysis**. Applying them to each sector of the four-sector circular flow shows that every sector solves the same problem with different objectives and constraints.\n\n## Simplified explanation\n\nEveryone (families, businesses, government, other countries) has limited means and must choose. They choose by asking whether one more unit is worth its extra cost.",
+  "hint": "Scarcity, choice, opportunity cost, marginal analysis.",
+  "difficulty": "hard",
+  "marks": 16,
+  "tags": [
+   "Economic Perspective",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between **positivism** (positive economics) and **normativism** (normative economics). Evaluate the significance of these concepts in presenting economic ideas and in making recommendations on economic issues. **[4 marks]**",
+  "media": [],
+  "answer": "**Positive economics** describes and explains **what is**: statements that can be tested against evidence, e.g. *\"Raising the minimum wage reduces employment of unskilled youth.\"* **Normative economics** states **what ought to be**: value judgements, e.g. *\"The minimum wage should be raised.\"*\n\n**Significance:**\n- Separating them lets economists present **evidence-based analysis** that others can test and agree on, whatever their values.\n- Most disagreements among economists are about **values** (normative), not facts.\n- Policy **recommendations** need both: positive analysis predicts consequences of options; normative judgements choose among them. Being explicit about which is which makes advice transparent and credible.\n\n> [!answer]\n> Positive = testable 'what is'; normative = value-based 'what ought to be'. Positive analysis informs, normative judgement decides; keeping them apart makes recommendations honest and testable.",
+  "explanation": "## Advanced explanation\n\nPositive statements may be true or false but are verifiable in principle; normative statements cannot be settled by data alone. Good policy work presents the positive trade-offs clearly and states the normative criteria (efficiency, equity) used to rank them.\n\n## Simplified explanation\n\nPositive: facts you can check. Normative: opinions about what should be done. Advice needs facts first, then values.",
+  "hint": "Testable vs value judgement.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Positive vs Normative",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose the demand for gari decreases because of its starchy nutrition concerns. At the same time, the rental cost of a plot of land suitable for the cultivation of cassava increases. What do you think will happen to the price and quantity of gari? Illustrate your answers with the appropriate diagram(s). **[6 marks]**",
+  "media": [],
+  "answer": "- Health concerns → **demand for gari shifts left**.\n- Higher land rent raises the cost of cassava (the input), so **supply of gari shifts left**.\n\nBoth shifts reduce quantity, so **equilibrium quantity falls for sure**. Demand ↓ lowers price but supply ↓ raises price, so the **effect on price is indeterminate**: it rises if the supply shift is larger, falls if the demand shift is larger, and is unchanged if they are equal.\n\nDiagram: original $D_1$ and $S_1$ crossing at $E_1$; $D_2$ to the left of $D_1$ and $S_2$ to the left of $S_1$, crossing at $E_2$ with $Q_2 < Q_1$ and $P_2$ above, below or equal to $P_1$ (draw three cases).\n\n> [!answer]\n> Quantity of gari falls; price is indeterminate (depends on the relative size of the shifts).",
+  "explanation": "## Advanced explanation\n\nWhen demand and supply both decrease, $Q^*$ unambiguously falls while $\\Delta P^*$ depends on the relative magnitudes of the shifts (and the slopes). With linear curves, $\\Delta P^* = (\\Delta \\text{supply shift} - \\Delta \\text{demand shift})/(\\text{sum of slopes})$.\n\n## Simplified explanation\n\nFewer people want gari and it costs more to make, so less is sold. Price could go either way.",
+  "hint": "Two shifts in the same direction for quantity.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Market Equilibrium",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If both buyers and sellers of condensed tiger nut milk expect the prices of condensed tiger nut milk to rise in the near future, what will happen to condensed tiger nut milk prices and sales today? Illustrate your answers with the appropriate diagram(s). **[4 marks]**",
+  "media": [],
+  "answer": "- **Buyers** want to buy now before the price rises → **demand today increases** (shifts right).\n- **Sellers** hold back stock to sell later at the higher price → **supply today decreases** (shifts left).\n\nBoth shifts push **price up**, so the **price today rises** for sure. Demand ↑ raises quantity but supply ↓ lowers it, so the **change in sales today is indeterminate**.\n\nDiagram: $D_1 \\to D_2$ (right), $S_1 \\to S_2$ (left); the new equilibrium is higher, with quantity ambiguous.\n\n> [!answer]\n> Price rises today; quantity sold today may rise, fall or stay the same.",
+  "explanation": "## Advanced explanation\n\nExpectations of future prices are a determinant of both demand and supply. Speculative behaviour by both sides makes the expected price rise partly self-fulfilling.\n\n## Simplified explanation\n\nBuyers rush to buy now and sellers wait, so the price goes up now. Whether more or less is sold depends on which effect is bigger.",
+  "hint": "Expectations shift both curves today.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Market Equilibrium",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the difference between **ordinal** utility and **cardinal** utility? Explain why the assumption of cardinal utility is not needed in order to rank consumer choices. **[4 marks]**",
+  "media": [],
+  "answer": "**Cardinal utility** assumes satisfaction can be **measured in units (utils)** so that the size of differences matters (e.g. a mango gives 20 utils, an orange 10, so the mango gives twice as much). **Ordinal utility** assumes consumers can only **rank** bundles (prefer A to B, or be indifferent), without measuring by how much.\n\nTo predict choices we only need to know which bundle the consumer **prefers**, the best affordable bundle. Any ranking is enough: indifference-curve analysis finds the optimum where the budget line is tangent to the highest indifference curve ($MRS = P_x/P_y$) using only the ordering. Any increasing transformation of a utility function gives the same choices, so the actual numbers carry no extra information.\n\n> [!answer]\n> Cardinal = measurable utils; ordinal = ranking only. Choice depends only on the ranking, so measurability is unnecessary.",
+  "explanation": "## Advanced explanation\n\nCardinal utility underlies marginal utility analysis ($MU_x/P_x = MU_y/P_y$). Ordinal theory (Hicks–Allen) replaces MU ratios with the **MRS**, which is invariant to monotonic transformations of utility, so demand theory survives without measurable utility.\n\n## Simplified explanation\n\nYou don't need to know how much you like tea in numbers to know you like it more than coffee; ranking is enough to choose.",
+  "hint": "Measuring vs ranking.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Utility",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe the **equal marginal principle**. Explain why this principle may not hold if increasing marginal utility is associated with the consumption of one or both goods. **[6 marks]**",
+  "media": [],
+  "answer": "**Equal marginal principle:** a consumer maximises utility by allocating income so that the **marginal utility per cedi is equal across all goods** and all income is spent:\n$$\\frac{MU_X}{P_X} = \\frac{MU_Y}{P_Y}, \\qquad P_X X + P_Y Y = M.$$\nIf $MU_X/P_X > MU_Y/P_Y$, moving a cedi from Y to X raises total utility; with **diminishing MU**, doing so lowers $MU_X$ and raises $MU_Y$ until the ratios are equal.\n\n**With increasing MU:** shifting spending towards X makes $MU_X$ **rise** further, so the gap widens rather than closes. The equality point is then a **minimum, not a maximum** of utility, and the consumer does better by spending all income on one good (a **corner solution**). So the principle no longer identifies the optimum.\n\n> [!answer]\n> Optimum where MU/P is equal for all goods; it relies on diminishing MU. With increasing MU the equal-ratio point is not a maximum and the consumer specialises in one good.",
+  "explanation": "## Advanced explanation\n\nThe equi-marginal condition is a first-order condition; the second-order condition for a maximum requires diminishing MU (convex preferences). Increasing MU means non-convex preferences, so the tangency is a utility minimum and corner solutions are optimal.\n\n## Simplified explanation\n\nNormally each extra unit pleases you less, so you spread your money around. If each extra unit pleased you more, you'd spend everything on just one thing.",
+  "hint": "Diminishing MU is what makes the ratios converge.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Utility",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The table reveals the amount of rice (X) and amount of cocoa (Y) that a nation can produce from its available resources.\n\n| Basket | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| Rice | 0 | 1 | 2 | 3 | 4 | 5 |\n| Cocoa | 15 | 14 | 12 | 9 | 5 | 0 |\n\n(i) Illustrate the information in the table graphically. **[2 marks]**\n(ii) Imagine a technology is developed that makes it possible to produce twice as much rice at all levels of cocoa. Sketch the new PPF. **[2 marks]**\n(iii) Does the new PPF show economic growth? Why or why not? **[2 marks]**\n(iv) On which of these curves will the opportunity cost of increasing cocoa production from 9 to 14 units be higher? **[2 marks]**",
+  "media": [],
+  "answer": "**(i)** Rice on the horizontal axis, cocoa on the vertical. Plot A(0, 15), B(1, 14), C(2, 12), D(3, 9), E(4, 5), F(5, 0): a curve bowed out from the origin (increasing opportunity cost).\n\n**(ii)** New PPF: rice doubles at each cocoa level: (0, 15), (2, 14), (4, 12), (6, 9), (8, 5), (10, 0). The vertical intercept stays at 15 cocoa; the curve pivots outward along the rice axis.\n\n**(iii)** **Yes.** The economy can now produce more rice for every cocoa level (and more of both), so the PPF has shifted outward: economic growth.\n\n**(iv)** Cocoa 9 → 14:\n- Original PPF: rice falls 3 → 1, opportunity cost = **2 units of rice**.\n- New PPF: rice falls 6 → 2, opportunity cost = **4 units of rice**.\n\nThe opportunity cost is **higher on the new PPF**, because each unit of resources now produces more rice, so moving resources into cocoa sacrifices more rice.\n\n> [!answer]\n> New PPF = (0,15), (2,14), (4,12), (6,9), (8,5), (10,0); it shows growth; the 9→14 cocoa move costs 2 rice originally but 4 rice on the new curve.",
+  "explanation": "## Advanced explanation\n\nTechnical progress biased toward one good rotates the PPF outward along that good's axis. It raises the opportunity cost of the *other* good, measured in units of the improved good.\n\n## Simplified explanation\n\nWith better rice technology, every shift of resources to cocoa means losing more rice than before.",
+  "hint": "Double each rice figure, keep cocoa.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Production Possibilities",
+   "Opportunity Cost",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The XYZ Company can sell its entire output for GH¢18 per unit. XYZ's total cost function is\n\n$TC = 6 + 33Q - 9Q^2 + Q^3$\n\nwhere Q represents units of output.\n\n(a) Calculate the firm's (i) total revenue function, (ii) marginal revenue function, (iii) marginal cost function, (iv) average total cost function. **[6 marks]**\n(b) Determine the output level that minimizes average total cost (ATC) and verify that at this output level, ATC intersects MC from below. **[6 marks]**",
+  "media": [],
+  "answer": "**(a)**\n(i) $TR = 18Q$\n(ii) $MR = 18$\n(iii) $MC = \\dfrac{dTC}{dQ} = 33 - 18Q + 3Q^2$\n(iv) $ATC = \\dfrac{6}{Q} + 33 - 9Q + Q^2$\n\n**(b)** $\\dfrac{dATC}{dQ} = -\\dfrac{6}{Q^2} - 9 + 2Q = 0 \\Rightarrow 2Q^3 - 9Q^2 - 6 = 0$. Solving numerically: $Q \\approx 4.64$. Second derivative $\\dfrac{12}{Q^3} + 2 > 0$, so this is a minimum.\n\nAt $Q \\approx 4.64$: $ATC = 6/4.64 + 33 - 41.75 + 21.52 \\approx 14.06$ and $MC = 33 - 83.51 + 64.57 \\approx 14.06$. So **MC = ATC at the minimum of ATC**.\n\nBelow this output (e.g. $Q = 4$: $MC = 9$, $ATC = 14.5$) MC < ATC and ATC is falling; above it (e.g. $Q = 5$: $MC = 18$, $ATC = 14.2$) MC > ATC and ATC is rising. So MC cuts ATC **from below** at its minimum.\n\n> [!answer]\n> TR = 18Q; MR = 18; MC = 33 − 18Q + 3Q²; ATC = 6/Q + 33 − 9Q + Q²; ATC is minimised at Q ≈ 4.64 where ATC = MC ≈ 14.06, with MC rising through ATC from below.",
+  "explanation": "## Advanced explanation\n\nIn general $\\dfrac{dATC}{dQ} = \\dfrac{MC - ATC}{Q}$, so ATC is falling when $MC < ATC$, rising when $MC > ATC$, and stationary exactly where $MC = ATC$. Since MC is rising there, it crosses ATC from below. (Note: AVC alone is minimised at $Q = 4.5$, where $AVC = MC = 12.75$.)\n\n## Simplified explanation\n\nAverage cost keeps falling while the extra unit costs less than the average, and starts rising once the extra unit costs more. The turning point is where they are equal, about 4.64 units.",
+  "hint": "Set dATC/dQ = 0.",
+  "difficulty": "hard",
+  "marks": 12,
+  "tags": [
+   "Costs of Production",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "An economist has estimated the demand and supply functions for your firm's product as follows:\n\nDemand function: $P = 80 - Q$ $\\quad$ Supply function: $P = 20 + 2Q$\n\n(a) Find the equilibrium price and quantity for your product. **[2 marks]**\n(b) Assume that government decides to impose a market price of GH¢70. Explain the type of price legislation it is. **[2 marks]**\n(c) Show exactly the problem this legislation causes to the market for your product. **[2 marks]**\n(d) How much will the government spend to solve the problem identified in (c) above? **[2 marks]**\n(e) Calculate the elasticity of demand for your product at the equilibrium. **[2 marks]**\n(f) Based on the elasticity of demand, explain what you will do about your price if you want to increase total revenue. **[2 marks]**\n(g) As part of efforts to boost domestic tax revenue mobilisation, the government has imposed a tax of ¢6 per unit. Show how this will affect the equilibrium price and quantity. **[2 marks]**\n(h) Is it your firm or your consumers who will bear more of the tax? Calculate and use your knowledge of elasticity to explain the tax incidence. **[4 marks]**\n(i) Calculate the amount of tax revenue the government will raise from this new policy. **[2 marks]**",
+  "media": [],
+  "answer": "**(a)** $80 - Q = 20 + 2Q \\Rightarrow Q^* = 20$, $P^* = 60$.\n\n**(b)** GH¢70 is **above** equilibrium, so it is a **price floor (minimum price)**.\n\n**(c)** At $P = 70$: $Q_d = 80 - 70 = 10$; $Q_s = (70 - 20)/2 = 25$. **Surplus (excess supply) of 15 units.**\n\n**(d)** To maintain the floor the government buys the surplus: $15 \\times 70 = $ **GH¢1,050**.\n\n**(e)** $Q = 80 - P$, $dQ/dP = -1$; $E_d = -1 \\times 60/20 = $ **−3** (elastic).\n\n**(f)** Demand is elastic, so **lower the price**: quantity rises proportionately more and TR increases.\n\n**(g)** Supply with the tax (on sellers): $P = 26 + 2Q$. $80 - Q = 26 + 2Q \\Rightarrow Q = 18$, $P_c = 62$; sellers receive $P_p = 56$.\n\n**(h)** Consumers pay $62 - 60 = $ GH¢2 per unit (1/3); producers lose $60 - 56 = $ GH¢4 per unit (2/3). **The firm bears more**, because demand is more elastic than supply at equilibrium ($|E_d| = 3$ vs $E_s = 0.5 \\times 60/20 = 1.5$): buyers can more easily switch away, so sellers absorb most of the tax. Consumers' share $= E_s/(E_s + |E_d|) = 1.5/4.5 = 1/3$.\n\n**(i)** Revenue $= 6 \\times 18 = $ **GH¢108**.\n\n> [!answer]\n> $P^* = 60$, $Q^* = 20$; price floor → surplus of 15 costing GH¢1,050; $E_d = -3$ → cut price; with tax $Q = 18$, $P_c = 62$, $P_p = 56$; firm bears 2/3; revenue GH¢108.",
+  "explanation": "## Advanced explanation\n\nTax incidence: the less elastic side bears more. Here supply is less elastic than demand, so producers bear 2/3. The floor creates excess supply that must be absorbed (government purchase, quotas) or it will not be sustained.\n\n## Simplified explanation\n\nEquilibrium is 20 units at 60. A price of 70 is a floor that leaves 15 unsold. Buyers are price-sensitive, so lower prices raise revenue, and the firm ends up paying most of the tax.",
+  "hint": "A legal price above equilibrium is a floor.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Price Controls",
+   "Taxes & Incidence",
+   "2022/23 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A decrease in demand is shown as a:",
+  "options": [
+   {
+    "text": "movement from a higher point to a lower point on an existing demand curve.",
+    "hint": "That is an increase in quantity demanded."
+   },
+   {
+    "text": "movement from a lower point to a higher point on an existing demand curve.",
+    "hint": "That is a decrease in quantity demanded."
+   },
+   {
+    "text": "rightward shift of a demand curve.",
+    "hint": "That is an increase in demand."
+   },
+   {
+    "text": "leftward shift of a demand curve.",
+    "hint": "Correct. A decrease in demand shifts the whole curve left."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Demand vs quantity demanded.",
+  "explanation": "## Advanced explanation\n\nA change in **demand** (caused by income, tastes, related prices, expectations, number of buyers) shifts the curve; a decrease shifts it **left**. Movements along the curve are changes in quantity demanded.\n\n## Simplified explanation\n\nLess demand = the whole curve moves left.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "There is too little of a good thing when its:",
+  "options": [
+   {
+    "text": "marginal benefit exceeds its marginal cost.",
+    "hint": "Correct. More units would add more benefit than cost."
+   },
+   {
+    "text": "marginal cost exceeds its marginal benefit.",
+    "hint": "Then there is too much."
+   },
+   {
+    "text": "marginal cost equals its marginal benefit.",
+    "hint": "That is the optimal amount."
+   },
+   {
+    "text": "marginal benefit is still positive.",
+    "hint": "Positive MB is not enough; it must exceed MC."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Compare MB and MC.",
+  "explanation": "## Advanced explanation\n\nThe optimal quantity is where $MB = MC$. If $MB > MC$, producing more would raise net benefit, so current output is too small (under-allocation).\n\n## Simplified explanation\n\nIf one more unit is worth more than it costs, you should have more of it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Perspective",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "\"Economics is concerned with using scarce productive resources efficiently in attempting to satisfy society's economic wants.\" This statement is:",
+  "options": [
+   {
+    "text": "positive, but incorrect.",
+    "hint": "It is correct."
+   },
+   {
+    "text": "positive and correct.",
+    "hint": "Correct. A factual description of economics, and accurate."
+   },
+   {
+    "text": "normative, but incorrect.",
+    "hint": "It contains no value judgement."
+   },
+   {
+    "text": "normative and correct.",
+    "hint": "It contains no value judgement."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Does it say what ought to be?",
+  "explanation": "## Advanced explanation\n\nThe statement describes what economics **is** (no 'should'), so it is **positive**, and it accurately defines the discipline.\n\n## Simplified explanation\n\nIt's a fact about economics, and a true one.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Positive vs Normative",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following has to do with the problem of distinguishing cause and effect in economic reasoning?",
+  "options": [
+   {
+    "text": "the law of large numbers",
+    "hint": "A statistical principle."
+   },
+   {
+    "text": "the law of averages",
+    "hint": "Not about causation."
+   },
+   {
+    "text": "the post hoc, ergo propter hoc fallacy",
+    "hint": "Correct. 'After this, therefore because of this.'"
+   },
+   {
+    "text": "the fallacy of composition",
+    "hint": "About part vs whole."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "'After this, therefore because of this.'",
+  "explanation": "## Advanced explanation\n\nThe **post hoc fallacy** assumes that because B followed A, A caused B. It is the classic pitfall in identifying cause and effect.\n\n## Simplified explanation\n\nJust because one thing came first doesn't mean it caused the other.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Methodology",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When the economist says that economic wants are insatiable, this means that:",
+  "options": [
+   {
+    "text": "economic resources are valuable only because they can be used to produce consumer goods.",
+    "hint": "Not what insatiable means."
+   },
+   {
+    "text": "economic resources are scarce.",
+    "hint": "That describes resources, not wants."
+   },
+   {
+    "text": "these wants are virtually unlimited and therefore incapable of complete satisfaction.",
+    "hint": "Correct. Insatiable = can never be fully satisfied."
+   },
+   {
+    "text": "the structure of consumer demand varies from time to time and from country to country.",
+    "hint": "True but not the meaning."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Insatiable = cannot be satisfied.",
+  "explanation": "## Advanced explanation\n\nWants are **insatiable**: as some are met, new ones arise, so they can never be completely satisfied. Combined with scarce resources, this creates the economic problem.\n\n## Simplified explanation\n\nPeople always want more.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Scarcity & Choice",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The law of increasing opportunity costs is reflected in a production possibilities curve that is:",
+  "options": [
+   {
+    "text": "an upward sloping straight line.",
+    "hint": "PPCs slope downward."
+   },
+   {
+    "text": "a downward sloping straight line.",
+    "hint": "That means constant opportunity cost."
+   },
+   {
+    "text": "concave to the origin.",
+    "hint": "Correct. Bowed out = increasing opportunity cost."
+   },
+   {
+    "text": "convex to the origin.",
+    "hint": "That would mean decreasing opportunity cost."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Bowed out.",
+  "explanation": "## Advanced explanation\n\nIncreasing opportunity cost means the slope gets steeper as more of a good is produced, which makes the PPC **concave to (bowed out from) the origin**.\n\n## Simplified explanation\n\nIncreasing costs make the curve bulge outwards.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Production Possibilities",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An increase in the price of a product will reduce the quantity of it purchased because:",
+  "options": [
+   {
+    "text": "supply curves are upsloping.",
+    "hint": "Supply does not explain buyers' behaviour."
+   },
+   {
+    "text": "the higher price means that real incomes have risen.",
+    "hint": "Real income falls when price rises."
+   },
+   {
+    "text": "consumers will substitute other products for the one whose price has risen.",
+    "hint": "Correct. Substitution effect."
+   },
+   {
+    "text": "consumers substitute relatively high-priced for relatively low-priced products.",
+    "hint": "Reversed."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Substitution effect.",
+  "explanation": "## Advanced explanation\n\nThe law of demand is explained by the **substitution effect** (switch to relatively cheaper goods), the **income effect** (lower real income) and diminishing marginal utility.\n\n## Simplified explanation\n\nWhen something gets dearer, people switch to other things.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Demand & Supply",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "With a downsloping demand curve and an upsloping supply curve for a product, placing an excise tax on the product will:",
+  "options": [
+   {
+    "text": "increase equilibrium price and quantity.",
+    "hint": "Quantity falls."
+   },
+   {
+    "text": "decrease equilibrium price and quantity.",
+    "hint": "The buyer's price rises."
+   },
+   {
+    "text": "decrease equilibrium price and increase equilibrium quantity.",
+    "hint": "Reversed."
+   },
+   {
+    "text": "increase equilibrium price and decrease equilibrium quantity.",
+    "hint": "Correct. Supply shifts up/left."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "A tax is like a cost increase.",
+  "explanation": "## Advanced explanation\n\nAn excise tax shifts supply up by the tax; the new equilibrium has a **higher price paid by buyers** and a **lower quantity**.\n\n## Simplified explanation\n\nTax makes it dearer, so less is bought.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Taxes & Incidence",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Black markets are associated with:",
+  "options": [
+   {
+    "text": "price floors and the resulting product surpluses.",
+    "hint": "Surpluses do not create black markets for buyers."
+   },
+   {
+    "text": "price floors and the resulting product shortages.",
+    "hint": "Floors cause surpluses, not shortages."
+   },
+   {
+    "text": "ceiling prices and the resulting product shortages.",
+    "hint": "Correct. Shortages lead to illegal resale above the ceiling."
+   },
+   {
+    "text": "ceiling prices and the resulting product surpluses.",
+    "hint": "Ceilings cause shortages."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Ceilings cause shortages.",
+  "explanation": "## Advanced explanation\n\nA binding price ceiling creates a shortage; buyers willing to pay more than the legal price trade illegally at higher prices: **black markets**.\n\n## Simplified explanation\n\nWhen the legal price is too low and goods run short, people sell them secretly at higher prices.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Price Controls",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The price elasticity of demand of a straight-line demand curve is:",
+  "options": [
+   {
+    "text": "elastic in high-price ranges and inelastic in low-price ranges.",
+    "hint": "Correct. Elasticity falls as you move down a linear demand curve."
+   },
+   {
+    "text": "elastic, but does not change at various points on the curve.",
+    "hint": "Elasticity varies along a straight line."
+   },
+   {
+    "text": "inelastic, but does not change at various points on the curve.",
+    "hint": "Elasticity varies along a straight line."
+   },
+   {
+    "text": "1 at all points on the curve.",
+    "hint": "That is a rectangular hyperbola, not a straight line."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Slope constant, P/Q changes.",
+  "explanation": "## Advanced explanation\n\n$E_d = (dQ/dP)(P/Q)$: the slope is constant but $P/Q$ falls down the line, so demand is elastic at high prices, unit elastic at the midpoint and inelastic at low prices.\n\n## Simplified explanation\n\nTop of the line elastic, bottom inelastic.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which of the following instances will total revenue decline?",
+  "options": [
+   {
+    "text": "price rises and supply is elastic",
+    "hint": "Supply elasticity doesn't determine TR."
+   },
+   {
+    "text": "price falls, and demand is elastic",
+    "hint": "TR rises."
+   },
+   {
+    "text": "price rises and demand is inelastic",
+    "hint": "TR rises."
+   },
+   {
+    "text": "price rises and demand is elastic",
+    "hint": "Correct. Quantity falls proportionately more, so TR falls."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Total revenue test.",
+  "explanation": "## Advanced explanation\n\nWith elastic demand, TR moves opposite to price: a price **rise** lowers TR.\n\n## Simplified explanation\n\nIf buyers are sensitive and you raise the price, you lose revenue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is correct?",
+  "options": [
+   {
+    "text": "Supply is more elastic in the short run than in the long run.",
+    "hint": "Supply is more elastic in the long run."
+   },
+   {
+    "text": "Demand is more elastic in the short run than in the long run.",
+    "hint": "Demand is more elastic in the long run."
+   },
+   {
+    "text": "Demand is more elastic when a large number of substitute goods are available.",
+    "hint": "Correct. More substitutes → more elastic demand."
+   },
+   {
+    "text": "Supply is more elastic when there are a small number of producers in the industry.",
+    "hint": "Not a standard determinant."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Substitutes make demand elastic.",
+  "explanation": "## Advanced explanation\n\nDeterminants of demand elasticity: availability of **substitutes**, share of income, luxury vs necessity, and time. Both demand and supply are more elastic in the long run.\n\n## Simplified explanation\n\nWith many alternatives, buyers switch easily when prices rise.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Elasticity",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The first Pepsi yields Craig 18 units of utility and the second yields him an additional 12 units of utility. His total utility from three Pepsis is 38 units of utility. The marginal utility of the third Pepsi is:",
+  "options": [
+   {
+    "text": "26 units of utility.",
+    "hint": "Check: 38 − 30."
+   },
+   {
+    "text": "6 units of utility.",
+    "hint": "Check: 38 − 30."
+   },
+   {
+    "text": "8 units of utility.",
+    "hint": "Correct. 38 − (18 + 12) = 8."
+   },
+   {
+    "text": "38 units of utility.",
+    "hint": "That is total utility."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "MU = change in TU.",
+  "explanation": "## Advanced explanation\n\nTU after two = 18 + 12 = 30. $MU_3 = TU_3 - TU_2 = 38 - 30 = 8$.\n\n## Simplified explanation\n\nThe third Pepsi adds 38 − 30 = 8.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Utility",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If total utility is increasing, marginal utility:",
+  "options": [
+   {
+    "text": "is positive, but may be either increasing or decreasing.",
+    "hint": "Correct. TU rises whenever MU > 0, whatever MU's trend."
+   },
+   {
+    "text": "must also be increasing.",
+    "hint": "MU may be falling while still positive."
+   },
+   {
+    "text": "may be either positive or negative.",
+    "hint": "Negative MU would reduce TU."
+   },
+   {
+    "text": "will be increasing at an increasing rate.",
+    "hint": "Not required."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "MU is the slope of TU.",
+  "explanation": "## Advanced explanation\n\nTU rises as long as $MU > 0$. MU may be rising (early units) or falling (diminishing MU) while still positive.\n\n## Simplified explanation\n\nAs long as each extra unit adds something, total utility rises.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Utility",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose that $MU_x/P_x$ exceeds $MU_y/P_y$. To maximize utility the consumer who is spending all her income should buy:",
+  "options": [
+   {
+    "text": "less of X only if its price rises.",
+    "hint": "Not required."
+   },
+   {
+    "text": "more of Y only if its price rises.",
+    "hint": "Not required."
+   },
+   {
+    "text": "more of Y and less of X.",
+    "hint": "Reversed."
+   },
+   {
+    "text": "more of X and less of Y.",
+    "hint": "Correct. Shift spending to the good with the higher MU per cedi."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Move spending to the higher MU per cedi.",
+  "explanation": "## Advanced explanation\n\nMoving a cedi from Y to X raises TU because the last cedi on X yields more utility. As X rises, $MU_x$ falls; as Y falls, $MU_y$ rises, until $MU_x/P_x = MU_y/P_y$.\n\n## Simplified explanation\n\nX gives more satisfaction per cedi, so buy more X and less Y.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Utility",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Implicit and explicit costs are different in that:",
+  "options": [
+   {
+    "text": "explicit costs are relevant only in the short run.",
+    "hint": "Both apply in both runs."
+   },
+   {
+    "text": "implicit costs refer to non-expenditure costs and the former to out-of-pocket costs.",
+    "hint": "Garbled ordering."
+   },
+   {
+    "text": "the latter refer to non-expenditure costs and the latter to out-of-pocket costs.",
+    "hint": "Garbled ordering."
+   },
+   {
+    "text": "the former refers to non-expenditure costs and the latter to out-of-pocket costs.",
+    "hint": "Correct. Implicit (former) = non-expenditure; explicit (latter) = out-of-pocket."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Implicit = no cash payment.",
+  "explanation": "## Advanced explanation\n\n**Implicit costs** are opportunity costs of self-owned resources (non-expenditure); **explicit costs** are monetary payments to outsiders (out-of-pocket).\n\n## Simplified explanation\n\nImplicit costs aren't paid in cash; explicit costs are.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Costs of Production",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements concerning the relationships between total product (TP), average product (AP) and marginal product (MP) is **not** correct?",
+  "options": [
+   {
+    "text": "AP continues to rise so long as TP is rising.",
+    "hint": "Correct. False: AP starts falling (when MP < AP) while TP is still rising."
+   },
+   {
+    "text": "AP reaches a maximum before TP reaches a maximum.",
+    "hint": "True."
+   },
+   {
+    "text": "TP reaches a maximum when the MP of the variable input becomes zero.",
+    "hint": "True."
+   },
+   {
+    "text": "MP cuts AP at the maximum AP.",
+    "hint": "True."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "AP falls once MP < AP.",
+  "explanation": "## Advanced explanation\n\nTP keeps rising while MP > 0, but AP falls as soon as MP < AP, which happens before MP reaches zero. So AP peaks (where MP = AP) before TP peaks (where MP = 0).\n\n## Simplified explanation\n\nTotal output can keep rising while output per worker is already falling.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Production",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If we say that a price is too high to clear the market, we mean that:",
+  "options": [
+   {
+    "text": "quantity demanded exceeds quantity supplied.",
+    "hint": "That happens when price is too low."
+   },
+   {
+    "text": "the equilibrium price is above the current price.",
+    "hint": "That means the price is too low."
+   },
+   {
+    "text": "quantity supplied exceeds quantity demanded.",
+    "hint": "Correct. Too high a price creates a surplus."
+   },
+   {
+    "text": "the price of the good is likely to rise.",
+    "hint": "A surplus pushes price down."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Above equilibrium.",
+  "explanation": "## Advanced explanation\n\nAbove equilibrium, $Q_s > Q_d$: a **surplus**, which puts downward pressure on price.\n\n## Simplified explanation\n\nPrice too high → more offered than wanted.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Market Equilibrium",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why the marginal cost (MC) curve intersects both the average variable cost (AVC) and the average total cost (ATC) curves at their minimum points. **[4 marks]**",
+  "media": [],
+  "answer": "It follows from the **marginal–average relationship**:\n- When $MC <$ average cost, each additional unit costs less than the average, so it **pulls the average down**.\n- When $MC >$ average cost, each additional unit costs more than the average, so it **pulls the average up**.\n- Therefore the average stops falling and starts rising exactly where $MC =$ average: at the **minimum** of AVC and of ATC.\n\nBecause MC is rising (diminishing returns) in that range, it cuts both curves **from below**. AVC reaches its minimum at a lower output than ATC, since AFC keeps falling and delays the turn of ATC.\n\n> [!answer]\n> MC below the average pulls it down, above pulls it up, so MC = average at the average's lowest point (for both AVC and ATC).",
+  "explanation": "## Advanced explanation\n\n$\\dfrac{d(AC)}{dQ} = \\dfrac{MC - AC}{Q}$, so $AC$ is minimised where $MC = AC$. The same holds for AVC since MC is also the derivative of TVC.\n\n## Simplified explanation\n\nIf your next test score is below your average, your average falls; if above, it rises. The average is lowest where the next score equals it.",
+  "hint": "Think of a student's average mark when the next mark is above or below it.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Costs of Production",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why would a monopolist never knowingly operate in the **inelastic** portion of its demand curve? Is it optimal for the monopolist to operate there? Why or why not? **[8 marks]**",
+  "media": [],
+  "answer": "In the inelastic range ($|E_d| < 1$), **marginal revenue is negative**: $MR = P(1 - 1/|E_d|) < 0$. So:\n- **Raising price (cutting output) increases total revenue**, and\n- cutting output also **lowers total cost**.\nProfit therefore rises unambiguously by moving up the demand curve. Since a monopolist maximises profit where $MR = MC$ and $MC > 0$, MR must be positive, which only happens in the **elastic** range.\n\nIt is therefore **never optimal** to operate on the inelastic portion.\n\n> [!answer]\n> In the inelastic range MR < 0; reducing output raises revenue and cuts costs, so profit-maximising output (MR = MC > 0) is always in the elastic range.",
+  "explanation": "## Advanced explanation\n\nThe profit-maximising condition $MR = MC > 0$ implies $|E_d| > 1$. The **Lerner index** $(P - MC)/P = 1/|E_d|$ requires $|E_d| > 1$ for a sensible markup.\n\n## Simplified explanation\n\nWhere demand is inelastic, the monopolist could charge more, sell less, earn more revenue and spend less on production, so it would never stay there.",
+  "hint": "MR = P(1 − 1/|E|).",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Monopoly",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Using appropriate diagram(s), explain how the monopolist decides what output to produce and the associated price to charge. **[4 marks]**",
+  "media": [],
+  "answer": "Diagram: downward-sloping demand (AR) curve; MR curve below it (twice as steep for linear demand); U-shaped ATC; MC cutting ATC at its minimum.\n\n1. **Output:** produce $Q_m$ where $MR = MC$ (MC cutting MR from below).\n2. **Price:** go up from $Q_m$ to the demand curve and read off $P_m$, the highest price buyers will pay for that output.\n3. **Profit:** $(P_m - ATC) \\times Q_m$, the rectangle between $P_m$ and ATC at $Q_m$.\n\nBecause $P_m > MR = MC$, the monopolist charges a price above marginal cost and produces less than a competitive industry would.\n\n> [!answer]\n> Choose Q where MR = MC; charge the price on the demand curve at that Q; profit = (P − ATC) × Q.",
+  "explanation": "## Advanced explanation\n\nUnlike a competitive firm, the monopolist is a price maker: once it picks output, the demand curve determines price. The result is allocative inefficiency ($P > MC$) and a deadweight loss.\n\n## Simplified explanation\n\nMake the amount where extra revenue equals extra cost, then charge the most customers will pay for that amount.",
+  "hint": "MR = MC, then read price off demand.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Monopoly",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If economic profits were zero, would a monopolist ever stay in business? Why might it be possible for a monopolist to earn positive economic profits in the long run? **[4 marks]**",
+  "media": [],
+  "answer": "**Yes.** Zero economic profit means the firm earns a **normal profit**: revenue covers all costs, including the opportunity cost of the owner's resources. The owners do as well as in their best alternative, so there is no reason to leave.\n\nA monopolist can earn **positive economic profits in the long run** because **barriers to entry** prevent new firms from entering and competing the profits away, e.g. legal barriers (patents, licences, government franchise), control of essential resources, economies of scale (natural monopoly), and high start-up costs or strategic deterrence.\n\n> [!answer]\n> Yes: zero economic profit = normal profit. Barriers to entry let monopoly profits persist in the long run.",
+  "explanation": "## Advanced explanation\n\nIn competitive markets, free entry drives long-run economic profit to zero. A monopoly's barriers block entry, so the profit rectangle can persist.\n\n## Simplified explanation\n\nZero 'economic' profit still pays the owner a fair return, so the firm stays. Monopolies keep extra profit because others can't get into the market.",
+  "hint": "Normal profit and barriers to entry.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Monopoly",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is a monopoly a **price maker**, but a perfectly competitive firm a **price taker**? **[4 marks]**",
+  "media": [],
+  "answer": "A **monopolist** is the **only seller** of a product with no close substitutes. Its demand curve is the **market demand curve**, which slopes downward, so it can choose the price (accepting the quantity buyers will take at that price): it is a price maker.\n\nA **perfectly competitive firm** is one of **very many** sellers of an **identical** product, each too small to affect market supply. Buyers have perfect information and can switch freely, so if it charges above the market price it sells nothing, and it can sell all it wants at the market price. Its demand curve is **horizontal** (perfectly elastic): it is a price taker.\n\n> [!answer]\n> Monopoly faces the downward-sloping market demand curve and can set price; a competitive firm is tiny relative to the market with a perfectly elastic demand curve, so it must accept the market price.",
+  "explanation": "## Advanced explanation\n\nMarket power is the ability to raise price above MC without losing all sales. It depends on the elasticity of the firm's own demand curve: infinite for the competitive firm, finite for the monopolist.\n\n## Simplified explanation\n\nThe only seller can set the price. One small seller among thousands selling the same thing has to accept the going price.",
+  "hint": "Compare the demand curves each firm faces.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Monopoly",
+   "Perfect Competition",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Compare and contrast the following:\n\n(a) Microeconomics versus Macroeconomics **[5 marks]**\n(b) Positive versus Normative Statements **[5 marks]**\n(c) Quantity demanded versus change in demand **[5 marks]**\n(d) Law of variable proportions and diminishing marginal utility **[5 marks]**",
+  "media": [],
+  "answer": "**(a)** **Microeconomics** studies individual units (households, firms, single markets): price determination, consumer and producer behaviour, resource allocation. **Macroeconomics** studies the economy as a whole: GDP, unemployment, inflation, growth, money, fiscal and monetary policy. Both use the same tools (scarcity, choice, models) and are linked: macro outcomes are the sum of micro decisions.\n\n**(b)** **Positive** statements describe *what is* and can be tested (e.g. 'Ghana's inflation rate rose in 2022'). **Normative** statements say *what ought to be* and rest on value judgements (e.g. 'Government should reduce inflation'). Both are used in policy: positive analysis predicts consequences; normative judgement chooses among them.\n\n**(c)** A change in **quantity demanded** is a **movement along** a demand curve caused only by a change in the good's own price. A change in **demand** is a **shift** of the whole curve caused by other determinants (income, tastes, prices of related goods, expectations, number of buyers). Both describe changes in buyers' purchases.\n\n**(d)** The **law of variable proportions** (diminishing marginal returns) is a **production** concept: adding more of a variable input to a fixed input eventually reduces the marginal product of the variable input. **Diminishing marginal utility** is a **consumption** concept: as a person consumes more units of a good, the extra satisfaction from each additional unit eventually falls. Similarity: both say that additional units eventually add less, holding something fixed (fixed factors vs a given time period/tastes). Difference: one concerns physical output and underlies rising MC and upward supply; the other concerns satisfaction and underlies downward-sloping demand.\n\n> [!answer]\n> Micro = parts, macro = whole; positive = testable, normative = value-based; quantity demanded = movement (own price), demand = shift (other factors); diminishing returns (production) vs diminishing MU (consumption), both 'additional units add less'.",
+  "explanation": "## Advanced explanation\n\nThese distinctions organise introductory economics. Note the parallel in (d): diminishing returns → rising MC → upward-sloping supply; diminishing MU → downward-sloping demand.\n\n## Simplified explanation\n\nSmall parts vs the whole; facts vs opinions; moving along vs shifting the curve; extra workers add less vs extra units please less.",
+  "hint": "For each pair give a definition of both, then a similarity and a difference.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Economic Methodology",
+   "Demand & Supply",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Yell-O Yew-Boats, Ltd. produces a popular brand of pointy birds called Blue Meanies. Consider the demand and supply equations for Blue Meanies:\n\n$Q_{d,x} = 150 - 2P_x + 0.001I + 1.5P_y$ and $Q_{s,x} = 60 + 4P_x - 2.5W$\n\nwhere $Q_x$ is monthly per-family consumption of Blue Meanies, $P_x$ is the price per unit of Blue Meanies, $I$ is the median annual per-family income = ¢25,000, $P_y$ is the price per unit of Apple Bonkers = ¢5.00 and $W$ is the median per-worker wage rate = ¢8.60.\n\n(a) What type of good is an Apple Bonker? **[1 mark]**\n(b) What are the equilibrium price and quantity of Blue Meanies? Calculate the price elasticity of demand at equilibrium. **[4 marks]**\n(c) Suppose that median per-family income increases by ¢6,000. What are the new equilibrium price and quantity of Blue Meanies? **[3 marks]**\n(d) Suppose that in addition to the increase in median per-family income, collective bargaining by Blue Meanie workers resulted in a ¢2.40 hourly increase in the wage rate. What are the new equilibrium price and quantity? **[4 marks]**\n(e) Suppose after the ¢2.40 increase in the hourly wage rate the government imposes a per-unit tax of ¢1.5. Calculate the new equilibrium price and quantity, consumer and producer surplus and the revenue to the government. **[5 marks]**\n(f) In a single diagram, illustrate your answers to parts b, c, d and e. **[4 marks]**",
+  "media": [],
+  "answer": "**(a)** The coefficient on $P_y$ is **+1.5**: a higher price of Apple Bonkers raises demand for Blue Meanies, so Apple Bonkers are a **substitute**.\n\n**(b)** $Q_d = 150 - 2P + 25 + 7.5 = 182.5 - 2P$; $Q_s = 60 + 4P - 21.5 = 38.5 + 4P$.\n$182.5 - 2P = 38.5 + 4P \\Rightarrow P^* = ₵24$, $Q^* = 134.5$.\n$E_d = -2 \\times 24/134.5 \\approx -0.357$ (inelastic).\n\n**(c)** $I = 31{,}000$: $Q_d = 188.5 - 2P$. $188.5 - 2P = 38.5 + 4P \\Rightarrow P = ₵25$, $Q = 138.5$.\n\n**(d)** $W = 11.00$: $Q_s = 60 + 4P - 27.5 = 32.5 + 4P$. $188.5 - 2P = 32.5 + 4P \\Rightarrow P = ₵26$, $Q = 136.5$.\n\n**(e)** Tax on sellers: $Q_s = 32.5 + 4(P - 1.5) = 26.5 + 4P$. $188.5 - 2P = 26.5 + 4P \\Rightarrow P_c = ₵27$, $Q = 134.5$; sellers receive $P_p = ₵25.50$.\n- CS: demand choke price $= 188.5/2 = 94.25$; $CS = \\tfrac12(134.5)(94.25 - 27) \\approx ₵4{,}522.56$.\n- PS: the pre-tax supply curve $Q_s = 32.5 + 4P$ meets the price axis at $P = -8.125$; $PS = \\tfrac12(134.5)(25.5 + 8.125) \\approx ₵2{,}261.28$.\n- Government revenue $= 1.5 \\times 134.5 = ₵201.75$.\n\n**(f)** One diagram: $D_1$ (intercept 91.25 on the price axis, 182.5 on the quantity axis) and $D_2$ (94.25, 188.5); $S_1$ (price-axis intercept −9.63) and $S_2$ (−8.13) after the wage rise, and $S_3$ shifted up by 1.5 for the tax. Equilibria: (134.5, 24), (138.5, 25), (136.5, 26), (134.5, 27).\n\n> [!answer]\n> Substitute; P = 24, Q = 134.5, $E_d \\approx -0.36$; after income rise P = 25, Q = 138.5; after wage rise P = 26, Q = 136.5; with tax $P_c = 27$, $P_p = 25.5$, Q = 134.5, CS ≈ 4,522.6, PS ≈ 2,261.3, tax revenue 201.75.",
+  "explanation": "## Advanced explanation\n\nIncome (positive coefficient → normal good) shifts demand right; a wage rise (input cost) shifts supply left; a per-unit tax drives a wedge between buyer and seller prices. Of the ₵1.5 tax, buyers pay ₵1 (27 vs 26) and sellers ₵0.5 (25.5 vs 26), since demand is less elastic than supply here. PS is measured to the supply curve's (negative) price intercept, as in the department's marking scheme diagram.\n\n## Simplified explanation\n\nPlug in the numbers, set demand equal to supply, and solve. Higher income raises price and quantity; higher wages raise price and cut quantity; the tax raises the buyer's price further.",
+  "hint": "Substitute the given values to get linear equations in P only.",
+  "difficulty": "hard",
+  "marks": 21,
+  "tags": [
+   "Market Equilibrium",
+   "Elasticity",
+   "Taxes & Incidence",
+   "2020/21 End of Semester Exam",
+   "ECO103"
+  ]
+ }
+]

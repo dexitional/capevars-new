@@ -1,0 +1,198 @@
+[
+ {
+  "type": "text",
+  "body": "State **TWO (2)** uses of a centrifuge in a haematology laboratory.",
+  "answer": "> [!answer]\n> 1. **Packing red cells to measure the haematocrit (PCV)** in a microhaematocrit centrifuge.\n> 2. **Separating plasma or serum from cells** for coagulation tests (platelet-poor plasma for PT/APTT), ESR preparation, or for washing red cells in blood grouping and the antiglobulin (Coombs) test.\n\nOther acceptable uses: concentrating cells for cytospin preparations, and separating blood components (buffy coat) for examination.",
+  "explanation": "## Advanced explanation\n\nA centrifuge applies **relative centrifugal force (RCF, g)** so that particles sediment according to Stokes' law — larger, denser particles (red cells) sediment faster than plasma proteins. In haematology this is used for the **microhaematocrit** (12 000 g for 5 minutes packs red cells so the PCV can be read directly), for producing **platelet-poor plasma** (≈2 000 g for 10–15 minutes) for coagulation assays, and for **washing red cells** in serological work so that free protein does not neutralise the antiglobulin reagent.\n\n## Simplified explanation\n\nSpinning blood makes the heavy cells go to the bottom. That lets you **measure the packed cell volume** and **get clear plasma or serum** for other tests.",
+  "hint": "Think of what spinning blood separates, and what you then measure.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Centrifugation",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **TWO (2)** conditions that will mandate calibration of any equipment in the haematology laboratory.",
+  "answer": "> [!answer]\n> 1. **After installation of new equipment, or after it has been moved, serviced or repaired** (for example after a major component such as the aperture, lamp or optical block is replaced).\n> 2. **When quality control results drift or fall outside acceptable limits** (control values out of range, a shift or trend on the Levey–Jennings chart, or failure of an external quality assessment survey).\n\nAlso acceptable: when the manufacturer's scheduled calibration interval is reached, when a new lot of reagents is introduced, and after an interruption such as a power surge.",
+  "explanation": "## Advanced explanation\n\nCalibration establishes the relationship between the instrument signal and the **true value of a measurand** using a calibrator of known assigned value. It is mandated when that relationship may have changed: **installation, relocation, repair or replacement of critical parts**; **out-of-control internal QC** (shift, trend, 1₃ₛ/2₂ₛ rule violations) or poor EQA performance; a **change of reagent lot** that alters the reaction; and at the **manufacturer's stated interval**. Calibration is distinct from QC — QC detects the need, calibration corrects it.\n\n## Simplified explanation\n\nCalibrate when the machine is **new, moved, repaired**, or when the **control results go wrong**.",
+  "hint": "One reason is about the machine itself; the other is about the control results.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Quality Control & Calibration",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Kofi Mensah, a Medical Laboratory Science graduate, was employed by a multinational company to man the laboratory of an ultra-modern hospital in Kubekrom. On his first day at work he met with the management of the facility concerning the choice of analyser he wanted installed for electrolyte analysis. After thorough deliberations, Kofi settled on having an **ion selective electrode (ISE)** installed for serum electrolyte estimation.\n\nDiscuss the reasons for Kofi Mensah's choice.",
+  "answer": "| Reason | Explanation |\n|---|---|\n| **Measures activity of the free ion** | An ISE responds to the **activity of unbound Na⁺, K⁺, Cl⁻, Ca²⁺** in the water phase of serum, which is what is physiologically active, rather than total concentration. |\n| **Direct ISE avoids pseudohyponatraemia** | Direct (undiluted) ISE is **not affected by hyperlipidaemia or hyperproteinaemia**, unlike flame photometry and indirect methods that assume a fixed plasma water fraction. |\n| **High selectivity** | The membrane (glass for Na⁺, valinomycin for K⁺, ion-exchanger for Cl⁻) is **selective for one ion**, so interference is low. |\n| **Small sample volume, no dilution needed** | Useful for **paediatric and neonatal** samples and for whole blood, plasma, serum and urine. |\n| **Rapid, simple and easily automated** | Results in seconds; electrodes sit in modern analysers and blood-gas machines, so **turnaround time is short** and the workload of a busy hospital is met. |\n| **No flammable gas and no hazardous flame** | Unlike flame photometry, there is **no propane/acetylene cylinder**, so it is safer and cheaper to run. |\n| **Wide analytical range and good precision** | Follows the **Nernst equation** over several decades of concentration with good reproducibility. |\n| **Low running cost and easy maintenance** | Electrodes are reusable; only calibrators and conditioning solutions are needed. |\n\n> [!answer]\n> An ISE measures the **physiologically active free ion** with **high selectivity**, needs a **very small, undiluted sample**, is **fast, automated, safe (no flame) and cheap to run**, and (as a direct ISE) is **free from the pseudohyponatraemia** that affects flame photometry in lipaemic or hyperproteinaemic sera.",
+  "explanation": "## Advanced explanation\n\nAn ISE is a **potentiometric** device: an ion-selective membrane develops a potential across itself that follows the **Nernst equation**, $E = E^{0} + \\frac{2.303RT}{zF}\\log a_{i}$, where $a_i$ is the activity of the ion. Because the response is logarithmic in activity, the electrode reports the **free, osmotically active ion** in plasma water. **Direct ISE** analyses undiluted sample and is therefore independent of the solid (lipid/protein) phase; **indirect ISE** and flame photometry dilute the sample and report concentration per litre of plasma, so a raised solid phase falsely lowers sodium (**pseudohyponatraemia**). For a hospital laboratory, the ISE also wins on throughput, safety (no flame or flammable gas), small sample volume and running cost.\n\n## Simplified explanation\n\nThe ISE measures the **free sodium, potassium and chloride** in the water part of blood. It is **accurate even in fatty samples**, needs **only a drop of sample**, works **fast**, costs little to run and has **no dangerous flame** — so it suits a busy modern hospital.",
+  "hint": "Compare it with flame photometry: accuracy in lipaemic samples, sample volume, speed, safety and cost.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Ion Selective Electrodes",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is a **cuvette**?",
+  "answer": "> [!answer]\n> A **cuvette** is the small, optically clear vessel (tube or cell) of defined path length — usually **1 cm** — that holds the sample in the light path of a colorimeter or spectrophotometer so that absorbance or transmittance can be measured.",
+  "explanation": "## Advanced explanation\n\nThe cuvette is the **sample holder** in the optical train of a photometer. Its internal width defines the **path length $b$** in the Beer–Lambert law, $A = \\varepsilon b c$, so a cuvette of accurately known (and constant) path length is essential for quantitation. Its walls must transmit the wavelength used and must not scatter or fluoresce.\n\n## Simplified explanation\n\nIt is the **little clear tube that holds the sample** while light is passed through it in a colorimeter or spectrophotometer.",
+  "hint": "It is the part of the instrument that holds the sample in the light beam.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Spectrophotometry",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Mention **four (4)** types of cuvette.",
+  "answer": "> [!answer]\n> 1. **Optical (soda-lime/borosilicate) glass cuvettes** — for the visible region, about 340–2500 nm.\n> 2. **Plastic (polystyrene or acrylic/PMMA) disposable cuvettes** — visible region only; cheap and single-use.\n> 3. **Quartz (fused silica) cuvettes** — transmit **ultraviolet** light, about 190–2500 nm.\n> 4. **Special cuvettes**: **flow-through** cuvettes for continuous-flow analysers, **semi-micro/micro** cuvettes for small volumes, and **infrared cuvettes** made of sodium chloride or potassium bromide.",
+  "explanation": "## Advanced explanation\n\nCuvettes are classified by the **material of construction**, because the material sets the usable spectral window. **Plastic** (polystyrene ≈ 340–800 nm, PMMA ≈ 300–800 nm) is cheap and disposable but absorbs strongly in the UV and is attacked by organic solvents. **Optical glass** transmits from about 340 nm upwards. **Fused silica (quartz)** transmits from about 190 nm, so it is required for the UV measurements of nucleic acids (260 nm) and proteins (280 nm). **Salt-plate (NaCl, KBr) cells** are used for infrared work. Geometry gives further types: standard 1 cm, semi-micro, micro, and flow cells.\n\n## Simplified explanation\n\nCuvettes are made of **plastic, ordinary glass, quartz** or special materials. Only **quartz** lets ultraviolet light through; plastic and glass are for visible light.",
+  "hint": "Name them by the material they are made of.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Spectrophotometry",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What will inform your choice of a cuvette for spectrophotometric analysis?",
+  "answer": "| Factor | Why it matters |\n|---|---|\n| **Wavelength of measurement** | UV work (< 340 nm) demands **quartz**; visible work can use glass or plastic. |\n| **Material compatibility with the sample** | Organic solvents and strong acids/alkalis attack plastic; choose glass or quartz. |\n| **Path length** | Usually **1 cm**; a shorter path or micro-cell is used for strongly absorbing or scarce samples. |\n| **Sample volume available** | Standard, semi-micro, micro or capillary cuvettes are chosen by the volume on hand (paediatric samples). |\n| **The instrument itself** | The cuvette must fit the **cuvette holder** of that photometer; some analysers need a flow-through cell. |\n| **Optical quality and matching** | Cuvettes used for blank and test must be **matched**, scratch-free, clean and free of fingerprints. |\n| **Disposable or reusable, and cost** | Disposable plastic avoids carry-over and cleaning; quartz is expensive and is reused. |\n\n> [!answer]\n> Mainly the **wavelength** (UV needs quartz), the **chemical nature of the sample**, the **path length and volume** required, the **instrument's cuvette holder**, the need for **matched, scratch-free optical surfaces**, and **cost/disposability**.",
+  "explanation": "## Advanced explanation\n\nBecause $A = \\varepsilon b c$, the cuvette controls two experimental variables: the **path length $b$** and the **transmission of the cell walls** at the analytical wavelength. A plastic cell used at 260 nm would absorb most of the incident light, destroying the signal-to-noise ratio; an unmatched or scratched cell introduces a systematic difference between blank and test. Volume, chemical resistance and the geometry of the instrument's holder are practical constraints.\n\n## Simplified explanation\n\nChoose by **what wavelength you are using** (UV needs quartz), **what the sample is made of**, **how much sample you have**, and **what fits your machine** — and keep the cuvettes clean and unscratched.",
+  "hint": "Start with the wavelength, then think about the sample and the instrument.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Spectrophotometry",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the **light source (lamp)** used in each of the following instruments:\n\n(a) Colorimeter\n(b) UV/Visible spectrophotometer\n(c) Atomic absorption spectrophotometer (AAS)\n(d) Flame photometer\n(e) Double-beam spectrophotometer",
+  "answer": "| Instrument | Light source |\n|---|---|\n| **(a) Colorimeter** | **Tungsten (tungsten–filament) lamp** for the visible region, 340–800 nm |\n| **(b) UV/Visible spectrophotometer** | **Deuterium (D₂) lamp** for the UV (190–380 nm) **plus a tungsten–halogen lamp** for the visible (350–900 nm) |\n| **(c) Atomic absorption spectrophotometer** | **Hollow cathode lamp** of the element being measured (an electrodeless discharge lamp for volatile elements) |\n| **(d) Flame photometer** | **No external lamp — the flame itself is the source**; the atoms excited in the flame emit their own characteristic light |\n| **(e) Double-beam spectrophotometer** | Same as a UV/Vis instrument — a **deuterium lamp and a tungsten–halogen lamp**, the single beam being split by a chopper/half-mirror into sample and reference beams |\n\n> [!answer]\n> Tungsten; deuterium + tungsten–halogen; hollow cathode lamp; none (the flame emits); deuterium + tungsten–halogen with a beam splitter.",
+  "explanation": "## Advanced explanation\n\n**Absorption** instruments need a source of the wavelength being absorbed: a continuum source (tungsten for the visible, deuterium for the UV) in molecular spectrophotometry, but a **line source** in AAS, because atomic absorption lines are only ~0.002 nm wide and no monochromator can isolate so narrow a band from a continuum — hence the **hollow cathode lamp** made of the same element, which emits exactly the resonance lines the analyte absorbs. **Emission** instruments such as the flame photometer need **no lamp at all**: thermal energy in the flame promotes Na, K and Li atoms to excited states and the light emitted on relaxation (589, 767 and 671 nm) is measured. A double-beam instrument uses the same sources as a single-beam one but divides the beam so that lamp drift affects sample and reference equally.\n\n## Simplified explanation\n\nColorimeter → **tungsten bulb**. UV/Vis (and double-beam) → **deuterium lamp for UV + tungsten for visible**. AAS → **hollow cathode lamp of the metal being measured**. Flame photometer → **the flame is the light source**.",
+  "hint": "Remember which of these instruments measures emitted light rather than absorbed light.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Photometry Instrumentation",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the function of each of the following parts of the light microscope:\n\n(a) Eyepiece\n(b) Objective lens\n(c) Coarse adjustment knob\n(d) Fine adjustment knob\n(e) Condenser iris (iris diaphragm)",
+  "answer": "| Part | Function |\n|---|---|\n| **(a) Eyepiece (ocular)** | The lens you look through; it **further magnifies the real image formed by the objective** (usually ×10) and presents it to the eye. |\n| **(b) Objective lens** | The lens closest to the specimen; it **gathers light from the specimen and forms the primary magnified real image** (×4, ×10, ×40, ×100 oil). It determines resolution through its numerical aperture. |\n| **(c) Coarse adjustment knob** | Moves the stage/body tube through a **large distance for rapid, approximate focusing**, used with low-power objectives. |\n| **(d) Fine adjustment knob** | Moves the stage/body tube through a **very small distance for sharp, final focusing**, essential at high power and under oil immersion. |\n| **(e) Condenser iris (iris diaphragm)** | **Controls the diameter of the cone of light** entering the condenser, thereby regulating illumination intensity, contrast and depth of field. |\n\n> [!answer]\n> Eyepiece — magnifies the objective's image; objective — forms the primary magnified image and sets resolution; coarse knob — quick rough focus; fine knob — sharp final focus; condenser iris — regulates the amount and angle of light, hence contrast.",
+  "explanation": "## Advanced explanation\n\nTotal magnification = **objective × eyepiece**, but **resolution** is set by the objective's numerical aperture through the Abbe equation, $d = \\frac{0.61\\lambda}{NA}$. The condenser focuses light on the specimen and the **iris diaphragm** matches the illuminating cone to the objective's NA: closing it increases contrast and depth of field but degrades resolution; opening it fully maximises resolution but flattens contrast. Coarse focus is used only with low-power objectives — using it with the ×100 oil objective risks driving the lens through the slide.\n\n## Simplified explanation\n\nThe **objective** makes the first enlarged picture, the **eyepiece** enlarges it again, the **coarse knob** gets you roughly in focus, the **fine knob** makes it sharp, and the **iris** controls how much light reaches the specimen.",
+  "hint": "Two parts magnify, two parts focus, one part controls light.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Microscopy",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3)** safety procedures that must be observed in the microbiology laboratory.",
+  "answer": "> [!answer]\n> 1. **Wear the correct personal protective equipment** — laboratory coat fully buttoned, gloves, and eye protection where splashes are possible; remove PPE before leaving the laboratory.\n> 2. **Handle all specimens as potentially infectious and work aseptically** — carry out aerosol-generating procedures (centrifugation of open tubes, sub-culturing, vortexing) in a **biological safety cabinet**, flame loops properly, and disinfect the bench with a suitable disinfectant (for example 0.5–1% hypochlorite) before and after work.\n> 3. **No eating, drinking, smoking, chewing or mouth pipetting** in the laboratory, and **wash hands** with soap and water after removing gloves and before leaving.\n\nAlso acceptable: autoclave all cultures and contaminated waste before disposal; discard sharps into puncture-proof containers; report all spills and needle-stick injuries immediately; keep the laboratory restricted to authorised staff.",
+  "explanation": "## Advanced explanation\n\nMicrobiology safety rests on **containment** (barriers between the worker and the agent) and **work practice**. Primary containment is the **biological safety cabinet** and sealed centrifuge buckets, which control the principal hazard — **infectious aerosols**. Secondary containment is the laboratory design and restricted access. Universal (standard) precautions require that every specimen be treated as infectious; decontamination by **autoclaving at 121 °C for 15 minutes** and surface disinfection close the cycle, and prohibition of eating, drinking and mouth pipetting prevents the ingestion route.\n\n## Simplified explanation\n\n**Wear your coat and gloves**, **work carefully and disinfect** (use the safety cabinet for anything that can make a spray), and **never eat, drink or pipette by mouth** in the laboratory.",
+  "hint": "Think protective clothing, containment of aerosols, and personal conduct.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Laboratory Safety",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **TWO (2)** uses of an autoclave.",
+  "answer": "> [!answer]\n> 1. **Sterilisation of culture media, glassware, instruments, surgical dressings, gowns and rubber items** before use (typically 121 °C at 15 psi for 15 minutes).\n> 2. **Decontamination (make-safe) of infectious waste** — used cultures, discarded plates and contaminated material — before disposal.\n\nAlso acceptable: sterilising distilled water and solutions that are heat-stable, and sterility testing/spore-strip validation of the sterilising process.",
+  "explanation": "## Advanced explanation\n\nThe autoclave sterilises with **saturated steam under pressure**. At 15 psi above atmospheric pressure, water boils at **121 °C**; the latent heat released when steam condenses on the load denatures proteins and nucleic acids and kills bacterial **endospores** — which dry heat only achieves at 160–180 °C for 1–2 hours. Effective sterilisation requires air removal, direct steam contact, and the correct time–temperature combination (121 °C/15 min or 134 °C/3 min), verified with **Bacillus stearothermophilus (Geobacillus) spore strips** or chemical indicators.\n\n## Simplified explanation\n\nAn autoclave uses **steam under pressure** to **sterilise media, glassware and instruments** and to **make infectious waste safe** before it is thrown away.",
+  "hint": "One use is before the work, the other is after it.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Sterilisation",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "How will you sterilise the following items in the laboratory?\n\n(a) Microbiological loop\n(b) Petri dish\n(c) Culture media\n(d) Peptone water",
+  "answer": "| Item | Method of sterilisation |\n|---|---|\n| **(a) Microbiological loop** | **Red heat** — hold in the hottest part of a Bunsen flame until the wire glows red (or use an electric incinerator); disposable plastic loops are pre-sterilised by irradiation. |\n| **(b) Petri dish** | **Glass dishes: hot air oven**, 160 °C for 2 hours (dry heat). **Plastic dishes: gamma irradiation** by the manufacturer — they must never be autoclaved or baked. |\n| **(c) Culture media** | **Autoclaving (moist heat)**, 121 °C at 15 psi for 15 minutes. Heat-labile media are **filtered (0.22 µm membrane)** or steamed at 100 °C/Tyndallised, and heat-labile additives (serum, antibiotics) are added after cooling. |\n| **(d) Peptone water** | **Autoclaving**, 121 °C at 15 psi for 15 minutes. |\n\n> [!answer]\n> Loop — **red heat**; glass Petri dish — **hot air oven 160 °C for 2 h** (plastic ones come pre-irradiated); culture media and peptone water — **autoclave at 121 °C, 15 psi, 15 min**.",
+  "explanation": "## Advanced explanation\n\nThe method follows the **heat tolerance and physical form** of the item. **Red heat** is instantaneous incineration, suitable only for inoculating wires, loops and forceps tips. **Dry heat** in a hot air oven (160 °C/2 h or 170 °C/1 h) suits dry, heat-stable glassware, because it kills by oxidation and needs higher temperatures and longer times than moist heat. **Moist heat under pressure** (121 °C/15 min) is the method for aqueous media: the condensing steam gives rapid heat transfer and kills spores, and liquids cannot be sterilised in a hot air oven because they would boil dry. Thermolabile items use **filtration** or **ionising radiation**.\n\n## Simplified explanation\n\nLoops are **burned red hot**. Glass dishes go in the **hot air oven**. Anything liquid — media and peptone water — goes in the **autoclave**.",
+  "hint": "Dry metal, dry glass and liquids each need a different kind of heat.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Sterilisation",
+   "End of Semester Exam (Paper 2)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "How will you sterilise each of the following items in the laboratory?\n\n(i) Suture (ii) Culture media (iii) Culture broth (iv) Petri dish (v) Blood culture bottles (vi) Gauze (vii) Culture loop (viii) Speculum (ix) Inoculation loop (x) Forceps",
+  "answer": "| Item | Method |\n|---|---|\n| **(i) Suture** | **Ionising (gamma) irradiation** by the manufacturer; catgut is also sterilised chemically (iodine in alcohol) — not autoclaved. |\n| **(ii) Culture media** | **Autoclave**, 121 °C/15 psi/15 min (heat-labile media: membrane filtration). |\n| **(iii) Culture broth** | **Autoclave**, 121 °C/15 psi/15 min. |\n| **(iv) Petri dish** | Glass: **hot air oven** 160 °C/2 h. Plastic: supplied **pre-sterilised by gamma irradiation**. |\n| **(v) Blood culture bottles** | **Autoclave** the prepared bottles of broth, 121 °C/15 psi/15 min; after use they are autoclaved again to decontaminate. |\n| **(vi) Gauze** | **Autoclave** (wrapped in a drum or pack), 121 °C/15 psi/15 min. |\n| **(vii) Culture loop** | **Red heat** in a Bunsen flame or electric incinerator. |\n| **(viii) Speculum** | Metal: **autoclave** 121 °C/15 min (or hot air oven). Plastic/heat-sensitive: **chemical sterilisation** (2% glutaraldehyde) or ethylene oxide. |\n| **(ix) Inoculation loop** | **Red heat** in a Bunsen flame. |\n| **(x) Forceps** | **Flaming/red heat of the tips** for immediate use; full sterilisation by **autoclaving** or **hot air oven**. |\n\n> [!answer]\n> Dry metal tools (loops, forceps tips) — **red heat/flaming**; glassware — **hot air oven**; media, broths, blood culture bottles, gauze and metal specula — **autoclave**; sutures and plastic Petri dishes — **irradiation (supplied sterile)**; heat-sensitive specula — **chemical sterilisation**.",
+  "explanation": "## Advanced explanation\n\nThe choice is governed by three questions: is the article **heat-stable**, is it **wet or dry**, and is it **disposable**? Moist heat (autoclave) is the first choice for anything aqueous or porous that will tolerate 121 °C, because condensing steam transfers latent heat efficiently and kills spores in minutes. Dry heat suits anhydrous, heat-stable solids (glass, powders, oils) but needs 160–180 °C for 1–2 hours. Red heat/flaming is instantaneous incineration for wires and instrument tips. Thermolabile items (sutures, plastics, endoscopic instruments) are sterilised by **gamma irradiation, ethylene oxide or chemical sterilants** such as 2% alkaline glutaraldehyde.\n\n## Simplified explanation\n\n**Burn** wire loops and forceps tips, **bake** glass in the oven, **steam** liquids, media and gauze in the autoclave, and use **radiation or chemicals** for plastics and sutures that heat would destroy.",
+  "hint": "Group the items into: burn it, bake it, steam it, or use chemicals/radiation.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Sterilisation",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is the purpose of using **immersion oil** with the ×100 objective of the light microscope?",
+  "answer": "> [!answer]\n> Immersion oil has a **refractive index (≈1.515) almost the same as glass**, so it **replaces the air gap between the slide and the objective front lens**. This prevents refraction and loss of the most oblique light rays, **raises the numerical aperture from about 0.95 to about 1.25–1.40**, and so increases the **resolving power and brightness** of the image at ×1000 magnification.",
+  "explanation": "## Advanced explanation\n\nResolution follows the Abbe equation $d = \\frac{0.61\\lambda}{NA}$, where $NA = n\\sin\\theta$. With air between slide and objective, $n = 1.0$ and $NA$ cannot exceed 1. Light leaving the glass slide into air is refracted away from the optical axis and the widest-angle rays are lost by total internal reflection. Immersion oil with $n \\approx 1.515$ matches the glass, so the rays travel undeviated into the objective, $NA$ rises to ≈1.25–1.40, $d$ falls to about 0.2 µm, and the image is both sharper and brighter — which is why bacteria and blood-film detail are examined under oil.\n\n## Simplified explanation\n\nThe oil **bends light the same way glass does**, so no light is lost between the slide and the lens. That makes the picture **brighter and much sharper** at ×1000.",
+  "hint": "Think about what happens to light passing from glass into air.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Microscopy",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A laboratory centrifuge begins to make a **loud noise** during operation and, when it is opened, several of the tubes have **broken**. Give **FOUR (4)** possible reasons for this.",
+  "answer": "> [!answer]\n> 1. **The rotor was not balanced** — tubes of unequal weight, or tubes not placed opposite each other, so the rotor vibrates violently.\n> 2. **Excessive speed for the tubes used** — the RCF exceeded the maximum rating of the tubes (or the wrong rotor/speed combination was selected), so the tubes collapsed.\n> 3. **Defective, cracked, chipped or inappropriate tubes** — old, scratched or thin-walled glass tubes, or tubes of the wrong size for the buckets/cushions, break under stress.\n> 4. **Worn or faulty centrifuge parts** — worn bearings, a loose or incorrectly seated rotor, a damaged or missing rubber cushion in the bucket, or debris/broken glass left inside the chamber.\n> 5. **The centrifuge is not standing on a firm, level surface**, so it rocks and vibrates during the run.\n\n(Any four.)",
+  "explanation": "## Advanced explanation\n\nAt operating speed the rotor stores a large amount of kinetic energy; a mass imbalance of even a few grams generates a periodic lateral force that is amplified as the rotor passes its **critical (resonant) speed**, producing the loud noise and the vibration that cracks tubes. The force on each tube is the **relative centrifugal force**, $RCF = 1.118\\times10^{-5}\\,r\\,N^{2}$ (r in cm, N in rpm); exceeding the tube's rated g-force, or using glassware weakened by scratches and autoclaving, causes mechanical failure. Worn bearings, a loose rotor nut, missing bucket cushions and an unlevel bench all add to vibration. Correct practice is to balance opposing tubes to within the manufacturer's tolerance, use tubes rated for the speed, inspect tubes before use, service the machine, and site it on a firm level bench.\n\n## Simplified explanation\n\nEither the **load was not balanced**, the **speed was too high**, the **tubes were weak, cracked or the wrong size**, or the **centrifuge itself is worn, loose or standing on an uneven bench**.",
+  "hint": "Think about the load, the speed, the tubes and the machine itself.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Centrifugation",
+   "End of Semester Exam (Paper 1)"
+  ],
+  "media": []
+ }
+]

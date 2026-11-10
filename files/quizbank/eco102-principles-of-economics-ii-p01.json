@@ -1,0 +1,657 @@
+[
+ {
+  "type": "choice",
+  "body": "Suppose GDP was constant over a period of years and yet living standards increased. Which of the following might **not** be a reason for this?",
+  "options": [
+   {
+    "text": "There might be an increase in household production.",
+    "hint": "Household production is not counted in GDP, so it could raise living standards with GDP unchanged."
+   },
+   {
+    "text": "There might be an increase in production by the underground economy.",
+    "hint": "Underground output is unrecorded, so it could raise living standards with measured GDP unchanged."
+   },
+   {
+    "text": "There might be an increase in exports.",
+    "hint": "Correct. Exports are already counted in GDP, so they cannot explain better living standards with GDP constant."
+   },
+   {
+    "text": "There might be an increase in leisure.",
+    "hint": "Leisure adds to welfare but is not counted in GDP."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which item is already inside GDP?",
+  "explanation": "## Advanced explanation\n\nGDP measures **market** output. Welfare can rise with GDP unchanged through things GDP leaves out: **non-market household production**, the **underground (shadow) economy** and **leisure**. Exports ($X$ in $C + I + G + X - M$) are already part of GDP, so a rise in exports with constant GDP means some other component fell; it cannot explain higher living standards with constant GDP.\n\n## Simplified explanation\n\nHousework, hidden production and free time are not counted in GDP, so they can make people better off while GDP stays flat. Exports are counted, so they are the odd one out.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "GDP & Welfare",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The consumer price index is used to",
+  "options": [
+   {
+    "text": "track changes in the level of wholesale prices in the economy.",
+    "hint": "Wholesale prices are tracked by the producer price index."
+   },
+   {
+    "text": "monitor changes in the cost of living.",
+    "hint": "Correct. The CPI prices a typical consumer basket over time."
+   },
+   {
+    "text": "monitor changes in the level of real GDP.",
+    "hint": "Real GDP is a quantity measure, not a price index."
+   },
+   {
+    "text": "track changes in the stock market.",
+    "hint": "Stock indices (e.g. GSE-CI) do that."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think of the basket a typical household buys.",
+  "explanation": "## Advanced explanation\n\nThe **CPI** measures the cost of a fixed basket of goods and services bought by a typical urban consumer relative to a base year. Changes in it measure changes in the **cost of living** and are used to compute inflation and to index wages and benefits.\n\n## Simplified explanation\n\nThe CPI tells us how much more a typical household must pay for the same shopping basket, i.e. the cost of living.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The Consumer Price Index (CPI) is computed by comparing the cost of the typical market basket of goods purchased during a base year (evaluated at base year prices) with:",
+  "options": [
+   {
+    "text": "The cost of the current market basket evaluated at base year prices",
+    "hint": "That would measure a change in quantities, not prices."
+   },
+   {
+    "text": "The cost of the current market basket evaluated at current prices",
+    "hint": "Changing the basket mixes quantity and price changes."
+   },
+   {
+    "text": "The cost of the same market basket evaluated at base year prices",
+    "hint": "That is just the base-year cost again, so the index would always be 100."
+   },
+   {
+    "text": "The cost of the same market basket evaluated at current prices",
+    "hint": "Correct. Same basket, new prices isolates the price change."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Hold the basket fixed; change only the prices.",
+  "explanation": "## Advanced explanation\n\nThe CPI is a **Laspeyres** index: $\\text{CPI}_t = \\dfrac{\\sum p_t q_0}{\\sum p_0 q_0}\\times 100$. The base-year basket $q_0$ is priced at **current prices** $p_t$ and compared with its cost at base-year prices $p_0$.\n\n## Simplified explanation\n\nKeep the same shopping basket and see how much it costs now compared with the base year.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose the residents of country Ghana consume only Rice and Wheat. The table shows the prices (per bushel) and quantities consumed in two consecutive years. The typical consumer basket consists of **10 bushels of Rice and 15 bushels of Wheat**. Assume 2000 is the base year.\n\n| Year | Rice price | Rice quantity | Wheat price | Wheat quantity |\n|---|---|---|---|---|\n| 2000 | \\$11 | 10 | \\$6 | 10 |\n| 2001 | \\$9 | 20 | \\$10 | 10 |\n\nWhat is the consumer price index for 2001?",
+  "options": [
+   {
+    "text": "100",
+    "hint": "100 is the base-year (2000) index."
+   },
+   {
+    "text": "120",
+    "hint": "Correct. $240/200 \\times 100 = 120$."
+   },
+   {
+    "text": "200",
+    "hint": "200 is the base-year basket cost, not the index."
+   },
+   {
+    "text": "240",
+    "hint": "240 is the 2001 basket cost, not the index."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Price the fixed basket (10 rice, 15 wheat) in both years.",
+  "explanation": "## Advanced explanation\n\nBasket cost 2000 $= 10(11) + 15(6) = 110 + 90 = 200$; basket cost 2001 $= 10(9) + 15(10) = 90 + 150 = 240$. $\\text{CPI}_{2001} = \\dfrac{240}{200}\\times 100 = 120$. Note the CPI uses the fixed **basket** (10, 15), not the quantities actually consumed in the table.\n\n## Simplified explanation\n\nThe basket cost \\$200 in 2000 and \\$240 in 2001, so the index is 240 ÷ 200 × 100 = **120**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose the residents of country Ghana consume only Rice and Wheat. The table shows the prices (per bushel) and quantities consumed in two consecutive years. The typical consumer basket consists of **10 bushels of Rice and 15 bushels of Wheat**. Assume 2000 is the base year.\n\n| Year | Rice price | Rice quantity | Wheat price | Wheat quantity |\n|---|---|---|---|---|\n| 2000 | \\$11 | 10 | \\$6 | 10 |\n| 2001 | \\$9 | 20 | \\$10 | 10 |\n\nWhat was the inflation rate in 2001?",
+  "options": [
+   {
+    "text": "20 percent",
+    "hint": "Correct. $(120-100)/100 = 20\\%$."
+   },
+   {
+    "text": "16.7 percent",
+    "hint": "That divides by 120 instead of 100."
+   },
+   {
+    "text": "10 percent",
+    "hint": "Check the CPI: it rose from 100 to 120."
+   },
+   {
+    "text": "8 percent",
+    "hint": "Check the CPI: it rose from 100 to 120."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Inflation = % change in the CPI.",
+  "explanation": "## Advanced explanation\n\nBasket cost 2000 $= 10(11) + 15(6) = 110 + 90 = 200$; basket cost 2001 $= 10(9) + 15(10) = 90 + 150 = 240$. CPI rises from 100 to 120, so inflation $= \\dfrac{120-100}{100}\\times 100 = 20\\%$.\n\n## Simplified explanation\n\nThe index went from 100 to 120, a **20%** rise.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose the residents of country Ghana consume only Rice and Wheat. The table shows the prices (per bushel) and quantities consumed in two consecutive years. The typical consumer basket consists of **10 bushels of Rice and 15 bushels of Wheat**. Assume 2000 is the base year.\n\n| Year | Rice price | Rice quantity | Wheat price | Wheat quantity |\n|---|---|---|---|---|\n| 2000 | \\$11 | 10 | \\$6 | 10 |\n| 2001 | \\$9 | 20 | \\$10 | 10 |\n\nWhat is the Nominal GDP in 2001?",
+  "options": [
+   {
+    "text": "\\$180",
+    "hint": "That counts only rice."
+   },
+   {
+    "text": "\\$190",
+    "hint": "Recompute: $9\\times20 + 10\\times10$."
+   },
+   {
+    "text": "\\$280",
+    "hint": "Correct. $9(20) + 10(10) = 180 + 100 = 280$."
+   },
+   {
+    "text": "\\$100",
+    "hint": "That counts only wheat."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Nominal GDP = current prices × current quantities produced.",
+  "explanation": "## Advanced explanation\n\nNominal GDP values the **actual 2001 quantities** at **2001 prices**: $9 \\times 20 + 10 \\times 10 = 180 + 100 = \\$280$. (The CPI basket is not used for GDP.)\n\n## Simplified explanation\n\nRice: 20 × \\$9 = \\$180; wheat: 10 × \\$10 = \\$100. Total **\\$280**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An increase in the price of goods bought **only** by firms and the government will show up in:",
+  "options": [
+   {
+    "text": "the GDP deflator but not in the CPI.",
+    "hint": "Correct. The deflator covers all domestic output; the CPI covers only consumer goods."
+   },
+   {
+    "text": "the CPI but not in the GDP deflator.",
+    "hint": "The CPI excludes goods consumers do not buy."
+   },
+   {
+    "text": "both the CPI and the GDP deflator.",
+    "hint": "Consumers do not buy these goods, so the CPI ignores them."
+   },
+   {
+    "text": "neither the CPI nor the GDP deflator.",
+    "hint": "They are part of GDP, so the deflator picks them up."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which index covers everything produced?",
+  "explanation": "## Advanced explanation\n\nThe **GDP deflator** ($\\frac{\\text{nominal GDP}}{\\text{real GDP}}\\times100$) reflects prices of **all** domestically produced final goods, including investment goods and government purchases. The **CPI** reflects only the consumer basket, so goods bought only by firms and government do not enter it.\n\n## Simplified explanation\n\nThe GDP deflator looks at everything the country produces; the CPI looks only at what households buy. So only the deflator changes.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Suppose that nominal GDP in a country is \\$6 billion in a given year and the real GDP for that year was \\$3 billion. What is the GDP price deflator?",
+  "options": [
+   {
+    "text": "100",
+    "hint": "That would need nominal = real."
+   },
+   {
+    "text": "125",
+    "hint": "Recompute 6/3 × 100."
+   },
+   {
+    "text": "150",
+    "hint": "Recompute 6/3 × 100."
+   },
+   {
+    "text": "200",
+    "hint": "Correct. $6/3 \\times 100 = 200$."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Deflator = nominal ÷ real × 100.",
+  "explanation": "## Advanced explanation\n\n$\\text{GDP deflator} = \\dfrac{\\text{Nominal GDP}}{\\text{Real GDP}}\\times 100 = \\dfrac{6}{3}\\times 100 = 200$. Prices are on average twice their base-year level.\n\n## Simplified explanation\n\n6 ÷ 3 = 2, times 100 = **200**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflation & Price Indices",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The trough of a business cycle occurs when ________ hits its lowest point.",
+  "options": [
+   {
+    "text": "the money supply",
+    "hint": "The cycle is defined by output, not money."
+   },
+   {
+    "text": "the employment levels",
+    "hint": "Employment follows output but the cycle is defined by overall activity."
+   },
+   {
+    "text": "inflation in the economy",
+    "hint": "Inflation is not the defining variable."
+   },
+   {
+    "text": "aggregate economic activity",
+    "hint": "Correct. The trough is the low point of real output/activity."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Business cycles are fluctuations in total output.",
+  "explanation": "## Advanced explanation\n\nA **business cycle** is the recurrent rise and fall of **aggregate economic activity** (real GDP) around its trend: expansion → peak → contraction (recession) → **trough** → recovery. The trough is the lowest point of real activity.\n\n## Simplified explanation\n\nThe trough is the bottom of the cycle, when the whole economy's output is lowest.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Business Cycles",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The difference between the National Income and the Net National Product at market price is known as ______.",
+  "options": [
+   {
+    "text": "National debt transfer",
+    "hint": "Not a national-accounts adjustment."
+   },
+   {
+    "text": "Current transfers from the rest of the world",
+    "hint": "Transfers do not separate NNP at market price from NI."
+   },
+   {
+    "text": "Net indirect taxes",
+    "hint": "Correct. NNP at market price − net indirect taxes = NNP at factor cost = National Income."
+   },
+   {
+    "text": "Net property income from abroad",
+    "hint": "That separates GDP from GNP."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Market price vs factor cost.",
+  "explanation": "## Advanced explanation\n\n$\\text{NNP}_{mp} - (\\text{indirect taxes} - \\text{subsidies}) = \\text{NNP}_{fc} = \\text{National Income}$. So the gap is **net indirect taxes**.\n\n## Simplified explanation\n\nMarket prices include indirect taxes (less subsidies); national income does not. The gap is **net indirect taxes**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A nation's standard of living is determined by",
+  "options": [
+   {
+    "text": "its productivity.",
+    "hint": "Correct. Output per worker determines how much each person can consume."
+   },
+   {
+    "text": "its gross domestic product.",
+    "hint": "Total GDP ignores population size."
+   },
+   {
+    "text": "its national income.",
+    "hint": "Total income ignores population and does not explain its source."
+   },
+   {
+    "text": "how much it has relative to others.",
+    "hint": "Standard of living is absolute, not relative."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of Mankiw's principle: a country's standard of living depends on its ability to produce.",
+  "explanation": "## Advanced explanation\n\nLong-run living standards depend on **productivity**, the quantity of goods and services produced per unit of labour input. Productivity in turn depends on physical capital, human capital, natural resources and technology.\n\n## Simplified explanation\n\nThe more each worker can produce, the more each person can have. So **productivity** sets living standards.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Growth & Productivity",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A nation's standard of living is measured by its",
+  "options": [
+   {
+    "text": "real GDP.",
+    "hint": "Total real GDP does not account for population."
+   },
+   {
+    "text": "real GDP per person.",
+    "hint": "Correct. Adjusts for both prices and population."
+   },
+   {
+    "text": "nominal GDP.",
+    "hint": "Nominal GDP is distorted by inflation and ignores population."
+   },
+   {
+    "text": "nominal GDP per person.",
+    "hint": "Still distorted by inflation."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Adjust for inflation and for population.",
+  "explanation": "## Advanced explanation\n\n**Real GDP per person** removes the effect of price changes (real) and of population size (per capita), so it measures the average quantity of goods and services available to each person.\n\n## Simplified explanation\n\nUse real (inflation-free) GDP divided by the number of people.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Growth & Productivity",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Per capita real GDP differs from per capita nominal GDP in that real GDP",
+  "options": [
+   {
+    "text": "measures the opportunity cost of growth.",
+    "hint": "Not what 'real' means."
+   },
+   {
+    "text": "has been adjusted for the time value of money.",
+    "hint": "That is discounting, not deflating."
+   },
+   {
+    "text": "has been adjusted for inflation.",
+    "hint": "Correct. Real GDP values output at constant base-year prices."
+   },
+   {
+    "text": "has been discounted to the present.",
+    "hint": "Discounting is a finance concept."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Real = constant prices.",
+  "explanation": "## Advanced explanation\n\nReal GDP values output at **constant (base-year) prices**, so changes reflect quantities only. Nominal GDP uses current prices and therefore rises with inflation.\n\n## Simplified explanation\n\nReal GDP takes out the effect of rising prices.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following represents a productivity-enhancing investment in **human capital**?",
+  "options": [
+   {
+    "text": "a new labor-saving technology",
+    "hint": "That is technological knowledge/physical capital."
+   },
+   {
+    "text": "a new health clinic",
+    "hint": "Correct. Better health raises workers' productivity: human capital."
+   },
+   {
+    "text": "a new factory that will employ 1,000 workers",
+    "hint": "A factory is physical capital."
+   },
+   {
+    "text": "an increase in fringe benefits, such as paid vacations and overtime pay",
+    "hint": "Higher pay does not itself raise skills or health."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Human capital = knowledge, skills and health embodied in workers.",
+  "explanation": "## Advanced explanation\n\n**Human capital** is the knowledge, skills and health of workers. Investment in education, training and **health care** raises it. A health clinic makes workers healthier and more productive; the factory is physical capital, labour-saving technology is technological knowledge, and fringe benefits are compensation.\n\n## Simplified explanation\n\nHealthier workers produce more, so a health clinic is investment in people (human capital).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Economic Growth & Productivity",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An increase in the capital stock causes labour productivity to",
+  "options": [
+   {
+    "text": "decrease and the standard of living to increase.",
+    "hint": "More capital per worker raises productivity."
+   },
+   {
+    "text": "increase and the standard of living to increase.",
+    "hint": "Correct. More tools per worker → more output per worker → higher living standards."
+   },
+   {
+    "text": "decrease and the standard of living to decrease.",
+    "hint": "More capital raises productivity."
+   },
+   {
+    "text": "increase while the standard of living remains constant.",
+    "hint": "Higher productivity raises living standards."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "More tools per worker.",
+  "explanation": "## Advanced explanation\n\nLabour productivity $Y/L$ rises with **physical capital per worker** $K/L$ (though with diminishing returns). Since living standards depend on productivity, both rise.\n\n## Simplified explanation\n\nGive workers more machines and each produces more, so people are better off.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Economic Growth & Productivity",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following best defines Net National Income?",
+  "options": [
+   {
+    "text": "GNP + Depreciation",
+    "hint": "Depreciation is subtracted, not added."
+   },
+   {
+    "text": "GNP – Depreciation",
+    "hint": "Correct. Net national = gross national less depreciation."
+   },
+   {
+    "text": "GDP – Depreciation",
+    "hint": "That is NDP (domestic, not national)."
+   },
+   {
+    "text": "NDP – Depreciation",
+    "hint": "NDP already excludes depreciation."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "'Net' means after depreciation; 'national' means GNP.",
+  "explanation": "## Advanced explanation\n\n$\\text{NNP} = \\text{GNP} - \\text{depreciation (capital consumption)}$. Among the options, **GNP − depreciation** is the net national measure. (Strictly, national income at factor cost also deducts net indirect taxes.)\n\n## Simplified explanation\n\nTake the national total (GNP) and subtract wear and tear (depreciation).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When MPC = 0, it means that",
+  "options": [
+   {
+    "text": "Part of any additional income is spent",
+    "hint": "That is 0 < MPC < 1."
+   },
+   {
+    "text": "Any additional income is spent",
+    "hint": "That is MPC = 1."
+   },
+   {
+    "text": "Any additional income earned is saved",
+    "hint": "Correct. MPC = 0 → MPS = 1: all extra income is saved."
+   },
+   {
+    "text": "No part of an additional income is saved",
+    "hint": "That is MPS = 0, i.e. MPC = 1."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "MPC + MPS = 1.",
+  "explanation": "## Advanced explanation\n\n$MPC = \\Delta C/\\Delta Y$. If $MPC = 0$, consumption does not change when income rises, so $MPS = 1 - MPC = 1$: **all** extra income is saved.\n\n## Simplified explanation\n\nMPC = 0 means none of the extra income is spent, so all of it is saved.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Basis of the difference between the concepts of market price and factor cost is:",
+  "options": [
+   {
+    "text": "Direct taxes",
+    "hint": "Direct taxes are paid out of factor incomes; they do not change market prices vs factor cost."
+   },
+   {
+    "text": "Indirect taxes",
+    "hint": "Only half the story: subsidies also matter."
+   },
+   {
+    "text": "Subsidies",
+    "hint": "Only half the story: indirect taxes also matter."
+   },
+   {
+    "text": "Net indirect taxes",
+    "hint": "Correct. Market price = factor cost + indirect taxes − subsidies."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Market price = factor cost + indirect taxes − subsidies.",
+  "explanation": "## Advanced explanation\n\n$\\text{Value at market prices} = \\text{value at factor cost} + \\text{indirect taxes} - \\text{subsidies}$. The difference is therefore **net indirect taxes**.\n\n## Simplified explanation\n\nPrices in the shop include taxes like VAT and are reduced by subsidies. The gap is net indirect taxes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following items are **not** included while measuring the Gross National Product?",
+  "options": [
+   {
+    "text": "Illegal and leisure activities",
+    "hint": "Excluded, but so are the others."
+   },
+   {
+    "text": "Purely financial transactions",
+    "hint": "Excluded, but so are the others."
+   },
+   {
+    "text": "Transferring of used goods and non-market goods and services",
+    "hint": "Excluded, but so are the others."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct. All three are excluded from GNP."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "GNP counts current, legal, market production of final goods.",
+  "explanation": "## Advanced explanation\n\nGNP counts the market value of **currently produced final goods and services**. It excludes illegal and non-market activity and leisure, **purely financial transactions** (shares, bonds, transfers), and **second-hand sales** (produced in an earlier period).\n\n## Simplified explanation\n\nNone of these is new, recorded production, so all are left out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "National Income Accounting",
+   "2023/24 Quiz 1",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider a macroeconomy that produces three goods: X, Y and Z.\n\n| Product | Quantity 2019 (m) | Quantity 2020 (m) | Price 2019 (GHS) | Price 2020 (GHS) |\n|---|---|---|---|---|\n| X | 10 | 15 | 4000 | 300 |\n| Y | 20 | 15 | 2000 | 2500 |\n| Z | 100 | 10 | 100 | 150 |\n\n(i) Calculate nominal and real GDP for 2019 and 2020 using 2019 as the base year. What are the growth rates of nominal and real GDP over this period? **(4 marks)**\n(ii) Calculate the GDP deflator and CPI for 2019 and 2020 using 2019 as the base year. **(4 marks)**\n(iii) Calculate the inflation rate between 2019 and 2020 using both the CPI and the GDP deflator. **(3 marks)**",
+  "media": [],
+  "answer": "**(i)** (GHS million)\n\n| | 2019 | 2020 |\n|---|---|---|\n| Nominal GDP | $10(4000)+20(2000)+100(100) = 90{,}000$ | $15(300)+15(2500)+10(150) = 43{,}500$ |\n| Real GDP (2019 prices) | $90{,}000$ | $15(4000)+15(2000)+10(100) = 91{,}000$ |\n\nNominal growth $= (43{,}500-90{,}000)/90{,}000 = -51.7\\%$; real growth $= (91{,}000-90{,}000)/90{,}000 = +1.1\\%$.\n\n**(ii)** GDP deflator: 2019 = 100; 2020 $= 43{,}500/91{,}000 \\times 100 = 47.8$.\nCPI (2019 basket: 10 X, 20 Y, 100 Z): cost at 2020 prices $= 10(300)+20(2500)+100(150) = 68{,}000$, so CPI 2019 = 100, CPI 2020 $= 68{,}000/90{,}000\\times100 = 75.6$.\n\n**(iii)** CPI inflation $= (75.6-100)/100 = -24.4\\%$; deflator inflation $= (47.8-100)/100 = -52.2\\%$. Both show **deflation**, larger by the deflator because X (whose price collapsed) has a bigger weight in 2020 output.\n\n> [!answer]\n> Nominal GDP 90,000 → 43,500 (−51.7%); real GDP 90,000 → 91,000 (+1.1%). Deflator 100 → 47.8; CPI 100 → 75.6. Inflation: −24.4% (CPI), −52.2% (deflator).",
+  "explanation": "## Advanced explanation\n\nNominal GDP $=\\sum p_tq_t$; real GDP $=\\sum p_0q_t$; deflator $=\\sum p_tq_t/\\sum p_0q_t$ (a Paasche index, current-year weights); CPI $=\\sum p_tq_0/\\sum p_0q_0$ (a Laspeyres index, base-year weights). Because the two indices weight goods differently, they give different inflation rates. Here the price of X fell from 4,000 to 300, so both show deflation.\n\n## Simplified explanation\n\nMultiply prices by quantities. For real GDP keep 2019 prices. For the CPI keep the 2019 basket. Then compare the years.",
+  "hint": "Real GDP uses base-year prices; the CPI uses the base-year basket.",
+  "difficulty": "medium",
+  "marks": 11,
+  "tags": [
+   "National Income Accounting",
+   "Inflation & Price Indices",
+   "2023/24 Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suppose that the real GDP of the country of \"Agyenkwa\" for the year 2021 is GHC 840 million and for 2010 is GHC 800 million. The population of the country was 300 million in 2021 and 200 million in 2010.\n\n(i) Calculate the real GDP per person for both years. **(3 marks)**\n(ii) Determine the growth rate in per capita income and the population growth rate. **(2 marks)**\n(iii) Based on your values, determine whether the people of \"Agyenkwa\" are better off or worse off. **(1 mark)**",
+  "media": [],
+  "answer": "**(i)** 2021: $840/300 = $ **GHC 2.80** per person; 2010: $800/200 = $ **GHC 4.00** per person.\n\n**(ii)** Per capita growth $= (2.80-4.00)/4.00 = -30\\%$; population growth $= (300-200)/200 = +50\\%$.\n\n**(iii)** Real GDP rose only 5% while population rose 50%, so real income per person fell 30%: the people are **worse off**.\n\n> [!answer]\n> GHC 2.80 (2021) vs GHC 4.00 (2010); per capita income −30%, population +50%; worse off.",
+  "explanation": "## Advanced explanation\n\nLiving standards are measured by **real GDP per capita**. Growth in per-capita income ≈ growth in real GDP − population growth ($5\\% - 50\\%$ roughly; exactly $1.05/1.5 - 1 = -30\\%$). When population outgrows output, each person's share shrinks.\n\n## Simplified explanation\n\nThe cake grew a little (800 → 840) but the number of people sharing it grew a lot (200 → 300), so each person gets less.",
+  "hint": "Divide real GDP by population.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Economic Growth & Productivity",
+   "2023/24 Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Given the following information about a closed economy with government:\n\n$C = 35 + 0.80Y^d$, $I = 70$, $G = 65$, $T = 40 + 0.10Y$, and $TR = 10$,\n\nwhere C is consumption, I investment, T tax revenue, G government spending and TR transfer payment.\n\n(a) Derive the aggregate expenditure (AE) and the consumption functions as a function of national income.\n(b) Find the equilibrium level of national income (Y).\n(c) (i) What are the tax revenues and the value of consumption at equilibrium? (ii) Does the government have a balanced budget? (iii) What is the value of the general and tax multiplier? Interpret your answers.\n(d) Find the value of national saving, private saving and public saving in the economy.\n(e) Represent your answers from (a) to (d) on a diagram.",
+  "media": [],
+  "answer": "**(a)** $Y^d = Y - T + TR = Y - 40 - 0.1Y + 10 = 0.9Y - 30$.\n$C = 35 + 0.8(0.9Y - 30) = 11 + 0.72Y$.\n$AE = C + I + G = 11 + 0.72Y + 70 + 65 = 146 + 0.72Y$.\n\n**(b)** $Y = 146 + 0.72Y \\Rightarrow 0.28Y = 146 \\Rightarrow Y^* \\approx 521.43$.\n\n**(c)** (i) $T = 40 + 0.1(521.43) = 92.14$; $C = 11 + 0.72(521.43) = 386.43$.\n(ii) Spending $G + TR = 75 <  T = 92.14$: **budget surplus of 17.14**, not balanced.\n(iii) Expenditure multiplier $= \\dfrac{1}{1 - b(1-t)} = \\dfrac{1}{1-0.72} \\approx 3.57$: a GH₵1 rise in autonomous spending raises Y by about 3.57. Tax multiplier (lump-sum tax) $= \\dfrac{-b}{1-b(1-t)} = \\dfrac{-0.8}{0.28} \\approx -2.86$: a GH₵1 rise in autonomous taxes lowers Y by about 2.86.\n\n**(d)** Private saving $= Y^d - C = (0.9(521.43) - 30) - 386.43 = 52.86$. Public saving $= T - G - TR = 17.14$. National saving $= 52.86 + 17.14 = 70 = I$ ✓.\n\n**(e)** Keynesian cross: 45° line $Y = AE$ and the line $AE = 146 + 0.72Y$ (intercept 146, slope 0.72) intersect at $Y^* \\approx 521.4$. On a leakages-injections diagram, $S + T = I + G + TR$ at the same income.\n\n> [!answer]\n> $AE = 146 + 0.72Y$, $C = 11 + 0.72Y$; $Y^* \\approx 521.4$; $T \\approx 92.1$, $C \\approx 386.4$; surplus 17.1; multipliers 3.57 and −2.86; private saving 52.9, public 17.1, national 70.",
+  "explanation": "## Advanced explanation\n\nWith a proportional tax, the slope of AE is $b(1-t) = 0.8 \\times 0.9 = 0.72$, which lowers the multiplier from $1/(1-0.8) = 5$ to $3.57$: taxes are an **automatic stabiliser**. The tax multiplier is smaller in absolute value than the spending multiplier because part of a tax change comes out of saving. In equilibrium, national saving equals investment in a closed economy.\n\n## Simplified explanation\n\nWork out what households take home, then what they spend, then add investment and government spending. Equilibrium is where total spending equals income.",
+  "hint": "First find disposable income: Y − T + TR.",
+  "difficulty": "hard",
+  "marks": 14,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Fiscal Policy",
+   "2023/24 Quiz 2",
+   "ECO104"
+  ]
+ }
+]

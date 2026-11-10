@@ -1,0 +1,133 @@
+{
+  "courses": [
+    {
+      "code": "MLS209A",
+      "title": "Haematology I",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 209A Haematology I papers, quizzes and MLS 209B practical papers (2017/18 to 2019/20): composition of blood, haematopoiesis and stem cells, erythropoiesis and erythropoietin, red cell metabolism and membrane, granulopoiesis and thrombopoiesis, Romanowsky staining, leucocyte morphology and anomalies, phlebotomy, anticoagulants and specimen handling. Every question has a worked solution.",
+      "examQuestions": 40,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Haematology"
+      ],
+      "files": [
+        "mls209a-haematology-i.json"
+      ]
+    },
+    {
+      "code": "MLS210A",
+      "title": "Haematology II",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 210A Haematology II quizzes and MLS/MLT 210B practical papers (2017/18 to 2019/20): ABO grouping and the Bombay phenotype, haemoglobin synthesis and types, haemoglobin estimation and calibration, PCV, ESR, red cell indices and discriminant indices, manual cell counts and reference ranges. Every question has a worked solution.",
+      "examQuestions": 15,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Haematology"
+      ],
+      "files": [
+        "mls210a-haematology-ii.json"
+      ]
+    },
+    {
+      "code": "MLS305A",
+      "title": "Haematology III",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 305A (formerly MLT 323) Haematology III quizzes (2016/17 to 2019/20): iron metabolism and iron deficiency, anaemia of chronic disease, megaloblastic anaemia and vitamin B12/folate, thalassaemias, haemolytic anaemias, G6PD and pyruvate kinase deficiency, red cell membrane disorders, PNH and autoimmune haemolytic anaemia. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Haematology"
+      ],
+      "files": [
+        "mls305a-haematology-iii.json"
+      ]
+    },
+    {
+      "code": "MLS405A",
+      "title": "Haematology V",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 405A Haematology V quizzes (2018/19 and 2020/21): leukaemogenesis, acute leukaemia immunophenotyping and cytochemistry, minimal residual disease, tumour lysis syndrome, CNS leukaemia, chronic myeloid leukaemia, polycythaemia and thrombocytosis. Every question has a worked solution.",
+      "examQuestions": 10,
+      "examMinutes": 25,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Haematology"
+      ],
+      "files": [
+        "mls405a-haematology-v.json"
+      ]
+    },
+    {
+      "code": "MLT430AS",
+      "title": "Haematology VI",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast Haematology VI (MLT 430AS theory and MLT 430B practical) papers (2016/17 to 2018/19): haemostasis and coagulation, DIC, vitamin K deficiency and haemorrhagic disease of the newborn, liver disease, thrombophilia and antiphospholipid syndrome, coagulation specimen collection and processing, mixing studies, thromboelastography and analyser quality control. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Haematology"
+      ],
+      "files": [
+        "mlt430as-haematology-vi.json"
+      ]
+    },
+    {
+      "code": "MLS306A",
+      "title": "Haematology IV (Immunohaematology)",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast immunohaematology (blood transfusion science) papers: MLS 306A/MLS 310A/MLT 330A Haematology IV quizzes and the MLS 306B practical (2017/18 to 2020/21): ABO, Rh and other blood group systems, antiglobulin tests, antibody screening and identification, donor selection and deferral, blood collection, components and storage lesions, HDFN, feto-maternal haemorrhage and anti-D prophylaxis, and transfusion practice. Every question has a worked solution.",
+      "examQuestions": 25,
+      "examMinutes": 40,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Immunohaematology",
+        "Blood Transfusion"
+      ],
+      "files": [
+        "mls306a-haematology-iv-immunohaematology.json"
+      ]
+    },
+    {
+      "code": "MLS216A",
+      "title": "Immunology II",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 216A Immunology II quiz and end-of-semester paper (2018/19): immunodiffusion and precipitation, cytokines, lymphoid organs and lymphocyte development, NK cells, complement, tolerance and autoimmunity, rheumatoid factor, hypersensitivity types I to IV, vaccines, passive immunity and tumour immunology. Every question has a worked solution.",
+      "examQuestions": 25,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Immunology"
+      ],
+      "files": [
+        "mls216a-immunology-ii.json"
+      ]
+    },
+    {
+      "code": "MLS215A",
+      "title": "Immunology I",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 215A (formerly MLT 215A/MLT 219) Immunology I quizzes (to 2019/20): innate barriers and normal flora, innate immune cells, phagocytosis and opsonisation, inflammation, adaptive immunity, types of acquired immunity, immunogens and adjuvants, immunoglobulin structure and classes, MHC and T-cell subsets. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Immunology"
+      ],
+      "files": [
+        "mls215a-immunology-i.json"
+      ]
+    }
+  ]
+}

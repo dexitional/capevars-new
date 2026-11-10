@@ -1,0 +1,576 @@
+[
+ {
+  "type": "text",
+  "body": "The following are among the reasons why tissues intended for glycogen analysis should be placed in a fixative promptly following removal.\n\na. Glycogen present in most animal tissues is labile\nb. Glycogen is susceptible to autolytic changes\nc. To avoid false negative result\nd. To avoid false positive result\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Glycogen present in most animal tissues is labile | **T** | It is rapidly broken down after removal. |\n| b. Glycogen is susceptible to autolytic changes | **T** | Enzymes (phosphorylases, amylases) degrade it post-excision. |\n| c. To avoid false negative result | **T** | Lost glycogen will not stain. |\n| d. To avoid false positive result | **F** | Delay causes loss of glycogen (false negatives), not false positives. |\n\n> [!answer]\n> a T, b T, c T, d F.",
+  "explanation": "## Advanced explanation\n\nGlycogen is **labile**: after removal, tissue enzymes rapidly break it down (autolysis), and it is water soluble. Delay in fixation therefore causes **loss of glycogen and false-negative PAS staining**. Prompt fixation (ideally alcoholic fixatives) is needed.\n\n## Simplified explanation\n\nGlycogen disappears quickly after surgery, so fix fast or the stain will be falsely negative.",
+  "hint": "What happens to glycogen if left unfixed?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Glycogen",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Increased basement membrane thickness, particularly in the glomerular capillaries of the kidney as in most pathological conditions, can be demonstrated by the following technique(s).\n\na. Periodic acid-Schiff (PAS) staining\nb. van Kossa staining\nc. Prussian blue staining\nd. Turnbull blue staining\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Periodic acid-Schiff (PAS) staining | **T** | Basement membranes are PAS positive. |\n| b. van Kossa staining | **F** | Demonstrates calcium. |\n| c. Prussian blue staining | **F** | Demonstrates ferric iron. |\n| d. Turnbull blue staining | **F** | Demonstrates ferrous iron. |\n\n> [!answer]\n> a T, b F, c F, d F.",
+  "explanation": "## Advanced explanation\n\nGlomerular basement membranes are rich in glycoproteins and are **PAS positive** (also Jones methenamine silver). Thickening (e.g. diabetic nephropathy, membranous glomerulonephritis) is assessed with PAS. Von Kossa (calcium), Perls' Prussian blue (Fe³⁺) and Turnbull blue (Fe²⁺) are mineral stains.\n\n## Simplified explanation\n\nUse **PAS** for basement membranes; the others stain calcium or iron.",
+  "hint": "Basement membranes are glycoprotein-rich.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "PAS Technique",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In fixation of human tissue for the demonstration of carbohydrate using the PAS staining technique, it is NOT suitable to use glutaraldehyde fixative due to the following reasons.\n\na. Glutaraldehyde is very toxic and could denature the tissue\nb. Glutaraldehyde has one free aldehyde group capable of reacting with Schiff's reagent\nc. Glutaraldehyde can penetrate tissue faster and could harm the carbohydrate in the tissue\nd. Glutaraldehyde has a free aldehyde group which may not be involved in protein crosslinking\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Glutaraldehyde is very toxic and could denature the tissue | **F** | Not the reason it is unsuitable for PAS. |\n| b. Glutaraldehyde has one free aldehyde group capable of reacting with Schiff's reagent | **T** | Free aldehydes colour Schiff's reagent, giving false positives. |\n| c. Glutaraldehyde can penetrate tissue faster and could harm the carbohydrate in the tissue | **F** | Glutaraldehyde actually penetrates slowly. |\n| d. Glutaraldehyde has a free aldehyde group which may not be involved in protein crosslinking | **T** | One aldehyde of the dialdehyde often remains unreacted. |\n\n> [!answer]\n> a F, b T, c F, d T.",
+  "explanation": "## Advanced explanation\n\nGlutaraldehyde is a **dialdehyde**; often only one aldehyde reacts with tissue protein, leaving a **free aldehyde** group. Since the PAS reaction detects aldehydes (produced by periodic acid oxidation) with **Schiff's reagent**, these free aldehydes give **false-positive** staining. Glutaraldehyde penetrates slowly.\n\n## Simplified explanation\n\nGlutaraldehyde leaves free aldehyde groups that react with Schiff's reagent and give false positives.",
+  "hint": "PAS detects aldehydes.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "PAS Technique",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The staining intensity seen during the application of the PAS technique is due to the following reasons.\n\na. The structure of the polymer oxidized\nb. The number of available 1,2-glycol groups\nc. The duration the tissue stays in the fixative\nd. The reactivity of Schiff reagent with the reaction product\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. The structure of the polymer oxidized | **T** | Determines how many aldehydes form. |\n| b. The number of available 1,2-glycol groups | **T** | Periodic acid oxidises 1,2-glycols to aldehydes. |\n| c. The duration the tissue stays in the fixative | **F** | Not one of the stated determinants of PAS intensity. |\n| d. The reactivity of Schiff reagent with the reaction product | **T** | Aldehydes must react with Schiff's reagent to give colour. |\n\n> [!answer]\n> a T, b T, c F, d T.",
+  "explanation": "## Advanced explanation\n\nPeriodic acid oxidises **1,2-glycol** groups of carbohydrates to **aldehydes**, which react with **Schiff's reagent** (leucofuchsin) to give magenta. Staining intensity depends on the **structure of the polymer**, the **number of available 1,2-glycols** and the **reactivity of the oxidation product with Schiff's reagent**.\n\n## Simplified explanation\n\nMore glycol groups and good aldehyde–Schiff reaction = stronger PAS colour.",
+  "hint": "Oxidation then Schiff.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "PAS Technique",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Spontaneous amyloidosis in the absence of predisposing diseases often affects the following organs.\n\na. Heart\nb. Skin\nc. Tongue\nd. Muscle\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Heart | **T** | Typical in primary (AL) amyloidosis. |\n| b. Skin | **T** | Typical. |\n| c. Tongue | **T** | Macroglossia is classic. |\n| d. Muscle | **T** | Skeletal and smooth muscle involvement. |\n\n> [!answer]\n> a T, b T, c T, d T.",
+  "explanation": "## Advanced explanation\n\n**Primary amyloidosis** (AL type, without predisposing chronic inflammatory disease; associated with plasma cell dyscrasia) characteristically affects **mesenchymal tissues: heart, tongue, skin, skeletal and smooth muscle**, nerves and gastrointestinal tract. Secondary (AA) amyloid prefers kidney, liver, spleen and adrenals.\n\n## Simplified explanation\n\nPrimary amyloid likes the **heart, tongue, skin and muscle**.",
+  "hint": "Primary (AL) distribution.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Amyloid",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Kofi is ill and his doctor suspects amyloidosis secondary to an inflammatory condition such as rheumatoid arthritis. A sample taken from any of the following sites can be used to rule out the doctor's suspicion.\n\na. Heart\nb. Kidney\nc. Spleen\nd. Adrenal glands\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Heart | **F** | Cardiac involvement is typical of primary (AL) rather than secondary amyloid. |\n| b. Kidney | **T** | Commonest site of AA amyloid. |\n| c. Spleen | **T** | Commonly involved. |\n| d. Adrenal glands | **T** | Commonly involved. |\n\n> [!answer]\n> a F, b T, c T, d T.",
+  "explanation": "## Advanced explanation\n\n**Secondary (reactive, AA) amyloidosis** complicates chronic inflammation (rheumatoid arthritis, TB, bronchiectasis, osteomyelitis). Serum amyloid A is deposited mainly in the **kidneys, spleen, liver and adrenals** (and gut, sampled by rectal biopsy). The heart is mainly affected in primary amyloidosis.\n\n## Simplified explanation\n\nSecondary amyloid goes to **kidney, spleen, liver and adrenals**, not mainly the heart.",
+  "hint": "AA distribution.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Amyloid",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "During the application of the alkaline Congo red method for the demonstration of amyloid, the following can serve as a good positive control.\n\na. Liver section containing amyloid\nb. Kidney section containing amyloid\nc. Heart section containing amyloid\nd. Lung section containing amyloid\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Liver section containing amyloid | **T** | Any tissue known to contain amyloid. |\n| b. Kidney section containing amyloid | **T** | Any tissue known to contain amyloid. |\n| c. Heart section containing amyloid | **T** | Any tissue known to contain amyloid. |\n| d. Lung section containing amyloid | **T** | Any tissue known to contain amyloid. |\n\n> [!answer]\n> a T, b T, c T, d T.",
+  "explanation": "## Advanced explanation\n\nA **positive control** must contain the substance being demonstrated. **Any section known to contain amyloid** – kidney, liver, spleen, heart, lung – is suitable; it confirms the Congo red and polarisation work.\n\n## Simplified explanation\n\nAny organ section that **contains amyloid** is a good positive control.",
+  "hint": "What makes a positive control?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Quality Control",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Histochemical demonstration of glucose in tissue sections is challenging due to the following reasons.\n\na. Glucose is a monosaccharide\nb. Glucose has small molecular size\nc. Glucose is soluble in aqueous solution\nd. Glucose is insoluble in aqueous solution\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Glucose is a monosaccharide | **T** | Simple sugars are not retained in tissue. |\n| b. Glucose has small molecular size | **T** | Small molecules diffuse out. |\n| c. Glucose is soluble in aqueous solution | **T** | It is washed out by fixatives and processing. |\n| d. Glucose is insoluble in aqueous solution | **F** | It is highly water soluble. |\n\n> [!answer]\n> a T, b T, c T, d F.",
+  "explanation": "## Advanced explanation\n\nGlucose is a small, highly **water-soluble monosaccharide**; it is not bound to proteins, so it **diffuses out** during fixation and processing and cannot be reliably demonstrated histochemically. Polysaccharides (glycogen) and glycoconjugates can be.\n\n## Simplified explanation\n\nGlucose is small and dissolves in water, so it washes out of tissue.",
+  "hint": "Small and soluble.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Carbohydrates",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In Ewing's sarcoma or rhabdomyosarcoma, the demonstration of the following can aid in diagnosis.\n\na. Mucins\nb. Glycogen\nc. Glycoprotein\nd. Proteoglycan\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Mucins | **F** | Not characteristic. |\n| b. Glycogen | **T** | Both tumours contain abundant cytoplasmic glycogen (PAS positive, diastase sensitive). |\n| c. Glycoprotein | **F** | Not the diagnostic feature. |\n| d. Proteoglycan | **F** | Not the diagnostic feature. |\n\n> [!answer]\n> a F, b T, c F, d F.",
+  "explanation": "## Advanced explanation\n\n**Ewing's sarcoma** and **rhabdomyosarcoma** cells contain cytoplasmic **glycogen**, shown by **PAS with diastase control** (PAS+, removed by diastase). It helps distinguish them from other small round blue cell tumours (e.g. lymphoma).\n\n## Simplified explanation\n\nThese tumours store **glycogen**, seen with PAS/diastase.",
+  "hint": "Small round blue cell tumours.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Glycogen",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are simple carbohydrates except...",
+  "media": [],
+  "options": [
+   {
+    "text": "Glucose",
+    "hint": "A monosaccharide."
+   },
+   {
+    "text": "Mannose",
+    "hint": "A monosaccharide."
+   },
+   {
+    "text": "Galactose",
+    "hint": "A monosaccharide."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. All three are simple sugars, so none is an exception."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Are all three monosaccharides?",
+  "explanation": "## Advanced explanation\n\n**Simple carbohydrates (monosaccharides)** include glucose, mannose, galactose, fructose, fucose and others. All listed are simple sugars, so **none** is the exception.\n\n## Simplified explanation\n\nGlucose, mannose and galactose are all simple sugars.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Carbohydrates",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ideal fixative of choice for demonstration of glycogen is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Alcoholic formalin",
+    "hint": "Correct. Alcohol precipitates glycogen and prevents its loss in water."
+   },
+   {
+    "text": "10% neutral buffered formalin",
+    "hint": "Acceptable routinely, but glycogen is better preserved with alcoholic fixatives."
+   },
+   {
+    "text": "10% formalin",
+    "hint": "Aqueous; glycogen may be lost."
+   },
+   {
+    "text": "None of the above",
+    "hint": "A is correct."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Glycogen is water soluble.",
+  "explanation": "## Advanced explanation\n\nGlycogen is **water soluble**, so alcohol-containing fixatives (**alcoholic formalin**, Carnoy's, Gendre's) which precipitate it are traditionally preferred. Aqueous fixatives can leach glycogen and cause 'streaming' to one side of the cell.\n\n## Simplified explanation\n\nGlycogen dissolves in water, so use **alcoholic formalin**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Glycogen",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most widely used method(s) for demonstration of glycogen is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Alcian blue staining",
+    "hint": "Alcian blue stains acidic mucins, not glycogen."
+   },
+   {
+    "text": "Periodic acid Schiff",
+    "hint": "Correct. PAS with diastase digestion is the standard glycogen method."
+   },
+   {
+    "text": "All the above",
+    "hint": "Alcian blue does not demonstrate glycogen."
+   },
+   {
+    "text": "None of the above",
+    "hint": "B is correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Glycogen is a neutral polysaccharide.",
+  "explanation": "## Advanced explanation\n\n**PAS** stains glycogen magenta; a parallel section digested with **diastase (or α-amylase)** loses the staining, confirming glycogen (PAS–diastase). Best's carmine is an older alternative. Alcian blue stains acid mucins.\n\n## Simplified explanation\n\nGlycogen is shown with **PAS** (plus diastase).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycogen",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The functional combining strength between an antibody and an antigen is called",
+  "media": [],
+  "options": [
+   {
+    "text": "Affinity",
+    "hint": "Affinity is the strength of a single antigen-binding site with one epitope."
+   },
+   {
+    "text": "Avidity",
+    "hint": "Correct. Avidity is the overall (functional) binding strength of multivalent interactions."
+   },
+   {
+    "text": "Sensitivity",
+    "hint": "A test characteristic."
+   },
+   {
+    "text": "Specificity",
+    "hint": "Ability to bind only the target."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Overall, multivalent strength.",
+  "explanation": "## Advanced explanation\n\n**Affinity** = strength of binding between **one** antibody combining site and **one** epitope. **Avidity** = the **overall functional combining strength** of an antibody with a multivalent antigen, depending on affinity, valency and structure.\n\n## Simplified explanation\n\nOverall binding strength = **avidity**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Immunohistochemistry",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an enzyme used to increase the specificity of stains for detection of carbohydrates?",
+  "media": [],
+  "options": [
+   {
+    "text": "Hyaluronidase",
+    "hint": "Correct. Digests hyaluronic acid (and some chondroitin sulphates) to identify them."
+   },
+   {
+    "text": "Pepsin",
+    "hint": "Used for antigen retrieval, not carbohydrate identification."
+   },
+   {
+    "text": "Alkaline phosphatase",
+    "hint": "Used as an IHC label."
+   },
+   {
+    "text": "All the above",
+    "hint": "Only A."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Enzyme digestion controls.",
+  "explanation": "## Advanced explanation\n\nEnzyme digestion increases the **specificity** of carbohydrate stains: **diastase/amylase** removes glycogen (PAS), **hyaluronidase** removes hyaluronic acid (Alcian blue), **sialidase (neuraminidase)** removes sialic acids. Loss of staining after digestion identifies the carbohydrate.\n\n## Simplified explanation\n\n**Hyaluronidase** digestion helps identify hyaluronic acid.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Carbohydrates",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Glycosaminoglycans found in blood vessels include all the following except",
+  "media": [],
+  "options": [
+   {
+    "text": "Dermatan sulfates",
+    "hint": "Present in vessel walls."
+   },
+   {
+    "text": "Heparan sulfate",
+    "hint": "Present (endothelial surface, basement membrane)."
+   },
+   {
+    "text": "All the above",
+    "hint": "Both are present."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. Both are present, so none is an exception."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Both occur in vessel walls.",
+  "explanation": "## Advanced explanation\n\nVessel walls contain several GAGs: **dermatan sulphate**, **heparan sulphate**, chondroitin sulphate and hyaluronic acid, giving Alcian blue positivity in the tunica media.\n\n## Simplified explanation\n\nBoth are found in vessels: **none of the above**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Carbohydrates",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is ideal for demonstration of highly acidic mucins?",
+  "media": [],
+  "options": [
+   {
+    "text": "Alcian blue with high iron diamine method",
+    "hint": "Correct. HID stains sulphomucins black; AB then stains sialomucins blue."
+   },
+   {
+    "text": "PAS technique",
+    "hint": "PAS stains neutral mucins."
+   },
+   {
+    "text": "Mucicarmine technique",
+    "hint": "Mucicarmine is a general epithelial mucin stain."
+   },
+   {
+    "text": "None of the above",
+    "hint": "A is correct."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "High iron diamine.",
+  "explanation": "## Advanced explanation\n\nThe **high iron diamine–Alcian blue (HID–AB)** method distinguishes **sulphomucins** (brown-black with HID) from **sialomucins** (blue with AB pH 2.5). Alcian blue at **pH 1.0** also stains only strongly sulphated mucins.\n\n## Simplified explanation\n\n**HID–Alcian blue** shows highly acidic (sulphated) mucins.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Mucins",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most widely used antibody in immunohistochemistry is",
+  "media": [],
+  "options": [
+   {
+    "text": "IgM",
+    "hint": "Large pentamer; rarely used."
+   },
+   {
+    "text": "IgA",
+    "hint": "Not used routinely."
+   },
+   {
+    "text": "IgD",
+    "hint": "Not used."
+   },
+   {
+    "text": "IgG",
+    "hint": "Correct. Most primary and secondary antibodies are IgG."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Smallest, most stable, most abundant.",
+  "explanation": "## Advanced explanation\n\nMost IHC antibodies (monoclonal and polyclonal) are **IgG**: abundant in serum, stable, small enough to penetrate tissue, and easily purified and labelled.\n\n## Simplified explanation\n\n**IgG** is the usual IHC antibody.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunohistochemistry",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Tissue sections from which of the following organs will stain positive with Alcian blue stain?",
+  "media": [],
+  "options": [
+   {
+    "text": "Intestine",
+    "hint": "Correct. Goblet cells of the intestine contain abundant acid mucins."
+   },
+   {
+    "text": "Liver",
+    "hint": "Not a typical positive control."
+   },
+   {
+    "text": "Blood vessel wall",
+    "hint": "Vessel walls contain some GAGs, but the standard positive tissue is intestine."
+   },
+   {
+    "text": "Skin",
+    "hint": "Not the classic positive tissue."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Goblet cells.",
+  "explanation": "## Advanced explanation\n\n**Alcian blue (pH 2.5)** stains acid mucins (sialo- and sulphomucins) and GAGs. **Intestine (colon/small bowel) goblet cells** are strongly positive and are the usual positive control.\n\n## Simplified explanation\n\nIntestinal goblet cells are Alcian blue positive.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mucins",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ideal stain of choice for diagnosis of seminomas includes the following except",
+  "media": [],
+  "options": [
+   {
+    "text": "Alcian blue",
+    "hint": "Correct. Seminoma cells lack acid mucins, so Alcian blue is not useful."
+   },
+   {
+    "text": "PAS",
+    "hint": "Seminoma cells contain glycogen (PAS positive, diastase sensitive)."
+   },
+   {
+    "text": "All the above",
+    "hint": "PAS is useful, so not all."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Alcian blue is the exception."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Seminoma cells have clear, glycogen-rich cytoplasm.",
+  "explanation": "## Advanced explanation\n\n**Seminoma** cells have clear cytoplasm rich in **glycogen**, demonstrated by **PAS with diastase**. They do not contain acid mucin, so **Alcian blue** is not a diagnostic stain.\n\n## Simplified explanation\n\nSeminoma: **PAS** yes (glycogen), **Alcian blue** no.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Glycogen",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an immunolabel?",
+  "media": [],
+  "options": [
+   {
+    "text": "Enzymes",
+    "hint": "Correct. Enzymes (HRP, alkaline phosphatase) are conjugated to antibodies as labels."
+   },
+   {
+    "text": "Chromogen",
+    "hint": "The substrate converted to a coloured product by the enzyme."
+   },
+   {
+    "text": "Stain",
+    "hint": "Not a label."
+   },
+   {
+    "text": "None of the above",
+    "hint": "A is correct."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Attached to the antibody.",
+  "explanation": "## Advanced explanation\n\n**Labels** attached to antibodies include **enzymes** (horseradish peroxidase, alkaline phosphatase), fluorochromes (FITC), gold particles, biotin and radioisotopes. The enzyme then converts a **chromogen** (DAB, AEC, Fast red) into a visible coloured product.\n\n## Simplified explanation\n\nThe label on the antibody is an **enzyme** (e.g. HRP).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Immunohistochemistry",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Alcian blue at a pH of 2.5 stains the acidic mucins...",
+  "media": [],
+  "options": [
+   {
+    "text": "Dark blue",
+    "hint": "Correct. Acid mucins stain blue."
+   },
+   {
+    "text": "Pink",
+    "hint": "Nuclear fast red counterstain colour."
+   },
+   {
+    "text": "Brown",
+    "hint": "Not the result."
+   },
+   {
+    "text": "All the above depending on the degree of differentiation",
+    "hint": "No such variation."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Alcian blue is blue.",
+  "explanation": "## Advanced explanation\n\n**Alcian blue pH 2.5**: carboxylated (sialo-) and sulphated mucins stain **blue**; nuclei red with neutral red/nuclear fast red counterstain.\n\n## Simplified explanation\n\nAcid mucins go **blue**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mucins",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An ideal antibody for immunohistochemistry is one that possesses all the following qualities except",
+  "media": [],
+  "options": [
+   {
+    "text": "Highly specific",
+    "hint": "A required quality."
+   },
+   {
+    "text": "Highly sensitive",
+    "hint": "A required quality."
+   },
+   {
+    "text": "All the above",
+    "hint": "Both are required."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. Both are qualities of an ideal antibody, so none is an exception."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Both are desirable.",
+  "explanation": "## Advanced explanation\n\nAn ideal IHC antibody is **highly specific** (binds only the target epitope) and **highly sensitive** (detects low antigen levels), works on fixed tissue and gives reproducible results.\n\n## Simplified explanation\n\nSpecific and sensitive are both wanted: **none of the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Immunohistochemistry",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The best method for demonstration of carbohydrates that are markers of cancer is",
+  "media": [],
+  "options": [
+   {
+    "text": "Routine staining",
+    "hint": "Routine stains do not identify specific carbohydrate antigens."
+   },
+   {
+    "text": "Immunohistochemistry",
+    "hint": "Correct. Antibodies detect specific carbohydrate tumour markers (e.g. CA19-9, CA125, sialyl-Tn)."
+   },
+   {
+    "text": "All the above",
+    "hint": "Routine staining is not adequate."
+   },
+   {
+    "text": "None of the above",
+    "hint": "B is correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Specific antigens need antibodies.",
+  "explanation": "## Advanced explanation\n\nTumour-associated carbohydrate antigens (CA19-9, CA125, sialyl-Tn, blood group-related antigens) are specific epitopes best detected with **antibodies (IHC)**; histochemical stains only show general classes of carbohydrate.\n\n## Simplified explanation\n\nSpecific cancer sugars are found with **IHC**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Immunohistochemistry",
+   "Quiz 1"
+  ]
+ }
+]

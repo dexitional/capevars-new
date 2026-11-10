@@ -1,0 +1,512 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nThe following viruses are the most sensitive to inactivation by lipid solvents and detergents:\n\nA. Coxsackie virus\nB. Rhinovirus\nC. Hepatitis A virus\nD. Herpes simplex virus\nE. Poliovirus",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Coxsackie virus | **F** |\n| B. Rhinovirus | **T** (as marked on the paper) |\n| C. Hepatitis A virus | **F** |\n| D. Herpes simplex virus | **F** (as marked on the paper) |\n| E. Poliovirus | **F** |\n\n> [!answer]\n> Only B is marked true on the paper. Note that on strict virological grounds the **enveloped** herpes simplex virus is the lipid-solvent-sensitive virus here, while the picornaviruses (coxsackie, rhinovirus, HAV, polio) are naked and resistant.",
+  "hint": "Lipid solvents destroy envelopes.",
+  "explanation": "## Advanced explanation\n\nLipid solvents (ether, chloroform) and detergents dissolve the **lipid envelope**, so **enveloped** viruses (herpes, influenza, HIV, measles) are inactivated, whereas **naked** viruses (picornaviruses: polio, coxsackie, rhinovirus, HAV; adenovirus; parvovirus) survive in the environment, in the gut and in the presence of bile and detergents. The paper's key marks B true; by standard teaching the correct answer for this list is **D (herpes simplex virus)**, and students should learn the envelope principle rather than the key.\n\n## Simplified explanation\n\nSoap and solvents melt the **fatty envelope**, so enveloped viruses such as herpes die easily, while naked ones such as polio survive.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Virus Structure",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHHV-8 is associated with…\n\nA. fifth disease\nB. roseola infantum\nC. Kaposi's sarcoma\nD. nasopharyngeal carcinoma\nE. oral leukoplakia",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Fifth disease | **F** — parvovirus B19 |\n| B. Roseola infantum | **F** — HHV-6 (and HHV-7) |\n| C. Kaposi's sarcoma | **T** |\n| D. Nasopharyngeal carcinoma | **F** — Epstein–Barr virus |\n| E. Oral hairy leukoplakia | **F** — Epstein–Barr virus |\n\n> [!answer]\n> Only C is true: HHV-8 is Kaposi's sarcoma-associated herpesvirus.",
+  "hint": "HHV-8 has another name.",
+  "explanation": "## Advanced explanation\n\n**HHV-8 (KSHV)** causes Kaposi's sarcoma (classic, endemic African, and AIDS-associated), primary effusion lymphoma and multicentric Castleman disease. **EBV** is linked to nasopharyngeal carcinoma, Burkitt lymphoma and oral hairy leukoplakia; **HHV-6** causes roseola; **parvovirus B19** causes fifth disease (erythema infectiosum).\n\n## Simplified explanation\n\nHHV-8 is the **Kaposi's sarcoma** virus.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHepatitis A infection…\n\nA. may result in chronic infection\nB. may result in cirrhosis\nC. may be prevented by vaccination\nD. is highly infectious during the jaundice phase\nE. may be prevented by immunoglobulin",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. May result in chronic infection | **F** |\n| B. May result in cirrhosis | **F** |\n| C. May be prevented by vaccination | **T** |\n| D. Is highly infectious during the jaundice phase | **T** (as marked on the paper) |\n| E. May be prevented by immunoglobulin | **T** |\n\n> [!answer]\n> C, D and E true; A and B false. Hepatitis A never becomes chronic; note that shedding is in fact greatest in the two weeks **before** jaundice appears.",
+  "hint": "Hepatitis A is an acute, self-limiting infection.",
+  "explanation": "## Advanced explanation\n\n**HAV** is a naked picornavirus spread faeco-orally. It causes acute hepatitis only — **no chronic carriage, no cirrhosis, no hepatocellular carcinoma**. Prevention: inactivated **vaccine**, normal human **immunoglobulin** for post-exposure prophylaxis, and sanitation. Peak faecal shedding is late incubation and early illness.\n\n## Simplified explanation\n\nHepatitis A always clears up; a **vaccine** and **immunoglobulin** can prevent it.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Hepatitis Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHHV-6 is associated with…\n\nA. fifth disease\nB. roseola infantum\nC. Kaposi's sarcoma\nD. infectious mononucleosis-like illness\nE. oral leukoplakia",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Fifth disease | **F** — parvovirus B19 |\n| B. Roseola infantum | **T** |\n| C. Kaposi's sarcoma | **F** — HHV-8 |\n| D. Infectious mononucleosis-like illness | **F** (as marked on the paper; HHV-6 can occasionally give such a picture) |\n| E. Oral hairy leukoplakia | **F** — EBV |\n\n> [!answer]\n> B is true: HHV-6 causes roseola infantum (exanthem subitum, sixth disease).",
+  "hint": "Sixth disease.",
+  "explanation": "## Advanced explanation\n\n**HHV-6** infects nearly all children by age 3, causing **exanthem subitum** — high fever for 3–4 days followed by a rash as the fever falls — and is a common cause of febrile convulsions. It remains latent in lymphocytes and can reactivate in transplant recipients.\n\n## Simplified explanation\n\nHHV-6 causes **roseola** (sudden rash after a few days of fever) in babies.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nInfluenza A virus…\n\nA. may undergo antigenic shift and antigenic drift\nB. vaccination confers lifelong protection\nC. responds to rimantadine\nD. responds to neuraminidase inhibitors\nE. may cause pandemics",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Antigenic shift and drift | **T** |\n| B. Vaccination confers lifelong protection | **F** |\n| C. Responds to rimantadine | **T** |\n| D. Responds to neuraminidase inhibitors | **T** |\n| E. May cause pandemics | **T** |\n\n> [!answer]\n> All true except B — influenza vaccine must be repeated annually because the virus changes.",
+  "hint": "Why is there a new flu vaccine every year?",
+  "explanation": "## Advanced explanation\n\n**Drift** is gradual point mutation of HA/NA genes; **shift** is reassortment of segmented genome between human and animal strains and causes **pandemics** (only influenza A). Treatment: M2 ion-channel blockers (amantadine, rimantadine — influenza A only, now largely resistant) and **neuraminidase inhibitors** (oseltamivir, zanamivir).\n\n## Simplified explanation\n\nFlu keeps changing, so the vaccine must be given **every year**; only influenza A causes pandemics.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Influenza",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nViruses that are transmitted faeco-orally include…\n\nA. HAV\nB. HBV\nC. HCV\nD. HDV\nE. HEV",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. HAV | **T** |\n| B. HBV | **F** — blood, sexual, vertical |\n| C. HCV | **F** — blood-borne |\n| D. HDV | **F** — blood-borne, needs HBV |\n| E. HEV | **T** |\n\n> [!answer]\n> The faeco-orally transmitted hepatitis viruses are **A and E**.",
+  "hint": "The vowels travel by the gut route.",
+  "explanation": "## Advanced explanation\n\nMnemonic: hepatitis **A** and **E** (vowels) are **enterally** transmitted and do not cause chronic infection (HEV can persist in the immunosuppressed). HBV, HCV and HDV are parenterally transmitted and can become chronic. HEV carries a high mortality in pregnancy.\n\n## Simplified explanation\n\nHepatitis **A and E** come from contaminated food and water.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Hepatitis Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nRespiratory Syncytial Virus (RSV)…\n\nA. responds to amantadine\nB. may be prevented by vaccination\nC. may cause croup\nD. may cause pneumonia\nE. may cause bronchiolitis",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Responds to amantadine | **F** — amantadine acts on influenza A |\n| B. May be prevented by vaccination | **F** (as marked; no vaccine was available, prophylaxis is the monoclonal antibody palivizumab) |\n| C. May cause croup | **F** (as marked; croup is mainly parainfluenza) |\n| D. May cause pneumonia | **T** |\n| E. May cause bronchiolitis | **T** |\n\n> [!answer]\n> D and E are true: RSV is the leading cause of bronchiolitis and of viral pneumonia in infants.",
+  "hint": "The classic cause of bronchiolitis in infants.",
+  "explanation": "## Advanced explanation\n\nRSV is a pneumovirus (paramyxovirus family) whose F protein fuses cells into **syncytia**. It causes winter epidemics of **bronchiolitis and pneumonia** in infants; diagnosis is by antigen detection or PCR on nasopharyngeal aspirate; management is supportive, with **palivizumab** prophylaxis for high-risk infants. **Croup** (laryngotracheobronchitis) is typically parainfluenza virus.\n\n## Simplified explanation\n\nRSV gives babies **bronchiolitis and pneumonia**; flu drugs do not work on it.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Respiratory Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nConcerning influenza viruses…\n\nA. Influenza A may undergo antigenic shift\nB. Influenza B may undergo antigenic shift\nC. Influenza A may undergo antigenic drift\nD. Influenza B may undergo antigenic drift\nE. Influenza B may respond to amantadine",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Influenza A — antigenic shift | **T** |\n| B. Influenza B — antigenic shift | **F** |\n| C. Influenza A — antigenic drift | **T** |\n| D. Influenza B — antigenic drift | **T** |\n| E. Influenza B responds to amantadine | **F** |\n\n> [!answer]\n> Only influenza A undergoes shift and responds to amantadine; both A and B drift.",
+  "hint": "Shift needs an animal reservoir.",
+  "explanation": "## Advanced explanation\n\n**Antigenic shift** requires reassortment between human and animal (avian/swine) strains; influenza B has essentially no animal reservoir, so it drifts only and does not cause pandemics. Amantadine blocks the **M2** ion channel, which is present only in influenza A.\n\n## Simplified explanation\n\nOnly **influenza A** can swap genes with animal flu viruses and cause pandemics.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Influenza",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nViruses that cause cancer include…\n\nA. Measles virus\nB. Hepatitis B virus\nC. Human papilloma virus\nD. Epstein Barr virus\nE. Hepatitis A virus",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Measles virus | **F** |\n| B. Hepatitis B virus | **T** — hepatocellular carcinoma |\n| C. Human papillomavirus | **T** — cervical and other anogenital and oropharyngeal cancers |\n| D. Epstein–Barr virus | **T** — Burkitt lymphoma, nasopharyngeal carcinoma, Hodgkin lymphoma |\n| E. Hepatitis A virus | **F** |\n\n> [!answer]\n> B, C and D are oncogenic viruses; measles and hepatitis A are not.",
+  "hint": "Which viruses persist in cells for years?",
+  "explanation": "## Advanced explanation\n\nHuman **oncogenic viruses**: HBV and HCV (hepatocellular carcinoma), **HPV 16/18** (cervical, anal, oropharyngeal cancer), **EBV**, **HHV-8** (Kaposi sarcoma), **HTLV-1** (adult T-cell leukaemia/lymphoma). They act by persistent infection, insertion or expression of viral oncoproteins (e.g. HPV E6/E7 inactivating p53 and Rb) and chronic inflammation.\n\n## Simplified explanation\n\n**HBV, HPV and EBV** can lead to cancer; measles and hepatitis A do not.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Oncogenic Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nThe following viruses can be transmitted through blood:\n\nA. Hepatitis A\nB. HCV\nC. HTLV-1\nD. HBV\nE. HIV",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Hepatitis A | **F** |\n| B. HCV | **T** |\n| C. HTLV-1 | **T** |\n| D. HBV | **T** |\n| E. HIV | **T** |\n\n> [!answer]\n> All except hepatitis A are blood-borne, which is why donated blood is screened for them.",
+  "hint": "Which of these is an enteric virus?",
+  "explanation": "## Advanced explanation\n\nTransfusion-transmissible infections routinely screened for include **HIV-1/2, HBV, HCV, HTLV-1/2, syphilis and malaria** (where endemic). HAV causes only a brief viraemia and is transmitted faeco-orally, so it is not a significant transfusion risk.\n\n## Simplified explanation\n\nAll but **hepatitis A** can be passed in blood.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Blood-borne Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nSpecimens that are most appropriate for the detection of adenovirus are…\n\nA. stool\nB. blood\nC. cerebrospinal fluid\nD. urine\nE. conjunctival swab",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Stool | **T** |\n| B. Blood | **F** |\n| C. Cerebrospinal fluid | **F** |\n| D. Urine | **T** |\n| E. Conjunctival swab | **T** |\n\n> [!answer]\n> Stool, urine and conjunctival swabs — matching adenovirus disease at the gut, urinary tract and eye.",
+  "hint": "Sample the site of disease.",
+  "explanation": "## Advanced explanation\n\nAdenoviruses cause pharyngoconjunctival fever and epidemic keratoconjunctivitis (**conjunctival swab**), gastroenteritis by types 40/41 (**stool**), and haemorrhagic cystitis (**urine**), as well as respiratory illness (nasopharyngeal specimens). Detection is by PCR, antigen detection or culture.\n\n## Simplified explanation\n\nTake the sample from where the illness is: **eye, stool or urine**.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Diagnostic Virology",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHuman T-lymphotropic virus 1 (HTLV-1) is associated with…\n\nA. Hodgkin's lymphoma\nB. adult T-cell lymphoma\nC. tropical spastic paraparesis\nD. multiple sclerosis\nE. Burkitt's lymphoma",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Hodgkin's lymphoma | **F** |\n| B. Adult T-cell leukaemia/lymphoma | **T** |\n| C. Tropical spastic paraparesis (HAM/TSP) | **T** |\n| D. Multiple sclerosis | **F** |\n| E. Burkitt's lymphoma | **F** — EBV |\n\n> [!answer]\n> HTLV-1 causes adult T-cell leukaemia/lymphoma and HTLV-1-associated myelopathy (tropical spastic paraparesis).",
+  "hint": "Two very different diseases, one virus.",
+  "explanation": "## Advanced explanation\n\n**HTLV-1** is a deltaretrovirus transmitted by blood, sexual contact and breast milk, endemic in Japan, the Caribbean and parts of Africa. Only a few percent of carriers develop disease after decades: **ATLL** (driven by the **tax** gene) or the chronic inflammatory myelopathy **HAM/TSP**.\n\n## Simplified explanation\n\nHTLV-1 can cause a **T-cell leukaemia** or a slow **spinal cord disease**.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Retroviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nClinical features of mumps virus infection include…\n\nA. parotitis\nB. hepatitis\nC. meningo-encephalitis\nD. orchitis\nE. oophoritis",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Parotitis | **T** |\n| B. Hepatitis | **F** |\n| C. Meningo-encephalitis | **T** |\n| D. Orchitis | **T** |\n| E. Oophoritis | **T** |\n\n> [!answer]\n> All true except hepatitis; mumps is a systemic infection of glands and the nervous system.",
+  "hint": "Mumps affects glands and the nervous system.",
+  "explanation": "## Advanced explanation\n\nMumps (a paramyxovirus) spreads by droplets, replicates in the respiratory epithelium and then disseminates. Features: bilateral or unilateral **parotitis**, aseptic **meningitis** and occasionally encephalitis, **orchitis** in post-pubertal males (rarely causing subfertility), oophoritis and pancreatitis. Prevention is the **MMR** vaccine.\n\n## Simplified explanation\n\nMumps swells the **salivary glands** and can involve the testes, ovaries and brain lining.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Paramyxoviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHuman immunodeficiency virus belongs to the following subgroup of retroviruses:\n\nA. spumavirus\nB. oncovirus\nC. lentivirus\nD. slow virus\nE. long incubation virus",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Spumavirus | **F** |\n| B. Oncovirus | **F** |\n| C. **Lentivirus** | **T** |\n| D. Slow virus | **F** |\n| E. Long incubation virus | **F** |\n\n> [!answer]\n> HIV is a **lentivirus**.",
+  "hint": "Lenti- means slow.",
+  "explanation": "## Advanced explanation\n\n*Retroviridae* subfamilies include **oncoviruses** (HTLV-1), **lentiviruses** (HIV-1, HIV-2, SIV) and **spumaviruses** (foamy viruses). Lentiviruses cause slowly progressive disease and, unlike simple retroviruses, encode accessory/regulatory genes (**tat, rev, nef, vif, vpr, vpu**) besides *gag*, *pol* and *env*.\n\n## Simplified explanation\n\nHIV is a **lentivirus** — a 'slow' retrovirus.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Retroviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nThe following viruses are transmitted sexually…\n\nA. HAV\nB. HBV\nC. HCV\nD. HDV\nE. HEV",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. HAV | **F** |\n| B. HBV | **T** |\n| C. HCV | **T** (inefficient but recognised) |\n| D. HDV | **T** |\n| E. HEV | **F** |\n\n> [!answer]\n> The parenterally transmitted hepatitis viruses (B, C, D) can also be transmitted sexually; A and E are faeco-oral.",
+  "hint": "Blood-borne viruses are usually also sexually transmissible.",
+  "explanation": "## Advanced explanation\n\nHBV is the most efficiently sexually transmitted of these; HCV transmission is much less efficient and is linked to practices causing mucosal trauma or coexisting HIV; HDV follows HBV as it requires HBsAg to assemble. HAV can spread between sexual contacts through faecal exposure rather than true sexual transmission.\n\n## Simplified explanation\n\n**B, C and D** can pass through sex; A and E travel by the gut route.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Hepatitis Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nEnteroviruses have the following characteristics:\n\nA. tropism for intestinal and neural cells\nB. cause asymptomatic immunizing infection\nC. occasionally cause infections of the central nervous system\nD. are stable at acid pH\nE. occur more commonly in adults than in children",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Tropism for intestinal and neural cells | **T** |\n| B. Cause asymptomatic immunizing infection | **T** |\n| C. Occasionally cause CNS infection | **T** |\n| D. Are stable at acid pH | **T** |\n| E. Commoner in adults than children | **F** |\n\n> [!answer]\n> All true except E — enterovirus infections are commonest in children.",
+  "hint": "They must survive the stomach.",
+  "explanation": "## Advanced explanation\n\nEnteroviruses (polio, coxsackie A and B, echoviruses, enterovirus 71) are **naked picornaviruses**, stable at acid pH and to bile, so they survive the stomach and replicate in the gut; most infections are **subclinical but immunising**. Spread is faeco-oral, mainly among children in warm months, and complications include aseptic meningitis, paralysis, myocarditis and hand-foot-and-mouth disease.\n\n## Simplified explanation\n\nEnteroviruses survive **stomach acid**, usually cause silent infection in children, and can occasionally reach the nervous system.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Enteroviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nRNA viruses include…\n\nA. Retrovirus\nB. Enterovirus\nC. Coxsackie A virus\nD. Adenovirus\nE. Epstein-Barr virus",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Retrovirus | **T** |\n| B. Enterovirus | **T** |\n| C. Coxsackie A virus | **T** |\n| D. Adenovirus | **F** — DNA virus |\n| E. Epstein–Barr virus | **F** — DNA (herpes) virus |\n\n> [!answer]\n> A, B and C are RNA viruses; adenovirus and EBV are DNA viruses.",
+  "hint": "Remember the DNA virus families.",
+  "explanation": "## Advanced explanation\n\nHuman **DNA** virus families: herpes, hepadna, adeno, pox, parvo, papilloma and polyoma. Everything else infecting humans is an **RNA** virus. Retroviruses have an RNA genome that is reverse-transcribed into DNA.\n\n## Simplified explanation\n\nAdenovirus and EBV are **DNA** viruses; the rest listed are RNA viruses.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Virus Classification",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nThe following viruses replicate in the nucleus:\n\nA. Herpesviruses\nB. Adenoviruses\nC. Picornaviruses\nD. Orthomyxoviruses\nE. Paramyxoviruses",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Herpesviruses | **T** |\n| B. Adenoviruses | **T** |\n| C. Picornaviruses | **F** — cytoplasm |\n| D. Orthomyxoviruses (influenza) | **T** |\n| E. Paramyxoviruses | **F** — cytoplasm |\n\n> [!answer]\n> Herpes, adeno and influenza replicate in the nucleus; picornaviruses and paramyxoviruses replicate in the cytoplasm.",
+  "hint": "Which RNA virus is the famous nuclear exception?",
+  "explanation": "## Advanced explanation\n\nAlmost all **DNA** viruses replicate in the nucleus (**poxviruses** are the exception, replicating in the cytoplasm), and almost all **RNA** viruses replicate in the cytoplasm (**orthomyxoviruses**, which cap-snatch host mRNA, and retroviruses, which integrate, are the exceptions).\n\n## Simplified explanation\n\nDNA viruses use the **nucleus** (except pox); RNA viruses use the **cytoplasm** (except influenza and retroviruses).",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Viral Replication",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHSV-1 infection may result in…\n\nA. encephalitis\nB. gingivostomatitis\nC. genital herpes\nD. corneal ulcers\nE. shingles",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Encephalitis | **T** |\n| B. Gingivostomatitis | **T** |\n| C. Genital herpes | **F** (as marked; HSV-1 does in fact cause a growing share of genital herpes, classically HSV-2) |\n| D. Corneal (dendritic) ulcers | **T** |\n| E. Shingles | **F** — varicella-zoster virus |\n\n> [!answer]\n> A, B and D are true; shingles is caused by VZV, and the key marks genital herpes false as that is classically HSV-2.",
+  "hint": "Shingles belongs to a different herpesvirus.",
+  "explanation": "## Advanced explanation\n\n**HSV-1** classically causes oral disease: primary **gingivostomatitis**, recurrent herpes labialis, **dendritic keratitis** (a leading infectious cause of corneal blindness), herpetic whitlow and sporadic **encephalitis** affecting the temporal lobes. It becomes latent in the trigeminal ganglion. **VZV** causes chickenpox and, on reactivation from dorsal root ganglia, shingles.\n\n## Simplified explanation\n\nHSV-1 causes **cold sores, mouth ulcers, eye ulcers and brain infection**; shingles comes from the chickenpox virus.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nStrategies likely to induce lasting intestinal mucosal immunity to poliovirus:\n\nA. Parenteral immunization with inactivated vaccine\nB. Oral administration of poliovirus immune globulin\nC. Parenteral immunization with live vaccine\nD. Oral immunization with live vaccine\nE. Oral administration of inactivated polio vaccine",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Parenteral inactivated vaccine | **F** |\n| B. Oral immune globulin | **F** |\n| C. Parenteral live vaccine | **F** |\n| D. **Oral live (Sabin) vaccine** | **T** |\n| E. Oral inactivated vaccine | **F** |\n\n> [!answer]\n> Only oral immunization with live attenuated vaccine produces lasting intestinal (secretory IgA) immunity.",
+  "hint": "Which route stimulates gut IgA?",
+  "explanation": "## Advanced explanation\n\n**OPV (Sabin)** replicates in the gut and induces **secretory IgA**, so vaccinated children stop shedding wild virus — important for interrupting transmission — and contacts are immunised by spread of vaccine virus. The rare cost is vaccine-associated paralytic polio. **IPV (Salk)** induces excellent serum IgG, protecting the individual from paralysis but giving less gut immunity.\n\n## Simplified explanation\n\nOnly the **oral live vaccine** trains the gut itself to resist the virus.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Enteroviruses",
+   "Vaccines",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nAdenoviruses…\n\nA. are associated with genital cancers\nB. may cause warts\nC. may cause conjunctivitis\nD. may cause pneumonia\nE. may cause gastroenteritis",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Associated with genital cancers | **F** — HPV |\n| B. May cause warts | **F** — HPV |\n| C. May cause conjunctivitis | **T** |\n| D. May cause pneumonia | **T** |\n| E. May cause gastroenteritis | **T** |\n\n> [!answer]\n> C, D and E are true; warts and genital cancers are caused by human papillomaviruses.",
+  "hint": "Separate adenovirus from papillomavirus.",
+  "explanation": "## Advanced explanation\n\nAdenoviruses are naked, double-stranded DNA viruses with over 50 serotypes causing pharyngitis, pharyngoconjunctival fever, **epidemic keratoconjunctivitis**, **pneumonia** (especially in military recruits and children), haemorrhagic cystitis and, with types 40/41, infantile **gastroenteritis**.\n\n## Simplified explanation\n\nAdenovirus affects the **eyes, lungs and gut**; warts come from HPV.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Adenoviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHepatitis B infection…\n\nA. may result in chronic infection\nB. may result in cirrhosis of the liver\nC. may result in hepatocellular carcinoma\nD. is highly infectious when positive for anti-HBe antibody\nE. may respond to interferon therapy",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. May result in chronic infection | **T** |\n| B. May result in cirrhosis | **T** |\n| C. May result in hepatocellular carcinoma | **T** |\n| D. Highly infectious when anti-HBe positive | **F** — high infectivity goes with **HBeAg**, not anti-HBe |\n| E. May respond to interferon | **T** |\n\n> [!answer]\n> All true except D: anti-HBe indicates lower infectivity, whereas HBeAg indicates high infectivity.",
+  "hint": "Which marker means high infectivity?",
+  "explanation": "## Advanced explanation\n\n**HBsAg** marks current infection; **HBeAg** indicates active replication and **high infectivity**; **anti-HBe** usually indicates seroconversion with reduced replication; **anti-HBc IgM** indicates recent infection; **anti-HBs** indicates immunity (vaccination or recovery). Chronic infection is treated with pegylated interferon or nucleos(t)ide analogues.\n\n## Simplified explanation\n\n**HBeAg** = very infectious; **anti-HBe** = less infectious.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Hepatitis Viruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nMother-to-child transmission of HIV…\n\nA. is more likely in mothers who have AIDS than in asymptomatic HIV-positive mothers\nB. can be prevented with nevirapine\nC. can be diagnosed by demonstrating the presence of HIV antibodies in the neonate\nD. occurs exclusively in utero\nE. results in the death of the child by age one year",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. More likely with advanced disease | **T** — higher maternal viral load |\n| B. Can be prevented with nevirapine | **T** |\n| C. Diagnosed by antibodies in the neonate | **F** — maternal IgG crosses the placenta, so PCR is needed |\n| D. Occurs exclusively in utero | **F** — also intrapartum and through breast milk |\n| E. Child dies by age one | **F** |\n\n> [!answer]\n> A and B true; C, D and E false.",
+  "hint": "Why can't you use an antibody test in a newborn?",
+  "explanation": "## Advanced explanation\n\nMaternal **IgG anti-HIV crosses the placenta** and may persist up to 18 months, so infant diagnosis uses **HIV DNA/RNA PCR**. Transmission occurs in utero, during delivery and via breastfeeding; risk falls from 25–40% to under 5% with maternal antiretroviral therapy, infant prophylaxis (e.g. nevirapine) and safer infant feeding.\n\n## Simplified explanation\n\nBabies carry their mother's antibodies, so you must use a **PCR test**; treatment greatly reduces transmission.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "HIV",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nMeasles virus infection…\n\nA. causes a vesicular rash\nB. may cause encephalitis\nC. may be prevented by vaccination\nD. may produce a viraemia\nE. may respond to acyclovir",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Vesicular rash | **F** — the rash is maculopapular |\n| B. May cause encephalitis | **T** |\n| C. May be prevented by vaccination | **T** |\n| D. May produce a viraemia | **T** |\n| E. Responds to acyclovir | **F** |\n\n> [!answer]\n> B, C and D are true. The measles rash is maculopapular, and acyclovir is not active against measles.",
+  "hint": "What does the measles rash look like?",
+  "explanation": "## Advanced explanation\n\nMeasles begins with fever, cough, coryza and conjunctivitis plus **Koplik's spots**, then a descending **maculopapular** rash during a secondary viraemia. Complications: otitis media, pneumonia, acute post-infectious encephalitis and, years later, **SSPE**. There is no specific antiviral; vitamin A reduces mortality and the live **MMR** vaccine prevents it.\n\n## Simplified explanation\n\nMeasles gives a **flat red rash**, can affect the brain, and is prevented by the **MMR vaccine**.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Paramyxoviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nInfluenza viruses have the following properties:\n\nA. single-stranded segmented RNA\nB. single-stranded linear RNA (non-segmented)\nC. single-stranded circular RNA\nD. envelope\nE. naked",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Single-stranded **segmented** RNA | **T** |\n| B. Single-stranded non-segmented linear RNA | **F** |\n| C. Single-stranded circular RNA | **F** |\n| D. Envelope | **T** |\n| E. Naked | **F** |\n\n> [!answer]\n> Influenza is an **enveloped virus with a segmented, single-stranded negative-sense RNA genome**.",
+  "hint": "Segmentation is what makes reassortment possible.",
+  "explanation": "## Advanced explanation\n\nInfluenza A and B have **eight** negative-sense RNA segments; the envelope carries **haemagglutinin** (attachment and fusion) and **neuraminidase** (release), the targets of vaccines and of neuraminidase inhibitors. Segmentation permits **reassortment** and therefore antigenic shift.\n\n## Simplified explanation\n\nFlu has an **envelope** and its RNA genome comes in **separate pieces**.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Influenza",
+   "Virus Structure",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nMarkers usually present in a hepatitis B carrier with chronic active hepatitis include:\n\nA. HBeAg\nB. Anti-HBc IgG\nC. Anti-HBc IgM\nD. HBV-DNA\nE. HBsAg",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. HBeAg | **T** |\n| B. Anti-HBc IgG | **T** |\n| C. Anti-HBc IgM | **F** — marks recent/acute infection |\n| D. HBV-DNA | **T** |\n| E. HBsAg | **T** |\n\n> [!answer]\n> HBsAg, HBeAg, HBV-DNA and anti-HBc IgG are present; anti-HBc IgM indicates acute rather than chronic infection.",
+  "hint": "Which immunoglobulin class means 'recent'?",
+  "explanation": "## Advanced explanation\n\nChronic HBV infection is defined by **HBsAg persisting beyond six months**. Active replication is shown by **HBeAg** and high **HBV-DNA**. **Anti-HBc IgM** appears in acute infection (and in flares), while **anti-HBc IgG** persists for life as a marker of past exposure.\n\n## Simplified explanation\n\nA chronic carrier has **HBsAg, HBeAg, HBV DNA and IgG core antibody**; IgM core antibody means a recent infection.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Hepatitis Viruses",
+   "Diagnostic Virology",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nThe following viruses cause infectious mononucleosis:\n\nA. Influenza virus\nB. Epstein-Barr virus\nC. Adenovirus\nD. Cytomegalovirus\nE. Human herpesvirus 6",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Influenza virus | **F** |\n| B. Epstein–Barr virus | **T** |\n| C. Adenovirus | **F** |\n| D. Cytomegalovirus | **F** (as marked on the paper; CMV does cause a heterophile-negative mononucleosis-like syndrome) |\n| E. HHV-6 | **F** (as marked on the paper) |\n\n> [!answer]\n> EBV is the classical cause of infectious mononucleosis; the key marks only B true.",
+  "hint": "Glandular fever.",
+  "explanation": "## Advanced explanation\n\n**EBV** causes heterophile-antibody-positive infectious mononucleosis: fever, pharyngitis, lymphadenopathy, splenomegaly, atypical lymphocytes, and a rash if ampicillin is given. A similar **heterophile-negative** illness can be caused by CMV, HIV seroconversion, toxoplasmosis and HHV-6.\n\n## Simplified explanation\n\n**EBV** causes glandular fever; a few other infections can look like it.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nA chronic carrier state may occur with…\n\nA. Retroviruses\nB. Hepatitis A\nC. Hepatitis B\nD. Hepatitis C\nE. Parainfluenza virus",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Retroviruses | **T** — lifelong infection |\n| B. Hepatitis A | **F** |\n| C. Hepatitis B | **T** |\n| D. Hepatitis C | **T** |\n| E. Parainfluenza virus | **F** |\n\n> [!answer]\n> Retroviruses, HBV and HCV establish persistent/chronic infection; HAV and parainfluenza cause acute self-limiting illness.",
+  "hint": "Which infections never clear?",
+  "explanation": "## Advanced explanation\n\n**Persistent infections** may be chronic (continuous production, e.g. HBV, HCV, HIV), **latent** (herpesviruses) or slow (SSPE, prions). Chronic HBV and HCV carriage underlies cirrhosis and hepatocellular carcinoma; HIV integrates as a provirus and cannot currently be eradicated.\n\n## Simplified explanation\n\nHIV, hepatitis **B** and **C** can stay for life; hepatitis A and parainfluenza clear up.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Viral Pathogenesis",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nHIV infection may lead to…\n\nA. dementia\nB. chronic diarrhoea\nC. CMV retinitis\nD. non-Hodgkin's lymphoma\nE. oesophageal candidiasis",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Dementia | **T** |\n| B. Chronic diarrhoea | **T** |\n| C. CMV retinitis | **T** |\n| D. Non-Hodgkin's lymphoma | **T** |\n| E. Oesophageal candidiasis | **T** |\n\n> [!answer]\n> All five are recognised AIDS-defining or HIV-associated conditions.",
+  "hint": "All of these appear in the AIDS case definition.",
+  "explanation": "## Advanced explanation\n\nAs CD4 counts fall, different conditions appear: oral and **oesophageal candidiasis** and chronic diarrhoea at moderate counts; **CMV retinitis**, disseminated *M. avium* complex and CNS lymphoma below 50–100 cells/µL. **HIV-associated dementia** results from direct CNS infection of macrophages and microglia; **non-Hodgkin lymphoma** and Kaposi sarcoma are AIDS-defining malignancies.\n\n## Simplified explanation\n\nAdvanced HIV allows many infections and cancers, including **brain, gut, eye and oesophageal** disease.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "HIV",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each of the following is **true (T)** or **false (F)**.\n\nClinical manifestations of HIV infection include…\n\nA. acute stage, latent stage and immunodeficiency stage\nB. prodromal stage, latent stage and death stage\nC. acute stage, latent stage, death stage\nD. prodromal stage, acute stage and latent stage\nE. incubation stage, acute stage and latent stage",
+  "media": [],
+  "answer": "| Part | Answer |\n|---|---|\n| A. Acute, latent and immunodeficiency stages | **T** |\n| B. Prodromal, latent, death | **F** |\n| C. Acute, latent, death | **F** |\n| D. Prodromal, acute, latent | **F** |\n| E. Incubation, acute, latent | **F** |\n\n> [!answer]\n> A is the correct sequence: acute (seroconversion) illness → clinical latency → immunodeficiency (AIDS).",
+  "hint": "Three clinical phases.",
+  "explanation": "## Advanced explanation\n\n**Acute retroviral syndrome** (2–6 weeks after exposure: fever, rash, pharyngitis, high viraemia) → **clinical latency** (years; ongoing replication with slowly falling CD4 count) → **AIDS** (CD4 below 200/µL or an AIDS-defining illness). Antiretroviral therapy suppresses viraemia and prevents progression.\n\n## Simplified explanation\n\nHIV goes through a **short illness**, then **years with no symptoms**, then **AIDS** if untreated.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "HIV",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each statement in column A with the correct virus.\n\n41. Causes acute gingivostomatitis\n42. Is transmitted through kissing\n43. Infection may result in blindness\n44. Is associated with Reye's syndrome, especially in children given aspirin\n45. Is a common cause of congenital abnormalities",
+  "media": [],
+  "answer": "| Statement | Virus |\n|---|---|\n| 41. Acute gingivostomatitis | **HSV-1** |\n| 42. Transmitted through kissing | **EBV** (also HSV-1) |\n| 43. May result in blindness | **HSV-1** (keratitis) and **cytomegalovirus** (retinitis); measles keratitis is another cause |\n| 44. Reye's syndrome with aspirin | **Influenza A** (and varicella-zoster virus) |\n| 45. Common cause of congenital abnormalities | **Cytomegalovirus** (also herpes simplex and varicella-zoster virus) |\n\n> [!answer]\n> 41 HSV-1; 42 EBV; 43 HSV-1/CMV; 44 influenza A (also VZV); 45 cytomegalovirus.",
+  "hint": "Match each clinical clue to its classical virus.",
+  "explanation": "## Advanced explanation\n\n**HSV-1** causes primary gingivostomatitis in young children and dendritic keratitis; **EBV** is the 'kissing disease' spread in saliva; **CMV** is the commonest congenital viral infection (deafness, microcephaly, chorioretinitis) and causes retinitis in advanced HIV disease; **Reye's syndrome** follows aspirin given during influenza or chickenpox.\n\n## Simplified explanation\n\nCold-sore virus for mouth and eye disease, EBV for kissing disease, CMV for birth defects, and influenza/chickenpox plus aspirin for Reye's syndrome.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each statement in column A with the correct virus.\n\n46. Establishes latency within B lymphocytes\n47. Causes gastroenteritis\n48. Causes the formation of vacuolated cells or koilocytes\n49. Causes condylomata acuminata\n50. Koplik's spots are characteristic of a virus belonging to this group",
+  "media": [],
+  "answer": "| Statement | Virus |\n|---|---|\n| 46. Latency in B lymphocytes | **Epstein–Barr virus** |\n| 47. Causes gastroenteritis | **Adenovirus** (types 40/41); rotavirus and norovirus are the other common causes |\n| 48. Koilocytes (vacuolated cells) | **Human papillomavirus** |\n| 49. Condylomata acuminata (genital warts) | **Human papillomavirus** (types 6 and 11) |\n| 50. Koplik's spots | **Measles virus** (a paramyxovirus) |\n\n> [!answer]\n> 46 EBV; 47 adenovirus; 48 HPV; 49 HPV; 50 measles virus.",
+  "hint": "Two of these point to the same virus family.",
+  "explanation": "## Advanced explanation\n\n**EBV** infects B cells through CD21 and remains latent in memory B cells. **Koilocytes** — squamous cells with perinuclear halos — are the cytological hallmark of **HPV** infection on a cervical smear; low-risk types 6 and 11 cause **condylomata acuminata**, high-risk types 16 and 18 cause cervical cancer. **Koplik's spots** are tiny white spots on the buccal mucosa appearing before the measles rash.\n\n## Simplified explanation\n\nEBV hides in B cells, adenovirus upsets the gut, HPV makes koilocytes and genital warts, and Koplik's spots mean measles.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Virus Classification",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each statement in column A with the correct virus.\n\n51. The Tzanck smear can be used to diagnose this virus\n52. Can be transmitted from mother to foetus transplacentally\n53. Causes tropical spastic paraparesis\n54. Causes herpangina and hand-foot-and-mouth disease\n55. Kissing is a means of spreading these viruses",
+  "media": [],
+  "answer": "| Statement | Virus |\n|---|---|\n| 51. Tzanck smear | **Varicella-zoster virus** (and herpes simplex virus) |\n| 52. Transplacental transmission | **Cytomegalovirus** (also herpes simplex virus, rubella, VZV, HIV) |\n| 53. Tropical spastic paraparesis | **HTLV-1** |\n| 54. Herpangina and hand-foot-and-mouth disease | **Coxsackie A virus** (a picornavirus) |\n| 55. Spread by kissing | **EBV** and **HSV-1** |\n\n> [!answer]\n> 51 VZV/HSV; 52 cytomegalovirus (and other herpesviruses); 53 HTLV-1; 54 coxsackie A (picornavirus); 55 EBV and HSV-1.",
+  "hint": "One answer is a laboratory test rather than a disease.",
+  "explanation": "## Advanced explanation\n\nA **Tzanck smear** scrapes the base of a vesicle and shows **multinucleated giant cells with intranuclear inclusions**, indicating a herpesvirus (HSV or VZV) but not distinguishing them — PCR or immunofluorescence is now preferred. **Coxsackie A16 and enterovirus 71** cause hand-foot-and-mouth disease; coxsackie A also causes herpangina (vesicles on the soft palate).\n\n## Simplified explanation\n\nScraping a blister (Tzanck) shows herpes-type giant cells; HTLV-1 causes a slow spinal disease; coxsackie A causes hand-foot-and-mouth disease.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Diagnostic Virology",
+   "Enteroviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each statement in column A with the correct virus.\n\n56. The transactivator genes *tat* and *tax* are unique to ………… and ………… respectively\n57. Tegument is a part of the structure of this virus\n58. Shares a receptor with coxsackievirus\n59. Establishes latency in the central nervous system\n60. Is extremely contagious",
+  "media": [],
+  "answer": "| Statement | Virus |\n|---|---|\n| 56. *tat* and *tax* | **HIV-1** and **HTLV-1** respectively |\n| 57. Tegument | **Herpesviruses** (e.g. HSV-1) |\n| 58. Shares a receptor with coxsackievirus (CAR) | **Adenovirus** |\n| 59. Latency in the nervous system | **Herpes simplex virus** (sensory ganglia; VZV in dorsal root ganglia) |\n| 60. Extremely contagious | **Measles virus** (also RSV and influenza A) |\n\n> [!answer]\n> 56 HIV-1 and HTLV-1; 57 herpesviruses; 58 adenovirus; 59 HSV; 60 measles.",
+  "hint": "One item is about virion structure.",
+  "explanation": "## Advanced explanation\n\nThe **tegument** is the protein layer between the herpesvirus capsid and envelope, delivering proteins that take over the cell immediately after entry. Adenovirus and coxsackie B share the **coxsackie–adenovirus receptor (CAR)**. **Tat** transactivates HIV-1 transcription; **tax** transactivates HTLV-1 and drives T-cell proliferation. Measles has a very high basic reproduction number, so very high vaccine coverage is required.\n\n## Simplified explanation\n\nHIV uses *tat* and HTLV-1 uses *tax*; herpesviruses have a tegument and hide in nerve cells; adenovirus shares a doorway with coxsackievirus; measles spreads extremely easily.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Virus Structure",
+   "Retroviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 32-year-old woman complained of fatigue, nausea and abdominal discomfort. She had a slight fever, her urine was dark yellow, and her abdomen was distended and tender. Serologic assays demonstrated IgM antibody to hepatitis B core antigen (anti-HBc IgM), hepatitis B surface antigen (HBsAg) and hepatitis B e antigen (HBeAg). She also had IgG to hepatitis A virus.\n\n(a) Which features are common to hepatitis illness in general?\n(b) Which features are specific to hepatitis B virus infection?\n(c) How does the serology define the course of this disease?\n(d) How is this infection transmitted?\n(e) How could this infection be prevented?",
+  "media": [],
+  "answer": "**(a) Common to hepatitis of any cause:** fatigue, nausea and abdominal discomfort, slight fever, **dark urine** (conjugated bilirubin), tender distended abdomen with hepatomegaly, jaundice and raised transaminases.\n\n**(b) Specific to HBV:** the longer incubation and time course, the possibility of **chronic infection** (which does not occur with HAV), and above all the **serological pattern**.\n\n**(c) Serology:** **HBsAg positive** = current infection; **anti-HBc IgM positive** = **acute, recent** infection (not chronic, where IgG predominates); **HBeAg positive** = active viral replication and **high infectivity**. Together these indicate **acute hepatitis B in the highly infectious phase**. Her **IgG anti-HAV** reflects past hepatitis A infection or vaccination and gives immunity to HAV; it is not the cause of this illness. Recovery would be shown by loss of HBsAg and HBeAg, and appearance of anti-HBe and anti-HBs; persistence of HBsAg beyond 6 months would define chronic infection.\n\n**(d) Transmission:** in **blood and blood products, tissues and semen** — percutaneous (needles, sharps, transfusion, unsterile instruments), sexual, and **mother to child** (perinatal).\n\n**(e) Prevention:** **vaccination** (the best measure, with hepatitis B immunoglobulin for post-exposure and for babies of HBsAg-positive mothers), **screening of blood donors**, safe sex, not sharing or reusing needles, sterile instruments, and standard (universal) precautions.\n\n> [!answer]\n> Acute hepatitis B in the highly infectious phase (HBsAg, HBeAg, anti-HBc IgM), transmitted by blood, sexual contact and perinatally, and preventable by vaccination, blood screening and standard precautions.",
+  "hint": "Read each serological marker in turn.",
+  "explanation": "## Advanced explanation\n\nInterpreting HBV serology is a standard examination task: HBsAg (infection), anti-HBs (immunity), anti-HBc IgM (recent), anti-HBc IgG (past or chronic), HBeAg (high replication/infectivity), anti-HBe (lower infectivity), HBV-DNA (viral load for monitoring).\n\n## Simplified explanation\n\nHer tests show a **new hepatitis B infection** that is very infectious; the virus spreads by blood and sex, and the **vaccine** is the best protection.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Hepatitis Viruses",
+   "Diagnostic Virology",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 16-year-old boy has a sore throat, swollen cervical lymph nodes, fever, malaise and hepatosplenomegaly. Laboratory findings include atypical lymphocytes and heterophil antibodies. Ampicillin is administered and the patient develops an intense rash on his chest.\n\n(a) Which agent is the most likely cause?\n(b) What are the general characteristics of the group to which this virus belongs?\n(c) Briefly outline the replication of this virus.\n(d) Mention five syndromes associated with infection by this virus.",
+  "media": [],
+  "answer": "**(a)** **Epstein–Barr virus (EBV, HHV-4)** causing infectious mononucleosis; the ampicillin rash is characteristic.\n\n**(b) Herpesviruses:**\n1. Large, **enveloped** virions with an **icosadeltahedral capsid** and a **tegument**, containing **double-stranded DNA**.\n2. **DNA replication and capsid assembly occur in the nucleus**.\n3. Virus is released by exocytosis, cell lysis and through cell-to-cell bridges.\n4. They encode many proteins that **manipulate the host cell and the immune response**, and they establish **lifelong latency** with reactivation.\n\n**(c) Replication:** attachment of gp350 to **CD21 (CR2)** on B cells (and to epithelial cells) → fusion and entry → the capsid delivers the genome to the **nucleus**, where it circularises as an **episome** → in latent infection only a few genes (EBNAs, LMPs, EBERs) are expressed and the episome is copied with the cell; in lytic infection the cascade of **immediate-early → early → viral DNA replication → late (structural) genes** occurs, capsids assemble in the nucleus, bud through the nuclear membrane acquiring tegument and envelope, and virions are released.\n\n**(d) Five syndromes:** heterophile-positive **infectious mononucleosis**; **oral hairy leukoplakia**; **EBV-induced lymphoproliferative disease** (post-transplant); **Burkitt lymphoma**; **nasopharyngeal carcinoma**; (also chronic active EBV disease and Hodgkin lymphoma).\n\n> [!answer]\n> EBV, a herpesvirus — enveloped dsDNA virus replicating in the nucleus and establishing latency in B cells — causing infectious mononucleosis, oral hairy leukoplakia, post-transplant lymphoproliferative disease, Burkitt lymphoma and nasopharyngeal carcinoma.",
+  "hint": "Sore throat, atypical lymphocytes, heterophil antibodies and an ampicillin rash.",
+  "explanation": "## Advanced explanation\n\nThe **heterophil (Paul–Bunnell/Monospot)** antibody test supports the diagnosis; specific EBV serology (VCA IgM, VCA IgG, EBNA) distinguishes acute from past infection. Atypical lymphocytes are reactive **CD8 T cells** responding to infected B cells. Ampicillin or amoxicillin given during the illness produces a widespread maculopapular rash in most patients.\n\n## Simplified explanation\n\nThis is **glandular fever caused by EBV**, a herpesvirus that lives in B cells for life and is linked to several tumours.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Herpesviruses",
+   "2017/2018 End of Second Semester Exam"
+  ]
+ }
+]

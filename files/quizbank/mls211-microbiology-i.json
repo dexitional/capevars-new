@@ -1,0 +1,1995 @@
+[
+ {
+  "type": "choice",
+  "body": "The primary staining material of a Gram-positive bacterium is…",
+  "media": [],
+  "options": [
+   {
+    "text": "fast green",
+    "hint": "Fast green is a counterstain in some histology methods, not the Gram primary stain."
+   },
+   {
+    "text": "haematoxylon",
+    "hint": "Haematoxylin is a histological nuclear stain."
+   },
+   {
+    "text": "crystal violet",
+    "hint": "Correct. Crystal violet is the primary stain retained by Gram-positive cells."
+   },
+   {
+    "text": "safranin",
+    "hint": "Safranin is the counterstain that colours Gram-negative cells."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Think of the first dye applied in the Gram stain.",
+  "explanation": "## Advanced explanation\n\nGram stain sequence: **crystal violet** (primary) → Gram's iodine (mordant, forms CV–I complex) → alcohol/acetone (decolorizer) → **safranin** (counterstain). Thick peptidoglycan of Gram-positive walls traps the CV–I complex, so they stay purple.\n\n## Simplified explanation\n\nThe first dye in the Gram stain is **crystal violet**; Gram-positive bacteria keep it and look purple.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Sanitization is a process by which…",
+  "media": [],
+  "options": [
+   {
+    "text": "the microbial load on objects is reduced",
+    "hint": "Correct. Sanitization lowers microbial counts to safe public-health levels."
+   },
+   {
+    "text": "objects are made sterile with chemicals",
+    "hint": "That would be chemical sterilization, not sanitization."
+   },
+   {
+    "text": "utensils are scrubbed",
+    "hint": "Scrubbing is a mechanical step, not the definition."
+   },
+   {
+    "text": "skin is debrided",
+    "hint": "Debridement is removal of dead tissue from wounds."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "It does not have to remove all microbes.",
+  "explanation": "## Advanced explanation\n\n**Sanitization** reduces the microbial population on inanimate objects (e.g. eating utensils) to levels judged safe by public-health standards. It does not sterilize. Compare: **disinfection** (pathogens on inanimate objects), **antisepsis** (living tissue), **sterilization** (all life incl. spores).\n\n## Simplified explanation\n\nSanitizing means **cutting down the number of microbes** to a safe level, not killing all of them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Chloramphenicol, an antibiotic that inhibits bacterial protein synthesis, will also affect the…",
+  "media": [],
+  "options": [
+   {
+    "text": "mitochondria",
+    "hint": "Correct. Mitochondria have 70S-type ribosomes like bacteria."
+   },
+   {
+    "text": "Golgi complex",
+    "hint": "The Golgi has no ribosomes of its own."
+   },
+   {
+    "text": "microtubules",
+    "hint": "Microtubules are cytoskeletal proteins, not ribosomes."
+   },
+   {
+    "text": "endoplasmic reticulum",
+    "hint": "RER ribosomes are cytoplasmic 80S ribosomes, not the chloramphenicol target."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which organelle has bacterial-type ribosomes?",
+  "explanation": "## Advanced explanation\n\nChloramphenicol binds the **50S subunit** (peptidyl transferase) of 70S ribosomes. **Mitochondria** (endosymbiotic origin) carry 70S-like ribosomes, so mitochondrial protein synthesis is also inhibited — the basis of its bone-marrow toxicity.\n\n## Simplified explanation\n\nMitochondria came from bacteria and still have **bacteria-like ribosomes**, so chloramphenicol hits them too.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "*Mycoplasma* species lack…",
+  "media": [],
+  "options": [
+   {
+    "text": "ribosomes",
+    "hint": "All bacteria including Mycoplasma have 70S ribosomes."
+   },
+   {
+    "text": "plasma membrane",
+    "hint": "Mycoplasma has a plasma membrane (with sterols)."
+   },
+   {
+    "text": "lipids",
+    "hint": "Their membrane is rich in lipids and sterols."
+   },
+   {
+    "text": "peptidoglycan",
+    "hint": "Correct. Mycoplasmas have no cell wall, hence no peptidoglycan."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "They are wall-less bacteria.",
+  "explanation": "## Advanced explanation\n\n*Mycoplasma* lack a cell wall entirely; their membrane is stabilised by **sterols**. Consequences: pleomorphic, not seen on Gram stain, and resistant to β-lactams which target peptidoglycan synthesis.\n\n## Simplified explanation\n\nMycoplasma has **no cell wall**, so it has no peptidoglycan.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The action of one of the following on non-spore forming bacteria can be reversed.",
+  "media": [],
+  "options": [
+   {
+    "text": "A disinfectant",
+    "hint": "Disinfectants are generally lethal (cidal) to vegetative cells."
+   },
+   {
+    "text": "A bactericidal agent",
+    "hint": "Bactericidal agents kill; killing is irreversible."
+   },
+   {
+    "text": "A bacteriostatic agent",
+    "hint": "Correct. Static agents only inhibit growth; removal allows regrowth."
+   },
+   {
+    "text": "Autoclaving at 121°C for 15 minutes",
+    "hint": "Autoclaving sterilizes — irreversible."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which agent only stops growth?",
+  "explanation": "## Advanced explanation\n\n**Bacteriostatic** agents (e.g. tetracyclines, chloramphenicol, sulfonamides) inhibit multiplication; when the agent is removed or diluted, growth resumes. **Bactericidal** agents and sterilization kill cells irreversibly.\n\n## Simplified explanation\n\nA **bacteriostatic** agent just pauses growth — take it away and the bacteria grow again.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the most resistant to destruction by chemicals and heat?",
+  "media": [],
+  "options": [
+   {
+    "text": "Spores of *Aspergillus fumigatus*",
+    "hint": "Fungal spores are far less resistant than bacterial endospores."
+   },
+   {
+    "text": "*Mycobacterium tuberculosis*",
+    "hint": "Mycobacteria are relatively resistant, but less so than endospores."
+   },
+   {
+    "text": "Ebola virus",
+    "hint": "Enveloped viruses are among the most easily destroyed."
+   },
+   {
+    "text": "Spores of *Bacillus anthracis*",
+    "hint": "Correct. Bacterial endospores are the most resistant microbial forms (apart from prions)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Recall the hierarchy of resistance.",
+  "explanation": "## Advanced explanation\n\nOrder of resistance: prions > **bacterial endospores** (*Bacillus*, *Clostridium*) > mycobacteria > naked viruses > fungal spores/vegetative bacteria > enveloped viruses. Endospores have dipicolinic acid–Ca²⁺, a dehydrated core, SASPs and a thick cortex/coat.\n\n## Simplified explanation\n\n**Bacterial endospores** (like those of *Bacillus anthracis*) are the hardest to kill.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The major effect of a temperature of 60°C on the growth of a mesophile such as *Escherichia coli* is to…",
+  "media": [],
+  "options": [
+   {
+    "text": "destroy the cell wall",
+    "hint": "Heat does not mainly act on the cell wall."
+   },
+   {
+    "text": "denature proteins",
+    "hint": "Correct. Moist heat kills by coagulating/denaturing proteins and enzymes."
+   },
+   {
+    "text": "solubilize the cytoplasmic membrane",
+    "hint": "Membrane damage is minor compared with protein denaturation."
+   },
+   {
+    "text": "cause formation of endospores",
+    "hint": "E. coli does not form endospores."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What does heat do to enzymes?",
+  "explanation": "## Advanced explanation\n\n*E. coli* grows optimally ~37°C. At 60°C its enzymes and structural proteins **denature/coagulate**, so metabolism stops and the cells die (the basis of pasteurization).\n\n## Simplified explanation\n\nHeat **destroys the shape of proteins**, so the bacterium's enzymes stop working.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Bacteria that are obligate intracellular pathogens of humans are…",
+  "media": [],
+  "options": [
+   {
+    "text": "autotrophs",
+    "hint": "Autotrophs make organic carbon from CO₂; pathogens use host carbon."
+   },
+   {
+    "text": "chemolithotrophs",
+    "hint": "Chemolithotrophs oxidize inorganic compounds — not human pathogens."
+   },
+   {
+    "text": "hyperthermophiles",
+    "hint": "Hyperthermophiles grow above 80°C, not in humans."
+   },
+   {
+    "text": "heterotrophs",
+    "hint": "Correct. They obtain organic carbon from the host cell."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Where do they get their carbon?",
+  "explanation": "## Advanced explanation\n\nObligate intracellular bacteria (e.g. *Chlamydia*, *Rickettsia*) are **chemoheterotrophs** that depend on host-derived organic compounds (and often ATP). All human pathogens are heterotrophic mesophiles.\n\n## Simplified explanation\n\nThey **feed on the host's organic molecules**, so they are heterotrophs.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Nutrition",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which phase of the bacterial growth curve are bacteria most sensitive to penicillin?",
+  "media": [],
+  "options": [
+   {
+    "text": "Lag phase",
+    "hint": "Cells are not yet dividing, so little wall synthesis."
+   },
+   {
+    "text": "Log phase",
+    "hint": "Correct. Rapid division means active peptidoglycan synthesis, the penicillin target."
+   },
+   {
+    "text": "Stationary phase",
+    "hint": "Growth has stopped; wall synthesis is minimal."
+   },
+   {
+    "text": "Death phase",
+    "hint": "Cells are dying, not building walls."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Penicillin blocks cell wall synthesis.",
+  "explanation": "## Advanced explanation\n\nPenicillin inhibits **transpeptidation** (PBPs) during peptidoglycan cross-linking. Only actively dividing cells in **exponential (log) phase** synthesize new wall, so they lyse; resting cells are tolerant.\n\n## Simplified explanation\n\nPenicillin works best when bacteria are **growing fast** and building new walls — the log phase.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "Antimicrobial Agents",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the Gram stain procedure, bacteria are exposed to 95% alcohol or to an acetone/alcohol mixture. The purpose of this step is to…",
+  "media": [],
+  "options": [
+   {
+    "text": "adhere the cells to the slide",
+    "hint": "Heat fixing does that."
+   },
+   {
+    "text": "retain the purple dye within all the bacteria",
+    "hint": "Decolorizer removes dye from Gram-negatives; it does not retain it."
+   },
+   {
+    "text": "disrupt the outer cell membrane so the purple dye can leave the bacteria",
+    "hint": "Correct. Alcohol dissolves the lipid outer membrane of Gram-negatives and the CV–I complex washes out."
+   },
+   {
+    "text": "facilitate the entry of the purple dye into the gram-negative cells",
+    "hint": "The dye enters all cells before this step."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "This is the decolorization step.",
+  "explanation": "## Advanced explanation\n\nAlcohol/acetone dissolves the **lipid-rich outer membrane** of Gram-negative cells; their thin peptidoglycan cannot hold the crystal violet–iodine complex, which is washed out. In Gram-positives the alcohol dehydrates the thick peptidoglycan, trapping the complex.\n\n## Simplified explanation\n\nThe alcohol **washes the purple out of Gram-negative cells** by breaking their outer membrane.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements is TRUE regarding the interaction of viruses and cell surface receptors?",
+  "media": [],
+  "options": [
+   {
+    "text": "When receptor sites are occupied the viral infection will be lytic",
+    "hint": "Receptor binding does not determine lytic vs latent outcome."
+   },
+   {
+    "text": "The interaction can be prevented by neutralizing antibodies to the virus surface protein",
+    "hint": "Correct. Neutralizing antibodies block the viral attachment protein."
+   },
+   {
+    "text": "The interaction directs host DNA polymerase to synthesize RNA genomes for viral assembly",
+    "hint": "DNA polymerase does not make RNA; attachment does not direct replication."
+   },
+   {
+    "text": "The interaction determines whether the purified genome of a virus is infectious",
+    "hint": "Infectivity of naked genome is independent of receptor binding."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "How do antibodies stop viruses?",
+  "explanation": "## Advanced explanation\n\nAttachment of a viral surface protein to a specific host receptor determines **host range and tissue tropism**. **Neutralizing antibodies** bind the attachment protein and block this step — the basis of most viral vaccines.\n\n## Simplified explanation\n\nAntibodies can **cover the virus's 'key'** so it cannot fit the cell's 'lock' (receptor).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Virology Basics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A bacterial strain has acquired a set of genes by transduction. The process entered the lysogenic cycle and the bacterial cells have gone through a cycle of reproduction. In the daughter cells these genes will be found in…",
+  "media": [],
+  "options": [
+   {
+    "text": "bacteriophage",
+    "hint": "In lysogeny the phage DNA is integrated, not free phage."
+   },
+   {
+    "text": "chromosome",
+    "hint": "Correct. The prophage (with the genes) is integrated into the bacterial chromosome and copied with it."
+   },
+   {
+    "text": "transposon",
+    "hint": "Transposons are mobile elements, not the site of lysogenic integration."
+   },
+   {
+    "text": "cytosol",
+    "hint": "Free DNA in the cytosol would be degraded or lost."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What is a prophage?",
+  "explanation": "## Advanced explanation\n\nIn lysogeny, temperate phage DNA (with transduced genes) integrates into the **bacterial chromosome** as a **prophage** and is replicated with it, so daughter cells inherit it.\n\n## Simplified explanation\n\nThe genes become part of the **bacterial chromosome**, so they are copied into daughter cells.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Genetics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The term culture refers to the ………… growth of microorganisms in …………",
+  "media": [],
+  "options": [
+   {
+    "text": "Rapid, an incubator",
+    "hint": "Speed and location in an incubator do not define a culture."
+   },
+   {
+    "text": "Macroscopic, media",
+    "hint": "Correct. A culture is the visible growth of microbes in or on culture media."
+   },
+   {
+    "text": "Microscopic, the body",
+    "hint": "Growth in the body is an infection, not a culture."
+   },
+   {
+    "text": "Artificial, colonies",
+    "hint": "Colonies are one form of culture growth, not the medium."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "You can see a culture with the naked eye.",
+  "explanation": "## Advanced explanation\n\nA **culture** is the visible (macroscopic) growth of microorganisms that results when an inoculum multiplies **in or on a culture medium** (broth or agar).\n\n## Simplified explanation\n\nA culture is microbes grown **on media** until you can **see** them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is NOT an ionizing radiation?",
+  "media": [],
+  "options": [
+   {
+    "text": "Gamma rays",
+    "hint": "Gamma rays are ionizing."
+   },
+   {
+    "text": "X-rays",
+    "hint": "X-rays are ionizing."
+   },
+   {
+    "text": "Ultraviolet ray",
+    "hint": "Correct. UV is non-ionizing; it forms thymine dimers."
+   },
+   {
+    "text": "Cathode rays",
+    "hint": "Cathode rays (electron beams) are ionizing."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which radiation acts by forming thymine dimers?",
+  "explanation": "## Advanced explanation\n\n**Ionizing** radiation (gamma, X-rays, electron/cathode beams) ejects electrons and produces hydroxyl radicals that break DNA. **UV (≈260 nm)** is non-ionizing: it causes **pyrimidine (thymine) dimers** and has poor penetration.\n\n## Simplified explanation\n\n**UV light** does not ionize; it damages DNA by sticking thymines together.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The identification of bacteria by serologic tests is based on the presence of specific antigens. Which one of the following bacterial components is LEAST likely to contain useful antigens?",
+  "media": [],
+  "options": [
+   {
+    "text": "Capsule",
+    "hint": "Capsular (K) antigens are widely used, e.g. pneumococcal typing."
+   },
+   {
+    "text": "Flagella",
+    "hint": "Flagellar (H) antigens are used, e.g. Salmonella typing."
+   },
+   {
+    "text": "Exotoxins",
+    "hint": "Exotoxins are strong antigens (e.g. toxin neutralisation tests)."
+   },
+   {
+    "text": "Ribosomes",
+    "hint": "Correct. Ribosomes are internal and conserved, so they are not useful typing antigens."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which part is internal and highly conserved?",
+  "explanation": "## Advanced explanation\n\nSerotyping uses **surface or secreted** antigens: capsule (K), flagella (H), cell wall/LPS (O), and exotoxins. **Ribosomes** are intracellular and structurally similar among bacteria, so they give little discrimination.\n\n## Simplified explanation\n\nTests look at **outside parts** of bacteria; ribosomes are inside and nearly the same in all bacteria.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Normal throat cultures usually show a predominance of…",
+  "media": [],
+  "options": [
+   {
+    "text": "Alpha hemolytic streptococci and *Neisseria*.",
+    "hint": "Correct. Viridans (α-haemolytic) streptococci and commensal Neisseria dominate the oropharynx."
+   },
+   {
+    "text": "*Corynebacteria*.",
+    "hint": "Diphtheroids are present but not predominant."
+   },
+   {
+    "text": "*Bordetella*.",
+    "hint": "Bordetella is a pathogen, not normal flora."
+   },
+   {
+    "text": "Beta hemolytic streptococci.",
+    "hint": "β-haemolytic streptococci (e.g. S. pyogenes) are pathogens if dominant."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think viridans streptococci.",
+  "explanation": "## Advanced explanation\n\nThe oropharynx is dominated by **viridans (α-haemolytic) streptococci** and **non-pathogenic Neisseria** spp., with diphtheroids, *Moraxella* and anaerobes. Heavy growth of β-haemolytic streptococci suggests pharyngitis.\n\n## Simplified explanation\n\nA normal throat swab mostly grows **α-haemolytic streptococci and Neisseria**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Acid-fast bacilli possess large amounts of ………… within their cells.",
+  "media": [],
+  "options": [
+   {
+    "text": "Starches.",
+    "hint": "Starch is not a feature of mycobacteria."
+   },
+   {
+    "text": "Proteins.",
+    "hint": "All cells have protein; it does not explain acid-fastness."
+   },
+   {
+    "text": "Lipids.",
+    "hint": "Correct. Mycolic acids and waxes make the wall acid-fast."
+   },
+   {
+    "text": "Water.",
+    "hint": "Water content does not cause acid-fastness."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Mycolic acid is a…",
+  "explanation": "## Advanced explanation\n\nAcid-fast organisms (*Mycobacterium*, *Nocardia*) have walls rich in **lipids — mycolic acids, waxes (wax D), glycolipids**. These resist ordinary stains but, once carbol fuchsin is driven in by heat/phenol, they resist decolorization by acid-alcohol.\n\n## Simplified explanation\n\nMycobacteria have **waxy lipid walls**, which make them acid-fast.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Gram-positive cells after completion of the gram stain will appear…",
+  "media": [],
+  "options": [
+   {
+    "text": "red.",
+    "hint": "Red/pink is Gram-negative."
+   },
+   {
+    "text": "pink.",
+    "hint": "Pink is Gram-negative (safranin)."
+   },
+   {
+    "text": "blue.",
+    "hint": "They look violet-purple, not blue."
+   },
+   {
+    "text": "purple",
+    "hint": "Correct. They retain crystal violet–iodine and appear purple."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "They keep the primary stain.",
+  "explanation": "## Advanced explanation\n\nGram-positive cells retain the **crystal violet–iodine** complex and appear **purple/violet**; Gram-negatives lose it and take up safranin (pink/red).\n\n## Simplified explanation\n\nGram-positive = **purple**, Gram-negative = pink.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If an organism grows only in an environment containing no free oxygen, it is…",
+  "media": [],
+  "options": [
+   {
+    "text": "a facultative anaerobe.",
+    "hint": "Facultative anaerobes grow with or without oxygen."
+   },
+   {
+    "text": "a facultative aerobe.",
+    "hint": "Not a standard term for strict oxygen intolerance."
+   },
+   {
+    "text": "an obligate anaerobe.",
+    "hint": "Correct. Obligate anaerobes grow only without oxygen."
+   },
+   {
+    "text": "an obligate aerobe.",
+    "hint": "Obligate aerobes require oxygen."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "'Only' without oxygen.",
+  "explanation": "## Advanced explanation\n\n**Obligate (strict) anaerobes** (e.g. *Clostridium*, *Bacteroides*) lack superoxide dismutase/catalase, so oxygen is toxic; they grow only in O₂-free conditions (anaerobic jar, thioglycollate depths).\n\n## Simplified explanation\n\nGrows **only without oxygen** = obligate anaerobe.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The formation of a mating pair during the process of conjugation in *Escherichia coli* requires…",
+  "media": [],
+  "options": [
+   {
+    "text": "lysis of the donor",
+    "hint": "Conjugation does not lyse the donor."
+   },
+   {
+    "text": "a sex pilus",
+    "hint": "Correct. The F (sex) pilus joins donor and recipient."
+   },
+   {
+    "text": "transfer of both strands of DNA",
+    "hint": "Only one strand is transferred."
+   },
+   {
+    "text": "a restriction endonuclease",
+    "hint": "Restriction enzymes are not needed for pairing."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "F⁺ cells make a special appendage.",
+  "explanation": "## Advanced explanation\n\nF⁺ (or Hfr) donors carry the F plasmid encoding the **sex pilus**, which contacts the F⁻ recipient and retracts to form a mating pair. One strand of DNA is transferred by rolling-circle replication.\n\n## Simplified explanation\n\nConjugation starts when the donor's **sex pilus** grabs the recipient.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Genetics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following states a principle regarding viral nucleic acid?",
+  "media": [],
+  "options": [
+   {
+    "text": "Viruses contain both RNA and DNA.",
+    "hint": "Viruses contain either DNA or RNA, never both in the virion."
+   },
+   {
+    "text": "Some viruses contain a segmented genome.",
+    "hint": "Correct. e.g. influenza (8 segments), rotavirus (11)."
+   },
+   {
+    "text": "Purified viral nucleic acid from any virus is usually infectious.",
+    "hint": "Only some genomes (e.g. + sense RNA) are infectious alone."
+   },
+   {
+    "text": "Viral genome sizes are similar among known human viruses",
+    "hint": "Sizes vary widely (parvovirus ~5 kb to poxvirus ~200 kb)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think influenza.",
+  "explanation": "## Advanced explanation\n\nViruses carry **either DNA or RNA**. Some have **segmented genomes** (orthomyxo-, reo-, arena-, bunyaviruses), allowing reassortment. Only positive-sense RNA and some DNA genomes are infectious when purified.\n\n## Simplified explanation\n\nSome viruses, like **influenza**, have their genome in several pieces.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Virology Basics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements regarding virus morphology is TRUE?",
+  "media": [],
+  "options": [
+   {
+    "text": "All RNA viruses are spherical in shape.",
+    "hint": "Many RNA viruses are helical or bullet-shaped (e.g. rabies)."
+   },
+   {
+    "text": "Some viruses contain flagella.",
+    "hint": "Viruses have no flagella."
+   },
+   {
+    "text": "Some viruses with DNA genomes contain a primitive nucleus.",
+    "hint": "Viruses have no nucleus."
+   },
+   {
+    "text": "Viral surface proteins protect the viral genome from nucleases",
+    "hint": "Correct. The capsid (and envelope) shield the genome from nucleases."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "What is the capsid for?",
+  "explanation": "## Advanced explanation\n\nThe **capsid** (protein shell) and outer proteins protect the nucleic acid from **nucleases** and mediate attachment. Viruses lack flagella, nuclei, ribosomes; shapes include icosahedral, helical and complex.\n\n## Simplified explanation\n\nThe protein coat **protects the viral genome** from enzymes that would chop it up.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Virology Basics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Each of the following statements concerning the normal flora is correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "the normal flora of the colon consists predominantly of anaerobic bacteria.",
+    "hint": "True — anaerobes outnumber facultatives ~1000:1."
+   },
+   {
+    "text": "the presence of the normal flora prevents certain pathogens from colonizing the upper respiratory tract.",
+    "hint": "True — colonization resistance."
+   },
+   {
+    "text": "fungi (e.g., yeasts) are not members of the normal flora.",
+    "hint": "Correct. This is false — Candida is part of the normal flora."
+   },
+   {
+    "text": "organisms of the normal flora are permanent residents of the body surfaces",
+    "hint": "Accepted as true for resident flora."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Think of Candida albicans.",
+  "explanation": "## Advanced explanation\n\n*Candida albicans* is a normal inhabitant of the mouth, gut and vagina, so the statement that fungi are not normal flora is **false**. The colon is dominated by anaerobes (*Bacteroides*), and resident flora provide colonization resistance.\n\n## Simplified explanation\n\nYeasts like **Candida** are normal flora, so statement C is wrong.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Genetic analysis of bacteria would include…",
+  "media": [],
+  "options": [
+   {
+    "text": "fermentation testing",
+    "hint": "That is a biochemical (phenotypic) test."
+   },
+   {
+    "text": "ability to digest complex nutrients",
+    "hint": "That is phenotypic/biochemical."
+   },
+   {
+    "text": "presence of oxidase",
+    "hint": "Oxidase is a biochemical test."
+   },
+   {
+    "text": "G + C content",
+    "hint": "Correct. Base composition is a genotypic (genetic) characteristic."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Genotypic vs phenotypic.",
+  "explanation": "## Advanced explanation\n\nGenotypic methods examine DNA: **% G+C content**, DNA–DNA hybridization, 16S rRNA sequencing, PCR. Fermentation, oxidase and hydrolysis tests are **phenotypic**.\n\n## Simplified explanation\n\nMeasuring **G+C content** looks at the DNA itself — the others test what the bacterium does.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Identification",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A mixed culture is…",
+  "media": [],
+  "options": [
+   {
+    "text": "the same as a contaminated culture",
+    "hint": "A contaminated culture has unwanted organisms; a mixed culture may be intended."
+   },
+   {
+    "text": "one that has been adequately stirred",
+    "hint": "Stirring does not define a mixed culture."
+   },
+   {
+    "text": "one that contains two or more known species",
+    "hint": "Correct. A mixed culture holds two or more identified species."
+   },
+   {
+    "text": "a pond sample containing algae and protozoa",
+    "hint": "That is a natural sample, not a culture."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pure culture vs mixed culture.",
+  "explanation": "## Advanced explanation\n\n**Pure culture**: one species. **Mixed culture**: two or more *known/identified* species grown together. **Contaminated culture**: a previously pure culture into which unwanted organisms have entered.\n\n## Simplified explanation\n\nA mixed culture has **two or more known kinds** of microbes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The temperature-pressure combination for an autoclave is",
+  "media": [],
+  "options": [
+   {
+    "text": "100°C and 4 psi",
+    "hint": "Too low to kill spores."
+   },
+   {
+    "text": "131°C and 9 psi",
+    "hint": "Not the standard cycle."
+   },
+   {
+    "text": "121°C and 15 psi",
+    "hint": "Correct. 121°C at 15 psi for 15 minutes."
+   },
+   {
+    "text": "115°C and 3 psi",
+    "hint": "Not standard."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The standard cycle number.",
+  "explanation": "## Advanced explanation\n\nSteam at **15 psi (≈103 kPa) above atmospheric** reaches **121°C**; holding for **15 min** kills endospores. Higher temperatures (134°C, ~30 psi, 3 min) are used in flash cycles.\n\n## Simplified explanation\n\nAutoclave = **121°C, 15 psi, 15 minutes**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The procedure to follow in the Ziehl-Neelsen staining technique is to stain with…",
+  "media": [],
+  "options": [
+   {
+    "text": "steaming carbolfuchsin, counterstain with methylene blue, decolorize with acid-alcohol.",
+    "hint": "Counterstain comes after decolorization."
+   },
+   {
+    "text": "steaming carbolfuchsin, decolorize with acetone-alcohol, counterstain with methylene blue.",
+    "hint": "ZN uses acid-alcohol, not acetone-alcohol."
+   },
+   {
+    "text": "steaming carbolfuchsin, decolorize acid-alcohol, counterstain with methylene blue.",
+    "hint": "Correct. This is the ZN sequence."
+   },
+   {
+    "text": "methylene blue, decolorize with acid-alcohol, counterstain with steaming carbolfuchsin.",
+    "hint": "The order is reversed."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Primary stain → decolorizer → counterstain.",
+  "explanation": "## Advanced explanation\n\nZiehl–Neelsen: **hot (steamed) carbol fuchsin** 5 min → **3% acid-alcohol** decolorizer → **methylene blue** counterstain. Acid-fast bacilli stay red; background and non-AFB are blue.\n\n## Simplified explanation\n\nHot carbol fuchsin, then **acid-alcohol**, then **methylene blue**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Bacteria which grow best at body temperature are termed…",
+  "media": [],
+  "options": [
+   {
+    "text": "mesophilic.",
+    "hint": "Correct. Mesophiles grow optimally ~20–45°C, incl. 37°C."
+   },
+   {
+    "text": "thermophilic.",
+    "hint": "Thermophiles grow best around 50–60°C."
+   },
+   {
+    "text": "psychrophilic.",
+    "hint": "Psychrophiles grow best around 15°C or lower."
+   },
+   {
+    "text": "Hyperthermophilic",
+    "hint": "Hyperthermophiles grow above ~80°C."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Moderate temperatures.",
+  "explanation": "## Advanced explanation\n\n**Mesophiles** have optimal growth between about 20 and 45°C; human pathogens are mesophiles with optima near **37°C**.\n\n## Simplified explanation\n\nBody-temperature lovers are **mesophiles**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the most extensively used method for sterilizing culture media?",
+  "media": [],
+  "options": [
+   {
+    "text": "Dry heat.",
+    "hint": "Dry heat would evaporate/char media; used for glassware."
+   },
+   {
+    "text": "Autoclaving.",
+    "hint": "Correct. Moist heat under pressure is the routine method for media."
+   },
+   {
+    "text": "Filtration.",
+    "hint": "Used only for heat-labile solutions."
+   },
+   {
+    "text": "Tyndallization.",
+    "hint": "Rarely used, for special heat-sensitive media."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "The standard lab sterilizer.",
+  "explanation": "## Advanced explanation\n\nMost culture media are sterilized by **autoclaving** (121°C, 15 psi, 15 min). Heat-labile components (sera, antibiotics, urea) are **filter-sterilized** and added aseptically.\n\n## Simplified explanation\n\nMedia are usually sterilized in the **autoclave**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A component present in Gram-negative bacteria that is not found in Gram-positive bacteria is…",
+  "media": [],
+  "options": [
+   {
+    "text": "peptidoglycan",
+    "hint": "Both have peptidoglycan."
+   },
+   {
+    "text": "lipid A",
+    "hint": "Correct. Lipid A is part of LPS in the Gram-negative outer membrane."
+   },
+   {
+    "text": "capsule",
+    "hint": "Both may have capsules."
+   },
+   {
+    "text": "pili",
+    "hint": "Pili are mostly a Gram-negative feature, but some Gram-positives have them."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Endotoxin.",
+  "explanation": "## Advanced explanation\n\n**Lipid A** is the toxic (endotoxin) part of **lipopolysaccharide**, found only in the Gram-negative outer membrane. Peptidoglycan, capsules and pili/fimbriae can occur in both groups.\n\n## Simplified explanation\n\n**Lipid A (endotoxin)** is only in Gram-negative bacteria.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following terms does NOT describe the bacterial chromosome?",
+  "media": [],
+  "options": [
+   {
+    "text": "Haploid",
+    "hint": "Bacteria are haploid."
+   },
+   {
+    "text": "Diploid",
+    "hint": "Correct. Bacteria have a single copy — they are not diploid."
+   },
+   {
+    "text": "Circular",
+    "hint": "Most bacterial chromosomes are circular."
+   },
+   {
+    "text": "Nucleoid",
+    "hint": "The chromosome lies in the nucleoid region."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "How many copies?",
+  "explanation": "## Advanced explanation\n\nThe bacterial chromosome is typically a single, **circular**, **haploid** dsDNA molecule located in the **nucleoid**, with no nuclear membrane or histone-based chromatin.\n\n## Simplified explanation\n\nBacteria have **one** chromosome copy, so they are not diploid.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Archaebacteria can be distinguished from eubacteria by their lack of…",
+  "media": [],
+  "options": [
+   {
+    "text": "RNA",
+    "hint": "Archaea have RNA."
+   },
+   {
+    "text": "Ribosomes",
+    "hint": "Archaea have 70S ribosomes."
+   },
+   {
+    "text": "Peptidoglycan",
+    "hint": "Correct. Archaeal walls lack peptidoglycan (pseudomurein or S-layers instead)."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "Neither group has a nucleus."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Their walls are different.",
+  "explanation": "## Advanced explanation\n\nArchaea have walls of **pseudomurein** (N-acetyltalosaminuronic acid) or protein S-layers, and ether-linked membrane lipids. **Eubacteria** have peptidoglycan (except mycoplasmas).\n\n## Simplified explanation\n\nArchaea have **no peptidoglycan** in their walls.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Classification",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Most bacterial pathogens grow best in the laboratory when cultures are incubated at…",
+  "media": [],
+  "options": [
+   {
+    "text": "15–20°C",
+    "hint": "Too cold for most pathogens."
+   },
+   {
+    "text": "20–30°C",
+    "hint": "Below the optimum for most human pathogens."
+   },
+   {
+    "text": "30–37°C",
+    "hint": "Correct. Close to body temperature."
+   },
+   {
+    "text": "38–50°C",
+    "hint": "Too hot for most pathogens."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Near body temperature.",
+  "explanation": "## Advanced explanation\n\nHuman pathogens are mesophiles; routine incubation is at **35–37°C**. Exceptions: *Campylobacter* 42°C, *Yersinia*/*Listeria* also at lower temperatures.\n\n## Simplified explanation\n\nIncubate pathogens at about **body temperature (30–37°C)**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A strain of *E. coli* does not require vitamins when grown in a defined medium consisting of glucose, mineral salts, and ammonium chloride. This is because *E. coli*…",
+  "media": [],
+  "options": [
+   {
+    "text": "does not use vitamins for growth",
+    "hint": "All cells need vitamin-derived coenzymes."
+   },
+   {
+    "text": "obtains vitamins from its human host",
+    "hint": "In the defined medium there is no host."
+   },
+   {
+    "text": "is a chemoheterotroph",
+    "hint": "True but does not explain why it needs no added vitamins."
+   },
+   {
+    "text": "can synthesize vitamins from the simple compounds provided in the medium",
+    "hint": "Correct. E. coli is prototrophic and makes its own growth factors."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Prototroph.",
+  "explanation": "## Advanced explanation\n\n*E. coli* is a nutritionally versatile **prototroph**: from glucose (C, energy), NH₄Cl (N) and mineral salts it **synthesizes all amino acids, nucleotides and vitamins**. Fastidious organisms need these supplied as growth factors.\n\n## Simplified explanation\n\n*E. coli* can **make its own vitamins** from simple ingredients.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Microbial Nutrition",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If two strains of bacteria from the same species were mixed in the presence of DNAse, which method of gene transfer would be most likely inhibited?",
+  "media": [],
+  "options": [
+   {
+    "text": "Conjugation",
+    "hint": "DNA passes through the pilus/mating bridge, protected from DNase."
+   },
+   {
+    "text": "Transduction",
+    "hint": "DNA is protected inside the phage capsid."
+   },
+   {
+    "text": "Transformation",
+    "hint": "Correct. Naked DNA in the medium is destroyed by DNase."
+   },
+   {
+    "text": "Transposition",
+    "hint": "Transposition occurs inside a cell, not via free DNA."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which method uses naked DNA?",
+  "explanation": "## Advanced explanation\n\n**Transformation** is uptake of **free (naked) DNA** from the environment by competent cells; DNase destroys it (Avery, MacLeod & McCarty experiment). Conjugation and transduction protect DNA.\n\n## Simplified explanation\n\nDNase chops free DNA, so **transformation** stops.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Genetics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following bacteria is found in the greatest number in the colon?",
+  "media": [],
+  "options": [
+   {
+    "text": "*Bacteroides fragilis*",
+    "hint": "Correct. Anaerobic Bacteroides are the most numerous colonic bacteria."
+   },
+   {
+    "text": "*Enterococcus faecalis*",
+    "hint": "Present but in much lower numbers."
+   },
+   {
+    "text": "*Escherichia coli*",
+    "hint": "The commonest facultative anaerobe, but outnumbered by anaerobes."
+   },
+   {
+    "text": "*Lactobacillus species*",
+    "hint": "Mainly in the vagina, mouth and small intestine."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Anaerobes dominate.",
+  "explanation": "## Advanced explanation\n\nIn the colon, anaerobes outnumber facultative organisms about **1000:1**; ***Bacteroides*** spp. are the predominant genus. *E. coli* is the main facultative organism.\n\n## Simplified explanation\n\nThe colon is mostly **anaerobes**, and *Bacteroides fragilis* is the top one.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The major locomotor structures in bacteria are…",
+  "media": [],
+  "options": [
+   {
+    "text": "flagella",
+    "hint": "Correct. Flagella rotate to propel bacteria."
+   },
+   {
+    "text": "fimbriae",
+    "hint": "Fimbriae are for adhesion."
+   },
+   {
+    "text": "pili",
+    "hint": "Pili are for attachment/conjugation (some twitching motility)."
+   },
+   {
+    "text": "cilia",
+    "hint": "Cilia are eukaryotic."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "They rotate like propellers.",
+  "explanation": "## Advanced explanation\n\nBacterial **flagella** (filament, hook, basal body) rotate, driven by the proton motive force, to produce swimming. Fimbriae/pili mediate adherence; cilia occur only in eukaryotes.\n\n## Simplified explanation\n\nBacteria swim with **flagella**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An outbreak of postsurgical wound infections caused by *S. aureus* has occurred in the hospital. The infection control team was asked to determine whether the organism could be carried by one of the operating room personnel. Using your knowledge of normal flora, which one of the following body sites is the most likely location for this organism?",
+  "media": [],
+  "options": [
+   {
+    "text": "Colon",
+    "hint": "S. aureus can be found there but it is not the main carriage site."
+   },
+   {
+    "text": "Gingival crevice",
+    "hint": "Dominated by anaerobes and streptococci."
+   },
+   {
+    "text": "Nose",
+    "hint": "Correct. The anterior nares are the main carriage site of S. aureus."
+   },
+   {
+    "text": "Throat",
+    "hint": "Less important than the anterior nares."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Nasal carriers.",
+  "explanation": "## Advanced explanation\n\nAbout 20–30% of people carry *S. aureus* in the **anterior nares**; nasal swabs are used to detect carriers among theatre staff, who may be decolonized with mupirocin.\n\n## Simplified explanation\n\n*S. aureus* mainly lives in the **nose**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Some bacteria are obligate anaerobes. Which of the following statements best explains this phenomenon?",
+  "media": [],
+  "options": [
+   {
+    "text": "They can produce energy both by fermentation and by respiration using the Krebs cycle and cytochromes.",
+    "hint": "That describes facultative anaerobes."
+   },
+   {
+    "text": "They cannot produce their own ATP.",
+    "hint": "They do make ATP by fermentation."
+   },
+   {
+    "text": "They do not form spores.",
+    "hint": "Many obligate anaerobes form spores (Clostridium)."
+   },
+   {
+    "text": "They lack superoxide dismutase and catalase.",
+    "hint": "Correct. Without these enzymes, toxic oxygen radicals kill them."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Oxygen radicals.",
+  "explanation": "## Advanced explanation\n\nOxygen metabolism produces **superoxide** and **H₂O₂**. Aerobes and facultatives detoxify them with **superoxide dismutase** and **catalase/peroxidase**; obligate anaerobes lack these enzymes, so O₂ is lethal.\n\n## Simplified explanation\n\nAnaerobes **can't clean up toxic oxygen products**, so oxygen kills them.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is the most accurate statement about bacterial spores? They are…",
+  "media": [],
+  "options": [
+   {
+    "text": "produced primarily by gram-negative cocci.",
+    "hint": "Spores are produced by Gram-positive rods (Bacillus, Clostridium)."
+   },
+   {
+    "text": "formed primarily when the bacterium is exposed to antibiotics.",
+    "hint": "Sporulation is triggered by nutrient depletion."
+   },
+   {
+    "text": "produced by anaerobes only in the presence of oxygen.",
+    "hint": "Clostridia sporulate anaerobically."
+   },
+   {
+    "text": "metabolically inactive yet can survive for years in that inactive state.",
+    "hint": "Correct. Endospores are dormant and survive for years."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Dormancy.",
+  "explanation": "## Advanced explanation\n\nEndospores form in *Bacillus* and *Clostridium* (Gram-positive rods) when **nutrients run out**. They are **dormant**, dehydrated, contain Ca-dipicolinate, and resist heat, drying and chemicals for years; they germinate when conditions improve.\n\n## Simplified explanation\n\nSpores are **sleeping, tough forms** that can last for years.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is TRUE concerning viral capsids?",
+  "media": [],
+  "options": [
+   {
+    "text": "Viruses acquire host proteins as their capsids",
+    "hint": "Capsids are virus-encoded; envelopes come from host membranes."
+   },
+   {
+    "text": "Capsids are virus-specific proteins, which protect their genome and provide shape to viruses",
+    "hint": "Correct. Capsomeres are virus-coded and give symmetry."
+   },
+   {
+    "text": "Capsid protein subunits form a helix with the core proteins to mainly provide helical symmetry",
+    "hint": "Helical symmetry is from capsomeres around the nucleic acid, and many capsids are icosahedral."
+   },
+   {
+    "text": "Capsids are lipid bilayer membranes containing proteins and/or glycoproteins",
+    "hint": "That describes an envelope."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Capsid vs envelope.",
+  "explanation": "## Advanced explanation\n\nThe **capsid** is built from virus-encoded **capsomeres**; it protects the genome and gives **icosahedral or helical** symmetry. The **envelope** is a host-derived lipid bilayer with viral glycoproteins.\n\n## Simplified explanation\n\nThe capsid is the virus's **own protein shell** that protects the genome and gives shape.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Virology Basics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The bacterial structure most likely to be acquired by one bacterial cell from another using the conjugation mechanism is…",
+  "media": [],
+  "options": [
+   {
+    "text": "circular chromosome",
+    "hint": "Whole chromosomes are rarely transferred completely."
+   },
+   {
+    "text": "bacteriophage",
+    "hint": "Phages are transferred by infection (transduction)."
+   },
+   {
+    "text": "plasmid",
+    "hint": "Correct. Conjugative plasmids (F, R) are transferred."
+   },
+   {
+    "text": "transposon",
+    "hint": "Transposons move within a cell; they travel between cells mainly on plasmids."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "F and R factors.",
+  "explanation": "## Advanced explanation\n\nConjugation transfers **plasmids** (F factor, R plasmids carrying antibiotic resistance) through the sex pilus. Hfr strains can transfer parts of the chromosome, but complete transfer is rare.\n\n## Simplified explanation\n\nConjugation usually passes a **plasmid** from one bacterium to another.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Genetics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the statements is the MOST accurate comparison of human, bacterial, and fungal cells?",
+  "media": [],
+  "options": [
+   {
+    "text": "Human cells undergo mitosis, whereas neither bacteria nor fungi do.",
+    "hint": "Fungi are eukaryotes and do undergo mitosis."
+   },
+   {
+    "text": "Human and fungal cells have a similar cell wall, in contrast to bacteria, whose cell wall contains peptidoglycan.",
+    "hint": "Human cells have no cell wall."
+   },
+   {
+    "text": "Human and fungal cells have similar ribosomes, whereas bacterial ribosomes are significantly different",
+    "hint": "Correct. Both eukaryotes have 80S ribosomes; bacteria have 70S."
+   },
+   {
+    "text": "Bacterial and fungal cells have a similar cell wall, in contrast to humans who do not have cell wall.",
+    "hint": "Fungal walls are chitin/glucan, not peptidoglycan."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "80S vs 70S.",
+  "explanation": "## Advanced explanation\n\nHumans and fungi are eukaryotes with **80S ribosomes** (60S + 40S); bacteria have **70S** (50S + 30S) — the basis of selective toxicity of aminoglycosides, macrolides and tetracyclines.\n\n## Simplified explanation\n\nHumans and fungi share **80S ribosomes**; bacteria have different 70S ones.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Microbial Classification",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Thermal death time is…",
+  "media": [],
+  "options": [
+   {
+    "text": "lowest time required to kill all cells at a given temperature",
+    "hint": "Correct. TDT is the shortest time needed to kill all organisms at a set temperature."
+   },
+   {
+    "text": "lowest temperature that kills all cells in a given time",
+    "hint": "That is thermal death point."
+   },
+   {
+    "text": "highest time required to kill all cells at a given temperature",
+    "hint": "It is the minimum, not maximum, time."
+   },
+   {
+    "text": "highest temperature that kills all cells in a given time",
+    "hint": "Thermal death point is the lowest temperature, not highest."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Time is fixed temperature; point is fixed time.",
+  "explanation": "## Advanced explanation\n\n**Thermal death time (TDT)**: the minimum time needed to kill all organisms in a suspension at a specified temperature. **Thermal death point (TDP)**: the lowest temperature that kills all organisms in a set time (10 min). **D value**: time to kill 90%.\n\n## Simplified explanation\n\nTDT = **shortest time** to kill everything **at one temperature**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following statements concerning the killing of bacteria are correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "lysozyme in tears can hydrolyze bacterial cell walls.",
+    "hint": "True — lysozyme cleaves β-1,4 bonds in peptidoglycan."
+   },
+   {
+    "text": "silver nitrate can inactivate bacterial enzymes.",
+    "hint": "True — heavy metals bind –SH groups."
+   },
+   {
+    "text": "detergents can disrupt bacterial cell membranes.",
+    "hint": "True — surfactants disrupt membranes."
+   },
+   {
+    "text": "ultraviolet light can degrade bacterial capsules.",
+    "hint": "Correct. This is false — UV kills by damaging DNA (thymine dimers)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "What does UV damage?",
+  "explanation": "## Advanced explanation\n\nUV light acts on **DNA**, forming pyrimidine dimers that block replication. Lysozyme hydrolyzes peptidoglycan, heavy metals (Ag⁺, Hg²⁺) inactivate enzymes, and detergents (quats) disrupt membranes.\n\n## Simplified explanation\n\nUV attacks **DNA**, not capsules — so D is the wrong statement.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following statements concerning the structure and chemical composition of bacteria are correct EXCEPT. Some…",
+  "media": [],
+  "options": [
+   {
+    "text": "Gram-positive cocci contain teichoic acid external to the peptidoglycan.",
+    "hint": "True."
+   },
+   {
+    "text": "Gram-positive rods produce spores that are resistant to boiling.",
+    "hint": "True — Bacillus and Clostridium."
+   },
+   {
+    "text": "Gram-negative rods contain lipid A in their outer cell membrane.",
+    "hint": "True."
+   },
+   {
+    "text": "*Mycoplasmas* contain pentaglycine in their peptidoglycan.",
+    "hint": "Correct. False — Mycoplasmas have no peptidoglycan at all."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which organism lacks a wall?",
+  "explanation": "## Advanced explanation\n\nPentaglycine cross-bridges are typical of *S. aureus* peptidoglycan. **Mycoplasmas have no cell wall/peptidoglycan**, so they cannot contain pentaglycine.\n\n## Simplified explanation\n\nMycoplasma has **no peptidoglycan**, so D is wrong.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During an outbreak of gastrointestinal disease caused by an *Escherichia coli* strain sensitive to ampicillin, tetracycline, and chloramphenicol, a stool sample from one patient yields *E. coli* with the same serotype resistant to the three antibiotics. The mechanism of gene transfer is likely to be…",
+  "media": [],
+  "options": [
+   {
+    "text": "transduction",
+    "hint": "Phages carry little DNA and are less common for multi-resistance."
+   },
+   {
+    "text": "conjugation",
+    "hint": "Correct. R plasmids carrying multiple resistance genes spread by conjugation."
+   },
+   {
+    "text": "DNA transformation",
+    "hint": "Uncommon in E. coli in the gut."
+   },
+   {
+    "text": "transposition",
+    "hint": "Transposition moves genes within a cell, not between cells."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Multiple resistance at once.",
+  "explanation": "## Advanced explanation\n\nSimultaneous acquisition of **multiple resistance genes** by an enteric Gram-negative rod is typical of an **R plasmid** transferred by **conjugation** (often from other gut bacteria).\n\n## Simplified explanation\n\nResistance to several drugs at once usually comes on a **plasmid** passed by **conjugation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Genetics",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A 76-year-old woman with a prosthetic hip comes to you complaining of fever and pain in that joint. You are concerned about an infection by *S. epidermidis*. Using your knowledge of normal flora, what is the most likely source of this organism?",
+  "media": [],
+  "options": [
+   {
+    "text": "Dental plaque",
+    "hint": "Dominated by streptococci and anaerobes."
+   },
+   {
+    "text": "Mouth",
+    "hint": "Not the main site of S. epidermidis."
+   },
+   {
+    "text": "Skin",
+    "hint": "Correct. S. epidermidis is the predominant skin commensal."
+   },
+   {
+    "text": "Stomach",
+    "hint": "The stomach has very few bacteria."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Coagulase-negative staphylococci live here.",
+  "explanation": "## Advanced explanation\n\n*Staphylococcus epidermidis* is the main **skin** commensal; it enters at surgery and forms **biofilm** on prosthetic joints, catheters and heart valves.\n\n## Simplified explanation\n\n*S. epidermidis* lives on the **skin**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Bacteria that cause nosocomial infections often produce extracellular substances that allow them to stick firmly to medical devices, such as intravenous catheters. Which one of the following is the name of this extracellular substance?",
+  "media": [],
+  "options": [
+   {
+    "text": "Axial filament",
+    "hint": "That is the endoflagellum of spirochaetes."
+   },
+   {
+    "text": "Endotoxin",
+    "hint": "Endotoxin is LPS, a toxin, not an adhesive."
+   },
+   {
+    "text": "Glycocalyx",
+    "hint": "Correct. The polysaccharide glycocalyx (slime layer) forms biofilm on devices."
+   },
+   {
+    "text": "Porin",
+    "hint": "Porins are outer membrane channel proteins."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Slime layer / biofilm.",
+  "explanation": "## Advanced explanation\n\nThe **glycocalyx** (capsule or slime layer) of organisms like *S. epidermidis* and *Pseudomonas* mediates adhesion and **biofilm** formation on catheters and prostheses, protecting bacteria from antibiotics and phagocytes.\n\n## Simplified explanation\n\nThe sticky coat is the **glycocalyx**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **pili** and **fimbriae**.",
+  "media": [],
+  "answer": "| Feature | Fimbriae | Pili (sex pili) |\n|---|---|---|\n| Number | Many (hundreds) per cell | Few (1–10) per cell |\n| Length | Short, thin, bristle-like | Longer and thicker |\n| Function | **Adhesion** to host cells/surfaces, biofilm formation | **Conjugation** (DNA transfer, F pilus); some mediate twitching motility |\n| Occurrence | Gram-negative and some Gram-positive bacteria | Mainly Gram-negative bacteria |\n| Genetic control | Usually chromosomal | Often plasmid-encoded (F factor) |\n\n> [!answer]\n> Fimbriae are numerous short hair-like adhesins; pili are fewer, longer appendages used mainly for conjugation (sex pili).",
+  "hint": "Adhesion versus DNA transfer.",
+  "explanation": "## Advanced explanation\n\nBoth are protein (pilin) appendages that are non-motile. **Fimbriae** (e.g. type 1 fimbriae of *E. coli*, P fimbriae in UTI, *N. gonorrhoeae* pili) are virulence factors for attachment. **Sex pili** join donor and recipient cells in conjugation and are receptors for some phages.\n\n## Simplified explanation\n\nFimbriae are **many short sticky hairs** for holding on; pili are **few long tubes** for passing DNA.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List **four (4)** functions that the cell membrane performs in bacteria.",
+  "media": [],
+  "answer": "Any four:\n\n1. **Selective permeability barrier** — controls entry and exit of solutes.\n2. **Active transport** of nutrients (permeases, group translocation).\n3. **Energy generation** — site of the electron transport chain and oxidative phosphorylation (bacteria have no mitochondria).\n4. **Biosynthesis** — synthesis of cell wall components (peptidoglycan precursors), membrane lipids.\n5. **Secretion** of exotoxins and enzymes.\n6. Anchors the chromosome during **DNA replication** and division (mesosome-associated).\n7. Carries **chemotaxis receptors** and the flagellar motor (proton motive force).\n\n> [!answer]\n> Selective permeability/transport, energy production (electron transport chain), cell wall and lipid biosynthesis, secretion, and anchoring DNA during replication.",
+  "hint": "Bacteria have no mitochondria.",
+  "explanation": "## Advanced explanation\n\nThe bacterial cytoplasmic membrane is a phospholipid bilayer **without sterols** (except *Mycoplasma*). Because prokaryotes lack membrane-bound organelles, the membrane carries out the jobs of mitochondria (respiration) and ER (lipid and wall precursor synthesis), and generates the **proton motive force** that drives transport and flagellar rotation.\n\n## Simplified explanation\n\nThe membrane is the bacterium's **gatekeeper, power plant and factory** all in one.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The figure on the paper shows the growth curve of a bacterial culture: **log number of cells** (y-axis) plotted against **time** (x-axis). The curve starts flat at a low level (**A**), rises steeply (**B**), levels off at a plateau (**C**), and then falls (**D**).\n\nLabel and explain what happens in A, B, C and D.",
+  "media": [],
+  "answer": "| Label | Phase | What happens |\n|---|---|---|\n| **A** | **Lag phase** | Cells adapt to the new medium: synthesize enzymes, ribosomes, ATP; increase in size but little or no division. |\n| **B** | **Log (exponential) phase** | Cells divide at a constant, maximal rate (binary fission; doubling each generation time). Most metabolically active and most sensitive to antibiotics such as penicillin. |\n| **C** | **Stationary phase** | Growth rate = death rate; nutrients depleted and toxic wastes accumulate; secondary metabolites and spores formed. Viable count stays constant. |\n| **D** | **Death (decline) phase** | Death rate exceeds division; viable cells decline exponentially due to exhaustion of nutrients and accumulation of waste. |\n\n> [!answer]\n> A = lag (adaptation, no division), B = log/exponential (maximal division), C = stationary (births = deaths), D = death/decline (deaths exceed births).",
+  "hint": "Lag, log, stationary, death.",
+  "explanation": "## Advanced explanation\n\nIn a **closed (batch) culture** the four phases reflect nutrient availability and waste build-up. Generation time is measured in the log phase. The plateau (C) is reached when a limiting nutrient is used up or toxic products (acids) accumulate.\n\n## Simplified explanation\n\n**A** = getting ready, **B** = fast multiplying, **C** = growth stops (balance), **D** = dying off.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Considering the bacterial growth curve (lag, log, stationary and death phases), what will be the nature of the curve if the culture is **periodically supplied with nutrients** (and wastes removed)?",
+  "media": [],
+  "answer": "The culture behaves like a **continuous culture** (chemostat): the cells are kept in the **log (exponential) phase** for a prolonged time, so the curve keeps rising and/or stays at a steady high level instead of entering the stationary and death phases.\n\n> [!answer]\n> The log phase is prolonged (continuous culture) — no stationary or death phase occurs as long as nutrients are replenished and wastes removed.",
+  "hint": "Think of a chemostat.",
+  "explanation": "## Advanced explanation\n\nStationary and death phases occur in a closed system because nutrients run out and toxic metabolites accumulate. In a **chemostat/turbidostat**, fresh medium is added and spent medium removed at a fixed rate, keeping the population in **balanced exponential growth** at a steady state.\n\n## Simplified explanation\n\nIf you keep feeding the bacteria, they **keep growing** — the log phase goes on and on.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How will you explain the observation that **unopened milk will spoil even while refrigerated**?",
+  "media": [],
+  "answer": "Pasteurization does not sterilize milk; it kills pathogens and reduces numbers, but **psychrotrophic** (and some thermoduric) bacteria survive. Psychrotrophs (e.g. *Pseudomonas*, *Listeria*, some *Bacillus*) can grow slowly at refrigerator temperature (0–7°C), so given time they multiply in the sealed milk and cause spoilage (souring, off-flavours, curdling).\n\n> [!answer]\n> Refrigeration only slows growth; psychrotrophic organisms that survived pasteurization still grow at 4°C and spoil the milk.",
+  "hint": "Some bacteria grow in the cold.",
+  "explanation": "## Advanced explanation\n\n**Psychrophiles** have optima ≤15°C; **psychrotrophs** grow at 0–7°C but have optima of 20–30°C — they are the main cause of spoilage of refrigerated foods. Pasteurization (e.g. 72°C for 15 s) leaves heat-resistant (thermoduric) and spore-forming organisms alive.\n\n## Simplified explanation\n\nThe fridge **slows but does not stop** cold-loving bacteria that survived pasteurization.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Microbial Growth",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Outline **five (5)** reasons why you would isolate a microorganism.",
+  "media": [],
+  "answer": "1. To obtain a **pure culture** for accurate **identification** (biochemical, serological, molecular tests).\n2. To perform **antimicrobial susceptibility testing** to guide treatment.\n3. To **diagnose** the cause of an infection in a patient.\n4. To study its **characteristics** — morphology, physiology, genetics, virulence factors.\n5. For **epidemiological** investigation (typing outbreak strains, tracing sources, surveillance).\n6. To **maintain stock/reference cultures** and for vaccine, antibiotic or other industrial production.\n7. For research and teaching.\n\n> [!answer]\n> Pure culture for identification, susceptibility testing, diagnosis, study of properties, epidemiology/typing, production of vaccines/products, stock cultures.",
+  "hint": "Why do we need a pure culture?",
+  "explanation": "## Advanced explanation\n\nClinical specimens are usually mixed; isolation (streak plate, pour plate, selective media) gives **colonies from single cells**, which are necessary for reliable identification and **AST** and for any downstream use.\n\n## Simplified explanation\n\nWe isolate microbes so we can **know exactly what they are**, test which **drugs** kill them, and study or use them.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Outline the significance of the **normal flora** in the life of humans.",
+  "media": [],
+  "answer": "**Beneficial roles**\n\n1. **Colonization resistance** — compete with pathogens for nutrients and attachment sites and produce bacteriocins/acids (e.g. lactobacilli keep vaginal pH low).\n2. **Synthesis of vitamins** — vitamin K and B-complex vitamins by gut bacteria.\n3. **Stimulation of the immune system** — development of gut lymphoid tissue and natural antibodies (cross-reacting).\n4. **Aid digestion** — fermentation of undigested fibre to short-chain fatty acids; bile acid metabolism.\n\n**Harmful roles**\n\n5. **Opportunistic infection** when displaced to sterile sites or in immunocompromised hosts (e.g. *E. coli* UTI, *S. epidermidis* on prostheses, viridans streptococci endocarditis).\n6. Antibiotic-associated overgrowth (e.g. *C. difficile*, *Candida*) when the flora is disturbed.\n7. Contribute to dental caries and periodontal disease; may confuse culture results.\n\n> [!answer]\n> Protect against pathogens, make vitamins (K, B12), prime immunity, aid digestion — but can cause opportunistic infection when displaced or when immunity is low.",
+  "hint": "Benefits and harms.",
+  "explanation": "## Advanced explanation\n\nThe normal (indigenous) microbiota live in a balanced relationship with the host. Disturbance (antibiotics, hormonal changes, immunosuppression) removes colonization resistance and allows **opportunists** to cause disease. Knowledge of normal flora also helps interpret culture results.\n\n## Simplified explanation\n\nNormal flora **protect us, make vitamins and train our immunity**, but can **cause disease** if they get into the wrong place.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Normal Flora",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between the following:\n\n1. Sterilization and disinfection\n2. Equivocal generation and spontaneous generation\n3. Synergism and mutualism",
+  "media": [],
+  "answer": "1. **Sterilization** — a process that removes or destroys **all** viable microorganisms, including viruses and endospores. **Disinfection** — a process that destroys **most but not all** microorganisms (usually not spores), on inanimate objects.\n2. **Equivocal generation** — the origin of a living organism from a living organism of a **different species**. **Spontaneous generation** (abiogenesis) — production of living organisms from **non-living matter**.\n3. **Synergism** — interrelationship between two or more organisms that benefits each other, where the participants **cooperate to produce a result that none could produce alone** (not obligatory). **Mutualism** — an **obligatory** but mutually beneficial relationship.\n\n> [!answer]\n> Sterilization kills all incl. spores vs disinfection kills most; equivocal = from a different living species vs spontaneous = from non-living matter; synergism = cooperative, optional benefit vs mutualism = obligatory mutual benefit.",
+  "hint": "All vs most; living vs non-living; optional vs obligatory.",
+  "explanation": "## Advanced explanation\n\nThese definitions follow the marking scheme. Spontaneous generation was disproved by **Redi, Spallanzani and Pasteur** (swan-neck flask). In mutualism (e.g. termites and their gut protozoa) neither partner can survive well alone; in synergism the partners can live separately.\n\n## Simplified explanation\n\nSterilize = kill **everything**; disinfect = kill **most**. Spontaneous generation = life from **non-living** things. Mutualism = partners **must** live together; synergism = they just work better together.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Sterilization & Disinfection",
+   "History of Microbiology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between the following:\n\n1. Thermal death point and thermal death time\n2. Bacteriostatic and bactericidal antimicrobial agents\n3. Fimbriae and pili",
+  "media": [],
+  "answer": "1. **Thermal death point** — the **lowest temperature** that will kill all organisms in a standardized pure culture within a specified period (usually 10 min). **Thermal death time** — the **shortest length of time** required to kill all test microbes at a specified temperature.\n2. **Bacteriostatic** — able to **inhibit but not kill** microorganisms. **Bactericidal** — not only inhibits but **kills** microorganisms.\n3. **Fimbriae** — hair-like bristles emerging from the cell surface in both Gram-negative and Gram-positive bacteria, used for **adhesion**. **Pili** — appendages used for attachment, present mainly on Gram-negative bacteria, which also **join bacterial cells for DNA transfer** (conjugation).\n\n> [!answer]\n> TDP = lowest temperature in a fixed time vs TDT = shortest time at a fixed temperature; static = inhibits vs cidal = kills; fimbriae = adhesion vs pili = conjugation.",
+  "hint": "Fix the time or fix the temperature.",
+  "explanation": "## Advanced explanation\n\nThermal death measurements are used in food and sterilization science together with the **D value** (decimal reduction time). The effect of a static drug is reversible, so it relies on host defences to clear the infection.\n\n## Simplified explanation\n\nDeath **point** = temperature; death **time** = time. Static = stops growth; cidal = kills. Fimbriae stick; pili pass DNA.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Sterilization & Disinfection",
+   "Bacterial Cell Structure",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** uses of a **stab culture**.",
+  "media": [],
+  "answer": "1. Demonstration of **gelatin liquefaction** (gelatinase production).\n2. Determining the **oxygen requirements** of the bacterium under study.\n3. **Maintenance of stock cultures**.\n4. (Also: testing **motility** in semi-solid agar.)\n\n> [!answer]\n> Gelatin liquefaction, oxygen requirement, maintenance of stock cultures (and motility testing).",
+  "hint": "A needle stabbed into a tube of solid/semi-solid medium.",
+  "explanation": "## Advanced explanation\n\nA stab culture is made by stabbing a straight wire into a deep tube of agar or gelatin. Growth pattern along the stab shows motility (diffuse spread) and oxygen relations, and anaerobic depth keeps cultures viable for storage.\n\n## Simplified explanation\n\nStab cultures are used to test **gelatin breakdown, oxygen needs, motility**, and to **keep stock** cultures.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Culture Media & Cultivation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** features that make **agar** a suitable gelling agent for culture media.",
+  "media": [],
+  "answer": "1. It has **no nutritive value** — not used as food by most bacteria.\n2. It is **not affected by the growth of the bacteria** (not degraded/liquefied).\n3. It **melts at about 96–100°C and sets (solidifies) at about 40–42°C** — so it stays solid at incubation temperatures and can be poured cool enough to add blood or heat-labile ingredients.\n\n> [!answer]\n> Non-nutritive, not degraded by most bacteria, melts ~96°C and sets ~42°C (solid at 37°C).",
+  "hint": "Melting and setting temperatures.",
+  "explanation": "## Advanced explanation\n\nAgar is a polysaccharide from red seaweed (*Gelidium*). Its **hysteresis** (high melting, low setting point) is the key property: plates remain solid at 37°C and even 56°C, while molten agar at ~45–50°C can receive blood without lysing it.\n\n## Simplified explanation\n\nAgar is a good jelly because bacteria **don't eat it**, and it **stays solid at body temperature**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Culture Media & Cultivation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the best method to sterilize the following?\n\n1. Intravenous solutions\n2. Surgical instruments\n3. Glass petri dishes\n4. Inoculation loop",
+  "media": [],
+  "answer": "| Item | Method (marking scheme) |\n|---|---|\n| Intravenous solutions | **Filtration** (membrane filter, 0.22 µm) — heat-labile components |\n| Surgical instruments | **Gaseous sterilizing agents such as ethylene oxide** (heat-stable instruments may also be autoclaved) |\n| Glass petri dishes | **Autoclaving** (hot-air oven is also standard for dry glassware) |\n| Inoculation loop | **Flaming** (red heat, dry heat) |\n\n> [!answer]\n> IV solutions — filtration; surgical instruments — ethylene oxide gas; glass petri dishes — autoclaving; inoculation loop — flaming.",
+  "hint": "Match the method to heat stability.",
+  "explanation": "## Advanced explanation\n\nChoice of sterilization depends on heat and moisture tolerance. **Filtration** removes bacteria from heat-sensitive fluids; **ethylene oxide** (alkylating gas) sterilizes heat/moisture-sensitive instruments and plastics; **moist heat** (autoclave) or **dry heat** (160°C for 2 h) sterilize glassware; **flaming to red-hot** sterilizes wire loops in seconds.\n\n## Simplified explanation\n\nFilter liquids, gas sensitive tools, autoclave glassware, and **flame** the loop.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Sterilization & Disinfection",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** roles the **capsule** plays in the life of a bacterium.",
+  "media": [],
+  "answer": "1. **Protects cells from dehydration** and nutrient loss.\n2. **Inhibits killing by white blood cells (anti-phagocytic)**, contributing to pathogenicity.\n3. **Attachment** — formation of **biofilms** on surfaces.\n4. (Also: protects against complement, bacteriophages and some antibiotics; acts as a nutrient reserve.)\n\n> [!answer]\n> Protection from drying, resistance to phagocytosis (virulence), and adherence/biofilm formation.",
+  "hint": "Think virulence.",
+  "explanation": "## Advanced explanation\n\nCapsules are usually polysaccharide (polypeptide in *B. anthracis*). They are major **virulence factors** (*S. pneumoniae*, *H. influenzae* type b, *N. meningitidis*, *K. pneumoniae*) and the basis of polysaccharide/conjugate vaccines. Detected by India ink, Quellung reaction or capsule stains.\n\n## Simplified explanation\n\nThe capsule **keeps the bacterium moist, hides it from white cells, and helps it stick**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Bacterial Cell Structure",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Match each description to the correct answer(s) from the list.\n\n**Descriptions:** (i) a moderately resistant microorganism; (ii) a means of microbial preservation; (iii) obligate aerobe; (iv) obligate anaerobe; (v) agents that denature proteins; (vi) a differential medium; (vii) a capnophile; (viii) a fastidious microorganism.\n\n**List:** A. Alcohols; B. *Bacteroides fragilis*; C. Blood agar; D. Boiling; E. Chloramine; F. Formaldehyde; G. Lyophilization; H. Mueller Hinton agar; I. *Mycobacterium tuberculosis*; J. *Neisseria gonorrhoeae*; K. *Neisseria meningitidis*; L. Nutrient agar; M. *Propionibacterium freudenreichii*; N. *Pseudomonas aeruginosa*; O. *Streptococcus pyogenes*; P. *Staphylococcus aureus*",
+  "media": [],
+  "answer": "| Description | Answer |\n|---|---|\n| (i) Moderately resistant microorganism | **N, P** — *Pseudomonas aeruginosa*, *Staphylococcus aureus* |\n| (ii) Means of microbial preservation | **G** — Lyophilization |\n| (iii) Obligate aerobe | **I** — *Mycobacterium tuberculosis* |\n| (iv) Obligate anaerobe | **B, M** — *Bacteroides fragilis*, *Propionibacterium* |\n| (v) Denature proteins | **F, A, E** — formaldehyde, alcohols, chloramine |\n| (vi) A differential medium | **C** — Blood agar |\n| (vii) A capnophile | **J, K** — *Neisseria gonorrhoeae*, *N. meningitidis* |\n| (viii) Fastidious microorganism | **J** — *Neisseria gonorrhoeae* |\n\n> [!answer]\n> i N,P; ii G; iii I; iv B,M; v A,E,F; vi C; vii J,K; viii J.",
+  "hint": "Answers follow the marking scheme; some items have two answers.",
+  "explanation": "## Advanced explanation\n\nTalaro's resistance scale puts vegetative *Staphylococcus* and *Pseudomonas* as **moderately resistant** (between spores/mycobacteria and highly sensitive organisms). **Lyophilization** (freeze-drying) preserves cultures for years. Blood agar is differential by haemolysis. Pathogenic *Neisseria* are **capnophilic** (5–10% CO₂) and *N. gonorrhoeae* is fastidious (chocolate/Thayer–Martin agar).\n\n## Simplified explanation\n\nUse what each organism or agent is known for: e.g. *M. tuberculosis* needs oxygen, *Neisseria* like extra CO₂, freeze-drying preserves cultures.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Microbial Growth",
+   "Sterilization & Disinfection",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List the **three (3)** basic layers of the bacterial cell envelope.",
+  "media": [],
+  "answer": "1. **Glycocalyx** (capsule or slime layer) — outermost\n2. **Cell wall**\n3. **Cell (cytoplasmic) membrane**\n\n> [!answer]\n> Glycocalyx, cell wall and cell membrane.",
+  "hint": "Outside to inside.",
+  "explanation": "## Advanced explanation\n\nThe bacterial cell envelope is everything outside the cytoplasm: the **glycocalyx**, the **cell wall** (peptidoglycan ± outer membrane in Gram-negatives) and the **cytoplasmic membrane**.\n\n## Simplified explanation\n\nFrom outside in: **glycocalyx → cell wall → cell membrane**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the **two (2)** sugar derivatives present in **peptidoglycan**.",
+  "media": [],
+  "answer": "1. **N-acetylglucosamine (NAG)**\n2. **N-acetylmuramic acid (NAM)**\n\n> [!answer]\n> N-acetylglucosamine and N-acetylmuramic acid.",
+  "hint": "NAG and NAM.",
+  "explanation": "## Advanced explanation\n\nPeptidoglycan is a polymer of alternating **NAG** and **NAM** joined by β-1,4 glycosidic bonds (cleaved by lysozyme). Tetrapeptide side chains on NAM are cross-linked (directly or via pentaglycine bridges) by transpeptidases — the target of β-lactams.\n\n## Simplified explanation\n\nPeptidoglycan is made of **NAG and NAM** sugars linked by short peptides.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the **three (3)** layers (components) of the **lipopolysaccharide** layer.",
+  "media": [],
+  "answer": "1. **Lipid A** — embedded in the outer membrane; the toxic (endotoxin) part\n2. **Core polysaccharide**\n3. **O-polysaccharide** (O-specific side chain, O antigen) — outermost\n\n> [!answer]\n> Lipid A, core polysaccharide and O-polysaccharide (O antigen).",
+  "hint": "Inner to outer.",
+  "explanation": "## Advanced explanation\n\nLPS forms the outer leaflet of the Gram-negative outer membrane. **Lipid A** causes fever and septic shock; the **core** contains KDO and heptoses; the variable **O antigen** is used for serotyping (e.g. *E. coli* O157).\n\n## Simplified explanation\n\nLPS has three parts: **Lipid A** (toxic), **core sugars**, and the **O side chain** (antigen).",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two (2)** functions of the **lipopolysaccharide** layer.",
+  "media": [],
+  "answer": "1. Acts as **endotoxin** (lipid A) — causes fever, inflammation and septic shock.\n2. Forms a **permeability barrier** — excludes hydrophobic molecules, bile salts, detergents and many antibiotics.\n3. Provides **O antigen** for serotyping and helps evade host defences (resists complement and phagocytosis).\n4. Contributes to the **structural integrity**/negative charge of the outer membrane.\n\n> [!answer]\n> Endotoxic activity and acting as a protective permeability barrier (also antigenic variation via O antigen).",
+  "hint": "Toxin and barrier.",
+  "explanation": "## Advanced explanation\n\nLPS (endotoxin) is released when Gram-negative bacteria lyse; lipid A binds **TLR4** on macrophages, inducing IL-1, TNF-α and IL-6. The outer membrane with LPS is why Gram-negatives resist penicillin G, vancomycin and bile.\n\n## Simplified explanation\n\nLPS **protects** the Gram-negative cell and acts as a **toxin** in the body.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention the **three (3)** basic functions of the bacterial **cell membrane**.",
+  "media": [],
+  "answer": "1. **Selective permeability and transport** of substances in and out of the cell.\n2. **Energy production** — site of the electron transport chain and ATP synthesis.\n3. **Biosynthesis and secretion** — synthesis of cell wall precursors and membrane lipids; secretion of proteins.\n\n> [!answer]\n> Selective transport, energy generation (respiration) and biosynthesis/secretion.",
+  "hint": "Gate, power plant, factory.",
+  "explanation": "## Advanced explanation\n\nWithout organelles, the prokaryotic membrane hosts respiration, generates the **proton motive force**, synthesizes peptidoglycan precursors and lipids, and anchors the flagellar motor and DNA.\n\n## Simplified explanation\n\nThe membrane **controls traffic**, **makes energy** and **builds** cell parts.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the **germ theory of disease**.",
+  "media": [],
+  "answer": "The germ theory states that **many diseases are caused by specific microorganisms (germs)** invading and multiplying in the body — each infectious disease is caused by a particular microbe.\n\n> [!answer]\n> Specific microorganisms are the causes of specific (infectious) diseases.",
+  "hint": "Pasteur and Koch.",
+  "explanation": "## Advanced explanation\n\nProposed by **Louis Pasteur** and proved by **Robert Koch** (anthrax, 1876) using **Koch's postulates**: the organism is found in every case, isolated in pure culture, causes the disease when inoculated into a healthy host, and is re-isolated from that host.\n\n## Simplified explanation\n\nGerms (microbes) cause infectious diseases — each disease has its own germ.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "History of Microbiology",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain **vaccination**.",
+  "media": [],
+  "answer": "Vaccination is the administration of a **vaccine** — a preparation of killed or attenuated (weakened) microorganisms, their toxoids or antigenic parts — to stimulate the body's immune system to produce **antibodies and memory cells** against a specific disease, giving **active acquired (artificial) immunity** without causing the disease.\n\n> [!answer]\n> Giving a harmless form/part of a pathogen to induce protective immunity and immunological memory against that disease.",
+  "hint": "Edward Jenner and cowpox.",
+  "explanation": "## Advanced explanation\n\nJenner (1796) used **cowpox** material to protect against smallpox; Pasteur later developed attenuated vaccines (chicken cholera, anthrax, rabies). On re-exposure, memory B and T cells mount a rapid secondary response. Types: live attenuated, inactivated, toxoid, subunit/conjugate, mRNA.\n\n## Simplified explanation\n\nVaccination trains the immune system using a **harmless version** of a germ so the body is ready if the real germ comes.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Immunity & Vaccination",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "With the aid of a diagram, explain the mechanism of movement of a bacterial **flagellum**.",
+  "media": [],
+  "answer": "**Structure (diagram labels):** filament (flagellin) → hook → basal body (rod with rings: L and P rings in the outer membrane/peptidoglycan of Gram-negatives; MS and C rings in the cytoplasmic membrane) with **Mot (stator) proteins** around the rings.\n\n**Mechanism:**\n1. The basal body acts as a **rotary motor** powered by the **proton motive force** — protons flow through the Mot A/B stator proteins into the cell.\n2. This flow turns the rod and rings, which turn the **hook** and the rigid helical **filament** like a propeller.\n3. **Counter-clockwise** rotation bundles the flagella → the cell moves in a straight line (**run**).\n4. **Clockwise** rotation unbundles them → the cell **tumbles** and changes direction.\n5. Chemotaxis receptors alter the frequency of runs and tumbles so the cell moves towards attractants and away from repellents.\n\n> [!answer]\n> The basal-body motor, driven by proton flow through Mot proteins, rotates the hook and filament; counter-clockwise = run, clockwise = tumble.",
+  "hint": "A rotary motor driven by protons.",
+  "explanation": "## Advanced explanation\n\nUnlike eukaryotic flagella (whip-like, ATP-driven dynein), bacterial flagella **rotate**. Rotation up to ~1000 rps is powered by the **proton (or Na⁺) motive force**. The switch (FliG/FliM/FliN in the C ring) responds to CheY-P from the chemotaxis system.\n\n## Simplified explanation\n\nThe flagellum spins like a **propeller**, powered by protons flowing through a motor at its base; spinning one way = swim, the other = tumble.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Bacterial Cell Structure",
+   "MLT 214 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Group the following under RNA or DNA viruses: adenoviruses, coronaviruses, herpesviruses, hepadnaviruses, orthomyxoviruses, picornaviruses, papillomaviruses, paramyxoviruses, poxviruses, parvoviruses.",
+  "media": [],
+  "answer": "| RNA viruses | DNA viruses |\n|---|---|\n| Coronaviruses | Adenoviruses |\n| Orthomyxoviruses | Herpesviruses |\n| Picornaviruses | Hepadnaviruses |\n| Paramyxoviruses | Papillomaviruses |\n| | Poxviruses |\n| | Parvoviruses |\n\n> [!answer]\n> RNA: corona-, orthomyxo-, picorna-, paramyxoviruses. DNA: adeno-, herpes-, hepadna-, papilloma-, pox-, parvoviruses.",
+  "hint": "Mnemonic for DNA families: HHAPPPy (Herpes, Hepadna, Adeno, Pox, Parvo, Papilloma/Polyoma).",
+  "explanation": "## Advanced explanation\n\nHuman DNA virus families: **Herpes, Hepadna, Adeno, Pox, Parvo, Papilloma, Polyoma** — all double-stranded except **parvovirus** (ss); hepadnavirus is partially ds and replicates via reverse transcription. Most other families are RNA viruses.\n\n## Simplified explanation\n\nRemember the DNA ones (**HHAPPP**); the rest here are RNA viruses.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Virus Classification",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name **two (2)** bacteria that can be found at each of the following body sites as part of the normal flora: vagina, stomach, mouth, skin, nasopharynx.",
+  "media": [],
+  "answer": "| Site | Examples of normal flora |\n|---|---|\n| Vagina | *Lactobacillus* spp. (Döderlein bacilli), *Gardnerella*, group B streptococci, *Candida* (yeast) |\n| Stomach | Few organisms because of acid: *Lactobacillus* spp., *Streptococcus* spp. (*Helicobacter pylori* in some people) |\n| Mouth | Viridans streptococci (*S. mutans*, *S. mitis*, *S. salivarius*), *Actinomyces*, *Fusobacterium*, *Veillonella* |\n| Skin | *Staphylococcus epidermidis*, *Cutibacterium (Propionibacterium) acnes*, diphtheroids (*Corynebacterium*) |\n| Nasopharynx | Viridans streptococci, *Neisseria* spp., *Moraxella catarrhalis*, *Haemophilus* spp., *S. aureus* (anterior nares) |\n\n> [!answer]\n> Vagina: lactobacilli, group B streptococci; stomach: lactobacilli, streptococci; mouth: viridans streptococci, Actinomyces; skin: S. epidermidis, Propionibacterium; nasopharynx: viridans streptococci, Neisseria (or S. aureus).",
+  "hint": "Think of the dominant genus at each site.",
+  "explanation": "## Advanced explanation\n\nGastric acidity keeps the stomach count low (<10³/mL); acid-tolerant **lactobacilli and streptococci** are found, plus *H. pylori* in colonized people. *E. coli* is a colonic organism, not typical stomach flora.\n\n## Simplified explanation\n\nEach body site has its own usual bacteria, e.g. **lactobacilli** in the vagina, **S. epidermidis** on the skin.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Normal Flora",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between the following:\n\n1. Conjugation and transduction\n2. Positive staining and negative staining\n3. Resident microbiota and transient microbiota",
+  "media": [],
+  "answer": "1. **Conjugation** — transfer of DNA (usually a plasmid) from a donor to a recipient bacterium by **direct cell-to-cell contact** through a sex pilus. **Transduction** — transfer of bacterial DNA from one bacterium to another **by a bacteriophage**.\n2. **Positive staining** — a basic (positively charged) dye binds the negatively charged **cell**, so the cell is coloured against a clear background. **Negative staining** — an acidic dye (India ink, nigrosin) is repelled by the cell, so the **background** is stained and the cell appears clear (used for capsules; no heat fixing, less distortion).\n3. **Resident microbiota** — microbes that **permanently/consistently** colonize a body site and re-establish themselves when disturbed. **Transient microbiota** — microbes present only **temporarily** (hours to weeks) that do not establish permanently.\n\n> [!answer]\n> Contact via pilus vs phage-mediated; cell stained vs background stained; permanent vs temporary flora.",
+  "hint": "Contact vs phage; cell vs background; permanent vs temporary.",
+  "explanation": "## Advanced explanation\n\nNegative stains use acidic dyes (anionic chromophore) which are repelled by the negatively charged bacterial surface; they show true size/shape and capsules. Transduction may be generalized (random DNA packaged) or specialized (genes next to the prophage).\n\n## Simplified explanation\n\nConjugation = bacteria **touch**; transduction = a **virus carries** the DNA. Positive stain colours the **cell**; negative stain colours the **background**. Resident flora **stay**; transient flora **pass through**.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Bacterial Genetics",
+   "Normal Flora",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two (2)** factors that determine the presence of a normal flora in a host.",
+  "media": [],
+  "answer": "Any two:\n\n1. **Nutrient availability** at the site.\n2. **Physical/chemical conditions** — pH, oxygen tension (aerobic vs anaerobic sites), moisture, temperature.\n3. **Host defences** — e.g. antibodies, lysozyme, flushing by secretions.\n4. Ability of the microbe to **adhere** to host cells (adhesins and receptors).\n5. **Age, diet, hormones, hygiene and antibiotic use** of the host.\n\n> [!answer]\n> e.g. nutrients available and local environmental conditions (pH, O₂, moisture) — also adherence and host defences.",
+  "hint": "What lets a microbe live at a site?",
+  "explanation": "## Advanced explanation\n\nColonization depends on the microbe's **tropism** (adhesin–receptor fit) and its tolerance of local conditions; for example oestrogen-driven glycogen in the adult vagina supports lactobacilli, while gastric acid keeps the stomach nearly sterile.\n\n## Simplified explanation\n\nMicrobes live where they can **find food**, **stick**, and **tolerate** the local conditions.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Normal Flora",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two** bacteria groups (genera) that are **acid-fast**.",
+  "media": [],
+  "answer": "1. ***Mycobacterium*** (e.g. *M. tuberculosis*, *M. leprae*)\n2. ***Nocardia*** (partially/weakly acid-fast)\n\n> [!answer]\n> Mycobacterium and Nocardia.",
+  "hint": "Mycolic acid-containing genera.",
+  "explanation": "## Advanced explanation\n\nAcid-fastness is due to **mycolic acids** in the wall. Mycobacteria are strongly acid-fast; *Nocardia* is weakly (modified) acid-fast with 1% H₂SO₄. Some parasites (*Cryptosporidium*, *Cyclospora*) are also acid-fast.\n\n## Simplified explanation\n\n**Mycobacterium** and **Nocardia** are acid-fast.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Staining Techniques",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The counterstain in the acid-fast (Ziehl–Neelsen) reaction is …………",
+  "media": [],
+  "answer": "**Methylene blue** (malachite green may also be used).\n\n> [!answer]\n> Methylene blue.",
+  "hint": "Non-AFB look blue.",
+  "explanation": "## Advanced explanation\n\nAfter decolorizing with acid-alcohol, **methylene blue** stains non-acid-fast cells and background blue, providing contrast to red acid-fast bacilli.\n\n## Simplified explanation\n\nThe counterstain is **methylene blue**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Techniques",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In ………… ………… DNA from a specific region of the host chromosome is integrated directly into the virus.",
+  "media": [],
+  "answer": "**Specialized transduction**.\n\n> [!answer]\n> Specialized (restricted) transduction.",
+  "hint": "Only genes next to the prophage are moved.",
+  "explanation": "## Advanced explanation\n\nIn **specialized transduction** (e.g. phage λ), faulty excision of a prophage takes adjacent host genes (*gal* or *bio*) into the phage genome. In **generalized** transduction any host DNA fragment is packaged by mistake.\n\n## Simplified explanation\n\nWhen the virus picks up genes from **one specific place** next to where it sat in the chromosome, it is specialized transduction.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Bacterial Genetics",
+   "MLT 214 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the general steps in a **viral multiplication** cycle.",
+  "media": [],
+  "answer": "1. **Attachment (adsorption)**\n2. **Penetration (entry)**\n3. **Uncoating**\n4. **Biosynthesis** (replication of nucleic acid and synthesis of viral proteins)\n5. **Assembly (maturation)**\n6. **Release** (lysis or budding)\n\n> [!answer]\n> Attachment → penetration → uncoating → biosynthesis → assembly/maturation → release.",
+  "hint": "Six steps from binding to release.",
+  "explanation": "## Advanced explanation\n\nFor bacteriophages the steps are attachment, penetration (injection), biosynthesis, maturation and release (lysis). Animal viruses add **uncoating**, and enveloped viruses often leave by **budding**, acquiring their envelope.\n\n## Simplified explanation\n\nVirus **sticks, enters, unpacks, copies itself, assembles, and leaves**.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Virology Basics",
+   "MLT 214 Quiz 2"
+  ]
+ }
+]

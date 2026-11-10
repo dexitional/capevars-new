@@ -1,0 +1,321 @@
+[
+ {
+  "type": "text",
+  "body": "A 22-year-old man alleges that a regional hospital has left him with a protruding and rotten abdomen following surgery for appendicitis six months ago. He says he was told the stitches would be removed on the tenth day, but a nurse began removing them on the seventh day; when he protested that the doctor had said otherwise, the nurse ignored his cries and said, *\"who are you to teach me my job\"*. That midnight the wound opened up; it was re-stitched days later in the dressing room rather than the theatre, using the same holes, and the skin was later found to have rotted. The hospital's consultant explained that the surgery had been for a perforated appendix that had gone untreated for four days, that infection was always a risk in such 'dirty surgery', and that the situation could have been avoided if both the hospital and the patient had adopted a good means of communication.\n\n**Discuss the requirements to prove medical negligence in this case.**",
+  "answer": "> [!answer]\n> Four elements — the **'four Ds'** — must all be established, on the balance of probabilities:\n>\n> | Element | Meaning | Application to this case |\n> |---|---|---|\n> | **1. Duty of care** | A professional relationship existed that obliged the practitioner to exercise reasonable care | The hospital admitted and operated on him, so a duty clearly existed |\n> | **2. Dereliction (breach) of that duty** | The care fell below the **standard of a reasonably competent practitioner** in that field (the Bolam/Bolitho standard) | Removing sutures on day 7 against the surgeon's instruction; ignoring the patient's protest; re-suturing in the dressing room rather than theatre and through the same holes |\n> | **3. Damage (injury)** | The patient suffered actual, recognised harm | Wound dehiscence, infection, skin necrosis, protruding abdomen, pain and prolonged illness |\n> | **4. Direct causation** | The breach **caused** the damage — the 'but for' test, and the harm must have been reasonably foreseeable, not too remote | Would the wound have broken down **but for** the premature suture removal? The defence will argue the perforated, contaminated appendix made breakdown likely anyway |\n>\n> The burden of proof lies on the **claimant**, except where *res ipsa loquitur* applies (the harm speaks for itself, e.g. a retained swab). Expert evidence is normally required to establish the standard of care and causation. Documentation in the clinical notes is the key evidence on both sides.",
+  "explanation": "## Advanced explanation\n\nNegligence is a **tort**, requiring duty, breach, causation and damage. The standard of care is objective: the **Bolam test** asks whether the practitioner acted in accordance with a practice accepted as proper by a responsible body of professional opinion, qualified by **Bolitho**, which requires that opinion to withstand logical analysis. Causation is the usual battleground: the defendant here will plead that the **underlying pathology** — a four-day-old perforated appendix with established peritoneal contamination — was the operative cause of the wound breakdown, so the chain of causation is broken or the loss is not attributable to the breach. The nurse's conduct also engages **vicarious liability** of the hospital and separate professional-misconduct proceedings.\n\n## Simplified explanation\n\nTo win, the patient must show the hospital **owed him care**, that the care was **below standard**, that he was **harmed**, and that the poor care — not his original disease — **caused that harm**.",
+  "hint": "The four Ds: duty, dereliction, damage, direct causation.",
+  "difficulty": "hard",
+  "marks": 12,
+  "tags": [
+   "Medical Negligence",
+   "2018/19 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "In relation to the case above, discuss any **TWO (2) benefits of communication** as recommended by the consultant.",
+  "answer": "> [!answer]\n> 1. **It secures valid informed consent and realistic expectations.** Explaining the nature of the operation, the fact that a perforated appendix is 'dirty surgery' and that infection and wound breakdown are recognised risks allows the patient to consent with understanding. A complication that has been explained in advance is seen as a **known risk**, not as a blunder — one of the strongest protections against litigation.\n>\n> 2. **It prevents error and improves clinical outcome.** Good communication between surgeon, nurse and patient would have ensured that **everyone knew the stitches were to stay for ten days**; listening to the patient's protest would have prevented the premature removal. Communication within the team also ensures continuity of care and correct handover.\n>\n> 3. **It builds trust and the therapeutic relationship**, improving adherence, disclosure of symptoms and satisfaction; a patient who feels heard and respected is far less likely to sue.\n>\n> 4. **It allows early disclosure and resolution of complications** (open disclosure/duty of candour) — an early, honest explanation and apology defuses anger and usually ends the dispute without litigation.\n>\n> (Any two, discussed.)",
+  "explanation": "## Advanced explanation\n\nEmpirical work on malpractice claims consistently shows that **poor communication, not poor technical skill, is the strongest predictor of litigation**: patients sue when they feel deserted, ill-informed or not listened to. Communication also underpins the ethical principles of **autonomy** (informed consent), **beneficence and non-maleficence** (accurate history and correct execution of instructions) and **justice**. Structured tools — SBAR for handover, teach-back for patient understanding, and open-disclosure policies — are the practical expressions of this.\n\n## Simplified explanation\n\nGood communication means the patient **understands the risks before agreeing**, and the staff **all know the plan**, so mistakes are avoided. It also builds trust, so patients are far less likely to go to court.",
+  "hint": "One benefit for consent and expectations, one for preventing the error itself.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Communication",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe any **FOUR (4) ways** by which the hospital in the case above could have **prevented this litigation**.",
+  "answer": "> [!answer]\n> 1. **Obtain and document proper informed consent** — explain the diagnosis, the operation, the particular risks of surgery for a perforated appendix (infection, wound breakdown, hernia, re-operation) and the expected recovery, and record that discussion.\n> 2. **Follow and communicate the clinical instructions accurately** — a clear, documented post-operative plan ('sutures out on day 10') known to the whole team, with no deviation by any staff member without consulting the surgeon.\n> 3. **Listen and respond to the patient's concerns respectfully** — the nurse's dismissive reply was the trigger for the whole dispute; a culture in which patients are heard and complaints are welcomed prevents escalation.\n> 4. **Maintain proper standards of practice and asepsis** — re-suture in theatre under sterile conditions with appropriate antibiotic cover and adequate wound review, not in the dressing room through old suture holes.\n> 5. **Keep accurate, complete and contemporaneous records** — the clinical notes are the hospital's main defence; poor documentation loses defensible cases.\n> 6. **Disclose the complication early and honestly (duty of candour), apologise and offer remedial treatment**, and operate a functioning complaints/clinical-governance system with audit, incident reporting and staff training.\n>\n> (Any four.)",
+  "explanation": "## Advanced explanation\n\nLitigation prevention is **clinical risk management**: competent practice to the accepted standard, valid consent, effective communication, meticulous documentation, and a system that detects and responds to adverse events (incident reporting, root-cause analysis, audit, continuing professional development). Studies of claims repeatedly show that most are triggered not by the injury itself but by the **perception of concealment, arrogance or indifference** afterwards — hence the emphasis on candour and early apology, which in many jurisdictions is explicitly protected from being treated as an admission of liability.\n\n## Simplified explanation\n\n**Explain and record the risks, follow the plan, listen to the patient, work to a proper standard, keep good notes, and be honest and apologise quickly if something goes wrong.**",
+  "hint": "Consent, communication, standards of care, documentation and candour.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Medical Negligence",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Which **qualities of an ethical professional** did the angry nurse who said *\"who are you to teach me my job\"* lack?",
+  "answer": "> [!answer]\n> The nurse lacked:\n> - **Respect for the patient and for his autonomy** — she dismissed a legitimate concern about his own body and treated him with contempt;\n> - **Good communication and listening skills**, and **courtesy/empathy (compassion)**;\n> - **Beneficence and non-maleficence** — her conduct harmed rather than helped the patient;\n> - **Competence and accountability** — she acted outside the documented surgical instruction and would not accept correction;\n> - **Humility, patience and self-control (emotional intelligence)** — she responded with anger;\n> - **Integrity, trustworthiness and professionalism** generally, including responsibility for her own actions.",
+  "explanation": "## Advanced explanation\n\nProfessional ethics is built on **character (virtue) as well as rules**: the virtues expected of a health professional include competence, integrity, respect for persons, compassion, trustworthiness, humility and accountability. These map onto the four principles of biomedical ethics — **autonomy, beneficence, non-maleficence and justice**. Dismissing a patient's concern breaches autonomy and respect, and in doing so also produced the harm that breached non-maleficence; refusing correction breaches accountability and the duty to practise competently, and is professional misconduct for which a regulatory body may discipline the practitioner independently of any civil claim.\n\n## Simplified explanation\n\nShe showed **no respect, no listening, no kindness and no humility**, and she **would not accept that she might be wrong** — all qualities an ethical professional must have.",
+  "hint": "Respect, communication, humility, accountability.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Professional Conduct",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Discuss the **THREE (3) general considerations** made in determining the **standard of care**.",
+  "answer": "> [!answer]\n> 1. **The standard is that of the reasonably competent practitioner in the same field (the professional standard)** — the practitioner is judged against what a responsible body of peers with the same training and in the same speciality would accept as proper practice (the Bolam test, qualified by Bolitho's requirement that the practice be logically defensible). A specialist is judged by the standard of specialists; inexperience is **not** a defence.\n>\n> 2. **The circumstances in which the care was given** — the standard is applied to the actual situation: the urgency (an emergency or mass-casualty situation differs from an elective clinic), the resources and facilities reasonably available at that level of health facility, and the information available at the time. Care is judged **prospectively, not with hindsight**.\n>\n> 3. **The needs and characteristics of the particular patient** — age, comorbidity, capacity, culture and language, and the degree of risk involved; the greater the foreseeable risk of harm, the greater the precautions required. This includes the duty to **inform the patient of material risks** (the modern patient-centred standard, Montgomery) and to refer or seek help when the case exceeds one's competence.",
+  "explanation": "## Advanced explanation\n\nThe standard of care is **objective but context-sensitive**. Classically it was set entirely by the profession (**Bolam**); **Bolitho** added judicial scrutiny of the logic of the practice relied on; and for **disclosure of risk** many jurisdictions have moved to the patient-centred test of **Montgomery**, asking what a reasonable patient in that position would want to know. Professional guidelines, protocols and the facility's level of care inform but do not conclusively determine the standard; departure from a guideline is evidence of breach only if it was not reasonably justified.\n\n## Simplified explanation\n\nAsk: **what would a competent practitioner of the same kind have done?**, **in these actual circumstances and with these resources?**, and **what did this particular patient need and need to be told?**",
+  "hint": "The reasonable practitioner, the circumstances, and the particular patient.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Standard of Care",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Discuss any **TWO (2) circumstances** under which a practitioner–patient relationship can be **terminated**.",
+  "answer": "> [!answer]\n> 1. **By mutual agreement, or when the episode of care is complete** — the patient recovers, the course of treatment ends, or both parties agree that the relationship should end.\n> 2. **By the patient** — the patient withdraws, refuses further treatment, transfers to another practitioner or facility, or seeks a second opinion; a competent patient may discharge the practitioner at any time.\n> 3. **By the practitioner, with adequate notice and arrangements for continuity** — where the patient is persistently **non-adherent, abusive, violent or dishonest** (e.g. seeking drugs of abuse), where the relationship has irretrievably broken down or trust is lost, where there is a **conflict of interest** (including a sexual or close personal relationship), or where the case is **beyond the practitioner's competence**, in which case the patient must be **referred** appropriately.\n> 4. **By operation of circumstance** — the practitioner retires, relocates, becomes ill or dies; or the **patient dies**.\n>\n> In every case the practitioner must give **reasonable notice, must not abandon the patient in an emergency or at a critical stage of treatment, must ensure continuity of care by referral and transfer of records, and must document the reasons.** Unilateral withdrawal without these steps is **abandonment**, which is professional misconduct and actionable in negligence.",
+  "explanation": "## Advanced explanation\n\nThe relationship is **fiduciary** — founded on trust and on the patient's dependence — so the law imposes conditions on its ending that do not apply to ordinary contracts. The practitioner's right to withdraw is constrained by the duties not to abandon, not to discriminate (a patient may not be refused solely for having HIV, for example), and to provide **emergency care** regardless. Proper practice is written notice, a reasonable interim period of cover, help in finding an alternative provider, transfer of records on request, and documentation of the whole process.\n\n## Simplified explanation\n\nIt can end when **treatment is finished or both agree**, when the **patient chooses to leave**, or when the **practitioner withdraws for good reason** — but only after giving notice and making sure someone else takes over the patient's care.",
+  "hint": "Either party may end it, but the practitioner must not abandon the patient.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Practitioner–Patient Relationship",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain the **FOUR (4) types of practitioner–patient relationship**.",
+  "answer": "> [!answer]\n> Using Emanuel and Emanuel's classification:\n>\n> | Model | Description | Patient's role |\n> |---|---|---|\n> | **1. Paternalistic (priestly/parental)** | The practitioner decides what is best and tells the patient; information is limited to what secures compliance | Passive — 'doctor knows best'. Appropriate in emergencies or where the patient lacks capacity |\n> | **2. Informative (scientific/consumer/engineering)** | The practitioner supplies all relevant facts and technical options; the patient alone chooses | Active chooser; practitioner is a technical expert, with no role in valuing the options |\n> | **3. Interpretive (counselling)** | The practitioner helps the patient to **clarify and articulate their own values** and shows which option best fits them | Collaborative; practitioner acts as counsellor/adviser |\n> | **4. Deliberative (teacher/friend)** | The practitioner discusses and **persuades** the patient towards health-related values that are worth pursuing, while leaving the choice to the patient | Engaged in moral dialogue; practitioner as teacher or friend |\n>\n> (Szasz and Hollender's alternative classification — **activity–passivity, guidance–co-operation, and mutual participation** — is also accepted.)",
+  "explanation": "## Advanced explanation\n\nThe four models differ in **how much weight is given to the patient's autonomy and to the practitioner's values**. The paternalistic model maximises beneficence at the cost of autonomy and is acceptable only where the patient cannot decide or in an emergency. The informative model maximises autonomy but reduces the practitioner to a technician and can abandon a frightened patient to an unsupported choice. The **interpretive and deliberative models** are generally regarded as the ideal in contemporary practice, since they combine respect for autonomy with the practitioner's professional judgement — shared decision-making. The right model also varies with the setting: an unconscious trauma patient, a routine screening test and a chronic disease each call for a different balance.\n\n## Simplified explanation\n\n**Paternalistic** — the practitioner decides. **Informative** — the practitioner gives the facts and the patient decides. **Interpretive** — the practitioner helps the patient work out what they really want. **Deliberative** — the practitioner discusses and tries to persuade the patient towards the healthier choice.",
+  "hint": "Paternalistic, informative, interpretive, deliberative.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Practitioner–Patient Relationship",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Discuss any **THREE (3) challenges to \"Respect and Equal Treatment\"** in clinical practice today.",
+  "answer": "> [!answer]\n> 1. **Stigmatised conditions.** Patients with **HIV/AIDS, hepatitis B or C, tuberculosis, mental illness, substance misuse** or sexually transmitted infections are frequently treated with suspicion, avoidance or disrespect, and may have their confidentiality breached or care delayed.\n> 2. **Cultural and language barriers.** Differences in culture, religion and language between practitioner and patient hinder communication and understanding, and lead to assumptions, poor consent and unequal care; illiterate and rural patients are especially disadvantaged.\n> 3. **Social and economic inequality.** The poor, the uninsured, the elderly, prisoners, refugees, sex workers and persons with disability often receive slower or lesser care, while the wealthy, the influential and staff relatives are fast-tracked.\n> 4. **Scarcity of resources and heavy workload.** Too few staff, beds, drugs and equipment force rationing and make it hard to give every patient the same time and attention; burnout erodes courtesy and empathy.\n> 5. **Personal prejudice and moral judgement** about lifestyle, gender, sexual orientation, ethnicity, political affiliation or 'self-inflicted' illness.\n> 6. **Sexual attraction or personal relationships between practitioner and patient**, which destroy objectivity and equal treatment.\n>\n> (Any three, discussed.)",
+  "explanation": "## Advanced explanation\n\n'Respect and equal treatment' expresses the principle of **justice** — like cases treated alike, and every patient treated as a person of equal worth — together with **respect for persons**. The practical obstacles are of three kinds: **attitudinal** (stigma, prejudice, moral judgement), **communicative** (culture, language, literacy) and **structural** (scarcity, cost, staffing, geography). Remedies include explicit institutional policy and codes of conduct, triage protocols that ration by clinical need rather than status, interpreter services, training in cultural competence, and functioning complaints and clinical-governance systems.\n\n## Simplified explanation\n\nPatients are not always treated equally because of **stigma** (HIV, mental illness), **culture and language differences**, **poverty or social status**, and because there are **too few staff and resources** to give everyone the same attention.",
+  "hint": "Think stigma, culture/language, and money or resources.",
+  "difficulty": "medium",
+  "marks": 9,
+  "tags": [
+   "Respect & Equal Treatment",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "The high value placed on **confidentiality** has three sources, namely **autonomy, trust and respect for others**. Explain how each of these values helps in determining and evaluating confidentiality.",
+  "answer": "> [!answer]\n> **Autonomy.** The information is the **patient's own**; as a self-governing person the patient has the right to decide who knows it and for what purpose. Confidentiality is therefore an expression of the patient's **right to control information about themselves** and to give or withhold consent to its disclosure. Evaluating a proposed disclosure begins by asking whether the patient has **authorised** it.\n>\n> **Trust.** The practitioner–patient relationship is **fiduciary**: patients disclose intimate facts only because they trust that those facts will go no further. Without that assurance patients **conceal symptoms, give false histories or avoid care altogether** — which harms them and, in communicable disease, the public. Confidentiality is thus justified by its **consequences for the therapeutic relationship and for public health**: a disclosure that would destroy trust generally cannot be justified.\n>\n> **Respect for others.** Treating the patient as a **person of dignity and worth, not as a case to be discussed**, requires that their private information be handled with care and not used for gossip, curiosity or advantage. Respect extends to the patient's family and to the professional relationship itself, and it is the ground on which confidentiality survives even the patient's death.\n>\n> Together these three values are also what **limit** confidentiality: where the patient consents (autonomy), where disclosure is necessary to protect an identifiable third party or is required by law, the duty may be overridden.",
+  "explanation": "## Advanced explanation\n\nConfidentiality is **not absolute**; it is a *prima facie* duty that must be weighed against competing duties. The three values support it in different ways — **autonomy** is a deontological (rights-based) justification, **trust** a consequentialist one (loss of trust produces worse outcomes overall), and **respect for persons** a Kantian one (treating the patient as an end, never merely as a means). When they conflict with the duty to prevent serious harm, as in *Tarasoff* or in notifiable disease, the ethical analysis asks whether the harm prevented is serious, probable and otherwise unavoidable, whether the minimum necessary information is disclosed, and whether the patient has first been encouraged to disclose it themselves.\n\n## Simplified explanation\n\n**Autonomy** — the information belongs to the patient, so they decide who sees it. **Trust** — patients only tell you things because they believe you will keep them secret; break that and they stop telling you. **Respect** — a patient is a person, not gossip material.",
+  "hint": "Whose information is it? why do patients tell you? and how should a person be treated?",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Confidentiality",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the **generally accepted circumstances** under which **confidentiality may be breached** (i.e. exceptions justified in the absence of the patient's permission).",
+  "answer": "> [!answer]\n> 1. **When required by a court of law or statute** — a judge orders the practitioner to disclose medical facts about a patient, or the law compels disclosure (e.g. coroner's inquest).\n> 2. **Notifiable diseases and public-health requirements** — cholera, tuberculosis, yellow fever, COVID-19 and other diseases that must be reported to the health authorities.\n> 3. **Risk of serious harm to an identifiable third party** — an HIV-positive patient who refuses to tell a spouse or partner and continues unprotected intercourse; a psychiatric patient who discloses an intention to harm a named person; an epileptic or visually impaired patient who continues to drive a public vehicle.\n> 4. **When the patient lacks capacity** (a child, an unconscious patient, severe mental illness) — information is shared with a **surrogate/next of kin** who must decide and care for them, in the patient's best interests.\n> 5. **Sharing within the clinical team for the patient's own care** — disclosure to colleagues directly involved in management, on a need-to-know basis.\n> 6. **Suspected child abuse, elder abuse, gunshot or other reportable injuries**, and certain statutory reporting duties.\n> 7. **Teaching, audit and research** — normally only with consent and with **anonymisation** of the data.\n>\n> In every case: disclose the **minimum necessary information, to the proper person, having first tried to obtain the patient's consent**, and document the reasons.",
+  "explanation": "## Advanced explanation\n\nThe duty of confidentiality is overridden only where a **stronger competing duty** exists: obedience to law, protection of identifiable third parties, or protection of the public health. The analysis derives from the *Tarasoff* principle — 'the protective privilege ends where the public peril begins' — but is constrained by proportionality: the anticipated harm must be **serious, probable and preventable by the disclosure**, no less intrusive alternative must exist, and only the information needed to avert the harm may be revealed. Unjustified disclosure is both professional misconduct and an actionable breach of confidence.\n\n## Simplified explanation\n\nYou may break confidentiality when **a court orders it**, when the **law requires reporting** (notifiable diseases, abuse), when **someone else is in serious danger**, when the **patient cannot decide for themselves** and a relative must, and when **sharing with the team treating the patient**.",
+  "hint": "Court, notifiable disease, danger to a third party, incapacity, the treating team.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Confidentiality",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe the following types of consent:\n\n(a) Informed consent\n(b) Surrogate consent\n(c) Implied consent",
+  "answer": "> [!answer]\n> **(a) Informed consent** — a **competent** patient's **voluntary** agreement to a procedure after being given, and having understood, **adequate information**: the diagnosis, the nature and purpose of the proposed procedure, its material risks and benefits, the reasonable alternatives (including doing nothing) and their consequences. Its elements are therefore **capacity, disclosure, understanding, voluntariness and the decision itself**; it must be documented and may be withdrawn at any time.\n>\n> **(b) Surrogate (proxy/substitute) consent** — consent given **on behalf of a patient who lacks capacity** (a child, an unconscious patient, severe mental impairment) by a legally authorised person: parent or guardian, spouse or next of kin, a person holding a lasting power of attorney, or a court. The surrogate must decide using the patient's own previously expressed wishes (**substituted judgement**) or, failing that, the patient's **best interests**.\n>\n> **(c) Implied consent** — consent **inferred from the patient's conduct or from the circumstances** rather than stated in words or writing: rolling up a sleeve and holding out the arm for venepuncture, opening the mouth for examination, or attending and co-operating with a routine procedure. It is valid only for **minor, low-risk, routine** interventions; it is also presumed in a **life-threatening emergency** in which a patient who cannot consent would reasonably be expected to agree (the doctrine of necessity).",
+  "explanation": "## Advanced explanation\n\nConsent protects **autonomy** and, in law, converts what would otherwise be a battery into lawful touching. The adequacy of disclosure has moved from the professional standard (**Bolam**) to a patient-centred standard (**Montgomery**): the patient must be told of risks **material to a reasonable person in that patient's position**, or that this particular patient would attach significance to. Capacity is **decision-specific and presumed in adults**; it requires the ability to understand, retain, weigh and communicate the decision. A valid refusal by a competent adult must be respected even if it leads to death, whereas surrogates may not consent to anything not in the patient's best interests.\n\n## Simplified explanation\n\n**Informed consent** — the patient is told everything important and agrees freely. **Surrogate consent** — someone else (parent, next of kin) agrees for a patient who cannot. **Implied consent** — the patient shows agreement by their actions, like holding out an arm for a blood sample.",
+  "hint": "Told and agreed; decided by another; shown by behaviour.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Consent",
+   "2020/21 End of First Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FOUR (4) circumstances** under which **care can be refused** by a practitioner.",
+  "answer": "> [!answer]\n> 1. **The request falls outside the practitioner's competence, scope of practice or licence** — the practitioner must decline and **refer** to an appropriately qualified colleague.\n> 2. **The treatment requested is futile, medically inappropriate or not clinically indicated** — a practitioner is not obliged to provide treatment that cannot benefit the patient, or to prescribe drugs of abuse on demand.\n> 3. **The request is illegal or unethical** — e.g. an unlawful termination, falsifying a certificate or report, assisting suicide where prohibited, or performing female genital mutilation.\n> 4. **Conscientious objection** — the practitioner may decline a lawful procedure that conflicts with deeply held moral or religious belief (e.g. termination of pregnancy), **provided** they inform the patient honestly, do not disparage them, and **refer promptly to a colleague who will provide the service**; this never applies in an emergency.\n> 5. **The patient is abusive, violent or threatening**, or the setting is unsafe for the practitioner.\n> 6. **Conflict of interest or breakdown of the relationship** — including treating oneself or close family, or a sexual relationship with the patient.\n> 7. **Lack of facilities, equipment or resources** to provide the care safely — the patient must be referred or transferred.\n>\n> In **no** case may care be refused in a **life-threatening emergency**, nor refused on discriminatory grounds (HIV status, ethnicity, religion, sexual orientation, ability to pay in an emergency); in every case the patient must be told and helped to obtain care elsewhere.",
+  "explanation": "## Advanced explanation\n\nThe right to decline is limited by the duties of **non-abandonment, non-discrimination and rescue**. Conscientious objection is the most contested ground: professional codes generally permit it but require transparency and effective referral, since the patient's access to lawful care must not be obstructed. Refusal for lack of competence or facilities is not merely permitted but **required** — practising beyond one's competence is itself negligence. Documentation of the reason, of the information given to the patient, and of the referral is essential.\n\n## Simplified explanation\n\nA practitioner may refuse when the case is **beyond their skill**, when the treatment **would not help or is not indicated**, when the request is **illegal or unethical**, on grounds of **conscience (with referral)**, or when the **patient is violent** — but **never in an emergency**, and never for discriminatory reasons.",
+  "hint": "Competence, futility, legality, conscience — and the emergency exception.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Professional Conduct",
+   "2020/21 End of First Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Discuss any **TWO (2) approaches** used in **resource allocation**, and describe the **utilitarian approach** in particular.",
+  "answer": "> [!answer]\n> **1. The utilitarian approach** — allocate resources so as to produce the **greatest good for the greatest number**. The right distribution is the one that **maximises total benefit** (lives saved, life-years gained, quality-adjusted life-years) from the available resources; cost-effectiveness analysis, triage in mass casualties (treat those who will benefit most, not the most severely injured), and public-health programmes such as mass immunisation are applications. Its strengths are efficiency, transparency and the ability to compare interventions; its weaknesses are that it can **sacrifice the interests of the individual, the disabled, the elderly and those with rare or expensive conditions** for aggregate benefit, and that benefit is hard to measure.\n>\n> **2. The egalitarian approach** — every person has an **equal claim** to health care; resources are distributed according to **need**, with equal access regardless of ability to pay or social worth. Practical expressions are universal coverage, **first-come-first-served** queues and lotteries for scarce organs.\n>\n> Other recognised approaches: the **libertarian/market** approach (distribution by free exchange and ability to pay, respecting property rights), the **Rawlsian 'maximin'/priority-to-the-worst-off** approach, **need-based (prioritarian)** and **social-worth/'social value'** approaches, and allocation by **medical criteria** (urgency, prognosis, likelihood of benefit).\n>\n> (Any two discussed, with utilitarianism described.)",
+  "explanation": "## Advanced explanation\n\nAllocation decisions are made at three levels: **macro** (what share of the national budget goes to health, and to which programmes), **meso** (how a hospital distributes beds, theatre time and equipment) and **micro** (which of two patients receives the single ICU bed or the available organ). The dominant tension is between **efficiency (utilitarian maximisation, QALYs)** and **equity (egalitarian or prioritarian claims)**. Most practical systems are hybrids: clinical triage criteria (urgency and likelihood of benefit) are utilitarian, but are constrained by egalitarian rules forbidding allocation by wealth, status or social worth, and by procedural justice — the **accountability for reasonableness** framework requiring that criteria be public, relevant, revisable and enforced.\n\n## Simplified explanation\n\n**Utilitarian** — spend the money and effort where it will **help the most people**. **Egalitarian** — give everyone an **equal chance based on need**, not on wealth or status.",
+  "hint": "Greatest good for the greatest number — and the main alternative to it.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Resource Allocation",
+   "2018/19 End of First Semester Exam",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is **dual loyalty**?",
+  "answer": "> [!answer]\n> **Dual loyalty** is the **conflict of obligations that arises when a health professional owes a duty both to the individual patient and to a third party** — an employer, an insurer, the state, the police, the military, a prison service, a sports team, a court or a research sponsor — and the interests of the two conflict.\n>\n> The professional is simultaneously the **patient's advocate** and an **agent of the third party**, and the two roles pull in opposite directions.\n>\n> **Examples:** a company or insurance medical examiner who must report findings that will cost the patient a job or a policy; a prison or police surgeon asked to certify a detainee fit for interrogation or to disclose clinical information; a military doctor; a team doctor pressed to pass an injured athlete fit to play; a researcher who is also the treating clinician.\n>\n> **Principle:** the **patient's interests and well-being must normally take precedence**; the professional must **disclose the dual role and its limits to the patient at the outset**, obtain consent, confine disclosure to the minimum required, and never use clinical skills to harm the patient.",
+  "explanation": "## Advanced explanation\n\nDual loyalty is a structural conflict, not a personal failing, and it is the setting of the gravest ethical violations in medicine — participation in torture, in capital punishment, in coercive psychiatry and in non-consensual research. International guidance (the WMA Declarations, the Dual Loyalty Working Group) requires that the **therapeutic relationship be protected**, that the dual role and its implications be made explicit to the examinee before the encounter, and that professionals and their institutions resist third-party demands that would subordinate the patient's basic interests. Where the professional acts purely as an assessor rather than a treating clinician, the relationship must be defined as such from the outset.\n\n## Simplified explanation\n\nIt is when a health worker has to **serve two masters** — the patient and an employer, insurer, the police or the state — and what is good for one is bad for the other. The patient's interests normally come first, and the patient must be told about the other role.",
+  "hint": "Two sets of obligations pulling in opposite directions.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Professional Conduct",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe any **THREE (3) practitioner-centred barriers to communication**.",
+  "answer": "> [!answer]\n> 1. **Use of technical/medical jargon and poor language match** — explaining in terms the patient cannot follow, or consulting in a language the patient does not speak well, without an interpreter.\n> 2. **Lack of time and preoccupation/workload pressure** — rushing the consultation, interrupting the patient early, dividing attention between the patient and the computer or other tasks, so the patient's real concern is never expressed.\n> 3. **Poor listening and attitude** — not making eye contact, appearing dismissive, impatient or arrogant, interrupting, or responding to a concern as the nurse in the case did; failure to show empathy closes the patient down.\n> 4. **Personal prejudice and value judgements** — stereotyping by ethnicity, religion, gender, social class, sexual orientation or lifestyle, which colours what the practitioner hears and says.\n> 5. **Emotional state and burnout** — fatigue, stress, anger or 'compassion fatigue' in the practitioner.\n> 6. **Lack of communication skills and training**, including inability to break bad news or to handle an angry patient.\n> 7. **Physical barriers created by the practitioner** — an unsuitable, noisy or non-private setting, sitting behind a desk, or wearing PPE that blocks facial expression.\n>\n> (Any three, described.)",
+  "explanation": "## Advanced explanation\n\nBarriers are classified as **practitioner-centred, patient-centred and environmental/system**. Practitioner-centred barriers are the most remediable, and they matter clinically: studies show clinicians interrupt patients within seconds of the opening statement, and that most diagnostic information comes from the history. Structured skills — open questions, active listening, reflecting, summarising, **teach-back** to check understanding, chunking information and responding explicitly to emotion — measurably improve adherence, satisfaction and outcome, and reduce complaints and litigation.\n\n## Simplified explanation\n\nThe practitioner may **use words the patient cannot understand**, **be in too much of a hurry**, or **not listen properly and seem dismissive or prejudiced**.",
+  "hint": "Jargon, time pressure, poor listening and attitude.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Communication",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Ama Kwantsema**, a 42-year-old midwife, went to her bank to deposit money into her son's school account. **Kofi Small**, a security officer who knew her, collected her cash, bypassed the queue and handed it to the teller, **Mrs Akua Amankwa**. Mrs Amankwa did not appreciate the gesture, refused to allow the cash to jump the queue and ordered Kofi Small to hand the money back and make Kwantsema join the queue. Kwantsema, embarrassed, pleaded with her, but Mrs Amankwa harshly told her to sit down and wait, and when Kwantsema explained that she was a midwife and needed to get back to the hospital, retorted: *\"What kind of competent midwife are you? That is indiscipline! I will not allow a midwife of your caliber to either get closer to me nor deliver me. You will kill me because you will always want to 'cut corners'.\"* Kwantsema left the banking hall quietly.\n\n**Four months later** a pregnant woman was rushed into the facility where Kwantsema works, in severe labour. Kwantsema recognised Mrs Amankwa, the teller who had insulted and questioned her competency. She calmly took Mrs Amankwa's ANC booklet and wrote *\"Client doubts my competency and feels I will kill her\"*, filled in a referral form, handed it to her relatives to send her to a different facility — and Mrs Amankwa bled profusely on the way and **died on arrival**. The family are now in court seeking justice, and Ama Kwantsema has been charged with refusing care and with murder.\n\n**Describe any ONE (1) ethical principle that Ama Kwantsema may have violated.**",
+  "answer": "> [!answer]\n> **Beneficence (and the related duty of non-maleficence).**\n>\n> **Beneficence** obliges the health professional to **act positively for the benefit of the patient** — to provide the care the patient needs. Kwantsema had the skill and was on duty in a facility able to manage the emergency, yet she referred a woman in **severe labour with active bleeding** elsewhere for a personal reason. She failed to do the good she was able and obliged to do, and her act of omission directly exposed the patient to harm — a breach of **non-maleficence** (*primum non nocere*) as well.\n>\n> Other principles that could be cited:\n> - **Justice/equal treatment** — she discriminated against this patient on the basis of a personal grievance rather than clinical need;\n> - **Respect for persons and confidentiality** — writing the remark in the ANC booklet was demeaning and disclosed a personal dispute in a clinical record;\n> - **Fidelity/professional duty of care** — abandonment of a patient in an emergency, which no code of conduct permits.",
+  "explanation": "## Advanced explanation\n\nThe four principles of biomedical ethics (Beauchamp and Childress) are **autonomy, beneficence, non-maleficence and justice**. In an emergency, the duty to rescue is at its strongest and the right to decline care at its weakest: refusal of emergency care is prohibited by professional codes, and where death follows, the omission may found both professional misconduct and criminal liability (gross negligence manslaughter, depending on whether the referral was grossly negligent and caused the death). Personal animosity is never a ground for refusing care; if the relationship truly made treatment impossible, the proper course was to **hand over to a colleague on site**, not to send a bleeding patient away.\n\n## Simplified explanation\n\nShe broke **beneficence** — the duty to actually help the patient. She could have saved her and chose not to, because of a personal grudge, and the patient was harmed as a result.",
+  "hint": "She had the ability to help and did not.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Ethical Principles",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Critically evaluate whether **Ama Kwantsema's decision** (in the case above) was **rational or non-rational**.",
+  "answer": "> [!answer]\n> Her decision was **non-rational**.\n>\n> **Reasoning:** a **rational** approach to ethical decision-making is **systematic, reflective and justified by reasons** — it weighs the facts, identifies the ethical principles and the options, considers the consequences for the patient, and applies a defensible standard (principlism, consequentialism, deontology, virtue ethics). Kwantsema did none of this.\n>\n> Her decision was instead driven by **emotion and personal feeling — resentment and the wish to retaliate** for the humiliation four months earlier. Non-rational approaches to ethical decision-making include **obedience, imitation, feeling/desire, intuition and habit**; hers rested on **feeling/desire (revenge)**, evidenced by the remark she wrote in the ANC booklet — *\"Client doubts my competency and feels I will kill her\"* — which shows she was responding to the insult and not to any clinical assessment.\n>\n> It cannot be defended as rational on the ground that the patient had 'lost confidence' in her, because:\n> - the woman arrived **unconscious of any choice, in severe labour, as an emergency**, and never refused her care;\n> - a rational practitioner facing a genuine conflict would have **handed over to a colleague in the same facility**, or treated the emergency first and raised the issue afterwards;\n> - the predictable consequence — **haemorrhage and death in transit** — was foreseeable and was not weighed at all.",
+  "explanation": "## Advanced explanation\n\nEthical decision-making is conventionally divided into **non-rational approaches** (obedience, imitation, feeling or desire, intuition, habit) and **rational approaches** (deontology/duty-based, consequentialism/utilitarianism, principlism, virtue ethics, the ethics of care, casuistry). Non-rational approaches are not always wrong — intuition and habit often produce good conduct quickly — but they are unreliable precisely where emotion is engaged and the stakes are high. Here the **conflict of interest** created by the prior insult should itself have been the trigger for a structured response: declare the conflict, hand over, document, and ensure continuity of care.\n\n## Simplified explanation\n\n**Non-rational** — she acted on **hurt feelings and revenge**, not on a careful weighing of the patient's needs and the likely consequences. A rational response would have been to treat the emergency or hand the patient to a colleague on the spot.",
+  "hint": "Was the decision reasoned, or driven by feeling?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Ethical Decision-Making",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Suggest which **ethical decision-making approach(es)** Ama Kwantsema should have considered in this regard.",
+  "answer": "> [!answer]\n> She should have used a **rational approach**, in particular:\n>\n> 1. **Principlism (the four-principles approach)** — explicitly weighing **beneficence and non-maleficence** (a bleeding woman in severe labour will die without immediate care), **justice** (equal treatment regardless of personal history) and **autonomy** (the patient had made no refusal).\n> 2. **Deontology (duty-based ethics)** — her professional duty of care and the rule that one must never abandon a patient in an emergency are **binding regardless of her feelings** or of the patient's past behaviour; by Kant's test, 'refuse care to patients who have offended me' cannot be willed as a universal rule, and the patient must be treated as an **end in herself**, not as a means of revenge.\n> 3. **Consequentialism/utilitarianism** — weighing outcomes would have shown that referring a haemorrhaging patient risked **death**, against no benefit to anyone.\n> 4. **Virtue ethics and the ethics of care** — asking what a **compassionate, competent and professional midwife** would do, and responding to the woman's immediate need and vulnerability.\n>\n> **Practical course of action:** treat the emergency; if she genuinely felt unable to act objectively, **declare the conflict and hand over immediately to a colleague in the same facility**; refer only on clinical grounds with stabilisation and escort; document factually and raise the earlier incident through the proper complaints channel.",
+  "explanation": "## Advanced explanation\n\nA structured method — gather the facts, identify the ethical problem and the stakeholders, apply the principles, consider the options and their consequences, check against professional codes and law, decide, act and review — converts a reactive response into a defensible one. Emergency obstetric haemorrhage is time-critical, so the hierarchy is clear: stabilise first, resolve the interpersonal issue afterwards. Conflicts of interest are managed by **declaration and handover**, a standard mechanism that would have protected both patient and practitioner.\n\n## Simplified explanation\n\nShe should have **thought it through properly** — using the four principles, her professional duty, the likely consequences, and the question 'what would a good midwife do?' — and then either treated the woman or **handed her straight to a colleague**.",
+  "hint": "Name rational approaches: principlism, deontology, consequentialism, virtue ethics.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Ethical Decision-Making",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FOUR (4) qualities of a professional** and explain any **ONE** of them.",
+  "answer": "> [!answer]\n> Four qualities:\n> 1. **Competence** — the knowledge, skill and judgement to carry out the duties of the profession, and the commitment to keep them up to date.\n> 2. **Respect** — for patients, colleagues and the profession, including respect for patients' rights, dignity and autonomy.\n> 3. **Integrity and trustworthiness (honesty)** — truthfulness, reliability and keeping confidences.\n> 4. **Accountability/responsibility** — answering for one's own decisions and actions and accepting correction.\n>\n> Others: **beneficence/altruism**, confidentiality, objectivity and impartiality, emotional intelligence and self-control, innovativeness, good communication, appropriate appearance and conduct, and commitment to continuing professional development.\n>\n> **Explanation of competence:** a professional must **execute their duties with competence** — that is, possess and apply the specialised knowledge and skills required to perform the work properly and safely, so that the client benefits rather than is harmed. Competence also requires **recognising the limits of one's own ability** and referring beyond them, and **maintaining** that ability through continuing education, supervision and audit, because knowledge dates. Working beyond one's competence, or allowing skills to decay, is itself a breach of professional ethics and a common basis for a finding of negligence.",
+  "explanation": "## Advanced explanation\n\nProfessionalism combines **technical competence** with a set of **character virtues** and a commitment to serve the client's interest above self-interest. The hallmarks of a profession — specialised knowledge, a code of ethics, self-regulation, entry by qualification, and public trust — all presuppose competence; this is why regulatory bodies license practitioners, define scopes of practice and require continuing professional development for re-licensure. The virtues are interdependent: competence without integrity is dangerous, and integrity without competence is useless.\n\n## Simplified explanation\n\nFour qualities: **competence, respect, honesty and accountability**. Competence means you **actually know how to do the job properly**, you **know what you cannot do** and refer it on, and you **keep learning** so your skills stay current.",
+  "hint": "Think skill, respect, honesty, responsibility.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Professional Conduct",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe any **TWO (2) situations** under which **duty of care becomes limited**.",
+  "answer": "> [!answer]\n> 1. **When the practitioner lacks the competence, facilities or resources to provide the care** — the duty is then limited to providing such care as is within competence and to **referring or transferring** the patient promptly to someone who can; the practitioner is not required to perform procedures they are not trained or equipped to do.\n> 2. **When the treatment would be futile or is not clinically indicated** — there is no duty to provide an intervention that cannot benefit the patient (for example resuscitation that cannot succeed, or prescribing an antibiotic for a viral illness on demand); the duty becomes one of palliation, explanation and support.\n> 3. **When the competent patient refuses care or withdraws consent** — the patient's **autonomy** limits the duty; the practitioner may not treat against a valid refusal, and the duty becomes one of explaining the consequences, offering alternatives and remaining available.\n> 4. **When providing care would place the practitioner in serious personal danger** — a violent or armed patient, or an unsafe environment; the practitioner must summon help and secure the scene rather than become a casualty.\n> 5. **Where the law or the setting limits the relationship** — for example an insurance or employment medical examination, where the duty is limited to the assessment and to not causing harm, or where a court order or statute restricts what may be done.\n> 6. **Conscientious objection** to a specific lawful procedure, provided the patient is informed and referred — never in an emergency.",
+  "explanation": "## Advanced explanation\n\nThe duty of care is a **standard of reasonableness, not a guarantee of outcome or an unlimited obligation**. It is bounded by competence (practising beyond it is itself negligence), by clinical indication (futility), by the patient's autonomous refusal, by the practitioner's own safety, and by the defined scope of certain professional encounters. What is **never** limited is the obligation not to abandon a patient without arranging continuity of care, and the duty to provide **emergency** care within one's competence.\n\n## Simplified explanation\n\nThe duty is limited when the task is **beyond your training or your hospital's facilities**, when the treatment **would do no good**, when the **patient refuses**, or when **your own life is in danger** — but you must still refer, explain and never abandon the patient.",
+  "hint": "Competence, futility, refusal, personal danger.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Standard of Care",
+   "2020/21 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Discuss any **TWO (2) areas** from which **conflict or disagreement** about the goals of care is likely to arise in a tertiary hospital, and how such conflicts can be managed.",
+  "answer": "> [!answer]\n> **Areas of conflict**\n> 1. **Between the health team and the patient or family** — over the goals of treatment: insistence on futile treatment or on discharge against advice, refusal of blood transfusion or surgery on religious grounds, refusal of consent for a child, demands for an inappropriate drug or test, disagreement about disclosure of a diagnosis to the patient, or about end-of-life and resuscitation decisions.\n> 2. **Within the health team (inter- and intra-professional)** — doctors, nurses, laboratory scientists, pharmacists and management disagreeing over diagnosis or management plan, over professional boundaries and scope of practice, over hierarchy, duty rosters, conditions of service and remuneration.\n> 3. **Between clinicians and management/administration** — rationing of beds, theatre time, reagents and staff; cost-containment versus clinical need.\n> 4. **Between the hospital and the wider community or payer** — billing, insurance refusals, cultural expectations.\n> 5. **Conflicts of value within the practitioner** — dual loyalty, conscientious objection.\n>\n> **Management of conflict**\n> - **Open, early and respectful communication**, with active listening to all parties, and a formal **family/team meeting** at which goals of care are agreed;\n> - **Clarify the facts and the clinical picture first**, then the values and interests of each side; identify common ground (the patient's welfare);\n> - **Negotiation and mediation** by a neutral senior colleague, and referral to the **hospital ethics committee** for difficult cases;\n> - **Use of policies, protocols and codes of conduct**, and a functioning **grievance/complaints procedure** and disciplinary process for staff disputes;\n> - **Patient advocates, interpreters, chaplains and social workers** to bridge cultural and religious gaps;\n> - **Documentation** of discussions and decisions, with a second opinion where appropriate, and recourse to legal process or the courts only as a last resort;\n> - **Prevention** — team-building, clear job descriptions and lines of reporting, staff training in communication and conflict resolution.",
+  "explanation": "## Advanced explanation\n\nMost disputes about 'the goals of care' are in fact disputes about **values under uncertainty** rather than about facts; they are therefore resolved by a process rather than by an answer. Good process has three stages: **establish the medical facts and the prognosis; elicit the patient's values and goals; then negotiate a plan that is both clinically sound and consistent with those values**. Institutional supports — ethics committees, mediation, second opinions, written policies on futility and on resuscitation — exist to make that process reliable and transparent. Team conflicts additionally require structural remedies: clear scopes of practice, flat enough hierarchies that concerns can be raised safely, and formal grievance machinery.\n\n## Simplified explanation\n\nConflict arises mainly **between staff and patients/families** about what treatment should be given, and **among the staff themselves** about decisions, roles and conditions. It is managed by **talking early and listening, holding proper meetings, using mediation, policies and the ethics committee**, and recording what was agreed.",
+  "hint": "One conflict with the patient's side, one inside the team.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Conflict Management",
+   "2018/19 End of First Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe the importance of **confidentiality in patient management**.",
+  "answer": "> [!answer]\n> 1. **It secures full and honest disclosure.** Patients will only reveal embarrassing or stigmatising information — sexual history, drug use, HIV status, mental illness — if they are confident it will go no further. Accurate history is the basis of correct diagnosis and management.\n> 2. **It builds and maintains trust**, the foundation of the therapeutic relationship, and encourages patients to **seek care early** and to return for follow-up and treatment.\n> 3. **It protects the patient from harm** — stigma, discrimination, loss of employment, insurance or marriage, family breakdown, violence and social rejection that disclosure could cause.\n> 4. **It respects the patient's autonomy, privacy and dignity** — the information is theirs to control.\n> 5. **It protects public health**, since people will only come forward for testing and treatment of communicable diseases if confidentiality is assured.\n> 6. **It protects the practitioner and institution**, since breach of confidence is professional misconduct and actionable in law.",
+  "explanation": "## Advanced explanation\n\nConfidentiality has both **deontological** justification (it respects autonomy and privacy, and keeps an implicit promise) and **consequentialist** justification (without it, patients withhold information or avoid care, worsening individual and population health — demonstrably so in HIV and tuberculosis programmes). It is reinforced in practice by data-protection law, by secure record systems and need-to-know access, by discretion in open wards and corridors, and by careful handling of telephone enquiries, results and relatives' questions. It persists **after the patient's death**.\n\n## Simplified explanation\n\nIf patients know their secrets are safe they will **tell you the truth, come for treatment and come back**. It also **protects them from stigma and discrimination** and shows respect for them as people.",
+  "hint": "What would patients do if they could not trust you?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Confidentiality",
+   "2018/19 End of First Semester Exam"
+  ],
+  "media": []
+ }
+]

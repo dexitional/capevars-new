@@ -1,0 +1,358 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nForward typing ...\n\nA. Use patient serum\nB. Use reagent red blood cells\nC. Identifies antigens on red blood cells\nD. Are optional in neonates",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Use patient serum | **F** | Reverse (serum) typing uses the patient's serum/plasma. |\n| B. Use reagent red blood cells | **F** | Reagent A₁ and B cells are used in reverse typing. |\n| C. Identifies antigens on red blood cells | **T** | Patient's cells are tested with anti-A, anti-B (± anti-AB, anti-D). |\n| D. Are optional in neonates | **F** | Forward typing is always done; it is **reverse** typing that is omitted in neonates. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Forward (cell) grouping** tests the patient's **red cells** with known antisera (anti-A, anti-B) to detect **antigens**. **Reverse (serum) grouping** tests the patient's **serum/plasma** with known reagent A₁ and B cells to detect the expected **antibodies**. In neonates (<4 months) ABO antibodies are absent or maternal (IgG), so only forward grouping is done.\n\n## Simplified explanation\n\nForward typing looks for antigens on the patient's red cells using antisera. Reverse typing (patient's serum + reagent cells) is the one skipped in newborns.",
+  "hint": "Forward = cells; reverse = serum.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "ABO Grouping",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nDuring haemoglobin synthesis ...\n\nA. Globin chain synthesis occurs in mitochondria\nB. Haem is produced from the combination of porphobilinogen and Fe²⁺\nC. Succinyl CoA is a co-enzyme for the formation of δ-aminolaevulinic acid\nD. Fe²⁺ binds directly to iron pocket in the globin chain",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Globin chain synthesis occurs in mitochondria | **F** | Globin is made on **cytoplasmic ribosomes**. |\n| B. Haem is produced from the combination of porphobilinogen and Fe²⁺ | **F** | Haem = **protoporphyrin IX** + Fe²⁺ (by ferrochelatase). |\n| C. Succinyl CoA is a co-enzyme for the formation of δ-aminolaevulinic acid | **F** | Succinyl CoA is a **substrate**; the co-enzyme is **pyridoxal phosphate** (vitamin B6). |\n| D. Fe²⁺ binds directly to iron pocket in the globin chain | **F** | Fe²⁺ is inserted into protoporphyrin to form haem; it links to globin through the proximal histidine within the haem pocket. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHaem synthesis starts in the **mitochondrion**: glycine + **succinyl CoA** → δ-ALA (ALA synthase, cofactor **pyridoxal-5'-phosphate**). ALA moves to the cytosol → porphobilinogen → uroporphyrinogen → coproporphyrinogen; back in the mitochondrion → protoporphyrinogen → **protoporphyrin IX**; **ferrochelatase** inserts Fe²⁺ to form haem. **Globin** chains are translated on cytoplasmic ribosomes, and each haem sits in a hydrophobic pocket of a globin chain, its iron coordinated to the proximal histidine (F8).\n\n## Simplified explanation\n\nGlobin is made in the cytoplasm; haem is protoporphyrin plus iron; succinyl CoA is a building block (B6 is the coenzyme). All four statements are false.",
+  "hint": "Substrate vs coenzyme; PBG vs protoporphyrin.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemoglobin Synthesis",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBombay blood type ...\n\nA. Caused by lack A gene\nB. Caused by lack of B gene product\nC. Lack expression of H-substance on red blood cells\nD. Secrete anti-AB antibodies in plasma",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Caused by lack A gene | **F** | Bombay individuals may inherit normal A or B genes. |\n| B. Caused by lack of B gene product | **F** | The defect is in the H (FUT1) gene, not the B gene. |\n| C. Lack expression of H-substance on red blood cells | **T** | Homozygous hh: no H antigen, so A and B cannot be made. |\n| D. Secrete anti-AB antibodies in plasma | **T** | Their plasma contains anti-A, anti-B and potent anti-H. |\n\n> [!answer]\n> **A F, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\n**Bombay phenotype (Oh)** results from homozygous inactivation of **FUT1 (h/h)** and **FUT2 (se/se)**, so no H antigen is made on red cells or in secretions. Since H is the precursor for A and B, the cells type as O even if A/B genes are present. The plasma contains **anti-A, anti-B and anti-H**, which react with all normal red cells, so these patients can only receive **Bombay blood**.\n\n## Simplified explanation\n\nBombay people lack H substance, so they can't make A or B antigens, and their plasma has anti-A, anti-B and anti-H.",
+  "hint": "H is the precursor for A and B.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "ABO Blood Group System",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe compositions of various haemoglobin chains include ...\n\nA. Hb F composed of α₂δ₂\nB. Portland haemoglobin made of ζ₂ε₂\nC. Hb A composed of α₂β₂\nD. Gower 2 composed of α₂γ₂",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Hb F composed of α₂δ₂ | **F** | Hb F is **α₂γ₂**; α₂δ₂ is Hb A₂. |\n| B. Portland haemoglobin made of ζ₂ε₂ | **F** | Portland is **ζ₂γ₂**; ζ₂ε₂ is Gower 1. |\n| C. Hb A composed of α₂β₂ | **T** | Adult haemoglobin. |\n| D. Gower 2 composed of α₂γ₂ | **F** | Gower 2 is **α₂ε₂**. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n| Hb | Chains | Stage |\n|---|---|---|\n| Gower 1 | ζ₂ε₂ | Embryo |\n| Gower 2 | α₂ε₂ | Embryo |\n| Portland | ζ₂γ₂ | Embryo |\n| F | α₂γ₂ | Fetus (adult <1%) |\n| A | α₂β₂ | Adult ~97% |\n| A₂ | α₂δ₂ | Adult 2–3.5% |\n\n## Simplified explanation\n\nOnly Hb A (α₂β₂) is correct. Hb F is α₂γ₂, Portland is ζ₂γ₂ and Gower 2 is α₂ε₂.",
+  "hint": "Learn the chain table.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Haemoglobin Types",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhen selecting ABO type blood for patients ...\n\nA. Bombay blood is universal donor\nB. Bombay individuals are universal recipients\nC. Blood group O can receive blood from Bombay individuals\nD. Blood group AB individuals cannot receive blood from group O individuals due to the presence of anti-AB antibodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Bombay blood is universal donor | **T** | Bombay red cells lack H, A and B antigens, so ABO antibodies of any recipient will not react with them. |\n| B. Bombay individuals are universal recipients | **F** | They have anti-H and can receive only Bombay blood. |\n| C. Blood group O can receive blood from Bombay individuals | **T** | Bombay cells lack H, so the recipient's antibodies have no target. |\n| D. Blood group AB individuals cannot receive blood from group O individuals due to the presence of anti-AB antibodies | **F** | AB recipients can receive group O red cells; the donor's antibodies are largely removed in red cell concentrates. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nRed cell compatibility depends on the **recipient's antibodies** against **donor antigens**. Bombay (Oh) red cells carry no A, B or H, so they are compatible with any ABO recipient (although Bombay blood is too rare to be used this way). Bombay recipients have anti-A, anti-B and **anti-H**, which react with every non-Bombay cell, including group O, so they can receive only Bombay blood. Group O red cells can be given to AB recipients.\n\n## Simplified explanation\n\nBombay red cells have no ABO antigens, so anyone's antibodies ignore them. But Bombay people can receive only Bombay blood, and AB people can receive group O red cells.",
+  "hint": "Look at the recipient's antibodies and the donor's antigens.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "ABO Blood Group System",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe ABO blood group typing of patient Ama Akosua produced the reaction tabulated below [\"+\" means agglutination; \"0\" means no agglutination/haemolysis].\n\n| Anti-A | Anti-B | A-cell | B-cell | O-cell |\n|---|---|---|---|---|\n| 2+ | 1+ | 0 | 0 | 2+ |\n\n(Anti-A and anti-B = forward typing; A, B and O cells = reverse typing.)\n\nThe inferences that could be drawn from these reaction patterns include ...\n\nA. The patient is blood group AB when considering forward typing\nB. Patient is blood group AB when considering reverse typing\nC. Overall, the patient belongs to Bombay blood group\nD. This patient is producing anti-O antibodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. The patient is blood group AB when considering forward typing | **T** | Cells react with both anti-A and anti-B. |\n| B. Patient is blood group AB when considering reverse typing | **T** | No reaction with A or B cells: no anti-A/anti-B, as expected for AB. |\n| C. Overall, the patient belongs to Bombay blood group | **F** | Bombay cells would not react with anti-A/anti-B, and Bombay serum would agglutinate A and B cells. |\n| D. This patient is producing anti-O antibodies | **F** | There is no 'O antigen'; reaction with O cells points to anti-H (e.g. in A₁B) or an alloantibody/cold autoantibody. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nForward and reverse groupings both give **AB**. The reaction with **O cells**, which carry abundant H antigen, indicates an extra antibody: **anti-H** (A₁ and A₁B people have little H and may form cold anti-H), an **alloantibody** to another antigen on the O cells, or a **cold autoantibody**. It is resolved with an antibody screen/identification and an autocontrol at different temperatures. Group O cells have no 'O antigen', so there is no anti-O.\n\n## Simplified explanation\n\nBoth forward and reverse typing say AB. The O-cell reaction means there is another antibody (often anti-H), not 'anti-O' and not Bombay.",
+  "hint": "O cells are rich in H antigen.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "ABO Grouping",
+   "ABO Discrepancies",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nClinically significant antibodies ...\n\nA. Are all IgG types\nB. Reacts best at 4°C\nC. Are all non-RBC stimulated\nD. Are all alloantibodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Are all IgG types | **F** | Some IgM antibodies, notably anti-A and anti-B, are highly significant. |\n| B. Reacts best at 4°C | **F** | Clinically significant antibodies react at **37 °C**. |\n| C. Are all non-RBC stimulated | **F** | Most are immune antibodies stimulated by transfusion or pregnancy. |\n| D. Are all alloantibodies | **F** | Autoantibodies (e.g. warm AIHA) can also be clinically significant. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nA **clinically significant** antibody is one that can shorten red cell survival (haemolytic transfusion reaction) or cause HDFN. Such antibodies are generally **active at 37 °C** (IgG, or complement-binding IgM). Examples: anti-A, anti-B (IgM, naturally occurring), anti-D, -c, -E, -K, -Fyᵃ, -Jkᵃ. Cold-reacting antibodies (anti-M, -N, -P1, -Leᵃ at 4 °C) are usually not significant.\n\n## Simplified explanation\n\nDangerous antibodies work at body temperature. They can be IgM or IgG, natural or immune, and allo- or auto-antibodies. Every statement says 'all', so all are false.",
+  "hint": "Watch the word 'all'.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Antibodies",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPatient A has [Hb] of 8.5 g/dl, whereas patient B has [Hb] of 17.6 g/dl. The implications include ...\n\nA. ESR of patient A will be greater than patient B\nB. The ratio of PCV of patient A to patient B will be >1\nC. The ratio of the ESR of patient A to patient B will be <1\nD. The ESR of patient A will be <15 mm fall per hour",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. ESR of patient A will be greater than patient B | **T** | Anaemia raises the ESR; polycythaemia lowers it. |\n| B. The ratio of PCV of patient A to patient B will be >1 | **F** | Patient A's PCV is lower, so the ratio is <1. |\n| C. The ratio of the ESR of patient A to patient B will be <1 | **F** | A's ESR is higher, so the ratio is >1. |\n| D. The ESR of patient A will be <15 mm fall per hour | **F** | Anaemia tends to raise the ESR; a normal value cannot be assumed. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nESR depends on rouleaux formation and on red cell concentration. In **anaemia** (low Hct) red cells fall faster because there is less upward plasma flow and less crowding, so ESR **rises**; in **polycythaemia** (high Hct) ESR is very **low**. PCV tracks Hb, so A's PCV is lower than B's.\n\n## Simplified explanation\n\nFewer red cells sink faster, so the anaemic patient A has the higher ESR and the lower PCV.",
+  "hint": "Low Hct → higher ESR.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythrocyte Sedimentation Rate",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe age of a patient is important consideration in interpretation of haematology results; normally ...\n\nA. PCV of neonates is lower than PCV of a 5-year-old child\nB. ESR of a pregnant woman is lower than her pre-pregnant ESR\nC. Reticulocyte count of a neonate is lower than an adolescent girl\nD. The ratio of the PCV of a 40 year old man to the PCV of a 40 year old woman is = 1",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. PCV of neonates is lower than PCV of a 5-year-old child | **F** | Neonates have a **high** PCV (~0.45–0.65). |\n| B. ESR of a pregnant woman is lower than her pre-pregnant ESR | **F** | ESR **rises** in pregnancy (fibrinogen ↑, Hct ↓). |\n| C. Reticulocyte count of a neonate is lower than an adolescent girl | **F** | Neonates have a **higher** reticulocyte count (2–6%). |\n| D. The ratio of the PCV of a 40 year old man to the PCV of a 40 year old woman is = 1 | **F** | Men have a higher PCV (androgens), so the ratio is >1. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nAge and physiological state change haematology reference values: **neonates**: high Hb, PCV, MCV and reticulocytes (fall to a nadir at ~2 months); **children**: lower Hb/MCV than adults; **adult men**: higher Hb/PCV than women (testosterone stimulates EPO); **pregnancy**: dilutional fall in Hb/PCV and a raised ESR.\n\n## Simplified explanation\n\nNewborns have a high PCV and many reticulocytes, pregnancy raises the ESR, and men have a higher PCV than women. All four are false.",
+  "hint": "Think of newborn blood and sex differences.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Reference Ranges",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the functions of the following reagents as used in the preparation of Drabkin's reagent:\n\n- KCN\n- K₃Fe(CN)₆\n- KH₂PO₄",
+  "media": [],
+  "answer": "| Reagent | Function |\n|---|---|\n| **KCN** (potassium cyanide) | Supplies cyanide ions that combine with methaemoglobin (haemiglobin) to form stable **haemiglobincyanide (HiCN)** |\n| **K₃Fe(CN)₆** (potassium ferricyanide) | **Oxidises** haemoglobin iron from Fe²⁺ to Fe³⁺, converting Hb to **methaemoglobin (Hi)** |\n| **KH₂PO₄** (potassium dihydrogen phosphate) | **Buffer** that keeps the pH at ~7.0–7.4, so conversion is complete within 3–5 min |\n\n> [!answer]\n> KCN → forms HiCN; ferricyanide → oxidises Hb to methaemoglobin; KH₂PO₄ → buffer (speeds the reaction). (A non-ionic detergent is also added to lyse cells and reduce turbidity.)",
+  "explanation": "## Advanced explanation\n\nModified Drabkin's (ICSH) reagent: K₃Fe(CN)₆ 200 mg, KCN 50 mg, KH₂PO₄ 140 mg, non-ionic detergent 1 ml, water to 1 L, pH 7.0–7.4. Hb + ferricyanide → Hi; Hi + CN⁻ → HiCN, read at **540 nm**. The phosphate (instead of bicarbonate) shortens conversion time from ~10 to ~3 minutes.\n\n## Simplified explanation\n\nFerricyanide changes Hb to methaemoglobin, cyanide turns that into stable cyanmethaemoglobin, and phosphate keeps the pH right so the reaction is fast.",
+  "hint": "Oxidise, then bind cyanide, at a set pH.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Haemoglobin Estimation",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two (2) reasons why the International Committee for Standardisation in Haematology (ICSH) has selected the haemoglobincyanide method as the reference method for haemoglobin measurement.",
+  "media": [],
+  "answer": "Any two:\n\n- It measures **all forms of haemoglobin** (oxyHb, deoxyHb, carboxyHb, methaemoglobin) except sulphaemoglobin.\n- **HiCN is stable**, so a **stable international reference standard** is available for calibration.\n- HiCN has a **broad absorbance peak at 540 nm**, so measurements can be made on simple filter photometers as well as spectrophotometers, and it obeys Beer-Lambert's law.\n- It is accurate and reproducible.\n\n> [!answer]\n> Measures all Hb derivatives (except SHb) and has a stable, available reference standard.",
+  "explanation": "## Advanced explanation\n\nThe ICSH reference method converts Hb to HiCN, whose absorbance at 540 nm (millimolar extinction coefficient 11.0) is compared with a certified HiCN standard. Drawbacks: cyanide toxicity, slow conversion of HbCO, turbidity from lipaemia/high WBC/abnormal globulins.\n\n## Simplified explanation\n\nCyanmethaemoglobin captures nearly every type of haemoglobin, and there's a stable standard to check it against.",
+  "hint": "Think 'all forms' and 'stable standard'.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Haemoglobin Estimation",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In one sentence explain why packed cell volume (PCV) is not numerically the same as haematocrit (HCT).",
+  "media": [],
+  "answer": "**PCV** is measured directly by **centrifuging** blood and includes a small amount of **trapped plasma** (~1–3%) between the packed cells, whereas the **haematocrit** from an analyser is **calculated** (MCV × RBC count) without trapped plasma, so the two values differ slightly.\n\n> [!answer]\n> PCV is a centrifuged (measured) value including trapped plasma; Hct is a calculated value (MCV × RBC).",
+  "explanation": "## Advanced explanation\n\nMicrohaematocrit centrifugation (~10,000–12,000 g for 5 min) leaves ~1–3% plasma trapped, more in conditions with rigid or abnormally shaped cells (sickle cells, spherocytes, thalassaemia), making PCV slightly higher than the automated Hct. Automated Hct = (MCV × RBC)/10 depends on accurate MCV measurement (impedance pulse height).\n\n## Simplified explanation\n\nPCV is measured by spinning blood and includes a little trapped plasma; Hct from a machine is calculated from cell size and number.",
+  "hint": "Measured vs calculated.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Packed Cell Volume",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In one sentence explain why manual PCV measurement may offer more advantages than automated Hct estimates as a red blood cell index.",
+  "media": [],
+  "answer": "Manual PCV is a **direct, simple and inexpensive measurement** (the reference method) that does not depend on the analyser's measurement of **MCV and RBC count**, so it is not affected by errors in those values (e.g. red cell agglutination, osmotic swelling/shrinkage of cells in the diluent in hyperglycaemia or hypernatraemia, calibration drift) and is used to check or calibrate analyser Hct.\n\n> [!answer]\n> It is a direct (reference) measurement, independent of analyser-derived MCV and RBC count and their errors.",
+  "explanation": "## Advanced explanation\n\nICSH's reference method for PCV is microhaematocrit centrifugation. Automated Hct errors: cold agglutinins (falsely low RBC, wrong MCV), hyperosmolar plasma (cells swell in isotonic diluent → falsely high MCV/Hct), very high WBC, and calibration issues. Manual PCV also allows direct observation of the buffy coat and plasma colour (jaundice, haemolysis, lipaemia).\n\n## Simplified explanation\n\nSpinning blood measures the red cell volume directly, so mistakes in machine-measured cell size or count don't affect it.",
+  "hint": "Direct measurement vs derived value.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Packed Cell Volume",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences explain why albumin-to-globulin ratio is the most critical factor that determines value of erythrocyte sedimentation rate (ESR) of a patient.",
+  "media": [],
+  "answer": "Red cells are negatively charged and normally repel each other (zeta potential); **albumin** retards rouleaux formation, whereas **fibrinogen and globulins** (large, asymmetric, positively charged acute-phase/immunoglobulin proteins) **neutralise the negative charge** and promote **rouleaux**. Rouleaux sediment much faster than single cells, so when the albumin:globulin ratio **falls** (inflammation, myeloma), rouleaux increase and the **ESR rises**.\n\n> [!answer]\n> Plasma proteins control rouleaux formation: globulins/fibrinogen promote it, albumin opposes it, so a low A:G ratio raises ESR.",
+  "explanation": "## Advanced explanation\n\nStokes' law: sedimentation velocity ∝ particle radius²; rouleaux behave as larger particles. Plasma factors (fibrinogen > globulins, especially IgM/paraproteins) dominate the ESR; red cell factors (anaemia ↑ ESR; polycythaemia, sickle cells, spherocytes ↓ ESR) and technical factors (tube tilt, temperature, delay) modify it.\n\n## Simplified explanation\n\nGlobulins make red cells stack into rouleaux that sink fast; albumin stops this. So less albumin and more globulin means a higher ESR.",
+  "hint": "Rouleaux sink faster than single cells.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythrocyte Sedimentation Rate",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State one (1) advantage of employing cellulose acetate electrophoresis method instead of solubility filtration assay when investigating haemoglobin disorders.",
+  "media": [],
+  "answer": "Cellulose acetate electrophoresis **separates and identifies several haemoglobin variants** (e.g. Hb A, S, C, F, A₂) and can show whether a person is **heterozygous (AS) or homozygous (SS)** or a compound heterozygote (SC), whereas the solubility test only detects the **presence of Hb S** (or other sickling Hbs) and cannot tell AS from SS.\n\n> [!answer]\n> It separates and identifies multiple Hb variants and distinguishes AS from SS; solubility only detects HbS.",
+  "explanation": "## Advanced explanation\n\nAlkaline (pH 8.4–8.6) cellulose acetate electrophoresis separates Hb by charge: from cathode to anode, A₂/C/E/O → S/D/G → F → A. It also allows semiquantitation (e.g. A₂ elevation needs quantification by HPLC or microcolumn). The solubility test (sodium dithionite + phosphate buffer) gives turbidity with Hb S but false negatives in infants (high HbF) and false positives with hyperlipidaemia or paraproteins.\n\n## Simplified explanation\n\nElectrophoresis shows which haemoglobins are there (A, S, C, F...), so you can tell sickle trait from sickle cell disease. The solubility test just says whether HbS is present.",
+  "hint": "One test identifies, the other only screens.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Haemoglobinopathies",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two quality control measures to be employed when using spectrophotometer to estimate haemoglobin concentration.",
+  "media": [],
+  "answer": "Any two:\n\n- **Calibrate** with a certified **HiCN reference standard** and prepare a calibration curve/factor.\n- Zero the instrument with a **reagent blank** (Drabkin's reagent).\n- Run **commercial control material** (normal and abnormal) with each batch and plot on a **Levey-Jennings chart**.\n- Check **wavelength (540 nm)**, use clean, scratch-free matched cuvettes, and ensure the reagent is clear and not expired (no turbidity).\n- Use calibrated pipettes and confirm complete conversion time (3–5 min).\n\n> [!answer]\n> e.g. calibration with HiCN standard and zeroing with a reagent blank (also run controls, check wavelength/cuvettes).",
+  "explanation": "## Advanced explanation\n\nInternal quality control covers calibration (HiCN standard, linearity check), daily controls with Westgard rules, instrument checks (wavelength accuracy, stray light, photometric linearity), reagent checks (absorbance of Drabkin's should be ~0 at 540 nm, pale yellow and clear), and participation in external quality assessment (EQA).\n\n## Simplified explanation\n\nCalibrate with a known standard, blank with the reagent, and run control samples each time.",
+  "hint": "Standard, blank, controls.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Haemoglobin Estimation",
+   "Quality Control",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "MLS Akwasi Mintah is to count the WBC of Mrs Gifty Acheampong using Turk's fluid (diluent). MLS Mintah drew 3 ml of venous blood following standard protocols. If the dilution of blood to diluent is 1 in 25, explain how this could be practically achieved.",
+  "media": [],
+  "answer": "A 1 in 25 dilution means **1 volume of blood in a total of 25 volumes**, i.e. 1 part blood + 24 parts diluent.\n\n- Using a calibrated micropipette, add e.g. **20 µl of well-mixed EDTA blood** to **480 µl of Turk's fluid** (total 500 µl), or **40 µl blood + 960 µl Turk's fluid** (total 1 ml).\n- Rinse the pipette tip in the diluent, mix gently but thoroughly, and allow ~2–3 min for red cell lysis before charging the counting chamber.\n\n> [!answer]\n> 1 part blood + 24 parts Turk's fluid, e.g. 20 µl blood + 480 µl Turk's fluid.",
+  "explanation": "## Advanced explanation\n\nTurk's fluid (2% acetic acid tinted with gentian violet) lyses red cells and stains leucocyte nuclei. The traditional WBC dilution is 1 in 20 (20 µl + 380 µl); the count is then: WBC/µl = (cells counted × dilution factor) / (area counted (mm²) × depth 0.1 mm). Only a small volume of the 3 ml sample is needed.\n\n## Simplified explanation\n\n1 in 25 means 1 part blood in 25 parts total: e.g. 20 µl of blood into 480 µl of Turk's fluid.",
+  "hint": "'1 in 25' counts the blood as part of the 25.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Manual Cell Counts",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The three consecutive Westergren ESR values for Esi Arthur (20 years) are given in the table.\n\n| ESR | Date |\n|---|---|\n| 10 mm fall/hour | January 1, 2019 |\n| 35 mm fall/hour | February 10, 2019 |\n| 60 mm fall/hour | March 16, 2019 |\n\n(I) Interpret the ESR.\n\n(II) State what two (2) scenarios could account for this trend in the ESR for the same patient in the three-month period.\n\n(III) Briefly explain how each of the scenarios stated in (II) might result in such ESR values for this patient.",
+  "media": [],
+  "answer": "**(I)** In January the ESR (10 mm/h) was **normal** for a young woman (up to ~20 mm/h); it then became **raised** (35 mm/h) and **progressively increased** (60 mm/h), showing a developing process.\n\n**(II)** Any two: **pregnancy**; a developing **infection/inflammatory disease** (e.g. tuberculosis, connective tissue disease); **progressive anaemia**; malignancy.\n\n**(III)**\n\n- **Pregnancy**: plasma **fibrinogen and globulins rise** progressively and haemodilution lowers the Hct, both promoting rouleaux and faster sedimentation.\n- **Infection/inflammation**: cytokines (IL-6) induce **acute-phase proteins** (fibrinogen, α₂-globulins) and immunoglobulins increase; these neutralise red cell surface charge, increase rouleaux and raise the ESR as the disease progresses.\n- **Anaemia**: fewer red cells (low Hct) sediment faster.\n\n> [!answer]\n> Normal ESR becoming progressively raised; e.g. pregnancy or progressing inflammation/infection, both raising fibrinogen/globulins → rouleaux → faster sedimentation.",
+  "explanation": "## Advanced explanation\n\nWestergren ESR upper limits: women <50 y ~20 mm/h; men <50 y ~15 mm/h (rough rule: men age/2, women (age+10)/2). ESR rises from the first trimester to ~40–70 mm/h near term. It is non-specific, but serial ESRs are useful to monitor progress of diseases such as TB, temporal arteritis, polymyalgia rheumatica and myeloma.\n\n## Simplified explanation\n\nHer ESR started normal and kept rising, so something is building up: e.g. she became pregnant or has a worsening infection/inflammation. Both raise fibrinogen/globulins, which make red cells stack and sink faster.",
+  "hint": "What raises fibrinogen over months in a 20-year-old woman?",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Erythrocyte Sedimentation Rate",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The full blood count of Professor Addae is given below.\n\n| Parameter | Count |\n|---|---|\n| RBC count (×10¹²/L) | 6.02 |\n| WBC count (×10⁹/L) | 4.3 |\n| Platelet count (×10⁹/L) | 216 |\n| PCV (%) | 39.9 |\n| Hb (g/dl) | 11.8 |\n| RDW (CV) | 14.3 |\n\n(I) Calculate MCV (reference range: 80–98 fL)\n(II) Calculate MCH (reference range: 27–32 pg)\n(III) Calculate MCHC\n(IV) Interpret the indices calculated in (I) and (II) above\n(V) Calculate the Mentzer index for this patient\n(VI) Interpret the Mentzer index calculated in (V) above\n(VII) Calculate Ehsani (\"Eshani\") index\n(VIII) Calculate RDWI\n(IX) Calculate the Srivastava index",
+  "media": [],
+  "answer": "| Index | Calculation | Result |\n|---|---|---|\n| (I) MCV | PCV (L/L) ÷ RBC × 1000 = 0.399 ÷ 6.02 × 1000 | **66.3 fL** |\n| (II) MCH | Hb (g/L) ÷ RBC = 118 ÷ 6.02 | **19.6 pg** |\n| (III) MCHC | Hb ÷ PCV = 11.8 ÷ 0.399 | **29.6 g/dL** (296 g/L) |\n| (V) Mentzer | MCV ÷ RBC = 66.3 ÷ 6.02 | **11.0** |\n| (VII) Ehsani | MCV − (10 × RBC) = 66.3 − 60.2 | **6.1** |\n| (VIII) RDWI | MCV × RDW ÷ RBC = 66.3 × 14.3 ÷ 6.02 | **157.5** |\n| (IX) Srivastava | MCH ÷ RBC = 19.6 ÷ 6.02 | **3.26** |\n\n**(IV)** MCV < 80 fL and MCH < 27 pg: **microcytic, hypochromic** red cells (with a low MCHC), with a mild anaemia but a **raised RBC count**.\n\n**(VI)** Mentzer index **< 13** suggests **thalassaemia trait** rather than iron deficiency (>13). The Ehsani (<15), RDWI (<220) and Srivastava (<3.8) indices all agree, favouring **β-thalassaemia trait**; confirm with Hb A₂ quantification and iron studies.\n\n> [!answer]\n> MCV 66.3 fL, MCH 19.6 pg, MCHC 29.6 g/dL (microcytic hypochromic); Mentzer 11.0 (thal trait likely), Ehsani 6.1, RDWI 157.5, Srivastava 3.26.",
+  "explanation": "## Advanced explanation\n\nIn **thalassaemia trait**, the marrow produces many small cells (RBC high, MCV very low) with relatively uniform size (RDW near normal); in **iron deficiency**, the RBC count falls in proportion and RDW rises. Discriminant functions exploit this: **Mentzer** MCV/RBC (<13 thal), **Ehsani** MCV − 10×RBC (<15 thal), **RDWI** MCV×RDW/RBC (<220 thal), **Srivastava** MCH/RBC (<3.8 thal). They screen only; diagnosis requires HbA₂ (>3.5% in β-thal trait) and ferritin.\n\n## Simplified explanation\n\nHis red cells are small and pale but there are lots of them. All the screening indices point to thalassaemia trait rather than iron deficiency.",
+  "hint": "MCV = PCV/RBC; MCH = Hb/RBC; MCHC = Hb/PCV.",
+  "difficulty": "medium",
+  "marks": 26,
+  "tags": [
+   "Red Cell Indices",
+   "Discriminant Indices",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In undertaking the platelet count of a patient, 60 µl of EDTA-anticoagulated whole blood was mixed with 340 µl of the diluent.\n\n(I) What is the dilution factor?\n\n(II) If the raw count was 29 × 10⁹/l, what will be the total platelet count of this patient?",
+  "media": [],
+  "answer": "**(I)** Total volume = 60 + 340 = 400 µl. Dilution = 60/400 = 1 in 6.67, so the **dilution factor = 400 ÷ 60 = 6.67**.\n\n**(II)** Platelet count = 29 × 10⁹/l × 6.67 = **193 × 10⁹/l** (within the normal range of 150–400 × 10⁹/l).\n\n> [!answer]\n> Dilution factor 6.67; platelet count ≈ 193 × 10⁹/l.",
+  "explanation": "## Advanced explanation\n\nDilution factor = total volume ÷ sample volume. The true concentration = observed (raw) concentration × dilution factor. (For a standard manual platelet count using 1% ammonium oxalate, a 1 in 20 dilution is typical.)\n\n## Simplified explanation\n\nAdd the volumes (400 µl), divide by the blood (60 µl) to get 6.67, then multiply the raw count by 6.67.",
+  "hint": "Dilution factor = total ÷ sample.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Manual Cell Counts",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Microhaematocrit tubes were set up for three patients, A, B and C. After centrifugation, the total length of the blood column in each tube was **9 mm**. The packed red cell column measured **4 mm** for patient A, **2 mm** for patient B and **6.4 mm** for patient C.\n\n(I) What is the PCV for each patient?\n\n(II) Interpret the PCV for each patient if the reference range is 40–55%.",
+  "media": [],
+  "answer": "PCV = length of red cell column ÷ total length of blood column × 100.\n\n| Patient | Calculation | PCV | Interpretation |\n|---|---|---|---|\n| A | 4 ÷ 9 × 100 | **44.4%** | **Normal** (within 40–55%) |\n| B | 2 ÷ 9 × 100 | **22.2%** | **Low**: anaemia (severe) |\n| C | 6.4 ÷ 9 × 100 | **71.1%** | **High**: polycythaemia/erythrocytosis (or haemoconcentration) |\n\n> [!answer]\n> A 44.4% (normal), B 22.2% (anaemia), C 71.1% (polycythaemia).",
+  "explanation": "## Advanced explanation\n\nIn the microhaematocrit method, the tube is spun (~12,000 g, 5 min) and read with a reader or ruler: red cell column (excluding the buffy coat) divided by the total column (cells + plasma). A high PCV may be true polycythaemia (primary PV or secondary to hypoxia/EPO) or relative (dehydration).\n\n## Simplified explanation\n\nDivide the red part by the whole column: A 44% (normal), B 22% (low, anaemia), C 71% (high, polycythaemia).",
+  "hint": "Red cell column ÷ total column.",
+  "difficulty": "easy",
+  "marks": 12,
+  "tags": [
+   "Packed Cell Volume",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A senior MLS undertook a calibration exercise for a newly installed spectrophotometer intended to be used for manual haemoglobin estimation. The results obtained using a reference haemoglobincyanide (HiCN) standard of concentration 16.8 g/dl are tabulated below.\n\n| Tube | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| HiCN standard (ml) | 5 | 4 | 3 | 2 | 1 | 0 |\n| Drabkin reagent (ml) | 0 | 1 | 2 | 3 | 4 | 5 |\n| Absorbance | 0.84 | 0.67 | 0.51 | 0.34 | 0.17 | 0 |\n\n(A) Plot a calibration graph of concentration (g/dL) on the y-axis against absorbance on the x-axis.\n(B) Use your calibration graph to determine the concentration of appropriately diluted patient samples with absorbance 0.72.\n(C) Use your calibration graph to determine the concentration of appropriately diluted patient samples with absorbance 0.26.\n(D) Use your calibration graph to determine the concentration of appropriately diluted patient sample with absorbance 1.30.",
+  "media": [],
+  "answer": "**(A)** Concentration in each tube = 16.8 × (ml standard ÷ 5):\n\n| Tube | A | B | C | D | E | F |\n|---|---|---|---|---|---|---|\n| Hb (g/dL) | 16.8 | 13.44 | 10.08 | 6.72 | 3.36 | 0 |\n| Absorbance | 0.84 | 0.67 | 0.51 | 0.34 | 0.17 | 0 |\n\nPlotting these gives a **straight line through the origin** (Beer-Lambert law) with slope ≈ 16.8 ÷ 0.84 = **20 g/dL per absorbance unit**.\n\n**(B)** 0.72 × 20 ≈ **14.4 g/dL**.\n\n**(C)** 0.26 × 20 ≈ **5.2 g/dL**.\n\n**(D)** 1.30 lies **outside the calibration range** (highest standard 0.84), so it cannot be read reliably from the graph (extrapolation would suggest ~26 g/dL, but linearity is not proven there). The sample should be **further diluted** (e.g. 1 in 2 with Drabkin's reagent), re-read within the linear range, and the result multiplied by the extra dilution factor.\n\n> [!answer]\n> Line through origin, slope ≈ 20 g/dL per unit; 0.72 → ~14.4 g/dL; 0.26 → ~5.2 g/dL; 1.30 → beyond the linear range: dilute further and re-measure (not ~26 g/dL by extrapolation).",
+  "explanation": "## Advanced explanation\n\nA calibration graph is valid only within the range of standards used. Linearity of the spectrophotometer must be checked across the expected range; samples above the top standard are diluted and re-assayed, not extrapolated, because absorbance may deviate from linearity at high values (stray light, detector limits).\n\n## Simplified explanation\n\nWork out each standard's concentration, plot them (a straight line where each 0.1 absorbance ≈ 2 g/dL), then read off the patients. 1.30 is off the end of the graph, so dilute and re-test.",
+  "hint": "Concentration of each tube = 16.8 × fraction of standard.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Haemoglobin Estimation",
+   "Calibration",
+   "2017/18 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The full blood count of Mr Denis Appiatu read as follows: RBC count (4.44 × 10¹²/L), haemoglobin (9.7 g/dL), Hct (0.297), RDW (18.3), WBC (12.0 × 10⁹/L).\n\n(A) Determine whether the red cells are hypochromic or normochromic.\n(B) Determine whether the red cells are microcytic, normocytic or macrocytic.\n(C) Calculate the Mentzer index.",
+  "media": [],
+  "answer": "**(A)** MCH = Hb (g/L) ÷ RBC = 97 ÷ 4.44 = **21.8 pg** (< 27 pg): **hypochromic**. (MCHC = 9.7 ÷ 0.297 = 32.7 g/dL.)\n\n**(B)** MCV = Hct ÷ RBC × 1000 = 0.297 ÷ 4.44 × 1000 = **66.9 fL** (< 80 fL): **microcytic**.\n\n**(C)** Mentzer index = MCV ÷ RBC = 66.9 ÷ 4.44 = **15.1** (> 13), which, with the high RDW (18.3), favours **iron deficiency anaemia** over thalassaemia trait.\n\n> [!answer]\n> Hypochromic (MCH 21.8 pg), microcytic (MCV 66.9 fL); Mentzer index 15.1 (suggests iron deficiency).",
+  "explanation": "## Advanced explanation\n\nMCH reflects the amount of Hb per cell and is the index usually used to define hypochromia; MCHC falls later in iron deficiency. A raised RDW (anisocytosis) plus Mentzer > 13 supports iron deficiency; confirm with serum ferritin.\n\n## Simplified explanation\n\nHis red cells are small (MCV 67) and carry little Hb (MCH 22). Mentzer 15 points to iron deficiency.",
+  "hint": "MCH = Hb/RBC; MCV = Hct/RBC.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Red Cell Indices",
+   "Discriminant Indices",
+   "2017/18 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The full blood count of Mr Denis Cobbinah read as follows: RBC count (6.3 × 10¹²/L), haemoglobin (19.2 g/dL), Hct (0.582), RDW (19.9), WBC (16.8 × 10⁹/L).\n\n(A) Determine whether the red cells are hypochromic or normochromic.\n(B) Determine whether the red cells are microcytic, normocytic or macrocytic.\n(C) Calculate the Srivastava index.",
+  "media": [],
+  "answer": "**(A)** MCH = 192 ÷ 6.3 = **30.5 pg**; MCHC = 19.2 ÷ 0.582 = **33.0 g/dL**: both normal, so **normochromic**.\n\n**(B)** MCV = 0.582 ÷ 6.3 × 1000 = **92.4 fL**: **normocytic**.\n\n**(C)** Srivastava index = MCH ÷ RBC = 30.5 ÷ 6.3 = **4.8** (> 3.8, i.e. not suggestive of thalassaemia trait).\n\n> [!answer]\n> Normochromic (MCH 30.5 pg, MCHC 33.0 g/dL), normocytic (MCV 92.4 fL); Srivastava index 4.8. (High Hb/Hct/RBC: erythrocytosis/polycythaemia picture.)",
+  "explanation": "## Advanced explanation\n\nRaised Hb (19.2 g/dL), Hct (0.58) and RBC with normal indices indicate **erythrocytosis**; with leucocytosis it raises the question of polycythaemia vera (check JAK2 V617F, EPO) versus secondary causes (hypoxia, EPO-secreting tumour) or relative polycythaemia.\n\n## Simplified explanation\n\nHis cells are normal in size and colour, just too many of them. Srivastava index = 30.5/6.3 ≈ 4.8.",
+  "hint": "Srivastava = MCH ÷ RBC.",
+  "difficulty": "medium",
+  "marks": 15,
+  "tags": [
+   "Red Cell Indices",
+   "Discriminant Indices",
+   "2017/18 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The full blood count of Mr Denis Cobbinah read as follows: RBC count (2.7 × 10¹²/L), haemoglobin (9.3 g/dL), Hct (0.257), WBC (12.5 × 10⁹/L), RDW (21.2).\n\n(A) Determine whether the red cells are hypochromic or normochromic.\n(B) Determine whether the red cells are microcytic, normocytic or macrocytic.",
+  "media": [],
+  "answer": "**(A)** MCH = 93 ÷ 2.7 = **34.4 pg**; MCHC = 9.3 ÷ 0.257 = **36.2 g/dL**. The cells are **not hypochromic**; they are **normochromic** (MCHC at the upper limit; MCH slightly high because the cells are relatively large). A MCHC above ~36 g/dL should prompt a check for spherocytes or an analytical artefact.\n\n**(B)** MCV = 0.257 ÷ 2.7 × 1000 = **95.2 fL**: **normocytic** (high-normal).\n\n> [!answer]\n> Normochromic (MCH 34.4 pg, MCHC 36.2 g/dL), normocytic (MCV 95.2 fL) anaemia with raised RDW.",
+  "explanation": "## Advanced explanation\n\nA normocytic normochromic anaemia with high RDW suggests a mixed picture (e.g. combined iron and folate/B12 deficiency), haemolysis with reticulocytosis, or recent bleeding; review the blood film and reticulocyte count.\n\n## Simplified explanation\n\nMCV 95 is normal size, and the cells are not pale, so this is a normocytic, normochromic anaemia.",
+  "hint": "Calculate MCV and MCH/MCHC first.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Red Cell Indices",
+   "2017/18 Practical Exam"
+  ]
+ }
+]

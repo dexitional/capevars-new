@@ -1,0 +1,1410 @@
+[
+ {
+  "type": "text",
+  "body": "In a study of hypoglycaemic shock, cellular changes in the brain were analysed. One cell type in the hippocampus was noted to exhibit intense cytoplasmic eosinophilia, central chromatolysis, spheroidal swellings and nuclear pyknosis. These changes appear 12 hours after blood glucose levels drop below 20 mg/dL. The following cell types are most likely to exhibit these features.\n\na. Astrocytes\nb. Endothelial cells\nc. Microglia\nd. Neurons\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Astrocytes | **F** | Astrocytes react later (gliosis). |\n| b. Endothelial cells | **F** | Not the described changes. |\n| c. Microglia | **F** | Microglia respond by phagocytosis. |\n| d. Neurons | **T** | 'Red (eosinophilic) neurons' with pyknosis are the hallmark of hypoxic/hypoglycaemic injury. |\n\n> [!answer]\n> a F, b F, c F, d T.",
+  "explanation": "## Advanced explanation\n\nNeurons are the most vulnerable cells to hypoxia and hypoglycaemia (e.g. hippocampal CA1 pyramidal cells). Within 12–24 h they become **'red neurons'**: shrunken, intensely **eosinophilic cytoplasm**, loss of Nissl substance (chromatolysis) and **pyknotic nuclei**.\n\n## Simplified explanation\n\nRed, shrunken cells with pyknotic nuclei after hypoglycaemia are **neurons**.",
+  "hint": "Red neurons.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In neuropathology, haematoxylin and eosin remains a useful staining technique for the demonstration of most cells; however, the application of the following techniques is more reliable.\n\na. Histochemistry\nb. Immunohistochemistry\nc. Cytochemistry\nd. Cytogenetics\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Histochemistry | **F** | Not considered more reliable than IHC here. |\n| b. Immunohistochemistry | **T** | Cell-specific markers (GFAP, NeuN, synaptophysin, CD68) identify cell types reliably. |\n| c. Cytochemistry | **F** | Not the answer. |\n| d. Cytogenetics | **F** | Detects chromosomal changes, not cell identity in sections. |\n\n> [!answer]\n> a F, b T, c F, d F.",
+  "explanation": "## Advanced explanation\n\nIn neuropathology, **immunohistochemistry** with cell-specific antibodies – GFAP (astrocytes), NeuN/neurofilament/synaptophysin (neurons), Olig2 (oligodendroglia), CD68/Iba1 (microglia), β-amyloid, tau, α-synuclein – identifies cells and lesions far more reliably than H&E or classical silver/dye methods.\n\n## Simplified explanation\n\n**IHC** identifies brain cell types more reliably than H&E.",
+  "hint": "Antibody markers.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The following components generally contain the various subcellular organelles responsible for the metabolic upkeep of the neuronal cell.\n\na. The nucleus\nb. The cytoplasm\nc. Cell body\nd. The axon\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. The nucleus | **F** | The nucleus is itself an organelle; it does not contain the others. |\n| b. The cytoplasm | **T** | The organelles lie in the cytoplasm. |\n| c. Cell body | **T** | The perikaryon contains nucleus, Nissl substance, Golgi and mitochondria. |\n| d. The axon | **F** | The axon lacks Nissl substance and Golgi; it relies on the cell body. |\n\n> [!answer]\n> a F, b T, c T, d F.",
+  "explanation": "## Advanced explanation\n\nThe **cell body (perikaryon)** – the nucleus plus surrounding **cytoplasm** – contains the organelles for neuronal metabolism: rough ER (Nissl substance), Golgi, mitochondria, neurofilaments. Axons lack ribosomes/Nissl and depend on axonal transport from the cell body.\n\n## Simplified explanation\n\nThe organelles live in the **cell body cytoplasm**.",
+  "hint": "Perikaryon.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuron Structure",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Complexes or structures of cell processes responsible for receiving synaptic inputs from other neurons are classified as follows.\n\na. Axons\nb. Cell body\nc. Dendrites\nd. Myelin sheath\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Axons | **F** | Axons conduct impulses away from the cell body. |\n| b. Cell body | **F** | The cell body can receive some synapses, but it is not a process. |\n| c. Dendrites | **T** | Dendrites are the receptive processes. |\n| d. Myelin sheath | **F** | Insulates axons. |\n\n> [!answer]\n> a F, b F, c T, d F.",
+  "explanation": "## Advanced explanation\n\n**Dendrites** are branched processes specialised to **receive synaptic input** and conduct it towards the cell body. The single **axon** conducts impulses away to other cells; the **myelin sheath** insulates axons.\n\n## Simplified explanation\n\nInputs are received by **dendrites**.",
+  "hint": "Receiving processes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Neuron Structure",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The following are among the naturally occurring pigments (cellular waste products) that may be observed to accumulate in the brain of the aged.\n\na. Haemosiderin\nb. Neuromelanin\nc. Neurolipofuscin\nd. Lipofuscin\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Haemosiderin | **F** | Results from haemorrhage, not normal ageing. |\n| b. Neuromelanin | **T** | Accumulates with age in substantia nigra and locus coeruleus. |\n| c. Neurolipofuscin | **F** | Not a recognised pigment name. |\n| d. Lipofuscin | **T** | The 'wear-and-tear' age pigment in neurons. |\n\n> [!answer]\n> a F, b T, c F, d T.",
+  "explanation": "## Advanced explanation\n\nWith ageing, neurons accumulate **lipofuscin** (wear-and-tear pigment from lipid peroxidation in lysosomes) and **neuromelanin** (in catecholaminergic neurons of the substantia nigra and locus coeruleus). **Haemosiderin** indicates previous haemorrhage.\n\n## Simplified explanation\n\nAged brains collect **lipofuscin** and **neuromelanin**.",
+  "hint": "Age pigments.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Pigments",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The maintenance of balance between the extracellular ion and neurotransmitter balance, repair and scarring responses to brain damage and protection of the brain from harmful bloodborne substances are the responsibilities of the following cells.\n\na. Oligodendroglia\nb. Microglia\nc. Astrocytes\nd. Ependymal\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Oligodendroglia | **F** | Form CNS myelin. |\n| b. Microglia | **F** | Phagocytic/immune cells. |\n| c. Astrocytes | **T** | Buffer K⁺, take up glutamate, form glial scars and support the blood–brain barrier. |\n| d. Ependymal | **F** | Line ventricles. |\n\n> [!answer]\n> a F, b F, c T, d F.",
+  "explanation": "## Advanced explanation\n\n**Astrocytes** regulate extracellular K⁺ and neurotransmitters (glutamate uptake), form **glial scars (gliosis)** after injury, and their end-feet surround capillaries, contributing to the **blood–brain barrier**.\n\n## Simplified explanation\n\nIon balance, scarring and the blood–brain barrier = **astrocytes**.",
+  "hint": "Star-shaped glia.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Glial Cells",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In neuropathology, a whole brain is fixed to achieve which of the following purposes?\n\na. To make it firm enough to investigate the neuroanatomy\nb. To be able to produce sections for possible immunochemistry\nc. To enhance the accessibility of the brain pigments\nd. To be able to produce sections for histopathology\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. To make it firm enough to investigate the neuroanatomy | **T** | Fresh brain is too soft to slice. |\n| b. To be able to produce sections for possible immunochemistry | **T** | Fixed tissue is processed for IHC. |\n| c. To enhance the accessibility of the brain pigments | **F** | Not a purpose of fixation. |\n| d. To be able to produce sections for histopathology | **T** | Fixed tissue is sampled for histology. |\n\n> [!answer]\n> a T, b T, c F, d T.",
+  "explanation": "## Advanced explanation\n\nThe fresh brain is very soft, so it is **fixed whole (usually 2–3 weeks in formalin)** to make it **firm enough for slicing and examining neuroanatomy**, and to allow blocks to be taken for **histology and IHC**.\n\n## Simplified explanation\n\nFixing the brain firms it up for slicing and allows histology and IHC.",
+  "hint": "Fresh brain is soft.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Brain Fixation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A whole brain tissue that requires urgent (less than two weeks) processing may be fixed using the following fixation techniques.\n\na. The traditional immersion method\nb. Frozen method\nc. Perfusion method\nd. A combination of perfusion and immersion method\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. The traditional immersion method | **F** | Immersion takes 2–3 weeks or more. |\n| b. Frozen method | **F** | Not a fixation technique for the whole brain. |\n| c. Perfusion method | **T** | Fixative perfused through the vessels fixes the brain quickly. |\n| d. A combination of perfusion and immersion method | **T** | Perfusion then immersion speeds fixation. |\n\n> [!answer]\n> a F, b F, c T, d T.",
+  "explanation": "## Advanced explanation\n\n**Immersion** of a whole brain in formalin takes weeks because fixative penetrates slowly. **Perfusion** of fixative through the cerebral arteries (often followed by immersion) fixes the brain from within, allowing slicing within days.\n\n## Simplified explanation\n\nFor speed, **perfuse** fixative through the brain's vessels (with or without immersion).",
+  "hint": "Fix from inside.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Brain Fixation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The Mallory phosphotungstic acid haematoxylin (PTAH) stain is a suitable staining technique for the demonstration of the following structures.\n\na. Myelin sheath\nb. Astrocytes\nc. Neurofibrillary tangles\nd. Glial fibres\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Myelin sheath | **F** | Use Luxol fast blue etc. |\n| b. Astrocytes | **F** | Their glial fibres stain, but the answer expected is glial fibres. |\n| c. Neurofibrillary tangles | **F** | Use silver or tau IHC. |\n| d. Glial fibres | **T** | PTAH stains glial fibres blue. |\n\n> [!answer]\n> a F, b F, c F, d T.",
+  "explanation": "## Advanced explanation\n\n**PTAH** stains **glial fibres** (and fibrin, muscle cross-striations) **blue**, with collagen brick-red. It is a classical method for gliosis.\n\n## Simplified explanation\n\nPTAH shows **glial fibres**.",
+  "hint": "Mallory's PTAH.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology Stains",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the neuropathology laboratory, the Holzer method is suitable for the demonstration of the following.\n\na. Gliosis\nb. Astrocytes\nc. Glial fibres\nd. Myelin sheath\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Gliosis | **T** | Holzer's crystal violet shows glial fibres in gliosis. |\n| b. Astrocytes | **F** | Not the cell bodies as such. |\n| c. Glial fibres | **T** | Glial fibres stain violet. |\n| d. Myelin sheath | **F** | Not a myelin stain. |\n\n> [!answer]\n> a T, b F, c T, d F.",
+  "explanation": "## Advanced explanation\n\n**Holzer's method** (crystal violet) demonstrates **glial fibres**, and is therefore used to show **gliosis** (astrocytic scarring).\n\n## Simplified explanation\n\nHolzer = **glial fibres / gliosis**.",
+  "hint": "Glial fibre stain.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology Stains",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Staining techniques for the demonstration of neurons and their features are generally grouped as follows.\n\na. Glial cells and processes stains\nb. Myelin sheath stains\nc. Neuronal cell bodies and processes stains\nd. Satellite cells stains\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Glial cells and processes stains | **T** | One group. |\n| b. Myelin sheath stains | **T** | One group. |\n| c. Neuronal cell bodies and processes stains | **T** | One group (Nissl, silver methods). |\n| d. Satellite cells stains | **F** | Not a recognised group. |\n\n> [!answer]\n> a T, b T, c T, d F.",
+  "explanation": "## Advanced explanation\n\nClassical neurohistological stains are grouped into those for **neuronal cell bodies and processes** (Nissl stains, silver impregnation for axons/neurofibrils), **myelin** (Luxol fast blue, Weil, Marchi) and **glia** (PTAH, Holzer, Cajal gold sublimate).\n\n## Simplified explanation\n\nStains are for neurons, myelin and glia.",
+  "hint": "Three groups.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology Stains",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Myelin sheath may **not** be present on the following.\n\na. Astrocytes\nb. Axons\nc. Dendrites\nd. Oligodendrocytes\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Astrocytes | **T** | Astrocytes are not myelinated. |\n| b. Axons | **F** | Many axons are myelinated. |\n| c. Dendrites | **T** | Dendrites are unmyelinated. |\n| d. Oligodendrocytes | **T** | They form myelin around axons but are not themselves myelinated. |\n\n> [!answer]\n> a T, b F, c T, d T.",
+  "explanation": "## Advanced explanation\n\nMyelin wraps **axons** (formed by oligodendrocytes in the CNS and Schwann cells in the PNS). **Dendrites**, **astrocytes** and the oligodendrocyte cell bodies themselves are not myelinated.\n\n## Simplified explanation\n\nOnly axons carry myelin.",
+  "hint": "What does myelin wrap?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuron Structure",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the application of Cresyl fast violet (Nissl) stain for paraffin wax sections, the following fixatives can be used to preserve the tissue.\n\na. 10% neutral buffered formalin\nb. Zenker's solution\nc. Carnoy's solution\nd. Alcohol\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. 10% neutral buffered formalin | **T** | Routine and suitable. |\n| b. Zenker's solution | **F** | Not the recommended fixative. |\n| c. Carnoy's solution | **T** | Alcohol-based fixatives give crisp Nissl staining. |\n| d. Alcohol | **T** | Suitable. |\n\n> [!answer]\n> a T, b F, c T, d T.",
+  "explanation": "## Advanced explanation\n\nNissl substance (rough ER/ribosomal RNA) is well preserved by **formalin** and especially by **alcohol-based fixatives (alcohol, Carnoy's)**, which give sharp basophilic staining with cresyl fast violet.\n\n## Simplified explanation\n\nFormalin, Carnoy's and alcohol work for Nissl stains.",
+  "hint": "Nucleic acid preservation.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Nissl Stains",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A man in his mid-70s has a history of transient attacks of loss of vision. The only abnormalities on physical examination are bruits over the carotids in the neck. Two days later he suddenly becomes paralysed and loses consciousness. A CT scan showed evidence of cerebral infarction. He dies 5 days later. At autopsy there was an area of necrosis and microscopically these lesions were noted to have increased numbers of cells distributed around the central zone of necrosis. The following cell types are most likely to have a phagocytic function in these lesions.\n\na. Astrocytes\nb. Ependymal cells\nc. Microglia\nd. Oligodendroglia\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Astrocytes | **F** | Form the glial scar later. |\n| b. Ependymal cells | **F** | Line ventricles. |\n| c. Microglia | **T** | Microglia/macrophages phagocytose necrotic debris (foamy 'gitter' cells). |\n| d. Oligodendroglia | **F** | Form myelin. |\n\n> [!answer]\n> a F, b F, c T, d F.",
+  "explanation": "## Advanced explanation\n\nFrom about day 3–5 after infarction, **microglia** and blood-derived macrophages infiltrate the necrotic zone and phagocytose lipid-rich myelin debris, becoming foamy **gitter cells**; astrocytic gliosis follows around the edge.\n\n## Simplified explanation\n\nBrain scavengers = **microglia**.",
+  "hint": "CNS macrophages.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuropathology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The following cells function in scar formation by proliferation of cell processes and the formation of an area of gliosis.\n\na. Astrocytes\nb. Ependymal\nc. Microglia\nd. Oligodendrocytes\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Astrocytes | **T** | Reactive astrocytes form the glial scar. |\n| b. Ependymal | **F** | Not responsible. |\n| c. Microglia | **F** | Phagocytic. |\n| d. Oligodendrocytes | **F** | Myelin forming. |\n\n> [!answer]\n> a T, b F, c F, d F.",
+  "explanation": "## Advanced explanation\n\n**Gliosis** is the CNS equivalent of scarring: **reactive astrocytes** become hypertrophic, proliferate and extend GFAP-rich processes to form a glial scar.\n\n## Simplified explanation\n\n**Astrocytes** make the brain's scar.",
+  "hint": "Gliosis.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Glial Cells",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The principal components of the central nervous system include the following EXCEPT...\n\na. Neurons\nb. Glial cells\nc. Meninges\nd. Blood vessels\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Neurons | **F** | A principal component, so not an exception. |\n| b. Glial cells | **F** | A principal component. |\n| c. Meninges | **F** | A principal component (coverings). |\n| d. Blood vessels | **F** | A principal component. |\n\n> [!answer]\n> a F, b F, c F, d F.",
+  "explanation": "## Advanced explanation\n\nThe CNS consists of **neurons**, **glial cells**, **blood vessels** and the covering **meninges** (with CSF). All are principal components, so none is an exception (all 'F').\n\n## Simplified explanation\n\nAll four belong to the CNS, so none is an exception.",
+  "hint": "All are components.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuroanatomy",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Neurones can be classified into the following based on their structure:\n\nA. Axon\nB. Bipolar\nC. Multipolar\nD. Tripolar\nE. Unipolar\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Axon | **F** | A part of a neuron, not a class. |\n| B. Bipolar | **T** | One axon and one dendrite (retina, olfactory). |\n| C. Multipolar | **T** | Most common (motor neurons, interneurons). |\n| D. Tripolar | **F** | Not a recognised class. |\n| E. Unipolar | **T** | (Pseudo)unipolar sensory neurons of dorsal root ganglia. |\n\n> [!answer]\n> A F, B T, C T, D F, E T.",
+  "explanation": "## Advanced explanation\n\nStructural classes of neurons by number of processes: **multipolar** (many dendrites, one axon), **bipolar** (one dendrite, one axon), **unipolar/pseudounipolar** (single process that divides) and anaxonic.\n\n## Simplified explanation\n\nNeurons are multipolar, bipolar or unipolar.",
+  "hint": "Count the processes.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuron Structure",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The cell body comprises:\n\nA. Axon\nB. Dendrites\nC. Myelin sheath\nD. Nissl substance\nE. Nucleus\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Axon | **F** | A process, not part of the cell body. |\n| B. Dendrites | **F** | Processes. |\n| C. Myelin sheath | **F** | Wraps the axon. |\n| D. Nissl substance | **T** | Rough ER in the perikaryon. |\n| E. Nucleus | **T** | The cell body contains the nucleus. |\n\n> [!answer]\n> A F, B F, C F, D T, E T.",
+  "explanation": "## Advanced explanation\n\nThe **cell body (perikaryon/soma)** contains the large nucleus with prominent nucleolus and cytoplasm with **Nissl substance** (rough ER), Golgi, mitochondria and neurofilaments. Axons and dendrites are processes arising from it.\n\n## Simplified explanation\n\nCell body = **nucleus + Nissl substance** (not the processes).",
+  "hint": "Perikaryon.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuron Structure",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Which of the following is responsible for cerebrospinal fluid production:\n\nA. Astrocytes\nB. Axon\nC. Choroid plexus\nD. Nissl substance\nE. Schwann cells\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Astrocytes | **F** | Not CSF producers. |\n| B. Axon | **F** | No. |\n| C. Choroid plexus | **T** | Choroid plexus epithelium secretes CSF. |\n| D. Nissl substance | **F** | No. |\n| E. Schwann cells | **F** | PNS myelin. |\n\n> [!answer]\n> A F, B F, C T, D F, E F.",
+  "explanation": "## Advanced explanation\n\nCSF is secreted mainly by the **choroid plexus** – modified ependymal epithelium over vascular tufts in the ventricles (~500 mL/day) – and absorbed by arachnoid granulations.\n\n## Simplified explanation\n\nCSF is made by the **choroid plexus**.",
+  "hint": "In the ventricles.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ZN stain was first described by German doctor(s) between 1859 and 1926. They were:\n\n(I) Faraday-Neelsen\n(II) Franz Ziehl\n(III) Newton-Ziel\n(IV) Friedrich Neelsen",
+  "media": [],
+  "options": [
+   {
+    "text": "I only",
+    "hint": "Not a real name."
+   },
+   {
+    "text": "II only",
+    "hint": "Only half of the pair."
+   },
+   {
+    "text": "III only",
+    "hint": "Not a real name."
+   },
+   {
+    "text": "I & II",
+    "hint": "I is not real."
+   },
+   {
+    "text": "II & IV",
+    "hint": "Correct. Franz Ziehl (bacteriologist) and Friedrich Neelsen (pathologist)."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Ziehl–Neelsen.",
+  "explanation": "## Advanced explanation\n\nThe **Ziehl–Neelsen** acid-fast stain is named after **Franz Ziehl** (who introduced carbolic acid as mordant) and **Friedrich Neelsen** (who used basic fuchsin) in the 1880s.\n\n## Simplified explanation\n\nZN = **Franz Ziehl and Friedrich Neelsen**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The following are clearing agents:\n\nA. 10% neutral buffered formalin\nB. Benzene\nC. Chloroform\nD. Toluene\nE. Xylene\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. 10% neutral buffered formalin | **F** | A fixative. |\n| B. Benzene | **T** | Clearing agent (carcinogenic). |\n| C. Chloroform | **T** | Clearing agent. |\n| D. Toluene | **T** | Clearing agent. |\n| E. Xylene | **T** | The commonest clearing agent. |\n\n> [!answer]\n> A F, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nClearing agents are miscible with both alcohol and paraffin wax and make tissue translucent: **xylene, toluene, benzene, chloroform**, cedarwood oil, limonene. Formalin is a fixative.\n\n## Simplified explanation\n\nAll except formalin are clearing agents.",
+  "hint": "Which one is a fixative?",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Clearing",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In Cajal's silver staining technique, the following structures appear black in the final results:\n\nA. Axons\nB. Dendrites\nC. Myelin\nD. Neurofibrils\nE. Nissl substance\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Axons | **T** | Neurofibrils within axons are blackened. |\n| B. Dendrites | **T** | Neurofibrils within dendrites are blackened. |\n| C. Myelin | **F** | Myelin is not stained. |\n| D. Neurofibrils | **T** | The target of the method. |\n| E. Nissl substance | **F** | Shown by basic dyes, not silver. |\n\n> [!answer]\n> A T, B T, C F, D T, E F.",
+  "explanation": "## Advanced explanation\n\n**Cajal's reduced silver** method impregnates **neurofibrils**, which run through the cell body, **axons and dendrites**, staining them black/brown-black. Myelin and Nissl substance are not demonstrated.\n\n## Simplified explanation\n\nCajal's silver blackens neurofibrils in axons and dendrites.",
+  "hint": "Neurofibrils.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuropathology Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fixation:\n\nA. Hardens the tissue\nB. Increases affinity of tissues to stain\nC. Prevents putrefaction and autolysis\nD. Softens the tissue\nE. Supports the tissue, to facilitate cutting\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Hardens the tissue | **T** | Fixatives harden tissue. |\n| B. Increases affinity of tissues to stain | **T** | Fixation makes tissue receptive to dyes (some act as mordants). |\n| C. Prevents putrefaction and autolysis | **T** | Its main aim. |\n| D. Softens the tissue | **F** | It hardens. |\n| E. Supports the tissue, to facilitate cutting | **F** | That is the role of embedding. |\n\n> [!answer]\n> A T, B T, C T, D F, E F.",
+  "explanation": "## Advanced explanation\n\nFixation **prevents autolysis and putrefaction**, preserves structure, **hardens** tissue and renders it **receptive to staining** (some fixatives also act as mordants). Support for sectioning comes from **embedding**.\n\n## Simplified explanation\n\nFixation preserves, hardens and helps staining; embedding gives support.",
+  "hint": "Fixation vs embedding.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Fixation of fresh tissue is essential to:\n\nA. Clear the sections\nB. Keep the cells alive\nC. Prevent deterioration\nD. Remove water\nE. Replace alcohol\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Clear the sections | **F** | Clearing is a later step. |\n| B. Keep the cells alive | **F** | Fixation kills cells. |\n| C. Prevent deterioration | **T** | Stops autolysis and decay. |\n| D. Remove water | **F** | That is dehydration. |\n| E. Replace alcohol | **F** | That is clearing. |\n\n> [!answer]\n> A F, B F, C T, D F, E F.",
+  "explanation": "## Advanced explanation\n\nFixation kills cells and stabilises their components so that they do not **deteriorate** by autolysis or bacterial decay.\n\n## Simplified explanation\n\nFixing stops the tissue **going bad**.",
+  "hint": "Its main purpose.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In dehydration of a tissue we use different grades of:\n\nA. Alcohol\nB. Formaldehyde\nC. Haematoxylin\nD. Paraffin wax\nE. Xylol\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Alcohol | **T** | Graded ethanol (50–100%). |\n| B. Formaldehyde | **F** | A fixative. |\n| C. Haematoxylin | **F** | A stain. |\n| D. Paraffin wax | **F** | Infiltration/embedding medium. |\n| E. Xylol | **F** | Clearing agent, used at full strength. |\n\n> [!answer]\n> A T, B F, C F, D F, E F.",
+  "explanation": "## Advanced explanation\n\nDehydration uses **ascending grades of alcohol** (e.g. 50, 70, 90, 100%) to remove water gradually.\n\n## Simplified explanation\n\nDehydration = graded **alcohols**.",
+  "hint": "Graded series.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Dehydration",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The aim of dehydration is to:\n\nA. Add water to the tissue\nB. Add paraffin to the tissue\nC. Prevent postmortem decomposition\nD. Remove paraffin from the tissue\nE. Remove water from the tissue\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Add water to the tissue | **F** | Opposite. |\n| B. Add paraffin to the tissue | **F** | That is infiltration. |\n| C. Prevent postmortem decomposition | **F** | That is fixation. |\n| D. Remove paraffin from the tissue | **F** | That is dewaxing. |\n| E. Remove water from the tissue | **T** | Dehydration removes water. |\n\n> [!answer]\n> A F, B F, C F, D F, E T.",
+  "explanation": "## Advanced explanation\n\n**Dehydration** removes water (fixative-water) from tissue so that it can be cleared and infiltrated with wax, which is immiscible with water.\n\n## Simplified explanation\n\nDehydration **removes water**.",
+  "hint": "De-hydrate.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Dehydration",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Clearing is done by placing the tissues in:\n\nA. Benzol\nB. Bouin\nC. Susa\nD. Xylol\nE. Zenker\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Benzol | **T** | Benzene – a clearing agent. |\n| B. Bouin | **F** | A fixative. |\n| C. Susa | **F** | A fixative (Heidenhain's Susa). |\n| D. Xylol | **T** | Xylene – the commonest clearing agent. |\n| E. Zenker | **F** | A fixative. |\n\n> [!answer]\n> A T, B F, C F, D T, E F.",
+  "explanation": "## Advanced explanation\n\nClearing agents: **xylol (xylene)**, **benzol (benzene)**, toluene, chloroform. **Bouin's, Susa and Zenker's** are compound fixatives.\n\n## Simplified explanation\n\nClear in **xylol or benzol**; the others are fixatives.",
+  "hint": "Fixatives vs clearants.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Clearing",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The most commonly used basic dye(s) is/are...\n\nA. Eosin\nB. Haematoxylin\nC. PAS\nD. Methylene blue\nE. Toluidine blue\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Eosin | **F** | An acid dye. |\n| B. Haematoxylin | **T** | The haematein–metal lake acts as a basic (nuclear) dye. |\n| C. PAS | **F** | A histochemical reaction, not a basic dye. |\n| D. Methylene blue | **T** | A cationic thiazine dye. |\n| E. Toluidine blue | **T** | A cationic thiazine dye (metachromatic). |\n\n> [!answer]\n> A F, B T, C F, D T, E T.",
+  "explanation": "## Advanced explanation\n\n**Basic (cationic) dyes** stain acidic (basophilic) structures such as nuclei: methylene blue, toluidine blue, thionine, azures, crystal violet; **haematoxylin** (as an aluminium lake) behaves as a basic nuclear dye. **Eosin** is acidic; PAS is a chemical reaction.\n\n## Simplified explanation\n\nBasic dyes: haematoxylin, methylene blue, toluidine blue.",
+  "hint": "Nuclear stains.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Staining Principles",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The most commonly used acidic dye(s) is/are...\n\nA. Eosin\nB. Haematoxylin\nC. Methylene blue\nD. PAS\nE. Toluidine blue\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Eosin | **T** | Anionic xanthene dye. |\n| B. Haematoxylin | **F** | Acts as a basic dye with a mordant. |\n| C. Methylene blue | **F** | Basic. |\n| D. PAS | **F** | A reaction. |\n| E. Toluidine blue | **F** | Basic. |\n\n> [!answer]\n> A T, B F, C F, D F, E F.",
+  "explanation": "## Advanced explanation\n\n**Acid (anionic) dyes** stain basic (acidophilic) structures such as cytoplasm: **eosin**, acid fuchsin, orange G, picric acid, light green.\n\n## Simplified explanation\n\nThe common acid dye is **eosin**.",
+  "hint": "Cytoplasmic stain.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Staining Principles",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Vital stain is...\n\nA. Staining of dead tissue outside the body\nB. Staining of a living cell inside the body\nC. Staining of a living cell outside the body\nD. Staining of a dead tissue inside the body\nE. Staining all parts of the cell apart from the nucleus\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Staining of dead tissue outside the body | **F** | Ordinary (post-vital) staining. |\n| B. Staining of a living cell inside the body | **T** | Dye injected into the living organism (e.g. trypan blue, lithium carmine). |\n| C. Staining of a living cell outside the body | **F** | That is supravital staining. |\n| D. Staining of a dead tissue inside the body | **F** | Not the definition. |\n| E. Staining all parts of the cell apart from the nucleus | **F** | Not the definition. |\n\n> [!answer]\n> A F, B T, C F, D F, E F.",
+  "explanation": "## Advanced explanation\n\n**Intravital (vital) staining**: dye is introduced into the living body and taken up by living cells (e.g. trypan blue by macrophages). **Supravital** staining stains living cells removed from the body (e.g. reticulocytes with new methylene blue).\n\n## Simplified explanation\n\nVital = living cells **inside** the body.",
+  "hint": "Vital vs supravital.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Staining Principles",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Metachromasia:\n\nA. Staining of a tissue by the colour of the original stain\nB. Staining of a tissue by a colour different from the original stain\nC. Staining of granules of mast cells by a red colour after toluidine blue\nD. Staining of phagocytic cells by trypan blue\nE. Staining all parts of the cell\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Staining of a tissue by the colour of the original stain | **F** | That is orthochromasia. |\n| B. Staining of a tissue by a colour different from the original stain | **T** | Definition of metachromasia. |\n| C. Staining of granules of mast cells by a red colour after toluidine blue | **T** | Classic example (red-purple). |\n| D. Staining of phagocytic cells by trypan blue | **F** | Vital staining. |\n| E. Staining all parts of the cell | **F** | Not the definition. |\n\n> [!answer]\n> A F, B T, C T, D F, E F.",
+  "explanation": "## Advanced explanation\n\n**Metachromasia**: certain tissue components (mast cell granules, cartilage matrix, some mucins, amyloid) stain a **different colour from the dye solution**, e.g. **red-purple with blue toluidine blue**, due to dye stacking on closely spaced anionic groups.\n\n## Simplified explanation\n\nMetachromasia = stains a **different colour** from the dye, e.g. mast cells red with toluidine blue.",
+  "hint": "Colour change.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Staining Principles",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Paraffin sections are cut (for the light microscope) at",
+  "media": [],
+  "options": [
+   {
+    "text": "5 to 8 Å",
+    "hint": "Far too thin."
+   },
+   {
+    "text": "5 to 8 nm",
+    "hint": "EM range is 50–100 nm."
+   },
+   {
+    "text": "5 to 8 µm",
+    "hint": "Correct. Micrometres."
+   },
+   {
+    "text": "5 to 8 mm",
+    "hint": "Far too thick."
+   },
+   {
+    "text": "5 to 8 cm",
+    "hint": "Far too thick."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Micro-tome.",
+  "explanation": "## Advanced explanation\n\nRoutine paraffin sections are cut at about **3–8 µm** (micrometres) on a rotary microtome. Ultrathin EM sections are 50–100 nm.\n\n## Simplified explanation\n\nParaffin sections are a few **micrometres** thick.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microtomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is/are used to make fat visible...",
+  "media": [],
+  "options": [
+   {
+    "text": "Eosin",
+    "hint": "Cytoplasmic dye."
+   },
+   {
+    "text": "Haematoxylin",
+    "hint": "Nuclear dye."
+   },
+   {
+    "text": "Mallory stain",
+    "hint": "Connective tissue stain."
+   },
+   {
+    "text": "Sudan III",
+    "hint": "Correct. A lysochrome for lipids (orange-red)."
+   },
+   {
+    "text": "Toluidine blue",
+    "hint": "Metachromatic basic dye."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Sudan dyes.",
+  "explanation": "## Advanced explanation\n\nFats are shown with **lysochromes** – Sudan III, Sudan IV, Oil red O, Sudan black B – on frozen sections.\n\n## Simplified explanation\n\n**Sudan III** stains fat.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The purpose of the microscope is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Clearing",
+    "hint": "Tissue processing step."
+   },
+   {
+    "text": "Fixation",
+    "hint": "Tissue processing step."
+   },
+   {
+    "text": "Mounting",
+    "hint": "Slide preparation step."
+   },
+   {
+    "text": "Resolution",
+    "hint": "Correct. The microscope resolves and magnifies detail."
+   },
+   {
+    "text": "Staining",
+    "hint": "Slide preparation step."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Seeing fine detail.",
+  "explanation": "## Advanced explanation\n\nA microscope **magnifies** and, most importantly, **resolves** – separates two close points as distinct – to reveal fine detail.\n\n## Simplified explanation\n\nA microscope gives **resolution** (and magnification).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Silver stain is specific to show",
+  "media": [],
+  "options": [
+   {
+    "text": "Collagen fibres",
+    "hint": "Van Gieson/trichrome."
+   },
+   {
+    "text": "Elastic fibres",
+    "hint": "Elastic stains."
+   },
+   {
+    "text": "Fat cells",
+    "hint": "Lipid stains."
+   },
+   {
+    "text": "Myelin sheath",
+    "hint": "Myelin stains."
+   },
+   {
+    "text": "Reticular fibres",
+    "hint": "Correct. Reticular fibres are argyrophilic."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Argyrophilic fibres.",
+  "explanation": "## Advanced explanation\n\n**Reticular fibres** (type III collagen) are **argyrophilic** and are demonstrated by **silver impregnation** (Gordon & Sweets, Gomori).\n\n## Simplified explanation\n\nSilver shows **reticular fibres**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Connective Tissue Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are acid dyes",
+  "media": [],
+  "options": [
+   {
+    "text": "Azure II",
+    "hint": "Basic thiazine dye."
+   },
+   {
+    "text": "Eosin",
+    "hint": "Correct. Acid (anionic) dye."
+   },
+   {
+    "text": "Methylene blue",
+    "hint": "Basic."
+   },
+   {
+    "text": "Thionine",
+    "hint": "Basic."
+   },
+   {
+    "text": "Toluidine blue",
+    "hint": "Basic."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Only one is anionic.",
+  "explanation": "## Advanced explanation\n\n**Eosin** is an anionic (acid) dye. Azure II, methylene blue, thionine and toluidine blue are cationic **thiazine** (basic) dyes.\n\n## Simplified explanation\n\nOnly **eosin** is an acid dye.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Staining Principles",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following stains are used for routine histological examination",
+  "media": [],
+  "options": [
+   {
+    "text": "Haematoxylin and eosin stain",
+    "hint": "Correct. The routine stain."
+   },
+   {
+    "text": "Masson's trichrome stain",
+    "hint": "Special stain."
+   },
+   {
+    "text": "Silver impregnation",
+    "hint": "Special stain."
+   },
+   {
+    "text": "Sudan stain",
+    "hint": "Special (lipid) stain."
+   },
+   {
+    "text": "Wright's stain",
+    "hint": "Blood film stain."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The 'bread-and-butter' stain.",
+  "explanation": "## Advanced explanation\n\n**H&E** is the routine stain applied to every histology specimen; the others are special stains for particular components.\n\n## Simplified explanation\n\nRoutine = **H&E**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "H&E Staining",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During the preparation of a routine H&E slide, the following allows the tissue to maintain its form.",
+  "media": [],
+  "options": [
+   {
+    "text": "Dehydration",
+    "hint": "Removes water."
+   },
+   {
+    "text": "Embedding in paraffin",
+    "hint": "Gives support for cutting."
+   },
+   {
+    "text": "Fixation",
+    "hint": "Correct. Fixation preserves the structure (form) of the tissue."
+   },
+   {
+    "text": "Slicing",
+    "hint": "Cutting."
+   },
+   {
+    "text": "Staining",
+    "hint": "Colouring."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Preservation.",
+  "explanation": "## Advanced explanation\n\n**Fixation** stabilises proteins and preserves cells and tissue architecture in a life-like **form**, preventing autolysis and distortion in later steps.\n\n## Simplified explanation\n\n**Fixation** keeps the tissue's shape.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following would be best suited to visualise lipid?",
+  "media": [],
+  "options": [
+   {
+    "text": "Haematoxylin and eosin stain",
+    "hint": "Lipid is dissolved in processing; appears as empty spaces."
+   },
+   {
+    "text": "Masson's trichrome stain",
+    "hint": "Collagen/muscle."
+   },
+   {
+    "text": "Silver impregnation",
+    "hint": "Reticulin."
+   },
+   {
+    "text": "Sudan stain",
+    "hint": "Correct. Sudan dyes dissolve in lipid."
+   },
+   {
+    "text": "Wright's stain",
+    "hint": "Blood films."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Lysochrome.",
+  "explanation": "## Advanced explanation\n\n**Sudan dyes** (Sudan III/IV, Sudan black B, Oil red O) on frozen sections demonstrate lipids.\n\n## Simplified explanation\n\nUse a **Sudan** stain for fat.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following stain blue with H&E stain",
+  "media": [],
+  "options": [
+   {
+    "text": "Cytoplasm",
+    "hint": "Pink."
+   },
+   {
+    "text": "Collagen fibres",
+    "hint": "Pink."
+   },
+   {
+    "text": "Decalcified bone matrix",
+    "hint": "Pink."
+   },
+   {
+    "text": "Elastic fibres",
+    "hint": "Pink (refractile)."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "Correct. Haematoxylin stains chromatin blue."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Haematoxylin's target.",
+  "explanation": "## Advanced explanation\n\nIn H&E, **nuclei** (and other basophilic structures such as ribosome-rich cytoplasm, cartilage matrix, calcium) stain **blue/purple** with haematoxylin; cytoplasm, collagen, muscle, bone matrix and elastic fibres are pink with eosin.\n\n## Simplified explanation\n\nWith H&E the **nucleus** is blue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "H&E Staining",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "When using a compound microscope, objective lenses can be found to have a magnification of all of the following.\n\nA. 4X\nB. 10X\nC. 40X\nD. 100X\nE. 1000X\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. 4X | **T** | Scanning objective. |\n| B. 10X | **T** | Low power. |\n| C. 40X | **T** | High dry. |\n| D. 100X | **T** | Oil immersion. |\n| E. 1000X | **F** | That is the total magnification (100× objective × 10× eyepiece), not an objective. |\n\n> [!answer]\n> A T, B T, C T, D T, E F.",
+  "explanation": "## Advanced explanation\n\nStandard objectives are **4×, 10×, 40× and 100× (oil)**. Total magnification = objective × eyepiece (10×), so the maximum is **1000×**; there is no 1000× objective.\n\n## Simplified explanation\n\nObjectives are 4, 10, 40 and 100×; 1000× is total magnification.",
+  "hint": "Objective vs total.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Microscopy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is a \"compound microscope\"?",
+  "media": [],
+  "options": [
+   {
+    "text": "Microscope with the capability to view oil immersion",
+    "hint": "Not the definition."
+   },
+   {
+    "text": "Microscope with the capability to view compounds",
+    "hint": "Not the definition."
+   },
+   {
+    "text": "Microscope with a single lens",
+    "hint": "A simple microscope (magnifier)."
+   },
+   {
+    "text": "Microscope with two lenses",
+    "hint": "Correct. Two lens systems: objective and eyepiece (ocular)."
+   },
+   {
+    "text": "Microscope with three lenses",
+    "hint": "Not the definition."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Objective + eyepiece.",
+  "explanation": "## Advanced explanation\n\nA **compound microscope** uses **two lens systems in series** – the **objective** forms a magnified image which the **eyepiece (ocular)** magnifies further. A simple microscope uses a single lens.\n\n## Simplified explanation\n\nCompound = **two lenses** (objective + eyepiece).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When using oil immersion to view a tissue, what is the refractive index of the oil?",
+  "media": [],
+  "options": [
+   {
+    "text": "Same as air",
+    "hint": "Air is 1.0 – that is what oil replaces."
+   },
+   {
+    "text": "Same as glass",
+    "hint": "Correct. Immersion oil (n ≈ 1.515) matches glass."
+   },
+   {
+    "text": "Same as water",
+    "hint": "Water is 1.33."
+   },
+   {
+    "text": "Same as light",
+    "hint": "Meaningless."
+   },
+   {
+    "text": "Zero",
+    "hint": "Impossible."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Match the slide and lens.",
+  "explanation": "## Advanced explanation\n\nImmersion oil has a **refractive index (~1.515) equal to glass**, so light passes from slide to objective without refraction, increasing the numerical aperture and resolution.\n\n## Simplified explanation\n\nImmersion oil bends light like **glass**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "During the preparation of a routine H&E slide, the following steps occur after the tissue is preserved:\n\nA. Dehydration\nB. Embedding in paraffin\nC. Fixation\nD. Slicing\nE. Staining\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Dehydration | **T** | After fixation. |\n| B. Embedding in paraffin | **T** | After fixation. |\n| C. Fixation | **F** | Fixation is the preservation step itself. |\n| D. Slicing | **T** | Sectioning follows embedding. |\n| E. Staining | **T** | Last step. |\n\n> [!answer]\n> A T, B T, C F, D T, E T.",
+  "explanation": "## Advanced explanation\n\nPreservation **is** fixation. After it come dehydration, clearing, infiltration, **embedding**, **slicing (microtomy)** and **staining**.\n\n## Simplified explanation\n\nEverything except fixation comes after preservation.",
+  "hint": "Preserved = fixed.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Tissue Processing",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following would be best suited to visualise reticular fibres?",
+  "media": [],
+  "options": [
+   {
+    "text": "Haematoxylin and eosin stain",
+    "hint": "Reticular fibres are not visible on H&E."
+   },
+   {
+    "text": "Masson's trichrome stain",
+    "hint": "Collagen/muscle."
+   },
+   {
+    "text": "Silver impregnation",
+    "hint": "Correct. Reticular fibres are argyrophilic."
+   },
+   {
+    "text": "Sudan stain",
+    "hint": "Lipid."
+   },
+   {
+    "text": "Wright's stain",
+    "hint": "Blood films."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Argyrophilia.",
+  "explanation": "## Advanced explanation\n\n**Silver impregnation** (Gordon & Sweets, Gomori) blackens reticular fibres.\n\n## Simplified explanation\n\nReticular fibres → **silver**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Connective Tissue Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What are the supporting cells in the central nervous system called?",
+  "media": [],
+  "options": [
+   {
+    "text": "Basket cells",
+    "hint": "Cerebellar neurons."
+   },
+   {
+    "text": "Ganglion",
+    "hint": "Collections of neuron cell bodies in the PNS."
+   },
+   {
+    "text": "Neuroglia",
+    "hint": "Correct. Neuroglia support CNS neurons."
+   },
+   {
+    "text": "Satellite cells",
+    "hint": "PNS ganglion support cells."
+   },
+   {
+    "text": "Schwann cells",
+    "hint": "PNS myelinating cells."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Nerve glue.",
+  "explanation": "## Advanced explanation\n\n**Neuroglia (glial cells)** – astrocytes, oligodendrocytes, microglia and ependymal cells – are the supporting cells of the **CNS**. Satellite and Schwann cells are PNS glia.\n\n## Simplified explanation\n\nCNS support cells = **neuroglia**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "All the following are elements of the peripheral nervous system.\n\nA. Brain\nB. Brachial plexus\nC. Ganglia\nD. Receptors\nE. Sciatic nerve\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Brain | **F** | CNS. |\n| B. Brachial plexus | **T** | Network of spinal nerves. |\n| C. Ganglia | **T** | Clusters of neuron cell bodies outside the CNS. |\n| D. Receptors | **T** | Sensory receptors are part of the PNS. |\n| E. Sciatic nerve | **T** | Peripheral nerve. |\n\n> [!answer]\n> A F, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nThe **CNS** = brain and spinal cord. The **PNS** = cranial and spinal nerves, plexuses (brachial, lumbosacral), ganglia and sensory receptors/motor endings.\n\n## Simplified explanation\n\nEverything except the brain is PNS here.",
+  "hint": "Outside brain and cord.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "All the following are involved in the blood–brain barrier.\n\nA. Astrocytes\nB. Ependymal cells\nC. Oligodendrocytes\nD. Microglia\nE. Schwann cells\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Astrocytes | **T** | Astrocytic end-feet surround capillaries and induce barrier properties. |\n| B. Ependymal cells | **F** | Line ventricles (CSF–brain interface). |\n| C. Oligodendrocytes | **F** | Form myelin. |\n| D. Microglia | **F** | Immune cells. |\n| E. Schwann cells | **F** | PNS. |\n\n> [!answer]\n> A T, B F, C F, D F, E F.",
+  "explanation": "## Advanced explanation\n\nThe **blood–brain barrier** is formed by capillary **endothelial cells with tight junctions**, their basement membrane and pericytes, and the surrounding **astrocytic end-feet**, which induce and maintain it.\n\n## Simplified explanation\n\nOf these, only **astrocytes** help form the blood–brain barrier.",
+  "hint": "End-feet.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following form myelin in the peripheral nervous system",
+  "media": [],
+  "options": [
+   {
+    "text": "Basket cells",
+    "hint": "Cerebellar neurons."
+   },
+   {
+    "text": "Ganglion",
+    "hint": "Not cells that form myelin."
+   },
+   {
+    "text": "Neuroglia",
+    "hint": "CNS glia (oligodendrocytes myelinate the CNS)."
+   },
+   {
+    "text": "Satellite cells",
+    "hint": "Surround ganglion cell bodies."
+   },
+   {
+    "text": "Schwann cells",
+    "hint": "Correct. Schwann cells myelinate peripheral axons."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "PNS myelin.",
+  "explanation": "## Advanced explanation\n\nIn the **PNS** each **Schwann cell** myelinates one internode of a single axon; in the CNS **oligodendrocytes** myelinate segments of several axons.\n\n## Simplified explanation\n\nPNS myelin = **Schwann cells**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following is/are element(s) of the central nervous system",
+  "media": [],
+  "options": [
+   {
+    "text": "Brachial plexus",
+    "hint": "PNS."
+   },
+   {
+    "text": "Ganglia",
+    "hint": "PNS."
+   },
+   {
+    "text": "Receptors",
+    "hint": "PNS."
+   },
+   {
+    "text": "Sciatic nerve",
+    "hint": "PNS."
+   },
+   {
+    "text": "Spinal cord",
+    "hint": "Correct. CNS = brain + spinal cord."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Brain and ...",
+  "explanation": "## Advanced explanation\n\nThe **CNS** comprises the **brain and spinal cord**; all the others are PNS.\n\n## Simplified explanation\n\n**Spinal cord** is CNS.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The colloquialism \"gray matter\" refers to somebody using his intellect or reasoning ability. In reality, what is gray matter?",
+  "media": [],
+  "options": [
+   {
+    "text": "Axon",
+    "hint": "Myelinated axons form white matter."
+   },
+   {
+    "text": "Cell bodies",
+    "hint": "Correct. Grey matter is rich in neuronal cell bodies (with dendrites, unmyelinated fibres and glia)."
+   },
+   {
+    "text": "Meninges",
+    "hint": "Coverings."
+   },
+   {
+    "text": "Myelinated nerve fibres",
+    "hint": "White matter."
+   },
+   {
+    "text": "Nodes of Ranvier",
+    "hint": "Gaps in myelin."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Grey vs white.",
+  "explanation": "## Advanced explanation\n\n**Grey matter** = regions rich in **neuronal cell bodies**, dendrites, unmyelinated axons and synapses (cortex, basal nuclei, spinal cord central H). **White matter** = myelinated axon tracts, white because of lipid-rich myelin.\n\n## Simplified explanation\n\nGrey matter is made of **cell bodies**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The gaps that occur within the myelin sheath are",
+  "media": [],
+  "options": [
+   {
+    "text": "Cell bodies",
+    "hint": "No."
+   },
+   {
+    "text": "Meninges",
+    "hint": "No."
+   },
+   {
+    "text": "Myelinated nerve fibres",
+    "hint": "No."
+   },
+   {
+    "text": "Neurofilaments",
+    "hint": "Cytoskeleton."
+   },
+   {
+    "text": "Nodes of Ranvier",
+    "hint": "Correct. Gaps between myelin segments."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Saltatory conduction.",
+  "explanation": "## Advanced explanation\n\n**Nodes of Ranvier** are gaps between adjacent myelin segments where the axon membrane is exposed; action potentials jump from node to node (**saltatory conduction**).\n\n## Simplified explanation\n\nGaps in myelin = **nodes of Ranvier**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuron Structure",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "All of the following are properties of neurons.\n\nA. High metabolic rate\nB. High mitotic rate\nC. Limited ability to withstand oxygen deprivation\nD. Longevity\nE. Specialised for conduction\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. High metabolic rate | **T** | Need continuous glucose and oxygen. |\n| B. High mitotic rate | **F** | Mature neurons are amitotic. |\n| C. Limited ability to withstand oxygen deprivation | **T** | Die within minutes of anoxia. |\n| D. Longevity | **T** | Can live a lifetime. |\n| E. Specialised for conduction | **T** | Conduct nerve impulses. |\n\n> [!answer]\n> A T, B F, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nNeurons are **long-lived**, **amitotic** (do not divide), have a **high metabolic rate** and so tolerate **oxygen/glucose deprivation poorly**, and are specialised to **conduct impulses**.\n\n## Simplified explanation\n\nNeurons live long, don't divide, use lots of energy and die quickly without oxygen.",
+  "hint": "Do neurons divide?",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuron Structure",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are found in the peripheral nervous system",
+  "media": [],
+  "options": [
+   {
+    "text": "Astrocytes",
+    "hint": "CNS."
+   },
+   {
+    "text": "Ependymal cells",
+    "hint": "CNS."
+   },
+   {
+    "text": "Microglia",
+    "hint": "CNS."
+   },
+   {
+    "text": "Oligodendrocytes",
+    "hint": "CNS."
+   },
+   {
+    "text": "Schwann cells",
+    "hint": "Correct. PNS (with satellite cells)."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "PNS glia.",
+  "explanation": "## Advanced explanation\n\nPNS glia are **Schwann cells** and **satellite cells**; astrocytes, ependymal cells, microglia and oligodendrocytes are CNS glia.\n\n## Simplified explanation\n\nOf these, only **Schwann cells** are in the PNS.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most abundant type of neuron is/are",
+  "media": [],
+  "options": [
+   {
+    "text": "Interneurons",
+    "hint": "Correct. About 99% of neurons are interneurons (association neurons)."
+   },
+   {
+    "text": "Motor neurons",
+    "hint": "Fewer."
+   },
+   {
+    "text": "Sensory neurons",
+    "hint": "Fewer."
+   },
+   {
+    "text": "Sensory neurons and motor neurons",
+    "hint": "Fewer."
+   },
+   {
+    "text": "Sensory neurons and interneurons",
+    "hint": "Sensory neurons are far fewer."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Association neurons.",
+  "explanation": "## Advanced explanation\n\n**Interneurons (association neurons)**, lying entirely within the CNS between sensory and motor neurons, make up about **99%** of all neurons.\n\n## Simplified explanation\n\nMost neurons are **interneurons**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuron Structure",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which meninx covers the brain intimately?",
+  "media": [],
+  "options": [
+   {
+    "text": "Arachnoid",
+    "hint": "Middle layer."
+   },
+   {
+    "text": "Dura mater",
+    "hint": "Outer tough layer."
+   },
+   {
+    "text": "Dura mater and arachnoid",
+    "hint": "Outer layers."
+   },
+   {
+    "text": "Myelin sheath",
+    "hint": "Not a meninx."
+   },
+   {
+    "text": "Pia mater",
+    "hint": "Correct. The pia mater clings to the brain surface."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "'Tender mother'.",
+  "explanation": "## Advanced explanation\n\nThe meninges from outside in: **dura mater**, **arachnoid mater**, **pia mater**. The delicate **pia mater** is closely applied to the brain surface, following every gyrus and sulcus.\n\n## Simplified explanation\n\nThe **pia mater** hugs the brain.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Multiple sclerosis:\n\nA. Appears between the ages of 20 and 40\nB. Causes destruction of the myelin sheath in the CNS\nC. Is an autoimmune disorder\nD. Occurs in females twice as often as males\nE. Sheaths become scars or plaques\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Appears between the ages of 20 and 40 | **T** | Typical age of onset. |\n| B. Causes destruction of the myelin sheath in the CNS | **T** | A demyelinating disease. |\n| C. Is an autoimmune disorder | **T** | Immune attack on myelin. |\n| D. Occurs in females twice as often as males | **T** | Female predominance (~2:1). |\n| E. Sheaths become scars or plaques | **T** | Hardened plaques (scleroses). |\n\n> [!answer]\n> A T, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\n**Multiple sclerosis** is an **autoimmune demyelinating** disease of the **CNS**, usually beginning at **20–40 years**, about **twice as common in women**. Destroyed myelin is replaced by hardened **plaques (scleroses)** of gliosis.\n\n## Simplified explanation\n\nMS: autoimmune CNS demyelination in young adults, commoner in women, leaving plaques.",
+  "hint": "Demyelinating disease.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuropathology",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Glial cells are the support cells of the nervous system. They include...\n\nA. Astrocytes\nB. Ependymal cells\nC. Microglia\nD. Oligodendrocytes\nE. Schwann cells\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Astrocytes | **T** | CNS glia. |\n| B. Ependymal cells | **T** | CNS glia. |\n| C. Microglia | **T** | CNS glia. |\n| D. Oligodendrocytes | **T** | CNS glia. |\n| E. Schwann cells | **T** | PNS glia. |\n\n> [!answer]\n> A T, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nThe **nervous system** (CNS and PNS) glia: astrocytes, oligodendrocytes, microglia, ependymal cells (CNS) and **Schwann cells** and satellite cells (PNS).\n\n## Simplified explanation\n\nAll five are glial cells of the nervous system.",
+  "hint": "Whole nervous system.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Special histological stains for demonstrating Nissl substance include...\n\nA. Cresyl echt violet method I\nB. Cresyl echt violet method II\nC. Field's stain\nD. Gallocyanin stain\nE. Thionin stain\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Cresyl echt violet method I | **T** | Nissl stain. |\n| B. Cresyl echt violet method II | **T** | Nissl stain. |\n| C. Field's stain | **F** | Rapid stain for blood films/malaria. |\n| D. Gallocyanin stain | **T** | Gallocyanin–chrome alum stains Nissl substance. |\n| E. Thionin stain | **T** | Nissl stain. |\n\n> [!answer]\n> A T, B T, C F, D T, E T.",
+  "explanation": "## Advanced explanation\n\nNissl substance (ribosomal RNA) is shown with **basic aniline dyes**: **cresyl (echt/fast) violet**, **thionin**, toluidine blue, methylene blue and **gallocyanin–chrome alum**. Field's stain is for blood films.\n\n## Simplified explanation\n\nNissl stains are cresyl violet, thionin and gallocyanin – not Field's.",
+  "hint": "Basic dyes for RNA.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Nissl Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Special histological stains for demonstrating the myelin sheath include...\n\nA. Cresyl echt violet method\nB. Luxol fast (blue) method\nC. Marchi's method for degenerating myelin\nD. Pal-Weigert method\nE. Weil's method\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Cresyl echt violet method | **F** | A Nissl stain. |\n| B. Luxol fast (blue) method | **T** | Standard myelin stain. |\n| C. Marchi's method for degenerating myelin | **T** | Shows degenerating myelin black. |\n| D. Pal-Weigert method | **T** | Classical myelin stain. |\n| E. Weil's method | **T** | Iron haematoxylin myelin stain. |\n\n> [!answer]\n> A F, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nMyelin stains: **Luxol fast blue**, **Weil's** and **Pal–Weigert** (haematoxylin methods), **Marchi's** (osmium for degenerating myelin), Loyez, solochrome cyanin. Cresyl violet stains Nissl substance.\n\n## Simplified explanation\n\nAll except cresyl violet are myelin stains.",
+  "hint": "Which one is for Nissl?",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neuropathology Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The main purpose of applying a combination of Luxol fast blue–cresyl echt violet stain in histopathology is to demonstrate",
+  "media": [],
+  "options": [
+   {
+    "text": "Nerve fibres and glial cells",
+    "hint": "Not the targets."
+   },
+   {
+    "text": "Myelin sheath and Nissl substance",
+    "hint": "Correct. LFB stains myelin blue; cresyl violet stains Nissl substance violet."
+   },
+   {
+    "text": "Myelin sheath and white matter",
+    "hint": "White matter is myelin."
+   },
+   {
+    "text": "Nissl substance and glial cells",
+    "hint": "Only half right."
+   },
+   {
+    "text": "Myelin sheath and nerve endings",
+    "hint": "Nerve endings need silver."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "One dye for each.",
+  "explanation": "## Advanced explanation\n\n**Klüver–Barrera (LFB–cresyl violet)**: **Luxol fast blue** stains **myelin** blue/green; **cresyl violet** counterstains **Nissl substance** and nuclei violet.\n\n## Simplified explanation\n\nLFB = myelin; cresyl violet = Nissl.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neuropathology Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The following affect(s) enzyme histochemistry:\n\nA. Activators\nB. Concentration of enzymes\nC. Inhibitors\nD. pH\nE. Temperature\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| A. Activators | **T** | Increase activity. |\n| B. Concentration of enzymes | **T** | More enzyme, more product. |\n| C. Inhibitors | **T** | Reduce activity. |\n| D. pH | **T** | Each enzyme has an optimum pH. |\n| E. Temperature | **T** | Affects rate; high temperature denatures. |\n\n> [!answer]\n> A T, B T, C T, D T, E T.",
+  "explanation": "## Advanced explanation\n\nEnzyme histochemistry depends on preserving activity and providing optimum conditions: **pH**, **temperature**, **substrate and enzyme concentration**, **activators** (e.g. Mg²⁺) and **inhibitors** all affect the amount of reaction product.\n\n## Simplified explanation\n\nAll five affect enzyme histochemistry.",
+  "hint": "Enzyme kinetics.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Enzyme Histochemistry",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. Briefly describe the **central nervous system (CNS)** and the **peripheral nervous system (PNS)** under the headings (i) components and (ii) structure.\n\nb. State **two** functions each of (i) the cerebrum and (ii) the cerebellum.\n\nc. Briefly explain the following forebrain anomalies as applied in neuropathology: (i) megalocephaly, (ii) microcephaly, (iii) lissencephaly.\n\nd. A group of UCC Medical Laboratory Science students visited your histopathology laboratory. While working at the reception a brain and a spinal cord specimen were brought and duly received using your department's protocol. In not more than four sentences explain to the students how the specimens should be fixed. *(12 marks)*",
+  "media": [],
+  "answer": "**a.**\n| | CNS | PNS |\n|---|---|---|\n| Components | Brain and spinal cord | Cranial and spinal nerves, plexuses, ganglia, sensory receptors and motor endings |\n| Structure | Grey matter (neuron cell bodies) and white matter (myelinated tracts); glia = astrocytes, oligodendrocytes, microglia, ependyma; covered by meninges and bathed in CSF; protected by skull/vertebrae | Nerves made of axons myelinated by **Schwann cells**, wrapped in endoneurium, perineurium and epineurium; ganglia contain cell bodies with satellite cells |\n\n**b.** (i) **Cerebrum** – conscious thought, memory, reasoning and language; voluntary motor control; interpretation of sensation (vision, hearing, touch). (ii) **Cerebellum** – coordination of voluntary movement; balance/equilibrium and posture; motor learning and muscle tone.\n\n**c.** (i) **Megalencephaly** – an abnormally large, heavy brain (weight > 2 SD above normal) from overgrowth of brain tissue, often with intellectual disability or seizures (distinct from hydrocephalus). (ii) **Microcephaly** – a small brain/head (> 2–3 SD below normal), from genetic causes, congenital infection (Zika, CMV, rubella), alcohol or hypoxia. (iii) **Lissencephaly ('smooth brain')** – absent or reduced gyri (agyria/pachygyria) caused by defective neuronal migration, with a thick four-layered cortex.\n\n**d.** The fresh brain is suspended in a large volume of **10% (neutral buffered) formalin** – e.g. by a string under the basilar artery so that it does not flatten – and the spinal cord is pinned straight or opened dura and immersed; fixative may be **perfused** through the vessels for faster fixation. Fixative volume should be at least 10–20× tissue volume and changed after a few days. Fixation by immersion takes **2–3 weeks** before slicing. Specimens are labelled and recorded throughout.\n\n> [!answer]\n> CNS = brain + cord; PNS = nerves, ganglia, receptors. Cerebrum = thought, voluntary movement, sensation; cerebellum = coordination, balance. Megalencephaly = large brain; microcephaly = small brain; lissencephaly = smooth brain from migration failure. Fix suspended in 10% formalin (or perfuse) for 2–3 weeks.",
+  "explanation": "## Advanced explanation\n\nNeuropathology requires knowledge of normal structure and of developmental malformations (disorders of proliferation – micro/megalencephaly – and migration – lissencephaly). Whole brains are fixed suspended in formalin to retain shape, as the fresh brain is too soft to slice.\n\n## Simplified explanation\n\nThe CNS is the brain and cord; the PNS is all the nerves outside. The cerebrum thinks, the cerebellum coordinates. Hang the brain in formalin for a few weeks to fix it.",
+  "hint": "Anatomy, function, malformations, fixation.",
+  "difficulty": "medium",
+  "marks": 12,
+  "tags": [
+   "Neuroanatomy",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. List the staining techniques available in a standard histopathology laboratory for **Nissl substance** demonstration.\n\nb. Briefly outline how you will employ one of the techniques stated in (a) to demonstrate Nissl substance.\n\nc. State **two** precautionary measures you took to ensure standard staining procedure. *(6 marks)*",
+  "media": [],
+  "answer": "**a.** Cresyl fast (echt) violet; thionin; toluidine blue; methylene blue; gallocyanin–chrome alum; (Klüver–Barrera LFB–cresyl violet combination).\n\n**b. Cresyl fast violet (paraffin sections, formalin- or alcohol-fixed):**\n1. Dewax sections and bring to water.\n2. Stain in 0.1% cresyl fast violet (acidified with acetic acid, often warmed to ~56–60 °C) for 5–15 minutes.\n3. Rinse in distilled water.\n4. Differentiate in 95% alcohol (± a few drops of acetic acid), checking microscopically until Nissl substance is sharp and the background clear.\n5. Dehydrate in absolute alcohol, clear in xylene, mount.\n**Result:** Nissl substance and nuclei – **violet/purple**; background – pale/colourless.\n\n**c.** Precautions (any two): use **fresh, filtered** stain at the correct pH; **control differentiation microscopically**; include a **positive control** (e.g. spinal cord or cerebral cortex); avoid sections drying out; time each step accurately; use clean glassware.\n\n> [!answer]\n> Cresyl violet, thionin, toluidine blue, gallocyanin; stain in acidified cresyl violet, differentiate in alcohol, dehydrate, clear, mount – Nissl violet; precautions: filtered fresh stain, controlled differentiation, positive control.",
+  "explanation": "## Advanced explanation\n\nNissl substance is rough ER with ribosomal **RNA**, so it is strongly **basophilic** and is stained by basic aniline dyes (or the gallocyanin–chrome alum lake). Careful **differentiation** in alcohol gives the contrast between Nissl bodies and background.\n\n## Simplified explanation\n\nUse a basic dye like cresyl violet; stain, rinse, differentiate in alcohol and mount. Nissl bodies come out purple. Use fresh filtered stain and a control slide.",
+  "hint": "Basic dyes bind RNA.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Nissl Stains",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. What is **immunohistochemistry**?\n\nb. In what ways do the following affect enzyme demonstration? (i) pH (ii) Temperature (iii) Concentration of enzyme (iv) Inhibitors (v) Activators *(6 marks)*",
+  "media": [],
+  "answer": "**a.** Immunohistochemistry (IHC) is the localisation of specific **antigens** in tissue sections using **labelled antibodies** that bind them specifically; the antigen–antibody complex is made visible with an enzyme–chromogen (e.g. HRP–DAB, brown), a fluorochrome or other label, so that the site of the antigen can be seen under the microscope.\n\n**b.**\n| Factor | Effect |\n|---|---|\n| **pH** | Each enzyme works best at an **optimum pH** (e.g. acid phosphatase ~pH 5, alkaline phosphatase ~pH 9); away from it activity falls and diffusion artefacts increase |\n| **Temperature** | Activity increases with temperature up to an optimum (~37 °C), then the enzyme is **denatured**; low temperature slows reaction |\n| **Concentration of enzyme** | The more enzyme present (and preserved by fixation), the more reaction product and the stronger the staining |\n| **Inhibitors** | Reduce or abolish activity (e.g. levamisole inhibits endogenous alkaline phosphatase; fluoride, heavy metals) – used to confirm specificity |\n| **Activators** | Increase activity (e.g. Mg²⁺/Mn²⁺ for alkaline phosphatase, Ca²⁺) |\n\n> [!answer]\n> IHC = demonstration of tissue antigens with specific labelled antibodies. Enzyme demonstration depends on optimum pH and temperature, amount of enzyme, inhibitors (reduce) and activators (enhance).",
+  "explanation": "## Advanced explanation\n\nIHC exploits antibody specificity, while enzyme histochemistry exploits the tissue enzyme's own activity on a substrate to form an insoluble coloured product; both need correct fixation, pH, temperature and controls.\n\n## Simplified explanation\n\nIHC uses antibodies to find antigens in tissue. Enzymes stain best at the right pH and temperature, with plenty of enzyme; inhibitors stop them and activators boost them.",
+  "hint": "Antigen–antibody; enzyme kinetics.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Immunohistochemistry",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. Which cranial nerve is responsible for digestion?\n\nb. What is the principal functional unit of the nervous system?\n\nc. State one function each of the following cells: (i) Astrocytes (ii) Oligodendrocyte (iii) Microglia (iv) Ependymal (v) Satellite. *(6 marks)*",
+  "media": [],
+  "answer": "**a.** The **vagus nerve (cranial nerve X)** – parasympathetic supply to the gut (motility and secretion).\n\n**b.** The **neuron**.\n\n**c.**\n| Cell | Function |\n|---|---|\n| Astrocytes | Support neurons; regulate ions/neurotransmitters; form the blood–brain barrier and glial scars |\n| Oligodendrocyte | Form **myelin** in the CNS |\n| Microglia | **Phagocytosis**/immune defence of the CNS |\n| Ependymal | Line ventricles and central canal; help produce and circulate **CSF** |\n| Satellite | Surround and support neuron cell bodies in **peripheral ganglia** |\n\n> [!answer]\n> a. Vagus (CN X); b. neuron; c. astrocytes support/BBB, oligodendrocytes myelinate, microglia phagocytose, ependyma line ventricles/CSF, satellite cells support ganglion cells.",
+  "explanation": "## Advanced explanation\n\nThe vagus is the main parasympathetic outflow to thoracic and abdominal viscera. Neurons conduct impulses; glia support, insulate, defend and nourish them.\n\n## Simplified explanation\n\nVagus nerve for digestion; the neuron is the basic unit; each glial cell has a support job.",
+  "hint": "Cranial nerve X.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Glial Cells",
+   "2018/19 End of Semester Exam (Sandwich)"
+  ]
+ }
+]

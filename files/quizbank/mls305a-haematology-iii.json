@@ -1,0 +1,926 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe processes that take place during iron absorption includes ...\n\nA. Absorption of Fe²⁺ iron by ferroportin at the apical surface of enterocytes\nB. Conversion of Fe²⁺ to Fe³⁺ by ferrireductase\nC. Transferrin binds to ferric iron in portal circulation\nD. Hephaestin converts Fe³⁺ to Fe²⁺ at the basolateral surface of enterocytes",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Absorption of Fe²⁺ iron by ferroportin at the apical surface of enterocytes | **F** | Apical uptake is by **DMT1**; ferroportin exports iron at the **basolateral** surface. |\n| B. Conversion of Fe²⁺ to Fe³⁺ by ferrireductase | **F** | Ferrireductase (duodenal cytochrome b) **reduces Fe³⁺ to Fe²⁺**. |\n| C. Transferrin binds to ferric iron in portal circulation | **T** | Transferrin carries Fe³⁺ in plasma. |\n| D. Hephaestin converts Fe³⁺ to Fe²⁺ at the basolateral surface of enterocytes | **F** | Hephaestin **oxidises Fe²⁺ to Fe³⁺** so it can load onto transferrin. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nDuodenal iron absorption: dietary Fe³⁺ is reduced by **Dcytb (ferrireductase)** → Fe²⁺ enters via **DMT1** at the apical membrane → stored as ferritin or exported by **ferroportin** at the basolateral membrane → oxidised to Fe³⁺ by **hephaestin** (ceruloplasmin elsewhere) → bound by **transferrin**. **Hepcidin** binds ferroportin and causes its degradation, limiting absorption.\n\n## Simplified explanation\n\nIron is reduced (Fe³⁺→Fe²⁺) to get in through DMT1, leaves through ferroportin, is oxidised back to Fe³⁺ by hephaestin and rides on transferrin. Only C is true.",
+  "hint": "Reduce to enter, oxidise to leave.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Iron Metabolism",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in iron deficiency anaemia includes ...\n\nA. Increased transferrin receptor in peripheral blood\nB. Peripheral blood transferrin receptor being inversely related to ferritin stores\nC. Transferrin saturation >16%\nD. Ferritin levels >12 µg/L",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Increased transferrin receptor in peripheral blood | **T** | Soluble transferrin receptor rises as cells up-regulate TfR1. |\n| B. Peripheral blood transferrin receptor being inversely related to ferritin stores | **T** | As stores fall (low ferritin), sTfR rises. |\n| C. Transferrin saturation >16% | **F** | Saturation is **<16%** in iron deficiency. |\n| D. Ferritin levels >12 µg/L | **F** | Ferritin **<12–15 µg/L** indicates absent stores. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nIDA: serum iron ↓, **TIBC/transferrin ↑**, **transferrin saturation <16%**, **ferritin <12–15 µg/L** (diagnostic), **soluble transferrin receptor ↑** (useful because, unlike ferritin, it is not an acute-phase reactant), zinc protoporphyrin ↑, absent marrow iron. The sTfR/log ferritin index separates IDA from anaemia of chronic disease.\n\n## Simplified explanation\n\nIn iron deficiency ferritin and transferrin saturation are low, while transferrin receptors go up.",
+  "hint": "Ferritin falls, receptors rise.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Iron Deficiency Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhen investigating anaemia ...\n\nA. Haemoglobin estimation gives information about the overall bone marrow haematopoietic activity\nB. Reticulocyte count estimates the overall bone marrow haematopoietic activity\nC. M:E ratio estimates bone marrow erythropoietic output\nD. Bone marrow iron store estimation is important in the differential diagnoses of macrocytic anaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Haemoglobin estimation gives information about the overall bone marrow haematopoietic activity | **F** | Hb tells you only whether anaemia is present. |\n| B. Reticulocyte count estimates the overall bone marrow haematopoietic activity | **F** | It estimates **erythropoietic** activity only, not overall haematopoiesis. |\n| C. M:E ratio estimates bone marrow erythropoietic output | **F** | M:E ratio is a relative proportion of precursors; it does not measure effective red cell output. |\n| D. Bone marrow iron store estimation is important in the differential diagnoses of macrocytic anaemia | **F** | Marrow iron is used for **microcytic** anaemias (IDA vs ACD vs sideroblastic). |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHb defines anaemia; the **reticulocyte count** (corrected/RPI) measures **effective erythropoiesis**; the **M:E ratio** shows the relative proportion of myeloid to erythroid precursors (it can be reversed in ineffective erythropoiesis without increased output); **Perls' stain** for marrow iron distinguishes causes of microcytosis (absent in IDA, increased in ACD, ring sideroblasts in sideroblastic anaemia).\n\n## Simplified explanation\n\nHb just shows anaemia, reticulocytes show red-cell output (not all cells), M:E is a ratio not an output, and marrow iron is for small-cell anaemias. All false.",
+  "hint": "Each test measures something narrower than claimed.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Investigation of Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in haemoglobin H disease includes ...\n\nA. Raised Hb A2 levels\nB. Increased ineffective erythropoiesis\nC. Raised Hb F levels\nD. RBC count >5.0 × 10¹²/L",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Raised Hb A2 levels | **F** | Hb A₂ is normal or **low** in α-thalassaemia. |\n| B. Increased ineffective erythropoiesis | **T** | β₄ tetramers precipitate, damaging precursors and red cells. |\n| C. Raised Hb F levels | **F** | Hb F is not characteristically raised. |\n| D. RBC count >5.0 × 10¹²/L | **F** | HbH disease is a moderate haemolytic anaemia; RBC count is not raised. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**HbH disease** (three α-gene deletion, --/-α): excess β-chains form **HbH (β₄)**, an unstable, high-affinity Hb that precipitates (golf-ball inclusions with brilliant cresyl blue), causing **haemolysis and some ineffective erythropoiesis**, microcytic hypochromic anaemia (Hb 7–10 g/dL), reticulocytosis and splenomegaly. HbA₂ is low.\n\n## Simplified explanation\n\nIn HbH disease there is anaemia with destruction of red cells and precursors. HbA₂ is not raised and the RBC count is not high.",
+  "hint": "α-thal lowers HbA₂.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Alpha Thalassaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in anaemia of chronic disease includes ...\n\nA. leucocytosis\nB. reduced serum iron\nC. absent bone marrow iron stores\nD. Raised TIBC",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. leucocytosis | **T** | Often accompanies the underlying chronic infection/inflammation. |\n| B. reduced serum iron | **T** | Hepcidin traps iron in macrophages. |\n| C. absent bone marrow iron stores | **F** | Marrow iron stores are **normal or increased**. |\n| D. Raised TIBC | **F** | TIBC is **normal or low**. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nIn **anaemia of chronic disease (inflammation)**, IL-6 induces **hepcidin**, which blocks ferroportin: **serum iron ↓**, **TIBC normal/↓**, saturation low-normal, **ferritin normal/↑**, **marrow iron present** (in macrophages) but reduced sideroblasts. Leucocytosis, raised ESR/CRP reflect the underlying disease.\n\n## Simplified explanation\n\nIron is locked away in stores: blood iron is low but stores are full, and TIBC is not raised.",
+  "hint": "Iron is present but trapped.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Anaemia of Chronic Disease",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nOrotic aciduria causes megaloblastic anaemia through ...\n\nA. Impaired vitamin B12 absorption\nB. Impaired folic acid absorption\nC. Impaired synthesis of uridine monophosphate\nD. Impaired function of DHF reductase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Impaired vitamin B12 absorption | **F** | B12 absorption is normal. |\n| B. Impaired folic acid absorption | **F** | Folate absorption is normal. |\n| C. Impaired synthesis of uridine monophosphate | **T** | UMP synthase deficiency blocks pyrimidine synthesis. |\n| D. Impaired function of DHF reductase | **F** | DHFR is inhibited by methotrexate, not in orotic aciduria. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nHereditary **orotic aciduria** is an autosomal recessive deficiency of **UMP synthase** (orotate phosphoribosyltransferase + OMP decarboxylase). Orotic acid accumulates and is excreted; pyrimidine nucleotides for DNA are deficient, giving megaloblastic anaemia **unresponsive to B12/folate**, which responds to **uridine**.\n\n## Simplified explanation\n\nThe body can't make UMP (a DNA building block), so DNA synthesis fails and cells become megaloblastic.",
+  "hint": "Orotic acid is a pyrimidine precursor.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Megaloblastic Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe finding of acanthocytosis in the peripheral blood thin film could indicate ...\n\nA. Liver disease\nB. Abetalipoproteinemia\nC. Renal pathology\nD. Iron deficiency",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Liver disease | **T** | Spur-cell anaemia of severe liver disease. |\n| B. Abetalipoproteinemia | **T** | Classic cause. |\n| C. Renal pathology | **T** | Accepted in the marking scheme: dysmorphic acanthocytes (G1 cells) mark glomerular bleeding, and spiculated cells occur in renal failure. |\n| D. Iron deficiency | **F** | Iron deficiency gives microcytic hypochromic cells, pencil cells. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Acanthocytes** (irregular spicules of varying length): abetalipoproteinaemia, severe **liver disease** (spur cells), McLeod phenotype, neuroacanthocytosis, hyposplenism, hypothyroidism, anorexia. In **renal disease**, crenated/spiculated cells (echinocytes/burr cells) are seen in blood, and urinary acanthocytes indicate glomerular haematuria. Iron deficiency produces hypochromic microcytes and elliptocytes ('pencil cells').\n\n## Simplified explanation\n\nAcanthocytes suggest liver disease, abetalipoproteinaemia or kidney disease, not iron deficiency.",
+  "hint": "Think lipid problems of the red cell membrane.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Morphology",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn anaemia ...\n\nA. Plasma fraction of blood is reduced\nB. Haematocrit is increased\nC. Iron deficiency anaemia is suspected if plasma is colourless\nD. Ratio of haematocrit to haemoglobin is <3",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Plasma fraction of blood is reduced | **F** | With fewer red cells the plasma fraction is **increased**. |\n| B. Haematocrit is increased | **F** | Haematocrit is **reduced**. |\n| C. Iron deficiency anaemia is suspected if plasma is colourless | **T** | Very pale (colourless) plasma is typical of iron deficiency. |\n| D. Ratio of haematocrit to haemoglobin is <3 | **F** | Normally ~3; in hypochromic anaemia it is **>3** (low MCHC). |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nIn anaemia the red cell fraction (Hct) falls and the plasma fraction rises. Hct ≈ 3 × Hb (g/dL) when MCHC is normal (~33 g/dL); a low MCHC (hypochromia) gives Hct/Hb > 3. Pale, colourless plasma above a microhaematocrit column suggests iron deficiency, while yellow plasma suggests haemolysis/jaundice.\n\n## Simplified explanation\n\nAnaemia means less red cells and more plasma. Colourless plasma is a clue to iron deficiency.",
+  "hint": "Hct ≈ 3 × Hb.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Investigation of Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn iron deficiency anaemia ...\n\nA. Total iron binding capacity is raised\nB. Hb F levels are >3.5%\nC. Hb F levels are >4.0%\nD. Serum transferrin receptor is raised",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Total iron binding capacity is raised | **T** | Transferrin synthesis increases. |\n| B. Hb F levels are >3.5% | **F** | Hb F is normal (<1%). |\n| C. Hb F levels are >4.0% | **F** | Hb F is normal. |\n| D. Serum transferrin receptor is raised | **T** | sTfR rises with iron-deficient erythropoiesis. |\n\n> [!answer]\n> **A T, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nIDA: low ferritin, low serum iron, **high TIBC**, low saturation, **high sTfR**, high zinc protoporphyrin. Hb F is not raised; iron deficiency may actually **lower HbA₂**, which can mask β-thalassaemia trait.\n\n## Simplified explanation\n\nIn iron deficiency TIBC and transferrin receptors go up; HbF stays normal.",
+  "hint": "Transferrin goes up when iron is short.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Iron Deficiency Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPatient A has been diagnosed with Vitamin B12 deficiency anaemia; patient B has been diagnosed with iron deficiency anaemia. The laboratory findings could include ...\n\nA. The ratio of MCV of patient A to MCV of patient B >1\nB. The ratio of MCV of patient A to MCV of patient B = 1\nC. The ratio of MCH of patient A to MCH of patient B <1\nD. The ratio of MCH of patient A to MCH of patient B >1",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. The ratio of MCV of patient A to MCV of patient B >1 | **T** | A is macrocytic, B microcytic. |\n| B. The ratio of MCV of patient A to MCV of patient B = 1 | **F** | Their MCVs differ markedly. |\n| C. The ratio of MCH of patient A to MCH of patient B <1 | **F** | A's MCH is high, B's low, so the ratio is >1. |\n| D. The ratio of MCH of patient A to MCH of patient B >1 | **T** | Macrocytes have high MCH; hypochromic microcytes low MCH. |\n\n> [!answer]\n> **A T, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nB12 deficiency → **macrocytic** anaemia (MCV often >100 fL, MCH raised, MCHC normal). Iron deficiency → **microcytic hypochromic** (MCV <80 fL, MCH <27 pg). Hence both MCV and MCH ratios of A:B exceed 1.\n\n## Simplified explanation\n\nB12 deficiency gives big cells, iron deficiency small pale cells, so A's MCV and MCH are both larger than B's.",
+  "hint": "Big cells carry more Hb per cell.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Indices",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn latent iron deficiency anaemia ...\n\nA. MCV is <80 fL\nB. MCH <27 pg\nC. Bone marrow iron stores are absent\nD. Red cell count is raised",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. MCV is <80 fL | **F** | Indices are still normal in latent (pre-anaemic) iron deficiency. |\n| B. MCH <27 pg | **F** | Still normal at this stage. |\n| C. Bone marrow iron stores are absent | **T** | Stores are exhausted first. |\n| D. Red cell count is raised | **F** | Not a feature. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nStages of iron deficiency: (1) **iron depletion**: stores fall, ferritin ↓; (2) **latent/iron-deficient erythropoiesis**: stores **absent**, serum iron ↓, TIBC ↑, saturation ↓, sTfR and ZPP ↑, but **Hb and indices still normal**; (3) **iron deficiency anaemia**: microcytic hypochromic anaemia.\n\n## Simplified explanation\n\nIn latent iron deficiency the stores are gone but the red cells still look normal.",
+  "hint": "Stores empty before the indices fall.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Iron Deficiency Anaemia",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of iron deficiency anaemia includes ...\n\nA. Over-secretion of hemojuvelin\nB. Increased expression of bone morphogenetic protein expression\nC. Increased production of matriptase 2 proteins\nD. Increased secretion of GDF-15 proteins",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Over-secretion of hemojuvelin | **T** | Hemojuvelin is a BMP co-receptor that raises hepcidin, which blocks iron absorption. |\n| B. Increased expression of bone morphogenetic protein expression | **T** | BMP6–SMAD signalling induces hepcidin. |\n| C. Increased production of matriptase 2 proteins | **F** | Matriptase-2 cleaves hemojuvelin and **lowers** hepcidin; its *loss* causes iron-refractory IDA. |\n| D. Increased secretion of GDF-15 proteins | **F** | GDF-15 (from expanded erythropoiesis) **suppresses** hepcidin, causing iron overload. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHepcidin (liver) is induced by iron via **BMP6/hemojuvelin/SMAD**, HFE/TfR2 and by IL-6; it is suppressed by erythroid regulators (**erythroferrone**, **GDF-15**, TWSG1) and by **matriptase-2 (TMPRSS6)**, which cleaves hemojuvelin. Excess hepcidin → ferroportin degradation → reduced absorption and iron-restricted erythropoiesis (e.g. IRIDA from TMPRSS6 mutations).\n\n## Simplified explanation\n\nAnything that raises hepcidin (hemojuvelin, BMP) blocks iron absorption and can cause iron deficiency. Matriptase-2 and GDF-15 lower hepcidin.",
+  "hint": "Ask whether each raises or lowers hepcidin.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Iron Regulation",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nFactors that enhances iron absorption from the gastrointestinal tract includes ...\n\nA. Presence of amino acids\nB. Co-administration with tea\nC. Presence of vitamin C\nD. Co-administration with sugar",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Presence of amino acids | **T** | Amino acids (e.g. cysteine) form soluble iron chelates. |\n| B. Co-administration with tea | **F** | Tannins inhibit absorption. |\n| C. Presence of vitamin C | **T** | Reduces Fe³⁺ to Fe²⁺ and chelates it. |\n| D. Co-administration with sugar | **T** | Sugars (e.g. fructose) form soluble chelates. |\n\n> [!answer]\n> **A T, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\n**Enhancers**: haem iron, ascorbic acid, gastric acid, amino acids, sugars, iron deficiency, increased erythropoiesis, hypoxia. **Inhibitors**: tannins (tea), phytates (cereals), phosphates, calcium, antacids/achlorhydria, high hepcidin (inflammation).\n\n## Simplified explanation\n\nVitamin C, amino acids and sugars help iron absorption; tea blocks it.",
+  "hint": "Tea is the inhibitor.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Iron Metabolism",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn pyruvate kinase deficiency anaemia ...\n\nA. Oxygen dissociation curve usually shifts to left\nB. Intracellular concentration of 2,3-DPG increases in red cells\nC. Frontal bossing may be present\nD. The inheritance is sex-linked",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Oxygen dissociation curve usually shifts to left | **F** | Raised 2,3-DPG shifts it to the **right**. |\n| B. Intracellular concentration of 2,3-DPG increases in red cells | **T** | Glycolytic intermediates upstream of PK accumulate. |\n| C. Frontal bossing may be present | **T** | Severe congenital haemolysis expands the marrow. |\n| D. The inheritance is sex-linked | **F** | Autosomal recessive. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**PK deficiency** (autosomal recessive, PKLR) is the commonest glycolytic enzymopathy. ATP falls and upstream intermediates, including **2,3-DPG**, accumulate, shifting the O₂ curve to the **right** (so anaemia is well tolerated). Chronic non-spherocytic haemolysis with jaundice, gallstones, splenomegaly and, in severe childhood cases, skeletal changes such as frontal bossing.\n\n## Simplified explanation\n\nPK deficiency is autosomal recessive; 2,3-DPG builds up, so oxygen is released more easily, and severe cases can show skull bossing.",
+  "hint": "Blocked enzyme → upstream products build up.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Enzymopathies",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nOxidant-induced haemolytic anaemia ...\n\nA. May be caused by G6PD deficiency\nB. May be caused by glutathione synthetase (deficiency)\nC. Leads to Heinz body inclusion bodies in red cells on peripheral smear\nD. May be caused by pyruvate kinase deficiency",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. May be caused by G6PD deficiency | **T** | The classic cause. |\n| B. May be caused by glutathione synthetase (deficiency) | **T** | Glutathione deficiency removes antioxidant protection. |\n| C. Leads to Heinz body inclusion bodies in red cells on peripheral smear | **T** | Denatured haemoglobin, seen with supravital stains. |\n| D. May be caused by pyruvate kinase deficiency | **F** | PK deficiency causes non-oxidative chronic haemolysis. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nOxidant haemolysis results from failure of the **HMP shunt/glutathione** system: G6PD deficiency, glutathione synthetase or reductase deficiency, unstable haemoglobins, or overwhelming oxidants (dapsone). Denatured Hb forms **Heinz bodies**, removed by the spleen to leave bite/blister cells. PK deficiency affects ATP generation, not oxidant defence.\n\n## Simplified explanation\n\nG6PD and glutathione problems leave red cells open to oxidant damage with Heinz bodies. PK deficiency is a different (energy) problem.",
+  "hint": "Which enzyme is not in the antioxidant pathway?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Enzymopathies",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nHam's test ...\n\nA. Is the confirmatory test for pyruvate kinase deficiency disease\nB. Performance is dependent on excess IgG antibodies in the plasma\nC. Alkalinization of the serum improves test performance\nD. Is dependent on cold-reacting auto-antibodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is the confirmatory test for pyruvate kinase deficiency disease | **F** | It is a test for **PNH**. |\n| B. Performance is dependent on excess IgG antibodies in the plasma | **F** | It depends on **complement** activated by acidification. |\n| C. Alkalinization of the serum improves test performance | **F** | **Acidification** (pH ~6.5–7.0) activates the alternative complement pathway. |\n| D. Is dependent on cold-reacting auto-antibodies | **F** | No antibody is involved. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nThe **acidified serum (Ham) test** detects PNH red cells, which lack GPI-anchored complement regulators (CD55, CD59) and lyse when incubated at 37 °C with acidified normal serum (alternative pathway activation). Controls: heat-inactivated serum (no lysis). It has been replaced by **flow cytometry** (CD55/CD59, FLAER).\n\n## Simplified explanation\n\nHam's test is for PNH and works by acid-activated complement; no antibodies or alkali are involved. All four are false.",
+  "hint": "Ham = acid + complement + PNH cells.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Paroxysmal Nocturnal Haemoglobinuria",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nParoxysmal nocturnal haemoglobinuria ...\n\nA. Neutrophils lack CD55 antigens\nB. Red cells lack CD59 antigens\nC. Haemosiderinuria is rarely seen\nD. May lead to iron deficiency anaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Neutrophils lack CD55 antigens | **T** | The PIG-A defect affects all lineages from the mutant stem cell. |\n| B. Red cells lack CD59 antigens | **T** | Loss of CD59 (MIRL) is the main cause of complement lysis. |\n| C. Haemosiderinuria is rarely seen | **F** | Chronic intravascular haemolysis gives **constant haemosiderinuria**. |\n| D. May lead to iron deficiency anaemia | **T** | Urinary iron loss can cause iron deficiency. |\n\n> [!answer]\n> **A T, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nPNH is an acquired clonal stem cell disorder with somatic **PIG-A** mutation → no GPI anchor → loss of **CD55 (DAF)** and **CD59** on red cells, granulocytes, monocytes and platelets. Complement-mediated **intravascular haemolysis**, haemoglobinuria, **haemosiderinuria**, iron deficiency, thrombosis (hepatic/portal veins) and marrow failure.\n\n## Simplified explanation\n\nPNH cells (all lineages) lack CD55 and CD59, so red cells burst inside vessels; iron lost in urine (haemosiderin) can cause iron deficiency.",
+  "hint": "PNH is a stem cell disorder affecting all lineages.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Paroxysmal Nocturnal Haemoglobinuria",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nParoxysmal nocturnal haemoglobinuria ...\n\nA. Is autosomal recessive disorder\nB. Acute intravascular haemolysis occurs only when a patient take oxidant drugs\nC. Is characterised by acute haemolytic episodes during mid-day\nD. Is clinically frequent thrombotic episodes",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is autosomal recessive disorder | **F** | It is an **acquired** somatic mutation (X-linked PIG-A). |\n| B. Acute intravascular haemolysis occurs only when a patient take oxidant drugs | **F** | That describes G6PD deficiency; PNH haemolysis is complement-driven (infection, stress, sleep). |\n| C. Is characterised by acute haemolytic episodes during mid-day | **F** | Classically **nocturnal/early morning** haemoglobinuria. |\n| D. Is clinically frequent thrombotic episodes | **T** | Thrombosis is the leading cause of death. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nPNH is **acquired** (somatic PIG-A mutation in an HSC). Haemolysis is chronic with paroxysms, classically noted in the first morning urine (mild respiratory acidosis during sleep was thought to activate complement). **Venous thrombosis** (Budd-Chiari, cerebral, mesenteric) is frequent; treatment includes eculizumab/ravulizumab.\n\n## Simplified explanation\n\nPNH is acquired, causes night/morning dark urine and many clots.",
+  "hint": "Nocturnal and thrombotic.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Paroxysmal Nocturnal Haemoglobinuria",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn warm autoimmune haemolytic anaemia ...\n\nA. The implicated antibody is IgM\nB. The implicated antibody reacts best at room temperature\nC. Coomb's test is always positive\nD. The haemolysis is always intravascular",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. The implicated antibody is IgM | **F** | Usually **IgG**. |\n| B. The implicated antibody reacts best at room temperature | **F** | It reacts best at **37 °C**. |\n| C. Coomb's test is always positive | **F** | DAT-negative AIHA occurs (~5%). |\n| D. The haemolysis is always intravascular | **F** | Mainly **extravascular** (splenic macrophages). |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Warm AIHA**: polyclonal **IgG** (often with Rh-related specificity), optimal at **37 °C**, DAT positive with anti-IgG ± anti-C3d (but DAT-negative cases exist), **extravascular** haemolysis in the spleen with **spherocytes**. Causes: idiopathic, SLE, CLL/lymphoma, drugs (methyldopa).\n\n## Simplified explanation\n\nWarm AIHA is due to IgG antibodies working at body temperature; red cells are removed mostly in the spleen. Every statement is false.",
+  "hint": "Warm = IgG at 37 °C, extravascular.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Autoimmune Haemolytic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of intravascular haemolysis include ...\n\nA. Hereditary spherocytosis\nB. Mismatched ABO blood transfusion\nC. Red cell fragmentation syndromes\nD. Hereditary stomatocytosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Hereditary spherocytosis | **F** | Extravascular (splenic) haemolysis. |\n| B. Mismatched ABO blood transfusion | **T** | IgM anti-A/B fix complement → intravascular lysis. |\n| C. Red cell fragmentation syndromes | **T** | Microangiopathic/mechanical haemolysis. |\n| D. Hereditary stomatocytosis | **F** | Mainly extravascular. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Intravascular** haemolysis: ABO-incompatible transfusion, PNH, G6PD deficiency crises, PCH, mechanical heart valves/MAHA (DIC, TTP, HUS), march haemoglobinuria, severe falciparum malaria, clostridial sepsis, snake venoms. **Extravascular**: hereditary spherocytosis and other membranopathies, warm AIHA, haemoglobinopathies.\n\n## Simplified explanation\n\nABO mismatch and fragmentation burst red cells inside vessels. Spherocytosis and stomatocytosis are cleared in the spleen.",
+  "hint": "Complement or mechanical damage → intravascular.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Haemolytic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe molecular basis of hereditary spherocytosis include ...\n\nA. Protein 4.1 deficiency\nB. Band 3 abnormality\nC. Stomatin deficiency\nD. Ankyrin deficiency",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Protein 4.1 deficiency | **F** | Causes hereditary **elliptocytosis**. |\n| B. Band 3 abnormality | **T** | A common HS defect. |\n| C. Stomatin deficiency | **F** | Associated with overhydrated hereditary **stomatocytosis**. |\n| D. Ankyrin deficiency | **T** | The commonest cause of HS. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nHS results from defects in **vertical** interactions: **ankyrin** (commonest), **band 3**, β-spectrin, α-spectrin (recessive), **protein 4.2**. Loss of membrane → spherocytes → splenic trapping. HE involves horizontal interactions (spectrin self-association, **protein 4.1**). Stomatin deficiency is seen in overhydrated stomatocytosis.\n\n## Simplified explanation\n\nHS is due to ankyrin, band 3, spectrin or protein 4.2 defects. Protein 4.1 belongs to elliptocytosis and stomatin to stomatocytosis.",
+  "hint": "Vertical links = HS.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Membrane Disorders",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nG6PD deficiency disease ...\n\nA. Is sex-linked\nB. More females are clinically affected than males\nC. Produces more severe symptoms in reticulocytosis\nD. Is a defect in the Embden-Meyerhof pathway",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is sex-linked | **T** | The G6PD gene is on the X chromosome. |\n| B. More females are clinically affected than males | **F** | Hemizygous **males** are mainly affected. |\n| C. Produces more severe symptoms in reticulocytosis | **F** | Reticulocytes have higher G6PD activity, so haemolysis is self-limiting. |\n| D. Is a defect in the Embden-Meyerhof pathway | **F** | G6PD is in the **hexose monophosphate shunt**. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nG6PD deficiency is **X-linked**; males (hemizygous) and homozygous females are affected; heterozygous females are mosaics (lyonisation). In the common GdA⁻ variant, enzyme activity falls with red cell age, so young cells and **reticulocytes** have near-normal activity, making haemolysis self-limiting and screening falsely normal during reticulocytosis.\n\n## Simplified explanation\n\nG6PD deficiency is X-linked, mainly in males, part of the HMP shunt, and milder when the blood is full of young cells.",
+  "hint": "Young cells have more G6PD.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCold autoimmune haemolytic anaemia ...\n\nA. Coomb's test reveal only complement (C3d) on red cells\nB. Is characterised by marked spherocytosis\nC. The implicated antibody is usually directed against ABO antigens\nD. Patients may develop facial plethora due to red cell agglutination",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Coomb's test reveal only complement (C3d) on red cells | **T** | IgM elutes on warming; only C3d remains. |\n| B. Is characterised by marked spherocytosis | **F** | Spherocytes are not prominent; agglutination is. |\n| C. The implicated antibody is usually directed against ABO antigens | **F** | Usually **anti-I** (or anti-i). |\n| D. Patients may develop facial plethora due to red cell agglutination | **F** | Agglutination in cold extremities causes **acrocyanosis**, not plethora. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Cold AIHA/CHAD**: IgM autoantibody (usually **anti-I**; anti-i in EBV infection), binds at low temperature in peripheries and fixes complement. The IgM dissociates on warming, so the **DAT is positive for C3d only**. Findings: red cell **agglutination** on the film, falsely high MCV/MCHC, acrocyanosis, Raynaud phenomenon, haemolysis (extravascular C3b clearance in liver and some intravascular).\n\n## Simplified explanation\n\nIn cold AIHA only complement stays on the cells, the film shows clumps not spherocytes, the antibody is anti-I, and fingers/ears turn blue.",
+  "hint": "IgM falls off; C3d stays.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Autoimmune Haemolytic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nSources of vitamin B12 include ...\n\nA. Legumes\nB. Leafy green vegetables\nC. Fish\nD. Liver",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Legumes | **F** | Plants do not contain B12. |\n| B. Leafy green vegetables | **F** | A source of folate, not B12. |\n| C. Fish | **T** | Animal-derived food. |\n| D. Liver | **T** | The richest dietary source. |\n\n> [!answer]\n> **A F, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nVitamin B12 is synthesised only by microorganisms and enters the diet through **animal products**: liver, meat, fish, eggs, milk. Strict vegans need supplements. Folate is abundant in leafy green vegetables, legumes and liver.\n\n## Simplified explanation\n\nB12 comes from animal foods like fish and liver, not plants.",
+  "hint": "Plants make folate, not B12.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Vitamin B12",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nNitrous oxide (\"nitric oxide\" on the paper) anaesthesia causes megaloblastic anaemia by ...\n\nA. Inactivating transcobalamine II\nB. Oxidising Cobalt atom in vitamin B12\nC. Inhibiting intrinsic factor secretion\nD. Inhibiting dihydrofolate reductase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Inactivating transcobalamine II | **F** | Transport protein unaffected. |\n| B. Oxidising Cobalt atom in vitamin B12 | **T** | N₂O oxidises cob(I)alamin, inactivating methylcobalamin. |\n| C. Inhibiting intrinsic factor secretion | **F** | Not affected. |\n| D. Inhibiting dihydrofolate reductase | **F** | That is methotrexate/trimethoprim. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Nitrous oxide** irreversibly **oxidises the cobalt** of cob(I)alamin, inactivating methionine synthase (which needs methylcobalamin). This traps folate as methyl-THF and causes acute megaloblastic marrow changes and, with repeated exposure (recreational use), subacute combined degeneration of the cord.\n\n## Simplified explanation\n\nLaughing gas oxidises the cobalt in B12 so it can't work, causing megaloblastic change.",
+  "hint": "N₂O is an oxidant.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Megaloblastic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of macrocytic anaemia includes ...\n\nA. Liver disease\nB. Alcoholism\nC. Beta thalassaemia trait\nD. Myelodysplasia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Liver disease | **T** | Lipid deposition on membranes gives round macrocytes/target cells. |\n| B. Alcoholism | **T** | Direct toxic effect, folate deficiency. |\n| C. Beta thalassaemia trait | **F** | Microcytic. |\n| D. Myelodysplasia | **T** | Commonly macrocytic. |\n\n> [!answer]\n> **A T, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nMacrocytosis: **megaloblastic** (B12/folate deficiency, drugs: methotrexate, hydroxycarbamide, zidovudine) and **non-megaloblastic** (alcohol, liver disease, hypothyroidism, reticulocytosis, **myelodysplasia**, aplastic anaemia, pregnancy, myeloma). Thalassaemia trait is microcytic.\n\n## Simplified explanation\n\nLiver disease, alcohol and MDS make red cells big; thalassaemia makes them small.",
+  "hint": "Thalassaemia is the odd one out.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Macrocytic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nFolic acid may be recommended in the following conditions ...\n\nA. Patients undergoing dialysis\nB. In pregnancy to prevent congenital dyserythropoietic anaemia\nC. Chronic myelofibrosis\nD. Patients with severe chronic haemolytic anaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Patients undergoing dialysis | **T** | Folate is lost in dialysate. |\n| B. In pregnancy to prevent congenital dyserythropoietic anaemia | **F** | It is given to prevent **neural tube defects** and megaloblastic anaemia. |\n| C. Chronic myelofibrosis | **T** | Increased cell turnover raises folate demand. |\n| D. Patients with severe chronic haemolytic anaemia | **T** | e.g. sickle cell disease, thalassaemia, HS. |\n\n> [!answer]\n> **A T, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nProphylactic folic acid is given in pregnancy (neural tube defect prevention), chronic **haemolytic anaemias**, **myeloproliferative disorders/myelofibrosis** (high turnover), **dialysis** (losses), prematurity and long-term anticonvulsant therapy. Congenital dyserythropoietic anaemia is a genetic disorder not prevented by folate.\n\n## Simplified explanation\n\nFolate is needed when cells turn over fast or folate is lost: dialysis, haemolysis, myelofibrosis. In pregnancy it prevents neural tube defects, not CDA.",
+  "hint": "Folate prevents neural tube defects.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Folate",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of megaloblastic anaemia ...\n\nA. Orotic aciduria\nB. Hydroxyurea therapy\nC. Cytosine arabinoside therapy\nD. Zidovudine therapy",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Orotic aciduria | **T** | Pyrimidine synthesis defect. |\n| B. Hydroxyurea therapy | **T** | Ribonucleotide reductase inhibitor. |\n| C. Cytosine arabinoside therapy | **T** | Inhibits DNA polymerase. |\n| D. Zidovudine therapy | **T** | Interferes with DNA synthesis. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nMegaloblastic anaemia = impaired **DNA synthesis**: B12/folate deficiency; **drugs** (methotrexate, trimethoprim, **hydroxycarbamide**, **cytarabine**, 6-mercaptopurine, **zidovudine**, nitrous oxide); inborn errors (**orotic aciduria**, transcobalamin II deficiency); MDS/erythroleukaemia.\n\n## Simplified explanation\n\nAll four interfere with making DNA, so all cause megaloblastic change.",
+  "hint": "All block DNA synthesis.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Megaloblastic Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nTranscobalamine I ...\n\nA. Is produced by gastric parietal cells\nB. Is required for transport of vitamin B12 to the bone marrow erythroblasts\nC. Levels are reduced in vitamin B12 deficiency anaemia\nD. Stimulates macrophages to release iron to bone marrow erythroblasts",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is produced by gastric parietal cells | **F** | Parietal cells make **intrinsic factor**; TC I (haptocorrin) comes from granulocytes and salivary glands. |\n| B. Is required for transport of vitamin B12 to the bone marrow erythroblasts | **F** | **Transcobalamin II** delivers B12 to cells. |\n| C. Levels are reduced in vitamin B12 deficiency anaemia | **F** | TC I is not specifically reduced; it is raised in myeloproliferative disease (CML). |\n| D. Stimulates macrophages to release iron to bone marrow erythroblasts | **F** | Unrelated to iron metabolism. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Transcobalamin I (haptocorrin, R-binder)** is produced by **granulocytes** and salivary glands, carries most of the plasma B12 (~80%) but is not taken up by marrow cells (a storage/circulating form); levels rise in CML and myeloproliferative neoplasms. **Transcobalamin II** carries newly absorbed B12 to tissues via the TCII receptor (CD320); its deficiency causes megaloblastic anaemia.\n\n## Simplified explanation\n\nTC I is made by white cells and just holds B12 in plasma. TC II delivers B12 to the marrow. All four statements are false.",
+  "hint": "TC II is the delivery protein.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Vitamin B12",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPernicious anaemia ...\n\nA. Is caused by g.i.t. perforation\nB. Autoimmune attack of gastric mucosa leading to atrophy of the stomach\nC. Is associated with achlorhydria\nD. Is caused by congenital lack of intrinsic factor",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is caused by g.i.t. perforation | **F** | Not related. |\n| B. Autoimmune attack of gastric mucosa leading to atrophy of the stomach | **T** | Autoimmune atrophic gastritis. |\n| C. Is associated with achlorhydria | **T** | Loss of parietal cells removes acid and intrinsic factor. |\n| D. Is caused by congenital lack of intrinsic factor | **F** | That is congenital IF deficiency (juvenile PA), a separate condition. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Pernicious anaemia** is autoimmune atrophic gastritis (body/fundus) with **anti-parietal cell** (H⁺/K⁺ ATPase) and **anti-intrinsic factor** antibodies, leading to achlorhydria, loss of IF and B12 malabsorption. Associated with other autoimmune diseases and a raised risk of gastric carcinoma.\n\n## Simplified explanation\n\nIn pernicious anaemia the immune system destroys the stomach lining, so there is no acid and no intrinsic factor to absorb B12.",
+  "hint": "Autoimmune and acquired.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Pernicious Anaemia",
+   "2016/17 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nFeatures of increased red cell catabolism includes ...\n\nA. Increased peripheral blood haptoglobin\nB. Methaemalbuminaemia\nC. Increased peripheral blood haemopexin\nD. Gallstone formation",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Increased peripheral blood haptoglobin | **F** | Haptoglobin is **reduced** (bound and cleared). |\n| B. Methaemalbuminaemia | **T** | Free haem binds albumin in intravascular haemolysis. |\n| C. Increased peripheral blood haemopexin | **F** | Haemopexin is **reduced** (consumed binding haem). |\n| D. Gallstone formation | **T** | Raised bilirubin turnover → pigment gallstones. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nEvidence of increased red cell **destruction**: raised unconjugated bilirubin, urinary urobilinogen, LDH; **low haptoglobin** and **haemopexin**; **methaemalbuminaemia**, haemoglobinaemia, haemoglobinuria and haemosiderinuria (intravascular); pigment **gallstones** in chronic haemolysis. Evidence of increased **production**: reticulocytosis, polychromasia, erythroid hyperplasia.\n\n## Simplified explanation\n\nWhen red cells break down, haptoglobin and haemopexin are used up, methaemalbumin appears and extra bilirubin can form gallstones.",
+  "hint": "Scavenger proteins fall when consumed.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemolysis",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn Glucose 6 phosphate deficiency disease (G6PDd) ...\n\nA. The inheritance is sex-linked recessive\nB. The normal G6PD genotype is GdA⁻\nC. Gd Canton is the commonest abnormal genotype in Ghana\nD. Heterozygous males do not express clinical symptoms",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. The inheritance is sex-linked recessive | **T** | X-linked. |\n| B. The normal G6PD genotype is GdA⁻ | **F** | The normal (wild-type) type is **GdB**; GdA⁻ is deficient. |\n| C. Gd Canton is the commonest abnormal genotype in Ghana | **F** | **GdA⁻** is the common African variant; Canton is East Asian. |\n| D. Heterozygous males do not express clinical symptoms | **F** | Males are **hemizygous**, not heterozygous, and are fully affected. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nG6PD variants: **GdB** (normal, most common worldwide), **GdA⁺** (normal activity, African), **GdA⁻** (~10–15% activity; common in West Africa including Ghana), **Mediterranean** (severe, <1%), **Canton** (Southern China). Males with one X are hemizygous.\n\n## Simplified explanation\n\nG6PD deficiency is X-linked; the normal type is GdB; GdA⁻ is the common Ghanaian variant; men can't be heterozygous.",
+  "hint": "GdB is normal; GdA⁻ is African.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMLS Akwasi Bonsu collected urine samples as part of the investigation of a patient suspected of suffering haemolytic anaemia. After the urine was left unattended for 2 hours, it turned dark. This could have been caused by ...\n\nA. bilirubinuria\nB. Increased urobilinogen\nC. Haemosiderinuria\nD. Uric acid crystals",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. bilirubinuria | **F** | Unconjugated bilirubin of haemolysis is not excreted in urine (acholuric jaundice). |\n| B. Increased urobilinogen | **T** | Colourless urobilinogen oxidises to dark urobilin on standing. |\n| C. Haemosiderinuria | **F** | Haemosiderin is detected by Perls' stain of sediment; it does not darken urine on standing. |\n| D. Uric acid crystals | **F** | Uric acid crystals cause a pink sediment, not darkening. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nIn haemolysis, excess unconjugated bilirubin is conjugated and excreted in bile; gut bacteria convert it to **urobilinogen**, part of which is reabsorbed and excreted in urine. Urobilinogen is colourless but oxidises to brown **urobilin** on exposure to air and light, so the urine darkens on standing. Unconjugated bilirubin is albumin-bound and not filtered (acholuric jaundice).\n\n## Simplified explanation\n\nExtra urobilinogen in the urine turns into dark urobilin when the urine stands in air.",
+  "hint": "Which pigment changes colour on standing?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemolysis",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in compensatory erythropoietic response to haemolytic episode include ...\n\nA. Reticulocytopenia\nB. Peripheral blood spherocytosis\nC. Increased red cell fragment in peripheral blood\nD. Bone marrow normoplasia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Reticulocytopenia | **F** | **Reticulocytosis** is the compensatory response. |\n| B. Peripheral blood spherocytosis | **F** | Spherocytes reflect the cause of haemolysis, not the compensation. |\n| C. Increased red cell fragment in peripheral blood | **F** | Fragments indicate mechanical destruction. |\n| D. Bone marrow normoplasia | **F** | The marrow shows **erythroid hyperplasia**. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nCompensatory (production) features: **reticulocytosis**, polychromasia, macrocytosis, nucleated red cells, **erythroid hyperplasia** with reversed M:E ratio, bone expansion in chronic childhood haemolysis, raised folate requirement. Spherocytes and fragments are evidence of the destructive process.\n\n## Simplified explanation\n\nThe marrow responds by making more red cells, so reticulocytes rise and marrow becomes hyperplastic. None of the statements describes that.",
+  "hint": "Compensation = more production.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Haemolysis",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nHereditary spherocytosis (HS) and hereditary elliptocytosis (HE) are both red cell membranopathies. The differences in their respective presentation include ...\n\nA. HS is caused by defective alpha-spectrin self-association whereas HE is caused by ankyrin deficiency\nB. HS is caused by defective vertical interaction whereas HE is caused by defective horizontal interaction\nC. HS is characterised by extravascular haemolysis whereas HE is characterised by intravascular haemolysis\nD. Coombs test is positive in HS but negative in HE",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. HS is caused by defective alpha-spectrin self-association whereas HE is caused by ankyrin deficiency | **F** | Reversed: spectrin self-association defects cause HE; ankyrin defects cause HS. |\n| B. HS is caused by defective vertical interaction whereas HE is caused by defective horizontal interaction | **T** | This is the key difference. |\n| C. HS is characterised by extravascular haemolysis whereas HE is characterised by intravascular haemolysis | **F** | Both are extravascular (splenic). |\n| D. Coombs test is positive in HS but negative in HE | **F** | DAT is negative in both (non-immune). |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**HS**: defects of **vertical** links (ankyrin, band 3, β-spectrin, protein 4.2) → membrane loss → spherocytes. **HE**: defects of **horizontal** links (α/β-spectrin self-association, protein 4.1) → mechanically unstable skeleton → elliptocytes. Both: extravascular haemolysis of variable severity, **DAT negative**; splenectomy helps severe cases.\n\n## Simplified explanation\n\nHS is a vertical-link problem, HE a horizontal one; both are cleared in the spleen and are Coombs-negative.",
+  "hint": "Vertical → spheres; horizontal → ellipses.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Membrane Disorders",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIncreased osmotic fragility occurs in ...\n\nA. Hereditary spherocytosis\nB. Hereditary xerocytosis\nC. Sickle cell disease\nD. Glutathione deficiency disease",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Hereditary spherocytosis | **T** | Low surface-to-volume ratio. |\n| B. Hereditary xerocytosis | **F** | Dehydrated cells have **decreased** osmotic fragility. |\n| C. Sickle cell disease | **F** | Osmotic fragility is **decreased**. |\n| D. Glutathione deficiency disease | **F** | Not characteristically increased. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Increased** osmotic fragility: spherocytes (HS, warm AIHA, burns). **Decreased**: target cells, thalassaemia, iron deficiency, sickle cell disease, liver disease, **hereditary xerocytosis** (dehydrated stomatocytosis), reticulocytosis.\n\n## Simplified explanation\n\nSpherocytes burst easily in dilute salt. Xerocytes, sickle cells and others are more resistant.",
+  "hint": "Spheres have no spare membrane.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Osmotic Fragility",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMedications that can trigger oxidant stress-induced haemolysis in G6PD deficient individuals include ...\n\nA. Acetylsalicylic acid\nB. Nitrofurantoin\nC. Primaquine\nD. Vitamin K injection",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Acetylsalicylic acid | **T** | High doses of aspirin can trigger haemolysis. |\n| B. Nitrofurantoin | **T** | Well-recognised oxidant drug. |\n| C. Primaquine | **T** | The classic example. |\n| D. Vitamin K injection | **T** | Water-soluble analogues (menadione) are oxidants. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nDrugs to avoid in G6PD deficiency: antimalarials (**primaquine**, tafenoquine, dapsone), sulphonamides (co-trimoxazole), **nitrofurantoin**, quinolones, rasburicase, methylene blue, high-dose **aspirin**, water-soluble **vitamin K** analogues (menadione); also fava beans, naphthalene and infections.\n\n## Simplified explanation\n\nAll four can trigger haemolysis in G6PD deficiency.",
+  "hint": "Oxidant drugs.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, differentiate between haemoglobin H and haemoglobin Bart.",
+  "media": [],
+  "answer": "- **Hb H** is a tetramer of four **β-globin chains (β₄)** formed in children/adults with three α-gene deletions (HbH disease, --/-α), a moderate haemolytic anaemia compatible with life.\n- **Hb Bart's** is a tetramer of four **γ-globin chains (γ₄)** formed in fetal life when α-chains are deficient; in four-gene deletion (--/--) it predominates and causes **hydrops fetalis**, incompatible with life.\n\n> [!answer]\n> HbH = β₄ (adult, 3-gene deletion); Hb Bart's = γ₄ (fetal, 4-gene deletion → hydrops).",
+  "explanation": "## Advanced explanation\n\nBoth are homotetramers formed by excess non-α chains when α-chains are deficient; both have very high O₂ affinity and no Bohr effect, so they deliver O₂ poorly. HbH is unstable and precipitates (golf-ball inclusions). Small amounts of Hb Bart's at birth (1–10%) mark α-thalassaemia trait/silent carriers.\n\n## Simplified explanation\n\nHbH is made of four β chains (seen after birth); Hb Bart's is four γ chains (seen in the fetus, fatal when no α genes work).",
+  "hint": "Which chain is in excess before and after birth?",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Alpha Thalassaemia",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain why total iron binding capacity is high in iron deficiency anaemia but is normal in beta thalassaemia.",
+  "media": [],
+  "answer": "TIBC is a measure of **transferrin**; in iron deficiency the depleted iron stores **stimulate hepatic transferrin synthesis**, so TIBC rises. In β-thalassaemia trait iron stores are **normal (or increased)**, so transferrin production and TIBC remain normal.\n\n> [!answer]\n> TIBC reflects transferrin, which the liver makes more of when iron stores are low; in β-thal stores are normal.",
+  "explanation": "## Advanced explanation\n\nTransferrin synthesis is inversely regulated by hepatocyte iron. TIBC ≈ transferrin (g/L) × 25 µmol/L. Iron studies thus separate IDA (low ferritin, high TIBC) from thalassaemia trait (normal ferritin/TIBC) and anaemia of chronic disease (low/normal TIBC, normal/high ferritin).\n\n## Simplified explanation\n\nWhen iron is short the liver makes more transferrin, so TIBC goes up. In thalassaemia there's plenty of iron, so TIBC is normal.",
+  "hint": "TIBC ≈ transferrin.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Iron Studies",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Patient Kofi Badu (24 years) has Hb 4.8 g/dL. If the bone marrow myeloid-to-erythroid ratio (M:E) is reversed, briefly explain the clinical implications of this laboratory finding.",
+  "media": [],
+  "answer": "A reversed M:E ratio means **erythroid hyperplasia**: the marrow is responding to the severe anaemia by greatly increasing red cell precursors. Since Hb is still very low despite this, the anaemia must be due to either:\n\n- **Peripheral loss or destruction** of red cells (haemolysis, e.g. sickle cell crisis, G6PD, AIHA, or acute haemorrhage), in which case the reticulocyte count will be high; or\n- **Ineffective erythropoiesis** (megaloblastic anaemia, thalassaemia, MDS), with a low reticulocyte count relative to the marrow activity.\n\nIt excludes marrow hypoplasia/aplasia or infiltration as the cause, and the reticulocyte count, film, bilirubin/LDH and B12/folate are needed to distinguish.\n\n> [!answer]\n> Erythroid hyperplasia: the marrow is working hard, so the anaemia is from haemolysis/blood loss or ineffective erythropoiesis, not marrow failure.",
+  "explanation": "## Advanced explanation\n\nNormal M:E is ~2:1–4:1. Reversal (<1:1) occurs in haemolytic anaemia, haemorrhage, megaloblastic anaemia, thalassaemia, polycythaemia and dyserythropoiesis. Combining marrow findings with the reticulocyte production index separates effective (high RPI) from ineffective (low RPI) erythroid hyperplasia.\n\n## Simplified explanation\n\nThe marrow is making lots of red cell precursors but the blood is still very anaemic, so the cells are either being destroyed/lost or dying before release.",
+  "hint": "Reversed M:E = erythroid hyperplasia.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Bone Marrow Examination",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain why megaloblastic anaemia leads to reticulocytopenia.",
+  "media": [],
+  "answer": "Defective DNA synthesis (B12/folate deficiency) causes **ineffective erythropoiesis**: many megaloblasts fail to complete division and die by **apoptosis within the marrow** (intramedullary haemolysis). Thus, despite erythroid hyperplasia, few cells mature to reticulocytes and are released, giving a low reticulocyte count.\n\n> [!answer]\n> Ineffective erythropoiesis: megaloblasts die in the marrow, so few reticulocytes reach the blood.",
+  "explanation": "## Advanced explanation\n\nUp to 90% of erythroid precursors may be destroyed intramedullarily, explaining raised LDH (often very high) and unconjugated bilirubin with a low reticulocyte count. After B12/folate replacement, a brisk reticulocytosis peaks at days 5–7.\n\n## Simplified explanation\n\nThe marrow is busy but most of its abnormal precursors die before becoming reticulocytes.",
+  "hint": "Think ineffective erythropoiesis.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Megaloblastic Anaemia",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain why orotic aciduria leads to megaloblastic anaemia.",
+  "media": [],
+  "answer": "Hereditary orotic aciduria is a deficiency of **UMP synthase**, so orotic acid cannot be converted to **uridine monophosphate**, and pyrimidine nucleotides needed for **DNA synthesis** are lacking. Impaired DNA synthesis with normal RNA/protein synthesis produces **nuclear-cytoplasmic asynchrony** (megaloblasts), unresponsive to B12/folate but corrected by uridine.\n\n> [!answer]\n> UMP synthase deficiency → no pyrimidines for DNA → megaloblastic change.",
+  "explanation": "## Advanced explanation\n\nUMP synthase has two activities: orotate phosphoribosyltransferase and OMP decarboxylase. Deficiency causes orotic acid crystalluria, megaloblastic anaemia, failure to thrive; treatment is oral uridine, which bypasses the block.\n\n## Simplified explanation\n\nThe body can't make the pyrimidine building blocks of DNA, so cells can't divide properly and become megaloblastic.",
+  "hint": "Pyrimidine synthesis block.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Megaloblastic Anaemia",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain why achlorhydria leads to megaloblastic anaemia.",
+  "media": [],
+  "answer": "Gastric **acid and pepsin** are needed to release vitamin B12 from dietary proteins so it can bind haptocorrin and later **intrinsic factor**; in achlorhydria (e.g. atrophic gastritis/pernicious anaemia, which also destroys the IF-secreting **parietal cells**) B12 is not released or absorbed. The resulting B12 deficiency impairs DNA synthesis (methionine synthase/folate trap), producing megaloblastic anaemia.\n\n> [!answer]\n> No acid → food-bound B12 not released (and parietal cell loss → no IF) → B12 deficiency → megaloblastic anaemia.",
+  "explanation": "## Advanced explanation\n\nB12 absorption: release from food by acid/pepsin → binding to haptocorrin (R-binder) in stomach → pancreatic proteases free it → binds IF in duodenum → IF-B12 absorbed via cubam receptor in terminal ileum → transcobalamin II. Food-cobalamin malabsorption (achlorhydria, PPIs, gastrectomy) is common in the elderly.\n\n## Simplified explanation\n\nStomach acid frees B12 from food, and the same acid-making cells make intrinsic factor. Without them B12 isn't absorbed.",
+  "hint": "Acid frees B12; parietal cells make IF.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Vitamin B12",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two haematological findings that differentiate beta thalassaemia trait from alpha thalassaemia trait.",
+  "media": [],
+  "answer": "Any two:\n\n- **Hb A₂ raised (>3.5%)** in β-thalassaemia trait; normal or low in α-thalassaemia trait.\n- **Hb F** may be mildly raised (1–3%) in β-trait; normal in α-trait.\n- **Hb H inclusions** (golf-ball bodies with brilliant cresyl blue) may be found in α-trait (two-gene deletion), not in β-trait.\n- **Hb Bart's** at birth in α-trait.\n- Basophilic stippling/target cells more prominent in β-trait.\n\n> [!answer]\n> Raised HbA₂ (and HbF) in β-trait; HbH inclusions/normal HbA₂ in α-trait.",
+  "explanation": "## Advanced explanation\n\nBoth traits give microcytic hypochromic indices with a raised RBC count and normal iron studies. β-trait is confirmed by HbA₂ quantification (HPLC/capillary electrophoresis); α-trait is usually a diagnosis of exclusion confirmed by DNA analysis (gap-PCR for -α³·⁷, --SEA etc.).\n\n## Simplified explanation\n\nβ-thal trait has high HbA₂; α-thal trait does not, but may show HbH inclusions.",
+  "hint": "HbA₂ is the key test.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Thalassaemia",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two advantages associated with the use of high-performance liquid chromatography (HPLC) when investigating haemoglobinopathies.",
+  "media": [],
+  "answer": "Any two:\n\n- **Accurate quantification** of Hb A₂ and Hb F (needed for β-thalassaemia trait).\n- **Identifies and quantifies** many Hb variants by retention time, including variants that **co-migrate** on electrophoresis (e.g. S vs D, C vs E vs A₂).\n- **Automated**, rapid, high throughput, needs a **small sample** volume.\n- Good reproducibility and precision.\n\n> [!answer]\n> Accurate quantification of HbA₂/HbF and identification of variants that co-migrate on electrophoresis (plus automation, small sample).",
+  "explanation": "## Advanced explanation\n\nCation-exchange HPLC separates haemoglobins by charge interaction with the column; each Hb elutes in a characteristic retention-time window. Limitations: HbE co-elutes with A₂; abnormal results need confirmation by a second method (electrophoresis, DNA analysis).\n\n## Simplified explanation\n\nHPLC measures exactly how much HbA₂ and HbF there is and can separate variants that look the same on electrophoresis, quickly and automatically.",
+  "hint": "Quantify and separate.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Haemoglobinopathies",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain why the Mentzer index is <13 in beta thalassaemia trait but is >13 in iron deficiency anaemia.",
+  "media": [],
+  "answer": "Mentzer index = MCV ÷ RBC count. In **β-thalassaemia trait** the marrow produces a **normal or increased number** of very small cells (high RBC, low MCV), so the ratio is small (<13); in **iron deficiency** iron-restricted erythropoiesis lowers the **RBC count** as well as the MCV, so the ratio stays high (>13).\n\n> [!answer]\n> Thal trait: many small cells (high RBC) → low ratio; IDA: fewer small cells (low RBC) → high ratio.",
+  "explanation": "## Advanced explanation\n\nIn thalassaemia trait, globin synthesis is reduced but erythropoiesis is expanded and fairly effective, giving erythrocytosis with microcytosis. In IDA, lack of iron limits haemoglobinisation and proliferation, so RBC falls in step. The index is a screen only (sensitivity ~70–90%).\n\n## Simplified explanation\n\nThalassaemia trait makes lots of small cells; iron deficiency makes fewer small cells. Dividing MCV by RBC therefore gives a small number in thal trait and a big one in iron deficiency.",
+  "hint": "Look at the denominator (RBC).",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Discriminant Indices",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn using the methaemoglobin reductase test to screen for G6PD deficiency disease ...\n\nA. Methylene blue induces oxidant stress\nB. Sodium nitrate activates the hexose monophosphate pathway\nC. Glucose maintains the buffering capacity of blood\nD. Sodium citrate converts haemoglobin to methaemoglobin",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Methylene blue induces oxidant stress | **F** | Methylene blue acts as an electron carrier that **activates the HMP shunt/NADPH-dependent MetHb reduction**. |\n| B. Sodium nitrate activates the hexose monophosphate pathway | **F** | Sodium **nitrite** oxidises Hb to methaemoglobin. |\n| C. Glucose maintains the buffering capacity of blood | **F** | Glucose is the **substrate** for the HMP shunt. |\n| D. Sodium citrate converts haemoglobin to methaemoglobin | **F** | That is the role of sodium nitrite. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Brewer's methaemoglobin reduction test**: blood + **sodium nitrite** (converts Hb → MetHb) + **methylene blue** (accepts electrons from NADPH, stimulating the HMP shunt and reducing MetHb) + **glucose** (substrate), incubated 3 h at 37 °C. Normal blood turns red (MetHb reduced); G6PD-deficient blood stays brown. False normals occur with reticulocytosis or recent transfusion.\n\n## Simplified explanation\n\nNitrite makes methaemoglobin, methylene blue and glucose let normal cells turn it back. None of the statements gives the right roles.",
+  "hint": "Nitrite oxidises; methylene blue + glucose reduce.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "G6PD Screening",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPyruvate kinase deficiency disease ...\n\nA. Leads to spherocytic haemolytic anaemia\nB. Is sex-linked recessively inherited\nC. Is autosomal dominant inherited disease\nD. Leads to congenital impaired production of 2,3-DPG",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Leads to spherocytic haemolytic anaemia | **F** | It causes **non-spherocytic** haemolytic anaemia. |\n| B. Is sex-linked recessively inherited | **F** | Autosomal recessive. |\n| C. Is autosomal dominant inherited disease | **F** | Autosomal recessive. |\n| D. Leads to congenital impaired production of 2,3-DPG | **F** | 2,3-DPG is **increased**. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nPK deficiency: **autosomal recessive**, chronic **non-spherocytic** haemolytic anaemia, **raised 2,3-DPG** (right-shifted O₂ curve), prickle cells/echinocytes especially after splenectomy, diagnosis by PK enzyme assay.\n\n## Simplified explanation\n\nPK deficiency is autosomal recessive, non-spherocytic, and raises 2,3-DPG. All four are false.",
+  "hint": "Blocked glycolysis raises upstream 2,3-DPG.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Enzymopathies",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPresentation of pyruvate kinase deficiency disease includes ...\n\nA. Frontal bossing\nB. Jaundice\nC. Gallstones\nD. Poikilocytosis on peripheral blood smear",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Frontal bossing | **T** | Marrow expansion in severe childhood cases. |\n| B. Jaundice | **T** | From chronic haemolysis. |\n| C. Gallstones | **T** | Pigment stones. |\n| D. Poikilocytosis on peripheral blood smear | **T** | Non-specific poikilocytes and prickle cells/echinocytes. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nPK deficiency ranges from fetal hydrops to compensated haemolysis: anaemia, **jaundice**, **gallstones**, splenomegaly, iron overload, and skeletal changes (**frontal bossing**) in severe early cases. The film shows polychromasia and **poikilocytosis** with characteristic echinocytes ('prickle cells'), especially post-splenectomy.\n\n## Simplified explanation\n\nChronic haemolysis gives jaundice, gallstones, bone changes and abnormal-shaped cells. All four are true.",
+  "hint": "Features of chronic congenital haemolysis.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Enzymopathies",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMr Akwele inherited glutathione reductase deficiency from birth. If he is to acquire severe *Plasmodium falciparum* infection, the laboratory findings would include ...\n\nA. haemosiderinuria\nB. haemoglobinuria\nC. non-spherocytic haemolytic anaemia\nD. positive direct antiglobulin test",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. haemosiderinuria | **T** | Intravascular haemolysis. |\n| B. haemoglobinuria | **T** | Intravascular haemolysis (oxidant + malaria). |\n| C. non-spherocytic haemolytic anaemia | **T** | Enzymopathies cause non-spherocytic haemolysis. |\n| D. positive direct antiglobulin test | **F** | Non-immune haemolysis: DAT negative. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nGlutathione reductase deficiency impairs regeneration of GSH, so oxidant stress (infection, drugs, fava beans) causes **intravascular** haemolysis like G6PD deficiency: haemoglobinaemia, **haemoglobinuria**, **haemosiderinuria**, Heinz bodies, bite cells, **non-spherocytic** anaemia. Severe falciparum malaria itself causes intravascular haemolysis (blackwater fever). The DAT is negative.\n\n## Simplified explanation\n\nInfection triggers red cells to burst in vessels (haemoglobin and haemosiderin in urine) without spherocytes or antibodies.",
+  "hint": "Enzyme defect = non-immune.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Enzymopathies",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThirty (30) minutes after Mr Aniweh ate a bowl of rice and beans, he fell due to dizziness. He was rushed to the accident and emergency unit as he felt the dizziness was not resolving. His haemoglobin was 8.1 g/dL, platelet count was 500 × 10⁹/L. His urine appeared cola coloured. Direct antiglobulin test was negative. The probable cause(s) could include ...\n\nA. IgG mediated autoimmune haemolytic anaemia\nB. pyruvate kinase deficiency disorder\nC. glutathione reductase deficiency disease\nD. glucose 6-phosphate deficiency disease",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IgG mediated autoimmune haemolytic anaemia | **F** | DAT negative and a food trigger make AIHA unlikely. |\n| B. pyruvate kinase deficiency disorder | **F** | Causes chronic extravascular haemolysis, not acute food-triggered haemoglobinuria. |\n| C. glutathione reductase deficiency disease | **T** | Impaired GSH regeneration permits acute oxidant (favism-type) haemolysis. |\n| D. glucose 6-phosphate deficiency disease | **T** | Classic favism after beans (fava). |\n\n> [!answer]\n> **A F, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nAcute intravascular haemolysis with **cola-coloured urine** (haemoglobinuria) after eating **beans**, with a negative DAT, points to **oxidant haemolysis** from failure of the HMP shunt/glutathione pathway: **G6PD deficiency** (favism) or glutathione reductase/synthetase deficiency. Reactive thrombocytosis may accompany acute haemolysis.\n\n## Simplified explanation\n\nSudden dark urine after beans with a negative Coombs test means oxidant damage: G6PD or glutathione reductase deficiency.",
+  "hint": "Food trigger + DAT negative.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Oxidant Haemolysis",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn warm autoimmune haemolytic anaemia (WAIHA), ...\n\nA. autoantibody is directed against RhC antigens\nB. haemolytic episode is intravascular\nC. spherocytosis rarely occurs\nD. haemolysis is due to anti-C3d antibodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. autoantibody is directed against RhC antigens | **F** | Specificity is usually broad/pan-reactive (often Rh-complex related), not specifically anti-C. |\n| B. haemolytic episode is intravascular | **F** | Mainly extravascular. |\n| C. spherocytosis rarely occurs | **F** | **Spherocytes** are a typical finding. |\n| D. haemolysis is due to anti-C3d antibodies | **F** | Haemolysis is due to IgG autoantibodies (± complement) on the red cells; anti-C3d is a reagent used in the DAT. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nWAIHA: IgG autoantibodies, typically **panreactive** (sometimes with relative Rh-complex specificity such as anti-e), coat red cells; splenic macrophages remove membrane via Fc receptors, producing **spherocytes** and **extravascular** haemolysis. DAT is positive with anti-IgG ± anti-C3d reagents.\n\n## Simplified explanation\n\nWarm AIHA gives spherocytes and splenic (extravascular) destruction by IgG; none of the statements is correct.",
+  "hint": "Spherocytes are typical in warm AIHA.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Autoimmune Haemolytic Anaemia",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe causes of intravascular haemolysis include ...\n\nA. Red cell fragmentation syndrome\nB. Paroxysmal cold haemoglobinuria\nC. Paroxysmal nocturnal haemoglobinuria\nD. Mismatched ABO transfusion",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Red cell fragmentation syndrome | **T** | Mechanical lysis in vessels. |\n| B. Paroxysmal cold haemoglobinuria | **T** | Donath-Landsteiner antibody fixes complement. |\n| C. Paroxysmal nocturnal haemoglobinuria | **T** | Complement lysis. |\n| D. Mismatched ABO transfusion | **T** | Complement-fixing IgM. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nAll four destroy red cells within the circulation: mechanical (MAHA, valves), complement-mediated (PNH, PCH, ABO incompatibility). Laboratory signs: haemoglobinaemia, haemoglobinuria, haemosiderinuria, methaemalbuminaemia, absent haptoglobin, very high LDH.\n\n## Simplified explanation\n\nAll four burst red cells inside blood vessels.",
+  "hint": "Complement or mechanical damage.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Haemolytic Anaemia",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe underlying molecular defect in sickle cell disease is ______ of the beta globin chain.\n\nA. glutamate replacing glutamine at position 121\nB. valine replacing glutamine at position 6\nC. glutamine replacing lysine at position 26\nD. lysine replacing isoleucine at position 32",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. glutamate replacing glutamine at position 121 | **F** | Wrong residue and position (Hb D-Punjab is Glu→Gln at β121). |\n| B. valine replacing glutamine at position 6 | **F** | Valine replaces glutamic acid (**glutamate**), not glutamine. |\n| C. glutamine replacing lysine at position 26 | **F** | Hb E is Glu→Lys at β26. |\n| D. lysine replacing isoleucine at position 32 | **F** | Not a recognised sickling mutation. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHbS: **β6 Glu→Val** (GAG→GTG). Other variants: HbC β6 Glu→Lys; HbE β26 Glu→Lys; HbD-Punjab β121 Glu→Gln; HbO-Arab β121 Glu→Lys. Note glutamate (glutamic acid) and glutamine are different amino acids.\n\n## Simplified explanation\n\nSickle Hb is valine replacing **glutamic acid** at position 6, so the option that says glutamine is wrong too. All four are false.",
+  "hint": "Glutamate ≠ glutamine.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Sickle Cell Disease",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn G6PD deficiency, oxidant stress-induced acute haemolysis ...\n\nA. is extravascular\nB. is associated with peripheral blood spherocytosis\nC. leads to reticulocytopenia\nD. causes haemoglobinaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. is extravascular | **F** | Predominantly **intravascular**. |\n| B. is associated with peripheral blood spherocytosis | **F** | Typical cells are bite, blister and irregularly contracted cells, not spherocytes. |\n| C. leads to reticulocytopenia | **F** | A **reticulocytosis** follows after a few days. |\n| D. causes haemoglobinaemia | **T** | Free Hb in plasma from intravascular lysis. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nAcute G6PD haemolysis (drugs, fava beans, infection) is mainly **intravascular** within 1–3 days: haemoglobinaemia, haemoglobinuria, Heinz bodies (supravital stain), bite/blister cells, contracted cells; reticulocytosis appears after ~5 days and the episode is self-limiting.\n\n## Simplified explanation\n\nRed cells burst inside the vessels, so free haemoglobin appears in plasma; the other statements are false.",
+  "hint": "Intravascular → haemoglobinaemia.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the laboratory investigation of paroxysmal nocturnal haemoglobinuria, ABO/Rh compatible serum for a normal control is added to the patient red cells. The reason for using normal serum control is ...\n\nA. To confirm that the haemoglobinuria is complement mediated\nB. To rule out allo-immunization as the cause of the haemoglobinuria\nC. To inactivate complement factors\nD. To rule out auto-antibodies as the cause of the haemoglobinuria",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. To confirm that the haemoglobinuria is complement mediated | **F** | Complement dependence is shown by the heat-inactivated serum control. |\n| B. To rule out allo-immunization as the cause of the haemoglobinuria | **F** | Not the purpose of this control. |\n| C. To inactivate complement factors | **F** | Complement is inactivated by heating serum to 56 °C. |\n| D. To rule out auto-antibodies as the cause of the haemoglobinuria | **T** | Lysis of the patient's cells in normal serum shows the defect lies in the cells, not an antibody in the patient's serum. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nIn the Ham test, patient cells lyse in acidified **normal** compatible serum as well as in their own, demonstrating an **intrinsic red cell defect** (complement sensitivity) rather than a serum antibody. Heat-inactivated serum (56 °C, 30 min) gives no lysis, confirming complement dependence. Normal red cells in acidified patient serum serve as a negative control.\n\n## Simplified explanation\n\nUsing someone else's normal serum shows that the patient's cells are faulty, so it isn't an antibody in the patient's own blood.",
+  "hint": "Which control removes the patient's serum from the equation?",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Paroxysmal Nocturnal Haemoglobinuria",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhen undertaking the Ham's test to confirm the diagnosis of paroxysmal nocturnal haemoglobinuria, ...\n\nA. Plasma of the patient is required\nB. Incubation of the test is undertaken at 4°C\nC. Positive test is indicated by visible red cell agglutination\nD. ABO/Rh compatible sample is required to rule out complement mediated lysis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Plasma of the patient is required | **F** | **Serum** is needed; anticoagulants in plasma chelate Ca²⁺/Mg²⁺ and block complement. |\n| B. Incubation of the test is undertaken at 4°C | **F** | Incubation is at **37 °C**. |\n| C. Positive test is indicated by visible red cell agglutination | **F** | A positive test is **lysis** (haemolysis), not agglutination. |\n| D. ABO/Rh compatible sample is required to rule out complement mediated lysis | **F** | Compatible normal serum is used to avoid antibody-mediated lysis, not to rule out complement lysis. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHam test: patient's washed red cells + fresh **acidified serum** (patient's and ABO-compatible normal serum), incubated at **37 °C** for 1 h; centrifuge and look for **haemolysis** in the supernatant. Complement needs Ca²⁺/Mg²⁺, so serum (not EDTA/citrate plasma) is used.\n\n## Simplified explanation\n\nThe Ham test uses serum at 37 °C and looks for haemolysis, not agglutination. All four are false.",
+  "hint": "Complement needs serum and body temperature.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Paroxysmal Nocturnal Haemoglobinuria",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the laboratory investigation of warm autoimmune haemolytic anaemia, Direct antiglobulin test (DAT), is positive due to the presence of ...\n\nA. only anti-complement antibodies\nB. only IgG antibodies\nC. both IgG and IgM\nD. both IgM and complement",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. only anti-complement antibodies | **F** | C3d alone is typical of **cold** AIHA. |\n| B. only IgG antibodies | **F** | In WAIHA the DAT may be IgG alone **or** IgG + C3d (or C3d alone); 'only IgG' is not the rule. |\n| C. both IgG and IgM | **F** | IgM is the cold antibody class; not a WAIHA DAT pattern. |\n| D. both IgM and complement | **F** | Describes cold agglutinins. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nPolyspecific DAT followed by monospecific reagents: WAIHA → **IgG** (≈ 2/3 of cases with or without C3d), occasionally C3d alone or IgA; CHAD → **C3d only**; PCH → C3d only (IgG Donath-Landsteiner dissociates). DAT is negative in a minority of WAIHA.\n\n## Simplified explanation\n\nIn warm AIHA the DAT usually finds IgG, often with complement, not a single fixed pattern; none of the options is right.",
+  "hint": "Complement-only is cold AIHA.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Autoimmune Haemolytic Anaemia",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBiochemical changes in extravascular haemolysis include ...\n\nA. Methaemalbuminaemia\nB. Haemoglobinuria\nC. Elevated urobilinogen\nD. Haematuria",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Methaemalbuminaemia | **F** | A sign of **intravascular** haemolysis. |\n| B. Haemoglobinuria | **F** | Intravascular haemolysis. |\n| C. Elevated urobilinogen | **T** | Increased bilirubin turnover raises urinary urobilinogen. |\n| D. Haematuria | **F** | Haematuria (intact red cells) is a urinary tract finding, not haemolysis. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nIn **extravascular** haemolysis (spleen/liver macrophages), haem is converted to unconjugated bilirubin: raised serum bilirubin, **urinary and faecal urobilinogen**, LDH, and (moderately) reduced haptoglobin. Free Hb in plasma, methaemalbumin, haemoglobinuria and haemosiderinuria indicate **intravascular** haemolysis.\n\n## Simplified explanation\n\nIn extravascular haemolysis the extra bilirubin shows up as urobilinogen in urine. The other changes belong to intravascular haemolysis or to bleeding.",
+  "hint": "Extravascular = bilirubin route.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemolysis",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe inheritance of G6PD deficiency disease is ...\n\nA. Sex-linked\nB. Autosomal dominant\nC. Autosomal recessive\nD. Autosomal co-dominant",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Sex-linked | **T** | X-linked (Xq28). |\n| B. Autosomal dominant | **F** | Not autosomal. |\n| C. Autosomal recessive | **F** | Not autosomal. |\n| D. Autosomal co-dominant | **F** | Not autosomal. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nThe G6PD gene is on **Xq28**, so inheritance is X-linked: hemizygous males are affected, heterozygous females show variable expression due to lyonisation, homozygous females are affected.\n\n## Simplified explanation\n\nG6PD deficiency is X-linked.",
+  "hint": "Which chromosome carries G6PD?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nHaemolytic anaemia caused by defective red cell membrane structure includes ...\n\nA. G6PD deficiency disease\nB. Pyruvate kinase deficiency disease\nC. Hereditary spherocytosis\nD. Hereditary xerocytosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. G6PD deficiency disease | **F** | An enzymopathy. |\n| B. Pyruvate kinase deficiency disease | **F** | An enzymopathy. |\n| C. Hereditary spherocytosis | **T** | Membrane protein defect. |\n| D. Hereditary xerocytosis | **T** | Membrane cation channel (PIEZO1) defect. |\n\n> [!answer]\n> **A F, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nHereditary red cell disorders: **membranopathies** (HS, HE, HPP, hereditary stomatocytosis/xerocytosis: PIEZO1, KCNN4), **enzymopathies** (G6PD, PK, pyrimidine 5'-nucleotidase), and **haemoglobinopathies**.\n\n## Simplified explanation\n\nSpherocytosis and xerocytosis are membrane diseases; G6PD and PK deficiency are enzyme diseases.",
+  "hint": "Membrane vs enzyme vs haemoglobin.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Membrane Disorders",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in hereditary spherocytosis include ...\n\nA. Decreased MCH\nB. Decreased MCHC\nC. Raised RDW\nD. MCV >100 fL",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Decreased MCH | **F** | MCH is normal. |\n| B. Decreased MCHC | **F** | MCHC is characteristically **raised** (dehydrated spherocytes). |\n| C. Raised RDW | **T** | Mixed populations of spherocytes and reticulocytes. |\n| D. MCV >100 fL | **F** | MCV is usually normal or slightly low. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nHS: spherocytes, reticulocytosis, **raised MCHC** (>36 g/dL, a useful screening clue), raised RDW and hyperdense cell fraction, normal or low MCV, raised bilirubin, negative DAT, increased osmotic fragility, reduced EMA dye binding on flow cytometry.\n\n## Simplified explanation\n\nIn HS the cells are dense (high MCHC) and of mixed sizes (high RDW); MCH and MCV are not changed as stated.",
+  "hint": "Spherocytes are dehydrated.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Hereditary Spherocytosis",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nDuring the methaemoglobin reductase assay for Mrs Adu, the test demonstrated \"full defect\" pattern of reaction. According to her, she had given birth to a boy whose methaemoglobin reductase test was \"No defect\". When she screened for her genotype, she showed a heterozygous gene expression. The probable explanation(s) for this divergent phenotypic and genotypic assay include ...\n\nA. The inheritance is autosomal dominant\nB. Unfavourable lyonisation occurred\nC. The MLS did not read the methaemoglobin reductase assay properly\nD. The disease affects only females",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. The inheritance is autosomal dominant | **F** | G6PD deficiency is X-linked. |\n| B. Unfavourable lyonisation occurred | **T** | Most of her active X chromosomes carry the deficient allele. |\n| C. The MLS did not read the methaemoglobin reductase assay properly | **F** | The result is explained biologically. |\n| D. The disease affects only females | **F** | Males are mainly affected. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHeterozygous females are **mosaics**: random X-inactivation (**lyonisation**) in early embryogenesis determines the proportion of G6PD-normal and G6PD-deficient red cells. Skewed (unfavourable) inactivation of the normal X can give a fully deficient phenotype. Her son inherited her normal X, so he is unaffected.\n\n## Simplified explanation\n\nIn a carrier woman, if the normal X chromosome is switched off in most cells, she looks fully deficient. That is lyonisation.",
+  "hint": "Random X inactivation.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nOsmotic fragility of red cells is increased in ...\n\nA. Reticulocytosis\nB. Iron deficiency anaemia\nC. Hereditary spherocytosis\nD. Beta thalassaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Reticulocytosis | **F** | Reticulocytes have extra membrane: fragility **decreased**. |\n| B. Iron deficiency anaemia | **F** | Thin, flat cells: fragility **decreased**. |\n| C. Hereditary spherocytosis | **T** | Spherocytes have low surface-to-volume ratio. |\n| D. Beta thalassaemia | **F** | Target cells: fragility **decreased**. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nOsmotic fragility depends on the **surface area-to-volume ratio**: spherocytes (low ratio) lyse in less hypotonic saline (increased fragility); flat or target cells (high ratio: IDA, thalassaemia, liver disease, reticulocytes) resist lysis (decreased fragility).\n\n## Simplified explanation\n\nOnly spherocytes break easily in dilute salt; the others are more resistant.",
+  "hint": "Spherical cells have no room to swell.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Osmotic Fragility",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nGlucose-6-phosphate dehydrogenase deficiency disease ...\n\nA. Affects all blood cells equally\nB. Is autosomal inherited trait\nC. Is recessively inherited\nD. Affects both gender equally",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Affects all blood cells equally | **F** | Clinical effects are mainly in red cells, which cannot make new enzyme. |\n| B. Is autosomal inherited trait | **F** | X-linked. |\n| C. Is recessively inherited | **T** | X-linked recessive. |\n| D. Affects both gender equally | **F** | Mostly males. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nG6PD deficiency is **X-linked recessive** (with variable expression in heterozygous females). Red cells are most affected because they lack nuclei/ribosomes and cannot replace enzyme as it decays; leucocytes are usually functionally adequate except in severe variants.\n\n## Simplified explanation\n\nG6PD deficiency is X-linked recessive and mostly affects males' red cells.",
+  "hint": "X-linked recessive.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "Quiz (undated)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMr. Kaakyire is suspected to have undergone G6PD deficiency-induced acute haemolytic episode. The full blood count findings to be expected includes ...\n\nA. raised Red cell distribution width\nB. reduced mean cell volume\nC. increased platelet count\nD. reduced neutrophil count",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. raised Red cell distribution width | **T** | Mixed populations (reticulocytes, contracted cells). |\n| B. reduced mean cell volume | **F** | MCV is normal or raised (reticulocytosis). |\n| C. increased platelet count | **T** | Reactive thrombocytosis may accompany acute haemolysis. |\n| D. reduced neutrophil count | **F** | A neutrophil leucocytosis is more usual. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nAfter acute oxidant haemolysis: anaemia, **raised RDW**, normal-to-high MCV (reticulocytes), polychromasia, bite/blister cells, Heinz bodies; reactive **neutrophilia** and **thrombocytosis** are common.\n\n## Simplified explanation\n\nExpect varied cell sizes (high RDW) and possibly a raised platelet count; MCV and neutrophils don't fall.",
+  "hint": "Acute stress response raises counts.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "G6PD Deficiency",
+   "Quiz (undated)"
+  ]
+ }
+]

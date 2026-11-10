@@ -1,0 +1,156 @@
+[
+ {
+  "type": "text",
+  "body": "Complete the statement:\n\nHaemoglobin C is an abnormal haemoglobin in which there is the substitution of a ________ residue with a ________ residue at the ________ position of the ________ chain.",
+  "media": [],
+  "answer": "Haemoglobin C: substitution of a **glutamic acid (glutamate)** residue with a **lysine** residue at the **6th** position of the **β-globin** chain (β6 Glu → Lys).\n\n> [!answer]\n> glutamate; lysine; sixth; β.",
+  "explanation": "## Advanced explanation\n\nHbC results from a point mutation (GAG → AAG) in codon 6 of the *HBB* gene, the same codon affected in HbS (Glu → Val). Replacing a negatively charged residue with a positively charged one reduces solubility; HbC tends to crystallise, giving target cells and intracellular crystals and a mild haemolytic anaemia (HbCC) or, with HbS, HbSC disease.\n\n## Simplified explanation\n\nIn HbC, the 6th amino acid of the β chain, glutamate, is replaced by lysine.",
+  "hint": "Same position as the sickle mutation.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemoglobin Variants",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Complete the statement:\n\nCarboxyhaemoglobin is formed by the combination of ________ with ________ in the haemoglobin molecule. However, in haemoglobin A, iron in the ________ state is bound to the ________ atom of the pyrrole ring.",
+  "media": [],
+  "answer": "Carboxyhaemoglobin is formed by the combination of **carbon monoxide (CO)** with **haem iron (Fe²⁺)** in the haemoglobin molecule. In haemoglobin A, iron in the **ferrous (Fe²⁺)** state is bound to the **nitrogen** atom of the pyrrole ring.\n\n> [!answer]\n> carbon monoxide; haem (ferrous) iron; ferrous (Fe²⁺); nitrogen.",
+  "explanation": "## Advanced explanation\n\nHaem is protoporphyrin IX with a central Fe²⁺ coordinated by the four pyrrole nitrogens; the fifth bond is to the proximal histidine (F8) and the sixth site binds O₂ (or CO). CO binds about 200–250 times more avidly than O₂, forming carboxyhaemoglobin, which cannot carry O₂ and shifts the dissociation curve of the remaining haem to the left. Oxidation to Fe³⁺ gives methaemoglobin, which cannot bind O₂.\n\n## Simplified explanation\n\nCarbon monoxide sticks to the iron in haem. That iron is in the ferrous (Fe²⁺) form and is held by the nitrogens of the pyrrole rings.",
+  "hint": "CO poisoning.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Haemoglobin",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Complete the statement:\n\nIn ________ action, the hormone is distributed in the ________ and binds to distant targets, whereas, in ________ action the hormone acts locally by ________ from its source to target cells in the neighbourhood.",
+  "media": [],
+  "answer": "In **endocrine** action, the hormone is distributed in the **blood (circulation)** and binds to distant targets, whereas in **paracrine** action the hormone acts locally by **diffusion** from its source to target cells in the neighbourhood.\n\n> [!answer]\n> endocrine; blood; paracrine; diffusion.",
+  "explanation": "## Advanced explanation\n\nChemical signalling modes: **endocrine** (via blood to distant cells, e.g. insulin), **paracrine** (diffusion to nearby cells, e.g. somatostatin in islets, histamine), **autocrine** (acts on the secreting cell itself, e.g. IL-2 on T cells) and juxtacrine (cell contact).\n\n## Simplified explanation\n\nEndocrine hormones travel in the blood to far-away cells; paracrine ones just diffuse to neighbours.",
+  "hint": "Endo- vs para-.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hormone Action",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Antibodies (described in the paper as anti-nuclear antibodies, ANA) directed against pancreatic cells result in the destruction of the pancreatic cells. What laboratory abnormality might be seen in this scenario? Why would the destruction of the pancreatic cells cause this abnormality?",
+  "media": [],
+  "answer": "**Abnormality:** **hyperglycaemia** (raised fasting/random blood glucose, raised HbA1c, glycosuria; possibly ketonaemia/ketonuria and low C-peptide).\n\n**Reason:** autoimmune destruction of the **β-cells of the islets of Langerhans** stops **insulin** secretion (type 1 diabetes mellitus). Without insulin, glucose uptake by muscle and adipose tissue (GLUT4) falls, and the liver continues glycogenolysis and gluconeogenesis unopposed by insulin, so blood glucose rises; lipolysis increases, producing ketone bodies.\n\n> [!answer]\n> Hyperglycaemia (with glycosuria/ketones), because loss of β-cells means no insulin to move glucose into cells and to suppress hepatic glucose output.",
+  "explanation": "## Advanced explanation\n\nIn type 1 diabetes the autoantibodies typically measured are islet-cell antibodies, anti-GAD65, anti-insulin, anti-IA-2 and anti-ZnT8 (not classical ANA). β-cell loss gives absolute insulin deficiency, while glucagon is relatively in excess, favouring catabolic metabolism and ketoacidosis.\n\n## Simplified explanation\n\nIf the immune system destroys the insulin-making cells, there is no insulin, so sugar stays in the blood: high blood glucose.",
+  "hint": "Which hormone do pancreatic islet β-cells make?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Diabetes Mellitus",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What metabolic disorders are generally classified as **porphyrias**?\n\n(b) Distinguish between **erythropoietic** and **hepatic** porphyrias.",
+  "media": [],
+  "answer": "(a) Porphyrias are a group of (mostly inherited, sometimes acquired) disorders caused by **deficiency of enzymes of the haem biosynthetic pathway**, leading to accumulation and excess excretion of **porphyrins and/or their precursors** (δ-aminolaevulinic acid, porphobilinogen).\n\n(b)\n\n| | Erythropoietic porphyrias | Hepatic porphyrias |\n|---|---|---|\n| Main site of enzyme defect/overproduction | **Bone marrow** (erythroid cells) | **Liver** |\n| Main features | Photosensitivity (skin), haemolysis; porphyrins high in red cells and faeces | Acute neurovisceral attacks (abdominal pain, neuropathy, psychiatric) and/or skin lesions; precursors (ALA, PBG) high in urine |\n| Examples | Congenital erythropoietic porphyria (Günther disease), erythropoietic protoporphyria | Acute intermittent porphyria, porphyria cutanea tarda, variegate porphyria, hereditary coproporphyria |\n\n> [!answer]\n> (a) Disorders of haem synthesis due to enzyme deficiencies, with accumulation of porphyrins or precursors. (b) Erythropoietic: defect expressed in bone marrow erythroid cells (photosensitivity, e.g. CEP, EPP). Hepatic: defect expressed in liver (acute attacks and/or skin lesions, e.g. AIP, PCT).",
+  "explanation": "## Advanced explanation\n\nHaem is made mainly in the marrow (≈85%, for haemoglobin) and liver (for cytochromes). Precursors accumulating before porphyrinogen formation (ALA, PBG) are neurotoxic; porphyrins themselves absorb light (~400 nm, Soret band) and cause photosensitivity. Hepatic attacks are precipitated by drugs (e.g. barbiturates) that induce ALA synthase.\n\n## Simplified explanation\n\nPorphyrias are faults in making haem. In erythropoietic types the fault shows in the bone marrow (skin sensitive to light); in hepatic types it shows in the liver (painful attacks and/or skin problems).",
+  "hint": "Haem pathway enzyme defects.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Porphyrias",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List **three** consequences of biotransformation.",
+  "media": [],
+  "answer": "Any three of:\n\n1. **Increased water solubility (polarity)** → easier **excretion** in urine or bile.\n2. **Inactivation/detoxification** of drugs or toxins (most common).\n3. **Activation of prodrugs** to active drugs (e.g. prontosil → sulfanilamide, codeine → morphine).\n4. **Bioactivation to toxic or carcinogenic metabolites** (e.g. paracetamol → NAPQI; benzo[a]pyrene → diol epoxide).\n5. Change in pharmacological activity (active drug → active metabolite with different properties).\n6. Termination of drug action.\n\n> [!answer]\n> e.g. increased polarity and excretion, detoxification/inactivation, activation of prodrugs, formation of toxic/carcinogenic metabolites.",
+  "explanation": "## Advanced explanation\n\nBiotransformation (mainly hepatic) occurs in **Phase I** (oxidation, reduction, hydrolysis, often by cytochrome P450) and **Phase II** (conjugation with glucuronic acid, sulphate, glutathione, acetyl, methyl, amino acids). The usual net effect is detoxification and excretion, but the outcome depends on the compound.\n\n## Simplified explanation\n\nChanging a foreign chemical in the body usually makes it easier to pass out and less active, but sometimes activates it or even makes it toxic.",
+  "hint": "Think good and bad outcomes.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Xenobiotic Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why biotransformation is important in the excretion of **xenobiotics**.",
+  "media": [],
+  "answer": "Most xenobiotics are **lipophilic (non-polar)**. In the kidney they are filtered but then **passively reabsorbed** across tubular membranes back into blood, and in the gut they are reabsorbed after biliary secretion, so they would persist in the body for a very long time. Biotransformation (phase I introduces/unmasks polar groups; phase II conjugates them with glucuronate, sulphate, glutathione etc.) makes them **more polar, water-soluble and often ionised**, so they are **not reabsorbed** and are readily excreted in **urine or bile**.\n\n> [!answer]\n> It converts lipophilic xenobiotics, which would be reabsorbed, into polar water-soluble metabolites that can be excreted in urine and bile.",
+  "explanation": "## Advanced explanation\n\nConjugates may also be actively secreted by tubular and canalicular transporters (OATs, MRP2). Larger conjugates (MW > ~300–500) tend to go into bile; smaller ones into urine.\n\n## Simplified explanation\n\nFat-soluble chemicals keep getting reabsorbed. The liver turns them into water-soluble forms that can be passed out in urine or bile.",
+  "hint": "Lipid-soluble vs water-soluble.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Xenobiotic Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Prontosil is a prodrug used in the treatment of streptococcal and pneumococcal infections. Its structure is a benzene ring carrying two amino groups (2,4-diaminophenyl) joined by an azo link (–N=N–) to a second benzene ring carrying a para-sulphonamide group (–SO₂NH₂): $\\mathrm{H_2N\\text{–}C_6H_3(NH_2)\\text{–}N{=}N\\text{–}C_6H_4\\text{–}SO_2NH_2}$.\n\n(a) Name the type of reaction that will convert it to the active drug.\n\n(b) Draw the structures of the metabolites.",
+  "media": [],
+  "answer": "(a) **Azo reduction** (reductive cleavage of the –N=N– bond; a phase I **reduction**, by hepatic azoreductases and gut bacteria).\n\n(b) Cleavage gives two amines:\n\n1. **Sulfanilamide** (4-aminobenzenesulphonamide), the active antibacterial: $\\mathrm{H_2N\\text{–}C_6H_4\\text{–}SO_2NH_2}$ (para).\n2. **1,2,4-Triaminobenzene**: $\\mathrm{C_6H_3(NH_2)_3}$, a benzene ring with amino groups at positions 1, 2 and 4.\n\n> [!answer]\n> (a) Azo reduction. (b) Sulfanilamide (p-aminobenzenesulphonamide) and 1,2,4-triaminobenzene.",
+  "explanation": "## Advanced explanation\n\n$\\mathrm{Ar\\text{–}N{=}N\\text{–}Ar' + 4[H] \\rightarrow Ar\\text{–}NH_2 + H_2N\\text{–}Ar'}$. Prontosil itself is inactive in vitro; Tréfouël and colleagues showed the active moiety was sulfanilamide, a structural analogue of p-aminobenzoic acid that competitively inhibits bacterial dihydropteroate synthase (folate synthesis).\n\n## Simplified explanation\n\nThe body breaks the N=N link by adding hydrogen. One half becomes sulfanilamide (the real drug); the other half is triaminobenzene.",
+  "hint": "Break the N=N bond.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Xenobiotic Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss briefly how **LOW** and **HIGH** levels of each of the following parameters affect the affinity of haemoglobin for oxygen:\n\na. Hydrogen ion (H⁺)\nb. 2,3-diphosphoglycerate (2,3-DPG)\nc. Temperature\nd. Partial pressure of carbon dioxide (PCO₂)",
+  "media": [],
+  "answer": "| Parameter | HIGH level | LOW level |\n|---|---|---|\n| **H⁺** | Low pH protonates His residues (e.g. β146), stabilising the T (tense) state → **affinity decreases**, curve shifts **right** (Bohr effect), O₂ released to tissues | High pH (alkalosis) → **affinity increases**, curve shifts **left** |\n| **2,3-DPG** | Binds the central cavity between β chains of deoxyHb, stabilising T state → **affinity decreases**, right shift (e.g. altitude, anaemia, hypoxia) | **Affinity increases**, left shift (e.g. stored blood, HbF binds 2,3-DPG poorly) |\n| **Temperature** | Weakens O₂–haem binding → **affinity decreases**, right shift (exercising muscle, fever) | **Affinity increases**, left shift (hypothermia) |\n| **PCO₂** | CO₂ forms carbamino groups with N-terminal amines and generates H⁺ (via carbonic anhydrase) → **affinity decreases**, right shift | **Affinity increases**, left shift (e.g. lungs, hyperventilation) |\n\n> [!answer]\n> High H⁺, 2,3-DPG, temperature and PCO₂ each lower Hb's O₂ affinity (right shift, P50 rises, more O₂ unloaded); low levels raise affinity (left shift, P50 falls, O₂ held more tightly).",
+  "explanation": "## Advanced explanation\n\nAll four are **allosteric/heterotropic effectors** that favour the low-affinity **T state**. The physiological sense: metabolically active tissues are acidic, warm and rich in CO₂, so Hb releases more O₂ there, while in the lungs (low CO₂, higher pH) affinity rises for loading. The shift is measured by the **P50** (PO₂ at 50% saturation, ≈ 26–27 mmHg normally).\n\n## Simplified explanation\n\nAcid, 2,3-DPG, heat and CO₂ make haemoglobin let go of oxygen (curve to the right). When they are low, haemoglobin holds oxygen tighter (curve to the left).",
+  "hint": "CADET, face right: CO₂, Acid, 2,3-DPG, Exercise, Temperature.",
+  "difficulty": "medium",
+  "marks": 16,
+  "tags": [
+   "Oxygen–Haemoglobin Dissociation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A patient with type I diabetes mellitus takes an insulin injection prior to eating dinner then gets distracted and does not eat. Approximately 3 hours later, the patient becomes shaky, sweaty, and confused. Why is the patient experiencing these symptoms?",
+  "media": [],
+  "answer": "The patient has **insulin-induced hypoglycaemia**.\n\n- The injected insulin promotes glucose uptake into muscle and fat and suppresses hepatic glycogenolysis and gluconeogenesis, but **no dietary glucose** came in, so blood glucose falls (typically < 3.0–3.9 mmol/L).\n- **Shaky and sweaty**: low glucose triggers counter-regulatory **sympathetic/adrenaline release** (adrenergic: tremor, palpitations; cholinergic sympathetic: sweating).\n- **Confused**: the brain depends on glucose as its fuel; **neuroglycopenia** impairs cerebral function (confusion, then fits, coma if untreated).\n\n> [!answer]\n> Hypoglycaemia from insulin without food: adrenaline release causes shaking and sweating; lack of glucose to the brain causes confusion.",
+  "explanation": "## Advanced explanation\n\nCounter-regulatory hormones (glucagon, adrenaline, cortisol, GH) normally restore glucose, but in type 1 diabetes the glucagon response is impaired and exogenous insulin cannot be switched off. Treatment is fast-acting oral glucose, or IV dextrose / IM glucagon if unconscious.\n\n## Simplified explanation\n\nHe took insulin but didn't eat, so his sugar dropped too low. The body releases adrenaline (shaking, sweating) and the brain lacks sugar (confusion).",
+  "hint": "Insulin without food.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Diabetes Mellitus",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "With chemical reactions, illustrate how **benzo[a]pyrene** (a five-ring polycyclic aromatic hydrocarbon) is converted to its tumorigenic **bay-region diol epoxide**.",
+  "media": [],
+  "answer": "Three enzymatic steps:\n\n1. **Epoxidation (CYP1A1/1B1, monooxygenase)**: benzo[a]pyrene + O₂ + NADPH → **benzo[a]pyrene-7,8-epoxide** (arene oxide).\n2. **Hydration (microsomal epoxide hydrolase)**: 7,8-epoxide + H₂O → **(−)-benzo[a]pyrene-7,8-dihydrodiol** (trans-7,8-diol).\n3. **Second epoxidation (CYP1A1)** of the 9,10 double bond: 7,8-dihydrodiol + O₂ + NADPH → **benzo[a]pyrene-7,8-dihydrodiol-9,10-epoxide (BPDE)**, the ultimate carcinogen; the 9,10-epoxide lies in the **bay region**.\n\n$$\\text{BaP} \\xrightarrow[\\text{O}_2,\\ \\text{NADPH}]{\\text{CYP1A1}} \\text{BaP-7,8-oxide} \\xrightarrow[\\text{H}_2\\text{O}]{\\text{epoxide hydrolase}} \\text{BaP-7,8-diol} \\xrightarrow[\\text{O}_2,\\ \\text{NADPH}]{\\text{CYP1A1}} \\text{BaP-7,8-diol-9,10-epoxide}$$\n\nBPDE's epoxide opens to a carbocation (C-10) that **covalently binds DNA**, chiefly the **N² of guanine**, forming bulky adducts → G→T transversions (e.g. in *TP53*, *KRAS*) → cancer.\n\n> [!answer]\n> BaP → (CYP1A1) 7,8-epoxide → (epoxide hydrolase) 7,8-dihydrodiol → (CYP1A1) 7,8-diol-9,10-epoxide (bay-region diol epoxide), which alkylates guanine in DNA.",
+  "explanation": "## Advanced explanation\n\nThis is a classic case of **metabolic activation (toxification)**. The bay-region theory explains why the 9,10-epoxide is so reactive: the benzylic carbocation formed in the sterically hindered bay region is stabilised and resists detoxification by epoxide hydrolase. BaP is found in tobacco smoke, charred meat and vehicle exhaust; it also induces CYP1A1 through the aryl hydrocarbon (Ah) receptor.\n\n## Simplified explanation\n\nThe liver adds oxygen to BaP, then water, then oxygen again, creating a diol epoxide that sticks to DNA and can cause cancer.",
+  "hint": "Epoxide, then diol, then epoxide again.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Chemical Carcinogenesis",
+   "2018/19 End of Semester Exam"
+  ]
+ }
+]

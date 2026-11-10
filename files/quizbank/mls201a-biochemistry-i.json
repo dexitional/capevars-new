@@ -1,0 +1,1982 @@
+[
+ {
+  "type": "text",
+  "body": "Briefly explain the importance of **GLUT-2** in the liver.",
+  "media": [],
+  "answer": "- GLUT-2 is a **high-capacity, low-affinity** (high $K_m$ ≈ 15–20 mM) **bidirectional** glucose transporter on hepatocytes.\n- After a meal, when portal glucose is high, it lets glucose **enter** the liver in proportion to its concentration, so the liver can take up and store excess glucose as **glycogen** (with glucokinase, also high $K_m$) and limit post-prandial hyperglycaemia.\n- During fasting, it allows glucose made by **glycogenolysis and gluconeogenesis** to **leave** the hepatocyte into the blood to maintain blood glucose.\n- Because it is not saturated at physiological glucose levels, it makes the liver a **glucose sensor/buffer**, and it is insulin-independent.\n\n> [!answer]\n> GLUT-2's high $K_m$ and bidirectionality let the liver take up glucose only when blood glucose is high (for storage as glycogen) and release glucose into blood during fasting, so the liver buffers blood glucose.",
+  "explanation": "## Advanced explanation\n\nGLUT-2 is also found on pancreatic β-cells (glucose sensing for insulin release), the basolateral membrane of enterocytes and kidney proximal tubule cells. Pairing GLUT-2 with glucokinase means hepatic glucose uptake rises nearly linearly with blood glucose.\n\n## Simplified explanation\n\nGLUT-2 is a wide, two-way door: it lets lots of sugar into the liver after meals for storage and lets sugar out into the blood when fasting.",
+  "hint": "High $K_m$, two-way.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Glucose Transporters",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the **rate-limiting step** in bile acid synthesis and the enzyme that catalyses this reaction.",
+  "media": [],
+  "answer": "Rate-limiting step: **7α-hydroxylation of cholesterol** to **7α-hydroxycholesterol**.\n\nEnzyme: **cholesterol 7α-hydroxylase (CYP7A1)**, a microsomal cytochrome P450 monooxygenase requiring O₂, NADPH and vitamin C.\n\n$$\\text{Cholesterol} + \\text{O}_2 + \\text{NADPH} + \\text{H}^+ \\xrightarrow{\\text{CYP7A1}} 7\\alpha\\text{-hydroxycholesterol} + \\text{NADP}^+ + \\text{H}_2\\text{O}$$\n\n> [!answer]\n> Hydroxylation of cholesterol at C-7 to form 7α-hydroxycholesterol, catalysed by cholesterol 7α-hydroxylase (CYP7A1).",
+  "explanation": "## Advanced explanation\n\nCYP7A1 is **feedback-inhibited by bile acids** returning in the enterohepatic circulation (via FXR → SHP) and induced by cholesterol. The primary bile acids formed are cholic and chenodeoxycholic acids, conjugated with glycine or taurine.\n\n## Simplified explanation\n\nMaking bile acids starts by adding an OH group at carbon 7 of cholesterol, using the enzyme 7α-hydroxylase. That step controls the speed.",
+  "hint": "CYP7A1.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Bile Acids",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the importance of **GLUT-1** and **GLUT-3** in brain cells?",
+  "media": [],
+  "answer": "- The brain relies almost entirely on **glucose** as fuel (except in prolonged starvation) and cannot store much glycogen.\n- **GLUT-1** (on the **blood–brain barrier endothelium** and astrocytes) transports glucose **from blood across the BBB** into the brain.\n- **GLUT-3** (on **neurons**) has a **high affinity (low $K_m$ ≈ 1–2 mM)**, so neurons take up glucose at a near-maximal rate even when blood glucose falls.\n- Both are **insulin-independent**, so brain glucose supply continues regardless of insulin levels.\n\n> [!answer]\n> GLUT-1 carries glucose across the blood–brain barrier; GLUT-3, with high affinity, lets neurons take up glucose continuously even at low blood glucose. Both are insulin-independent, securing the brain's fuel.",
+  "explanation": "## Advanced explanation\n\nLow $K_m$ transporters run near saturation at normal glucose levels, so uptake is constant. GLUT-1 deficiency syndrome causes low CSF glucose (hypoglycorrhachia), seizures and developmental delay, treated with a ketogenic diet.\n\n## Simplified explanation\n\nGLUT-1 moves sugar across the blood–brain barrier; GLUT-3 grabs sugar tightly into nerve cells. Neither needs insulin, so the brain is always fed.",
+  "hint": "Brain fuel needs a constant supply.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Glucose Transporters",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain how the following collagen diseases occur:\n\na. Scurvy\nb. Osteogenesis imperfecta",
+  "media": [],
+  "answer": "a. **Scurvy**: dietary **vitamin C (ascorbic acid) deficiency**. Ascorbate is the cofactor that keeps Fe²⁺ reduced in **prolyl and lysyl hydroxylases**. Without it, proline and lysine in procollagen are under-hydroxylated, so stable **triple helices cannot form** (hydroxyproline H-bonds) and cross-linking is reduced. Weak collagen gives **fragile capillaries** (bruising, perifollicular haemorrhages), bleeding swollen gums, loose teeth, poor wound healing and bone changes.\n\nb. **Osteogenesis imperfecta**: an inherited (usually **autosomal dominant**) disorder from **mutations in COL1A1 or COL1A2** genes of **type I collagen**. Commonly a **glycine** in the Gly-X-Y repeat is replaced by a bulkier amino acid, so the triple helix cannot fold properly (or less collagen is made). Defective type I collagen in bone gives **brittle bones** with multiple fractures, **blue sclerae**, deafness, dentinogenesis imperfecta.\n\n> [!answer]\n> Scurvy: vitamin C deficiency impairs prolyl/lysyl hydroxylation, so collagen helices are unstable. OI: mutations in type I collagen genes (often glycine substitutions) give abnormal or too little collagen, causing brittle bones.",
+  "explanation": "## Advanced explanation\n\nGlycine must occupy every third position because only its small side chain fits in the centre of the triple helix. Mutant chains act in a **dominant-negative** way ('procollagen suicide'), so even one abnormal allele is severe.\n\n## Simplified explanation\n\nScurvy: no vitamin C, so collagen is badly made. Osteogenesis imperfecta: faulty genes for bone collagen make bones break easily.",
+  "hint": "One is dietary, one genetic.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Collagen",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **two** differences between the **α-helix** and the **β-sheet**.",
+  "media": [],
+  "answer": "| α-Helix | β-Sheet |\n|---|---|\n| A **single** polypeptide chain coiled into a **right-handed spiral** | Two or more **extended (zig-zag) strands** lying side by side |\n| H-bonds **within the same strand** (C=O of residue *n* with N–H of residue *n*+4), **parallel to the helix axis** | H-bonds **between adjacent strands**, roughly **perpendicular** to the strands |\n| 3.6 residues per turn, rise 0.15 nm/residue (pitch 0.54 nm) | Residues 0.33–0.35 nm apart; strands can be parallel or antiparallel |\n| Side chains project **outward** from the helix | Side chains project **alternately above and below** the sheet |\n| Disrupted by proline and glycine | Favours small/β-branched residues; more extended, less elastic |\n\n> [!answer]\n> e.g. α-helix is a coiled single chain with intrachain H-bonds parallel to the axis; β-sheet is extended strands side by side with interchain H-bonds perpendicular to the strands.",
+  "explanation": "## Advanced explanation\n\nBoth are secondary structures stabilised by backbone hydrogen bonds. Examples: α-keratin (helix), silk fibroin (β-sheet). Amyloid fibrils are cross-β structures.\n\n## Simplified explanation\n\nA helix is one chain coiled like a spring, held by bonds within itself. A sheet is several straight strands side by side, held by bonds between strands.",
+  "hint": "Coil vs pleated sheet.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Protein Structure",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the structures of the products of the transamination reaction:\n\n$$\\text{Aspartate } (^-\\text{OOC–CH}_2\\text{–CH(NH}_2\\text{)–COO}^-) + \\text{Oxoglutarate } (^-\\text{OOC–CH}_2\\text{–CH}_2\\text{–CO–COO}^-) \\rightleftharpoons \\ ?$$",
+  "media": [],
+  "answer": "The amino group moves from aspartate to α-oxoglutarate (aspartate aminotransferase, AST, with pyridoxal phosphate):\n\n1. **Oxaloacetate**: $^-\\mathrm{OOC\\text{–}CH_2\\text{–}CO\\text{–}COO^-}$\n2. **Glutamate**: $^-\\mathrm{OOC\\text{–}CH_2\\text{–}CH_2\\text{–}CH(NH_3^+)\\text{–}COO^-}$\n\n> [!answer]\n> Oxaloacetate and glutamate.",
+  "explanation": "## Advanced explanation\n\nIn transamination the α-amino acid becomes the corresponding α-keto acid and the α-keto acid becomes the corresponding amino acid. Pyridoxal phosphate is converted to pyridoxamine phosphate and back (ping-pong mechanism). AST is a clinical marker of liver and muscle damage.\n\n## Simplified explanation\n\nAspartate gives its NH₂ to oxoglutarate: aspartate becomes oxaloacetate and oxoglutarate becomes glutamate.",
+  "hint": "Swap the amino and keto groups.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Amino Acid Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Calculate the **pI** of the amino acid (lysine) whose ionisation is shown:\n\n$$\\text{(+2)} \\xrightleftharpoons{pK_{a1}=2.2} \\text{(+1)} \\xrightleftharpoons{pK_{a2}=9.0} \\text{(0)} \\xrightleftharpoons{pK_{a3}=10.5} \\text{(−1)}$$\n\n(pKa₁ is the α-COOH, pKa₂ the α-NH₃⁺ and pKa₃ the side-chain ε-NH₃⁺, as drawn in the paper.)",
+  "media": [],
+  "answer": "The isoelectric point is the average of the two pKa values on either side of the **neutral (zwitterion, net charge 0)** form. Net charge 0 lies between pKa₂ and pKa₃:\n\n$$pI = \\frac{pK_{a2} + pK_{a3}}{2} = \\frac{9.0 + 10.5}{2} = 9.75$$\n\n> [!answer]\n> pI = 9.75",
+  "explanation": "## Advanced explanation\n\nFor a basic amino acid, the zwitterion has both amino groups' charges balanced against one carboxylate, so the two **amino** pKa values are averaged. For acidic amino acids (Asp, Glu) the two **carboxyl** pKa values are averaged; for neutral ones, pKa(COOH) and pKa(NH₃⁺).\n\n## Simplified explanation\n\nFind the form with zero charge and average the two pKa values around it: (9.0 + 10.5)/2 = 9.75.",
+  "hint": "Which two pKa values bracket the neutral form?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Amino Acids",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why a fasting individual with **carnitine deficiency** cannot use fatty acids as a source of fuel.",
+  "media": [],
+  "answer": "- In fasting, adipose lipolysis releases **long-chain fatty acids**, which are activated to **fatty acyl-CoA** in the cytosol.\n- β-Oxidation occurs in the **mitochondrial matrix**, but the inner mitochondrial membrane is **impermeable to acyl-CoA**.\n- Transport uses the **carnitine shuttle**: CPT-I converts acyl-CoA to **acylcarnitine**, carnitine–acylcarnitine translocase carries it in, and CPT-II regenerates acyl-CoA inside.\n- Without carnitine, long-chain fatty acids **cannot enter the mitochondria**, so they cannot be β-oxidised to acetyl-CoA, NADH and FADH₂ for ATP, nor converted to **ketone bodies** in the liver.\n- Result: tissues depend on glucose → **hypoketotic hypoglycaemia**, muscle weakness, fatty acid/triglyceride accumulation (fatty liver, myopathy).\n\n> [!answer]\n> Carnitine is needed to carry long-chain fatty acyl groups across the inner mitochondrial membrane (carnitine shuttle); without it, fatty acids cannot reach the matrix for β-oxidation or ketogenesis.",
+  "explanation": "## Advanced explanation\n\nShort- and medium-chain fatty acids can cross independently of carnitine, which is why medium-chain triglycerides are used in treatment, along with carnitine supplementation. CPT-I is also the regulated step, inhibited by malonyl-CoA in the fed state.\n\n## Simplified explanation\n\nFatty acids need carnitine as a 'ferry' to get into the mitochondria where they are burned. Without it, they can't be used and blood sugar drops in fasting.",
+  "hint": "Where does β-oxidation occur?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A lipid has a glycerol backbone esterified to three fatty acid molecules. **Octadecanoic acid**, *all-cis*-**7,10,13-hexadecatrienoic acid** and *all-cis*-**9,12,15-octadecatrienoic acid** are esterified to the glycerol of this lipid at positions 1, 2 and 3 respectively.\n\na. Draw the structure of this lipid.\nb. Draw the product obtained after complete hydrogenation of the lipid in (a).\nc. Draw the products obtained after saponification of the lipid in (a) with NaOH.",
+  "media": [],
+  "answer": "a. A triacylglycerol:\n\n```\nCH2–O–CO–(CH2)16–CH3                                  (C1: stearoyl, 18:0)\n|\nCH –O–CO–(CH2)5–CH=CH–CH2–CH=CH–CH2–CH=CH–CH2–CH3     (C2: 16:3 Δ7,10,13, all cis)\n|\nCH2–O–CO–(CH2)7–CH=CH–CH2–CH=CH–CH2–CH=CH–CH2–CH3     (C3: α-linolenoyl, 18:3 Δ9,12,15, all cis)\n```\n\nb. Complete hydrogenation (H₂/Ni) adds H₂ across all **6** C=C bonds, giving a saturated triacylglycerol, **1,3-distearoyl-2-palmitoylglycerol**:\n\n```\nCH2–O–CO–(CH2)16–CH3   (stearoyl)\n|\nCH –O–CO–(CH2)14–CH3   (palmitoyl)\n|\nCH2–O–CO–(CH2)16–CH3   (stearoyl)\n```\n\nc. Saponification with 3 NaOH gives **glycerol** + three **soaps**:\n\n- Glycerol: HOCH₂–CH(OH)–CH₂OH\n- Sodium octadecanoate (stearate): CH₃(CH₂)₁₆COO⁻Na⁺\n- Sodium *all-cis*-7,10,13-hexadecatrienoate: CH₃CH₂(CH=CHCH₂)₃(CH₂)₄COO⁻Na⁺\n- Sodium *all-cis*-9,12,15-octadecatrienoate (α-linolenate): CH₃CH₂(CH=CHCH₂)₃(CH₂)₆COO⁻Na⁺\n\n> [!answer]\n> (a) Triacylglycerol with stearate at C1, 16:3(Δ7,10,13) at C2 and α-linolenate at C3. (b) 1,3-distearoyl-2-palmitoylglycerol. (c) Glycerol + sodium stearate + sodium hexadecatrienoate + sodium α-linolenate.",
+  "explanation": "## Advanced explanation\n\nNumbering: in Δ nomenclature carbon 1 is the carboxyl carbon. Hydrogenating 16:3 gives palmitate (16:0) and 18:3 gives stearate (18:0). Both trienoic acids here are **ω-3** fatty acids (the last double bond is 3 carbons from the methyl end). Saponification is alkaline hydrolysis of ester bonds: $\\text{TAG} + 3\\,\\text{NaOH} \\rightarrow \\text{glycerol} + 3\\,\\text{RCOO}^-\\text{Na}^+$.\n\n## Simplified explanation\n\nIt is a fat (triglyceride): glycerol with three fatty acids. Adding hydrogen removes all double bonds (giving stearic, palmitic, stearic). Boiling with NaOH splits it into glycerol and three soaps.",
+  "hint": "Count carbons: hexadeca = 16, octadeca = 18.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Lipids",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain the following statement: **Fatty acids do not serve as fuel for the brain.**",
+  "media": [],
+  "answer": "- Long-chain fatty acids in plasma are carried **bound to albumin**, and this complex **cannot cross the blood–brain barrier** efficiently.\n- Brain tissue also has **low activity of β-oxidation enzymes**, and β-oxidation consumes much O₂ and generates ROS, which neurons tolerate poorly.\n- Hence the brain uses **glucose**, and in prolonged fasting **ketone bodies** (made from fatty acids in the liver), which are water-soluble and cross the BBB via monocarboxylate transporters.\n\n> [!answer]\n> Albumin-bound long-chain fatty acids do not cross the blood–brain barrier (and neurons oxidise them poorly), so the brain relies on glucose and, in starvation, ketone bodies.",
+  "explanation": "## Advanced explanation\n\nThis is why hepatic ketogenesis during starvation is essential: by the third week of fasting ketone bodies supply up to two-thirds of the brain's energy, sparing muscle protein that would otherwise be used for gluconeogenesis.\n\n## Simplified explanation\n\nFat in blood is stuck to albumin and cannot get through the brain's barrier, so the brain uses sugar (and ketones when starving).",
+  "hint": "Blood–brain barrier.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Fuel Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why **muscle glycogen does not serve as a source of glucose for the blood**.",
+  "media": [],
+  "answer": "- Glycogenolysis in muscle produces glucose-1-phosphate → **glucose-6-phosphate**.\n- Muscle **lacks glucose-6-phosphatase**, the enzyme (in liver and kidney) that removes phosphate to form free glucose.\n- Glucose-6-phosphate is charged and **cannot cross the plasma membrane**, so it is trapped and used **within the muscle** for glycolysis (ATP for contraction, producing lactate).\n\n> [!answer]\n> Muscle lacks glucose-6-phosphatase, so the glucose-6-phosphate from glycogen cannot be converted to free glucose and released; it is used by the muscle itself.",
+  "explanation": "## Advanced explanation\n\nMuscle glycogen thus supports local contraction only; liver glycogen maintains blood glucose. Muscle can contribute indirectly via lactate (Cori cycle) and alanine (glucose–alanine cycle), which the liver converts to glucose.\n\n## Simplified explanation\n\nMuscle can't take the phosphate off glucose (no glucose-6-phosphatase), so its sugar stays inside for its own use.",
+  "hint": "Which enzyme releases free glucose?",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Glycogen Metabolism",
+   "2019/20 End of Semester Exam",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain the following statement: **Lactic acidosis is observed in children born with pyruvate dehydrogenase complex deficiency.**",
+  "media": [],
+  "answer": "- The **pyruvate dehydrogenase complex (PDC)** converts pyruvate → **acetyl-CoA** (for the TCA cycle) in mitochondria.\n- With PDC deficiency, pyruvate from glycolysis cannot enter the TCA cycle, so it **accumulates**.\n- Excess pyruvate is reduced by **lactate dehydrogenase** to **lactate** (also regenerating NAD⁺ to keep glycolysis running for ATP), and some is transaminated to alanine.\n- Lactate accumulates in blood → **lactic acidosis** (low pH and bicarbonate, raised anion gap). The brain, highly dependent on glucose oxidation, is most affected (neurological deficits).\n\n> [!answer]\n> Without PDC, pyruvate cannot be converted to acetyl-CoA, so it is diverted to lactate by LDH, causing lactic acidosis.",
+  "explanation": "## Advanced explanation\n\nPDC deficiency is most often X-linked (E1α subunit). Treatment includes a **ketogenic diet** (ketones bypass PDC and supply acetyl-CoA) and thiamine in responsive forms. Lactate:pyruvate ratio stays normal, unlike respiratory-chain defects.\n\n## Simplified explanation\n\nPyruvate can't get into the mitochondria's energy cycle, so it piles up and turns into lactic acid.",
+  "hint": "Where does pyruvate go if it can't make acetyl-CoA?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Carbohydrate Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "With the aid of chemical equations or a diagram, show how **NH₃** is converted to **urea**.",
+  "media": [],
+  "answer": "The **urea (ornithine) cycle** in the liver (first two steps mitochondrial, the rest cytosolic):\n\n1. **Carbamoyl phosphate synthetase I** (mitochondria; activated by N-acetylglutamate):\n   $$\\text{NH}_4^+ + \\text{HCO}_3^- + 2\\,\\text{ATP} \\rightarrow \\text{carbamoyl phosphate} + 2\\,\\text{ADP} + \\text{P}_i$$\n2. **Ornithine transcarbamoylase** (mitochondria):\n   $$\\text{carbamoyl phosphate} + \\text{ornithine} \\rightarrow \\text{citrulline} + \\text{P}_i$$\n3. **Argininosuccinate synthetase** (cytosol; citrulline exported):\n   $$\\text{citrulline} + \\text{aspartate} + \\text{ATP} \\rightarrow \\text{argininosuccinate} + \\text{AMP} + \\text{PP}_i$$\n4. **Argininosuccinate lyase**:\n   $$\\text{argininosuccinate} \\rightarrow \\text{arginine} + \\text{fumarate}$$\n5. **Arginase**:\n   $$\\text{arginine} + \\text{H}_2\\text{O} \\rightarrow \\text{urea} + \\text{ornithine}$$\n   Ornithine returns to the mitochondrion to begin another turn.\n\n**Overall:** $\\text{NH}_4^+ + \\text{HCO}_3^- + \\text{aspartate} + 3\\,\\text{ATP} + \\text{H}_2\\text{O} \\rightarrow \\text{urea} + \\text{fumarate} + 2\\,\\text{ADP} + \\text{AMP} + 2\\,\\text{P}_i + \\text{PP}_i$ (4 high-energy phosphate bonds).\n\n> [!answer]\n> NH₃ + CO₂ → carbamoyl phosphate (CPS-I) → + ornithine → citrulline (OTC) → + aspartate → argininosuccinate (ASS) → arginine + fumarate (ASL) → urea + ornithine (arginase).",
+  "explanation": "## Advanced explanation\n\nUrea's two nitrogens come from **free NH₄⁺** (via carbamoyl phosphate) and **aspartate**; its carbon from HCO₃⁻. Fumarate links the cycle to the TCA cycle (aspartate–argininosuccinate shunt). Defects in any enzyme cause **hyperammonaemia**; OTC deficiency (X-linked) is the commonest.\n\n## Simplified explanation\n\nThe liver joins ammonia with CO₂, passes it around a cycle with ornithine, adds a second nitrogen from aspartate, and finally cuts off urea, which is excreted in urine.",
+  "hint": "Ornithine → citrulline → argininosuccinate → arginine → urea.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Urea Cycle",
+   "2019/20 End of Semester Exam",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain how the **aspartate** used in the urea cycle is regenerated.",
+  "media": [],
+  "answer": "- In the cycle, aspartate donates its amino group to citrulline (argininosuccinate synthetase); argininosuccinate lyase then releases its carbon skeleton as **fumarate**.\n- Fumarate is hydrated to **malate** (fumarase, cytosolic or after entering mitochondria).\n- Malate is oxidised to **oxaloacetate** by malate dehydrogenase (producing NADH).\n- Oxaloacetate is **transaminated** by **aspartate aminotransferase (AST)**, receiving an amino group from **glutamate**, to regenerate **aspartate** (glutamate becomes α-ketoglutarate).\n\n$$\\text{Fumarate} \\xrightarrow{\\text{fumarase}} \\text{Malate} \\xrightarrow{\\text{MDH, NAD}^+} \\text{Oxaloacetate} \\xrightarrow[\\text{glutamate}]{\\text{AST}} \\text{Aspartate}$$\n\n> [!answer]\n> Fumarate released from argininosuccinate is converted to malate then oxaloacetate, which is transaminated (AST, from glutamate) back to aspartate: the aspartate–argininosuccinate shunt.",
+  "explanation": "## Advanced explanation\n\nThis 'Krebs bicycle' links the urea and TCA cycles; the NADH from malate dehydrogenase can yield ATP, partly offsetting the energy cost of urea synthesis.\n\n## Simplified explanation\n\nFumarate from the urea cycle becomes malate, then oxaloacetate, which picks up an amino group from glutamate to become aspartate again.",
+  "hint": "Fumarate → malate → oxaloacetate → ?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Urea Cycle",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A peptide has the sequence **Glu–His–Trp–Ser–Gly–Leu–Arg–Pro–Gly**. What is the net charge of the molecule at physiological pH (7.4)?",
+  "media": [],
+  "answer": "| Ionisable group | Approx. pKa | Charge at pH 7.4 |\n|---|---|---|\n| N-terminal α-NH₃⁺ (Glu) | ~9 | **+1** |\n| Glu side-chain COOH | ~4.1 | **−1** |\n| His imidazole | ~6.0 | **≈ 0** (mostly unprotonated) |\n| Arg guanidinium | ~12.5 | **+1** |\n| C-terminal α-COOH (Gly) | ~2–3 | **−1** |\n| Trp, Ser, Gly, Leu, Pro side chains | – | 0 |\n\nNet charge = (+1) + (−1) + 0 + (+1) + (−1) = **0** (very slightly positive, about +0.04, from the small protonated fraction of His).\n\n> [!answer]\n> Net charge ≈ 0.",
+  "explanation": "## Advanced explanation\n\nOnly the termini and ionisable side chains count. At pH above its pKa a group is mostly deprotonated (COOH → COO⁻; NH₃⁺ → NH₂); below its pKa mostly protonated. His at pH 7.4 is about 4% protonated (Henderson–Hasselbalch).\n\n## Simplified explanation\n\nCount charges: +1 at the start, −1 for Glu, +1 for Arg, −1 at the end, His is neutral. Total = 0.",
+  "hint": "Count only the ends and charged side chains.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Amino Acids & Peptides",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Classify the following amino acids: asparagine, lysine, methionine, aspartate, histidine and glutamate into the following groups:\n\na. acidic\nb. basic\nc. neutral",
+  "media": [],
+  "answer": "| Group | Amino acids |\n|---|---|\n| **a. Acidic** | Aspartate, glutamate |\n| **b. Basic** | Lysine, histidine |\n| **c. Neutral** | Asparagine (polar, uncharged amide), methionine (non-polar, sulphur-containing) |\n\n> [!answer]\n> Acidic: aspartate, glutamate. Basic: lysine, histidine. Neutral: asparagine, methionine.",
+  "explanation": "## Advanced explanation\n\nClassification by side-chain charge at physiological pH: acidic side chains carry COO⁻; basic side chains (Lys ε-amino, Arg guanidino, His imidazole) accept protons. Asparagine is the amide of aspartate and carries no charge.\n\n## Simplified explanation\n\nAsp and Glu are acids; Lys and His are bases; Asn and Met are neutral.",
+  "hint": "Look for extra COOH or extra nitrogen groups.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Amino Acids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The **Embden–Meyerhof pathway** produces ATP by **substrate-level phosphorylation**. Expatiate on this statement.",
+  "media": [],
+  "answer": "- **Substrate-level phosphorylation** = direct transfer of a phosphoryl group from a **high-energy substrate** to ADP, catalysed by a soluble enzyme, **without** the electron transport chain or O₂.\n- In glycolysis (Embden–Meyerhof pathway) this happens at two steps (per glyceraldehyde-3-phosphate; ×2 per glucose):\n  1. **Phosphoglycerate kinase**: 1,3-bisphosphoglycerate + ADP → 3-phosphoglycerate + **ATP**\n  2. **Pyruvate kinase**: phosphoenolpyruvate + ADP → pyruvate + **ATP**\n- Per glucose: 4 ATP formed − 2 ATP used (hexokinase, PFK-1) = **net 2 ATP**.\n- Because no O₂ is needed, glycolysis supplies ATP under **anaerobic** conditions (exercising muscle) and in cells without mitochondria (**red blood cells**), with NAD⁺ regenerated by reducing pyruvate to lactate.\n\n> [!answer]\n> Glycolysis makes ATP directly from high-energy intermediates: phosphoglycerate kinase (1,3-BPG → 3-PG) and pyruvate kinase (PEP → pyruvate), 4 ATP per glucose (net 2), independent of oxygen and the electron transport chain.",
+  "explanation": "## Advanced explanation\n\n1,3-BPG (acyl phosphate, ΔG°′ of hydrolysis −49 kJ/mol) and PEP (−62 kJ/mol) have higher group-transfer potential than ATP (−30.5 kJ/mol), so the transfer is favourable. Contrast **oxidative phosphorylation**, where ATP synthase uses the proton gradient from the ETC.\n\n## Simplified explanation\n\nIn glycolysis, two energy-rich molecules hand their phosphate straight to ADP to make ATP, with no oxygen needed.",
+  "hint": "Which two kinases make ATP in glycolysis?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Glycolysis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Serine is converted by **serine dehydratase** to compound **A**, which then gives **B** + NH₄⁺:\n\n$$\\text{Serine } (\\text{HOCH}_2\\text{–CH(NH}_3^+)\\text{–COO}^-) \\xrightarrow{\\text{serine dehydratase}} \\textbf{A} \\rightleftharpoons \\textbf{B} + \\text{NH}_4^+$$\n\nGive the structures of compounds A and B.",
+  "media": [],
+  "answer": "- **A = aminoacrylate** (2-aminoprop-2-enoate), formed by PLP-dependent **elimination of water**: $\\mathrm{CH_2{=}C(NH_3^+)\\text{–}COO^-}$. (It tautomerises to iminopyruvate, $\\mathrm{CH_3\\text{–}C({=}NH_2^+)\\text{–}COO^-}$.)\n- **B = pyruvate**: $\\mathrm{CH_3\\text{–}CO\\text{–}COO^-}$, formed by **hydrolysis** of the imine with release of NH₄⁺.\n\n> [!answer]\n> A: aminoacrylate, CH₂=C(NH₃⁺)COO⁻ (→ iminopyruvate). B: pyruvate, CH₃COCOO⁻.",
+  "explanation": "## Advanced explanation\n\nThis is non-oxidative **deamination**: serine and threonine (via threonine dehydratase → α-ketobutyrate) lose ammonia directly. Serine is thus glucogenic, entering gluconeogenesis as pyruvate.\n\n## Simplified explanation\n\nSerine loses water to make an unstable amino-alkene, which then loses ammonia (via water) to give pyruvate.",
+  "hint": "Dehydration, then deamination.",
+  "difficulty": "hard",
+  "marks": 2,
+  "tags": [
+   "Amino Acid Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How is a **choleretic** agent different from a **cholagogue** agent?",
+  "media": [],
+  "answer": "| Choleretic | Cholagogue |\n|---|---|\n| Increases the **secretion (production) of bile by the liver** (hepatocytes), raising bile volume/flow | Promotes the **discharge of stored bile from the gallbladder** into the duodenum, mainly by **contracting the gallbladder** (and relaxing the sphincter of Oddi) |\n| e.g. **bile salts** themselves (most potent, via enterohepatic circulation), secretin (watery, bicarbonate-rich bile), dehydrocholic acid | e.g. **cholecystokinin (CCK)**, fatty foods, egg yolk, magnesium sulphate |\n\n> [!answer]\n> A choleretic increases bile formation by the liver; a cholagogue causes the gallbladder to contract and empty bile into the duodenum.",
+  "explanation": "## Advanced explanation\n\nMany substances act both ways, but the distinction is site of action: hepatocyte secretion vs gallbladder evacuation. Hydrocholeretics (e.g. secretin, dehydrocholic acid) increase bile volume with low solid content.\n\n## Simplified explanation\n\nCholeretic = make more bile (liver). Cholagogue = squeeze bile out (gallbladder).",
+  "hint": "Production vs release.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Bile",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. State the enzymes in glycolysis whose reactions need to be bypassed in gluconeogenesis.\n\nb. State the enzyme(s) used in each of these bypasses.",
+  "media": [],
+  "answer": "| Irreversible glycolytic enzyme (a) | Gluconeogenic bypass enzyme(s) (b) |\n|---|---|\n| **Hexokinase / glucokinase** (glucose → G6P) | **Glucose-6-phosphatase** (G6P → glucose), ER of liver/kidney |\n| **Phosphofructokinase-1** (F6P → F1,6BP) | **Fructose-1,6-bisphosphatase** (F1,6BP → F6P) |\n| **Pyruvate kinase** (PEP → pyruvate) | **Pyruvate carboxylase** (pyruvate → oxaloacetate, mitochondria, biotin) **+ PEP carboxykinase** (oxaloacetate → PEP, uses GTP) |\n\n> [!answer]\n> (a) Hexokinase/glucokinase, PFK-1, pyruvate kinase. (b) Glucose-6-phosphatase; fructose-1,6-bisphosphatase; pyruvate carboxylase + PEP carboxykinase.",
+  "explanation": "## Advanced explanation\n\nThese three steps have large negative ΔG in glycolysis and cannot simply be reversed. Reciprocal regulation (e.g. fructose-2,6-bisphosphate activates PFK-1 and inhibits FBPase-1; acetyl-CoA activates pyruvate carboxylase) prevents futile cycling.\n\n## Simplified explanation\n\nThree one-way glycolysis steps (hexokinase, PFK-1, pyruvate kinase) are bypassed by glucose-6-phosphatase, fructose-1,6-bisphosphatase, and pyruvate carboxylase + PEPCK.",
+  "hint": "Three irreversible steps.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Gluconeogenesis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the triacylglycerol below:\n\n```\nH2C–O–CO–(CH2)14CH3\n|\nHC –O–CO–(CH2)7CH=CH(CH2)7CH3\n|\nH2C–O–CO–(CH2)7CH=CHCH2CH=CH(CH2)4CH3\n```\n\na. Which class of lipids does this compound belong to?\nb. List four functions of this compound.\nc. Draw the product obtained after complete hydrogenation of this compound.\nd. Write the saponification equation when the compound reacts with NaOH.",
+  "media": [],
+  "answer": "a. **Triacylglycerol (triglyceride)**, a simple lipid / neutral fat (esters of glycerol with fatty acids): 1-palmitoyl-2-oleoyl-3-linoleoylglycerol.\n\nb. Any four: **energy storage** (9 kcal/g), **thermal insulation** (subcutaneous fat), **mechanical protection/cushioning** of organs (kidney), source of **fatty acids** and **glycerol** (for gluconeogenesis), **carrier of fat-soluble vitamins** (A, D, E, K), source of metabolic water, buoyancy.\n\nc. H₂/Ni saturates the 3 C=C bonds (1 in oleate, 2 in linoleate):\n\n```\nH2C–O–CO–(CH2)14CH3   (palmitoyl)\n|\nHC –O–CO–(CH2)16CH3   (stearoyl)\n|\nH2C–O–CO–(CH2)16CH3   (stearoyl)\n```\n(1-palmitoyl-2,3-distearoylglycerol)\n\nd. \n$$\\text{TAG} + 3\\,\\text{NaOH} \\xrightarrow{\\Delta} \\text{glycerol} + \\text{CH}_3(\\text{CH}_2)_{14}\\text{COONa} + \\text{CH}_3(\\text{CH}_2)_7\\text{CH=CH}(\\text{CH}_2)_7\\text{COONa} + \\text{CH}_3(\\text{CH}_2)_4\\text{CH=CHCH}_2\\text{CH=CH}(\\text{CH}_2)_7\\text{COONa}$$\n\n(glycerol + sodium palmitate + sodium oleate + sodium linoleate: soaps).\n\n> [!answer]\n> (a) Triacylglycerol. (b) Energy store, insulation, protection, vitamin carrier. (c) 1-palmitoyl-2,3-distearoylglycerol. (d) TAG + 3NaOH → glycerol + sodium palmitate + sodium oleate + sodium linoleate.",
+  "explanation": "## Advanced explanation\n\nPalmitic = 16:0; oleic = 18:1 cis-Δ9; linoleic = 18:2 cis-Δ9,12 (an essential ω-6 fatty acid). Hydrogenation is used industrially to harden vegetable oils (and can produce trans fats when partial). The saponification number measures the average chain length.\n\n## Simplified explanation\n\nThis is a fat: glycerol plus palmitic, oleic and linoleic acids. Adding hydrogen makes all chains saturated. NaOH splits it into glycerol and three soaps.",
+  "hint": "Identify each chain by counting carbons and double bonds.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Lipids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain the following disorders associated with carbohydrate metabolism:\n\na. Lactose intolerance\nb. Congenital sucrase-isomaltase deficiency\nc. Disacchariduria\nd. Lactic acidosis",
+  "media": [],
+  "answer": "a. **Lactose intolerance**: deficiency of intestinal brush-border **lactase** (commonly adult-type 'lactase non-persistence', also secondary to gut injury). Undigested lactose stays in the gut lumen → osmotic **diarrhoea**; colonic bacteria ferment it → gas (H₂, CO₂), **bloating, cramps, flatulence** after milk.\n\nb. **Congenital sucrase-isomaltase deficiency (CSID)**: autosomal recessive absence/defect of the **sucrase-isomaltase** complex, so **sucrose** and **α-1,6 (isomaltose/limit dextrin)** bonds of starch cannot be digested. Symptoms (osmotic diarrhoea, bloating, failure to thrive) start when the infant is given sucrose (fruit juices, solids).\n\nc. **Disacchariduria**: excretion of **disaccharides in urine**, either because of disaccharidase deficiency with absorption through a damaged mucosa, or after **intravenous** administration of disaccharides (which are not hydrolysed in blood and are excreted unchanged).\n\nd. **Lactic acidosis**: metabolic acidosis from accumulation of **lactate** (> 4–5 mmol/L) with low blood pH. Causes: **tissue hypoxia** (shock, severe anaemia, cardiac failure: Type A), or impaired lactate metabolism (liver failure, metformin, alcohol, **thiamine deficiency**, **PDC deficiency**, glycogen storage disease type I, mitochondrial disease: Type B). Pyruvate is converted to lactate by LDH when it cannot be oxidised.\n\n> [!answer]\n> a. Lactase deficiency → lactose fermented → diarrhoea, bloating. b. Inherited lack of sucrase-isomaltase → sucrose/starch maldigestion. c. Disaccharides in urine (mucosal damage or IV disaccharides). d. Excess lactate from hypoxia or impaired pyruvate oxidation → metabolic acidosis.",
+  "explanation": "## Advanced explanation\n\nDisaccharidase deficiencies are diagnosed by the hydrogen breath test, stool pH (acidic) and reducing substances, or tolerance tests. Treatment is dietary avoidance or enzyme replacement (lactase; sacrosidase for CSID).\n\n## Simplified explanation\n\na. Can't digest milk sugar. b. Can't digest table sugar and some starch. c. Double sugars appear in urine. d. Too much lactic acid in the blood.",
+  "hint": "Name the missing enzyme for each.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Carbohydrate Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following vitamins participates in the TCA cycle?",
+  "options": [
+   {
+    "text": "Pantothenic acid",
+    "hint": "Correct. It is part of coenzyme A."
+   },
+   {
+    "text": "Vitamin A",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Folic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Vitamin E",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think CoA.",
+  "explanation": "## Advanced explanation\n\n**Pantothenic acid (B5)** forms part of **coenzyme A**, needed for acetyl-CoA and succinyl-CoA. Other B vitamins in the cycle: thiamine (TPP, α-ketoglutarate dehydrogenase), riboflavin (FAD), niacin (NAD⁺), lipoic acid. Folate, vitamins A and E have no direct role.\n\n## Simplified explanation\n\nVitamin B5 makes coenzyme A, used in the TCA cycle.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many ATP molecules can be derived from each molecule of acetyl-CoA that enters the Krebs' cycle?",
+  "options": [
+   {
+    "text": "12",
+    "hint": "Correct. Classical value: 3 NADH + 1 FADH₂ + 1 GTP = 12."
+   },
+   {
+    "text": "6",
+    "hint": "Not this one."
+   },
+   {
+    "text": "18",
+    "hint": "Not this one."
+   },
+   {
+    "text": "38",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Count NADH, FADH₂ and GTP.",
+  "explanation": "## Advanced explanation\n\nPer acetyl-CoA: 3 NADH (×3 ATP = 9), 1 FADH₂ (×2 = 2), 1 GTP (= 1) → **12 ATP** by classical P/O ratios. Modern values (2.5 and 1.5) give 10. 38 is the classical yield per glucose.\n\n## Simplified explanation\n\nOne acetyl-CoA through the cycle gives 12 ATP (older counting).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the hormones below is likely to be secreted when one is scared?",
+  "options": [
+   {
+    "text": "Epinephrine",
+    "hint": "Correct. Fear triggers the adrenal medulla to release epinephrine."
+   },
+   {
+    "text": "Insulin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Norepinephrine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Melanin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Fight or flight.",
+  "explanation": "## Advanced explanation\n\nFright activates the sympathetic 'fight-or-flight' response; the adrenal medulla secretes mainly **epinephrine (adrenaline, ~80%)**, raising heart rate, blood glucose (glycogenolysis) and airflow. Norepinephrine is mainly the sympathetic neurotransmitter. Melanin is a pigment, not a hormone.\n\n## Simplified explanation\n\nFear → adrenaline (epinephrine).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hormones",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The nucleotide product of the citric acid cycle is:",
+  "options": [
+   {
+    "text": "ATP",
+    "hint": "Not this one."
+   },
+   {
+    "text": "GTP",
+    "hint": "Correct. Succinyl-CoA synthetase forms GTP by substrate-level phosphorylation."
+   },
+   {
+    "text": "CTP",
+    "hint": "Not this one."
+   },
+   {
+    "text": "UTP",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Succinyl-CoA step.",
+  "explanation": "## Advanced explanation\n\n**Succinyl-CoA synthetase (succinate thiokinase)** converts succinyl-CoA → succinate, forming **GTP** (in liver; an ATP-forming isoform exists in some tissues). GTP can transfer its phosphate to ADP via nucleoside diphosphate kinase.\n\n## Simplified explanation\n\nThe TCA cycle makes one GTP per turn.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the precursor of glycogen?",
+  "options": [
+   {
+    "text": "Malate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycerol 3-phosphate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "UDP-glucose",
+    "hint": "Correct. UDP-glucose is the activated glucose donor."
+   },
+   {
+    "text": "Leucine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Activated sugar.",
+  "explanation": "## Advanced explanation\n\nGlucose-1-phosphate + UTP → **UDP-glucose** + PPᵢ (UDP-glucose pyrophosphorylase). Glycogen synthase adds glucose from UDP-glucose to the non-reducing ends by α-1,4 links.\n\n## Simplified explanation\n\nGlycogen is built from UDP-glucose.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycogen Metabolism",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the LIPID NAME for *all-cis*-4,7,10,13,16-docosapentaenoic acid?",
+  "options": [
+   {
+    "text": "24:5 (n−6)",
+    "hint": "Not this one."
+   },
+   {
+    "text": "20:4 (n−6)",
+    "hint": "Not this one."
+   },
+   {
+    "text": "22:4 (n−6)",
+    "hint": "Not this one."
+   },
+   {
+    "text": "22:5 (n−6)",
+    "hint": "Correct. Docosa = 22 carbons, penta = 5 double bonds; last double bond at C16, 22 − 16 = 6."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Docosa = 22.",
+  "explanation": "## Advanced explanation\n\nShorthand = carbons:double bonds (n−x), where x = distance of the last double bond from the methyl end: 22 − 16 = **6**, so **22:5 (n−6)**.\n\n## Simplified explanation\n\n22 carbons, 5 double bonds, omega-6.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Nomenclature",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following are the major sites for glycogen storage?",
+  "options": [
+   {
+    "text": "Adipose tissue and kidney",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscle and kidney",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscle and liver",
+    "hint": "Correct. Liver (highest concentration) and skeletal muscle (largest total mass)."
+   },
+   {
+    "text": "Kidney and liver",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Two main stores.",
+  "explanation": "## Advanced explanation\n\nLiver glycogen (up to ~10% of wet weight) maintains blood glucose; muscle glycogen (1–2%, but larger total) fuels contraction.\n\n## Simplified explanation\n\nGlycogen is stored in liver and muscle.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycogen Metabolism",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the major site of gluconeogenesis?",
+  "options": [
+   {
+    "text": "Brain",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Adipose tissue",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Liver",
+    "hint": "Correct. About 90% of gluconeogenesis occurs in the liver."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which organ has glucose-6-phosphatase?",
+  "explanation": "## Advanced explanation\n\nLiver (~90%) and renal cortex (~10%, more in prolonged fasting) have the full enzyme set including glucose-6-phosphatase.\n\n## Simplified explanation\n\nThe liver makes new glucose.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gluconeogenesis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not an intermediate of the citric acid cycle?",
+  "options": [
+   {
+    "text": "Citrate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Oxaloacetate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Succinyl-CoA",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Acetoacetate",
+    "hint": "Correct. Acetoacetate is a ketone body."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Ketone bodies.",
+  "explanation": "## Advanced explanation\n\nCycle intermediates: citrate, cis-aconitate, isocitrate, α-ketoglutarate, succinyl-CoA, succinate, fumarate, malate, oxaloacetate. **Acetoacetate** is a ketone body made in liver mitochondria from acetyl-CoA.\n\n## Simplified explanation\n\nAcetoacetate is a ketone body, not a TCA intermediate.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the enzymes below is used in both glycolysis and gluconeogenesis?",
+  "options": [
+   {
+    "text": "Glucose 6-phosphatase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hexokinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Phosphofructokinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "3-phosphoglycerate kinase",
+    "hint": "Correct. Its reaction is reversible."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which step is reversible?",
+  "explanation": "## Advanced explanation\n\nReversible glycolytic enzymes are shared; only hexokinase, PFK-1 and pyruvate kinase are bypassed. Glucose-6-phosphatase is gluconeogenic only.\n\n## Simplified explanation\n\nPhosphoglycerate kinase works in both directions.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gluconeogenesis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The priming function in glycogen synthesis is carried out by:",
+  "options": [
+   {
+    "text": "Glycolin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "UDP-glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glutamine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycogenin",
+    "hint": "Correct. Glycogenin glucosylates itself to make the primer."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "A protein primer.",
+  "explanation": "## Advanced explanation\n\nGlycogen synthase cannot start a chain de novo. **Glycogenin** autoglucosylates a tyrosine residue with glucose from UDP-glucose to form a short primer that glycogen synthase then extends. UDP-glucose is the substrate, not the primer.\n\n## Simplified explanation\n\nGlycogenin makes the starter chain.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Glycogen Metabolism",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following enzymes catalyses the phosphorylation of the substrate with the use of inorganic phosphate?",
+  "options": [
+   {
+    "text": "Hexokinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Phosphofructokinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glyceraldehyde-3-phosphate dehydrogenase",
+    "hint": "Correct. G3P + Pᵢ + NAD⁺ → 1,3-bisphosphoglycerate."
+   },
+   {
+    "text": "Phosphoglycerate kinase",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which enzyme uses Pᵢ, not ATP?",
+  "explanation": "## Advanced explanation\n\n**GAPDH** oxidises glyceraldehyde-3-phosphate and adds **inorganic phosphate** to give 1,3-BPG. Kinases (hexokinase, PFK) use ATP as phosphate donor; phosphoglycerate kinase transfers phosphate to ADP.\n\n## Simplified explanation\n\nGAPDH uses free phosphate (Pᵢ) to make 1,3-BPG.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Glycolysis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The lipoprotein richest in cholesterol is",
+  "options": [
+   {
+    "text": "LDL",
+    "hint": "Correct. LDL carries most plasma cholesterol (~45–50% of its mass)."
+   },
+   {
+    "text": "HDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Chylomicrons",
+    "hint": "Not this one."
+   },
+   {
+    "text": "VLDL",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "'Bad cholesterol'.",
+  "explanation": "## Advanced explanation\n\nLDL, formed from VLDL via IDL, delivers cholesterol to tissues through LDL receptors. Chylomicrons and VLDL are rich in triglyceride; HDL is richest in protein.\n\n## Simplified explanation\n\nLDL ('bad cholesterol') carries the most cholesterol.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipoproteins",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "It is very important to feed a newborn baby very soon after birth, because during the first few hours after birth the enzyme phosphoenolpyruvate carboxykinase is present in very low amounts, and this fact compromises:",
+  "options": [
+   {
+    "text": "Glycogenolysis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Gluconeogenesis",
+    "hint": "Correct. PEPCK is a key gluconeogenic enzyme."
+   },
+   {
+    "text": "Glycogenesis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Beta-oxidation",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which pathway uses PEPCK?",
+  "explanation": "## Advanced explanation\n\nPEPCK converts oxaloacetate → PEP, bypassing pyruvate kinase. Its induction takes hours after birth, so neonatal gluconeogenesis is limited and the baby relies on feeding and limited glycogen stores; risk of neonatal hypoglycaemia.\n\n## Simplified explanation\n\nLow PEPCK means the baby can't make new glucose well.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gluconeogenesis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What are the components of a galactocerebroside?",
+  "options": [
+   {
+    "text": "Sphingosine + fatty acid + galactose",
+    "hint": "Correct. Ceramide (sphingosine + fatty acid) + galactose; no phosphate."
+   },
+   {
+    "text": "Glycerol + fatty acid + phosphoric acid + galactose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sphingosine + fatty acid + phosphoric acid + galactose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycerol + fatty acid + phosphoric acid + nitrogenous base + galactose",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Glycosphingolipid.",
+  "explanation": "## Advanced explanation\n\nCerebrosides are glycosphingolipids: **ceramide + one sugar** (galactose or glucose) in β-glycosidic link. Abundant in myelin. Phosphate-containing sphingolipid is sphingomyelin.\n\n## Simplified explanation\n\nGalactocerebroside = sphingosine + fatty acid + galactose.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In energy metabolism, the abbreviation CoA stands for:",
+  "options": [
+   {
+    "text": "Cobalt A",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cofactor A",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Coprotein A",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Coenzyme A",
+    "hint": "Correct. Coenzyme A, the acyl-group carrier."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Acyl carrier.",
+  "explanation": "## Advanced explanation\n\nCoenzyme A (from pantothenate, ADP and β-mercaptoethylamine) carries acyl groups as thioesters (–SH group), e.g. acetyl-CoA.\n\n## Simplified explanation\n\nCoA = coenzyme A.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Coenzymes",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following classes of lipids is not derived from arachidonic acid?",
+  "options": [
+   {
+    "text": "Prostaglandins",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Thromboxanes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Leukotrienes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Isoprenoids",
+    "hint": "Correct. Isoprenoids come from acetyl-CoA via mevalonate/isoprene units."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Eicosanoids vs isoprene units.",
+  "explanation": "## Advanced explanation\n\nEicosanoids (prostaglandins, thromboxanes via COX; leukotrienes via lipoxygenase) derive from arachidonic acid (20:4 n−6). Isoprenoids (cholesterol, dolichol, CoQ) are built from isopentenyl pyrophosphate.\n\n## Simplified explanation\n\nProstaglandins, thromboxanes and leukotrienes come from arachidonic acid; isoprenoids don't.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following hormones maintains blood glucose level by activation of gluconeogenesis?",
+  "options": [
+   {
+    "text": "Nor-epinephrine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glucagon",
+    "hint": "Correct. Glucagon stimulates hepatic gluconeogenesis."
+   },
+   {
+    "text": "Insulin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Epinephrine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Fasting hormone from α-cells.",
+  "explanation": "## Advanced explanation\n\nGlucagon (via cAMP/PKA) induces PEPCK, lowers fructose-2,6-bisphosphate (activating FBPase-1) and inactivates pyruvate kinase, raising hepatic glucose output in fasting. Insulin opposes this.\n\n## Simplified explanation\n\nGlucagon raises blood sugar by making new glucose.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hormonal Regulation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Anaplerotic reactions are those that result in replenishing intermediates in the TCA cycle. Which of the enzymes below catalyses an anaplerotic reaction?",
+  "options": [
+   {
+    "text": "Pyruvate carboxylase",
+    "hint": "Correct. Pyruvate + CO₂ + ATP → oxaloacetate."
+   },
+   {
+    "text": "Malate dehydrogenase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Pyruvate kinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Citrate synthase",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which enzyme adds new carbon to the cycle?",
+  "explanation": "## Advanced explanation\n\n**Pyruvate carboxylase** (biotin, activated by acetyl-CoA) makes oxaloacetate, topping up the cycle. Malate dehydrogenase and citrate synthase are cycle enzymes that do not add net carbon.\n\n## Simplified explanation\n\nPyruvate carboxylase refills oxaloacetate.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The number of double bonds in arachidonic acid is",
+  "options": [
+   {
+    "text": "1",
+    "hint": "Not this one."
+   },
+   {
+    "text": "3",
+    "hint": "Not this one."
+   },
+   {
+    "text": "2",
+    "hint": "Not this one."
+   },
+   {
+    "text": "4",
+    "hint": "Correct. Arachidonic acid is 20:4 (Δ5,8,11,14)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Eicosa-tetra-enoic.",
+  "explanation": "## Advanced explanation\n\nArachidonic acid, all-cis-5,8,11,14-eicosatetraenoic acid (20:4, n−6), is made from linoleic acid and is the precursor of eicosanoids.\n\n## Simplified explanation\n\nArachidonic acid has 4 double bonds.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Nomenclature",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following compounds is not a substrate for the gluconeogenesis pathway?",
+  "options": [
+   {
+    "text": "Glycogen",
+    "hint": "Correct. Glycogen is broken down by glycogenolysis, not gluconeogenesis."
+   },
+   {
+    "text": "Lactate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Oxaloacetate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycerol",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Non-carbohydrate sources.",
+  "explanation": "## Advanced explanation\n\nGluconeogenic substrates: lactate, glycerol, glucogenic amino acids (alanine), propionate, and intermediates such as oxaloacetate. Glycogen yields glucose by **glycogenolysis**.\n\n## Simplified explanation\n\nMaking glucose from glycogen is glycogenolysis, not gluconeogenesis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gluconeogenesis",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Dietary triacylglycerols are transported from the intestine to hepatic and extrahepatic tissues by which of the following lipoproteins?",
+  "options": [
+   {
+    "text": "VLDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "LDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "HDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Chylomicrons",
+    "hint": "Correct. Chylomicrons carry dietary (exogenous) fat."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Exogenous pathway.",
+  "explanation": "## Advanced explanation\n\nEnterocytes package dietary TAG into chylomicrons (apoB-48), which enter lymph and blood; lipoprotein lipase releases fatty acids to tissues. VLDL carries endogenous (liver-made) TAG.\n\n## Simplified explanation\n\nChylomicrons carry fat from food.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipoproteins",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fats and oils are respectively rich in",
+  "options": [
+   {
+    "text": "Unsaturated fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Saturated fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Saturated and unsaturated fatty acids",
+    "hint": "Correct. Fats (solid) are saturated; oils (liquid) unsaturated."
+   },
+   {
+    "text": "Unsaturated and saturated fatty acids",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Solid vs liquid at room temperature.",
+  "explanation": "## Advanced explanation\n\nSaturated chains pack tightly, raising melting point (solid fats, e.g. butter); cis double bonds create kinks, lowering melting point (liquid oils).\n\n## Simplified explanation\n\nFats: saturated. Oils: unsaturated.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an ω-3 fatty acid?",
+  "options": [
+   {
+    "text": "*all-cis*-7,10,13,16-docosatetraenoic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "*all-cis*-6,9,12-octadecatrienoic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "*all-cis*-6,9,12,15,18-tetracosapentaenoic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "*all-cis*-8,11,14,17-eicosatetraenoic acid",
+    "hint": "Correct. 20 − 17 = 3."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Count from the methyl end.",
+  "explanation": "## Advanced explanation\n\nω (n) number = total carbons − position of the last double bond: A 22 − 16 = 6; B 18 − 12 = 6; C 24 − 18 = 6; **D 20 − 17 = 3** (ω-3).\n\n## Simplified explanation\n\nSubtract the last double-bond position from the chain length: only D gives 3.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Nomenclature",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "High content of triglycerides is seen in",
+  "options": [
+   {
+    "text": "LDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "HDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "VLDL",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Chylomicrons",
+    "hint": "Correct. Chylomicrons are ~85–90% triglyceride."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Largest, lightest lipoprotein.",
+  "explanation": "## Advanced explanation\n\nTriglyceride content: chylomicrons (~85–90%) > VLDL (~50–60%) > LDL > HDL. Chylomicrons are the largest and least dense.\n\n## Simplified explanation\n\nChylomicrons have the most triglyceride.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Lipoproteins",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The Embden–Meyerhof pathway produces ATP by:",
+  "options": [
+   {
+    "text": "Anabolism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Substrate-level phosphorylation",
+    "hint": "Correct. Phosphoglycerate kinase and pyruvate kinase transfer phosphate directly to ADP."
+   },
+   {
+    "text": "Reducing carbon dioxide",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Oxidative phosphorylation",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "No oxygen needed.",
+  "explanation": "## Advanced explanation\n\nGlycolysis makes ATP from 1,3-BPG and PEP directly (substrate-level), independent of the electron transport chain.\n\n## Simplified explanation\n\nGlycolysis makes ATP directly from its intermediates.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycolysis",
+   "Quiz 1",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Hydrolysis of fats by alkalis into fatty acids and glycerol is called",
+  "options": [
+   {
+    "text": "Hydrogenation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Esterification",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Emulsification",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Saponification",
+    "hint": "Correct. Alkaline hydrolysis gives glycerol + soaps."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Sapo = soap.",
+  "explanation": "## Advanced explanation\n\nTAG + 3 NaOH → glycerol + 3 RCOONa (soap). Hydrogenation adds H₂ to double bonds; esterification forms esters; emulsification disperses fat droplets.\n\n## Simplified explanation\n\nAlkali + fat → soap = saponification.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The steps of glycolysis between glyceraldehyde 3-phosphate and 3-phosphoglycerate involve all of the following **except**:",
+  "options": [
+   {
+    "text": "ATP synthesis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Catalysis by phosphoglycerate kinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Oxidation of NADH to NAD⁺",
+    "hint": "Correct. NAD⁺ is reduced to NADH here, not the reverse."
+   },
+   {
+    "text": "The formation of 1,3-bisphosphoglycerate",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "GAPDH reduces NAD⁺.",
+  "explanation": "## Advanced explanation\n\nG3P + NAD⁺ + Pᵢ → 1,3-BPG + **NADH** (GAPDH); 1,3-BPG + ADP → 3-PG + ATP (phosphoglycerate kinase). NADH is oxidised later (e.g. by LDH or the ETC).\n\n## Simplified explanation\n\nThis step makes NADH; it doesn't use it up.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Glycolysis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The major fuel for the brain after prolonged starvation is:",
+  "options": [
+   {
+    "text": "Glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ketone bodies",
+    "hint": "Correct. After a few weeks, ketones supply up to two-thirds of brain energy."
+   },
+   {
+    "text": "Glycerol",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Made by the liver from fat.",
+  "explanation": "## Advanced explanation\n\nFatty acids do not cross the blood–brain barrier well; in prolonged starvation the liver makes acetoacetate and β-hydroxybutyrate, which the brain oxidises, sparing glucose and muscle protein.\n\n## Simplified explanation\n\nIn long starvation the brain runs mainly on ketone bodies.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fuel Metabolism",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Lactose intolerance is due to",
+  "options": [
+   {
+    "text": "Alcohol dehydrogenase deficiency",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Deficiency of bile",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Amylase deficiency",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lactase deficiency",
+    "hint": "Correct. Lactase hydrolyses lactose to glucose + galactose."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Lactose → lactase.",
+  "explanation": "## Advanced explanation\n\nWithout brush-border lactase, lactose is fermented by colonic bacteria → bloating, gas, osmotic diarrhoea.\n\n## Simplified explanation\n\nNo lactase → can't digest milk sugar.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Carbohydrate Metabolism",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following structures is a 20:2 (Δ⁴,⁹) fatty acid?",
+  "options": [
+   {
+    "text": "CH₃(CH₂)₉CH=CH(CH₂)₃CH=CH(CH₂)₂COOH",
+    "hint": "Correct. Counting from COOH (C1): C2–C3, C4=C5, C6–C8, C9=C10, C11–C19, CH₃ = C20."
+   },
+   {
+    "text": "CH₃(CH₂)₂CH=CH(CH₂)₃CH=CH(CH₂)₉COOH",
+    "hint": "Not this one."
+   },
+   {
+    "text": "CH₃(CH₂)₁₀CH=CH(CH₂)₃CH=CHCH₂COOH",
+    "hint": "Not this one."
+   },
+   {
+    "text": "CH₃(CH₂)₂CH=CH(CH₂)₃CH=CH(CH₂)₁₀COOH",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Start numbering at COOH.",
+  "explanation": "## Advanced explanation\n\nΔ numbering starts at the carboxyl carbon. Option A: COOH (1) + (CH₂)₂ (2–3) + CH=CH (4–5) + (CH₂)₃ (6–8) + CH=CH (9–10) + (CH₂)₉ (11–19) + CH₃ (20) → 20 carbons, double bonds at 4 and 9.\n\n## Simplified explanation\n\nCount carbons from the COOH end: A has double bonds starting at C4 and C9 and 20 carbons.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Nomenclature",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The correct generic molecular formula for carbohydrates is",
+  "options": [
+   {
+    "text": "(CHnO)₂",
+    "hint": "Not this one."
+   },
+   {
+    "text": "(CHO₂)n",
+    "hint": "Not this one."
+   },
+   {
+    "text": "(CH₂O)n",
+    "hint": "Correct. Carbohydrates are 'hydrates of carbon', Cₙ(H₂O)ₙ."
+   },
+   {
+    "text": "(C₂HO)n",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Carbon + water.",
+  "explanation": "## Advanced explanation\n\ne.g. glucose C₆H₁₂O₆ = (CH₂O)₆. Some carbohydrates (deoxyribose) deviate slightly.\n\n## Simplified explanation\n\nCarbohydrates are (CH₂O)n.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Carbohydrates",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fatty acids are stored in mammals as:",
+  "options": [
+   {
+    "text": "Free fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Triacylglycerol",
+    "hint": "Correct. Stored as TAG in adipose tissue."
+   },
+   {
+    "text": "Cholesterol",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sphingomyelin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Adipose tissue store.",
+  "explanation": "## Advanced explanation\n\nTAGs are anhydrous, highly reduced and uncharged, so they store about 9 kcal/g compactly in adipocyte lipid droplets.\n\n## Simplified explanation\n\nFat is stored as triglycerides.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "CO₂ is NOT produced in the reaction catalysed by the enzyme",
+  "options": [
+   {
+    "text": "Pyruvate dehydrogenase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Succinate dehydrogenase",
+    "hint": "Correct. Succinate → fumarate is a dehydrogenation (FAD), no decarboxylation."
+   },
+   {
+    "text": "Isocitrate dehydrogenase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "α-ketoglutarate dehydrogenase",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which reaction is not a decarboxylation?",
+  "explanation": "## Advanced explanation\n\nOxidative decarboxylations releasing CO₂: pyruvate dehydrogenase, isocitrate dehydrogenase, α-ketoglutarate dehydrogenase. Succinate dehydrogenase (complex II) transfers electrons to FAD.\n\n## Simplified explanation\n\nSuccinate dehydrogenase doesn't release CO₂.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "TCA Cycle",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In contrast to liver, muscle glycogen does not contribute directly to blood glucose level because:",
+  "options": [
+   {
+    "text": "Muscles lack glucose-6-phosphatase",
+    "hint": "Correct. G6P cannot be dephosphorylated and leave the cell."
+   },
+   {
+    "text": "Muscles contain no glucokinase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscles lack glycogen",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscles contain glycogen phosphorylase",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Trapped glucose-6-phosphate.",
+  "explanation": "## Advanced explanation\n\nMuscle glycogenolysis gives G6P, used in muscle glycolysis. Only liver/kidney have glucose-6-phosphatase to release free glucose.\n\n## Simplified explanation\n\nMuscle has no glucose-6-phosphatase.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycogen Metabolism",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most important initial source of blood glucose during fasting is:",
+  "options": [
+   {
+    "text": "Muscle glycogen",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscle protein",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Liver triglyceride",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Liver glycogen",
+    "hint": "Correct. Hepatic glycogenolysis maintains glucose for the first 12–24 h."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Fastest to mobilise.",
+  "explanation": "## Advanced explanation\n\nEarly fasting: liver glycogen; as it is depleted (~24 h), gluconeogenesis from lactate, glycerol and amino acids takes over.\n\n## Simplified explanation\n\nFirst, the liver breaks down its glycogen.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fuel Metabolism",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "β-Oxidation of fatty acid occurs in the following order:",
+  "options": [
+   {
+    "text": "Dehydrogenation, hydration, dehydrogenation, acylation",
+    "hint": "Correct. Oxidation (FAD), hydration, oxidation (NAD⁺), then thiolytic cleavage."
+   },
+   {
+    "text": "Dehydrogenation, dehydrogenation, hydration, acylation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hydration, oxidation, hydration, acylation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Two dehydrogenations separated by hydration.",
+  "explanation": "## Advanced explanation\n\nEach cycle: (1) acyl-CoA dehydrogenase (FAD) → trans-Δ²-enoyl-CoA; (2) enoyl-CoA hydratase → 3-hydroxyacyl-CoA; (3) 3-hydroxyacyl-CoA dehydrogenase (NAD⁺) → 3-ketoacyl-CoA; (4) thiolase cleaves with CoA (thiolysis), releasing acetyl-CoA and a CoA-acylated chain two carbons shorter (the 'acylation' step).\n\n## Simplified explanation\n\nRemove H, add water, remove H, then cut off acetyl-CoA.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not used in the β-oxidation of a fatty acid?",
+  "options": [
+   {
+    "text": "FAD",
+    "hint": "Not this one."
+   },
+   {
+    "text": "NAD⁺",
+    "hint": "Not this one."
+   },
+   {
+    "text": "GTP",
+    "hint": "Correct. GTP is not involved."
+   },
+   {
+    "text": "CoASH",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which cofactor has no role?",
+  "explanation": "## Advanced explanation\n\nβ-Oxidation uses FAD (acyl-CoA dehydrogenase), NAD⁺ (3-hydroxyacyl-CoA dehydrogenase) and CoA-SH (thiolase). ATP (not GTP) is used only for fatty acid activation.\n\n## Simplified explanation\n\nβ-oxidation uses FAD, NAD⁺ and CoA, not GTP.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an end product of β-oxidation?",
+  "options": [
+   {
+    "text": "Acetyl-CoA",
+    "hint": "Correct. Each cycle releases acetyl-CoA."
+   },
+   {
+    "text": "Pyruvic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "FAD",
+    "hint": "Not this one."
+   },
+   {
+    "text": "None of these",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Two-carbon units.",
+  "explanation": "## Advanced explanation\n\nEven-chain fatty acids are completely converted to acetyl-CoA (plus FADH₂ and NADH); odd-chain ones also yield propionyl-CoA.\n\n## Simplified explanation\n\nβ-oxidation chops fatty acids into acetyl-CoA.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following pathways can proceed with or without oxygen?",
+  "options": [
+   {
+    "text": "Embden–Meyerhof pathway",
+    "hint": "Correct. Glycolysis runs aerobically (to pyruvate) and anaerobically (to lactate)."
+   },
+   {
+    "text": "Citric acid cycle",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lactic acid fermentation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Electron transport chain",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which pathway is used in both conditions?",
+  "explanation": "## Advanced explanation\n\nThe TCA cycle and ETC require O₂ (to reoxidise NADH/FADH₂). Lactic acid fermentation is the anaerobic fate of pyruvate. Glycolysis proceeds either way.\n\n## Simplified explanation\n\nGlycolysis works with or without oxygen.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycolysis",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The formation of glucose from non-carbohydrate sources is called:",
+  "options": [
+   {
+    "text": "Glycogenesis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycolysis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycogenolysis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Gluconeogenesis",
+    "hint": "Correct. Gluco-neo-genesis = new glucose formation."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Neo = new.",
+  "explanation": "## Advanced explanation\n\nSubstrates: lactate, glycerol, glucogenic amino acids, propionate.\n\n## Simplified explanation\n\nMaking new glucose = gluconeogenesis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gluconeogenesis",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following metabolic pathways is not paired with its product?",
+  "options": [
+   {
+    "text": "β-oxidation/glucose",
+    "hint": "Correct. β-oxidation gives acetyl-CoA, which cannot form net glucose in humans."
+   },
+   {
+    "text": "Glycogenolysis/glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycolysis/pyruvate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glycogenesis/glycogen",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "What does β-oxidation produce?",
+  "explanation": "## Advanced explanation\n\nAcetyl-CoA cannot be converted to pyruvate (PDH is irreversible), so fatty acids are not glucogenic (except the glycerol and odd-chain propionyl part).\n\n## Simplified explanation\n\nβ-oxidation makes acetyl-CoA, not glucose.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fuel Metabolism",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All these are primary bile acids, EXCEPT:",
+  "options": [
+   {
+    "text": "Glycocholic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lithocholic acid",
+    "hint": "Correct. Lithocholic acid is a secondary bile acid."
+   },
+   {
+    "text": "Taurochenodeoxycholic acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Taurocholic acid",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Bacterial product.",
+  "explanation": "## Advanced explanation\n\nPrimary bile acids (cholic, chenodeoxycholic) and their glycine/taurine conjugates are made in the liver. Gut bacteria 7α-dehydroxylate them to **secondary** bile acids: deoxycholic and **lithocholic**.\n\n## Simplified explanation\n\nLithocholic acid is made by gut bacteria, so it is secondary.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bile Acids",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following can be oxidised by the β-oxidation pathway?",
+  "options": [
+   {
+    "text": "Saturated fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Monounsaturated fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Polyunsaturated fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "All the above",
+    "hint": "Correct. Unsaturated ones need auxiliary enzymes (isomerase, reductase)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Extra enzymes handle double bonds.",
+  "explanation": "## Advanced explanation\n\nMonounsaturated fatty acids need enoyl-CoA isomerase; polyunsaturated also need 2,4-dienoyl-CoA reductase; all end as acetyl-CoA.\n\n## Simplified explanation\n\nAll fatty acid types can be broken down by β-oxidation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Lipid stores are mainly present in",
+  "options": [
+   {
+    "text": "Liver",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Brain",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Adipose tissue",
+    "hint": "Correct. Adipocytes store TAG."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Fat tissue.",
+  "explanation": "## Advanced explanation\n\nAdipose tissue holds ~15 kg of TAG in a typical adult, the largest energy reserve.\n\n## Simplified explanation\n\nFat is stored in adipose tissue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements about triacylglycerols (TAGs) is correct?",
+  "options": [
+   {
+    "text": "TAGs are carried in the blood bound to albumin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "TAGs are stored in all cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "TAGs are oxidised to glycerol and fatty acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "TAGs are hydrolysed to glycerol and fatty acids",
+    "hint": "Correct. Lipases hydrolyse ester bonds."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Lipase action.",
+  "explanation": "## Advanced explanation\n\nTAG is carried in lipoproteins (free fatty acids, not TAG, ride on albumin); stored mainly in adipocytes; broken down by **hydrolysis** (hormone-sensitive lipase, lipoprotein lipase), not oxidation.\n\n## Simplified explanation\n\nFats are split by water (hydrolysis) into glycerol and fatty acids.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lipids",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements about β-oxidation of fatty acids is correct?",
+  "options": [
+   {
+    "text": "β-oxidation of fatty acyl-CoA is catalysed by lipases",
+    "hint": "Not this one."
+   },
+   {
+    "text": "β-oxidation of fatty acyl-CoA occurs in all cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "β-oxidation of fatty acyl-CoA requires ATP",
+    "hint": "Not this one."
+   },
+   {
+    "text": "β-oxidation of fatty acyl-CoA occurs in the mitochondrial matrix",
+    "hint": "Correct. The enzymes are in the matrix."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Where is the enzyme machinery?",
+  "explanation": "## Advanced explanation\n\nLipases hydrolyse TAG, not β-oxidise; RBCs (no mitochondria) and brain do not β-oxidise; ATP is used in activation (acyl-CoA synthetase) but the spiral itself produces energy.\n\n## Simplified explanation\n\nβ-oxidation happens inside mitochondria.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fatty Acid Oxidation",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An agent that causes the contraction of the gall bladder leading to the release of bile into the intestine is a:",
+  "options": [
+   {
+    "text": "Choleretic agent",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Emulsification agent",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cholagogue agent",
+    "hint": "Correct. Cholagogues (e.g. CCK) empty the gall bladder."
+   },
+   {
+    "text": "Laxative agent",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Production vs release.",
+  "explanation": "## Advanced explanation\n\nCholeretics increase bile production by the liver; cholagogues expel stored bile.\n\n## Simplified explanation\n\nSqueezing out bile = cholagogue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bile",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many net moles of ATP will be produced if 0.5 mole of glucose passes through the glycolysis pathway?",
+  "options": [
+   {
+    "text": "0.5 mole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "1 mole",
+    "hint": "Correct. Net 2 ATP per glucose × 0.5 = 1 mole."
+   },
+   {
+    "text": "2 moles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "4 moles",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Net yield × amount.",
+  "explanation": "## Advanced explanation\n\nGlycolysis: 4 ATP made − 2 used = net 2 ATP/glucose (substrate level). 0.5 mol × 2 = **1 mol** ATP.\n\n## Simplified explanation\n\n2 ATP per glucose, half a mole → 1 mole.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Glycolysis",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Type 1 diabetes mellitus is a disease which is caused by a shortage of:",
+  "options": [
+   {
+    "text": "Glucagon",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Adrenalin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cortisol",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Insulin",
+    "hint": "Correct. Autoimmune β-cell destruction → absolute insulin deficiency."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "β-cell hormone.",
+  "explanation": "## Advanced explanation\n\nType 1 DM: autoimmune destruction of pancreatic β-cells; type 2: insulin resistance with relative deficiency.\n\n## Simplified explanation\n\nType 1 diabetes = no insulin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Diabetes Mellitus",
+   "Quiz 1 (second set)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are **amino acids**?",
+  "media": [],
+  "answer": "Amino acids are organic compounds containing both an **amino group (–NH₂)** and a **carboxyl group (–COOH)** attached (in α-amino acids) to the same **α-carbon**, which also carries a hydrogen atom and a variable **side chain (R group)**: $\\mathrm{H_2N\\text{–}CH(R)\\text{–}COOH}$. They are the building blocks (monomers) of proteins, linked by peptide bonds; 20 are coded genetically, and at physiological pH they exist as zwitterions.\n\n> [!answer]\n> Organic molecules with an amino group and a carboxyl group on the same α-carbon plus a variable R group; the building blocks of proteins.",
+  "explanation": "## Advanced explanation\n\nAll standard amino acids except glycine are chiral (L-form in proteins). R groups determine their classification (non-polar, polar, acidic, basic) and properties.\n\n## Simplified explanation\n\nAmino acids have an NH₂ group, a COOH group and a side chain; they join to make proteins.",
+  "hint": "Amine + acid.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Amino Acids",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The side chains (R groups) of three amino acids are: alanine –CH₃, cysteine –CH₂–SH, glutamic acid –CH₂–CH₂–COOH. Draw the tripeptide **glutamyl-alanyl-cysteine** and indicate the peptide bonds.",
+  "media": [],
+  "answer": "Glu (N-terminus) – Ala – Cys (C-terminus):\n\n```\n          CH2-CH2-COOH        CH3              CH2-SH\n          |                   |                |\nH3N(+)–CH–C(=O)–NH–CH–C(=O)–NH–CH–COO(-)\n               ^^^^^^         ^^^^^^\n           peptide bond   peptide bond\n```\n\nCondensed: $\\mathrm{H_3N^+\\text{–}CH(CH_2CH_2COOH)\\text{–}CO\\text{–}NH\\text{–}CH(CH_3)\\text{–}CO\\text{–}NH\\text{–}CH(CH_2SH)\\text{–}COO^-}$\n\nThe two **peptide bonds** are the **–CO–NH–** amide links between Glu C=O and Ala N, and between Ala C=O and Cys N.\n\n> [!answer]\n> H₃N⁺–CH(CH₂CH₂COOH)–CO–NH–CH(CH₃)–CO–NH–CH(CH₂SH)–COO⁻, with the two –CO–NH– groups as peptide bonds.",
+  "explanation": "## Advanced explanation\n\nPeptide bonds form by condensation (loss of H₂O) between the α-COOH of one amino acid and the α-NH₂ of the next. They are planar, rigid (partial double-bond character) and trans. Sequences are written from N- to C-terminus. (Glutathione differs: it is γ-glutamyl-cysteinyl-glycine, linked through the side-chain carboxyl.)\n\n## Simplified explanation\n\nJoin Glu's COOH to Ala's NH₂, then Ala's COOH to Cys's NH₂; each join is a peptide bond (–CO–NH–).",
+  "hint": "Write N-terminus on the left.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Amino Acids & Peptides",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Classify the following amino acids: tyrosine, lysine, tryptophan, aspartate, histidine and glutamate into the following groups:\n\na. acidic\nb. basic\nc. neutral",
+  "media": [],
+  "answer": "| Group | Amino acids |\n|---|---|\n| a. Acidic | Aspartate, glutamate |\n| b. Basic | Lysine, histidine |\n| c. Neutral | Tyrosine, tryptophan |\n\n> [!answer]\n> Acidic: aspartate, glutamate. Basic: lysine, histidine. Neutral: tyrosine, tryptophan.",
+  "explanation": "## Advanced explanation\n\nTyrosine (phenolic –OH, pKa ~10) and tryptophan (indole) are aromatic and uncharged at physiological pH.\n\n## Simplified explanation\n\nAsp and Glu are acidic; Lys and His basic; Tyr and Trp neutral.",
+  "hint": "Look at extra charged groups.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Amino Acids",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Classify the following amino acids according to their functional groups: aspartate, cysteine, asparagine, lysine, arginine, tyrosine, glutamate, threonine, glutamine and serine.\n\na. –OH group\nb. –NH₂ group\nc. –SH\nd. amide\ne. –COOH",
+  "media": [],
+  "answer": "| Side-chain group | Amino acids |\n|---|---|\n| a. –OH (hydroxyl) | Serine, threonine, tyrosine |\n| b. –NH₂ (amino/basic) | Lysine, arginine (guanidino) |\n| c. –SH (thiol) | Cysteine |\n| d. Amide (–CONH₂) | Asparagine, glutamine |\n| e. –COOH (carboxyl) | Aspartate, glutamate |\n\n> [!answer]\n> –OH: Ser, Thr, Tyr. –NH₂: Lys, Arg. –SH: Cys. Amide: Asn, Gln. –COOH: Asp, Glu.",
+  "explanation": "## Advanced explanation\n\nHydroxyl groups are sites of phosphorylation and O-glycosylation; cysteine –SH forms disulphide bonds; asparagine's amide is the site of N-glycosylation.\n\n## Simplified explanation\n\nGroup them by the special group on their side chain.",
+  "hint": "Look at each R group.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Amino Acids",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is **emphysema**? Why is it increased among smokers?",
+  "media": [],
+  "answer": "**Emphysema** is a chronic obstructive lung disease with **permanent enlargement of the air spaces distal to the terminal bronchioles** and **destruction of alveolar walls** (loss of elastin), reducing the gas-exchange surface and elastic recoil.\n\n**Smokers:**\n- Smoke recruits and activates **neutrophils and macrophages** in the lungs, which release **elastase** and other proteases.\n- Oxidants in smoke **oxidise a methionine residue (Met358)** at the active site of **α₁-antitrypsin**, the main elastase inhibitor, inactivating it.\n- The protease–antiprotease balance shifts towards proteolysis, so **elastin in alveolar walls is destroyed** → emphysema. (People with genetic α₁-antitrypsin deficiency, e.g. PiZZ, are at very high risk, especially if they smoke.)\n\n> [!answer]\n> Destruction of alveolar walls with enlarged air spaces. Smoking increases elastase release from inflammatory cells and oxidises/inactivates α₁-antitrypsin, so unopposed elastase destroys lung elastin.",
+  "explanation": "## Advanced explanation\n\nα₁-Antitrypsin is a serpin made in the liver. Deficiency causes panacinar emphysema in young adults and, with the Z variant, liver disease from retained misfolded protein.\n\n## Simplified explanation\n\nEmphysema is damaged air sacs. Smoke switches off the body's protector (α₁-antitrypsin) and increases the enzyme (elastase) that eats lung tissue.",
+  "hint": "Protease vs antiprotease.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Protein Function & Disease",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Aspartic acid ionises as follows:\n\n$$\\text{(+1)} \\xrightleftharpoons{pK_{a1}=1.88} \\text{(0)} \\xrightleftharpoons{pK_{a2}=3.65} \\text{(−1)} \\xrightleftharpoons{pK_{a3}=9.68} \\text{(−2)}$$\n\n(pKa₁ α-COOH, pKa₂ side-chain COOH, pKa₃ α-NH₃⁺.) Determine the pI of the amino acid.",
+  "media": [],
+  "answer": "The neutral (zwitterion) form lies between pKa₁ and pKa₂:\n\n$$pI = \\frac{1.88 + 3.65}{2} = 2.765 \\approx 2.77$$\n\n> [!answer]\n> pI ≈ 2.77",
+  "explanation": "## Advanced explanation\n\nFor acidic amino acids, average the two carboxyl pKa values; the amino pKa is irrelevant because at the pI the molecule must have net zero charge.\n\n## Simplified explanation\n\nAverage the two pKa values around the zero-charge form: (1.88 + 3.65)/2 = 2.77.",
+  "hint": "Find the zero-charge form.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Amino Acids",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name any **four** bonds that exist in the tertiary structure of a protein.",
+  "media": [],
+  "answer": "1. **Hydrogen bonds** (between side chains)\n2. **Ionic bonds (salt bridges)** between oppositely charged side chains (e.g. Lys⁺ and Asp⁻)\n3. **Disulphide bonds** (covalent, between cysteine –SH groups)\n4. **Hydrophobic interactions** (non-polar side chains buried in the core)\n5. **Van der Waals forces**\n\n> [!answer]\n> Hydrogen bonds, ionic bonds, disulphide bonds, hydrophobic interactions (also van der Waals).",
+  "explanation": "## Advanced explanation\n\nTertiary structure is the overall 3-D fold of one polypeptide, stabilised mainly by side-chain interactions. Denaturing agents (heat, pH, urea, mercaptoethanol for disulphides) disrupt them.\n\n## Simplified explanation\n\nTertiary structure is held by H-bonds, salt bridges, S–S bridges and hydrophobic forces.",
+  "hint": "Side-chain interactions.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Protein Structure",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the main difference between **globular** and **fibrous** proteins?",
+  "media": [],
+  "answer": "| Globular proteins | Fibrous proteins |\n|---|---|\n| Polypeptide folded into a **compact, spherical** shape | **Elongated**, long parallel strands or sheets |\n| Generally **water-soluble** | Generally **insoluble** in water |\n| **Functional/dynamic** roles: enzymes, hormones, transport, antibodies (e.g. haemoglobin, insulin) | **Structural** roles: strength, support (e.g. collagen, keratin, elastin) |\n| Mixed secondary structure, complex tertiary structure | Usually one repeating secondary structure |\n\n> [!answer]\n> Globular proteins are compact, soluble and functional (enzymes, haemoglobin); fibrous proteins are elongated, insoluble and structural (collagen, keratin).",
+  "explanation": "## Advanced explanation\n\nIn globular proteins hydrophobic residues are buried inside and polar ones on the surface, giving solubility. Fibrous proteins often have repetitive sequences (e.g. Gly-X-Y in collagen).\n\n## Simplified explanation\n\nGlobular = ball-shaped, dissolves, does jobs. Fibrous = long, doesn't dissolve, gives structure.",
+  "hint": "Shape and role.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Protein Structure",
+   "Quiz 2"
+  ]
+ }
+]

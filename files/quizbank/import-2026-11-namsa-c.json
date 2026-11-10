@@ -1,0 +1,164 @@
+{
+  "courses": [
+    {
+      "code": "MLS208",
+      "title": "Histopathology I",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 208 Histopathology I papers (2018/19 theory and practical exams and quizzes): specimen reception, fixation and fixatives, tissue processing, dehydration, clearing, infiltration and embedding, decalcification, microtomy and planes of section. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Histopathology"
+      ],
+      "files": [
+        "mls208-histopathology-i.json"
+      ]
+    },
+    {
+      "code": "MLS307",
+      "title": "Histopathology II",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 307 Histopathology II papers (2019/20 exam and 2020/21 quizzes): basic tissues, epithelium and connective tissue, connective tissue stains, specimen reception, fixatives, clearing and embedding, dye chemistry, haematoxylin and H&E staining, amyloid, pigments, lipid stains and immunohistochemistry. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Histopathology"
+      ],
+      "files": [
+        "mls307-histopathology-ii.json"
+      ]
+    },
+    {
+      "code": "MLS308",
+      "title": "Histopathology III",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 308 Histopathology III quizzes: carbohydrate histochemistry, glycogen and PAS, mucins and Alcian blue, amyloid, enzyme digestion and immunohistochemistry. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 30,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Histopathology"
+      ],
+      "files": [
+        "mls308-histopathology-iii.json"
+      ]
+    },
+    {
+      "code": "MLS407",
+      "title": "Histopathology IV",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 407 Histopathology IV quiz (2020/21): gynaecological cytology, squamous cell types in Pap smears, cervical mucus ferning and postmenopausal bleeding. Every question has a worked solution.",
+      "examQuestions": 8,
+      "examMinutes": 25,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Histopathology"
+      ],
+      "files": [
+        "mls407-histopathology-iv.json"
+      ]
+    },
+    {
+      "code": "MLS408",
+      "title": "Histopathology V",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 408 / MLT 451 Histopathology V papers (2018/19 sandwich exam and a quiz): neuroanatomy and neuropathology, neurons and glia, brain fixation, neuropathology stains (Nissl, myelin, glial fibres), dyes and staining principles, microscopy and enzyme histochemistry. Every question has a worked solution.",
+      "examQuestions": 40,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Histopathology"
+      ],
+      "files": [
+        "mls408-histopathology-v.json"
+      ]
+    },
+    {
+      "code": "MLS207",
+      "title": "General Pathology",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 207 / MLT 207 General Pathology papers (2018/19 exam and quizzes): cellular adaptation, cell injury and free radicals, necrosis and apoptosis, acute and chronic inflammation and its mediators, tissue repair and wound healing, haemodynamic disorders, thrombosis, embolism and shock, and neoplasia. Every question has a worked solution.",
+      "examQuestions": 40,
+      "examMinutes": 90,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Pathology"
+      ],
+      "files": [
+        "mls207-general-pathology.json"
+      ]
+    },
+    {
+      "code": "MLS302",
+      "title": "Chemical Pathology II",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 302A / MLT 325A Chemical Pathology II papers (2015/16 and 2018/19 exams and quizzes): liver function tests and jaundice, acute and chronic kidney disease, renal function tests, diabetes mellitus and hypoglycaemia, calcium, phosphate and PTH, renal osteodystrophy, purine metabolism and gout, with clinical case studies. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Chemical Pathology"
+      ],
+      "files": [
+        "mls302-chemical-pathology-ii.json"
+      ]
+    },
+    {
+      "code": "MLT420",
+      "title": "Chemical Pathology IV",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLT 420A Chemical Pathology IV paper (2017/18): endocrinology – pituitary, adrenal and thyroid disorders, non-thyroidal illness, reproductive endocrinology and infertility, endocrine changes in pregnancy and on oral contraceptives, with a case study. Every question has a worked solution.",
+      "examQuestions": 12,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Chemical Pathology"
+      ],
+      "files": [
+        "mlt420-chemical-pathology-iv.json"
+      ]
+    },
+    {
+      "code": "MLS301",
+      "title": "Chemical Pathology I",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 301A Chemical Pathology I paper (2019/20): water and sodium balance, potassium, acid–base disorders and the anion gap, pre-analytical factors, renal function, plasma proteins and electrophoresis, acute phase proteins and point-of-care testing, with case studies. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 120,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Chemical Pathology"
+      ],
+      "files": [
+        "mls301-chemical-pathology-i.json"
+      ]
+    },
+    {
+      "code": "MLS401",
+      "title": "Chemical Pathology III",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 401 / MLT 401A Chemical Pathology III papers (2019/20 exam and quizzes): tumour markers (PSA, CEA, hCG, CA 15-3), clinical enzymology and cardiac markers, gastrointestinal and pancreatic disease, iron metabolism and iron overload, and lipoprotein disorders, with case studies. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Chemical Pathology"
+      ],
+      "files": [
+        "mls401-chemical-pathology-iii.json"
+      ]
+    }
+  ]
+}

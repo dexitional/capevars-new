@@ -1,0 +1,1059 @@
+[
+ {
+  "type": "choice",
+  "body": "In tissue processing, the purpose of fixation is to…",
+  "options": [
+   {
+    "text": "preserve tissues permanently in as life-like state as possible",
+    "hint": "Correct. Fixation stops autolysis and putrefaction and keeps structure close to the living state."
+   },
+   {
+    "text": "soften the tissue",
+    "hint": "Softening is not the aim; fixatives usually harden tissue."
+   },
+   {
+    "text": "decalcify the tissue",
+    "hint": "Decalcification is a separate step for bone and calcified tissue."
+   },
+   {
+    "text": "create an artifact that can be seen directly under microscope",
+    "hint": "Artefacts are unwanted; fixation tries to avoid them."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of what happens to tissue left without treatment.",
+  "explanation": "## Advanced explanation\n\n**Fixation** is the first and most important step of tissue processing. Fixatives (e.g. formalin) cross-link or coagulate proteins, halting **autolysis** (self-digestion by lysosomal enzymes) and **putrefaction** (bacterial decay), and harden the tissue so it survives dehydration, clearing, embedding and sectioning while keeping cells and tissues in as life-like a state as possible.\n\n## Simplified explanation\n\nFixing a tissue 'freezes' it as it was in life so it does not rot or digest itself.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Processing",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What percentage formaldehyde is present in standard neutral buffered formalin?",
+  "options": [
+   {
+    "text": "20%",
+    "hint": "Too strong for routine fixation."
+   },
+   {
+    "text": "40%",
+    "hint": "40% (37–40%) is the strength of concentrated stock formalin, not the working fixative."
+   },
+   {
+    "text": "10%",
+    "hint": "Correct. The standard fixative is '10% neutral buffered formalin'."
+   },
+   {
+    "text": "30%",
+    "hint": "Not a standard fixative strength."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "It is the fixative's usual name.",
+  "explanation": "## Advanced explanation\n\nThe routine histology fixative is **10% neutral buffered formalin (NBF)**: 1 part of stock formalin (37–40% formaldehyde gas in water) diluted with 9 parts of phosphate buffer (pH ≈ 7.0). Strictly, 10% formalin contains about **4% w/v formaldehyde**, but the fixative is named and examined as '10%'.\n\n## Simplified explanation\n\nThe everyday fixative in the lab is **10% formalin**, buffered to neutral pH.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The gradual process of removing water from the tissue using ascending gradients of ethyl alcohol to prevent tissue shrinking is termed…",
+  "options": [
+   {
+    "text": "clearing",
+    "hint": "Clearing removes the alcohol with a solvent such as xylene."
+   },
+   {
+    "text": "embedding",
+    "hint": "Embedding infiltrates the tissue with wax."
+   },
+   {
+    "text": "mounting",
+    "hint": "Mounting places the section under a coverslip."
+   },
+   {
+    "text": "dehydration",
+    "hint": "Correct. Graded alcohols (e.g. 70% → 90% → absolute) dehydrate the tissue."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "De-hydr-ation.",
+  "explanation": "## Advanced explanation\n\nParaffin wax does not mix with water, so water must be removed first. **Dehydration** uses ascending grades of ethanol (70%, 80%, 90%, 95%, absolute) so water is replaced gradually, limiting shrinkage and distortion. Then come clearing (xylene), infiltration/embedding (wax), sectioning, staining and mounting.\n\n## Simplified explanation\n\nDehydration = taking water out, step by step, with stronger and stronger alcohol.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Processing",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following chemicals is not a decalcifying agent/process?",
+  "options": [
+   {
+    "text": "mineral acids",
+    "hint": "Mineral acids (nitric, hydrochloric) are rapid decalcifiers."
+   },
+   {
+    "text": "organic acids",
+    "hint": "Organic acids (formic, trichloroacetic) are gentler decalcifiers."
+   },
+   {
+    "text": "distilled water",
+    "hint": "Correct. Water does not dissolve calcium salts out of bone."
+   },
+   {
+    "text": "electrolysis",
+    "hint": "Electrolytic decalcification uses an electric current with acid to speed removal of calcium."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one cannot dissolve calcium?",
+  "explanation": "## Advanced explanation\n\nDecalcification removes calcium salts from bone so it can be cut. Methods: **mineral acids** (HNO₃, HCl), **organic acids** (formic, trichloroacetic), **chelating agents** (EDTA), **ion-exchange resins** and **electrolysis**. Distilled water has no decalcifying action.\n\n## Simplified explanation\n\nAcids, EDTA and electrolysis remove calcium; plain water does not.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these tissue types function in covering surfaces and lining ducts?",
+  "options": [
+   {
+    "text": "Muscle tissue",
+    "hint": "Muscle tissue contracts."
+   },
+   {
+    "text": "Epithelial tissue",
+    "hint": "Correct. Epithelium covers body surfaces and lines cavities, tubes and ducts."
+   },
+   {
+    "text": "Nervous tissue",
+    "hint": "Nervous tissue conducts impulses."
+   },
+   {
+    "text": "Connective tissue",
+    "hint": "Connective tissue supports and binds."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Skin and the lining of tubes.",
+  "explanation": "## Advanced explanation\n\nThe four basic tissues are epithelial, connective, muscle and nervous. **Epithelium** forms sheets of closely packed cells that cover external surfaces, line internal cavities, vessels and ducts, and form glands.\n\n## Simplified explanation\n\nEpithelium is the body's 'lining and covering' tissue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epithelial Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Epithelial cells rest on…",
+  "options": [
+   {
+    "text": "basement membrane",
+    "hint": "Correct. The basement membrane anchors the epithelium to the underlying connective tissue."
+   },
+   {
+    "text": "adherens",
+    "hint": "Adherens junctions join neighbouring cells laterally."
+   },
+   {
+    "text": "desmosomes",
+    "hint": "Desmosomes join neighbouring cells laterally."
+   },
+   {
+    "text": "tight junctions",
+    "hint": "Tight junctions seal neighbouring cells near the apex."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "A thin layer beneath the cells.",
+  "explanation": "## Advanced explanation\n\nEpithelia are polarised: the **basal surface** sits on a **basement membrane** (basal lamina + reticular lamina) that separates them from the connective tissue, anchors them (via hemidesmosomes) and filters substances. Adherens junctions, desmosomes and tight junctions are **cell-to-cell** junctions on the lateral surfaces.\n\n## Simplified explanation\n\nEpithelial cells sit on a thin sheet called the basement membrane.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epithelial Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The type of epithelium which consists of a single layer of flattened cells is…",
+  "options": [
+   {
+    "text": "simple squamous",
+    "hint": "Correct. Simple = one layer; squamous = flat."
+   },
+   {
+    "text": "simple columnar",
+    "hint": "Columnar cells are tall."
+   },
+   {
+    "text": "simple cuboidal",
+    "hint": "Cuboidal cells are as tall as wide."
+   },
+   {
+    "text": "pseudostratified",
+    "hint": "Pseudostratified appears layered and is columnar."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Squama = scale.",
+  "explanation": "## Advanced explanation\n\n**Simple squamous epithelium** is one layer of thin flat cells, ideal for diffusion and filtration, e.g. alveoli, endothelium, mesothelium, Bowman's capsule.\n\n## Simplified explanation\n\nOne layer of flat cells = simple squamous.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epithelial Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The type of epithelium that lines the lumen of the urinary bladder is…",
+  "options": [
+   {
+    "text": "pseudostratified columnar",
+    "hint": "Found in the trachea and bronchi."
+   },
+   {
+    "text": "transitional",
+    "hint": "Correct. Transitional epithelium (urothelium) stretches as the bladder fills."
+   },
+   {
+    "text": "stratified cuboidal",
+    "hint": "Found in ducts of sweat glands."
+   },
+   {
+    "text": "simple columnar",
+    "hint": "Found in the stomach and intestines."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "It changes shape as the organ fills.",
+  "explanation": "## Advanced explanation\n\n**Transitional epithelium (urothelium)** lines the renal pelvis, ureters, bladder and proximal urethra. Its dome-shaped superficial (umbrella) cells flatten when the organ is distended, allowing stretch while staying impermeable to urine.\n\n## Simplified explanation\n\nThe bladder stretches, so its lining is 'transitional' and can change shape.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epithelial Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The three basic muscle tissues do not include…",
+  "options": [
+   {
+    "text": "skeletal muscle",
+    "hint": "Skeletal muscle is one of the three types."
+   },
+   {
+    "text": "smooth muscle",
+    "hint": "Smooth muscle is one of the three types."
+   },
+   {
+    "text": "cardiac muscle",
+    "hint": "Cardiac muscle is one of the three types."
+   },
+   {
+    "text": "pectinate muscle",
+    "hint": "Correct. Pectinate muscles are ridges of cardiac muscle in the atria, not a separate tissue type."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Count the three classic types.",
+  "explanation": "## Advanced explanation\n\nThe three muscle tissues are **skeletal** (striated, voluntary), **cardiac** (striated, involuntary, intercalated discs) and **smooth** (non-striated, involuntary). Musculi pectinati are anatomical ridges of the atrial wall made of cardiac muscle.\n\n## Simplified explanation\n\nSkeletal, smooth and cardiac are the three; pectinate is not a tissue type.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Muscle Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which body region in humans are the breasts located?",
+  "options": [
+   {
+    "text": "Torso",
+    "hint": "Correct. The breasts lie on the anterior thoracic wall, part of the torso (trunk)."
+   },
+   {
+    "text": "Head",
+    "hint": "Not the head."
+   },
+   {
+    "text": "Neck",
+    "hint": "Not the neck."
+   },
+   {
+    "text": "Pelvis",
+    "hint": "The pelvis is below the abdomen."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Chest = part of the trunk.",
+  "explanation": "## Advanced explanation\n\nThe **torso (trunk)** comprises the thorax, abdomen and pelvis. The breasts overlie the pectoral muscles on the anterior chest (thoracic) wall, roughly from the 2nd to 6th ribs.\n\n## Simplified explanation\n\nBreasts are on the chest, which is part of the trunk (torso).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Regions",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The abdominal regions do not include…",
+  "options": [
+   {
+    "text": "Left inguinal",
+    "hint": "The left inguinal (iliac) region is one of the nine."
+   },
+   {
+    "text": "Right inguinal",
+    "hint": "The right inguinal (iliac) region is one of the nine."
+   },
+   {
+    "text": "Umbilicus",
+    "hint": "The umbilical region is the central region."
+   },
+   {
+    "text": "Epiumbilicus",
+    "hint": "Correct. There is no 'epiumbilical' region; the region above the umbilical is the epigastric."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "List the nine regions.",
+  "explanation": "## Advanced explanation\n\nThe **nine abdominal regions** are: right and left **hypochondriac**, **epigastric**; right and left **lumbar**, **umbilical**; right and left **inguinal (iliac)**, **hypogastric (pubic)**.\n\n## Simplified explanation\n\nThe nine regions include epigastric, umbilical and inguinal, but not 'epiumbilical'.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Regions",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following structures lies in the mediastinum?",
+  "options": [
+   {
+    "text": "Jejunum",
+    "hint": "The jejunum is in the abdomen."
+   },
+   {
+    "text": "Pancreas",
+    "hint": "The pancreas is in the abdomen (retroperitoneal)."
+   },
+   {
+    "text": "Trachea",
+    "hint": "Correct. The trachea runs through the superior mediastinum."
+   },
+   {
+    "text": "Liver",
+    "hint": "The liver is in the abdomen."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one is in the chest?",
+  "explanation": "## Advanced explanation\n\nThe **mediastinum** is the central compartment of the thorax between the two pleural cavities. It contains the heart and pericardium, great vessels, **trachea**, oesophagus, thymus, thoracic duct, vagus and phrenic nerves.\n\n## Simplified explanation\n\nThe mediastinum is the middle of the chest: heart, trachea, oesophagus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Cavities",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which body cavity surrounds the heart?",
+  "options": [
+   {
+    "text": "Pleural cavity",
+    "hint": "The pleural cavities surround the lungs."
+   },
+   {
+    "text": "Peritoneal cavity",
+    "hint": "The peritoneal cavity is in the abdomen."
+   },
+   {
+    "text": "Pericardial cavity",
+    "hint": "Correct. The pericardial cavity lies between the visceral and parietal layers of serous pericardium."
+   },
+   {
+    "text": "Pelvic cavity",
+    "hint": "The pelvic cavity holds the bladder, rectum and reproductive organs."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cardia = heart.",
+  "explanation": "## Advanced explanation\n\nThe heart is enclosed in the **pericardium**; the potential space between visceral (epicardium) and parietal serous layers is the **pericardial cavity**, containing a little fluid that reduces friction.\n\n## Simplified explanation\n\nPeri-cardial = around the heart.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Cavities",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these membranes is not a serous membrane?",
+  "options": [
+   {
+    "text": "Pleurae",
+    "hint": "The pleura is a serous membrane."
+   },
+   {
+    "text": "Peritoneum",
+    "hint": "The peritoneum is a serous membrane."
+   },
+   {
+    "text": "Respiratory epithelium",
+    "hint": "Correct. Respiratory epithelium is part of a mucous membrane."
+   },
+   {
+    "text": "Pericardium",
+    "hint": "The serous pericardium is a serous membrane."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one opens to the outside?",
+  "explanation": "## Advanced explanation\n\n**Serous membranes** (pleura, pericardium, peritoneum) line closed body cavities and secrete watery serous fluid. Cavities open to the exterior (respiratory, digestive, urogenital tracts) are lined by **mucous membranes**; respiratory epithelium (pseudostratified ciliated columnar) is the epithelium of the respiratory mucosa.\n\n## Simplified explanation\n\nSerous membranes line closed cavities; the airway lining is a mucous membrane.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Membranes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following represents crystals of hydroxyapatite?",
+  "options": [
+   {
+    "text": "$\\mathrm{Ca_{10}(PO_4)_6(OH)_2}$",
+    "hint": "Correct. Hydroxyapatite is $\\mathrm{Ca_{10}(PO_4)_6(OH)_2}$."
+   },
+   {
+    "text": "$\\mathrm{Ca_3(PO_4)_2}$",
+    "hint": "Tricalcium phosphate, not hydroxyapatite."
+   },
+   {
+    "text": "$\\mathrm{Ca(OH)_2}$",
+    "hint": "Calcium hydroxide."
+   },
+   {
+    "text": "NaCl",
+    "hint": "Sodium chloride (table salt)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "It contains calcium, phosphate and hydroxide.",
+  "explanation": "## Advanced explanation\n\nThe inorganic matrix of bone (about 65% of its weight) is mostly **hydroxyapatite**, $\\mathrm{Ca_{10}(PO_4)_6(OH)_2}$, deposited along collagen fibres; it gives bone hardness, while collagen gives flexibility.\n\n## Simplified explanation\n\nBone mineral = hydroxyapatite = calcium phosphate with hydroxide.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bone Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The medullary cavity of the bone is lined by…",
+  "options": [
+   {
+    "text": "periosteum",
+    "hint": "Periosteum covers the outer surface."
+   },
+   {
+    "text": "endosteum",
+    "hint": "Correct. Endosteum lines the medullary cavity."
+   },
+   {
+    "text": "joint capsule",
+    "hint": "The joint capsule surrounds a synovial joint."
+   },
+   {
+    "text": "spicules",
+    "hint": "Spicules are small bony projections, not a lining."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Endo- means within.",
+  "explanation": "## Advanced explanation\n\nThe **periosteum** covers the external surface of bone (except articular surfaces). The **endosteum** is a thin cellular layer (osteoprogenitor cells, osteoblasts, osteoclasts) lining the **medullary cavity**, trabeculae and canals.\n\n## Simplified explanation\n\nEndo = inside: the endosteum lines the inside cavity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bone Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In compact bone, osteocytes rest in…",
+  "options": [
+   {
+    "text": "spicules",
+    "hint": "Spicules are bony projections."
+   },
+   {
+    "text": "lamellae",
+    "hint": "Lamellae are layers of matrix; the cells sit between them."
+   },
+   {
+    "text": "lacunae",
+    "hint": "Correct. Each osteocyte occupies a lacuna."
+   },
+   {
+    "text": "endosteum",
+    "hint": "The endosteum lines the medullary cavity."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Lacuna = small lake.",
+  "explanation": "## Advanced explanation\n\nIn an **osteon (Haversian system)**, concentric **lamellae** surround a central canal. Between lamellae are small spaces, **lacunae**, each holding an **osteocyte**; fine **canaliculi** link lacunae and carry the cells' processes.\n\n## Simplified explanation\n\nOsteocytes live in little 'lakes' called lacunae.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bone Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Bone cells that divide to produce daughter cells that differentiate into osteoblasts are called…",
+  "options": [
+   {
+    "text": "osteoclast cells",
+    "hint": "Osteoclasts resorb bone and come from monocytes."
+   },
+   {
+    "text": "osteoblast cells",
+    "hint": "Osteoblasts are the products, not the source."
+   },
+   {
+    "text": "osteocytes",
+    "hint": "Osteocytes are mature cells trapped in matrix."
+   },
+   {
+    "text": "osteoprogenitor cells",
+    "hint": "Correct. Osteoprogenitor (osteogenic) cells are the stem cells of bone."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which cell is the stem cell?",
+  "explanation": "## Advanced explanation\n\n**Osteoprogenitor cells** are mesenchymal-derived stem cells in the periosteum and endosteum. They divide and differentiate into **osteoblasts** (bone-forming), which become **osteocytes** when trapped in matrix. **Osteoclasts** are multinucleated, from the monocyte–macrophage line.\n\n## Simplified explanation\n\nProgenitor = parent: osteoprogenitor cells make new osteoblasts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bone Cells",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many bones are there in the adult body?",
+  "options": [
+   {
+    "text": "201",
+    "hint": "Not the standard figure."
+   },
+   {
+    "text": "210",
+    "hint": "Not the standard figure."
+   },
+   {
+    "text": "206",
+    "hint": "Correct. The adult skeleton has 206 bones."
+   },
+   {
+    "text": "260",
+    "hint": "Not the standard figure."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Axial 80 + appendicular 126.",
+  "explanation": "## Advanced explanation\n\nA newborn has about 270–300 bony elements; many fuse (skull, sacrum, coccyx, hip bones) to give **206** in the adult: 80 axial and 126 appendicular.\n\n## Simplified explanation\n\nAdults have 206 bones.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skeleton",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these cells are not produced in the bone marrow?",
+  "options": [
+   {
+    "text": "Red blood cells",
+    "hint": "RBCs are made in red marrow."
+   },
+   {
+    "text": "White blood cells",
+    "hint": "WBCs are made in red marrow."
+   },
+   {
+    "text": "Platelets",
+    "hint": "Platelets come from marrow megakaryocytes."
+   },
+   {
+    "text": "Astrocytes",
+    "hint": "Correct. Astrocytes are glial cells of the CNS."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one is a nervous system cell?",
+  "explanation": "## Advanced explanation\n\n**Red bone marrow** carries out **haemopoiesis**, forming erythrocytes, leucocytes and platelets. **Astrocytes** are neuroglia derived from neuroectoderm in the brain and spinal cord.\n\n## Simplified explanation\n\nBone marrow makes blood cells; astrocytes are brain cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bone Marrow",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "If the activity of osteoclasts exceeds the activity of osteoblasts in a bone, how is the mass of the bone affected?",
+  "media": [],
+  "answer": "Bone **resorption exceeds bone formation**, so the bone **loses mass**: it becomes thinner, less dense, weaker and more likely to fracture (as in **osteoporosis**).\n\n> [!answer]\n> Bone mass decreases (net resorption), giving weak, porous bone.",
+  "explanation": "## Advanced explanation\n\nBone is remodelled throughout life. **Osteoclasts** dissolve mineral and digest matrix (resorption); **osteoblasts** lay down new osteoid that mineralises. When the two are balanced, mass is constant. If osteoclast activity dominates, e.g. after menopause (oestrogen loss), with immobilisation, excess PTH or glucocorticoids, there is net loss of bone, reduced bone mineral density and **osteoporosis** or osteopenia.\n\n## Simplified explanation\n\nOsteoclasts remove bone and osteoblasts build it. If removal is faster than building, the bone gets lighter and weaker.",
+  "hint": "Compare removal and building.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Bone Remodelling",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are the factors that affect bone growth?",
+  "media": [],
+  "answer": "| Factor | Effect on bone growth |\n|---|---|\n| **Genetics/heredity** | sets potential height and bone size |\n| **Nutrition: calcium, phosphate** | raw materials for mineralisation |\n| **Vitamin D** | increases intestinal absorption of Ca²⁺; deficiency gives rickets/osteomalacia |\n| **Vitamin C** | needed for collagen synthesis; deficiency (scurvy) weakens bone |\n| **Vitamin A** | controls osteoblast/osteoclast activity |\n| **Vitamin K, B12, protein** | matrix proteins and cell division |\n| **Growth hormone / IGF-1** | stimulates epiphyseal (growth) plate cartilage; excess gives gigantism, deficiency dwarfism |\n| **Thyroid hormones** | stimulate osteoblasts and growth-plate activity |\n| **Sex hormones (oestrogen, testosterone)** | growth spurt at puberty, then closure of epiphyseal plates |\n| **Insulin** | promotes growth via protein synthesis |\n| **PTH and calcitonin** | regulate blood Ca²⁺ by resorption/deposition |\n| **Physical exercise / mechanical stress** | weight-bearing increases bone density |\n\n> [!answer]\n> Heredity, nutrition (calcium, phosphate, vitamins D, C, A, K, protein), hormones (growth hormone, thyroid hormones, sex hormones, insulin, PTH, calcitonin) and exercise/mechanical stress.",
+  "explanation": "## Advanced explanation\n\nLongitudinal growth occurs at the **epiphyseal plate** by endochondral ossification; width grows by appositional growth under the periosteum. Both depend on an adequate supply of minerals and vitamins and on hormones: GH (via IGF-1) drives chondrocyte proliferation, thyroid hormone permits GH action, sex steroids cause the pubertal spurt then fuse the plates. Weight-bearing loads stimulate osteoblasts (Wolff's law).\n\n## Simplified explanation\n\nBones grow well with good genes, good food (calcium, vitamin D), the right hormones and exercise.",
+  "hint": "Genes, food, hormones, exercise.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Bone Growth",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **four (4)** functions of the skeleton.",
+  "media": [],
+  "answer": "1. **Support**: framework that holds up the body and anchors soft organs.\n2. **Protection** of internal organs (skull–brain, ribs–heart and lungs, vertebrae–spinal cord).\n3. **Movement**: bones act as levers for skeletal muscles attached by tendons.\n4. **Mineral storage**: reservoir of calcium and phosphate.\n5. **Blood cell formation (haemopoiesis)** in red marrow.\n6. **Energy (fat) storage** in yellow marrow.\n\n> [!answer]\n> Any four of: support, protection, movement, mineral storage, haemopoiesis, fat storage.",
+  "explanation": "## Advanced explanation\n\nThe skeleton is both a mechanical and a metabolic organ: its rigid matrix supports and protects, while the marrow and mineral stores take part in blood formation and calcium homeostasis.\n\n## Simplified explanation\n\nThe skeleton holds you up, protects organs, helps you move, stores calcium and makes blood cells.",
+  "hint": "Think mechanical and metabolic roles.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Skeleton",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three (3)** types of connective tissue fibres.",
+  "media": [],
+  "answer": "1. **Collagen fibres**: thick, strong, inelastic; resist pulling (tendons, ligaments).\n2. **Elastic fibres**: thin, branching, made of elastin; stretch and recoil (arteries, lungs, skin).\n3. **Reticular fibres**: fine, branching type III collagen forming supporting nets (lymph nodes, spleen, liver, bone marrow).\n\n> [!answer]\n> Collagen, elastic and reticular fibres.",
+  "explanation": "## Advanced explanation\n\nFibres are made by **fibroblasts** and embedded in ground substance. Collagen (mainly type I) gives tensile strength; elastin (with fibrillin) gives recoil; reticular fibres (type III collagen) stain with silver (argyrophilic) and form the stroma of soft organs.\n\n## Simplified explanation\n\nConnective tissue has three fibre types: strong collagen, stretchy elastic and fine reticular.",
+  "hint": "Strong, stretchy, net-like.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Connective Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between **dense regular** and **dense irregular** connective tissue.",
+  "media": [],
+  "answer": "| | Dense regular | Dense irregular |\n|---|---|---|\n| Fibre arrangement | Collagen fibres packed **parallel** in one direction | Collagen fibres in **interwoven bundles** running in many directions |\n| Resists tension | In **one** direction | In **many** directions |\n| Fibroblasts | In rows between bundles | Scattered |\n| Examples | **Tendons, ligaments**, aponeuroses | **Dermis** of skin, capsules of organs and joints, periosteum |\n\n> [!answer]\n> Dense regular: parallel collagen fibres, strong in one direction (tendons, ligaments). Dense irregular: interwoven fibres, strong in all directions (dermis, organ capsules).",
+  "explanation": "## Advanced explanation\n\nBoth are dominated by collagen with few cells and little ground substance; their difference is fibre **orientation**, which matches the direction of mechanical stress the tissue faces.\n\n## Simplified explanation\n\nRegular = fibres in neat parallel lines (tendons). Irregular = fibres criss-crossing (skin dermis).",
+  "hint": "Look at the direction of the fibres.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Connective Tissue",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **five (5)** factors that affect tissue fixation and indicate how they influence fixation.",
+  "media": [],
+  "answer": "| Factor | Influence |\n|---|---|\n| **pH (buffering)** | Fixation is best near neutral (pH 6–8); acid formalin forms brown formalin pigment, so formalin is buffered. |\n| **Temperature** | Higher temperature speeds penetration and fixation but also autolysis and distortion; routine fixation at room temperature, electron microscopy at 4 °C. |\n| **Size/thickness of specimen** | Fixatives penetrate slowly (formalin ≈ 1 mm/h), so specimens should be thin (≤ 4–5 mm) or the centre autolyses. |\n| **Volume ratio of fixative to tissue** | Should be about 15–20:1 so the fixative is not exhausted. |\n| **Duration (time) of fixation** | Too short gives poor fixation; too long causes over-hardening, shrinkage and loss of antigenicity. |\n| **Concentration of fixative** | Too strong causes shrinkage/hardening; too weak gives incomplete fixation. |\n| **Osmolality** | Hypertonic solutions shrink cells; hypotonic solutions swell them. |\n| **Penetration rate** | Depends on the fixative; slow penetrants need thin slices. |\n| **Time before fixation (delay)** | Delay allows autolysis and drying; tissue should be fixed immediately. |\n\n> [!answer]\n> Any five, with effect: pH, temperature, specimen size/thickness, fixative-to-tissue volume ratio, duration, concentration, osmolality, penetration rate, delay before fixation.",
+  "explanation": "## Advanced explanation\n\nFixation is a chemical reaction (e.g. formaldehyde forming methylene cross-links between proteins), so its rate and quality depend on reagent concentration, contact (volume, penetration, size), temperature, time and the chemical environment (pH, osmolality). Poor control leads to autolysis in the core, pigment artefacts, shrinkage or loss of antigens for immunohistochemistry.\n\n## Simplified explanation\n\nGood fixation needs the right pH, temperature, a thin specimen, plenty of fixative, the right time and strength, and no delay.",
+  "hint": "Think of anything that changes how fast or how well the fixative works.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Fixation",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Define a **joint**.",
+  "media": [],
+  "answer": "A **joint (articulation)** is the site where **two or more bones** (or bone and cartilage) **meet**, held together by connective tissue, allowing varying degrees of movement or none.\n\n> [!answer]\n> A point of contact between two or more bones.",
+  "explanation": "## Advanced explanation\n\nJoints are classified structurally (fibrous, cartilaginous, synovial) and functionally (synarthrosis, amphiarthrosis, diarthrosis).\n\n## Simplified explanation\n\nA joint is where bones meet.",
+  "hint": "Where bones meet.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Joints",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name the **three (3)** functional classifications of joints.",
+  "media": [],
+  "answer": "1. **Synarthroses**: immovable (e.g. skull sutures, gomphosis of tooth).\n2. **Amphiarthroses**: slightly movable (e.g. pubic symphysis, intervertebral discs, distal tibiofibular joint).\n3. **Diarthroses**: freely movable (all synovial joints, e.g. knee, shoulder).\n\n> [!answer]\n> Synarthrosis, amphiarthrosis and diarthrosis.",
+  "explanation": "## Advanced explanation\n\nThe functional classification is based on the **degree of movement** allowed; it partly overlaps the structural classification (fibrous joints are mostly synarthroses, cartilaginous mostly amphiarthroses, synovial joints are diarthroses).\n\n## Simplified explanation\n\nJoints that don't move, move a little, or move freely.",
+  "hint": "Classified by how much they move.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Joints",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **six (6)** basic characteristics of a synovial joint.",
+  "media": [],
+  "answer": "1. **Articular cartilage** (hyaline) covers the bone ends.\n2. **Joint (synovial) cavity**: a space between the bones.\n3. **Articular (joint) capsule**: outer fibrous layer, inner synovial membrane.\n4. **Synovial membrane** that secretes synovial fluid.\n5. **Synovial fluid**: lubricates, nourishes cartilage, absorbs shock.\n6. **Reinforcing ligaments** (capsular, extracapsular, intracapsular).\n7. Often **bursae, tendon sheaths, articular discs/menisci, fat pads**.\n8. **Nerves and blood vessels** supplying the capsule.\n9. **Freely movable (diarthrosis)**.\n\n> [!answer]\n> Any six: articular cartilage, joint cavity, articular capsule, synovial membrane, synovial fluid, reinforcing ligaments (plus bursae, menisci, nerves and vessels; freely movable).",
+  "explanation": "## Advanced explanation\n\nThe synovial joint is the most common joint type in the limbs. Its cavity and lubricating fluid minimise friction; its cartilage spreads load; its capsule and ligaments give stability; its rich sensory innervation provides proprioception.\n\n## Simplified explanation\n\nA synovial joint has smooth cartilage on the bone ends, a fluid-filled space, a capsule with a lining that makes the fluid, and ligaments.",
+  "hint": "Picture the knee joint.",
+  "difficulty": "medium",
+  "marks": 12,
+  "tags": [
+   "Joints",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Define the following terms of direction:\n\n1. Anterior (ventral)\n2. Lateral\n3. Proximal\n4. Superior",
+  "media": [],
+  "answer": "| Term | Meaning (in the anatomical position) | Example |\n|---|---|---|\n| **Anterior (ventral)** | Towards the **front** of the body | The sternum is anterior to the heart. |\n| **Lateral** | **Away from the midline** of the body | The ears are lateral to the eyes. |\n| **Proximal** | **Closer to the point of attachment** of a limb to the trunk (or to the origin of a structure) | The elbow is proximal to the wrist. |\n| **Superior** | **Towards the head** / upper part of the body (cranial) | The head is superior to the neck. |\n\n> [!answer]\n> Anterior: towards the front. Lateral: away from the midline. Proximal: nearer the limb's attachment to the trunk. Superior: towards the head.",
+  "explanation": "## Advanced explanation\n\nDirectional terms are always used with the body in the **anatomical position**, so that descriptions do not change when the patient moves. Their opposites are posterior (dorsal), medial, distal and inferior (caudal).\n\n## Simplified explanation\n\nAnterior = front, lateral = to the side, proximal = near the trunk, superior = above (towards the head).",
+  "hint": "Each term has an opposite: posterior, medial, distal, inferior.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Anatomical Terminology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** serous membranes and their locations in the body.",
+  "media": [],
+  "answer": "| Serous membrane | Location |\n|---|---|\n| **Pleura** (visceral and parietal) | Covers the lungs and lines the thoracic wall (pleural cavities) |\n| **Pericardium** (serous: visceral and parietal) | Surrounds the heart (pericardial cavity) |\n| **Peritoneum** (visceral and parietal) | Lines the abdominopelvic cavity and covers abdominal organs |\n\n> [!answer]\n> Pleura (lungs/thoracic cavity), pericardium (heart), peritoneum (abdominopelvic cavity and its organs).",
+  "explanation": "## Advanced explanation\n\nEach serous membrane is a double layer of simple squamous **mesothelium** on loose connective tissue: a **parietal** layer lining the cavity wall and a **visceral** layer on the organ, separated by a thin film of serous fluid that reduces friction. (The tunica vaginalis of the testis is another serous sac.)\n\n## Simplified explanation\n\nPleura around the lungs, pericardium around the heart, peritoneum in the abdomen.",
+  "hint": "Lungs, heart, abdomen.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Body Membranes",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** structures that are located within the mediastinum.",
+  "media": [],
+  "answer": "Any three of: **heart** (in the pericardium), **trachea**, **oesophagus**, **thymus**, great vessels (**aorta**, superior and inferior **venae cavae**, pulmonary trunk), **thoracic duct**, **vagus and phrenic nerves**, lymph nodes.\n\n> [!answer]\n> e.g. heart, trachea, oesophagus (also thymus, aorta, thoracic duct).",
+  "explanation": "## Advanced explanation\n\nThe mediastinum lies between the two pleural sacs, from the thoracic inlet to the diaphragm and from the sternum to the vertebrae. It is divided into superior and inferior parts; the inferior part into anterior, middle (heart) and posterior (oesophagus, descending aorta, thoracic duct) mediastinum.\n\n## Simplified explanation\n\nThe mediastinum is the middle of the chest: heart, windpipe, gullet, thymus and large vessels.",
+  "hint": "Everything in the chest that is not lung.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Body Cavities",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** connective tissue fibres and give one example each of organs in which they occur.",
+  "media": [],
+  "answer": "| Fibre | Example of where found |\n|---|---|\n| **Collagen fibres** | Tendons, ligaments, dermis of skin, bone |\n| **Elastic fibres** | Walls of large arteries (aorta), lungs, elastic cartilage of the ear, vocal cords |\n| **Reticular fibres** | Lymph nodes, spleen, liver, bone marrow (stroma) |\n\n> [!answer]\n> Collagen (tendon), elastic (aorta/lungs), reticular (lymph node/spleen).",
+  "explanation": "## Advanced explanation\n\nCollagen (type I) gives tensile strength; elastin with fibrillin microfibrils allows stretch and recoil; reticular fibres (type III collagen) form fine supporting meshworks in soft and lymphoid organs.\n\n## Simplified explanation\n\nStrong collagen in tendons, stretchy elastic in arteries and lungs, fine reticular nets in lymph nodes and spleen.",
+  "hint": "Match each fibre to its job.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Connective Tissue",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name the type of epithelium associated with the following:\n\n1. lining of the trachea\n2. skin",
+  "media": [],
+  "answer": "1. Trachea: **pseudostratified ciliated columnar epithelium** with goblet cells (respiratory epithelium).\n2. Skin: **stratified squamous keratinised epithelium** (epidermis).\n\n> [!answer]\n> Trachea: pseudostratified ciliated columnar. Skin: keratinised stratified squamous.",
+  "explanation": "## Advanced explanation\n\nIn the trachea, goblet cells secrete mucus and cilia sweep it upward (the mucociliary escalator). The epidermis is many layers thick, with a surface layer of dead keratin-filled cells resisting abrasion and water loss.\n\n## Simplified explanation\n\nWindpipe: tall cells with cilia that look layered. Skin: many layers of flat cells with keratin on top.",
+  "hint": "Think of function: moving mucus vs. resisting wear.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The abdomen is divided by two vertical (midclavicular) lines and two horizontal planes (subcostal and transtubercular) into nine sections. Assign appropriate names to the nine abdominal regions, row by row from the patient's right to left.",
+  "media": [],
+  "answer": "| | Patient's right | Middle | Patient's left |\n|---|---|---|---|\n| **Upper row** | Right hypochondriac | **Epigastric** | Left hypochondriac |\n| **Middle row** | Right lumbar (lateral) | **Umbilical** | Left lumbar (lateral) |\n| **Lower row** | Right inguinal (iliac) | **Hypogastric (pubic)** | Left inguinal (iliac) |\n\n> [!answer]\n> Right hypochondriac, epigastric, left hypochondriac; right lumbar, umbilical, left lumbar; right inguinal (iliac), hypogastric (pubic), left inguinal (iliac).",
+  "explanation": "## Advanced explanation\n\nThe nine-region scheme is used to localise pain and organs: e.g. liver mainly in the right hypochondrium and epigastrium, appendix in the right iliac fossa, bladder in the hypogastrium. A simpler scheme uses four quadrants divided at the umbilicus.\n\n## Simplified explanation\n\nTop row: below the ribs on each side with epigastric in the middle. Middle row: lumbar on each side, umbilical in the centre. Bottom row: inguinal on each side, hypogastric in the centre.",
+  "hint": "Hypo-chondriac = below the rib cartilage.",
+  "difficulty": "medium",
+  "marks": 9,
+  "tags": [
+   "Body Regions",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name the **two** limb girdles of the appendicular skeleton.",
+  "media": [],
+  "answer": "1. **Pectoral (shoulder) girdle**: clavicle and scapula; attaches the upper limb.\n2. **Pelvic girdle**: the two hip (coxal) bones; attaches the lower limb.\n\n> [!answer]\n> Pectoral (shoulder) girdle and pelvic (hip) girdle.",
+  "explanation": "## Advanced explanation\n\nThe appendicular skeleton (126 bones) is the limbs plus the girdles that attach them to the axial skeleton. The pectoral girdle is light and mobile; the pelvic girdle is strong and stable for weight bearing.\n\n## Simplified explanation\n\nShoulder girdle and hip girdle.",
+  "hint": "Shoulder and hip.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Skeleton",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain the following anatomical planes:\n\n1. Sagittal plane\n2. Coronal plane\n3. Transverse plane",
+  "media": [],
+  "answer": "1. **Sagittal plane**: a vertical plane dividing the body into **right and left** parts (the **midsagittal/median** plane divides it into equal halves; parasagittal planes into unequal parts).\n2. **Coronal (frontal) plane**: a vertical plane dividing the body into **anterior (front) and posterior (back)** parts.\n3. **Transverse (horizontal/axial) plane**: a horizontal plane dividing the body into **superior (upper) and inferior (lower)** parts.\n\n> [!answer]\n> Sagittal: right/left. Coronal: front/back. Transverse: upper/lower.",
+  "explanation": "## Advanced explanation\n\nPlanes are imaginary flat surfaces used to describe sections, imaging slices (CT axial images are transverse) and movements (flexion/extension occur in the sagittal plane, abduction/adduction in the coronal plane, rotation in the transverse plane).\n\n## Simplified explanation\n\nSagittal cuts left from right, coronal cuts front from back, transverse cuts top from bottom.",
+  "hint": "Sagittal = like an arrow going front to back.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Anatomical Planes",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe precisely the **anatomical position**.",
+  "media": [],
+  "answer": "The body is:\n\n- **standing erect (upright)**,\n- **head and eyes facing forward** (gaze directed to the horizon),\n- **upper limbs at the sides** of the body,\n- **palms facing forward (anteriorly)** with thumbs pointing laterally, fingers extended,\n- **lower limbs together**, **feet flat on the ground** and directed forward.\n\n> [!answer]\n> Standing upright, facing forward, arms by the sides with palms facing forward, feet together and pointing forward.",
+  "explanation": "## Advanced explanation\n\nThe anatomical position is the universal reference for all directional terms and planes, so a structure is described the same way whether the patient is lying, sitting or standing. Supine (face up) and prone (face down) describe lying positions.\n\n## Simplified explanation\n\nStand straight, look ahead, arms down by your sides with palms forward, feet together.",
+  "hint": "Palms face forward.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Anatomical Terminology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three (3)** characteristics of epithelium.",
+  "media": [],
+  "answer": "Any three of:\n\n1. **Cellularity**: cells are closely packed with little extracellular matrix.\n2. **Specialised cell junctions** (tight junctions, desmosomes) hold cells together.\n3. **Polarity**: an apical (free) surface and a basal surface.\n4. **Rests on a basement membrane** (supported by connective tissue).\n5. **Avascular** but **innervated**: nourished by diffusion from underlying connective tissue.\n6. **High regenerative capacity** (rapid mitosis).\n\n> [!answer]\n> e.g. closely packed cells, polarity with a free surface, rests on a basement membrane, avascular, regenerates rapidly.",
+  "explanation": "## Advanced explanation\n\nThese features suit epithelium for its role as a boundary tissue: tight sheets control what passes across, polarity allows directional transport and secretion, and rapid renewal replaces cells lost to abrasion.\n\n## Simplified explanation\n\nEpithelial cells are packed tightly, have a top and bottom side, sit on a basement membrane, have no blood vessels, and renew fast.",
+  "hint": "Think of a sheet that covers surfaces.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three (3)** functions of epithelium.",
+  "media": [],
+  "answer": "Any three of: **protection**, **absorption**, **filtration**, **excretion**, **secretion** (glands), **sensory reception**, diffusion/exchange, movement of mucus by cilia.\n\n> [!answer]\n> e.g. protection, absorption, secretion (also filtration, excretion, sensory reception).",
+  "explanation": "## Advanced explanation\n\nFunction follows form: stratified squamous protects (skin), simple columnar absorbs and secretes (gut), simple squamous allows filtration and diffusion (glomerulus, alveoli), ciliated epithelium moves mucus (airways), specialised epithelia contain sensory receptors (taste buds, olfactory epithelium).\n\n## Simplified explanation\n\nEpithelium protects, absorbs, secretes, filters and excretes.",
+  "hint": "Think of skin, gut lining and kidney.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Which epithelium lines the trachea?",
+  "media": [],
+  "answer": "**Pseudostratified ciliated columnar epithelium** with goblet cells (respiratory epithelium).\n\n> [!answer]\n> Pseudostratified ciliated columnar epithelium.",
+  "explanation": "## Advanced explanation\n\nAll cells touch the basement membrane but nuclei lie at different heights, so it looks stratified (pseudo-stratified). Goblet cells secrete mucus that traps particles; cilia beat it towards the pharynx.\n\n## Simplified explanation\n\nTall cells with cilia that only look layered.",
+  "hint": "It has cilia and goblet cells.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name any **two (2)** structures that are lined by transitional epithelium.",
+  "media": [],
+  "answer": "Any two of: **urinary bladder**, **ureters**, **renal pelvis/calyces**, **proximal urethra**.\n\n> [!answer]\n> Urinary bladder and ureter.",
+  "explanation": "## Advanced explanation\n\nTransitional epithelium (urothelium) is found only in the urinary tract, where its surface umbrella cells flatten on stretching and form an impermeable barrier to urine.\n\n## Simplified explanation\n\nThe bladder and the ureters.",
+  "hint": "Urinary tract.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three (3)** functions of connective tissue.",
+  "media": [],
+  "answer": "Any three of: **binding and support** of structures, **protection** (bone, cartilage, fat cushions), **insulation** (adipose tissue), **energy (fat) storage**, **transport** (blood), **defence/immunity** (macrophages, plasma cells, leucocytes), repair (fibroblasts forming scar tissue).\n\n> [!answer]\n> e.g. binding/support, protection, transport (blood), fat storage/insulation, defence.",
+  "explanation": "## Advanced explanation\n\nConnective tissue is the most abundant and diverse tissue, ranging from loose areolar tissue and adipose tissue to dense tissues, cartilage, bone and blood. Its properties come from its extracellular matrix (fibres + ground substance).\n\n## Simplified explanation\n\nConnective tissue holds things together, supports, protects, stores fat and carries materials (blood).",
+  "hint": "Bone, fat and blood are all connective tissues.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Connective Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the parts of the tissue labelled **A, B, C, D** and **E**.",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls203/pseudostratified-epithelium.webp",
+    "caption": "Block diagram of pseudostratified columnar epithelium with labels A to F: A on a cell filled with granules, B on a tall cell, C on hair-like projections at the surface, D at the base of the epithelium, E on a nucleus, F on the tissue below."
+   }
+  ],
+  "answer": "| Label | Part |\n|---|---|\n| **A** | **Goblet cell** (with mucus granules) |\n| **B** | **Ciliated columnar cell** |\n| **C** | **Cilia** |\n| **D** | **Basement membrane** |\n| **E** | **Nucleus** (of a cell in the basal row) |\n\n> [!answer]\n> A goblet cell, B ciliated columnar cell, C cilia, D basement membrane, E nucleus. (F, not asked, is the underlying connective tissue.)",
+  "explanation": "## Advanced explanation\n\nIn pseudostratified columnar epithelium every cell rests on the **basement membrane**, but only the tall columnar cells reach the surface, so nuclei appear at several levels. **Goblet cells** are unicellular glands filled with mucinogen granules. The **cilia** on the columnar cells beat in co-ordinated waves to move mucus.\n\n## Simplified explanation\n\nA = mucus-making goblet cell, B = tall ciliated cell, C = the hair-like cilia, D = the basement membrane it sits on, E = a cell nucleus.",
+  "hint": "Look for mucus granules, hair-like projections and the base layer.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Epithelial Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the parts labelled **A, B** and **C** in this diagram of **hyaline cartilage**.",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls203/hyaline-cartilage.webp",
+    "caption": "Hyaline cartilage: rounded cells within clear spaces scattered in a smooth matrix; label A on a cell, B on the edge of the space around a cell, C on the matrix."
+   }
+  ],
+  "answer": "| Label | Part |\n|---|---|\n| **A** | **Chondrocyte** (cartilage cell) |\n| **B** | **Lacuna** (space housing the chondrocyte) |\n| **C** | **Matrix** (ground substance with fine collagen fibres) |\n\n> [!answer]\n> A chondrocyte, B lacuna, C matrix.",
+  "explanation": "## Advanced explanation\n\nHyaline cartilage has a glassy, homogeneous matrix of type II collagen and proteoglycans (chondroitin sulphate) secreted by **chondrocytes**, which sit in **lacunae**, often in **isogenous groups** (pairs/clusters from one parent cell). It is avascular and covered by perichondrium (except at articular surfaces).\n\n## Simplified explanation\n\nA = the cartilage cell, B = the little space it lives in, C = the smooth background matrix.",
+  "hint": "Cell, space, background.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Cartilage",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the parts labelled **A** and **B** in this diagram of **areolar connective tissue**.",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls203/areolar-connective-tissue.webp",
+    "caption": "Areolar connective tissue: thick wavy bands and thin dark threads crossing a loose matrix with scattered cells; line A ends on a thick band, line B ends on a thin thread."
+   }
+  ],
+  "answer": "| Label | Part |\n|---|---|\n| **A** | **Collagen fibre** (thick, wavy band) |\n| **B** | **Elastic fibre** (thin, dark, branching) |\n\n> [!answer]\n> A collagen fibre, B elastic fibre.",
+  "explanation": "## Advanced explanation\n\nAreolar (loose) connective tissue has all three fibre types loosely arranged in abundant ground substance: thick **collagen fibres**, thin branching **elastic fibres** and fine reticular fibres, with scattered **fibroblasts**, macrophages and mast cells. It underlies epithelia (lamina propria) and packages organs.\n\n## Simplified explanation\n\nThe thick bands are collagen fibres; the thin dark threads are elastic fibres.",
+  "hint": "Thick vs thin fibres.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Connective Tissue",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Study the bone shown.\n\n1. Identify the parts labelled **A, B, C, E** and **H**.\n2. What is the clinical significance of **C**?\n3. What type of joint does **A** make with the scapula?\n4. What is the name of this bone?",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls203/humerus.webp",
+    "caption": "Anterior view of a humerus with labels: A on the rounded head, B just below the head, C at the narrowing below the tubercles, D on the upper shaft, E on a roughened area on the lateral mid-shaft, F on the lower medial border, G above the lower end, H on the medial projection at the lower end, I on the lateral projection, J on the articular surface at the lower end."
+   }
+  ],
+  "answer": "1. | Label | Part |\n   |---|---|\n   | **A** | Head of humerus |\n   | **B** | Anatomical neck |\n   | **C** | Surgical neck |\n   | **E** | Deltoid tuberosity |\n   | **H** | Medial epicondyle |\n2. The **surgical neck** is the **commonest site of fracture** of the proximal humerus (e.g. falls on an outstretched hand in the elderly); the **axillary nerve** and **posterior circumflex humeral artery** wind round it and can be injured, causing deltoid paralysis and loss of sensation over the lateral shoulder ('regimental badge' area).\n3. A **synovial ball-and-socket joint** (the glenohumeral/shoulder joint) with the glenoid cavity.\n4. **Humerus**.\n\n> [!answer]\n> A head, B anatomical neck, C surgical neck, E deltoid tuberosity, H medial epicondyle; C is a common fracture site endangering the axillary nerve; ball-and-socket (synovial) joint; humerus.",
+  "explanation": "## Advanced explanation\n\nThe anatomical neck is the slight constriction just beyond the articular head (attachment of the capsule); the surgical neck is the narrowing below the tubercles where the shaft begins. The deltoid tuberosity on the lateral mid-shaft receives the deltoid. Distally, the medial epicondyle is prominent and the ulnar nerve passes behind it.\n\n## Simplified explanation\n\nThis is the upper arm bone (humerus). Its round head fits into the shoulder blade in a ball-and-socket joint. The narrow 'surgical neck' breaks easily and the nerve to the deltoid runs there.",
+  "hint": "Long bone of the upper arm.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Upper Limb Bones",
+   "Quiz 1 (MLS 203B)",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A figure shows a woman standing in the anatomical position, viewed from the side (facing right). Six directional labels are placed around her: **a** above the head, **b** below the feet, **c** at the tip of a horizontal arrow pointing towards her back, **d** at the tip of the same arrow pointing towards her front, **e** at the head end of a vertical arrow running down the trunk and **f** at its lower tip.\n\nLabel the directional terms **(a)** to **(e)**.",
+  "media": [],
+  "answer": "| Label | Directional term |\n|---|---|\n| **a** | **Superior** (above, towards the head) |\n| **b** | **Inferior** (below, towards the feet) |\n| **c** | **Posterior** (dorsal, towards the back) |\n| **d** | **Anterior** (ventral, towards the front) |\n| **e** | **Cranial** (cephalic, towards the head end of the trunk) |\n\n(f, not asked, is **caudal**: towards the tail end of the trunk.)\n\n> [!answer]\n> a superior, b inferior, c posterior (dorsal), d anterior (ventral), e cranial (cephalic).",
+  "explanation": "## Advanced explanation\n\nIn humans superior/inferior and cranial/caudal describe the same vertical axis; cranial/caudal are used mainly along the trunk (and are preferred in four-legged animals). Anterior = ventral and posterior = dorsal only in the upright human.\n\n## Simplified explanation\n\nUp is superior, down is inferior, front is anterior, back is posterior; along the trunk, towards the head is cranial and towards the tail is caudal.",
+  "hint": "Pair each term with its opposite.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Anatomical Terminology",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Study the bones of the hand and wrist shown.\n\n1. Identify the parts labelled **A, B, D, F, H, O, P** and **R**.\n2. In which finger can bones **N** and **Q** be found?",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls203/hand-bones.webp",
+    "caption": "Skeleton of the wrist and hand with the thumb on the left. A and B label the two forearm bones (A on the thumb side); C to K label the carpal bones (D on the large bone and F on a small knob at the little-finger side of the proximal row, H in the distal row on that side); metacarpals are numbered I to V; M marks metacarpal II; N and Q are the two bones of the thumb; O, P and R are the three phalanges of the little finger from base to tip."
+   }
+  ],
+  "answer": "1. | Label | Bone |\n   |---|---|\n   | **A** | Radius |\n   | **B** | Ulna |\n   | **D** | Triquetrum |\n   | **F** | Pisiform |\n   | **H** | Hamate |\n   | **O** | Proximal phalanx (of the little finger) |\n   | **P** | Middle phalanx |\n   | **R** | Distal phalanx |\n2. **N** (proximal phalanx) and **Q** (distal phalanx) are in the **thumb (pollex, digit I)**, which has only two phalanges.\n\n> [!answer]\n> A radius, B ulna, D triquetrum, F pisiform, H hamate, O proximal phalanx, P middle phalanx, R distal phalanx; N and Q are in the thumb.",
+  "explanation": "## Advanced explanation\n\nThe **radius** is on the thumb (lateral) side and the **ulna** on the little-finger (medial) side. The carpals: proximal row (lateral → medial) **scaphoid, lunate, triquetrum, pisiform**; distal row **trapezium, trapezoid, capitate, hamate** (mnemonic: 'Some Lovers Try Positions That They Can't Handle'). The small **pisiform** is a sesamoid bone sitting on the triquetrum on the medial side. Each finger has three phalanges (proximal, middle, distal) except the thumb, which has two.\n\n## Simplified explanation\n\nForearm bones: radius (thumb side) and ulna. The little bones on the little-finger side of the wrist are triquetrum, pisiform and hamate. Each finger has three phalanges; the thumb has only two.",
+  "hint": "Thumb side = radius.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Upper Limb Bones",
+   "2019/20 Practical Exam"
+  ]
+ }
+]

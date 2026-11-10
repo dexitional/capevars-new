@@ -1,0 +1,2398 @@
+[
+ {
+  "type": "choice",
+  "body": "Which one of the following is NOT a function of the kidneys?",
+  "options": [
+   {
+    "text": "Production of plasma proteins",
+    "hint": "Correct. Plasma proteins are made mainly by the liver."
+   },
+   {
+    "text": "Excretion of nitrogenous wastes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Helping to maintain blood sugar levels",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Water and electrolyte balance",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Albumin source.",
+  "explanation": "## Advanced explanation\n\nKidney functions: excretion of wastes (urea, creatinine, uric acid), water/electrolyte and acid–base balance, BP regulation (renin), erythropoietin, activation of vitamin D (calcitriol), and gluconeogenesis in fasting.\n\n## Simplified explanation\n\nThe liver, not the kidney, makes plasma proteins.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following substances is NOT a metabolic waste?",
+  "options": [
+   {
+    "text": "Renin",
+    "hint": "Correct. Renin is an enzyme/hormone from juxtaglomerular cells."
+   },
+   {
+    "text": "Uric acid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Urea",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Creatinine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Juxtaglomerular cells.",
+  "explanation": "## Advanced explanation\n\nUrea (protein catabolism), uric acid (purines) and creatinine (muscle creatine) are nitrogenous wastes. Renin converts angiotensinogen to angiotensin I.\n\n## Simplified explanation\n\nRenin is a hormone-like enzyme, not a waste.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The glomerular filtration membrane is composed of all the following EXCEPT…",
+  "options": [
+   {
+    "text": "layer of podocytes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "basement membrane",
+    "hint": "Not this one."
+   },
+   {
+    "text": "macula densa",
+    "hint": "Correct. The macula densa is part of the juxtaglomerular apparatus in the distal tubule."
+   },
+   {
+    "text": "glomerular endothelium",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Three layers of the filter.",
+  "explanation": "## Advanced explanation\n\nFiltration barrier: fenestrated capillary endothelium → glomerular basement membrane (negatively charged) → podocyte foot processes with filtration slits.\n\n## Simplified explanation\n\nThe macula densa senses NaCl in the tubule; it isn't part of the filter.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following substances is NOT usually found in the glomerular filtrate?",
+  "options": [
+   {
+    "text": "Amino acids",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Proteins",
+    "hint": "Correct. Plasma proteins (albumin) are largely excluded by size and negative charge."
+   },
+   {
+    "text": "Glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Unbound salts",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Size and charge barrier.",
+  "explanation": "## Advanced explanation\n\nFiltrate resembles plasma without proteins: small solutes (glucose, amino acids, electrolytes, urea) filter freely. Proteinuria indicates barrier damage.\n\n## Simplified explanation\n\nProteins are too big to pass the filter.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following factors affect the filterability of a substance?\n\nI. Electrical polarity (charge)\nII. Lipid solubility\nIII. Molecular size",
+  "options": [
+   {
+    "text": "I only",
+    "hint": "Not this one."
+   },
+   {
+    "text": "I and II",
+    "hint": "Not this one."
+   },
+   {
+    "text": "I and III",
+    "hint": "Correct. Size and charge determine glomerular filterability."
+   },
+   {
+    "text": "I, II, III",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Water-filled pores.",
+  "explanation": "## Advanced explanation\n\nMolecules < ~20 Å (MW < ~7 kDa) filter freely; filterability falls with size, and negatively charged molecules are filtered less (negative charges in the basement membrane). Filtration occurs through water-filled pores, so lipid solubility is not a factor.\n\n## Simplified explanation\n\nSize and charge decide what passes; lipid solubility doesn't.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following situations could increase glomerular filtration rate (GFR)?",
+  "options": [
+   {
+    "text": "Increased plasma protein concentration",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increased glomerular hydrostatic pressure",
+    "hint": "Correct. Higher P_GC increases net filtration pressure."
+   },
+   {
+    "text": "Decreased renal blood flow",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sympathetic activity",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Starling forces.",
+  "explanation": "## Advanced explanation\n\nGFR = K_f × [(P_GC − P_BS) − (π_GC − π_BS)]. Raised plasma protein (π_GC), decreased renal blood flow and sympathetic afferent constriction all lower GFR.\n\n## Simplified explanation\n\nMore pushing pressure in the glomerulus → more filtration.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Reabsorption of water in the collecting ducts is promoted by…",
+  "options": [
+   {
+    "text": "antidiuretic hormone",
+    "hint": "Correct. ADH inserts aquaporin-2 channels."
+   },
+   {
+    "text": "renin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "aldosterone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "angiotensin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Anti-diuresis.",
+  "explanation": "## Advanced explanation\n\nADH (vasopressin) acts on V2 receptors of principal cells → cAMP → AQP2 inserted into the apical membrane, increasing water permeability and concentrating urine.\n\n## Simplified explanation\n\nADH makes the collecting ducts let water back in.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Diabetes insipidus results from…",
+  "options": [
+   {
+    "text": "deficiency of angiotensin converting enzyme",
+    "hint": "Not this one."
+   },
+   {
+    "text": "hypersecretion of aldosterone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "deficiency of insulin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "deficiency of antidiuretic hormone",
+    "hint": "Correct. Central DI = ADH deficiency (nephrogenic = renal resistance)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Insipid = tasteless urine.",
+  "explanation": "## Advanced explanation\n\nWithout ADH the collecting ducts are impermeable to water → large volumes of dilute urine (polyuria), thirst, risk of hypernatraemia.\n\n## Simplified explanation\n\nNo ADH → lots of dilute urine.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following hormones is responsible for increased reabsorption of sodium ions from the kidney tubules?",
+  "options": [
+   {
+    "text": "Aldosterone",
+    "hint": "Correct. Aldosterone increases ENaC and Na⁺/K⁺-ATPase in principal cells."
+   },
+   {
+    "text": "Atrial natriuretic peptide",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Antidiuretic hormone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Norepinephrine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Mineralocorticoid.",
+  "explanation": "## Advanced explanation\n\nAldosterone (mineralocorticoid) acts on the late distal tubule and collecting duct to reabsorb Na⁺ and secrete K⁺ and H⁺. ANP does the opposite (natriuresis).\n\n## Simplified explanation\n\nAldosterone keeps sodium.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following conditions does NOT result in hyponatraemia?",
+  "options": [
+   {
+    "text": "Hypersecretion of ADH",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diarrhoea and vomiting",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diabetes insipidus",
+    "hint": "Correct. DI causes water loss → hypernatraemia."
+   },
+   {
+    "text": "Hyposecretion of aldosterone",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Water loss concentrates sodium.",
+  "explanation": "## Advanced explanation\n\nHyponatraemia: SIADH (water retention), GI losses replaced with water, Addison's disease (Na⁺ loss). Diabetes insipidus loses free water, raising Na⁺.\n\n## Simplified explanation\n\nDiabetes insipidus raises sodium.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If glomerular hydrostatic pressure is 50 mmHg, Bowman's capsular hydrostatic pressure is 10 mmHg and Bowman's capsular oncotic pressure is 0 mmHg, at what value of the glomerular oncotic pressure would glomerular filtration stop?",
+  "options": [
+   {
+    "text": "60 mmHg",
+    "hint": "Not this one."
+   },
+   {
+    "text": "50 mmHg",
+    "hint": "Not this one."
+   },
+   {
+    "text": "40 mmHg",
+    "hint": "Correct. Net pressure = 50 − 10 − π_GC + 0 = 0 → π_GC = 40."
+   },
+   {
+    "text": "10 mmHg",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Set net pressure to zero.",
+  "explanation": "## Advanced explanation\n\nNFP = (P_GC − P_BS) − (π_GC − π_BS). Filtration stops (filtration equilibrium) when NFP = 0: 50 − 10 − π_GC + 0 = 0 → **π_GC = 40 mmHg**.\n\n## Simplified explanation\n\n50 − 10 = 40, so filtration stops when oncotic pressure reaches 40 mmHg.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following would cause an increase in both glomerular filtration rate and renal blood flow?",
+  "options": [
+   {
+    "text": "High glomerular oncotic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Dilation of afferent arteriole",
+    "hint": "Correct. Afferent dilation raises both P_GC and flow."
+   },
+   {
+    "text": "Dilation of efferent arteriole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Constriction of efferent arteriole",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Inflow vessel.",
+  "explanation": "## Advanced explanation\n\nAfferent dilation ↑RBF and ↑P_GC → ↑GFR. Efferent constriction ↑GFR but ↓RBF; efferent dilation ↑RBF but ↓GFR.\n\n## Simplified explanation\n\nOpening the inflow arteriole increases both flow and filtration.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the major cation of extracellular fluid?",
+  "options": [
+   {
+    "text": "K⁺",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Na⁺",
+    "hint": "Correct. ECF Na⁺ ≈ 140 mmol/L."
+   },
+   {
+    "text": "Mg²⁺",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ca²⁺",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Salt.",
+  "explanation": "## Advanced explanation\n\nNa⁺ is the main ECF cation (with Cl⁻ and HCO₃⁻ anions); K⁺ is the main ICF cation.\n\n## Simplified explanation\n\nSodium is the main cation outside cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are effects of diuretics EXCEPT…",
+  "options": [
+   {
+    "text": "decrease excretion of glucose in urine",
+    "hint": "Correct. Diuretics are not used to reduce glucose excretion."
+   },
+   {
+    "text": "decrease blood pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "relieve oedema",
+    "hint": "Not this one."
+   },
+   {
+    "text": "contract extracellular fluid volume",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Na⁺ and water.",
+  "explanation": "## Advanced explanation\n\nDiuretics increase Na⁺ and water excretion, contracting ECF volume, relieving oedema and lowering BP. (Reducing urinary glucose is not an effect; SGLT2-inhibitor diuretics actually increase it.)\n\n## Simplified explanation\n\nDiuretics remove salt and water; they don't reduce sugar in urine.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is NOT a cause of prerenal acute kidney injury (prerenal AKI)?",
+  "options": [
+   {
+    "text": "Heart failure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Acute glomerulonephritis",
+    "hint": "Correct. Glomerulonephritis is intrinsic (intrarenal) AKI."
+   },
+   {
+    "text": "Severe haemorrhage",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Severe diarrhoea or vomiting",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Pre- = before the kidney.",
+  "explanation": "## Advanced explanation\n\nPrerenal AKI = reduced renal perfusion (hypovolaemia, haemorrhage, heart failure, shock). Intrarenal: glomerulonephritis, acute tubular necrosis. Postrenal: obstruction.\n\n## Simplified explanation\n\nGlomerulonephritis damages the kidney itself (intrarenal).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Pathophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not a physiological effect of acute kidney injury (AKI)?",
+  "options": [
+   {
+    "text": "Fluid and electrolyte dysregulation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Extracellular fluid expansion and hypertension",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Metabolic acidosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diuresis",
+    "hint": "Correct. AKI typically causes oliguria/anuria."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Oliguria.",
+  "explanation": "## Advanced explanation\n\nReduced GFR retains water, Na⁺, K⁺, H⁺ and nitrogenous wastes → ECF expansion, hypertension, hyperkalaemia, metabolic acidosis, uraemia.\n\n## Simplified explanation\n\nFailing kidneys make less urine, not more.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Pathophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is the predominant cause of end-stage renal disease (ESRD)?",
+  "options": [
+   {
+    "text": "Diabetes mellitus",
+    "hint": "Correct. Diabetic nephropathy is the leading cause, followed by hypertension."
+   },
+   {
+    "text": "Chronic glomerulonephritis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Polycystic kidney disease",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Atherosclerosis",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Diabetic nephropathy.",
+  "explanation": "## Advanced explanation\n\nLeading causes of ESRD: diabetes mellitus (~45%), hypertension (~27%), glomerulonephritis, polycystic kidney disease.\n\n## Simplified explanation\n\nDiabetes is the commonest cause of kidney failure.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Pathophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are means by which ion channels may be gated EXCEPT…",
+  "options": [
+   {
+    "text": "binding of a ligand",
+    "hint": "Not this one."
+   },
+   {
+    "text": "physical distortions due to mechanical force",
+    "hint": "Not this one."
+   },
+   {
+    "text": "changes in membrane potential difference",
+    "hint": "Not this one."
+   },
+   {
+    "text": "concentration gradient of ions across membranes",
+    "hint": "Correct. The gradient drives ion flow but does not open the gate."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "What opens the gate?",
+  "explanation": "## Advanced explanation\n\nGating: voltage-gated (membrane potential), ligand-gated (chemical binding), mechanically gated (stretch, pressure). The concentration gradient determines direction of flux once open.\n\n## Simplified explanation\n\nGates open by voltage, chemicals or stretch, not by the gradient.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A value between 1 and 0 that indicates the ease of membrane permeability of a solute is known as…",
+  "options": [
+   {
+    "text": "osmolality",
+    "hint": "Not this one."
+   },
+   {
+    "text": "filtration coefficient",
+    "hint": "Not this one."
+   },
+   {
+    "text": "osmotic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "reflection coefficient",
+    "hint": "Correct. σ = 1: impermeant; σ = 0: freely permeant."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Sigma.",
+  "explanation": "## Advanced explanation\n\nEffective osmotic pressure = σ × theoretical osmotic pressure; e.g. albumin σ ≈ 1 across capillaries, urea σ ≈ 0 across cell membranes.\n\n## Simplified explanation\n\nThe reflection coefficient (0–1) shows how easily a solute crosses.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Membrane Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The membrane potential difference set up across a membrane due to the concentration gradient of a permeable ion is known as…",
+  "options": [
+   {
+    "text": "action potential",
+    "hint": "Not this one."
+   },
+   {
+    "text": "diffusion potential",
+    "hint": "Correct. Diffusion potential, at equilibrium = Nernst potential."
+   },
+   {
+    "text": "threshold potential",
+    "hint": "Not this one."
+   },
+   {
+    "text": "nerve impulse",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Nernst.",
+  "explanation": "## Advanced explanation\n\nWhen a permeable ion diffuses down its gradient it carries charge, creating a potential that opposes further diffusion; at equilibrium it equals the Nernst (equilibrium) potential.\n\n## Simplified explanation\n\nIons diffusing create a diffusion potential.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The addition of synaptic potentials from different areas of synaptic inputs, which may be large enough to elicit an action potential, is known as…",
+  "options": [
+   {
+    "text": "short-term potentiation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "spatial summation",
+    "hint": "Correct. Spatial = from different synapses at the same time."
+   },
+   {
+    "text": "synaptic transmission",
+    "hint": "Not this one."
+   },
+   {
+    "text": "temporal summation",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Space vs time.",
+  "explanation": "## Advanced explanation\n\nSpatial summation: simultaneous inputs at different sites add. Temporal summation: repeated inputs from one synapse in quick succession add.\n\n## Simplified explanation\n\nInputs from different places add up: spatial summation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neurophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following hormones is NOT secreted by the anterior pituitary?",
+  "options": [
+   {
+    "text": "Oxytocin",
+    "hint": "Correct. Oxytocin is released from the posterior pituitary."
+   },
+   {
+    "text": "Growth hormone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Luteinising hormone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Corticotropin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Neurohypophysis.",
+  "explanation": "## Advanced explanation\n\nAnterior pituitary: GH, PRL, TSH, ACTH, FSH, LH. Posterior pituitary releases hypothalamic ADH and oxytocin.\n\n## Simplified explanation\n\nOxytocin comes from the posterior pituitary.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What hypothalamic nucleus contains the cell bodies of neurons that release antidiuretic hormone?",
+  "options": [
+   {
+    "text": "Paraventricular nucleus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Anterior nucleus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Supraoptic nucleus",
+    "hint": "Correct. ADH is synthesised mainly in supraoptic neurons."
+   },
+   {
+    "text": "Dorsomedial nucleus",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Above the optic chiasma.",
+  "explanation": "## Advanced explanation\n\nMagnocellular neurons of the supraoptic (mainly ADH) and paraventricular (mainly oxytocin) nuclei project to the posterior pituitary.\n\n## Simplified explanation\n\nADH is mainly made in the supraoptic nucleus.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following conditions could trigger release of the adrenal cortical hormone aldosterone?",
+  "options": [
+   {
+    "text": "Presence of psychological stress",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Release of pituitary adrenocorticotropic hormone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increased angiotensin II levels caused by decreased blood pressure",
+    "hint": "Correct. Low BP → renin → angiotensin II → zona glomerulosa."
+   },
+   {
+    "text": "Increased release of antidiuretic hormone",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "RAAS.",
+  "explanation": "## Advanced explanation\n\nMain stimuli for aldosterone: **angiotensin II** (RAAS activated by low BP/volume) and **raised plasma K⁺**; ACTH has only a minor, permissive role. Stress → cortisol.\n\n## Simplified explanation\n\nLow blood pressure → angiotensin II → aldosterone.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following pancreatic islet cells secretes insulin?",
+  "options": [
+   {
+    "text": "Beta",
+    "hint": "Correct. β-cells secrete insulin."
+   },
+   {
+    "text": "Alpha",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Gamma",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Delta",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "β for insulin.",
+  "explanation": "## Advanced explanation\n\nα: glucagon; β: insulin (and amylin); δ: somatostatin; PP (F/γ) cells: pancreatic polypeptide.\n\n## Simplified explanation\n\nBeta cells make insulin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following effects is NOT produced by thyroid metabolic hormones?",
+  "options": [
+   {
+    "text": "Enhanced cardiovascular and respiratory functions",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increased glucose and fat metabolism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Normal nervous system development",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increased plasma calcium ion levels",
+    "hint": "Correct. Calcium is raised by PTH/calcitriol (calcitonin lowers it)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Parathyroid vs thyroid.",
+  "explanation": "## Advanced explanation\n\nT3/T4 raise BMR, heart rate and contractility (β-receptor upregulation), ventilation, carbohydrate and fat metabolism, and are essential for CNS development (cretinism if deficient).\n\n## Simplified explanation\n\nThyroid hormones don't raise blood calcium; PTH does.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following hormones has cell surface receptors?",
+  "options": [
+   {
+    "text": "Oestrogen",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cortisol",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Insulin",
+    "hint": "Correct. Insulin, a peptide, binds a membrane tyrosine kinase receptor."
+   },
+   {
+    "text": "Triiodothyronine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Peptide vs steroid.",
+  "explanation": "## Advanced explanation\n\nWater-soluble peptide/catecholamine hormones act on membrane receptors; lipid-soluble steroids and thyroid hormones act on intracellular (nuclear) receptors.\n\n## Simplified explanation\n\nInsulin binds receptors on the cell surface.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write down **two** factors that affect the velocity of transmission of a nerve action potential.",
+  "media": [],
+  "answer": "1. **Axon diameter**: larger diameter → lower internal resistance → faster conduction.\n2. **Myelination**: myelinated fibres conduct by **saltatory conduction** between nodes of Ranvier, much faster.\n3. (Also) **temperature**: cooling slows conduction.\n\n> [!answer]\n> Axon diameter and myelination (also temperature).",
+  "explanation": "## Advanced explanation\n\nVelocity ranges from ~0.5 m/s (unmyelinated C fibres) to ~120 m/s (large myelinated Aα fibres). Myelin raises membrane resistance and lowers capacitance, so current spreads further passively; demyelination (e.g. multiple sclerosis) slows or blocks conduction.\n\n## Simplified explanation\n\nThick, myelinated nerves conduct fastest.",
+  "hint": "Size and insulation.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Neurophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "List any **three** factors that affect the rate of diffusion across a membrane.",
+  "media": [],
+  "answer": "Any three (Fick's law, $J = \\frac{D \\cdot A \\cdot \\Delta C}{\\Delta x}$):\n\n1. **Concentration gradient** (ΔC): larger gradient → faster.\n2. **Surface area** of the membrane: larger → faster.\n3. **Membrane thickness** (diffusion distance): thicker → slower.\n4. **Lipid solubility** (partition coefficient) of the solute: more lipid-soluble → faster.\n5. **Molecular size/weight**: smaller → faster.\n6. **Temperature**: higher → faster.\n7. **Electrical potential** difference for ions; number of channels (permeability).\n\n> [!answer]\n> e.g. concentration gradient, surface area, membrane thickness (also lipid solubility, molecular size, temperature).",
+  "explanation": "## Advanced explanation\n\nPermeability P = D·K/Δx combines diffusion coefficient, partition coefficient and thickness. In the lung, emphysema (↓ area) and fibrosis (↑ thickness) reduce O₂ diffusion.\n\n## Simplified explanation\n\nBigger gradient and area speed diffusion; thicker membranes and bigger molecules slow it.",
+  "hint": "Fick's law.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Membrane Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the physiological basis of the **absolute** and **relative** refractory periods.",
+  "media": [],
+  "answer": "**Absolute refractory period**: from the start of the action potential until about one-third of repolarisation, **no stimulus, however strong**, can trigger another AP, because voltage-gated **Na⁺ channels are either already open or inactivated** (inactivation gates closed) and cannot reopen until the membrane repolarises.\n\n**Relative refractory period**: follows the absolute period (late repolarisation/after-hyperpolarisation). A **stronger-than-normal stimulus** can fire an AP because some Na⁺ channels have recovered from inactivation, but **K⁺ channels are still open** (K⁺ conductance high, membrane hyperpolarised), so more depolarisation is needed to reach threshold.\n\n> [!answer]\n> Absolute: Na⁺ channels inactivated, no AP possible. Relative: some Na⁺ channels recovered but K⁺ conductance still high (hyperpolarised), so only a suprathreshold stimulus fires an AP.",
+  "explanation": "## Advanced explanation\n\nRefractory periods limit firing frequency, ensure one-way propagation (the membrane behind the AP is refractory) and, in heart muscle, the long refractory period prevents tetanus.\n\n## Simplified explanation\n\nRight after firing, the Na⁺ channels are locked (no new impulse). A bit later, a stronger push works because K⁺ channels are still open.",
+  "hint": "Na⁺ inactivation vs K⁺ efflux.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neurophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** chemical classes of hormones and state **two** examples of each.",
+  "media": [],
+  "answer": "| Class | Examples |\n|---|---|\n| **Peptides/proteins** | Insulin, glucagon, GH, ADH, oxytocin, PTH, ACTH, prolactin |\n| **Steroids** (from cholesterol) | Cortisol, aldosterone, testosterone, oestradiol, progesterone, calcitriol |\n| **Amines** (from tyrosine/tryptophan) | Adrenaline, noradrenaline, thyroxine (T4), T3, dopamine, melatonin |\n| (Glycoproteins, a subset of proteins) | TSH, FSH, LH, hCG |\n\n> [!answer]\n> Peptide/protein (insulin, ADH), steroid (cortisol, oestrogen), amine (adrenaline, thyroxine).",
+  "explanation": "## Advanced explanation\n\nClass determines solubility and mechanism: peptides and catecholamines are water-soluble, stored in vesicles, act on surface receptors with second messengers; steroids and thyroid hormones are lipid-soluble, carried bound to proteins and act on intracellular receptors to alter gene transcription.\n\n## Simplified explanation\n\nHormones are proteins (insulin), steroids (cortisol) or amines (adrenaline, thyroxine).",
+  "hint": "Building blocks.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between **simple diffusion** and **facilitated diffusion** in their rate–concentration curves (describe the labelled plots).",
+  "media": [],
+  "answer": "Plot **rate of diffusion (y-axis)** against **solute concentration (x-axis)**:\n\n- **Simple diffusion**: a **straight line through the origin**; rate increases **linearly** and **without limit** in proportion to concentration (no carrier, no saturation).\n- **Facilitated diffusion**: a **hyperbolic curve** that rises steeply at low concentration then **plateaus at a maximum rate ($V_{max}$ or $T_m$)** because the carrier proteins become **saturated**.\n\n> [!answer]\n> Simple diffusion: linear, unsaturable. Facilitated diffusion: rises then levels off at Vmax (carrier saturation), Michaelis–Menten-like.",
+  "explanation": "## Advanced explanation\n\nCarrier-mediated transport shows saturation, specificity and competition, described by $J = \\frac{J_{max}[S]}{K_m + [S]}$. At low concentrations facilitated diffusion is faster than simple diffusion for the same solute.\n\n## Simplified explanation\n\nSimple diffusion keeps going up in a straight line; facilitated diffusion levels off when all carriers are busy.",
+  "hint": "Saturation.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Membrane Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than 5 sentences, explain why the **parathyroid glands enlarge** during pregnancy and lactation.",
+  "media": [],
+  "answer": "The fetus (for skeletal mineralisation) and then milk production draw large amounts of **calcium** (and phosphate) from the mother. This tends to **lower maternal plasma ionised Ca²⁺**. Low Ca²⁺ is sensed by the **calcium-sensing receptor** on chief cells, stimulating **PTH secretion** and, when sustained, **hypertrophy and hyperplasia** of the parathyroid glands. The extra PTH mobilises Ca²⁺ from bone, increases renal Ca²⁺ reabsorption and stimulates calcitriol formation to increase intestinal absorption, maintaining maternal blood calcium.\n\n> [!answer]\n> Calcium drain to the fetus and milk lowers maternal Ca²⁺, which stimulates PTH secretion and growth (hypertrophy) of the parathyroids to restore Ca²⁺.",
+  "explanation": "## Advanced explanation\n\nGuyton notes parathyroid enlargement in pregnancy and lactation as a compensatory response. (In practice, placental PTHrP and increased calcitriol also contribute.) Similar compensatory hyperplasia occurs in rickets and chronic renal failure (secondary hyperparathyroidism).\n\n## Simplified explanation\n\nBaby and breast milk use up mum's calcium; low calcium makes the parathyroids work harder and grow.",
+  "hint": "Calcium demand.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the immediate environmental or hormonal trigger for the release of each of the following hormones:\n\ni. glucagon\nii. cortisol\niii. growth hormone\niv. thyroxine\nv. aldosterone",
+  "media": [],
+  "answer": "| Hormone | Immediate trigger |\n|---|---|\n| i. Glucagon | **Low blood glucose** (hypoglycaemia); also amino acids, sympathetic stimulation |\n| ii. Cortisol | **ACTH** from the anterior pituitary (stress via CRH) |\n| iii. Growth hormone | **GHRH** from the hypothalamus (sleep, hypoglycaemia, exercise, fasting; inhibited by somatostatin) |\n| iv. Thyroxine | **TSH** from the anterior pituitary (TRH; cold) |\n| v. Aldosterone | **Angiotensin II** (low BP/volume) and **raised plasma K⁺** |\n\n> [!answer]\n> Glucagon: low glucose. Cortisol: ACTH. GH: GHRH. Thyroxine: TSH. Aldosterone: angiotensin II / high K⁺.",
+  "explanation": "## Advanced explanation\n\nMost are under hypothalamic–pituitary axes with negative feedback, while glucagon and aldosterone respond directly to the regulated variable (glucose; K⁺/angiotensin II).\n\n## Simplified explanation\n\nLow sugar → glucagon; ACTH → cortisol; GHRH → GH; TSH → thyroxine; angiotensin II/high K⁺ → aldosterone.",
+  "hint": "Pair each with its releasing signal.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write down **two** organs in the body capable of gluconeogenesis.",
+  "media": [],
+  "answer": "1. **Liver** (~90% normally).\n2. **Kidneys** (renal cortex; up to ~40% in prolonged fasting).\n\n(The small intestine contributes a little.)\n\n> [!answer]\n> Liver and kidney.",
+  "explanation": "## Advanced explanation\n\nBoth contain glucose-6-phosphatase, so they can release free glucose into blood. Muscle cannot.\n\n## Simplified explanation\n\nThe liver and the kidneys make new glucose.",
+  "hint": "They have glucose-6-phosphatase.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Carbohydrate Metabolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe the **tubuloglomerular feedback** mechanism, indicating its role in the maintenance of extracellular fluid volume and blood pressure.",
+  "media": [],
+  "answer": "**Components:** the **macula densa** (specialised distal tubule cells) lies in contact with the **afferent and efferent arterioles** and **juxtaglomerular (granular) cells** of the same nephron (juxtaglomerular apparatus).\n\n**Mechanism:**\n1. If GFR rises (e.g. arterial pressure rises), more NaCl reaches the macula densa.\n2. Macula densa cells take up more NaCl (via NKCC2) and release **adenosine/ATP**, which **constricts the afferent arteriole**, returning GFR towards normal; renin release is inhibited.\n3. If GFR falls (e.g. low BP), NaCl delivery falls → afferent arteriolar **dilation** (less adenosine; NO, prostaglandins) and **renin release** from JG cells → angiotensin II → **efferent arteriolar constriction**, restoring P_GC and GFR.\n\n**Role in ECF volume and BP:**\n- Keeps GFR and distal NaCl delivery stable (autoregulation together with the myogenic response) over mean arterial pressures of ~75–160 mmHg, preventing large losses of salt and water when BP rises and protecting filtration when BP falls.\n- When distal NaCl falls, renin → **angiotensin II** (vasoconstriction ↑BP, ↑proximal Na⁺ reabsorption, thirst, ADH) and **aldosterone** (↑Na⁺ reabsorption) → expand ECF volume and raise BP.\n- When volume/BP is high, renin is suppressed → natriuresis returns ECF and BP towards normal.\n\n> [!answer]\n> Macula densa senses tubular NaCl; high NaCl → adenosine → afferent constriction, ↓GFR and ↓renin; low NaCl → afferent dilation and renin → angiotensin II (efferent constriction) → GFR restored. This stabilises salt and water excretion and, through the renin–angiotensin–aldosterone system, maintains ECF volume and blood pressure.",
+  "explanation": "## Advanced explanation\n\nTGF is a negative feedback loop at the single-nephron level. It is blunted by loop diuretics (which block NKCC2 in the macula densa, stimulating renin). SGLT2 inhibitors restore TGF in diabetic hyperfiltration, part of their renal protection.\n\n## Simplified explanation\n\nA sensor in the tubule (macula densa) checks salt flow. Too much salt → narrows the inflow vessel to cut filtration; too little → widens it and releases renin, which raises blood pressure and keeps salt and water in the body.",
+  "hint": "Macula densa and afferent arteriole.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Renal Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe the **ionic events** responsible for each phase of the action potential.",
+  "media": [],
+  "answer": "| Phase | Ionic events |\n|---|---|\n| **Resting membrane potential** (≈ −70 mV) | High K⁺ permeability via leak channels (K⁺ efflux), Na⁺/K⁺-ATPase (3 Na⁺ out, 2 K⁺ in); voltage-gated Na⁺ channels closed (activation gates shut, inactivation gates open) |\n| **Depolarisation to threshold** (≈ −55 mV) | Stimulus opens some Na⁺ channels; Na⁺ enters faster than K⁺ leaves |\n| **Rapid depolarisation (upstroke)** to ≈ +30/+35 mV | Positive feedback: voltage-gated **Na⁺ channels open**, massive **Na⁺ influx**; membrane approaches E_Na (+60 mV) |\n| **Overshoot / peak** | Na⁺ channels **inactivate** (inactivation gates close) within ~1 ms; voltage-gated **K⁺ channels open** (slowly) |\n| **Repolarisation** | **K⁺ efflux** through voltage-gated K⁺ channels returns potential towards negative values; Na⁺ channels remain inactivated (absolute refractory period) |\n| **After-hyperpolarisation (undershoot)** (≈ −80 to −90 mV) | K⁺ channels close slowly, so K⁺ efflux continues; potential approaches E_K (relative refractory period) |\n| **Return to rest** | K⁺ channels close; Na⁺ channels reset (inactivation gates reopen); Na⁺/K⁺-ATPase maintains gradients |\n\n> [!answer]\n> Rest: K⁺ leak and Na⁺/K⁺ pump. Depolarisation: voltage-gated Na⁺ channels open, Na⁺ influx. Peak: Na⁺ inactivation, K⁺ channels open. Repolarisation: K⁺ efflux. Hyperpolarisation: slow K⁺ channel closure. Restoration: channels reset, pump maintains gradients.",
+  "explanation": "## Advanced explanation\n\nThe AP is all-or-none. Ion movements are tiny relative to total concentrations, so the pump is not needed for individual APs but maintains gradients long term. Local anaesthetics block Na⁺ channels; hyperkalaemia depolarises the RMP and inactivates Na⁺ channels.\n\n## Simplified explanation\n\nNa⁺ rushes in to make the inside positive, then K⁺ rushes out to make it negative again, slightly overshooting, before things reset.",
+  "hint": "Na⁺ in, K⁺ out.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Neurophysiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe how the concentration of a hormone may be determined by **radioimmunoassay (RIA)** and **enzyme-linked immunosorbent assay (ELISA)**.",
+  "media": [],
+  "answer": "**Radioimmunoassay (competitive):**\n1. A fixed, limited amount of specific **antibody** is mixed with a fixed amount of **radiolabelled hormone** (e.g. ¹²⁵I-hormone) and the sample containing unlabelled hormone.\n2. Labelled and unlabelled hormone **compete** for the antibody binding sites.\n3. After equilibrium, **antibody-bound hormone is separated from free** (e.g. second antibody precipitation, charcoal, solid phase).\n4. **Radioactivity** of the bound fraction is counted (gamma counter): the more hormone in the sample, the **less** labelled hormone is bound.\n5. Concentration is read from a **standard curve** made with known hormone concentrations.\n\n**ELISA (e.g. sandwich):**\n1. Wells are coated with a **capture antibody** against the hormone.\n2. Sample (and standards) are added; hormone binds; unbound material is **washed** off.\n3. A second **enzyme-linked detection antibody** (e.g. horseradish peroxidase or alkaline phosphatase) binds another site on the hormone; wash again.\n4. A **chromogenic substrate** (e.g. TMB) is added; the enzyme produces colour, then the reaction is stopped.\n5. **Absorbance** is read in a spectrophotometer/plate reader; colour intensity is **proportional** to hormone concentration (in a sandwich assay), read from a standard curve. (Competitive ELISA, for small hormones, gives an inverse relationship like RIA.)\n\n> [!answer]\n> RIA: labelled and sample hormone compete for limited antibody; bound radioactivity measured and inversely related to concentration via a standard curve. ELISA: antibody captures hormone, enzyme-linked antibody and substrate produce colour measured by absorbance, compared with standards.",
+  "explanation": "## Advanced explanation\n\nRIA (Yalow and Berson) is very sensitive (pg/mL) but uses radioisotopes; ELISA avoids radioactivity, is cheaper, automated and has a longer reagent shelf-life. Both depend on antibody specificity and can suffer cross-reactivity, hook effects and heterophile antibody interference.\n\n## Simplified explanation\n\nBoth use antibodies that grab the hormone. RIA measures radioactivity from a labelled copy competing with the hormone; ELISA measures a colour made by an enzyme tag.",
+  "hint": "Competition vs sandwich.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Endocrinology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these is NOT a function of the special chemical senses?",
+  "options": [
+   {
+    "text": "Detect and regulate the chemical concentrations of body fluids",
+    "hint": "Correct. Body-fluid chemistry is monitored by internal chemoreceptors, not taste/smell."
+   },
+   {
+    "text": "Influence the secretion of digestive juices",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Motivate seeking of nourishment and avoidance of toxins/infections",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Used for navigation and exploration",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Special vs internal chemoreceptors.",
+  "explanation": "## Advanced explanation\n\nTaste and smell guide food choice, avoid toxins, trigger cephalic-phase digestive secretions and (smell) aid exploration and social signalling. Plasma osmolality, pH and gases are sensed by osmoreceptors and central/peripheral chemoreceptors.\n\n## Simplified explanation\n\nTaste and smell don't regulate blood chemistry.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about taste receptor cells and taste buds is INCORRECT?",
+  "options": [
+   {
+    "text": "Each taste bud contains taste receptor cells sensitive to only one taste modality",
+    "hint": "Correct. Each bud contains cells for all five modalities."
+   },
+   {
+    "text": "Taste buds on the tongue are located within lingual papillae",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Taste receptor cells are incapable of generating action potentials",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Taste receptor cells are located, along with supporting cells, in taste buds",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The 'tongue map' is a myth.",
+  "explanation": "## Advanced explanation\n\nA taste bud (50–150 cells) contains receptor cells for sweet, sour, salty, bitter and umami, so every region of the tongue detects all tastes. Receptor cells release transmitter onto afferent fibres (they generally don't fire propagated APs themselves).\n\n## Simplified explanation\n\nOne taste bud can sense all tastes, not just one.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The receptor molecules for all the following taste modalities are G protein-coupled receptors, EXCEPT…",
+  "options": [
+   {
+    "text": "bitter",
+    "hint": "Not this one."
+   },
+   {
+    "text": "sour",
+    "hint": "Correct. Sour is detected via H⁺ through ion channels (OTOP1)."
+   },
+   {
+    "text": "sweet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "umami",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "H⁺ entry.",
+  "explanation": "## Advanced explanation\n\nSweet (T1R2/T1R3), umami (T1R1/T1R3) and bitter (T2Rs) use GPCRs with gustducin. Salty (ENaC) and sour (proton channels) use ion channels.\n\n## Simplified explanation\n\nSour works through ion channels, not GPCRs.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Sensory signals from the *anterior two-thirds* of the tongue travel to the CNS along the…",
+  "options": [
+   {
+    "text": "facial nerve",
+    "hint": "Correct. Taste from the anterior 2/3 travels in the chorda tympani (VII)."
+   },
+   {
+    "text": "glossopharyngeal nerve",
+    "hint": "Not this one."
+   },
+   {
+    "text": "trigeminal nerve",
+    "hint": "Not this one."
+   },
+   {
+    "text": "vagus nerve",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Chorda tympani.",
+  "explanation": "## Advanced explanation\n\nTaste: anterior 2/3 – facial (chorda tympani); posterior 1/3 – glossopharyngeal; epiglottis/pharynx – vagus. General sensation of the anterior 2/3 is via the lingual nerve (V3), but the taste pathway is facial.\n\n## Simplified explanation\n\nTaste from the front of the tongue uses the facial nerve.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In what part of the smell projection pathway are signals from the same kind of olfactory receptor cells sorted?",
+  "options": [
+   {
+    "text": "Hypothalamus",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Olfactory bulb",
+    "hint": "Correct. Same-receptor axons converge on the same glomeruli."
+   },
+   {
+    "text": "Orbitofrontal cortex",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Perirhinal cortex",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Glomeruli.",
+  "explanation": "## Advanced explanation\n\nEach olfactory neuron expresses one receptor type; all neurons with that receptor converge on one or two glomeruli in the olfactory bulb, creating an odour map.\n\n## Simplified explanation\n\nSmell signals are sorted in the olfactory bulb's glomeruli.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Contraction of the radial muscles of the iris results in…",
+  "options": [
+   {
+    "text": "constriction of the pupil",
+    "hint": "Not this one."
+   },
+   {
+    "text": "dilation of the pupil",
+    "hint": "Correct. Radial (dilator pupillae) muscle, sympathetic."
+   },
+   {
+    "text": "flattening of the lens",
+    "hint": "Not this one."
+   },
+   {
+    "text": "increase in focal length of the lens system",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Spokes of a wheel.",
+  "explanation": "## Advanced explanation\n\nDilator pupillae (radial, sympathetic α1) → mydriasis; sphincter pupillae (circular, parasympathetic via CN III) → miosis.\n\n## Simplified explanation\n\nRadial muscles pull the pupil open.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The Edinger–Westphal nuclei in the midbrain contain…",
+  "options": [
+   {
+    "text": "preganglionic parasympathetic neurons",
+    "hint": "Correct. They send preganglionic fibres in CN III to the ciliary ganglion."
+   },
+   {
+    "text": "preganglionic sympathetic neurons",
+    "hint": "Not this one."
+   },
+   {
+    "text": "postganglionic parasympathetic neurons",
+    "hint": "Not this one."
+   },
+   {
+    "text": "postganglionic sympathetic neurons",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Cranial outflow.",
+  "explanation": "## Advanced explanation\n\nEdinger–Westphal → oculomotor nerve → ciliary ganglion (synapse) → short ciliary nerves → sphincter pupillae and ciliary muscle (pupillary light reflex, accommodation).\n\n## Simplified explanation\n\nThey are the parasympathetic starting cells for pupil constriction.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The *dark current* of phototransduction is caused by…",
+  "options": [
+   {
+    "text": "closure of voltage-gated K⁺ channels",
+    "hint": "Not this one."
+   },
+   {
+    "text": "closure of voltage-gated Na⁺ channels",
+    "hint": "Not this one."
+   },
+   {
+    "text": "opening of cGMP-gated Na⁺ channels",
+    "hint": "Correct. High cGMP in the dark keeps cation channels open."
+   },
+   {
+    "text": "opening of neurotransmitter-gated Na⁺ channels",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "cGMP-gated.",
+  "explanation": "## Advanced explanation\n\nIn darkness, cGMP keeps CNG channels open; Na⁺ (and Ca²⁺) enter the outer segment, depolarising the rod (~ −40 mV) and releasing glutamate. Light activates rhodopsin → transducin → PDE → ↓cGMP → channels close → hyperpolarisation.\n\n## Simplified explanation\n\nIn the dark, cGMP holds Na⁺ channels open: the dark current.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following injuries could result in *heteronymous hemianopia*?",
+  "options": [
+   {
+    "text": "Lesion of both optic tracts",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lesion of optic tract of one eye",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Transection of optic chiasm",
+    "hint": "Correct. Chiasmal lesion → bitemporal (heteronymous) hemianopia."
+   },
+   {
+    "text": "Transection of optic nerve of one eye",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pituitary tumour.",
+  "explanation": "## Advanced explanation\n\nCrossing nasal fibres carry temporal fields; cutting them at the chiasm (e.g. pituitary tumour) loses both temporal fields. Optic tract lesions give homonymous hemianopia; optic nerve lesions blind one eye.\n\n## Simplified explanation\n\nDamage at the optic chiasm loses both outer fields.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about *photoreceptors* and *photopigments* is INCORRECT?",
+  "options": [
+   {
+    "text": "Cones are adapted for photopic vision while rods are adapted for scotopic vision",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Opsin is the light-sensitive subunit of photopigments",
+    "hint": "Correct. The light-absorbing part is retinal (11-cis-retinal), not opsin."
+   },
+   {
+    "text": "Photopigments are located in membrane discs or saccules of photoreceptor outer segments",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Visual adaptation to light of different light intensities is achieved by the duplicity theory and pupillary mechanism",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Vitamin A part.",
+  "explanation": "## Advanced explanation\n\nPhotopigments = opsin (protein) + 11-cis-retinal (chromophore, vitamin A aldehyde). Light isomerises retinal to all-trans, changing opsin's conformation. Rods (rhodopsin) serve dim (scotopic) vision; cones bright (photopic) and colour vision.\n\n## Simplified explanation\n\nRetinal, not opsin, absorbs the light.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following statements about melanopsin and melanopsin-expressing cells are all *incorrect*, EXCEPT…",
+  "options": [
+   {
+    "text": "melanopsin-expressing cells enable perception of colour",
+    "hint": "Not this one."
+   },
+   {
+    "text": "melanopsin-expressing cells enable regulation of circadian rhythms",
+    "hint": "Correct. Intrinsically photosensitive retinal ganglion cells project to the suprachiasmatic nucleus."
+   },
+   {
+    "text": "melanopsin-expressing cone cells depolarise off-centre bipolar cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "melanopsin is expressed by a group of rod photoreceptor cells",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Suprachiasmatic nucleus.",
+  "explanation": "## Advanced explanation\n\nMelanopsin is in ipRGCs (a small group of retinal **ganglion** cells, not rods or cones). They signal ambient light to the SCN (circadian entrainment, melatonin suppression) and the pretectum (pupillary light reflex).\n\n## Simplified explanation\n\nMelanopsin cells set the body clock.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are middle ear structures, EXCEPT…",
+  "options": [
+   {
+    "text": "Eustachian tube",
+    "hint": "Not this one."
+   },
+   {
+    "text": "stapedius muscle",
+    "hint": "Not this one."
+   },
+   {
+    "text": "tympanum",
+    "hint": "Not this one."
+   },
+   {
+    "text": "vestibular membrane",
+    "hint": "Correct. The vestibular (Reissner's) membrane is in the cochlea (inner ear)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Cochlea.",
+  "explanation": "## Advanced explanation\n\nMiddle ear: tympanic cavity, ossicles, stapedius and tensor tympani, opening of the auditory (Eustachian) tube. Reissner's membrane separates scala vestibuli from scala media.\n\n## Simplified explanation\n\nReissner's (vestibular) membrane is inner ear.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The hair receptor cells for transducing sound are located in the…",
+  "options": [
+   {
+    "text": "cupula",
+    "hint": "Not this one."
+   },
+   {
+    "text": "macula",
+    "hint": "Not this one."
+   },
+   {
+    "text": "organ of Corti",
+    "hint": "Correct. The organ of Corti on the basilar membrane."
+   },
+   {
+    "text": "tectorial membrane",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cochlea.",
+  "explanation": "## Advanced explanation\n\nInner and outer hair cells sit on the basilar membrane in the organ of Corti, with stereocilia touching the tectorial membrane. Cupula (ampullae) and macula (utricle/saccule) are vestibular.\n\n## Simplified explanation\n\nHearing hair cells are in the organ of Corti.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Pitch is encoded in the sensory information from the ear by variation of…",
+  "options": [
+   {
+    "text": "frequency of action potentials set up in the sensory neurons",
+    "hint": "Not this one."
+   },
+   {
+    "text": "neurotransmitter type released by hair cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "portion of the basilar membrane that vibrates",
+    "hint": "Correct. Place principle (tonotopy)."
+   },
+   {
+    "text": "wave amplitudes set up by basilar membrane vibrations",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Place theory.",
+  "explanation": "## Advanced explanation\n\nHigh frequencies maximally vibrate the narrow, stiff base; low frequencies the wide, floppy apex. Loudness is coded by firing rate and number of fibres; very low frequencies also by volley (frequency) coding.\n\n## Simplified explanation\n\nDifferent pitches vibrate different parts of the basilar membrane.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following conditions could cause *conductive deafness*?",
+  "options": [
+   {
+    "text": "Damage to cochlear nerve due to tumour or trauma",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Damage to hair cells due to exposure to loud sounds",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Fusion of malleus and incus caused by otitis media",
+    "hint": "Correct. Ossicular fixation blocks sound conduction."
+   },
+   {
+    "text": "Tensor tympani muscle fatigue caused by prolonged exposure to sounds",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Middle ear problem.",
+  "explanation": "## Advanced explanation\n\nConductive deafness: outer/middle ear (wax, perforation, otitis media, otosclerosis, ossicular fixation). Sensorineural: cochlea or auditory nerve (noise, presbycusis, acoustic neuroma).\n\n## Simplified explanation\n\nStuck ossicles stop sound reaching the inner ear.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these causes *presbycusis*?",
+  "options": [
+   {
+    "text": "Age-related degeneration of hair cells",
+    "hint": "Correct. Age-related sensorineural loss, high frequencies first."
+   },
+   {
+    "text": "Autoimmune damage to stereocilia of hair cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Damage to cochlear nerve caused by trauma or tumour",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Traumatic temporal lobe damage",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Presby = old.",
+  "explanation": "## Advanced explanation\n\nPresbycusis results from progressive loss of hair cells (especially at the cochlear base), neurons and stria vascularis function with age.\n\n## Simplified explanation\n\nPresbycusis = hearing loss of old age.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Detection of rotational or angular acceleration or deceleration of the head is performed by sensory cells located in the…",
+  "options": [
+   {
+    "text": "ampullae of semicircular canals",
+    "hint": "Correct. Crista ampullaris with cupula."
+   },
+   {
+    "text": "macula of saccule",
+    "hint": "Not this one."
+   },
+   {
+    "text": "macula of utricle",
+    "hint": "Not this one."
+   },
+   {
+    "text": "organ of Corti",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Rotation vs linear.",
+  "explanation": "## Advanced explanation\n\nSemicircular canals (cristae in ampullae) sense angular acceleration via endolymph moving the cupula. Utricle and saccule maculae (otoliths) sense linear acceleration and head tilt.\n\n## Simplified explanation\n\nSpinning is sensed in the semicircular canals.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Special Senses",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Target tissues of hormones are able to respond to a hormonal signal because they…",
+  "options": [
+   {
+    "text": "are first primed by neural tissue",
+    "hint": "Not this one."
+   },
+   {
+    "text": "are located close to endocrine tissues",
+    "hint": "Not this one."
+   },
+   {
+    "text": "express receptors for the hormone",
+    "hint": "Correct. Specific receptors confer responsiveness."
+   },
+   {
+    "text": "secrete second messengers",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Lock and key.",
+  "explanation": "## Advanced explanation\n\nHormones circulate to all tissues but only cells with the specific receptor respond; receptor number and affinity (up/down-regulation) set sensitivity.\n\n## Simplified explanation\n\nOnly cells with the right receptor respond.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following belongs to the *steroid class* of hormones?",
+  "options": [
+   {
+    "text": "Aldosterone",
+    "hint": "Correct. Aldosterone is a mineralocorticoid steroid."
+   },
+   {
+    "text": "Antidiuretic hormone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glucagon",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Norepinephrine",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Adrenal cortex.",
+  "explanation": "## Advanced explanation\n\nADH and glucagon are peptides; norepinephrine is an amine (catecholamine).\n\n## Simplified explanation\n\nAldosterone is a steroid.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following hormones has *intracellular* receptors?",
+  "options": [
+   {
+    "text": "Epinephrine",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Insulin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Leptin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Thyroxine",
+    "hint": "Correct. Thyroid hormones act on nuclear receptors."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Lipophilic amine.",
+  "explanation": "## Advanced explanation\n\nT3/T4 enter cells (via transporters) and bind nuclear thyroid hormone receptors that regulate transcription. Epinephrine (GPCR), insulin (tyrosine kinase), leptin (JAK–STAT) act at the membrane.\n\n## Simplified explanation\n\nThyroxine works inside the cell.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following regulated processes employs *positive feedback*?",
+  "options": [
+   {
+    "text": "Release of glucagon to increase blood glucose level when levels are low between meals",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Release of thyroxine to raise body temperature when body temperature falls",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Secretion of oxytocin in response to suckling increases secretion of more oxytocin",
+    "hint": "Correct. Oxytocin release reinforces itself."
+   },
+   {
+    "text": "Secretion of secretin when stomach acidity increases to reduce it to normal",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Amplification.",
+  "explanation": "## Advanced explanation\n\nThe milk-ejection and labour (Ferguson) reflexes amplify oxytocin release until the stimulus ends. The others correct a deviation (negative feedback).\n\n## Simplified explanation\n\nOxytocin causes more oxytocin: positive feedback.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following hormone interactions is permissive?",
+  "options": [
+   {
+    "text": "Both FSH and testosterone are required to maintain normal rate of spermatogenesis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Calcitonin decreases while parathyroid hormone increases blood Ca²⁺ levels",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Insulin and glucagon exert opposite effects on blood glucose level",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Thyroxine increases receptors of epinephrine, raising target cell responsiveness to epinephrine",
+    "hint": "Correct. One hormone enables the full effect of another."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Enabling effect.",
+  "explanation": "## Advanced explanation\n\nPermissive: thyroid hormone up-regulates β-adrenergic receptors; cortisol permits catecholamine vasoconstriction. Synergistic: FSH + testosterone. Antagonistic: calcitonin vs PTH, insulin vs glucagon.\n\n## Simplified explanation\n\nThyroxine makes cells more responsive to adrenaline: permissive.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Endocrinology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following accounts for the greatest loss of fluids from the body under normal conditions of temperature and pressure, and typical activity level for a normal 30-year-old man?",
+  "options": [
+   {
+    "text": "Excretion by the kidneys",
+    "hint": "Correct. Urine ≈ 1.4 L/day of ~2.3 L total."
+   },
+   {
+    "text": "Insensible water loss",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Loss in faeces",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Loss in sweat",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Typical day, not exercise.",
+  "explanation": "## Advanced explanation\n\nDaily water loss (Guyton): urine ~1400 mL, insensible (skin + lungs) ~700 mL, sweat ~100 mL, faeces ~100 mL. In heavy exercise or heat, sweat can dominate.\n\n## Simplified explanation\n\nMost water normally leaves in urine.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about the body's *fluid compartments* is INCORRECT?",
+  "options": [
+   {
+    "text": "The greater proportion of body fluid is located in the intracellular compartment",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The protein and ionic concentrations of plasma and interstitial fluids are similar",
+    "hint": "Correct. Ions are similar, but plasma has far more protein."
+   },
+   {
+    "text": "Interstitial fluid and plasma are connected by the lymphatic system",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Fluid balance between extra- and intracellular compartments is by osmotic exchange",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Capillaries hold back protein.",
+  "explanation": "## Advanced explanation\n\nPlasma (~7 g/dL protein) vs interstitial fluid (little protein): capillary walls are permeable to ions but not to proteins, so only ionic composition is similar (with small Gibbs–Donnan differences).\n\n## Simplified explanation\n\nPlasma has much more protein than tissue fluid.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A higher than normal haematocrit may be due to all of the following conditions, EXCEPT…",
+  "options": [
+   {
+    "text": "chronic obstructive pulmonary disease",
+    "hint": "Not this one."
+   },
+   {
+    "text": "dehydration",
+    "hint": "Not this one."
+   },
+   {
+    "text": "dwelling in high altitude",
+    "hint": "Not this one."
+   },
+   {
+    "text": "infection",
+    "hint": "Correct. Infection does not raise haematocrit (and may lower it)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Hypoxia or plasma loss.",
+  "explanation": "## Advanced explanation\n\nRaised Hct: relative (plasma loss: dehydration, burns) or absolute secondary polycythaemia from hypoxia (COPD, altitude → erythropoietin), or polycythaemia vera.\n\n## Simplified explanation\n\nInfection doesn't thicken the blood with red cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Patient MK has fluid retention and dilution of body fluids due to liver failure. Which fluid and electrolyte imbalance is present in MK?",
+  "options": [
+   {
+    "text": "High volume hyponatraemia",
+    "hint": "Correct. Water retained in excess of Na⁺: hypervolaemic hyponatraemia."
+   },
+   {
+    "text": "Hypernatraemia",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Low volume hyponatraemia",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Normal volume hyponatraemia",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Fluid overload + dilution.",
+  "explanation": "## Advanced explanation\n\nIn cirrhosis, low effective arterial volume activates RAAS and ADH; water retention exceeds Na⁺ retention → dilutional (high-volume) hyponatraemia with oedema/ascites. Same pattern in heart failure and nephrotic syndrome.\n\n## Simplified explanation\n\nToo much water dilutes sodium while volume is high.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following conditions could lead to extracellular oedema, EXCEPT…",
+  "options": [
+   {
+    "text": "increased capillary permeability caused by inflammation or burns",
+    "hint": "Not this one."
+   },
+   {
+    "text": "failure of lymphatic drainage caused by filarial nematodes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "increased capillary hydrostatic pressure caused by heart failure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "decreased activity of ion pumps, e.g. Na⁺/K⁺ pump, due to decreased metabolism",
+    "hint": "Correct. Pump failure causes intracellular (cell) swelling."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Intra vs extracellular.",
+  "explanation": "## Advanced explanation\n\nExtracellular oedema: ↑capillary pressure, ↓plasma proteins, ↑permeability, lymphatic obstruction. Intracellular oedema: depressed metabolism/pump failure (Na⁺ stays in cells) or inflammation of tissue.\n\n## Simplified explanation\n\nWeak ion pumps swell cells, not the space between them.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Body Fluids & Electrolytes",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Patient Mensa Kodie has an *atonic bladder* and overflow incontinence caused by a loss of sensory innervation. Which one of the following is the most likely cause of Mensa Kodie's condition?",
+  "options": [
+   {
+    "text": "Brainstem damage affecting inhibitory signals",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Crush injury damaging the sacral ventral roots",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Spinal damage above the sacral segments",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Syphilitic tabes dorsalis",
+    "hint": "Correct. Tabes dorsalis destroys dorsal (sensory) roots."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Sensory = dorsal roots.",
+  "explanation": "## Advanced explanation\n\nWithout stretch signals from the bladder, the micturition reflex is lost; the bladder fills to capacity and dribbles (overflow incontinence). Guyton cites tabes dorsalis (tabetic bladder). Ventral root damage is motor; cord damage above sacral levels gives an automatic (reflex) bladder; brainstem damage gives an uninhibited bladder.\n\n## Simplified explanation\n\nSyphilis damaging sensory nerve roots stops the bladder sensing fullness.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following statements about glomerular filtrate are all *correct*, EXCEPT the filtrate…",
+  "options": [
+   {
+    "text": "forms by glomerular filtration driven largely by oncotic pressure",
+    "hint": "Correct. Filtration is driven by glomerular hydrostatic pressure; oncotic pressure opposes it."
+   },
+   {
+    "text": "has the same concentration of most unbound solutes as blood plasma",
+    "hint": "Not this one."
+   },
+   {
+    "text": "is modified by reabsorption of some solutes and secretion of others",
+    "hint": "Not this one."
+   },
+   {
+    "text": "is protein-free and cell-free",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which force opposes filtration?",
+  "explanation": "## Advanced explanation\n\nGlomerular capillary hydrostatic pressure (~60 mmHg) drives filtration against Bowman's pressure (~18) and plasma oncotic pressure (~32).\n\n## Simplified explanation\n\nFiltration is pushed by blood pressure, not oncotic pressure.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The amount of solute X in urine was determined during an experiment to be greater than the *filtered load*. Which one of the following statements explains this finding?",
+  "options": [
+   {
+    "text": "A portion of the filtered load of X was reabsorbed",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Excessive water reabsorption occurred",
+    "hint": "Not this one."
+   },
+   {
+    "text": "X was excreted by secretion only",
+    "hint": "Not this one."
+   },
+   {
+    "text": "X was filtered and secreted",
+    "hint": "Correct. Excretion > filtered load means net tubular secretion."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Excretion = filtered − reabsorbed + secreted.",
+  "explanation": "## Advanced explanation\n\nExcretion = filtration − reabsorption + secretion. If excretion exceeds the filtered load (GFR × P_x), secretion must have added X (e.g. PAH, creatinine slightly). Water reabsorption changes concentration, not amount.\n\n## Simplified explanation\n\nMore came out than was filtered, so the tubules secreted extra.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about the glomerular filtration rate (GFR) is INCORRECT?",
+  "options": [
+   {
+    "text": "Affected by both the permeability and surface area of the filtration barrier",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Decreases when renal blood flow increases",
+    "hint": "Correct. Increased RBF raises GFR (less rise in oncotic pressure along the capillary)."
+   },
+   {
+    "text": "Determined by the balance of Starling's forces in glomerular capillaries and Bowman's capsule",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Estimates amount of blood filtered by the kidneys per unit time",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Starling forces.",
+  "explanation": "## Advanced explanation\n\nGFR = K_f × NFP; K_f reflects permeability × surface area. Higher renal plasma flow slows the rise of glomerular oncotic pressure, increasing GFR.\n\n## Simplified explanation\n\nMore blood flow means more filtration, not less.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If filtration fraction is 20% and GFR is 125 mL/min, what is the value of renal plasma flow?",
+  "options": [
+   {
+    "text": "6.25 mL/min",
+    "hint": "Not this one."
+   },
+   {
+    "text": "25 mL/min",
+    "hint": "Not this one."
+   },
+   {
+    "text": "625 mL/min",
+    "hint": "Correct. RPF = GFR / FF = 125 / 0.2 = 625 mL/min."
+   },
+   {
+    "text": "2500 mL/min",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "FF = GFR/RPF.",
+  "explanation": "## Advanced explanation\n\nFiltration fraction = GFR/RPF. Renal blood flow = RPF/(1 − Hct) ≈ 1100–1200 mL/min.\n\n## Simplified explanation\n\n125 ÷ 0.2 = 625 mL/min.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following substances would have the *highest filterability*?",
+  "options": [
+   {
+    "text": "Neutral, high molecular weight solute",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Polyanionic, high molecular weight",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Polyanionic, low molecular weight",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Polycationic, low molecular weight solute",
+    "hint": "Correct. Small and positively charged passes most easily."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Size and charge.",
+  "explanation": "## Advanced explanation\n\nThe glomerular barrier restricts by size and by negative charge (heparan sulphate, podocyte glycocalyx), so small cations filter best and large anions (albumin) worst.\n\n## Simplified explanation\n\nSmall, positively charged molecules filter best.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following could increase GFR, EXCEPT…",
+  "options": [
+   {
+    "text": "constriction of efferent arteriole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "dilation of afferent arteriole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "increased activity of vasoconstrictor hormones",
+    "hint": "Not this one."
+   },
+   {
+    "text": "increased capillary oncotic pressure",
+    "hint": "Correct. Higher glomerular oncotic pressure opposes filtration."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Oncotic pressure opposes filtration.",
+  "explanation": "## Advanced explanation\n\nEfferent constriction (e.g. moderate angiotensin II) and afferent dilation raise P_GC. Raised π_GC (e.g. dehydration, hyperproteinaemia) lowers net filtration pressure.\n\n## Simplified explanation\n\nMore protein pull in the capillary reduces filtration.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about *renal autoregulation* is INCORRECT?",
+  "options": [
+   {
+    "text": "Juxtaglomerular cells in arterioles detect changes in GFR",
+    "hint": "Correct. The macula densa, not JG cells, senses tubular NaCl (GFR)."
+   },
+   {
+    "text": "Performed by the tubuloglomerular feedback",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Refers to the maintenance of relative constancy of GFR and renal blood flow by intrinsic renal mechanisms",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The response to decreased GFR is increased production of angiotensin by increased renin release",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Sensor vs effector.",
+  "explanation": "## Advanced explanation\n\nAutoregulation uses the myogenic response and tubuloglomerular feedback. Macula densa cells sense distal NaCl delivery; the JG (granular) cells of the afferent arteriole secrete renin in response.\n\n## Simplified explanation\n\nThe macula densa senses changes; JG cells release renin.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is NOT an effect of angiotensin II?",
+  "options": [
+   {
+    "text": "Causes arteriolar vasoconstriction and increase in GFR",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increases fluid intake by inducing thirst",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Promotes production of metabolic water by elevating metabolic rate",
+    "hint": "Correct. Angiotensin II does not raise metabolic rate."
+   },
+   {
+    "text": "Promotes retention of Na⁺ and water by stimulating aldosterone release",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "List the real effects.",
+  "explanation": "## Advanced explanation\n\nAng II: vasoconstriction (efferent > afferent, maintaining GFR), aldosterone release, thirst and ADH release, direct proximal Na⁺ reabsorption, sympathetic facilitation.\n\n## Simplified explanation\n\nAngiotensin II doesn't increase metabolism to make water.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following explains why excess amino acids or glucose in the glomerular filtrate activate the tubuloglomerular feedback?",
+  "options": [
+   {
+    "text": "Diabetes and hyperproteinaemia damage glomeruli and decrease GFR",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Excess solutes bind to angiotensin II receptors on efferent arteriole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Juxtaglomerular cells are sensitive to increased concentration of these solutes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Reabsorption of the solutes by cotransport with Na⁺ depletes Na⁺ in filtrate",
+    "hint": "Correct. Less NaCl reaches the macula densa, so TGF raises GFR."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Co-transport with Na⁺.",
+  "explanation": "## Advanced explanation\n\nProximal Na⁺-coupled reabsorption of extra glucose/amino acids lowers distal NaCl delivery; the macula densa signals afferent dilation and renin release, increasing GFR (explains hyperfiltration after a protein meal and in early diabetes).\n\n## Simplified explanation\n\nAbsorbing the extra sugar/amino acids takes Na⁺ with it, so the macula densa senses low salt and raises GFR.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The highest amount of the filtered load of a solute that can be reabsorbed by transport systems is known as…",
+  "options": [
+   {
+    "text": "equilibrium level",
+    "hint": "Not this one."
+   },
+   {
+    "text": "reabsorption equilibrium",
+    "hint": "Not this one."
+   },
+   {
+    "text": "threshold level",
+    "hint": "Not this one."
+   },
+   {
+    "text": "transport maximum",
+    "hint": "Correct. Tm, e.g. glucose Tm ≈ 375 mg/min."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Carriers saturate.",
+  "explanation": "## Advanced explanation\n\nCarrier saturation gives a transport maximum; the renal threshold is the plasma concentration at which the solute first appears in urine (glucose ~200 mg/dL), below Tm because of nephron heterogeneity (splay).\n\n## Simplified explanation\n\nThe maximum the tubule can reabsorb is the transport maximum (Tm).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following parts of the nephron is virtually impermeable to water?",
+  "options": [
+   {
+    "text": "Collecting ducts",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Proximal tubule",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Thin ascending limb of Henle's loop",
+    "hint": "Correct. The ascending limb (thin and thick) lacks aquaporins."
+   },
+   {
+    "text": "Thin descending limb of Henle's loop",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Diluting segment.",
+  "explanation": "## Advanced explanation\n\nProximal tubule and descending limb are highly water-permeable (AQP1); the ascending limb is impermeable (diluting segment); collecting ducts are variable under ADH.\n\n## Simplified explanation\n\nThe ascending limb of Henle lets salt out but not water.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Renal Physiology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 1.** Joan Agalga is a 32-year-old class teacher who became easily tired during routine activities (teaching, walking home, chopping vegetables). Mornings were better but she got worse by day's end; repetitive movements were hardest, and she had difficulty swallowing and double vision. The doctor found drooping eyelids (ptosis) and facial paralysis, made a preliminary diagnosis of myasthenia gravis, and prescribed neostigmine (a cholinesterase inhibitor) and immunosuppressant drugs. Her symptoms have since improved.\n\na) What condition does Joan suffer?\n\nb) Give an account of transmission at a neuromuscular junction.",
+  "media": [],
+  "answer": "a) **Myasthenia gravis**: an autoimmune disease of the neuromuscular junction.\n\nb) Neuromuscular transmission:\n1. The motor nerve action potential reaches the axon terminal and opens **voltage-gated Ca²⁺ channels** (at the dense bars).\n2. Ca²⁺ influx triggers **exocytosis of acetylcholine (ACh)** vesicles at release sites (SNARE proteins).\n3. ACh diffuses across the synaptic cleft and binds **nicotinic ACh receptors** (ligand-gated cation channels) concentrated at the tops of the junctional folds.\n4. Na⁺ influx (> K⁺ efflux) produces the **end-plate potential**, which depolarises adjacent membrane, opens **voltage-gated Na⁺ channels** in the folds and fires a muscle action potential.\n5. ACh is rapidly hydrolysed by **acetylcholinesterase** in the basal lamina to acetate + choline; choline is taken back up for resynthesis, ending transmission.\n\n> [!answer]\n> a) Myasthenia gravis. b) Nerve AP → Ca²⁺ entry → ACh release → nicotinic receptors → end-plate potential → muscle AP; ACh destroyed by acetylcholinesterase.",
+  "explanation": "## Advanced explanation\n\nThe end-plate potential is normally about 3× larger than needed (safety factor), so every nerve impulse triggers a muscle impulse; myasthenia erodes this safety factor.\n\n## Simplified explanation\n\nShe has myasthenia gravis. At the nerve–muscle junction, calcium triggers ACh release, ACh opens receptors on muscle to start contraction, and an enzyme then breaks ACh down.",
+  "hint": "Nerve → ACh → muscle.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Neuromuscular Junction",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 1 (continued).** Explain the mode of action of the following substances at synapses: (1) botulinum toxin (2) the nerve agent sarin (3) the soporific agent diazepam (Valium) (4) tetanus toxin.",
+  "media": [],
+  "answer": "| Substance | Mode of action |\n|---|---|\n| **Botulinum toxin** | Protease that cleaves **SNARE proteins** (SNAP-25, synaptobrevin, syntaxin) in cholinergic terminals → **blocks ACh release** → flaccid paralysis |\n| **Sarin** | Irreversible **acetylcholinesterase inhibitor** (organophosphate) → ACh accumulates → overstimulation then depolarisation block: muscarinic (salivation, bronchorrhoea, miosis) and nicotinic (fasciculation, paralysis) effects |\n| **Diazepam** | Benzodiazepine; binds the **GABA_A receptor** and **increases the frequency of Cl⁻ channel opening** by GABA → hyperpolarisation, enhanced inhibition → sedation, anxiolysis, muscle relaxation |\n| **Tetanus toxin** | Transported retrogradely to spinal cord; cleaves synaptobrevin in **inhibitory interneurons (Renshaw cells)** → **blocks glycine and GABA release** → disinhibited motor neurons → spastic paralysis (lockjaw, opisthotonos) |\n\n> [!answer]\n> Botulinum: blocks ACh release (SNARE cleavage). Sarin: inhibits acetylcholinesterase. Diazepam: enhances GABA_A Cl⁻ conductance. Tetanus toxin: blocks inhibitory (glycine/GABA) transmitter release.",
+  "explanation": "## Advanced explanation\n\nBotulinum and tetanus toxins are both zinc-dependent clostridial neurotoxins acting on SNAREs; the opposite clinical pictures (flaccid vs spastic) arise from which neurons they target. Sarin poisoning is treated with atropine and pralidoxime.\n\n## Simplified explanation\n\nBotulinum stops ACh release; sarin stops ACh breakdown; diazepam boosts GABA inhibition; tetanus toxin stops inhibitory transmitter release.",
+  "hint": "Release, breakdown, receptor, inhibition.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Synaptic Transmission",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 1 (continued).** List **five** neurotransmitters, indicating whether their effects at stated receptors are excitatory, inhibitory or modulatory.",
+  "media": [],
+  "answer": "| Neurotransmitter | Receptor | Effect |\n|---|---|---|\n| **Acetylcholine** | Nicotinic (NMJ) | Excitatory |\n| Acetylcholine | M2 (heart) | Inhibitory |\n| **Glutamate** | AMPA/NMDA | Excitatory (main CNS excitatory) |\n| **GABA** | GABA_A (Cl⁻) / GABA_B | Inhibitory (main brain inhibitory) |\n| **Glycine** | Glycine receptor (Cl⁻) | Inhibitory (spinal cord) |\n| **Noradrenaline** | α1 / β1 | Excitatory (e.g. vasoconstriction, ↑heart rate) |\n| Noradrenaline | α2 (presynaptic) | Inhibitory |\n| **Dopamine** | D1 / D2 | Modulatory (D1 excitatory, D2 inhibitory) |\n| **Serotonin (5-HT)** | various | Modulatory (mood, sleep) |\n| **Substance P, enkephalins** | NK1 / opioid | Modulatory (pain) |\n\n> [!answer]\n> e.g. ACh (nicotinic: excitatory; M2: inhibitory), glutamate (excitatory), GABA (inhibitory), glycine (inhibitory), dopamine/serotonin (modulatory).",
+  "explanation": "## Advanced explanation\n\nWhether a transmitter excites or inhibits depends on the receptor: ionotropic receptors give fast EPSPs/IPSPs; metabotropic (G-protein) receptors give slower modulatory effects.\n\n## Simplified explanation\n\nGlutamate excites, GABA and glycine inhibit, ACh depends on the receptor, dopamine and serotonin modulate.",
+  "hint": "Depends on the receptor.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Synaptic Transmission",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 2: Muscle physiology.**\n\na) State the myofilaments located in each of the following zones of striated muscle: (1) I band (2) A band (3) Z discs (4) H zone.\n\nb) Describe the cellular arrangements that enable uniform spread of the action potential throughout the muscle fibre.",
+  "media": [],
+  "answer": "a)\n\n| Zone | Myofilaments |\n|---|---|\n| I band | **Thin (actin)** filaments only (with titin) |\n| A band | **Thick (myosin)** filaments along their full length, overlapping thin filaments at each end |\n| Z disc | Anchors the **thin filaments** (α-actinin) and titin of adjacent sarcomeres |\n| H zone | **Thick (myosin)** filaments only (no overlap); M line at centre |\n\nb) **Transverse (T) tubules**: invaginations of the sarcolemma that penetrate deep into the fibre at the A–I junctions, carrying the AP inward to every myofibril. Each T tubule lies between two **terminal cisternae of the sarcoplasmic reticulum** (a **triad**), where **dihydropyridine receptors** (voltage sensors) are coupled to **ryanodine receptors** (Ca²⁺ release channels), so Ca²⁺ is released simultaneously throughout the fibre.\n\n> [!answer]\n> a) I band: actin; A band: myosin (+ overlapping actin); Z disc: actin anchorage; H zone: myosin only. b) T tubules and triads (T tubule + SR terminal cisternae) carry the AP deep into the fibre.",
+  "explanation": "## Advanced explanation\n\nWithout T tubules, Ca²⁺ diffusing from the surface would take too long to activate central myofibrils. In cardiac muscle T tubules are at the Z lines and form dyads.\n\n## Simplified explanation\n\nThin actin in the light I band; thick myosin in the dark A band; T tubules carry the signal deep into the fibre.",
+  "hint": "Sarcomere bands; triads.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Muscle Physiology",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 2 (continued).**\n\nc) Give an account of excitation–contraction coupling in skeletal muscle, beginning with generation of the muscle action potential until relaxation.\n\nd) Explain the length–tension relationship.",
+  "media": [],
+  "answer": "c) Excitation–contraction coupling:\n1. ACh at the NMJ → end-plate potential → **muscle action potential** spreads along the sarcolemma and down **T tubules**.\n2. Depolarisation changes **dihydropyridine (L-type) receptors**, which mechanically open **ryanodine receptors** on the SR.\n3. **Ca²⁺ released** into the cytosol binds **troponin C**; tropomyosin shifts, exposing **myosin-binding sites on actin**.\n4. **Cross-bridge cycling**: energised myosin (ADP + Pᵢ) binds actin → power stroke (Pᵢ then ADP released) → ATP binds, myosin detaches → ATP hydrolysis re-cocks the head. Thin filaments slide towards the M line (sliding filament mechanism); sarcomeres shorten.\n5. **Relaxation**: ACh is destroyed by acetylcholinesterase, APs stop, **SERCA pumps** return Ca²⁺ to the SR (ATP-dependent, aided by calsequestrin), Ca²⁺ leaves troponin, tropomyosin re-covers binding sites, and the muscle relaxes.\n\nd) **Length–tension relationship**: the active tension a muscle develops depends on its length before contraction, because it depends on **overlap of thick and thin filaments**. At the **resting (optimal) length** (sarcomere ~2.0–2.2 µm) overlap allows the **maximum number of cross-bridges** → maximal tension. When **stretched**, overlap decreases → fewer cross-bridges → less tension (zero at ~170% when no overlap). When **shortened**, thin filaments overlap each other and thick filaments abut the Z discs → tension falls.\n\n> [!answer]\n> c) AP → T tubules → DHP–ryanodine receptor → Ca²⁺ release → troponin/tropomyosin shift → cross-bridge cycling; relaxation when Ca²⁺ is pumped back into SR. d) Tension is maximal at optimal resting length (best actin–myosin overlap) and falls when the muscle is stretched or shortened.",
+  "explanation": "## Advanced explanation\n\nThe same principle underlies the Frank–Starling law in cardiac muscle, which normally operates on the ascending limb of its length–tension curve. Rigor mortis results from lack of ATP to detach cross-bridges.\n\n## Simplified explanation\n\nThe muscle signal releases calcium, which lets myosin grab actin and pull. Pumping calcium back relaxes it. Muscles pull hardest at their normal resting length.",
+  "hint": "Calcium switch; filament overlap.",
+  "difficulty": "hard",
+  "marks": 12,
+  "tags": [
+   "Muscle Physiology",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 3: Sensory physiology (1).**\n\na) State the 5 special senses and the *specific* sensory organ for each.\n\nb) Explain the sensory mechanism of salty and sweet taste modalities.\n\nc) What is ageusia? List five causes of ageusia.",
+  "media": [],
+  "answer": "a)\n\n| Sense | Specific sensory organ |\n|---|---|\n| Vision | Retina (rods and cones) of the eye |\n| Hearing | Organ of Corti (cochlea) |\n| Equilibrium (balance) | Vestibular apparatus: semicircular canals (cristae), utricle and saccule (maculae) |\n| Taste (gustation) | Taste buds |\n| Smell (olfaction) | Olfactory epithelium (olfactory receptor neurons) |\n\nb) **Salty**: Na⁺ enters taste cells directly through **amiloride-sensitive epithelial Na⁺ channels (ENaC)** → depolarisation → voltage-gated Ca²⁺ entry → transmitter release onto afferent fibres. **Sweet**: sugars bind the **T1R2/T1R3 G protein-coupled receptor** → gustducin/PLCβ2 → IP₃ → Ca²⁺ release → **TRPM5** cation channel opens → depolarisation → ATP released (via CALHM1) onto afferent nerves.\n\nc) **Ageusia** = complete loss of taste. Causes (any five): damage to the facial (chorda tympani) or glossopharyngeal nerves (surgery, Bell's palsy, trauma), head injury, viral infections (e.g. COVID-19, upper respiratory infections), radiotherapy to head and neck, drugs (e.g. chemotherapy, ACE inhibitors, metronidazole), zinc deficiency, vitamin B12 deficiency, smoking, diabetes, ageing, Sjögren's syndrome/dry mouth, brainstem or thalamic lesions.\n\n> [!answer]\n> a) Vision–retina; hearing–organ of Corti; balance–vestibular apparatus; taste–taste buds; smell–olfactory epithelium. b) Salt: Na⁺ via ENaC; sweet: T1R2/T1R3 GPCR → IP₃/Ca²⁺ → TRPM5. c) Loss of taste; e.g. nerve injury, infection, radiotherapy, drugs, zinc deficiency.",
+  "explanation": "## Advanced explanation\n\nHypogeusia (reduced taste) and dysgeusia (distorted taste) are more common than complete ageusia. Much of 'flavour' is actually retronasal smell.\n\n## Simplified explanation\n\nThe five senses each have their own organ. Salt gets in through sodium channels; sugar works through a receptor and second messengers. Ageusia means no taste.",
+  "hint": "Special senses.",
+  "difficulty": "medium",
+  "marks": 12,
+  "tags": [
+   "Special Senses",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 3 (continued).**\n\nd) What main olfactory processing occurs in the olfactory bulb?\n\ne) State the neocortical areas that process signals for each of the senses of taste and smell.",
+  "media": [],
+  "answer": "d) In the olfactory bulb, axons of all olfactory receptor neurons expressing the **same odorant receptor converge onto the same glomeruli** (~2 per receptor type), sorting signals into an **odour map**. In the glomeruli they synapse with **mitral and tufted cells**; **periglomerular and granule cells** provide **lateral inhibition**, sharpening contrast between odours, amplifying weak signals (convergence) and allowing centrifugal modulation, before output travels in the olfactory tract.\n\ne)\n- **Taste**: primary gustatory cortex in the **anterior insula and frontal operculum** (Brodmann 43, near the face area of the somatosensory cortex), relayed via the nucleus of the tractus solitarius and the VPM nucleus of the thalamus; flavour integration in the orbitofrontal cortex.\n- **Smell**: primary olfactory cortex in the **piriform cortex** (with amygdala, entorhinal cortex: no obligatory thalamic relay); conscious discrimination in the **orbitofrontal cortex** (via the mediodorsal thalamus).\n\n> [!answer]\n> d) Sorting of like receptor inputs into glomeruli, with lateral inhibition/convergence by mitral, tufted and granule cells. e) Taste: insula/frontal operculum (and orbitofrontal); smell: piriform cortex and orbitofrontal cortex.",
+  "explanation": "## Advanced explanation\n\nOlfaction is the only sense reaching the cortex without first passing through the thalamus, and its links to the amygdala and hippocampus explain strong odour-evoked emotions and memories.\n\n## Simplified explanation\n\nThe olfactory bulb groups signals from the same kind of smell receptor together and sharpens them. Taste goes to the insula; smell to the piriform and orbitofrontal cortex.",
+  "hint": "Glomeruli.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Special Senses",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 4: Sensory physiology (2).**\n\na) State why the human retina is described as \"inverted\".\n\nb) Explain the role of the iris in pupillary reflexes. Describe the pathway that the pupillary reflex will trace when someone is in a dimly lit environment.",
+  "media": [],
+  "answer": "a) Light must pass through the **inner layers** (ganglion cells, bipolar cells, blood vessels) before reaching the **photoreceptors**, which lie in the **outermost layer** against the pigment epithelium, facing away from the light. (In the fovea the inner layers are displaced to reduce this.)\n\nb) The iris controls **pupil diameter** and hence the amount of light entering and depth of focus: **sphincter (circular) pupillae** (parasympathetic, CN III) constricts; **dilator (radial) pupillae** (sympathetic) dilates.\n\n**Dim light (pupillary dilation):** less light on the retina → reduced firing of retinal ganglion cells (including melanopsin ipRGCs) → optic nerve → optic chiasm → optic tract → **pretectal nucleus** → reduced excitation of **Edinger–Westphal nuclei** (both sides) → less parasympathetic outflow via the oculomotor nerve and ciliary ganglion → sphincter pupillae relaxes; in addition **sympathetic** pathway (hypothalamus → ciliospinal centre T1 → superior cervical ganglion → long ciliary nerves) contracts the **dilator pupillae** → **mydriasis** (pupils dilate) to admit more light.\n\n> [!answer]\n> a) Photoreceptors face away from the light, behind the other retinal layers. b) The iris adjusts pupil size; in dim light reduced retinal input → pretectum → reduced Edinger–Westphal (parasympathetic) output, plus sympathetic activation of the dilator → pupils dilate.",
+  "explanation": "## Advanced explanation\n\nThe pigment epithelium behind the photoreceptors absorbs stray light and recycles retinal, which is one functional reason for the arrangement. The consensual reflex occurs because each pretectal nucleus projects to both Edinger–Westphal nuclei.\n\n## Simplified explanation\n\nLight goes through the retina's wiring before hitting the receptors at the back. In the dark, less light means less parasympathetic signal and more sympathetic signal, so the pupil widens.",
+  "hint": "Photoreceptors at the back.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Special Senses",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 4 (continued).**\n\nc) Describe the transduction of light signals in rod photoreceptor cells.\n\nd) State the condition that will result from transection of (1) the optic chiasm (2) the left optic nerve (3) the left optic tract.",
+  "media": [],
+  "answer": "c) Rod phototransduction:\n1. **Dark**: high **cGMP** keeps cGMP-gated cation channels open → **dark current** (Na⁺/Ca²⁺ influx) → rod depolarised (~ −40 mV) → continuous **glutamate release**.\n2. **Light**: a photon isomerises **11-cis-retinal → all-trans-retinal** in **rhodopsin** → metarhodopsin II (activated).\n3. Activated rhodopsin activates the G protein **transducin**, which activates **cGMP phosphodiesterase (PDE6)**.\n4. PDE hydrolyses cGMP → cGMP falls → channels **close** → rod **hyperpolarises** (towards −70 mV) → **less glutamate** released → bipolar cells respond (ON cells depolarise, OFF cells hyperpolarise) → ganglion cell signals.\n5. Recovery: rhodopsin kinase and arrestin inactivate rhodopsin; low Ca²⁺ stimulates guanylyl cyclase to restore cGMP; retinal is recycled via the pigment epithelium.\n\nd)\n1. **Optic chiasm**: **bitemporal (heteronymous) hemianopia** (loss of both temporal visual fields).\n2. **Left optic nerve**: **blindness (anopia) of the left eye**.\n3. **Left optic tract**: **right homonymous hemianopia** (loss of the right half of the visual field of both eyes).\n\n> [!answer]\n> c) Light → rhodopsin (retinal isomerisation) → transducin → PDE → ↓cGMP → channels close → hyperpolarisation → ↓glutamate release. d) Bitemporal hemianopia; left monocular blindness; right homonymous hemianopia.",
+  "explanation": "## Advanced explanation\n\nThe amplification cascade lets a single photon close hundreds of channels, so rods can detect single photons. Lesions behind the chiasm always produce homonymous (contralateral) defects.\n\n## Simplified explanation\n\nLight flips retinal, a cascade lowers cGMP, channels close and the rod becomes more negative. Cutting the chiasm loses outer fields; one optic nerve blinds that eye; one optic tract loses the opposite half-field.",
+  "hint": "Hyperpolarising receptor.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Special Senses",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 4 (continued).**\n\ne) Distinguish between loudness and pitch. Indicate how each is encoded in the sensory signal sent to the brain.\n\nf) Describe the sensory transduction of hair cells in the semicircular canals.",
+  "media": [],
+  "answer": "e) **Pitch** is the perceived **frequency** of sound (Hz); **loudness** is the perceived **intensity/amplitude** (dB).\n- Pitch is encoded mainly by **place** (tonotopy): each frequency maximally vibrates a particular region of the basilar membrane (high at the base, low at the apex), so specific hair cells and nerve fibres are activated; low frequencies also by **volley/frequency** coding (phase-locked firing).\n- Loudness is encoded by the **rate of firing** of auditory nerve fibres and the **number of fibres recruited** (larger vibration activates more hair cells, including high-threshold fibres).\n\nf) In each **ampulla**, hair cells on the **crista ampullaris** project stereocilia and a single **kinocilium** into the gelatinous **cupula**. Angular acceleration of the head makes the **endolymph lag** (inertia), deflecting the cupula. Bending stereocilia **towards the kinocilium** opens **mechanically gated (tip-link) K⁺ channels** → K⁺ enters from K⁺-rich endolymph → depolarisation → Ca²⁺ entry → more transmitter → **increased firing** of vestibular nerve fibres; bending away hyperpolarises and decreases firing (below the tonic resting rate). During constant rotation the cupula returns and firing normalises; on stopping, the opposite deflection occurs.\n\n> [!answer]\n> e) Pitch = frequency (place on basilar membrane); loudness = intensity (firing rate and number of fibres). f) Rotation → endolymph lags → cupula bends stereocilia → toward kinocilium opens K⁺ channels (depolarise, ↑firing), away hyperpolarises.",
+  "explanation": "## Advanced explanation\n\nPaired canals on each side work in a push–pull manner, giving direction sensitivity; their output drives the vestibulo-ocular reflex.\n\n## Simplified explanation\n\nPitch is how high or low a sound is (which part of the membrane vibrates); loudness is how strong (how fast and how many nerves fire). Turning the head bends the hair cells in the canals and changes their firing.",
+  "hint": "Frequency vs amplitude; cupula.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Special Senses",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 5: Hypoglycaemia.** Mensa Kodie is a 57-year-old man with type II DM and alcoholism, brought to the emergency room with headache, confusion and abnormal behaviour. He had hardly eaten for prolonged periods because he was being 'careful' with his diet. Earlier in the day he had anxiety, muscle tremor and wet skin, which worsened over a few hours. His blood glucose was 45 mg/100 mL; hypoglycaemia was diagnosed and he improved after glucagon injection and IV glucose.\n\na) What four important tissue types are important in energy metabolism?\n\nb) List 4 pancreatic hormones and indicate the specific islet cell type that produces each.\n\nc) What is hypoglycaemia?",
+  "media": [],
+  "answer": "a) **Liver, adipose tissue, skeletal muscle and brain**.\n\nb)\n\n| Hormone | Islet cell |\n|---|---|\n| Insulin (and amylin) | **β (beta) cells** |\n| Glucagon | **α (alpha) cells** |\n| Somatostatin | **δ (delta) cells** |\n| Pancreatic polypeptide | **F (PP) cells** |\n| (Ghrelin) | (ε cells) |\n\nc) **Hypoglycaemia** is an abnormally low blood glucose concentration, generally **< 70 mg/dL (3.9 mmol/L)**, with symptoms usually appearing **< ~50–55 mg/dL (≈ 3 mmol/L)** (Whipple's triad: low glucose, symptoms, relief by glucose).\n\n> [!answer]\n> a) Liver, adipose, muscle, brain. b) Insulin–β, glucagon–α, somatostatin–δ, pancreatic polypeptide–F (PP). c) Blood glucose below normal (< ~70 mg/dL; symptomatic < ~50 mg/dL).",
+  "explanation": "## Advanced explanation\n\nThe liver stores and releases glucose, adipose tissue stores fat, muscle uses and stores fuel, and the brain is the obligate glucose consumer whose needs drive counter-regulation.\n\n## Simplified explanation\n\nLiver, fat, muscle and brain manage energy. β-cells make insulin, α glucagon, δ somatostatin, F pancreatic polypeptide. Hypoglycaemia = low blood sugar.",
+  "hint": "Four tissues, four islet hormones.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Endocrinology",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 5 (continued).** f) Outline the roles of insulin and glucagon in the maintenance of glucose homeostasis. h) Explain the mechanism of insulin release from pancreatic β-cells.",
+  "media": [],
+  "answer": "**f) Insulin vs glucagon:**\n\n| | Insulin (fed state; β-cells) | Glucagon (fasting; α-cells) |\n|---|---|---|\n| Stimulus | ↑blood glucose, amino acids, GIP/GLP-1, vagus | ↓blood glucose, amino acids, sympathetic |\n| Liver | ↑glycogenesis (glycogen synthase), ↑glycolysis, ↓glycogenolysis and gluconeogenesis, ↑lipogenesis | ↑glycogenolysis (phosphorylase), ↑gluconeogenesis, ↑ketogenesis, ↓glycogenesis |\n| Muscle | ↑GLUT4 glucose uptake, glycogen and protein synthesis | (little effect) |\n| Adipose | ↑GLUT4 uptake, ↑TAG storage, ↓lipolysis (inhibits hormone-sensitive lipase) | ↑lipolysis |\n| Net | **Lowers** blood glucose | **Raises** blood glucose |\n\nThe two act reciprocally (bihormonal control, insulin:glucagon ratio), with negative feedback by blood glucose keeping fasting glucose at ~70–100 mg/dL.\n\n**h) Insulin release:**\n1. Glucose enters β-cells through **GLUT2** (GLUT1 in humans).\n2. **Glucokinase** phosphorylates it (glucose sensor); glycolysis and oxidation raise **ATP/ADP ratio**.\n3. ATP closes **ATP-sensitive K⁺ (K_ATP) channels** (Kir6.2/SUR1).\n4. Reduced K⁺ efflux **depolarises** the membrane.\n5. **Voltage-gated Ca²⁺ channels** open; Ca²⁺ enters.\n6. Ca²⁺ triggers **exocytosis** of insulin granules (biphasic: rapid first phase from docked granules, then sustained second phase).\n7. Amplified by incretins (GLP-1, GIP via cAMP) and acetylcholine; inhibited by somatostatin and adrenaline (α2).\n\n> [!answer]\n> f) Insulin lowers glucose (uptake via GLUT4, glycogen and fat storage, inhibits hepatic glucose output); glucagon raises it (glycogenolysis, gluconeogenesis, lipolysis, ketogenesis); they act reciprocally. h) Glucose → GLUT2 → glucokinase → ↑ATP → K_ATP channels close → depolarisation → Ca²⁺ influx → insulin exocytosis.",
+  "explanation": "## Advanced explanation\n\nSulphonylureas act by closing K_ATP channels (binding SUR1), which is why they can cause hypoglycaemia when food intake falls, as in this patient.\n\n## Simplified explanation\n\nInsulin stores sugar and lowers blood glucose; glucagon releases sugar and raises it. In β-cells, more glucose means more ATP, which shuts K⁺ channels, lets Ca²⁺ in and releases insulin.",
+  "hint": "ATP-sensitive K⁺ channel.",
+  "difficulty": "hard",
+  "marks": 15,
+  "tags": [
+   "Endocrinology",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 5 (continued).** g) State the mechanism of uptake of glucose by the following tissue types: (i) epithelia of intestine and renal tubule (ii) blood cells (iii) brain (iv) skeletal muscle (v) liver (vi) fat cells (vii) cornea and lens of eye. i) Describe GLUT-4 recruitment into the cell membrane by insulin action.",
+  "media": [],
+  "answer": "g)\n\n| Tissue | Mechanism | Insulin-sensitive? |\n|---|---|---|\n| (i) Intestinal and renal tubular epithelium | **Secondary active transport** (Na⁺–glucose co-transport, SGLT1/SGLT2), exit by GLUT2 | No |\n| (ii) Blood cells (RBCs, leucocytes) | **Facilitated diffusion** (GLUT1) | No |\n| (iii) Brain | **Facilitated diffusion** (GLUT1 at BBB, GLUT3 in neurons) | No |\n| (iv) Skeletal (and cardiac) muscle | **Facilitated diffusion via GLUT4** | **Yes** |\n| (v) Liver | **Facilitated diffusion** (GLUT2) | No |\n| (vi) Fat cells | **Facilitated diffusion via GLUT4** | **Yes** |\n| (vii) Cornea and lens | **Facilitated diffusion** (GLUT1) | No |\n\ni) GLUT-4 recruitment:\n1. **Insulin binds its receptor** (a tyrosine kinase) on the cell membrane.\n2. Receptor autophosphorylation phosphorylates **IRS proteins** → **PI3-kinase → Akt (PKB)** signalling cascade.\n3. This promotes movement of **GLUT-4-containing intracellular vesicles** to the cell membrane, where they **fuse** (exocytosis), inserting GLUT-4.\n4. GLUT-4 increases **glucose uptake** by facilitated diffusion.\n5. When insulin levels fall, GLUT-4 is **retrieved by endocytosis** into endosomes/storage vesicles and recycled. (Exercise also recruits GLUT-4 via AMPK, insulin-independently.)\n\n> [!answer]\n> g) Intestine/kidney: Na⁺-glucose co-transport; muscle and fat: insulin-dependent GLUT4; RBCs, brain, liver, cornea/lens: insulin-independent facilitated diffusion (GLUT1/2/3). i) Insulin → receptor → IRS–PI3K–Akt → GLUT4 vesicles fuse with membrane → glucose uptake; GLUT4 recycled by endocytosis when insulin falls.",
+  "explanation": "## Advanced explanation\n\nInsulin-independent tissues (lens, nerves, RBCs, kidney) accumulate sorbitol in chronic hyperglycaemia, contributing to diabetic cataract, neuropathy and nephropathy.\n\n## Simplified explanation\n\nGut and kidney pump glucose in with sodium; muscle and fat need insulin to bring GLUT4 doors to the surface; brain, blood cells, liver and eye let glucose in without insulin.",
+  "hint": "Insulin-sensitive vs insensitive.",
+  "difficulty": "hard",
+  "marks": 12,
+  "tags": [
+   "Endocrinology",
+   "Tutorial (MLS 206)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**Case 6: Cushing's syndrome.** JK is a 15-year-old boy with a pituitary tumour. He gained weight very rapidly over several months without a significant change in diet. On examination there was a fatty hump between his shoulders, pink stretch marks on his abdomen and chest, and a rounded face. His laboratory report indicated hyperglycaemia and protein deficiency. The doctor explained that overproduction of a hormone by the tumour was affecting the way his adrenal glands worked; the best treatment was surgical removal of the tumour.\n\na) What condition does JK suffer?\n\nb) What is the most likely cause of his symptoms?\n\nc) What is the cause of JK's physical presentation (weight gain, buffalo hump and moon face)?\n\nd) Explain the anomalies in JK's lab report, i.e. hyperglycaemia and protein deficiency.",
+  "media": [],
+  "answer": "a) **Cushing's disease** (Cushing's syndrome due to an ACTH-secreting pituitary adenoma).\n\nb) The pituitary tumour **over-secretes ACTH**, which stimulates the adrenal cortex (zona fasciculata/reticularis) to over-produce **cortisol** (hypercortisolism), with bilateral adrenal hyperplasia.\n\nc) Excess cortisol causes **redistribution of fat**: increased appetite and lipogenesis in central/truncal areas (face, interscapular region, abdomen) with mobilisation from the limbs, giving **central obesity, moon face and buffalo hump**. **Striae** arise from protein (collagen) breakdown making the skin thin and fragile, so it tears as the abdomen enlarges (pink/purple because thin skin shows the vessels).\n\nd) **Hyperglycaemia**: cortisol stimulates **hepatic gluconeogenesis** (induces PEPCK, glucose-6-phosphatase) and **reduces peripheral glucose uptake** (insulin antagonism) → 'adrenal diabetes'. **Protein deficiency**: cortisol promotes **protein catabolism** in muscle, skin, bone and lymphoid tissue (to supply amino acids for gluconeogenesis) and reduces protein synthesis → low tissue protein, muscle wasting, thin skin, osteoporosis.\n\n> [!answer]\n> a) Cushing's disease. b) ACTH-secreting pituitary tumour → excess cortisol. c) Cortisol-driven central fat redistribution (moon face, buffalo hump) and protein loss (striae). d) Cortisol increases gluconeogenesis and insulin resistance (hyperglycaemia) and breaks down protein.",
+  "explanation": "## Advanced explanation\n\nDiagnosis: raised 24-h urinary free cortisol or late-night salivary cortisol, failed low-dose dexamethasone suppression, raised ACTH; high-dose dexamethasone usually suppresses a pituitary source. Treatment: trans-sphenoidal surgery.\n\n## Simplified explanation\n\nToo much ACTH from the tumour makes the adrenals pour out cortisol, which moves fat to the face and back, breaks down protein and raises blood sugar.",
+  "hint": "ACTH → cortisol.",
+  "difficulty": "medium",
+  "marks": 12,
+  "tags": [
+   "Endocrinology",
+   "Tutorial (MLS 206)"
+  ]
+ }
+]

@@ -1,0 +1,1020 @@
+[
+ {
+  "type": "choice",
+  "body": "In a certain population of hospital patients the probability is **0.35** that a randomly selected patient will have heart disease. The probability is **0.86** that a patient with heart disease is a smoker. What is the probability that a patient randomly selected from the population will be **a smoker and have heart disease**?",
+  "options": [
+   {
+    "text": "0.301",
+    "hint": "Correct. $P(H \\cap S) = P(H)\\times P(S|H) = 0.35 \\times 0.86 = 0.301$."
+   },
+   {
+    "text": "0.140",
+    "hint": "This is not obtained from the given probabilities."
+   },
+   {
+    "text": "0.510",
+    "hint": "This would be the sum-type answer; the question asks for a joint probability."
+   },
+   {
+    "text": "0.650",
+    "hint": "This is $1 - 0.35$, the probability of not having heart disease."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Use the multiplication rule with the conditional probability given.",
+  "explanation": "## Advanced explanation\n\nThe multiplication rule for dependent events is $P(A \\cap B) = P(A)\\,P(B|A)$. Here $P(\\text{heart disease}) = 0.35$ and $P(\\text{smoker}\\mid\\text{heart disease}) = 0.86$, so\n\n$$P(\\text{smoker and heart disease}) = 0.35 \\times 0.86 = 0.301.$$\n\nNote that the events are **not independent** — the 0.86 is conditional on having heart disease — so $P(A)\\times P(B)$ would be wrong unless independence were stated.\n\n## Simplified explanation\n\n35% of patients have heart disease, and 86% of those are smokers. So $0.35 \\times 0.86 = \\mathbf{0.301}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Given a random start $m$ ($m \\le k$), sampling interval $k$ and sample size $n$, the sample selected by **systematic sampling** comprises units whose serial numbers are $m,\\ m+k,\\ m+2k,\\ m+3k,\\ \\dots,\\ m+(r-1)k,\\ \\dots,\\ m+(n-1)k$, where $r$ is the serial number of the $r^{th}$ element.\n\nWhat will be the serial number of the **200th student** selected from a population of 2000 students if the random start is **5**, the sample size is **200** and the sampling interval is **10**?",
+  "options": [
+   {
+    "text": "195",
+    "hint": "This uses the interval as if it were the position; it ignores the formula."
+   },
+   {
+    "text": "205",
+    "hint": "This would be $5 + 200$, which does not follow the formula."
+   },
+   {
+    "text": "1995",
+    "hint": "Correct. $m+(r-1)k = 5 + (200-1)\\times10 = 5 + 1990 = 1995$."
+   },
+   {
+    "text": "1985",
+    "hint": "This is $5 + 198\\times10$, i.e. the 199th element."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Substitute $m = 5$, $k = 10$ and $r = 200$ into $m+(r-1)k$.",
+  "explanation": "## Advanced explanation\n\nSystematic sampling takes every $k^{th}$ unit after a random start, where $k = N/n = 2000/200 = 10$. The $r^{th}$ selected unit has serial number\n\n$$m + (r-1)k = 5 + (200-1)\\times 10 = 5 + 1990 = \\mathbf{1995}.$$\n\nThe last selected unit is therefore 1995, which is within the population of 2000, as it must be. Systematic sampling is simple and spreads the sample evenly over the frame, but it is biased if the frame has a **periodicity** that coincides with $k$.\n\n## Simplified explanation\n\nStart at 5 and add 10 each time. The 200th one is $5 + 199\\times10 = \\mathbf{1995}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Sampling Methods",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If the probability of **left-handedness** in a certain group of people is **0.05**, what is the probability of **right-handedness** (assuming no ambidexterity)?",
+  "options": [
+   {
+    "text": "0.050",
+    "hint": "This is the probability of left-handedness itself."
+   },
+   {
+    "text": "0.095",
+    "hint": "This is not the complement of 0.05."
+   },
+   {
+    "text": "0.500",
+    "hint": "There is no reason for handedness to be equally likely."
+   },
+   {
+    "text": "0.950",
+    "hint": "Correct. $P(\\text{right}) = 1 - P(\\text{left}) = 1 - 0.05 = 0.95$."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The two events are complementary and exhaust all possibilities.",
+  "explanation": "## Advanced explanation\n\nIf ambidexterity is excluded, left- and right-handedness are **mutually exclusive and collectively exhaustive**, so they form a complementary pair:\n\n$$P(\\text{right}) = 1 - P(\\text{left}) = 1 - 0.05 = \\mathbf{0.950}.$$\n\nThis is the complement rule, $P(A') = 1 - P(A)$, one of the axioms of probability.\n\n## Simplified explanation\n\nEveryone is either left- or right-handed, and all the probabilities must add up to 1. So $1 - 0.05 = \\mathbf{0.95}$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Probability",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If a quiz was very easy **except for a few students who had very low scores**, then the distribution of scores would be …",
+  "options": [
+   {
+    "text": "normal",
+    "hint": "A normal distribution is symmetrical, with no long tail on either side."
+   },
+   {
+    "text": "negatively skewed",
+    "hint": "Correct. Most scores are high and a few very low scores pull the long tail to the left."
+   },
+   {
+    "text": "positively skewed",
+    "hint": "Positive skew has the long tail to the right — a few unusually HIGH values."
+   },
+   {
+    "text": "symmetric",
+    "hint": "A few extreme low scores destroy symmetry."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which side is the long tail on when a few scores are very low?",
+  "explanation": "## Advanced explanation\n\nSkewness is named for the direction of the **long tail**. An easy quiz piles most of the scores up at the high end; the handful of very low scores forms a long tail stretching to the **left (negative) side**, so the distribution is **negatively (left) skewed**. In such a distribution **mean < median < mode**, because the mean is dragged down by the extreme low values while the mode stays at the high peak.\n\n## Simplified explanation\n\nNearly everyone scored high, but a few scored very low. The 'tail' points to the **left**, so it is **negatively skewed**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Descriptive Statistics",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If **kurtosis is greater than three (3)**, the distribution is said to be …",
+  "options": [
+   {
+    "text": "Keptokurtic",
+    "hint": "Not a statistical term — a misspelling distractor."
+   },
+   {
+    "text": "Leptokurtic",
+    "hint": "Correct. Kurtosis > 3 means a sharper peak and heavier tails than the normal distribution."
+   },
+   {
+    "text": "Mesokurtic",
+    "hint": "Mesokurtic means kurtosis exactly equal to 3 — the normal distribution."
+   },
+   {
+    "text": "Platykurtic",
+    "hint": "Platykurtic means kurtosis less than 3 — a flatter peak with thinner tails."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think 'lepto' = slender/peaked, 'platy' = flat, 'meso' = middle.",
+  "explanation": "## Advanced explanation\n\nKurtosis measures the **peakedness and tail weight** of a distribution relative to the normal. The normal distribution has kurtosis $\\beta_2 = 3$ (**mesokurtic**, excess kurtosis 0). A distribution with **kurtosis > 3 is leptokurtic** — a sharper, taller peak and heavier tails, so extreme values are more likely than in a normal distribution (e.g. the t-distribution). **Kurtosis < 3 is platykurtic** — flat-topped with thin tails (e.g. the uniform distribution).\n\n## Simplified explanation\n\nMore than 3 = **leptokurtic** (tall and pointed). Exactly 3 = mesokurtic (normal). Less than 3 = platykurtic (flat).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Descriptive Statistics",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The **predictive value positive** of a screening test (or symptom) is the probability …",
+  "options": [
+   {
+    "text": "of a negative test result (or absence of the symptom) given the absence of the disease",
+    "hint": "This is specificity, not predictive value positive."
+   },
+   {
+    "text": "of a positive test result (or presence of the symptom) given the presence of the disease",
+    "hint": "This is sensitivity."
+   },
+   {
+    "text": "that a subject does not have the disease, given that the subject has a negative screening test result (or does not have the symptom)",
+    "hint": "This is the predictive value NEGATIVE."
+   },
+   {
+    "text": "that a subject has the disease given that the subject has a positive screening test result (or has the symptom)",
+    "hint": "Correct. PVP = P(disease | test positive)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Predictive values are conditioned on the test result, not on the disease.",
+  "explanation": "## Advanced explanation\n\nFor a 2×2 table of test result against true disease status:\n\n| | Disease + | Disease − |\n|---|---|---|\n| **Test +** | TP | FP |\n| **Test −** | FN | TN |\n\n- **Sensitivity** $= P(T^{+}\\mid D^{+}) = \\dfrac{TP}{TP+FN}$\n- **Specificity** $= P(T^{-}\\mid D^{-}) = \\dfrac{TN}{TN+FP}$\n- **Predictive value positive** $= P(D^{+}\\mid T^{+}) = \\dfrac{TP}{TP+FP}$\n- **Predictive value negative** $= P(D^{-}\\mid T^{-}) = \\dfrac{TN}{TN+FN}$\n\nSensitivity and specificity are properties of the test; **predictive values also depend on the prevalence** of the disease in the population tested, which is why the same test has a poor PVP when used to screen a low-prevalence population.\n\n## Simplified explanation\n\nIt answers the patient's question: **'my test is positive — do I really have the disease?'**",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Screening Tests",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The following data show the ages of diabetic patients in a hospital.\n\n| Ages of patients | Frequency |\n|---|---|\n| 5 – 9 | 2 |\n| 10 – 14 | 3 |\n| 15 – 19 | 4 |\n| 20 – 24 | 3 |\n\nThe **class width** for this distribution is …",
+  "options": [
+   {
+    "text": "4",
+    "hint": "9 − 5 = 4 is the difference between the stated limits, but the class width includes both end values."
+   },
+   {
+    "text": "7",
+    "hint": "7 is the class mid-point of the first class, not the width."
+   },
+   {
+    "text": "varies from class to class",
+    "hint": "Every class here spans the same number of ages, so the width is constant."
+   },
+   {
+    "text": "5",
+    "hint": "Correct. Each class covers five ages (5,6,7,8,9), i.e. width = lower limit of the next class − lower limit of this class = 10 − 5 = 5."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Count how many ages fall in the class 5–9, or subtract successive lower limits.",
+  "explanation": "## Advanced explanation\n\nFor a grouped frequency distribution the **class width** is the difference between successive lower class limits, or equivalently between the upper and lower **class boundaries**. Here the lower limits are 5, 10, 15, 20, so the width is $10-5 = \\mathbf{5}$. Using boundaries, 4.5 to 9.5 also gives 5. Subtracting the stated limits ($9-5=4$) is the classic error: it omits one of the end values.\n\n## Simplified explanation\n\nThe class 5–9 contains the ages 5, 6, 7, 8 and 9 — that is **5** ages. All the classes are the same, so the width is 5.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Using the same distribution of ages of diabetic patients (5–9: 2; 10–14: 3; 15–19: 4; 20–24: 3), the number of patients who are **14 years or less** is …",
+  "options": [
+   {
+    "text": "5",
+    "hint": "Correct. 2 patients aged 5–9 plus 3 aged 10–14 gives 5."
+   },
+   {
+    "text": "3",
+    "hint": "This is only the 10–14 class; the 5–9 class must be added."
+   },
+   {
+    "text": "9",
+    "hint": "This would include the 15–19 class, whose members are over 14."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Add the frequencies of all classes up to and including 10–14.",
+  "explanation": "## Advanced explanation\n\n'14 years or less' means the **cumulative frequency** up to the upper boundary of the 10–14 class:\n\n$$2 + 3 = \\mathbf{5}\\ \\text{patients}.$$\n\nA 'less than' cumulative frequency is always read at the **upper class boundary**, here 14.5 years.\n\n## Simplified explanation\n\n2 patients are aged 5–9 and 3 are aged 10–14, so $2+3 = \\mathbf{5}$ are 14 or younger.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Using the same distribution of ages of diabetic patients (5–9: 2; 10–14: 3; 15–19: 4; 20–24: 3), the **cumulative relative frequency** for the class **15 – 19** is …",
+  "options": [
+   {
+    "text": "0.33",
+    "hint": "0.33 is the relative frequency of the class 15–19 alone (4/12), not the cumulative value."
+   },
+   {
+    "text": "1.00",
+    "hint": "1.00 is reached only at the last class, 20–24."
+   },
+   {
+    "text": "3.00",
+    "hint": "A relative frequency can never exceed 1."
+   },
+   {
+    "text": "0.75",
+    "hint": "Correct. Cumulative frequency to 19 is 2+3+4 = 9, and 9/12 = 0.75."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Add the frequencies up to 15–19 and divide by the total.",
+  "explanation": "## Advanced explanation\n\nTotal frequency $N = 2+3+4+3 = 12$. The cumulative frequency up to and including the class 15–19 is $2+3+4 = 9$, so the **cumulative relative frequency** is\n\n$$\\frac{9}{12} = 0.75\\ (75\\%).$$\n\nCumulative relative frequency always rises from 0 to 1 across the distribution; it is what is plotted as the **ogive**.\n\n## Simplified explanation\n\n9 of the 12 patients are aged 19 or less, and $9 \\div 12 = \\mathbf{0.75}$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an example of **discrete data**?",
+  "options": [
+   {
+    "text": "Amount of time spent playing computer games",
+    "hint": "Time is measured on a continuous scale and can take any value."
+   },
+   {
+    "text": "Circumference of Ghanaian women's wrists",
+    "hint": "A circumference is a continuous measurement."
+   },
+   {
+    "text": "Length of elephant tusks",
+    "hint": "Length is continuous."
+   },
+   {
+    "text": "Total number of phone calls made in a week",
+    "hint": "Correct. A count of calls can only take whole-number values."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one can only be a whole number?",
+  "explanation": "## Advanced explanation\n\n**Discrete** variables arise from **counting** and take only isolated (usually integer) values — number of calls, number of admissions, parity, number of malaria parasites per field. **Continuous** variables arise from **measurement** on a scale and can take any value within a range, limited only by the precision of the instrument — time, length, circumference, weight, haemoglobin concentration. The distinction determines which probability distribution applies (binomial/Poisson versus normal) and how the data should be displayed (bar chart versus histogram).\n\n## Simplified explanation\n\nYou **count** phone calls (1, 2, 3 …) — that is **discrete**. You **measure** time, length and circumference, which can be any value — those are continuous.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Types of Data",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Which **probability sampling design** requires the researcher to determine the **sampling interval**?",
+  "options": [
+   {
+    "text": "Simple random sampling",
+    "hint": "Every unit is chosen entirely at random, by lottery or random numbers — no interval is used."
+   },
+   {
+    "text": "Multistage sampling",
+    "hint": "This samples in successive stages (regions → districts → facilities); no fixed interval is required."
+   },
+   {
+    "text": "Stratified sampling",
+    "hint": "The population is divided into strata and sampled within each; no interval is needed."
+   },
+   {
+    "text": "Systematic sampling",
+    "hint": "Correct. The interval $k = N/n$ is calculated and every kth unit is taken after a random start."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which method picks every kth unit?",
+  "explanation": "## Advanced explanation\n\nIn **systematic sampling** the sampling interval is $k = N/n$; a random start $m$ is chosen between 1 and $k$, and the units $m, m+k, m+2k, \\dots$ are selected. It is simple to apply in the field (every 5th patient attending a clinic) and spreads the sample evenly over the sampling frame, but it gives a **biased sample if the frame has a periodicity** that matches $k$, and strictly speaking only the first unit is randomly chosen.\n\n## Simplified explanation\n\n**Systematic sampling** — you work out the gap (e.g. every 10th person) and then take every 10th one after a random start.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sampling Methods",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The stages of a malignant disease are recorded using the symbols **X, IX, VIII, VII, VI**. We say that the **scale used** is …",
+  "options": [
+   {
+    "text": "ratio",
+    "hint": "A ratio scale has a true zero and allows meaningful ratios — stages do not."
+   },
+   {
+    "text": "nominal",
+    "hint": "Nominal categories have no order; disease stages are clearly ordered."
+   },
+   {
+    "text": "numerical",
+    "hint": "The symbols look numerical but they are only ranks; the gaps between stages are not equal."
+   },
+   {
+    "text": "ordinal",
+    "hint": "Correct. The stages have a meaningful order but the intervals between them are not equal or measurable."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Is there an order, and are the gaps between the values equal?",
+  "explanation": "## Advanced explanation\n\nThe four measurement scales are **nominal** (named categories only: blood group, sex), **ordinal** (ordered categories with unequal or unknown intervals: disease stage, pain score, social class), **interval** (equal intervals but arbitrary zero: temperature in °C) and **ratio** (equal intervals with a true zero: weight, height, serum sodium, temperature in kelvin). Disease stages are ranked — stage X is more advanced than stage VI — but the 'distance' between stages is not uniform, so they are **ordinal**. This determines the permissible statistics: the median and non-parametric tests, not the mean.\n\n## Simplified explanation\n\nThe stages are **in order**, but the step from one stage to the next is not a fixed, measurable amount — that makes the scale **ordinal**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Types of Data",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "A lecturer asked students in his class their ages. On the basis of this information the lecturer states that **the average age of all the students in the University is 21 years**. This is an example of …",
+  "options": [
+   {
+    "text": "a census",
+    "hint": "A census would require data from every student in the University, not one class."
+   },
+   {
+    "text": "an experiment",
+    "hint": "No intervention was applied, so this is not an experiment."
+   },
+   {
+    "text": "descriptive statistics",
+    "hint": "Describing the class would be descriptive; here a claim is made about the whole University."
+   },
+   {
+    "text": "statistical inference",
+    "hint": "Correct. A conclusion about the whole population is drawn from a sample."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Is a statement being made about the sample, or about the whole population?",
+  "explanation": "## Advanced explanation\n\n**Descriptive statistics** summarise the data actually collected (the class). **Inferential statistics** use sample data to draw conclusions about the **population** from which the sample came — which is exactly what the lecturer does when he extends his class's mean age to the whole University. (The inference here is a poor one, because one class is not a random sample of the University and is almost certainly unrepresentative — but it is still an inference.)\n\n## Simplified explanation\n\nHe measured **one class** but made a claim about **the whole University** — that is going beyond the data, i.e. **statistical inference**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Basic Concepts",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If a series of values consists of **11 numbers**, then, to find the median, we order the series ascending and use …",
+  "options": [
+   {
+    "text": "the 5th value in the ordered series",
+    "hint": "The 5th value leaves 4 below and 6 above — not the middle."
+   },
+   {
+    "text": "the 6th value in the ordered series",
+    "hint": "Correct. $(n+1)/2 = (11+1)/2 = 6$, so the 6th value is the median."
+   },
+   {
+    "text": "the mean between the 5th and 6th values",
+    "hint": "Averaging two values is needed only when n is even."
+   },
+   {
+    "text": "the mean between the 6th and 7th values",
+    "hint": "Again, averaging is only needed for an even number of observations."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Use the position formula $(n+1)/2$.",
+  "explanation": "## Advanced explanation\n\nFor $n$ ordered observations the median occupies position $\\dfrac{n+1}{2}$. With $n = 11$ this is $\\dfrac{12}{2} = 6$, so the **6th value** is the median; five values lie below it and five above. When $n$ is **even** the formula gives a half position, so the median is the **mean of the two middle values**. The median is preferred to the mean for skewed data because it is resistant to outliers.\n\n## Simplified explanation\n\nWith 11 numbers there is an exact middle one — the **6th**, with 5 on each side.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If a series of values consists of **21 numbers**, then, for finding the median, we order the series ascending and use …",
+  "options": [
+   {
+    "text": "the 11th value in the ordered series",
+    "hint": "Correct. $(21+1)/2 = 11$, so the 11th value is the median."
+   },
+   {
+    "text": "the 10th value in the ordered series",
+    "hint": "The 10th value leaves 9 below and 11 above."
+   },
+   {
+    "text": "the mean between the 10th and 11th values",
+    "hint": "Averaging is only needed when the number of observations is even."
+   },
+   {
+    "text": "the mean between the 11th and 12th values",
+    "hint": "Again, this applies only to an even-sized series."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "$(n+1)/2$ with $n = 21$.",
+  "explanation": "## Advanced explanation\n\nThe median position is $\\dfrac{n+1}{2} = \\dfrac{21+1}{2} = 11$. With an **odd** number of observations the median is a single data value — here the **11th** — with 10 observations on either side. The median is the 50th percentile (second quartile) and is the appropriate measure of central tendency for ordinal data and for skewed continuous data.\n\n## Simplified explanation\n\n21 numbers have one exact middle value: the **11th**, with 10 below and 10 above it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The **median** of a series of numerical values is …",
+  "options": [
+   {
+    "text": "a frequency table",
+    "hint": "A frequency table is a way of organising data, not a measure of central tendency."
+   },
+   {
+    "text": "a graph",
+    "hint": "A graph displays data; the median is a single summary value."
+   },
+   {
+    "text": "a number",
+    "hint": "Correct. The median is a single number — the middle value of the ordered data."
+   },
+   {
+    "text": "equal to the average",
+    "hint": "The median equals the mean only in a symmetrical distribution; in skewed data they differ."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "A measure of central tendency is a single summary value.",
+  "explanation": "## Advanced explanation\n\nThe median is a **measure of central tendency**: the value that divides an ordered set of observations into two equal halves (the 50th percentile). It is a single number expressed in the units of the variable. It is not the same as the arithmetic mean except in a perfectly symmetrical distribution; in a positively skewed distribution mean > median > mode, and in a negatively skewed one mean < median < mode.\n\n## Simplified explanation\n\nThe median is simply **one number** — the middle value — not a table or a graph, and not necessarily the same as the average.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Measures of Central Tendency",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If the **mean, median and mode** of a distribution are **5, 6 and 7** respectively, then the distribution is …",
+  "options": [
+   {
+    "text": "skewed negatively",
+    "hint": "Correct. Mean < median < mode indicates a long tail to the left (negative skew)."
+   },
+   {
+    "text": "skewed positively",
+    "hint": "Positive skew gives mean > median > mode."
+   },
+   {
+    "text": "symmetrical",
+    "hint": "In a symmetrical distribution the mean, median and mode coincide."
+   },
+   {
+    "text": "not skewed",
+    "hint": "The three measures differ, so the distribution is definitely skewed."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which way is the mean pulled relative to the mode?",
+  "explanation": "## Advanced explanation\n\nThe mean is the measure most affected by extreme values, so it is **dragged towards the tail**. Here mean (5) < median (6) < mode (7): the mean has been pulled **below** the mode, so the long tail lies to the **left** — the distribution is **negatively (left) skewed**. The empirical relationship $\\text{mean} - \\text{mode} \\approx 3(\\text{mean} - \\text{median})$ holds approximately for moderately skewed distributions; here $5-7 = -2$ and $3(5-6) = -3$, both negative, confirming negative skew.\n\n## Simplified explanation\n\nThe **mean is the smallest**, so the extreme values pulling it down must be on the **low side** — the tail points left, which is **negative skew**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Descriptive Statistics",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "A test of hypothesis of the form $H_0: \\mu \\le 50$ against $H_1: \\mu > 50$ leads to …",
+  "options": [
+   {
+    "text": "a two-tailed test",
+    "hint": "A two-tailed test is used when $H_1$ is $\\mu \\ne$ a value."
+   },
+   {
+    "text": "a symmetric test",
+    "hint": "Not a recognised category of test."
+   },
+   {
+    "text": "a left-tailed test",
+    "hint": "A left-tailed test corresponds to $H_1: \\mu <$ a value."
+   },
+   {
+    "text": "a right-tailed test",
+    "hint": "Correct. $H_1: \\mu > 50$ places the entire rejection region in the upper (right) tail."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Look at the direction of the inequality in the alternative hypothesis.",
+  "explanation": "## Advanced explanation\n\nThe **alternative hypothesis** determines the location of the rejection region. $H_1: \\mu > 50$ is **directional (one-sided)**, so the whole of $\\alpha$ is placed in the **upper tail**, and $H_0$ is rejected only for large positive test statistics (e.g. $Z > 1.645$ at $\\alpha = 0.05$). A one-tailed test has greater power to detect an effect in the specified direction, but it must be chosen **before** the data are seen, and it cannot detect an effect in the opposite direction.\n\n## Simplified explanation\n\nThe alternative says the mean is **greater than** 50, so you only look at the **right-hand (upper) end** of the distribution — a right-tailed test.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hypothesis Testing",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The probability associated with committing a **type-I error** is …",
+  "options": [
+   {
+    "text": "$1-\\beta$",
+    "hint": "$1-\\beta$ is the POWER of the test — the probability of correctly rejecting a false null hypothesis."
+   },
+   {
+    "text": "$1-\\alpha$",
+    "hint": "$1-\\alpha$ is the confidence level — the probability of correctly retaining a true null hypothesis."
+   },
+   {
+    "text": "$\\beta$",
+    "hint": "$\\beta$ is the probability of a type-II error — failing to reject a false null hypothesis."
+   },
+   {
+    "text": "$\\alpha$",
+    "hint": "Correct. $\\alpha$ is the significance level, the probability of rejecting a TRUE null hypothesis."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "It is the level of significance that you set before the test.",
+  "explanation": "## Advanced explanation\n\n| | $H_0$ true | $H_0$ false |\n|---|---|---|\n| **Reject $H_0$** | **Type I error ($\\alpha$)** | Correct (power, $1-\\beta$) |\n| **Do not reject $H_0$** | Correct ($1-\\alpha$) | **Type II error ($\\beta$)** |\n\nA **type-I error** is a **false positive** — rejecting a true null hypothesis — and its probability is the **significance level $\\alpha$**, fixed by the investigator (conventionally 0.05). Reducing $\\alpha$ reduces false positives but, for a given sample size, increases $\\beta$ and so reduces power.\n\n## Simplified explanation\n\nA type-I error is saying there **is** an effect when there is not. Its probability is the significance level, **α**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hypothesis Testing",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "A **failing student is passed** by an examiner. This is an example of …",
+  "options": [
+   {
+    "text": "unbiased decision",
+    "hint": "The decision is wrong, not unbiased."
+   },
+   {
+    "text": "false positive",
+    "hint": "A false positive corresponds to a type-I error — rejecting a true null hypothesis."
+   },
+   {
+    "text": "Type-I error",
+    "hint": "A type-I error would be failing a student who should have passed."
+   },
+   {
+    "text": "Type-II error",
+    "hint": "Correct. The null hypothesis (the student should fail / has not reached the standard) is false but is not rejected."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which error means accepting something that should have been rejected?",
+  "explanation": "## Advanced explanation\n\nTake $H_0$: *the student has not attained the pass standard* (i.e. should fail). The examiner **fails to reject a false $H_0$** — the student really is failing, yet is passed. That is a **type-II error ($\\beta$)**, a **false negative** in the sense that the deficiency was missed. The mirror case — failing a student who deserved to pass — would be a **type-I error**. In clinical terms, a type-II error is missing a disease that is present.\n\n## Simplified explanation\n\nThe student should have failed but was passed — the examiner **missed the problem**. Missing something that is really there is a **type-II error**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Hypothesis Testing",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The **critical region** is also called …",
+  "options": [
+   {
+    "text": "confidence region",
+    "hint": "Not a standard term; a confidence interval is a range of plausible parameter values."
+   },
+   {
+    "text": "statistical region",
+    "hint": "Not a statistical term."
+   },
+   {
+    "text": "acceptance region",
+    "hint": "The acceptance region is the complement of the critical region — where $H_0$ is retained."
+   },
+   {
+    "text": "rejection region",
+    "hint": "Correct. The critical region is the set of test-statistic values for which $H_0$ is rejected."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "What happens to the null hypothesis when the test statistic falls there?",
+  "explanation": "## Advanced explanation\n\nThe sampling distribution of the test statistic under $H_0$ is divided by the **critical value(s)** into the **acceptance (non-rejection) region** and the **critical or rejection region**. The area of the rejection region equals the significance level $\\alpha$ — for a two-tailed test at $\\alpha=0.05$, the regions beyond $Z = \\pm1.96$; for a one-tailed test, beyond $Z = 1.645$. If the computed statistic falls in the critical region, $H_0$ is rejected.\n\n## Simplified explanation\n\nIt is the part of the curve where, if your test statistic lands there, you **reject the null hypothesis** — hence the **rejection region**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Hypothesis Testing",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "A **formula or rule used for estimating the parameter** is called …",
+  "options": [
+   {
+    "text": "estimator",
+    "hint": "Correct. The estimator is the rule/formula, e.g. $\\bar{x} = \\sum x/n$."
+   },
+   {
+    "text": "interval estimate",
+    "hint": "An interval estimate is a range of values, such as a confidence interval."
+   },
+   {
+    "text": "estimation",
+    "hint": "Estimation is the process, not the formula."
+   },
+   {
+    "text": "estimate",
+    "hint": "An estimate is the numerical VALUE the formula produces for a particular sample."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Distinguish the rule from the number it produces.",
+  "explanation": "## Advanced explanation\n\n- **Estimator** — the rule or statistic used, a random variable (e.g. the sample mean $\\bar{X}$ as an estimator of $\\mu$);\n- **Estimate** — the particular numerical value obtained from one sample (e.g. $\\bar{x} = 80.94$ lb);\n- **Estimation** — the whole process of using sample data to infer the parameter.\n\nA good estimator is **unbiased** ($E(\\hat{\\theta}) = \\theta$), **consistent**, **efficient** (minimum variance) and **sufficient**.\n\n## Simplified explanation\n\nThe **estimator** is the formula; the **estimate** is the number you get when you put your data into it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Estimation",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "If the **mean of the estimator is not equal to the population parameter**, the estimator is said to be …",
+  "options": [
+   {
+    "text": "positively biased",
+    "hint": "This is a special case — it applies only if the expected value is consistently too HIGH."
+   },
+   {
+    "text": "negatively biased",
+    "hint": "This applies only if the expected value is consistently too low."
+   },
+   {
+    "text": "unbiased",
+    "hint": "Unbiased is the opposite: the expected value equals the parameter."
+   },
+   {
+    "text": "biased",
+    "hint": "Correct. $E(\\hat{\\theta}) \\ne \\theta$ means the estimator is biased."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The general term is wanted, not the direction.",
+  "explanation": "## Advanced explanation\n\nAn estimator $\\hat{\\theta}$ is **unbiased** if its expected value equals the parameter, $E(\\hat{\\theta}) = \\theta$; otherwise it is **biased**, with $\\text{Bias} = E(\\hat{\\theta}) - \\theta$. The sample mean is an unbiased estimator of $\\mu$. The sample variance computed with divisor $n$ is biased downwards, which is why $s^2$ uses $n-1$ (Bessel's correction) to make it unbiased for $\\sigma^2$. The question does not say whether the expectation is too high or too low, so the general answer is simply 'biased'.\n\n## Simplified explanation\n\nIf, on average, the formula does **not** give the true value, it is **biased**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Estimation",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "The process of using **sample data to estimate the values of unknown population parameters** is known as …",
+  "options": [
+   {
+    "text": "estimation",
+    "hint": "Correct. Estimation is the process of inferring a parameter from sample data."
+   },
+   {
+    "text": "interval estimation",
+    "hint": "Interval estimation is one FORM of estimation (the other being point estimation)."
+   },
+   {
+    "text": "estimate",
+    "hint": "An estimate is the resulting value, not the process."
+   },
+   {
+    "text": "estimator",
+    "hint": "An estimator is the formula used, not the process."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The word for the whole process is wanted.",
+  "explanation": "## Advanced explanation\n\n**Estimation** is one of the two branches of statistical inference (the other being **hypothesis testing**). It takes two forms: **point estimation**, giving a single value ($\\bar{x}$ for $\\mu$), and **interval estimation**, giving a range with a stated confidence level ($\\bar{x} \\pm Z_{\\alpha/2}\\,\\sigma/\\sqrt{n}$). Interval estimates are preferred because they convey the **precision** of the estimate as well as its magnitude.\n\n## Simplified explanation\n\nUsing a **sample** to work out what the whole **population** is like is called **estimation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Estimation",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements **best describes the relationship between a parameter and a statistic**?",
+  "options": [
+   {
+    "text": "A parameter has a sampling distribution that can be used to determine what values the statistic is likely to have in repeated samples.",
+    "hint": "It is the STATISTIC, not the parameter, that has a sampling distribution."
+   },
+   {
+    "text": "A parameter has a sampling distribution with the statistic as its mean.",
+    "hint": "Reversed: the sampling distribution belongs to the statistic, and its mean is the parameter."
+   },
+   {
+    "text": "A parameter is used to estimate a statistic.",
+    "hint": "The reverse is true — the statistic estimates the parameter."
+   },
+   {
+    "text": "A statistic is used to estimate a parameter.",
+    "hint": "Correct. The sample statistic is the estimator of the unknown population parameter."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one do we actually know, and which one are we trying to find?",
+  "explanation": "## Advanced explanation\n\nA **parameter** is a fixed but usually unknown numerical characteristic of the **population** ($\\mu$, $\\sigma$, $\\pi$). A **statistic** is a numerical characteristic of a **sample** ($\\bar{x}$, $s$, $p$) and is a **random variable**, because it changes from sample to sample. The distribution of its values over all possible samples is the **sampling distribution**, whose mean (for an unbiased estimator) equals the parameter and whose standard deviation is the **standard error**. Inference therefore runs from the statistic we can compute to the parameter we cannot.\n\n## Simplified explanation\n\nWe can measure the **sample** (statistic) but not the whole **population** (parameter), so we **use the statistic to estimate the parameter**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Basic Concepts",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "In a study of oral home care practice among 90 subjects on renal dialysis, oral hygiene status was assessed with a plaque index ranging from 0 to 3. The plaque index scores for all 90 subjects are shown below.\n\n| Class interval | Frequency | Cumulative frequency |\n|---|---|---|\n| 0 – .49 | 3 | 3 |\n| .5 – .99 | 3 | 6 |\n| 1.0 – 1.49 | 15 | 21 |\n| 1.5 – 1.99 | 15 | 36 |\n| 2.0 – 2.49 | 45 | 81 |\n| 2.5 – 2.99 | 9 | 90 |\n\nWhat **percentage of the measurements are less than 1.50**?",
+  "options": [
+   {
+    "text": "76.67%",
+    "hint": "This is the percentage of measurements 1.50 or MORE."
+   },
+   {
+    "text": "16.67%",
+    "hint": "This is the percentage in the single class 1.5–1.99."
+   },
+   {
+    "text": "90.00%",
+    "hint": "This confuses the total number of subjects (90) with a percentage."
+   },
+   {
+    "text": "23.33%",
+    "hint": "Correct. The cumulative frequency below 1.50 is 21, and 21/90 = 23.33%."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Read the cumulative frequency at the top of the 1.0–1.49 class and divide by 90.",
+  "explanation": "## Advanced explanation\n\n'Less than 1.50' corresponds to the cumulative frequency at the upper boundary of the class 1.0–1.49, which is **21**. Expressed as a percentage of the total 90 subjects:\n\n$$\\frac{21}{90}\\times100 = 23.33\\%.$$\n\nThis is a **'less than' cumulative relative frequency**, the quantity plotted on an ogive and used to read off percentiles.\n\n## Simplified explanation\n\n21 of the 90 subjects scored below 1.50, and $21 \\div 90 = \\mathbf{23.33\\%}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Using the same plaque index distribution (90 subjects; cumulative frequency 21 below 1.50), what **proportion of the subjects have measurements greater than or equal to 1.50**?",
+  "options": [
+   {
+    "text": ".7667",
+    "hint": "Correct. $(90-21)/90 = 69/90 = 0.7667$."
+   },
+   {
+    "text": ".1667",
+    "hint": "This is the proportion in the class 1.5–1.99 only."
+   },
+   {
+    "text": ".4000",
+    "hint": "This does not correspond to any cumulative total in the table."
+   },
+   {
+    "text": ".2333",
+    "hint": "This is the proportion LESS than 1.50."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Use the complement of the proportion below 1.50.",
+  "explanation": "## Advanced explanation\n\nThe number of subjects scoring 1.50 or more is $90 - 21 = 69$, so the proportion is\n\n$$\\frac{69}{90} = 0.7667\\ (76.67\\%).$$\n\nEquivalently, by the complement rule, $1 - 0.2333 = 0.7667$. Note the question asks for a **proportion**, so the answer is expressed as a decimal, not a percentage.\n\n## Simplified explanation\n\n21 of 90 scored below 1.50, so $90-21 = 69$ scored 1.50 or more: $69 \\div 90 = \\mathbf{0.7667}$.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "choice",
+  "body": "Using the same plaque index distribution, what **percentage of the measurements are between 1.50 and 1.99 inclusive**?",
+  "options": [
+   {
+    "text": "16.67%",
+    "hint": "Correct. The class 1.5–1.99 contains 15 of the 90 subjects: 15/90 = 16.67%."
+   },
+   {
+    "text": "23.33%",
+    "hint": "This is the percentage below 1.50."
+   },
+   {
+    "text": "40.00%",
+    "hint": "This is the combined 1.0–1.49 and 1.5–1.99 classes (30/90), not the single class."
+   },
+   {
+    "text": "23.33%",
+    "hint": "Duplicate of the percentage below 1.50."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Use the frequency of that single class.",
+  "explanation": "## Advanced explanation\n\nThe class 1.5–1.99 has a frequency of **15**. As a percentage of the 90 subjects:\n\n$$\\frac{15}{90}\\times100 = 16.67\\%.$$\n\nThe same figure is obtained from the cumulative frequencies, $36 - 21 = 15$, which is how any class frequency can be recovered from an ogive.\n\n## Simplified explanation\n\n15 subjects fall in the 1.5–1.99 class, and $15 \\div 90 = \\mathbf{16.67\\%}$.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Frequency Distributions",
+   "End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Why would you use the **coefficient of variation (CV)** instead of the **standard deviation (SD)** in assessing variation between data points?",
+  "answer": "> [!answer]\n> Because the **standard deviation is an absolute measure expressed in the units of the data and depends on the size of the mean**, so it cannot fairly compare the variability of two sets of data that have **different units or very different means**.\n>\n> The **coefficient of variation** is a **relative (unitless) measure**:\n>\n> $$CV = \\frac{s}{\\bar{x}} \\times 100\\%$$\n>\n> It expresses the standard deviation as a **percentage of the mean**, so variability can be compared:\n> - between variables measured in **different units** (serum sodium in mmol/L versus haemoglobin in g/dL);\n> - between data sets with **widely different means** (an SD of 5 is large if the mean is 10 but trivial if the mean is 1000);\n> - between methods or instruments, which is why the CV is the standard measure of **analytical imprecision** in the laboratory (within-run and between-run CV).",
+  "explanation": "## Advanced explanation\n\nA standard deviation of 10 mg/dL means something quite different for a glucose of 90 mg/dL (CV ≈ 11%) and for a cholesterol of 200 mg/dL (CV = 5%). Because the CV normalises dispersion to the mean, it is dimensionless and comparable across analytes and across laboratories, which is why internal quality control and method validation are reported as CV (and why a CV of less than about 5% is typically demanded for a clinical chemistry assay). Its limitations: it is meaningless when the mean is near zero or can be negative, and it should not be used for interval-scale data with an arbitrary zero (such as °C).\n\n## Simplified explanation\n\nThe SD alone does not tell you whether the spread is big or small — it depends on how big the numbers are. The CV shows the spread **as a percentage of the average**, so you can compare completely different measurements fairly.",
+  "hint": "Can you compare an SD in g/dL with an SD in mmol/L?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Measures of Dispersion",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Group the following variables under **nominal, ordinal, interval** and **ratio** variables:\n\ntype of pet, temperature in degrees Kelvin, economic status, wound sizes, weight of patients, temperature in degrees Celsius, academic grades, serum sodium levels.",
+  "answer": "| Scale | Variables | Why |\n|---|---|---|\n| **Nominal** | **Type of pet** | Named categories with no order |\n| **Ordinal** | **Economic status, wound sizes, academic grades** | Ranked categories (low/middle/high; small/medium/large; A, B, C) but the gaps between ranks are not equal or measurable |\n| **Interval** | **Temperature in degrees Celsius** | Equal intervals but an **arbitrary zero** — 0 °C does not mean 'no temperature', and 40 °C is not twice as hot as 20 °C |\n| **Ratio** | **Temperature in degrees Kelvin, weight of patients, serum sodium levels** | Equal intervals **and a true (absolute) zero**, so ratios are meaningful — 0 K is absolute zero, 80 kg is twice 40 kg |\n\n> [!answer]\n> Nominal: type of pet. Ordinal: economic status, wound sizes, academic grades. Interval: temperature in °C. Ratio: temperature in K, weight of patients, serum sodium.",
+  "explanation": "## Advanced explanation\n\nThe scale of measurement determines which statistics and tests are legitimate. **Nominal** data allow only counts, proportions, the mode and chi-square tests. **Ordinal** data additionally allow the median, percentiles and non-parametric tests (Mann–Whitney, Kruskal–Wallis, Spearman). **Interval** data allow means, standard deviations and parametric tests, but **not ratios**, because the zero is arbitrary. **Ratio** data allow everything, including ratios and the coefficient of variation — which is precisely why the CV is valid for serum sodium or weight but not for temperature in °C. Note the trap: °C is interval, K is ratio, even though both measure temperature.\n\n## Simplified explanation\n\n**Nominal** = just names (type of pet). **Ordinal** = ordered, but the steps are not equal (grades, economic status, wound size). **Interval** = equal steps but zero is arbitrary (°C). **Ratio** = equal steps and a real zero, so you can say 'twice as much' (kelvin, weight, sodium).",
+  "hint": "Ask: is there order? are the gaps equal? is there a true zero?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Types of Data",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "As part of a research study to assess the prevalence of CKD among 180 fishermen in Cape Coast, serum creatinine was measured. The **lowest and highest values** recorded were **0.7 and 1.3 mg/dL** respectively. Using the data available, estimate the following:\n\n(a) The **range (R)**\n(b) The **number of class intervals (K)**\n(c) The **width of the intervals (W)**",
+  "answer": "> [!answer]\n> **(a) Range**\n>\n> $$R = \\text{highest} - \\text{lowest} = 1.3 - 0.7 = \\mathbf{0.6\\ mg/dL}$$\n>\n> **(b) Number of class intervals** — by **Sturges' rule**, $K = 1 + 3.322\\log_{10} n$:\n>\n> $$K = 1 + 3.322\\log_{10}(180) = 1 + 3.322(2.2553) = 1 + 7.49 = 8.49 \\approx \\mathbf{8}$$\n>\n> **(c) Width of the intervals**\n>\n> $$W = \\frac{R}{K} = \\frac{0.6}{8} = \\mathbf{0.075\\ mg/dL}$$\n>\n> (In practice W would be rounded up to a convenient value such as 0.08 or 0.1 mg/dL, so that the classes cover the whole range.)",
+  "explanation": "## Advanced explanation\n\n**Sturges' rule**, $K = 1 + 3.322\\log_{10}n$, derives from approximating the data by a binomial distribution and gives a number of classes that is usually between 5 and 20 — enough to show the shape of the distribution without so many that the pattern is lost in noise. Having fixed $K$, the class width is $W = R/K$, **rounded up** to a convenient figure so that all observations are included; the lower limit of the first class is set at or just below the smallest value. Too few classes conceal structure (bimodality, skewness); too many produce a ragged histogram.\n\n## Simplified explanation\n\n**Range** = biggest − smallest = $1.3-0.7 = 0.6$. **Number of classes** from Sturges' formula with n = 180 ≈ **8**. **Width** = range ÷ classes = $0.6 \\div 8 = 0.075$ (round up to about 0.08 in practice).",
+  "hint": "Range = max − min; Sturges' rule for K; W = R/K.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Frequency Distributions",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A deck of **52 cards** (clubs, diamonds, hearts and spades) is shuffled once. Estimate the following:\n\n(a) The probability of drawing a **black card**\n(b) The probability of drawing a **six (6)**\n(c) The probability of drawing a **heart**",
+  "answer": "> [!answer]\n> **(a) Black card** — the black suits are **clubs and spades**, 13 cards each:\n>\n> $$P(\\text{black}) = \\frac{26}{52} = \\frac{1}{2} = \\mathbf{0.5}$$\n>\n> **(b) A six** — there is one six in each of the four suits:\n>\n> $$P(6) = \\frac{4}{52} = \\frac{1}{13} \\approx \\mathbf{0.0769}$$\n>\n> **(c) A heart** — one suit of 13 cards:\n>\n> $$P(\\text{heart}) = \\frac{13}{52} = \\frac{1}{4} = \\mathbf{0.25}$$",
+  "explanation": "## Advanced explanation\n\nEach uses the **classical (a priori) definition** of probability, $P(E) = \\dfrac{\\text{number of outcomes favourable to } E}{\\text{total number of equally likely outcomes}}$, valid because a shuffled deck makes all 52 cards equally likely. A standard deck has four suits of 13 cards; **clubs and spades are black** (26 cards) and hearts and diamonds red; each rank, including the six, appears **four times**, once per suit. Note that the common errors are to give $P(\\text{black}) = 0$ (forgetting that clubs and spades are black) and $P(6) = 6/52$ (confusing the rank with a count).\n\n## Simplified explanation\n\nHalf the deck is black → **0.5**. There are four sixes out of 52 → **4/52 = 1/13**. One of the four suits is hearts → **13/52 = 0.25**.",
+  "hint": "Count the favourable cards out of 52 in each case.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Probability",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "In research to test the effectiveness of your new drug, you made a **wrong conclusion that your new drug was more effective than the standard drug**. What **type of error** have you committed, and what could be the reason for this error?",
+  "answer": "> [!answer]\n> This is a **type-I error (α, a false positive)**.\n>\n> The null hypothesis — that the new drug is **no more effective** than the standard drug — was in fact **true**, but it was **rejected**; the investigator claimed a difference that does not exist.\n>\n> **Possible reasons:**\n> - the **significance level (α) was set too high** (e.g. 0.10 instead of 0.01), so the rejection region was large;\n> - **sampling error/chance** — an unrepresentative sample happened to favour the new drug;\n> - **multiple testing** without adjustment, so that one of many comparisons was 'significant' by chance;\n> - **bias in design or conduct** — selection bias, lack of blinding or randomisation, confounding, measurement bias;\n> - inappropriate statistical test, violated assumptions, or data dredging/'p-hacking'.\n>\n> **Prevention:** set a stringent α, randomise and blind, control confounding, adjust for multiple comparisons, and replicate the study.",
+  "explanation": "## Advanced explanation\n\nWith $H_0$: *no difference between the new and the standard drug*, concluding superiority when $H_0$ is true is by definition a **type-I error**, whose probability is the significance level $\\alpha$ chosen by the investigator. Its counterpart, a **type-II error ($\\beta$)**, would be failing to detect a genuinely superior drug, usually because the sample was too small (low power, $1-\\beta$). The two errors trade off: lowering $\\alpha$ raises $\\beta$ unless the sample size is increased, which is why sample-size calculation fixes both in advance.\n\n## Simplified explanation\n\nYou said the new drug **works better when it does not** — a false positive, or **type-I error**. It can happen by chance, from a badly designed or biased study, or because the significance level was set too loosely.",
+  "hint": "Claiming an effect that is not there.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Hypothesis Testing",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Boys of a certain age in Ghana are known to have a **mean weight of 84 pounds**. A complaint is made that boys living in one poor community are underfed. As a way of finding evidence, you weighed **25 boys** of the same age and found them to have a **mean weight of 80.94 pounds**. It is known that the population standard deviation is **11.6 pounds**.\n\nBased on the available data, what would you conclude about the complaint at a significance level of **0.05**?\n\n*(NB: critical values of Z at α = 0.05 are ±1.645 for one tail and ±1.96 for two tails.)*",
+  "answer": "> [!answer]\n> **Hypotheses** (one-tailed, since the complaint is that the boys are *under*fed):\n>\n> $$H_0: \\mu = 84\\ \\text{lb} \\qquad H_A: \\mu < 84\\ \\text{lb}$$\n>\n> **Standard error of the mean**\n>\n> $$\\sigma_{\\bar{x}} = \\frac{\\sigma}{\\sqrt{n}} = \\frac{11.6}{\\sqrt{25}} = \\frac{11.6}{5} = 2.32$$\n>\n> **Test statistic**\n>\n> $$Z = \\frac{\\bar{x} - \\mu}{\\sigma_{\\bar{x}}} = \\frac{80.94 - 84}{2.32} = \\frac{-3.06}{2.32} = \\mathbf{-1.32}$$\n>\n> **Decision:** the critical value for a one-tailed test at α = 0.05 is **−1.645**. Since **−1.32 > −1.645**, the computed Z falls in the **acceptance (non-rejection) region**.\n>\n> **Conclusion:** we **fail to reject the null hypothesis**. The data do **not** provide sufficient evidence at the 5% level that the mean weight of boys in this community is below 84 pounds, so the complaint that they are underfed is **not supported by this sample**.\n>\n> (The same conclusion follows for a two-tailed test, since |−1.32| < 1.96.)",
+  "explanation": "## Advanced explanation\n\nA **one-sample Z-test** is appropriate because the population standard deviation $\\sigma$ is known. The test statistic measures how many standard errors the sample mean lies from the hypothesised population mean; $Z = -1.32$ corresponds to a one-tailed p-value of about **0.093**, which exceeds 0.05. Note that 'fail to reject' is **not** proof that the boys are adequately fed — the study may simply lack **power**: with n = 25 and $\\sigma = 11.6$, only a difference of about 3.8 lb or more would have been detected at α = 0.05 with the conventional 80% power. A larger sample would give a firmer answer.\n\n## Simplified explanation\n\nThe sample mean (80.94) is 1.32 standard errors below 84. You need to be at least 1.645 below before you can call it significant, so the difference could easily be chance. **The evidence does not support the complaint** — though the sample may simply be too small.",
+  "hint": "Compute the standard error, then Z, then compare with −1.645.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Hypothesis Testing",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "How is **hypothesis testing similar to the presumption of innocence** in the court room?",
+  "answer": "> [!answer]\n> | Court room | Hypothesis testing |\n> |---|---|\n> | The accused is **presumed innocent** | $H_0$ (no effect/no difference) is **assumed true** at the start |\n> | The **prosecution** must prove guilt | The **investigator** must provide evidence against $H_0$ |\n> | Guilt must be shown **beyond reasonable doubt** | $H_0$ is rejected only if the evidence is **significant at the chosen level α** |\n> | A verdict of **'not guilty'** does not prove innocence — it means guilt was not proved | **Failing to reject $H_0$** does not prove $H_0$ true — it means there was insufficient evidence against it |\n> | **Convicting an innocent person** | **Type-I error (α)** — rejecting a true $H_0$ |\n> | **Acquitting a guilty person** | **Type-II error (β)** — failing to reject a false $H_0$ |\n> | The law prefers to let the guilty go free rather than convict the innocent | Statistics sets α small (0.05, 0.01), so false positives are rarer than false negatives |\n>\n> In both, the **burden of proof lies with the challenger**, and the decision is made under uncertainty with a deliberately asymmetric tolerance for the two kinds of error.",
+  "explanation": "## Advanced explanation\n\nThe analogy captures the logic of **falsification**: statistical tests can provide evidence against a null hypothesis but can never establish it. The deliberate asymmetry — a small α and a comparatively large β — mirrors Blackstone's ratio, that it is better that ten guilty persons escape than that one innocent suffer. It also explains why 'not significant' must be reported as *no evidence of a difference*, not as *evidence of no difference*: an underpowered study, like a weak prosecution, produces acquittal regardless of the truth.\n\n## Simplified explanation\n\nYou start by assuming **no effect** (innocent). You need **strong evidence** to reject that. And if you fail, it only means the case was **not proved** — not that the drug (or the accused) is definitely harmless.",
+  "hint": "Who bears the burden of proof, and what does 'not guilty' really mean?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Hypothesis Testing",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Using an example, explain the **degrees of freedom**.",
+  "answer": "> [!answer]\n> **Degrees of freedom (df)** are the **number of values in a calculation that are free to vary** once the constraints imposed on the data have been taken into account.\n>\n> **Example:** suppose five numbers have a **mean of 10**, so their total must be 50. You may choose the first four freely — say 8, 9, 12 and 11 (total 40) — but the fifth is then **forced** to be 10 so that the total reaches 50. Four values were free, one was fixed by the constraint, so **df = n − 1 = 4**.\n>\n> This is why the sample variance uses $n-1$:\n>\n> $$s^{2} = \\frac{\\sum(x-\\bar{x})^{2}}{n-1}$$\n>\n> — one degree of freedom is 'used up' in estimating the mean $\\bar{x}$ from the same data.\n>\n> Other common cases: a two-sample t-test has $df = n_1 + n_2 - 2$; a chi-square test of a contingency table has $df = (r-1)(c-1)$ — for a 2×2 table, df = 1, because once one cell is fixed the row and column totals determine the rest.",
+  "explanation": "## Advanced explanation\n\nDegrees of freedom equal the **number of independent pieces of information** available to estimate variability: $df = n - (\\text{number of parameters estimated from the data})$. Using $n-1$ (Bessel's correction) makes $s^2$ an **unbiased** estimator of $\\sigma^2$; dividing by $n$ would systematically underestimate it, because deviations are taken about the sample mean, which is itself the value that minimises the sum of squared deviations. The df also indexes the shape of the t, chi-square and F distributions: as df increases, the t-distribution approaches the standard normal.\n\n## Simplified explanation\n\nIf five numbers must average 10, you can pick any four you like — but the **fifth is then decided for you**. So only **four** are free: df = n − 1.",
+  "hint": "How many values can you still choose freely once the mean is fixed?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Basic Concepts",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Adwengo and co. (2008) collected data on **188 homosexual men** as **cases** or **non-cases** of gonorrhoea, and according to the **number of sexual partners** in the last 90 days, classified as **low (0)** or **high (3 or more)**. Their results indicated **55 cases with 3 or more partners** and **61 non-cases with 3 or more partners**; **18 cases** and **54 non-cases** had **0 partners** in the preceding 90 days.\n\nWhat are the **odds of gonorrhoea infection among those with three or more sexual partners** compared with the **odds among those with no sexual partners** during the preceding 90 days?",
+  "answer": "> [!answer]\n> **2 × 2 table**\n>\n> | Partners | Cases | Non-cases | Total |\n> |---|---|---|---|\n> | **3 or more (high)** | 55 (a) | 61 (b) | 116 |\n> | **0 (low)** | 18 (c) | 54 (d) | 72 |\n> | **Total** | 73 | 115 | 188 |\n>\n> **Odds of infection with 3+ partners**\n>\n> $$\\text{odds}_{high} = \\frac{a}{b} = \\frac{55}{61} = \\mathbf{0.90}$$\n>\n> **Odds of infection with 0 partners**\n>\n> $$\\text{odds}_{low} = \\frac{c}{d} = \\frac{18}{54} = \\mathbf{0.33}$$\n>\n> **Odds ratio**\n>\n> $$OR = \\frac{a/b}{c/d} = \\frac{ad}{bc} = \\frac{55\\times54}{61\\times18} = \\frac{2970}{1098} = \\mathbf{2.70}$$\n>\n> **Interpretation:** the odds of gonorrhoea infection among men with **three or more** partners in the preceding 90 days are about **2.7 times** the odds among men with **no** partners — a positive association between the number of partners and infection.",
+  "explanation": "## Advanced explanation\n\nThe **odds** of an outcome are $p/(1-p)$, i.e. cases divided by non-cases within an exposure group; the **odds ratio** is the ratio of those odds, computed as the **cross-product ratio** $ad/bc$. The OR is the measure of association of choice in **case–control studies**, where incidence (and therefore relative risk) cannot be estimated directly, and it approximates the relative risk when the disease is rare. An OR of 1 indicates no association, > 1 a positive association and < 1 a protective effect. The estimate should be accompanied by a **95% confidence interval** — using Woolf's method, $\\ln(OR) \\pm 1.96\\sqrt{1/a+1/b+1/c+1/d}$ — and judged significant only if that interval excludes 1.\n\n## Simplified explanation\n\nWith 3+ partners the odds of infection are $55/61 = 0.90$; with no partners they are $18/54 = 0.33$. Dividing gives **2.7**, so those with many partners have about **2.7 times the odds** of infection.",
+  "hint": "Odds = cases ÷ non-cases within each group; then divide the two odds.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Measures of Association",
+   "Quiz 1"
+  ],
+  "media": []
+ }
+]

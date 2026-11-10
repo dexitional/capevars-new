@@ -1,0 +1,198 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe propensity to develop leukaemia increases with age in view of the fact that adult haematopoietic stem cell (HSC) has increased ...\n\nA. Telomerase activity\nB. Self-renewal capacity\nC. intracellular protein\nD. replicative senescence",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Telomerase activity | **F** | Telomerase activity does not rise with age; telomeres shorten. |\n| B. Self-renewal capacity | **F** | Functional self-renewal/regenerative capacity declines with age. |\n| C. intracellular protein | **F** | Not the reason given for leukaemia risk in this key. |\n| D. replicative senescence | **T** | Accumulated replication, DNA damage and senescence pressure select for mutant clones. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nAgeing HSCs accumulate **replicative stress**, telomere attrition, DNA damage and **senescence**; cells that escape senescence through mutations (e.g. DNMT3A, TET2, ASXL1, TP53) expand as **clonal haematopoiesis**, which raises the risk of MDS/AML. Self-renewal function and telomerase activity do not increase.\n\n## Simplified explanation\n\nOld stem cells have divided many times and pile up damage (senescence). Clones that escape this control can become leukaemia.",
+  "hint": "What builds up with repeated divisions?",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Leukaemogenesis",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMinimal residual disease may ...\n\nA. be used to estimate the probability of a relapse of leukaemia\nB. be used to direct therapeutic intervention\nC. be important for disease prognostication\nD. require CSF sample",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. be used to estimate the probability of a relapse of leukaemia | **T** | MRD positivity predicts relapse. |\n| B. be used to direct therapeutic intervention | **T** | MRD guides risk-adapted therapy (intensify/de-escalate, transplant). |\n| C. be important for disease prognostication | **T** | One of the strongest prognostic factors in ALL and AML. |\n| D. require CSF sample | **T** | CNS disease in ALL is assessed on CSF. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\n**MRD** = leukaemic cells below the morphological detection limit (<5% blasts), measured by multiparameter flow cytometry (10⁻⁴), RQ-PCR of fusion transcripts or Ig/TCR rearrangements (10⁻⁵), or next-generation sequencing (10⁻⁶). It predicts relapse, refines prognosis and directs therapy; samples are usually marrow or blood, with CSF examined for CNS disease in ALL.\n\n## Simplified explanation\n\nMRD testing finds tiny numbers of leukaemia cells left after treatment. It predicts relapse, guides treatment and gives prognosis; all four are true per the key.",
+  "hint": "MRD drives modern risk-adapted therapy.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Minimal Residual Disease",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPeriodic-Acid Schiff (PAS) test:\n\nA. Demonstrates glycogen in haematopoietic cells\nB. Eosinophil granules stain negative\nC. Erythroblast precursors stain negative\nD. Lymphoblasts stain positive",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Demonstrates glycogen in haematopoietic cells | **T** | PAS stains glycogen (and other carbohydrates) magenta. |\n| B. Eosinophil granules stain negative | **T** | Eosinophil granules are PAS-negative against a positive cytoplasmic background. |\n| C. Erythroblast precursors stain negative | **T** | Normal erythroblasts are PAS negative (positive in erythroleukaemia, thalassaemia). |\n| D. Lymphoblasts stain positive | **T** | Coarse block/granular positivity in ALL. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nPAS oxidises 1,2-glycols to aldehydes that react with Schiff reagent (magenta). Neutrophils: diffuse positive; eosinophil granules: negative; monoblasts: fine granular; **lymphoblasts (ALL): coarse block positivity**; megakaryoblasts: positive; **normal erythroblasts: negative**, but positive in erythroleukaemia, MDS, severe IDA and thalassaemia.\n\n## Simplified explanation\n\nPAS stains glycogen. Lymphoblasts show coarse blocks; normal red-cell precursors and eosinophil granules are negative. All four are true.",
+  "hint": "Block positivity is the ALL pattern.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Cytochemistry",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory techniques that can be reliably employed for minimal residual disease detection include ...\n\nA. Fluorescent in-situ hybridisation\nB. Polymerase chain reaction\nC. Microarray\nD. Cytochemistry",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Fluorescent in-situ hybridisation | **T** | Detects specific genetic abnormalities in interphase cells. |\n| B. Polymerase chain reaction | **T** | RQ-PCR is one of the most sensitive MRD methods. |\n| C. Microarray | **F** | Not sensitive enough for MRD. |\n| D. Cytochemistry | **F** | Morphology/cytochemistry cannot detect low-level disease. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nMRD methods: **multiparameter flow cytometry**, **RQ-PCR** (BCR-ABL1, PML-RARA, Ig/TCR rearrangements), digital PCR, **NGS**; **FISH** for known abnormalities (sensitivity ~1 in 100–500). Microarrays and cytochemistry have detection limits too high for MRD.\n\n## Simplified explanation\n\nFISH and PCR can find small numbers of leukaemic cells; microarray and cytochemistry cannot.",
+  "hint": "Which methods detect rare cells?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Minimal Residual Disease",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBoth ALL and AML present with blast cells in peripheral blood. The differences in the laboratory presentations of the two diseases include that AML preferentially presents with ...\n\nA. Basophilia\nB. hyperuricaemia\nC. thrombocytopenia\nD. elevated LDH in peripheral blood",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Basophilia | **F** | Basophilia is a feature of CML, not a distinguishing feature of AML. |\n| B. hyperuricaemia | **F** | Occurs in both (often more marked in ALL). |\n| C. thrombocytopenia | **F** | Occurs in both. |\n| D. elevated LDH in peripheral blood | **F** | Occurs in both. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nALL and AML share marrow-failure features (anaemia, thrombocytopenia, neutropenia) and high-turnover features (raised uric acid, LDH). They are distinguished by **morphology** (Auer rods in AML), **cytochemistry** (MPO/SBB positive in AML) and **immunophenotype** (CD13/33/117/MPO vs CD19/CD10/CD3/TdT).\n\n## Simplified explanation\n\nNone of these is specific to AML: both leukaemias can raise uric acid and LDH and lower platelets.",
+  "hint": "These come from high cell turnover in any acute leukaemia.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Acute Leukaemia",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe unique immunophenotype expression that differentiate a myeloblast from a lymphoblast includes that myeloblasts are ...\n\nA. CD10+\nB. CD13+\nC. CD22+\nD. CD33+",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. CD10+ | **F** | CD10 (CALLA) marks common/precursor B-ALL. |\n| B. CD13+ | **T** | Myeloid marker. |\n| C. CD22+ | **F** | B-lymphoid marker. |\n| D. CD33+ | **T** | Myeloid marker. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nMyeloid: **CD13, CD33, CD117**, cytoplasmic **MPO**, CD15, CD64. B-lymphoid: CD19, cCD79a, cCD22, CD10. T-lymphoid: cCD3, CD7, CD5, CD2. Immaturity: CD34, HLA-DR, TdT (mainly ALL).\n\n## Simplified explanation\n\nMyeloblasts carry CD13 and CD33; CD10 and CD22 belong to B lymphoblasts.",
+  "hint": "Recall the myeloid CD set.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Immunophenotyping",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nTumour lytic syndrome is a major side effect that is confronted during the treatment of acute leukaemia. Mitigating measures include administration of ...\n\nA. Allopurinol\nB. Fresh frozen plasma\nC. Urinary alkalinising agents\nD. Ondansetron",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Allopurinol | **T** | Xanthine oxidase inhibitor reduces uric acid formation. |\n| B. Fresh frozen plasma | **F** | Used for coagulopathy, not TLS. |\n| C. Urinary alkalinising agents | **T** | Accepted in the key (traditionally used to keep urate soluble; now largely replaced by hydration and rasburicase). |\n| D. Ondansetron | **F** | An antiemetic, not TLS prophylaxis. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Tumour lysis syndrome**: hyperuricaemia, hyperkalaemia, hyperphosphataemia, hypocalcaemia and acute kidney injury after rapid cell kill. Prevention: aggressive **IV hydration**, **allopurinol** or **rasburicase**, electrolyte monitoring; urinary alkalinisation was traditionally used but is no longer recommended because it promotes calcium phosphate precipitation.\n\n## Simplified explanation\n\nTo prevent tumour lysis problems you give lots of fluid, allopurinol and (traditionally) urine alkalinisers. FFP and ondansetron don't prevent it.",
+  "hint": "Focus on uric acid.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Tumour Lysis Syndrome",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn ALL clinical presentations that may be indicative of meningeal infiltration by leukaemic cells include ...\n\nA. Spontaneous bleeding\nB. Fever\nC. Blurred vision\nD. Easy bruising",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Spontaneous bleeding | **F** | Due to thrombocytopenia, not CNS infiltration. |\n| B. Fever | **F** | Due to infection/neutropenia, not specific to CNS disease. |\n| C. Blurred vision | **T** | Raised intracranial pressure/papilloedema or cranial nerve involvement. |\n| D. Easy bruising | **F** | Due to thrombocytopenia. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nCNS leukaemia presents with **headache, vomiting, blurred vision/papilloedema, cranial nerve palsies**, seizures or altered consciousness; diagnosed by CSF cytospin; prevented with intrathecal methotrexate.\n\n## Simplified explanation\n\nLeukaemia in the brain coverings raises pressure in the head and affects nerves, causing headache and blurred vision. Bleeding, bruising and fever come from low counts.",
+  "hint": "Think raised intracranial pressure.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Acute Lymphoblastic Leukaemia",
+   "2020/21 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPrimary erythrocytosis differs from secondary erythrocytosis in that secondary erythrocytosis is preferentially associated with ...\n\nA. Raised haematocrit\nB. Increased [haemoglobin]\nC. Increased platelet count\nD. Increased red cell mass",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Raised haematocrit | **F** | Both have a raised haematocrit. |\n| B. Increased [haemoglobin] | **F** | Both have raised Hb. |\n| C. Increased platelet count | **F** | Thrombocytosis is a feature of primary (PV). |\n| D. Increased red cell mass | **F** | Both have increased red cell mass (that defines absolute erythrocytosis). |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Primary** erythrocytosis (polycythaemia vera, JAK2) has raised red cell mass plus often **leucocytosis, thrombocytosis**, splenomegaly and **low EPO**. **Secondary** erythrocytosis (hypoxia, EPO-secreting tumours, high-affinity Hb) has raised red cell mass only, with **normal/high EPO**. Hb, Hct and red cell mass rise in both.\n\n## Simplified explanation\n\nBoth types have high Hb, Hct and red cell mass; a high platelet count points to the primary type. Nothing listed is preferential to secondary erythrocytosis.",
+  "hint": "EPO level is what separates them.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Polycythaemia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in chronic myeloid leukaemia include ...\n\nA. Leucopenia\nB. Thrombocytopenia\nC. Anaemia\nD. Bone marrow hypoplasia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Leucopenia | **F** | Marked **leucocytosis**. |\n| B. Thrombocytopenia | **F** | Platelets are normal or **raised** in chronic phase. |\n| C. Anaemia | **T** | Normocytic normochromic anaemia is common. |\n| D. Bone marrow hypoplasia | **F** | Marrow is **hypercellular**. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nCML chronic phase: leucocytosis (often >100 × 10⁹/L) with all stages of granulocytes ('myelocyte bulge'), **basophilia**, eosinophilia, normal/raised platelets, normocytic **anaemia**, low NAP score, hypercellular marrow, BCR-ABL1/Ph chromosome.\n\n## Simplified explanation\n\nCML gives very high white counts, normal or high platelets, a packed marrow and anaemia.",
+  "hint": "CML is a proliferative disease.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Chronic Myeloid Leukaemia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPhiladelphia chromosome positive chronic myeloid leukaemia is characterised by ...\n\nA. Fused BCR-ABL1 gene that produces a 145kDa protein\nB. Increased tyrosine hormonal activity\nC. Increased apoptosis of erythroblast\nD. Reciprocal translocation between chromosome 9 and chromosome 21",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Fused BCR-ABL1 gene that produces a 145kDa protein | **F** | CML produces **p210** BCR-ABL1 (p190 in Ph+ ALL). |\n| B. Increased tyrosine hormonal activity | **F** | It is constitutive **tyrosine kinase** activity, not hormonal. |\n| C. Increased apoptosis of erythroblast | **F** | BCR-ABL1 is anti-apoptotic. |\n| D. Reciprocal translocation between chromosome 9 and chromosome 21 | **F** | It is **t(9;22)(q34;q11)**. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nThe Philadelphia chromosome is a shortened chromosome 22 from **t(9;22)(q34.1;q11.2)**, fusing **BCR** with **ABL1** to give a constitutively active **tyrosine kinase**, usually **p210** (p190 in most Ph+ ALL; p230 in neutrophilic CML). It drives proliferation and resists apoptosis; targeted by imatinib and other TKIs.\n\n## Simplified explanation\n\nCML is t(9;22) making a 210 kDa BCR-ABL1 tyrosine kinase that blocks cell death. Every statement has a detail wrong.",
+  "hint": "Check the size, the enzyme and the chromosome numbers.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Chronic Myeloid Leukaemia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe common laboratory findings in Chronic myeloid leukaemia include ...\n\nA. Increased buffy coat\nB. Raised plasma fraction of blood\nC. Increased red cell mass\nD. Increased platelet count",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Increased buffy coat | **T** | Very high WBC gives a thick buffy coat. |\n| B. Raised plasma fraction of blood | **F** | Not characteristic. |\n| C. Increased red cell mass | **F** | Patients are usually anaemic. |\n| D. Increased platelet count | **T** | Thrombocytosis is common in chronic phase. |\n\n> [!answer]\n> **A T, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nIn CML the microhaematocrit shows a markedly **increased buffy coat** (leucocytes and platelets); anaemia lowers the red cell column. Platelets are normal or raised (sometimes >1000 × 10⁹/L).\n\n## Simplified explanation\n\nLots of white cells and platelets make a thick buffy coat; red cells are reduced.",
+  "hint": "Picture the spun tube.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Chronic Myeloid Leukaemia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nRelative polycythaemia is associated with ...\n\nA. Increased buffy coat fraction of blood\nB. Thrombocytopenia\nC. Leucopenia\nD. Plasma volume expansion",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Increased buffy coat fraction of blood | **F** | WBCs and platelets are not increased. |\n| B. Thrombocytopenia | **F** | Not a feature. |\n| C. Leucopenia | **F** | Not a feature. |\n| D. Plasma volume expansion | **F** | It is due to plasma volume **contraction**. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Relative (apparent, stress, Gaisböck) polycythaemia**: raised Hb/Hct with **normal red cell mass** and **reduced plasma volume** (dehydration, diuretics, smoking, obesity, hypertension, alcohol).\n\n## Simplified explanation\n\nRelative polycythaemia is caused by too little plasma, not too many cells. All statements are false.",
+  "hint": "Relative = less plasma.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Polycythaemia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nReactive thrombocytosis may be caused by ...\n\nA. Iron deficiency anaemia\nB. Splenectomy\nC. Acute haemorrhage\nD. Chronic myeloid leukaemia",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Iron deficiency anaemia | **T** | A common cause. |\n| B. Splenectomy | **T** | Loss of splenic pooling. |\n| C. Acute haemorrhage | **T** | Reactive response. |\n| D. Chronic myeloid leukaemia | **F** | Thrombocytosis in CML is clonal (primary), not reactive. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Reactive** thrombocytosis: iron deficiency, haemorrhage, splenectomy/hyposplenism, infection, inflammation, malignancy, recovery from marrow suppression. **Clonal/primary**: essential thrombocythaemia, PV, myelofibrosis, CML, MDS with del(5q).\n\n## Simplified explanation\n\nIron deficiency, bleeding and splenectomy cause a reactive high platelet count; in CML it is part of the cancer itself.",
+  "hint": "Reactive vs clonal.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Thrombocytosis",
+   "2018/19 Quiz 2"
+  ]
+ }
+]

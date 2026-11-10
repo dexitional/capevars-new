@@ -1,0 +1,1927 @@
+[
+ {
+  "type": "choice",
+  "body": "A compound biosynthesized by a bacterium that destroys or inhibits the growth of other microbes is a/an…",
+  "media": [],
+  "options": [
+   {
+    "text": "antibiotic",
+    "hint": "Correct. Antibiotics are natural products of microbes that act against other microbes."
+   },
+   {
+    "text": "synthetic drug",
+    "hint": "Synthetic drugs are made chemically, not by microbes."
+   },
+   {
+    "text": "antimicrobic drug",
+    "hint": "A general term for any antimicrobial agent, natural or synthetic."
+   },
+   {
+    "text": "competitive inhibitor",
+    "hint": "Describes a mechanism (e.g. sulfonamides), not a microbial product."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Natural product of one microbe against another.",
+  "explanation": "## Advanced explanation\n\nStrictly, an **antibiotic** is a substance produced by a microorganism (e.g. *Streptomyces*, *Penicillium*, *Bacillus*) that inhibits or kills other microorganisms. Synthetic agents (sulfonamides, quinolones) are chemotherapeutic drugs.\n\n## Simplified explanation\n\nAn antibiotic is a **microbe-made** chemical that kills or stops other microbes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Characteristics of a bacterial colony formed on culture plates include all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "size",
+    "hint": "Colony size is a colonial feature."
+   },
+   {
+    "text": "shape",
+    "hint": "Colony shape (form) is a colonial feature."
+   },
+   {
+    "text": "colour",
+    "hint": "Pigment is a colonial feature."
+   },
+   {
+    "text": "arrangement",
+    "hint": "Correct. Cell arrangement (chains, clusters) is seen microscopically, not as a colony feature."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which feature needs a microscope?",
+  "explanation": "## Advanced explanation\n\nColonial morphology includes **size, shape/form, elevation, margin, colour, surface, opacity, consistency, odour and haemolysis**. Cell **arrangement** (pairs, chains, clusters) is a microscopic feature seen on a stained smear.\n\n## Simplified explanation\n\nArrangement of cells is seen under the **microscope**, not by looking at a colony.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The MAIN host defence against bacterial exotoxins is:",
+  "media": [],
+  "options": [
+   {
+    "text": "Modulation of host cell receptors in response to the toxin",
+    "hint": "Not a significant defence mechanism."
+   },
+   {
+    "text": "Activated macrophages secreting proteases",
+    "hint": "Macrophages do not neutralise circulating toxin."
+   },
+   {
+    "text": "IgG and IgM antibodies",
+    "hint": "Correct. Antitoxin antibodies bind and neutralise exotoxins."
+   },
+   {
+    "text": "Helper T cells",
+    "hint": "They assist antibody production but do not neutralise toxin directly."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Antitoxins.",
+  "explanation": "## Advanced explanation\n\nExotoxins are proteins, so **neutralizing antibodies (antitoxins)**, mainly IgG with IgM early, bind them and block attachment to host cell receptors. This is the basis of toxoid vaccines (tetanus, diphtheria) and of antitoxin therapy.\n\n## Simplified explanation\n\n**Antibodies** neutralise bacterial toxins.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An elderly man with an enlarged prostate has frequent and painful urination. Suddenly he develops fever and chills. Examination reveals hypotension (blood pressure 55/10 mm Hg) and a blood culture is positive for *Klebsiella pneumoniae*. The fever, chills and hypotension likely derive from the bacterial…",
+  "media": [],
+  "options": [
+   {
+    "text": "Polysaccharide capsule",
+    "hint": "The capsule is antiphagocytic but does not produce these systemic effects."
+   },
+   {
+    "text": "Outer membrane",
+    "hint": "Correct. The outer membrane carries LPS (endotoxin), the cause of Gram-negative sepsis."
+   },
+   {
+    "text": "Alpha toxin",
+    "hint": "Alpha toxin is a staphylococcal/clostridial exotoxin, not a Klebsiella product."
+   },
+   {
+    "text": "Capsule",
+    "hint": "The capsule is antiphagocytic but does not produce these systemic effects."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Where is endotoxin located?",
+  "explanation": "## Advanced explanation\n\nGram-negative sepsis is driven by **lipid A of LPS** in the **outer membrane**. Lipid A is recognised by TLR4 on macrophages, which release TNF-α, IL-1 and IL-6, producing fever, vasodilation and hypotension.\n\n## Simplified explanation\n\nFever and shock come from **endotoxin (LPS)** in the Gram-negative **outer membrane**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The MIC is the ………… of a drug that is required to inhibit growth of a microbe.",
+  "media": [],
+  "options": [
+   {
+    "text": "smallest concentration",
+    "hint": "Correct. MIC = minimum inhibitory concentration."
+   },
+   {
+    "text": "largest concentration",
+    "hint": "It is the minimum, not the maximum."
+   },
+   {
+    "text": "lowest dilution",
+    "hint": "The MIC corresponds to the highest dilution that still inhibits growth."
+   },
+   {
+    "text": "standard dose",
+    "hint": "Dose is a clinical term, not an in-vitro measurement."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "M stands for minimum.",
+  "explanation": "## Advanced explanation\n\n**MIC (minimum inhibitory concentration)** is the lowest concentration of an antimicrobial that prevents visible growth after overnight incubation. The **MBC** is the lowest concentration that kills at least 99.9% of the inoculum.\n\n## Simplified explanation\n\nMIC = the **lowest amount** of drug that stops growth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Susceptibility",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Virulence factors include all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "toxins",
+    "hint": "Toxins are classic virulence factors."
+   },
+   {
+    "text": "cell wall",
+    "hint": "Correct. The cell wall as a general structure is present in harmless bacteria too."
+   },
+   {
+    "text": "capsules",
+    "hint": "Capsules are antiphagocytic virulence factors."
+   },
+   {
+    "text": "enzymes",
+    "hint": "Exoenzymes such as coagulase and hyaluronidase are virulence factors."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which is a basic structure of nearly all bacteria?",
+  "explanation": "## Advanced explanation\n\n**Virulence factors** are structures or products that increase the ability to cause disease: adhesins, capsules, toxins and invasive enzymes (coagulase, collagenase, hyaluronidase, IgA protease), plus siderophores. The cell wall is a universal structural component.\n\n## Simplified explanation\n\nToxins, capsules and enzymes help bacteria cause disease; the ordinary **cell wall** is in all bacteria.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A positive antibody test for HIV would be a ………… of an infection.",
+  "media": [],
+  "options": [
+   {
+    "text": "sign",
+    "hint": "Correct. An objective, measurable finding is a sign."
+   },
+   {
+    "text": "sequela",
+    "hint": "A sequela is an after-effect of a disease."
+   },
+   {
+    "text": "symptom",
+    "hint": "Symptoms are subjective changes felt by the patient."
+   },
+   {
+    "text": "syndrome",
+    "hint": "A syndrome is a characteristic group of signs and symptoms."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Objective versus subjective.",
+  "explanation": "## Advanced explanation\n\n**Signs** are objective changes that can be observed or measured (fever, rash, a laboratory result). **Symptoms** are subjective changes reported by the patient (pain, malaise). A **syndrome** is a cluster of both that characterises a disease.\n\n## Simplified explanation\n\nA result you can measure in the laboratory is a **sign**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is NOT a condition of Koch's postulates?",
+  "media": [],
+  "options": [
+   {
+    "text": "cultivate the microbe in a lab",
+    "hint": "Isolation in pure culture is one of the postulates."
+   },
+   {
+    "text": "isolate the causative agent of a disease",
+    "hint": "Finding and isolating the agent is one of the postulates."
+   },
+   {
+    "text": "test the effects of a pathogen on humans",
+    "hint": "Correct. Koch used susceptible experimental animals, not humans."
+   },
+   {
+    "text": "inoculate a test animal to observe the disease",
+    "hint": "Inoculation of a susceptible animal is one of the postulates."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Think about what was ethically possible.",
+  "explanation": "## Advanced explanation\n\nKoch's postulates: (1) the organism is found in every case of the disease; (2) it is isolated and grown in **pure culture**; (3) inoculation into a **susceptible animal** reproduces the disease; (4) the same organism is re-isolated from that animal.\n\n## Simplified explanation\n\nKoch tested germs in **animals**, not in people.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which subset of white blood cells accounts for acquired, specific immunity?",
+  "media": [],
+  "options": [
+   {
+    "text": "neutrophils",
+    "hint": "Neutrophils are innate phagocytes."
+   },
+   {
+    "text": "B cells",
+    "hint": "Correct. Lymphocytes (B and T cells) mediate specific immunity."
+   },
+   {
+    "text": "monocytes",
+    "hint": "Monocytes belong to innate immunity and antigen presentation."
+   },
+   {
+    "text": "macrophages",
+    "hint": "Macrophages belong to innate immunity and antigen presentation."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Lymphocytes.",
+  "explanation": "## Advanced explanation\n\n**Adaptive (acquired) immunity** is antigen-specific and has memory; it is mediated by **lymphocytes** — B cells producing antibody and T cells providing cell-mediated immunity. Neutrophils, monocytes and macrophages belong to innate immunity.\n\n## Simplified explanation\n\nSpecific immunity is the job of **lymphocytes** such as B cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following statements concerning the mechanism of action of antimicrobial drugs are correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "vancomycin acts by inhibiting peptidoglycan synthesis.",
+    "hint": "True — it binds the D-Ala-D-Ala terminus."
+   },
+   {
+    "text": "erythromycin is a bactericidal drug that disrupts cell membranes.",
+    "hint": "Correct. This is false — erythromycin is a bacteriostatic macrolide acting on the 50S ribosomal subunit."
+   },
+   {
+    "text": "quinolones, such as ciprofloxacin, act by inhibiting the DNA gyrase of bacteria.",
+    "hint": "True."
+   },
+   {
+    "text": "aminoglycosides such as streptomycin are bactericidal drugs that inhibit protein synthesis.",
+    "hint": "True — they bind the 30S subunit."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Macrolides act on ribosomes.",
+  "explanation": "## Advanced explanation\n\n**Erythromycin** binds the **50S** ribosomal subunit and blocks translocation; it is usually **bacteriostatic**. Membrane-active agents are the polymyxins and daptomycin, not macrolides.\n\n## Simplified explanation\n\nErythromycin **stops protein synthesis**; it does not act on the membrane.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following best describes the mechanism by which immunopathogenesis occurs? The ability of…",
+  "media": [],
+  "options": [
+   {
+    "text": "cytotoxic T cells to cause pathogenesis by viruses",
+    "hint": "Correct. Immunopathogenesis is tissue damage caused by the host's own immune response."
+   },
+   {
+    "text": "cytotoxic T cells to block pathogenesis by viruses",
+    "hint": "That is protective immunity, not immunopathogenesis."
+   },
+   {
+    "text": "neutrophils to block pathogenesis by viruses",
+    "hint": "That is protective immunity."
+   },
+   {
+    "text": "antibodies to block pathogenesis by viruses",
+    "hint": "That is protective immunity."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Damage caused by the immune response itself.",
+  "explanation": "## Advanced explanation\n\n**Immunopathogenesis** means the signs of disease are produced by the immune response rather than by the microbe directly — for example cytotoxic T cells destroying infected hepatocytes in hepatitis B, immune-complex deposition, or excessive cytokine release.\n\n## Simplified explanation\n\nSometimes the **immune system itself** causes the damage, as when killer T cells destroy infected cells.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Viral Pathogenesis",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following organisms is most likely to be implicated in dental caries?",
+  "media": [],
+  "options": [
+   {
+    "text": "*Staphylococcus epidermidis*",
+    "hint": "A skin commensal."
+   },
+   {
+    "text": "*Staphylococcus aureus*",
+    "hint": "Not a cause of caries."
+   },
+   {
+    "text": "*Streptococcus mutans*",
+    "hint": "Correct. It forms dextran plaque and produces lactic acid."
+   },
+   {
+    "text": "*Escherichia coli*",
+    "hint": "A colonic organism."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "A viridans streptococcus of the mouth.",
+  "explanation": "## Advanced explanation\n\n*Streptococcus mutans* converts sucrose into **dextran (glucan)**, which forms dental plaque, and ferments sugars to **lactic acid**, which demineralises enamel.\n\n## Simplified explanation\n\n*S. mutans* makes sticky plaque and acid that damages teeth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Infection by which one of the following bacteria is most likely to be interrupted by handwashing?",
+  "media": [],
+  "options": [
+   {
+    "text": "*Streptococcus agalactiae*",
+    "hint": "Transmitted mainly from maternal genital flora at birth."
+   },
+   {
+    "text": "*Staphylococcus aureus*",
+    "hint": "Correct. Spread largely by hands and contact, so hand hygiene interrupts it."
+   },
+   {
+    "text": "*Treponema pallidum*",
+    "hint": "Transmitted sexually and transplacentally."
+   },
+   {
+    "text": "*Borrelia burgdorferi*",
+    "hint": "Transmitted by tick bite."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which organism spreads by contact?",
+  "explanation": "## Advanced explanation\n\n*S. aureus* is carried on skin and in the anterior nares and is transferred by **hands** — the main route of cross-infection in hospitals. **Hand hygiene** is therefore the single most effective control measure. The others spread sexually, vertically or by arthropod vectors.\n\n## Simplified explanation\n\n*S. aureus* travels on **hands**, so washing hands stops it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Infection Control",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Drugs that prevent the formation of the bacterial cell wall are…",
+  "media": [],
+  "options": [
+   {
+    "text": "quinolones",
+    "hint": "Quinolones inhibit DNA gyrase."
+   },
+   {
+    "text": "tetracyclines",
+    "hint": "Tetracyclines inhibit the 30S ribosomal subunit."
+   },
+   {
+    "text": "beta-lactams",
+    "hint": "Correct. Penicillins and cephalosporins block peptidoglycan cross-linking."
+   },
+   {
+    "text": "aminoglycosides",
+    "hint": "Aminoglycosides inhibit protein synthesis at the 30S subunit."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Penicillins belong to this group.",
+  "explanation": "## Advanced explanation\n\n**β-lactams** (penicillins, cephalosporins, carbapenems, monobactams) bind penicillin-binding proteins and inhibit the **transpeptidation** step of peptidoglycan cross-linking, so the wall weakens and the cell lyses. Vancomycin and bacitracin also act on wall synthesis by other steps.\n\n## Simplified explanation\n\n**β-lactams** such as penicillin stop bacteria building their cell wall.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A teenage boy has developed a tender, painful lump in his axilla. The lesion eventually came to a \"point\" and drained purulent material. A Gram stain of the pus revealed WBCs and Gram-positive cocci. Which of the following would be the most probable source of this infection?",
+  "media": [],
+  "options": [
+   {
+    "text": "Food",
+    "hint": "Food-borne staphylococcal illness causes vomiting, not abscesses."
+   },
+   {
+    "text": "Insect bite",
+    "hint": "Not the usual source of a staphylococcal abscess."
+   },
+   {
+    "text": "Swimming pool",
+    "hint": "Pool water is associated with Pseudomonas folliculitis, not this picture."
+   },
+   {
+    "text": "Resident microbiota",
+    "hint": "Correct. The boy's own skin/nasal S. aureus is the usual source of a boil."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Where does S. aureus normally live?",
+  "explanation": "## Advanced explanation\n\nA boil (furuncle) is typically caused by **S. aureus** from the patient's own **resident flora** (anterior nares, skin), which enters through a hair follicle. Gram-positive cocci in clusters within pus support this.\n\n## Simplified explanation\n\nThe germ comes from the patient's **own skin and nose bacteria**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Normal Flora",
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Microbial resistance to drugs is acquired through all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "transfer",
+    "hint": "Correct. 'Transfer' alone is not one of the defined mechanisms of gene exchange."
+   },
+   {
+    "text": "conjugation",
+    "hint": "Conjugation transfers R plasmids."
+   },
+   {
+    "text": "transduction",
+    "hint": "Phage-mediated transfer of resistance genes occurs."
+   },
+   {
+    "text": "transformation",
+    "hint": "Uptake of free DNA can transfer resistance genes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Name the three classical modes of gene exchange.",
+  "explanation": "## Advanced explanation\n\nAcquired resistance arises by **mutation** or by horizontal gene transfer through the three classical mechanisms: **conjugation, transduction and transformation** (plus transposition of mobile elements). 'Transfer' is a generic word, not a specific mechanism.\n\n## Simplified explanation\n\nThe named ways are **conjugation, transduction and transformation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Resistance",
+   "Bacterial Genetics",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The specific action of haemolysins is to…",
+  "media": [],
+  "options": [
+   {
+    "text": "damage white blood cells",
+    "hint": "That is the action of leukocidins."
+   },
+   {
+    "text": "damage red blood cells",
+    "hint": "Correct. Haemolysins lyse erythrocytes."
+   },
+   {
+    "text": "cause leukocytosis",
+    "hint": "An inflammatory response, not a toxin action."
+   },
+   {
+    "text": "cause fever",
+    "hint": "Pyrogens such as endotoxin cause fever."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "The name says it.",
+  "explanation": "## Advanced explanation\n\n**Haemolysins** are exotoxins that lyse **red blood cells**, releasing haemoglobin and iron for bacterial use. On blood agar they produce α (partial, green), β (complete, clear) or γ (none) haemolysis — an important identification feature.\n\n## Simplified explanation\n\nHaemolysins **break open red blood cells**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A short period early in a disease that manifests with general malaise and achiness is the…",
+  "media": [],
+  "options": [
+   {
+    "text": "sequela",
+    "hint": "A sequela follows after the illness."
+   },
+   {
+    "text": "prodromium",
+    "hint": "Correct. The prodromal period has vague, general symptoms."
+   },
+   {
+    "text": "period of invasion",
+    "hint": "The invasion/illness period has the characteristic signs."
+   },
+   {
+    "text": "period of incubation",
+    "hint": "Incubation is before any symptoms appear."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "It comes just after incubation.",
+  "explanation": "## Advanced explanation\n\nDisease stages: **incubation** (no symptoms) → **prodromal** (short, vague, general symptoms such as malaise and aching) → **period of invasion/illness** (characteristic signs, peak severity) → **decline** → **convalescence**.\n\n## Simplified explanation\n\nThe vague \"coming down with something\" stage is the **prodrome**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which non-specific host defence is associated with the trachea?",
+  "media": [],
+  "options": [
+   {
+    "text": "lactic acid",
+    "hint": "Lactic acid is a vaginal and skin defence."
+   },
+   {
+    "text": "lacrimation",
+    "hint": "Tears protect the eye."
+   },
+   {
+    "text": "ciliary lining",
+    "hint": "Correct. The mucociliary escalator of the trachea removes trapped microbes."
+   },
+   {
+    "text": "desquamation",
+    "hint": "Shedding is a skin defence."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The mucociliary escalator.",
+  "explanation": "## Advanced explanation\n\nThe tracheobronchial tree is lined by **ciliated columnar epithelium with mucus**. Trapped particles and microbes are swept upward to the pharynx and swallowed or coughed out. Smoking and some toxins (pertussis) impair ciliary action.\n\n## Simplified explanation\n\nTiny hairs (**cilia**) in the windpipe sweep germs out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The term vertical transmission refers to transmission…",
+  "media": [],
+  "options": [
+   {
+    "text": "from mother to child.",
+    "hint": "Correct. Vertical transmission is from parent to offspring."
+   },
+   {
+    "text": "from a sex worker to a client.",
+    "hint": "That is horizontal (direct contact) transmission."
+   },
+   {
+    "text": "from one child to another at school.",
+    "hint": "That is horizontal transmission."
+   },
+   {
+    "text": "by insect vector from reservoir to patient.",
+    "hint": "That is vector-borne horizontal transmission."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of the family tree.",
+  "explanation": "## Advanced explanation\n\n**Vertical transmission** passes an agent from **mother to offspring** — transplacentally (rubella, *T. pallidum*, HIV, CMV, toxoplasma), during delivery (HBV, HSV, gonococcus, GBS) or by breast milk. Everything else is horizontal.\n\n## Simplified explanation\n\nVertical = **mother to baby**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of a non-specific chemical barrier to infection is…",
+  "media": [],
+  "options": [
+   {
+    "text": "unbroken skin",
+    "hint": "A physical/mechanical barrier."
+   },
+   {
+    "text": "cilia in respiratory tract",
+    "hint": "A mechanical barrier."
+   },
+   {
+    "text": "bile in the duodenum",
+    "hint": "Correct. Bile is a chemical antimicrobial barrier."
+   },
+   {
+    "text": "sloughing of epithelium as it grows",
+    "hint": "A mechanical barrier."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one works by chemistry, not by physical removal?",
+  "explanation": "## Advanced explanation\n\n**Chemical barriers** of innate immunity include gastric acid, **bile salts**, lysozyme in tears and saliva, fatty acids and low pH of skin, lactic acid in the vagina, and antimicrobial peptides (defensins). Skin, cilia and desquamation are **physical/mechanical** barriers.\n\n## Simplified explanation\n\n**Bile** kills microbes chemically; the others work by physically blocking or sweeping them away.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an enterotoxin?",
+  "media": [],
+  "options": [
+   {
+    "text": "plague toxin",
+    "hint": "The plague (murine) toxin is not an enterotoxin."
+   },
+   {
+    "text": "*cholera* toxin",
+    "hint": "Correct. Cholera toxin acts on the small intestine to cause watery diarrhoea."
+   },
+   {
+    "text": "*diphtheria* toxin",
+    "hint": "Diphtheria toxin is a cytotoxin that blocks protein synthesis."
+   },
+   {
+    "text": "LPS of *salmonella*",
+    "hint": "LPS is endotoxin, not an enterotoxin."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Entero- means gut.",
+  "explanation": "## Advanced explanation\n\n**Enterotoxins** act on the intestinal mucosa to cause diarrhoea or vomiting. **Cholera toxin** (A-B toxin) ADP-ribosylates Gs, raising cAMP and causing massive secretion of chloride and water. Other enterotoxins: staphylococcal enterotoxins, ETEC LT and ST, *C. perfringens* enterotoxin.\n\n## Simplified explanation\n\n**Cholera toxin** acts on the gut, so it is an enterotoxin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Molecular methods employed in the diagnosis of bacteria include all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "Complement fixation",
+    "hint": "Correct. This is a serological (antibody-based) method, not a molecular one."
+   },
+   {
+    "text": "% GC composition",
+    "hint": "A genotypic method based on DNA base composition."
+   },
+   {
+    "text": "Hybridization",
+    "hint": "DNA probe hybridization is a molecular method."
+   },
+   {
+    "text": "Sequencing",
+    "hint": "Nucleic acid sequencing is a molecular method."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which test uses antibodies?",
+  "explanation": "## Advanced explanation\n\n**Molecular (genotypic)** methods examine nucleic acids: %G+C, DNA–DNA hybridization, probes, PCR, 16S rRNA sequencing, RFLP/PFGE. **Complement fixation** is a classical **serological** assay that detects antigen–antibody reactions.\n\n## Simplified explanation\n\nComplement fixation is an **antibody test**, not a DNA test.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Identification",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Each of the following statements regarding the selective action of antibiotics on bacteria is correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "Chloramphenicol affects the large subunit of the bacterial ribosome, which is different from the large subunit of the human ribosome.",
+    "hint": "True — bacterial 50S versus human 60S."
+   },
+   {
+    "text": "Isoniazid affects the DNA polymerase of bacteria but not that of human cells.",
+    "hint": "Correct. This is false — isoniazid inhibits mycolic acid synthesis in the mycobacterial cell wall."
+   },
+   {
+    "text": "Sulfonamides affect folic acid synthesis in bacteria, a pathway that does not occur in human cells.",
+    "hint": "True — humans take up preformed folate."
+   },
+   {
+    "text": "Penicillins affect bacteria rather than human cells because bacteria have a cell wall, whereas human cells do not.",
+    "hint": "True."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What does isoniazid target?",
+  "explanation": "## Advanced explanation\n\n**Isoniazid** is a prodrug activated by mycobacterial catalase-peroxidase (KatG); it inhibits **InhA**, blocking **mycolic acid** synthesis in the mycobacterial cell wall. Rifampicin, not isoniazid, acts on a polymerase (bacterial DNA-dependent RNA polymerase).\n\n## Simplified explanation\n\nIsoniazid blocks the **waxy wall** of mycobacteria, not DNA polymerase.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following BEST describes the mode of action of endotoxin?",
+  "media": [],
+  "options": [
+   {
+    "text": "Causes the release of tumor necrosis factor",
+    "hint": "Correct. LPS triggers macrophages to release TNF-α and other cytokines."
+   },
+   {
+    "text": "Degrades lecithin in cell membranes",
+    "hint": "That is the action of lecithinase (C. perfringens alpha toxin)."
+   },
+   {
+    "text": "Inactivates elongation factor-2",
+    "hint": "That is diphtheria toxin and Pseudomonas exotoxin A."
+   },
+   {
+    "text": "Blocks release of acetylcholine",
+    "hint": "That is botulinum toxin."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Cytokine release.",
+  "explanation": "## Advanced explanation\n\nEndotoxin (**lipid A of LPS**) binds LBP/CD14/**TLR4** on macrophages, which release **TNF-α, IL-1 and IL-6**. These mediate fever, hypotension, neutrophil activation and, at high levels, disseminated intravascular coagulation.\n\n## Simplified explanation\n\nEndotoxin makes the body release **cytokines such as TNF**, which cause fever and shock.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The time that lapses between an encounter with a pathogen and the first symptom is…",
+  "media": [],
+  "options": [
+   {
+    "text": "prodromium",
+    "hint": "The prodrome is the first, vague symptoms themselves."
+   },
+   {
+    "text": "period of invasion",
+    "hint": "The invasion period is when characteristic signs appear."
+   },
+   {
+    "text": "period of incubation",
+    "hint": "Correct. Incubation is from exposure to the first symptom."
+   },
+   {
+    "text": "period of convalescence",
+    "hint": "Convalescence is recovery after the illness."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The silent period.",
+  "explanation": "## Advanced explanation\n\nThe **incubation period** runs from infection to the appearance of the first symptoms; its length depends on the organism's generation time, dose, route and host resistance (hours for staphylococcal food poisoning, years for leprosy or HIV).\n\n## Simplified explanation\n\nThe quiet time between catching the germ and feeling ill is the **incubation period**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Accessibility of a virus to host tissue is influenced by all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "Physical barriers",
+    "hint": "Skin and mucosal barriers affect access."
+   },
+   {
+    "text": "Natural defense mechanisms",
+    "hint": "Innate defences affect access."
+   },
+   {
+    "text": "Distance to be traversed within the body",
+    "hint": "Distance to the target organ affects access."
+   },
+   {
+    "text": "The intracellular environment that permits virus replication",
+    "hint": "Correct. This determines replication once inside, not access to the tissue."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which factor acts only after entry?",
+  "explanation": "## Advanced explanation\n\nAccess (tropism at the tissue level) depends on **barriers, innate defences and the distance/route** the virus must travel. Whether the cell's **intracellular environment** supports replication determines **permissiveness**, a separate step that follows successful access and receptor binding.\n\n## Simplified explanation\n\nThe inside of the cell matters **after** the virus arrives, not for getting there.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Viral Pathogenesis",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An infection acquired during a stay or visit to a hospital is called…",
+  "media": [],
+  "options": [
+   {
+    "text": "focal",
+    "hint": "A focal infection spreads from a local site to other sites."
+   },
+   {
+    "text": "zoonosis",
+    "hint": "A zoonosis is acquired from animals."
+   },
+   {
+    "text": "subclinical",
+    "hint": "Subclinical means without obvious symptoms."
+   },
+   {
+    "text": "nosocomial",
+    "hint": "Correct. Nosocomial (healthcare-associated) infections are acquired in hospital."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Healthcare-associated infection.",
+  "explanation": "## Advanced explanation\n\n**Nosocomial** infections are neither present nor incubating on admission, appearing usually after 48 hours. Common examples: catheter-associated UTI, ventilator-associated pneumonia, surgical site infection and intravascular device bacteraemia; frequent agents include *E. coli*, *S. aureus*, *P. aeruginosa* and *C. difficile*.\n\n## Simplified explanation\n\nAn infection caught **in hospital** is nosocomial.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Infection Control",
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following blood cells function primarily as phagocytes?",
+  "media": [],
+  "options": [
+   {
+    "text": "basophils",
+    "hint": "Basophils release histamine; they are not major phagocytes."
+   },
+   {
+    "text": "eosinophils",
+    "hint": "Eosinophils mainly act against helminths and in allergy."
+   },
+   {
+    "text": "neutrophils",
+    "hint": "Correct. Neutrophils are the principal circulating phagocytes."
+   },
+   {
+    "text": "lymphocytes",
+    "hint": "Lymphocytes mediate specific immunity and do not phagocytose."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The most numerous white cell in acute infection.",
+  "explanation": "## Advanced explanation\n\n**Neutrophils (polymorphs)** are the first and most numerous phagocytes recruited to bacterial infection; monocytes/macrophages are the other main phagocytes. Basophils and eosinophils have mainly inflammatory and antiparasitic roles.\n\n## Simplified explanation\n\n**Neutrophils** are the main 'eating' white cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the end product of the complement system?",
+  "media": [],
+  "options": [
+   {
+    "text": "properdin",
+    "hint": "Properdin stabilises the alternative pathway C3 convertase."
+   },
+   {
+    "text": "cascade reaction",
+    "hint": "That describes the process, not the product."
+   },
+   {
+    "text": "complement factor C9",
+    "hint": "C9 is a component of the final complex, not the end product itself."
+   },
+   {
+    "text": "membrane attack complex",
+    "hint": "Correct. C5b6789 forms the MAC, the terminal product."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "C5b–C9.",
+  "explanation": "## Advanced explanation\n\nAll three complement pathways converge on C3 and C5 cleavage, ending in the **membrane attack complex (C5b, C6, C7, C8 and multiple C9)**, which creates pores and lyses susceptible cells (notably *Neisseria*). Other products include opsonin C3b and anaphylatoxins C3a/C5a.\n\n## Simplified explanation\n\nComplement finishes by building the **membrane attack complex** that punches holes in cells.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The MOST important function of antibody in host defences against bacteria is…",
+  "media": [],
+  "options": [
+   {
+    "text": "facilitation of phagocytosis",
+    "hint": "Correct. Opsonisation by IgG greatly enhances phagocytosis."
+   },
+   {
+    "text": "acceleration of proteolysis of exotoxins",
+    "hint": "Antibody neutralises rather than digests toxins."
+   },
+   {
+    "text": "inhibition of bacterial protein synthesis",
+    "hint": "Antibodies do not enter bacteria."
+   },
+   {
+    "text": "activation of lysozyme that degrades the cell wall",
+    "hint": "Lysozyme acts independently of antibody."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Opsonisation.",
+  "explanation": "## Advanced explanation\n\nIgG bound to a bacterial surface is recognised by **Fcγ receptors** on neutrophils and macrophages, and complement activation deposits **C3b**; both act as **opsonins**, dramatically increasing phagocytosis. Antibody also neutralises toxins and adhesins and activates complement.\n\n## Simplified explanation\n\nAntibodies **coat bacteria** so white cells can eat them easily.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Each of the following statements concerning penicillin is correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "an intact β-lactam ring of penicillin is required for its activity.",
+    "hint": "True — β-lactamase opens the ring and abolishes activity."
+   },
+   {
+    "text": "the structure of penicillin resembles that of a dipeptide of alanine.",
+    "hint": "True — it mimics D-alanyl-D-alanine."
+   },
+   {
+    "text": "penicillin is a bacteriostatic drug because autolytic enzymes are *not* activated.",
+    "hint": "Correct. This is false — penicillin is bactericidal and does activate autolysins."
+   },
+   {
+    "text": "penicillin inhibits transpeptidases, which are required for cross-linking peptidoglycan.",
+    "hint": "True."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Is penicillin cidal or static?",
+  "explanation": "## Advanced explanation\n\nPenicillin binds PBPs (transpeptidases), halting cross-linking, and also **activates autolysins**, so growing cells lyse. It is therefore **bactericidal** against dividing organisms. Tolerance occurs in strains with deficient autolysin activity.\n\n## Simplified explanation\n\nPenicillin **kills** growing bacteria; it is not bacteriostatic.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is associated with bacterial invasion?",
+  "media": [],
+  "options": [
+   {
+    "text": "phospholipase",
+    "hint": "An enzyme that damages membranes but is classed as a toxin."
+   },
+   {
+    "text": "collagenase",
+    "hint": "Correct. Collagenase breaks down connective tissue and spreads infection."
+   },
+   {
+    "text": "hemolysin",
+    "hint": "A toxin that lyses red cells."
+   },
+   {
+    "text": "defensin",
+    "hint": "A host antimicrobial peptide, not a bacterial product."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "A spreading factor.",
+  "explanation": "## Advanced explanation\n\n**Invasins/spreading factors** break down host tissue barriers: **collagenase** (*C. perfringens*), **hyaluronidase** and **streptokinase** (*S. pyogenes*), and coagulase/staphylokinase. Defensins are host-derived antimicrobial peptides.\n\n## Simplified explanation\n\n**Collagenase** digests tissue so bacteria can spread.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An antibiotic that disrupts the normal flora can cause…",
+  "media": [],
+  "options": [
+   {
+    "text": "the teeth to turn brown",
+    "hint": "Tooth staining is a specific side effect of tetracyclines in children, not a flora effect."
+   },
+   {
+    "text": "a superinfection",
+    "hint": "Correct. Loss of colonization resistance allows overgrowth of resistant organisms."
+   },
+   {
+    "text": "aplastic anemia",
+    "hint": "A direct toxic effect of chloramphenicol, not a flora effect."
+   },
+   {
+    "text": "hepatotoxicity",
+    "hint": "A direct drug toxicity, not a flora effect."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Overgrowth after the flora is removed.",
+  "explanation": "## Advanced explanation\n\nBroad-spectrum antibiotics suppress the normal flora, removing **colonization resistance**; resistant organisms overgrow — *Clostridioides difficile* (antibiotic-associated colitis), *Candida* (thrush, vaginitis), resistant Gram-negative rods. This is a **superinfection**.\n\n## Simplified explanation\n\nKilling the good bacteria lets other germs take over — a **superinfection**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "Normal Flora",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Opsonization is the process by which…",
+  "media": [],
+  "options": [
+   {
+    "text": "chemokines attract neutrophils to the site of infection.",
+    "hint": "That is chemotaxis."
+   },
+   {
+    "text": "the alternate pathway of complement is activated.",
+    "hint": "Complement activation is separate, though it produces opsonins."
+   },
+   {
+    "text": "bacteria are made more easily phagocytized.",
+    "hint": "Correct. Opsonins coat microbes to promote their ingestion."
+   },
+   {
+    "text": "the acute-phase response is induced.",
+    "hint": "That is a systemic inflammatory response."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Coating to be eaten.",
+  "explanation": "## Advanced explanation\n\n**Opsonins** — IgG (via Fcγ receptors), **C3b** (via CR1) and mannose-binding lectin or CRP — coat microbes so phagocytes bind and ingest them far more efficiently. Encapsulated bacteria resist phagocytosis until opsonised.\n\n## Simplified explanation\n\nOpsonisation **coats germs** so white cells can swallow them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Each of the following statements concerning the mechanism of action of antibacterial drugs is correct EXCEPT:",
+  "media": [],
+  "options": [
+   {
+    "text": "Cephalosporins are bactericidal drugs that inhibit the transpeptidase reaction and prevent cell wall synthesis.",
+    "hint": "True."
+   },
+   {
+    "text": "Tetracyclines are bacteriostatic drugs that inhibit protein synthesis by blocking tRNA binding.",
+    "hint": "True — they block the 30S A site."
+   },
+   {
+    "text": "Aminoglycosides are bacteriostatic drugs that inhibit protein synthesis by activating ribonuclease, which degrades mRNA.",
+    "hint": "Correct. This is false — aminoglycosides are bactericidal and act by binding the 30S subunit, causing misreading."
+   },
+   {
+    "text": "Erythromycin is a bacteriostatic drug that inhibits protein synthesis by blocking translocation of the polypeptide.",
+    "hint": "True."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Are aminoglycosides static or cidal?",
+  "explanation": "## Advanced explanation\n\n**Aminoglycosides** (gentamicin, streptomycin) bind irreversibly to the **30S** subunit, causing **misreading of mRNA** and blocking initiation; they are **bactericidal** and concentration-dependent. They do not activate ribonuclease.\n\n## Simplified explanation\n\nAminoglycosides **kill** bacteria by making them misread their mRNA.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which statement is NOT an aim in the use of drugs in antimicrobial chemotherapy? The drug should be…",
+  "media": [],
+  "options": [
+   {
+    "text": "microbicidal",
+    "hint": "Killing the organism is a desirable aim."
+   },
+   {
+    "text": "selectively toxic",
+    "hint": "Selective toxicity is the central principle."
+   },
+   {
+    "text": "active even in high dilutions",
+    "hint": "Activity at low concentrations is desirable."
+   },
+   {
+    "text": "broken down and excreted rapidly",
+    "hint": "Correct. Rapid breakdown and excretion would shorten the drug's useful action."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which property would work against treatment?",
+  "explanation": "## Advanced explanation\n\nAn ideal antimicrobial is **selectively toxic**, **microbicidal**, active at low concentrations, stable, non-allergenic, well distributed to the site of infection and **not** removed from the body so rapidly that effective levels cannot be maintained.\n\n## Simplified explanation\n\nA drug that is destroyed and passed out **too quickly** would not stay long enough to work.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An unusual response to a drug or any external agent is…",
+  "media": [],
+  "options": [
+   {
+    "text": "drug resistance",
+    "hint": "Resistance is a property of the microbe, not a host response."
+   },
+   {
+    "text": "superinfection",
+    "hint": "Superinfection is overgrowth of other organisms."
+   },
+   {
+    "text": "toxicity",
+    "hint": "Toxicity is a dose-related, predictable effect."
+   },
+   {
+    "text": "allergy",
+    "hint": "Correct. An allergy is an unusual, immunologically mediated response."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Immune hypersensitivity.",
+  "explanation": "## Advanced explanation\n\n**Allergy (hypersensitivity)** is an unpredictable, immune-mediated reaction occurring in sensitised individuals, e.g. penicillin rash or anaphylaxis. **Toxicity** is dose-related and occurs in everyone at high enough exposure.\n\n## Simplified explanation\n\nAn unexpected, **immune** reaction to a drug is an allergy.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following modes of action would be most selectively toxic?",
+  "media": [],
+  "options": [
+   {
+    "text": "interrupting ribosomal function",
+    "hint": "Human ribosomes differ but are still ribosomes, so less selective."
+   },
+   {
+    "text": "preventing cell wall synthesis",
+    "hint": "Correct. Human cells have no cell wall at all."
+   },
+   {
+    "text": "dissolving the cell membrane",
+    "hint": "Human membranes are similar to bacterial membranes."
+   },
+   {
+    "text": "inhibiting DNA replication",
+    "hint": "Human cells also replicate DNA."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which structure is absent from human cells?",
+  "explanation": "## Advanced explanation\n\n**Selective toxicity** is greatest when the target is absent from host cells. Human cells have **no peptidoglycan cell wall**, so β-lactams and vancomycin are very safe. Membrane-active agents are the least selective because membranes are chemically similar.\n\n## Simplified explanation\n\nPeople have no **cell wall**, so wall-blocking drugs are safest.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of a non-communicable infection is…",
+  "media": [],
+  "options": [
+   {
+    "text": "tuberculosis",
+    "hint": "Spread person to person by droplet nuclei."
+   },
+   {
+    "text": "measles",
+    "hint": "Highly communicable."
+   },
+   {
+    "text": "leprosy",
+    "hint": "Communicable with prolonged close contact."
+   },
+   {
+    "text": "tetanus",
+    "hint": "Correct. Tetanus is acquired from spores in soil, not from other people."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one is not passed from person to person?",
+  "explanation": "## Advanced explanation\n\nA **non-communicable** infection is not transmitted from host to host. *Clostridium tetani* spores enter through wounds from **soil and dust**; the patient is not infectious to others. Tuberculosis, measles and leprosy all spread between people.\n\n## Simplified explanation\n\n**Tetanus** comes from soil, not from another person.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following would NOT be a portal of entry?",
+  "media": [],
+  "options": [
+   {
+    "text": "skin",
+    "hint": "The skin (through cuts, bites and follicles) is a portal of entry."
+   },
+   {
+    "text": "the meninges",
+    "hint": "Correct. The meninges are an internal site reached after entry, not a portal."
+   },
+   {
+    "text": "the placenta",
+    "hint": "The placenta is the portal for vertical transmission."
+   },
+   {
+    "text": "small intestine",
+    "hint": "Part of the gastrointestinal portal."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Portals are surfaces open to the outside.",
+  "explanation": "## Advanced explanation\n\n**Portals of entry** are the mucous membranes (respiratory, gastrointestinal, genitourinary, conjunctiva), the **skin**, the **parenteral route** and the **placenta**. The **meninges** are an internal structure, infected after the organism has already entered and spread.\n\n## Simplified explanation\n\nThe meninges are **inside** the body, so they are not a way in.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Immunologic memory refers to the ability of the immune system to…",
+  "media": [],
+  "options": [
+   {
+    "text": "recall a previous immune response",
+    "hint": "Correct. Memory cells give a faster, stronger secondary response."
+   },
+   {
+    "text": "recognize millions of different antigens",
+    "hint": "That is diversity, not memory."
+   },
+   {
+    "text": "react with millions of different antigens",
+    "hint": "That is diversity/specificity."
+   },
+   {
+    "text": "migrate from the blood vessels into the tissues",
+    "hint": "That is diapedesis."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Secondary response.",
+  "explanation": "## Advanced explanation\n\n**Memory** B and T cells persist after an infection or vaccination. On re-exposure they produce a **secondary (anamnestic) response**: shorter lag, higher titre, mainly IgG, and higher affinity — the basis of long-lasting vaccine protection and booster doses.\n\n## Simplified explanation\n\nThe immune system **remembers** a germ and responds faster next time.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Host Defence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Each of the following statements about the resistance of bacteria to antimicrobial drugs is correct EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "resistance to tetracycline is known to be due to an enzyme that hydrolyzes the ester linkage",
+    "hint": "Correct. This is false — tetracycline resistance is mainly due to efflux pumps and ribosomal protection, not an ester-hydrolysing enzyme."
+   },
+   {
+    "text": "resistance to chloramphenicol is known to be due to an enzyme that acetylates the drug",
+    "hint": "True — chloramphenicol acetyltransferase."
+   },
+   {
+    "text": "resistance to penicillin is known to be due to reduced affinity of transpeptidases",
+    "hint": "True — altered PBPs, as in MRSA and pneumococci."
+   },
+   {
+    "text": "resistance to penicillin is known to be due to cleavage by β-lactamase",
+    "hint": "True."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "How do bacteria resist tetracycline?",
+  "explanation": "## Advanced explanation\n\nTetracycline resistance is usually by **active efflux (tet pumps)** or **ribosomal protection proteins (TetM/TetO)**, sometimes enzymatic inactivation by TetX (an oxidoreductase, not an esterase). Chloramphenicol is inactivated by **acetyltransferase**; penicillin resistance arises from **β-lactamases** or **altered PBPs**.\n\n## Simplified explanation\n\nBacteria resist tetracycline mainly by **pumping it out** or protecting their ribosome.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Antimicrobial Resistance",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Organisms that produce endotoxin include all the following EXCEPT…",
+  "media": [],
+  "options": [
+   {
+    "text": "*Proteus* species",
+    "hint": "A Gram-negative rod, so it has LPS."
+   },
+   {
+    "text": "*Salmonella typhi*",
+    "hint": "A Gram-negative rod, so it has LPS."
+   },
+   {
+    "text": "*Clostridium tetani*",
+    "hint": "Correct. It is Gram-positive, so it has no lipopolysaccharide."
+   },
+   {
+    "text": "*Neisseria meningitidis*",
+    "hint": "A Gram-negative coccus with lipooligosaccharide."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Endotoxin belongs to one Gram group.",
+  "explanation": "## Advanced explanation\n\n**Endotoxin is lipopolysaccharide of the Gram-negative outer membrane**. Gram-positive organisms such as *Clostridium*, *Staphylococcus* and *Streptococcus* have no LPS; their cell wall components (lipoteichoic acid, peptidoglycan) can produce similar inflammation but are not endotoxin.\n\n## Simplified explanation\n\nOnly **Gram-negative** bacteria have endotoxin; *C. tetani* is Gram-positive.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Cell Structure",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: antigenic variation allows pathogens to stay ahead of the immune response of the host.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Changing surface antigens lets the organism escape existing antibodies."
+   },
+   {
+    "text": "False",
+    "hint": "Antigenic variation does help pathogens evade immunity."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of influenza and trypanosomes.",
+  "explanation": "## Advanced explanation\n\n**Antigenic variation** changes surface antigens so that antibodies raised against earlier variants no longer bind: influenza antigenic drift and shift, *Borrelia* relapsing fever, *N. gonorrhoeae* pilin variation, trypanosome VSG switching. It is a major obstacle to vaccine development.\n\n## Simplified explanation\n\nIf the germ keeps **changing its coat**, old antibodies no longer recognise it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: for most viruses the portal of entry is the same as the portal of exit.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Most viruses leave by the route through which they entered."
+   },
+   {
+    "text": "False",
+    "hint": "For most viruses entry and exit routes do coincide."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Respiratory in, respiratory out.",
+  "explanation": "## Advanced explanation\n\nRespiratory viruses enter and leave in respiratory secretions; enteric viruses enter and leave by the faecal–oral route. Exceptions exist (e.g. arboviruses enter by bite and leave in blood taken by a vector; rabies enters by bite and exits in saliva).\n\n## Simplified explanation\n\nMost viruses leave **the same way they came in**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Viral Pathogenesis",
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: most bacteria that produce exotoxins are Gram-positive.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Exotoxin production is characteristic of many Gram-positive pathogens."
+   },
+   {
+    "text": "False",
+    "hint": "Classically, exotoxins are associated mainly with Gram-positive organisms."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Compare with endotoxin.",
+  "explanation": "## Advanced explanation\n\nClassical teaching: **exotoxins** are secreted proteins produced mainly by **Gram-positive** organisms (*Clostridium*, *Corynebacterium*, *Staphylococcus*, *Streptococcus*), although several Gram-negatives also produce them (*V. cholerae*, ETEC, *P. aeruginosa*). **Endotoxin** is confined to Gram-negatives.\n\n## Simplified explanation\n\nMostly **Gram-positive** bacteria make exotoxins.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Bacterial Toxins",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: the volume of specimen to be collected for microbial diagnosis depends on age.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Paediatric specimens, especially blood cultures, are smaller volumes."
+   },
+   {
+    "text": "False",
+    "hint": "Volume does vary with the patient's age and size."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of blood culture volumes in babies.",
+  "explanation": "## Advanced explanation\n\nSpecimen volume affects sensitivity (particularly for **blood cultures**), but the volume taken must be safe for the patient. Paediatric blood culture bottles take 1–3 mL, whereas 8–10 mL per adult bottle is recommended.\n\n## Simplified explanation\n\nYou take **smaller samples from children** than from adults.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Specimen Collection",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: very few microbes are always pathogenic.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Most microbes are harmless or opportunistic; only a minority are true pathogens."
+   },
+   {
+    "text": "False",
+    "hint": "Obligate pathogens are in fact a small minority of microbes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "How many microbes actually cause disease?",
+  "explanation": "## Advanced explanation\n\nThe vast majority of microorganisms are **saprophytes or commensals**. A limited number are **true (primary) pathogens** causing disease in healthy hosts (*M. tuberculosis*, *S. typhi*, *N. gonorrhoeae*), while many others are **opportunists** acting only when host defences are impaired.\n\n## Simplified explanation\n\nOnly a **small number** of microbes always cause disease.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: vertical transmission of viral infection can be achieved through the bite of an infected animal.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "An animal bite is horizontal, not vertical, transmission."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Vertical transmission is from mother to offspring; an animal bite is horizontal transmission."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Define vertical transmission.",
+  "explanation": "## Advanced explanation\n\n**Vertical** transmission passes from **mother to offspring** (transplacental, perinatal, breast milk). The bite of an infected animal (e.g. rabies) is **horizontal zoonotic** transmission.\n\n## Simplified explanation\n\nA bite is **not** mother-to-baby spread, so the statement is false.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: all humans serving as reservoirs of an infection are carriers.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Some human reservoirs are frankly ill cases, not carriers."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Human reservoirs include symptomatic cases as well as asymptomatic carriers."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What is a carrier?",
+  "explanation": "## Advanced explanation\n\nA **carrier** harbours and sheds an organism **without clinical disease** (incubatory, convalescent, chronic or healthy carrier). A human **reservoir** may equally be a person with active disease, so not every reservoir is a carrier.\n\n## Simplified explanation\n\nReservoirs include **sick people too**, not only silent carriers.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: urine samples are usually cultured on CLED agar.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. CLED is the standard urine culture medium."
+   },
+   {
+    "text": "False",
+    "hint": "CLED agar is indeed the routine medium for urine."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Cystine Lactose Electrolyte Deficient.",
+  "explanation": "## Advanced explanation\n\n**CLED agar** supports both Gram-positive and Gram-negative urinary pathogens, differentiates lactose fermenters (yellow) from non-fermenters (blue), and is **electrolyte deficient** so that *Proteus* does not swarm. MacConkey or blood agar may be used alongside it.\n\n## Simplified explanation\n\nUrine is usually plated on **CLED agar**, which stops *Proteus* swarming.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: signs are subjective changes in body function that can be measured.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Signs are objective, not subjective."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Signs are objective; symptoms are the subjective changes."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Watch the word 'subjective'.",
+  "explanation": "## Advanced explanation\n\n**Signs** are **objective** changes that can be observed or measured by another person (fever, rash, leucocytosis). **Symptoms** are **subjective** changes felt and reported by the patient (headache, nausea).\n\n## Simplified explanation\n\nSigns are what others can **see or measure**, so calling them subjective is wrong.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Principles of Disease",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: formation of viral inclusion bodies is of no diagnostic significance.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Inclusion bodies are in fact diagnostically useful."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Inclusion bodies such as Negri bodies are diagnostically useful."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Negri bodies.",
+  "explanation": "## Advanced explanation\n\nViral **inclusion bodies** are characteristic accumulations in infected cells and help diagnosis: **Negri bodies** (rabies, cytoplasmic), **Cowdry type A** (herpes, intranuclear), owl's-eye inclusions (CMV), Guarnieri bodies (poxviruses).\n\n## Simplified explanation\n\nInclusion bodies **do help** diagnose some viral infections.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Viral Pathogenesis",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: *Neisseria meningitidis* is oxidase positive.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. All Neisseria species are oxidase positive."
+   },
+   {
+    "text": "False",
+    "hint": "Neisseria are oxidase positive."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "A key screening test for Neisseria.",
+  "explanation": "## Advanced explanation\n\n**Oxidase positivity** (cytochrome c oxidase) is a key screening test for *Neisseria*, *Moraxella*, *Pseudomonas*, *Vibrio*, *Campylobacter* and *Helicobacter*; Enterobacteriaceae are oxidase negative. *N. meningitidis* also ferments glucose and maltose.\n\n## Simplified explanation\n\n*Neisseria* species, including the meningococcus, are **oxidase positive**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Bacterial Identification",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: pathogenicity is the degree or intensity of virulence of an organism.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "The definition is the other way round."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. Virulence is the degree of pathogenicity, not the reverse."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which term measures the other?",
+  "explanation": "## Advanced explanation\n\n**Pathogenicity** is the *ability* of an organism to cause disease. **Virulence** is the **degree or intensity** of that pathogenicity, measured by indicators such as ID₅₀ and LD₅₀.\n\n## Simplified explanation\n\nVirulence measures **how strongly** a pathogen causes disease, so the statement is reversed.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Pathogenicity & Virulence",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "True or false: most viral infections are asymptomatic.",
+  "media": [],
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. Subclinical (inapparent) infections outnumber clinical cases for most viruses."
+   },
+   {
+    "text": "False",
+    "hint": "Asymptomatic infection is in fact the commoner outcome for most viruses."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think of polio and hepatitis A in children.",
+  "explanation": "## Advanced explanation\n\nFor most viruses the **subclinical:clinical ratio** is high — for example about 99:1 for poliovirus. Asymptomatic infection still induces immunity and still allows transmission, which matters greatly for control.\n\n## Simplified explanation\n\nMost people infected by a virus **never feel ill**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Viral Pathogenesis",
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between the following:\n\n1. Chronic and latent infections\n2. Bacteraemia and septicaemia\n3. Epidemic infection and endemic infection",
+  "media": [],
+  "answer": "1. **Chronic infection** — the organism is continuously present and detectable, and the illness develops slowly and persists for a long time (e.g. tuberculosis, hepatitis B). **Latent infection** — the organism persists in a **silent, non-replicating** form with no symptoms or shedding between episodes, and may **reactivate** later (e.g. herpes simplex, varicella-zoster, *M. tuberculosis* latency).\n2. **Bacteraemia** — the mere **presence of bacteria in the blood**, often transient and without symptoms (e.g. after tooth brushing). **Septicaemia** — bacteria are **multiplying in the blood** and causing systemic illness with fever, rigors and, if severe, shock.\n3. **Epidemic** — a disease occurring in **unusually large numbers** in a population in a short period, above the expected level. **Endemic** — a disease **constantly present** at a fairly steady, expected level in a given population or area.\n\n> [!answer]\n> Chronic = persistent active disease; latent = silent with possible reactivation. Bacteraemia = bacteria present in blood; septicaemia = bacteria multiplying and causing systemic illness. Epidemic = sudden excess of cases; endemic = constant background level.",
+  "hint": "Persistent vs silent; present vs multiplying; excess vs usual level.",
+  "explanation": "## Advanced explanation\n\nThese distinctions matter clinically and epidemiologically. Latency is typical of herpesviruses and of untreated tuberculosis infection; blood cultures distinguish transient bacteraemia from true septicaemia; and the endemic baseline is what defines whether a rise amounts to an epidemic (a pandemic being an epidemic across countries or continents).\n\n## Simplified explanation\n\nChronic = long and active; latent = hiding quietly. Bacteraemia = germs just in the blood; septicaemia = germs growing and making you ill. Epidemic = sudden rise; endemic = always around.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Principles of Disease",
+   "Epidemiology",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is **combination therapy**? (b) Give **two** reasons why it is used.",
+  "media": [],
+  "answer": "**(a)** Combination therapy is the simultaneous use of **two or more antimicrobial agents** to treat a single infection.\n\n**(b)** Reasons (any two):\n\n1. To **prevent or delay the emergence of resistance** (e.g. tuberculosis therapy).\n2. To achieve a **synergistic** effect (e.g. penicillin plus an aminoglycoside for enterococcal endocarditis).\n3. To provide **broad empirical cover** in serious infection before the organism is identified.\n4. To treat **mixed (polymicrobial) infections**, such as intra-abdominal sepsis.\n5. To allow **lower doses** of a toxic drug, reducing toxicity.\n\n> [!answer]\n> Using two or more antimicrobials together — to prevent resistance, obtain synergy, cover mixed infections, or give broad empirical cover.",
+  "hint": "Think of how tuberculosis is treated.",
+  "explanation": "## Advanced explanation\n\nCombination therapy also carries risks: antagonism (e.g. a bacteriostatic drug reducing the effect of a cell-wall-active bactericidal drug), added toxicity, cost and greater disturbance of the normal flora, so it should be rationalised once culture results are available.\n\n## Simplified explanation\n\nUsing **more than one antibiotic together**, mainly to stop resistance developing and to cover more organisms.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Antimicrobial Agents",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State any **four** criteria for rejecting specimens for the diagnosis of infectious diseases.",
+  "media": [],
+  "answer": "Any four:\n\n1. **Unlabelled or wrongly labelled** specimen, or details not matching the request form.\n2. **Inappropriate or leaking container**, broken container, or specimen contaminated on the outside.\n3. **Wrong transport medium, preservative or anticoagulant** for the test requested.\n4. **Excessive delay** between collection and receipt, or incorrect storage temperature.\n5. **Insufficient quantity** for the tests requested.\n6. An **unsuitable specimen type** for the investigation (e.g. saliva instead of sputum; swab when tissue or fluid is required).\n7. **Duplicate specimen** from the same site on the same day, or a specimen obviously contaminated with normal flora.\n8. No request form, or no test specified.\n\n> [!answer]\n> Unlabelled/mislabelled, leaking or wrong container, wrong or missing transport medium, excessive delay or wrong storage, insufficient volume, or an inappropriate specimen type.",
+  "hint": "Think of what makes a result unreliable.",
+  "explanation": "## Advanced explanation\n\nRejection criteria protect the patient from wrong results. The laboratory should record the rejection, notify the requester promptly and ask for a repeat, since a poor specimen yields a misleading answer that may be more harmful than no answer.\n\n## Simplified explanation\n\nReject a sample if it is **badly labelled, badly collected, too old, too little, or the wrong type**.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Specimen Collection",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **four** biochemical or metabolic characteristics of microorganisms that can aid in the identification of microorganisms.",
+  "media": [],
+  "answer": "Any four:\n\n1. **Catalase** production (staphylococci positive, streptococci negative).\n2. **Oxidase** production (*Neisseria*, *Pseudomonas*, *Vibrio* positive; Enterobacteriaceae negative).\n3. **Coagulase** production (*S. aureus* positive).\n4. **Carbohydrate fermentation** patterns (e.g. lactose fermentation on MacConkey).\n5. **Urease** production (*Proteus*, *H. pylori*).\n6. **Indole** production from tryptophan (*E. coli* positive).\n7. **H₂S** production on TSI/KIA (*Salmonella*, *Proteus*).\n8. **Citrate** utilisation; **nitrate reduction**; **gelatin liquefaction**; **DNase**; **haemolysis** on blood agar.\n\n> [!answer]\n> e.g. catalase, oxidase, coagulase, urease, indole, H₂S production and sugar fermentation patterns.",
+  "hint": "Name the routine bench tests.",
+  "explanation": "## Advanced explanation\n\nThese tests are combined into identification schemes and commercial galleries (API strips) or automated systems, and increasingly confirmed by MALDI-TOF mass spectrometry or 16S rRNA sequencing.\n\n## Simplified explanation\n\nTests such as **catalase, oxidase, coagulase, urease, indole and sugar fermentation** tell organisms apart.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Bacterial Identification",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **three** reasons why a virus can infect cells but not be able to replicate in them.",
+  "media": [],
+  "answer": "1. The cell is **non-permissive** — it lacks the transcription factors, enzymes or other host factors the virus needs, so replication is blocked after entry (abortive infection).\n2. The virus has entered a **latent state**, with its genome maintained (episomally or integrated) and lytic genes repressed.\n3. The virus is **defective** (lacks a functional gene) and needs a helper virus, e.g. hepatitis D requiring HBV.\n4. **Host restriction factors or interferon-induced antiviral proteins** block replication.\n5. The virus is **inactivated/degraded** intracellularly, e.g. in a lysosome, or the cell dies before progeny are made.\n\n> [!answer]\n> The cell is non-permissive, the virus becomes latent, the virus is defective and needs a helper, or host restriction/interferon responses block replication.",
+  "hint": "Infection and replication are separate steps.",
+  "explanation": "## Advanced explanation\n\n**Susceptibility** (having the receptor) and **permissiveness** (supporting replication) are distinct. A cell may be susceptible but non-permissive, giving an **abortive** infection; a permissive cell without receptors can still be infected by transfected nucleic acid.\n\n## Simplified explanation\n\nGetting in is not enough — the cell must also have **what the virus needs to copy itself**, and the virus must not be defective or switched off.",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Viral Pathogenesis",
+   "2018/2019 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention the **three** physical forms of culture media.",
+  "media": [],
+  "answer": "1. **Liquid (broth)** media\n2. **Semi-solid** media\n3. **Solid (agar)** media\n\n> [!answer]\n> Liquid (broth), semi-solid and solid media.",
+  "hint": "Based on how much agar is present.",
+  "explanation": "## Advanced explanation\n\nAgar content determines the form: **none** for broths (used for enrichment and blood cultures), about **0.2–0.5%** for semi-solid media (motility and transport media such as Cary–Blair), and **1.5–2%** for solid media (plates and slopes, used for isolating colonies).\n\n## Simplified explanation\n\nMedia come as **liquid, semi-solid and solid**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the sterilizing agent used in autoclaves?",
+  "media": [],
+  "answer": "**Saturated steam under pressure** (moist heat) — typically at 121°C and 15 psi for 15 minutes.\n\n> [!answer]\n> Saturated steam under pressure (moist heat).",
+  "hint": "Moist heat.",
+  "explanation": "## Advanced explanation\n\nIt is the **steam**, not the pressure, that sterilizes: steam condensing on a cooler surface releases its latent heat and wets the item, coagulating microbial proteins. Air must be displaced, since trapped air lowers the temperature reached at a given pressure.\n\n## Simplified explanation\n\nThe autoclave sterilizes with **steam under pressure**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Sterilization & Disinfection",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the main purpose of **inverting culture plates** during incubation?",
+  "media": [],
+  "answer": "To prevent **condensed water (water of condensation)** from dripping from the lid onto the agar surface, which would wash colonies together, cause spreading or confluent growth and risk contamination. Inverting keeps the surface dry so that discrete, well-separated colonies form.\n\n> [!answer]\n> So condensation on the lid does not drop onto the agar surface and spoil discrete colony growth.",
+  "hint": "Think about condensation on the lid.",
+  "explanation": "## Advanced explanation\n\nPlates are incubated **agar side up (lid down)**. A wet agar surface allows swarming organisms such as *Proteus* to spread and makes colony counting and picking impossible.\n\n## Simplified explanation\n\nPlates are turned upside down so **water does not drip** onto the agar.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two** uses of a **lawn culture**.",
+  "media": [],
+  "answer": "1. **Antimicrobial susceptibility testing** (Kirby–Bauer disc diffusion) — requires confluent, even growth.\n2. **Bacteriophage typing** and phage work (plaque formation on a bacterial lawn).\n3. Preparation of **bacterial suspensions/antigens or vaccines** in bulk.\n4. Testing the action of disinfectants or of bacteriocins.\n\n> [!answer]\n> Antimicrobial susceptibility (disc diffusion) testing and bacteriophage typing; also bulk harvesting of growth.",
+  "hint": "Even carpet of growth over the whole plate.",
+  "explanation": "## Advanced explanation\n\nA lawn (carpet) culture is made by flooding or swabbing a standardised suspension (0.5 McFarland for disc diffusion) over the whole surface. Even inoculation is essential or zone diameters cannot be interpreted.\n\n## Simplified explanation\n\nA lawn is used for **drug sensitivity tests** and **phage typing**.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **selective media** and **differential media**.",
+  "media": [],
+  "answer": "| | Selective medium | Differential medium |\n|---|---|---|\n| Principle | Contains inhibitors that **suppress unwanted organisms** so that wanted ones grow | Contains indicators that make colonies of different organisms **look different** |\n| Effect on growth | Some organisms do not grow | All organisms grow; they are distinguished by appearance |\n| Examples | Thayer–Martin (gonococci), MacConkey (bile salts/crystal violet inhibit Gram-positives), Lowenstein–Jensen, mannitol salt (7.5% NaCl) | Blood agar (haemolysis patterns), MacConkey (lactose fermenters pink), TSI, EMB |\n\nSome media, such as **MacConkey agar**, are both selective and differential.\n\n> [!answer]\n> Selective media inhibit unwanted organisms; differential media let organisms grow but make them look different.",
+  "hint": "Stop growth versus show a difference.",
+  "explanation": "## Advanced explanation\n\nSelective agents include antibiotics, dyes, bile salts, high salt and altered pH. Differential indicators include pH indicators with a fermentable sugar, blood (haemolysis) and H₂S indicators.\n\n## Simplified explanation\n\n**Selective** = only some can grow. **Differential** = all grow but look different.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How will you test whether a culture medium you have prepared is **sterile**?",
+  "media": [],
+  "answer": "Incubate a representative sample of the prepared batch (e.g. a few plates or tubes, usually 3–5% of the batch) **without inoculation** at 35–37°C for **24–48 hours** (some laboratories also incubate a set at room temperature) and examine for growth. **No growth** indicates the batch is sterile and fit for use; any growth means the batch is contaminated and must be discarded.\n\n> [!answer]\n> Incubate uninoculated plates/tubes from the batch overnight at 37°C — no growth means sterile.",
+  "hint": "Incubate some uninoculated plates.",
+  "explanation": "## Advanced explanation\n\nThis **sterility check** is part of routine quality control of media, along with checks on pH, appearance, gel strength and **performance testing** with control organisms (growth of the target organism, inhibition of others, correct differential reactions).\n\n## Simplified explanation\n\nIncubate a few **unused** plates overnight; if nothing grows, the batch is sterile.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Quality Control",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the difference between **blood agar** and **chocolate agar**?",
+  "media": [],
+  "answer": "| | Blood agar | Chocolate agar |\n|---|---|---|\n| Preparation | 5–10% sterile defibrinated blood added to molten base at about 45–50°C; red cells remain **intact** | Blood added to the base and **heated to about 70–80°C**, lysing the red cells (brown colour; no chocolate is used) |\n| Nutrients released | Red cells intact, so X (haemin) and V (NAD) factors are not freely available | Lysis releases **haemin (X) and NAD (V)**, supporting fastidious organisms |\n| Main use | General purpose and **differential** medium — shows α, β and γ **haemolysis** | Enriched medium for fastidious organisms — *Haemophilus influenzae*, *Neisseria gonorrhoeae*, *N. meningitidis* |\n| Haemolysis | Can be read | Cannot be read (cells already lysed) |\n\n> [!answer]\n> Blood agar has intact red cells and shows haemolysis; chocolate agar is heated blood agar whose lysed cells release X and V factors for fastidious organisms, but it cannot show haemolysis.",
+  "hint": "One is simply the other, heated.",
+  "explanation": "## Advanced explanation\n\nHeating also inactivates NADases in the blood that would otherwise destroy V factor. Thayer–Martin medium is chocolate agar made selective with antibiotics (vancomycin, colistin, nystatin, trimethoprim).\n\n## Simplified explanation\n\nChocolate agar is **blood agar that has been heated**, so the broken red cells feed fussy bacteria.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Culture Media & Cultivation",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are **two** possible errors that could have occurred if you find your subcultures had no growth after incubation for 48 hours?",
+  "media": [],
+  "answer": "Any two:\n\n1. **Failure to inoculate properly** — the loop was not charged, or it was still hot and killed the inoculum.\n2. **Non-viable or too small an inoculum** — the original culture was dead or too dilute.\n3. **Wrong medium** — the organism is fastidious and the medium lacked the required growth factors, or the medium was inhibitory/selective against it.\n4. **Wrong incubation conditions** — wrong temperature, or an anaerobe/capnophile incubated aerobically (no anaerobic jar or CO₂).\n5. **Medium faulty** — not sterile, dried out, wrong pH, or contained residual antimicrobial/disinfectant.\n6. Incubator failure, or plates not incubated at all.\n\n> [!answer]\n> e.g. the loop was too hot or no organism was picked up, or the organism needed conditions (anaerobic, CO₂, enriched medium) that were not provided.",
+  "hint": "Think inoculum, medium and incubation.",
+  "explanation": "## Advanced explanation\n\nA systematic approach to no-growth checks the three requirements for growth: a **viable inoculum**, a **suitable medium** and **suitable atmosphere/temperature**. Always include a positive control organism to show the batch of medium supports growth.\n\n## Simplified explanation\n\nEither nothing living was put on the plate, or the plate or the incubation conditions were wrong.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Culture Media & Cultivation",
+   "Quality Control",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why **flaming the inoculating instrument before and after each inoculation** is essential during subculturing.",
+  "media": [],
+  "answer": "**Before** inoculation: flaming sterilizes the loop (red heat destroys all organisms on it), so no organisms from a previous culture or from the environment are carried onto the fresh medium — this prevents **cross-contamination and false results**.\n\n**After** inoculation: flaming destroys the organisms remaining on the loop before it is put down, protecting the worker and the laboratory from **contamination and infection** and preventing the spread of the organism to other cultures.\n\n> [!answer]\n> To sterilize the loop so no organisms are carried into the new culture (before) and none are carried out of it into the laboratory (after) — aseptic technique.",
+  "hint": "Aseptic technique in both directions.",
+  "explanation": "## Advanced explanation\n\nThe loop must be heated to **red heat** along the wire and allowed to cool (or cooled on a sterile part of the agar) before touching the culture, otherwise the heat kills the inoculum. Flaming should be done carefully to avoid spattering infectious material.\n\n## Simplified explanation\n\nFlaming keeps the loop **clean going in and safe coming out**.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Aseptic Technique",
+   "2018/2019 Microbiology Practical Exam"
+  ]
+ }
+]

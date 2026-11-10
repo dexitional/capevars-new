@@ -1,0 +1,1222 @@
+[
+ {
+  "type": "choice",
+  "body": "An elephant is to multicellular as a bacterium is to ________.",
+  "options": [
+   {
+    "text": "Monera",
+    "hint": "A kingdom, not a body organisation."
+   },
+   {
+    "text": "Prokaryotae",
+    "hint": "A classification group, not the analogy asked."
+   },
+   {
+    "text": "Protista",
+    "hint": "A kingdom of eukaryotes."
+   },
+   {
+    "text": "Unicellular",
+    "hint": "Correct. A bacterium is a single cell."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Body organisation.",
+  "explanation": "## Advanced explanation\n\nThe analogy concerns the number of cells: an elephant is made of many cells (multicellular), a bacterium of one cell (unicellular).\n\n## Simplified explanation\n\nElephant = many cells; bacterium = one cell.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Theory & Diversity",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which type of microscope did Anton von Leeuwenhoek (1632-1723) use to observe bacteria and protozoa?",
+  "options": [
+   {
+    "text": "Binocular",
+    "hint": "His instruments had a single lens."
+   },
+   {
+    "text": "Monocular",
+    "hint": "Correct. A simple single-lens (monocular) microscope."
+   },
+   {
+    "text": "Stereo",
+    "hint": "Stereo microscopes came much later."
+   },
+   {
+    "text": "Transmission",
+    "hint": "The TEM was invented in the 1930s."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Single lens.",
+  "explanation": "## Advanced explanation\n\nLeeuwenhoek ground tiny high-quality single lenses and used **simple (single-lens, monocular) microscopes** magnifying up to about 270×, with which he first described bacteria and protozoa ('animalcules').\n\n## Simplified explanation\n\nHe looked through one small lens.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopy",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is not a life process that can be carried out by cells?",
+  "options": [
+   {
+    "text": "Capacity to divide",
+    "hint": "Cells reproduce by division."
+   },
+   {
+    "text": "Change energy from one form to the other",
+    "hint": "Cells transform energy (respiration, photosynthesis)."
+   },
+   {
+    "text": "Producing smoke",
+    "hint": "Correct. Not a biological process."
+   },
+   {
+    "text": "Synthesizing substances",
+    "hint": "Cells synthesise proteins, lipids, etc."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which is not biological?",
+  "explanation": "## Advanced explanation\n\nCells grow, divide, transform energy, synthesise molecules, respond and excrete. Producing smoke is combustion, not a life process.\n\n## Simplified explanation\n\nCells don't make smoke.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Theory & Diversity",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the Cell Theory, \"all cells come from pre-existing cells by division\" means cells ________.",
+  "options": [
+   {
+    "text": "Feed",
+    "hint": "Unrelated."
+   },
+   {
+    "text": "Respire",
+    "hint": "Unrelated."
+   },
+   {
+    "text": "Reproduce",
+    "hint": "Correct. New cells arise by division of existing cells."
+   },
+   {
+    "text": "Transpire",
+    "hint": "A plant water-loss process."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Omnis cellula e cellula.",
+  "explanation": "## Advanced explanation\n\nVirchow's principle (omnis cellula e cellula): new cells arise only by the **reproduction (division)** of existing cells.\n\n## Simplified explanation\n\nCells make new cells by dividing.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Theory & Diversity",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The type of cell arrangement in grape-like clusters is ________ arrangement.",
+  "options": [
+   {
+    "text": "Diplo-",
+    "hint": "Pairs."
+   },
+   {
+    "text": "Staphylo-",
+    "hint": "Correct. Grape-like clusters (Greek staphyle = bunch of grapes)."
+   },
+   {
+    "text": "Strepto-",
+    "hint": "Chains."
+   },
+   {
+    "text": "Transi-",
+    "hint": "Not a term."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Greek for a bunch of grapes.",
+  "explanation": "## Advanced explanation\n\nBacterial cocci are described by arrangement: **diplo-** (pairs), **strepto-** (chains), **staphylo-** (grape-like clusters, e.g. *Staphylococcus*), tetrads and sarcinae.\n\n## Simplified explanation\n\nStaphylo = bunch of grapes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotic Cells",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An area of cytoplasm in a prokaryotic cell that contains the DNA molecule is the ________ region.",
+  "options": [
+   {
+    "text": "Capsule",
+    "hint": "Outer protective layer."
+   },
+   {
+    "text": "Mesosome",
+    "hint": "Infolding of the plasma membrane."
+   },
+   {
+    "text": "Nucleoid",
+    "hint": "Correct. The DNA-containing region without a membrane."
+   },
+   {
+    "text": "Wall",
+    "hint": "The cell wall."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Nucleus-like.",
+  "explanation": "## Advanced explanation\n\nProkaryotes lack a nuclear envelope; their circular chromosome lies in an irregular region of cytoplasm called the **nucleoid**.\n\n## Simplified explanation\n\nBacteria keep their DNA in the nucleoid.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotic Cells",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The nuclear membrane is double-layered. True or False?",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Correct. The nuclear envelope has an inner and outer membrane."
+   },
+   {
+    "text": "False",
+    "hint": "It is a double membrane."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Nuclear envelope.",
+  "explanation": "## Advanced explanation\n\nThe **nuclear envelope** consists of two lipid bilayers (inner and outer membranes) separated by a perinuclear space and perforated by nuclear pores; the outer membrane is continuous with the rough ER.\n\n## Simplified explanation\n\nIt has two layers.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Nucleus",
+   "2021/22 Semester II Quiz 1",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Cells with larger surface area have a lower rate of material exchange in and out of the cell. True or False?",
+  "options": [
+   {
+    "text": "True",
+    "hint": "Larger surface area increases exchange."
+   },
+   {
+    "text": "False",
+    "hint": "Correct. More surface area → faster exchange."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Surface area and diffusion.",
+  "explanation": "## Advanced explanation\n\nRate of diffusion across a membrane is proportional to surface area (Fick's law). Cells with a larger **surface area-to-volume ratio** exchange materials faster, which is why cells stay small or have microvilli/flattened shapes.\n\n## Simplified explanation\n\nMore surface means more room for things to pass through, so exchange is faster.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Structure & Function",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is an example of a prokaryotic cell?",
+  "options": [
+   {
+    "text": "TB bacterium",
+    "hint": "Correct. *Mycobacterium tuberculosis* is a bacterium."
+   },
+   {
+    "text": "Bone cell",
+    "hint": "Eukaryotic."
+   },
+   {
+    "text": "Epithelial cell",
+    "hint": "Eukaryotic."
+   },
+   {
+    "text": "Erythrocyte",
+    "hint": "Eukaryotic (though it loses its nucleus)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Bacteria are prokaryotes.",
+  "explanation": "## Advanced explanation\n\nProkaryotes are bacteria and archaea, lacking a nucleus and membrane-bound organelles. Human cells are eukaryotic.\n\n## Simplified explanation\n\nBacteria are prokaryotes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotic Cells",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A mammalian red blood cell does not possess ________.",
+  "options": [
+   {
+    "text": "Cytoplasm",
+    "hint": "It has cytoplasm full of haemoglobin."
+   },
+   {
+    "text": "Haemoglobin",
+    "hint": "Its main content."
+   },
+   {
+    "text": "Membrane",
+    "hint": "It has a plasma membrane."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "Correct. Mature mammalian RBCs extrude their nucleus."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Biconcave and enucleate.",
+  "explanation": "## Advanced explanation\n\nMature mammalian erythrocytes lose their nucleus (and mitochondria) during development, giving more room for haemoglobin and a biconcave shape.\n\n## Simplified explanation\n\nRed cells have no nucleus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Structure & Function",
+   "2021/22 Semester II Quiz 1",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Spherical organelles which contain enzymes that help in maintaining the physiologic turnover of cellular constituents are ________.",
+  "options": [
+   {
+    "text": "Chloroplast",
+    "hint": "Photosynthesis."
+   },
+   {
+    "text": "Cytoplasm",
+    "hint": "Not an organelle."
+   },
+   {
+    "text": "Lysosome",
+    "hint": "Correct. Membrane-bound sacs of hydrolytic enzymes."
+   },
+   {
+    "text": "Mesosome",
+    "hint": "Bacterial membrane infolding."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Digestive sacs.",
+  "explanation": "## Advanced explanation\n\n**Lysosomes** contain acid hydrolases that digest worn-out organelles (autophagy) and engulfed material, maintaining turnover of cell components.\n\n## Simplified explanation\n\nLysosomes are the cell's recycling bags.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The name **nucleus**, which is derived from Latin, originally means ________.",
+  "options": [
+   {
+    "text": "Centre",
+    "hint": "Not the literal meaning."
+   },
+   {
+    "text": "Nutty",
+    "hint": "No."
+   },
+   {
+    "text": "Kernel",
+    "hint": "Correct. Latin *nucleus* = kernel (of a nut)."
+   },
+   {
+    "text": "Product",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Inside of a nut.",
+  "explanation": "## Advanced explanation\n\n*Nucleus* is Latin for **kernel** or inner part of a nut (from *nux*, nut); Robert Brown applied it to the cell in 1831.\n\n## Simplified explanation\n\nNucleus means kernel.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Nucleus",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is described as the \"post-office\" of the cell?",
+  "options": [
+   {
+    "text": "Cell envelope",
+    "hint": "No."
+   },
+   {
+    "text": "Cell wall",
+    "hint": "No."
+   },
+   {
+    "text": "Endoplasmic reticulum",
+    "hint": "Synthesis and transport, not sorting."
+   },
+   {
+    "text": "Golgi bodies",
+    "hint": "Correct. Sort, package and dispatch products."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Packaging and dispatch.",
+  "explanation": "## Advanced explanation\n\nThe **Golgi apparatus** modifies, sorts, packages and dispatches proteins and lipids to their destinations: like a post office.\n\n## Simplified explanation\n\nGolgi sorts and sends out the cell's products.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which of these organs can meiosis occur?",
+  "options": [
+   {
+    "text": "Liver",
+    "hint": "Somatic cells divide by mitosis."
+   },
+   {
+    "text": "Ovary",
+    "hint": "Correct. Gonads produce gametes by meiosis."
+   },
+   {
+    "text": "Stomach",
+    "hint": "Mitosis only."
+   },
+   {
+    "text": "Tongue",
+    "hint": "Mitosis only."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Gamete production.",
+  "explanation": "## Advanced explanation\n\nMeiosis occurs only in the gonads (ovaries and testes in animals; anthers and ovules in plants) to produce haploid gametes.\n\n## Simplified explanation\n\nEggs are made by meiosis in the ovary.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Division",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are found in both plant and animal cells **except** ________.",
+  "options": [
+   {
+    "text": "Chloroplast",
+    "hint": "Correct. Only in plant (and algal) cells."
+   },
+   {
+    "text": "Endoplasmic reticulum",
+    "hint": "Both."
+   },
+   {
+    "text": "Golgi apparatus",
+    "hint": "Both."
+   },
+   {
+    "text": "Lysosome",
+    "hint": "Both (plant vacuoles do much of this work)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Photosynthesis.",
+  "explanation": "## Advanced explanation\n\nChloroplasts (with a cell wall and large central vacuole) are characteristic of plant cells.\n\n## Simplified explanation\n\nAnimals don't have chloroplasts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is not part of the nucleus?",
+  "options": [
+   {
+    "text": "DNA",
+    "hint": "Chromatin is nuclear."
+   },
+   {
+    "text": "Nucleolus",
+    "hint": "Inside the nucleus."
+   },
+   {
+    "text": "Nucleoplasm",
+    "hint": "The nuclear matrix."
+   },
+   {
+    "text": "Ribosomes",
+    "hint": "Correct. Assembled from subunits made in the nucleolus, but function in the cytoplasm/on RER."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Where do ribosomes work?",
+  "explanation": "## Advanced explanation\n\nThe nucleus contains the envelope, nucleoplasm, chromatin (DNA) and nucleolus. Ribosomes are cytoplasmic organelles (free or on the RER).\n\n## Simplified explanation\n\nRibosomes are outside the nucleus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Nucleus",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The two types of endoplasmic reticulum are ________.",
+  "options": [
+   {
+    "text": "Green and red",
+    "hint": "No."
+   },
+   {
+    "text": "Pale and white",
+    "hint": "No."
+   },
+   {
+    "text": "Square and round",
+    "hint": "No."
+   },
+   {
+    "text": "Rough and smooth",
+    "hint": "Correct. RER (ribosome-studded) and SER."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "With or without ribosomes.",
+  "explanation": "## Advanced explanation\n\n**Rough ER** is studded with ribosomes (protein synthesis); **smooth ER** lacks ribosomes (lipid synthesis, detoxification, Ca²⁺ storage).\n\n## Simplified explanation\n\nRough and smooth.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The organelle that is responsible for the synthesis of energy is the ________.",
+  "options": [
+   {
+    "text": "Golgi apparatus",
+    "hint": "Packaging."
+   },
+   {
+    "text": "Mitochondrion",
+    "hint": "Correct. ATP by aerobic respiration."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "Genetic control."
+   },
+   {
+    "text": "Ribosome",
+    "hint": "Protein synthesis."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Powerhouse.",
+  "explanation": "## Advanced explanation\n\nMitochondria produce most of the cell's ATP through the Krebs cycle and oxidative phosphorylation.\n\n## Simplified explanation\n\nMitochondria are the powerhouse.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The lysosome was discovered by the Belgian cytologist ________ in 1949.",
+  "options": [
+   {
+    "text": "Benjamin Franklin",
+    "hint": "American statesman."
+   },
+   {
+    "text": "Christian de Duve",
+    "hint": "Correct. Discovered lysosomes (and peroxisomes); Nobel Prize 1974."
+   },
+   {
+    "text": "Ian Flemming",
+    "hint": "Novelist (Fleming discovered penicillin was Alexander)."
+   },
+   {
+    "text": "Jean Baptiste",
+    "hint": "Not the discoverer."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Belgian Nobel laureate.",
+  "explanation": "## Advanced explanation\n\nChristian de Duve identified lysosomes through cell fractionation studies beginning in 1949 (named 1955) and shared the 1974 Nobel Prize.\n\n## Simplified explanation\n\nDe Duve.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the main purpose of the light dependent reactions in photosynthesis?",
+  "options": [
+   {
+    "text": "Capture and transformation of solar energy",
+    "hint": "Correct. Light energy → ATP and NADPH."
+   },
+   {
+    "text": "Manufacture of starch",
+    "hint": "Happens after the Calvin cycle."
+   },
+   {
+    "text": "Supply of heat",
+    "hint": "No."
+   },
+   {
+    "text": "Transformation of some inactive enzymes",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Light energy to chemical energy.",
+  "explanation": "## Advanced explanation\n\nIn the thylakoids, chlorophyll absorbs light; the energy splits water (releasing O₂) and is converted into chemical energy as **ATP and NADPH**, used by the Calvin cycle to fix CO₂.\n\n## Simplified explanation\n\nThey catch sunlight and turn it into chemical energy.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Photosynthesis",
+   "2021/22 Semester II Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What organelle is not found in a fungal cell?",
+  "options": [
+   {
+    "text": "Chloroplast",
+    "hint": "Correct. Fungi are heterotrophs: no chloroplasts."
+   },
+   {
+    "text": "Golgi apparatus",
+    "hint": "Present."
+   },
+   {
+    "text": "Mitochondrion",
+    "hint": "Present."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "Fungi are eukaryotes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Fungi don't photosynthesise.",
+  "explanation": "## Advanced explanation\n\nFungi are eukaryotic heterotrophs (absorptive nutrition) with nuclei, mitochondria, ER and Golgi, a chitin cell wall, but **no chloroplasts**.\n\n## Simplified explanation\n\nFungi can't make food from light, so no chloroplasts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are eukaryotes **except** ________.",
+  "options": [
+   {
+    "text": "Animals",
+    "hint": "Eukaryotes."
+   },
+   {
+    "text": "Bacteria",
+    "hint": "Correct. Prokaryotes."
+   },
+   {
+    "text": "Fungi",
+    "hint": "Eukaryotes."
+   },
+   {
+    "text": "Plants",
+    "hint": "Eukaryotes."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "No nucleus.",
+  "explanation": "## Advanced explanation\n\nBacteria (and archaea) are prokaryotes; animals, plants, fungi and protists are eukaryotes.\n\n## Simplified explanation\n\nBacteria have no nucleus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Prokaryotic Cells",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "One of the purposes for cell growth is to ________.",
+  "options": [
+   {
+    "text": "allow flying",
+    "hint": "No."
+   },
+   {
+    "text": "beautify the cell",
+    "hint": "No."
+   },
+   {
+    "text": "cause absorption of water",
+    "hint": "Not the purpose."
+   },
+   {
+    "text": "repair damaged cells",
+    "hint": "Correct. Growth and division replace and repair tissue."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Growth and repair.",
+  "explanation": "## Advanced explanation\n\nCell growth and division allow an organism to grow, **repair damaged tissue** and replace worn-out cells.\n\n## Simplified explanation\n\nCells grow and divide to fix damage.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Division",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is multicellular?",
+  "options": [
+   {
+    "text": "*Bacillus* sp",
+    "hint": "A bacterium (unicellular)."
+   },
+   {
+    "text": "*Amoeba* sp.",
+    "hint": "Unicellular protist."
+   },
+   {
+    "text": "*Hydra* sp",
+    "hint": "Correct. A cnidarian: multicellular animal."
+   },
+   {
+    "text": "*Paramecium* sp",
+    "hint": "Unicellular protist."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Animals are multicellular.",
+  "explanation": "## Advanced explanation\n\n*Hydra* is a small freshwater cnidarian with two cell layers (ectoderm and endoderm), so it is multicellular; the others are single-celled.\n\n## Simplified explanation\n\nHydra is a tiny animal made of many cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Theory & Diversity",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the function of the rough endoplasmic reticulum?",
+  "options": [
+   {
+    "text": "Ability to manufacture chlorophyll",
+    "hint": "Chloroplast function."
+   },
+   {
+    "text": "Block materials from entering the cell",
+    "hint": "Plasma membrane role."
+   },
+   {
+    "text": "Store genetic information",
+    "hint": "Nucleus."
+   },
+   {
+    "text": "Translocation of protein",
+    "hint": "Correct. Ribosomes on RER make proteins that are moved into the ER lumen and transported."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Ribosome-studded.",
+  "explanation": "## Advanced explanation\n\nRibosomes on the RER synthesise secretory and membrane proteins, which are **translocated** into the ER lumen, folded, modified and sent by vesicles to the Golgi.\n\n## Simplified explanation\n\nRough ER makes and moves proteins.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Unlike the light microscope, the transmission electron microscope uses a beam of ________ for operation.",
+  "options": [
+   {
+    "text": "electrons",
+    "hint": "Correct. TEM uses electrons focused by electromagnets."
+   },
+   {
+    "text": "light",
+    "hint": "That is the light microscope."
+   },
+   {
+    "text": "infra-red",
+    "hint": "No."
+   },
+   {
+    "text": "ultra violet",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Electron microscope.",
+  "explanation": "## Advanced explanation\n\nThe TEM passes a beam of **electrons** (very short wavelength) through ultra-thin sections, giving resolution of about 0.1–0.2 nm compared with about 200 nm for light microscopes.\n\n## Simplified explanation\n\nElectron microscopes use electrons.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopy",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of these is a stage in mitosis?",
+  "options": [
+   {
+    "text": "Anaphase",
+    "hint": "Correct. Prophase, metaphase, anaphase, telophase."
+   },
+   {
+    "text": "Fertilization",
+    "hint": "Fusion of gametes."
+   },
+   {
+    "text": "Implantation",
+    "hint": "Embryo attaches to uterus."
+   },
+   {
+    "text": "Spermatogenesis",
+    "hint": "Sperm formation (involves meiosis)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "PMAT.",
+  "explanation": "## Advanced explanation\n\nMitosis: **prophase → metaphase → anaphase → telophase** (then cytokinesis). In anaphase sister chromatids separate to opposite poles.\n\n## Simplified explanation\n\nAnaphase is a mitosis stage.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Division",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Apart from the nucleus, what other organelle possesses DNA?",
+  "options": [
+   {
+    "text": "Endoplasmic reticulum",
+    "hint": "No DNA."
+   },
+   {
+    "text": "Golgi apparatus",
+    "hint": "No DNA."
+   },
+   {
+    "text": "Mitochondrion",
+    "hint": "Correct. Has its own circular DNA."
+   },
+   {
+    "text": "Ribosomes",
+    "hint": "Contain RNA, not DNA."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Endosymbiosis.",
+  "explanation": "## Advanced explanation\n\nMitochondria (and chloroplasts) contain their own circular DNA and ribosomes, evidence for their endosymbiotic origin from bacteria.\n\n## Simplified explanation\n\nMitochondria have their own DNA.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which organelle contains thylakoids?",
+  "options": [
+   {
+    "text": "Chloroplasts",
+    "hint": "Correct. Thylakoid membranes hold chlorophyll."
+   },
+   {
+    "text": "Golgi apparatus",
+    "hint": "Has cisternae."
+   },
+   {
+    "text": "Mitochondrion",
+    "hint": "Has cristae."
+   },
+   {
+    "text": "Nucleus",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Light reactions.",
+  "explanation": "## Advanced explanation\n\n**Thylakoids** are flattened membrane sacs inside chloroplasts, stacked into grana, where the light-dependent reactions occur.\n\n## Simplified explanation\n\nThylakoids are in chloroplasts.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ________ is associated with the endoplasmic reticulum.",
+  "options": [
+   {
+    "text": "Centrosome",
+    "hint": "Organises microtubules."
+   },
+   {
+    "text": "Lysosome",
+    "hint": "Not attached to ER."
+   },
+   {
+    "text": "Peroxisome",
+    "hint": "Not attached."
+   },
+   {
+    "text": "Ribosome",
+    "hint": "Correct. Bound ribosomes make the ER 'rough'."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Rough ER.",
+  "explanation": "## Advanced explanation\n\nRibosomes attach to the cytosolic face of the ER, forming rough ER.\n\n## Simplified explanation\n\nRibosomes sit on the ER.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Mendel performed hybridization by transferring pollen from the ________ of the male plant to the female ova.",
+  "options": [
+   {
+    "text": "anther",
+    "hint": "Correct. Pollen is produced in anthers."
+   },
+   {
+    "text": "pistil",
+    "hint": "Female part."
+   },
+   {
+    "text": "seed",
+    "hint": "No."
+   },
+   {
+    "text": "stigma",
+    "hint": "Receives pollen."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Where pollen is made.",
+  "explanation": "## Advanced explanation\n\nMendel removed the anthers of one pea flower (emasculation) and dusted pollen from the **anthers** of another plant onto its stigma.\n\n## Simplified explanation\n\nPollen comes from the anther.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The alternative form of a gene is the ________.",
+  "options": [
+   {
+    "text": "allele",
+    "hint": "Correct. Definition."
+   },
+   {
+    "text": "genotype",
+    "hint": "The allele combination."
+   },
+   {
+    "text": "phenotype",
+    "hint": "Observable trait."
+   },
+   {
+    "text": "recessive",
+    "hint": "A type of allele."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Variant of a gene.",
+  "explanation": "## Advanced explanation\n\n**Alleles** are alternative forms of a gene at the same locus (e.g. T and t for tall/dwarf).\n\n## Simplified explanation\n\nDifferent versions of a gene are alleles.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which is one of the seven characteristics that Mendel observed in pea plants?",
+  "options": [
+   {
+    "text": "Flower size",
+    "hint": "Not one of the seven."
+   },
+   {
+    "text": "Leaf shape",
+    "hint": "Not one of the seven."
+   },
+   {
+    "text": "Seed texture",
+    "hint": "Correct. Seed shape/texture: round vs wrinkled."
+   },
+   {
+    "text": "Stem colour",
+    "hint": "Not one; stem length was."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Round vs wrinkled.",
+  "explanation": "## Advanced explanation\n\nMendel's seven traits: seed shape (round/wrinkled), seed colour, flower colour, flower position, pod shape (inflated/constricted), pod colour and stem length.\n\n## Simplified explanation\n\nRound or wrinkled seeds was one of his traits.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "If Mendel performed a cross and obtained 650 inflated pods in the F₂ generation, approximately how many constricted pod plants did he get?",
+  "options": [
+   {
+    "text": "600",
+    "hint": "Too many."
+   },
+   {
+    "text": "468",
+    "hint": "No."
+   },
+   {
+    "text": "217",
+    "hint": "Correct. 650 ÷ 3 ≈ 217 (3:1 ratio)."
+   },
+   {
+    "text": "165",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "3 : 1.",
+  "explanation": "## Advanced explanation\n\nInflated is dominant. In a monohybrid F₂, dominant : recessive ≈ 3 : 1, so constricted ≈ 650/3 ≈ **217**.\n\n## Simplified explanation\n\nThree inflated for every one constricted: 650 ÷ 3 ≈ 217.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A recessive trait will be observed in individuals that are ________ for that trait.",
+  "options": [
+   {
+    "text": "diploid",
+    "hint": "Most individuals are diploid."
+   },
+   {
+    "text": "haploid",
+    "hint": "Not the general answer."
+   },
+   {
+    "text": "heterozygous",
+    "hint": "Dominant allele masks it."
+   },
+   {
+    "text": "homozygous",
+    "hint": "Correct. Two recessive alleles (homozygous recessive)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Two copies needed.",
+  "explanation": "## Advanced explanation\n\nA recessive phenotype appears only when no dominant allele is present: the individual is **homozygous recessive** (e.g. tt).\n\n## Simplified explanation\n\nYou need two copies of a recessive allele to show it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The observable traits expressed by an organism are described as its ________.",
+  "options": [
+   {
+    "text": "alleles",
+    "hint": "Gene variants."
+   },
+   {
+    "text": "genotype",
+    "hint": "Genetic makeup."
+   },
+   {
+    "text": "phenotype",
+    "hint": "Correct. Observable characteristics."
+   },
+   {
+    "text": "zygote",
+    "hint": "Fertilised egg."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "What you can see.",
+  "explanation": "## Advanced explanation\n\n**Phenotype** = observable characteristics, resulting from genotype and environment.\n\n## Simplified explanation\n\nWhat you can see is the phenotype.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these does not maintain variation in a population?",
+  "options": [
+   {
+    "text": "Gene flow",
+    "hint": "Brings in new alleles."
+   },
+   {
+    "text": "Genetic recombination",
+    "hint": "Creates new combinations."
+   },
+   {
+    "text": "Mutation",
+    "hint": "Source of new alleles."
+   },
+   {
+    "text": "Rainfall",
+    "hint": "Correct. Not a genetic mechanism."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Genetic mechanisms.",
+  "explanation": "## Advanced explanation\n\nVariation is generated and maintained by mutation, recombination (crossing over, independent assortment), random fertilisation and gene flow. Rainfall is an environmental factor, not a mechanism maintaining genetic variation.\n\n## Simplified explanation\n\nRain doesn't change genes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Variation & Evolution",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The major driving force for evolution is ________.",
+  "options": [
+   {
+    "text": "acquired characteristics",
+    "hint": "Lamarckism, not supported."
+   },
+   {
+    "text": "fossilization",
+    "hint": "Evidence, not a force."
+   },
+   {
+    "text": "natural selection",
+    "hint": "Correct. Darwin's mechanism."
+   },
+   {
+    "text": "paleontology",
+    "hint": "A science."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Darwin.",
+  "explanation": "## Advanced explanation\n\n**Natural selection**: individuals with heritable traits better suited to the environment survive and reproduce more, changing allele frequencies over generations.\n\n## Simplified explanation\n\nSurvival of the fittest drives evolution.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Variation & Evolution",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe the structure and functions of the endoplasmic reticulum.",
+  "media": [],
+  "answer": "**Structure:** a network of membrane-bound flattened sacs (**cisternae**) and tubules extending through the cytoplasm, enclosing a lumen, and **continuous with the outer nuclear membrane**. Two types:\n- **Rough ER (RER)**: flattened cisternae studded with **ribosomes** on the cytosolic surface; abundant in secretory cells (pancreatic acinar cells, plasma cells).\n- **Smooth ER (SER)**: tubular, **lacks ribosomes**; abundant in liver, steroid-producing and muscle cells (sarcoplasmic reticulum).\n\n**Functions:**\n- RER: synthesis of secretory, lysosomal and membrane proteins; their translocation into the lumen, folding, glycosylation and quality control; transport via vesicles to the Golgi.\n- SER: synthesis of **lipids, phospholipids and steroid hormones**; **detoxification** of drugs and poisons (liver); **carbohydrate metabolism** (glycogen breakdown, glucose-6-phosphatase); **Ca²⁺ storage** and release (muscle contraction).\n- Both: intracellular **transport** channel; membrane production; mechanical support of the cytoplasm.\n\n> [!answer]\n> Membranous network of cisternae/tubules continuous with the nuclear envelope; RER (ribosomes) makes and processes proteins; SER (no ribosomes) makes lipids/steroids, detoxifies, stores Ca²⁺; both transport materials.",
+  "explanation": "## Advanced explanation\n\nThe ER is the start of the secretory pathway (ER → Golgi → vesicles → membrane/lysosome). Its large membrane area compartmentalises reactions. Cells specialised for protein secretion have extensive RER; those making steroids or detoxifying have extensive SER.\n\n## Simplified explanation\n\nThe ER is a network of membrane tubes. The rough part, covered in ribosomes, makes proteins; the smooth part makes fats, cleans up poisons and stores calcium.",
+  "hint": "Two types: with and without ribosomes.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Organelles",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "One gene has alleles A and a; a second gene has alleles B and b; and a third has C and c. List the possible gametes that can be formed from the following genotypes:\n\n(a) Aa (b) BbCc (c) CCaa (d) AAcc (e) AaBbCc (f) aaBBCc",
+  "media": [],
+  "answer": "Each gamete gets **one allele of each gene** (independent assortment; number of gamete types = $2^n$ for n heterozygous genes).\n\n| Genotype | Gametes |\n|---|---|\n| (a) Aa | **A, a** |\n| (b) BbCc | **BC, Bc, bC, bc** |\n| (c) CCaa | **Ca** (only one type) |\n| (d) AAcc | **Ac** (only one type) |\n| (e) AaBbCc | **ABC, ABc, AbC, Abc, aBC, aBc, abC, abc** (8 types) |\n| (f) aaBBCc | **aBC, aBc** |\n\n> [!answer]\n> (a) A, a; (b) BC, Bc, bC, bc; (c) Ca; (d) Ac; (e) 8 combinations ABC … abc; (f) aBC, aBc.",
+  "explanation": "## Advanced explanation\n\nMendel's law of segregation puts one allele of each pair in each gamete; the law of independent assortment (for unlinked genes) lets alleles of different genes combine freely, giving $2^n$ gamete types, each with equal frequency.\n\n## Simplified explanation\n\nSplit each pair and take one letter from each gene. Homozygous genes give only one choice; each heterozygous gene doubles the number of gamete types.",
+  "hint": "One allele of each gene per gamete; count 2ⁿ for heterozygous genes.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Mendelian Genetics",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write an essay on variation, bearing in mind specifically what it is, its types and how environmental factors may cause variation.",
+  "media": [],
+  "answer": "**What it is:** variation is the differences in characteristics among individuals of the same species (or between species).\n\n**Types:**\n- **Continuous variation**: a range of intermediate values with no clear categories, usually controlled by many genes (polygenic) plus environment; shows a normal distribution, e.g. height, weight, skin colour, leaf length.\n- **Discontinuous (discrete) variation**: distinct categories with no intermediates, usually controlled by one or few genes and little affected by environment, e.g. ABO blood groups, tongue rolling, Mendel's tall/dwarf peas.\n- By cause: **genetic (heritable) variation** from mutation, crossing over and independent assortment in meiosis, random fertilisation; and **environmental (acquired, non-heritable) variation**.\n\n**Environmental causes:** nutrition/diet (height, body mass), climate: temperature and light (plant growth, Himalayan rabbit fur colour, sun-tanning), soil minerals and water (plant size, chlorosis), pH (hydrangea flower colour), disease and parasites, exercise and lifestyle (muscle development), chemicals and radiation (which can also cause mutations), and social/learning factors (language, skills). Environment acts on the phenotype; phenotype = genotype + environment. Acquired variation is not inherited, but environmentally induced mutations in germ cells can be.\n\n**Importance:** variation is the raw material for natural selection and evolution, adaptation to changing environments, and plant and animal breeding.\n\n> [!answer]\n> Differences among individuals; continuous vs discontinuous, genetic vs environmental; environment (nutrition, climate, light, soil, disease, lifestyle, chemicals) modifies phenotype; variation underlies evolution.",
+  "explanation": "## Advanced explanation\n\nMost traits show both genetic and environmental components; heritability measures the share of phenotypic variance due to genes. Phenotypic plasticity is the capacity of one genotype to produce different phenotypes in different environments.\n\n## Simplified explanation\n\nIndividuals differ. Some differences come in clear groups (blood groups), some in a range (height). Genes cause some; food, climate, disease and lifestyle cause others.",
+  "hint": "Continuous/discontinuous; genetic/environmental.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Variation & Evolution",
+   "2021/22 End of Semester II Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What happens during prophase of mitosis? **[8 marks]**\n(b) Write and explain the full chemical equation of photosynthesis. **[12 marks]**",
+  "media": [],
+  "answer": "**(a) Prophase:**\n- Chromatin **condenses** into visible chromosomes, each consisting of two **sister chromatids** joined at the **centromere**.\n- The **nucleolus** disappears.\n- In animal cells the **centrosomes (centrioles)** move to opposite poles and the **spindle** of microtubules begins to form (plant cells form a spindle without centrioles).\n- At the end (prometaphase) the **nuclear envelope breaks down** and spindle fibres attach to the **kinetochores** at the centromeres.\n\n**(b)**\n$$6CO_2 + 12H_2O \\xrightarrow[\\text{chlorophyll}]{\\text{light energy}} C_6H_{12}O_6 + 6O_2 + 6H_2O$$\n(net: $6CO_2 + 6H_2O \\rightarrow C_6H_{12}O_6 + 6O_2$).\n\nExplanation: carbon dioxide (from the air via stomata) and water (from the soil) are the raw materials; **light energy** absorbed by **chlorophyll** in chloroplasts drives the reaction.\n- **Light-dependent reactions** (thylakoids): light excites chlorophyll; water is split (**photolysis**: $2H_2O \\rightarrow 4H^+ + 4e^- + O_2$), releasing **oxygen** (so all the O₂ comes from water, which is why 12 H₂O appear on the left and 6 H₂O are re-formed on the right); ATP and NADPH are produced.\n- **Light-independent reactions (Calvin cycle)** (stroma): ATP and NADPH reduce CO₂ fixed by RuBisCO onto RuBP to form triose phosphate, from which **glucose** (and then starch, sucrose) is made.\n\n> [!answer]\n> Prophase: chromosomes condense into chromatid pairs, nucleolus disappears, spindle forms, nuclear envelope breaks down. Photosynthesis: $6CO_2 + 12H_2O \\rightarrow C_6H_{12}O_6 + 6O_2 + 6H_2O$ (light, chlorophyll), via light reactions (photolysis, ATP/NADPH, O₂) and the Calvin cycle (CO₂ fixation to glucose).",
+  "explanation": "## Advanced explanation\n\nThe 12 H₂O form of the equation shows, via ¹⁸O isotope studies, that the O₂ released comes from water, not CO₂. Prophase prepares chromosomes for alignment and separation; condensation prevents tangling.\n\n## Simplified explanation\n\nIn prophase chromosomes thicken and become visible, and the spindle forms. In photosynthesis, plants use light to turn carbon dioxide and water into sugar, giving off oxygen.",
+  "hint": "Condense, disappear, form, break down.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Cell Division",
+   "2021/22 End of Semester II Exam"
+  ]
+ }
+]

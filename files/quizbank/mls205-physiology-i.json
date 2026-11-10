@@ -1,0 +1,2772 @@
+[
+ {
+  "type": "choice",
+  "body": "Physiology creates a framework for understanding how the human body adapts to…",
+  "options": [
+   {
+    "text": "Stresses",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Physical activity",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Disease",
+    "hint": "Not this one."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Correct. The body adapts to all of these."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Choose the widest option.",
+  "explanation": "## Advanced explanation\n\nPhysiology studies normal function and the homeostatic mechanisms that let the body adapt to stresses, exercise and disease, forming the basis of pathophysiology.\n\n## Simplified explanation\n\nPhysiology explains how the body copes with stress, exercise and illness.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Introduction to Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Any abnormal process that causes the hydrogen ion concentration of the body to be lowered results in…",
+  "options": [
+   {
+    "text": "Acidosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Alkalosis",
+    "hint": "Correct. Low [H⁺] = high pH = alkalosis."
+   },
+   {
+    "text": "Hypernatraemia",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hyponatraemia",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "pH and H⁺ move in opposite directions.",
+  "explanation": "## Advanced explanation\n\npH = −log[H⁺]; reduced H⁺ raises pH above 7.45 (alkalosis), e.g. vomiting (metabolic) or hyperventilation (respiratory). Na⁺ disorders are unrelated.\n\n## Simplified explanation\n\nLess acid (H⁺) means alkalosis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Acid–Base Balance",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A decrease in body temperature leads to which of the following?",
+  "options": [
+   {
+    "text": "Shivering",
+    "hint": "Correct. Shivering generates heat."
+   },
+   {
+    "text": "Increase in rate of breathing",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sweating",
+    "hint": "Not this one."
+   },
+   {
+    "text": "b and c above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Heat-producing response.",
+  "explanation": "## Advanced explanation\n\nWhen core temperature falls, the hypothalamus triggers heat production (shivering, non-shivering thermogenesis) and heat conservation (cutaneous vasoconstriction, piloerection). Sweating and faster breathing are heat-loss responses.\n\n## Simplified explanation\n\nWhen cold, you shiver to make heat.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Temperature Regulation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Phospholipids and cholesterol together constitute about ______ per cent of the total cell mass.",
+  "options": [
+   {
+    "text": "5%",
+    "hint": "Not this one."
+   },
+   {
+    "text": "10%",
+    "hint": "Not this one."
+   },
+   {
+    "text": "2%",
+    "hint": "Correct. About 2% (Guyton)."
+   },
+   {
+    "text": "7%",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Small fraction.",
+  "explanation": "## Advanced explanation\n\nCell composition (Guyton): water 70–85%, proteins 10–20%, lipids ~2% (phospholipids and cholesterol, in membranes), neutral fat varies (up to 95% in adipocytes), carbohydrates ~1%, electrolytes.\n\n## Simplified explanation\n\nMembrane lipids are only about 2% of cell mass.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an example of a peripheral membrane protein?",
+  "options": [
+   {
+    "text": "Structural channels (or pores)",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Carrier proteins",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Enzymes",
+    "hint": "Correct. Peripheral proteins function mostly as enzymes or controllers of transport."
+   },
+   {
+    "text": "Receptors",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Channels and carriers must cross the membrane.",
+  "explanation": "## Advanced explanation\n\nIntegral proteins span the bilayer and form channels, carriers and receptors. Peripheral proteins attach loosely to the inner (sometimes outer) surface or to integral proteins and function almost entirely as **enzymes** or as controllers of transport (Guyton).\n\n## Simplified explanation\n\nProteins on the membrane surface (peripheral) are mainly enzymes.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Membrane",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Transcellular fluid comprises the following EXCEPT",
+  "options": [
+   {
+    "text": "Cerebrospinal fluid",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Digestive juices",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Intravascular fluid",
+    "hint": "Correct. Intravascular fluid (plasma) is a separate ECF compartment."
+   },
+   {
+    "text": "Synovial fluid",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Fluids in special spaces.",
+  "explanation": "## Advanced explanation\n\nECF = interstitial fluid + plasma (intravascular) + transcellular fluid (~1–2 L: CSF, synovial, pleural, pericardial, peritoneal, intraocular fluids and digestive secretions).\n\n## Simplified explanation\n\nPlasma is not transcellular fluid.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Inorganic substances contained in body fluids include which of the following?",
+  "options": [
+   {
+    "text": "Calcium",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Phosphate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a and c above",
+    "hint": "Correct. Calcium and phosphate are inorganic ions; glucose is organic."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Carbon compounds are organic.",
+  "explanation": "## Advanced explanation\n\nInorganic constituents are electrolytes (Na⁺, K⁺, Ca²⁺, Mg²⁺, Cl⁻, HCO₃⁻, phosphate, sulphate). Glucose, urea, proteins and lipids are organic.\n\n## Simplified explanation\n\nCalcium and phosphate are inorganic; glucose is organic.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a characteristic of hypo-osmotic dehydration?",
+  "options": [
+   {
+    "text": "The osmolality of both compartments is increased",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The osmolality of both ECF and ICF compartments is decreased",
+    "hint": "Correct. Salt is lost in excess of water, so both compartments become hypo-osmotic."
+   },
+   {
+    "text": "There is no change in the osmolality of the ECF and ICF compartments",
+    "hint": "Not this one."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Hypo = low osmolality.",
+  "explanation": "## Advanced explanation\n\nIn hypo-osmotic (hypotonic) dehydration (e.g. vomiting/diarrhoea replaced with water, adrenal insufficiency) more solute than water is lost: ECF osmolality falls, water shifts into cells, so ICF osmolality also falls and cells swell while ECF volume contracts.\n\n## Simplified explanation\n\nLosing more salt than water dilutes both fluid compartments.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The motor function of the nervous system includes which of the following?",
+  "options": [
+   {
+    "text": "Sensing of changes within the body and the outside environment",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Muscular contractions or glandular secretions",
+    "hint": "Correct. Motor (effector) output activates muscles and glands."
+   },
+   {
+    "text": "Interpretation of changes within the body and the outside environment",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a and b above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Effectors.",
+  "explanation": "## Advanced explanation\n\nThe nervous system has sensory (detect), integrative (interpret, decide) and motor (respond via effectors: muscles and glands) functions.\n\n## Simplified explanation\n\nMotor = making muscles contract or glands secrete.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Nervous System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The *chromatophilic substance* of the neuron corresponds to…",
+  "options": [
+   {
+    "text": "Rough endoplasmic reticulum",
+    "hint": "Correct. Nissl bodies are clusters of RER and ribosomes."
+   },
+   {
+    "text": "Smooth endoplasmic reticulum",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Microtubules",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Mitochondria",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "They stain because of ribosomes.",
+  "explanation": "## Advanced explanation\n\nChromatophilic (Nissl) substance stains with basic dyes due to ribosomal RNA. It is in the cell body and dendrites (not the axon hillock/axon) and synthesises proteins; it disperses after axon injury (chromatolysis).\n\n## Simplified explanation\n\nNissl bodies = rough ER.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Nervous Tissue",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The peripheral nervous system includes…",
+  "options": [
+   {
+    "text": "Cranial nerves",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Spinal nerves",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Brain and cranial nerves",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a and b above",
+    "hint": "Correct. PNS = cranial nerves + spinal nerves (with ganglia)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The brain is CNS.",
+  "explanation": "## Advanced explanation\n\nCNS = brain and spinal cord. PNS = 12 pairs of cranial nerves, 31 pairs of spinal nerves, their ganglia and sensory receptors.\n\n## Simplified explanation\n\nPNS = all nerves outside the brain and spinal cord.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Nervous System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following divisions of the trigeminal nerve is responsible for innervating the scalp?",
+  "options": [
+   {
+    "text": "Maxillary",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ophthalmic",
+    "hint": "Correct. The ophthalmic (V1) division supplies the forehead and scalp up to the vertex."
+   },
+   {
+    "text": "Mandibular",
+    "hint": "Not this one."
+   },
+   {
+    "text": "a and b above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Upper division.",
+  "explanation": "## Advanced explanation\n\nV1 (ophthalmic): forehead, scalp to vertex, upper eyelid, cornea, dorsum of nose. V2 (maxillary): cheek, upper lip, upper teeth. V3 (mandibular): lower face, lower teeth, part of temple; also muscles of mastication. (Posterior scalp is supplied by cervical nerves.)\n\n## Simplified explanation\n\nThe ophthalmic branch supplies the forehead and scalp.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cranial Nerves",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a function of the hypoglossal nerve?",
+  "options": [
+   {
+    "text": "Swallowing",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lacrimation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Controls muscles of the tongue",
+    "hint": "Correct. CN XII supplies the tongue muscles."
+   },
+   {
+    "text": "Posture",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Hypo-glossal = under the tongue.",
+  "explanation": "## Advanced explanation\n\nHypoglossal (XII) is motor to intrinsic and most extrinsic tongue muscles (except palatoglossus). Lesion: tongue deviates to the side of the lesion on protrusion.\n\n## Simplified explanation\n\nHypoglossal = tongue movement.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cranial Nerves",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Skin is classified as thick and thin based on which of the following?",
+  "options": [
+   {
+    "text": "According to the thickness of the dermis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "According to the thickness of the epidermis",
+    "hint": "Correct. Thick skin has a thick epidermis with a stratum lucidum."
+   },
+   {
+    "text": "According to the thickness of the adipose tissue",
+    "hint": "Not this one."
+   },
+   {
+    "text": "All of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which layer has the stratum lucidum?",
+  "explanation": "## Advanced explanation\n\nThick skin (palms, soles) has 5 epidermal layers including the stratum lucidum and a thick stratum corneum, and lacks hair. Thin skin covers the rest of the body.\n\n## Simplified explanation\n\nThick vs thin skin depends on the epidermis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Integumentary System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Excessive shedding of hair shafts is known as…",
+  "options": [
+   {
+    "text": "Effluvium",
+    "hint": "Correct. Effluvium (e.g. telogen effluvium) = excessive shedding."
+   },
+   {
+    "text": "Alopecia",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Hirsutism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Miniaturisation",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "'Outflow'.",
+  "explanation": "## Advanced explanation\n\nEffluvium is increased shedding of hairs (telogen effluvium after stress, illness, childbirth; anagen effluvium after chemotherapy). Alopecia is the resulting hair loss/baldness; hirsutism is excess male-pattern hair in women; miniaturisation is follicle shrinkage in androgenetic alopecia.\n\n## Simplified explanation\n\nToo much hair falling out = effluvium.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Integumentary System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not true of the mucocutaneous junction?",
+  "options": [
+   {
+    "text": "It is the point where skin and mucous membrane meet",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It lacks hair follicles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It can be a common site of infection",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It has sweat glands",
+    "hint": "Correct. Mucocutaneous junctions lack sweat glands."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Lips, nostrils, anus.",
+  "explanation": "## Advanced explanation\n\nMucocutaneous junctions (lips, nostrils, eyelids, anus, vulva, prepuce) are transition zones between skin and mucous membranes; they lack hair follicles and sweat glands, and are common sites of infection (e.g. herpes labialis).\n\n## Simplified explanation\n\nThese junctions have no sweat glands.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Integumentary System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is the primary role of oestrogen in the mammary gland?",
+  "options": [
+   {
+    "text": "It develops the milk-secreting alveoli",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It stimulates milk synthesis in the alveoli",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It stimulates milk ejection from the alveoli",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It develops the duct system in the breasts",
+    "hint": "Correct. Oestrogen drives ductal growth."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Ducts vs alveoli.",
+  "explanation": "## Advanced explanation\n\nOestrogen: growth of the duct system and stroma/fat. Progesterone: lobule–alveolar development. Prolactin: milk synthesis. Oxytocin: milk ejection (myoepithelial contraction).\n\n## Simplified explanation\n\nOestrogen grows the ducts; progesterone the alveoli.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Reproductive Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The cells of the epidermis of the skin include the following except…",
+  "options": [
+   {
+    "text": "Fibroblasts",
+    "hint": "Correct. Fibroblasts are in the dermis."
+   },
+   {
+    "text": "Keratinocytes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Melanocytes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Merkel cells",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Connective tissue cell.",
+  "explanation": "## Advanced explanation\n\nEpidermal cells: keratinocytes, melanocytes, Langerhans (dendritic) cells and Merkel cells. Fibroblasts are connective-tissue cells of the dermis.\n\n## Simplified explanation\n\nFibroblasts live in the dermis, not the epidermis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Integumentary System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not part of the appendicular skeleton?",
+  "options": [
+   {
+    "text": "The shoulder girdle",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The rib cage",
+    "hint": "Correct. The rib cage is axial."
+   },
+   {
+    "text": "The pelvic girdle",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The bones of the upper and lower limbs",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Axial = central axis.",
+  "explanation": "## Advanced explanation\n\nAxial: skull, vertebral column, ribs, sternum, hyoid. Appendicular: girdles and limbs.\n\n## Simplified explanation\n\nRibs are part of the axial skeleton.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skeleton",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The vertebrae responsible for supporting and stabilising the majority of the body's weight include…",
+  "options": [
+   {
+    "text": "Thoracic vertebrae",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sacral vertebrae",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lumbar vertebrae",
+    "hint": "Correct. Lumbar vertebrae have the largest bodies and carry most weight."
+   },
+   {
+    "text": "Cervical vertebrae",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Lower back.",
+  "explanation": "## Advanced explanation\n\nLoad increases down the spine; the five lumbar vertebrae have massive bodies to bear upper-body weight (and are a common site of disc problems).\n\n## Simplified explanation\n\nThe big lumbar vertebrae carry most body weight.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skeleton",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of a flat bone is…",
+  "options": [
+   {
+    "text": "Patellae",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Scapula",
+    "hint": "Correct. The scapula is a flat bone."
+   },
+   {
+    "text": "Facial bone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Tibia",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Thin and plate-like.",
+  "explanation": "## Advanced explanation\n\nFlat bones: scapula, sternum, ribs, cranial vault bones. Patella: sesamoid. Tibia: long bone. Many facial bones are irregular.\n\n## Simplified explanation\n\nThe shoulder blade is a flat bone.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Skeleton",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Joints that have limited mobility are classified as…",
+  "options": [
+   {
+    "text": "Synarthrosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Amphiarthrosis",
+    "hint": "Correct. Amphiarthroses are slightly movable."
+   },
+   {
+    "text": "Diarthrosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Amphi = on both sides / partly.",
+  "explanation": "## Advanced explanation\n\nSynarthrosis: immovable; amphiarthrosis: slightly movable (pubic symphysis, intervertebral joints); diarthrosis: freely movable (synovial).\n\n## Simplified explanation\n\nSlightly movable = amphiarthrosis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Joints",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain **five (5)** significances of body fluid.",
+  "media": [],
+  "answer": "Any five:\n\n1. **Medium for chemical reactions**: all cellular metabolism takes place in water.\n2. **Transport**: carries nutrients, O₂, hormones, waste products and heat (blood, lymph, interstitial fluid).\n3. **Temperature regulation**: high specific heat buffers temperature changes; sweat evaporation removes heat.\n4. **Lubrication**: synovial, pleural, pericardial and peritoneal fluids reduce friction; mucus and saliva aid swallowing.\n5. **Protection/cushioning**: CSF protects the brain and cord; amniotic fluid protects the fetus.\n6. **Excretion**: dissolves waste for removal in urine and sweat.\n7. **Maintains blood volume and pressure** and cell shape (turgor).\n8. **Solvent** for electrolytes, maintaining osmotic and acid–base balance.\n9. Forms **digestive secretions** for digestion.\n\n> [!answer]\n> e.g. reaction medium, transport, temperature regulation, lubrication, protection, excretion, maintenance of blood volume/pressure and electrolyte balance.",
+  "explanation": "## Advanced explanation\n\nTotal body water is ~60% of body weight in adult males (≈42 L): ICF two-thirds (~28 L), ECF one-third (~14 L: interstitial ~11 L, plasma ~3 L). Water's polarity, cohesion and high specific heat underlie these functions.\n\n## Simplified explanation\n\nBody fluids carry things around, cool us, cushion and lubricate organs, remove waste and are where all body chemistry happens.",
+  "hint": "Think of blood, CSF, sweat and joint fluid.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Body Fluids",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Outline the different categories of bones based on shape and give a function of each category.",
+  "media": [],
+  "answer": "| Category | Examples | Function |\n|---|---|---|\n| **Long bones** | Femur, humerus, tibia, phalanges | Act as **levers for movement**; support weight; marrow cavity for haemopoiesis |\n| **Short bones** | Carpals, tarsals | **Stability and support** with some movement; absorb shock |\n| **Flat bones** | Skull vault, scapula, sternum, ribs | **Protect** internal organs; broad surfaces for **muscle attachment**; red marrow (sternum, ribs) |\n| **Irregular bones** | Vertebrae, facial bones, hip bone | **Protection** (spinal cord) and support; complex shapes for multiple attachments |\n| **Sesamoid bones** | Patella, pisiform | **Protect tendons** and improve the leverage of muscles |\n| (Sutural/Wormian bones) | Small bones in skull sutures | Fill gaps in sutures |\n\n> [!answer]\n> Long (levers for movement), short (stability/support), flat (protection, muscle attachment), irregular (protection, support), sesamoid (protect tendons, improve leverage).",
+  "explanation": "## Advanced explanation\n\nShape reflects function (form follows function). Long bones are longer than wide with a diaphysis and epiphyses; flat bones are two plates of compact bone with spongy diploë between.\n\n## Simplified explanation\n\nLong bones help you move, short bones give stable wrists and ankles, flat bones protect, irregular bones support (spine), and sesamoid bones protect tendons.",
+  "hint": "Long, short, flat, irregular, sesamoid.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Skeleton",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name **five (5)** cytoplasmic organelles of the cell and give one function of each.",
+  "media": [],
+  "answer": "| Organelle | Function |\n|---|---|\n| **Mitochondria** | Aerobic respiration and **ATP production** (powerhouse) |\n| **Rough endoplasmic reticulum** | **Synthesis of proteins** for secretion and membranes (ribosome-studded) |\n| **Smooth endoplasmic reticulum** | **Lipid and steroid synthesis**, detoxification, Ca²⁺ storage (sarcoplasmic reticulum) |\n| **Golgi apparatus** | **Modifies, sorts and packages** proteins into secretory vesicles; forms lysosomes |\n| **Lysosomes** | **Intracellular digestion** with hydrolytic enzymes (autophagy, phagocytosed material) |\n| **Peroxisomes** | Oxidation of fatty acids, **breakdown of H₂O₂** by catalase, detoxification |\n| **Ribosomes** | Protein synthesis (translation) |\n| **Centrioles/centrosome** | Organise the mitotic spindle; form cilia basal bodies |\n| **Cytoskeleton** (microtubules, microfilaments) | Cell shape, movement, intracellular transport |\n\n> [!answer]\n> Any five, e.g. mitochondria (ATP), RER (protein synthesis), SER (lipid synthesis), Golgi (packaging), lysosomes (digestion).",
+  "explanation": "## Advanced explanation\n\nMembrane-bound organelles compartmentalise the cytoplasm so incompatible reactions can occur simultaneously (e.g. degradation in lysosomes at pH ~5 vs synthesis in the cytosol).\n\n## Simplified explanation\n\nMitochondria make energy, ER makes proteins and lipids, Golgi packages, lysosomes digest, ribosomes build proteins.",
+  "hint": "Pick five and match a job.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Cell Physiology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name the cells of the epidermis of the skin and give **one (1)** function of each.",
+  "media": [],
+  "answer": "| Cell | Function |\n|---|---|\n| **Keratinocytes** (~90%) | Produce **keratin**, forming a tough protective, waterproof barrier |\n| **Melanocytes** | Produce **melanin**, which absorbs UV light and protects DNA |\n| **Langerhans (intraepidermal dendritic) cells** | **Immune defence**: capture antigens and present them to T cells |\n| **Merkel (tactile) cells** | **Touch sensation** (light touch receptors with sensory nerve endings) |\n\n> [!answer]\n> Keratinocytes (keratin, protection), melanocytes (melanin, UV protection), Langerhans cells (antigen presentation), Merkel cells (touch).",
+  "explanation": "## Advanced explanation\n\nKeratinocytes arise from stem cells in the stratum basale and move up through spinosum, granulosum (lucidum) and corneum over ~4 weeks. Melanocytes transfer melanosomes to keratinocytes. Langerhans cells come from bone marrow.\n\n## Simplified explanation\n\nSkin surface cells: keratinocytes protect, melanocytes colour and protect from sun, Langerhans cells fight germs, Merkel cells sense touch.",
+  "hint": "Four cell types.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Integumentary System",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give the names of the **cranial nerves**.",
+  "media": [],
+  "answer": "| No. | Name | Type |\n|---|---|---|\n| I | Olfactory | Sensory (smell) |\n| II | Optic | Sensory (vision) |\n| III | Oculomotor | Motor (most eye movements, pupil constriction) |\n| IV | Trochlear | Motor (superior oblique) |\n| V | Trigeminal | Mixed (face sensation, mastication) |\n| VI | Abducens | Motor (lateral rectus) |\n| VII | Facial | Mixed (facial expression, taste anterior 2/3) |\n| VIII | Vestibulocochlear | Sensory (hearing, balance) |\n| IX | Glossopharyngeal | Mixed (taste posterior 1/3, swallowing) |\n| X | Vagus | Mixed (parasympathetic to viscera) |\n| XI | Accessory | Motor (sternocleidomastoid, trapezius) |\n| XII | Hypoglossal | Motor (tongue) |\n\n> [!answer]\n> Olfactory, optic, oculomotor, trochlear, trigeminal, abducens, facial, vestibulocochlear, glossopharyngeal, vagus, accessory, hypoglossal.",
+  "explanation": "## Advanced explanation\n\nMnemonic for names: 'Oh Oh Oh To Touch And Feel Very Good Velvet, Ah Heaven'. Mnemonic for type: 'Some Say Marry Money, But My Brother Says Big Brains Matter More' (S = sensory, M = motor, B = both).\n\n## Simplified explanation\n\nThere are 12 pairs, from olfactory (I) to hypoglossal (XII).",
+  "hint": "Twelve pairs.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Cranial Nerves",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Name **three (3)** sensory and **two (2)** motor areas of the cerebral cortex and give their Brodmann classification.",
+  "media": [],
+  "answer": "**Sensory areas** (any three):\n\n| Area | Brodmann |\n|---|---|\n| Primary somatosensory area (postcentral gyrus) | **1, 2, 3** |\n| Somatosensory association area | **5, 7** |\n| Primary visual area (occipital, calcarine) | **17** |\n| Visual association areas | **18, 19** |\n| Primary auditory area (superior temporal, Heschl's gyrus) | **41, 42** |\n| Auditory association area (Wernicke's area) | **22** |\n| Primary gustatory area | **43** |\n| Primary olfactory area | **28** (and 34) |\n\n**Motor areas** (any two):\n\n| Area | Brodmann |\n|---|---|\n| Primary motor area (precentral gyrus) | **4** |\n| Premotor / supplementary motor area | **6** |\n| Frontal eye field | **8** |\n| Broca's (motor speech) area | **44, 45** |\n\n> [!answer]\n> e.g. sensory: primary somatosensory (1, 2, 3), primary visual (17), primary auditory (41, 42); motor: primary motor (4), Broca's area (44, 45) [or premotor 6].",
+  "explanation": "## Advanced explanation\n\nBrodmann (1909) mapped 52 areas by cytoarchitecture. Primary sensory areas receive thalamic input; association areas interpret it. The primary motor cortex is somatotopically organised (motor homunculus).\n\n## Simplified explanation\n\nFeeling (1-2-3), seeing (17), hearing (41-42); moving (4) and speech production (44-45).",
+  "hint": "Postcentral vs precentral gyrus.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Cerebral Cortex",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the renal tubules, a glucose transporter uses a high luminal Na⁺ concentration to move glucose from the tubules into cells. What transport process is employed by this transporter?",
+  "options": [
+   {
+    "text": "Facilitated diffusion",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Primary active transport",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Counter transport",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Co-transport",
+    "hint": "Correct. Na⁺ and glucose move in the same direction (symport, SGLT)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Same direction.",
+  "explanation": "## Advanced explanation\n\nSGLT2/SGLT1 are **secondary active co-transporters (symporters)**: the downhill Na⁺ gradient (maintained by basolateral Na⁺/K⁺-ATPase) drives glucose uphill into the cell. Counter-transport (antiport) moves substances in opposite directions.\n\n## Simplified explanation\n\nNa⁺ and glucose ride in together: co-transport.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Arrange the following solutions in order of increasing osmolarity: I. 0.5 M NaCl, II. 0.5 M glucose, III. 2 M urea, IV. 1.5 M CaCl₂.",
+  "options": [
+   {
+    "text": "I, II, IV, III",
+    "hint": "Not this one."
+   },
+   {
+    "text": "II, III, I, IV",
+    "hint": "Not this one."
+   },
+   {
+    "text": "II, I, III, IV",
+    "hint": "Correct. 0.5 < 1 < 2 < 4.5 osm/L."
+   },
+   {
+    "text": "IV, I, III, II",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Count particles per molecule.",
+  "explanation": "## Advanced explanation\n\nOsmolarity = molarity × number of particles: glucose 0.5 × 1 = **0.5**; NaCl 0.5 × 2 = **1.0**; urea 2 × 1 = **2.0**; CaCl₂ 1.5 × 3 = **4.5** osm/L (assuming complete dissociation).\n\n## Simplified explanation\n\nMultiply concentration by particles: glucose 0.5, NaCl 1, urea 2, CaCl₂ 4.5.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Osmosis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Oncotic pressure is pressure due to…",
+  "options": [
+   {
+    "text": "dissolved solutes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "soluble proteins",
+    "hint": "Correct. Colloid osmotic pressure from plasma proteins."
+   },
+   {
+    "text": "urea",
+    "hint": "Not this one."
+   },
+   {
+    "text": "glucose",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Colloids.",
+  "explanation": "## Advanced explanation\n\nOncotic (colloid osmotic) pressure (~25–28 mmHg in plasma) is the osmotic pressure exerted by proteins, mainly albumin, which do not cross capillary walls; it holds fluid in the vessels (Starling forces).\n\n## Simplified explanation\n\nOncotic pressure comes from proteins like albumin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the osmolarity (in osm/L) of 2 M glucose?",
+  "options": [
+   {
+    "text": "360",
+    "hint": "Not this one."
+   },
+   {
+    "text": "2",
+    "hint": "Correct. Glucose does not dissociate: 2 × 1 = 2 osm/L."
+   },
+   {
+    "text": "180",
+    "hint": "Not this one."
+   },
+   {
+    "text": "0.5",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Does glucose dissociate?",
+  "explanation": "## Advanced explanation\n\nOsmolarity = g × C, where g = particles per molecule (1 for glucose). 180 is glucose's molar mass, not osmolarity.\n\n## Simplified explanation\n\nGlucose stays as one particle: 2 M = 2 osm/L.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Osmosis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following solutions would cause red blood cells to swell and rupture? [osmolality of blood = 0.3 osm]",
+  "options": [
+   {
+    "text": "0.15 M NaCl",
+    "hint": "Not this one."
+   },
+   {
+    "text": "0.3 M glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "0.3 M urea",
+    "hint": "Correct. Urea crosses the RBC membrane, so the solution is effectively hypotonic."
+   },
+   {
+    "text": "0.3 M sucrose",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which solute can cross the membrane?",
+  "explanation": "## Advanced explanation\n\n0.15 M NaCl ≈ 0.3 osm and NaCl is impermeant → isotonic. 0.3 M urea is **iso-osmotic but hypotonic**: urea (reflection coefficient ≈ 0) enters the cell, followed by water, so the cell swells and lyses. Sucrose is impermeant (isotonic); glucose enters only slowly.\n\n## Simplified explanation\n\nUrea leaks into the red cell and water follows, so the cell bursts.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Osmosis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The component of control systems which detects changes in the controlled variable is called…",
+  "options": [
+   {
+    "text": "sensor",
+    "hint": "Correct. The sensor (receptor) detects the variable."
+   },
+   {
+    "text": "controller",
+    "hint": "Not this one."
+   },
+   {
+    "text": "effector",
+    "hint": "Not this one."
+   },
+   {
+    "text": "timer",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Receptor.",
+  "explanation": "## Advanced explanation\n\nNegative feedback loop: sensor (receptor) → controller (integrating centre, compares with set point) → effector (produces response).\n\n## Simplified explanation\n\nThe sensor detects changes.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following processes involve positive feedback EXCEPT…",
+  "options": [
+   {
+    "text": "uterine contractions increase oxytocin release to cause even more powerful contractions during labour",
+    "hint": "Not this one."
+   },
+   {
+    "text": "during the generation of a nerve signal, an initial increase in Na⁺ permeability leads to massive Na⁺ influx",
+    "hint": "Not this one."
+   },
+   {
+    "text": "increase in pH increases renal excretion of bicarbonate ion to return pH to normal",
+    "hint": "Correct. Correcting pH back to normal is negative feedback."
+   },
+   {
+    "text": "increasing oestrogen secretion by the growing egg follicle produces an LH surge which causes ovulation",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one restores normal?",
+  "explanation": "## Advanced explanation\n\nPositive feedback amplifies the initial change (labour, the Hodgkin Na⁺ cycle of the action potential, the pre-ovulatory LH surge, blood clotting). Negative feedback opposes the change and restores the set point (renal correction of alkalosis).\n\n## Simplified explanation\n\nBringing pH back to normal is negative feedback; the others amplify themselves.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In control systems, the difference between the feedback signal and the set point is called…",
+  "options": [
+   {
+    "text": "disturbance",
+    "hint": "Not this one."
+   },
+   {
+    "text": "error",
+    "hint": "Correct. Error = set point − actual value remaining."
+   },
+   {
+    "text": "sensor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "correction",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Leftover deviation.",
+  "explanation": "## Advanced explanation\n\nError signal = deviation of the controlled variable from the set point that remains; correction = amount of change prevented by the system; gain = correction/error.\n\n## Simplified explanation\n\nWhat's left over from the set point is the error.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What component of control systems receives and integrates the feedback signal to enable an appropriate response?",
+  "options": [
+   {
+    "text": "Effector",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sensor",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Controller",
+    "hint": "Correct. The controller (integrating centre) compares input with the set point."
+   },
+   {
+    "text": "Timer",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Integrating centre.",
+  "explanation": "## Advanced explanation\n\ne.g. the hypothalamus is the controller for body temperature; it compares sensor input with the set point and directs effectors.\n\n## Simplified explanation\n\nThe controller decides what to do.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "When subject BB, who had a non-functional thermoreceptor temperature control system, was exposed to warm conditions, body temperature increased to 42 °C from a normal of 37 °C. Exposure of subject BB to the same conditions when thermoreceptor function was restored produced a body temperature of 37.2 °C.\n\nWhat is the **correction** of the temperature control system in subject BB?",
+  "options": [
+   {
+    "text": "24 °C",
+    "hint": "Not this one."
+   },
+   {
+    "text": "4.8 °C",
+    "hint": "Correct. 42 − 37.2 = 4.8 °C."
+   },
+   {
+    "text": "5 °C",
+    "hint": "Not this one."
+   },
+   {
+    "text": "0.2 °C",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Uncontrolled minus controlled.",
+  "explanation": "## Advanced explanation\n\nCorrection = change without control − change with control = (42 − 37) − (37.2 − 37) = 5 − 0.2 = **4.8 °C** (equivalently 42 − 37.2).\n\n## Simplified explanation\n\nThe working system kept temperature 4.8 °C lower than it would have been.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements is most CORRECT about the *gain* of negative feedback systems?",
+  "options": [
+   {
+    "text": "Tendency of controlled variable to deviate from the set point",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Value of the set point which determines effector response",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Intensity of effector response",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Effectiveness of a control system to resist changes in the controlled variable",
+    "hint": "Correct. Gain measures how effectively the system resists change."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Effectiveness.",
+  "explanation": "## Advanced explanation\n\nGain = correction/error; the larger the gain, the smaller the residual error and the more effective the system.\n\n## Simplified explanation\n\nGain tells how good a system is at keeping things stable.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following substances has a higher concentration in intracellular fluid than extracellular fluid?",
+  "options": [
+   {
+    "text": "Ca²⁺",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Na⁺",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Cl⁻",
+    "hint": "Not this one."
+   },
+   {
+    "text": "K⁺",
+    "hint": "Correct. ICF K⁺ ≈ 140 mmol/L vs ECF ≈ 4 mmol/L."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Pumped in by the Na⁺/K⁺ pump.",
+  "explanation": "## Advanced explanation\n\nICF is rich in K⁺, Mg²⁺, phosphate and proteins; ECF is rich in Na⁺, Cl⁻, HCO₃⁻ and Ca²⁺. The Na⁺/K⁺-ATPase maintains these gradients.\n\n## Simplified explanation\n\nPotassium is mainly inside cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following forms of transport is *passive*?",
+  "options": [
+   {
+    "text": "Primary active transport",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Co-transport",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Facilitated diffusion",
+    "hint": "Correct. Facilitated diffusion moves down the gradient without energy."
+   },
+   {
+    "text": "Counter transport",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Down the gradient.",
+  "explanation": "## Advanced explanation\n\nPassive transport: simple diffusion, facilitated diffusion (carrier or channel), osmosis. Co- and counter-transport are secondary active.\n\n## Simplified explanation\n\nFacilitated diffusion needs no energy.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following forms of transport is NOT carrier-mediated?",
+  "options": [
+   {
+    "text": "Facilitated diffusion",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Simple diffusion",
+    "hint": "Correct. Simple diffusion goes directly through the lipid bilayer or channels."
+   },
+   {
+    "text": "Co-transport",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Primary active transport",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "No protein binding.",
+  "explanation": "## Advanced explanation\n\nCarrier-mediated transport shows saturation (Tm), stereospecificity and competition; simple diffusion is linear with concentration.\n\n## Simplified explanation\n\nSimple diffusion needs no carrier.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements is NOT true about the Na⁺/K⁺ ATPase?",
+  "options": [
+   {
+    "text": "It is a primary active transporter",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It transports 3 Na⁺ out of cells in exchange for 2 K⁺ brought into cells",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The operation of the pump contributes to the generation of an electrical gradient across cell membranes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "It employs a Na⁺ gradient to transport glucose into cells",
+    "hint": "Correct. That describes SGLT (secondary active), not the pump."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which describes a different transporter?",
+  "explanation": "## Advanced explanation\n\nThe Na⁺/K⁺-ATPase hydrolyses ATP directly (primary active), is electrogenic (3 Na⁺ out, 2 K⁺ in, contributing a few mV) and creates the Na⁺ gradient that SGLT then uses.\n\n## Simplified explanation\n\nThe pump makes the Na⁺ gradient; it does not itself move glucose.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Aquaporins are open tubes through integral proteins that allow passage of…",
+  "options": [
+   {
+    "text": "water",
+    "hint": "Correct. Aquaporins are water channels."
+   },
+   {
+    "text": "glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "carbon dioxide",
+    "hint": "Not this one."
+   },
+   {
+    "text": "oxygen",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Aqua = water.",
+  "explanation": "## Advanced explanation\n\ne.g. AQP2 in collecting duct principal cells is inserted under ADH control.\n\n## Simplified explanation\n\nAquaporins are water channels.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Channel-forming junctions, which allow passage of small water-soluble molecules, are called…",
+  "options": [
+   {
+    "text": "adherens junctions",
+    "hint": "Not this one."
+   },
+   {
+    "text": "gap junctions",
+    "hint": "Correct. Gap junctions (connexons) connect cytoplasm of adjacent cells."
+   },
+   {
+    "text": "tight junctions",
+    "hint": "Not this one."
+   },
+   {
+    "text": "desmosomes",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Connexons.",
+  "explanation": "## Advanced explanation\n\nGap junctions (6 connexins = connexon) allow ions and small molecules (< ~1 kDa) to pass, e.g. electrical coupling of cardiac and smooth muscle. Tight junctions seal; adherens junctions and desmosomes anchor.\n\n## Simplified explanation\n\nGap junctions are little tunnels between cells.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Junctions",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fusion of membrane-bound vesicles with the plasma membrane to secrete molecules from cells into extracellular fluid is called…",
+  "options": [
+   {
+    "text": "exocytosis",
+    "hint": "Correct. Exo = out."
+   },
+   {
+    "text": "endocytosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pinocytosis",
+    "hint": "Not this one."
+   },
+   {
+    "text": "facilitated diffusion",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Out of the cell.",
+  "explanation": "## Advanced explanation\n\nExocytosis (Ca²⁺- and SNARE-dependent) releases hormones, neurotransmitters and enzymes.\n\n## Simplified explanation\n\nVesicles fusing to release contents = exocytosis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "Quiz 1 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following waves of the electrocardiogram represents ventricular depolarisation?",
+  "options": [
+   {
+    "text": "QRS complex",
+    "hint": "Correct. QRS = ventricular depolarisation."
+   },
+   {
+    "text": "P wave",
+    "hint": "Not this one."
+   },
+   {
+    "text": "T wave",
+    "hint": "Not this one."
+   },
+   {
+    "text": "U wave",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Largest deflection.",
+  "explanation": "## Advanced explanation\n\nP = atrial depolarisation; QRS = ventricular depolarisation (atrial repolarisation hidden within it); T = ventricular repolarisation; U = late repolarisation (Purkinje/papillary muscle), prominent in hypokalaemia.\n\n## Simplified explanation\n\nThe big QRS spike is the ventricles depolarising.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiovascular Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The volume of blood remaining in the heart after ejection is called…",
+  "options": [
+   {
+    "text": "stroke volume output",
+    "hint": "Not this one."
+   },
+   {
+    "text": "end diastolic volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "end systolic volume",
+    "hint": "Correct. ESV ≈ 50 mL remains after systole."
+   },
+   {
+    "text": "ejection fraction",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "End of systole.",
+  "explanation": "## Advanced explanation\n\nEDV (~120 mL) − ESV (~50 mL) = stroke volume (~70 mL); EF = SV/EDV (~55–65%).\n\n## Simplified explanation\n\nWhat's left after the heart squeezes is the end-systolic volume.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiovascular Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which of the following phases of the cardiac cycle is ventricular volume *lowest*?",
+  "options": [
+   {
+    "text": "Isovolumetric contraction",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Rapid ventricular ejection",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Isovolumetric relaxation",
+    "hint": "Correct. After ejection, volume stays at ESV during isovolumetric relaxation."
+   },
+   {
+    "text": "Slow ventricular filling",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "After ejection, before filling.",
+  "explanation": "## Advanced explanation\n\nEjection ends at ESV; during isovolumetric relaxation all valves are closed so volume remains at its minimum until the AV valves open and filling begins.\n\n## Simplified explanation\n\nRight after the heart empties, before filling: isovolumetric relaxation.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cardiac Cycle",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following conditions could increase cardiac output EXCEPT…",
+  "options": [
+   {
+    "text": "Increased venous return",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Activation of the parasympathetic nervous system",
+    "hint": "Correct. Vagal stimulation slows the heart."
+   },
+   {
+    "text": "Exercise",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Release of epinephrine from adrenal medulla",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Rest and digest.",
+  "explanation": "## Advanced explanation\n\nCO = HR × SV. Parasympathetic (vagal, ACh on M2 receptors) lowers heart rate and atrial contractility, reducing CO. Venous return (Frank–Starling), exercise and adrenaline (β1) increase it.\n\n## Simplified explanation\n\nThe parasympathetic system slows the heart, lowering output.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiovascular Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following factors is NOT a *primary* determinant of stroke volume output?",
+  "options": [
+   {
+    "text": "Heart rate",
+    "hint": "Correct. SV depends on preload, afterload and contractility."
+   },
+   {
+    "text": "End diastolic volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Total peripheral resistance",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Ventricular contractility",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Preload, afterload, contractility.",
+  "explanation": "## Advanced explanation\n\nStroke volume is determined by **preload** (EDV), **afterload** (TPR/arterial pressure) and **contractility**. Heart rate is a determinant of cardiac output, affecting SV only secondarily (via filling time).\n\n## Simplified explanation\n\nStroke volume depends on filling, resistance and squeezing strength, not heart rate.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cardiovascular Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The site of exchange of materials between blood and tissue fluids is…",
+  "options": [
+   {
+    "text": "arterioles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "venules",
+    "hint": "Not this one."
+   },
+   {
+    "text": "capillaries",
+    "hint": "Correct. Thin capillary walls allow exchange."
+   },
+   {
+    "text": "vena cava",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Thinnest vessels.",
+  "explanation": "## Advanced explanation\n\nCapillaries have a single endothelial layer, huge total surface area and slow flow, ideal for diffusion and filtration (Starling forces).\n\n## Simplified explanation\n\nExchange happens in the capillaries.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microcirculation",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following blood vessels shows the highest resistance to blood flow?",
+  "options": [
+   {
+    "text": "Capillaries",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Arterioles",
+    "hint": "Correct. Arterioles are the main resistance vessels."
+   },
+   {
+    "text": "Venules",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Large arteries",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Biggest pressure drop.",
+  "explanation": "## Advanced explanation\n\nArterioles have thick smooth-muscle walls and small radii; resistance ∝ 1/r⁴ (Poiseuille), so they account for the largest pressure drop and control TPR. Individual capillaries are narrower, but they are arranged in parallel in huge numbers.\n\n## Simplified explanation\n\nArterioles are the resistance vessels.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which property of veins accounts for the fact that most blood in circulation is contained within the veins?",
+  "options": [
+   {
+    "text": "High pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Elastic recoil",
+    "hint": "Not this one."
+   },
+   {
+    "text": "High compliance",
+    "hint": "Correct. Veins stretch easily (high compliance) and hold ~64% of blood volume."
+   },
+   {
+    "text": "High resistance",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Capacitance vessels.",
+  "explanation": "## Advanced explanation\n\nCompliance = ΔV/ΔP; veins are ~24× more compliant than arteries, so they act as capacitance (reservoir) vessels.\n\n## Simplified explanation\n\nVeins stretch easily, so they hold most blood.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Circulation in the veins is aided by all the following EXCEPT…",
+  "options": [
+   {
+    "text": "Venous valves",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Skeletal muscle pump",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Narrow vessel diameters",
+    "hint": "Correct. Narrowing would increase resistance, not aid return."
+   },
+   {
+    "text": "Respiratory pump",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which one adds resistance?",
+  "explanation": "## Advanced explanation\n\nVenous return is helped by valves (prevent backflow), the skeletal muscle pump, the respiratory (thoraco-abdominal) pump, venoconstriction and the suction of the atria.\n\n## Simplified explanation\n\nNarrow veins wouldn't help blood return.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The main determinant of arterial pulse pressure is…",
+  "options": [
+   {
+    "text": "heart rate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "diastolic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "systolic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "stroke volume",
+    "hint": "Correct. Pulse pressure ∝ stroke volume / arterial compliance."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Volume ejected per beat.",
+  "explanation": "## Advanced explanation\n\nPulse pressure (systolic − diastolic, ~40 mmHg) is mainly set by **stroke volume** and **arterial compliance**; it rises with larger SV (exercise) and stiffer arteries (ageing).\n\n## Simplified explanation\n\nPulse pressure depends mainly on how much blood is ejected each beat.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following arteries is the most often palpated?",
+  "options": [
+   {
+    "text": "Brachial artery",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Femoral artery",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Radial artery",
+    "hint": "Correct. The radial pulse at the wrist is routinely checked."
+   },
+   {
+    "text": "Common carotid artery",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Wrist.",
+  "explanation": "## Advanced explanation\n\nThe radial artery at the wrist is the standard site for pulse rate/rhythm; carotid is used in emergencies; brachial for BP and infants.\n\n## Simplified explanation\n\nWe usually feel the pulse at the wrist (radial).",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiovascular Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In which of the following blood vessels is blood pressure *lowest*?",
+  "options": [
+   {
+    "text": "Aorta",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Capillaries",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Venules",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Venae cavae",
+    "hint": "Correct. Pressure falls progressively to ~0–5 mmHg at the venae cavae/right atrium."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "End of the circuit.",
+  "explanation": "## Advanced explanation\n\nPressure drops along the circuit: aorta ~100 mmHg mean → arterioles → capillaries ~35–15 → venules ~15 → venae cavae ~0–5 mmHg.\n\n## Simplified explanation\n\nPressure is lowest in the big veins entering the heart.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about blood pressure measurement by auscultation is NOT true?",
+  "options": [
+   {
+    "text": "Relies on Korotkoff sounds discovered by Nikolai Korotkov",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Korotkoff sounds are caused by abrupt closure of heart valves",
+    "hint": "Correct. Korotkoff sounds come from turbulent flow in the partly compressed artery, not valves."
+   },
+   {
+    "text": "The first sound heard as pressure is released in the rubber cuff is systolic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "A diagnosis of hypertension can be made if the sound corresponding to diastolic pressure is heard above 90 mmHg",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Turbulence.",
+  "explanation": "## Advanced explanation\n\nAs cuff pressure falls below systolic, spurts of turbulent blood through the compressed brachial artery produce tapping (Korotkoff) sounds; they disappear (phase V) at diastolic pressure. Heart sounds, by contrast, come from valve closure.\n\n## Simplified explanation\n\nKorotkoff sounds come from turbulent blood in the artery, not heart valves.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Blood Pressure",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During what period of the cardiac cycle is the second heart sound heard?",
+  "options": [
+   {
+    "text": "Ventricular ejection",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Isovolumetric relaxation",
+    "hint": "Correct. S2 = aortic and pulmonary valve closure at the start of isovolumetric relaxation."
+   },
+   {
+    "text": "Atrial systole",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Isovolumetric contraction",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Semilunar valves close.",
+  "explanation": "## Advanced explanation\n\nS1 (mitral/tricuspid closure) marks the start of isovolumetric contraction; S2 (aortic/pulmonary closure) the start of isovolumetric relaxation.\n\n## Simplified explanation\n\nS2 ('dub') happens when the heart starts relaxing.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiac Cycle",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Orthostatic hypotension is…",
+  "options": [
+   {
+    "text": "temperature-induced decrease in blood pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "brief period of low blood pressure caused by postural change",
+    "hint": "Correct. Postural drop on standing."
+   },
+   {
+    "text": "low blood pressure associated with poor nutrition and low plasma protein levels",
+    "hint": "Not this one."
+   },
+   {
+    "text": "weakening of myocardium caused by chronic elevation of blood pressure",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Ortho = upright.",
+  "explanation": "## Advanced explanation\n\nOn standing, ~500 mL of blood pools in the legs; if the baroreceptor reflex is inadequate, BP falls (≥20 mmHg systolic within 3 min), causing dizziness or syncope.\n\n## Simplified explanation\n\nBP drops when you stand up quickly.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Blood Pressure",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following chemicals inhibit H⁺ secretion into the gastric lumen EXCEPT…",
+  "options": [
+   {
+    "text": "histamine",
+    "hint": "Correct. Histamine (H2 receptors) stimulates acid secretion."
+   },
+   {
+    "text": "cholecystokinin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "GIP",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Secretin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "H2 blockers.",
+  "explanation": "## Advanced explanation\n\nStimulants of parietal cells: histamine, gastrin, ACh. Inhibitors: somatostatin, secretin, GIP, CCK (weakly), prostaglandins.\n\n## Simplified explanation\n\nHistamine increases stomach acid; the others reduce it.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is not a pancreatic enzyme?",
+  "options": [
+   {
+    "text": "Amylase",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Pepsin",
+    "hint": "Correct. Pepsin is secreted by gastric chief cells."
+   },
+   {
+    "text": "Trypsin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Lipase",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Chief cells.",
+  "explanation": "## Advanced explanation\n\nPancreatic juice: amylase, lipase, colipase, phospholipase A2, trypsinogen, chymotrypsinogen, procarboxypeptidase, elastase, nucleases.\n\n## Simplified explanation\n\nPepsin comes from the stomach.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following digestive products is not transported in the hepatic portal vein to the liver after assimilation?",
+  "options": [
+   {
+    "text": "Fatty acids",
+    "hint": "Correct. Long-chain fatty acids go into lacteals as chylomicrons."
+   },
+   {
+    "text": "Glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Galactose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Amino acids",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Lacteals.",
+  "explanation": "## Advanced explanation\n\nLong-chain fatty acids are re-esterified in enterocytes, packaged into chylomicrons and enter **lymph** (lacteals → thoracic duct), bypassing the liver. (Short/medium-chain fatty acids do enter portal blood.)\n\n## Simplified explanation\n\nFats go into the lymph, not the portal vein.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is the correct function of cholecystokinin?",
+  "options": [
+   {
+    "text": "Release of bile",
+    "hint": "Correct. CCK contracts the gall bladder and relaxes the sphincter of Oddi."
+   },
+   {
+    "text": "Secretion of gastric enzymes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Inhibition of H⁺ secretion",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Release of pancreatic insulin",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Chole-cysto-kinin = moves the gall bladder.",
+  "explanation": "## Advanced explanation\n\nCCK (from I cells, released by fats and amino acids) causes gall-bladder contraction, pancreatic enzyme secretion, slowed gastric emptying and satiety.\n\n## Simplified explanation\n\nCCK makes the gall bladder release bile.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "Quiz 2 (2019/20)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The site of gas exchange is…",
+  "options": [
+   {
+    "text": "alveoli",
+    "hint": "Correct. Alveoli (respiratory zone)."
+   },
+   {
+    "text": "bronchi",
+    "hint": "Not this one."
+   },
+   {
+    "text": "terminal bronchioles",
+    "hint": "Not this one."
+   },
+   {
+    "text": "trachea",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Tiny air sacs.",
+  "explanation": "## Advanced explanation\n\n~300–500 million alveoli give ~70 m² of thin (0.5 µm) respiratory membrane. Conducting airways (trachea → terminal bronchioles) have no exchange (anatomic dead space).\n\n## Simplified explanation\n\nGas exchange happens in the alveoli.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What alveolar cell type produces surfactant?",
+  "options": [
+   {
+    "text": "Blood capillary cell",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Macrophage",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Type I cell",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Type II cell",
+    "hint": "Correct. Type II pneumocytes secrete surfactant."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Cuboidal cells with lamellar bodies.",
+  "explanation": "## Advanced explanation\n\nType I cells (thin, ~95% of surface) form the exchange surface; type II cells secrete surfactant (dipalmitoylphosphatidylcholine) and regenerate type I cells.\n\n## Simplified explanation\n\nType II cells make surfactant.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The respiratory zone of the respiratory system comprises…",
+  "options": [
+   {
+    "text": "alveolar sacs and respiratory bronchioles",
+    "hint": "Correct. Respiratory bronchioles, alveolar ducts and sacs."
+   },
+   {
+    "text": "bronchi and secondary bronchial branches",
+    "hint": "Not this one."
+   },
+   {
+    "text": "trachea and bronchi",
+    "hint": "Not this one."
+   },
+   {
+    "text": "upper airways",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Distal to terminal bronchioles.",
+  "explanation": "## Advanced explanation\n\nConducting zone: nose to terminal bronchioles. Respiratory zone: respiratory bronchioles, alveolar ducts, alveolar sacs, alveoli.\n\n## Simplified explanation\n\nWhere gas exchange occurs: respiratory bronchioles and alveolar sacs.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which part of the respiratory system warms, humidifies and cleans inspired air?",
+  "options": [
+   {
+    "text": "Bronchi",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Respiratory zone",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Trachea",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Upper airways",
+    "hint": "Correct. Nasal cavity and pharynx condition air."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Nasal cavity.",
+  "explanation": "## Advanced explanation\n\nThe nasal conchae's vascular mucosa warms and humidifies air; hairs and mucus trap particles. The rest of the conducting zone continues the process.\n\n## Simplified explanation\n\nThe nose and upper airways warm, wet and clean air.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A potential space between the membranous coverings of the lungs is called…",
+  "options": [
+   {
+    "text": "intrathoracic cavity",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pericardial space",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pleural cavity",
+    "hint": "Correct. Between visceral and parietal pleura."
+   },
+   {
+    "text": "serous cavity",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pleura.",
+  "explanation": "## Advanced explanation\n\nThe pleural cavity contains a thin film of fluid at subatmospheric (negative) pressure, coupling the lungs to the chest wall.\n\n## Simplified explanation\n\nThe space between the lung coverings is the pleural cavity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is NOT a muscle of inspiration?",
+  "options": [
+   {
+    "text": "Abdominal recti",
+    "hint": "Correct. Abdominal muscles assist forced expiration."
+   },
+   {
+    "text": "Anterior serrati",
+    "hint": "Not this one."
+   },
+   {
+    "text": "External intercostal",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Sternocleidomastoid",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Expiratory muscles.",
+  "explanation": "## Advanced explanation\n\nInspiration: diaphragm, external intercostals; accessory: sternocleidomastoids, anterior serrati, scaleni. Expiration (forced): abdominal recti, internal intercostals.\n\n## Simplified explanation\n\nAbdominal muscles push air out, not in.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following muscles contracts to increase the vertical diameter of the chest cavity during inspiration?",
+  "options": [
+   {
+    "text": "Abdominal recti",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Diaphragm",
+    "hint": "Correct. The diaphragm descends."
+   },
+   {
+    "text": "External intercostal",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Internal intercostal",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Dome-shaped muscle.",
+  "explanation": "## Advanced explanation\n\nDiaphragm contraction lengthens the chest vertically (main muscle of quiet breathing); external intercostals raise the ribs, increasing anteroposterior diameter.\n\n## Simplified explanation\n\nThe diaphragm moves down to make the chest taller.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The force needed to keep the highly compliant lungs in a state of partial inflation is provided by…",
+  "options": [
+   {
+    "text": "blood hydrostatic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "negative pericardial pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "negative pleural pressure",
+    "hint": "Correct. Pleural pressure ≈ −5 cmH₂O at rest."
+   },
+   {
+    "text": "positive thoracic pressure",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pneumothorax.",
+  "explanation": "## Advanced explanation\n\nLung elastic recoil pulls inward and chest wall outward, creating subatmospheric pleural pressure that holds the lungs open. A pneumothorax abolishes it and the lung collapses.\n\n## Simplified explanation\n\nNegative pressure in the pleural space keeps the lungs open.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An increase in volume of the thoracic cavity caused by inspiratory movement of the diaphragm and rib cage also results in a decreased intrathoracic pressure that enables inspiration. This special relationship between volume and pressure is given by…",
+  "options": [
+   {
+    "text": "Boyle's law",
+    "hint": "Correct. P₁V₁ = P₂V₂ at constant temperature."
+   },
+   {
+    "text": "Frank–Starling mechanism",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Law of Laplace",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Poiseuille's law",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Pressure × volume = constant.",
+  "explanation": "## Advanced explanation\n\nBoyle's law: pressure of a gas is inversely proportional to volume. Laplace relates wall tension and pressure in spheres; Poiseuille relates flow to radius; Frank–Starling relates cardiac preload and stroke volume.\n\n## Simplified explanation\n\nBigger volume → lower pressure: Boyle's law.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Infant respiratory distress syndrome (IRDS) is a condition in preterm infants that results from high surface tension elastic force, which tends to collapse lung alveoli and increase the effort of breathing. Which one of the following could cause IRDS?",
+  "options": [
+   {
+    "text": "Insufficient surfactant production by immature lungs",
+    "hint": "Correct. Surfactant production matures after ~34–35 weeks."
+   },
+   {
+    "text": "Low blood supply to immature lungs",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Low phagocytic activity of alveolar macrophages",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Overproduction of mucus",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Type II cells immature.",
+  "explanation": "## Advanced explanation\n\nSurfactant lowers surface tension, especially in small alveoli (Laplace: P = 2T/r). Preterm babies lack it → atelectasis, hypoxaemia. Prevention: antenatal corticosteroids; treatment: exogenous surfactant, CPAP.\n\n## Simplified explanation\n\nPremature lungs lack surfactant.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The maximum amount of air that can be expired after maximum inspiration is called…",
+  "options": [
+   {
+    "text": "functional residual capacity",
+    "hint": "Not this one."
+   },
+   {
+    "text": "inspiratory reserve volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "inspiratory volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "vital capacity",
+    "hint": "Correct. VC = IRV + TV + ERV ≈ 4.6 L."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Largest exhaled volume.",
+  "explanation": "## Advanced explanation\n\nVital capacity is measured by spirometry; total lung capacity = VC + residual volume.\n\n## Simplified explanation\n\nBreathing all the way in then all the way out = vital capacity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lung Volumes",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following spirometric measurements is NOT true in a patient suffering an attack of asthma?",
+  "options": [
+   {
+    "text": "Forced vital capacity (FVC) increases",
+    "hint": "Correct. FVC is normal or reduced (air trapping), not increased."
+   },
+   {
+    "text": "One-second forced expiratory volume (FEV₁) is decreased",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Tidal volume remains unchanged",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The FEV₁/FVC ratio decreases",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Obstructive pattern.",
+  "explanation": "## Advanced explanation\n\nAsthma is obstructive: bronchoconstriction lowers FEV₁ more than FVC, so FEV₁/FVC falls (< 0.7); air trapping raises RV and FRC and can reduce FVC.\n\n## Simplified explanation\n\nIn asthma FVC does not increase.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Lung Volumes",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following explains why partial pressure of oxygen decreases at high altitudes?",
+  "options": [
+   {
+    "text": "Low temperature at high altitudes decreases partial pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The fraction of oxygen in air decreases at high altitude",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The fraction of water vapour in atmosphere increases with increasing altitude",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Total atmospheric pressure decreases, and therefore gas partial pressures",
+    "hint": "Correct. O₂ stays 20.9%; barometric pressure falls."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Dalton's law.",
+  "explanation": "## Advanced explanation\n\nPO₂ = F_O₂ × P_B. At 3000 m P_B ≈ 523 mmHg → PO₂ ≈ 110 mmHg (vs 160 at sea level).\n\n## Simplified explanation\n\nAir is still 21% oxygen, but total pressure is lower.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The amount of air remaining in the lungs after a normal tidal expiration is called…",
+  "options": [
+   {
+    "text": "expiratory reserve volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "functional residual capacity",
+    "hint": "Correct. FRC = ERV + RV ≈ 2.3 L."
+   },
+   {
+    "text": "residual volume",
+    "hint": "Not this one."
+   },
+   {
+    "text": "vital capacity",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "ERV + RV.",
+  "explanation": "## Advanced explanation\n\nResidual volume is left after maximal expiration; FRC after normal quiet expiration.\n\n## Simplified explanation\n\nAir left after a normal breath out = FRC.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Lung Volumes",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements about gas exchange in the lungs is INCORRECT?",
+  "options": [
+   {
+    "text": "According to Henry's law, the main determinants of diffusion rate across the respiratory surface are body temperature and gas solubility",
+    "hint": "Correct. Henry's law concerns dissolved gas vs partial pressure; diffusion rate is governed by Fick's law."
+   },
+   {
+    "text": "For any gas, the direction of diffusion is from region of higher partial pressure to the region of lower partial pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Given sufficient time, partial pressures of gases in the alveoli and blood equilibrate so that no further net diffusion occurs",
+    "hint": "Not this one."
+   },
+   {
+    "text": "The diffusion rate across respiratory surface is enhanced by thin, highly vascularised membranes",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Fick vs Henry.",
+  "explanation": "## Advanced explanation\n\nFick: rate ∝ (ΔP × area × solubility) / (thickness × √MW). Henry's law: dissolved concentration = solubility × partial pressure.\n\n## Simplified explanation\n\nHenry's law isn't about diffusion rate; Fick's law is.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Decompression sickness (\"the bends\") is caused by…",
+  "options": [
+   {
+    "text": "inability to remove sufficient CO₂ from circulation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "inhalation of inert gases at high pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "inhalation of pure O₂ at high gas pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "N₂ dissolved in blood at high pressure forms bubbles",
+    "hint": "Correct. Rapid ascent lets dissolved N₂ come out of solution."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Henry's law in reverse.",
+  "explanation": "## Advanced explanation\n\nAt depth, extra N₂ dissolves in tissues (Henry's law); rapid decompression forms bubbles in tissues and vessels → joint pain, neurological signs, emboli. Treated with recompression.\n\n## Simplified explanation\n\nNitrogen bubbles form in blood when divers come up too fast.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following is the principal means of carbon dioxide transport in blood?",
+  "options": [
+   {
+    "text": "Bicarbonate in blood",
+    "hint": "Correct. ~70% as HCO₃⁻."
+   },
+   {
+    "text": "Bound to 2,3-diphosphoglycerate",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Carbaminohaemoglobin",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Dissolved CO₂ in plasma",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Carbonic anhydrase.",
+  "explanation": "## Advanced explanation\n\nCO₂ transport: bicarbonate ~70% (carbonic anhydrase in RBCs, chloride shift), carbamino compounds ~23%, dissolved ~7%.\n\n## Simplified explanation\n\nMost CO₂ is carried as bicarbonate.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Respiratory rhythm is generated by neurons that lie in the…",
+  "options": [
+   {
+    "text": "cerebrum",
+    "hint": "Not this one."
+   },
+   {
+    "text": "medulla oblongata",
+    "hint": "Correct. Pre-Bötzinger complex in the ventral medulla."
+   },
+   {
+    "text": "midbrain",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pons",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Brainstem below the pons.",
+  "explanation": "## Advanced explanation\n\nThe medullary dorsal and ventral respiratory groups (pre-Bötzinger complex pacemaker) generate rhythm; pontine centres (pneumotaxic/apneustic) modify it.\n\n## Simplified explanation\n\nBreathing rhythm comes from the medulla.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The peripheral chemoreceptors are located in the…",
+  "options": [
+   {
+    "text": "aortic and carotid bodies",
+    "hint": "Correct. Carotid bodies (CN IX) and aortic bodies (CN X)."
+   },
+   {
+    "text": "medulla oblongata and pons",
+    "hint": "Not this one."
+   },
+   {
+    "text": "pulmonary trunk and brachial artery",
+    "hint": "Not this one."
+   },
+   {
+    "text": "superior and inferior venae cavae",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Near the carotid bifurcation.",
+  "explanation": "## Advanced explanation\n\nThey respond mainly to low PaO₂ (also high PCO₂, low pH). Central chemoreceptors on the medulla respond to CSF H⁺ from CO₂.\n\n## Simplified explanation\n\nCarotid and aortic bodies.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which one of the following statements is the correct respiratory role of 2,3-diphosphoglycerate?",
+  "options": [
+   {
+    "text": "Promotes oxygen unloading from haemoglobin",
+    "hint": "Correct. 2,3-DPG lowers Hb affinity (right shift)."
+   },
+   {
+    "text": "It is responsible for the Bohr effect",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Transports CO₂ in circulation",
+    "hint": "Not this one."
+   },
+   {
+    "text": "Increases oxygen loading at high gas partial pressure",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Right shift.",
+  "explanation": "## Advanced explanation\n\n2,3-DPG (from the Rapoport–Luebering shunt) binds deoxyHb β chains, stabilising the T state. It rises in hypoxia, anaemia and altitude. The Bohr effect is due to H⁺/CO₂.\n\n## Simplified explanation\n\n2,3-DPG helps haemoglobin release oxygen to tissues.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "*Colloid osmotic pressure* is pressure due to…",
+  "options": [
+   {
+    "text": "dissolved solutes",
+    "hint": "Not this one."
+   },
+   {
+    "text": "glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "soluble proteins",
+    "hint": "Correct. Plasma proteins (albumin)."
+   },
+   {
+    "text": "urea",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Same as oncotic pressure.",
+  "explanation": "## Advanced explanation\n\nColloid osmotic (oncotic) pressure ~28 mmHg in plasma; ~75% from albumin.\n\n## Simplified explanation\n\nColloid osmotic pressure comes from proteins.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The number of particles of a solute in a given weight of solution defines…",
+  "options": [
+   {
+    "text": "osmolality",
+    "hint": "Correct. Osmolality is per kilogram (of water/solvent); osmolarity per litre."
+   },
+   {
+    "text": "osmolarity",
+    "hint": "Not this one."
+   },
+   {
+    "text": "osmotic pressure",
+    "hint": "Not this one."
+   },
+   {
+    "text": "reflection coefficient",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Weight vs volume.",
+  "explanation": "## Advanced explanation\n\nOsmolality (mOsm/kg H₂O) is measured by freezing-point depression; normal plasma ≈ 285–295 mOsm/kg.\n\n## Simplified explanation\n\nPer kilogram = osmolality; per litre = osmolarity.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Body Fluids",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The infusion of fluid in subject SK with a non-functional baroreceptor pressure control system resulted in an elevation of arterial pressure to 175 mmHg from a normal level of 100 mmHg. Infusion of the same volume of fluid in the subject when baroreceptor function was restored produced an arterial pressure of 125 mmHg.\n\nWhat is the **correction** (in mmHg) of the baroreceptor pressure control system in subject SK?",
+  "options": [
+   {
+    "text": "2",
+    "hint": "Not this one."
+   },
+   {
+    "text": "25",
+    "hint": "Not this one."
+   },
+   {
+    "text": "50",
+    "hint": "Correct. 175 − 125 = 50 mmHg."
+   },
+   {
+    "text": "75",
+    "hint": "Not this one."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Uncontrolled minus controlled.",
+  "explanation": "## Advanced explanation\n\nCorrection = rise without control − rise with control = 75 − 25 = **50 mmHg** (Guyton's classic example).\n\n## Simplified explanation\n\nThe baroreceptors kept pressure 50 mmHg lower.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Homeostasis",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "*Aquaporins* are openings through integral proteins that allow passage of…",
+  "options": [
+   {
+    "text": "carbon dioxide",
+    "hint": "Not this one."
+   },
+   {
+    "text": "glucose",
+    "hint": "Not this one."
+   },
+   {
+    "text": "oxygen",
+    "hint": "Not this one."
+   },
+   {
+    "text": "water",
+    "hint": "Correct. Aquaporins are water channels."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Aqua.",
+  "explanation": "## Advanced explanation\n\nAquaporins (AQP1–13) allow rapid water movement; AQP2 is regulated by ADH in the collecting duct.\n\n## Simplified explanation\n\nAquaporins let water through.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Membrane Transport",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **two** ionic events responsible for the **plateau** of cardiac (ventricular muscle) action potentials.",
+  "media": [],
+  "answer": "1. **Opening of slow L-type (voltage-gated) Ca²⁺ channels** → sustained **Ca²⁺ influx** (also some Na⁺ through slow Na⁺–Ca²⁺ channels).\n2. **Decreased K⁺ permeability** (inward-rectifier K⁺ channels close on depolarisation; delayed rectifier opens slowly) → reduced **K⁺ efflux**.\n\nThe balance of inward Ca²⁺ and small outward K⁺ currents holds the membrane near 0 mV for ~0.2–0.3 s (phase 2).\n\n> [!answer]\n> Ca²⁺ influx through L-type channels and reduced K⁺ efflux (decreased K⁺ permeability).",
+  "explanation": "## Advanced explanation\n\nThe plateau prolongs the refractory period (preventing tetanus) and lets Ca²⁺ trigger Ca²⁺-induced Ca²⁺ release from the sarcoplasmic reticulum for contraction. Calcium channel blockers shorten/depress it.\n\n## Simplified explanation\n\nCalcium flows in while potassium flow out is reduced, so the cell stays depolarised.",
+  "hint": "Ca²⁺ in, K⁺ held back.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Cardiovascular Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State the parts of the heart's **conduction system**.",
+  "media": [],
+  "answer": "1. **Sinoatrial (SA) node**: pacemaker in the right atrial wall near the superior vena cava.\n2. **Internodal pathways** (anterior, middle, posterior) and Bachmann's bundle to the left atrium.\n3. **Atrioventricular (AV) node**: in the interatrial septum; delays the impulse (~0.1 s).\n4. **AV bundle (bundle of His)**: penetrates the fibrous skeleton.\n5. **Right and left bundle branches** in the interventricular septum.\n6. **Purkinje fibres**: spread the impulse rapidly through the ventricular myocardium.\n\n> [!answer]\n> SA node → internodal pathways → AV node → bundle of His → right and left bundle branches → Purkinje fibres.",
+  "explanation": "## Advanced explanation\n\nIntrinsic rates: SA node 70–80/min, AV node 40–60/min, Purkinje 15–40/min, so the SA node normally dominates. The AV delay allows atrial emptying before ventricular contraction.\n\n## Simplified explanation\n\nThe signal starts at the SA node, passes to the AV node, then down the bundle of His and its branches to the Purkinje fibres.",
+  "hint": "Start at the pacemaker.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Cardiovascular Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State **three** factors that affect the diffusion of a gas across the respiratory membrane.",
+  "media": [],
+  "answer": "Any three (Fick's law):\n\n1. **Partial pressure difference** of the gas across the membrane.\n2. **Surface area** of the membrane (↓ in emphysema, lung resection).\n3. **Thickness** of the membrane (↑ in fibrosis, oedema).\n4. **Solubility** of the gas (CO₂ ~20× more soluble than O₂).\n5. **Molecular weight** of the gas (diffusion ∝ 1/√MW).\n6. Diffusion coefficient / temperature.\n\n> [!answer]\n> e.g. partial pressure gradient, surface area, membrane thickness (also solubility, molecular weight).",
+  "explanation": "## Advanced explanation\n\nDiffusing capacity for O₂ is ~21 mL/min/mmHg at rest and triples in exercise as more capillaries open. CO₂ diffuses ~20 times faster than O₂ despite its larger mass, because of its high solubility.\n\n## Simplified explanation\n\nBigger pressure gradient and area help; thicker membranes hinder; soluble, light gases diffuse faster.",
+  "hint": "Fick's law.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain the term **anatomic dead space**.",
+  "media": [],
+  "answer": "**Anatomic dead space** is the volume of the **conducting airways** (nose/mouth, pharynx, larynx, trachea, bronchi, bronchioles down to the terminal bronchioles) where **no gas exchange** occurs. It is about **150 mL** in an adult (≈ 2 mL/kg, or 1 mL per lb body weight).\n\n> [!answer]\n> The volume of air in the conducting airways that does not take part in gas exchange (~150 mL).",
+  "explanation": "## Advanced explanation\n\nPhysiologic dead space = anatomic + alveolar dead space (ventilated but unperfused alveoli). Alveolar ventilation = (tidal volume − dead space) × rate, so rapid shallow breathing is inefficient. Measured by Fowler's (single-breath N₂) method; physiologic dead space by the Bohr equation.\n\n## Simplified explanation\n\nIt's the air in the tubes leading to the alveoli that never reaches exchange surfaces.",
+  "hint": "Conducting zone volume.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Respiratory Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In tabular form, state **two** classes of digestible food substances, the enzyme group that digests each class and the final product of digestion of each.",
+  "media": [],
+  "answer": "| Food class | Enzyme group | Final products |\n|---|---|---|\n| **Carbohydrates** (starch, disaccharides) | **Amylases** (salivary, pancreatic) and brush-border **disaccharidases** (maltase, sucrase, lactase) | **Monosaccharides**: glucose, fructose, galactose |\n| **Proteins** | **Proteases/peptidases** (pepsin, trypsin, chymotrypsin, carboxypeptidase, aminopeptidases, dipeptidases) | **Amino acids** (and di-/tripeptides) |\n| **Fats** (triglycerides) | **Lipases** (lingual, gastric, pancreatic lipase with colipase) | **Fatty acids and monoglycerides** (glycerol) |\n\n> [!answer]\n> Any two: carbohydrates – amylases/disaccharidases – monosaccharides; proteins – proteases – amino acids; fats – lipases – fatty acids + monoglycerides.",
+  "explanation": "## Advanced explanation\n\nDigestion is hydrolysis. Products are absorbed by enterocytes: monosaccharides via SGLT1/GLUT5 → GLUT2; amino acids via Na⁺-linked transporters and di/tripeptides via PepT1; lipids via micelles, re-esterified into chylomicrons.\n\n## Simplified explanation\n\nStarch → glucose (amylase), protein → amino acids (proteases), fat → fatty acids and monoglycerides (lipases).",
+  "hint": "Three macronutrients.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Describe the **intrinsic** and **extrinsic** regulation of cardiac output.",
+  "media": [],
+  "answer": "**Cardiac output = heart rate × stroke volume** (≈ 5 L/min).\n\n**Intrinsic regulation (within the heart):**\n- **Frank–Starling law**: increased venous return stretches the ventricle (↑EDV, preload), optimising actin–myosin overlap and Ca²⁺ sensitivity → stronger contraction and larger stroke volume; the heart pumps whatever returns to it.\n- **Stretch of the SA node** (right atrial wall) raises heart rate by 10–15% (plus the Bainbridge reflex).\n- **Heterometric/homeometric autoregulation** (Anrep effect: contractility rises with sudden afterload increase); intrinsic rate of the SA node.\n\n**Extrinsic regulation (outside the heart):**\n- **Sympathetic nerves** (noradrenaline, β1): ↑heart rate (chronotropy), ↑contractility (inotropy), ↑conduction velocity → can raise CO 2–3 fold.\n- **Parasympathetic (vagus)**: ACh on M2 receptors of SA and AV nodes → ↓heart rate (and modestly atrial contractility).\n- **Hormones**: adrenaline (β1), thyroid hormones (↑rate and contractility), glucagon; **ions**: high K⁺ depresses the heart; high Ca²⁺ increases contractility; **temperature**: fever raises rate.\n- **Reflexes**: baroreceptor reflex adjusts HR and contractility to BP; chemoreceptors.\n- **Venous return determinants** (blood volume, venous tone, muscle and respiratory pumps) and **afterload** (TPR).\n\n> [!answer]\n> Intrinsic: Frank–Starling (preload → stroke volume) and SA-node stretch. Extrinsic: sympathetic (↑HR, ↑contractility), parasympathetic (↓HR), hormones (adrenaline, thyroxine), ions, temperature, baroreflexes.",
+  "explanation": "## Advanced explanation\n\nGuyton emphasises that, under most conditions, venous return (determined by peripheral factors) sets cardiac output, with the heart's permissive Frank–Starling ability and nervous stimulation raising the plateau of the cardiac output curve.\n\n## Simplified explanation\n\nThe heart pumps more when more blood fills it (Frank–Starling) and when sympathetic nerves and adrenaline speed it up and strengthen it; the vagus slows it.",
+  "hint": "CO = HR × SV.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Cardiovascular Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss **three** hormones of the gastrointestinal tract, indicating their secretion, triggers for release and biological action.",
+  "media": [],
+  "answer": "| Hormone | Secreted by | Trigger | Actions |\n|---|---|---|---|\n| **Gastrin** | **G cells**, gastric antrum (and duodenum) | Peptides/amino acids in stomach, gastric distension, vagal stimulation (GRP); inhibited by acid (pH < 3) via somatostatin | ↑**gastric acid (HCl)** secretion from parietal cells (directly and via ECL histamine), growth of gastric mucosa (trophic), ↑gastric motility |\n| **Secretin** | **S cells**, duodenum | **Acid (H⁺)** in duodenum (pH < 4.5), fatty acids | ↑**pancreatic and biliary HCO₃⁻** secretion (neutralises acid), ↓gastric acid secretion and emptying |\n| **Cholecystokinin (CCK)** | **I cells**, duodenum and jejunum | **Fatty acids, monoglycerides, amino acids/peptides** in small intestine | **Gall-bladder contraction** and sphincter of Oddi relaxation (bile release), ↑**pancreatic enzyme** secretion, potentiates secretin, ↓gastric emptying, satiety |\n| **GIP** (glucose-dependent insulinotropic peptide) | **K cells**, duodenum/jejunum | Glucose, fatty acids, amino acids | ↑**insulin** release (incretin), ↓gastric acid |\n| **Motilin** | M cells, duodenum | Fasting (cyclic) | Initiates migrating motor complexes |\n\n> [!answer]\n> e.g. gastrin (G cells; peptides/distension/vagus; ↑acid), secretin (S cells; duodenal acid; ↑pancreatic HCO₃⁻), CCK (I cells; fat/protein; gall-bladder contraction and pancreatic enzymes).",
+  "explanation": "## Advanced explanation\n\nThese hormones co-ordinate the gastric, pancreatic and biliary phases of digestion through feedback: acid entering the duodenum releases secretin, which neutralises it and reduces gastric acid; fat releases CCK, which brings bile and lipase and slows gastric emptying so the duodenum is not overloaded.\n\n## Simplified explanation\n\nGastrin makes stomach acid; secretin makes the pancreas send bicarbonate to neutralise acid; CCK squeezes the gall bladder and calls pancreatic enzymes.",
+  "hint": "Stomach acid, then neutralise, then digest fat.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Gastrointestinal Physiology",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss **feedback systems**, indicating the types of feedback and their physiological roles.",
+  "media": [],
+  "answer": "**Components of a feedback control system:** a **controlled variable** with a **set point**; a **sensor (receptor)** detecting changes; a **controller (integrating centre)** comparing input with the set point; an **effector** producing the response. Effectiveness is measured by **gain = correction/error**.\n\n**1. Negative feedback** (most common): the response **opposes the original change**, restoring the variable to its set point.\n- Examples: baroreceptor reflex (↑BP → ↓HR and vasodilation; gain ≈ −2), thermoregulation (gain ≈ −33), blood glucose (insulin and glucagon), CO₂/pH control of ventilation, hormone axes (cortisol inhibits CRH/ACTH; T4 inhibits TRH/TSH).\n- Role: **homeostasis**, stability of the internal environment.\n\n**2. Positive feedback**: the response **reinforces/amplifies the original change**, driving a process to completion.\n- Useful: **labour** (oxytocin–uterine contraction, Ferguson reflex), **blood clotting cascade**, **milk ejection**, **LH surge** before ovulation, **action potential** upstroke (Na⁺ channel opening).\n- Harmful ('vicious cycle'): severe haemorrhage → ↓CO → myocardial ischaemia → further ↓CO → death when the positive feedback exceeds negative compensation.\n\n**3. Feed-forward (adaptive) control**: anticipatory responses before the variable changes, e.g. cephalic-phase secretion, ↑ventilation at the start of exercise, cerebellar control of movement.\n\n> [!answer]\n> Feedback systems have sensor, controller and effector acting on a set point. Negative feedback opposes change and maintains homeostasis (BP, temperature, glucose, hormones). Positive feedback amplifies change to complete a process (labour, clotting, LH surge, AP) and can become a vicious cycle in disease. Feed-forward control anticipates change.",
+  "explanation": "## Advanced explanation\n\nGain of a system is computed as correction ÷ error; infinite gain (e.g. renal–body fluid control of BP over the long term) returns the variable exactly to normal. Delays in negative feedback can cause oscillation.\n\n## Simplified explanation\n\nNegative feedback undoes a change to keep things steady (like a thermostat); positive feedback makes a change bigger until a job is finished (like childbirth or clotting).",
+  "hint": "Opposes vs amplifies.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Homeostasis",
+   "2019/20 End of Semester Exam (MLS 205A)"
+  ]
+ }
+]
