@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, createFileRoute, notFound } from "@tanstack/react-router";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { ArrowLeft, BookOpenCheck, Brain, CheckCircle2, Layers, Loader2, PenLine, Plus, Tags, Timer, Users } from "lucide-react";
+import { ArrowLeft, BookOpenCheck, Brain, CheckCircle2, Layers, Loader2, PenLine, Plus, Star, Tags, Timer, Users } from "lucide-react";
 import { ApiError, api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { formatDateTime } from "#/lib/format";
@@ -14,6 +14,8 @@ import { ExamSettingsFields, clampSettings, useStartExam } from "#/components/qu
 import type { ExamSettings } from "#/components/quizbank/exam-settings";
 import { StudySetDialog, TopicPicker, useTopics } from "#/components/quizbank/topics";
 import { SubscribeCard } from "#/components/quizbank/subscribe";
+import { CourseReviews } from "#/components/quizbank/reviews";
+import type { QbReviews } from "#/components/quizbank/reviews";
 import type { QbAccess } from "#/components/quizbank/subscribe";
 import { QB_LEVELS } from "#/lib/quizbank";
 import type { QbTopic } from "#/lib/quizbank";
@@ -27,6 +29,7 @@ type CourseData = {
   topics: { topics: Array<QbTopic>; total: number; untagged: number };
   board: (ExamSettings & { tagIds: Array<number>; studyPosition: number; custom: boolean }) | null;
   attempts: Array<Attempt>;
+  reviews: QbReviews;
 };
 
 const courseQuery = (slug: string) => ({ queryKey: ["qb-course", slug], queryFn: () => api.get<CourseData>(`/learn/quizbank/courses/${slug}`), staleTime: 30_000 });
@@ -159,6 +162,11 @@ function CoursePage() {
             <span className="flex items-center gap-1.5">
               <Users className="size-4 text-amber-300" /> on {c.boardCount.toLocaleString()} study boards
             </span>
+            {c.ratingCount > 0 && c.ratingAvg !== null && (
+              <a href="#reviews" className="flex items-center gap-1.5 hover:text-white">
+                <Star className="size-4 fill-amber-300 text-amber-300" /> {c.ratingAvg.toFixed(1)} from {c.ratingCount} review{c.ratingCount === 1 ? "" : "s"}
+              </a>
+            )}
           </div>
         </Container>
       </section>
@@ -202,6 +210,9 @@ function CoursePage() {
             <TextBlock text={quizbankDescription(c, data.topics.topics)} className="mt-2 text-sm leading-relaxed" />
             {c.description && <TextBlock text={c.description} className="mt-2 text-sm leading-relaxed" />}
           </section>
+          <div id="reviews" className="scroll-mt-24">
+            <CourseReviews courseId={c.id} ratingAvg={c.ratingAvg} ratingCount={c.ratingCount} reviews={data.reviews} onChanged={() => void refetch()} />
+          </div>
           {member && data.attempts.length > 0 && (
             <section className="overflow-hidden rounded-2xl border bg-white">
               <h2 className="border-b px-5 py-3 font-bold text-primary">Your exam history</h2>

@@ -7,6 +7,7 @@ import type { RowDataPacket } from "mysql2";
 import { DEFAULT_SETTINGS, SETTINGS_KEYS, mergeSetting } from "#/lib/settings";
 import type { SettingsKey, SiteSettings } from "#/lib/settings";
 import { textSearch } from "../../lib/search.js";
+import { notKidiCourse } from "../../lib/query.js";
 
 export async function loadSettings(): Promise<SiteSettings> {
   const [rows] = await getPool().query<RowDataPacket[]>("SELECT setting_key, value FROM site_settings");
@@ -50,7 +51,7 @@ export const publicRoute = new Hono()
            (SELECT COUNT(*) FROM sellers WHERE status = 'approved') AS stores,
            (SELECT COUNT(*) FROM finder_listings WHERE status = 'published') AS listings,
            (SELECT COUNT(*) FROM campus_groups WHERE status = 'approved') AS groups_count,
-           (SELECT COUNT(*) FROM courses WHERE status = 'published') AS courses`,
+           (SELECT COUNT(*) FROM courses c WHERE c.status = 'published' AND ${notKidiCourse()}) AS courses`,
       ),
       pool.query<RowDataPacket[]>(
         `SELECT p.id, p.slug, p.title, p.price, p.compare_at_price, JSON_UNQUOTE(JSON_EXTRACT(p.images, '$[0]')) AS image,
@@ -70,7 +71,7 @@ export const publicRoute = new Hono()
       pool.query<RowDataPacket[]>(
         `SELECT c.id, c.slug, c.title, c.cover_url, c.price, c.rating_avg, c.rating_count, c.enrollment_count, c.level,
            u.full_name AS instructor_name FROM courses c JOIN users u ON u.id = c.instructor_id
-         WHERE c.status = 'published' ORDER BY c.is_featured DESC, c.enrollment_count DESC LIMIT 4`,
+         WHERE c.status = 'published' AND ${notKidiCourse()} ORDER BY c.is_featured DESC, c.enrollment_count DESC LIMIT 4`,
       ),
       pool.query<RowDataPacket[]>(
         `SELECT e.id, e.slug, e.title, e.cover_url, e.venue, e.starts_at, e.category,
@@ -110,7 +111,7 @@ export const publicRoute = new Hono()
         g.params,
       ),
       pool.query<RowDataPacket[]>(
-        `SELECT c.id, c.slug, c.title, c.cover_url, c.price, c.rating_avg FROM courses c WHERE c.status = 'published' AND ${co.sql} LIMIT 6`,
+        `SELECT c.id, c.slug, c.title, c.cover_url, c.price, c.rating_avg FROM courses c WHERE c.status = 'published' AND ${notKidiCourse()} AND ${co.sql} LIMIT 6`,
         co.params,
       ),
       pool.query<RowDataPacket[]>(

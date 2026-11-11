@@ -7,17 +7,21 @@ export function TagInput({
   placeholder = "Type and press Enter",
   max = 20,
   suggestions,
+  normalize = (t: string) => t.trim(),
 }: {
   value: Array<string>;
   onChange: (v: Array<string>) => void;
   placeholder?: string;
   max?: number;
   suggestions?: Array<string>;
+  // Shapes each tag as it is added, such as lowercasing it.
+  normalize?: (tag: string) => string;
 }) {
   const [text, setText] = useState("");
   const add = (t: string) => {
-    const v = t.trim();
-    if (v && !value.includes(v) && value.length < max) onChange([...value, v]);
+    const v = normalize(t);
+    // Each tag once, whatever its case.
+    if (v && !value.some((x) => x.toLowerCase() === v.toLowerCase()) && value.length < max) onChange([...value, v]);
     setText("");
   };
   return (
@@ -50,7 +54,7 @@ export function TagInput({
       {suggestions && suggestions.length > 0 && (
         <div className="mt-2 flex flex-wrap gap-1.5">
           {suggestions
-            .filter((s) => !value.includes(s))
+            .filter((s) => !value.some((x) => x.toLowerCase() === s.toLowerCase()))
             .map((s) => (
               <button key={s} type="button" onClick={() => add(s)} className="rounded-full border border-dashed px-2.5 py-0.5 text-xs text-muted-foreground hover:border-primary hover:text-primary">
                 + {s}

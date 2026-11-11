@@ -1,15 +1,19 @@
 import { Outlet, createFileRoute, notFound } from "@tanstack/react-router";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
-import { Clock, Globe, Lock, Settings, Users } from "lucide-react";
+import { z } from "zod";
+import { Clock, Globe, Lock, Settings, UserPlus, Users } from "lucide-react";
 import { ApiError, api } from "#/lib/api-client";
 import { GROUP_CATEGORIES } from "#/lib/labels";
 import { useRequireMember } from "#/hooks/useMember";
 import { Container, Img, StatusBadge, TabLinks } from "#/components/site/kit";
 import { groupQuery, useGroup } from "#/components/groups/use-group";
 import { Button } from "#/components/ui/button";
+import { GroupQrButton } from "#/components/groups/group-qr";
 
 export const Route = createFileRoute("/_site/groups/$slug")({
+  // ?join=1 comes from the group's QR invite.
+  validateSearch: z.object({ join: z.coerce.number().optional().catch(undefined) }),
   loader: async ({ context, params }) => {
     try {
       return await context.queryClient.ensureQueryData(groupQuery(params.slug));
@@ -24,6 +28,7 @@ export const Route = createFileRoute("/_site/groups/$slug")({
 
 function GroupLayout() {
   const { slug } = Route.useParams();
+  const { join: invited } = Route.useSearch();
   const { data } = useGroup(slug);
   const queryClient = useQueryClient();
   const requireMember = useRequireMember();
@@ -102,6 +107,7 @@ function GroupLayout() {
                   <Users /> {g.join_policy === "approval" ? "Request to join" : "Join group"}
                 </Button>
               )}
+              {g.status === "approved" && <GroupQrButton group={{ name: g.name, slug, logo: g.logo_url ?? null }} />}
               {data.canManage && (
                 <Button asChild size="icon" variant="outline">
                   <a href={`/groups/${slug}/manage`} aria-label="Manage group">
@@ -111,6 +117,18 @@ function GroupLayout() {
               )}
             </div>
           </div>
+          {invited && g.status === "approved" && !m && (
+            <div className="mt-4 flex flex-col gap-3 rounded-xl bg-sys-groups/10 p-4 sm:flex-row sm:items-center">
+              <UserPlus className="size-6 shrink-0 text-sys-groups" />
+              <p className="flex-1 text-sm">
+                <span className="font-semibold text-primary">You’re invited to join {g.name}.</span>{" "}
+                {g.join_policy === "approval" ? "An admin will approve your request." : "Join now to see the wall, forum and meetings."}
+              </p>
+              <Button className="bg-sys-groups hover:bg-sys-groups/90" disabled={join.isPending} onClick={() => requireMember(() => join.mutate())}>
+                {g.join_policy === "approval" ? "Request to join" : "Join group"}
+              </Button>
+            </div>
+          )}
           {g.status === "rejected" && g.status_reason && <p className="mt-3 rounded-xl bg-destructive/10 p-3 text-sm text-destructive">Moderator: {g.status_reason}. Update the group in Manage to resubmit.</p>}
         </div>
         <TabLinks className="mt-4 mb-6" items={tabs} />

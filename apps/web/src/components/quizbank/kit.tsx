@@ -3,7 +3,7 @@
 // in the maths renderer, which pages that only list courses shouldn't download.
 import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
-import { BookOpenCheck, Crown, Layers, Users } from "lucide-react";
+import { BookOpenCheck, Crown, Layers, Star, Users } from "lucide-react";
 import { api } from "#/lib/api-client";
 import { cn } from "#/lib/utils";
 import { asset } from "#/lib/asset";
@@ -28,6 +28,8 @@ export interface QbCourseCard {
   onBoard: boolean;
   fee: number | null; // null when free
   subscribed: boolean;
+  ratingAvg: number | null;
+  ratingCount: number;
 }
 
 export interface QbKey {
@@ -126,6 +128,11 @@ export function QbCourseTile({ c, footer }: { c: QbCourseCard; footer?: React.Re
           <span className="flex items-center gap-1">
             <Users className="size-3.5" /> {c.boardCount.toLocaleString()}
           </span>
+          {c.ratingCount > 0 && c.ratingAvg !== null && (
+            <span className="flex items-center gap-1" aria-label={`Rated ${c.ratingAvg.toFixed(1)} out of 5 by ${c.ratingCount}`}>
+              <Star className="size-3.5 fill-brand-gold text-brand-gold" /> {c.ratingAvg.toFixed(1)} ({c.ratingCount})
+            </span>
+          )}
           {c.onBoard && (
             <span className="ml-auto flex items-center gap-1 font-semibold text-emerald-700">
               <BookOpenCheck className="size-3.5" /> On board

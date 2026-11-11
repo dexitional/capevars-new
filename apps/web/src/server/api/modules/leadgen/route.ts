@@ -18,6 +18,7 @@ import { notify } from "../../lib/notify.js";
 import { createPayment, paystackEnabled } from "../../lib/payments.js";
 import { messagingStatus, normalizeEmail, normalizePhone } from "../../lib/messaging.js";
 import { MAX_CREDIT_PURCHASE, MIN_CREDIT_PURCHASE, creditPrice, creditsFor } from "#/lib/credits";
+import { LEADGEN_CAMPAIGNS, LEADGEN_CAMPAIGN_IDS } from "#/lib/leadgen-campaigns";
 import {
   ACCESS_STATUS,
   CATEGORIES,
@@ -32,6 +33,7 @@ import {
   createSeries,
   estimate,
   grantAccess,
+  syncStudentCampaign,
   insertContacts,
   leadgenSettings,
   optoutToken,
@@ -293,6 +295,38 @@ export const leadgenRoute = new Hono()
        <p style="color:#5a6478">${ok ? `${email} won't receive LeadGen broadcasts from Capevars members again.` : "This unsubscribe link is incomplete or has expired."}</p></div>`,
       ok ? 200 : 400,
     );
+  })
+  // ---- Student onboarding ---------------------------------------------------------------
+  // Every student account answers once: whether it works on a student
+  // leadership agenda or campaign, and if so which target. A target unlocks,
+  // free, Capevars' private lists tagged with it. Only admins change it after.
+  .get("/onboarding", requireMember, async (c) => {
+    const member = c.get("member");
+    if (member.memberType !== "student") return c.json({ show: false, campaign: null, campaigns: [] });
+    const pool = getPool();
+    const [[user], [lists]] = await Promise.all([
+      pool.execute<RowDataPacket[]>("SELECT leadgen_campaign, leadgen_onboarded_at FROM users WHERE id = ?", [member.id]),
+      pool.query<RowDataPacket[]>("SELECT tags, contact_count FROM lead_lists WHERE user_id IS NULL AND status = 'private' AND JSON_LENGTH(tags) > 0"),
+    ]);
+    const campaigns = LEADGEN_CAMPAIGNS.map((camp) => {
+      const tagged = lists.filter((l) => Array.isArray(l.tags) && l.tags.includes(camp.id));
+      return { ...camp, lists: tagged.length, contacts: tagged.reduce((n, l) => n + Number(l.contact_count), 0) };
+    });
+    return c.json({ show: !user[0]?.leadgen_onboarded_at, campaign: user[0]?.leadgen_campaign ?? null, campaigns });
+  })
+  // campaign: a target id, or null for "not working on a campaign".
+  .post("/onboarding", requireMember, validate("json", z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS).nullable() })), async (c) => {
+    const member = c.get("member");
+    if (member.memberType !== "student") throw new AppError("Campaign onboarding is for student accounts.", 403);
+    const { campaign } = c.req.valid("json");
+    // Claims the answer first, so it is set once even if sent twice.
+    const [claimed] = await getPool().execute<ResultSetHeader>(
+      "UPDATE users SET leadgen_campaign = ?, leadgen_onboarded_at = NOW() WHERE id = ? AND leadgen_onboarded_at IS NULL",
+      [campaign, member.id],
+    );
+    if (!claimed.affectedRows) throw new AppError("You've already answered. Ask a Capevars admin to change it.", 409);
+    const lists = await syncStudentCampaign(member.id);
+    return c.json({ campaign, unlocked: lists.map((l) => ({ id: l.id, title: l.title, contacts: Number(l.contact_count) })) });
   })
   // ---- Portal ---------------------------------------------------------------------------
   .get("/portal/summary", requireMember, async (c) => {

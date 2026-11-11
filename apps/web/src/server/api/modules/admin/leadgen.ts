@@ -16,6 +16,8 @@ import { logActivity } from "../../lib/activity.js";
 import { randomCode } from "../../lib/codes.js";
 import { notify } from "../../lib/notify.js";
 import { uniqueSlug } from "../../lib/slug.js";
+import { LEADGEN_CAMPAIGN_IDS, uniqueTags } from "#/lib/leadgen-campaigns";
+import { likePattern, pageQuerySchema, paging } from "../../lib/query.js";
 import {
   CATEGORIES,
   addCredits,
@@ -30,6 +32,8 @@ import {
   resendCreditAlert,
   setSeriesStatus,
   shareList,
+  syncListCampaigns,
+  syncStudentCampaign,
   uniqueVoucher,
   walletBalance,
 } from "../../lib/leadgen.js";
@@ -42,6 +46,9 @@ const expiresOn = z
   .transform((v) => v || null)
   .refine((v) => !v || v >= new Date().toISOString().slice(0, 10), "Pick an expiry date from today onwards");
 const endOfDay = (date: string | null) => (date ? `${date} 23:59:59` : null);
+// Tags on Capevars' private lists; a campaign target's id here unlocks the
+// list for students who choose that campaign (see /leadgen/onboarding).
+const tagsSchema = z.array(z.string().trim().min(1).max(40)).max(15).transform(uniqueTags);
 
 function assertSender(channel: string, sender: string, replyTo?: string | null) {
   if (channel === "sms" && !/^[A-Za-z0-9][A-Za-z0-9 ]{1,9}[A-Za-z0-9]$/.test(sender)) {
@@ -223,6 +230,66 @@ export const adminLeadgenRoute = new Hono()
     logActivity(c.get("admin").id, "suspended", "broadcast_series", id, `Stopped repeating broadcast series #${id}`);
     return c.json({ ok: true });
   })
+  // ---- Student campaigns ---------------------------------------------------------------------
+  // Each student's LeadGen onboarding answer. Students set it once; only admins change it.
+  .get(
+    "/campaigns",
+    requirePermission("leadgen", "view"),
+    validate("query", pageQuerySchema.extend({ status: z.enum(["all", "campaign", "none", "pending"]).catch("all") })),
+    async (c) => {
+      const q = c.req.valid("query");
+      const where = ["u.member_type = 'student'"];
+      const params: Array<string | number> = [];
+      if (q.status === "campaign") where.push("u.leadgen_campaign IS NOT NULL");
+      if (q.status === "none") where.push("u.leadgen_onboarded_at IS NOT NULL AND u.leadgen_campaign IS NULL");
+      if (q.status === "pending") where.push("u.leadgen_onboarded_at IS NULL");
+      if (q.q) {
+        where.push("(u.full_name LIKE ? OR u.email LIKE ? OR u.username LIKE ? OR u.leadgen_campaign LIKE ?)");
+        params.push(...Array(4).fill(likePattern(q.q)));
+      }
+      const { limit, offset } = paging(q.page, q.pageSize);
+      const pool = getPool();
+      const [[items], [count], [summary]] = await Promise.all([
+        pool.query<RowDataPacket[]>(
+          `SELECT u.id, u.full_name, u.email, u.username, u.leadgen_campaign, u.leadgen_onboarded_at,
+             (SELECT COUNT(*) FROM lead_access a WHERE a.user_id = u.id AND a.source = 'campaign' AND a.status = 'active') AS campaign_lists
+           FROM users u WHERE ${where.join(" AND ")} ORDER BY u.leadgen_onboarded_at IS NULL, u.leadgen_onboarded_at DESC, u.full_name LIMIT ? OFFSET ?`,
+          [...params, limit, offset],
+        ),
+        pool.query<RowDataPacket[]>(`SELECT COUNT(*) AS n FROM users u WHERE ${where.join(" AND ")}`, params),
+        pool.query<RowDataPacket[]>(
+          `SELECT COALESCE(leadgen_campaign, IF(leadgen_onboarded_at IS NULL, '_pending', '_none')) AS k, COUNT(*) AS n
+           FROM users WHERE member_type = 'student' GROUP BY k`,
+        ),
+      ]);
+      return c.json({ items, total: Number(count[0]?.n ?? 0), summary: Object.fromEntries(summary.map((r) => [r.k, Number(r.n)])) });
+    },
+  )
+  .patch(
+    "/campaigns/:userId",
+    requirePermission("leadgen", "manage"),
+    // campaign: a target, null for "not working on a campaign"; reset: ask the student again.
+    validate("json", z.union([z.object({ campaign: z.enum(LEADGEN_CAMPAIGN_IDS).nullable() }), z.object({ reset: z.literal(true) })])),
+    async (c) => {
+      const userId = Number(c.req.param("userId"));
+      const [users] = await getPool().execute<RowDataPacket[]>("SELECT id, full_name, leadgen_campaign FROM users WHERE id = ? AND member_type = 'student'", [userId]);
+      const user = users[0];
+      if (!user) throw new AppError("Student not found.", 404);
+      const input = c.req.valid("json");
+      if ("reset" in input) {
+        await getPool().execute("UPDATE users SET leadgen_campaign = NULL, leadgen_onboarded_at = NULL WHERE id = ?", [userId]);
+      } else {
+        await getPool().execute("UPDATE users SET leadgen_campaign = ?, leadgen_onboarded_at = COALESCE(leadgen_onboarded_at, NOW()) WHERE id = ?", [input.campaign, userId]);
+      }
+      const lists = await syncStudentCampaign(userId);
+      const now = "reset" in input ? "reset (they'll be asked again)" : (input.campaign ?? "not working on a campaign");
+      logActivity(c.get("admin").id, "updated", "users", userId, `LeadGen campaign of ${user.full_name}: ${user.leadgen_campaign ?? "none"} → ${now}`);
+      if (!("reset" in input) && input.campaign) {
+        notify(userId, { kind: "leadgen", title: `Your LeadGen campaign is now ${input.campaign}`, body: `${lists.length} lead list${lists.length === 1 ? "" : "s"} unlocked for you.`, link: "/leadgen/portal/leads" });
+      }
+      return c.json({ ok: true, lists: lists.length });
+    },
+  )
   // ---- Member picker -----------------------------------------------------------------------
   .get("/members", requirePermission("leadgen", "view"), async (c) => {
     const q = (c.req.query("q") ?? "").trim();
@@ -307,7 +374,7 @@ export const adminLeadgenRoute = new Hono()
   // ---- Capevars' private lead lists -----------------------------------------------------------
   .get("/lists", requirePermission("leadgen", "view"), async (c) => {
     const [items] = await getPool().query<RowDataPacket[]>(
-      `SELECT l.id, l.title, l.slug, l.category, l.status, l.contact_count, l.phone_count, l.email_count, l.allow_download, l.created_at,
+      `SELECT l.id, l.title, l.slug, l.category, l.status, l.tags, l.contact_count, l.phone_count, l.email_count, l.allow_download, l.created_at,
          (SELECT COUNT(*) FROM lead_access a WHERE a.list_id = l.id AND a.status = 'active' AND (a.expires_at IS NULL OR a.expires_at > NOW())) AS live_shares,
          (SELECT COUNT(*) FROM lead_access a WHERE a.list_id = l.id AND a.status = 'active' AND a.expires_at <= NOW()) AS expired_shares
        FROM lead_lists l WHERE l.user_id IS NULL ORDER BY l.id DESC`,
@@ -324,6 +391,7 @@ export const adminLeadgenRoute = new Hono()
         category: z.enum(CATEGORIES),
         description: optionalText(5000),
         allowDownload: z.boolean().default(false),
+        tags: tagsSchema.default([]),
         contacts: contactsSchema.min(1, "Upload at least one contact"),
       }),
     ),
@@ -332,10 +400,11 @@ export const adminLeadgenRoute = new Hono()
       const slug = await uniqueSlug("lead_lists", input.title, null);
       const shareCode = await uniqueVoucher("lead_lists", "share_code", "LS");
       const [res] = await getPool().execute<ResultSetHeader>(
-        "INSERT INTO lead_lists (user_id, title, slug, category, description, allow_download, share_code, status) VALUES (NULL, ?, ?, ?, ?, ?, ?, 'private')",
-        [input.title, slug, input.category, input.description ?? null, input.allowDownload ? 1 : 0, shareCode],
+        "INSERT INTO lead_lists (user_id, title, slug, category, description, tags, allow_download, share_code, status) VALUES (NULL, ?, ?, ?, ?, ?, ?, ?, 'private')",
+        [input.title, slug, input.category, input.description ?? null, JSON.stringify(input.tags), input.allowDownload ? 1 : 0, shareCode],
       );
       const result = await insertContacts(res.insertId, input.contacts);
+      await syncListCampaigns(res.insertId);
       logActivity(c.get("admin").id, "created", "lead_lists", res.insertId, `Created private lead list "${input.title}" (${result.added} contacts)`);
       return c.json({ id: res.insertId, ...result }, 201);
     },
@@ -353,16 +422,18 @@ export const adminLeadgenRoute = new Hono()
   .patch(
     "/lists/:id",
     requirePermission("leadgen", "manage"),
-    validate("json", z.object({ title: z.string().trim().min(3).max(200).optional(), description: optionalText(5000), allowDownload: z.boolean().optional() })),
+    validate("json", z.object({ title: z.string().trim().min(3).max(200).optional(), description: optionalText(5000), allowDownload: z.boolean().optional(), tags: tagsSchema.optional() })),
     async (c) => {
       const list = await adminList(Number(c.req.param("id")));
       const input = c.req.valid("json");
-      await getPool().execute("UPDATE lead_lists SET title = ?, description = ?, allow_download = ? WHERE id = ?", [
+      await getPool().execute("UPDATE lead_lists SET title = ?, description = ?, allow_download = ?, tags = ? WHERE id = ?", [
         input.title ?? list.title,
         input.description === undefined ? list.description : input.description,
         input.allowDownload === undefined ? list.allow_download : input.allowDownload ? 1 : 0,
+        input.tags === undefined ? JSON.stringify(list.tags ?? []) : JSON.stringify(input.tags),
         list.id,
       ]);
+      if (input.tags !== undefined) await syncListCampaigns(list.id);
       return c.json({ ok: true });
     },
   )

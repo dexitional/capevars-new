@@ -10,7 +10,7 @@ import type { ResultSetHeader, RowDataPacket } from "mysql2";
 import { memberOrNull, optionalMember, requireMember } from "#/server/member-session-core";
 import { validate } from "../../lib/validate.js";
 import { optionalText, optionalUrl } from "../../lib/fields.js";
-import { pageQuerySchema, paging } from "../../lib/query.js";
+import { notKidiCourse, pageQuerySchema, paging } from "../../lib/query.js";
 import { textSearch, money } from "../../lib/search.js";
 import { toRichHtml } from "../../lib/rich-text.js";
 import { AppError } from "../../middleware/error-handler.js";
@@ -84,7 +84,7 @@ export const learnRoute = new Hono()
   .use("*", optionalMember)
   .get("/home", async (c) => {
     const pool = getPool();
-    const live = "c.status = 'published'";
+    const live = `c.status = 'published' AND ${notKidiCourse()}`;
     const [[categories], [featured], [popular], [newest], [free], [instructors]] = await Promise.all([
       pool.query<RowDataPacket[]>(
         `SELECT cat.id, cat.name, cat.slug, cat.icon, (SELECT COUNT(*) FROM courses c WHERE c.category_id = cat.id AND ${live}) AS course_count
@@ -100,15 +100,15 @@ export const learnRoute = new Hono()
       ),
     ]);
     const [stats] = await pool.query<RowDataPacket[]>(
-      `SELECT (SELECT COUNT(*) FROM courses WHERE status = 'published') AS courses,
-         (SELECT COUNT(*) FROM enrollments) AS enrollments,
-         (SELECT COUNT(DISTINCT instructor_id) FROM courses WHERE status = 'published') AS instructors`,
+      `SELECT (SELECT COUNT(*) FROM courses c WHERE ${live}) AS courses,
+         (SELECT COUNT(*) FROM enrollments e JOIN courses c ON c.id = e.course_id WHERE ${notKidiCourse()}) AS enrollments,
+         (SELECT COUNT(DISTINCT instructor_id) FROM courses c WHERE ${live}) AS instructors`,
     );
     return c.json({ categories, featured, popular, newest, free, instructors, stats: stats[0] });
   })
   .get("/courses", async (c) => {
     const q = searchSchema.parse(c.req.query());
-    const where = ["c.status = 'published'"];
+    const where = ["c.status = 'published'", notKidiCourse()];
     const params: Array<string | number> = [];
     if (q.category) {
       where.push("cat.slug = ?");
