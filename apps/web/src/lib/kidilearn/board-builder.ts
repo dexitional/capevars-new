@@ -564,13 +564,23 @@ export function buildBoard(
     const written = guide!
     // French guides mark their French with «…», for the French voice to read.
     const quoting = subject === 'french'
+    // A Ghanaian phrase in «…» stays on the screen; no voice reads it.
+    const silent = subject.startsWith('ghanaian')
+    const unspoken = (text: string) =>
+      clean(text)
+        .replace(/«[^»]*»/g, 'this phrase')
+        .replace(/this phrase((,| and| or)+ this phrase)+/g, 'these phrases')
     const voiced = (text: string, show = 0): Array<Beat> =>
-      quoting ? twoVoices(text, show) : [{ say: text, show }]
-    const beatsOf = (text: string): Array<Beat> =>
       quoting
+        ? twoVoices(text, show)
+        : silent
+          ? pieces(unspoken(text)).map((say) => ({ say, show }))
+          : [{ say: text, show }]
+    const beatsOf = (text: string): Array<Beat> =>
+      quoting || silent
         ? quotedSentences(text)
             .filter(fresh)
-            .flatMap((s) => twoVoices(s, 0))
+            .flatMap((s) => voiced(s, 0))
         : sentences(text)
             .filter(fresh)
             .flatMap(pieces)
@@ -608,6 +618,23 @@ export function buildBoard(
           { say: w.term, show, lang: 'fr' },
           ...voiced(w.meaning, show),
         ]),
+      )
+    else if (words.length && silent)
+      scene(
+        'teach',
+        'New words',
+        {
+          type: 'phrase',
+          lang: language,
+          items: words.map((w) => ({ phrase: w.term, meaning: w.meaning })),
+        },
+        [
+          ...words.flatMap((w, show) => voiced(w.meaning, show)),
+          {
+            say: `Ask someone who speaks ${language} to say it for you.`,
+            show: words.length - 1,
+          },
+        ],
       )
     else if (words.length)
       scene(
@@ -721,17 +748,21 @@ export function buildBoard(
         cautions.map((say, show) => ({ say, show })),
       )
     const phrase = written.sayIt
-    if (phrase && quoting)
+    if (phrase && (quoting || silent))
       scene(
         'try',
         'Say it',
-        { type: 'phrase', lang: 'French', items: [phrase] },
+        {
+          type: 'phrase',
+          lang: quoting ? 'French' : language,
+          items: [phrase],
+        },
         [{ say: 'Now it is your turn to say it.', show: 0 }],
         {
           type: 'say',
           phrase: phrase.phrase,
           meaning: phrase.meaning,
-          lang: 'French',
+          lang: quoting ? 'French' : language,
           prompt: 'Practise saying this phrase out loud.',
         },
       )

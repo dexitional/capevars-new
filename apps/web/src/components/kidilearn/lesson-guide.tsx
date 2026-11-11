@@ -148,7 +148,7 @@ export function LessonGuide({ guide }: { guide: ExploreGuide }) {
       </section>
       <p className="text-xs text-slate-500">
         {guide.indicator.source === 'kidilearn'
-          ? `KidiLearn early French goal: ${guide.indicator.text}`
+          ? `KidiLearn goal: ${guide.indicator.text}`
           : `NaCCA curriculum ${guide.indicator.code}: ${guide.indicator.text}`}
       </p>
     </div>

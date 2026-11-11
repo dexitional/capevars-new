@@ -38,6 +38,9 @@ A guide (`apps/web/src/lib/kidilearn/explore/types.ts`) has a real-life hook, an
 | Basic 4 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 | Basic 5 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
 | Basic 6 French | 20 of 20 | [French Curriculum for Primary Schools, B4–B6](https://curriculumresources.edu.gh/basic/wp-content/uploads/2026/05/FRENCH-B4-B6.pdf) |
+| Basic 1 to 6 Twi | 72 of 72 | KidiLearn goals from each lesson's own phrase; built in `explore/ghanaian.ts` |
+| Basic 1 to 6 Ga | 72 of 72 | KidiLearn goals from each lesson's own phrase; built in `explore/ghanaian.ts` |
+| Basic 1 to 6 Mfantse | 72 of 72 | KidiLearn goals from each lesson's own phrase; built in `explore/ghanaian.ts` |
 
 The other courses still use their imported notes.
 
@@ -124,6 +127,12 @@ Checked against the French curriculum:
 - **Basic 5:** the curriculum's example of a public figure's family is the President's; the guide uses a made-up athlete, so it does not go out of date. Lessons on text messages and pen friends say to keep real addresses private and to message only people the family knows.
 - **Basic 6:** the curriculum's inventory example gives "4 cahiers x 5 cahiers = 20 cahiers"; the guide says four packs of five exercise books make twenty. National dates are given by date only, not by whether they are public holidays, which can change.
 - **Titles:** the imported Basic 4 to 6 French titles are cut from the curriculum's exemplar text, often mid-phrase. Basic 4, 5 and 6's are replaced with short English titles, like Basic 1 to 3's, through the source corrections.
+
+Ghanaian languages (Twi, Ga and Mfantse):
+
+- **Source phrases only:** each lesson teaches one phrase from its source data, and the same twelve recur at every level. The guides are built from one table per language in `explore/ghanaian.ts`, growing with the learner's age, and a test checks that they contain no word of the language beyond those phrases.
+- **Never read aloud:** a phrase sits inside «…» and shows on the screen; the narration says "this phrase" instead, and the closing "say it" check asks the child to hear it from a speaker. A test checks that no narrated line contains a phrase.
+- **Needs a speaker's review:** the phrase spellings come from the source data and have not been checked by a native speaker, Ga especially (for example «Miifala» and «Miyɔɔ tɛŋŋ»).
 
 Scope for other subjects and levels has not yet been checked.
 
