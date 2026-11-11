@@ -1,0 +1,100 @@
+{
+ "courses": [
+  {
+   "code": "MLS211",
+   "title": "Microbiology I",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLS 211 Microbiology I papers (2019/2020 exam, Quiz 1 marking scheme, and MLT 214 quizzes): staining, bacterial cell structure, microbial growth and nutrition, sterilization and disinfection, culture media, bacterial genetics, normal flora and introductory virology. Every question has a worked solution.",
+   "examQuestions": 50,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Microbiology"
+   ],
+   "files": [
+    "mls211-microbiology-i.json"
+   ]
+  },
+  {
+   "code": "MLS212",
+   "title": "Microbiology II",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLS 212 Microbiology II papers (2018/2019 exam and MLS 212B practical): principles of disease and epidemiology, pathogenicity and virulence, host defence, antimicrobial agents and resistance, specimen handling and culture media. Every question has a worked solution.",
+   "examQuestions": 50,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Microbiology"
+   ],
+   "files": [
+    "mls212-microbiology-ii.json"
+   ]
+  },
+  {
+   "code": "MLT440",
+   "title": "Microbiology IV (Virology)",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLT 440 Microbiology IV papers (2017/2018): virus structure and classification, herpesviruses, hepatitis viruses, influenza and paramyxoviruses, enteroviruses, retroviruses and HIV, oncogenic viruses and diagnostic virology. Every question has a worked solution.",
+   "examQuestions": 30,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Virology"
+   ],
+   "files": [
+    "mlt440-microbiology-iv-virology.json"
+   ]
+  },
+  {
+   "code": "MLS309A",
+   "title": "Molecular Diagnostics",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLS 309A Molecular Diagnostics papers (2018/2019 and 2019/2020 exams, objectives quiz and restriction-mapping exercise): PCR and real-time PCR, nucleic acid extraction and quantitation, electrophoresis, hybridization and blotting, restriction enzymes and mapping, cloning vectors and DNA sequencing. Every question has a worked solution.",
+   "examQuestions": 20,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Molecular Diagnostics"
+   ],
+   "files": [
+    "mls309a-molecular-diagnostics.json"
+   ]
+  },
+  {
+   "code": "MLS403A",
+   "title": "Microbiology V (Mycology)",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLS 403A/B Microbiology V (Mycology) papers (2019/2020): classification of mycoses, superficial and cutaneous infections, dermatophytes, subcutaneous and systemic mycoses, opportunistic fungi, fungal allergy, mycotoxins and diagnostic mycology. Every question has a worked solution.",
+   "examQuestions": 20,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Mycology"
+   ],
+   "files": [
+    "mls403a-microbiology-v-mycology.json"
+   ]
+  },
+  {
+   "code": "MLS304A",
+   "title": "Microbiology IV (Parasitology)",
+   "level": "tertiary",
+   "description": "Past questions from University of Cape Coast MLS 304A Microbiology IV (Parasitology) papers (2018/2019 sandwich exam): specimen collection, intestinal protozoa and amoebiasis, haemoflagellates, coccidia and toxoplasmosis, malaria diagnosis, intestinal nematodes, schistosomes and cestodes. Every question has a worked solution.",
+   "examQuestions": 15,
+   "examMinutes": 120,
+   "tags": [
+    "UCC",
+    "Medical Laboratory Science",
+    "Parasitology"
+   ],
+   "files": [
+    "mls304a-microbiology-iv-parasitology.json"
+   ]
+  }
+ ]
+}

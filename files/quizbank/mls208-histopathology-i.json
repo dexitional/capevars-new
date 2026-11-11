@@ -1,0 +1,1670 @@
+[
+ {
+  "type": "choice",
+  "body": "Histopathology is the study of....",
+  "media": [],
+  "options": [
+   {
+    "text": "The organizations of life",
+    "hint": "That is biology in general."
+   },
+   {
+    "text": "The pathological changes that occur in tissues",
+    "hint": "Correct. Histo- (tissue) + pathology (disease)."
+   },
+   {
+    "text": "Cell structure and function",
+    "hint": "That is cell biology/cytology."
+   },
+   {
+    "text": "Preservation methods for autopsy samples",
+    "hint": "That is only one technique used in the discipline."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Break the word into histo + pathology.",
+  "explanation": "## Advanced explanation\n\n**Histopathology** is the microscopic study of **diseased tissue**: tissues are fixed, processed, sectioned and stained so that structural (morphological) changes caused by disease can be recognised and diagnosed.\n\n## Simplified explanation\n\nHisto = tissue, pathology = disease. Histopathology looks at **disease changes in tissues**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Introduction to Histopathology",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are correctly matched EXCEPT",
+  "media": [],
+  "options": [
+   {
+    "text": "Biopsy – tissue from a post-mortem procedure",
+    "hint": "Correct. A biopsy is taken from a **living** patient; post-mortem tissue is autopsy material."
+   },
+   {
+    "text": "Incisional biopsy – small piece of a tumour",
+    "hint": "Correctly matched: only part of the lesion is removed."
+   },
+   {
+    "text": "Excisional biopsy – whole pathological tissue samples",
+    "hint": "Correctly matched: the whole lesion is removed."
+   },
+   {
+    "text": "Autopsy – tissue samples from a dead person",
+    "hint": "Correctly matched."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Biopsies come from the living.",
+  "explanation": "## Advanced explanation\n\nA **biopsy** is tissue removed from a **living** patient for diagnosis (incisional = part of the lesion, excisional = the whole lesion, plus needle, punch, curettage etc.). Tissue obtained after death at **post-mortem examination** is **autopsy** material.\n\n## Simplified explanation\n\nBiopsy = living patient. Autopsy = dead body. So 'biopsy from a post-mortem' is wrong.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Specimen Types",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A histopathologist prepares microscopy of a sample that reveals the morphology of an entire organism. This type of preparation is called...",
+  "media": [],
+  "options": [
+   {
+    "text": "Smear",
+    "hint": "A smear spreads cells or fluid thinly on a slide."
+   },
+   {
+    "text": "Sections",
+    "hint": "Sections are thin slices of a tissue."
+   },
+   {
+    "text": "Whole mount",
+    "hint": "Correct. The whole small organism (or organ) is mounted intact."
+   },
+   {
+    "text": "Panorama",
+    "hint": "Not a histological preparation."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The whole thing is mounted on the slide.",
+  "explanation": "## Advanced explanation\n\nMicroscopic preparations are **smears** (cells spread on a slide), **sections** (thin slices cut on a microtome), **squash/teased** preparations and **whole mounts**, in which an entire small organism or structure (e.g. a parasite, embryo, mesentery) is mounted intact to show its whole morphology.\n\n## Simplified explanation\n\nIf the whole organism is put on the slide, it is a **whole mount**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microscopic Preparations",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The overall aim of tissue processing is to",
+  "media": [],
+  "options": [
+   {
+    "text": "Embed the tissue in a solid medium to enable cutting of thin sections",
+    "hint": "Correct. Processing ends with a firm block that can be cut thinly."
+   },
+   {
+    "text": "Replace tissue components with artificial substances that cannot decompose",
+    "hint": "Tissue water is replaced, but tissue components are not."
+   },
+   {
+    "text": "Preserve tissue components for histological museum",
+    "hint": "Museum preparation is a different technique."
+   },
+   {
+    "text": "Make tissues opaque to visible light",
+    "hint": "Sections must be thin and transparent, not opaque."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "What must happen before the microtome can cut thin sections?",
+  "explanation": "## Advanced explanation\n\nTissue processing (fixation → dehydration → clearing → infiltration/impregnation → embedding) removes water and replaces it with a **support medium** (usually paraffin wax) so the tissue becomes firm enough to be **cut into thin (3–5 µm) sections** on a microtome.\n\n## Simplified explanation\n\nProcessing turns soft wet tissue into a **firm wax block** that can be sliced thinly.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Processing",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "One of the following factors does not affect tissue processing",
+  "media": [],
+  "options": [
+   {
+    "text": "Viscosity",
+    "hint": "Viscous fluids penetrate slowly."
+   },
+   {
+    "text": "Agitation",
+    "hint": "Agitation speeds fluid exchange."
+   },
+   {
+    "text": "Heat",
+    "hint": "Heat increases penetration and reaction rates."
+   },
+   {
+    "text": "Fluid colour",
+    "hint": "Correct. The colour of a reagent has no effect on penetration or exchange."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one has no physical effect on penetration?",
+  "explanation": "## Advanced explanation\n\nFactors that influence processing are **agitation, heat, viscosity, vacuum/pressure, size and nature of the tissue, and volume of reagents**. These change the rate of diffusion and exchange of fluids. **Colour** of the fluid plays no part.\n\n## Simplified explanation\n\nStirring, heat and thickness of fluids change how fast processing goes. **Colour** does not.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Factors Affecting Processing",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A highly viscous solution would lead to one of the following",
+  "media": [],
+  "options": [
+   {
+    "text": "An excessively hardened tissue",
+    "hint": "Hardening comes from over-dehydration or overheating, not viscosity."
+   },
+   {
+    "text": "Tissue fragmentation after sectioning",
+    "hint": "Fragmentation reflects poor processing or brittle tissue."
+   },
+   {
+    "text": "Increased tissue processing schedules due to slow penetration",
+    "hint": "Correct. Viscous fluids penetrate slowly, so longer schedules are needed."
+   },
+   {
+    "text": "Variable staining reactions affecting microscopy",
+    "hint": "Viscosity of processing fluids does not directly govern staining."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Viscosity slows diffusion.",
+  "explanation": "## Advanced explanation\n\nThe rate of penetration of a fluid into tissue is **inversely related to its viscosity**. Viscous media (e.g. celloidin, some resins, molten wax) penetrate slowly, so processing times must be lengthened; heat and vacuum are used to reduce viscosity and speed up infiltration.\n\n## Simplified explanation\n\nThick fluids soak in slowly, so processing **takes longer**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Factors Affecting Processing",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Crosslinking of proteins which produces denaturation or coagulation of proteins occurs during the ________ step of tissue processing",
+  "media": [],
+  "options": [
+   {
+    "text": "Fixation",
+    "hint": "Correct. Fixatives crosslink or coagulate proteins."
+   },
+   {
+    "text": "Embedding",
+    "hint": "Embedding only surrounds the tissue with medium."
+   },
+   {
+    "text": "Clearing",
+    "hint": "Clearing removes the dehydrant."
+   },
+   {
+    "text": "Dehydration",
+    "hint": "Dehydration removes water (although alcohol can also coagulate, it is not the crosslinking step)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which step stabilises proteins?",
+  "explanation": "## Advanced explanation\n\n**Fixation** stabilises proteins: additive (crosslinking) fixatives such as formaldehyde and glutaraldehyde form methylene/ covalent bridges between proteins, while coagulant fixatives (alcohols, acids) denature and precipitate them. This prevents autolysis and putrefaction.\n\n## Simplified explanation\n\nProteins are locked in place during **fixation**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Maintenance of tissue architecture is a prime goal during....",
+  "media": [],
+  "options": [
+   {
+    "text": "Fixation",
+    "hint": "Correct. Fixation preserves the tissue as near to life as possible."
+   },
+   {
+    "text": "Embedding",
+    "hint": "Embedding gives support for cutting."
+   },
+   {
+    "text": "Clearing",
+    "hint": "Clearing makes the tissue miscible with wax."
+   },
+   {
+    "text": "Dehydration",
+    "hint": "Dehydration removes water."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think 'life-like preservation'.",
+  "explanation": "## Advanced explanation\n\nThe aim of **fixation** is to preserve cells and tissues in a **life-like state**, maintaining morphology and architecture, preventing autolysis and bacterial decay and hardening the tissue for later steps.\n\n## Simplified explanation\n\nFixing keeps the tissue **looking as it did in life**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "It is very critical to choose the right ________ since it affects staining characteristics of tissues.",
+  "media": [],
+  "options": [
+   {
+    "text": "Dehydrant",
+    "hint": "Dehydrants have little effect on later staining."
+   },
+   {
+    "text": "Fixative",
+    "hint": "Correct. The fixative determines which components and reactive groups remain for staining."
+   },
+   {
+    "text": "Embedding medium",
+    "hint": "The medium is removed before staining."
+   },
+   {
+    "text": "Microtome knife",
+    "hint": "The knife affects section quality, not staining chemistry."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Fixation comes first and changes the chemistry of the tissue.",
+  "explanation": "## Advanced explanation\n\nFixatives alter tissue reactive groups: e.g. formalin blocks amino groups, mercury fixatives enhance cytoplasmic staining, acid fixatives destroy some pigments, and some stains/IHC need a specific fixative. Hence the **fixative must be chosen to suit the stains to be done**.\n\n## Simplified explanation\n\nThe **fixative** changes how the tissue takes up stains, so choose it carefully.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are coagulant fixatives EXCEPT",
+  "media": [],
+  "options": [
+   {
+    "text": "Acetone",
+    "hint": "Acetone is a coagulant (dehydrant) fixative."
+   },
+   {
+    "text": "Picric acid",
+    "hint": "Picric acid coagulates proteins (forms picrates)."
+   },
+   {
+    "text": "Acetic acid",
+    "hint": "Acetic acid is grouped with the coagulant/acid fixatives."
+   },
+   {
+    "text": "Formalin",
+    "hint": "Correct. Formalin is a non-coagulant, crosslinking (additive) fixative."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one works by crosslinking?",
+  "explanation": "## Advanced explanation\n\n**Coagulant fixatives** (alcohols, acetone, picric acid, trichloroacetic acid, acetic acid, mercuric chloride, chromic acid) denature and precipitate proteins. **Non-coagulant (crosslinking) fixatives** include **formaldehyde**, glutaraldehyde, osmium tetroxide and potassium dichromate.\n\n## Simplified explanation\n\nFormalin does not coagulate proteins: it **crosslinks** them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Alcoholic fixatives preserve tissue architecture by...",
+  "media": [],
+  "options": [
+   {
+    "text": "Coagulating proteins making them insoluble",
+    "hint": "Correct. Alcohols denature and precipitate (coagulate) proteins."
+   },
+   {
+    "text": "Crosslinking aldehyde groups",
+    "hint": "Crosslinking is the action of aldehydes."
+   },
+   {
+    "text": "Hardening the cytoskeleton",
+    "hint": "Not the mechanism."
+   },
+   {
+    "text": "Removing water from tissues",
+    "hint": "They do remove water, but fixation results from the protein coagulation this causes."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Alcohols are coagulant fixatives.",
+  "explanation": "## Advanced explanation\n\nAlcohols replace water and disrupt hydrogen and hydrophobic bonds, **denaturing and precipitating (coagulating) proteins** into an insoluble meshwork. They are rapid fixatives and preserve glycogen, but cause shrinkage and hardening.\n\n## Simplified explanation\n\nAlcohol **clots (coagulates) the proteins** so they cannot dissolve.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Ethanol may be preferred to methanol in fixation because...",
+  "media": [],
+  "options": [
+   {
+    "text": "Ethanol has a longer shelf life and is cheaper",
+    "hint": "Not the scientific reason."
+   },
+   {
+    "text": "Methanol is carcinogenic",
+    "hint": "Methanol is toxic, but is not the reason given here."
+   },
+   {
+    "text": "Fixation can be achieved with 50–60% ethanol but 80% with methanol",
+    "hint": "Correct. Ethanol coagulates proteins at a lower concentration."
+   },
+   {
+    "text": "Ethanol is readily available",
+    "hint": "Not the scientific reason."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Compare the concentrations needed.",
+  "explanation": "## Advanced explanation\n\nProtein coagulation by alcohol begins at about **50–60% for ethanol** but needs **over 80% for methanol**, because methanol is closer in structure to water and competes less with it. Ethanol is therefore an effective coagulant at lower concentrations.\n\n## Simplified explanation\n\nEthanol fixes at a **weaker strength** (50–60%) than methanol (80%).",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fixative that forms salts with basic groups of proteins in a low pH medium...",
+  "media": [],
+  "options": [
+   {
+    "text": "Formalin",
+    "hint": "Formalin crosslinks amino groups."
+   },
+   {
+    "text": "Picric acid",
+    "hint": "Correct. Picric acid forms picrates with basic groups."
+   },
+   {
+    "text": "Trichloroacetic acid",
+    "hint": "TCA precipitates proteins but the classic picrate salt formation is picric acid."
+   },
+   {
+    "text": "Acetone",
+    "hint": "Acetone is a coagulant dehydrant."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Think 'picrates'.",
+  "explanation": "## Advanced explanation\n\n**Picric acid** (trinitrophenol) in an acid medium forms **salts (picrates) with the basic (positively charged) groups of proteins**, causing coagulation. It gives bright cytoplasmic staining and is a component of Bouin's fluid.\n\n## Simplified explanation\n\nPicric acid makes **picrate salts** with proteins.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fixatives that cause swelling could be mixed with another that causes shrinkage to cancel out the effects. Which of the following fixatives may cause cells to swell?",
+  "media": [],
+  "options": [
+   {
+    "text": "Acetic acid",
+    "hint": "Correct. Acetic acid swells tissues (especially collagen)."
+   },
+   {
+    "text": "10% formalin",
+    "hint": "Formalin causes slight swelling followed by shrinkage on processing, but is not the classic swelling agent."
+   },
+   {
+    "text": "Glutaraldehyde",
+    "hint": "Not used to counteract shrinkage."
+   },
+   {
+    "text": "Alcoholic formalin",
+    "hint": "The alcohol component shrinks tissues."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Which component is added to Carnoy's and Bouin's to balance shrinkage?",
+  "explanation": "## Advanced explanation\n\n**Acetic acid** causes tissues (particularly collagen) to **swell**, so it is combined with fixatives that shrink, such as alcohol (Carnoy's, Clarke's) or picric acid (Bouin's), to balance the volume changes.\n\n## Simplified explanation\n\n**Acetic acid** makes cells swell; alcohol makes them shrink. Mixing them balances out.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Compound Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fixative of choice for electron microscopy is ...",
+  "media": [],
+  "options": [
+   {
+    "text": "10% formalin",
+    "hint": "Too slow and fine structure is less well preserved."
+   },
+   {
+    "text": "Glutaraldehyde",
+    "hint": "Correct. Glutaraldehyde (with osmium post-fixation) preserves ultrastructure."
+   },
+   {
+    "text": "Acetic acid",
+    "hint": "Damages ultrastructure."
+   },
+   {
+    "text": "Picric acid",
+    "hint": "Damages ultrastructure."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "A dialdehyde.",
+  "explanation": "## Advanced explanation\n\n**Glutaraldehyde** (usually 2.5–3% buffered) is a dialdehyde that forms rapid, extensive crosslinks and gives excellent preservation of **fine (ultra)structure**; it is followed by **osmium tetroxide** post-fixation for membranes and lipids.\n\n## Simplified explanation\n\nFor EM, use **glutaraldehyde**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The recommended ratio of volume of tissue to volume of fixative for routine histological specimens is...",
+  "media": [],
+  "options": [
+   {
+    "text": "1:20",
+    "hint": "Correct. 1 part tissue to 15–20 parts fixative."
+   },
+   {
+    "text": "20:1",
+    "hint": "That would be far too little fixative."
+   },
+   {
+    "text": "1:5",
+    "hint": "Too little fixative."
+   },
+   {
+    "text": "1:1",
+    "hint": "Too little fixative."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Lots more fixative than tissue.",
+  "explanation": "## Advanced explanation\n\nFor adequate fixation the **fixative volume should be 15–20 times (at least 10 times) the tissue volume**, i.e. tissue : fixative ≈ **1:20**, so the fixative is not exhausted and penetrates evenly.\n\n## Simplified explanation\n\nUse about **20 times more fixative than tissue**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Considering infiltration and embedding, which of the following statements is INCORRECT?",
+  "media": [],
+  "options": [
+   {
+    "text": "Infiltration is impregnation of the tissue with wax while embedding is the creation of a waxed tissue block",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "There is no difference between infiltration and embedding",
+    "hint": "Correct. Incorrect: they are two distinct steps."
+   },
+   {
+    "text": "It is recommended that one uses the same medium for infiltration and embedding",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "Paraffin wax is the best dual purpose medium for both procedures",
+    "hint": "Correct statement (paraffin wax is the routine medium for both)."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Are they two steps or one?",
+  "explanation": "## Advanced explanation\n\n**Infiltration (impregnation)** fills the tissue spaces with the support medium; **embedding (blocking)** surrounds the infiltrated tissue with the same medium in a mould and lets it solidify into a block. Using the **same medium** for both gives a homogeneous block; **paraffin wax** is the usual dual-purpose medium.\n\n## Simplified explanation\n\nInfiltration = wax goes **into** tissue; embedding = tissue set **in a block** of wax. They are different.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Infiltration & Embedding",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "For electron microscopy, the most suitable embedding medium is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Paraffin wax",
+    "hint": "Too soft for ultrathin sections."
+   },
+   {
+    "text": "Carbowax",
+    "hint": "Water-soluble wax, too soft."
+   },
+   {
+    "text": "Methacrylate",
+    "hint": "Methacrylate is used for light microscopy of hard tissues; it is unstable under the electron beam."
+   },
+   {
+    "text": "Epoxy resin",
+    "hint": "Correct. Epoxy resins (Araldite, Epon, Spurr) cut ultrathin sections and are beam-stable."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Hard, beam-stable plastic.",
+  "explanation": "## Advanced explanation\n\nUltrathin sections (50–100 nm) need a very hard, stable support. **Epoxy resins** (Araldite, Epon, Spurr's) polymerise uniformly with little shrinkage and are **stable in the electron beam**, so they are the standard EM embedding media.\n\n## Simplified explanation\n\nFor EM use **epoxy resin**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Embedding Media",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are advantages of plastic moulds over Leuckhart moulds EXCEPT...",
+  "media": [],
+  "options": [
+   {
+    "text": "They are relatively inexpensive",
+    "hint": "An advantage of disposable plastic moulds."
+   },
+   {
+    "text": "They are prefabricated to fit onto the microtome",
+    "hint": "An advantage: the cassette base becomes the block holder."
+   },
+   {
+    "text": "They are reusable and adjustable for other block sizes",
+    "hint": "Correct. This describes Leuckhart's L-pieces, not disposable plastic moulds."
+   },
+   {
+    "text": "They are modern and easily obtainable on the market",
+    "hint": "An advantage."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Which mould can be adjusted for different sizes?",
+  "explanation": "## Advanced explanation\n\n**Leuckhart's L-shaped brass pieces** are **reusable and adjustable** to make blocks of different sizes. Plastic embedding moulds/cassettes are cheap, ready-made and clip onto the microtome chuck, but each has a fixed size.\n\n## Simplified explanation\n\nBrass L-pieces (Leuckhart) are the adjustable reusable ones; plastic moulds are not.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Embedding Moulds",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Presence of calcium in tissues makes tissues...",
+  "media": [],
+  "options": [
+   {
+    "text": "Hard and brittle",
+    "hint": "Correct. Calcium salts make tissue hard and difficult to cut."
+   },
+   {
+    "text": "More stable for microtomy",
+    "hint": "Calcified tissue damages the knife and tears sections."
+   },
+   {
+    "text": "Faster to process for sectioning",
+    "hint": "It slows rather than speeds processing."
+   },
+   {
+    "text": "Swell during fixation",
+    "hint": "Calcium does not cause swelling."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Why do we decalcify?",
+  "explanation": "## Advanced explanation\n\nDeposits of **calcium salts** (bone, teeth, calcified lesions) make tissue **hard and brittle**, which damages microtome knives and produces torn, shattered sections. **Decalcification** removes the calcium after fixation.\n\n## Simplified explanation\n\nCalcium makes tissue **hard** like stone, so it must be removed before cutting.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are steps involved in decalcification. Choose the right order in the options that follow.\n\nI. Decalcification\nII. Detection of end point\nIII. Fixation\nIV. Neutralization\nV. Selection of tissue\nVI. Washing",
+  "media": [],
+  "options": [
+   {
+    "text": "V, III, I, II, IV, VI",
+    "hint": "Correct. Select → fix → decalcify → end point → neutralise → wash."
+   },
+   {
+    "text": "V, I, II, III, IV, VI",
+    "hint": "Fixation must come before decalcification."
+   },
+   {
+    "text": "V, I, III, VI, IV, II",
+    "hint": "Fixation must precede decalcification."
+   },
+   {
+    "text": "III, I, II, V, IV, VI",
+    "hint": "Tissue must be selected before it is fixed."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Select first; fix before acid.",
+  "explanation": "## Advanced explanation\n\nSteps: **selection of tissue** (thin slices cut with a saw) → **fixation** (complete fixation protects tissue from acid damage) → **decalcification** → **determination of the end point** (radiography, chemical calcium test, physical tests) → **neutralisation** of acid (e.g. lithium carbonate or sodium sulphate) → **washing** in running water, then routine processing.\n\n## Simplified explanation\n\nChoose the piece, fix it, decalcify, check it is done, neutralise, wash.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fixative of choice for bone marrow is ...",
+  "media": [],
+  "options": [
+   {
+    "text": "10% neutral buffered formalin",
+    "hint": "Acceptable routinely, but nuclear detail of marrow is better with mercurial formalin."
+   },
+   {
+    "text": "Zenker's formalin",
+    "hint": "Correct. Zenker's formol (Helly's) gives excellent nuclear and cytoplasmic detail of haemopoietic cells."
+   },
+   {
+    "text": "Glutaraldehyde",
+    "hint": "An EM fixative."
+   },
+   {
+    "text": "3% formic acid",
+    "hint": "A decalcifier, not a fixative."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "A mercury-dichromate-formalin fixative.",
+  "explanation": "## Advanced explanation\n\n**Zenker's formalin (Helly's fluid)** – mercuric chloride, potassium dichromate and formalin – is the classic fixative for **bone marrow**, spleen and other haemopoietic tissue because it preserves nuclear and cytoplasmic detail. (Mercury pigment must be removed with iodine/thiosulphate.)\n\n## Simplified explanation\n\nFor bone marrow, **Zenker's formol (Helly's)** is the fixative of choice.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The principle underlying acid decalcification is that acids...",
+  "media": [],
+  "options": [
+   {
+    "text": "Release calcium from its chemical combinations with phosphates and carbonates in bone through ionic exchange",
+    "hint": "Correct. Acids react with calcium phosphate/carbonate to form soluble calcium salts."
+   },
+   {
+    "text": "Remove calcium ions thus hastening rate of solubility of calcium from the tissue and time taken for decalcification",
+    "hint": "This describes ion-exchange resins."
+   },
+   {
+    "text": "Create a force field between two electrodes, causing calcium ions to migrate rapidly from the specimen",
+    "hint": "This describes electrolytic decalcification."
+   },
+   {
+    "text": "Bind to metallic ions like calcium and magnesium causing them to precipitate into solution",
+    "hint": "This describes chelating agents (EDTA)."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each option describes a different method; pick the acid one.",
+  "explanation": "## Advanced explanation\n\nAcids react with insoluble **calcium phosphate and carbonate** (hydroxyapatite) to form **soluble calcium salts**, releasing calcium ions which diffuse out. Ion-exchange resins remove the released Ca²⁺ from the fluid; electrolytic methods use a current; **chelators (EDTA)** bind calcium.\n\n## Simplified explanation\n\nAcid **dissolves the calcium salts** in bone so the calcium washes out.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not a strong acid decalcifier?",
+  "media": [],
+  "options": [
+   {
+    "text": "Nitric acid",
+    "hint": "Strong (rapid) acid."
+   },
+   {
+    "text": "Hydrochloric acid",
+    "hint": "Strong (rapid) acid."
+   },
+   {
+    "text": "Formic acid",
+    "hint": "Correct. Formic acid is a weak (slow, gentle) acid decalcifier."
+   },
+   {
+    "text": "Perenyi's fluid",
+    "hint": "Contains nitric acid; grouped with the strong acid decalcifiers."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Weak organic acid.",
+  "explanation": "## Advanced explanation\n\n**Strong (rapid) acid decalcifiers**: nitric acid (aqueous, formol-nitric, Perenyi's, phloroglucin-nitric) and hydrochloric acid (von Ebner's). **Weak acid decalcifiers**: **formic acid** (Gooding & Stewart's, Evans & Krajian's), acetic acid, picric acid. Formic acid is the most widely used weak decalcifier.\n\n## Simplified explanation\n\n**Formic acid** is a **weak** acid decalcifier.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The use of nitric acid causes a yellowish colouration of tissues. This artefact may be checked by...",
+  "media": [],
+  "options": [
+   {
+    "text": "0.1% urea to the concentrated nitric acid",
+    "hint": "Correct. Urea removes nitrous acid, preventing the yellow colour."
+   },
+   {
+    "text": "Addition of potassium permanganate to the solution",
+    "hint": "Not used."
+   },
+   {
+    "text": "Treating the tissue with dilute formic acid",
+    "hint": "Not used."
+   },
+   {
+    "text": "Increasing the washing times after decalcification",
+    "hint": "Washing does not prevent the yellow colouration."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The yellow comes from nitrous acid.",
+  "explanation": "## Advanced explanation\n\nOld nitric acid contains **nitrous acid**, which gives tissue a **yellow** colour and impairs staining. Adding **0.1% urea** to concentrated nitric acid (or using freshly prepared acid) removes nitrous acid and prevents this artefact.\n\n## Simplified explanation\n\nAdd a little **urea** to the nitric acid to stop the yellow colour.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "One of the following decalcifiers preserves enzymatic activity",
+  "media": [],
+  "options": [
+   {
+    "text": "Ethylenediaminetetraacetic acid",
+    "hint": "Correct. EDTA chelates calcium at neutral pH, preserving enzymes and antigens."
+   },
+   {
+    "text": "Jenkins fluid",
+    "hint": "An acid decalcifier."
+   },
+   {
+    "text": "Gooding and Stewart's solution",
+    "hint": "Formic-acid based."
+   },
+   {
+    "text": "Evans and Krajian's solution",
+    "hint": "Formic-acid based."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Neutral chelator.",
+  "explanation": "## Advanced explanation\n\n**EDTA** is a chelating agent that binds calcium ions at **neutral pH (≈7–7.4)**. It is slow, but causes little tissue damage and **preserves enzyme activity, antigens and nucleic acids**, so it is used for enzyme histochemistry, IHC and molecular work.\n\n## Simplified explanation\n\n**EDTA** is gentle and neutral, so enzymes survive.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Surface decalcification is a rapid technique employed for ...",
+  "media": [],
+  "options": [
+   {
+    "text": "Specimens from foetal skeletal tissue",
+    "hint": "Not the definition."
+   },
+   {
+    "text": "Specimens requiring rapid preliminary report",
+    "hint": "Not the definition."
+   },
+   {
+    "text": "Tissues already blocked in paraffin wax",
+    "hint": "Correct. Small calcium deposits found on facing a wax block are treated on the block surface."
+   },
+   {
+    "text": "Semi solid tissues prior to embedding",
+    "hint": "Not the definition."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Calcium discovered at microtomy.",
+  "explanation": "## Advanced explanation\n\nWhen unexpected small calcium deposits are found while trimming a **paraffin block**, the **block face** is placed in acid (e.g. 10% HCl or 1% HCl in 70% alcohol) for 15–60 minutes, washed, and sectioned. This is **surface decalcification**.\n\n## Simplified explanation\n\nIf you find calcium **in a wax block**, soak just the **block surface** in acid.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Failure to carry out one of the following steps will lead to swelling of tissues following decalcification",
+  "media": [],
+  "options": [
+   {
+    "text": "Detection of endpoint",
+    "hint": "Missing the end point causes over- or under-decalcification."
+   },
+   {
+    "text": "Neutralization of acid",
+    "hint": "Correct. Residual acid left in tissue causes swelling and poor staining."
+   },
+   {
+    "text": "Washing in distilled water",
+    "hint": "Washing follows neutralisation."
+   },
+   {
+    "text": "Fixation",
+    "hint": "Fixation is needed to protect tissue from acid damage generally."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "What removes the acid's effect?",
+  "explanation": "## Advanced explanation\n\nAfter acid decalcification the tissue is **neutralised** (e.g. in saturated lithium carbonate or 5% sodium sulphate) before washing. If acid is not neutralised, it continues to act and the tissue **swells**, with poor nuclear staining.\n\n## Simplified explanation\n\nIf you don't **neutralise** the acid, the tissue **swells**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "**LIST** the stages of tissue processing in chronological order and indicate the goal/purpose of each step. *(10 marks)*",
+  "media": [],
+  "answer": "| Step | Purpose |\n|---|---|\n| 1. **Fixation** | Preserve tissue in a life-like state; prevent autolysis and putrefaction; harden the tissue |\n| 2. **Dehydration** (graded alcohols 50/70/90/100%) | Remove water, which is not miscible with wax |\n| 3. **Clearing** (xylene, chloroform, toluene) | Remove the dehydrant with a fluid miscible with both alcohol and wax; tissue becomes translucent |\n| 4. **Infiltration/impregnation** (molten paraffin wax) | Replace the clearing agent with wax so all tissue spaces are filled and supported |\n| 5. **Embedding (blocking)** | Orientate the tissue in a mould of the same medium and let it solidify into a block for microtomy |\n\n> [!answer]\n> Fixation → dehydration → clearing → infiltration → embedding (then microtomy and staining).",
+  "explanation": "## Advanced explanation\n\nParaffin wax is immiscible with water and alcohol, so the tissue is taken through **graded alcohols** (to avoid distortion), a **clearing agent** that mixes with both alcohol and wax, then **several changes of molten wax** (often under vacuum) before **embedding** in fresh wax. Each fluid must be completely replaced by the next.\n\n## Simplified explanation\n\nFix it, dry it with alcohol, clear it with xylene, soak it in wax, then set it in a wax block.",
+  "hint": "Water must leave; wax must enter.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Tissue Processing",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State and explain **five (5)** factors that affect tissue processing. *(2 marks each)*",
+  "media": [],
+  "answer": "- **Agitation** – moving the tissue/fluid (rotating or rocking processors) speeds the exchange of fluids.\n- **Heat** – raises the rate of penetration and reaction (but too much heat hardens and shrinks tissue).\n- **Viscosity** – viscous fluids (e.g. wax, resins) penetrate slowly; lower viscosity → faster processing.\n- **Vacuum/pressure** – removes trapped air and volatile solvents, speeding infiltration.\n- **Size and nature of the tissue** – thick or dense/fatty tissue needs longer; specimens should be ≤3–4 mm thick.\n- **Volume and freshness of reagents** – too little or contaminated reagent slows processing and leaves water or clearant behind.\n\n> [!answer]\n> Any five: agitation, heat, viscosity, vacuum, tissue size/type, reagent volume and quality.",
+  "explanation": "## Advanced explanation\n\nProcessing is a series of **diffusion** steps. Diffusion speeds up with **agitation**, **heat** and **vacuum**, and slows with **high viscosity**, **large/dense specimens** and **exhausted reagents**. Schedules are designed around these factors.\n\n## Simplified explanation\n\nStirring, warming, vacuum, small pieces and fresh plenty of fluid make processing faster and better.",
+  "hint": "Think about diffusion: what speeds it or slows it?",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Factors Affecting Processing",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. What are **crosslinking fixatives**? *(8 marks)*\n\nb. Give **two** examples of crosslinking fixatives. *(2 marks)*",
+  "media": [],
+  "answer": "**a.** Crosslinking (additive, non-coagulant) fixatives are fixatives that **chemically combine with tissue components**, mainly proteins, and form **covalent bridges (crosslinks)** between them – for example **methylene bridges** (–CH₂–) between amino groups of lysine and other reactive groups. This stabilises the protein network into a gel without coagulating it, preserving fine structure and preventing autolysis. They fix slowly and may mask antigens (needing antigen retrieval for IHC).\n\n**b.** Examples: **formaldehyde (formalin)**, **glutaraldehyde** (also osmium tetroxide, glyoxal, acrolein).\n\n> [!answer]\n> Fixatives that add themselves to proteins and form covalent crosslinks (e.g. methylene bridges), e.g. formalin and glutaraldehyde.",
+  "explanation": "## Advanced explanation\n\nFixatives are grouped as **coagulant** (alcohols, acids – denature and precipitate proteins) and **crosslinking/additive** (aldehydes – bind to reactive groups such as –NH₂ and link neighbouring molecules). Crosslinkers give better preservation of ultrastructure but can mask epitopes.\n\n## Simplified explanation\n\nCrosslinking fixatives **join proteins together with chemical bridges**, e.g. formalin and glutaraldehyde.",
+  "hint": "Aldehydes add on and link proteins together.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Fixatives",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write short notes on **decalcification**, outlining: a. the goal of decalcification; b. the different methods that can be used; c. the factors that affect decalcification; d. the criteria for choosing a good decalcifying agent. *(10 marks)*",
+  "media": [],
+  "answer": "**a. Goal** – to remove calcium salts from bone, teeth and calcified tissue after fixation so the tissue can be cut on a microtome without damaging the knife or the section, while preserving morphology and staining.\n\n**b. Methods**\n- **Acid decalcifiers**: strong (nitric, hydrochloric, Perenyi's, von Ebner's) and weak (formic, acetic, picric).\n- **Chelating agents**: EDTA (neutral, slow, preserves enzymes/antigens).\n- **Ion-exchange resins** (with formic acid) remove released Ca²⁺.\n- **Electrolytic** (electrophoretic) decalcification.\n- Others: surface decalcification of blocks; microwave/ultrasound acceleration.\n\n**c. Factors** – concentration and type of decalcifier, **temperature**, **agitation**, **volume** of fluid (≥20× tissue) and frequency of change, **size and density** of specimen, and prior **fixation**.\n\n**d. Criteria for a good decalcifier** – complete removal of calcium; **rapid** action; **minimal damage** to cells and tissue; **no interference with staining**; preservation of enzymes/antigens where needed; easy end-point detection; safe and inexpensive.\n\n> [!answer]\n> Remove calcium for cutting; acids, chelators, ion exchange, electrolysis; affected by concentration, heat, agitation, volume, size; good agent is fast, gentle and staining-friendly.",
+  "explanation": "## Advanced explanation\n\nAll decalcifiers trade **speed against tissue damage**: strong acids are fastest but damage nuclear staining; EDTA is gentlest but slowest. The **end point** (radiography, chemical test with ammonium oxalate, physical tests) must be detected to avoid over-decalcification.\n\n## Simplified explanation\n\nDecalcification removes calcium so bone can be cut. Use acid, EDTA, resin or electricity. Heat, stirring and plenty of fluid speed it up. A good agent is fast but gentle.",
+  "hint": "Goal, methods, factors, ideal agent.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Decalcification",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Outline the various checks that should be made when **receiving samples** at the histopathology unit. *(5 marks)*",
+  "media": [],
+  "answer": "- The **request form** accompanies the specimen and is fully completed (patient name, age/sex, ID/hospital number, ward, clinician, clinical details, specimen type and site, date/time of collection).\n- The **specimen container label matches the request form** (at least two identifiers).\n- The **container** is appropriate, intact, not leaking and securely closed.\n- The specimen is in an **adequate volume of the correct fixative** (≈10–20× tissue volume, usually 10% NBF) or fresh if frozen section/special tests are requested.\n- **Specimen type/number of pieces** agree with the form; note time received.\n- **Biohazard/urgency** labels (e.g. high risk, urgent) are noted.\n- Then **accession** (assign a unique laboratory number) and log the specimen.\n\n> [!answer]\n> Check request form, matching labels, container integrity, correct and adequate fixative, specimen details; then accession.",
+  "explanation": "## Advanced explanation\n\nSpecimen reception is the first point of quality control. Unlabelled or mismatched specimens, leaking containers and unfixed specimens are common causes of error and of specimen rejection, so they are checked before a laboratory (accession) number is assigned.\n\n## Simplified explanation\n\nMake sure the form and label match, the container is not leaking, there is enough fixative, then give it a lab number.",
+  "hint": "Form, label, container, fixative, accession.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Specimen Reception",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Identify the planes of sectioning indicated by the letters **A**, **B** and **C** in the figure of a tubular organ. *(3 marks)*",
+  "media": [
+   {
+    "kind": "image",
+    "url": "/quizbank/mls208/planes-of-section.png",
+    "caption": "A curved tubular organ with three cutting planes: A, a flat plane lying along the top of the tube; B, a slanted line across the tube; C, a vertical line straight across the tube."
+   }
+  ],
+  "answer": "| Letter | Plane |\n|---|---|\n| **A** | **Longitudinal section** (parallel to the long axis) |\n| **B** | **Oblique section** (at an angle to the long axis) |\n| **C** | **Transverse (cross) section** (perpendicular to the long axis) |\n\n> [!answer]\n> A – longitudinal, B – oblique, C – transverse (cross) section.",
+  "explanation": "## Advanced explanation\n\nHow a tube is cut changes its appearance on a slide: a **transverse** section gives a ring, a **longitudinal** section a long strip with parallel walls, and an **oblique** section an oval. Correct orientation at grossing and embedding is needed to show the required plane.\n\n## Simplified explanation\n\nLengthwise = longitudinal; slanted = oblique; straight across = transverse.",
+  "hint": "Along, slanted, across.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Planes of Section",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Suggest **one** possible cause for each of the following problems at microtomy and **one** way to correct it. *(5 marks)*\n\na. Sections attach to block on return stroke\nb. Sections expand or disintegrate on water bath\nc. Splitting of sections at right angles to knife\nd. Sections do not form ribbons\ne. Difficulty in cutting a smooth flat section",
+  "media": [],
+  "answer": "| Problem | Possible cause | Remedy |\n|---|---|---|\n| a. Sections stick to block on return stroke | Insufficient knife **clearance angle**; static electricity; debris on knife edge | Increase the clearance angle; clean the knife; humidify/use anti-static |\n| b. Sections expand or disintegrate on water bath | **Poorly infiltrated/impregnated** tissue, or water bath too hot | Reprocess (re-infiltrate) the tissue; lower bath temperature to ~5–10 °C below wax melting point |\n| c. Splits at right angles to the knife | **Nick/damage in the knife edge**, or hard particles (calcium, suture) in the tissue | Move to an undamaged part of the blade or change the blade; decalcify/remove hard material |\n| d. Sections do not form ribbons | **Wax too hard** for room temperature, block edges not parallel, or knife blunt/tilted | Use softer wax or breathe on/warm the block; trim upper and lower edges parallel; sharpen/change the knife |\n| e. Cannot cut smooth flat sections | **Blunt knife**, incorrect tilt, loose block or knife, or brittle overprocessed tissue | Use a new sharp blade; tighten block and knife; adjust angle; cool block on ice |\n\n> [!answer]\n> a. low clearance angle – increase it; b. poor infiltration – reprocess; c. nicked knife – change blade; d. hard wax/unparallel edges – soften/trim; e. blunt or loose knife – replace/tighten.",
+  "explanation": "## Advanced explanation\n\nMicrotomy faults are traced to **the knife** (sharpness, nicks, tilt and clearance angle), **the block** (trimming, temperature, hardness, quality of processing) and **the microtome** (loose clamps, worn parts). Systematically check each.\n\n## Simplified explanation\n\nFix the knife angle, sharpen or change the blade, trim the block properly and make sure the tissue was well waxed.",
+  "hint": "Most faults are the knife, the block or the wax.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Microtomy",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "As the Lab Manager of the histopathology unit at Cape Coast Teaching Hospital, mention and explain **five (5)** factors to consider when ordering a new **fixative** for the laboratory. *(10 marks)*",
+  "media": [],
+  "answer": "- **Type of tissue and investigations** – the fixative must suit the stains and tests to be done (routine H&E, special stains, IHC, molecular tests, EM).\n- **Rate of penetration and fixation** – how fast it penetrates and fixes affects turnaround and quality.\n- **Effects on the tissue** – shrinkage, swelling, hardening, pigment formation (formalin, mercury), loss of components (e.g. lipids, glycogen).\n- **pH and osmolality/buffer** – e.g. neutral buffered formalin avoids formalin pigment; correct tonicity preserves morphology.\n- **Stability and shelf life** – some fixatives deteriorate (e.g. formalin oxidises to formic acid; Zenker's must be made fresh with acetic acid).\n- **Toxicity and safety** – formaldehyde, mercury and picric acid hazards; disposal requirements.\n- **Cost and availability** – cost per test and a reliable supply.\n- **Compatibility with processing** – e.g. need for washing out (dichromate, picric acid) before processing.\n\n> [!answer]\n> Suitability for intended tests, penetration rate, tissue effects, pH/buffer, stability, safety, cost and availability.",
+  "explanation": "## Advanced explanation\n\nNo fixative is ideal for everything. A laboratory chooses its routine fixative (usually 10% NBF) to balance **morphology, compatibility with ancillary techniques, speed, safety and cost**, and keeps special fixatives for particular investigations.\n\n## Simplified explanation\n\nChoose a fixative that suits your tests, works well and fast, is stable, safe and affordable.",
+  "hint": "Think quality, safety and cost.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Fixation",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Haruna prepared a tissue fixed in **glutaraldehyde** for **immunohistochemistry**. Upon microscopy it was discovered that the slide had **intense background staining**, making reporting difficult. Explain how this could happen and suggest one way to prevent such interference. *(7 marks)*",
+  "media": [],
+  "answer": "**How it happens** – glutaraldehyde is a **dialdehyde**: one aldehyde group reacts with tissue proteins and the other is often left **free (unreacted)**. These free aldehyde groups bind the primary/secondary antibodies (and other proteins) **non-specifically**, giving high **background staining**. Glutaraldehyde also strongly crosslinks proteins, masking epitopes so specific staining is weak, and it causes **autofluorescence** in immunofluorescence.\n\n**Prevention** (any one):\n- Use **10% neutral buffered formalin** (or a fixative suited to IHC) instead of glutaraldehyde for IHC work.\n- Block free aldehyde groups before staining, e.g. with **sodium borohydride**, glycine, ammonium chloride or lysine.\n- Use a protein **blocking step** (normal serum/BSA) and optimise antibody dilution.\n\n> [!answer]\n> Free unreacted aldehyde groups left by glutaraldehyde bind antibodies non-specifically; prevent by fixing in NBF or blocking aldehydes (e.g. sodium borohydride).",
+  "explanation": "## Advanced explanation\n\nIHC relies on specific antigen–antibody binding. Anything that binds antibody non-specifically (free aldehydes, endogenous peroxidase or biotin, Fc receptors, hydrophobic interactions) raises background. Glutaraldehyde is excellent for EM but generally unsuitable for routine IHC.\n\n## Simplified explanation\n\nGlutaraldehyde leaves sticky free aldehyde ends that grab antibodies everywhere. Use formalin instead or block them first.",
+  "hint": "Glutaraldehyde has two aldehyde groups.",
+  "difficulty": "hard",
+  "marks": 7,
+  "tags": [
+   "Immunohistochemistry",
+   "2018/19 Practical Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most widely used fixative in histology is...",
+  "media": [],
+  "options": [
+   {
+    "text": "10% formalin",
+    "hint": "Unbuffered formalin becomes acidic and forms formalin pigment."
+   },
+   {
+    "text": "10% neutral formalin",
+    "hint": "Not the standard formulation."
+   },
+   {
+    "text": "10% neutral buffered formalin",
+    "hint": "Correct. 10% NBF is the routine fixative worldwide."
+   },
+   {
+    "text": "10% alcoholic formalin",
+    "hint": "Used for special purposes."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Buffered to pH 7.",
+  "explanation": "## Advanced explanation\n\n**10% neutral buffered formalin (NBF)** – 10% stock formalin in phosphate buffer at pH ~7 – is the standard routine fixative: cheap, penetrates well, preserves most structures, is compatible with most stains and IHC, and the buffer prevents acid formalin pigment.\n\n## Simplified explanation\n\n**10% NBF** is the usual fixative.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are forms of formalin except...",
+  "media": [],
+  "options": [
+   {
+    "text": "10% neutral buffered formalin",
+    "hint": "A form of formalin."
+   },
+   {
+    "text": "10% alcoholic formalin",
+    "hint": "A form of formalin."
+   },
+   {
+    "text": "All the above",
+    "hint": "Both A and B are forms of formalin."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. Both listed are formalin fixatives, so none is an exception."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Check each listed item.",
+  "explanation": "## Advanced explanation\n\nFormalin-based fixatives include **10% formal saline**, **10% NBF**, **alcoholic formalin**, formal calcium, zinc formalin, formal acetic etc. Both options A and B are formalin fixatives, so **none of them** is the exception.\n\n## Simplified explanation\n\nNBF and alcoholic formalin are both formalin, so the answer is **none of the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following can be used as dehydrating agent?",
+  "media": [],
+  "options": [
+   {
+    "text": "Ethanol",
+    "hint": "Ethanol is the commonest dehydrant."
+   },
+   {
+    "text": "Acetone",
+    "hint": "Acetone is a rapid dehydrant."
+   },
+   {
+    "text": "Methanol",
+    "hint": "Methanol can be used."
+   },
+   {
+    "text": "All the above",
+    "hint": "Correct. All are dehydrating agents."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Several alcohols and ketones dehydrate.",
+  "explanation": "## Advanced explanation\n\nDehydrating agents remove water from tissue: **ethanol** (commonest), **methanol**, isopropanol, butanol, **acetone**, dioxane and others.\n\n## Simplified explanation\n\nEthanol, acetone and methanol can all remove water, so **all the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Dehydration",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The respective volumes of stock formalin solution and water in 100 mL of 10% neutral buffered formalin is...",
+  "media": [],
+  "options": [
+   {
+    "text": "1 mL, 9 mL",
+    "hint": "Only 10 mL in total."
+   },
+   {
+    "text": "10 mL, 100 mL",
+    "hint": "Gives 110 mL."
+   },
+   {
+    "text": "10 mL, 90 mL",
+    "hint": "Correct. 10 mL stock (37–40% formaldehyde) + 90 mL water/buffer = 100 mL of 10% formalin."
+   },
+   {
+    "text": "1 mL, 99 mL",
+    "hint": "That is 1% formalin."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "10% of 100 mL.",
+  "explanation": "## Advanced explanation\n\n**10% formalin = 10 mL of stock formalin (37–40% formaldehyde, i.e. '100% formalin') made up to 100 mL** with buffered water. So **10 mL stock + 90 mL** diluent (≈4% formaldehyde).\n\n## Simplified explanation\n\n10 mL of stock formalin plus 90 mL of water/buffer.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following equipments is used for paraffin embedding?",
+  "media": [],
+  "options": [
+   {
+    "text": "Cassette",
+    "hint": "Cassettes hold tissue during processing (and become the block base), but the block is formed in a mould."
+   },
+   {
+    "text": "Mold",
+    "hint": "Correct. The mould holds molten wax and tissue as the block forms."
+   },
+   {
+    "text": "Microtome",
+    "hint": "The microtome cuts sections."
+   },
+   {
+    "text": "All the above",
+    "hint": "The microtome is not used for embedding."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Where is the block cast?",
+  "explanation": "## Advanced explanation\n\nEmbedding is done by placing the infiltrated tissue in a **mould** (metal base mould, Leuckhart's L-pieces, plastic moulds) filled with molten wax, then cooling it on a cold plate.\n\n## Simplified explanation\n\nThe block is made in a **mould**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Embedding",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following can result in poor tissue ribboning during microtomy?",
+  "media": [],
+  "options": [
+   {
+    "text": "Inadequate clearing",
+    "hint": "Poor clearing leads to poor infiltration and crumbly sections."
+   },
+   {
+    "text": "Blunt knife or blade",
+    "hint": "A blunt knife compresses and fails to cut continuous sections."
+   },
+   {
+    "text": "All the above",
+    "hint": "Correct. Both cause poor ribbons."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Both do cause problems."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "More than one cause.",
+  "explanation": "## Advanced explanation\n\nRibbons form when successive sections stick edge to edge. Poor ribboning results from **poor processing** (incomplete clearing/infiltration), **blunt or dirty knife**, wax too hard, block edges not parallel, wrong knife tilt.\n\n## Simplified explanation\n\nBoth bad processing and a blunt blade spoil ribbons.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Microtomy",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following fix tissues by chemically linking themselves to the tissue reactive groups except",
+  "media": [],
+  "options": [
+   {
+    "text": "Formalin",
+    "hint": "Formalin is additive (crosslinking)."
+   },
+   {
+    "text": "Glutaraldehyde",
+    "hint": "Glutaraldehyde is additive (crosslinking)."
+   },
+   {
+    "text": "Alcohol",
+    "hint": "Correct. Alcohol is non-additive: it coagulates proteins by removing water without binding to them."
+   },
+   {
+    "text": "Picric acid",
+    "hint": "Picric acid is additive: it combines with proteins to form picrates."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Additive vs non-additive fixatives.",
+  "explanation": "## Advanced explanation\n\n**Additive fixatives** chemically combine with tissue (formaldehyde, glutaraldehyde, mercuric chloride, picric acid, osmium tetroxide, chromium salts). **Non-additive fixatives** (alcohols, acetone) act by **dehydration and coagulation** without becoming part of the tissue.\n\n## Simplified explanation\n\nAlcohol does not bind to tissue; it just removes water and clots proteins.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these chemicals can cause death when ingested, inhaled or in skin contact?",
+  "media": [],
+  "options": [
+   {
+    "text": "Cyanides",
+    "hint": "Correct. Cyanides are acutely and highly toxic by all routes."
+   },
+   {
+    "text": "Congo red",
+    "hint": "A dye; not acutely lethal in this way."
+   },
+   {
+    "text": "Xylene",
+    "hint": "Harmful (CNS depressant, irritant) but not classed as fatal on contact in normal laboratory exposure."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Cyanides are."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "The classic poison.",
+  "explanation": "## Advanced explanation\n\n**Cyanides** (e.g. potassium cyanide) block cytochrome c oxidase and are **fatal if swallowed, inhaled or absorbed through skin**; they carry the skull-and-crossbones hazard symbol and must be stored securely.\n\n## Simplified explanation\n\n**Cyanide** can kill by any route.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Laboratory Safety",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The fixative of choice to fix tissues for demonstration of lipids is...",
+  "media": [],
+  "options": [
+   {
+    "text": "10% NBF",
+    "hint": "Preserves some lipids, but not the fixative of choice."
+   },
+   {
+    "text": "Alcoholic formalin",
+    "hint": "Alcohol dissolves lipids."
+   },
+   {
+    "text": "Osmium tetroxide",
+    "hint": "Correct. Osmium tetroxide fixes and blackens unsaturated lipids."
+   },
+   {
+    "text": "Choice of fixative cannot affect lipids in the tissue",
+    "hint": "Fixative choice greatly affects lipid retention."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "It stains fat black.",
+  "explanation": "## Advanced explanation\n\n**Osmium tetroxide** reacts with unsaturated fatty acids, **fixing lipids** (so they survive processing) and staining them black. Formal calcium/NBF on frozen sections is also used, but alcohols and solvents remove lipids.\n\n## Simplified explanation\n\nUse **osmium tetroxide** to keep (and blacken) fats.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The order of concentrations of alcohol during dehydration through which a tissue is passed is...",
+  "media": [],
+  "options": [
+   {
+    "text": "50%, 70%, 100%, 80%",
+    "hint": "Not in increasing order."
+   },
+   {
+    "text": "100%, 80%, 70%, 50%",
+    "hint": "Reverse order (used for rehydration)."
+   },
+   {
+    "text": "50%, 70%, 80%, 100%",
+    "hint": "Correct. Increasing grades avoid distortion."
+   },
+   {
+    "text": "50%, 80%, 70%, 100%",
+    "hint": "Not in increasing order."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Low to high.",
+  "explanation": "## Advanced explanation\n\nTissue is taken through **graded alcohols of increasing concentration** (e.g. 50% → 70% → 80/90% → absolute) to remove water gradually and avoid shrinkage and distortion; absolute alcohol is changed several times.\n\n## Simplified explanation\n\nGo up step by step: 50, 70, 80, 100%.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Dehydration",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a compound fixative?",
+  "media": [],
+  "options": [
+   {
+    "text": "Zinc formalin",
+    "hint": "Formalin plus zinc salt – a mixture."
+   },
+   {
+    "text": "Alcoholic formalin",
+    "hint": "Formalin plus alcohol – a mixture."
+   },
+   {
+    "text": "All the above",
+    "hint": "Correct. Both are mixtures of fixatives."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Both are compound fixatives."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "A compound fixative contains two or more fixing agents.",
+  "explanation": "## Advanced explanation\n\n**Simple fixatives** contain one agent (formalin, alcohol, picric acid). **Compound fixatives** combine agents so that their faults balance, e.g. **zinc formalin, alcoholic formalin**, Bouin's, Zenker's, Carnoy's.\n\n## Simplified explanation\n\nBoth are mixtures, so **all the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "One criterion upon which a tissue can be rejected at the pathology reception is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Bloody tissue",
+    "hint": "Many surgical specimens are bloody; not a reason to reject."
+   },
+   {
+    "text": "Poor fixation of the tissue",
+    "hint": "Correct. Inadequate/no fixative (autolysed specimen) is a rejection criterion."
+   },
+   {
+    "text": "Size of the tissue",
+    "hint": "Size is not a criterion."
+   },
+   {
+    "text": "All the above",
+    "hint": "A and C are not rejection criteria."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which would make the result unreliable?",
+  "explanation": "## Advanced explanation\n\nRejection criteria include **unlabelled or mislabelled specimens**, no request form, **leaking/broken containers**, and **inadequate or wrong fixative** leading to autolysis. Blood and specimen size are not reasons to reject.\n\n## Simplified explanation\n\nA **poorly fixed** specimen can be rejected; blood or size alone cannot.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Specimen Reception",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Factors to consider when choosing a fixative include all the following except",
+  "media": [],
+  "options": [
+   {
+    "text": "Reaction of the cell with fixative",
+    "hint": "A factor to consider."
+   },
+   {
+    "text": "pH of the fixative",
+    "hint": "A factor to consider."
+   },
+   {
+    "text": "All the above",
+    "hint": "Both are factors, so they cannot be exceptions."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. Both listed items are factors, so none is an exception."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Are A and B both genuine factors?",
+  "explanation": "## Advanced explanation\n\nWhen choosing a fixative consider the **reaction of tissue components with it**, **pH/buffer**, osmolality, penetration rate, temperature, duration and the tests to follow. Both A and B are valid factors.\n\n## Simplified explanation\n\nBoth are real factors, so the answer is **none of the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Fixation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Stock solution of formaldehyde is labelled as...",
+  "media": [],
+  "options": [
+   {
+    "text": "37%–40% formalin",
+    "hint": "Stock is 37–40% formaldehyde, which is called 100% formalin."
+   },
+   {
+    "text": "100% formaldehyde",
+    "hint": "Formaldehyde is a gas; the solution is not 100%."
+   },
+   {
+    "text": "37–40% formaldehyde",
+    "hint": "Correct. Commercial stock is 37–40% w/v formaldehyde gas in water."
+   },
+   {
+    "text": "All the above",
+    "hint": "Only C is correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Formaldehyde gas dissolved in water.",
+  "explanation": "## Advanced explanation\n\nCommercial formalin is a **37–40% (w/v) solution of formaldehyde gas in water** (with ~10% methanol). By convention this stock is called **'100% formalin'**, so 10% formalin ≈ 4% formaldehyde.\n\n## Simplified explanation\n\nThe stock bottle is **37–40% formaldehyde** (= 100% formalin).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Fixatives",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are clearing agents except...",
+  "media": [],
+  "options": [
+   {
+    "text": "Xylene",
+    "hint": "A clearing agent."
+   },
+   {
+    "text": "Chloroform",
+    "hint": "A clearing agent."
+   },
+   {
+    "text": "All the above",
+    "hint": "Both are clearing agents."
+   },
+   {
+    "text": "None of the above",
+    "hint": "Correct. Xylene and chloroform are both clearing agents."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Are both listed agents clearants?",
+  "explanation": "## Advanced explanation\n\nClearing agents include **xylene**, toluene, benzene, **chloroform**, cedarwood oil, limonene and xylene substitutes. Both listed are clearing agents, so **none** is the exception.\n\n## Simplified explanation\n\nXylene and chloroform both clear tissue: **none of the above**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Clearing",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is used to melt and keep paraffin in a molten form?",
+  "media": [],
+  "options": [
+   {
+    "text": "Hot plate",
+    "hint": "A hot plate warms slides/objects briefly; it does not store molten wax."
+   },
+   {
+    "text": "Wax dispenser",
+    "hint": "Correct. The paraffin dispenser holds wax molten and dispenses it for embedding."
+   },
+   {
+    "text": "Floating bath",
+    "hint": "The floating (water) bath flattens sections."
+   },
+   {
+    "text": "Slide warmer",
+    "hint": "The slide warmer dries sections."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Part of the embedding centre.",
+  "explanation": "## Advanced explanation\n\nA **paraffin wax dispenser** (part of an embedding centre, or a wax oven) melts and keeps paraffin at ~2–4 °C above its melting point ready for infiltration and embedding.\n\n## Simplified explanation\n\nThe **wax dispenser** keeps wax melted.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Laboratory Equipment",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a carcinogen?",
+  "media": [],
+  "options": [
+   {
+    "text": "Xylene",
+    "hint": "Toxic and irritant, but not classed as a carcinogen."
+   },
+   {
+    "text": "Ethanol",
+    "hint": "Not a laboratory carcinogen hazard."
+   },
+   {
+    "text": "Chloroform",
+    "hint": "Correct. Chloroform is a (probable) carcinogen and liver/kidney toxin."
+   },
+   {
+    "text": "Acetone",
+    "hint": "Flammable, not a carcinogen."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Chlorinated solvent.",
+  "explanation": "## Advanced explanation\n\n**Chloroform** is classed as a probable human **carcinogen** (IARC group 2B) and is toxic to liver and kidneys, so it is little used as a clearing agent today. Xylene is harmful (CNS, skin) but not a carcinogen; benzene is a known carcinogen.\n\n## Simplified explanation\n\n**Chloroform** can cause cancer.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Laboratory Safety",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Assigning a unique pathology number to a tissue is a very important step in the pathology reception. This process is called...",
+  "media": [],
+  "options": [
+   {
+    "text": "Grossing",
+    "hint": "Grossing is macroscopic examination and sampling."
+   },
+   {
+    "text": "Accessioning",
+    "hint": "Correct. Accessioning gives each specimen a unique laboratory number."
+   },
+   {
+    "text": "Labelling",
+    "hint": "Labelling is writing identifiers on containers/cassettes."
+   },
+   {
+    "text": "None of the above",
+    "hint": "B is correct."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Entry into the lab register.",
+  "explanation": "## Advanced explanation\n\n**Accessioning** is registering a received specimen and assigning it a **unique laboratory (accession) number** that follows it through blocks, slides and the report.\n\n## Simplified explanation\n\nGiving a lab number = **accessioning**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Specimen Reception",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The main aim of embedding is to ...",
+  "media": [],
+  "options": [
+   {
+    "text": "Make the tissue rigid for sectioning",
+    "hint": "Correct. Embedding gives a firm support so thin sections can be cut."
+   },
+   {
+    "text": "Make the tissue flexible for sectioning",
+    "hint": "The aim is firmness, not flexibility."
+   },
+   {
+    "text": "Allow for staining",
+    "hint": "The wax is removed before staining."
+   },
+   {
+    "text": "None of the above",
+    "hint": "A is correct."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Support for the microtome.",
+  "explanation": "## Advanced explanation\n\nEmbedding surrounds the infiltrated tissue with a medium that sets **firm**, supporting it so uniformly **thin sections** can be cut and the block can be clamped and stored.\n\n## Simplified explanation\n\nEmbedding makes the tissue **firm** enough to slice.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Embedding",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is not a mandatory step in tissue processing?",
+  "media": [],
+  "options": [
+   {
+    "text": "Fixation",
+    "hint": "Mandatory."
+   },
+   {
+    "text": "Dehydration",
+    "hint": "Mandatory for paraffin processing."
+   },
+   {
+    "text": "Decalcification",
+    "hint": "Correct. Only needed for calcified tissue."
+   },
+   {
+    "text": "Infiltration",
+    "hint": "Mandatory."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Only some tissues contain calcium.",
+  "explanation": "## Advanced explanation\n\nFixation, dehydration, clearing, infiltration and embedding are carried out for every paraffin specimen. **Decalcification** is an **additional** step only for bone, teeth or calcified tissue.\n\n## Simplified explanation\n\nOnly bony tissue needs **decalcification**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Processing",
+   "Quiz 1"
+  ]
+ }
+]

@@ -1,0 +1,611 @@
+[
+ {
+  "type": "text",
+  "body": "Describe the **catechol nucleus**, using a structure where necessary.",
+  "answer": "> [!answer]\n> The **catechol nucleus** is a **benzene ring bearing two adjacent hydroxyl (–OH) groups on carbons 3 and 4** — i.e. **1,2-dihydroxybenzene (ortho-dihydroxybenzene)**.\n>\n> In the catecholamines this ring carries an **ethylamine side chain** at position 1, giving the general structure:\n>\n> **3,4-dihydroxyphenyl–CH(OH)–CH₂–NH–R**\n>\n> - Dopamine: 3,4-dihydroxyphenyl–CH₂–CH₂–NH₂\n> - Noradrenaline: β-OH added, R = H\n> - Adrenaline: β-OH, R = CH₃\n> - Isoprenaline: β-OH, R = isopropyl\n>\n> The catechol hydroxyls are essential for full α- and β-receptor potency and are the site of **COMT** methylation, which is why catecholamines are orally inactive and short-acting.",
+  "explanation": "## Advanced explanation\n\nStructure–activity relationships of the phenylethylamine series show that: the **3,4-(catechol) hydroxyls** give maximum potency at both α- and β-receptors but also make the molecule a substrate for **catechol-O-methyltransferase**; a **β-hydroxyl** in the R configuration is required for high affinity; **substitution on the amine nitrogen** shifts selectivity from α (small groups, noradrenaline) towards β (large groups — isoprenaline, salbutamol); and substitution on the α-carbon (as in ephedrine) blocks MAO and prolongs action. Replacing the catechol with a **resorcinol (3,5-diOH)** or **saligenin (3-hydroxymethyl, 4-OH)** ring removes the COMT substrate site and gives orally active, longer-acting β₂ agonists such as terbutaline and salbutamol.\n\n## Simplified explanation\n\nCatechol is a **benzene ring with two OH groups next door to each other (positions 3 and 4)**. Adding an ethylamine side chain gives the catecholamines — dopamine, noradrenaline, adrenaline and isoprenaline.",
+  "hint": "Two hydroxyls, ortho to each other, on a benzene ring.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why the classical catecholamines (noradrenaline and adrenaline) have **little therapeutic application** and are used mainly as research tools.",
+  "answer": "> [!answer]\n> 1. **They are not orally active** — the catechol ring is rapidly conjugated and methylated by **COMT in the gut wall and liver** and the amine is deaminated by **MAO**, so first-pass destruction is almost complete; they must be given by injection or infusion.\n> 2. **Very short duration of action** (plasma half-life of a few minutes) because of rapid **uptake-1/uptake-2** and enzymatic degradation, so continuous infusion and monitoring are needed.\n> 3. **They are non-selective** — they act on α₁, α₂, β₁ and β₂ receptors at once, so useful effects cannot be separated from unwanted ones (hypertension, tachyarrhythmias, myocardial ischaemia, hyperglycaemia, tremor).\n> 4. **They do not cross the blood–brain barrier** in useful amounts, so they cannot replace central transmitter deficits.\n>\n> Consequently their clinical use is restricted to a few emergencies (adrenaline in anaphylaxis and cardiac arrest, noradrenaline in septic shock), and selective synthetic analogues are preferred elsewhere.",
+  "explanation": "## Advanced explanation\n\nThe same structural features that give catecholamines maximal receptor potency — the **3,4-dihydroxy (catechol) ring** and the **primary/secondary amine** — make them substrates for **COMT** and **MAO** and keep them too polar to cross the blood–brain barrier. Medicinal chemistry solved this by modifying the ring (resorcinol, saligenin analogues resist COMT) and the nitrogen (bulky substituents give β₂ selectivity), producing orally active, long-acting, receptor-selective agents such as salbutamol, terbutaline and salmeterol.\n\n## Simplified explanation\n\nThey are **destroyed before they can work when swallowed**, they **last only minutes**, and they **hit every adrenoceptor at once**, so they cause too many side effects to be useful except in emergencies.",
+  "hint": "Think COMT/MAO, half-life and lack of receptor selectivity.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Anatomically** differentiate between the **sympathetic** and the **parasympathetic** divisions of the autonomic nervous system.",
+  "answer": "| Feature | Sympathetic | Parasympathetic |\n|---|---|---|\n| **Outflow** | **Thoracolumbar** — lateral horn of T1–L2(L3) | **Craniosacral** — brainstem nuclei of cranial nerves III, VII, IX, X and sacral segments S2–S4 |\n| **Preganglionic fibre** | **Short** | **Long** |\n| **Postganglionic fibre** | **Long** | **Short** |\n| **Position of ganglia** | **Far from the effector**: paravertebral sympathetic chain and prevertebral (coeliac, mesenteric) ganglia | **Close to or within the wall of the effector organ** (ciliary, otic, submandibular, pterygopalatine; intramural plexuses) |\n| **Divergence** | Extensive — one preganglionic fibre may synapse with many postganglionic neurones (diffuse, mass discharge) | Limited — roughly 1:1 to 1:3, so effects are discrete |\n| **Special features** | Adrenal medulla is a modified sympathetic ganglion innervated directly by preganglionic fibres | The vagus (X) supplies about 75% of all parasympathetic fibres |\n\n> [!answer]\n> Sympathetic = **thoracolumbar outflow, short pre- and long postganglionic fibres, ganglia far from the organ (paravertebral chain), wide divergence**. Parasympathetic = **craniosacral outflow, long pre- and short postganglionic fibres, ganglia on or in the organ, little divergence**.",
+  "explanation": "## Advanced explanation\n\nThe anatomical arrangement explains the physiology: short preganglionic fibres ending in a **chain of interconnected ganglia** with high divergence allow the sympathetic system to produce a **widespread, co-ordinated 'fight or flight' discharge**, reinforced by adrenaline released from the adrenal medulla into the blood. The parasympathetic ganglia lie in the target organ with little divergence, so stimulation produces **discrete, organ-specific 'rest and digest' responses** such as bradycardia or increased gastric secretion.\n\n## Simplified explanation\n\nSympathetic nerves leave the **middle of the spinal cord (chest and upper back)** and relay in ganglia **near the spine**, so one nerve can affect many organs. Parasympathetic nerves leave the **brain and the very bottom of the cord** and relay **in the organ itself**, so their effects are local.",
+  "hint": "Where does each outflow leave the CNS, and where are its ganglia?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between each of the following pairs:\n\n(a) Sympathomimetic and parasympathomimetic\n(b) Sympatholytic and parasympatholytic\n(c) Adrenergic and cholinergic",
+  "answer": "> [!answer]\n> **(a)** A **sympathomimetic** drug **mimics/activates the sympathetic nervous system** (adrenoceptor agonists and indirectly acting amines, e.g. adrenaline, phenylephrine, salbutamol, amphetamine). A **parasympathomimetic** drug **mimics the parasympathetic system** by activating muscarinic receptors directly (pilocarpine, bethanechol) or indirectly (neostigmine, physostigmine).\n>\n> **(b)** A **sympatholytic (antiadrenergic)** drug **blocks or reduces sympathetic activity** — α-blockers (prazosin, phentolamine), β-blockers (propranolol, atenolol), and drugs that deplete or inhibit noradrenaline release (reserpine, guanethidine, clonidine). A **parasympatholytic (antimuscarinic/anticholinergic)** drug **blocks parasympathetic activity** at muscarinic receptors (atropine, hyoscine, ipratropium, glycopyrrolate).\n>\n> **(c)** **Adrenergic** refers to neurones, receptors or drugs that use or respond to **noradrenaline/adrenaline** (adrenoceptors α₁, α₂, β₁, β₂, β₃). **Cholinergic** refers to neurones, receptors or drugs that use or respond to **acetylcholine** (nicotinic N_N, N_M and muscarinic M₁–M₅ receptors).",
+  "explanation": "## Advanced explanation\n\nThe prefixes name the **division imitated or blocked**; the suffixes **-mimetic** (imitating) and **-lytic** (dissolving/blocking) name the direction of the effect. 'Adrenergic' and 'cholinergic' are **transmitter-based** terms: all preganglionic autonomic fibres and postganglionic parasympathetic fibres are cholinergic, most postganglionic sympathetic fibres are adrenergic, but sympathetic fibres to sweat glands are cholinergic — which is why an antimuscarinic such as atropine causes dry skin.\n\n## Simplified explanation\n\n**-mimetic** = copies that part of the nervous system; **-lytic** = blocks it. **Adrenergic** = to do with adrenaline/noradrenaline; **cholinergic** = to do with acetylcholine.",
+  "hint": "Mimic versus block; and name the transmitter involved.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is **Hofmann degradation** (Hofmann elimination) and why is it pharmacologically important? Name **two** drugs eliminated by this route.",
+  "answer": "> [!answer]\n> **Hofmann degradation** is the **spontaneous, non-enzymatic breakdown of a quaternary ammonium compound at physiological pH (7.4) and body temperature (37 °C)**. It requires **no liver and no kidney, and no plasma enzymes**.\n>\n> **Drugs:** **atracurium** and **cisatracurium** (non-depolarising neuromuscular blockers). Atracurium is also hydrolysed by plasma esterases.\n>\n> **Importance:** their duration of action is **independent of hepatic and renal function**, so they are the muscle relaxants of choice in patients with **combined liver and kidney failure**. The degradation products are **laudanosine** and a monoquaternary acrylate; laudanosine accumulates in renal failure and can cause **CNS excitation and seizures**, which is less of a problem with cisatracurium because a smaller dose is needed.",
+  "explanation": "## Advanced explanation\n\nHofmann elimination is base-catalysed loss of a proton β to the quaternary nitrogen, with formation of a tertiary amine and an alkene. Because the rate rises with **pH and temperature**, alkalosis and pyrexia speed atracurium breakdown while acidosis and hypothermia slow it. Atracurium is a mixture of 10 stereoisomers; **cisatracurium**, the 1R-cis-1'R-cis isomer, is about four times more potent, is eliminated almost entirely by Hofmann degradation (little ester hydrolysis) and produces **less histamine release** and less laudanosine.\n\n## Simplified explanation\n\nSome drugs **fall apart by themselves in the body's normal warmth and pH** — no liver or kidney needed. **Atracurium and cisatracurium** do this, so they are safe muscle relaxants when the liver and kidneys have failed.",
+  "hint": "Spontaneous breakdown at pH 7.4 and 37 °C — useful in organ failure.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Neuromuscular Blockers",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Name **two (2) neuromuscular blocking agents** that would be appropriate for a patient in **combined liver and kidney failure**, and explain why.",
+  "answer": "> [!answer]\n> **Atracurium** and **cisatracurium**.\n>\n> They are eliminated by **Hofmann degradation** — spontaneous, non-enzymatic chemical breakdown at physiological pH and temperature — and (for atracurium) by non-specific **plasma ester hydrolysis**. Neither pathway depends on hepatic metabolism or renal excretion, so the **duration of action and the risk of accumulation are unchanged in liver and kidney failure**.\n>\n> By contrast, pancuronium and vecuronium depend on renal/hepatic elimination and would be dangerously prolonged.\n>\n> **Caution:** both produce **laudanosine**, which depends on the liver and kidney for clearance and in high concentration causes CNS excitation and seizures; cisatracurium generates less of it.",
+  "explanation": "## Advanced explanation\n\nNon-depolarising blockers are quaternary and water-soluble, so most are excreted largely unchanged by the kidney (pancuronium ~80%, rocuronium partly biliary, vecuronium hepatic/biliary with active 3-desacetyl metabolite). In renal or hepatic failure these accumulate and cause prolonged paralysis and difficulty in weaning from ventilation. **Organ-independent elimination** by Hofmann degradation makes the benzylisoquinolinium agents atracurium and cisatracurium predictable in such patients.\n\n## Simplified explanation\n\n**Atracurium and cisatracurium** break down **on their own** in the blood, so a failing liver and failing kidneys do not matter.",
+  "hint": "Which relaxants do not need the liver or kidney to be eliminated?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuromuscular Blockers",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **one major complication** of using **atracurium** in a patient with combined renal and hepatic failure.",
+  "answer": "> [!answer]\n> **Accumulation of laudanosine**, the tertiary amine product of Hofmann degradation. Laudanosine depends on **hepatic metabolism and renal excretion** for clearance; in combined liver and kidney failure it accumulates, crosses the blood–brain barrier and causes **CNS excitation — agitation, hypotension and ultimately seizures**.",
+  "explanation": "## Advanced explanation\n\nEach molecule of atracurium degrading by Hofmann elimination yields **laudanosine** plus a monoquaternary acrylate. Laudanosine is pharmacologically inactive at the neuromuscular junction but is a **CNS stimulant** that lowers the seizure threshold in animals at plasma concentrations above ~17 µg/mL. Risk rises with prolonged infusion in intensive care and with failure of both clearing organs. **Cisatracurium** is three to four times more potent, so the dose — and hence laudanosine production — is much lower.\n\n## Simplified explanation\n\nAtracurium breaks down into **laudanosine**, which the liver and kidneys normally remove. If both fail, it builds up and can cause **fits**.",
+  "hint": "What is the breakdown product, and what does it do to the brain?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **atracurium** and **cisatracurium**.",
+  "answer": "| | Atracurium | Cisatracurium |\n|---|---|---|\n| **Composition** | Mixture of **10 stereoisomers** | The single **1R-cis-1′R-cis isomer** of atracurium |\n| **Potency** | Less potent (ED₉₅ ≈ 0.2 mg/kg) | About **3–4 times more potent** (ED₉₅ ≈ 0.05 mg/kg), so a smaller dose is given |\n| **Elimination** | Hofmann degradation **plus** non-specific plasma ester hydrolysis | **Almost entirely Hofmann degradation** |\n| **Histamine release** | Dose-dependent **histamine release** → flushing, hypotension, bronchospasm | **Little or no histamine release**, cardiovascularly stable |\n| **Laudanosine production** | Greater | **Less** (smaller dose) |\n| **Onset** | Slightly faster | Slightly slower |\n\n> [!answer]\n> Cisatracurium is the **single most active stereoisomer of atracurium**: more potent, eliminated almost solely by Hofmann degradation, with **less histamine release** and less laudanosine.",
+  "explanation": "## Advanced explanation\n\nIsolating the cis-cis isomer removes the isomers responsible for most of the **non-specific mast-cell histamine release** of benzylisoquinolinium agents, so cisatracurium can be given as a rapid bolus without the flushing and hypotension seen with atracurium. Greater potency also means less drug by weight, so less laudanosine. Both retain the organ-independent elimination that makes them useful in hepatic and renal failure.\n\n## Simplified explanation\n\nCisatracurium is the **purified, stronger form of atracurium**. Because less is needed, it causes **less histamine release and fewer breakdown products**.",
+  "hint": "One is a mixture of isomers; the other is a single isomer.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why **atropine or glycopyrrolate** is given together with an **anticholinesterase** (e.g. neostigmine) when reversing neuromuscular blockade.",
+  "answer": "> [!answer]\n> Neostigmine inhibits acetylcholinesterase **everywhere**, so acetylcholine accumulates at **nicotinic (N_M) junctions** — the desired effect, reversing the block — but also at all **muscarinic** sites. The unopposed muscarinic effects are dangerous: **bradycardia and asystole, bronchoconstriction and bronchial secretions, salivation, lacrimation, miosis, abdominal colic, vomiting and urinary urgency**.\n>\n> **Atropine or glycopyrrolate is a competitive muscarinic antagonist**: it blocks those muscarinic effects while leaving the nicotinic reversal at the neuromuscular junction untouched (the junction uses nicotinic receptors). Glycopyrrolate is often preferred because it is **quaternary**, does not cross the blood–brain barrier (no central anticholinergic effects) and its slower onset matches neostigmine better; atropine's faster onset matches edrophonium.",
+  "explanation": "## Advanced explanation\n\nAnticholinesterases raise ACh concentration non-selectively. At the **neuromuscular junction**, the extra ACh competes with the non-depolarising blocker for N_M receptors and restores transmission. At **muscarinic receptors** on the heart (M₂), airways and glands (M₃) and gut, the same rise produces a cholinergic crisis. Because the two receptor families are pharmacologically distinct, an antimuscarinic can abolish the unwanted effects without reducing reversal. Pairing is by pharmacokinetic match: **glycopyrrolate + neostigmine** (both slower), **atropine + edrophonium** (both faster).\n\n## Simplified explanation\n\nNeostigmine raises acetylcholine everywhere — good at the muscle, but it **slows the heart and floods the airways with secretions**. Atropine or glycopyrrolate **blocks those unwanted effects** without stopping the muscle from recovering.",
+  "hint": "Nicotinic effects are wanted; muscarinic effects are not.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuromuscular Blockers",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain **phase I** and **phase II (dual) block** produced by **succinylcholine (suxamethonium)**.",
+  "answer": "> [!answer]\n> **Phase I block (depolarising block)** — succinylcholine binds and **persistently activates** the nicotinic receptor, so the end-plate stays **depolarised**. The adjacent muscle membrane cannot repolarise, voltage-gated sodium channels remain inactivated, and the muscle is flaccid. Typical features: initial **fasciculations**, **no fade** on train-of-four or tetanic stimulation, **no post-tetanic facilitation**, and the block is **augmented, not reversed, by anticholinesterases**.\n>\n> **Phase II block (desensitising/dual block)** — with **large or repeated doses or prolonged infusion** (or in patients with atypical pseudocholinesterase), the end-plate gradually **repolarises but the receptor becomes desensitised** and the block takes on the characteristics of a **non-depolarising block**: **fade** on train-of-four and tetanus, **post-tetanic facilitation**, and partial **reversal by anticholinesterases**.",
+  "explanation": "## Advanced explanation\n\nSuccinylcholine is two acetylcholine molecules joined tail to tail; it is not hydrolysed by junctional acetylcholinesterase, so it produces maintained agonist occupancy. Phase I is therefore a **true depolarising block** — the end-plate potential persists, the perijunctional membrane is inexcitable and fasciculation precedes paralysis. With continued exposure the receptor enters a **desensitised (closed, high-affinity) conformation** and the end-plate repolarises; transmission now fails for a different reason, and electrophysiologically the block resembles a competitive one, hence 'dual block'. Phase II is more likely after doses above 3–5 mg/kg, after infusion, and in patients with low or atypical plasma cholinesterase.\n\n## Simplified explanation\n\n**Phase I**: the drug keeps the muscle switched on, so it cannot fire again — you see twitching first, and anticholinesterases make it worse. **Phase II**: after a lot of drug the receptor stops responding altogether and the block starts to behave like a normal blocker — with fade, and anticholinesterases may help.",
+  "hint": "One phase keeps the end-plate depolarised; the other desensitises the receptor.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is a **fasciculation**, and why does succinylcholine cause it?",
+  "answer": "> [!answer]\n> A **fasciculation** is a **brief, visible, involuntary contraction of a small group of muscle fibres (a motor unit)** seen under the skin, which does not move a joint.\n>\n> Succinylcholine is a **nicotinic agonist**: before paralysis develops it **depolarises the end-plate and triggers an action potential in the muscle fibres**, producing a short burst of unsynchronised contractions. These disappear as the maintained depolarisation makes the membrane inexcitable.\n>\n> Fasciculations are associated with post-operative **muscle pain**, a rise in **serum potassium** and in **creatine kinase, myoglobin and intraocular/intragastric pressure**, and can be reduced by a small 'precurarising' dose of a non-depolarising blocker.",
+  "explanation": "## Advanced explanation\n\nThe agonist action of succinylcholine opens nicotinic cation channels; the resulting end-plate depolarisation exceeds threshold and propagates, so the whole motor unit contracts asynchronously. Because the drug is not hydrolysed at the junction, depolarisation persists, voltage-gated Na⁺ channels in the perijunctional membrane remain inactivated, and transmission fails — fasciculation gives way to flaccid paralysis. Potassium leaves the depolarised muscle, which is why succinylcholine is dangerous in burns, crush injury, denervation and prolonged immobility, where up-regulated extrajunctional receptors can cause **fatal hyperkalaemia**.\n\n## Simplified explanation\n\nSuccinylcholine first **switches muscle fibres on**, so they twitch visibly, and only then leaves them unable to fire, so the patient goes limp.",
+  "hint": "It happens because the drug is an agonist before it is a blocker.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **one example** of each of the following classes of drug:\n\n(a) Depolarising neuromuscular blocker\n(b) Non-depolarising neuromuscular blocker\n(c) Propionic acid derivative (NSAID)\n(d) Calcium channel blocker\n(e) Angiotensin receptor blocker (ARB)\n(f) Ganglion blocker\n(g) ACE inhibitor\n(h) SSRI\n(i) MAO inhibitor",
+  "answer": "| Class | Example |\n|---|---|\n| **(a) Depolarising NMB** | **Succinylcholine (suxamethonium)** (also decamethonium) |\n| **(b) Non-depolarising NMB** | **Atracurium** (also cisatracurium, vecuronium, rocuronium, pancuronium, tubocurarine) |\n| **(c) Propionic acid NSAID** | **Ibuprofen** (also naproxen, ketoprofen, flurbiprofen, fenoprofen) |\n| **(d) Calcium channel blocker** | **Nifedipine** (also amlodipine, verapamil, diltiazem) |\n| **(e) Angiotensin receptor blocker** | **Losartan** (also valsartan, candesartan, irbesartan, telmisartan) |\n| **(f) Ganglion blocker** | **Hexamethonium** (also trimetaphan, mecamylamine, pentolinium) |\n| **(g) ACE inhibitor** | **Captopril** (also lisinopril, enalapril, ramipril) |\n| **(h) SSRI** | **Fluoxetine** (also sertraline, paroxetine, citalopram, fluvoxamine) |\n| **(i) MAO inhibitor** | **Phenelzine** (also tranylcypromine, isocarboxazid, moclobemide, selegiline) |",
+  "explanation": "## Advanced explanation\n\nRecognising class suffixes helps: **-curium/-curonium** = non-depolarising blockers; **-profen** = propionic acid NSAIDs; **-dipine** = dihydropyridine calcium channel blockers; **-sartan** = angiotensin II AT₁ receptor blockers; **-pril** = ACE inhibitors. Hexamethonium is the classic **N_N (ganglionic) nicotinic antagonist** — historically used for hypertension but abandoned because it blocks both autonomic divisions.\n\n## Simplified explanation\n\nLearn one name per class — succinylcholine, atracurium, ibuprofen, nifedipine, losartan, hexamethonium, captopril, fluoxetine, phenelzine — and use the name endings (-profen, -dipine, -sartan, -pril) as clues.",
+  "hint": "Use the characteristic name endings of each class.",
+  "difficulty": "easy",
+  "marks": 18,
+  "tags": [
+   "Drug Classification",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **one example** of an antagonist at each of the following receptors:\n\n(a) α-adrenoceptor\n(b) β-adrenoceptor\n(c) Muscarinic receptor\n(d) Nicotinic receptor",
+  "answer": "| Receptor | Antagonist |\n|---|---|\n| **(a) α-adrenoceptor** | **Prazosin** (α₁), phentolamine (non-selective), yohimbine (α₂), phenoxybenzamine (irreversible) |\n| **(b) β-adrenoceptor** | **Propranolol** (non-selective), atenolol/metoprolol (β₁-selective) |\n| **(c) Muscarinic receptor** | **Atropine** (also hyoscine, ipratropium, glycopyrrolate, pirenzepine) |\n| **(d) Nicotinic receptor** | **Hexamethonium/trimetaphan** at the ganglionic N_N receptor; **tubocurarine, atracurium, vecuronium** at the muscle N_M receptor |",
+  "explanation": "## Advanced explanation\n\nAdrenoceptor antagonists are subdivided by subtype selectivity, which determines their clinical use: α₁ blockade lowers peripheral resistance (hypertension, benign prostatic hyperplasia), β₁ blockade reduces heart rate and contractility (angina, hypertension, heart failure, arrhythmias). Cholinergic antagonists split by receptor family: **muscarinic** antagonists for bradycardia, bronchospasm, antispasmodic and anaesthetic premedication; **nicotinic** antagonists at the ganglion (obsolete antihypertensives) or at the neuromuscular junction (surgical relaxation).\n\n## Simplified explanation\n\nα — **prazosin**; β — **propranolol**; muscarinic — **atropine**; nicotinic — **hexamethonium** (ganglion) or **tubocurarine/atracurium** (muscle).",
+  "hint": "One blocker for each of the four main autonomic receptor types.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the **four (4) characteristics** that a substance must satisfy to be accepted as a **neurotransmitter**.",
+  "answer": "> [!answer]\n> 1. **Synthesis and storage** — the substance (or its synthesising enzymes) must be **present in the presynaptic neurone** and stored in vesicles.\n> 2. **Calcium-dependent release** — it must be **released from the nerve terminal on depolarisation**, in a Ca²⁺-dependent manner, in amounts sufficient to produce a response.\n> 3. **Identity of action (mimicry)** — **exogenous application** of the substance to the postsynaptic cell must **reproduce the effect of nerve stimulation**, acting on specific receptors.\n> 4. **Mechanism of termination** — there must be a specific means of **removing it from the synaptic cleft** (enzymatic degradation, reuptake or diffusion).\n>\n> A fifth criterion often added: **pharmacological identity** — drugs that block or potentiate the response to nerve stimulation must affect the applied substance identically.",
+  "explanation": "## Advanced explanation\n\nThese are the classical criteria (Werman, Eccles) used to establish, for example, acetylcholine at the neuromuscular junction and noradrenaline at the sympathetic junction. Transmitters that fail one criterion are called **neuromodulators**; nitric oxide is an instructive exception — it is not stored in vesicles and is not removed by reuptake, but is synthesised on demand and diffuses out.\n\n## Simplified explanation\n\nIt must be **made and stored in the nerve**, **released when the nerve fires**, **able to reproduce the same effect when applied directly**, and there must be **a way to switch it off** afterwards.",
+  "hint": "Synthesis, release, mimicry, inactivation.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neurotransmission",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **two (2) differences** between **ionotropic** and **metabotropic** receptors.",
+  "answer": "| Ionotropic (ligand-gated ion channel) | Metabotropic (G-protein-coupled) |\n|---|---|\n| The **receptor is itself an ion channel**; binding opens the pore directly | The receptor is **coupled through a G protein to an effector enzyme or channel**; no intrinsic pore |\n| **Very fast — milliseconds** | **Slower — hundreds of milliseconds to seconds or minutes** |\n| No second messenger needed | Acts through **second messengers** (cAMP, IP₃/DAG, Ca²⁺) and protein kinases, giving **amplification** |\n| Short-lived, point-to-point synaptic transmission | Longer-lasting, modulatory effects including changes in gene expression |\n| Examples: nicotinic ACh, GABA_A, glycine, NMDA, AMPA, kainate, 5-HT₃ | Examples: muscarinic M₁–M₅, adrenoceptors, dopamine, GABA_B, metabotropic glutamate, opioid receptors |\n\n> [!answer]\n> Ionotropic receptors **are ion channels and act in milliseconds**; metabotropic receptors **work through G proteins and second messengers, are slower but amplify the signal and last longer**.",
+  "explanation": "## Advanced explanation\n\nIonotropic receptors are oligomeric channels (usually pentameric in the cys-loop family) whose agonist binding site and pore are in the same protein; current flows immediately, so they mediate fast excitatory (Na⁺/Ca²⁺) or inhibitory (Cl⁻) synaptic potentials. Metabotropic receptors are seven-transmembrane proteins coupling to Gs, Gi/o or Gq; one occupied receptor activates many G proteins, each activating an enzyme that makes many second messenger molecules — a **cascade with great amplification** but inevitable delay.\n\n## Simplified explanation\n\nIonotropic = the receptor **is the channel**, so the response is **instant**. Metabotropic = the receptor **sends a chemical message inside the cell**, so the response is **slower but bigger and longer**.",
+  "hint": "Is the pore part of the receptor, or is a G protein involved?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Neurotransmission",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Name the **agonist** that defines each of the following ionotropic glutamate receptor subtypes:\n\n(a) Kainate receptor\n(b) AMPA receptor\n(c) NMDA receptor",
+  "answer": "> [!answer]\n> **(a) Kainate receptor — kainate (kainic acid)**; domoic acid is also a potent agonist.\n> **(b) AMPA receptor — AMPA (α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid)**; quisqualate is also an agonist.\n> **(c) NMDA receptor — NMDA (N-methyl-D-aspartate)**.\n>\n> **Glutamate** is the endogenous agonist at all three; each subtype is named after the selective synthetic agonist used to identify it. The NMDA receptor additionally requires **glycine (or D-serine) as a co-agonist** and relief of the **voltage-dependent Mg²⁺ block**.",
+  "explanation": "## Advanced explanation\n\nIonotropic glutamate receptors were classified pharmacologically by selective agonists. **AMPA** receptors mediate fast excitatory transmission (Na⁺/K⁺ flux; Ca²⁺-permeable if they lack the edited GluA2 subunit). **Kainate** receptors have pre- and postsynaptic modulatory roles. **NMDA** receptors are both ligand- and voltage-gated, highly Ca²⁺-permeable, blocked by Mg²⁺ at resting potential and by ketamine, MK-801 and memantine in the channel, and antagonised competitively by **APV (AP5)**. Their Ca²⁺ entry underlies long-term potentiation — and, in excess, **excitotoxicity**.\n\n## Simplified explanation\n\nEach glutamate receptor is named after the chemical that selectively switches it on: **kainate, AMPA and NMDA**.",
+  "hint": "Each subtype is named after its selective agonist.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "CNS Pharmacology",
+   "2019/20 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain **excitotoxicity** with reference to glutamate.",
+  "answer": "> [!answer]\n> **Excitotoxicity** is **neuronal injury and death caused by excessive or prolonged activation of excitatory amino acid receptors**, chiefly **NMDA receptors by glutamate**.\n>\n> Mechanism: excess synaptic glutamate (from ischaemia, hypoglycaemia, trauma, status epilepticus or failure of glial reuptake) over-activates NMDA and AMPA receptors → sustained **Na⁺ and Ca²⁺ influx** → cell swelling and a large rise in **intracellular Ca²⁺** → activation of **proteases (calpains), phospholipases and endonucleases**, generation of **nitric oxide and free radicals**, mitochondrial damage and failure of ATP production → **necrosis or apoptosis** of the neurone.\n>\n> It contributes to the neuronal loss of **stroke, head injury, epilepsy and neurodegenerative disease**, and is the rationale for NMDA-channel blockers such as **memantine**.",
+  "explanation": "## Advanced explanation\n\nEnergy failure depolarises the neurone, relieving the **voltage-dependent Mg²⁺ block** of the NMDA receptor and reversing the Na⁺-dependent glutamate transporters, so glutamate accumulates in the cleft. Unrestrained Ca²⁺ entry triggers calpain-mediated cytoskeletal breakdown, phospholipase A₂ with arachidonic acid release, nNOS activation with peroxynitrite formation, and mitochondrial permeability transition. Both necrosis (acute, severe insult) and delayed apoptosis follow — which is why there is a therapeutic time window after stroke.\n\n## Simplified explanation\n\nToo much glutamate keeps the neurone switched on, **calcium floods in**, and the enzymes it activates **destroy the cell**.",
+  "hint": "Too much glutamate → too much calcium → enzyme activation → cell death.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "CNS Pharmacology",
+   "2019/20 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **uptake 1** and **uptake 2** of noradrenaline.",
+  "answer": "| | Uptake 1 (NET, neuronal uptake) | Uptake 2 (extraneuronal, OCT/EMT) |\n|---|---|---|\n| **Location** | **Presynaptic noradrenergic nerve terminal membrane** | **Extraneuronal tissues** — smooth muscle, cardiac muscle, glia, hepatocytes, endothelium |\n| **Affinity/capacity** | **High affinity, low capacity** — the main route terminating the action of released noradrenaline | **Low affinity, high capacity** — important at high circulating concentrations |\n| **Substrate preference** | Noradrenaline > adrenaline ≫ isoprenaline | Adrenaline and **isoprenaline** are good substrates |\n| **Fate of the amine** | Re-stored in vesicles for reuse, or deaminated by **MAO** | Metabolised mainly by **COMT** (and MAO) |\n| **Inhibitors** | **Cocaine, tricyclic antidepressants (imipramine, desipramine), amphetamine** | **Steroids (corticosterone, oestrogens), normetanephrine, phenoxybenzamine** |\n| **Energy** | Na⁺-dependent, secondary active transport | Facilitated, Na⁺-independent transport |\n\n> [!answer]\n> **Uptake 1** is the **high-affinity, low-capacity neuronal reuptake** that recycles released noradrenaline and is blocked by cocaine and tricyclics. **Uptake 2** is the **low-affinity, high-capacity extraneuronal uptake** into smooth muscle and other tissues, prefers adrenaline/isoprenaline, and is blocked by steroids.",
+  "explanation": "## Advanced explanation\n\nReleased noradrenaline is removed chiefly by **uptake 1 (NET, SLC6A2)**, a Na⁺/Cl⁻-coupled transporter; about 75–80% of transmitter is recaptured and either re-vesiculated by VMAT or deaminated by mitochondrial MAO. Blocking uptake 1 prolongs and potentiates sympathetic responses, which explains the sympathomimetic and arrhythmogenic effects of cocaine and the potentiation of pressor amines by tricyclic antidepressants. **Uptake 2 (OCT3/EMT)** has lower affinity but far greater capacity and handles circulating catecholamines; it feeds amine to COMT, which is why normetanephrine is a major extraneuronal metabolite.\n\n## Simplified explanation\n\n**Uptake 1** takes noradrenaline **back into the nerve** to be reused — cocaine blocks it. **Uptake 2** mops up catecholamines into **other tissues** such as muscle, and prefers adrenaline and isoprenaline.",
+  "hint": "Neuronal versus extraneuronal; cocaine versus steroids.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "In Parkinson's disease the problem is a deficiency of **dopamine** in the basal ganglia, yet dopamine itself cannot be used as treatment. State the **problem** and the **solution** adopted in therapy.",
+  "answer": "> [!answer]\n> **Problem:** dopamine is a **polar catecholamine that does not cross the blood–brain barrier**, so an injected or swallowed dose cannot reach the nigrostriatal neurones. It is also destroyed rapidly in the periphery by **MAO and COMT**, and peripheral dopamine causes nausea, vomiting, tachycardia and hypotension.\n>\n> **Solution:** give the **precursor levodopa (L-DOPA)**, an amino acid that is **actively transported across the blood–brain barrier** by the large neutral amino acid carrier and is then decarboxylated to dopamine inside the brain.\n>\n> Levodopa is combined with a **peripheral DOPA-decarboxylase inhibitor that does not cross the blood–brain barrier — carbidopa or benserazide** — so that less is converted in the periphery. This increases the fraction reaching the brain about fourfold, allows the dose to be cut by ~75% and greatly reduces nausea and cardiovascular effects. A **COMT inhibitor (entacapone)** or **MAO-B inhibitor (selegiline)** may be added.",
+  "explanation": "## Advanced explanation\n\nWithout a decarboxylase inhibitor, more than 95% of an oral levodopa dose is decarboxylated in gut wall, liver, kidney and blood vessels, so only about 1–5% reaches the brain. **Carbidopa and benserazide** are charged and remain peripheral, blocking that loss. Levodopa competes with dietary large neutral amino acids for the LAT1 transporter in both gut and blood–brain barrier, so protein-rich meals reduce its effect. Long-term use brings the 'on–off' phenomenon, end-of-dose deterioration and dyskinesias, reflecting progressive loss of the nigrostriatal terminals that buffer dopamine.\n\n## Simplified explanation\n\nDopamine **cannot get into the brain**. So we give **levodopa**, which can, plus **carbidopa**, which stops it being changed into dopamine before it gets there.",
+  "hint": "Think blood–brain barrier, and what is given with levodopa.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "CNS Pharmacology",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **one example** of a β₂-adrenoceptor bronchodilator in each of the following chemical classes:\n\n(a) Catecholamine\n(b) Resorcinol\n(c) Saligenin\n(d) Non-catecholamine (ring-modified, orally active)",
+  "answer": "| Class | Example |\n|---|---|\n| **(a) Catecholamine (3,4-dihydroxy)** | **Isoprenaline (isoproterenol)**; also isoetharine, rimiterol, hexoprenaline |\n| **(b) Resorcinol (3,5-dihydroxy)** | **Terbutaline**; also orciprenaline (metaproterenol) and fenoterol |\n| **(c) Saligenin (3-hydroxymethyl, 4-hydroxy)** | **Salbutamol (albuterol)**; also salmeterol |\n| **(d) Non-catecholamine** | **Salbutamol/terbutaline/salmeterol/formoterol** — all lack the catechol ring, so they resist COMT and are orally active and longer-acting |\n\n> [!answer]\n> Catecholamine — **isoprenaline**; resorcinol — **terbutaline**; saligenin — **salbutamol**; non-catecholamines in general — **salbutamol, terbutaline, salmeterol, formoterol**.",
+  "explanation": "## Advanced explanation\n\nThe catechol 3,4-dihydroxy pattern is the substrate for **catechol-O-methyltransferase**; moving one hydroxyl to position 5 (**resorcinol**) or replacing the 3-OH with a hydroxymethyl group (**saligenin**) abolishes COMT metabolism, giving oral activity and a longer duration. Enlarging the N-substituent (isopropyl → t-butyl → long lipophilic chains in salmeterol and formoterol) shifts selectivity progressively from α to β and then from β₁ to **β₂**, reducing cardiac stimulation.\n\n## Simplified explanation\n\nChanging the ring from **catechol** to **resorcinol** or **saligenin** stops the body destroying the drug, so **terbutaline and salbutamol** last much longer than **isoprenaline** and can be swallowed.",
+  "hint": "Where are the hydroxyl groups on the ring in each case?",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Autonomic Pharmacology",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A figure shows the structures and relative receptor potencies of noradrenaline (α > β), adrenaline (α = β), isoprenaline (α < β) and isoetharine (β₂ > β₁).\n\n(a) What **phenomenon or theory** does this illustrate?\n(b) State **one key observation** that can be drawn from it.",
+  "answer": "> [!answer]\n> **(a)** It illustrates the **structure–activity relationship (SAR) of the catecholamines**, explained by the **'key-and-lock' (keyhole) theory** of drug–receptor interaction: the receptor accepts the molecule only if its shape and substituents fit the binding site, and modifying the molecule changes which receptor it fits.\n>\n> **(b)** **As the size of the substituent on the amino nitrogen increases, activity shifts from α- towards β-adrenoceptors, and with still bulkier groups towards β₂ selectivity.**\n> - Noradrenaline (N–H): α > β\n> - Adrenaline (N–CH₃): α = β\n> - Isoprenaline (N–isopropyl): α < β (essentially pure β)\n> - Isoetharine (isopropyl plus an α-ethyl group): **β₂ > β₁**\n>\n> Other acceptable observations: the catechol hydroxyls are needed for full potency at both receptor types, and the β-hydroxyl group is required for high affinity.",
+  "explanation": "## Advanced explanation\n\nThe β-adrenoceptor binding pocket accommodates a bulky N-substituent, whereas the α₁ pocket does not; hence progressive N-alkylation converts an α-selective agonist into a β-selective one. Adding an α-carbon substituent (isoetharine) or a long lipophilic N-chain (salmeterol, formoterol) adds β₂ selectivity and, in the long-acting agents, anchoring to an exosite that prolongs action. This is the classical demonstration of **complementarity between drug and receptor** — Ehrlich's 'lock and key'.\n\n## Simplified explanation\n\nThe bigger the group attached to the **nitrogen**, the more the drug prefers **β receptors** instead of α — and the biggest groups make it prefer **β₂** (lung) over β₁ (heart). The drug has to fit the receptor like a key in a lock.",
+  "hint": "Look at what is attached to the nitrogen in each molecule.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Autonomic Pharmacology",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Classify the following NSAIDs into their chemical groups — **fenamates, indoles, propionic acid derivatives, pyrazolones, salicylates, phenylacetic acid derivatives (and others)**:\n\naspirin, diclofenac, ibuprofen, indomethacin, mefenamic acid, naproxen, phenylbutazone, piroxicam, sulindac, diflunisal, ketoprofen, flufenamic acid, celecoxib, paracetamol.",
+  "answer": "| Chemical group | Drugs |\n|---|---|\n| **Salicylates** | **Aspirin (acetylsalicylic acid), diflunisal** |\n| **Propionic acid derivatives** | **Ibuprofen, naproxen, ketoprofen** |\n| **Indole/indene acetic acids** | **Indomethacin, sulindac** |\n| **Phenylacetic acid derivatives** | **Diclofenac** |\n| **Fenamates (anthranilic acids)** | **Mefenamic acid, flufenamic acid** |\n| **Pyrazolones** | **Phenylbutazone** |\n| **Oxicams (enolic acids)** | **Piroxicam** |\n| **Coxibs (selective COX-2 inhibitors)** | **Celecoxib** |\n| **Para-aminophenol derivatives** | **Paracetamol (acetaminophen)** — analgesic/antipyretic, weak anti-inflammatory |\n\n> [!answer]\n> Salicylates: aspirin, diflunisal. Propionates: ibuprofen, naproxen, ketoprofen. Indoles: indomethacin, sulindac. Phenylacetate: diclofenac. Fenamates: mefenamic and flufenamic acid. Pyrazolone: phenylbutazone. Oxicam: piroxicam. Coxib: celecoxib. Aniline derivative: paracetamol.",
+  "explanation": "## Advanced explanation\n\nAll except paracetamol and the coxibs are **non-selective inhibitors of COX-1 and COX-2**; chemical class predicts some clinical behaviour. Pyrazolones (phenylbutazone) are largely withdrawn because of **agranulocytosis and aplastic anaemia**; indomethacin is highly potent but causes frontal headache and gastrointestinal toxicity; propionates are the best tolerated and are the usual over-the-counter choice; oxicams have long half-lives allowing once-daily dosing; coxibs spare gastric COX-1 but increase cardiovascular risk. **Paracetamol** is a weak peripheral COX inhibitor that works centrally and is not classed as an anti-inflammatory.\n\n## Simplified explanation\n\nGroup them by their chemistry: **aspirin family** (salicylates), the **'-profens'** (propionic acids), **indomethacin-type** (indoles), **diclofenac** (phenylacetic), **mefenamic acid** (fenamates), **phenylbutazone** (pyrazolone), **piroxicam** (oxicam), **celecoxib** (coxib) and **paracetamol** on its own.",
+  "hint": "The drug's chemical skeleton gives the group its name.",
+  "difficulty": "medium",
+  "marks": 7,
+  "tags": [
+   "NSAIDs",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **one example** of a **non-specific (non-selective) COX inhibitor** from each of the following classes:\n\n(a) Salicylates\n(b) Aniline derivatives\n(c) Indoles\n(d) Propionic acid derivatives\n(e) Piroxicam derivatives (oxicams)",
+  "answer": "> [!answer]\n> **(a) Salicylates — aspirin** (acetylsalicylic acid); also diflunisal, salicylamide.\n> **(b) Aniline (para-aminophenol) derivatives — paracetamol (acetaminophen)**; also phenacetin (withdrawn).\n> **(c) Indoles — indomethacin**; also sulindac and etodolac.\n> **(d) Propionic acid derivatives — ibuprofen**; also naproxen, ketoprofen, flurbiprofen.\n> **(e) Oxicams — piroxicam**; also tenoxicam and meloxicam (preferentially COX-2).",
+  "explanation": "## Advanced explanation\n\nNon-selective NSAIDs inhibit both isoforms of cyclo-oxygenase. **COX-1** is constitutive and produces the prostaglandins that protect gastric mucosa, maintain renal perfusion and generate platelet thromboxane A₂; **COX-2** is largely inducible at sites of inflammation. Inhibiting COX-1 therefore explains the characteristic adverse effects — dyspepsia and peptic ulceration, salt and water retention with worsening of renal function and hypertension, bleeding tendency, and bronchospasm in aspirin-sensitive asthma. Aspirin differs in being an **irreversible** inhibitor (acetylation of serine 530), so platelet inhibition lasts the platelet's lifetime.\n\n## Simplified explanation\n\nOne example each: **aspirin, paracetamol, indomethacin, ibuprofen, piroxicam**.",
+  "hint": "One drug per chemical family.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "NSAIDs",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **two examples** each of an opioid **agonist**, a **mixed agonist–antagonist** and an opioid **antagonist**.",
+  "answer": "| Group | Examples |\n|---|---|\n| **Full agonists** | **Morphine, pethidine (meperidine)** — also fentanyl, methadone, codeine, oxycodone, heroin |\n| **Mixed agonist–antagonists / partial agonists** | **Pentazocine, nalbuphine** — also butorphanol and buprenorphine (partial µ agonist) |\n| **Antagonists** | **Naloxone, naltrexone** — also nalmefene |\n\n> [!answer]\n> Agonists: **morphine and pethidine**. Mixed agonist–antagonists: **pentazocine and nalbuphine**. Antagonists: **naloxone and naltrexone**.",
+  "explanation": "## Advanced explanation\n\nClassification depends on activity at the **µ (MOP), κ (KOP) and δ (DOP)** receptors. Full agonists activate µ and give dose-dependent analgesia with respiratory depression and dependence. **Mixed agonist–antagonists** such as pentazocine and nalbuphine are κ agonists and µ antagonists or partial agonists: they produce analgesia with a **ceiling effect** on respiratory depression, less dependence, but dysphoria, and they can precipitate **withdrawal in a patient dependent on a full agonist**. Pure antagonists have affinity without efficacy; **naloxone** is short-acting and given intravenously for overdose, **naltrexone** is long-acting and oral, used in dependence programmes.\n\n## Simplified explanation\n\n**Morphine and pethidine** switch the receptor on fully. **Pentazocine and nalbuphine** switch some receptors on and block others. **Naloxone and naltrexone** only block.",
+  "hint": "Think morphine, pentazocine and naloxone as the prototypes.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Opioid Analgesics",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **opiates** and **opioids**.",
+  "answer": "| Opiates | Opioids |\n|---|---|\n| **Naturally occurring alkaloids obtained from the opium poppy** (*Papaver somniferum*) and their simple semi-synthetic derivatives | **Any substance, natural or synthetic, that acts on opioid receptors** and produces morphine-like effects |\n| A **chemical/botanical** definition — source-based | A **pharmacological** definition — mechanism-based |\n| Examples: **morphine, codeine, thebaine, papaverine, noscapine** (and heroin as a semi-synthetic) | Examples: all the opiates **plus** pethidine, fentanyl, methadone, tramadol, and the **endogenous opioid peptides** (endorphins, enkephalins, dynorphins) |\n\n> [!answer]\n> **All opiates are opioids, but not all opioids are opiates**: 'opiate' means it comes from opium, 'opioid' means it acts at opioid receptors.",
+  "explanation": "## Advanced explanation\n\n'Opiate' is now largely restricted to the phenanthrene alkaloids of opium (morphine, codeine, thebaine) and the benzylisoquinolines (papaverine, noscapine). 'Opioid' is the inclusive pharmacological term covering endogenous peptides derived from pro-opiomelanocortin, proenkephalin and prodynorphin, as well as all synthetic agonists, partial agonists and antagonists at µ, κ and δ receptors.\n\n## Simplified explanation\n\n**Opiates come from the poppy**; **opioids are anything that works on the same receptors**, including man-made drugs and the body's own endorphins.",
+  "hint": "One term is about origin, the other about action.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Opioid Analgesics",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **five (5) haemodynamic effects** of **ACE inhibitors**.",
+  "answer": "> [!answer]\n> 1. **Fall in systemic vascular resistance (afterload)** — less angiotensin II means less arteriolar vasoconstriction; blood pressure falls in hypertensive patients without a reflex tachycardia.\n> 2. **Reduced preload (venodilatation and reduced blood volume)** — less aldosterone, so less sodium and water retention; venous return and filling pressures fall.\n> 3. **Increased cardiac output and stroke volume in heart failure**, because both afterload and preload are reduced while heart rate is little changed.\n> 4. **Reduced renal efferent arteriolar tone**, lowering intraglomerular pressure — this reduces proteinuria and slows diabetic nephropathy, but can precipitate a fall in GFR in renal artery stenosis.\n> 5. **Reduced sympathetic activity** (angiotensin II facilitates noradrenaline release and is a central dipsogen/pressor), and **increased bradykinin, prostacyclin and nitric oxide**, adding to vasodilatation.\n> 6. **Regression of left ventricular and vascular hypertrophy and remodelling** with long-term use.\n>\n> (Any five.)",
+  "explanation": "## Advanced explanation\n\nACE inhibitors block conversion of angiotensin I to angiotensin II and also inhibit **kininase II**, so bradykinin accumulates. The haemodynamic result is **balanced arterial and venous dilatation** with little change in heart rate because the baroreflex is reset and sympathetic facilitation by angiotensin II is removed. In the kidney, efferent arteriolar dilatation lowers filtration fraction and intraglomerular capillary pressure — renoprotective in diabetic nephropathy but hazardous in bilateral renal artery stenosis, where GFR depends on efferent tone. Suppression of aldosterone reduces Na⁺/water retention and can cause hyperkalaemia; accumulated bradykinin explains the dry cough and angio-oedema.\n\n## Simplified explanation\n\nThey **widen arteries and veins**, so blood pressure, the load on the heart and the filling pressures all fall, **cardiac output improves in heart failure**, the kidney's filtration pressure falls, and over time the thickened heart muscle returns towards normal.",
+  "hint": "Think afterload, preload, cardiac output, renal haemodynamics and remodelling.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Cardiovascular Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What are **diuretics**? State the **five (5) main classes**, their **mechanism of action** and **two examples** of each.",
+  "answer": "> [!answer]\n> **Diuretics** are drugs that **increase the rate of urine flow and sodium excretion** by acting primarily on the kidney to reduce tubular reabsorption of sodium and water.\n>\n> | Class | Site and mechanism | Examples |\n> |---|---|---|\n> | **Carbonic anhydrase inhibitors** | Proximal convoluted tubule — inhibit carbonic anhydrase, so H⁺ secretion and HCO₃⁻/Na⁺ reabsorption fall; weak diuresis with alkaline urine and metabolic acidosis | **Acetazolamide, dorzolamide (topical)** |\n> | **Loop (high-ceiling) diuretics** | Thick ascending limb — inhibit the **Na⁺/K⁺/2Cl⁻ (NKCC2) co-transporter**; most powerful class, abolish the medullary gradient | **Furosemide, bumetanide** (also torasemide, ethacrynic acid) |\n> | **Thiazides and thiazide-like** | Early distal convoluted tubule — inhibit the **Na⁺/Cl⁻ co-transporter**; moderate diuresis, reduce calcium excretion | **Hydrochlorothiazide, bendroflumethiazide** (also chlortalidone, indapamide, metolazone) |\n> | **Potassium-sparing diuretics** | Collecting duct — **aldosterone antagonists** (spironolactone, eplerenone) or **ENaC blockers** (amiloride, triamterene); weak, used with K⁺-losing diuretics | **Spironolactone, amiloride** |\n> | **Osmotic diuretics** | Freely filtered, poorly reabsorbed solutes raise tubular osmolality, chiefly in the proximal tubule and loop, so water is retained in the lumen | **Mannitol, urea** (also isosorbide, glycerol) |",
+  "explanation": "## Advanced explanation\n\nThe potency of each class reflects how much filtered sodium is normally reabsorbed at its site: proximal tubule 60–70% (but downstream segments compensate, so carbonic anhydrase inhibitors are weak), thick ascending limb 25% (**loop diuretics, up to 20–25% of filtered Na⁺ excreted**), distal convoluted tubule 5–10% (thiazides), collecting duct 1–3% (potassium-sparing). Loop diuretics and thiazides are secreted into the tubule by the **organic anion transporter**, so they act from the luminal side and their effect is reduced by competition with urate — explaining hyperuricaemia. Adverse effects follow the mechanism: hypokalaemia and hypomagnesaemia with loop and thiazide diuretics, hyperkalaemia with potassium-sparing agents, hyponatraemia with thiazides, ototoxicity with rapid high-dose furosemide.\n\n## Simplified explanation\n\nDiuretics make you **pass more urine and lose salt**. They are grouped by **where in the kidney tubule they work**: acetazolamide at the start, furosemide in the loop, thiazides in the distal tubule, spironolactone/amiloride at the end, and mannitol which simply drags water along with it.",
+  "hint": "Work down the nephron from proximal tubule to collecting duct.",
+  "difficulty": "hard",
+  "marks": 12,
+  "tags": [
+   "Cardiovascular Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain how the **renin–angiotensin system (RAS)** can be manipulated in:\n\n(a) Hypervolaemia\n(b) Hypovolaemia\n(c) The effect on urine volume",
+  "answer": "> [!answer]\n> **(a) Hypervolaemia (fluid overload, e.g. heart failure, hypertension, oedema):** **suppress or block the RAS** — give an **ACE inhibitor, an ARB or a direct renin inhibitor**, and/or a **mineralocorticoid receptor antagonist (spironolactone)**. Less angiotensin II means vasodilatation and less aldosterone, so **sodium and water are excreted, plasma volume falls and blood pressure falls**. Loop or thiazide diuretics are added to increase sodium loss directly.\n>\n> **(b) Hypovolaemia (haemorrhage, dehydration, shock):** the RAS should be **left intact or supported** — RAS blockers are **contraindicated** because the fall in renal perfusion makes glomerular filtration dependent on angiotensin II-mediated efferent arteriolar constriction. Renin release rises physiologically, angiotensin II restores blood pressure and aldosterone and ADH conserve salt and water; treatment is **volume replacement**, with vasopressors if needed.\n>\n> **(c) Urine volume:** **blocking the RAS increases urine volume and sodium excretion** (natriuresis and diuresis); **activating/leaving the RAS intact reduces urine volume** as aldosterone and ADH promote sodium and water reabsorption, producing a small volume of concentrated urine.",
+  "explanation": "## Advanced explanation\n\nRenin is released from juxtaglomerular cells in response to **reduced renal perfusion pressure, reduced distal NaCl delivery sensed by the macula densa, and β₁-sympathetic stimulation**. Angiotensin II then acts at AT₁ receptors to constrict arterioles (preferentially efferent), stimulate aldosterone and ADH release, enhance proximal Na⁺/H⁺ exchange and stimulate thirst. In hypervolaemic states this axis is inappropriately active and sustains congestion, so blockade is therapeutic and improves survival in heart failure. In true hypovolaemia the same axis is the compensatory mechanism maintaining GFR, so blockade can precipitate acute kidney injury — the reason ACE inhibitors are withheld in dehydration, sepsis and bilateral renal artery stenosis.\n\n## Simplified explanation\n\nToo much fluid → **block the system** (ACE inhibitors, ARBs, spironolactone) so salt and water are passed out and urine volume rises. Too little fluid → **do not block it** — the body needs it to hold on to salt and water; give fluids instead.",
+  "hint": "The same system is harmful in overload and protective in depletion.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Cardiovascular Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why **ACE inhibitors are contraindicated** in patients in whom **bradykinin or substance P-like effects** would be harmful, and why **ARBs are preferred** in such patients.",
+  "answer": "> [!answer]\n> ACE (kininase II) does two jobs: it **converts angiotensin I to angiotensin II** and it **degrades bradykinin and substance P**. An ACE inhibitor therefore not only lowers angiotensin II but also allows **bradykinin and substance P to accumulate**, causing:\n> - a persistent **dry, irritant cough** (in up to 10–20% of patients, more in women and some ethnic groups),\n> - **angio-oedema** of lips, tongue, larynx and gut — potentially fatal airway obstruction,\n> - **bronchial hyper-reactivity**, and exaggerated hypotension.\n>\n> Hence they are avoided in patients who have had **angio-oedema** (including hereditary angio-oedema), in those with intolerable cough, and with caution in reactive airways disease.\n>\n> **ARBs (losartan, valsartan, candesartan) block the AT₁ receptor downstream** and **do not inhibit kininase II**, so bradykinin and substance P are degraded normally. They give the same haemodynamic benefit **without cough** and with a much lower (though not zero) risk of angio-oedema — so they are the preferred substitute.",
+  "explanation": "## Advanced explanation\n\nBradykinin acts on B₂ receptors to release nitric oxide and prostacyclin and to stimulate sensory C-fibres in the airway, explaining both the extra vasodilatation and the cough. Substance P accumulation adds to neurogenic inflammation. Because ARBs act at the receptor, angiotensin II formed by non-ACE pathways (chymase) is also blocked, while kinin metabolism is untouched. ACE inhibitors and ARBs share the other class risks — hyperkalaemia, first-dose hypotension, deterioration of renal function in renal artery stenosis, and **fetal toxicity**, so both are contraindicated in pregnancy.\n\n## Simplified explanation\n\nACE inhibitors stop the enzyme that also breaks down **bradykinin**, so it builds up and causes a **dry cough and sometimes dangerous swelling**. **ARBs block the receptor instead**, leave bradykinin alone, and so avoid the cough.",
+  "hint": "ACE has a second substrate besides angiotensin I.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Cardiovascular Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What are the **xanthines (methylxanthines)**? Name **three** and compare their pharmacological activity.",
+  "answer": "> [!answer]\n> The **methylxanthines** are naturally occurring purine alkaloids — **caffeine, theophylline and theobromine** — found in coffee, tea and cocoa. Aminophylline is the soluble theophylline–ethylenediamine complex used intravenously.\n>\n> | | CNS stimulation | Cardiac stimulation | Bronchodilatation | Diuresis |\n> |---|---|---|---|---|\n> | **Caffeine** | **Strongest** | moderate | weak | moderate |\n> | **Theophylline** | moderate | **strongest** | **strongest** | **strongest** |\n> | **Theobromine** | weakest | weak | weak | weak |\n>\n> Clinically, **theophylline** is used as a bronchodilator in asthma and COPD and (as caffeine citrate) in neonatal apnoea; **caffeine** as a CNS stimulant and analgesic adjuvant.\n>\n> **Mechanisms:** (i) non-selective **phosphodiesterase inhibition** raising cAMP/cGMP, (ii) **adenosine (A₁/A₂) receptor antagonism**, (iii) increased histone deacetylase activity (anti-inflammatory at low dose), and (iv) at high concentration, release of Ca²⁺ from the sarcoplasmic reticulum.",
+  "explanation": "## Advanced explanation\n\nTheophylline has a **narrow therapeutic index** (10–20 mg/L); above this, nausea, vomiting, tachyarrhythmias and seizures occur. It is metabolised by **CYP1A2**, so clearance is increased by smoking and rifampicin and decreased by cimetidine, erythromycin, ciprofloxacin, heart failure and liver disease — hence plasma monitoring. The classic mechanisms are both disputed at therapeutic concentrations: PDE inhibition requires concentrations above the therapeutic range, and adenosine antagonism explains the side effects better than the bronchodilatation (enprofylline is a bronchodilator but a poor adenosine antagonist).\n\n## Simplified explanation\n\nXanthines are **caffeine, theophylline and theobromine**. **Caffeine wakes you up most**, **theophylline opens the airways and stimulates the heart and kidneys most**, and theobromine is the weakest of the three.",
+  "hint": "Coffee, tea and cocoa.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Respiratory Pharmacology",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **five (5) factors** that affect the activity (plasma concentration and clearance) of **theophylline**.",
+  "answer": "> [!answer]\n> 1. **Age** — clearance is low in neonates and the elderly, and highest in children aged 1–9 years.\n> 2. **Smoking (and cannabis)** — induces **CYP1A2**, increasing clearance by 50–100%, so smokers need larger doses; stopping smoking can cause toxicity.\n> 3. **Liver disease, heart failure, cor pulmonale and pneumonia/viral infection** — reduce hepatic clearance, raising plasma levels.\n> 4. **Interacting drugs** — enzyme **inhibitors** (cimetidine, erythromycin/clarithromycin, ciprofloxacin, allopurinol, oral contraceptives) raise levels; **inducers** (rifampicin, phenytoin, carbamazepine, phenobarbital) lower them.\n> 5. **Diet and other factors** — high-protein/low-carbohydrate diets and charcoal-grilled meat increase clearance; obesity (dose on ideal body weight), fever, pregnancy and the **formulation/route** (sustained-release versus IV aminophylline) also alter plasma concentration.",
+  "explanation": "## Advanced explanation\n\nTheophylline is eliminated almost entirely by hepatic metabolism, principally **CYP1A2** with a contribution from CYP3A4 and CYP2E1, and follows near zero-order kinetics at the top of the therapeutic range — so a small dose increase can produce a disproportionate rise in concentration. Because the therapeutic range (10–20 mg/L) sits close to the toxic range, every factor above is clinically important and **therapeutic drug monitoring** is standard.\n\n## Simplified explanation\n\nHow much theophylline is in the blood depends on **age, smoking, liver and heart disease, other drugs taken, and diet** — which is why blood levels are measured.",
+  "hint": "Anything that changes CYP1A2 activity or hepatic blood flow.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Respiratory Pharmacology",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe the **biosynthesis** of acetylcholine, noradrenaline and 5-hydroxytryptamine, and state **one drug target** in each pathway.",
+  "answer": "> [!answer]\n> **Acetylcholine**\n> Choline (taken up by the high-affinity **choline transporter**) + acetyl-CoA → **acetylcholine**, catalysed by **choline acetyltransferase (ChAT)**; ACh is packed into vesicles by **VAChT**.\n> *Drug targets:* **hemicholinium** blocks choline uptake; **vesamicol** blocks vesicular storage; **botulinum toxin** blocks release; **anticholinesterases (neostigmine, physostigmine)** block its breakdown.\n>\n> **Noradrenaline**\n> Tyrosine → (**tyrosine hydroxylase**, the rate-limiting step) → DOPA → (**DOPA decarboxylase**) → dopamine → (**dopamine β-hydroxylase**, inside the vesicle) → **noradrenaline** → (**PNMT**, adrenal medulla only) → adrenaline.\n> *Drug targets:* **α-methyl-p-tyrosine (metirosine)** inhibits tyrosine hydroxylase; **carbidopa** inhibits DOPA decarboxylase; **reserpine** blocks vesicular uptake (VMAT); **guanethidine** blocks release; **cocaine/tricyclics** block reuptake; **MAO inhibitors** block degradation.\n>\n> **5-Hydroxytryptamine (serotonin)**\n> Tryptophan → (**tryptophan hydroxylase**, rate-limiting) → 5-hydroxytryptophan → (**aromatic L-amino acid decarboxylase**) → **5-HT** → degraded by **MAO-A** to 5-HIAA.\n> *Drug targets:* **p-chlorophenylalanine** inhibits tryptophan hydroxylase; **SSRIs (fluoxetine)** block the 5-HT transporter; **MAO-A inhibitors (moclobemide)** block degradation; reserpine depletes vesicular stores.",
+  "explanation": "## Advanced explanation\n\nEach pathway has a **rate-limiting enzyme** (ChAT is not rate-limiting for ACh — choline uptake is; tyrosine hydroxylase for catecholamines; tryptophan hydroxylase for 5-HT), and each step — synthesis, vesicular storage, release, receptor action, reuptake and metabolism — is a potential drug target. Tyrosine hydroxylase and tryptophan hydroxylase are both tetrahydrobiopterin-dependent mono-oxygenases subject to end-product (feedback) inhibition, which is why catecholamine synthesis is self-regulating.\n\n## Simplified explanation\n\nACh is made from **choline + acetyl-CoA**; noradrenaline from **tyrosine → DOPA → dopamine → noradrenaline**; serotonin from **tryptophan → 5-HTP → 5-HT**. Drugs can block any step: making it, storing it, releasing it, taking it back up, or breaking it down.",
+  "hint": "Name the precursor, the enzymes, and one blocker at any step.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Neurotransmission",
+   "2019/20 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Classify the following neurotransmitters into **quaternary amines, monoamines, amino acids, opioid peptides and peptide hormones**:\n\nacetylcholine, noradrenaline, dopamine, 5-hydroxytryptamine, melatonin, GABA, glutamate, glycine, histamine, met-enkephalin, leu-enkephalin, β-endorphin, dynorphin A, oxytocin, substance P, cholecystokinin, vasopressin, neuropeptide Y.",
+  "answer": "| Class | Transmitters |\n|---|---|\n| **Quaternary amine** | **Acetylcholine** |\n| **Monoamines** | **Noradrenaline, dopamine, 5-hydroxytryptamine (serotonin), histamine, melatonin** (catecholamines + indoleamines + imidazoleamine) |\n| **Amino acids** | **Glutamate (excitatory); GABA and glycine (inhibitory)** |\n| **Opioid peptides** | **Met-enkephalin and leu-enkephalin** (enkephalins), **β-endorphin** (endorphins), **dynorphin A** (dynorphins) |\n| **Peptide hormones / neuropeptides** | **Oxytocin, vasopressin (ADH), substance P, cholecystokinin, neuropeptide Y** |\n\n> [!answer]\n> ACh is the quaternary amine; NA, dopamine, 5-HT, histamine and melatonin are monoamines; glutamate, GABA and glycine are amino acids; the enkephalins, β-endorphin and dynorphin A are opioid peptides; oxytocin, vasopressin, substance P, CCK and NPY are peptides.",
+  "explanation": "## Advanced explanation\n\nSmall-molecule transmitters (ACh, monoamines, amino acids) are synthesised **in the terminal** and stored in small clear vesicles for fast point-to-point transmission; **neuropeptides** are made in the cell body as **pro-proteins** (pro-opiomelanocortin → β-endorphin; proenkephalin → met/leu-enkephalin; prodynorphin → dynorphins), transported down the axon in large dense-core vesicles, released only at high firing frequencies, and inactivated by peptidases rather than reuptake — so their effects are slower and longer lasting. Melatonin is an indoleamine derived from 5-HT in the pineal gland.\n\n## Simplified explanation\n\nAcetylcholine stands alone; **adrenaline-like and serotonin-like chemicals are monoamines**; **glutamate, GABA and glycine are amino acids**; the **enkephalins, endorphins and dynorphins are the body's own opioids**; the rest are **peptide messengers**.",
+  "hint": "Group by chemical structure: one amine, the monoamines, the amino acids, the opioid peptide families, the rest.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Neurotransmission",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the **neurotransmitter** released at each of the following sites:\n\n(a) Autonomic ganglia (both divisions)\n(b) Neuromuscular junction (skeletal muscle)\n(c) Postganglionic parasympathetic nerve endings\n(d) Postganglionic sympathetic nerve endings\n(e) Sympathetic nerve endings on sweat glands\n(f) Adrenal medulla (from the chromaffin cells)",
+  "answer": "| Site | Transmitter |\n|---|---|\n| **(a) Autonomic ganglia** | **Acetylcholine** acting on **nicotinic N_N** receptors |\n| **(b) Neuromuscular junction** | **Acetylcholine** acting on **nicotinic N_M** receptors |\n| **(c) Postganglionic parasympathetic endings** | **Acetylcholine** acting on **muscarinic** receptors |\n| **(d) Postganglionic sympathetic endings** | **Noradrenaline** acting on α and β adrenoceptors |\n| **(e) Sympathetic endings on sweat glands** | **Acetylcholine** (sympathetic cholinergic fibres) acting on **muscarinic** receptors |\n| **(f) Adrenal medulla** | Preganglionic fibres release **acetylcholine** onto nicotinic receptors; the chromaffin cells then release **adrenaline (≈80%) and noradrenaline (≈20%)** into the blood |\n\n> [!answer]\n> **Acetylcholine** at all autonomic ganglia, the neuromuscular junction, all parasympathetic endings and the sympathetic fibres to sweat glands; **noradrenaline** at most other postganglionic sympathetic endings; **adrenaline** from the adrenal medulla.",
+  "explanation": "## Advanced explanation\n\nAll **preganglionic** autonomic fibres are cholinergic and nicotinic; the difference between the divisions lies in the **postganglionic** transmitter. Exceptions to the adrenergic rule for postganglionic sympathetic fibres are the **cholinergic sympathetic fibres to eccrine sweat glands** (and the vasodilator fibres to skeletal muscle in some species), and the **dopaminergic** fibres to renal vessels. The adrenal medulla is a modified sympathetic ganglion whose 'postganglionic neurones' have become secretory chromaffin cells with no axons, releasing adrenaline as a hormone.\n\n## Simplified explanation\n\n**Acetylcholine** is used everywhere except at the ends of most sympathetic nerves, where **noradrenaline** is used — but sweat glands are the odd exception, and the adrenal gland pours out **adrenaline**.",
+  "hint": "The only non-cholinergic sites are most postganglionic sympathetic endings.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Autonomic Pharmacology",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe the **neurochemical basis of skeletal muscle contraction** (neuromuscular transmission).",
+  "answer": "> [!answer]\n> 1. An **action potential** travels down the motor axon and depolarises the nerve terminal.\n> 2. **Voltage-gated Ca²⁺ channels** (P/Q type) open; Ca²⁺ entry triggers **exocytosis of acetylcholine** from vesicles docked at the active zones (SNARE proteins).\n> 3. ACh diffuses across the 50 nm cleft and binds the **two α subunits of the nicotinic N_M receptor** on the junctional folds.\n> 4. The receptor channel opens, **Na⁺ enters and K⁺ leaves**, producing the **end-plate potential (EPP)**.\n> 5. When the EPP reaches threshold it opens **voltage-gated Na⁺ channels** in the perijunctional membrane, firing a **muscle action potential** that spreads over the sarcolemma and down the **T-tubules**.\n> 6. The T-tubular **dihydropyridine receptor** senses the depolarisation and opens the **ryanodine receptor** of the sarcoplasmic reticulum, releasing **Ca²⁺** into the cytoplasm.\n> 7. Ca²⁺ binds **troponin C**, tropomyosin moves off the actin binding sites, and **actin–myosin cross-bridges cycle using ATP — contraction**.\n> 8. ACh is hydrolysed by **acetylcholinesterase** to choline and acetate; choline is recaptured; Ca²⁺ is pumped back by SERCA and the muscle relaxes.",
+  "explanation": "## Advanced explanation\n\nEach vesicle releases a **quantum** of about 10 000 ACh molecules, producing a miniature end-plate potential; an action potential releases 100–200 quanta, giving an EPP with a large **safety margin** (about 3–4 times threshold), which is why 70–80% of receptors must be blocked before any weakness appears. The receptor is a pentamer (α₂βδε in adult muscle) and must bind **two** ACh molecules to open. Steps 5–7 are **excitation–contraction coupling**; the DHPR–RyR1 interaction is mechanical in skeletal muscle, unlike the Ca²⁺-induced Ca²⁺ release of cardiac muscle. Drugs act at identifiable steps: hemicholinium (choline uptake), botulinum toxin (release), curare (receptor), succinylcholine (persistent depolarisation), anticholinesterases (ACh breakdown), dantrolene (RyR1).\n\n## Simplified explanation\n\nThe nerve impulse lets **calcium in**, which makes the nerve release **acetylcholine**. ACh opens channels on the muscle, the muscle fires its own impulse, **calcium is released inside the muscle**, and the filaments slide past each other — contraction. Then the enzyme destroys ACh and the muscle relaxes.",
+  "hint": "Follow the sequence from nerve action potential to cross-bridge cycling.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe the **mechanism of action** of **non-depolarising neuromuscular blocking agents**, and state the **two structural types** with an example of each.",
+  "answer": "> [!answer]\n> **Mechanism:** they are **competitive antagonists at the nicotinic (N_M) receptor** of the motor end-plate. They bind reversibly to the α subunits without activating the channel, so acetylcholine cannot open it; the end-plate potential falls below threshold and the muscle becomes **flaccid without any preceding depolarisation or fasciculation**. At high concentrations they additionally block the ion channel itself and presynaptic nicotinic receptors (reducing ACh mobilisation — the cause of **fade**).\n>\n> Because the block is competitive it is **reversed by raising acetylcholine** with an anticholinesterase (neostigmine, edrophonium) or by sugammadex for the aminosteroids.\n>\n> **Two structural types:**\n> - **Benzylisoquinolinium** compounds — **atracurium, cisatracurium, mivacurium, tubocurarine** (tend to release histamine).\n> - **Aminosteroid** compounds — **pancuronium, vecuronium, rocuronium** (little histamine release; pancuronium is vagolytic).\n>\n> Characteristic features: **fade** on train-of-four and tetanic stimulation, **post-tetanic facilitation**, potentiation by volatile anaesthetics and aminoglycosides, and antagonism by anticholinesterases.",
+  "explanation": "## Advanced explanation\n\nNon-depolarising blockers occupy one or both α-subunit binding sites; because two ACh molecules are needed to open the channel, occupancy of a single site is enough to prevent opening. The large **safety factor** of transmission means clinical weakness appears only when ~75% of receptors are blocked and complete paralysis at ~90%. Presynaptic N_N receptors normally provide positive feedback for transmitter mobilisation during repetitive firing; blocking them causes the progressive decline (**fade**) in the train-of-four, the hallmark that distinguishes a non-depolarising from a phase I depolarising block.\n\n## Simplified explanation\n\nThey **sit on the acetylcholine receptor without switching it on**, so ACh cannot get in and the muscle cannot contract. Giving a drug that raises acetylcholine (neostigmine) pushes them off and reverses the block.",
+  "hint": "Competitive antagonism — and two chemical families.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain the **mechanism of action** of a **depolarising neuromuscular blocking agent**, giving an example.",
+  "answer": "> [!answer]\n> **Example: succinylcholine (suxamethonium)** — two acetylcholine molecules joined tail to tail. (Decamethonium is the other classical example.)\n>\n> **Mechanism:** it is a **nicotinic receptor agonist** that is **not hydrolysed by junctional acetylcholinesterase**. It therefore produces a **maintained depolarisation** of the end-plate:\n> - initial agonist action → transient firing of muscle fibres → **fasciculations**;\n> - the end-plate stays depolarised, so the voltage-gated Na⁺ channels of the perijunctional membrane remain **inactivated** and cannot be reset;\n> - further nerve impulses therefore fail to produce an action potential → **flaccid paralysis (phase I block)**.\n>\n> It is terminated by diffusion away from the junction and hydrolysis by **plasma (pseudo)cholinesterase**, giving a 5–10 minute action — prolonged in patients with **atypical or deficient pseudocholinesterase**.\n>\n> **Anticholinesterases make a phase I block worse, not better.**",
+  "explanation": "## Advanced explanation\n\nDepolarising block has two phases. In **phase I**, the persistent agonist occupancy keeps the end-plate depolarised at about −55 mV; no fade is seen on train-of-four and there is no post-tetanic facilitation. With large or repeated doses the receptor enters a **desensitised** state and the membrane repolarises while transmission remains blocked (**phase II/dual block**), which does show fade and may be partly reversed by anticholinesterases. Clinically important hazards are **hyperkalaemia** (especially with burns, denervation, crush injury or prolonged immobility, where extrajunctional receptors are up-regulated), raised intraocular, intracranial and intragastric pressure, muscle pains and **malignant hyperthermia** in susceptible patients.\n\n## Simplified explanation\n\nSuccinylcholine **switches the receptor on and keeps it on**. The muscle twitches briefly, then cannot fire again, so it goes limp. Unlike the competitive blockers, giving neostigmine makes it worse.",
+  "hint": "It is an agonist that will not go away.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain how the action of a **non-depolarising neuromuscular blocker is terminated**, and why these drugs are given **intravenously rather than by the enteral route**.",
+  "answer": "> [!answer]\n> **Termination of action:**\n> - **Redistribution and diffusion away from the neuromuscular junction** down a concentration gradient as plasma concentration falls — the main early mechanism;\n> - **Elimination** — renal excretion largely unchanged (pancuronium, tubocurarine, rocuronium in part), hepatic metabolism/biliary excretion (vecuronium, rocuronium), **Hofmann degradation and ester hydrolysis** (atracurium, cisatracurium), or plasma cholinesterase (mivacurium);\n> - **Pharmacological reversal** — an anticholinesterase (neostigmine, edrophonium) raises junctional ACh and out-competes the blocker, or **sugammadex** encapsulates rocuronium/vecuronium.\n>\n> **Why intravenous and not oral:** they are **quaternary ammonium compounds — permanently charged, highly polar and water-soluble**, so they are **not absorbed from the gastrointestinal tract** (this is why curare could be used as an arrow poison yet the meat eaten safely). They also need a **precisely titrated, rapid and predictable onset** for surgery, which only the intravenous route provides.",
+  "explanation": "## Advanced explanation\n\nThe permanent positive charge of the quaternary nitrogen prevents passive diffusion across the lipid membranes of the gut, and also keeps these drugs out of the CNS and the placenta — hence no sedation and little fetal effect. Their volume of distribution is close to extracellular fluid volume. Clinically, duration is classified as short (mivacurium), intermediate (atracurium, cisatracurium, vecuronium, rocuronium) or long (pancuronium), and residual block is monitored by train-of-four before extubation.\n\n## Simplified explanation\n\nThe drug **drifts away from the junction and is then cleared** by the kidney, liver or spontaneous breakdown, or it is **reversed with neostigmine**. It cannot be swallowed because the molecule carries a permanent electrical charge and **is not absorbed from the gut**.",
+  "hint": "Think about the quaternary nitrogen.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Neuromuscular Blockers",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **one example** of each of the following:\n\n(a) A corticosteroid\n(b) A saligenin β₂ agonist\n(c) A resorcinol β₂ agonist",
+  "answer": "> [!answer]\n> **(a) Corticosteroid** — **prednisolone** (also hydrocortisone, dexamethasone, beclometasone, budesonide, fluticasone).\n> **(b) Saligenin agent** — **salbutamol (albuterol)**; salmeterol is the long-acting saligenin.\n> **(c) Resorcinol agent** — **terbutaline** (also orciprenaline/metaproterenol and fenoterol).",
+  "explanation": "## Advanced explanation\n\nIn asthma the corticosteroid is the **controller** (anti-inflammatory: it suppresses cytokine transcription, reduces eosinophil recruitment and up-regulates β₂ receptors) while the β₂ agonist is the **reliever** (bronchodilator through Gs–adenylyl cyclase–cAMP–PKA, which lowers intracellular Ca²⁺ and relaxes airway smooth muscle). The saligenin and resorcinol ring modifications remove the COMT substrate, giving oral activity and a longer duration than isoprenaline.\n\n## Simplified explanation\n\nA steroid such as **prednisolone**; the saligenin **salbutamol**; the resorcinol **terbutaline**.",
+  "hint": "Think of the common asthma inhalers and their ring chemistry.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Respiratory Pharmacology",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A patient with rheumatoid arthritis is treated with corticosteroids. Give the reasons why **corticosteroids** are used in inflammatory disease.",
+  "answer": "> [!answer]\n> Corticosteroids are used because they are **broad, powerful anti-inflammatory and immunosuppressive agents**:\n> - they induce **annexin-1 (lipocortin)**, which inhibits **phospholipase A₂** and so blocks the release of arachidonic acid — suppressing **both** the prostaglandin (COX) and the leukotriene (lipoxygenase) pathways, unlike NSAIDs;\n> - they **suppress transcription of inflammatory genes** (COX-2, iNOS, IL-1, IL-2, IL-6, TNF-α) through the glucocorticoid receptor and inhibition of NF-κB and AP-1;\n> - they **reduce the number and activity of inflammatory cells** — lymphopenia, eosinopenia, reduced monocyte and macrophage function, decreased capillary permeability and oedema;\n> - they **relieve pain, swelling, stiffness and systemic symptoms rapidly** and can halt a severe flare while slower-acting disease-modifying drugs take effect;\n> - they can be given **systemically or locally (intra-articular)** to limit systemic toxicity.\n>\n> Long-term use is limited by **adrenal suppression, osteoporosis, infection, hyperglycaemia, hypertension, peptic ulceration, cataract, cushingoid features and growth retardation**.",
+  "explanation": "## Advanced explanation\n\nGlucocorticoids bind a cytoplasmic receptor; the complex translocates to the nucleus and both **transactivates** anti-inflammatory genes (annexin-1, IL-10, IκB) and **transrepresses** pro-inflammatory ones by interfering with NF-κB and AP-1 — the latter accounting for most of the therapeutic effect and the former for many side effects. Because they act above arachidonic acid release, they suppress leukotrienes as well as prostaglandins, which NSAIDs do not. In rheumatoid arthritis they are used as **bridging therapy** or for flares, at the lowest effective dose and for the shortest time, with bone protection.\n\n## Simplified explanation\n\nSteroids **switch off the whole inflammatory process** at an earlier step than NSAIDs, so they relieve pain, swelling and stiffness powerfully — but they cause serious problems if used for a long time.",
+  "hint": "They act above arachidonic acid, so they block more than COX.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "NSAIDs",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Describe **two (2) areas of application of pharmacological knowledge in medical laboratory practice**.",
+  "answer": "> [!answer]\n> 1. **Therapeutic drug monitoring (TDM) and pharmacokinetic interpretation** — measuring plasma concentrations of narrow-therapeutic-index drugs (digoxin, phenytoin, theophylline, lithium, gentamicin, ciclosporin), knowing when to take peak and trough samples relative to the dose, and interpreting results against the therapeutic range.\n> 2. **Recognising drug interference with laboratory tests** — drugs alter results either **pharmacologically** (warfarin prolongs the INR; heparin prolongs the APTT; corticosteroids raise glucose and white cell count; diuretics alter electrolytes; phenytoin and rifampicin induce liver enzymes) or **analytically** (ascorbic acid interferes with glucose and occult blood methods; methyldopa and L-DOPA interfere with catecholamine assays; rifampicin colours urine orange; paracetamol interferes with some glucose meters).\n>\n> Other acceptable areas: **toxicology and poisoning screens**; detection of **drug-induced blood dyscrasias** (agranulocytosis with phenylbutazone or carbimazole, haemolysis with primaquine in G6PD deficiency, megaloblastosis with methotrexate); **antimicrobial susceptibility testing and MIC determination** to guide therapy; **pharmacogenetic testing** (G6PD, pseudocholinesterase, TPMT); correct **specimen collection and anticoagulant choice**; and participation in **pharmacovigilance** by reporting adverse drug reactions.",
+  "explanation": "## Advanced explanation\n\nThe laboratory sits at the interface between the drug and the patient. **TDM** rests on pharmacokinetics: sampling at steady state (after 4–5 half-lives), trough sampling just before the next dose, and knowledge of protein binding (free phenytoin in hypoalbuminaemia). **Interference** must be distinguished into pre-analytical, analytical and physiological categories, since the action differs — a truly altered result is reported, an analytical artefact must be corrected. Laboratory scientists also monitor drug toxicity through full blood count, liver and renal function, and support antimicrobial stewardship through susceptibility testing.\n\n## Simplified explanation\n\nLaboratory staff **measure drug levels in blood** to check that doses are right, and must **know which drugs change or spoil test results** so that reports are interpreted correctly.",
+  "hint": "Think of what a laboratory does with drug levels, and of drugs that distort test results.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Clinical Pharmacology",
+   "2018/19 End of Semester Exam",
+   "2019/20 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain how **metabotropic receptor activation** can cause (a) **smooth muscle contraction** and (b) **smooth muscle relaxation**.",
+  "answer": "> [!answer]\n> **(a) Contraction — Gq-coupled receptors** (α₁-adrenoceptor, M₃ muscarinic, H₁ histamine, 5-HT₂, AT₁):\n> agonist → **Gq → phospholipase C** → **IP₃ + DAG** → IP₃ releases **Ca²⁺ from the sarcoplasmic reticulum** (and opens store-operated channels) → Ca²⁺ binds **calmodulin** → activates **myosin light chain kinase** → phosphorylation of myosin light chain → **cross-bridge cycling and contraction**. DAG activates protein kinase C, which (with Rho-kinase) inhibits myosin phosphatase and sensitises the apparatus to Ca²⁺.\n>\n> **(b) Relaxation — Gs-coupled receptors** (β₂-adrenoceptor, prostacyclin IP, VIP) and the **NO/cGMP** pathway:\n> agonist → **Gs → adenylyl cyclase → cAMP → protein kinase A** → phosphorylates and **inhibits myosin light chain kinase**, lowers intracellular Ca²⁺ (uptake into stores, efflux) and opens **K⁺ channels**, hyperpolarising the cell → **relaxation**. Nitric oxide and nitrates act through **guanylyl cyclase → cGMP → PKG** to the same end; Gi-coupled receptors relax by lowering cAMP-dependent excitatory tone and by opening K⁺ channels.",
+  "explanation": "## Advanced explanation\n\nSmooth muscle tone is set by the **phosphorylation state of the 20 kDa myosin light chain**, which is the balance between **Ca²⁺–calmodulin-dependent MLCK** and **myosin light chain phosphatase**. Gq signalling raises Ca²⁺ *and*, through RhoA/Rho-kinase, inhibits the phosphatase (**Ca²⁺ sensitisation**). Gs signalling raises cAMP, which both lowers Ca²⁺ and reduces MLCK activity (**Ca²⁺ desensitisation**). This explains why β₂ agonists relax bronchi, why phosphodiesterase inhibitors (theophylline, sildenafil) prolong relaxation, and why nitrates and nitric oxide dilate vessels.\n\n## Simplified explanation\n\nSome receptors raise **calcium inside the cell** and the muscle **contracts**; others raise **cAMP or cGMP**, which lowers calcium and switches off the contracting enzyme, so the muscle **relaxes**.",
+  "hint": "Gq raises IP₃ and calcium; Gs raises cAMP.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Neurotransmission",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ }
+]

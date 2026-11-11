@@ -1,0 +1,102 @@
+{
+  "courses": [
+    {
+      "code": "MLS203",
+      "title": "Anatomy I",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 203 (203A/203B) Anatomy I papers (2019/20 end of semester theory and practical exams, quizzes): tissue processing and fixation, epithelial, connective, muscle and bone tissues, cartilage, body regions, cavities and membranes, anatomical terminology and planes, the skeleton, joints and upper-limb bones. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Anatomy"
+      ],
+      "files": [
+        "mls203-anatomy-i.json"
+      ]
+    },
+    {
+      "code": "MLS204",
+      "title": "Anatomy II",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 204B Anatomy II practical paper (2019/20): blood vessel walls, the capillary bed and precapillary sphincters, the rectum and anal sphincters, and the ovarian cycle. Every question has a worked solution.",
+      "examQuestions": 4,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Anatomy"
+      ],
+      "files": [
+        "mls204-anatomy-ii.json"
+      ]
+    },
+    {
+      "code": "MLS201A",
+      "title": "Biochemistry I",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 201A Biochemistry I papers (2018/19 and 2019/20 end of semester exams, quizzes): amino acids, pI and peptides, protein structure and collagen diseases, glucose transporters, glycolysis, TCA cycle, gluconeogenesis and glycogen metabolism, lipids and fatty acid nomenclature, β-oxidation, lipoproteins, bile acids and the urea cycle. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Biochemistry"
+      ],
+      "files": [
+        "mls201a-biochemistry-i.json"
+      ]
+    },
+    {
+      "code": "MLS202",
+      "title": "Biochemistry II",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 202 Biochemistry II paper (2018/19): haemoglobin variants and oxygen binding, hormone action, diabetes and hypoglycaemia, porphyrias, xenobiotic biotransformation, prodrug activation and benzo[a]pyrene carcinogenesis. Every question has a worked solution.",
+      "examQuestions": 11,
+      "examMinutes": 120,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Biochemistry"
+      ],
+      "files": [
+        "mls202-biochemistry-ii.json"
+      ]
+    },
+    {
+      "updateDescription": true,
+      "code": "MLS205",
+      "title": "Physiology I",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast MLS 205/205A Physiology I papers (2018/19 and 2019/20 end of semester exams, 2019/20 quizzes and marking scheme): homeostasis and feedback control, body fluids and osmosis, membrane transport, cell organelles, respiration and lung volumes, the nervous system and cranial nerves, cerebral cortex, skin, skeleton and joints, the heart's conduction system and cardiac cycle, cardiac output, haemodynamics and blood pressure, digestion and gastrointestinal hormones. Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Physiology"
+      ],
+      "files": [
+        "mls205-physiology-i.json"
+      ]
+    },
+    {
+      "updateDescription": true,
+      "code": "MLS206",
+      "title": "Physiology II",
+      "level": "tertiary",
+      "description": "Past questions from the University of Cape Coast Physiology II papers (MLS 204A 2018/19 and MLS 206 2019/20 end of semester exams, 2019/20 quiz with scheme, MLS 206 tutorial cases): renal physiology, micturition, GFR and tubuloglomerular feedback, body fluids and electrolytes, kidney injury, membrane transport and action potentials, synapses, endocrinology and hormone assays, neuromuscular transmission and muscle contraction, glucose homeostasis and hypoglycaemia, Cushing's syndrome and the adrenal cortex, and the special senses (taste, smell, vision, hearing and balance). Every question has a worked solution.",
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science",
+        "Physiology"
+      ],
+      "files": [
+        "mls206-physiology-ii.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+[
+ {
+  "type": "text",
+  "body": "Assume the basket of goods and services bought by level 100 Economics students in UCC is transport, clothes, power, movie shows, diet drinks and popcorn. The cost of these items in the basket in 2005 was GH₵50, GH₵30, GH₵20, GH₵5, GH₵0.70 and GH₵1.00 respectively. Quantities purchased during this period were one, five, ten, three, three hundred and five hundred respectively. The table below provides **percentage changes** in both prices and quantities.\n\n| Item | 2006 P | 2006 Q | 2007 P | 2007 Q | 2008 P | 2008 Q | 2009 P | 2009 Q | 2010 P | 2010 Q |\n|---|---|---|---|---|---|---|---|---|---|---|\n| Transport | 60 | 10 | 25 | 5 | 20 | 6 | 10 | 7 | 15 | 8 |\n| Clothes | 67 | 1 | 20 | 3 | 15 | 0 | −5 | 20 | 10 | 2 |\n| Power | 50 | 2 | 30 | 4 | 20 | −2 | 10 | −1 | 0 | 20 |\n| Movie shows | 50 | 0 | 5 | 5 | 20 | −2 | 3 | 0 | 1 | 21 |\n| Diet drinks | 13 | 0 | −6 | 20 | 2 | 2 | −2 | 0 | 0 | 2 |\n| Popcorn | 0 | 20 | 5 | 5 | 3 | 1 | 2 | 4 | 4 | 2 |\n\n(a) Compute the consumer price index using 2005 as the base year.\n(b) What was the rate of inflation for all the years, using the CPI you calculated in (a)?\n(c) Now compute the CPI for each of the years, using 2008 as the base year instead of 2005 but using the same \"market bundle.\"\n(d) What was the rate of inflation from 2008 to 2010, using the CPI you calculated in (c)? Is it the same as your answer to (b)?",
+  "media": [],
+  "answer": "The CPI keeps the **2005 basket** fixed (quantity changes are irrelevant). Apply each year's price change cumulatively. Basket cost 2005 $= 50(1) + 30(5) + 20(10) + 5(3) + 0.7(300) + 1(500) = 1{,}125$.\n\n| Year | Basket cost (GH₵) | CPI (2005 = 100) | Inflation | CPI (2008 = 100) |\n|---|---|---|---|---|\n| 2005 | 1,125.00 | 100.0 | – | 65.0 |\n| 2006 | 1,390.30 | 123.6 | 23.6% | 80.4 |\n| 2007 | 1,562.29 | 138.9 | 12.4% | 90.3 |\n| 2008 | 1,730.31 | 153.8 | 10.8% | 100.0 |\n| 2009 | 1,778.94 | 158.1 | 2.8% | 102.8 |\n| 2010 | 1,853.94 | 164.8 | 4.2% | 107.1 |\n\n(E.g. 2006 prices: transport 80, clothes 50.10, power 30, movie 7.50, diet drink 0.791, popcorn 1.00.)\n\n**(d)** 2008 → 2010 using (c): $(107.1 - 100)/100 = $ **7.1%**. Using (a): $164.8/153.8 - 1 = 7.1\\%$, the same. Changing the base year rescales the index but does not change inflation rates, because the same basket is used.\n\n> [!answer]\n> CPI (2005 = 100): 123.6, 138.9, 153.8, 158.1, 164.8 for 2006–2010; inflation 23.6%, 12.4%, 10.8%, 2.8%, 4.2%; CPI (2008 = 100): 65.0, 80.4, 90.3, 100, 102.8, 107.1; 2008–2010 inflation 7.1% either way.",
+  "explanation": "## Advanced explanation\n\nA Laspeyres CPI uses fixed base-period quantities: $CPI_t = \\sum p_t q_0 / \\sum p_0 q_0 \\times 100$. Rebasing divides every index by the new base-year value, which leaves ratios between years (and hence inflation rates) unchanged. The quantity percentages are a distractor for a fixed-basket index.\n\n## Simplified explanation\n\nWork out each year's prices from the percentage changes, price the same 2005 shopping basket each year and compare with 2005. Changing the base year changes the numbers but not the inflation rate.",
+  "hint": "Hold the 2005 basket fixed and compound the price changes.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Inflation & Price Indices",
+   "2024/25 Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In a fractional reserve banking system, the money supply is influenced by the behaviour of the public and commercial banks, as well as the policies of the central bank. Assume the following parameters:\n\nRequired reserve ratio = 10%; currency-to-deposit ratio = 0.2; excess reserve ratio = 0.05; monetary base = GHS 5,000.\n\n(a) Derive the formula for the money multiplier using the concepts of the currency-to-deposit ratio, required reserve ratio and excess reserve ratio. Clearly explain the economic meaning of each component. **(4 marks)**\n(b) Using the values provided, calculate the money multiplier. **(4 marks)**\n(c) Based on your result in (b), compute the total money supply in the economy. **(4 marks)**\n(d) Explain the effect of an increase in the currency-to-deposit ratio on the money multiplier and the money supply. **(4 marks)**\n(e) Suppose the central bank increases the monetary base to GHS 8,000. Recalculate the money supply using the multiplier from (b) and briefly comment on the implication for monetary policy. **(4 marks)**",
+  "media": [],
+  "answer": "**(a)** Money supply $M = C + D$; monetary base $B = C + R$ with reserves $R = (rr + e)D$. Let $c = C/D$. Then $M = (c + 1)D$ and $B = (c + rr + e)D$, so\n$$m = \\frac{M}{B} = \\frac{1 + c}{c + rr + e}.$$\n$c$ (currency-to-deposit ratio): how much cash the public holds relative to deposits; cash outside banks cannot be lent. $rr$ (required reserve ratio): share of deposits banks must hold by law. $e$ (excess reserve ratio): extra reserves banks choose to hold. Each is a **leakage** from the deposit-creation process.\n\n**(b)** $m = \\dfrac{1 + 0.2}{0.2 + 0.10 + 0.05} = \\dfrac{1.2}{0.35} \\approx$ **3.43**.\n\n**(c)** $M = 3.43 \\times 5{,}000 \\approx$ **GHS 17,142.86**.\n\n**(d)** A higher $c$ means more cash is held outside banks, so fewer reserves support deposit creation: the **multiplier falls** (the denominator rises by more than the numerator in proportion, since $rr + e < 1$) and the **money supply falls** for a given base.\n\n**(e)** $M = 3.43 \\times 8{,}000 \\approx$ **GHS 27,428.57**. A GHS 3,000 increase in the base raises the money supply by about GHS 10,286: the central bank can expand money supply by more than the base injection, but the size of the effect depends on public and bank behaviour ($c$ and $e$), so control is imperfect.\n\n> [!answer]\n> $m = (1 + c)/(c + rr + e) = 1.2/0.35 \\approx 3.43$; M ≈ GHS 17,142.86; higher c lowers m and M; with B = 8,000, M ≈ GHS 27,428.57.",
+  "explanation": "## Advanced explanation\n\nThe multiplier shows how the banking system multiplies base money through lending. It is endogenous: the public's cash preference and banks' excess reserves (which rise in uncertain times) can weaken monetary policy transmission.\n\n## Simplified explanation\n\nEvery cedi of base money ends up as about 3.43 cedis of money in circulation. Holding more cash or reserves reduces this, because less is lent out.",
+  "hint": "M = C + D, B = C + R.",
+  "difficulty": "medium",
+  "marks": 20,
+  "tags": [
+   "Money & Banking",
+   "2024/25 Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Fiat Money is:",
+  "options": [
+   {
+    "text": "composed only of checkable deposits.",
+    "hint": "Deposits are bank money."
+   },
+   {
+    "text": "Money that is in a commercial bank vault.",
+    "hint": "Location doesn't define it."
+   },
+   {
+    "text": "Money because the government asserts that it is.",
+    "hint": "Correct. Money by government decree."
+   },
+   {
+    "text": "Money that can be redeemed for a valuable commodity such as gold.",
+    "hint": "That is representative/commodity-backed money."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "By decree.",
+  "explanation": "## Advanced explanation\n\n**Fiat money** has no intrinsic value and is not redeemable for a commodity; it is money because the government declares it legal tender.\n\n## Simplified explanation\n\nIt's money because the government says so.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Demand deposits are classified as money because:",
+  "options": [
+   {
+    "text": "They can be readily used in purchasing goods and paying debts.",
+    "hint": "Correct. They serve as a medium of exchange."
+   },
+   {
+    "text": "Banks hold currency equal to the value of their checkable deposits.",
+    "hint": "Fractional reserves: they don't."
+   },
+   {
+    "text": "They are ultimately the obligations of the Treasury.",
+    "hint": "They are bank liabilities."
+   },
+   {
+    "text": "They earn interest income for the depositor.",
+    "hint": "Many earn none; not why they are money."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Medium of exchange.",
+  "explanation": "## Advanced explanation\n\nDemand deposits are money because cheques and transfers drawn on them are generally accepted for payments: they function as a medium of exchange.\n\n## Simplified explanation\n\nYou can pay with them.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The multiplier applies to:",
+  "options": [
+   {
+    "text": "Investment but not to net exports or government spending.",
+    "hint": "Applies to all autonomous spending."
+   },
+   {
+    "text": "Investment, net export and government spending.",
+    "hint": "Correct. Any change in autonomous spending is multiplied."
+   },
+   {
+    "text": "Increases in spending but not to decreases in spending.",
+    "hint": "Works both ways."
+   },
+   {
+    "text": "Spending by the private sector but not by the public sector.",
+    "hint": "Applies to G too."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Any autonomous spending.",
+  "explanation": "## Advanced explanation\n\nA change in any component of autonomous aggregate expenditure (I, G, NX, autonomous C) changes equilibrium income by a multiple $1/(1 - MPC)$ in the simple model, in either direction.\n\n## Simplified explanation\n\nAny extra spending gets multiplied.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The MPC can be defined as that fraction of a:",
+  "options": [
+   {
+    "text": "Change in income that is not spent.",
+    "hint": "That is MPS."
+   },
+   {
+    "text": "Change in income that is spent.",
+    "hint": "Correct. MPC = ΔC/ΔY."
+   },
+   {
+    "text": "Given total income that is not consumed.",
+    "hint": "That is APS."
+   },
+   {
+    "text": "Given total income that is consumed",
+    "hint": "That is APC."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Marginal = change.",
+  "explanation": "## Advanced explanation\n\n$MPC = \\Delta C/\\Delta Y$: the share of an extra cedi of income spent on consumption.\n\n## Simplified explanation\n\nThe part of extra income you spend.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Consumption & Saving",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "What is the term for paper money that is not backed by gold or silver, but instead has a set limit of issuance determined by the central bank?",
+  "options": [
+   {
+    "text": "Near Money",
+    "hint": "Near money is liquid assets like savings deposits."
+   },
+   {
+    "text": "Fiduciary Money",
+    "hint": "Correct. Paper money issued beyond metal backing, on trust, within a fiduciary limit."
+   },
+   {
+    "text": "Liquidity",
+    "hint": "A property, not a type of money."
+   },
+   {
+    "text": "Money Substitutes",
+    "hint": "E.g. cheques, cards."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Issued on trust.",
+  "explanation": "## Advanced explanation\n\n**Fiduciary issue** is currency not backed by gold/silver, issued on trust up to a limit set by the monetary authority.\n\n## Simplified explanation\n\nMoney issued on trust = fiduciary.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following components of money includes the sum of currency held by the public, demand deposits, other checkable deposits and traveler's checks?",
+  "options": [
+   {
+    "text": "M0",
+    "hint": "Monetary base."
+   },
+   {
+    "text": "M1",
+    "hint": "Correct. Currency + demand and checkable deposits + traveler's cheques."
+   },
+   {
+    "text": "M2",
+    "hint": "M1 + savings and small time deposits."
+   },
+   {
+    "text": "Beyond M2",
+    "hint": "Broader aggregates."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Narrow money.",
+  "explanation": "## Advanced explanation\n\n**M1** (narrow money) = currency in circulation + demand deposits + other checkable deposits + traveler's cheques: the most liquid means of payment.\n\n## Simplified explanation\n\nThe spending-money measure is M1.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following correctly represents the chronological stages in the evolution of money?",
+  "options": [
+   {
+    "text": "Commodity Money → Barter System → Metallic Money → Paper Money → Electronic Money",
+    "hint": "Barter came first."
+   },
+   {
+    "text": "Barter System → Commodity Money → Metallic Money → Paper Money → Credit Money → Electronic Money",
+    "hint": "Correct. The standard sequence."
+   },
+   {
+    "text": "Paper Money → Commodity Money → Barter System → Credit Money → Mobile Money",
+    "hint": "Reversed."
+   },
+   {
+    "text": "Barter System → Metallic Money → Commodity Money → Paper Money → Digital Currency",
+    "hint": "Commodity money preceded metallic money."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Barter first.",
+  "explanation": "## Advanced explanation\n\nMoney evolved from **barter** → **commodity money** (cattle, salt, cowries) → **metallic money** (coins) → **paper money** → **credit (bank) money** → **electronic/digital money**.\n\n## Simplified explanation\n\nSwapping goods came first, electronic money last.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Why is the process of money creation by commercial banks limited?",
+  "options": [
+   {
+    "text": "Because banks must convert all deposits into gold",
+    "hint": "No gold convertibility today."
+   },
+   {
+    "text": "Because customer withdrawals reduce demand for loans",
+    "hint": "Not the limiting factor."
+   },
+   {
+    "text": "Because the central bank sets a required reserve ratio limiting the amount banks can lend",
+    "hint": "Correct. Reserve requirements cap deposit expansion."
+   },
+   {
+    "text": "Because interest income is capped by the government",
+    "hint": "Not generally."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Reserve requirements.",
+  "explanation": "## Advanced explanation\n\nEach round of lending must leave a fraction of deposits as reserves, so deposit creation is limited to $1/rr$ times reserves (further reduced by cash leakages and excess reserves).\n\n## Simplified explanation\n\nBanks must keep some money back, so they can't lend forever.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "During the evolution of money, which type of money represented a transitional stage where currency had no intrinsic value but was still backed by a physical commodity like gold or silver?",
+  "options": [
+   {
+    "text": "Fiat Money",
+    "hint": "Not backed."
+   },
+   {
+    "text": "Cryptocurrency",
+    "hint": "Modern, not backed."
+   },
+   {
+    "text": "Representative Money",
+    "hint": "Correct. Paper claims redeemable in gold/silver."
+   },
+   {
+    "text": "Commodity Money",
+    "hint": "Has intrinsic value itself."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Paper claim on gold.",
+  "explanation": "## Advanced explanation\n\n**Representative money** (e.g. gold certificates) had no value itself but could be exchanged for a fixed amount of a commodity; it bridged commodity money and fiat money.\n\n## Simplified explanation\n\nPaper that you could swap for gold.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Money & Banking",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Given the following structural equations of a hypothetical economy:\n\n$C = 140 + 0.45Y_d$, $I = 80$, $T = 100$, $G = 120$, $X = 130$ and $M = 125$.\n\n(a) Determine the equilibrium level of national income (Y). **[2 marks]**\n(b) Calculate the general and tax multipliers. Interpret your answers. **[2 marks]**\n(c) What effect will a 20% cut in government expenditure have on equilibrium national income? (Hint: use the government multiplier.) **[2 marks]**\n(d) Suppose that the government introduces a tax rate of 10% on households' income. (i) Write out the new tax function. **[1 mark]** (ii) In part (a), what will be the new level of national income? **[2 marks]**\n(e) Calculate the values of private, government and national savings. **[2 marks]**",
+  "media": [],
+  "answer": "**(a)** $Y = C + I + G + X - M = 140 + 0.45(Y - 100) + 80 + 120 + 130 - 125 = 300 + 0.45Y \\Rightarrow 0.55Y = 300 \\Rightarrow Y^* \\approx$ **545.45**.\n\n**(b)** Expenditure (general) multiplier $= \\dfrac{1}{1 - 0.45} \\approx$ **1.82**: a 1-unit rise in autonomous spending raises Y by 1.82. Tax multiplier $= \\dfrac{-0.45}{0.55} \\approx$ **−0.82**: a 1-unit rise in lump-sum taxes lowers Y by 0.82.\n\n**(c)** $\\Delta G = -0.2 \\times 120 = -24$; $\\Delta Y = 1.82 \\times (-24) \\approx -43.64$, so Y falls to about **501.82**.\n\n**(d)** (i) $T = 100 + 0.10Y$. (ii) $Y_d = 0.9Y - 100$; $C = 95 + 0.405Y$; $Y = 95 + 0.405Y + 205 \\Rightarrow 0.595Y = 300 \\Rightarrow Y \\approx$ **504.20**.\n\n**(e)** (At the equilibrium in (a).) $Y_d = 445.45$, $C = 140 + 0.45(445.45) = 340.45$. Private saving $= Y_d - C = $ **105**. Government saving $= T - G = 100 - 120 = $ **−20** (deficit). National saving $= 105 - 20 = $ **85** $= I + (X - M) = 80 + 5$ ✓.\n\n> [!answer]\n> Y ≈ 545.45; multipliers 1.82 and −0.82; 20% cut in G → Y ≈ 501.82; with T = 100 + 0.1Y, Y ≈ 504.20; private saving 105, public −20, national 85.",
+  "explanation": "## Advanced explanation\n\nIn an open economy national saving equals investment plus net exports: $S + (T - G) = I + (X - M)$. A proportional income tax flattens the AE line (slope $0.45 \\times 0.9 = 0.405$), lowering the multiplier from 1.82 to 1.68.\n\n## Simplified explanation\n\nTotal spending must equal income: Y = 300 + 0.45Y gives about 545. Cutting government spending by 24 lowers income by about 44. Households save 105, the government dissaves 20.",
+  "hint": "Disposable income = Y − T.",
+  "difficulty": "medium",
+  "marks": 11,
+  "tags": [
+   "Income Determination & Multiplier",
+   "Fiscal Policy",
+   "Undated Quiz 2",
+   "ECO104"
+  ]
+ }
+]

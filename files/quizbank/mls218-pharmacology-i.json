@@ -1,0 +1,381 @@
+[
+ {
+  "type": "text",
+  "body": "Explain the importance of **excipients** in drug formulation.",
+  "answer": "> [!answer]\n> Excipients are the **pharmacologically inactive substances formulated with the active drug**. They are important because they:\n>\n> - **Give bulk and allow accurate dosing** — a few milligrams of active drug cannot be handled or compressed on its own (diluents such as lactose, starch).\n> - **Aid manufacture** — binders hold granules together, lubricants and glidants (magnesium stearate, talc) stop sticking to punches and dies.\n> - **Control release and absorption** — disintegrants break the tablet up, coatings give enteric or sustained release, solubilisers and surfactants improve dissolution and hence bioavailability.\n> - **Stabilise the product** — antioxidants, buffers, chelating agents and preservatives protect against oxidation, hydrolysis and microbial growth, extending shelf life.\n> - **Improve acceptability and compliance** — sweeteners, flavours and colourants mask bitter taste and help identification.\n> - **Target delivery and protect the drug** — for example enteric coats protect acid-labile drugs from gastric acid.",
+  "explanation": "## Advanced explanation\n\nA dosage form is a **drug delivery system**, not just a drug. Excipients determine the **biopharmaceutical performance** of the product: the disintegrant and the wetting agent control the dissolution rate, which for BCS class II drugs is the rate-limiting step in absorption; the coating controls where in the gastrointestinal tract release occurs; buffers and antioxidants govern chemical stability and therefore shelf life. Excipients are not inert in practice — lactose is a problem in lactose intolerance, and changes in excipient can alter bioavailability enough to matter for narrow-therapeutic-index drugs.\n\n## Simplified explanation\n\nExcipients are the **'other ingredients'** in a medicine. They make the tablet big enough to handle, help it be made, control how fast it dissolves, keep it stable and make it taste and look acceptable.",
+  "hint": "Think about everything in a tablet that is not the active drug — and why it is there.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Excipients & Dosage Forms",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Complete the table below. For each **type of drug source**, give a specific example of the source and the name of a drug obtained from it.\n\n| Type of drug source | Specific name of drug source | Name of drug |\n|---|---|---|\n| Plant | | |\n| Fungi | | |\n| Bacteria | | |\n| Animal | | |\n\n*Example: type of drug source = plant; specific example = Artemisia annua; name of drug = artemisinin.*",
+  "answer": "| Type of drug source | Specific name of drug source | Name of drug |\n|---|---|---|\n| **Plant** | *Cinchona* bark (*Cinchona officinalis*) | **Quinine** (also: *Digitalis purpurea* → digoxin; *Papaver somniferum* → morphine; *Atropa belladonna* → atropine) |\n| **Fungi** | *Penicillium chrysogenum* (*P. notatum*) | **Penicillin** (also: *Aspergillus terreus* → lovastatin; *Tolypocladium inflatum* → ciclosporin) |\n| **Bacteria** | *Streptomyces griseus* | **Streptomycin** (also: *S. venezuelae* → chloramphenicol; *Bacillus brevis* → gramicidin; *S. orientalis* → vancomycin) |\n| **Animal** | Pig/ox pancreas (porcine or bovine) | **Insulin** (also: pig thyroid → thyroxine; pregnant mare urine → conjugated oestrogens; horse serum → antivenom) |\n\n> [!answer]\n> Plant — *Cinchona* bark → **quinine**; Fungi — *Penicillium chrysogenum* → **penicillin**; Bacteria — *Streptomyces griseus* → **streptomycin**; Animal — pancreas → **insulin**.",
+  "explanation": "## Advanced explanation\n\nDrugs come from **natural sources** (plants, micro-organisms, animals, minerals), **semi-synthesis** (chemical modification of a natural lead, e.g. amoxicillin from 6-APA), **total synthesis** and **biotechnology** (recombinant human insulin, monoclonal antibodies). Plant secondary metabolites — alkaloids, glycosides, terpenes — gave much of the early pharmacopoeia; soil **actinomycetes**, particularly *Streptomyces*, gave the majority of antibiotics; and animal tissues supplied hormones before recombinant technology replaced them.\n\n## Simplified explanation\n\nPlants give drugs such as **quinine** from cinchona bark; moulds give **penicillin**; soil bacteria give **streptomycin**; animals gave **insulin** from pancreas.",
+  "hint": "One famous example from each kingdom — bark, mould, soil bacterium, pancreas.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Sources of Drugs",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Define each of the following terms:\n\n(a) Pharmacognosy\n(b) Pharmacy\n(c) Pharmacogenomics",
+  "answer": "> [!answer]\n> **(a) Pharmacognosy** — the branch of pharmacology that deals with the study of **drugs obtained from natural sources** (plants, animals, minerals and micro-organisms): their identification, cultivation, collection, chemical constituents, standardisation and medicinal uses.\n>\n> **(b) Pharmacy** — the health profession and science concerned with the **preparation, compounding, standardisation, dispensing and rational supply of medicines**, together with counselling patients on their correct use.\n>\n> **(c) Pharmacogenomics** — the study of how **the whole genome (all genes and their variation) influences an individual's response to drugs**, used to predict efficacy and adverse effects and to individualise therapy (the basis of 'personalised medicine').",
+  "explanation": "## Advanced explanation\n\nThese are three of the sub-disciplines of pharmacology. **Pharmacognosy** (Greek *pharmakon*, drug + *gnosis*, knowledge) covers crude drugs and their active principles — digitalis leaf, opium, cinchona. **Pharmacy** is a profession rather than a research discipline: formulation, compounding, dispensing and pharmaceutical care. **Pharmacogenomics** is broader than **pharmacogenetics**, which examines single gene variants (for example *CYP2D6* poor metabolisers of codeine, *TPMT* variants and azathioprine toxicity, *HLA-B\\*5701* and abacavir hypersensitivity); pharmacogenomics looks at the genome-wide contribution to drug response.\n\n## Simplified explanation\n\n**Pharmacognosy** = drugs from nature. **Pharmacy** = making and dispensing medicines. **Pharmacogenomics** = how your genes decide whether a drug works for you.",
+  "hint": "Natural sources; the dispensing profession; genes and drug response.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Scope of Pharmacology",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3)** advantages and **THREE (3)** disadvantages of the **enteral route** of drug administration.",
+  "answer": "| Advantages | Disadvantages |\n|---|---|\n| **Safe, convenient and painless** — needs no sterile technique, the patient can self-administer | **Slow and variable onset** — unsuitable for emergencies |\n| **Economical** — no needles, syringes or trained staff needed; tablets are cheap to make and store | **Extensive first-pass metabolism** in gut wall and liver lowers bioavailability |\n| **Non-invasive and generally reversible** — an overdose can still be removed by gastric lavage, emesis or activated charcoal | **Absorption is affected by food, gastric pH, motility and other drugs**, so bioavailability is erratic |\n| Suits **chronic therapy** and allows modified-release formulations | **Cannot be used in the unconscious, vomiting or uncooperative patient**, or in severe diarrhoea |\n| | **Gastric irritation** (NSAIDs), and **acid- or enzyme-labile drugs (insulin, benzylpenicillin) are destroyed** |\n\n> [!answer]\n> Advantages: **safe, convenient, self-administered; cheap and non-invasive; overdose can still be retrieved**. Disadvantages: **slow/variable onset and absorption; first-pass metabolism reduces bioavailability; useless in vomiting or unconscious patients and destroys acid-labile drugs**.",
+  "explanation": "## Advanced explanation\n\nThe enteral route (oral, sublingual, rectal) delivers drug to the **portal circulation**, so an orally absorbed drug must survive gastric acid, luminal and brush-border enzymes, efflux by **P-glycoprotein**, and metabolism in enterocytes and liver before reaching the systemic circulation — the **first-pass effect** that makes oral bioavailability of propranolol, lidocaine and glyceryl trinitrate low. Absorption depends on the **pH-partition** of the drug, gastric emptying rate, intestinal surface area and the presence of food. The sublingual and rectal (lower rectum) routes partly bypass the portal system.\n\n## Simplified explanation\n\nSwallowing a drug is **easy, cheap and safe**, but it works **slowly**, the **liver destroys some of it first**, and you cannot use it if the patient is **vomiting or unconscious**.",
+  "hint": "Think convenience and cost against speed, first-pass metabolism and the state of the patient.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Routes of Administration",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3)** advantages and **THREE (3)** disadvantages of the **parenteral route** of drug administration.",
+  "answer": "| Advantages | Disadvantages |\n|---|---|\n| **Rapid onset of action** — intravenous injection gives an immediate effect, essential in emergencies | **Invasive and painful**; needs trained personnel and strict asepsis |\n| **100% bioavailability (IV) and no first-pass metabolism** — the whole dose reaches the systemic circulation | **Risk of infection, abscess, phlebitis, thrombosis, embolism and nerve injury** |\n| **Usable in unconscious, vomiting or uncooperative patients**, and for acid- or enzyme-labile drugs such as insulin and benzylpenicillin | **Not reversible** — once injected the dose cannot be recovered, so overdose and anaphylaxis are dangerous |\n| Allows **accurate dose titration** and depot/long-acting preparations | **Expensive** — requires sterile preparations, syringes and sometimes hospital admission |\n| Allows **local delivery** (intrathecal, intra-articular) past barriers such as the blood–brain barrier | **Self-administration is difficult**; needle-stick injury and sharps disposal are hazards |\n\n> [!answer]\n> Advantages: **fast onset, complete bioavailability with no first-pass effect, and usable when the oral route fails**. Disadvantages: **painful and invasive with risk of infection and injury, irreversible once given, and costly, requiring sterile technique and trained staff**.",
+  "explanation": "## Advanced explanation\n\n'Parenteral' means **beside the intestine** — any route that bypasses the gastrointestinal tract, chiefly intravenous, intramuscular, subcutaneous, intradermal, intrathecal and intraperitoneal. Because absorption from the gut and hepatic first-pass extraction are avoided, the IV route has **bioavailability F = 1** by definition and a peak plasma concentration determined only by dose and volume of distribution. The price is loss of the gut's protective barrier: an incorrectly calculated dose, a contaminated injection or an idiosyncratic reaction cannot be undone, and IM/SC absorption still varies with regional blood flow, which falls in shock.\n\n## Simplified explanation\n\nInjections **work at once and all of the dose gets in**, and they work when the patient cannot swallow — but they **hurt, can introduce infection, cost more, and cannot be taken back** once given.",
+  "hint": "The mirror image of the oral route's advantages and disadvantages.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Routes of Administration",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between an **official name** and a **generic name** of a drug.",
+  "answer": "| | Official name | Generic (non-proprietary) name |\n|---|---|---|\n| **Meaning** | The name under which the drug is listed in an **official pharmacopoeia** (BP, USP, International Pharmacopoeia) | The **approved, non-proprietary scientific name** given to the active substance (rINN/USAN), independent of manufacturer |\n| **Who assigns it** | The **pharmacopoeial commission** of a country or region | **WHO (INN programme)** or the national nomenclature body |\n| **Legal status** | Carries the **legal standard of identity, purity and strength** that the product must meet | Identifies the substance; not in itself a quality standard |\n| **Example** | *Paracetamol BP*, *Ampicillin USP* | paracetamol (acetaminophen), ampicillin |\n\n> [!answer]\n> The **generic name** is the single approved scientific name of the active substance used by every manufacturer; the **official name** is the name (usually the same word) under which that substance appears in an official pharmacopoeia, where it carries a legal quality standard, e.g. *Paracetamol BP*.",
+  "explanation": "## Advanced explanation\n\nEvery drug carries up to four names: the **chemical name** (N-(4-hydroxyphenyl)acetamide), the **generic/non-proprietary name** (paracetamol), the **official name** (Paracetamol BP — generic name plus pharmacopoeial monograph), and the **brand/proprietary name** (Panadol®, owned by one company). Prescribing by generic name is recommended because it is unambiguous internationally, permits substitution and is cheaper; pharmacopoeial (official) status means the product must comply with the stated tests for identity, purity, dissolution and assay.\n\n## Simplified explanation\n\nThe **generic name** is the drug's ordinary scientific name that everyone uses. The **official name** is that same name as written in the official drug book (the pharmacopoeia), which sets the quality standard.",
+  "hint": "One is simply the approved name; the other is the name as it appears in a pharmacopoeia.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Drug Nomenclature",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between a **drug** and a **medicine**.",
+  "answer": "| | Drug | Medicine |\n|---|---|---|\n| **Definition** | Any **chemical substance that alters a biological function** of a living organism | A **drug formulated with excipients into a dosage form** and intended for the prevention, diagnosis, treatment or cure of disease |\n| **Intention** | May be therapeutic, diagnostic, recreational or toxic | Always intended for a **therapeutic or diagnostic benefit** |\n| **Composition** | The active substance alone | Active substance **plus excipients** (binders, diluents, preservatives, flavours) |\n| **Example** | Paracetamol powder; cocaine; nicotine | A 500 mg paracetamol tablet; paracetamol syrup |\n\n> [!answer]\n> Every medicine contains a drug, but **not every drug is a medicine**: a drug is any substance that changes biological function, while a medicine is a **formulated preparation of a drug given for a therapeutic purpose**.",
+  "explanation": "## Advanced explanation\n\nThe WHO defines a drug as 'any substance or product that is used or intended to be used to modify or explore physiological systems or pathological states for the benefit of the recipient'. A **medicine (medicinal product)** adds two elements: a **pharmaceutical dosage form** (the drug plus its excipients, presented as tablet, capsule, injection or syrup) and a **declared therapeutic intention**, which brings it under medicines regulation (marketing authorisation, labelling, pharmacovigilance). Substances such as nicotine or cocaine are drugs but are not medicines in ordinary use.\n\n## Simplified explanation\n\nA **drug** is the active chemical. A **medicine** is that chemical **made into a tablet, syrup or injection** and given to help a patient.",
+  "hint": "One is a chemical; the other is a finished product with a purpose.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Basic Concepts",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **OTC drugs** and **prescription drugs**.",
+  "answer": "| | Over-the-counter (OTC) drugs | Prescription-only (POM/ethical) drugs |\n|---|---|---|\n| **Access** | Sold **directly to the public without a prescription**, in pharmacies and licensed chemical shops | Supplied **only on the written order of a registered prescriber** (doctor, dentist, authorised prescriber) |\n| **Safety profile** | Wide margin of safety, well-known effects, low abuse potential; safe for self-medication | Narrow therapeutic index, significant toxicity, abuse potential or need for diagnosis and monitoring |\n| **Labelling** | Full directions for self-use written for the patient | Labelled for the prescriber/dispenser; often 'To be sold on prescription only' |\n| **Supervision** | Self-medication for minor, self-limiting conditions | Requires professional diagnosis, dose selection and follow-up |\n| **Examples** | Paracetamol, aspirin, antacids, oral rehydration salts, chlorpheniramine | Antibiotics, antihypertensives, opioid analgesics, insulin, warfarin, antipsychotics |\n\n> [!answer]\n> OTC drugs are **safe enough for the public to buy and use without a prescription** for minor ailments; prescription drugs are **restricted to supply on a prescriber's order** because they need diagnosis, dose individualisation and monitoring, or carry serious toxicity or abuse potential.",
+  "explanation": "## Advanced explanation\n\nClassification is a **regulatory decision** (in Ghana by the Food and Drugs Authority) based on the risk–benefit of unsupervised use: toxicity and therapeutic index, likelihood of masking serious disease, potential for misuse and dependence, and whether correct use needs a diagnosis. The categories are not fixed — drugs may be **switched** from POM to pharmacy or general-sales status once post-marketing experience shows they are safe for self-medication (for example ibuprofen, omeprazole, some antihistamines). Misuse of what should be prescription-only medicines, particularly antibiotics sold over the counter, is a major driver of antimicrobial resistance.\n\n## Simplified explanation\n\n**OTC** medicines you can buy yourself for small problems like a headache. **Prescription** medicines need a doctor's order because they are stronger, more dangerous or need the right diagnosis.",
+  "hint": "Who decides the patient may have the drug?",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Drug Classification",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **dissolution** and **absorption**.",
+  "answer": "| | Dissolution | Absorption |\n|---|---|---|\n| **Definition** | The process by which a **solid dosage form breaks up and the drug goes into solution** in the gastrointestinal fluids | The process by which the **dissolved drug moves across biological membranes from the site of administration into the systemic circulation** |\n| **Where it happens** | In the lumen of the gut (or at the site of administration) | Across the gut wall/mucosal epithelium into blood or lymph |\n| **Governed by** | Noyes–Whitney relationship: surface area, solubility, agitation, formulation (disintegrant, particle size, salt form, polymorph) | Lipid solubility, degree of ionisation (pH partition), molecular size, surface area, blood flow, transporters, membrane thickness |\n| **Sequence** | Comes **first** — a drug cannot be absorbed until it is in solution | Comes **second**; determines the rate and extent of entry into the body |\n\n> [!answer]\n> **Dissolution** is the drug going **into solution**; **absorption** is the dissolved drug **crossing membranes into the bloodstream**. Dissolution must precede absorption, and for poorly soluble drugs it is the rate-limiting step.",
+  "explanation": "## Advanced explanation\n\nFor an orally administered solid, the sequence is **disintegration → deaggregation → dissolution → absorption**. Dissolution rate follows the **Noyes–Whitney equation**, $\\frac{dC}{dt} = \\frac{DA(C_s - C)}{h}$, so it is increased by reducing particle size (greater surface area $A$), using a more soluble salt, and by agitation. Absorption of most drugs is **passive diffusion** of the un-ionised, lipid-soluble species down a concentration gradient, described by Fick's law and modified by the **pH-partition hypothesis** and by carrier-mediated transport. For BCS class II drugs (low solubility, high permeability) **dissolution is rate-limiting**; for class III drugs (high solubility, low permeability) **absorption is rate-limiting**.\n\n## Simplified explanation\n\nFirst the tablet **melts into the gut fluid** (dissolution), then the dissolved drug **passes through the gut wall into the blood** (absorption).",
+  "hint": "Which one must happen before the other?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Pharmacokinetics",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **ED₅₀** and **LD₅₀**.",
+  "answer": "| | ED₅₀ (median effective dose) | LD₅₀ (median lethal dose) |\n|---|---|---|\n| **Definition** | The dose that produces the **desired/specified therapeutic effect in 50%** of the test population | The dose that **kills 50%** of the test population |\n| **Curve used** | Quantal dose–**effect** curve | Quantal dose–**lethality (toxicity)** curve |\n| **Measures** | **Potency/efficacy** of the drug | **Acute toxicity** of the drug |\n| **Determined in** | Humans or animals, therapeutic studies | Animals (acute toxicity testing) |\n| **Relationship** | Therapeutic index $TI = \\dfrac{LD_{50}}{ED_{50}}$ — the larger the TI, the safer the drug | |\n\n> [!answer]\n> **ED₅₀** is the dose producing the **wanted effect in half the population**; **LD₅₀** is the dose that is **lethal to half the population**. Their ratio, LD₅₀/ED₅₀, is the **therapeutic index**, a crude measure of the safety margin.",
+  "explanation": "## Advanced explanation\n\nBoth come from **quantal (all-or-none) dose–response curves**, in which the proportion of a population showing a defined response is plotted against log dose, giving a sigmoid cumulative-frequency curve whose midpoint is the ED₅₀ or LD₅₀. Because they are midpoints, they say nothing about the **slope** of the curves: two drugs with the same therapeutic index can differ greatly in safety if one has a steep dose–response curve. For this reason the **certain safety factor LD₁/ED₉₉** and the clinical **therapeutic window** are better safety measures, and the therapeutic index alone is of limited clinical value.\n\n## Simplified explanation\n\n**ED₅₀** = dose that works in half the subjects. **LD₅₀** = dose that kills half of them. Dividing LD₅₀ by ED₅₀ gives the **therapeutic index**, telling you how wide the safety margin is.",
+  "hint": "Both are 'the dose for half the population' — but half of what response?",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Dose–Response Relationships",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "The fraction of drug that finally enters the systemic circulation describes ……………",
+  "answer": "> [!answer]\n> **Bioavailability (F)** — the fraction (or percentage) of an administered dose that reaches the systemic circulation **unchanged**.",
+  "explanation": "## Advanced explanation\n\nBioavailability is calculated from the area under the plasma concentration–time curve: $F = \\dfrac{AUC_{oral} \\times Dose_{IV}}{AUC_{IV} \\times Dose_{oral}}$. By definition $F = 1$ for an intravenous dose. Oral F is reduced by incomplete dissolution and absorption and by **first-pass metabolism** in the gut wall and liver.\n\n## Simplified explanation\n\nIt is **how much of the dose actually gets into the blood** — 100% for an injection into a vein, usually less when swallowed.",
+  "hint": "IV drugs have 100% of it.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Pharmacokinetics",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Pharmacology is generally defined as the study of drugs, including their beneficial and adverse effects. From this definition, pharmacology is simplified into **two specialised areas**. What are these two areas?",
+  "answer": "> [!answer]\n> 1. **Pharmacokinetics** — *what the body does to the drug*: absorption, distribution, metabolism and excretion (ADME).\n> 2. **Pharmacodynamics** — *what the drug does to the body*: its mechanism of action, receptor interactions and biochemical and physiological effects.",
+  "explanation": "## Advanced explanation\n\nPharmacokinetics describes the **time course of drug concentration** in the body (bioavailability, volume of distribution, clearance, half-life). Pharmacodynamics describes the **relationship between concentration at the site of action and effect** (affinity, efficacy, potency, dose–response). Together they explain why a given dose produces a given effect.\n\n## Simplified explanation\n\n**Pharmacokinetics** = the body acting on the drug. **Pharmacodynamics** = the drug acting on the body.",
+  "hint": "One is 'body on drug', the other 'drug on body'.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Scope of Pharmacology",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain how each of the following influences drug absorption in the gastrointestinal tract (GIT):\n\n(a) Membrane thickness\n(b) Number of membrane pores / pore size\n(c) Physical/chemical properties of the drug, e.g. size of drug molecules, pH, molecular weight and functional groups",
+  "answer": "> [!answer]\n> **(a) Membrane thickness** — by Fick's law the rate of passive diffusion is **inversely proportional to the thickness** of the membrane; a thin single-cell epithelium (small intestine) favours absorption, while a thickened or oedematous mucosa slows it.\n>\n> **(b) Pores** — small water-filled pores/paracellular channels allow **small water-soluble molecules and ions (MW below about 100–200 Da)** to pass by filtration; more or larger pores increase absorption of such molecules, whereas large molecules are excluded.\n>\n> **(c) Drug properties** — **small, lipid-soluble, un-ionised molecules are absorbed best**. Low molecular weight speeds diffusion; the **pKa of the drug relative to the pH of the GIT** decides the un-ionised fraction (weak acids are less ionised in the stomach, weak bases in the intestine); polar functional groups (–OH, –COOH, –NH₂, quaternary ammonium) lower lipid solubility and absorption, whereas non-polar groups raise it.",
+  "explanation": "## Advanced explanation\n\nPassive diffusion follows **Fick's first law**: rate $= \\dfrac{D \\cdot A \\cdot K \\cdot (C_1 - C_2)}{h}$, where $h$ is membrane thickness, $A$ surface area and $K$ the lipid–water partition coefficient. Ionisation is given by the **Henderson–Hasselbalch equation**; only the un-ionised form crosses lipid membranes readily (**pH-partition hypothesis**). Quaternary ammonium compounds are permanently charged and poorly absorbed orally.\n\n## Simplified explanation\n\nA **thin membrane**, **enough pores** for small molecules, and a drug that is **small, fat-soluble and uncharged** all make absorption faster.",
+  "hint": "Use Fick's law and the pH-partition hypothesis.",
+  "difficulty": "medium",
+  "marks": 9,
+  "tags": [
+   "Drug Absorption",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Solutions, pills, mixtures, powders, liniment, syrup, paste, emulsions, capsules, suspensions, creams, lotions, lozenges, aerosols, tablets, gel, suppositories.\n\nGroup the above dosage forms under: **Solids, Semi-solids, Liquids, Inhalation/gas phase**.",
+  "answer": "| Solids | Semi-solids | Liquids | Inhalation/gas phase |\n|---|---|---|---|\n| Pills, powders, capsules, lozenges, tablets, suppositories | Paste, creams, gel | Solutions, mixtures, liniment, syrup, emulsions, suspensions, lotions | Aerosols |\n\n> [!answer]\n> **Solids**: pills, powders, capsules, lozenges, tablets, suppositories. **Semi-solids**: paste, creams, gel. **Liquids**: solutions, mixtures, liniment, syrup, emulsions, suspensions, lotions. **Gas phase**: aerosols.",
+  "explanation": "## Advanced explanation\n\nDosage forms are classified by **physical state**. Suppositories are solid at room temperature and melt or dissolve at body temperature, so they are grouped as solids (some texts call them semi-solids). Liniments and lotions are liquid preparations for external use; ointments, creams, pastes and gels are semi-solids differing in base and water content. Aerosols deliver drug as fine particles or droplets in a gas.\n\n## Simplified explanation\n\nHard things (tablets, capsules) are **solids**; spreadable things (creams, gels, pastes) are **semi-solids**; pourable things (syrups, suspensions, lotions) are **liquids**; sprays you breathe in are **aerosols**.",
+  "hint": "Can you hold it, spread it, pour it, or breathe it?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Excipients & Dosage Forms",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State the documented names of an FDA-approved drug.",
+  "answer": "> [!answer]\n> 1. **Chemical name** — describes the chemical structure (IUPAC), e.g. *N-(4-hydroxyphenyl)acetamide*.\n> 2. **Code (investigational) name** — the laboratory/company code used during development.\n> 3. **Generic (non-proprietary) name** — the approved name, e.g. *acetaminophen/paracetamol*.\n> 4. **Official name** — the name under which it is listed in an official compendium (USP/BP).\n> 5. **Brand (trade/proprietary) name** — the registered name used by the manufacturer, e.g. *Tylenol®, Panadol®*.",
+  "explanation": "## Advanced explanation\n\nA drug passes through these names as it is developed: a **code number** in discovery, a **chemical name** describing structure, a **generic name** assigned by USAN/INN, an **official name** once in a pharmacopoeia, and one or more **brand names** when marketed. Generic names are recommended for prescribing because they are unambiguous and allow cheaper substitution.\n\n## Simplified explanation\n\nA drug has a **chemical name**, a **code name** during testing, a **generic name**, an **official name** in the drug books, and a **brand name** it is sold under.",
+  "hint": "Chemical, code, generic, official, brand.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Drug Nomenclature",
+   "Quiz 1",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Mention **TWO (2)** sources of drug information.",
+  "answer": "> [!answer]\n> 1. **Official compendia and formularies** — e.g. the British National Formulary (BNF), British/United States Pharmacopoeia, Ghana National Drugs Formulary and Standard Treatment Guidelines.\n> 2. **Package inserts / summary of product characteristics (SmPC)** supplied by the manufacturer.\n>\n> Others: textbooks of pharmacology, drug information centres, journals and databases (Medline, Micromedex), regulatory agencies (FDA, Ghana FDA), pharmacists.",
+  "explanation": "## Advanced explanation\n\nDrug information sources are classed as **primary** (original research articles), **secondary** (indexing and abstracting services such as PubMed) and **tertiary** (textbooks, formularies, compendia, package inserts). Tertiary sources are fastest for routine questions; primary literature is needed for new or controversial issues.\n\n## Simplified explanation\n\nYou can look up a drug in the **BNF/national formulary**, the **package insert** in the box, pharmacology **textbooks**, or ask a **pharmacist/drug information centre**.",
+  "hint": "Think of the books and leaflets a pharmacist consults.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Drug Information",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FOUR (4)** reasons why a drug may **not** be prescribed by the oral route.",
+  "answer": "> [!answer]\n> 1. The patient is **unconscious, vomiting, uncooperative or cannot swallow**.\n> 2. The drug is **destroyed by gastric acid or digestive enzymes** (e.g. insulin, benzylpenicillin).\n> 3. The drug undergoes **extensive first-pass metabolism**, giving low bioavailability (e.g. glyceryl trinitrate, lidocaine).\n> 4. A **rapid onset of action is needed** in an emergency.\n>\n> Also: the drug is **poorly absorbed** from the gut (e.g. aminoglycosides), it **irritates the gastric mucosa** severely, or the patient has severe diarrhoea/malabsorption.",
+  "explanation": "## Advanced explanation\n\nThe oral route fails when the drug cannot **survive** the gut (acid, proteases), cannot **cross** it (high polarity, large MW, P-glycoprotein efflux), cannot **escape** the liver (high hepatic extraction), or when the **patient's state** prevents swallowing or reliable absorption, or when the clinical need is for an immediate, titratable effect.\n\n## Simplified explanation\n\nDo not give a drug by mouth if the patient **cannot swallow or keeps vomiting**, if the **stomach destroys the drug**, if the **liver removes most of it**, or if you need it to **work immediately**.",
+  "hint": "Think about the patient, the gut, the liver and the urgency.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Routes of Administration",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **ion trapping** and **absorption**.",
+  "answer": "| Ion trapping | Absorption |\n|---|---|\n| Accumulation of a weak acid or base **on the side of a membrane where it is more ionised**, because only the un-ionised form crosses and the ionised form cannot diffuse back | Movement of a drug **from its site of administration into the systemic circulation** |\n| Driven by a **pH difference** across the membrane (pH-partition) | Driven by concentration gradient, lipid solubility, transporters and blood flow |\n| E.g. weak bases concentrate in acidic gastric juice and urine; alkalinising urine traps aspirin/phenobarbital to hasten excretion | E.g. aspirin absorbed from the stomach and small intestine into blood |\n\n> [!answer]\n> **Absorption** is the passage of a drug into the bloodstream; **ion trapping** is the **pH-dependent build-up of the ionised drug in a compartment**, which can oppose absorption or be exploited to increase excretion.",
+  "explanation": "## Advanced explanation\n\nBy the Henderson–Hasselbalch equation, at equilibrium the **un-ionised** concentrations are equal on both sides of a membrane, but total concentration is greater where the drug is more ionised. Hence a weak acid (pKa 3.5) is trapped in alkaline plasma relative to acidic gastric juice, and weak bases are trapped in acidic urine or breast milk. Urinary alkalinisation in salicylate poisoning uses ion trapping to enhance elimination.\n\n## Simplified explanation\n\n**Absorption** is getting into the blood. **Ion trapping** is a drug getting **stuck on one side of a membrane** because it becomes charged there and cannot pass back.",
+  "hint": "Henderson–Hasselbalch and the pH difference across membranes.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Drug Absorption",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **pharmacogenomics** and **pharmacogenetics**.",
+  "answer": "| Pharmacogenetics | Pharmacogenomics |\n|---|---|\n| Study of how **variation in a single gene** (or a few genes) affects drug response | Study of how the **whole genome** (many genes and their interactions) affects drug response |\n| Usually inherited polymorphisms in drug-metabolising enzymes, transporters or receptors | Genome-wide approach used for drug discovery and individualised therapy |\n| E.g. *CYP2D6* poor metabolisers and codeine; G6PD deficiency and primaquine haemolysis; slow acetylators and isoniazid neuropathy | E.g. genome-wide association studies of warfarin dose (*CYP2C9* + *VKORC1* and others) |\n\n> [!answer]\n> **Pharmacogenetics** looks at **single-gene** effects on drug response; **pharmacogenomics** looks at the **entire genome**.",
+  "explanation": "## Advanced explanation\n\nPharmacogenetics grew from observations of monogenic traits (pseudocholinesterase deficiency and suxamethonium apnoea, NAT2 acetylator status, G6PD deficiency). Pharmacogenomics uses genomic technologies (SNP arrays, sequencing) to relate polygenic variation to efficacy and toxicity, and underpins personalised medicine.\n\n## Simplified explanation\n\nPharmacogenetics = **one gene** changing how a drug works. Pharmacogenomics = **all your genes** together.",
+  "hint": "One gene versus the whole genome.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Scope of Pharmacology",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **pharmacology** and **toxicology**.",
+  "answer": "| Pharmacology | Toxicology |\n|---|---|\n| Study of **drugs and their interactions with living systems**, especially their **beneficial/therapeutic** effects, mechanisms, kinetics and uses | Study of the **adverse (harmful) effects of chemicals** — drugs, environmental and industrial agents, natural toxins — on living organisms |\n| Concerned mainly with therapeutic doses | Concerned with poisonous doses, mechanisms of toxicity, diagnosis and treatment of poisoning, and risk assessment |\n\n> [!answer]\n> Pharmacology studies drugs mainly for their **useful effects**; toxicology studies **harmful effects of any chemical**, including drugs in overdose.",
+  "explanation": "## Advanced explanation\n\nThe two share principles — dose–response, ADME, receptor mechanisms — and Paracelsus's dictum that 'the dose makes the poison' links them. Toxicology extends beyond drugs to pesticides, metals, solvents and toxins, and includes forensic, clinical, environmental and regulatory branches.\n\n## Simplified explanation\n\nPharmacology asks **how drugs help**; toxicology asks **how chemicals harm**.",
+  "hint": "Beneficial versus harmful effects.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Scope of Pharmacology",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between **pharmacy** and **therapeutics**.",
+  "answer": "| Pharmacy | Therapeutics |\n|---|---|\n| Science and profession of **preparing, compounding, formulating, standardising and dispensing medicines** | Branch of medicine concerned with the **use of drugs (and other measures) to prevent and treat disease** in patients |\n| Focus on the **product** | Focus on the **patient** and the choice of the right drug, dose and duration |\n\n> [!answer]\n> **Pharmacy** prepares and supplies medicines; **therapeutics** is the **rational use of medicines to treat disease**.",
+  "explanation": "## Advanced explanation\n\nPharmacy covers pharmaceutics, pharmaceutical chemistry, pharmacognosy and dispensing practice. Therapeutics (clinical pharmacology/pharmacotherapy) applies pharmacokinetic and pharmacodynamic knowledge to select treatment, monitor response and avoid adverse effects and interactions.\n\n## Simplified explanation\n\nThe **pharmacist makes and gives out** medicines; **therapeutics** is about **using them correctly** to treat illness.",
+  "hint": "Making medicines versus using them to treat patients.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Scope of Pharmacology",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FIVE (5)** natural sources of drugs and give **one example** of a drug from each.",
+  "answer": "| Natural source | Example drug |\n|---|---|\n| **Plants** | Morphine (*Papaver somniferum*), quinine (*Cinchona* bark), digoxin (*Digitalis*), artemisinin (*Artemisia annua*) |\n| **Animals** | Insulin (pancreas), thyroxine (thyroid), heparin (porcine intestinal mucosa), antivenom (horse serum) |\n| **Micro-organisms — fungi** | Penicillin (*Penicillium chrysogenum*), griseofulvin, ciclosporin |\n| **Micro-organisms — bacteria** | Streptomycin (*Streptomyces griseus*), chloramphenicol, vancomycin |\n| **Minerals** | Ferrous sulphate (iron), magnesium trisilicate/magnesium sulphate, lithium carbonate, iodine |\n\n> [!answer]\n> Plants → **quinine**; animals → **insulin**; fungi → **penicillin**; bacteria → **streptomycin**; minerals → **ferrous sulphate**. (Marine organisms, e.g. cytarabine from a sponge, are also accepted.)",
+  "explanation": "## Advanced explanation\n\nNatural products remain the single richest source of pharmacological lead compounds. Plants supply alkaloids, glycosides and terpenoids; **actinomycetes** of soil supply most antibiotics; animal tissues supplied hormones before recombinant DNA technology; minerals supply elements used as supplements, antacids and mood stabilisers. Modern drugs are increasingly **semi-synthetic** derivatives of these leads or **biotechnological** products.\n\n## Simplified explanation\n\nDrugs originally came from **plants, animals, moulds, bacteria and minerals** — for example quinine, insulin, penicillin, streptomycin and iron tablets.",
+  "hint": "Two kinds of micro-organism count separately; do not forget minerals.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Sources of Drugs",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **TWO (2)** factors relating to each of the following that affect drug absorption:\n\n(a) Properties of the drug\n(b) Properties of the membrane",
+  "answer": "> [!answer]\n> **(a) Drug properties**\n> 1. **Lipid solubility / degree of ionisation (pKa versus local pH)** — un-ionised, lipophilic drugs diffuse best.\n> 2. **Molecular size/weight** — small molecules diffuse faster; also particle size, salt form, polymorph and the concentration gradient and formulation (dissolution rate).\n>\n> **(b) Membrane properties**\n> 1. **Surface area available for absorption** — the villi and microvilli of the small intestine give a vast area.\n> 2. **Thickness of the membrane and its blood supply** — thin, well-perfused membranes absorb rapidly; also the number and size of aqueous pores and the presence of transporters/efflux pumps such as P-glycoprotein.",
+  "explanation": "## Advanced explanation\n\nFick's law, rate $= \\dfrac{D\\,A\\,K(C_1-C_2)}{h}$, separates the two sets of variables: **drug variables** are the diffusion coefficient $D$ (molecular size), the partition coefficient $K$ (lipid solubility, ionisation) and the concentration gradient; **membrane variables** are the area $A$, thickness $h$, pore size and perfusion, which maintains the sink condition. Carrier-mediated transport and efflux add saturable components.\n\n## Simplified explanation\n\nThe drug must be **small and fat-soluble**; the membrane must be **thin, large in area and well supplied with blood**.",
+  "hint": "Split Fick's law into drug terms and membrane terms.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Drug Absorption",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Give **THREE (3)** reasons why a pharmaceutical company may not want to invest in the development of an **orphan drug**.",
+  "answer": "> [!answer]\n> 1. **Very small market** — an orphan drug treats a rare disease, so the number of patients, and therefore the potential sales, are too few to repay development.\n> 2. **High development cost and risk** — the cost of discovery, toxicology and clinical trials is the same as for a common disease, but **recruiting enough patients for trials is difficult** and the trials take longer.\n> 3. **Poor return on investment/low profitability** — the price needed to recover costs may be unaffordable for patients or payers, and the patent may expire before costs are recouped.\n>\n> Also acceptable: regulatory and liability burden is unchanged, and the affected population is often poor (neglected tropical diseases).",
+  "explanation": "## Advanced explanation\n\nAn **orphan drug** is one intended for a disease so rare (in the USA fewer than 200 000 patients) that the expected revenue would not cover development. Because fixed costs — discovery, preclinical toxicology, manufacturing scale-up, regulatory submission, pharmacovigilance — are largely independent of market size, the **per-patient cost is enormous**. Governments correct this market failure with incentives: the US Orphan Drug Act 1983 and the EU regulation grant **market exclusivity, tax credits, fee waivers and protocol assistance**.\n\n## Simplified explanation\n\nToo **few patients** to sell to, the **same huge cost** to develop and test, and therefore **little or no profit** — so companies avoid them unless governments give incentives.",
+  "hint": "Think about market size versus fixed development cost.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Drug Development",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Relate each of the following to the **apparent volume of distribution (Vd)** of a drug:\n\n(a) Plasma protein binding and tissue sequestration\n(b) Degree of ionisation\n(c) Lean body mass / body composition",
+  "answer": "> [!answer]\n> **(a) Plasma protein binding and tissue sequestration** — extensive binding to **plasma proteins (albumin, α₁-acid glycoprotein)** keeps drug in the vascular compartment and gives a **small Vd** (e.g. warfarin ≈ 8 L). Extensive **binding/sequestration in tissues** (fat, muscle, lysosomes) pulls drug out of plasma and gives a **very large Vd** (e.g. digoxin ≈ 500 L, chloroquine > 10 000 L).\n>\n> **(b) Degree of ionisation** — highly **ionised, polar drugs cannot cross membranes**, stay in extracellular water and have a **small Vd** (e.g. gentamicin, heparin). **Un-ionised, lipophilic** drugs enter cells and fat and have a **large Vd**. pH differences between plasma and tissue also trap ionised drug in one compartment.\n>\n> **(c) Lean body mass/body composition** — Vd depends on the size of the compartments the drug enters. **Water-soluble drugs distribute into lean mass and body water**, so Vd should be calculated on **ideal/lean body weight** in obese patients; **lipid-soluble drugs distribute into adipose tissue**, so their Vd (and half-life) increases with body fat. Neonates (high body water) and the elderly (less water, more fat, less albumin) also have altered Vd.",
+  "explanation": "## Advanced explanation\n\n$V_d = \\dfrac{\\text{amount of drug in the body}}{\\text{plasma concentration}}$ — an **apparent** volume relating dose to measured concentration, not a real anatomical space. The classic relationship is $V_d = V_p + V_t\\left(\\dfrac{f_u}{f_{ut}}\\right)$, where $f_u$ is the unbound fraction in plasma and $f_{ut}$ that in tissue: **greater plasma binding (small $f_u$) lowers Vd; greater tissue binding (small $f_{ut}$) raises it**. Vd determines the **loading dose** ($LD = V_d \\times C_{target}/F$) and, with clearance, the half-life ($t_{1/2} = 0.693\\,V_d/CL$).\n\n## Simplified explanation\n\nIf a drug **sticks to blood proteins** or **cannot leave the blood because it is charged**, its Vd is **small**. If it **hides in tissues and fat**, its Vd is **huge**. Body build matters: water-soluble drugs spread through **lean tissue**, fat-soluble drugs into **fat**.",
+  "hint": "Vd is large when the drug leaves the plasma, small when it stays.",
+  "difficulty": "hard",
+  "marks": 9,
+  "tags": [
+   "Drug Distribution",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A patient is given **100 mg of warfarin intravenously**. Comment on the **absorption** and the **bioavailability** of this dose.",
+  "answer": "> [!answer]\n> With an intravenous dose there is **no absorption phase** — the drug is placed directly into the systemic circulation, so absorption is **complete/bypassed (100%)** and there is **no first-pass metabolism**.\n>\n> Its **bioavailability is therefore 100% (F = 1)**, which is true by definition for any intravenous dose: the whole 100 mg reaches the systemic circulation unchanged.",
+  "explanation": "## Advanced explanation\n\nBioavailability is defined relative to the intravenous route: $F = \\dfrac{AUC_{\\text{route}}/Dose_{\\text{route}}}{AUC_{IV}/Dose_{IV}}$, so $F_{IV} = 1$ by construction. Oral warfarin happens also to be almost completely absorbed ($F \\approx 0.93$–1), but the point here is that the IV route has no absorption step and escapes the gut wall and hepatic first pass. Note that 100 mg is far above a therapeutic warfarin dose — this is an arithmetic illustration, not a clinical dose.\n\n## Simplified explanation\n\nInjected straight into a vein, the drug does **not need to be absorbed** — **all 100 mg is already in the blood**, so bioavailability is **100%**.",
+  "hint": "What is the bioavailability of any intravenous dose, by definition?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Pharmacokinetics",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is an **excipient**? Give examples of the main classes used in tablet formulation.",
+  "answer": "> [!answer]\n> An **excipient** is any **pharmacologically inactive substance formulated alongside the active pharmaceutical ingredient** in a dosage form — included to aid manufacture, protect, support or enhance stability, bioavailability, acceptability or patient compliance.\n>\n> | Class | Function | Example |\n> |---|---|---|\n> | Diluent/filler | provides bulk | lactose, microcrystalline cellulose, starch |\n> | Binder | holds granules together | povidone, gelatin, starch paste |\n> | Disintegrant | breaks the tablet up | sodium starch glycolate, croscarmellose |\n> | Lubricant/glidant | prevents sticking, aids flow | magnesium stearate, talc, colloidal silica |\n> | Preservative | prevents microbial growth | methylparaben, benzoic acid |\n> | Antioxidant/chelator | prevents oxidation | ascorbic acid, EDTA |\n> | Sweetener, flavour, colourant | palatability and identification | sucrose, saccharin, dyes |\n> | Coating | protection, enteric or modified release | HPMC, shellac, cellulose acetate phthalate |",
+  "explanation": "## Advanced explanation\n\nExcipients are chosen for **compatibility** with the active ingredient (preformulation studies look for drug–excipient interactions), for their effect on **dissolution and bioavailability**, and for **processability** (flow, compressibility). They are not biologically inert in every patient: lactose intolerance, benzyl alcohol toxicity in neonates and tartrazine hypersensitivity are examples, and a change of excipient can alter bioavailability enough to matter for narrow-therapeutic-index drugs.\n\n## Simplified explanation\n\nAn excipient is an **inactive ingredient** in a medicine — the filler, binder, disintegrant, lubricant, preservative, sweetener or coating that makes the tablet work and taste acceptable.",
+  "hint": "Everything in the tablet except the drug itself.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Excipients & Dosage Forms",
+   "Quiz 2"
+  ],
+  "media": []
+ }
+]

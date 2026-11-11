@@ -1,0 +1,598 @@
+[
+ {
+  "type": "text",
+  "body": "The liver and other organs involved in xenobiotic biotransformation may limit the systemic bioavailability of xenobiotics through a process known as ………",
+  "answer": "> [!answer]\n> **First-pass metabolism (the first-pass effect, or presystemic metabolism/elimination).**",
+  "explanation": "## Advanced explanation\n\nA drug absorbed from the gastrointestinal tract enters the **portal vein** and passes through the gut wall and liver before reaching the systemic circulation. Metabolism in the enterocyte (CYP3A4, UGTs) and in the hepatocyte, together with P-glycoprotein efflux, can remove a large fraction of the dose: oral bioavailability $F = f_{abs}\\times(1-E_{gut})\\times(1-E_{hepatic})$. Drugs with high hepatic extraction — glyceryl trinitrate, propranolol, lidocaine, morphine — have low oral bioavailability and need larger oral than intravenous doses, or a route that bypasses the portal system (sublingual, rectal, transdermal, parenteral).\n\n## Simplified explanation\n\nWhen a drug is swallowed it must pass through the **gut wall and liver first**, and much of it can be destroyed there before it reaches the bloodstream.",
+  "hint": "Why is an oral dose of morphine much larger than an injected one?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why hepatic necrosis due to **acetaminophen (paracetamol)** and **carbon tetrachloride** is localised to the **centrilobular region** of the liver.",
+  "answer": "> [!answer]\n> Because the **centrilobular (zone 3, pericentral) hepatocytes contain the highest concentration of cytochrome P450 enzymes — particularly CYP2E1, CYP1A2 and CYP3A4** — that convert these chemicals to their **reactive toxic metabolites** (NAPQI from paracetamol; the trichloromethyl radical CCl₃• and CCl₃OO• from CCl₄). Toxication therefore occurs where the enzymes are.\n>\n> In addition, zone 3 is **furthest from the portal triad and receives the least oxygenated blood**, and it has the **lowest glutathione reserve**, so its capacity to detoxify the reactive metabolite and to withstand oxidative stress is the smallest in the lobule.",
+  "explanation": "## Advanced explanation\n\nThe liver lobule is **metabolically zonated**: periportal (zone 1) hepatocytes specialise in oxidative metabolism, gluconeogenesis and glutathione synthesis, while centrilobular (zone 3) hepatocytes are enriched in **CYP2E1 and other P450s** and in glycolytic enzymes. Blood flows from the portal triad to the central vein, so oxygen tension falls across the lobule and zone 3 is relatively **hypoxic**. Paracetamol is normally conjugated with glucuronide and sulphate; in overdose these are saturated and more is oxidised to **NAPQI**, which is detoxified by glutathione until GSH falls below ~30% of normal, after which NAPQI arylates cellular proteins and causes necrosis. CCl₄ is reductively dehalogenated by CYP2E1 to the trichloromethyl radical, which initiates **lipid peroxidation**. Both therefore injure zone 3 selectively.\n\n## Simplified explanation\n\nThe cells around the **central vein** have the **most of the enzymes that turn these chemicals into poisons**, the **least oxygen** and the **least glutathione to protect themselves** — so they die first.",
+  "hint": "Where in the lobule are the P450 enzymes concentrated?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Hepatotoxicity",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Briefly describe the **phenotypic characteristics** of individuals who have a **defective FMO3**.",
+  "answer": "> [!answer]\n> They have **trimethylaminuria, the 'fish-odour syndrome'**.\n>\n> **FMO3 (flavin-containing mono-oxygenase 3)** normally N-oxygenates dietary-derived **trimethylamine (TMA)** to the odourless **trimethylamine N-oxide (TMAO)**. When FMO3 is defective, TMA accumulates and is excreted in **breath, sweat, saliva, urine and vaginal secretions**, giving the person a **strong smell of rotting fish**.\n>\n> The condition is **autosomal recessive**, worsened by foods rich in choline, lecithin and carnitine (eggs, liver, fish, legumes) and by menstruation and stress; it causes no organ damage but severe **social and psychological distress**. Affected people may also metabolise FMO3 substrate drugs (nicotine, benzydamine, ranitidine, tamoxifen, clozapine) abnormally.",
+  "explanation": "## Advanced explanation\n\nFMOs, like P450s, are microsomal mono-oxygenases, but they oxidise **soft nucleophiles** (nitrogen, sulphur and phosphorus atoms) via a stable 4a-hydroperoxyflavin intermediate and are not inducible. FMO3 is the major hepatic isoform in adults. Loss-of-function mutations give primary trimethylaminuria; a transient form occurs in infants before FMO3 expression matures and secondary forms occur in liver disease or with large choline loads. Management is dietary restriction, acidic soaps, and short courses of metronidazole or neomycin to suppress the gut bacteria that generate TMA.\n\n## Simplified explanation\n\nThey **smell of rotten fish**, because the enzyme that normally converts smelly trimethylamine into an odourless compound does not work, so it comes out in sweat, breath and urine.",
+  "hint": "A famous inherited metabolic difference with a social rather than medical consequence.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why **procaine** is used as a local anaesthetic but **not** as a systemic (general) anaesthetic.",
+  "answer": "> [!answer]\n> Procaine is an **ester** local anaesthetic. Once it enters the blood it is **rapidly hydrolysed by plasma (pseudo)cholinesterase and tissue carboxylesterases** to para-aminobenzoic acid and diethylaminoethanol, giving a plasma half-life of only a few **minutes**.\n>\n> Therefore a therapeutic systemic concentration cannot be maintained — the duration of systemic action is far too short. Its action is useful only when it is **deposited locally** next to the nerve, where it blocks voltage-gated Na⁺ channels before the circulation carries it away.\n>\n> In addition, the plasma concentrations that would be needed systemically are **toxic**, causing CNS excitation and convulsions followed by depression, and cardiovascular collapse; and PABA, its metabolite, causes **allergic reactions**.",
+  "explanation": "## Advanced explanation\n\nEster-linked local anaesthetics (procaine, chloroprocaine, tetracaine, benzocaine) are hydrolysed by **butyrylcholinesterase in plasma**, which is why they have short half-lives and low systemic toxicity, whereas amide agents (lidocaine, bupivacaine) are metabolised more slowly by hepatic CYPs. The therapeutic principle is that local anaesthesia depends on achieving a **high local concentration around the nerve**, not a systemic one; systemic absorption produces only toxicity, which is why adrenaline is added to slow absorption. The dose-limiting toxicity is CNS (perioral numbness, tinnitus, convulsions) and cardiac (arrhythmias, myocardial depression).\n\n## Simplified explanation\n\nProcaine is **destroyed within minutes by enzymes in the blood**, so it cannot work throughout the body — it only works where it is injected. The blood levels needed for a general effect would cause **fits and heart problems**.",
+  "hint": "What happens to an ester once it reaches plasma?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why **lipophilic xenobiotics** tend to be **toxic**.",
+  "answer": "> [!answer]\n> 1. They **cross biological membranes easily** (the membrane is lipid), so they are well absorbed and reach intracellular targets, the CNS and the fetus.\n> 2. They are **not readily excreted** — the kidney can only eliminate water-soluble compounds; lipophilic molecules filtered at the glomerulus are **passively reabsorbed** in the tubule, so they persist in the body.\n> 3. They **accumulate in adipose tissue and other lipid-rich compartments** (bone marrow, brain, liver), giving long half-lives, **bioaccumulation and biomagnification** up the food chain (DDT, PCBs, dioxins).\n> 4. Because they cannot be excreted unchanged they **must be biotransformed**, and phase I oxidation frequently generates **reactive electrophilic intermediates** (epoxides, quinones, free radicals) that bind covalently to DNA and protein — the usual mechanism of toxicity.\n\n> [!answer]\n> In short: lipophilicity means **easy entry, poor excretion, accumulation and obligatory metabolic activation**.",
+  "explanation": "## Advanced explanation\n\nThe purpose of biotransformation is to convert lipophilic xenobiotics into **hydrophilic, excretable** metabolites: phase I introduces or exposes a functional group, phase II conjugates it with a polar endogenous molecule. The penalty is that phase I **bioactivation** can produce an **ultimate toxicant** more reactive than the parent, as with benzo[a]pyrene diol epoxide, CCl₄ radicals, paracetamol NAPQI and aflatoxin B1-8,9-epoxide. Persistent organic pollutants combine high lipophilicity with resistance to metabolism, so they bioaccumulate and biomagnify, reaching their highest concentrations in top predators.\n\n## Simplified explanation\n\nFat-soluble chemicals **get into the body easily, cannot be flushed out in urine, build up in body fat**, and the body's attempts to break them down often **create reactive, damaging chemicals**.",
+  "hint": "Think entry, excretion, storage and bioactivation.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Toxicokinetics",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "It is generally said that **hydrophobicity favours absorption while lipophobicity favours excretion/elimination**. Mention **ONE (1) exception** to this generalisation.",
+  "answer": "> [!answer]\n> **Pulmonary excretion of volatile compounds.** The elimination of volatile xenobiotics in **exhaled air is decreased by lipophobicity (hydrophilicity) and increased by lipophilicity**: volatile lipophilic agents such as **diethyl ether, ethylene, chloroform, halothane and methoxyflurane** are excreted efficiently by the lungs, the opposite of the general rule.",
+  "explanation": "## Advanced explanation\n\nPulmonary elimination depends on the **blood:gas partition coefficient**. A volatile agent with low blood solubility leaves the blood for the alveolar gas readily and is exhaled quickly (hence rapid recovery from desflurane and nitrous oxide), whereas a water-soluble, non-volatile compound cannot enter the gas phase at all and must be excreted by the kidney or bile. So for this route lipophilicity/volatility aids excretion rather than hindering it — the exception to the usual requirement that metabolites be made hydrophilic before elimination.\n\n## Simplified explanation\n\n**Gases and volatile liquids are breathed out.** For them, being fat-soluble and volatile actually helps elimination — the opposite of the usual rule.",
+  "hint": "Think of an anaesthetic gas and the route by which it leaves the body.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Toxicokinetics",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **TWO (2) consequences** of xenobiotic transformation (metabolism).",
+  "answer": "> [!answer]\n> 1. **Inactivation and accelerated elimination** — the usual outcome: the xenobiotic is converted to a more polar, less active metabolite that is readily excreted (detoxication).\n> 2. **Activation of a prodrug** — an inactive parent is converted to the active drug (enalapril → enalaprilat; azathioprine → 6-mercaptopurine; codeine → morphine; levodopa → dopamine).\n> 3. **Toxication (bioactivation)** — formation of a metabolite **more toxic than the parent** (paracetamol → NAPQI; CCl₄ → trichloromethyl radical; benzo[a]pyrene → diol epoxide).\n> 4. **Loss of some but not all biological activity** — e.g. aspirin, which after phase I hydrolysis to salicylic acid retains anti-inflammatory activity but loses its anti-platelet action.\n> 5. **Change in the drug's pharmacokinetics by enzyme induction or inhibition**, causing drug failure or drug toxicity.\n>\n> (Any two.)",
+  "explanation": "## Advanced explanation\n\nBiotransformation is best thought of as a **double-edged process**. Phase I (oxidation, reduction, hydrolysis — chiefly cytochrome P450) introduces a functional group; phase II (glucuronidation, sulphation, acetylation, methylation, glutathione and amino acid conjugation) adds a polar moiety. Most products are less active and more excretable, but the same chemistry produces **electrophiles and free radicals** — the ultimate toxicants of chemical carcinogenesis and organ necrosis — and is deliberately exploited in prodrug design.\n\n## Simplified explanation\n\nMetabolism usually **switches a drug off and helps the body get rid of it**, but it can also **switch a prodrug on** or **create a poison**.",
+  "hint": "Metabolism does not always detoxify.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "During a **phase I reaction** a drug/xenobiotic may lose either **some or all** of its biological activity. Demonstrate this observation using a named example.",
+  "answer": "> [!answer]\n> **Aspirin (acetylsalicylic acid).**\n>\n> Aspirin has **two** activities: an **anti-inflammatory/analgesic** action (reversible inhibition of COX by salicylate) and an **anti-platelet** action (irreversible acetylation of serine-530 of platelet COX-1 by the **acetyl group**).\n>\n> During phase I **hydrolysis by esterases** the acetyl group is removed and aspirin becomes **salicylic acid**. The metabolite **retains the anti-inflammatory and analgesic activity but has lost the anti-platelet activity** — so only *some* of the activity is lost.\n>\n> By contrast, phase I metabolism of **phenytoin to 5-(4-hydroxyphenyl)-5-phenylhydantoin** abolishes anticonvulsant activity entirely — *all* activity is lost.",
+  "explanation": "## Advanced explanation\n\nWhether activity is retained depends on whether metabolism alters the **pharmacophore**. Aspirin's two actions depend on different parts of the molecule: salicylate is the COX-inhibiting pharmacophore, while the labile **acetyl group** is what transfers to the platelet enzyme. Hydrolysis removes the acetyl group only, so the anti-platelet action disappears while the anti-inflammatory action survives. Hydroxylation of phenytoin, however, changes the hydantoin pharmacophore's binding and abolishes activity. Metabolites that retain activity — morphine-6-glucuronide, desmethyldiazepam, enalaprilat — are an important reason for monitoring in renal and hepatic impairment.\n\n## Simplified explanation\n\nWhen the body removes aspirin's **acetyl group**, the drug still relieves pain and inflammation but **can no longer thin the blood** — so it lost one of its two actions, not both.",
+  "hint": "Which part of the aspirin molecule acetylates platelet COX-1?",
+  "difficulty": "hard",
+  "marks": 3,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Some drugs become active only after metabolism. State the **active drug metabolite** of each of the following:\n\n(a) Azathioprine\n(b) Enalapril",
+  "answer": "> [!answer]\n> **(a) Azathioprine → 6-mercaptopurine** (then further anabolised to thioinosinic acid/6-thioguanine nucleotides, which are the ultimate active species).\n> **(b) Enalapril → enalaprilat** (the active diacid formed by hepatic ester hydrolysis).",
+  "explanation": "## Advanced explanation\n\nBoth are **prodrugs** designed to overcome a pharmacokinetic problem. Azathioprine is a nitroimidazole derivative of 6-mercaptopurine that is cleaved non-enzymatically by glutathione; it provides slower, more sustained delivery of 6-MP for immunosuppression. 6-MP is inactivated by **xanthine oxidase** (hence the dangerous interaction with allopurinol) and by **thiopurine methyltransferase (TPMT)** — TPMT-deficient patients develop profound myelosuppression. Enalapril is an ethyl ester added to make the very polar active diacid **enalaprilat** orally absorbable; enalaprilat itself must be given intravenously.\n\n## Simplified explanation\n\nAzathioprine turns into **6-mercaptopurine**; enalapril turns into **enalaprilat**. Both are inactive until the body converts them.",
+  "hint": "Both are prodrugs; name the active form.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Terfenadine** (an antihistamine) was withdrawn from the market. Explain why.",
+  "answer": "> [!answer]\n> Terfenadine is a **prodrug** that is almost completely converted by **CYP3A4** on first pass to the active metabolite **fexofenadine**. Terfenadine itself **blocks cardiac hERG (IKr) potassium channels**.\n>\n> When CYP3A4 is **inhibited** — by erythromycin, clarithromycin, ketoconazole, itraconazole or **grapefruit juice** — or in liver disease, unmetabolised terfenadine accumulates in plasma, **prolongs the QT interval** and causes **torsades de pointes, ventricular tachyarrhythmias and sudden death**.\n>\n> It was therefore withdrawn and replaced by its safe active metabolite **fexofenadine**, which does not block the hERG channel.",
+  "explanation": "## Advanced explanation\n\nThis is the classic example of a **metabolism-dependent drug interaction causing fatal toxicity**. Terfenadine's high first-pass extraction normally keeps parent drug concentrations negligible, so the hERG liability is hidden; inhibition of the single metabolising enzyme removes that protection. The episode drove regulatory requirements for routine **hERG/QT testing** of new molecules and for CYP interaction studies, and led to the development of 'me-better' drugs that are the active metabolites of existing agents (fexofenadine from terfenadine, desloratadine from loratadine, levocetirizine from cetirizine).\n\n## Simplified explanation\n\nThe liver normally turns terfenadine into a safe product. If another drug (or grapefruit juice) **blocks that liver enzyme**, terfenadine builds up and causes **dangerous heart rhythms**, so it was taken off the market.",
+  "hint": "Think CYP3A4 inhibition and the QT interval.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Drug Interactions",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Complete the table below by giving the **toxic metabolite** of each xenobiotic/drug.\n\n| Xenobiotic/drug | Toxic metabolite |\n|---|---|\n| Cyclophosphamide | Acrolein |\n| Acetaminophen (paracetamol) | |\n| Paraquat | |\n| Alcohol (ethanol) | |\n| Carbon tetrachloride | |\n| | Trifluoroacetic acid |",
+  "answer": "| Xenobiotic/drug | Toxic metabolite |\n|---|---|\n| **Cyclophosphamide** | **Acrolein** (causes haemorrhagic cystitis; prevented by mesna) |\n| **Acetaminophen (paracetamol)** | **N-acetyl-p-benzoquinone imine (NAPQI)** |\n| **Paraquat** | **Paraquat radical → superoxide and hydroxyl radicals** (redox cycling); lung injury |\n| **Alcohol (ethanol)** | **Acetaldehyde** |\n| **Carbon tetrachloride** | **Trichloromethyl radical (CCl₃•) and trichloromethylperoxy radical (CCl₃OO•)** |\n| **Halothane** | **Trifluoroacetic acid (via the trifluoroacetyl chloride intermediate)** |\n\n> [!answer]\n> NAPQI; the paraquat radical/reactive oxygen species; acetaldehyde; the trichloromethyl (per)oxy radical; and halothane for trifluoroacetic acid.",
+  "explanation": "## Advanced explanation\n\nEach entry illustrates a different **bioactivation chemistry**. Cyclophosphamide is activated by CYP to 4-hydroxycyclophosphamide, which decomposes to phosphoramide mustard (therapeutic) and **acrolein** (urotoxic). Paracetamol is oxidised by CYP2E1/1A2/3A4 to the electrophile **NAPQI**, detoxified by glutathione until it is depleted. **Paraquat** undergoes **redox cycling**: it is reduced by NADPH to a radical that reduces O₂ to superoxide, regenerating paraquat — a catalytic cycle concentrated in type I and II alveolar cells by the polyamine transporter, causing pulmonary fibrosis. Ethanol is oxidised by alcohol dehydrogenase to **acetaldehyde**. CCl₄ is reductively dehalogenated by CYP2E1 to the **trichloromethyl radical**, initiating lipid peroxidation. Halothane is oxidised to trifluoroacetyl chloride, which hydrolyses to **trifluoroacetic acid** and trifluoroacetylates proteins, producing the neoantigens of halothane hepatitis.\n\n## Simplified explanation\n\nThe body turns each of these chemicals into a **more dangerous product**: paracetamol into NAPQI, alcohol into acetaldehyde, carbon tetrachloride into a damaging free radical, paraquat into oxygen radicals, and halothane into trifluoroacetic acid.",
+  "hint": "Each parent compound is converted into a reactive electrophile or free radical.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Bioactivation",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Ethanol** is used to treat toxicity produced by **methanol** and **ethylene glycol**. Explain how ethanol stops the toxicity.",
+  "answer": "> [!answer]\n> Methanol and ethylene glycol are **not themselves very toxic** — they become toxic only after metabolism by **alcohol dehydrogenase (ADH)**:\n> - methanol → formaldehyde → **formic acid** (metabolic acidosis, retinal damage and blindness);\n> - ethylene glycol → glycoaldehyde → glycolic acid → **oxalic acid** (metabolic acidosis, calcium oxalate crystals, acute kidney injury).\n>\n> **Ethanol has a much higher affinity for alcohol dehydrogenase** (roughly 10–20 times that of methanol). Given as an antidote, it **competitively inhibits ADH** and occupies the enzyme, so methanol and ethylene glycol are **not converted to their toxic metabolites** and are instead excreted slowly unchanged by the kidney and lungs (or removed by haemodialysis).\n>\n> **Fomepizole**, a direct ADH inhibitor, is the modern alternative.",
+  "explanation": "## Advanced explanation\n\nThis is the textbook example of **antidotal competitive inhibition of a bioactivating enzyme**. Because ADH follows Michaelis–Menten kinetics and is saturable, maintaining a blood ethanol concentration of about 100–150 mg/dL keeps the enzyme occupied and the half-life of methanol rises from a few hours to over 30 hours, giving time for dialysis. Adjuncts include **bicarbonate** for acidosis, **folinic acid** (accelerates formate oxidation to CO₂) in methanol poisoning, and **thiamine and pyridoxine** (divert glyoxylate away from oxalate) in ethylene glycol poisoning.\n\n## Simplified explanation\n\nMethanol and antifreeze only become poisonous **after an enzyme changes them**. Ethanol **keeps that enzyme busy**, so the poison is never made and is passed out unchanged.",
+  "hint": "Competition for alcohol dehydrogenase.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Antidotes",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Disulfiram (Antabuse)** is used in 'deterrent therapy' to stop alcohol abuse. Explain how it works.",
+  "answer": "> [!answer]\n> Ethanol is metabolised: **ethanol → (alcohol dehydrogenase) → acetaldehyde → (aldehyde dehydrogenase, ALDH2) → acetic acid.**\n>\n> **Disulfiram irreversibly inhibits aldehyde dehydrogenase** (and also inhibits CYP2E1 and dopamine β-hydroxylase). If the patient then drinks, **acetaldehyde accumulates** to 5–10 times its normal concentration and produces the extremely unpleasant **disulfiram–ethanol (acetaldehyde syndrome)** reaction within minutes:\n>\n> **flushing, throbbing headache, nausea and vomiting, sweating, thirst, chest pain, palpitations, tachycardia, hypotension, dyspnoea, dizziness, blurred vision and confusion** — and in severe cases arrhythmias, cardiovascular collapse and convulsions.\n>\n> The expectation of this reaction **deters the patient from drinking** — aversion therapy. The effect lasts up to 1–2 weeks after the last dose because inhibition is irreversible, and patients must avoid even alcohol-containing foods, mouthwashes and skin preparations.",
+  "explanation": "## Advanced explanation\n\nNearly all the toxic effects of acute alcohol excess — flushing, nausea, headache — are due to **acetaldehyde**, which is normally cleared so fast that blood levels stay very low. Disulfiram blocks the low-Km mitochondrial **ALDH2**; the same effect occurs naturally in the ~40% of East Asians who carry the inactive **ALDH2\\*2** allele, who flush and feel ill after small amounts of alcohol and who have a correspondingly lower rate of alcohol dependence — the pharmacogenetic proof of the mechanism. Metronidazole, chlorpropamide, griseofulvin and some cephalosporins can produce similar 'disulfiram-like' reactions.\n\n## Simplified explanation\n\nDisulfiram **blocks the enzyme that clears acetaldehyde**, the chemical that causes hangover symptoms. Drinking then makes the person feel violently ill very quickly, which puts them off alcohol.",
+  "hint": "Which enzyme of the ethanol pathway is blocked, and what builds up?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Antidotes",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Each of the following drugs was withdrawn from the market. For each, state the **adverse event** that led to its withdrawal:\n\n(a) Thalidomide\n(b) Terfenadine",
+  "answer": "> [!answer]\n> **(a) Thalidomide — teratogenicity.** Taken for morning sickness in early pregnancy it caused severe limb reduction defects (**phocomelia — 'seal limbs'**, amelia), together with ear, eye, cardiac, renal and gastrointestinal malformations, in some 10 000 babies between 1957 and 1961. The critical window was days 20–36 after conception, and the **S-enantiomer** is the teratogenic one.\n>\n> **(b) Terfenadine — cardiotoxicity.** Accumulation of unmetabolised parent drug when **CYP3A4 was inhibited** (erythromycin, ketoconazole, grapefruit juice) blocked cardiac hERG potassium channels, causing **QT prolongation, torsades de pointes and sudden death**.",
+  "explanation": "## Advanced explanation\n\nThese two cases shaped modern drug regulation. **Thalidomide** led to the 1962 Kefauver–Harris amendments, mandatory teratogenicity testing and the creation of pharmacovigilance systems; it is now licensed again under strict pregnancy-prevention programmes for erythema nodosum leprosum and multiple myeloma, its antiangiogenic and immunomodulatory effects mediated through **cereblon**. **Terfenadine** established routine hERG screening and systematic CYP interaction studies, and showed the value of developing the active metabolite — fexofenadine — as a safer successor.\n\n## Simplified explanation\n\nThalidomide caused **severe birth defects**. Terfenadine caused **fatal heart rhythm problems** when other drugs stopped the liver breaking it down.",
+  "hint": "One harmed unborn babies; the other the heart's rhythm.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Drug Safety",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Humans who accidentally get bitten by venomous snakes may die, yet when the same venom is taken **orally** it usually fails to cause death and may be harmless. Explain.",
+  "answer": "> [!answer]\n> Snake venoms are **proteins and polypeptides** (phospholipases A₂, metalloproteinases, neurotoxins, cardiotoxins).\n>\n> When swallowed they are exposed to the digestive tract, where they are:\n> - **denatured by gastric acid (pH 1–2)**, and\n> - **hydrolysed by proteolytic enzymes** — pepsin in the stomach, trypsin, chymotrypsin, elastase and carboxypeptidases in the small intestine — which are abundant throughout the gastrointestinal tract.\n>\n> The venom is therefore broken down into **inactive amino acids and small peptides** before it can be absorbed. Even intact protein would be too **large and polar** to cross the gut epithelium in significant amounts.\n>\n> By contrast, injection by the fangs places the venom **directly into tissue, lymph and blood**, bypassing the gut entirely, so the toxins reach their targets intact.\n>\n> **Caveat:** this is only true if there is **no ulcer, broken mucosa or mouth lesion** through which venom could be absorbed.",
+  "explanation": "## Advanced explanation\n\nThis illustrates how **route of exposure determines toxicity**. Protein toxins have essentially zero oral bioavailability because of presystemic proteolysis and poor permeability — the same reason insulin and benzylpenicillin cannot be given by mouth. By contrast, small-molecule toxins such as alkaloids and organophosphates are well absorbed orally and are therefore dangerous by any route. The distinction underlies the toxicological rule that an agent's hazard must always be stated **with respect to a specified route of exposure**.\n\n## Simplified explanation\n\nVenom is made of **protein**, and the stomach and gut **digest protein** — so swallowed venom is destroyed before it can be absorbed. A bite injects it straight past the gut into the body.",
+  "hint": "What is venom made of, and what does the gut do to that class of molecule?",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Routes of Exposure",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Provide **ONE (1) named example** of each of the following enzyme–substrate interactions:\n\n(a) A single CYP450 enzyme catalysing a **two-way metabolism** of a single xenobiotic\n(b) **Two** CYP450 enzymes catalysing metabolism of a single xenobiotic\n(c) **Three** CYP450 enzymes **additively** catalysing metabolism of a single xenobiotic",
+  "answer": "> [!answer]\n> **(a) One enzyme, two pathways** — **CYP2D6** catalyses **both the O-demethylation and the 5-hydroxylation of methoxyphenamine**. (Also acceptable: **CYP3A4** catalyses both the 3-hydroxylation and the N-oxygenation of **quinidine**, and several pathways of testosterone oxidation — 1β, 2β, 6β and 15β.)\n>\n> **(b) Two enzymes, one substrate** — **propranolol**: **CYP2D6** oxidises the **aromatic ring to 4-hydroxypropranolol**, while **CYP2C19** oxidises the **isopropylamine side chain** to naphthoxylactic acid.\n>\n> **(c) Three enzymes acting additively** — **CYP1A2, CYP2E1 and CYP3A4** together convert **acetaminophen (paracetamol)** to its hepatotoxic metabolite **NAPQI (N-acetyl-p-benzoquinone imine)**.",
+  "explanation": "## Advanced explanation\n\nThese patterns show that the **P450 system is both broad and overlapping in substrate specificity**. One isoform can attack several positions on the same molecule (regioselectivity determined by how the substrate orients in the active site); several isoforms can attack different positions on one molecule; and several can catalyse the **same** reaction additively, so that inhibiting one enzyme does not abolish the pathway. This redundancy explains why interaction effects vary between individuals and why acetaminophen bioactivation increases after induction of CYP2E1 by chronic alcohol or of CYP1A2 by smoking.\n\n## Simplified explanation\n\nOne enzyme can attack a drug in **two different places** (methoxyphenamine); two enzymes can attack **different parts** of the same drug (propranolol); and three enzymes can all make the **same toxic product** (paracetamol → NAPQI).",
+  "hint": "Methoxyphenamine, propranolol, paracetamol.",
+  "difficulty": "hard",
+  "marks": 6,
+  "tags": [
+   "Cytochrome P450",
+   "2018/19 End of Semester Exam",
+   "Quiz 1"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3) specific enzymes** involved in each of the following:\n\n(a) Phase I reactions\n(b) Conjugation (phase II) reactions",
+  "answer": "> [!answer]\n> **(a) Phase I**\n> 1. **Cytochrome P450 mono-oxygenases** (CYP1A2, CYP2D6, CYP2E1, CYP3A4)\n> 2. **Flavin-containing mono-oxygenases (FMO3)**\n> 3. **Epoxide hydrolase**\n> 4. Also: alcohol dehydrogenase, aldehyde dehydrogenase, monoamine oxidase, xanthine oxidase, carboxylesterases, NADPH-cytochrome P450 reductase.\n>\n> **(b) Phase II (conjugation)**\n> 1. **UDP-glucuronosyltransferase (UGT)** — glucuronidation\n> 2. **Sulfotransferase (SULT)** — sulphation\n> 3. **Glutathione S-transferase (GST)** — glutathione conjugation\n> 4. Also: N-acetyltransferase (NAT1, NAT2), thiopurine/catechol-O-methyltransferase (methylation), amino acid (glycine) conjugating enzymes.",
+  "explanation": "## Advanced explanation\n\n**Phase I** introduces or unmasks a functional group (–OH, –NH₂, –SH, –COOH) by oxidation, reduction or hydrolysis, usually making the molecule slightly more polar and, importantly, providing a handle for phase II. **Phase II** conjugates that handle with a bulky, highly polar endogenous molecule, producing a water-soluble product for urinary or biliary excretion. Most phase I enzymes are microsomal and require NADPH and O₂; most phase II enzymes require a high-energy cofactor (UDPGA, PAPS, acetyl-CoA, SAM, glutathione). A few conjugations are **bioactivating** — sulphation of N-hydroxy-2-acetylaminofluorene, acyl glucuronides of some NSAIDs.\n\n## Simplified explanation\n\nPhase I: **cytochrome P450, FMO and epoxide hydrolase**. Phase II: **glucuronosyltransferase, sulfotransferase and glutathione S-transferase** (also acetyl- and methyltransferases).",
+  "hint": "Phase I makes a handle; phase II sticks something polar onto it.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **ONE (1) substrate** of each of the following phase II enzymes:\n\n(a) Glucuronosyltransferase\n(b) Acetyltransferase\n(c) Sulfotransferase",
+  "answer": "> [!answer]\n> **(a) Glucuronosyltransferase (UGT)** — **morphine** (also paracetamol, bilirubin, p-nitrophenol, chloramphenicol, diazepam, steroid hormones). Co-substrate: **UDP-glucuronic acid**; it conjugates –OH, –COOH, –NH₂ and –SH groups.\n> **(b) N-acetyltransferase (NAT)** — **isoniazid** (also sulphonamides, hydralazine, procainamide, dapsone, aromatic amines). Co-substrate: **acetyl-CoA**; it acetylates aromatic amines and hydrazines.\n> **(c) Sulfotransferase (SULT)** — **paracetamol** (also phenol, steroid hormones, catecholamines, minoxidil). Co-substrate: **PAPS (3′-phosphoadenosine-5′-phosphosulphate)**.",
+  "explanation": "## Advanced explanation\n\nGlucuronidation is the highest-capacity conjugation pathway and the only one that occurs in the microsomes; it is immature in neonates, causing physiological jaundice and **grey baby syndrome** with chloramphenicol. **Sulphation** has a high affinity but **low capacity** because PAPS is limited, which is why it saturates first in paracetamol overdose, shunting more drug to CYP-mediated NAPQI formation. **N-acetylation** shows the classic **NAT2 genetic polymorphism**: slow acetylators develop isoniazid peripheral neuropathy and drug-induced lupus with hydralazine and procainamide, while fast acetylators may fail therapy.\n\n## Simplified explanation\n\nGlucuronosyltransferase acts on **morphine**, acetyltransferase on **isoniazid**, and sulfotransferase on **paracetamol**.",
+  "hint": "One classic drug substrate for each conjugating enzyme.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Briefly explain each of the following terms:\n\n(a) Poison (b) Toxin (c) Toxicant (d) Pollutant (e) Contaminant",
+  "answer": "> [!answer]\n> **(a) Poison** — any substance that, on exposure in sufficient quantity, has the capacity to cause **harmful (deleterious) effects** on a living organism; the dose determines the poison.\n>\n> **(b) Toxin** — a **poison of biological origin**, produced by a living organism (bacteria, fungi, plants, animals) usually for defence or predation: tetrodotoxin from puffer fish liver, botulinum toxin, snake venom, aflatoxin.\n>\n> **(c) Toxicant** — a poison that is **man-made or produced by human activity**, or a by-product of it: concentrated sulphuric acid, carbon monoxide, pesticides, dioxins, industrial solvents.\n>\n> **(d) Pollutant** — a substance **released into the environment (air, water, soil) in amounts that reduce its quality** and may harm living organisms: sulphur dioxide, lead, plastics, effluent.\n>\n> **(e) Contaminant** — a **foreign/unintended substance present in a material, food, drug or environment** where it should not be, which may produce undesirable effects on ingestion, inhalation or dermal exposure.",
+  "explanation": "## Advanced explanation\n\nThe terms differ in **origin and context**. 'Poison' is the general functional term (Paracelsus: *sola dosis facit venenum* — only the dose makes the poison). 'Toxin' is reserved for **biologically synthesised** poisons, while 'toxicant' covers **anthropogenic** chemicals; the distinction matters because toxins are usually proteins or complex natural products with specific receptors, whereas toxicants are often small reactive molecules. A **pollutant** is defined by its presence in the environment above background, a **contaminant** by its unintended presence in a defined matrix. The same chemical may be all of these depending on where it is found.\n\n## Simplified explanation\n\nA **poison** is anything harmful. A **toxin** comes from a **living thing**; a **toxicant** is **man-made**. A **pollutant** dirties the environment; a **contaminant** is something unwanted that got into a product or place.",
+  "hint": "Separate them by where the substance comes from and where it is found.",
+  "difficulty": "easy",
+  "marks": 10,
+  "tags": [
+   "Basic Toxicology",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between **chemical allergy** and **chemical idiosyncrasy**.",
+  "answer": "| | Chemical allergy (hypersensitivity) | Chemical idiosyncrasy |\n|---|---|---|\n| **Mechanism** | **Immune-mediated** — the chemical or its metabolite acts as a **hapten**, binds protein and sensitises the immune system | **Genetically determined abnormal reactivity** — not immune-mediated; usually an enzyme or receptor variant |\n| **Prior exposure** | **Required** — sensitisation must occur first | **Not required** — the reaction occurs on first exposure |\n| **Dose relationship** | Occurs at **very low doses**; severity is not dose-proportional once sensitised | **Quantitatively abnormal** — an unusually high or unusually low dose is needed, or an unexpected qualitative response |\n| **Examples** | Penicillin anaphylaxis, contact dermatitis to nickel, halothane hepatitis, drug rash | **G6PD deficiency** → haemolysis with primaquine; **atypical pseudocholinesterase** → prolonged apnoea with succinylcholine; **slow acetylators** → isoniazid neuropathy; malignant hyperthermia with halothane |\n\n> [!answer]\n> **Allergy is an immunological reaction requiring prior sensitisation**; **idiosyncrasy is a genetically determined, non-immunological abnormal response that can occur on first exposure**.",
+  "explanation": "## Advanced explanation\n\nBoth are **unpredictable (type B) adverse reactions**, in contrast to predictable, dose-related (type A) toxicity. Allergy follows the Gell and Coombs types I–IV; because most drugs are too small to be immunogenic, they must act as **haptens**, often after metabolic activation to a reactive intermediate (penicilloyl from penicillin, trifluoroacetyl adducts from halothane). Idiosyncratic reactions are the subject matter of **pharmacogenetics**: polymorphisms in G6PD, butyrylcholinesterase, NAT2, TPMT, CYP2D6 and the ryanodine receptor each produce a characteristic abnormal response.\n\n## Simplified explanation\n\n**Allergy**: the immune system has learned to react, so it needs a **previous exposure** and even a tiny dose sets it off. **Idiosyncrasy**: the person's **genes** make them react strangely, even the **first time** they ever take the drug.",
+  "hint": "Is the immune system involved, and is prior exposure needed?",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Basic Toxicology",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "**Therapeutic index** is considered to be of little clinical significance. Explain why.",
+  "answer": "> [!answer]\n> The therapeutic index is $TI = \\dfrac{LD_{50}}{ED_{50}}$ (or TD₅₀/ED₅₀ in humans). It is of limited clinical value because:\n>\n> 1. It compares only the **mid-points (50% response)** of the two curves and **ignores their slopes**. Two drugs with the same TI can differ greatly in safety if one dose–response curve is much steeper, so overlap at the extremes is not revealed.\n> 2. It says nothing about the **margin of safety at the doses actually used** — what matters clinically is the gap between the dose effective in nearly all patients and the dose toxic in a few, better expressed as the **certain safety factor LD₁/ED₉₉** or the **therapeutic window**.\n> 3. **LD₅₀ is obtained in animals** and may not extrapolate to humans; ethically it cannot be measured in people.\n> 4. It measures only **lethality**, not non-lethal but serious toxicity, teratogenicity, carcinogenicity or hypersensitivity.\n> 5. It takes no account of **chronicity** — the ability of a drug to accumulate on repeated dosing — nor of individual variation, pharmacokinetic differences, drug interactions or the seriousness of the disease being treated.",
+  "explanation": "## Advanced explanation\n\nThe TI is derived from two quantal log dose–response curves assumed to be parallel. When they are not, the ratio of their medians is uninformative about the overlap at the tails, which is where clinical harm occurs. Standard refinements are the **certain safety factor (LD₁/ED₉₉)**, which demands that the effective curve be complete before the toxic curve begins, and the clinical **therapeutic range** (for example digoxin 0.8–2 ng/mL, lithium 0.6–1.2 mmol/L), which is what therapeutic drug monitoring actually targets. Chronic toxicity is better captured by the **chronicity index**.\n\n## Simplified explanation\n\nIt only compares the **middle of two curves**, is measured by **killing animals**, ignores **non-fatal harm** and ignores whether the drug **builds up with repeated doses** — so it is a poor guide to how safe a drug really is in patients.",
+  "hint": "What do the two 50% points fail to tell you about the shape of the curves?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Dose–Response & Safety",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "What is the **chronicity index**, and what is it used for?",
+  "answer": "> [!answer]\n> The **chronicity index (CI)** is the ratio\n>\n> $$CI = \\frac{LD_{50}\\ \\text{for a single (1-day) exposure}}{LD_{50}\\ \\text{for 90-day (repeated daily) exposure}}$$\n>\n> where the 90-day LD₅₀ is expressed as the **total dose per day**.\n>\n> **Use:** it indicates whether a substance **accumulates in the body on repeated exposure**.\n> - **CI ≈ 1** — no cumulative toxicity; the substance is eliminated between doses.\n> - **CI > 2 (and especially ≫ 2)** — markedly **cumulative**: much less drug per day is needed to kill when given repeatedly, so the chemical or its injury accumulates.\n>\n> It is therefore used in **occupational and environmental risk assessment** — for example to judge whether repeated low-level workplace exposure to a chemical will build up to a harmful level.",
+  "explanation": "## Advanced explanation\n\nAcute toxicity testing alone can seriously underestimate risk for chemicals that are poorly eliminated or that cause **cumulative tissue injury** (lead, methylmercury, cadmium, organochlorines, aminoglycosides). The chronicity index compares acute with subchronic lethality and so captures both **pharmacokinetic accumulation** (half-life long relative to the dosing interval) and **pharmacodynamic accumulation** (irreversible damage summing over exposures). Modern risk assessment supplements it with NOAEL/LOAEL determination from 90-day studies, reference doses and benchmark dose modelling.\n\n## Simplified explanation\n\nIt compares **how much kills in one dose** with **how much kills when given daily for 90 days**. If the daily amount needed is much smaller, the chemical **builds up in the body**.",
+  "hint": "Compare a one-day LD50 with a 90-day LD50.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Dose–Response & Safety",
+   "Quiz 1 (MLT 360)",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Provide the **full names** of the following abbreviations used in toxicological risk assessment:\n\n(a) NOAEL (b) LOAEL (c) NOEL (d) RfD (e) RfC (f) BMD (g) USEPA",
+  "answer": "> [!answer]\n> **(a) NOAEL** — **No Observed Adverse Effect Level**: the highest dose at which no adverse effect is detected.\n> **(b) LOAEL** — **Lowest Observed Adverse Effect Level**: the lowest dose at which an adverse effect is detected.\n> **(c) NOEL** — **No Observed Effect Level**: the highest dose producing no effect at all (adverse or not).\n> **(d) RfD** — **Reference Dose**: an estimate of the daily oral exposure (mg/kg/day) likely to be without appreciable risk of harmful effects over a lifetime.\n> **(e) RfC** — **Reference Concentration**: the inhalation equivalent of the RfD (mg/m³).\n> **(f) BMD** — **Benchmark Dose**: the dose producing a predetermined small change in response (e.g. 10%), derived by modelling the whole dose–response curve.\n> **(g) USEPA** — **United States Environmental Protection Agency**.\n>\n> (Also met: **SHD — Safe Human Dose**.)",
+  "explanation": "## Advanced explanation\n\nRisk assessment derives a 'safe' human exposure from animal data: $RfD = \\dfrac{NOAEL\\ (\\text{or BMDL})}{UF \\times MF}$, where uncertainty factors of 10 each are applied for interspecies extrapolation, human variability, use of a LOAEL instead of a NOAEL, subchronic-to-chronic extrapolation and database deficiencies. The **NOAEL is limited by the doses actually tested and by study size**, which is why the **benchmark dose** approach — fitting the dose–response curve and taking the lower confidence limit (BMDL) — is now preferred. These values underpin regulatory standards such as ADI, TDI and occupational exposure limits.\n\n## Simplified explanation\n\nNOAEL — highest dose with **no harmful effect**; LOAEL — lowest dose that **does** harm; NOEL — highest dose with **no effect at all**; RfD/RfC — the **daily dose or air concentration thought safe for life**; BMD — a dose calculated from the whole curve; USEPA — the American environment agency.",
+  "hint": "Each letter stands for a word: No/Lowest, Observed, Adverse, Effect, Level.",
+  "difficulty": "easy",
+  "marks": 7,
+  "tags": [
+   "Risk Assessment",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FIVE (5) routes/sites of xenobiotic exposure** in humans.",
+  "answer": "> [!answer]\n> 1. **Dermal (skin) exposure** — contact with solvents, pesticides, cosmetics.\n> 2. **Ingestion — the gastrointestinal tract** (oral route): food, water, drugs, accidental poisoning.\n> 3. **Inhalation — the respiratory tract**: gases, vapours, dusts, fumes, smoke.\n> 4. **Injection/parenteral (including bites and stings)** — intravenous, intramuscular, subcutaneous, snake and insect envenomation.\n> 5. **Transplacental (and via breast milk)** — exposure of the fetus or infant from the mother.\n>\n> Also acceptable: ocular and mucous-membrane exposure.\n>\n> In general, the **rate of onset and severity** of toxicity decrease in the order: **intravenous > inhalation > intraperitoneal > intramuscular > subcutaneous > oral > dermal**.",
+  "explanation": "## Advanced explanation\n\nRoute determines both the **dose that reaches the systemic circulation** and the **first organ exposed**. Oral exposure is subject to gastric acid, digestive enzymes and **hepatic first-pass metabolism**, so protein toxins and high-extraction compounds are much less toxic by this route. Inhalation delivers agents directly to a vast alveolar surface with immediate access to the arterial circulation, bypassing the liver, which makes it the most dangerous occupational route. Dermal absorption depends on the stratum corneum and on lipophilicity. Transplacental exposure is the route of teratogenesis.\n\n## Simplified explanation\n\nChemicals can get in through the **skin, the mouth (swallowing), the lungs (breathing), injections or bites, and across the placenta** to an unborn baby.",
+  "hint": "Skin, gut, lungs, needle, placenta.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Routes of Exposure",
+   "2018/19 End of Semester Exam",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3) consequences of drug metabolism** (biotransformation).",
+  "answer": "> [!answer]\n> 1. **Activation of a prodrug** — an inactive compound is converted to the active drug (enalapril → enalaprilat, azathioprine → 6-mercaptopurine, levodopa → dopamine).\n> 2. **Inactivation and accelerated elimination of xenobiotics** — the usual detoxication outcome; polar metabolites are readily excreted in urine or bile.\n> 3. **Formation of toxic metabolites (toxication/bioactivation)** — paracetamol → NAPQI, CCl₄ → trichloromethyl radical, benzo[a]pyrene → diol epoxide.\n> 4. **Termination of drug action** (end of the pharmacological effect).\n> 5. **Drug–drug interactions** through enzyme **induction** (treatment failure) or **inhibition** (toxicity).\n>\n> (Any three.)",
+  "explanation": "## Advanced explanation\n\nBiotransformation is primarily a **detoxication and elimination mechanism** — converting lipophilic compounds that would otherwise be reabsorbed by the renal tubule into hydrophilic, excretable metabolites. But because the chemistry involved is oxidative and generates reactive intermediates, the same system is responsible for most **chemically induced organ injury and carcinogenesis**, and is deliberately exploited in **prodrug** design. Induction (phenobarbital, rifampicin, smoking) and inhibition (ketoconazole, erythromycin, grapefruit juice) of these enzymes are the commonest causes of pharmacokinetic drug interactions.\n\n## Simplified explanation\n\nMetabolism can **switch a drug on**, **switch it off and help excrete it**, or **turn it into a poison**.",
+  "hint": "Activation, inactivation, toxication.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Drug Metabolism",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain why the **liver, skin, gastrointestinal tract and upper respiratory tract** are enriched with diverse **xenobiotic-metabolising enzymes**.",
+  "answer": "> [!answer]\n> Because these are the body's **portals of entry — the tissues at the interface with the external environment**, and therefore the sites of **first and greatest exposure** to xenobiotics:\n> - the **skin** meets chemicals by dermal contact;\n> - the **gastrointestinal tract** meets everything in food, water and oral drugs;\n> - the **upper respiratory tract** meets gases, vapours, dusts and smoke in inhaled air;\n> - the **liver** receives the entire portal blood supply, so everything absorbed from the gut passes through it first.\n>\n> Siting a broad, inducible battery of phase I and phase II enzymes at these interfaces provides a **metabolic barrier (first-pass/presystemic metabolism)** that inactivates and prepares foreign chemicals for excretion **before they reach the systemic circulation** and the vulnerable internal organs. The enzymes are deliberately **non-specific and inducible** because the range of possible xenobiotics is unlimited.",
+  "explanation": "## Advanced explanation\n\nThis is the **'metabolic barrier' or gatekeeper hypothesis**. CYP3A4 and UGTs in the enterocyte, CYP1A1 in bronchial epithelium (highly inducible by cigarette smoke through the Ah receptor), and the full complement of CYPs, transferases and transporters in the hepatocyte together constitute a defensive system co-ordinated with efflux transporters such as **P-glycoprotein and MRP2**, which return metabolites to the lumen. The cost of this arrangement is that these same tissues suffer the highest exposure to reactive metabolites, which is why the liver, bronchial epithelium and gastrointestinal mucosa are common targets of chemical toxicity and carcinogenesis.\n\n## Simplified explanation\n\nThese are the **doorways into the body**. Putting the detoxifying enzymes at the doorway means foreign chemicals are **broken down before they get inside**.",
+  "hint": "What do these four tissues have in common?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Drug Metabolism",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "For each of the following **ligand-receptors** with which xenobiotics interact, state the **full name** and **one example** of a xenobiotic that interacts with it:\n\n(a) ER (b) PPARα (c) AHR (d) CAR (e) PXR",
+  "answer": "| Abbreviation | Full name | Example xenobiotic |\n|---|---|---|\n| **(a) ER** | **Oestrogen receptor** | Diethylstilboestrol, ethinyloestradiol, DDT/methoxychlor, bisphenol A, genistein |\n| **(b) PPARα** | **Peroxisome proliferator-activated receptor alpha** | Clofibrate and other fibrates, phthalate esters, perfluorooctanoic acid |\n| **(c) AHR** | **Aryl hydrocarbon receptor** | TCDD (dioxin), polychlorinated biphenyls (PCBs), polycyclic aromatic hydrocarbons such as 3-methylcholanthrene and benzo[a]pyrene |\n| **(d) CAR** | **Constitutive androstane receptor** | Phenobarbital, DDT, chlorpromazine, phenytoin |\n| **(e) PXR** | **Pregnane X receptor** | Rifampicin, pregnenolone 16α-carbonitrile (PCN), dexamethasone, spironolactone, cyproterone, lithocholic acid, St John's wort |",
+  "explanation": "## Advanced explanation\n\nThese are **ligand-activated transcription factors** that mediate a large part of chemical toxicity and of enzyme induction. **AHR** heterodimerises with ARNT and binds xenobiotic response elements to induce **CYP1A1/1A2/1B1** — the basis of dioxin toxicity and of smoking-induced induction. **CAR** and **PXR** are nuclear receptors that induce **CYP2B6** and **CYP3A4** respectively, together with UGTs and P-glycoprotein — the mechanism of the phenobarbital and rifampicin interactions. **PPARα** induces peroxisomal β-oxidation (hepatic peroxisome proliferation and rodent liver tumours with fibrates and phthalates). **ER** activation by environmental **endocrine disruptors** explains the reproductive effects of DES and DDT.\n\n## Simplified explanation\n\nThese receptors act like **switches in the nucleus**: when a foreign chemical binds, the cell turns on genes — usually for drug-metabolising enzymes. Dioxin works through AHR, phenobarbital through CAR, rifampicin through PXR, fibrates through PPARα, and DES/DDT act like oestrogen on ER.",
+  "hint": "All five are nuclear (ligand-activated) transcription factors.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Mechanisms of Toxicity",
+   "2018/19 End of Semester Exam",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "To each of the following, give **ONE (1) example**:\n\n(a) A **parent xenobiotic** as the ultimate toxicant\n(b) A **xenobiotic intermediate** (metabolite) as the ultimate toxicant\n(c) An **endogenous compound** as the ultimate toxicant\n(d) A **reactive oxygen or nitrogen species** as the ultimate toxicant",
+  "answer": "> [!answer]\n> **(a) Parent xenobiotic** — **lead (Pb²⁺)**; also tetrodotoxin, hydrogen cyanide (HCN), methyl isocyanate, carbon monoxide — these act without being metabolised.\n>\n> **(b) Xenobiotic metabolite** — **NAPQI from paracetamol**; also arsenite from arsenate, fluoroacetate → fluorocitrate, CCl₃OO• from carbon tetrachloride, 2,5-hexanedione from hexane.\n>\n> **(c) Endogenous compound** — **bilirubin** displaced from albumin by sulphonamides (kernicterus); also lipid peroxyl and alkoxyl radicals, and protein carbonyls generated by the xenobiotic.\n>\n> **(d) Reactive oxygen/nitrogen species** — **hydroxyl radical (HO•)**, superoxide (O₂•⁻), **peroxynitrite (ONOO⁻)** generated by paraquat or doxorubicin redox cycling.",
+  "explanation": "## Advanced explanation\n\nThe **ultimate toxicant** is the chemical species that actually reacts with the endogenous target molecule and initiates injury. It may be (i) the parent compound itself, (ii) a metabolite produced by bioactivation, (iii) an endogenous molecule generated or displaced by the xenobiotic, or (iv) a reactive oxygen/nitrogen species formed during metabolism. Recognising which applies determines the antidote: chelation for lead, N-acetylcysteine (glutathione repletion) for NAPQI, exchange transfusion for bilirubin, antioxidants for ROS-mediated injury.\n\n## Simplified explanation\n\nSometimes the **chemical itself** does the damage (lead). Sometimes the **body's breakdown product** does (paracetamol → NAPQI). Sometimes the chemical makes one of the **body's own substances** harmful (bilirubin). And sometimes it is the **free radicals** produced along the way.",
+  "hint": "Four ways a chemical can end up as the species that attacks the target.",
+  "difficulty": "hard",
+  "marks": 8,
+  "tags": [
+   "Mechanisms of Toxicity",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **FOUR (4) reaction types** that may take place between an **ultimate toxicant** and a **target molecule**.",
+  "answer": "> [!answer]\n> 1. **Non-covalent binding** — reversible interaction through hydrogen bonds, ionic and hydrophobic forces (e.g. strychnine on the glycine receptor, TTX on the sodium channel, warfarin on vitamin K epoxide reductase).\n> 2. **Covalent binding** — irreversible adduct formation by electrophiles with nucleophilic sites on protein or DNA (NAPQI–protein adducts, aflatoxin B1 epoxide–guanine adducts).\n> 3. **Hydrogen abstraction** — a free radical removes a hydrogen atom, converting the target into a radical (initiation of **lipid peroxidation** by CCl₃•).\n> 4. **Electron transfer** — oxidation/reduction of the target, as in the oxidation of haemoglobin Fe²⁺ to Fe³⁺ by nitrite, producing **methaemoglobin**.\n> 5. **Enzymatic reactions** — a few toxins act enzymatically on their targets (ricin and diphtheria toxin on ribosomes/elongation factor 2, snake venom proteases, botulinum toxin cleaving SNARE proteins).\n>\n> (Any four.)",
+  "explanation": "## Advanced explanation\n\nThe reaction type determines **reversibility and therefore the clinical course**. Non-covalent binding is reversible, so the effect ends as concentration falls. **Covalent binding is effectively irreversible**, requiring resynthesis of the target — which is why paracetamol hepatotoxicity and organophosphate 'ageing' of acetylcholinesterase are so persistent, and why DNA adducts can initiate carcinogenesis. Radical reactions (hydrogen abstraction, electron transfer) are **self-propagating chain reactions**, which is why a small amount of CCl₄ can destroy large amounts of membrane lipid, and why antioxidants act as chain-breaking agents.\n\n## Simplified explanation\n\nThe poison can **stick loosely**, **stick permanently**, **steal a hydrogen atom** (starting a chain reaction), **swap electrons** (oxidising the target), or **act like an enzyme** and chop the target up.",
+  "hint": "Reversible binding, irreversible binding, and two kinds of radical chemistry.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Mechanisms of Toxicity",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3) possible outcomes** of the reaction between an **ultimate toxicant** and its **target molecule**.",
+  "answer": "> [!answer]\n> 1. **Dysfunction of the target molecule** — the toxicant blocks, inhibits or inappropriately activates it (e.g. cyanide inhibits cytochrome oxidase; organophosphates inhibit acetylcholinesterase; strychnine blocks the glycine receptor).\n> 2. **Destruction of the target molecule** — the structure itself is damaged: protein cross-linking and fragmentation, DNA strand breaks, lipid peroxidation of membranes.\n> 3. **Neoantigen formation** — covalent binding to a protein creates a new antigenic determinant, provoking an **immune (hypersensitivity) response** (halothane hepatitis, penicillin allergy, drug-induced lupus).\n>\n> A fourth possibility is that **toxicity is produced without reaction with a specific target**, for example by generating reactive species or by disturbing the physical/osmotic environment of the cell.",
+  "explanation": "## Advanced explanation\n\nThese three outcomes map onto distinct clinical pictures. **Dysfunction** gives immediate, often reversible, pharmacological-type toxicity with a clear dose–response. **Destruction** gives cell injury and necrosis, and, where DNA is the target, mutation and carcinogenesis. **Neoantigen formation** gives delayed, dose-independent immune reactions that recur more severely on re-exposure — the basis of idiosyncratic drug-induced liver injury. Each outcome then propagates to cellular dysregulation, repair failure and finally tissue necrosis, fibrosis or neoplasia.\n\n## Simplified explanation\n\nThe target can be **stopped from working**, **broken apart**, or **changed so the immune system attacks it**.",
+  "hint": "Dysfunction, destruction, and an immune consequence.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Mechanisms of Toxicity",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Identify the **toxicological phenomenon** demonstrated by the table below and explain how it accounts for the toxicity of many xenobiotics.\n\n**Concentration of DDT in a Lake Michigan food chain (ppm)**\n\n| | DDT (ppm) |\n|---|---|\n| Water | 0.000002 |\n| Bottom mud | 0.014 |\n| Fairy shrimp | 0.410 |\n| Coho salmon, lake trout | 3–6 |\n| Herring gull | 99 |\n\n*Source: Harrison et al. (1970).*",
+  "answer": "> [!answer]\n> The phenomenon is **biomagnification** (biological magnification), the result of **bioaccumulation** in each organism.\n>\n> **Explanation:** DDT is **highly lipophilic, chemically stable and poorly metabolised or excreted**. Each organism takes in more than it can eliminate, so the chemical **accumulates in its body fat (bioaccumulation)**. When that organism is eaten, the predator receives the whole accumulated burden of many prey animals, so the **concentration rises by roughly an order of magnitude at each trophic level**: from 0.000002 ppm in water to **99 ppm in the herring gull — about a 50-million-fold increase**.\n>\n> **Toxicological significance:** organisms at the **top of the food chain**, including fish-eating birds and **humans**, are exposed to concentrations vastly higher than those measurable in the environment, and so suffer toxicity (in DDT's case eggshell thinning and reproductive failure in raptors) even when ambient levels appear harmlessly low. This is why **persistent, lipophilic organic pollutants (POPs)** — DDT, PCBs, dioxins, methylmercury — are regulated so strictly.",
+  "explanation": "## Advanced explanation\n\nBiomagnification requires three properties: high **lipid solubility** (log Kow > 5), **persistence** (resistance to metabolism and environmental degradation) and **low excretion rate**. Lipophilic compounds partition into adipose tissue, where there is no efficient route of elimination; since a predator must eat many times its own mass of prey over its lifetime, the steady-state concentration rises at each trophic transfer. The Stockholm Convention on Persistent Organic Pollutants is the international response, and the phenomenon also explains why advice on methylmercury is directed at consumption of long-lived predatory fish.\n\n## Simplified explanation\n\n**Biomagnification.** DDT stores in body fat and is not broken down, so each animal keeps everything it eats. Going up the food chain the concentration multiplies — from almost nothing in water to a huge amount in the gull at the top.",
+  "hint": "Look at how the concentration changes from water to the top predator.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Environmental Toxicology",
+   "2018/19 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between each of the following paired terms:\n\n(a) Delivered dose and internal dose\n(b) Pro-carcinogen and co-carcinogen\n(c) Risk and hazard\n(d) Local and systemic toxicity",
+  "answer": "> [!answer]\n> **(a)** The **internal dose** is the **total amount of chemical absorbed into the body** (the systemic dose); the **delivered dose** is the amount that actually **reaches the target organ or target molecule** — the biologically effective dose.\n>\n> **(b)** A **pro-carcinogen** is a chemical that is **not carcinogenic itself but becomes carcinogenic after metabolic activation** (benzo[a]pyrene, aflatoxin B1, vinyl chloride). A **co-carcinogen** is **not carcinogenic on its own but enhances the effect of a carcinogen** when given with it (ethanol with tobacco smoke, catechol, some phorbol esters acting as promoters).\n>\n> **(c)** A **hazard** is the **intrinsic capacity of an agent to cause harm** — a qualitative property of the substance. **Risk** is the **probability that harm will actually occur** under the conditions of exposure — hazard combined with exposure, expressed quantitatively.\n>\n> **(d)** **Local toxicity** is injury confined to the **site of first contact** (acid burns of skin, irritant gases in the airway, caustic ingestion). **Systemic toxicity** affects **organs distant from the site of exposure**, after absorption and distribution (lead encephalopathy after ingestion, paracetamol hepatotoxicity).",
+  "explanation": "## Advanced explanation\n\nThese distinctions underpin **risk assessment**. The chain exposure → internal dose → delivered (target) dose explains why the external exposure concentration correlates poorly with effect, and why biomarkers of internal dose (blood lead, urinary metabolites) are measured. The pro-/co-carcinogen distinction belongs to the **initiation–promotion–progression** model: pro-carcinogens require bioactivation to an ultimate electrophilic carcinogen that forms DNA adducts (initiation), whereas promoters and co-carcinogens act epigenetically. 'Hazard versus risk' is the central regulatory distinction: a highly hazardous substance may pose negligible risk if exposure is controlled, and conversely.\n\n## Simplified explanation\n\n**Internal dose** = how much got into the body; **delivered dose** = how much reached the organ. A **pro-carcinogen** becomes a cancer-causer after the body changes it; a **co-carcinogen** just makes another carcinogen worse. **Hazard** = what a chemical *can* do; **risk** = the chance it actually will, given your exposure. **Local** = damage where it touches; **systemic** = damage elsewhere after absorption.",
+  "hint": "Dose at the target, bioactivation versus enhancement, capacity versus probability, site of injury.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Basic Toxicology",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "For each of the following, indicate the **duration (length of time)** of the toxicological investigation:\n\n(a) Acute toxicity (b) Sub-acute toxicity (c) Sub-chronic toxicity (d) Chronic toxicity",
+  "answer": "> [!answer]\n> **(a) Acute toxicity** — exposure for **24 hours or less** (usually a single dose), with observation for up to 14 days.\n> **(b) Sub-acute toxicity** — **repeated exposure for up to 1 month** (commonly 14 days, i.e. 1–14 days up to about 4 weeks).\n> **(c) Sub-chronic toxicity** — repeated exposure for **1 to 3 months** (commonly the 90-day study).\n> **(d) Chronic toxicity** — repeated exposure for **more than 3–6 months**, up to the lifetime of the animal (carcinogenicity bioassays run 18–24 months in rodents).",
+  "explanation": "## Advanced explanation\n\nThe categories are **exposure-duration descriptors used in regulatory toxicity testing**. Acute studies establish the LD₅₀/LC₅₀ and the immediate hazard; sub-acute and **sub-chronic (90-day)** studies identify target organs and provide the **NOAEL/LOAEL** used to derive reference doses; **chronic** studies detect effects that need prolonged exposure — accumulation, carcinogenicity, reproductive and degenerative change. The same chemical can have entirely different target organs by acute and chronic exposure, which is why both are required.\n\n## Simplified explanation\n\n**Acute** = one day or a single dose; **sub-acute** = up to a month; **sub-chronic** = one to three months; **chronic** = longer than that, often the animal's whole life.",
+  "hint": "A day, a month, three months, longer.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Dose–Response & Safety",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Indicate whether each of the following statements is **true (T)** or **false (F)**:\n\n(a) ED₅₀ and LD₅₀ are biological constants.\n(b) Poisons are toxic at all concentrations.\n(c) At sentinel doses no toxic responses are detected.\n(d) There are no poisons but harmful ways of using substances.",
+  "answer": "> [!answer]\n> **(a) False.** ED₅₀ and LD₅₀ are **statistical estimates for a particular population, species, route and duration of exposure** — they vary with strain, sex, age, diet, vehicle and laboratory, so they are not constants.\n>\n> **(b) False.** By the Paracelsus principle, **'the dose makes the poison'** — every substance is harmless below some dose and harmful above it, and even water and oxygen are toxic in excess.\n>\n> **(c) False.** A **sentinel dose is the lowest dose at which an early warning (sentinel) toxic effect appears** — it is the dose at which a response *is* detected, serving as the alert before more serious toxicity. (It is the no-effect level, NOEL, at which no response is detected.)\n>\n> **(d) True.** This restates the Paracelsus principle: toxicity is a property of the **exposure conditions — dose, route and duration — not an absolute property of the substance**.",
+  "explanation": "## Advanced explanation\n\nStatements (a), (b) and (d) all test the **dose–response axiom** of toxicology. LD₅₀ values are so variable between protocols that regulatory testing has largely replaced the classical LD₅₀ assay with fixed-dose and up-and-down procedures that use far fewer animals. The hazard/risk distinction follows directly from (d): the same substance (botulinum toxin, digoxin, ethanol) is a medicine, a food constituent or a lethal poison depending entirely on dose and route.\n\n## Simplified explanation\n\n(a) **False** — they are averages that change with the test conditions. (b) **False** — small enough amounts of anything are harmless. (c) **False** — a sentinel dose is where the **first warning effect shows up**. (d) **True** — it is the **way and amount** a substance is used that makes it dangerous.",
+  "hint": "Three of these test 'the dose makes the poison'.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Basic Toxicology",
+   "Quiz 2"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain the term **xenobiotic**.",
+  "answer": "> [!answer]\n> A **xenobiotic** (Greek *xenos*, foreign) is **any chemical substance, organic or inorganic, that is foreign to the biological system in which it is found** — i.e. not normally produced by or expected to be present in that organism.\n>\n> It includes **drugs, food additives, cosmetics, pesticides, industrial chemicals, environmental pollutants and plant and microbial toxins**, and it may produce desirable (therapeutic) or undesirable (toxic) physiological and pharmacological effects on the living system.",
+  "explanation": "## Advanced explanation\n\nThe concept matters because the body has **no dedicated pathway** for most foreign chemicals; it handles them with a broad, low-specificity, inducible battery of phase I and phase II enzymes and transporters evolved chiefly to deal with plant-derived chemicals in the diet. A substance may be endogenous in one context and xenobiotic in another — for example a hormone given as a drug in supraphysiological amounts. Endogenous compounds (bilirubin, steroids, bile acids) share these enzymes, which is the basis of many drug–endogenous substrate interactions.\n\n## Simplified explanation\n\nA xenobiotic is **any chemical that is foreign to the body** — drugs, pesticides, pollutants, food additives and natural toxins.",
+  "hint": "The word means 'foreign to life'.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Basic Toxicology",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "By using a named example, explain **toxication**.",
+  "answer": "> [!answer]\n> **Toxication (bioactivation)** is the process by which a chemical agent is **biotransformed — usually enzymatically — into a new chemical species that is more toxic than the parent compound**.\n>\n> **Example:** **ethanol** is oxidised by **alcohol dehydrogenase** to **acetaldehyde**, a highly reactive and toxic metabolite responsible for the flushing, nausea, headache and, on chronic exposure, the protein adducts and hepatic injury of alcoholism.\n>\n> Other examples: **paracetamol → NAPQI** (hepatic necrosis); **carbon tetrachloride → trichloromethyl radical** (lipid peroxidation); **methanol → formic acid** (acidosis and blindness); **benzo[a]pyrene → diol epoxide** (DNA adducts and cancer).",
+  "explanation": "## Advanced explanation\n\nToxication is the opposite outcome of the usual detoxication purpose of metabolism, and arises because phase I oxidation generates **electrophiles and free radicals**. Whether a chemical is detoxified or toxicated depends on the balance between the **activating enzymes** (CYP2E1, CYP1A2, CYP3A4) and the **protective systems** (glutathione, epoxide hydrolase, glutathione S-transferase, superoxide dismutase, catalase). This balance explains why induction of CYP2E1 by chronic ethanol, or depletion of glutathione by fasting or malnutrition, markedly increases paracetamol hepatotoxicity at a given dose.\n\n## Simplified explanation\n\nToxication is when the body **turns a chemical into something more poisonous** — for example alcohol into acetaldehyde, or paracetamol into NAPQI.",
+  "hint": "Metabolism making a chemical worse, not better.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Bioactivation",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Explain the phenomenon of **enterohepatic recirculation**.",
+  "answer": "> [!answer]\n> **Enterohepatic recirculation** is the cycle in which a drug or its metabolite is **excreted in bile into the intestine, reabsorbed from the gut and returned to the liver via the portal vein**.\n>\n> Mechanism: the liver conjugates the drug (typically a **glucuronide**) and secretes it into bile; in the intestine, **β-glucuronidase produced by the gut flora hydrolyses the conjugate**, releasing the lipophilic parent drug, which is then reabsorbed and carried back to the liver.\n>\n> **Consequences:**\n> - the drug's **half-life and duration of action are prolonged**, often with a **secondary peak** in the plasma concentration–time curve;\n> - total systemic exposure (AUC) increases, so toxicity may be prolonged;\n> - **broad-spectrum antibiotics**, by killing the gut flora, reduce this recycling — the classical explanation for oral contraceptive failure;\n> - it can be **interrupted therapeutically** with activated charcoal or ion-exchange resins (cholestyramine) to speed elimination in poisoning.\n>\n> Examples: morphine, digoxin, oestrogens and oral contraceptives, rifampicin, warfarin, indomethacin, and physiologically, bile acids and bilirubin.",
+  "explanation": "## Advanced explanation\n\nBiliary excretion requires a molecular weight above about 300–500 Da and an anionic or conjugated structure; secretion is by active transporters (MRP2, BSEP, P-glycoprotein). Deconjugation by bacterial β-glucuronidase is the key step that regenerates an absorbable species, which is why the phenomenon depends on an intact microbiome. In toxicology, interrupting the cycle with **multiple-dose activated charcoal** enhances elimination of drugs such as carbamazepine, dapsone, phenobarbital, quinine and theophylline.\n\n## Simplified explanation\n\nThe liver sends the drug into the **bile and then the gut**, where bacteria free it again and it is **absorbed back into the blood**. This recycling makes the drug last much longer.",
+  "hint": "Bile → gut → bacterial β-glucuronidase → reabsorption → liver.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Toxicokinetics",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "A drug undergoes **complete renal excretion**. How will you monitor the **metabolites** of this drug in a patient?",
+  "answer": "> [!answer]\n> Collect and analyse **urine** (ideally a **timed/24-hour collection**, with **paired blood samples**) and measure the drug and its metabolites by a specific analytical method — **immunoassay for screening, confirmed by HPLC, GC-MS or LC-MS/MS**.\n>\n> Practically:\n> - take a **timed urine collection** so that the **amount excreted per unit time** (and renal clearance, $CL_R = \\dfrac{U \\times V}{P}$) can be calculated;\n> - analyse **paired plasma and urine** samples to relate plasma concentration to urinary recovery and derive the pharmacokinetics;\n> - **assess renal function** at the same time (serum creatinine, eGFR, urine output), because impaired excretion causes accumulation and toxicity;\n> - note **urine pH and flow rate**, which alter the excretion of ionisable drugs (ion trapping).",
+  "explanation": "## Advanced explanation\n\nFor a drug cleared entirely by the kidney, urinary recovery over several half-lives accounts for the whole dose, so **mass balance** can be used to identify and quantify metabolites. Renal clearance combines **glomerular filtration (free drug only), active tubular secretion** by OAT/OCT transporters and **passive reabsorption**, which depends on lipophilicity and urine pH. In renal impairment the maintenance dose of such a drug must be reduced in proportion to the fall in creatinine clearance (Cockcroft–Gault or eGFR), and plasma monitoring is used for narrow-index agents such as gentamicin, digoxin and lithium.\n\n## Simplified explanation\n\n**Test the urine** — ideally a 24-hour collection — along with a **blood sample**, using a laboratory method such as HPLC or mass spectrometry, and also **check how well the kidneys are working**.",
+  "hint": "If the kidney clears it completely, which specimen contains the metabolites?",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Toxicokinetics",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between each of the following paired terms:\n\n(a) Metabolism and biotransformation\n(b) Toxicant and toxin\n(c) Bioaccumulation and biomagnification",
+  "answer": "> [!answer]\n> **(a)** **Metabolism** is the sum of **all chemical reactions occurring in a living organism** — both the anabolic (synthetic) and catabolic (breakdown) reactions of endogenous and exogenous substances. **Biotransformation** is the narrower term for the **enzymatic chemical modification of a xenobiotic** by a living organism, converting it into a more polar, excretable (or sometimes more toxic) form.\n>\n> **(b)** A **toxin** is a poison produced by a **living organism** (natural/biological origin): snake venom, botulinum toxin, aflatoxin, tetrodotoxin. A **toxicant** is a poison that is **man-made or arises from human activity** (anthropogenic): pesticides, carbon monoxide, concentrated acids, industrial solvents.\n>\n> **(c)** **Bioaccumulation** is the **build-up of a chemical within a single organism** over time, because uptake exceeds elimination. **Biomagnification** is the **increase in concentration of that chemical at each successive trophic level of a food chain**, so that top predators carry the highest burden (as with DDT from lake water to the herring gull).",
+  "explanation": "## Advanced explanation\n\nThe pairs separate a **general from a specific** term (metabolism/biotransformation), an **origin-based** distinction (toxin/toxicant), and an **organism-level versus ecosystem-level** process (bioaccumulation/biomagnification). Biomagnification requires bioaccumulation plus persistence and lipophilicity: a chemical that accumulates within an organism but is metabolised by its predator will not biomagnify.\n\n## Simplified explanation\n\n**Metabolism** = all the body's chemistry; **biotransformation** = the body changing a foreign chemical. **Toxin** = from a living thing; **toxicant** = man-made. **Bioaccumulation** = builds up in **one animal**; **biomagnification** = gets more concentrated **up the food chain**.",
+  "hint": "General versus specific; natural versus man-made; one organism versus the food chain.",
+  "difficulty": "medium",
+  "marks": 9,
+  "tags": [
+   "Basic Toxicology",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "State **THREE (3) enzymes and their specific substrates** involved in **phase II metabolic reactions**.",
+  "answer": "| Enzyme | Co-substrate (donor) | Example drug substrate |\n|---|---|---|\n| **UDP-glucuronosyltransferase (UGT)** | **UDP-glucuronic acid** | Morphine, paracetamol, bilirubin, chloramphenicol |\n| **Glutathione S-transferase (GST)** | **Glutathione (GSH)** | NAPQI (from paracetamol), epoxides, ethacrynic acid |\n| **Sulfotransferase (SULT)** | **PAPS (3′-phosphoadenosine-5′-phosphosulphate)** | Paracetamol, phenols, steroids, catecholamines |\n| *(also)* **N-acetyltransferase (NAT2)** | **Acetyl-CoA** | Isoniazid, sulphonamides, hydralazine, dapsone |\n| *(also)* **Methyltransferases (COMT, TPMT)** | **S-adenosylmethionine (SAM)** | Catecholamines; 6-mercaptopurine |\n\n> [!answer]\n> Glucuronosyltransferase with **UDP-glucuronic acid**; glutathione S-transferase with **glutathione**; sulfotransferase with **sulphate (PAPS)**.",
+  "explanation": "## Advanced explanation\n\nPhase II reactions attach a **polar, usually endogenous, moiety** to a functional group, producing a highly water-soluble, generally inactive conjugate for renal or biliary excretion. They require **high-energy cofactors**, so the pathways are saturable: sulphation has high affinity but **low capacity** (PAPS is limiting) and saturates before glucuronidation, which matters in paracetamol overdose. **Glutathione conjugation** is the principal defence against electrophilic ultimate toxicants, and its depletion is the pivotal event in paracetamol hepatotoxicity — the rationale for **N-acetylcysteine** as antidote.\n\n## Simplified explanation\n\nThree conjugating enzymes: **glucuronosyltransferase** (adds glucuronic acid), **glutathione S-transferase** (adds glutathione) and **sulfotransferase** (adds sulphate).",
+  "hint": "Name the enzyme and what it attaches.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Drug Metabolism",
+   "2017/18 End of Semester Exam"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "In terms of chemical exposure, state some of the **health risks associated with working in a medical laboratory**.",
+  "answer": "> [!answer]\n> 1. **Cancer from repeated exposure to carcinogens** — formalin/formaldehyde and xylene/benzene in the histopathology laboratory; aniline dyes; ethidium bromide and other mutagens in molecular laboratories.\n> 2. **Chemical burns and corrosive injury** — concentrated sulphuric, hydrochloric and nitric acids and strong alkalis cause skin, eye and respiratory burns.\n> 3. **Allergy and hypersensitivity** — latex gloves, glutaraldehyde, formaldehyde and some reagents cause contact dermatitis, occupational asthma and rhinitis.\n> 4. **Organ toxicity from solvent and vapour inhalation** — xylene, toluene, chloroform and methanol cause headache, CNS depression, hepatic and renal injury with chronic exposure.\n> 5. **Heavy-metal and specific-reagent toxicity** — mercury from broken thermometers and sphygmomanometers, cyanide in haemoglobin (Drabkin's) reagent, azide in diluents.\n> 6. **Reproductive hazards** — several laboratory solvents and cytotoxic reagents are teratogenic or fetotoxic.\n>\n> (Biological and physical hazards — infection, sharps injury, fire and radiation — also exist but are outside the chemical category.)",
+  "explanation": "## Advanced explanation\n\nOccupational chemical risk in the laboratory is managed by the **hierarchy of controls**: elimination/substitution (replacing xylene with less toxic clearing agents), engineering controls (**fume cupboards, biological safety cabinets, local exhaust ventilation**), administrative controls (SOPs, training, exposure monitoring, health surveillance) and finally **PPE**. Legal frameworks require a **chemical inventory and safety data sheets (SDS)**, correct labelling, segregated storage of incompatible chemicals, spill kits and eyewash/shower stations, and disposal routes that do not contaminate the environment.\n\n## Simplified explanation\n\nLaboratory chemicals can **cause cancer** (formalin, benzene), **burn the skin** (strong acids), **cause allergies and asthma**, **damage the liver, kidneys and brain** if their vapours are inhaled, and some are dangerous in pregnancy.",
+  "hint": "Think of histopathology reagents, strong acids and solvent vapours.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Occupational Toxicology",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ },
+ {
+  "type": "text",
+  "body": "Define **toxicology**.",
+  "answer": "> [!answer]\n> **Toxicology** is the branch of science (and of medicine/pharmacology) that deals with the **study of the adverse effects of chemical, physical and biological agents on living organisms** — from the cell to the whole ecosystem — including the **mechanisms of those effects, their detection, diagnosis, treatment and prevention**, and the **assessment of the risk** posed by exposure.\n>\n> It is often summarised as **'the science of poisons'**, and its central principle (Paracelsus) is that **the dose makes the poison**.",
+  "explanation": "## Advanced explanation\n\nModern toxicology has several branches: **descriptive** (toxicity testing for regulatory purposes), **mechanistic** (how an agent produces injury at molecular and cellular level), **regulatory** (setting permissible exposures), and applied fields such as **clinical, forensic, occupational, environmental and ecotoxicology**. It draws on pharmacokinetics (how much reaches the target), pharmacodynamics (what it does there), pathology (the resulting lesion) and epidemiology (effects in populations).\n\n## Simplified explanation\n\nToxicology is the **study of how chemicals harm living things** — how they do it, how to detect and treat the harm, and how to judge how risky an exposure is.",
+  "hint": "The science of poisons — and of the harm chemicals cause.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Basic Toxicology",
+   "Quiz 1 (MLT 360)"
+  ],
+  "media": []
+ }
+]

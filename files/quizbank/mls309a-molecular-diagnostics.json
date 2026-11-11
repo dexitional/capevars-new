@@ -1,0 +1,791 @@
+[
+ {
+  "type": "choice",
+  "body": "The final concentration of Taq polymerase is to be 0.01 units/µL in a 50 µL PCR. If the enzyme is supplied as 5 units/µL, how much enzyme would you add to the reaction?",
+  "media": [],
+  "options": [
+   {
+    "text": "1 µL",
+    "hint": "1 µL of stock gives 5 units — ten times too much."
+   },
+   {
+    "text": "1 µL of a 1:10 dilution of Taq",
+    "hint": "Correct. 1 µL of 0.5 U/µL gives 0.5 U, i.e. 0.01 U/µL in 50 µL."
+   },
+   {
+    "text": "5 µL of a 1:10 dilution of Taq",
+    "hint": "That gives 2.5 U — five times too much."
+   },
+   {
+    "text": "2 µL",
+    "hint": "That gives 10 U."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Units needed = final concentration × volume.",
+  "explanation": "## Advanced explanation\n\nUnits required = $0.01\\ \\text{U/µL} \\times 50\\ \\text{µL} = 0.5\\ \\text{U}$. From a 5 U/µL stock that is 0.1 µL — too small to pipette accurately — so dilute the stock 1:10 to 0.5 U/µL and add **1 µL**.\n\n## Simplified explanation\n\nYou need 0.5 units; 1 µL of a tenfold-diluted stock gives exactly that.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Primer dimers result from:",
+  "media": [],
+  "options": [
+   {
+    "text": "High primer concentrations",
+    "hint": "High concentrations increase the chance, but the cause is complementarity."
+   },
+   {
+    "text": "Low primer concentrations",
+    "hint": "Low concentrations reduce dimer formation."
+   },
+   {
+    "text": "High GC content in the primer sequences",
+    "hint": "GC content affects Tm, not dimer formation as such."
+   },
+   {
+    "text": "3′ complementarity in the primer sequences",
+    "hint": "Correct. Primers whose 3′ ends pair with each other are extended into dimers."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Polymerase extends from 3′ ends.",
+  "explanation": "## Advanced explanation\n\nWhen the **3′ ends** of two primers are complementary they anneal to each other and the polymerase extends them, producing short artefact products (~primer length × 2) that compete with the target. Good primer design avoids 3′ complementarity; hot-start PCR also reduces dimers.\n\n## Simplified explanation\n\nIf the ends of two primers stick together, the enzyme copies them into a **primer dimer**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which control is run to detect contamination?",
+  "media": [],
+  "options": [
+   {
+    "text": "Negative control",
+    "hint": "A negative control checks specificity with known negative template."
+   },
+   {
+    "text": "Positive control",
+    "hint": "Checks that the reaction works."
+   },
+   {
+    "text": "Molecular weight marker",
+    "hint": "Used to size products."
+   },
+   {
+    "text": "Reagent blank",
+    "hint": "Correct. A no-template reagent blank reveals contaminating DNA in reagents."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "No template at all.",
+  "explanation": "## Advanced explanation\n\nThe **reagent blank (no-template control)** contains all reaction components except template DNA. Any product in it indicates **contamination** of reagents or the work area (e.g. by amplicon carry-over).\n\n## Simplified explanation\n\nThe tube with **no DNA added** should stay blank; if it shows a band, something is contaminated.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Quality Control",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Nonspecific extra PCR products can result from:",
+  "media": [],
+  "options": [
+   {
+    "text": "Mispriming",
+    "hint": "Correct. Primers binding to partially matched sites give extra products."
+   },
+   {
+    "text": "High annealing temperatures",
+    "hint": "High annealing temperatures increase specificity."
+   },
+   {
+    "text": "High agarose gel concentrations",
+    "hint": "Gel concentration affects resolution, not amplification."
+   },
+   {
+    "text": "Omission of MgCl₂ from the PCR",
+    "hint": "Without Mg²⁺ the polymerase does not work, so no product."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Primers binding where they should not.",
+  "explanation": "## Advanced explanation\n\n**Mispriming** — primers annealing to partially complementary sequences — produces extra bands. It is favoured by low annealing temperature, excess Mg²⁺, primer or enzyme, and too many cycles; it is reduced by raising annealing temperature, touchdown or hot-start PCR.\n\n## Simplified explanation\n\nExtra bands come from primers **sticking in the wrong places**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Using which of the following is an appropriate way to avoid PCR contamination?",
+  "media": [],
+  "options": [
+   {
+    "text": "High fidelity polymerase",
+    "hint": "Improves accuracy, not contamination."
+   },
+   {
+    "text": "Hot-start PCR",
+    "hint": "Improves specificity, not contamination."
+   },
+   {
+    "text": "A separate area for PCR set up",
+    "hint": "Correct. Physical separation of pre- and post-PCR work prevents amplicon carry-over."
+   },
+   {
+    "text": "Fewer PCR cycles",
+    "hint": "Does not prevent contamination."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Unidirectional workflow.",
+  "explanation": "## Advanced explanation\n\nContamination control: **separate areas** (reagent preparation, sample preparation, amplification/detection) with dedicated equipment and one-way workflow, aerosol-resistant tips, UV treatment, and dUTP/**uracil-N-glycosylase** to destroy carry-over amplicons.\n\n## Simplified explanation\n\nSet up PCR in a **separate clean area** from where products are handled.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Quality Control",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "How many copies of a target are made after 30 cycles of PCR?",
+  "media": [],
+  "options": [
+   {
+    "text": "2 × 30",
+    "hint": "Growth is exponential, not linear."
+   },
+   {
+    "text": "$2^{30}$",
+    "hint": "Correct. Each cycle doubles the target, so 30 cycles give $2^{30}$ copies."
+   },
+   {
+    "text": "$30^2$",
+    "hint": "Not the PCR growth law."
+   },
+   {
+    "text": "30/2",
+    "hint": "Not the PCR growth law."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Each cycle doubles.",
+  "explanation": "## Advanced explanation\n\nIdeal PCR doubles the target every cycle: copies $= N_0 \\times 2^n$. For one starting copy and 30 cycles, $2^{30} \\approx 1.07 \\times 10^9$ copies. Real efficiency is below 100% and the reaction plateaus.\n\n## Simplified explanation\n\nThe DNA doubles each cycle, so after 30 cycles there are $2^{30}$ (about a billion) copies.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are the three steps of a standard PCR cycle?",
+  "media": [],
+  "answer": "1. **Denaturation** (~94–95°C) — separates the DNA strands.\n2. **Annealing** (~50–65°C) — primers bind to complementary sequences.\n3. **Extension** (~72°C) — DNA polymerase extends the primers.\n\n> [!answer]\n> Denaturation, annealing and extension.",
+  "hint": "Melt, bind, build.",
+  "explanation": "## Advanced explanation\n\nThe cycle is repeated 25–40 times in a thermal cycler. Annealing temperature is set a few degrees below the primers' Tm; extension at 72°C is the optimum for Taq polymerase.\n\n## Simplified explanation\n\nHeat to **separate**, cool to let primers **stick**, warm to **copy**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is a method for purifying a PCR product?",
+  "media": [],
+  "options": [
+   {
+    "text": "Treat with uracil N glycosylase",
+    "hint": "UNG destroys U-containing amplicons — a contamination control."
+   },
+   {
+    "text": "Add divalent cations",
+    "hint": "These are reaction cofactors."
+   },
+   {
+    "text": "Put the reaction mix through a spin column",
+    "hint": "Correct. Silica spin columns remove primers, dNTPs and enzyme."
+   },
+   {
+    "text": "Add DEPC",
+    "hint": "DEPC inactivates RNases in water."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Silica binding.",
+  "explanation": "## Advanced explanation\n\nPCR clean-up uses **silica spin columns**, magnetic beads, gel extraction, or enzymatic treatment (exonuclease I + alkaline phosphatase) to remove unused primers and dNTPs before sequencing or cloning.\n\n## Simplified explanation\n\nRun the reaction through a **spin column** to clean the product.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In contrast to standard PCR, real-time PCR is:",
+  "media": [],
+  "options": [
+   {
+    "text": "Quantitative",
+    "hint": "Correct. Product is measured each cycle, allowing quantification."
+   },
+   {
+    "text": "Qualitative",
+    "hint": "Standard end-point PCR is qualitative."
+   },
+   {
+    "text": "Labor-intensive",
+    "hint": "Real-time PCR is less labour-intensive (no gel)."
+   },
+   {
+    "text": "Sensitive",
+    "hint": "Both are sensitive."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Ct values.",
+  "explanation": "## Advanced explanation\n\nReal-time (quantitative) PCR monitors fluorescence each cycle. The **cycle threshold (Ct)** is inversely related to the log of starting template, so standards allow **quantification** (e.g. HIV or HBV viral load). It is a closed-tube system, reducing contamination.\n\n## Simplified explanation\n\nReal-time PCR tells you **how much** target there is.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Real-time PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In real-time PCR, fluorescence is NOT generated by which of the following?",
+  "media": [],
+  "options": [
+   {
+    "text": "FRET probes",
+    "hint": "FRET probes generate signal."
+   },
+   {
+    "text": "TaqMan probes",
+    "hint": "Hydrolysis probes generate signal."
+   },
+   {
+    "text": "SYBR green",
+    "hint": "An intercalating/binding dye generates signal."
+   },
+   {
+    "text": "Tth polymerase",
+    "hint": "Correct. Tth is a thermostable polymerase, not a fluorescent reporter."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Which one is an enzyme?",
+  "explanation": "## Advanced explanation\n\nReal-time detection chemistries: **DNA-binding dyes** (SYBR Green), **hydrolysis probes** (TaqMan — cleaved by 5′→3′ exonuclease), **hybridization/FRET probes**, molecular beacons and Scorpion primers. **Tth polymerase** is a thermostable enzyme with reverse-transcriptase activity.\n\n## Simplified explanation\n\nTth is just an **enzyme**; the others produce the light.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Real-time PCR",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Calculate the DNA concentration in µg/mL from the following information, and the yield if the volume of each DNA solution was 0.5 mL:\n\na. Absorbance at 260 nm from a 1:50 dilution = 0.307\nb. Absorbance at 260 nm from a 1:100 dilution = 0.172\nc. Absorbance at 260 nm from a 1:100 dilution = 0.088",
+  "media": [],
+  "answer": "For double-stranded DNA, 1 A₂₆₀ unit = 50 µg/mL, so concentration = $A_{260} \\times 50 \\times \\text{dilution factor}$; yield = concentration × volume.\n\n| | Concentration | Yield (0.5 mL) |\n|---|---|---|\n| a | $0.307 \\times 50 \\times 50 = 767.5$ µg/mL | 383.75 µg |\n| b | $0.172 \\times 50 \\times 100 = 860$ µg/mL | 430 µg |\n| c | $0.088 \\times 50 \\times 100 = 440$ µg/mL | 220 µg |\n\n> [!answer]\n> a 767.5 µg/mL (383.75 µg); b 860 µg/mL (430 µg); c 440 µg/mL (220 µg).",
+  "hint": "dsDNA: 1 OD₂₆₀ = 50 µg/mL.",
+  "explanation": "## Advanced explanation\n\nConversion factors at 260 nm: **dsDNA 50 µg/mL**, **RNA 40 µg/mL**, ssDNA/oligonucleotides ~33 µg/mL. Readings are most reliable between about 0.1 and 1.0, which is why samples are diluted; the dilution factor must be multiplied back.\n\n## Simplified explanation\n\nMultiply the reading by **50** and by the **dilution**, then by the volume for the total amount.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Nucleic Acid Quantitation",
+   "2019/2020 End of First Semester Exam",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Three DNA preparations have the following readings. Based on the A₂₆₀/A₂₈₀ ratio, is each preparation suitable for further use? If not, what is contaminating the DNA?\n\n| Sample | A₂₆₀ | A₂₈₀ |\n|---|---|---|\n| 1 | 0.419 | 0.230 |\n| 2 | 0.258 | 0.225 |\n| 3 | 0.398 | 0.174 |",
+  "media": [],
+  "answer": "| Sample | A₂₆₀/A₂₈₀ | Interpretation |\n|---|---|---|\n| 1 | 0.419/0.230 = **1.82** | **Suitable** (pure DNA ≈ 1.8) |\n| 2 | 0.258/0.225 = **1.14** | **Unsuitable — protein contamination** |\n| 3 | 0.398/0.174 = **2.28** | May be unsuitable — **RNA contamination** |\n\n> [!answer]\n> 1: 1.82, suitable; 2: 1.14, protein contamination; 3: 2.28, RNA contamination.",
+  "hint": "Pure DNA ≈ 1.8; pure RNA ≈ 2.0.",
+  "explanation": "## Advanced explanation\n\nProteins absorb at 280 nm (aromatic residues), lowering the ratio; RNA raises it above 1.8. Phenol also absorbs near 270–280 nm. The **A₂₆₀/A₂₃₀** ratio additionally detects carbohydrate, guanidine and phenol carry-over. Protein-contaminated DNA can be re-extracted (proteinase K, phenol–chloroform); RNA can be removed with RNase.\n\n## Simplified explanation\n\nAbout **1.8 is clean DNA**; lower means protein, higher means RNA.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Nucleic Acid Quantitation",
+   "2019/2020 End of First Semester Exam",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A DNA sample diluted 1:100 gave OD₂₆₀ = 0.307 and OD₂₈₀ = 0.230.\n\na. Calculate the DNA concentration in µg/mL.\nb. If the volume of the DNA solution was 0.5 mL, calculate the yield.\nc. Based on the A₂₆₀/A₂₈₀ ratio, is the preparation suitable for further use? If not, what is contaminating the DNA?",
+  "media": [],
+  "answer": "a. $0.307 \\times 50 \\times 100 =$ **1535 µg/mL**\n\nb. $1535 \\times 0.5 =$ **767.5 µg**\n\nc. $0.307/0.230 =$ **1.33** — below 1.8, so **not suitable**; the DNA is contaminated with **protein** (or phenol).\n\n> [!answer]\n> 1535 µg/mL; 767.5 µg; ratio 1.33 — protein contamination, not suitable.",
+  "hint": "Concentration, then yield, then purity.",
+  "explanation": "## Advanced explanation\n\nA ratio well below 1.7–1.8 indicates material absorbing at 280 nm, chiefly protein or residual phenol. Proteins (including nucleases) can inhibit PCR and restriction digestion, so the DNA should be re-purified before use.\n\n## Simplified explanation\n\nThe DNA is plentiful but **dirty with protein** (ratio 1.33).",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Nucleic Acid Quantitation",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Calculate the RNA concentration in µg/mL, and the yield for 0.5 mL, from the following:\n\na. A₂₆₀ from a 1:100 dilution = 0.307\nb. A₂₆₀ from a 1:50 dilution = 0.307\nc. A₂₆₀ from a 1:100 dilution = 0.172\nd. A₂₆₀ from a 1:100 dilution = 0.088",
+  "media": [],
+  "answer": "For RNA, 1 A₂₆₀ unit = **40 µg/mL**.\n\n| | Concentration | Yield (0.5 mL) |\n|---|---|---|\n| a | $0.307 \\times 40 \\times 100 = 1228$ µg/mL | 614 µg |\n| b | $0.307 \\times 40 \\times 50 = 614$ µg/mL | 307 µg |\n| c | $0.172 \\times 40 \\times 100 = 688$ µg/mL | 344 µg |\n| d | $0.088 \\times 40 \\times 100 = 352$ µg/mL | 176 µg |\n\n> [!answer]\n> a 1228 µg/mL (614 µg); b 614 µg/mL (307 µg); c 688 µg/mL (344 µg); d 352 µg/mL (176 µg).",
+  "hint": "RNA uses 40, not 50.",
+  "explanation": "## Advanced explanation\n\nSingle-stranded RNA absorbs more per microgram than dsDNA (hyperchromicity of unpaired bases), so its conversion factor is lower: **40 µg/mL per A₂₆₀ unit**.\n\n## Simplified explanation\n\nSame method as DNA but multiply by **40**.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Nucleic Acid Quantitation",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "An RNA preparation has A₂₆₀ = 0.208 and A₂₈₀ = 0.096. Is this RNA preparation satisfactory for use?",
+  "media": [],
+  "answer": "$0.208/0.096 =$ **2.17** — within the expected range for pure RNA (about 2.0), so it is **satisfactory**.\n\n> [!answer]\n> Ratio 2.17 — suitable.",
+  "hint": "Pure RNA ≈ 2.0.",
+  "explanation": "## Advanced explanation\n\nPure RNA has an A₂₆₀/A₂₈₀ of about **1.9–2.1**, higher than DNA because of uracil's absorbance profile. Integrity should also be checked (e.g. 28S:18S rRNA bands or RIN), since a good ratio does not exclude degradation.\n\n## Simplified explanation\n\nA ratio around **2** means clean RNA.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Nucleic Acid Quantitation",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "You wish to resolve restriction enzyme–digested DNA fragments ranging from 100 to 500 bp. Two agarose gels are polymerizing on the bench: one 5% and one 2%. Which would you use?",
+  "media": [],
+  "answer": "The **2% agarose** gel. It resolves fragments of roughly 50–2000 bp well; 5% agarose is too concentrated (difficult to cast and handle) — fragments this small at higher resolution are better run on polyacrylamide.\n\n> [!answer]\n> 2% agarose.",
+  "hint": "Small fragments need higher, but practical, agarose concentration.",
+  "explanation": "## Advanced explanation\n\nAgarose pore size falls as concentration rises: about 0.7% for 0.5–10 kb, 1–2% for 0.1–2 kb. Above ~3% agarose becomes impractical; very small fragments or single-base resolution need **polyacrylamide**.\n\n## Simplified explanation\n\nUse the **2%** gel for 100–500 bp pieces.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "After running restriction fragments with a molecular weight standard on an agarose gel, what might explain each observation?\n\na. The gel is blank (no bands, no molecular weight standard).\nb. Only the molecular weight standard is visible.",
+  "media": [],
+  "answer": "**a. Blank gel:** gel not stained (or stain omitted/degraded); **electrodes reversed**, so DNA ran off the top; samples not loaded properly; run too long so DNA ran off the bottom.\n\n**b. Only the marker visible:** samples not loaded properly; sample DNA **diluted, degraded or otherwise compromised** (e.g. too little DNA, nuclease digestion); digestion or amplification failed.\n\n> [!answer]\n> a: staining failure or reversed electrodes (or not loaded); b: sample problem — not loaded, too dilute or degraded.",
+  "hint": "If the marker is missing too, the problem is the whole gel.",
+  "explanation": "## Advanced explanation\n\nTroubleshooting uses the **marker as an internal control**: if it is absent, the fault lies with staining, running conditions or the electrophoresis system; if it is present, the fault lies with the samples.\n\n## Simplified explanation\n\nNo bands at all = problem with the **gel run or stain**; marker only = problem with the **samples**.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "How does pulsed-field gel electrophoresis (PFGE) separate larger fragments more efficiently than standard electrophoresis?",
+  "media": [],
+  "answer": "PFGE **periodically changes the orientation of the electric field**. Large DNA molecules must reorient with each switch before they can move again; larger molecules take longer to reorient, so they migrate more slowly. This **repeated reorientation forces large fragments through the gel matrix** and separates molecules up to megabase size, which co-migrate in a constant field.\n\n> [!answer]\n> Repeated reorientation of the field forces larger fragments through the gel in a size-dependent way.",
+  "hint": "Changing the direction of the field.",
+  "explanation": "## Advanced explanation\n\nIn conventional electrophoresis, molecules above ~20–50 kb snake through pores end-on (reptation) at the same speed. PFGE is used for **genomic macrorestriction typing** of bacteria (e.g. outbreak investigation of *S. aureus*, *Salmonella*).\n\n## Simplified explanation\n\nSwitching the field direction makes big DNA pieces **turn**, and bigger ones turn slower, so they separate.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 6% solution of 19:1 acrylamide is mixed, deaerated and poured between glass plates. After an hour the solution is still liquid. Give one explanation.",
+  "media": [],
+  "answer": "The **catalyst/initiator was not added** (or was inactive) — ammonium persulfate (APS) and/or TEMED omitted or old. Other causes: oxygen inhibition, very low temperature.\n\n> [!answer]\n> No catalyst (APS/TEMED) was added.",
+  "hint": "Polymerization needs free radicals.",
+  "explanation": "## Advanced explanation\n\nAcrylamide polymerizes by a **free-radical** reaction: APS generates radicals, **TEMED** catalyses their formation. Oxygen is a radical scavenger, which is why solutions are deaerated.\n\n## Simplified explanation\n\nWithout **APS and TEMED** the gel will not set.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A gel separation of RNA yields aberrantly migrating bands and smears. Suggest two possible explanations.",
+  "media": [],
+  "answer": "1. **Poor RNA sample quality** — degradation by RNases.\n2. **Inadequate denaturation** of the RNA before loading (secondary structure alters migration).\n\n> [!answer]\n> Degraded RNA and incomplete denaturation.",
+  "hint": "RNA folds and is easily degraded.",
+  "explanation": "## Advanced explanation\n\nRNA forms intramolecular secondary structures, so it is run on **denaturing gels** (formaldehyde or glyoxal) after heat denaturation. RNases are ubiquitous and stable, so RNase-free technique and DEPC-treated water are essential.\n\n## Simplified explanation\n\nThe RNA was either **broken down** or **not unfolded** properly.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why does DNA not resolve well in solution (without a gel matrix)?",
+  "media": [],
+  "answer": "Because **size and charge have opposing effects** on migration. Every nucleotide carries one phosphate, so DNA has a constant charge-to-mass ratio: a longer molecule has more charge pulling it but proportionally more drag, so all sizes move at about the same speed. A gel matrix acts as a sieve that slows larger molecules more.\n\n> [!answer]\n> DNA's charge-to-mass ratio is constant, so size and charge cancel; only a sieving matrix separates by size.",
+  "hint": "Constant charge-to-mass ratio.",
+  "explanation": "## Advanced explanation\n\nSize separation needs the **sieving effect** of agarose or polyacrylamide; in capillary electrophoresis a polymer solution plays the same role.\n\n## Simplified explanation\n\nWithout a gel, big and small DNA pieces move at the **same speed**.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Why is SYBR Green less toxic than ethidium bromide?",
+  "media": [],
+  "answer": "SYBR Green binds in the **minor groove** of DNA, whereas ethidium bromide **intercalates** between the stacked bases. Intercalation distorts the helix and is more likely to cause **mutations**.\n\n> [!answer]\n> SYBR Green binds the minor groove; EtBr intercalates and is more mutagenic.",
+  "hint": "Groove binding versus intercalation.",
+  "explanation": "## Advanced explanation\n\nIntercalating agents cause frameshift mutations during replication. SYBR dyes are also more sensitive and double as real-time PCR reporters, though they still need careful handling.\n\n## Simplified explanation\n\nEtBr slips **between** DNA bases and causes mutations; SYBR Green sits in a groove.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Electrophoresis",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) What is the function of DNA in the cell? (b) How do purines and pyrimidines differ in structure?",
+  "media": [],
+  "answer": "**(a)** DNA is the **store of genetic information**, passed to daughter cells by replication and expressed through transcription and translation.\n\n**(b)** **Purines** (adenine, guanine) have a **double ring**; **pyrimidines** (cytosine, thymine, uracil) have a **single ring**.\n\n> [!answer]\n> Storage of genetic information; purines double-ringed, pyrimidines single-ringed.",
+  "hint": "Purines are the bigger bases.",
+  "explanation": "## Advanced explanation\n\nEach base pair joins a purine to a pyrimidine (A–T with two hydrogen bonds, G–C with three), keeping the double helix a uniform width.\n\n## Simplified explanation\n\nDNA **stores the genetic instructions**; purines have **two rings**, pyrimidines **one**.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Nucleic Acid Structure",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Write the complementary sequence to the following strand:\n\n5′ AGGTCACGTCTAGCTAGCTAGA 3′",
+  "media": [],
+  "answer": "3′ **TCCAGTGCAGATCGATCGATCT** 5′\n\n> [!answer]\n> 3′-TCCAGTGCAGATCGATCGATCT-5′ (antiparallel; A pairs with T, G with C).",
+  "hint": "Pair the bases and reverse the direction.",
+  "explanation": "## Advanced explanation\n\nComplementary strands are **antiparallel**, so the partner of a strand written 5′→3′ runs 3′→5′. Written conventionally 5′→3′, it is the reverse complement.\n\n## Simplified explanation\n\nSwap each base for its partner and label the ends **3′ … 5′**.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Nucleic Acid Structure",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(a) Which carbons of the sugar take part in the phosphodiester bond? (b) Which carbon carries the nitrogenous base? (c) Why does DNA polymerase require a primer?",
+  "media": [],
+  "answer": "**(a)** The **3′ and 5′ carbons**.\n\n**(b)** The **1′ carbon**.\n\n**(c)** DNA polymerase can only add a nucleotide to an existing **free 3′-hydroxyl group**; it cannot start a chain on its own, so a primer supplies that 3′-OH.\n\n> [!answer]\n> 3′ and 5′; 1′; a pre-existing 3′-OH is needed.",
+  "hint": "Number the sugar carbons with primes.",
+  "explanation": "## Advanced explanation\n\nIn cells, primase lays down short RNA primers; in PCR, synthetic oligonucleotide primers define the region copied. Synthesis always runs **5′→3′**.\n\n## Simplified explanation\n\nThe backbone links the **3′ and 5′** carbons, the base sits on the **1′** carbon, and the enzyme needs a **3′ end** to build on.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Nucleic Acid Structure",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A circular plasmid was digested with HpaII, giving three bands: 100, 230 and 500 bp.\n\na. How many HpaII sites are present?\nb. What are the distances between the sites?\nc. What is the size of the plasmid?\n\nA second digest with BamHI gives two pieces, 80 bp and x bp.\n\nd. How many BamHI sites are there?\ne. What is x?\nf. How would you locate the BamHI sites relative to the HpaII sites?",
+  "media": [],
+  "answer": "a. **3** sites (a circle cut *n* times gives *n* fragments).\n\nb. **100, 230 and 500 bp** between neighbouring sites.\n\nc. 100 + 230 + 500 = **830 bp**.\n\nd. **2** BamHI sites.\n\ne. x = 830 − 80 = **750 bp**.\n\nf. Do a **double digest** (HpaII + BamHI together) and compare the fragments with the single digests.\n\n> [!answer]\n> 3 sites; 100, 230, 500 bp apart; 830 bp; 2 BamHI sites; x = 750 bp; double digest.",
+  "hint": "For a circle, number of fragments = number of cuts.",
+  "explanation": "## Advanced explanation\n\nA **linear** molecule cut *n* times gives *n* + 1 fragments; a **circular** one gives *n*, and the fragments add up to the plasmid size. A double digest shows which single-digest fragments get split, which locates each site.\n\n## Simplified explanation\n\nThree pieces from a circle means **three cuts**; add the pieces to get the plasmid size.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Restriction Mapping",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A plasmid has one EcoRI site into which you want to clone a blunt-ended fragment. What type of enzyme could turn the EcoRI sticky end into a blunt end?",
+  "media": [],
+  "answer": "Either an enzyme that **removes the single-stranded overhang** — a single-strand-specific nuclease (the course key gives a **5′→3′ single-strand exonuclease**; S1 or mung bean nuclease are the usual examples) — or a polymerase that **fills it in**, such as the **Klenow fragment** or T4 DNA polymerase with dNTPs.\n\n> [!answer]\n> A single-strand nuclease to trim the overhang (key: 5′→3′ single-strand exonuclease), or Klenow/T4 polymerase to fill it in.",
+  "hint": "EcoRI leaves a 5′ AATT overhang.",
+  "explanation": "## Advanced explanation\n\nEcoRI cuts G^AATTC, leaving **5′ overhangs**. Filling in keeps the overhang's bases; trimming removes them. Either gives blunt ends that can be ligated to a blunt insert.\n\n## Simplified explanation\n\nEither **trim off** the overhang or **fill it in** so the end is blunt.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Molecular Cloning",
+   "Molecular Diagnostics Objectives"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Plasmid pGEN101 (20 kb) has one EcoRI site and three BamHI sites. Going round the circle: EcoRI —(4 kb)— BamHI —(2 kb)— BamHI —(6 kb)— BamHI —(8 kb)— back to EcoRI.\n\nGive the number and lengths of the fragments from digestion with EcoRI, with BamHI, and with EcoRI + BamHI.",
+  "media": [],
+  "answer": "| Digest | Fragments |\n|---|---|\n| EcoRI | **1 fragment: 20 kb** (one cut opens the circle) |\n| BamHI | **3 fragments: 2, 6 and 12 kb** (12 = 8 + 4, the segment containing the EcoRI site) |\n| EcoRI + BamHI | **4 fragments: 2, 4, 6 and 8 kb** |\n\n> [!answer]\n> EcoRI: 20 kb; BamHI: 2, 6, 12 kb; both: 2, 4, 6, 8 kb.",
+  "hint": "One cut in a circle gives one linear piece.",
+  "explanation": "## Advanced explanation\n\nThe BamHI fragment spanning the EcoRI site (4 + 8 = 12 kb) is the one that splits in the double digest. Each digest's fragments must add up to 20 kb.\n\n## Simplified explanation\n\nOne cut gives one 20 kb piece; three BamHI cuts give three pieces; all four cuts give four pieces.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Restriction Mapping",
+   "Restriction Mapping Exercise"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Two students digested a new plasmid, pBLA230, and obtained:\n\n| Digest | Fragments |\n|---|---|\n| HpaI | 26 kb |\n| HindIII | 13, 6, 4, 3 kb |\n| HpaI + HindIII | 7, 6 (×2), 4, 3 kb |\n\nConstruct a restriction map of pBLA230.",
+  "media": [],
+  "answer": "- **HpaI** gives one 26 kb fragment, so the plasmid is **26 kb** with **one HpaI site**.\n- **HindIII** gives four fragments, so there are **four HindIII sites** bounding 13, 6, 4 and 3 kb segments.\n- In the double digest the **13 kb** fragment is replaced by **7 + 6 kb**, so the **HpaI site lies inside the 13 kb HindIII fragment, 7 kb from one HindIII site and 6 kb from the other**.\n\nMap round the circle: HindIII —(7)— **HpaI** —(6)— HindIII —(6)— HindIII —(4)— HindIII —(3)— back to start. (The order of the 6, 4 and 3 kb segments cannot be fixed from these data alone; the key draws them in that order.)\n\n> [!answer]\n> 26 kb plasmid; one HpaI site inside the 13 kb HindIII fragment, splitting it 7 + 6 kb; four HindIII sites bounding 13, 6, 4 and 3 kb segments.",
+  "hint": "Which HindIII fragment disappears in the double digest?",
+  "explanation": "## Advanced explanation\n\nA fragment present in a single digest but missing from the double digest contains a site for the other enzyme, and the new fragments add up to it (7 + 6 = 13). Fragments not cut by the second enzyme need further digests to be ordered.\n\n## Simplified explanation\n\nThe 13 kb piece is cut into **7 + 6**, so the HpaI site is inside it.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Restriction Mapping",
+   "Restriction Mapping Exercise"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What makes the following enzymes significant in gene cloning?\n\n1. Phosphatases\n2. Restriction endonucleases\n3. Polymerases",
+  "media": [],
+  "answer": "1. **Phosphatases** (e.g. alkaline phosphatase) remove 5′-phosphates from the cut vector so it **cannot re-ligate to itself**, which favours insertion of the foreign DNA (they are also used before 5′ end-labelling of probes).\n2. **Restriction endonucleases** **cut DNA at specific recognition sequences**, opening the vector and producing insert fragments with compatible ends.\n3. **Polymerases** **synthesise DNA**: amplifying inserts by PCR, filling in or blunting ends (Klenow), making cDNA (reverse transcriptase) and labelling probes.\n\n> [!answer]\n> Phosphatases stop vector self-ligation; restriction enzymes cut at specific sites; polymerases copy, fill in or label DNA.",
+  "hint": "Cut, prevent self-closure, copy.",
+  "explanation": "## Advanced explanation\n\nA typical cloning workflow: cut vector and insert with the same restriction enzyme(s), dephosphorylate the vector, ligate with DNA ligase, transform competent cells, then select and screen recombinants (antibiotic resistance, blue/white screening).\n\n## Simplified explanation\n\nRestriction enzymes **cut**, phosphatases **stop the vector closing on itself**, and polymerases **copy** DNA.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Molecular Cloning",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two** limitations of the conventional PCR assay.",
+  "media": [],
+  "answer": "Any two:\n\n1. **Not quantitative** — end-point detection only shows presence or absence.\n2. **Post-PCR handling** (gel electrophoresis) is laborious and opens tubes, raising the risk of **amplicon contamination**.\n3. Product identity is shown only by **size**, so nonspecific products of similar size can mislead (low specificity of detection).\n4. Slower turnaround than real-time PCR, and gel stains such as ethidium bromide are hazardous.\n5. Detects DNA from dead organisms, and is affected by **inhibitors** in the specimen.\n\n> [!answer]\n> e.g. it is not quantitative, and post-amplification gel analysis is laborious and risks contamination.",
+  "hint": "Compare with real-time PCR.",
+  "explanation": "## Advanced explanation\n\nReal-time PCR addresses most of these: closed-tube detection, quantification by Ct value, and probe-based confirmation of product identity.\n\n## Simplified explanation\n\nOrdinary PCR only says **yes or no**, and checking the product on a gel is slow and risks contamination.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "PCR",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **one** main difference between the cleavage-based (hydrolysis, e.g. TaqMan) assay and the molecular beacon assay in terms of detection of amplification.",
+  "media": [],
+  "answer": "In the **cleavage-based (TaqMan) assay**, the probe is **destroyed**: the 5′→3′ exonuclease activity of Taq polymerase cleaves the bound probe during extension, separating reporter from quencher, so fluorescence accumulates irreversibly.\n\nIn the **molecular beacon assay**, the probe is **not cleaved**: the hairpin-shaped beacon opens when it hybridises to the target, separating the reporter from the quencher; fluorescence is read during annealing and is **reversible** (the beacon closes again when free).\n\n> [!answer]\n> TaqMan signal depends on probe hydrolysis by the polymerase's exonuclease; molecular beacon signal comes from a conformational change on hybridisation, with no cleavage.",
+  "hint": "Is the probe destroyed?",
+  "explanation": "## Advanced explanation\n\nBoth use a fluorophore–quencher pair and FRET-type quenching. Because beacons remain intact they can also be used in melt-curve analysis; hydrolysis probes give cumulative signal.\n\n## Simplified explanation\n\nTaqMan probes are **cut up** to give light; molecular beacons just **open up** when they find the target.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Real-time PCR",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** requirements for each of the following:\n\n1. Nucleic acid hybridization\n2. Molecular cloning",
+  "media": [],
+  "answer": "**1. Nucleic acid hybridization**\n- A **labelled probe** complementary to the target sequence.\n- **Single-stranded (denatured) target** nucleic acid, often immobilised on a membrane.\n- Controlled **stringency** — appropriate temperature, salt concentration and formamide — plus blocking agents and a detection system.\n\n**2. Molecular cloning**\n- The **DNA insert** (gene of interest) and a **cloning vector** (plasmid, phage, cosmid).\n- **Enzymes**: restriction endonucleases and DNA ligase (± phosphatase, polymerase).\n- A **host cell** (e.g. competent *E. coli*) with a means of introducing DNA (transformation) and a **selection/screening** system (antibiotic resistance, blue/white).\n\n> [!answer]\n> Hybridization: labelled probe, denatured target, suitable stringency conditions. Cloning: insert plus vector, restriction enzymes and ligase, host cells with selection.",
+  "hint": "Probe, target, conditions; insert, vector, host.",
+  "explanation": "## Advanced explanation\n\nHybridization specificity depends on stringency: higher temperature and lower salt require more perfect matching. Cloning relies on compatible ends between vector and insert and on a selectable marker to recover recombinant clones.\n\n## Simplified explanation\n\nHybridization needs a **probe, a single-stranded target and the right conditions**; cloning needs **DNA to clone, a vector, enzymes and a host cell**.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Hybridization",
+   "Molecular Cloning",
+   "2019/2020 End of First Semester Exam",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **four** instances that necessitate the use of molecular methods for the diagnosis of infectious diseases.",
+  "media": [],
+  "answer": "Any four:\n\n1. The organism **cannot be cultured** or grows very slowly (e.g. *M. tuberculosis*, *Treponema*, many viruses).\n2. **Rapid diagnosis** is needed for treatment or infection control (e.g. meningitis, sepsis, MRSA).\n3. Very **low numbers** of organisms or the patient has already received antibiotics.\n4. Culture is **hazardous** to laboratory staff (e.g. highly pathogenic organisms).\n5. **Quantification** of viral load to monitor therapy (HIV, HBV, HCV).\n6. Detection of **antimicrobial resistance genes** (e.g. *mecA*, rifampicin resistance in TB).\n7. **Genotyping/typing** for epidemiology and outbreak investigation.\n8. Serology is unhelpful — window period, immunosuppression, or neonates with maternal antibody (e.g. infant HIV diagnosis).\n\n> [!answer]\n> e.g. unculturable or slow-growing organisms, need for rapid results, viral load monitoring, detection of resistance genes, typing for epidemiology, and when serology fails (neonates, window period).",
+  "hint": "When does culture or serology fail?",
+  "explanation": "## Advanced explanation\n\nMolecular tests complement rather than replace culture; culture is still needed for full susceptibility testing and strain isolation, and nucleic acid detection cannot distinguish living from dead organisms.\n\n## Simplified explanation\n\nUse molecular tests when germs are **hard or slow to grow**, when you need **fast** or **quantitative** answers, or to detect **drug resistance**.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Molecular Diagnosis of Infection",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** ways by which DNA probes for hybridization reactions can be created.",
+  "media": [],
+  "answer": "Any three:\n\n1. **Cloning** a DNA fragment into a vector and purifying it (cloned/genomic probes).\n2. **PCR amplification** of the target sequence, incorporating a label.\n3. **Chemical (oligonucleotide) synthesis** of short probes on a DNA synthesiser.\n4. **Reverse transcription** of mRNA to make cDNA probes.\n5. ***In vitro* transcription** to make RNA probes (riboprobes).\n\nThey are then labelled by nick translation, random priming or end-labelling (radioactive or non-radioactive, e.g. biotin, digoxigenin, fluorescein).\n\n> [!answer]\n> By cloning, by PCR, and by chemical synthesis of oligonucleotides (also cDNA and riboprobes).",
+  "hint": "Cloned, amplified or synthesised.",
+  "explanation": "## Advanced explanation\n\nProbe length affects use: oligonucleotide probes (15–50 nt) give high specificity and can detect point mutations; long cloned probes give strong signals for Southern or Northern blots.\n\n## Simplified explanation\n\nProbes can be **cloned**, **made by PCR** or **built chemically**.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Hybridization",
+   "2019/2020 End of First Semester Exam",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **one** application each of the following:\n\n1. Western blot\n2. Southern blot\n3. Northern blot",
+  "media": [],
+  "answer": "| Technique | Detects | Example application |\n|---|---|---|\n| **Western blot** | **Protein** (with antibodies) | Confirmation of HIV antibodies (reactivity to viral proteins); detection of a specific protein's expression |\n| **Southern blot** | **DNA** | Detection of gene rearrangements or deletions; RFLP analysis; DNA fingerprinting |\n| **Northern blot** | **RNA** | Measuring **gene expression** (mRNA size and amount) |\n\n> [!answer]\n> Western — protein (e.g. HIV confirmation); Southern — DNA (e.g. RFLP, gene rearrangement); Northern — RNA (gene expression).",
+  "hint": "SNoW DRoP: Southern–DNA, Northern–RNA, Western–Protein.",
+  "explanation": "## Advanced explanation\n\nAll three involve separation by electrophoresis, transfer to a membrane, and detection with a specific probe (labelled nucleic acid for Southern/Northern, antibody for Western).\n\n## Simplified explanation\n\n**Southern = DNA, Northern = RNA, Western = protein.**",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Blotting Techniques",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **two** differences between the **Maxam–Gilbert** and the **Sanger** methods of DNA sequencing.",
+  "media": [],
+  "answer": "| | Maxam–Gilbert | Sanger |\n|---|---|---|\n| Principle | **Chemical cleavage** of end-labelled DNA at specific bases | **Enzymatic chain termination** during DNA synthesis |\n| Key reagents | Base-specific chemicals (dimethyl sulphate, hydrazine, formic acid, piperidine) | DNA polymerase, primer, dNTPs and **dideoxynucleotides (ddNTPs)** |\n| Template | Double-stranded DNA used directly | Single-stranded template with a primer |\n| Labelling | Radioactive end-label on the DNA | Labelled primer or (now) fluorescent ddNTPs |\n| Safety/automation | Hazardous chemicals; hard to automate; largely obsolete | Safer; easily automated (capillary sequencing) |\n\n> [!answer]\n> Maxam–Gilbert uses chemical cleavage of end-labelled DNA; Sanger uses polymerase synthesis with ddNTP chain terminators — Sanger is safer and automatable.",
+  "hint": "Chemical breakage versus chain termination.",
+  "explanation": "## Advanced explanation\n\nSanger dideoxy sequencing remains the gold standard for confirming variants and sequencing single amplicons; massively parallel (next-generation) sequencing has replaced it for large-scale work.\n\n## Simplified explanation\n\nMaxam–Gilbert **breaks** DNA with chemicals; Sanger **stops** copying with special ddNTP letters.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "DNA Sequencing",
+   "2019/2020 End of First Semester Exam",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Shown is the recognition sequence of the restriction enzyme BamHI, which cleaves after the first G:\n\n5′ G^GATCC 3′\n3′ CCTAG^G 5′\n\nGiven the DNA:\n\n5′ ATTGAGGATCCGTAATGTGTCCTGATCACGCTCCACG 3′\n3′ TAACTCCTAGGCATTACACAGGACTAGTGCGAGGTGC 5′\n\ni. If the DNA were cut with BamHI, how many fragments would you expect?\nii. Write out the sequences of the double-stranded fragments.",
+  "media": [],
+  "answer": "**i.** There is **one** GGATCC site, so **two fragments**.\n\n**ii.**\n\nFragment 1:\n\n```\n5' ATTGAG          3'\n3' TAACTCCTAG      5'\n```\n\nFragment 2:\n\n```\n5' GATCCGTAATGTGTCCTGATCACGCTCCACG 3'\n3'     GCATTACACAGGACTAGTGCGAGGTGC 5'\n```\n\nEach fragment carries a **4-base 5′ overhang (GATC)** — sticky ends.\n\n> [!answer]\n> Two fragments: 5′-ATTGAG-3′/3′-TAACTCCTAG-5′ and 5′-GATCCGTAATG…CCACG-3′/3′-GCATTAC…GGTGC-5′, each with a 5′ GATC overhang.",
+  "hint": "Find GGATCC in the top strand.",
+  "explanation": "## Advanced explanation\n\nBamHI's palindromic site reads GGATCC on both strands 5′→3′, and it cuts between the two Gs on each strand, leaving staggered **5′-GATC** overhangs. The TGATCA further along is a BclI site, not BamHI, and is not cut.\n\n## Simplified explanation\n\nOne BamHI site means **two pieces**, each with a sticky **GATC** end.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Restriction Enzymes",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What is the role of each of the following in DNA extraction?\n\n1. Chloroform\n2. Zymolyase\n3. Absolute ethanol\n4. Proteinase K",
+  "media": [],
+  "answer": "1. **Chloroform** — organic extraction: denatures proteins and dissolves lipids, separating them from the aqueous DNA phase (with phenol); also removes residual phenol and aids phase separation.\n2. **Zymolyase** — an enzyme mixture that **digests the yeast/fungal cell wall** (β-1,3-glucans) to form spheroplasts, allowing lysis.\n3. **Absolute ethanol** — **precipitates DNA** from the aqueous phase (in the presence of salt), so it can be pelleted, washed and concentrated.\n4. **Proteinase K** — a broad-spectrum protease that **digests proteins**, including histones and nucleases, releasing and protecting the DNA.\n\n> [!answer]\n> Chloroform removes protein/lipid; zymolyase breaks yeast cell walls; ethanol precipitates DNA; proteinase K digests proteins and nucleases.",
+  "hint": "Break open, remove protein, recover DNA.",
+  "explanation": "## Advanced explanation\n\nGeneral extraction steps: **lysis** (detergent, enzymes, mechanical), **removal of proteins** (proteinase K, phenol–chloroform or salting out), and **recovery of DNA** (ethanol/isopropanol precipitation or silica binding), followed by quantitation and purity checks.\n\n## Simplified explanation\n\nZymolyase **opens** yeast cells, proteinase K and chloroform **remove protein**, and ethanol **brings the DNA out** of solution.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Nucleic Acid Extraction",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Differentiate between the following:\n\n1. Primer and probe\n2. Plasmid and cosmid\n3. Multiplex PCR and nested PCR",
+  "media": [],
+  "answer": "1. **Primer** — a short oligonucleotide that anneals to the template and provides a **3′-OH for polymerase extension** (it is incorporated into the product). **Probe** — a labelled nucleic acid that **hybridises to a target to detect it**; it is not extended (often 3′-blocked).\n2. **Plasmid** — a small, naturally occurring circular extrachromosomal DNA used as a vector, accepting inserts up to about **10 kb**. **Cosmid** — a hybrid vector: a plasmid carrying phage λ **cos sites**, packaged into phage heads, accepting **~35–45 kb** inserts.\n3. **Multiplex PCR** — **several primer pairs in one reaction** amplify multiple targets at once. **Nested PCR** — **two successive rounds** of PCR, the second with primers inside the first product, increasing sensitivity and specificity for a single target.\n\n> [!answer]\n> Primer is extended, probe detects; plasmid small inserts vs cosmid ~45 kb with cos sites; multiplex = many targets at once vs nested = two rounds with inner primers.",
+  "hint": "Extend vs detect; insert size; many targets vs two rounds.",
+  "explanation": "## Advanced explanation\n\nNested PCR's extra handling between rounds increases contamination risk. Multiplex PCR requires primers with similar annealing temperatures and products distinguishable by size or probe.\n\n## Simplified explanation\n\nA primer is **copied from**, a probe **finds**; cosmids carry **bigger** inserts than plasmids; multiplex finds **many targets at once**, nested does **two rounds** for one target.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "PCR",
+   "Molecular Cloning",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "(i) Outline the replication strategies of **lambda bacteriophage** and **M13 bacteriophage**. (ii) What makes these two bacteriophages ideal for molecular cloning?",
+  "media": [],
+  "answer": "**(i) Lambda (λ)** — a temperate dsDNA phage. After injection its linear genome circularises via the **cos** ends. It then either enters the **lytic cycle** (rolling-circle replication, production of concatemers that are cut at cos sites and packaged into heads, then cell lysis) or the **lysogenic cycle** (integration into the *E. coli* chromosome as a prophage, replicating with it until induced).\n\n**M13** — a filamentous **single-stranded DNA** phage that infects F⁺ *E. coli* via the sex pilus. The ssDNA is converted to a double-stranded **replicative form (RF)**, which replicates; single strands are then produced by rolling-circle replication and **extruded through the membrane without lysing the cell**, so the host keeps growing and secreting phage.\n\n**(ii) Why they are good cloning vectors:**\n- **λ**: the central region of the genome is not needed for lytic growth and can be replaced by foreign DNA (up to ~20 kb); *in vitro* packaging is very efficient; size selection by packaging favours recombinants.\n- **M13**: its RF can be handled like a plasmid (cut and ligated), while the secreted phage provides **single-stranded DNA** — ideal for **Sanger sequencing**, probe production and site-directed mutagenesis; there is no strict packaging size limit (longer inserts give longer filaments).\n\n> [!answer]\n> λ: lytic replication with cos-site packaging, or lysogeny by integration; M13: ssDNA → replicative form → ss progeny extruded without lysis. λ accepts large inserts and packages efficiently; M13 yields single-stranded DNA for sequencing and mutagenesis.",
+  "hint": "One is a lytic/lysogenic dsDNA phage, the other a non-lytic ssDNA phage.",
+  "explanation": "## Advanced explanation\n\nCosmids borrow λ's cos sites so that large inserts can be packaged into λ heads. M13mp vectors carry the lacZα fragment and a polylinker, allowing blue/white screening of recombinant plaques.\n\n## Simplified explanation\n\nLambda either kills the cell or hides in its chromosome and can carry big inserts; M13 makes **single-stranded DNA** and leaks out without killing the cell, which is useful for sequencing.",
+  "difficulty": "hard",
+  "marks": 8,
+  "tags": [
+   "Cloning Vectors",
+   "2019/2020 End of First Semester Exam",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** features common to (i) cosmids and (ii) bacteriophage cloning vectors.",
+  "media": [],
+  "answer": "Features shared by cosmids and phage vectors (any three):\n\n1. Both use **λ cos sites** and are **packaged *in vitro* into λ phage heads**, giving very efficient introduction into *E. coli*.\n2. Both accept **large DNA inserts** (λ replacement vectors ~20 kb; cosmids ~35–45 kb) — useful for **genomic libraries**.\n3. Packaging has a **size requirement** (~37–52 kb between cos sites), which **selects for recombinants** carrying inserts.\n4. Both contain **restriction sites** for cloning and an **origin of replication**.\n\n(Differences: a cosmid also carries a plasmid origin and an **antibiotic-resistance marker** and replicates as a plasmid, giving colonies; a phage vector gives plaques.)\n\n> [!answer]\n> Cos sites with in-vitro packaging into λ heads, large insert capacity for genomic libraries, size selection favouring recombinants (plus cloning sites and an origin).",
+  "hint": "Cosmids borrow λ's cos sites.",
+  "explanation": "## Advanced explanation\n\nCosmid = **cos** sites + plas**mid**. After packaging and infection the cosmid circularises at its cos ends and then propagates as a large plasmid under antibiotic selection.\n\n## Simplified explanation\n\nBoth use **λ packaging** and carry **large pieces of DNA**.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Cloning Vectors",
+   "2019/2020 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **three** factors that determine the choice of a DNA extraction method.",
+  "media": [],
+  "answer": "Any three:\n\n1. **Type of specimen** (blood, tissue, paraffin block, stool, sputum, plant, bacteria, yeast) and its cell wall or inhibitors.\n2. **Amount of starting material** and expected yield.\n3. **Required purity and quality** for the downstream application (PCR, sequencing, Southern blot, long fragments).\n4. **Type of nucleic acid** needed (genomic DNA, plasmid, RNA).\n5. **Speed, throughput and automation**, cost, and safety (avoiding phenol and chloroform).\n\n> [!answer]\n> Specimen type, quantity of starting material, and the purity/quality required by the downstream test (also nucleic-acid type, throughput, cost and safety).",
+  "hint": "What sample, how much, and for what test?",
+  "explanation": "## Advanced explanation\n\nFor example, organic (phenol–chloroform) extraction gives high-molecular-weight DNA for Southern blotting; silica columns or magnetic beads are fast and automatable for routine PCR; boiling lysates may suffice for simple bacterial PCR.\n\n## Simplified explanation\n\nChoose the method according to the **sample**, **how much** there is, and **what test** the DNA is for.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Nucleic Acid Extraction",
+   "2018/2019 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Phosphatases catalyse the removal of 5′-phosphate residues from DNA. Give **two** applications of this enzyme in molecular biology.",
+  "media": [],
+  "answer": "1. **Dephosphorylation of cut vectors** to prevent self-ligation (re-circularisation), increasing the proportion of recombinant clones.\n2. **Preparing DNA or RNA for 5′ end-labelling** with polynucleotide kinase and labelled ATP (removing existing phosphates first).\n3. (Also: removing dNTPs and primers after PCR before sequencing, together with exonuclease I, and alkaline phosphatase as a reporter enzyme in non-radioactive detection.)\n\n> [!answer]\n> Preventing vector self-ligation in cloning, and preparing nucleic acids for 5′ end-labelling.",
+  "hint": "Ligase needs a 5′ phosphate.",
+  "explanation": "## Advanced explanation\n\nDNA ligase joins a 5′-phosphate to a 3′-OH. Removing the vector's 5′-phosphates means it cannot close on itself, but it can still be ligated to an insert that carries its own phosphates.\n\n## Simplified explanation\n\nPhosphatase stops the vector **closing on itself** and prepares DNA ends for **labelling**.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Molecular Cloning",
+   "2018/2019 End of First Semester Exam"
+  ]
+ }
+]

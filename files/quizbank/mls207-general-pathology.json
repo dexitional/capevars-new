@@ -1,0 +1,2030 @@
+[
+ {
+  "type": "choice",
+  "body": "Which of these is TRUE concerning hypertrophy?",
+  "media": [],
+  "options": [
+   {
+    "text": "New cells are produced",
+    "hint": "That is hyperplasia; hypertrophy enlarges existing cells."
+   },
+   {
+    "text": "Occurs predominantly in epithelia",
+    "hint": "Classic in muscle, not epithelia."
+   },
+   {
+    "text": "It may occur concurrently with hyperplasia",
+    "hint": "Correct. E.g. the pregnant uterus shows both."
+   },
+   {
+    "text": "Occurs only in tissues capable of mitotic division",
+    "hint": "It is the main adaptation of non-dividing cells such as cardiac muscle."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Bigger cells, not more cells.",
+  "explanation": "## Advanced explanation\n\n**Hypertrophy** is an increase in **cell size** (more structural proteins and organelles). It is the only growth response of cells that cannot divide (cardiac and skeletal muscle), but in tissues able to divide it often occurs **together with hyperplasia** (e.g. uterine smooth muscle in pregnancy).\n\n## Simplified explanation\n\nHypertrophy = bigger cells; it can happen alongside hyperplasia.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cellular Adaptation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT associated with atrophy?",
+  "media": [],
+  "options": [
+   {
+    "text": "Alzheimer's disease",
+    "hint": "Brain atrophy is typical."
+   },
+   {
+    "text": "Decreased workload",
+    "hint": "Disuse atrophy."
+   },
+   {
+    "text": "Increased protein synthesis",
+    "hint": "Correct. Atrophy involves decreased synthesis and increased degradation of proteins."
+   },
+   {
+    "text": "Chronic malnutrition of marasmus",
+    "hint": "Starvation causes atrophy."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Atrophy = shrinkage.",
+  "explanation": "## Advanced explanation\n\n**Atrophy** results from decreased workload, denervation, reduced blood supply, poor nutrition, loss of endocrine stimulation, ageing and pressure. Mechanistically there is **reduced protein synthesis and increased degradation** (ubiquitin–proteasome pathway, autophagy).\n\n## Simplified explanation\n\nShrinking cells make **less** protein, not more.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cellular Adaptation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is a consequence of decreased cellular ATP?",
+  "media": [],
+  "options": [
+   {
+    "text": "Anaerobic glycolysis",
+    "hint": "Correct. Cells switch to anaerobic glycolysis."
+   },
+   {
+    "text": "Increase in intracellular pH",
+    "hint": "Lactic acid lowers the pH."
+   },
+   {
+    "text": "There is influx of potassium into the cell",
+    "hint": "Potassium leaks out of the cell."
+   },
+   {
+    "text": "Cellular swelling is associated with efflux of sodium out of the cell",
+    "hint": "Sodium enters the cell, drawing water in."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Think about the Na⁺/K⁺ pump and glycolysis.",
+  "explanation": "## Advanced explanation\n\nATP depletion causes failure of the **Na⁺/K⁺-ATPase** → Na⁺ and water **influx** and K⁺ efflux → cell swelling; increased **anaerobic glycolysis** → glycogen depletion, lactic acid and a **fall in pH**; detachment of ribosomes; Ca²⁺ influx.\n\n## Simplified explanation\n\nLow ATP → the cell switches to **anaerobic glycolysis**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Injury",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is INCORRECT concerning cellular injury and cell death?",
+  "media": [],
+  "options": [
+   {
+    "text": "Gangrenous necrosis is common in the limbs",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "Fatty change exemplifies a type of reversible injury",
+    "hint": "Correct statement."
+   },
+   {
+    "text": "In coagulative necrosis there is complete loss of tissue architecture",
+    "hint": "Correct. Incorrect: coagulative necrosis preserves the tissue outline for days."
+   },
+   {
+    "text": "Myelin figures are amorphous phospholipid masses derived from cellular membrane",
+    "hint": "Correct statement."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Ghost outlines.",
+  "explanation": "## Advanced explanation\n\nIn **coagulative necrosis** (ischaemic infarcts of solid organs except brain), proteins are denatured so the **architecture is preserved** for some days ('ghost cells'). **Liquefactive necrosis** destroys architecture.\n\n## Simplified explanation\n\nCoagulative necrosis **keeps** the tissue outline.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Necrosis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT true concerning oxygen-derived free radicals? They ...",
+  "media": [],
+  "options": [
+   {
+    "text": "are important in phagocytosis",
+    "hint": "True: used by phagocytes to kill microbes."
+   },
+   {
+    "text": "have paired number of electrons",
+    "hint": "Correct. False: free radicals have an unpaired electron."
+   },
+   {
+    "text": "may be initiated by radiolysis of water",
+    "hint": "True: ionising radiation produces OH•."
+   },
+   {
+    "text": "may be terminated by anti-oxidants which include alpha-tocopherol",
+    "hint": "True: vitamin E is an antioxidant."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Definition of a free radical.",
+  "explanation": "## Advanced explanation\n\nA **free radical** has a single **unpaired electron** in an outer orbital, making it highly reactive. ROS arise from mitochondrial respiration, radiation, transition metals (Fenton reaction) and the phagocyte oxidative burst; they are removed by antioxidants (vitamins E and C, glutathione) and enzymes (SOD, catalase, glutathione peroxidase).\n\n## Simplified explanation\n\nFree radicals have an **unpaired** electron.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Injury",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT true concerning apoptosis?",
+  "media": [],
+  "options": [
+   {
+    "text": "It is a passive process",
+    "hint": "Correct. False: apoptosis is an active, programmed process."
+   },
+   {
+    "text": "It is energy-dependent",
+    "hint": "True: requires ATP."
+   },
+   {
+    "text": "Cellular membrane remains intact",
+    "hint": "True: no leakage, so no inflammation."
+   },
+   {
+    "text": "It can be initiated by mitochondrial stress",
+    "hint": "True: intrinsic (mitochondrial) pathway."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Programmed cell death.",
+  "explanation": "## Advanced explanation\n\n**Apoptosis** is an **active, energy-dependent**, regulated pathway (intrinsic/mitochondrial and extrinsic/death-receptor pathways executed by caspases). The plasma membrane stays intact and apoptotic bodies are phagocytosed **without inflammation**.\n\n## Simplified explanation\n\nApoptosis is **active**, not passive.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Apoptosis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT an adaptive response of the cell?",
+  "media": [],
+  "options": [
+   {
+    "text": "Metaplasia",
+    "hint": "Adaptive."
+   },
+   {
+    "text": "Dysplasia",
+    "hint": "Correct. Disordered, often pre-neoplastic growth – not an adaptation."
+   },
+   {
+    "text": "Hyperplasia",
+    "hint": "Adaptive."
+   },
+   {
+    "text": "Atrophy",
+    "hint": "Adaptive."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Which is pre-cancerous?",
+  "explanation": "## Advanced explanation\n\nCellular adaptations are **hypertrophy, hyperplasia, atrophy and metaplasia**. **Dysplasia** is disordered growth with loss of uniformity and architectural orientation, a precursor of malignancy.\n\n## Simplified explanation\n\n**Dysplasia** is not an adaptation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cellular Adaptation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is an opsonin?",
+  "media": [],
+  "options": [
+   {
+    "text": "C3b",
+    "hint": "Correct. C3b coats microbes for phagocytosis."
+   },
+   {
+    "text": "IgM",
+    "hint": "IgM activates complement but phagocytes lack IgM Fc receptors."
+   },
+   {
+    "text": "C5a",
+    "hint": "Chemotactic anaphylatoxin."
+   },
+   {
+    "text": "C3a",
+    "hint": "Anaphylatoxin."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Major opsonins: IgG and C3b.",
+  "explanation": "## Advanced explanation\n\n**Opsonins** coat particles and are recognised by phagocyte receptors: **IgG** (Fc receptors), **C3b/iC3b** (complement receptors) and collectins. C3a and C5a are anaphylatoxins.\n\n## Simplified explanation\n\n**C3b** is the main complement opsonin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is a pro-inflammatory cytokine?",
+  "media": [],
+  "options": [
+   {
+    "text": "Lipoxin A4",
+    "hint": "Anti-inflammatory lipid mediator."
+   },
+   {
+    "text": "Prostacyclin",
+    "hint": "A prostaglandin (lipid), not a cytokine."
+   },
+   {
+    "text": "Leukotriene D",
+    "hint": "A lipid mediator, not a cytokine."
+   },
+   {
+    "text": "Epidermal growth factor",
+    "hint": "A growth factor."
+   },
+   {
+    "text": "Tumour necrosis factor",
+    "hint": "Correct. TNF is a major pro-inflammatory cytokine."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Cytokines are proteins.",
+  "explanation": "## Advanced explanation\n\n**TNF** and **IL-1** are the principal pro-inflammatory **cytokines** (endothelial activation, fever, acute-phase response). Prostacyclin and leukotrienes are eicosanoids; lipoxins are anti-inflammatory; EGF is a growth factor.\n\n## Simplified explanation\n\n**TNF** is a pro-inflammatory cytokine.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "An example of an anaphylatoxin is....",
+  "media": [],
+  "options": [
+   {
+    "text": "C5a",
+    "hint": "Correct. C3a, C4a and C5a are anaphylatoxins."
+   },
+   {
+    "text": "C5b-9",
+    "hint": "Membrane attack complex."
+   },
+   {
+    "text": "Interleukin-6",
+    "hint": "A cytokine."
+   },
+   {
+    "text": "Interleukin-1",
+    "hint": "A cytokine."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Histamine release from mast cells.",
+  "explanation": "## Advanced explanation\n\n**Anaphylatoxins** (**C3a, C5a**, C4a) stimulate mast cells to release histamine, increasing vascular permeability; C5a is also strongly chemotactic. C5b-9 forms the membrane attack complex.\n\n## Simplified explanation\n\n**C5a** is an anaphylatoxin.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following diseases is characterised by formation of granuloma?",
+  "media": [],
+  "options": [
+   {
+    "text": "Loiasis",
+    "hint": "Not typical."
+   },
+   {
+    "text": "Amoebiasis",
+    "hint": "Flask ulcers, not granulomas."
+   },
+   {
+    "text": "Wuchereriosis",
+    "hint": "Lymphatic filariasis – lymphatic inflammation and fibrosis."
+   },
+   {
+    "text": "Schistosomiasis",
+    "hint": "Correct. Schistosome eggs provoke granulomas."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Eggs in tissue.",
+  "explanation": "## Advanced explanation\n\n**Schistosomiasis** eggs trapped in the liver, bladder and gut provoke **granulomatous inflammation** with eosinophils and fibrosis (pipe-stem fibrosis). Other granulomatous diseases: TB, leprosy, syphilis, fungal infections, sarcoidosis, foreign bodies.\n\n## Simplified explanation\n\n**Schistosome** eggs cause granulomas.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Chronic Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is important in the oxygen-dependent mechanism of killing by phagocytes?",
+  "media": [],
+  "options": [
+   {
+    "text": "Lysozyme",
+    "hint": "Oxygen-independent."
+   },
+   {
+    "text": "Lactoferrin",
+    "hint": "Oxygen-independent."
+   },
+   {
+    "text": "Myeloperoxidase",
+    "hint": "Correct. MPO converts H₂O₂ + Cl⁻ to hypochlorous acid."
+   },
+   {
+    "text": "Major basic protein",
+    "hint": "Eosinophil granule protein, oxygen-independent."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "H₂O₂–MPO–halide system.",
+  "explanation": "## Advanced explanation\n\nThe **oxygen-dependent** (respiratory burst) system: NADPH oxidase makes superoxide → H₂O₂; **myeloperoxidase** converts H₂O₂ and Cl⁻ to **hypochlorous acid (HOCl)**, the most potent bactericide. Oxygen-independent mechanisms include lysozyme, lactoferrin, defensins and major basic protein.\n\n## Simplified explanation\n\n**Myeloperoxidase** belongs to the oxygen-dependent system.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT true of granulomatous inflammation?",
+  "media": [],
+  "options": [
+   {
+    "text": "It is exemplified by the disease leprosy",
+    "hint": "True."
+   },
+   {
+    "text": "It is a cell-mediated immunological reaction",
+    "hint": "True (type IV hypersensitivity)."
+   },
+   {
+    "text": "Interferon-gamma is important in the pathogenesis",
+    "hint": "True: IFN-γ activates macrophages into epithelioid cells."
+   },
+   {
+    "text": "It is an immune complex hypersensitivity reaction",
+    "hint": "Correct. False: immune complexes cause type III reactions."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Type IV hypersensitivity.",
+  "explanation": "## Advanced explanation\n\nGranulomatous inflammation is a **T-cell–mediated (type IV) reaction**: Th1 cells secrete **IFN-γ**, activating macrophages into epithelioid and giant cells (TB, leprosy). Immune-complex (type III) reactions cause vasculitis and glomerulonephritis.\n\n## Simplified explanation\n\nGranulomas are cell-mediated, **not** immune-complex reactions.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chronic Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is important in fibrosis?",
+  "media": [],
+  "options": [
+   {
+    "text": "Serotonin",
+    "hint": "Vasoactive amine."
+   },
+   {
+    "text": "Histamine",
+    "hint": "Vasoactive amine."
+   },
+   {
+    "text": "Thromboxane A2",
+    "hint": "Vasoconstrictor and platelet aggregator."
+   },
+   {
+    "text": "Hepatic stellate cells",
+    "hint": "Correct. Activated stellate (Ito) cells deposit collagen in liver fibrosis."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Liver cirrhosis.",
+  "explanation": "## Advanced explanation\n\nIn the liver, **hepatic stellate (Ito) cells** are activated (by TGF-β, PDGF) into myofibroblast-like cells that deposit collagen, causing **fibrosis/cirrhosis**. The other options are acute vascular mediators.\n\n## Simplified explanation\n\n**Stellate cells** make scar tissue in the liver.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is NOT important in cutaneous wound healing?",
+  "media": [],
+  "options": [
+   {
+    "text": "Properdin",
+    "hint": "Correct. Properdin stabilises the alternative-pathway C3 convertase."
+   },
+   {
+    "text": "Epidermal growth factor",
+    "hint": "Stimulates keratinocyte migration and proliferation."
+   },
+   {
+    "text": "Fibroblast growth factor",
+    "hint": "Angiogenesis and fibroblast proliferation."
+   },
+   {
+    "text": "Platelet-derived growth factor",
+    "hint": "Fibroblast migration and proliferation."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "A complement protein.",
+  "explanation": "## Advanced explanation\n\nWound healing is driven by growth factors – **PDGF, FGF, EGF, TGF-α/β, VEGF, KGF**. **Properdin** is a complement regulatory protein, not a healing growth factor.\n\n## Simplified explanation\n\n**Properdin** is a complement protein, not a growth factor.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following contains a permanent cell?",
+  "media": [],
+  "options": [
+   {
+    "text": "Liver",
+    "hint": "Hepatocytes are stable cells."
+   },
+   {
+    "text": "Spleen",
+    "hint": "Lymphoid/haemopoietic cells are labile."
+   },
+   {
+    "text": "Cardiac muscle",
+    "hint": "Correct. Cardiac myocytes are permanent (non-dividing)."
+   },
+   {
+    "text": "The renal tubular epithelium",
+    "hint": "Stable cells."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cannot divide.",
+  "explanation": "## Advanced explanation\n\n**Permanent cells**: neurons and **cardiac muscle** (largely skeletal muscle) – injury heals by scar. **Stable** cells (liver, kidney tubules) divide when stimulated; **labile** cells (epithelia, bone marrow) divide continuously.\n\n## Simplified explanation\n\n**Cardiac muscle** cells are permanent.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most important complication of wound healing is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Infection",
+    "hint": "Correct. Infection is the single most important cause of delayed healing."
+   },
+   {
+    "text": "Tissue necrosis",
+    "hint": "Not the most important."
+   },
+   {
+    "text": "Hypertrophic scar",
+    "hint": "A complication, but less important."
+   },
+   {
+    "text": "Wound dehiscence",
+    "hint": "A complication, but less common."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Most common and most important.",
+  "explanation": "## Advanced explanation\n\n**Infection** is the single most important local factor delaying healing; it prolongs inflammation and increases tissue damage. Other complications: dehiscence, hypertrophic scars/keloids, contractures, exuberant granulation.\n\n## Simplified explanation\n\n**Infection** is the biggest problem in wound healing.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT important in the control of the cell cycle?",
+  "media": [],
+  "options": [
+   {
+    "text": "Cyclin D",
+    "hint": "G1 cyclin with CDK4/6."
+   },
+   {
+    "text": "Cyclin E",
+    "hint": "G1/S cyclin with CDK2."
+   },
+   {
+    "text": "MDM2 gene",
+    "hint": "Regulates p53, a checkpoint protein."
+   },
+   {
+    "text": "Glycoprotein 120 (gp120)",
+    "hint": "Correct. HIV envelope glycoprotein."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "One is a viral protein.",
+  "explanation": "## Advanced explanation\n\nThe cell cycle is controlled by **cyclins and CDKs** (cyclin D–CDK4/6, cyclin E–CDK2), CDK inhibitors (p21, p16) and checkpoint proteins (**p53**, regulated by **MDM2**; RB). **gp120** is the HIV envelope protein that binds CD4.\n\n## Simplified explanation\n\n**gp120** belongs to HIV, not the cell cycle.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Cycle",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is important in the pathogenesis of oedema?",
+  "media": [],
+  "options": [
+   {
+    "text": "Vasoconstriction",
+    "hint": "Not a cause."
+   },
+   {
+    "text": "Platelet aggregation",
+    "hint": "Not a cause."
+   },
+   {
+    "text": "Increased hydrostatic pressure",
+    "hint": "Correct. Pushes fluid out of vessels."
+   },
+   {
+    "text": "Increased intravascular oncotic pressure",
+    "hint": "Would hold fluid in; it is reduced oncotic pressure that causes oedema."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Starling forces.",
+  "explanation": "## Advanced explanation\n\nOedema results from **increased hydrostatic pressure** (heart failure, venous obstruction), **reduced plasma oncotic pressure** (hypoalbuminaemia), lymphatic obstruction, sodium retention and increased vascular permeability.\n\n## Simplified explanation\n\nHigher **pressure** in vessels pushes fluid out.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these refers to post-mortem clots?",
+  "media": [],
+  "options": [
+   {
+    "text": "They display lines of Zahn",
+    "hint": "Lines of Zahn indicate thrombi formed in flowing blood."
+   },
+   {
+    "text": "They are a major source of emboli",
+    "hint": "Thrombi are the source of emboli."
+   },
+   {
+    "text": "They may be lysed by the fibrinolytic system",
+    "hint": "That applies to thrombi in life."
+   },
+   {
+    "text": "There is no attachment to vascular endothelium",
+    "hint": "Correct. Post-mortem clots are not attached to the vessel wall."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Formed in static blood after death.",
+  "explanation": "## Advanced explanation\n\n**Post-mortem clots** are gelatinous, dark red ('currant jelly') with yellow 'chicken fat' supernatant and are **not attached** to the vessel wall. Antemortem **thrombi** are attached and show **lines of Zahn**.\n\n## Simplified explanation\n\nPost-mortem clots are **not stuck** to the vessel wall.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Thrombosis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Organ changes in shock include all the following EXCEPT",
+  "media": [],
+  "options": [
+   {
+    "text": "Nutmeg liver",
+    "hint": "Centrilobular congestion/necrosis of the liver."
+   },
+   {
+    "text": "The red neuron",
+    "hint": "Ischaemic encephalopathy."
+   },
+   {
+    "text": "Pulmonary embolism",
+    "hint": "Correct. A cause of (obstructive) shock, not an organ change resulting from shock."
+   },
+   {
+    "text": "Contraction band necrosis in the myocardium",
+    "hint": "Myocardial change in shock."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cause vs consequence.",
+  "explanation": "## Advanced explanation\n\nMorphology of shock: brain – ischaemic encephalopathy (red neurons); heart – subendocardial haemorrhage, **contraction band necrosis**; lungs – diffuse alveolar damage; kidneys – acute tubular injury; liver – centrilobular congestion/necrosis; gut – haemorrhagic enteropathy. **Pulmonary embolism** is a cause, not a consequence.\n\n## Simplified explanation\n\n**Pulmonary embolism** causes shock; it is not a change produced by shock.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Shock",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is seen in compensated shock?",
+  "media": [],
+  "options": [
+   {
+    "text": "Bradycardia",
+    "hint": "Opposite."
+   },
+   {
+    "text": "Tachycardia",
+    "hint": "Correct. Sympathetic activation causes tachycardia."
+   },
+   {
+    "text": "Ischaemic encephalopathy",
+    "hint": "Occurs in later stages."
+   },
+   {
+    "text": "Disseminated intravascular coagulation",
+    "hint": "Progressive stage."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Sympathetic response.",
+  "explanation": "## Advanced explanation\n\nIn the **non-progressive (compensated)** phase, neurohumoral reflexes (catecholamines, renin–angiotensin, ADH) cause **tachycardia**, peripheral vasoconstriction and renal fluid conservation to maintain perfusion of vital organs.\n\n## Simplified explanation\n\nCompensated shock → **fast heart rate**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Shock",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The majority of pulmonary emboli originate from...",
+  "media": [],
+  "options": [
+   {
+    "text": "Coronary artery",
+    "hint": "Arterial."
+   },
+   {
+    "text": "Cerebral arteries",
+    "hint": "Arterial."
+   },
+   {
+    "text": "Pulmonary veins",
+    "hint": "Emboli from here go to the systemic circulation."
+   },
+   {
+    "text": "Deep veins of the leg",
+    "hint": "Correct. >95% arise from deep leg vein thrombi."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "DVT.",
+  "explanation": "## Advanced explanation\n\nMore than **95%** of pulmonary emboli originate from **deep vein thrombi of the lower limbs** (popliteal vein and above).\n\n## Simplified explanation\n\nMost come from **leg vein clots**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Embolism",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is NOT a fate of a thrombus?",
+  "media": [],
+  "options": [
+   {
+    "text": "Propagation",
+    "hint": "A fate."
+   },
+   {
+    "text": "Resolution",
+    "hint": "Dissolution by fibrinolysis is a fate."
+   },
+   {
+    "text": "Organization",
+    "hint": "A fate (with recanalisation)."
+   },
+   {
+    "text": "Aneurysmal dilation",
+    "hint": "Correct. Aneurysm is a cause of thrombus, not a fate."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Fates: propagate, embolise, dissolve, organise.",
+  "explanation": "## Advanced explanation\n\nFates of a thrombus: **propagation**, **embolisation**, **dissolution (resolution)**, **organisation and recanalisation**. Aneurysmal dilatation favours thrombosis but is not a fate of it.\n\n## Simplified explanation\n\n**Aneurysm** is not what happens to a thrombus.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Thrombosis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is true of hyperaemia?",
+  "media": [],
+  "options": [
+   {
+    "text": "It is an active process",
+    "hint": "Correct. Arteriolar dilatation increases inflow."
+   },
+   {
+    "text": "It follows injury to the skin",
+    "hint": "Not specific."
+   },
+   {
+    "text": "It follows impaired venous outflow from a tissue",
+    "hint": "That is congestion (passive)."
+   },
+   {
+    "text": "It depends on the activation of the coagulation cascade",
+    "hint": "Not related."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Hyperaemia vs congestion.",
+  "explanation": "## Advanced explanation\n\n**Hyperaemia** is **active** – arteriolar dilatation increases inflow (exercise, inflammation), making tissue red. **Congestion** is **passive**, due to impaired venous outflow, making tissue blue-red.\n\n## Simplified explanation\n\nHyperaemia is **active**; congestion is passive.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Haemodynamics",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "All the following are benign tumours EXCEPT...",
+  "media": [],
+  "options": [
+   {
+    "text": "Adenoma",
+    "hint": "Benign glandular tumour."
+   },
+   {
+    "text": "Melanoma",
+    "hint": "Correct. Malignant melanocytic tumour despite the '-oma' ending."
+   },
+   {
+    "text": "Meningioma",
+    "hint": "Usually benign."
+   },
+   {
+    "text": "Fibroadenoma",
+    "hint": "Benign breast tumour."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "A misnomer.",
+  "explanation": "## Advanced explanation\n\nSome '-oma' names are malignant by convention: **melanoma**, lymphoma, seminoma, mesothelioma, hepatoma. Adenoma, meningioma and fibroadenoma are benign.\n\n## Simplified explanation\n\n**Melanoma** is malignant.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these correctly defines a choristoma?",
+  "media": [],
+  "options": [
+   {
+    "text": "Mixed tumour",
+    "hint": "Different entity."
+   },
+   {
+    "text": "Ectopic rests of normal tissue",
+    "hint": "Correct. Normal tissue in an abnormal location (e.g. pancreatic rest in the stomach wall)."
+   },
+   {
+    "text": "An abnormal mixture of normal cells",
+    "hint": "Closer to a hamartoma."
+   },
+   {
+    "text": "A tumour derived from more than one germ layer",
+    "hint": "That is a teratoma."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Normal tissue, wrong place.",
+  "explanation": "## Advanced explanation\n\nA **choristoma** is a congenital **ectopic rest of normal tissue** (e.g. adrenal cells under the renal capsule). A **hamartoma** is a disorganised mass of tissue native to the site. A **teratoma** derives from more than one germ layer.\n\n## Simplified explanation\n\nChoristoma = normal tissue in the **wrong place**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The most important attribute of a malignant cell is...",
+  "media": [],
+  "options": [
+   {
+    "text": "Anaplasia",
+    "hint": "Important but not definitive."
+   },
+   {
+    "text": "Cellular pleomorphism",
+    "hint": "Also seen in some benign lesions."
+   },
+   {
+    "text": "Ability to metastasize",
+    "hint": "Correct. Metastasis unequivocally marks a tumour as malignant."
+   },
+   {
+    "text": "Paraneoplastic manifestations",
+    "hint": "Only some tumours."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "The single definitive feature.",
+  "explanation": "## Advanced explanation\n\n**Metastasis** – spread to distant sites discontinuous with the primary – is the single most reliable feature that marks a tumour as **malignant** (except some, e.g. basal cell carcinoma, rarely metastasise).\n\n## Simplified explanation\n\nThe ability to **metastasise** defines malignancy.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Sarcomas usually spread by...",
+  "media": [],
+  "options": [
+   {
+    "text": "Local infiltration",
+    "hint": "All malignancies infiltrate locally, but distant spread is the question."
+   },
+   {
+    "text": "The lymphatic route",
+    "hint": "Typical of carcinomas."
+   },
+   {
+    "text": "Transcoelomic pathway",
+    "hint": "Typical of ovarian/GI carcinomas."
+   },
+   {
+    "text": "Haematogenous pathway",
+    "hint": "Correct. Sarcomas favour blood-borne spread."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Carcinoma → lymph; sarcoma → blood.",
+  "explanation": "## Advanced explanation\n\n**Carcinomas** typically spread first via **lymphatics**; **sarcomas** typically spread **haematogenously** (often to the lungs).\n\n## Simplified explanation\n\nSarcomas spread through the **blood**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is true about the epidemiology of cancer?",
+  "media": [],
+  "options": [
+   {
+    "text": "Incidence rate is increasing worldwide",
+    "hint": "Correct. Global cancer incidence is rising (ageing populations, lifestyle changes)."
+   },
+   {
+    "text": "Incidence rate of cancer has remained the same worldwide",
+    "hint": "Not true."
+   },
+   {
+    "text": "Incidence rate is increasing in advanced countries and reducing in developing countries",
+    "hint": "Not the global pattern."
+   },
+   {
+    "text": "Incidence rate is decreasing in advanced countries and increasing in developing countries",
+    "hint": "Some cancers fall in high-income countries, but overall incidence rises globally."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Ageing population.",
+  "explanation": "## Advanced explanation\n\nWorldwide cancer incidence is **increasing**, driven by population growth and **ageing**, tobacco, obesity, inactivity and changing reproductive patterns, with the fastest rises in low- and middle-income countries.\n\n## Simplified explanation\n\nCancer cases are **rising worldwide**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following best describes neoplasia?",
+  "media": [],
+  "options": [
+   {
+    "text": "Cancer",
+    "hint": "Cancer refers to malignant neoplasms only."
+   },
+   {
+    "text": "Invasion",
+    "hint": "A feature of malignancy."
+   },
+   {
+    "text": "New growth",
+    "hint": "Correct. Neo = new, plasia = growth."
+   },
+   {
+    "text": "Reduced growth",
+    "hint": "Opposite."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Translate the word.",
+  "explanation": "## Advanced explanation\n\n**Neoplasia** literally means **'new growth'**: an abnormal, autonomous, excessive proliferation of cells that persists after the stimulus is removed. Neoplasms may be benign or malignant (cancer).\n\n## Simplified explanation\n\nNeoplasia = **new growth**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider the following statements on the nomenclature of benign tumours. Which is correct?",
+  "media": [],
+  "options": [
+   {
+    "text": "A fibroma is a benign tumour of osteoblasts",
+    "hint": "Fibroma arises from fibroblasts; osteoma from bone."
+   },
+   {
+    "text": "Melanoma is a benign tumour of the melanocytes",
+    "hint": "Melanoma is malignant."
+   },
+   {
+    "text": "A chondroma is a benign tumour of chondrocytes",
+    "hint": "Correct."
+   },
+   {
+    "text": "Epithelial tumours devoid of glandular patterns are not adenomas",
+    "hint": "Adenomas include tumours derived from glands even without a glandular pattern."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Cell of origin + -oma.",
+  "explanation": "## Advanced explanation\n\nBenign mesenchymal tumours are named by cell of origin + '-oma' (fibroma, lipoma, **chondroma**, osteoma). **Adenoma** = benign epithelial tumour forming glands **or derived from glands** (even without gland patterns). Melanoma is malignant.\n\n## Simplified explanation\n\n**Chondroma** = benign cartilage tumour.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements on tumour origin is TRUE?",
+  "media": [],
+  "options": [
+   {
+    "text": "Struma ovarii is derived from one germ cell layer",
+    "hint": "Struma ovarii is a monodermal teratoma, but classed as a teratoma."
+   },
+   {
+    "text": "Benign cystic teratoma is derived from more than one germ cell layer",
+    "hint": "Correct. Mature cystic teratoma (dermoid) contains ectoderm, mesoderm and endoderm."
+   },
+   {
+    "text": "Presence of cartilage and bone in pleomorphic adenoma is an indication of malignancy",
+    "hint": "Metaplastic cartilage is typical of benign pleomorphic adenoma."
+   },
+   {
+    "text": "Mixed tumours e.g. pleomorphic adenoma are tumours derived from more than one germ cell layer",
+    "hint": "Mixed tumours derive from a single germ layer."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Teratoma = multiple germ layers.",
+  "explanation": "## Advanced explanation\n\n**Teratomas** (e.g. benign cystic teratoma/dermoid of ovary) contain tissues from **more than one germ layer**. **Mixed tumours** such as pleomorphic adenoma show divergent differentiation of **one** neoplastic clone (epithelial and myxochondroid stroma) from **one germ layer**.\n\n## Simplified explanation\n\nTeratomas come from **more than one** germ layer.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements on tumour nomenclature is CORRECT?",
+  "media": [],
+  "options": [
+   {
+    "text": "Hamartoma is an ectopic nest of normal tissue",
+    "hint": "That defines choristoma."
+   },
+   {
+    "text": "Choristoma and hamartoma are true neoplasms",
+    "hint": "Neither is traditionally a true neoplasm."
+   },
+   {
+    "text": "Choristoma is a mass of disorganised but mature specialised cells",
+    "hint": "That defines hamartoma."
+   },
+   {
+    "text": "Melanoma, seminoma and hepatoma are misnomers because they are malignant",
+    "hint": "Correct: '-oma' suggests benign but these are malignant."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Names that mislead.",
+  "explanation": "## Advanced explanation\n\n**Melanoma, seminoma, hepatoma (and lymphoma, mesothelioma)** are malignant despite the benign-sounding '-oma' – they are **misnomers**. A **hamartoma** is a disorganised mass of mature tissue native to the site; a **choristoma** is an ectopic rest of normal tissue.\n\n## Simplified explanation\n\nMelanoma, seminoma and hepatoma are **malignant misnomers**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following is correct about the characteristics of benign tumours?",
+  "media": [],
+  "options": [
+   {
+    "text": "The nucleus of benign tumour shows high pleomorphism",
+    "hint": "Feature of malignancy."
+   },
+   {
+    "text": "Increased nuclear/cytoplasmic ratio is a feature of benign tumour",
+    "hint": "Feature of malignancy."
+   },
+   {
+    "text": "Increased hyperchromasia of the nucleus is a feature of benign tumour",
+    "hint": "Feature of malignancy."
+   },
+   {
+    "text": "Benign tumours tend to grow slowly with cells resembling those of the native tissue of derivation",
+    "hint": "Correct: well differentiated and slow growing."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Well differentiated.",
+  "explanation": "## Advanced explanation\n\n**Benign tumours** are **well differentiated** (resemble the tissue of origin), grow **slowly**, are usually encapsulated, do not invade or metastasise. Pleomorphism, hyperchromasia and high N:C ratio indicate malignancy (anaplasia).\n\n## Simplified explanation\n\nBenign tumours grow slowly and look like the normal tissue.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of these is correct about pleomorphism?",
+  "media": [],
+  "options": [
+   {
+    "text": "Variation in size of nuclei",
+    "hint": "Only part of it."
+   },
+   {
+    "text": "Variation in size of cells",
+    "hint": "Only part of it."
+   },
+   {
+    "text": "Variation in shape of cells",
+    "hint": "Only part of it."
+   },
+   {
+    "text": "Combined variation in size and shape of nuclei and cells",
+    "hint": "Correct. Pleomorphism covers variation in size and shape of both cells and nuclei."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "The full definition.",
+  "explanation": "## Advanced explanation\n\n**Pleomorphism** = **variation in size and shape** of cells **and** their nuclei, a feature of anaplasia in malignant tumours.\n\n## Simplified explanation\n\nPleomorphism = cells and nuclei of **different sizes and shapes**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Which of the following statements is CORRECT?",
+  "media": [],
+  "options": [
+   {
+    "text": "Cell cycle is composed of 5 phases",
+    "hint": "Usually described as G1, S, G2, M (plus G0)."
+   },
+   {
+    "text": "The interphase is composed of G1, S & G2 phases",
+    "hint": "Correct."
+   },
+   {
+    "text": "The interphase is the phase where division takes place",
+    "hint": "Division occurs in M phase."
+   },
+   {
+    "text": "In mitotic division each daughter cell receives a non-identical chromosomal set",
+    "hint": "Mitosis gives identical sets."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Interphase = preparation.",
+  "explanation": "## Advanced explanation\n\nThe cell cycle: **interphase (G1, S, G2)** – growth and DNA replication – followed by **M phase** (mitosis and cytokinesis). Quiescent cells sit in **G0**. Mitosis produces two genetically **identical** daughter cells.\n\n## Simplified explanation\n\nInterphase = **G1, S and G2**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cell Cycle",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the following statements on tissue repair.\n\na. In repair, lost tissue is replaced by scar tissue\nb. Healing by first intention is known as primary union\nc. Organs containing labile cells heal by primary intention\nd. Tissues containing permanent cells heal by regeneration\ne. In healing by regeneration, lost tissue is replaced by different cells\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. In repair, lost tissue is replaced by scar tissue | **T** | Repair by connective tissue (scar) when regeneration is not possible. |\n| b. Healing by first intention is known as primary union | **T** | Same term. |\n| c. Organs containing labile cells heal by primary intention | **F** | First/second intention depends on the wound (edges apposed or not), not on cell type. |\n| d. Tissues containing permanent cells heal by regeneration | **F** | Permanent cells cannot divide; they heal by scar. |\n| e. In healing by regeneration, lost tissue is replaced by different cells | **F** | Regeneration replaces tissue with the same cell type. |\n\n> [!answer]\n> a T, b T, c F, d F, e F.",
+  "explanation": "## Advanced explanation\n\n**Regeneration** replaces lost cells with the **same type** (labile/stable tissues with intact framework). **Repair (scar formation)** replaces tissue with fibrous connective tissue, as in permanent tissues. **Healing by first intention (primary union)** occurs in clean wounds with apposed edges; **second intention** in large open wounds.\n\n## Simplified explanation\n\nRegeneration = same cells; repair = scar. Permanent tissues scar. First intention = primary union.",
+  "hint": "Regeneration vs scar.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "After surviving a fatal accident, Mr Kofi Pito developed a deep wound on his thigh which was managed surgically and with antibiotics. Six weeks later, the wound reduced by 10% of its original size. The size of the wound reduced because of...\n\na. Myofibroblast contraction\nb. Increase in synthesis of collagen\nc. Inhibition of metalloproteinases\nd. Resolution of subcutaneous oedema\ne. Elaboration of adhesive glycoproteins\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Myofibroblast contraction | **T** | Wound contraction is due to myofibroblasts. |\n| b. Increase in synthesis of collagen | **F** | Collagen increases strength, not wound shrinkage. |\n| c. Inhibition of metalloproteinases | **F** | Not the mechanism. |\n| d. Resolution of subcutaneous oedema | **F** | Too small an effect. |\n| e. Elaboration of adhesive glycoproteins | **F** | Not the mechanism. |\n\n> [!answer]\n> a T, b F, c F, d F, e F.",
+  "explanation": "## Advanced explanation\n\nIn healing by second intention, large wounds shrink markedly by **wound contraction**, produced by **myofibroblasts** (fibroblasts with smooth-muscle features, α-SMA) in the granulation tissue; up to 90% reduction can occur.\n\n## Simplified explanation\n\n**Myofibroblasts** pull the wound edges together.",
+  "hint": "Wound contraction.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the following statements on the nomenclature of neoplasia.\n\na. Neoplasia is based on behavioural pattern only\nb. Melanoma, lymphoma and hepatoma are benign neoplasia\nc. Hamartoma, granuloma and haematoma are malignant neoplasia\nd. Adenoma is a benign epithelial neoplasm with glandular pattern\ne. Neoplasia is classified based on behavioural and histologic pattern\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Neoplasia is based on behavioural pattern only | **F** | Nomenclature uses behaviour and histogenesis (cell of origin). |\n| b. Melanoma, lymphoma and hepatoma are benign neoplasia | **F** | They are malignant. |\n| c. Hamartoma, granuloma and haematoma are malignant neoplasia | **F** | None is a malignant neoplasm. |\n| d. Adenoma is a benign epithelial neoplasm with glandular pattern | **T** | Correct. |\n| e. Neoplasia is classified based on behavioural and histologic pattern | **T** | Benign/malignant + tissue of origin. |\n\n> [!answer]\n> a F, b F, c F, d T, e T.",
+  "explanation": "## Advanced explanation\n\nTumours are named by **behaviour** (benign '-oma'; malignant carcinoma/sarcoma) and **histogenesis** (cell of origin). Melanoma, lymphoma, hepatoma are malignant misnomers; hamartoma, granuloma (inflammation) and haematoma (blood collection) are not malignant neoplasms.\n\n## Simplified explanation\n\nTumours are named by behaviour and cell type; adenoma is a benign glandular tumour.",
+  "hint": "Behaviour + histogenesis.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Benign and malignant tumours can be differentiated based on ...\n\na. Size\nb. Invasion\nc. Metastasis\nd. Differentiation\ne. Appearance under the microscope\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Size | **F** | Size alone does not distinguish them. |\n| b. Invasion | **T** | Malignant tumours invade. |\n| c. Metastasis | **T** | Only malignant tumours metastasise. |\n| d. Differentiation | **T** | Malignant tumours show anaplasia/poor differentiation. |\n| e. Appearance under the microscope | **T** | Histology shows differentiation, pleomorphism, mitoses. |\n\n> [!answer]\n> a F, b T, c T, d T, e T.",
+  "explanation": "## Advanced explanation\n\nBenign and malignant tumours are distinguished by **differentiation and anaplasia**, **rate of growth**, **local invasion** and **metastasis**, assessed largely by **microscopy**. Size is not a reliable criterion – benign tumours can be huge.\n\n## Simplified explanation\n\nInvasion, metastasis, differentiation and microscopy tell them apart – size does not.",
+  "hint": "Is size reliable?",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the following statements on carcinogenesis.\n\na. Lethal mutation is responsible for carcinogenesis\nb. Angiogenesis increases the malignancy potential of a tumour\nc. Tumour progression results from single mutation of tumour cells\nd. Lifestyle of an individual can put him/her at risk of developing a cancer\ne. Failure to repair DNA when it is damaged will result in the formation of an oncogene\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Lethal mutation is responsible for carcinogenesis | **F** | Non-lethal genetic damage is the basis of carcinogenesis. |\n| b. Angiogenesis increases the malignancy potential of a tumour | **T** | Tumours need angiogenesis to grow beyond 1–2 mm and to metastasise. |\n| c. Tumour progression results from single mutation of tumour cells | **F** | Multiple sequential mutations are needed. |\n| d. Lifestyle of an individual can put him/her at risk of developing a cancer | **T** | Smoking, diet, alcohol, obesity, infections. |\n| e. Failure to repair DNA when it is damaged will result in the formation of an oncogene | **F** | It causes mutations generally (mutator phenotype), not necessarily an oncogene. |\n\n> [!answer]\n> a F, b T, c F, d T, e F.",
+  "explanation": "## Advanced explanation\n\nCarcinogenesis rests on **non-lethal genetic damage**, accumulating in a **multistep** process (activation of oncogenes, inactivation of tumour suppressors, defects in apoptosis and DNA repair). **Angiogenesis** is a hallmark enabling growth and spread. **Lifestyle and environment** are major risk factors.\n\n## Simplified explanation\n\nCancer comes from many non-lethal mutations; angiogenesis and lifestyle matter.",
+  "hint": "Non-lethal, multistep.",
+  "difficulty": "hard",
+  "marks": 5,
+  "tags": [
+   "Carcinogenesis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Dada Flowers, 48 years old, is in good health with no medical problems and on no medications. After a 12-hour non-stop flight from Accra to Melbourne he noticed swelling of his lower legs and feet even though there was no swelling when the flight took off. This phenomenon occurred because of ....\n\na. Hypoalbuminaemia\nb. Lymphatic obstruction\nc. Excessive water intake\nd. Secondary hyperaldosteronism\ne. Increased hydrostatic pressure\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Hypoalbuminaemia | **F** | He is healthy; albumin is normal. |\n| b. Lymphatic obstruction | **F** | No obstruction. |\n| c. Excessive water intake | **F** | Not the cause. |\n| d. Secondary hyperaldosteronism | **F** | Not in a healthy person over hours. |\n| e. Increased hydrostatic pressure | **T** | Prolonged sitting with dependent legs raises venous hydrostatic pressure. |\n\n> [!answer]\n> a F, b F, c F, d F, e T.",
+  "explanation": "## Advanced explanation\n\nProlonged immobility with legs dependent impairs the calf muscle pump, raising **venous (capillary) hydrostatic pressure**, so fluid moves into the interstitium causing dependent **oedema**.\n\n## Simplified explanation\n\nSitting for hours raises the **pressure** in leg veins, causing swelling.",
+  "hint": "Starling forces.",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Haemodynamics",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "On the last day of her menstrual cycle Akosua experienced menstrual bleeding that lasted for 5 days. She has had regular cycles for many years. What process is most likely occurring in the endometrium just before the onset of bleeding?",
+  "media": [],
+  "answer": "**Apoptosis** of endometrial cells (physiological apoptosis due to **hormone (progesterone) withdrawal**).\n\n> [!answer]\n> Hormone-withdrawal–induced apoptosis of the endometrium.",
+  "explanation": "## Advanced explanation\n\nWhen the corpus luteum regresses, progesterone and oestrogen fall. Loss of hormonal support triggers **apoptosis** of endometrial cells, along with spiral artery constriction and ischaemia, leading to shedding of the functional layer (menstruation). This is a classic example of **physiological apoptosis**.\n\n## Simplified explanation\n\nFalling hormones make endometrial cells die by **apoptosis** before the period.",
+  "hint": "Physiological cell death.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Apoptosis",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 27-year-old loading boy sustained a gory injury to the abdomen when he ran his speeding vehicle into a bridge, which led to the removal of a portion of the left lobe of the liver. Several weeks later a CT scan of the liver showed that the liver had nearly regained its size. Mention the process that best explains the CT scan findings.",
+  "media": [],
+  "answer": "**Compensatory hyperplasia** (liver regeneration) of the remaining hepatocytes.\n\n> [!answer]\n> Compensatory hyperplasia.",
+  "explanation": "## Advanced explanation\n\nHepatocytes are **stable cells** (G0) that re-enter the cell cycle when stimulated by growth factors (HGF, EGF, TGF-α) and cytokines (IL-6, TNF). After partial hepatectomy the remaining liver restores its mass by **compensatory hyperplasia** within weeks.\n\n## Simplified explanation\n\nThe remaining liver cells multiply (**compensatory hyperplasia**) to rebuild the liver.",
+  "hint": "Stable cells re-enter the cycle.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cellular Adaptation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Adjovi, a 45-year-old metal worker, experienced mid-epigastric abdominal pain for the past three months. Upper endoscopy revealed a 2 cm ulceration of the gastric antrum. A biopsy of the ulcer showed angiogenesis with fibrosis and mononuclear cell infiltrates with lymphocytes, macrophages and plasma cells. The best term for this pathological process is.....",
+  "media": [],
+  "answer": "**Chronic inflammation.**\n\n> [!answer]\n> Chronic inflammation.",
+  "explanation": "## Advanced explanation\n\n**Chronic inflammation** is characterised by infiltration with **mononuclear cells** (macrophages, lymphocytes, plasma cells), **tissue destruction**, and attempts at healing by **angiogenesis and fibrosis** – exactly the picture of a chronic peptic ulcer.\n\n## Simplified explanation\n\nLymphocytes, macrophages, plasma cells and fibrosis = **chronic inflammation**.",
+  "hint": "Mononuclear cells + fibrosis.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Chronic Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. In not more than two paragraphs, describe the role of the **basement membrane** in the tissue repair process. *(6 marks)*\n\nb. Highlight (i) four benefits of acute inflammation *(2 marks)* and (ii) four harmful effects of acute inflammation. *(2 marks)*\n\nc. Mention **two** mediators involved in each of the following processes: (i) adhesion (ii) rolling (iii) phagocytosis (iv) wound healing (v) vasodilation (vi) chemotaxis (vii) opsonization. *(10 marks)*",
+  "media": [],
+  "answer": "**a.** The basement membrane (type IV collagen, laminin, proteoglycans) is the **scaffold** on which epithelial and parenchymal cells rest. If it survives injury, surviving cells can **regenerate** along it and restore the **original architecture** (e.g. acute tubular injury, hepatocyte loss with intact reticulin). It provides **polarity**, anchorage and signals for cell **migration, proliferation and differentiation** through integrin binding and stored growth factors.\n\nIf the basement membrane/ECM framework is **destroyed**, orderly regeneration is impossible: repair proceeds by **granulation tissue and fibrosis (scar)**, as in abscesses or infarcts. Thus the integrity of the basement membrane largely decides between **regeneration** and **scarring**.\n\n**b.**\n| Benefits | Harmful effects |\n|---|---|\n| Dilutes toxins | Tissue damage by leukocyte enzymes and ROS |\n| Brings antibodies, complement and leukocytes to kill microbes | Swelling compressing vital structures (e.g. laryngeal oedema, brain) |\n| Fibrin traps microbes and forms scaffold | Pain and loss of function |\n| Removes necrotic debris and starts repair | Systemic effects – fever, shock (sepsis); abscess formation; hypersensitivity/autoimmune damage |\n\n**c.**\n| Process | Mediators (any two) |\n|---|---|\n| Adhesion | Integrins (LFA-1, VLA-4), ICAM-1, VCAM-1 |\n| Rolling | E-selectin, P-selectin, L-selectin, sialyl-Lewis X |\n| Phagocytosis | Opsonins IgG and C3b; Fc and complement receptors; mannose receptors |\n| Wound healing | PDGF, TGF-β, FGF, VEGF, EGF |\n| Vasodilation | Histamine, prostaglandins (PGI₂, PGE₂), nitric oxide |\n| Chemotaxis | C5a, LTB₄, IL-8 (chemokines), bacterial products (fMLP) |\n| Opsonization | IgG, C3b (iC3b), collectins/MBL |\n\n> [!answer]\n> a. Intact basement membrane = scaffold for regeneration; destroyed = scar. b. Benefits: dilute toxins, kill microbes, fibrin barrier, clear debris; harms: tissue damage, swelling, pain, systemic effects. c. e.g. adhesion – integrins/ICAM-1; rolling – selectins; phagocytosis – IgG/C3b; healing – PDGF/TGF-β; vasodilation – histamine/NO; chemotaxis – C5a/IL-8; opsonisation – IgG/C3b.",
+  "explanation": "## Advanced explanation\n\nOutcome of injury depends on whether the **extracellular framework** survives (regeneration) or not (scar). Acute inflammation is protective but can damage host tissue. Leukocyte recruitment is a sequence – margination and **rolling** (selectins), firm **adhesion** (integrins–ICAM/VCAM), transmigration and **chemotaxis** – followed by **phagocytosis** aided by **opsonins**.\n\n## Simplified explanation\n\nIf the basement membrane survives, tissue regrows properly; if not, it scars. Inflammation protects but can harm. Selectins roll, integrins stick, C5a/IL-8 attract, IgG/C3b opsonise.",
+  "hint": "Scaffold for regeneration.",
+  "difficulty": "hard",
+  "marks": 20,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between the following:\n\ni. Infarction and inflammation\nii. Subarachnoid haemorrhage and cerebral infarction\niii. Granuloma (granulation) tissue and granuloma\niv. Thrombus and embolus\nv. Septic shock and hypovolaemic shock *(10 marks)*",
+  "media": [],
+  "answer": "| | | |\n|---|---|---|\n| **i** | **Infarction**: an area of ischaemic (coagulative) necrosis caused by occlusion of arterial supply or venous drainage | **Inflammation**: a protective vascular and cellular response of vascularised tissue to injury/infection to eliminate the cause and start repair |\n| **ii** | **Subarachnoid haemorrhage**: bleeding into the subarachnoid space, usually from a ruptured berry aneurysm; sudden 'thunderclap' headache | **Cerebral infarction**: ischaemic necrosis (liquefactive) of brain tissue from arterial occlusion by thrombus/embolus |\n| **iii** | **Granulation tissue**: new tissue of healing – proliferating capillaries, fibroblasts and loose ECM with inflammatory cells | **Granuloma**: focal collection of activated (epithelioid) macrophages, often with giant cells and lymphocytes, in chronic granulomatous inflammation (TB) |\n| **iv** | **Thrombus**: a solid mass of blood constituents formed **within the vascular system during life**, attached to the wall | **Embolus**: a detached intravascular solid, liquid or gaseous mass **carried by blood** to a distant site (most are thromboemboli) |\n| **v** | **Septic shock**: due to microbial infection; systemic vasodilation and pooling, endothelial activation, often warm peripheries initially | **Hypovolaemic shock**: due to loss of blood/plasma volume (haemorrhage, burns, vomiting); low cardiac output, cold clammy skin |\n\n> [!answer]\n> Infarct = ischaemic necrosis vs inflammation = protective response; SAH = bleeding into subarachnoid space vs infarct = ischaemic brain necrosis; granulation tissue = capillaries + fibroblasts vs granuloma = epithelioid macrophage aggregate; thrombus = attached clot formed in vessel vs embolus = detached traveling mass; septic = infection-induced vasodilation vs hypovolaemic = volume loss.",
+  "explanation": "## Advanced explanation\n\nThese pairs are often confused: necrosis vs response; haemorrhagic vs ischaemic stroke; healing tissue vs chronic inflammatory lesion; local clot vs travelling mass; distributive vs volume-loss shock.\n\n## Simplified explanation\n\nGive a one-line definition of each and the key difference.",
+  "hint": "Define each term and contrast.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Haemodynamics",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A 36-year-old woman comes to the general physician because of a \"large growth\" on her left earlobe. She began to notice it about 8 weeks after she got her ears pierced again to add a second earring, and it has been growing \"exponentially\" ever since. On examination, a 4.1-cm, firm tumour was found hanging from her left earlobe.\n\ni. What is the name given to this growth? *(2 marks)*\nii. Which connective tissue is associated with this growth? *(2 marks)*\niii. Will a surgical procedure permanently correct this condition? *(1 mark)*\niv. Give reason(s) for your answer in iii. *(2 marks)*\nv. Explain why this condition is always found on certain parts of the body. *(3 marks)*",
+  "media": [],
+  "answer": "i. **Keloid.**\n\nii. **Collagen** (dense fibrous connective tissue) – excessive deposition of thick, hyalinised **type I and III collagen** bundles by fibroblasts.\n\niii. **No** – excision alone is usually not curative.\n\niv. Keloids **recur** after excision in most cases (often larger), because the surgical wound triggers the same abnormal, excessive fibroblast/collagen response (genetic predisposition, overactive TGF-β signalling). Recurrence is reduced only by combining surgery with intralesional steroids, pressure or radiotherapy.\n\nv. Keloids favour sites with **high skin tension and movement** and dense dermis rich in fibroblasts – earlobes, upper chest/sternum, shoulders, upper back, jaw line. Tension and repeated stretching stimulate mechanosensitive fibroblasts and prolonged inflammation; genetic predisposition (common in people of African descent) adds to this.\n\n> [!answer]\n> Keloid; collagen; no – it recurs after excision; occurs at sites of high tension/movement (earlobe, chest, shoulders) in predisposed individuals.",
+  "explanation": "## Advanced explanation\n\nA **keloid** is an excessive scar extending **beyond the original wound margins**, unlike a hypertrophic scar which stays within them and may regress. It reflects dysregulated repair with excess collagen deposition and reduced degradation.\n\n## Simplified explanation\n\nIt is a **keloid**, an overgrown collagen scar that tends to come back after surgery, especially on the earlobe and chest.",
+  "hint": "Exuberant scar beyond the wound.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Tissue Repair",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A study is performed to analyse characteristics of malignant neoplasms in biopsy specimens. The biopsies were performed on patients who had palpable mass lesions on digital rectal examination.\n\ni. List six (6) microscopic features which are most likely to indicate that the neoplasm is malignant. *(6 marks)*\nii. What other test(s) can aid in the diagnosis of this condition? *(2 marks)*\niii. Highlight two (2) genetic and two (2) environmental factors that cause this condition. *(2 marks)*",
+  "media": [],
+  "answer": "**i.** Microscopic features of malignancy (any six):\n- **Invasion** of surrounding tissue (through basement membrane/muscularis), lymphovascular invasion\n- **Anaplasia / poor differentiation**, loss of architecture and polarity\n- **Pleomorphism** of cells and nuclei\n- **Hyperchromatic** nuclei with coarse chromatin and prominent nucleoli\n- **High nuclear-to-cytoplasmic ratio** (approaching 1:1)\n- **Numerous and atypical (abnormal) mitoses**\n- Tumour giant cells; necrosis\n\n**ii.** Supporting tests: **serum PSA** (if prostate) or **CEA** (colorectal); imaging (transrectal ultrasound, MRI/CT); **immunohistochemistry** (e.g. PSA, CK20/CDX2); colonoscopy; molecular testing.\n\n**iii.** Genetic: inherited mutations such as **APC** (familial adenomatous polyposis), **mismatch-repair genes** (Lynch syndrome: MLH1, MSH2), BRCA2/HOXB13 (prostate), family history. Environmental: **diet** high in red/processed meat and low in fibre, **obesity**, smoking, alcohol, physical inactivity, (for prostate) age and androgens.\n\n> [!answer]\n> Invasion, anaplasia, pleomorphism, hyperchromasia, high N:C ratio, atypical mitoses; PSA/CEA, imaging, IHC; genetic – APC, mismatch-repair genes; environmental – diet, obesity, smoking, alcohol.",
+  "explanation": "## Advanced explanation\n\nA mass on digital rectal examination may be **prostatic** or **rectal** carcinoma. Malignancy is judged histologically by **invasion** and **anaplasia**; tumour markers and imaging support diagnosis and staging. Both have hereditary and lifestyle risk factors.\n\n## Simplified explanation\n\nLook for invasion and abnormal-looking dividing cells; confirm with markers, imaging and IHC; causes include inherited genes and diet/lifestyle.",
+  "hint": "Features of anaplasia + invasion.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Neoplasia",
+   "2018/19 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider the following statements on aetiology of diseases ...\n\nI. Aetiology refers to the causes of disease\nII. Aetiologic factors can be genetic or acquired\nIII. Aetiology is considered primary when the cause of the disease is known",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "III is false."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. I and II are true."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "I is true and III is false."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "II is also true."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "III is false."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Primary (idiopathic) means unknown cause.",
+  "explanation": "## Advanced explanation\n\n**Aetiology** is the cause of a disease; causes are **genetic** (inherited mutations) or **acquired** (infection, nutrition, chemicals, physical agents). A disease is called **primary, idiopathic or essential** when its cause is **unknown** (e.g. essential hypertension), so statement III is false.\n\n## Simplified explanation\n\nI and II are correct; 'primary' means the cause is **unknown**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Introduction to Pathology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Decreased size of an organ due to reduced endocrine stimulation is an example of ...\n\nI. Hypotrophy\nII. Dysplasia\nIII. Atrophy",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Only III is correct."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Only III is correct."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Dysplasia is not involved."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "Hypotrophy is not the term used."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Correct. Atrophy only."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Shrinkage of an organ.",
+  "explanation": "## Advanced explanation\n\n**Atrophy** is a decrease in cell size and number causing organ shrinkage; causes include loss of **endocrine stimulation** (e.g. endometrium after menopause), disuse, denervation, ischaemia, malnutrition and pressure.\n\n## Simplified explanation\n\nShrinkage from loss of hormones = **atrophy**.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cellular Adaptation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are features of reversible cell injury.\n\nI. Decreased ATP synthesis\nII. Increased intracellular sodium\nIII. Increased cellular calcium",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Correct. All three occur."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "III also occurs."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "I also occurs."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "II and III also occur."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "I and II also occur."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Early hypoxic injury.",
+  "explanation": "## Advanced explanation\n\nEarly (reversible) hypoxic injury: **ATP depletion** → failure of Na⁺/K⁺-ATPase → **Na⁺ and water influx** (cellular swelling) and rising **cytosolic Ca²⁺**, plus anaerobic glycolysis and ribosome detachment. If the insult continues, membrane damage and massive Ca²⁺ influx make it irreversible.\n\n## Simplified explanation\n\nAll three happen in reversible injury.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Injury",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Free radical induced cellular damage causes cell injury through...\n\nI. ATP depletion\nII. Damage to the Na-K ATPase pump\nIII. Activation of cytosolic enzymes",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Correct. All three."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "III also."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "I also."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "II and III also."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "I and II also."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Membranes, proteins and DNA.",
+  "explanation": "## Advanced explanation\n\nFree radicals cause **lipid peroxidation** of membranes (including mitochondria → **ATP depletion**), oxidative modification of proteins (e.g. **Na⁺/K⁺-ATPase** damage) and DNA damage; resulting Ca²⁺ influx **activates cytosolic enzymes** (phospholipases, proteases, endonucleases).\n\n## Simplified explanation\n\nFree radicals damage pumps, deplete ATP and switch on harmful enzymes.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cell Injury",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider the following statements on gangrenous necrosis.\n\nI. It is commonly found in the lower extremities\nII. It is always consequent to liquefactive necrosis\nIII. It is likely to coexist with coagulative necrosis when there is bacterial infection",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "II is false."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "II is false."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "II is false."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "Correct. Only I is correct."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Not the answer."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Dry vs wet gangrene.",
+  "explanation": "## Advanced explanation\n\n**Gangrenous necrosis** is a clinical term, usually for a **limb (commonly the lower extremity)** that has lost its blood supply and undergone **coagulative necrosis** (dry gangrene). With superimposed **bacterial infection**, the coagulative necrosis is modified by **liquefactive** action of bacteria and leukocytes (**wet gangrene**). It is not 'always' liquefactive.\n\n## Simplified explanation\n\nGangrene is common in the legs; it starts as coagulative necrosis, becoming liquefactive with infection.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Necrosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The cytoplasmic features of necrosis include ....\n\nI. Basophilic cytoplasm\nII. Eosinophilic cytoplasm\nIII. Swollen mitochondria",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "I is wrong."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "I is wrong."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Correct. II and III."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "I is wrong."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "II is also correct."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pink cytoplasm.",
+  "explanation": "## Advanced explanation\n\nNecrotic cells show **increased eosinophilia** (loss of RNA basophilia, denatured proteins bind eosin), a glassy appearance, vacuolation and **swollen mitochondria** with amorphous densities, myelin figures and membrane breaks.\n\n## Simplified explanation\n\nNecrotic cytoplasm is **pink**, with **swollen mitochondria**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Necrosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Liquefactive necrosis is ...\n\nI. Found in abscesses\nII. Associated with increased neutrophils in the injured cell\nIII. Associated with persistence of cellular outlines",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "III is false."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. I and II."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "III is false."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "II is also true."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "III is false."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Pus.",
+  "explanation": "## Advanced explanation\n\n**Liquefactive necrosis** occurs in focal bacterial/fungal infections (**abscesses**) where **neutrophils** release enzymes that digest the tissue into a liquid (pus), and in brain infarcts. Cell outlines are **lost**; persistence of outlines is coagulative necrosis.\n\n## Simplified explanation\n\nAbscesses and neutrophils – yes; preserved outlines – no.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Necrosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A 38-year-old woman experienced severe abdominal pain with hypotension which led to shock and subsequent death within 36 hours.\n\nI. The patient died of acute pancreatitis\nII. At autopsy there will be fat necrosis of the pancreas\nIII. The stained section of the pancreas appears eosinophilic",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Correct. All three."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "III is also accepted."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "I is also correct."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "Not the answer."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Not the answer."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Classic Robbins scenario.",
+  "explanation": "## Advanced explanation\n\nSevere abdominal pain with shock and rapid death suggests **acute (haemorrhagic) pancreatitis**. Released lipases cause **enzymatic fat necrosis** – chalky white deposits from fatty acids combining with calcium (saponification); necrotic areas show shadowy outlines with **eosinophilic** (and basophilic calcium) material.\n\n## Simplified explanation\n\nAcute pancreatitis with fat necrosis – all three statements fit.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Necrosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The processes of cellular response in acute inflammation include...\n\nI. Diapedesis\nII. Phagocytosis\nIII. Angiogenesis",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Angiogenesis is not part of the acute cellular response."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. I and II."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Angiogenesis is a repair/chronic feature."
+   },
+   {
+    "text": "(I) only is correct",
+    "hint": "II is also true."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Angiogenesis is not."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Leukocyte events.",
+  "explanation": "## Advanced explanation\n\nThe **cellular events** of acute inflammation: margination, rolling, adhesion, **transmigration (diapedesis)**, chemotaxis and **phagocytosis**/killing. **Angiogenesis** belongs to repair and chronic inflammation.\n\n## Simplified explanation\n\nDiapedesis and phagocytosis – yes; angiogenesis – no.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the chemical mediator with the process in acute inflammation it mainly brings about: **C5a, C3a, C4a**",
+  "media": [],
+  "options": [
+   {
+    "text": "Vascular permeability",
+    "hint": "Correct. Anaphylatoxins release histamine from mast cells, increasing permeability."
+   },
+   {
+    "text": "Phagocytosis",
+    "hint": "C3b (not C3a) is the opsonin."
+   },
+   {
+    "text": "Leukocyte adhesion",
+    "hint": "Not the main effect."
+   },
+   {
+    "text": "Vasodilation",
+    "hint": "Indirect via histamine, but permeability is the classic answer."
+   },
+   {
+    "text": "Chemotaxis",
+    "hint": "C5a is also chemotactic, but the group as anaphylatoxins increases permeability."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each process may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nC3a, C4a and C5a are **anaphylatoxins**: they trigger mast-cell degranulation and histamine release, **increasing vascular permeability** (C5a is additionally chemotactic).\n\n## Simplified explanation\n\nAnaphylatoxins → **vascular permeability**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the chemical mediator with the process in acute inflammation it mainly brings about: **Prostaglandins**",
+  "media": [],
+  "options": [
+   {
+    "text": "Vascular permeability",
+    "hint": "They potentiate permeability caused by others."
+   },
+   {
+    "text": "Phagocytosis",
+    "hint": "No."
+   },
+   {
+    "text": "Leukocyte adhesion",
+    "hint": "No."
+   },
+   {
+    "text": "Vasodilation",
+    "hint": "Correct. PGI₂, PGE₂, PGD₂ are vasodilators."
+   },
+   {
+    "text": "Chemotaxis",
+    "hint": "No (LTB₄ is the chemotactic eicosanoid)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each process may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nProstaglandins (PGI₂, PGE₂, PGD₂) cause **vasodilation**, potentiate oedema, and mediate pain and fever.\n\n## Simplified explanation\n\nProstaglandins → **vasodilation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the chemical mediator with the process in acute inflammation it mainly brings about: **Bradykinin**",
+  "media": [],
+  "options": [
+   {
+    "text": "Vascular permeability",
+    "hint": "Correct. Bradykinin increases vascular permeability."
+   },
+   {
+    "text": "Phagocytosis",
+    "hint": "No."
+   },
+   {
+    "text": "Leukocyte adhesion",
+    "hint": "No."
+   },
+   {
+    "text": "Vasodilation",
+    "hint": "It also dilates vessels, but its classic action is permeability."
+   },
+   {
+    "text": "Chemotaxis",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each process may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**Bradykinin** (kinin system) increases **vascular permeability**, contracts smooth muscle, dilates vessels and causes **pain**.\n\n## Simplified explanation\n\nBradykinin → **vascular permeability** (and pain).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the chemical mediator with the process in acute inflammation it mainly brings about: **Nitric oxide**",
+  "media": [],
+  "options": [
+   {
+    "text": "Vascular permeability",
+    "hint": "No."
+   },
+   {
+    "text": "Phagocytosis",
+    "hint": "Microbicidal but not phagocytosis itself."
+   },
+   {
+    "text": "Leukocyte adhesion",
+    "hint": "NO actually inhibits adhesion."
+   },
+   {
+    "text": "Vasodilation",
+    "hint": "Correct. NO relaxes vascular smooth muscle."
+   },
+   {
+    "text": "Chemotaxis",
+    "hint": "No."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each process may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**Nitric oxide** from endothelium and macrophages relaxes vascular smooth muscle (**vasodilation**), reduces platelet aggregation and leukocyte recruitment, and is microbicidal.\n\n## Simplified explanation\n\nNO → **vasodilation**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the chemical mediator with the process in acute inflammation it mainly brings about: **Chemokines**",
+  "media": [],
+  "options": [
+   {
+    "text": "Vascular permeability",
+    "hint": "No."
+   },
+   {
+    "text": "Phagocytosis",
+    "hint": "No."
+   },
+   {
+    "text": "Leukocyte adhesion",
+    "hint": "They activate integrins too, but the defining role is chemotaxis."
+   },
+   {
+    "text": "Vasodilation",
+    "hint": "No."
+   },
+   {
+    "text": "Chemotaxis",
+    "hint": "Correct. Chemokines (e.g. IL-8) attract leukocytes."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Each process may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**Chemokines** (e.g. IL-8/CXCL8) are small chemoattractant cytokines that direct **leukocyte chemotaxis** and activate integrins.\n\n## Simplified explanation\n\nChemokines → **chemotaxis**.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Inflammation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Give **three (3)** ways by which a cell reacts to injurious stimuli.",
+  "media": [],
+  "answer": "1. **Adaptation** (hypertrophy, hyperplasia, atrophy, metaplasia)\n2. **Reversible cell injury**\n3. **Irreversible injury / cell death** (necrosis or apoptosis)\n\n> [!answer]\n> Adaptation, reversible injury, cell death (necrosis/apoptosis).",
+  "explanation": "## Advanced explanation\n\nMild or persistent stress → **adaptation**; if limits are exceeded → **reversible injury** (swelling, fatty change); severe or persistent injury → **irreversible injury and cell death** by **necrosis** or **apoptosis**.\n\n## Simplified explanation\n\nA cell can adapt, be reversibly injured, or die.",
+  "hint": "Adapt, get injured, or die.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Cell Injury",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly distinguish **aetiology** from **pathogenesis**.",
+  "media": [],
+  "answer": "**Aetiology** is the **cause** of a disease (genetic or acquired – e.g. *Plasmodium* in malaria).\n\n**Pathogenesis** is the **mechanism** – the sequence of cellular, biochemical and molecular events by which the cause produces the structural and functional changes of the disease.\n\n> [!answer]\n> Aetiology = why (cause); pathogenesis = how (mechanism of development).",
+  "explanation": "## Advanced explanation\n\nPathology studies four aspects of disease: **aetiology** (cause), **pathogenesis** (mechanism), **morphological changes** and **clinical significance**.\n\n## Simplified explanation\n\nAetiology is the **cause**; pathogenesis is **how** the disease develops.",
+  "hint": "Why vs how.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Introduction to Pathology",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "What are the **morphological features of necrosis**?",
+  "media": [],
+  "answer": "**Cytoplasm** – increased **eosinophilia**, glassy homogeneous appearance, vacuolation; swollen mitochondria, myelin figures, membrane breaks.\n\n**Nucleus** – **pyknosis** (shrinkage and increased basophilia), **karyorrhexis** (fragmentation), **karyolysis** (fading due to DNase).\n\n**Cell/tissue** – cell swelling and rupture with leakage of contents, provoking **inflammation**; patterns include coagulative, liquefactive, caseous, fat, fibrinoid necrosis and gangrene.\n\n> [!answer]\n> Eosinophilic cytoplasm, pyknosis, karyorrhexis, karyolysis, membrane rupture, inflammation.",
+  "explanation": "## Advanced explanation\n\nNecrotic changes result from **enzymatic digestion** and **protein denaturation**; they take hours to appear by light microscopy.\n\n## Simplified explanation\n\nPink cytoplasm, shrunken/fragmented/fading nuclei, burst cells and inflammation.",
+  "hint": "Cytoplasm and nucleus.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Necrosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "a. Distinguish **physiological apoptosis** from **pathological apoptosis**.\n\nb. Give two examples each of physiological and pathological apoptosis.",
+  "media": [],
+  "answer": "**a.** **Physiological apoptosis** is programmed death that removes cells no longer needed and maintains a constant cell number in normal tissues. **Pathological apoptosis** eliminates cells that are damaged beyond repair (DNA damage, misfolded proteins, infection) without provoking inflammation.\n\n**b.**\n| Physiological | Pathological |\n|---|---|\n| Embryogenesis/organogenesis | DNA damage from radiation or cytotoxic drugs |\n| Hormone-withdrawal (endometrium in menstruation, ovarian follicular atresia) | Accumulation of misfolded proteins (ER stress) |\n| Elimination of self-reactive lymphocytes; death of neutrophils after inflammation | Viral infections (e.g. viral hepatitis – Councilman bodies); cytotoxic T-cell killing |\n| Turnover of proliferating cell populations (intestinal crypts) | Atrophy after duct obstruction (pancreas, parotid, kidney) |\n\n> [!answer]\n> Physiological = normal removal of unneeded cells (embryogenesis, menstruation); pathological = removal of damaged cells (radiation DNA damage, viral hepatitis).",
+  "explanation": "## Advanced explanation\n\nBoth use the same caspase machinery; the difference is the **trigger** – normal developmental/homeostatic signals versus injurious stimuli.\n\n## Simplified explanation\n\nNormal apoptosis removes unwanted cells; pathological apoptosis removes damaged ones.",
+  "hint": "Normal turnover vs damage.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Apoptosis",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "After several weeks of immobilisation of the left leg of Kwaabota in a plaster of Paris (POP), the diameter of his calf decreased. The change in the diameter of the calf could be due to ................. of the calf muscles.",
+  "media": [],
+  "answer": "**Atrophy** (disuse atrophy).\n\n> [!answer]\n> Disuse atrophy.",
+  "explanation": "## Advanced explanation\n\nImmobilisation reduces workload, so skeletal muscle fibres shrink by reduced protein synthesis and increased degradation (**disuse atrophy**); it is reversible with renewed activity.\n\n## Simplified explanation\n\nNot using the muscle makes it shrink: **atrophy**.",
+  "hint": "Decreased workload.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Cellular Adaptation",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Briefly describe **four** mechanisms of **irreversible** cell injury.",
+  "media": [],
+  "answer": "1. **Mitochondrial dysfunction** – loss of membrane potential and opening of the mitochondrial permeability transition pore → irreversible **ATP depletion**, leakage of cytochrome c.\n2. **Loss of calcium homeostasis** – Ca²⁺ influx activates **phospholipases** (membrane damage), **proteases** (cytoskeleton), **endonucleases** (DNA) and ATPases.\n3. **Membrane damage** – of plasma, mitochondrial and **lysosomal** membranes (ROS, phospholipid loss, cytoskeletal damage); lysosomal enzymes leak and digest the cell.\n4. **Oxidative stress (free radicals)** – lipid peroxidation, protein oxidation and **DNA damage**.\n(5. Severe DNA and protein damage beyond repair.)\n\n> [!answer]\n> ATP depletion/mitochondrial failure, Ca²⁺ influx with enzyme activation, membrane (including lysosomal) damage, free-radical injury and DNA damage.",
+  "explanation": "## Advanced explanation\n\nTwo phenomena characterise irreversibility: **inability to restore mitochondrial function** and **profound membrane damage**. Leakage of intracellular enzymes (e.g. troponin, AST, CK) into the blood is the clinical sign of irreversible injury.\n\n## Simplified explanation\n\nCells die when mitochondria fail, calcium floods in and membranes break down.",
+  "hint": "Point of no return.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Cell Injury",
+   "Quiz II"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Distinguish between the morphology of the following:\n\na) Necrosis and apoptosis\nb) Liquefactive necrosis and gangrene\nc) Fibrinoid necrosis and caseous necrosis",
+  "media": [],
+  "answer": "**a)**\n| Necrosis | Apoptosis |\n|---|---|\n| Cell **swelling**, affects groups of cells | Cell **shrinkage**, single cells |\n| Pyknosis → karyorrhexis → karyolysis | Chromatin **condensation** and fragmentation |\n| Plasma membrane **disrupted**, contents leak | Membrane **intact**, blebs and **apoptotic bodies** |\n| **Inflammation** frequent | **No** inflammation; bodies phagocytosed |\n\n**b)** **Liquefactive necrosis**: tissue digested to a **creamy fluid (pus)** with neutrophils; architecture lost (abscess, brain infarct). **Gangrene**: necrosis of a limb/organ part, usually **coagulative** (dry gangrene: dry, shrunken, black, line of demarcation) becoming liquefactive with bacterial infection (**wet gangrene**: swollen, foul, spreading).\n\n**c)** **Fibrinoid necrosis**: in **blood vessel walls** (immune-complex vasculitis, malignant hypertension) – bright **pink, amorphous fibrin-like** material in the wall. **Caseous necrosis**: in **tuberculosis** – grossly **cheesy, white**; microscopically **amorphous granular pink debris** with complete loss of architecture, surrounded by a **granuloma**.\n\n> [!answer]\n> Necrosis swells and ruptures with inflammation; apoptosis shrinks and fragments without inflammation. Liquefactive = pus; gangrene = limb necrosis, dry (coagulative) or wet. Fibrinoid = pink fibrin-like material in vessel walls; caseous = cheesy granular debris in a granuloma.",
+  "explanation": "## Advanced explanation\n\nThese are morphological patterns of cell death; the pattern reflects the cause (ischaemia, infection, immune injury, TB) and helps diagnosis.\n\n## Simplified explanation\n\nCompare how each type looks: swelling vs shrinking, pus vs dead limb, pink vessel wall vs cheesy TB debris.",
+  "hint": "Swelling vs shrinkage.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Necrosis",
+   "Quiz II"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mention **two (2) local** and **three (3) systemic** factors that affect wound healing. *(2.5 marks)*",
+  "media": [],
+  "answer": "**Local**: infection; poor blood supply (ischaemia); foreign bodies; mechanical factors (movement, pressure); size, location and type of wound; necrotic tissue.\n\n**Systemic**: nutrition (protein, vitamin C, zinc deficiency); metabolic status (diabetes mellitus); circulatory status (atherosclerosis, venous insufficiency); hormones (glucocorticoids); age; immunosuppression.\n\n> [!answer]\n> Local – infection, poor blood supply, foreign bodies; systemic – malnutrition, diabetes, steroids, poor circulation, age.",
+  "explanation": "## Advanced explanation\n\nInfection is the most important local factor; nutritional deficiency, diabetes and glucocorticoids (which inhibit inflammation and collagen synthesis) are important systemic factors.\n\n## Simplified explanation\n\nInfection and poor blood supply locally; poor nutrition, diabetes and steroids in the body.",
+  "hint": "Local wound vs whole patient.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Tissue Repair",
+   "Quiz II"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Highlight **five (5)** complications of wound healing. *(2.5 marks)*",
+  "media": [],
+  "answer": "1. **Deficient scar formation** – wound **dehiscence** and incisional hernia; ulceration.\n2. **Excessive scar formation** – **hypertrophic scar** and **keloid**.\n3. **Exuberant granulation** ('proud flesh').\n4. **Excessive contraction** – **contractures** (e.g. after burns).\n5. **Infection**; implantation (epidermoid) cysts; pigmentation; neoplasia (e.g. squamous carcinoma in old scars – Marjolin ulcer).\n\n> [!answer]\n> Dehiscence/ulceration, hypertrophic scar/keloid, exuberant granulation, contracture, infection, implantation cyst, malignant change.",
+  "explanation": "## Advanced explanation\n\nComplications arise from **deficient** scar formation, **excessive** formation of repair components, or **contracture**.\n\n## Simplified explanation\n\nWounds can open up, overgrow (keloid, proud flesh), contract too much or get infected.",
+  "hint": "Too little, too much, or too much contraction.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Tissue Repair",
+   "Quiz II"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two paragraphs, distinguish between healing by **primary intention** and healing by **secondary intention**. *(4 marks)*",
+  "media": [],
+  "answer": "**Primary intention (first intention, primary union)** occurs in a clean, uninfected wound with **closely apposed edges** (e.g. a sutured surgical incision). Tissue loss is minimal, there is little inflammation, only a **small amount of granulation tissue**, epithelium regenerates quickly across the narrow gap, and the result is a **thin linear scar** within a short time.\n\n**Secondary intention (second intention)** occurs in **large wounds with extensive tissue loss** and separated edges (ulcers, abscesses, infarcts, open wounds). There is a larger clot, **more intense inflammation**, **abundant granulation tissue** filling the defect from the base, **wound contraction by myofibroblasts**, slower re-epithelialisation and a **larger scar**, taking longer to heal.\n\n> [!answer]\n> Primary: clean, apposed edges, little granulation, quick, thin scar. Secondary: large gap, much inflammation and granulation tissue, wound contraction, slow, larger scar.",
+  "explanation": "## Advanced explanation\n\nThe two differ in degree rather than kind: the larger the defect, the more inflammation, granulation tissue and contraction are needed.\n\n## Simplified explanation\n\nStitched clean cuts heal fast with a thin scar; big open wounds fill with granulation tissue, contract and leave a bigger scar.",
+  "hint": "Edges together vs gap.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Tissue Repair",
+   "Quiz II"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Discuss the statement: \"the **site** of tissue injury and the **extent** of tissue damage determine how a damaged tissue is repaired.\"",
+  "media": [],
+  "answer": "**Site (type of tissue)** – the proliferative capacity of the injured cells matters. Tissues of **labile** cells (epithelia, bone marrow) and **stable** cells (liver, kidney) can **regenerate**; tissues of **permanent** cells (neurons, cardiac muscle) cannot and heal by **scar (fibrosis)**. Location also affects healing through blood supply, mechanical stress and infection risk.\n\n**Extent of damage** – if injury is mild and the **extracellular matrix/basement membrane framework is intact**, surviving cells regenerate and restore normal structure (e.g. after acute tubular injury). If damage is **extensive**, with destruction of the framework (abscess, infarct, large wound), regeneration cannot restore architecture and repair occurs by **granulation tissue and scar**, and large skin wounds heal by **second intention** rather than first.\n\n> [!answer]\n> Regenerative capacity of the cell type (labile/stable vs permanent) and whether the ECM framework survives decide between regeneration and scarring.",
+  "explanation": "## Advanced explanation\n\nRepair = **regeneration** + **scar formation**. Which predominates depends on the **proliferative capacity** of the tissue and the **integrity of the ECM**, as well as the severity and duration of injury and any persistent infection.\n\n## Simplified explanation\n\nTissues that can divide regrow if their framework survives; otherwise, or in permanent tissues, they scar.",
+  "hint": "Cell type + framework.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Tissue Repair",
+   "Quiz II"
+  ]
+ }
+]

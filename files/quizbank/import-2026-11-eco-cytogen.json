@@ -1,0 +1,57 @@
+{
+  "courses": [
+    {
+      "code": "ECO101",
+      "title": "Principles of Economics I (Microeconomics)",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast ECO 101 / ECO 103 Principles of Economics I (Microeconomics) papers (2017 self-assessment and 2020/21 to 2024/25 quizzes, tutorial set, end-of-semester and resit exams, plus an ECO 207 Elements of Microeconomics paper): economic methodology, positive vs normative economics, scarcity and opportunity cost, the PPF, demand and supply, elasticity, price controls and taxes, consumer and producer surplus, utility and consumer equilibrium, production and costs, perfect competition and monopoly. Every question has a worked solution.",
+      "updateDescription": true,
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Economics",
+        "ECO103"
+      ],
+      "files": [
+        "eco101-principles-of-economics-i-p01.json",
+        "eco101-principles-of-economics-i-p02.json"
+      ]
+    },
+    {
+      "code": "ECO102",
+      "title": "Principles of Economics II (Macroeconomics)",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast ECO 102 / ECO 104 Principles of Economics II (Macroeconomics) papers (2017/18, 2018/19, 2023/24, 2024/25 and undated papers), the departmental tutorial set and assignment: national income accounting, GDP and living standards, productivity and growth, unemployment, inflation and price indices (CPI and GDP deflator), consumption and saving, income determination and the multiplier, fiscal policy, money, banking and the money multiplier, international trade, exchange rates and the Phillips curve. Every question has a worked solution.",
+      "updateDescription": true,
+      "examQuestions": 30,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Economics",
+        "ECO104"
+      ],
+      "files": [
+        "eco102-principles-of-economics-ii-p01.json",
+        "eco102-principles-of-economics-ii-p02.json"
+      ]
+    },
+    {
+      "code": "BIO102D",
+      "title": "Basic Cytology and Genetics",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast (College of Distance Education) BIO 102D Basic Cytology and Genetics papers (2021/22 Semester II quiz and end-of-semester exam): cell theory, microscopy, prokaryotic cells, organelles and the nucleus, cell division, photosynthesis, Mendelian genetics, variation and evolution. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 30,
+      "tags": [
+        "UCC",
+        "Biology",
+        "Cytology",
+        "Genetics"
+      ],
+      "files": [
+        "bio102d-basic-cytology-and-genetics.json"
+      ]
+    }
+  ]
+}

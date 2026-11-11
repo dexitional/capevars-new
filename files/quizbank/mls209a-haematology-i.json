@@ -1,0 +1,1235 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBlood plasma contains ...\n\nA. Platelets\nB. Albumin\nC. Reticulocytes\nD. Fibrinogen",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Platelets | **F** | Platelets are formed elements suspended **in** plasma, not a plasma constituent. |\n| B. Albumin | **T** | Albumin is the most abundant plasma protein. |\n| C. Reticulocytes | **F** | Reticulocytes are young red cells, a formed element. |\n| D. Fibrinogen | **T** | Fibrinogen is a plasma protein (plasma minus fibrinogen and clotting factors = serum). |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nWhole blood = **formed elements** (red cells, reticulocytes, leucocytes, platelets) suspended in **plasma**. Plasma is ~92% water plus proteins (albumin, globulins, **fibrinogen**), electrolytes, nutrients, hormones and wastes. When blood clots, fibrinogen is consumed, so **serum** lacks fibrinogen.\n\n## Simplified explanation\n\nPlasma is the liquid part of blood. Proteins like albumin and fibrinogen are dissolved in it; cells and platelets float in it but are not part of it.",
+  "hint": "Separate the liquid (plasma) from the cells floating in it.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Composition of Blood",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nExcess erythrocyte production may occur in conditions of ...\n\nA. Defective HIF 1α production\nB. Defective von Hippel Lindau protein production\nC. Defective prolyl hydroxylase enzyme production\nD. Defective pulmonary function",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Defective HIF 1α production | **F** | Without HIF-1α the erythropoietin gene is not switched on, so EPO and red-cell output fall. |\n| B. Defective von Hippel Lindau protein production | **T** | VHL tags HIF-α for destruction; without it HIF accumulates and EPO rises (e.g. Chuvash polycythaemia). |\n| C. Defective prolyl hydroxylase enzyme production | **T** | Prolyl hydroxylase (PHD2) marks HIF-α for VHL binding; loss stabilises HIF and raises EPO. |\n| D. Defective pulmonary function | **T** | Chronic hypoxia from lung disease drives EPO and causes secondary polycythaemia. |\n\n> [!answer]\n> **A F, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nIn normoxia, **prolyl hydroxylases** hydroxylate HIF-α, which is then bound by the **von Hippel-Lindau (VHL)** E3 ubiquitin ligase and degraded. In hypoxia, hydroxylation stops, HIF-α pairs with HIF-β and switches on the **EPO** gene in renal peritubular cells. Loss of VHL or PHD function, or true tissue hypoxia (lung disease, high altitude), therefore increases EPO and red cell mass. Loss of HIF itself does the opposite.\n\n## Simplified explanation\n\nLow oxygen turns on HIF, and HIF turns on EPO. Anything that keeps HIF switched on (broken VHL, broken prolyl hydroxylase, poor lungs) makes too many red cells. No HIF means no EPO.",
+  "hint": "Trace the oxygen-sensing pathway: PHD → VHL → HIF → EPO.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythropoietin & Oxygen Sensing",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nTotipotent stem cells include ...\n\nA. Hair stem cells\nB. Haematopoietic stem cells\nC. Neuronal stem cells\nD. Mesenchymal stromal cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Hair stem cells | **F** | Adult tissue stem cell: multipotent/unipotent at most. |\n| B. Haematopoietic stem cells | **F** | HSCs are multipotent: they make all blood cells only. |\n| C. Neuronal stem cells | **F** | Multipotent: neurons and glia only. |\n| D. Mesenchymal stromal cells | **F** | Multipotent: bone, cartilage, fat, stroma. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Totipotent** cells (zygote up to the early morula) can form every embryonic **and** extra-embryonic tissue (placenta). **Pluripotent** cells (inner cell mass, embryonic stem cells) form all three germ layers. Adult stem cells, including HSCs, neural, hair-follicle and mesenchymal stromal cells, are **multipotent** or unipotent.\n\n## Simplified explanation\n\nOnly the fertilised egg and its first few divisions are totipotent. All the cells listed are adult stem cells, which can only make a limited set of cell types, so all are false.",
+  "hint": "Totipotent means able to make a whole organism, including the placenta.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Stem Cells",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe characteristic features of developing erythroblasts include ...\n\nA. Haemoglobinization begins at the orthochromatophilic stage\nB. Enucleation occurs at the reticulocyte stage\nC. Proerythroblast are granulated\nD. Reticulocytes lack protein synthesis ability",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Haemoglobinization begins at the orthochromatophilic stage | **F** | Haemoglobin becomes visible earlier, at the polychromatic stage (synthesis starts even earlier). |\n| B. Enucleation occurs at the reticulocyte stage | **F** | The **orthochromatic** normoblast extrudes its nucleus; the product is the reticulocyte. |\n| C. Proerythroblast are granulated | **F** | The proerythroblast has deep blue, agranular cytoplasm. |\n| D. Reticulocytes lack protein synthesis ability | **F** | Reticulocytes still contain ribosomal RNA and keep making haemoglobin for 1–2 days. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nSequence: **pronormoblast → basophilic → polychromatic → orthochromatic normoblast → reticulocyte → erythrocyte**. Cytoplasm changes from blue (ribosomes) to grey-pink (polychromasia: RNA + Hb) to pink (Hb). Haemoglobin is first visible at the **polychromatic** stage. The **orthochromatic** normoblast ejects its nucleus (taken up by macrophages), leaving a reticulocyte that still has RNA and synthesises Hb. Erythroid precursors are agranular.\n\n## Simplified explanation\n\nHaemoglobin shows up before the last nucleated stage, the nucleus is pushed out by the orthochromatic normoblast (not the reticulocyte), red-cell precursors have no granules, and reticulocytes can still make protein. So all four are false.",
+  "hint": "Recall the order of the normoblast stages and when Hb appears.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythropoiesis",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nEffective haematopoiesis requires nutrients; the sources of various nutrients include ...\n\nA. Lemon that is rich in iron\nB. Leafy green vegetables that is rich in vitamin B12\nC. Tea that enhances iron absorption\nD. Legumes that is rich in iron",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Lemon that is rich in iron | **F** | Lemon supplies **vitamin C**, which aids iron absorption; it is not an iron source. |\n| B. Leafy green vegetables that is rich in vitamin B12 | **F** | Leafy greens are rich in **folate**; vitamin B12 comes from animal foods. |\n| C. Tea that enhances iron absorption | **F** | Tea **tannins** chelate non-haem iron and reduce absorption. |\n| D. Legumes that is rich in iron | **T** | Beans, lentils and peas are good sources of non-haem iron. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nKey haematinics: **iron** (haem iron in meat/fish/liver; non-haem iron in legumes, leafy greens), **vitamin B12** (only animal products: meat, liver, eggs, dairy), **folate** (leafy green vegetables, liver, legumes; destroyed by overcooking). **Ascorbic acid** reduces Fe³⁺ to Fe²⁺ and promotes absorption; **tannins (tea)**, phytates and calcium inhibit it.\n\n## Simplified explanation\n\nLemon helps you absorb iron, greens give folate, tea blocks iron uptake, and beans give iron. Only D is true.",
+  "hint": "Think of what each food is actually rich in.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Haematinics & Nutrition",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nTranscription factors that instruct red cell/erythrocyte lineage formation include ...\n\nA. EBF\nB. E2A\nC. FOG-1\nD. CEBPα",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. EBF | **F** | Early B-cell factor drives B-lymphocyte commitment. |\n| B. E2A | **F** | E2A is a B-lymphoid transcription factor. |\n| C. FOG-1 | **T** | Friend of GATA-1 is the GATA-1 cofactor needed for erythroid (and megakaryocytic) maturation. |\n| D. CEBPα | **F** | C/EBPα drives granulocytic differentiation. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nLineage choice is set by transcription factors: **GATA-1 + FOG-1, KLF1 (EKLF)** for erythroid cells; **GATA-1/FOG-1, FLI-1** for megakaryocytes; **PU.1** (high) for monocytes and **C/EBPα/ε** for granulocytes; **E2A, EBF, PAX5** for B cells; **GATA-3, Notch** for T cells.\n\n## Simplified explanation\n\nFOG-1 works with GATA-1 to make red cells. EBF and E2A make B cells; C/EBPα makes granulocytes.",
+  "hint": "Match each factor with the lineage it is known for.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Transcription Factors in Haematopoiesis",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nNeutrophils and eosinophils are both granulocytic cells. The differences include ...\n\nA. eosinophils do not have a promyelocyte stage during its differentiation\nB. eosinophils have only primary granules whereas neutrophils have both primary and secondary granules\nC. eosinophilic granules are blue-black when stained with Leishman stain\nD. eosinophil formation requires IL-5 whereas neutrophil formation does not",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. eosinophils do not have a promyelocyte stage during its differentiation | **F** | Both lineages pass through myeloblast → promyelocyte → myelocyte stages. |\n| B. eosinophils have only primary granules whereas neutrophils have both primary and secondary granules | **F** | Eosinophils also have primary and specific (secondary, crystalloid) granules. |\n| C. eosinophilic granules are blue-black when stained with Leishman stain | **F** | Eosinophil granules stain orange-red; blue-black granules are basophilic. |\n| D. eosinophil formation requires IL-5 whereas neutrophil formation does not | **T** | IL-5 is the key eosinophil growth factor; neutrophils depend on G-CSF. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nBoth granulocytes arise from the CFU-GM/myeloid progenitor and mature through the same morphological stages. Eosinophils have **specific crystalloid granules** containing major basic protein, which bind **eosin** (orange). Their production is driven by **IL-5** (with IL-3, GM-CSF), whereas neutrophil production is driven mainly by **G-CSF**.\n\n## Simplified explanation\n\nEosinophils go through the same stages as neutrophils and have both kinds of granules, which stain orange. The real difference is that eosinophils need IL-5.",
+  "hint": "Think about the growth factor for each cell.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Granulopoiesis",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMLS Asante prepared a stain by combining azure B and eosin Y dyes. If he uses this to stain peripheral blood thin smear, ...\n\nA. azure B is anionic\nB. azure B will bind to basic components of the cytoplasm\nC. eosin Y is cationic\nD. eosin Y will bind to the nuclear material",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. azure B is anionic | **F** | Azure B is a **basic (cationic)** dye. |\n| B. azure B will bind to basic components of the cytoplasm | **F** | Azure B binds **acidic** components (DNA, RNA, basophil granules). |\n| C. eosin Y is cationic | **F** | Eosin Y is an **acidic (anionic)** dye. |\n| D. eosin Y will bind to the nuclear material | **F** | Eosin binds **basic** components such as haemoglobin and eosinophil granules. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nIn Romanowsky stains the **cationic** thiazine dye **azure B** binds anionic groups: phosphate of DNA/RNA (nuclei, blue cytoplasm) and sulphated heparin of basophil granules. The **anionic** dye **eosin Y** binds cationic groups: haemoglobin and the arginine-rich major basic protein of eosinophil granules. The purple of nuclei (Romanowsky effect) comes from an azure B-eosin complex on DNA.\n\n## Simplified explanation\n\nAzure B is a positive (basic) dye and sticks to acidic things like nuclei. Eosin is a negative (acidic) dye and sticks to basic things like haemoglobin. Every statement has it backwards, so all are false.",
+  "hint": "Opposite charges attract: basic dyes stain acidic structures.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Romanowsky Stains",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nDuring thrombopoiesis ...\n\nA. Platelet quantitative output is inversely related to the megakaryocyte size\nB. Platelet quantitative output is directly related to megakaryocyte nuclear content\nC. Megakaryocyte size decreases with maturity\nD. A third of platelet output is retained as storage pool in the bone marrow",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Platelet quantitative output is inversely related to the megakaryocyte size | **F** | Bigger megakaryocytes produce **more** platelets. |\n| B. Platelet quantitative output is directly related to megakaryocyte nuclear content | **T** | Higher ploidy (more endomitosis) means more cytoplasm and more platelets. |\n| C. Megakaryocyte size decreases with maturity | **F** | Megakaryocytes **enlarge** as they mature (endomitosis, cytoplasmic expansion). |\n| D. A third of platelet output is retained as storage pool in the bone marrow | **F** | About one third of platelets is pooled in the **spleen**. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nMegakaryocytes undergo **endomitosis** (DNA replication without cell division) to 8N–64N; cell size and cytoplasmic volume rise with ploidy, and each megakaryocyte sheds ~1000–5000 platelets via proplatelets, so output is proportional to size and nuclear content. Of circulating platelets, about **one third is reversibly sequestered in the spleen**.\n\n## Simplified explanation\n\nAs megakaryocytes mature they get bigger and more nuclear material, and bigger ones make more platelets. The spare third of platelets sits in the spleen, not the marrow.",
+  "hint": "Endomitosis makes megakaryocytes bigger, not smaller.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Thrombopoiesis",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe features expected in a neutrophil from an individual suffering from left shift neutrophilia includes ...\n\nA. Döhle bodies\nB. Pappenheimer granules\nC. Toxic granulation\nD. Howell-Jolly bodies",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Döhle bodies | **T** | Seen in reactive (infective/inflammatory) neutrophilia. |\n| B. Pappenheimer granules | **F** | Iron granules in **red cells**, not neutrophils. |\n| C. Toxic granulation | **T** | Coarse dark primary granules typical of reactive left shift. |\n| D. Howell-Jolly bodies | **F** | DNA remnants in **red cells** (e.g. hyposplenism). |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nA **left shift** (bands, metamyelocytes, myelocytes in blood) is typical of acute bacterial infection and inflammation. The accompanying **toxic changes** in neutrophils are toxic granulation, **Döhle bodies** (pale blue rough-ER remnants), and cytoplasmic vacuolation. Pappenheimer bodies and Howell-Jolly bodies are red cell inclusions.\n\n## Simplified explanation\n\nIn infection, neutrophils show toxic granules and Döhle bodies. Pappenheimer and Howell-Jolly bodies are found in red cells.",
+  "hint": "Which of these inclusions are found in neutrophils rather than red cells?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Reactive Changes in Neutrophils",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPlatelets ...\n\nA. Are granulated\nB. Are nucleated\nC. Have mitochondria\nD. Stains purple due to presence of thrombopoietin",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Are granulated | **T** | They contain α-granules, dense granules and lysosomes. |\n| B. Are nucleated | **F** | Platelets are anucleate fragments of megakaryocyte cytoplasm. |\n| C. Have mitochondria | **T** | Platelets have mitochondria for energy metabolism. |\n| D. Stains purple due to presence of thrombopoietin | **F** | Their purple granules are azurophilic granule contents, not TPO; TPO is a hormone from the liver. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nPlatelets (2–4 µm) are anucleate but metabolically active: they contain **mitochondria**, glycogen, an open canalicular system, dense tubular system, and **α-granules** (fibrinogen, vWF, PF4, PDGF), **dense granules** (ADP, ATP, Ca²⁺, serotonin) and lysosomes. Their purple-red granularity on Romanowsky stains reflects these granules. **Thrombopoietin** is produced mainly by the liver and binds the platelet/megakaryocyte receptor c-Mpl.\n\n## Simplified explanation\n\nPlatelets have no nucleus but do have granules and mitochondria. Their purple colour comes from the granules, not thrombopoietin.",
+  "hint": "Platelets are cell fragments but still have organelles.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Platelet Structure",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPlatelet dense granules contains ...\n\nA. vWF\nB. fibrinogen\nC. cathepsin\nD. calcium",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. vWF | **F** | von Willebrand factor is stored in α-granules. |\n| B. fibrinogen | **F** | Fibrinogen is in α-granules. |\n| C. cathepsin | **F** | Cathepsins are lysosomal (λ-granule) enzymes. |\n| D. calcium | **T** | Dense (δ) granules hold Ca²⁺, ADP, ATP and serotonin. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\n**Dense (δ) granules**: ADP, ATP, **Ca²⁺**, serotonin (5-HT), pyrophosphate. **α-granules**: fibrinogen, vWF, factor V, PF4, β-thromboglobulin, PDGF, P-selectin. **Lysosomes**: acid hydrolases, cathepsins.\n\n## Simplified explanation\n\nDense granules carry small molecules: ADP, ATP, calcium and serotonin. Proteins like vWF and fibrinogen are in α-granules.",
+  "hint": "Dense granules carry small molecules, not large proteins.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Platelet Granules",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPeripheral blood thrombocytosis may be caused by ...\n\nA. Splenomegaly\nB. Iron deficiency anaemia\nC. Megaloblastic anaemia\nD. Haemorrhage",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Splenomegaly | **F** | An enlarged spleen pools more platelets, causing thrombocytopenia. |\n| B. Iron deficiency anaemia | **T** | A classic cause of reactive thrombocytosis. |\n| C. Megaloblastic anaemia | **F** | Ineffective haematopoiesis usually lowers the platelet count. |\n| D. Haemorrhage | **T** | Acute and chronic bleeding cause reactive thrombocytosis. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nReactive (secondary) thrombocytosis follows **iron deficiency, haemorrhage**, infection, inflammation, malignancy and **splenectomy**. **Splenomegaly** causes thrombocytopenia through hypersplenic pooling. **Megaloblastic anaemia** causes pancytopenia from ineffective haematopoiesis.\n\n## Simplified explanation\n\nBleeding and iron deficiency push the platelet count up. A big spleen traps platelets, and B12/folate deficiency lowers them.",
+  "hint": "Big spleen traps platelets; bleeding stimulates them.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Platelet Count Abnormalities",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nLeft shift neutrophilia implies presence of ...\n\nA. megaloblastoid cells in peripheral blood smear\nB. hypogranulated neutrophils in peripheral blood\nC. Neutrophils with no nuclear segmentation\nD. >50% bilobed neutrophils in peripheral blood",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. megaloblastoid cells in peripheral blood smear | **F** | Megaloblastoid change relates to B12/folate deficiency or dysplasia. |\n| B. hypogranulated neutrophils in peripheral blood | **F** | Hypogranularity is a dysplastic feature; reactive shift gives toxic (heavy) granulation. |\n| C. Neutrophils with no nuclear segmentation | **T** | Band forms and metamyelocytes have unsegmented nuclei. |\n| D. >50% bilobed neutrophils in peripheral blood | **F** | Predominantly bilobed neutrophils suggest Pelger-Huët anomaly. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nA **left shift** means increased immature neutrophils in blood, chiefly **band (stab) forms** with unsegmented, horseshoe-shaped nuclei, sometimes metamyelocytes and myelocytes. It reflects increased demand (bacterial infection, inflammation) and release from the marrow storage pool.\n\n## Simplified explanation\n\nLeft shift means more young neutrophils whose nuclei are not yet divided into lobes (bands).",
+  "hint": "Left = younger cells on the maturation chart.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Left Shift",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nAkwasi Mensah has been on corticosteroid therapy for the past three days. The effect this may have on his haematological parameters include ...\n\nA. Neutrophilia\nB. Lymphocytosis\nC. Eosinophilia\nD. Monocytosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Neutrophilia | **T** | Steroids release marrow neutrophils and reduce margination and tissue migration. |\n| B. Lymphocytosis | **F** | Steroids cause **lymphopenia** (redistribution and apoptosis). |\n| C. Eosinophilia | **F** | Steroids cause **eosinopenia**. |\n| D. Monocytosis | **F** | Steroids cause **monocytopenia**. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nGlucocorticoids raise the neutrophil count by **demargination**, increased release from the marrow storage pool and reduced egress into tissues. They lower **lymphocytes, eosinophils and monocytes** by redistribution to lymphoid tissue/bone marrow and by apoptosis.\n\n## Simplified explanation\n\nSteroids push neutrophils up and push lymphocytes, eosinophils and monocytes down.",
+  "hint": "Steroids raise only one type of white cell.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Drug Effects on Leucocytes",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe morphological changes that may occur when EDTA-anticoagulated blood is stored at room temperature for 12 hours include ...\n\nA. crenated red cells\nB. sphering of red blood cells\nC. vacuolization of red blood cells\nD. lobulation of lymphocytes",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. crenated red cells | **T** | Echinocytes (crenation) develop with storage in EDTA. |\n| B. sphering of red blood cells | **T** | Red cells gradually become spherocytic with storage. |\n| C. vacuolization of red blood cells | **F** | Vacuolation affects neutrophils and monocytes, not red cells, which have no organelles. |\n| D. lobulation of lymphocytes | **T** | Lymphocyte nuclei become lobulated or cleft (storage artefact). |\n\n> [!answer]\n> **A T, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nStorage artefacts of EDTA blood (worse at room temperature, after a few hours): **crenation** and progressive **sphering** of red cells (raised MCV), swelling and **vacuolation of neutrophils/monocytes**, nuclear **lobulation** of lymphocytes and pyknosis of neutrophils. Films should be made within ~3 hours of collection.\n\n## Simplified explanation\n\nOld EDTA blood shows crinkled and rounded red cells and lymphocytes with lobed nuclei. Vacuoles appear in white cells, not red cells.",
+  "hint": "Red cells have no organelles to form vacuoles.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Storage Artefacts",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn Alder-Reilly anomaly; ...\n\nA. Is sex-linked recessive disorder\nB. Neutrophils are hypo-granular\nC. Neutrophils are hypo-segmented\nD. Neutrophils have defective chemotactic response",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is sex-linked recessive disorder | **F** | Inheritance is autosomal recessive. |\n| B. Neutrophils are hypo-granular | **F** | Neutrophils contain large, dark azurophilic (mucopolysaccharide) granules. |\n| C. Neutrophils are hypo-segmented | **F** | Hyposegmentation is the Pelger-Huët anomaly. |\n| D. Neutrophils have defective chemotactic response | **F** | Neutrophil function is normal. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Alder-Reilly anomaly** is an **autosomal recessive** finding linked to mucopolysaccharidoses (Hurler, Hunter, Maroteaux-Lamy): coarse dark-purple granules of partially degraded mucopolysaccharide appear in granulocytes (and sometimes lymphocytes/monocytes). Cell **function is normal**. It must not be mistaken for toxic granulation.\n\n## Simplified explanation\n\nIn Alder-Reilly the neutrophils have extra-heavy dark granules, normal lobes and normal function, and it is autosomal recessive, so all are false.",
+  "hint": "Alder-Reilly is about heavy granules, not lobes or function.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Inherited Leucocyte Anomalies",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPlatelet function is defective in ...\n\nA. Chediak-Higashi syndrome\nB. Alder-Reilley anomaly\nC. Pelger-Huet anomaly\nD. May-Hegglin anomaly",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Chediak-Higashi syndrome | **T** | Dense-granule (storage pool) deficiency causes a bleeding tendency. |\n| B. Alder-Reilley anomaly | **F** | A granulation anomaly of leucocytes; platelets normal. |\n| C. Pelger-Huet anomaly | **F** | Nuclear hyposegmentation only; platelets normal. |\n| D. May-Hegglin anomaly | **F** | Giant platelets and thrombocytopenia, but platelet function is usually normal. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Chediak-Higashi syndrome** (LYST mutation) gives giant fused granules in leucocytes, partial albinism, immunodeficiency and a **platelet storage-pool (dense granule) deficiency** with prolonged bleeding. **May-Hegglin** (MYH9) has giant platelets and Döhle-like inclusions with mild thrombocytopenia, but platelet function is generally normal. Alder-Reilly and Pelger-Huët do not affect platelets.\n\n## Simplified explanation\n\nOnly Chediak-Higashi damages platelet granules, so platelets work poorly.",
+  "hint": "Which syndrome affects granules in many cell types?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Inherited Leucocyte Anomalies",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn Adults, neutrophil alkaline phosphatase score increases in conditions such as ...\n\nA. Mumps infection\nB. Bacterial infection\nC. Acute inflammation\nD. Chediak-Higashi syndrome",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Mumps infection | **F** | Viral infections usually do not raise the NAP score. |\n| B. Bacterial infection | **T** | Activated neutrophils in bacterial infection have a high NAP score. |\n| C. Acute inflammation | **T** | Inflammatory (leukaemoid) neutrophilia raises NAP. |\n| D. Chediak-Higashi syndrome | **F** | Not a recognised cause of a raised NAP score. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**NAP (LAP) score** is **raised** in bacterial infection, inflammation, leukaemoid reaction, pregnancy/oral contraceptives, steroid therapy, polycythaemia vera and myelofibrosis. It is **low** in CML, PNH and some MDS. It is typically normal in viral infection, so it helps separate bacterial from viral causes and leukaemoid reaction from CML.\n\n## Simplified explanation\n\nBacterial infection and acute inflammation activate neutrophils and push NAP up. Viral infections like mumps do not.",
+  "hint": "NAP rises when neutrophils are activated against bacteria.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Alkaline Phosphatase",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMigration of neutrophils in response to chemical gradients (chemotaxis) are cardinal in phagocytosis. Defective chemotactic response could occur as a result of ...\n\nA. Corticosteroid therapy\nB. Diabetes mellitus\nC. Pelger-Huet anomaly\nD. Leucoerythroblastosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Corticosteroid therapy | **T** | Steroids impair neutrophil adhesion and migration. |\n| B. Diabetes mellitus | **T** | Hyperglycaemia impairs neutrophil chemotaxis and killing. |\n| C. Pelger-Huet anomaly | **F** | Hyposegmented neutrophils function normally. |\n| D. Leucoerythroblastosis | **F** | A blood picture (immature cells in blood), not a chemotactic defect. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nAcquired chemotactic defects: **corticosteroids**, **diabetes mellitus**, alcohol, burns, malnutrition; inherited: leucocyte adhesion deficiency, Chediak-Higashi, hyper-IgE syndrome. **Pelger-Huët** neutrophils are functionally normal. **Leucoerythroblastosis** describes nucleated red cells and immature granulocytes in blood (marrow infiltration).\n\n## Simplified explanation\n\nSteroids and diabetes slow neutrophils down. Pelger-Huët cells work normally, and leucoerythroblastosis is a description of the blood film.",
+  "hint": "Separate functional defects from morphological findings.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Function",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nAntigens that are expressed on platelets include ...\n\nA. MHC II\nB. MHC I\nC. AB antigens\nD. Rh antigens",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. MHC II | **F** | MHC class II is on antigen-presenting cells, not platelets. |\n| B. MHC I | **T** | Platelets carry HLA class I antigens (cause of refractoriness). |\n| C. AB antigens | **T** | ABO antigens are present on platelets (intrinsic and adsorbed). |\n| D. Rh antigens | **F** | Rh antigens are not expressed on platelets. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nPlatelets carry **HLA class I** (important in alloimmune platelet refractoriness), **ABH antigens**, and platelet-specific **HPA** antigens on glycoproteins (e.g. HPA-1a on GPIIIa). They lack HLA class II and **Rh** antigens (Rh is erythroid-specific).\n\n## Simplified explanation\n\nPlatelets carry HLA class I and ABO antigens, but not HLA class II or Rh.",
+  "hint": "Rh is a red-cell-only system.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Platelet Antigens",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nMLS Antiaye prepared and stained a thin blood smear. When the slide was examined using x100 oil immersion lens, the lymphocytes had 2 lobes. This ...\n\nA. is a normal physiological finding\nB. is due to bacterial infection\nC. is due to viral infection\nD. sample sat on the bench for long hours before film was prepared",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. is a normal physiological finding | **F** | Normal lymphocytes have round, non-lobed nuclei. |\n| B. is due to bacterial infection | **F** | Bacterial infection affects neutrophils, not lymphocyte lobulation. |\n| C. is due to viral infection | **F** | Viral infection gives reactive lymphocytes, not bilobed nuclei. |\n| D. sample sat on the bench for long hours before film was prepared | **T** | Nuclear lobulation of lymphocytes is a storage artefact. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nIn EDTA blood stored for several hours at room temperature, lymphocyte nuclei become **lobulated or cleft**, neutrophils develop pyknosis and vacuoles, and red cells crenate. Films should be made within ~3 hours.\n\n## Simplified explanation\n\nLobed lymphocytes on a film usually mean the blood was left standing too long before the film was made.",
+  "hint": "Think artefact before disease.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Storage Artefacts",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe characteristics of reticulocytes includes ...\n\nA. Ribosomes RNA\nB. Protein synthetic ability\nC. Being nucleated\nD. Containing granules",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Ribosomes RNA | **T** | Residual ribosomal RNA forms the reticulum on supravital staining. |\n| B. Protein synthetic ability | **T** | They continue haemoglobin synthesis for 1–2 days. |\n| C. Being nucleated | **F** | Reticulocytes are anucleate. |\n| D. Containing granules | **F** | They have no granules; the 'reticulum' is precipitated RNA seen only with supravital stains. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nReticulocytes are anucleate, slightly larger than mature red cells, contain residual **ribosomal RNA** (precipitated by new methylene blue/brilliant cresyl blue as a blue reticulum) and mitochondria, and continue to **synthesise haemoglobin**. They mature in marrow ~1–2 days and in blood ~1 day; on Romanowsky stain they appear as polychromatic cells.\n\n## Simplified explanation\n\nReticulocytes are young red cells: no nucleus, but still some RNA, so they can still make haemoglobin.",
+  "hint": "Reticulocyte = red cell that has just lost its nucleus.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Reticulocytes",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nHaematopoietic cells that are normally found in peripheral blood include ...\n\nA. megakaryocyte\nB. reticulocyte\nC. plasma cell\nD. nucleated red blood cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. megakaryocyte | **F** | Megakaryocytes stay in the marrow; only platelets circulate. |\n| B. reticulocyte | **T** | Normally 0.5–2.5% of red cells in adults. |\n| C. plasma cell | **F** | Plasma cells live in marrow and lymphoid tissue, not normal blood. |\n| D. nucleated red blood cells | **F** | Normal only in neonates; in adults they indicate disease. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nNormal adult blood contains erythrocytes, **reticulocytes** (0.5–2.5%), neutrophils, lymphocytes, monocytes, eosinophils, basophils and platelets. Megakaryocytes, plasma cells and nucleated red cells are marrow cells; their presence in blood is abnormal (except NRBCs in the newborn).\n\n## Simplified explanation\n\nOf the four, only reticulocytes normally circulate in adult blood.",
+  "hint": "Which cell is counted in a routine reticulocyte count?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Normal Blood Film",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe cells that form the erythroblastic islands includes ...\n\nA. Monocytes\nB. Megakaryocytes\nC. Macrophages\nD. Mast cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Monocytes | **F** | Circulating cells; not the central island cell. |\n| B. Megakaryocytes | **F** | Not part of erythroblastic islands. |\n| C. Macrophages | **T** | A central 'nurse' macrophage surrounded by erythroblasts. |\n| D. Mast cells | **F** | Not part of erythroblastic islands. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nAn **erythroblastic island** is a **central macrophage** surrounded by developing erythroblasts. The macrophage supplies iron (ferritin), growth signals and adhesion (EMP, VCAM-1/α4β1), and phagocytoses the extruded nuclei.\n\n## Simplified explanation\n\nRed-cell precursors cluster around a central macrophage that feeds them iron and eats their nuclei.",
+  "hint": "A 'nurse cell' sits in the middle.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Erythropoiesis",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIf frothing occurs when venous blood sample is drawn, this can lead to ...\n\nA. haemolysis\nB. platelet activation\nC. increased [haemoglobin]\nD. increased platelet count",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. haemolysis | **T** | Turbulence and air bubbles rupture red cells. |\n| B. platelet activation | **T** | Turbulence activates platelets (clumping). |\n| C. increased [haemoglobin] | **F** | Haemolysis does not raise the total haemoglobin measured. |\n| D. increased platelet count | **F** | Activated platelets clump, so the count is **falsely low**. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nFrothing during venepuncture (poor needle fit, small needle, forceful aspiration) causes **haemolysis** and **platelet activation/clumping**. The result is a falsely low platelet count, possible small clots, and haemolysed plasma (raised K⁺, LDH). Total Hb is unchanged or slightly affected; it is not raised.\n\n## Simplified explanation\n\nBubbles and turbulence burst red cells and make platelets stick together, so the platelet count drops.",
+  "hint": "Clumped platelets are not counted.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Specimen Collection",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nGranulopoiesis; ...\n\nA. Primary granules are formed at the myeloblast stage\nB. Secondary granules are formed at the myelocyte stage\nC. Mitotic pool includes myelocytes and metamyelocyte\nD. Eosinophil formation occurs in the tonsils",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Primary granules are formed at the myeloblast stage | **F** | Primary (azurophilic) granules are formed at the **promyelocyte** stage. |\n| B. Secondary granules are formed at the myelocyte stage | **T** | Specific (secondary) granules appear at the myelocyte stage. |\n| C. Mitotic pool includes myelocytes and metamyelocyte | **F** | The mitotic pool is myeloblast, promyelocyte and myelocyte; metamyelocytes can no longer divide. |\n| D. Eosinophil formation occurs in the tonsils | **F** | Eosinophils are made in the bone marrow. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nMarrow granulocyte compartments: **mitotic (proliferating) pool**: myeloblast, promyelocyte, myelocyte; **maturation/storage pool**: metamyelocyte, band, segmented neutrophil. **Primary (azurophilic) granules** containing MPO are synthesised in the **promyelocyte**; **secondary (specific)** granules (lactoferrin, lysozyme) begin in the **myelocyte**. All granulocytes, including eosinophils, are produced in the bone marrow.\n\n## Simplified explanation\n\nPrimary granules come in at the promyelocyte, secondary granules at the myelocyte. Metamyelocytes can't divide any more, and eosinophils are made in the marrow.",
+  "hint": "The myelocyte is the last cell that can divide.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Granulopoiesis",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Both red blood cells and neutrophils uses glucose 6 phosphate dehydrogenase (G6PD) enzyme in their metabolic adaptations. In not more than two sentences, explain the main differences in the end-products of the use of G6PD enzyme by these two haematopoietic cells.",
+  "media": [],
+  "answer": "In both cells G6PD (hexose monophosphate shunt) generates **NADPH**, but:\n\n- **Red cells** use NADPH (via glutathione reductase) to keep **glutathione reduced (GSH)**, which detoxifies H₂O₂ and protects haemoglobin and the membrane from **oxidant damage**.\n- **Neutrophils** use NADPH as the electron donor for **NADPH oxidase**, producing **superoxide, H₂O₂ and hypochlorous acid** (respiratory burst) to **kill ingested microbes**.\n\n> [!answer]\n> Red cell: NADPH → reduced glutathione → antioxidant protection. Neutrophil: NADPH → NADPH oxidase → reactive oxygen species for microbial killing.",
+  "explanation": "## Advanced explanation\n\nG6PD catalyses the first step of the pentose phosphate pathway: glucose-6-phosphate + NADP⁺ → 6-phosphogluconolactone + **NADPH**. The red cell has no other NADPH source; NADPH regenerates GSH, which with glutathione peroxidase removes H₂O₂ (G6PD deficiency → Heinz bodies, haemolysis). In the neutrophil, NADPH oxidase (gp91phox) transfers electrons from NADPH to O₂ to form O₂⁻, then H₂O₂ and, via myeloperoxidase, HOCl (deficient in chronic granulomatous disease; severe G6PD deficiency can mimic CGD).\n\n## Simplified explanation\n\nBoth cells make NADPH with G6PD. Red cells use it to defend against oxidants; neutrophils use it to make oxidants that kill germs.",
+  "hint": "Defence (red cell) versus attack (neutrophil).",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Red Cell & Neutrophil Metabolism",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than one sentence explain why splenectomy adversely affects platelet count.",
+  "media": [],
+  "answer": "The spleen normally pools about **one third** of the body's platelets; after splenectomy this pool is released and platelet removal falls, so the count rises (**post-splenectomy thrombocytosis**).\n\n> [!answer]\n> Loss of the splenic platelet pool (~⅓ of platelets) causes thrombocytosis.",
+  "explanation": "## Advanced explanation\n\nAbout 30–35% of the platelet mass is sequestered in the splenic red pulp in equilibrium with blood; the spleen also removes aged platelets. Splenectomy releases this pool and reduces clearance, giving a reactive thrombocytosis (often >600 × 10⁹/L) that can persist and carries a thrombosis risk.\n\n## Simplified explanation\n\nThe spleen stores a third of platelets. Take it out and they all stay in the blood, so the count goes up.",
+  "hint": "Where is a third of the body's platelets normally kept?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Spleen & Platelets",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than one sentence, explain whether defective function of superoxide dismutase impact oxidant stress or not on red blood cells.",
+  "media": [],
+  "answer": "Yes: superoxide dismutase converts **superoxide (O₂⁻)** to H₂O₂ (then removed by catalase/glutathione peroxidase), so defective SOD lets superoxide accumulate, **increasing oxidant stress** and oxidative damage (methaemoglobin, Heinz bodies, haemolysis).\n\n> [!answer]\n> Yes, it increases oxidant stress because superoxide is no longer dismutated.",
+  "explanation": "## Advanced explanation\n\nRed cells constantly generate O₂⁻ from Hb autoxidation (oxyHb → metHb + O₂⁻). **SOD** dismutes 2O₂⁻ + 2H⁺ → H₂O₂ + O₂; **catalase** and **glutathione peroxidase** (with GSH regenerated via NADPH from G6PD) remove H₂O₂. Failure at the SOD step leaves superoxide to oxidise haemoglobin and membrane lipids.\n\n## Simplified explanation\n\nSOD is the first clean-up enzyme for superoxide. If it fails, superoxide builds up and damages the red cell.",
+  "hint": "SOD is the first antioxidant enzyme in the chain.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Red Cell Oxidant Defence",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two (2) characteristic features of neutrophils in leukaemoid reaction that makes them different from a neutrophil in a leukaemia.",
+  "media": [],
+  "answer": "Any two:\n\n- **Toxic granulation**\n- **Döhle bodies** and/or cytoplasmic **vacuolation**\n- **High neutrophil alkaline phosphatase (NAP) score** (low in CML)\n- Predominantly **mature** neutrophils and bands with few myelocytes/blasts\n\n> [!answer]\n> Toxic granulation/Döhle bodies and a high NAP score.",
+  "explanation": "## Advanced explanation\n\nA **leukaemoid reaction** is a reactive leucocytosis (>50 × 10⁹/L) to severe infection, haemorrhage or malignancy. The neutrophils are activated, so they show toxic changes and a **raised NAP**. In **CML**, NAP is low, toxic changes are absent, and there is a 'myelocyte bulge' with basophilia and the BCR-ABL1 fusion.\n\n## Simplified explanation\n\nIn a leukaemoid reaction neutrophils look like they are fighting infection (toxic granules, Döhle bodies) and have a high NAP. Leukaemic neutrophils do not.",
+  "hint": "Reactive neutrophils show signs of activation.",
+  "difficulty": "medium",
+  "marks": 2,
+  "tags": [
+   "Leukaemoid Reaction",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than one sentence, explain why granules of basophils stain blue-black in a Romanowsky stain.",
+  "media": [],
+  "answer": "Basophil granules contain strongly **acidic (anionic) sulphated heparin** (and chondroitin sulphate), which binds the **basic (cationic) dye azure B/methylene blue**, staining them blue-black.\n\n> [!answer]\n> Acidic heparin in the granules binds the basic azure dye.",
+  "explanation": "## Advanced explanation\n\nRomanowsky staining depends on charge: cationic thiazine dyes (azure B, methylene blue) bind anionic groups (phosphate, sulphate, carboxyl). Heparin is the most highly sulphated molecule in the body, so basophil granules bind azure B intensely and show **metachromasia** (purple-black).\n\n## Simplified explanation\n\nThe granules are very acidic, so they soak up the blue basic dye.",
+  "hint": "Acidic structures bind basic dyes.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Romanowsky Stains",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two (2) sentences, explain how impaired von Hippel Lindau protein function will have on erythropoiesis.",
+  "media": [],
+  "answer": "VHL protein normally targets hydroxylated **HIF-α for ubiquitination and degradation** in normoxia; if VHL is impaired, HIF-α is stabilised even in normal oxygen, so **EPO is overproduced** and erythropoiesis is increased, causing **erythrocytosis/polycythaemia** (e.g. Chuvash polycythaemia).\n\n> [!answer]\n> HIF is not degraded → excess EPO → increased erythropoiesis (secondary polycythaemia).",
+  "explanation": "## Advanced explanation\n\nOxygen-dependent prolyl hydroxylases hydroxylate HIF-α; VHL (an E3 ligase component) binds hydroxylated HIF-α and sends it for proteasomal degradation. Homozygous VHL R200W (Chuvash) or VHL tumour syndromes stabilise HIF, raising EPO and causing a congenital/secondary erythrocytosis with high EPO.\n\n## Simplified explanation\n\nVHL normally destroys HIF. If VHL doesn't work, HIF stays switched on, the kidney makes more EPO and the marrow makes too many red cells.",
+  "hint": "VHL is the 'off switch' for HIF.",
+  "difficulty": "medium",
+  "marks": 3,
+  "tags": [
+   "Erythropoietin & Oxygen Sensing",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two (2) examples of a Romanowsky stain.",
+  "media": [],
+  "answer": "Any two: **Leishman**, **Giemsa**, **Wright**, **May-Grünwald-Giemsa**, **Jenner**, **Field's** stain.\n\n> [!answer]\n> Leishman and Giemsa (also Wright, May-Grünwald-Giemsa, Jenner, Field's).",
+  "explanation": "## Advanced explanation\n\nRomanowsky stains combine a cationic thiazine dye (methylene blue and its oxidation products, especially **azure B**) with the anionic dye **eosin Y**, dissolved in methanol (fixative) and buffered at pH 6.8–7.2. Leishman, Giemsa, Wright, Jenner, May-Grünwald and Field's are all variants.\n\n## Simplified explanation\n\nLeishman and Giemsa are the two most common blood-film stains of this type.",
+  "hint": "Think of the stains used for blood films and malaria.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Romanowsky Stains",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than one sentence, explain why the granules of eosinophils stain orange in a Romanowsky stain.",
+  "media": [],
+  "answer": "Eosinophil granules contain strongly **basic (cationic), arginine-rich proteins** such as **major basic protein**, which bind the **acidic (anionic) dye eosin**, staining them orange-red.\n\n> [!answer]\n> Basic proteins in the granules bind the acidic dye eosin.",
+  "explanation": "## Advanced explanation\n\nEosinophil specific granules have a crystalloid core of **major basic protein** plus eosinophil cationic protein, eosinophil peroxidase and eosinophil-derived neurotoxin. Their positive charge attracts the negatively charged eosin Y, giving the bright orange colour.\n\n## Simplified explanation\n\nThe granules are full of basic proteins, so they pick up the orange acidic dye eosin.",
+  "hint": "Basic structures bind acidic dyes.",
+  "difficulty": "easy",
+  "marks": 3,
+  "tags": [
+   "Romanowsky Stains",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "For each item, write the letter of the correct definition from the list (each definition can be used only once).\n\n**Terms:** (i) Leucoerythroblastosis (ii) Basophilic stippling (iii) Thrombopoietin (iv) Myeloperoxidase (v) ADP (vi) Howell-Jolly bodies (vii) Anisocytosis (viii) Hypochromia (ix) Superoxide dismutase (x) 5-hydroxytryptamine (xi) PU.1 (xii) Fibrinogen (xiii) Poikilocytosis\n\n**Definitions:**\nA. Inhibitor of platelet aggregation\nB. Activator of platelet aggregation\nC. Transcription factor for erythropoiesis\nD. Transcription inducing monopoiesis\nE. Transcription factor inducing thrombopoiesis\nF. Transcription factor inducing granulopoiesis\nG. Induces hydrogen peroxide formation\nH. Induces singlet oxygen formation\nI. Red cells having reduced haemoglobin content\nJ. Varying red cell sizes\nK. Varying red cell shapes\nL. Presence of immature erythroid and granulocytic cells in peripheral blood\nM. Clusters of cytoplasmic DNA in circulating erythrocytes\nN. Clusters of cytoplasmic RNA in circulating erythrocytes\nO. Iron granules in erythrocytes\nP. Vasodilator\nQ. Vasoconstrictor\nR. Growth factor for platelet formation\nS. Growth factor for erythrocyte formation\nT. Binds to platelet glycoprotein Ia\nU. Binds to platelet glycoprotein IIIa/IIb\nV. Catalyses formation of hypochloric ion in neutrophils",
+  "media": [],
+  "answer": "| Term | Letter |\n|---|---|\n| Leucoerythroblastosis | **L** |\n| Basophilic stippling | **N** |\n| Thrombopoietin | **R** |\n| Myeloperoxidase | **V** |\n| ADP | **B** |\n| Howell-Jolly bodies | **M** |\n| Anisocytosis | **J** |\n| Hypochromia | **I** |\n| Superoxide dismutase | **G** |\n| 5-hydroxytryptamine | **Q** |\n| PU.1 | **D** |\n| Fibrinogen | **U** |\n| Poikilocytosis | **K** |\n\n> [!answer]\n> L, N, R, V, B, M, J, I, G, Q, D, U, K",
+  "explanation": "## Advanced explanation\n\n- **Leucoerythroblastosis**: nucleated red cells + immature granulocytes in blood (marrow infiltration, fibrosis).\n- **Basophilic stippling**: aggregated ribosomal **RNA** (lead poisoning, thalassaemia); **Howell-Jolly bodies** are **DNA** remnants (hyposplenism); Pappenheimer bodies are iron (O, unused).\n- **Thrombopoietin** drives megakaryocyte/platelet production (R); EPO would be S.\n- **Myeloperoxidase** converts H₂O₂ + Cl⁻ → HOCl.\n- **ADP** (dense granules) activates aggregation via P2Y1/P2Y12.\n- **SOD** converts superoxide to H₂O₂.\n- **Serotonin (5-HT)** from dense granules is a vasoconstrictor.\n- **PU.1** at high levels drives monocyte/macrophage differentiation (C/EBPα drives granulocytes).\n- **Fibrinogen** bridges platelets through **GPIIb/IIIa** (αIIbβ3); collagen binds GPIa/IIa.\n- **Anisocytosis** = variation in size; **poikilocytosis** = variation in shape; **hypochromia** = reduced Hb content (pale cells).\n\n## Simplified explanation\n\nMatch each word to what it does: e.g. TPO makes platelets, ADP makes platelets stick, fibrinogen joins platelets through GPIIb/IIIa, anisocytosis means different sizes and poikilocytosis means different shapes.",
+  "hint": "RNA stippling vs DNA Howell-Jolly bodies is a common trap.",
+  "difficulty": "medium",
+  "marks": 13,
+  "tags": [
+   "Haematology Terminology",
+   "2019/20 End of First Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe haematopoietic stem cells of a 60 years-old man are not identical to that of the same person when he was 1 year old. The changes that occur in the haematopoietic stem cells as a person ages include ...\n\nA. Accumulation of telomerase\nB. Accumulation of intracellular proteins\nC. Enhanced DNA repair mechanism\nD. Telomere elongation",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Accumulation of telomerase | **F** | Telomerase activity is low in HSCs and does not accumulate; telomeres shorten with age. |\n| B. Accumulation of intracellular proteins | **T** | Aged HSCs accumulate damaged/aggregated proteins (loss of proteostasis). |\n| C. Enhanced DNA repair mechanism | **F** | DNA damage accumulates because repair becomes less efficient. |\n| D. Telomere elongation | **F** | Telomeres **shorten** with each division and with age. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHallmarks of HSC ageing: **telomere attrition**, accumulation of **DNA damage** (declining repair), loss of **proteostasis** with accumulation of protein aggregates, mitochondrial dysfunction and ROS, epigenetic drift, and a **myeloid-biased**, less regenerative HSC pool with clonal haematopoiesis.\n\n## Simplified explanation\n\nOld stem cells have shorter telomeres, more DNA damage and pile up junk proteins. They do not gain telomerase or better DNA repair.",
+  "hint": "Ageing means damage builds up and repair gets worse.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Stem Cells",
+   "Haematopoietic Ageing",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the ontogeny of haematopoiesis ...\n\nA. primitive haematopoiesis begins in the AGM\nB. definitive haematopoiesis begins in the yolk sac\nC. primitive haematopoiesis forms only erythrocytes\nD. definitive haematopoiesis does not form macrophages",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. primitive haematopoiesis begins in the AGM | **F** | Primitive haematopoiesis begins in the **yolk sac** blood islands. |\n| B. definitive haematopoiesis begins in the yolk sac | **F** | Definitive HSCs arise in the **aorta-gonad-mesonephros (AGM)** region. |\n| C. primitive haematopoiesis forms only erythrocytes | **F** | It also yields macrophages and megakaryocytes, although nucleated erythrocytes dominate. |\n| D. definitive haematopoiesis does not form macrophages | **F** | Definitive HSCs give rise to all lineages, including monocytes/macrophages. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Primitive** haematopoiesis starts in the extra-embryonic **yolk sac** (~day 16–19), producing large nucleated erythrocytes (embryonic Hb: Gower, Portland) plus macrophages and megakaryocytes. **Definitive** HSCs emerge from haemogenic endothelium of the **AGM** region (~week 4–5), then seed the **fetal liver** (main site from ~6 weeks to mid-gestation), spleen, and finally the **bone marrow**, which becomes the main site in late fetal life.\n\n## Simplified explanation\n\nThe first blood cells come from the yolk sac; the true stem cells come from the AGM. Primitive blood also makes some macrophages and megakaryocytes, and true stem cells make every type of blood cell. So all four are false.",
+  "hint": "Yolk sac = primitive; AGM = definitive.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Ontogeny of Haematopoiesis",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nComponents of the bone marrow niche includes ...\n\nA. Macrophages\nB. Mesenchymal stromal cells\nC. Osteoclasts\nD. Endothelial cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Macrophages | **T** | Macrophages retain HSCs (e.g. via CXCL12-producing stroma) and form erythroblastic islands. |\n| B. Mesenchymal stromal cells | **T** | CXCL12-abundant reticular and LepR⁺ stromal cells are core niche cells. |\n| C. Osteoclasts | **T** | Endosteal niche: bone remodelling by osteoclasts releases Ca²⁺ and growth factors that regulate HSCs. |\n| D. Endothelial cells | **T** | The perivascular (sinusoidal) niche is formed by endothelial cells. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nThe HSC **niche** has an **endosteal** component (osteoblasts, osteoclasts) and a **perivascular** component (sinusoidal **endothelial cells**, CXCL12/SCF-producing **mesenchymal stromal cells**, pericytes), plus **macrophages**, megakaryocytes, sympathetic nerves and adipocytes. They provide SCF, CXCL12, angiopoietin-1, TPO and adhesion molecules that maintain quiescence and self-renewal.\n\n## Simplified explanation\n\nThe stem-cell 'home' in the marrow is built from bone cells, stromal cells, blood-vessel lining cells and macrophages, so all four are true.",
+  "hint": "Think endosteal plus perivascular niches.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Bone Marrow Niche",
+   "2019/20 End of First Semester Exam",
+   "2019/20 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe functions of the Luebering-Rapoport pathway in red blood cells include ...\n\nA. Generation of NADPH\nB. Generation of 2ATP molecules\nC. Conversion of glucose 6 phosphate to 6-phosphogluconate\nD. Generation of 1,3 diphosphoglycerate",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Generation of NADPH | **F** | NADPH comes from the hexose monophosphate (pentose phosphate) shunt. |\n| B. Generation of 2ATP molecules | **F** | The shunt **bypasses** the ATP-generating phosphoglycerate kinase step, so ATP is lost, not gained. |\n| C. Conversion of glucose 6 phosphate to 6-phosphogluconate | **F** | That is the G6PD step of the pentose phosphate pathway. |\n| D. Generation of 1,3 diphosphoglycerate | **F** | The shunt **consumes** 1,3-BPG to make 2,3-BPG. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nIn the **Rapoport-Luebering shunt**, bisphosphoglycerate mutase converts **1,3-BPG → 2,3-BPG**, and 2,3-BPG phosphatase converts it to 3-phosphoglycerate, rejoining glycolysis. Its function is to produce **2,3-BPG**, which binds deoxy-Hb and lowers O₂ affinity. The cost is the loss of one ATP per glucose diverted.\n\n## Simplified explanation\n\nThis side-path of glycolysis exists to make 2,3-BPG. It does not make NADPH or ATP, and it uses up 1,3-BPG rather than making it, so all four are false.",
+  "hint": "What is the one product this shunt is named for?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Metabolism",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe functions of 2,3-diphosphoglycerate in the function of red blood cells include ...\n\nA. Conversion of methaemoglobin to haemoglobin\nB. Increased oxygen affinity of haemoglobin\nC. Maintaining of sulphydryl groups of red blood cell in their reduced form\nD. Conversion of GSSG to GSH",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Conversion of methaemoglobin to haemoglobin | **F** | Done by NADH-cytochrome b5 (methaemoglobin) reductase. |\n| B. Increased oxygen affinity of haemoglobin | **F** | 2,3-DPG **decreases** O₂ affinity (shifts the curve to the right). |\n| C. Maintaining of sulphydryl groups of red blood cell in their reduced form | **F** | That is the job of reduced glutathione (GSH). |\n| D. Conversion of GSSG to GSH | **F** | Glutathione reductase does this using NADPH. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n2,3-DPG binds in the central cavity between the β-chains of **deoxyhaemoglobin**, stabilising the T (tense) state, which **lowers O₂ affinity** and favours O₂ release to tissues (right shift). Methaemoglobin reduction (NADH-methaemoglobin reductase) and thiol protection (GSH, glutathione reductase with NADPH) are separate pathways.\n\n## Simplified explanation\n\n2,3-DPG helps haemoglobin let go of oxygen. The other jobs listed belong to other enzymes, so all four are false.",
+  "hint": "2,3-DPG has one main job in oxygen delivery.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Metabolism",
+   "Oxygen Dissociation",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the membrane structure of red blood cells, **transmembrane proteins** that provide cytoskeletal support include ...\n\nA. Ankyrin\nB. Spectrin\nC. Band 3 protein\nD. Protein 4.2",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Ankyrin | **F** | Ankyrin is a **peripheral** (cytoplasmic) protein linking spectrin to band 3. |\n| B. Spectrin | **F** | Spectrin is the **peripheral** cytoskeletal lattice under the membrane. |\n| C. Band 3 protein | **T** | Band 3 spans the bilayer and anchors the skeleton via ankyrin/protein 4.2. |\n| D. Protein 4.2 | **F** | Protein 4.2 is **peripheral**, stabilising the band 3-ankyrin link. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nRed cell membrane = lipid bilayer + **integral (transmembrane) proteins** (band 3, glycophorins A/B/C, Rh proteins, aquaporin, GLUT1) + **peripheral skeletal proteins** (α/β-spectrin, ankyrin, protein 4.1, 4.2, actin, adducin, tropomyosin). **Vertical** links: band 3–ankyrin–β-spectrin (with 4.2) and glycophorin C–protein 4.1. **Horizontal** links: spectrin dimer–dimer and spectrin–actin–4.1 junctional complexes.\n\n## Simplified explanation\n\nOnly band 3 crosses the membrane; ankyrin, spectrin and protein 4.2 sit underneath it. (Glycophorins are also transmembrane.)",
+  "hint": "Which protein actually crosses the lipid bilayer?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Membrane",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the membrane red blood cell, ...\n\nA. Horizontal interaction is conferred by Ankyrin-to-alpha spectrin interaction\nB. Sialic acid is anchored on band 3 proteins\nC. Membrane cholesterol is in equilibrium with plasma cholesterol\nD. Presence of Band 4.2 proteins confers a net negative charge to red blood cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Horizontal interaction is conferred by Ankyrin-to-alpha spectrin interaction | **F** | Ankyrin binds **β**-spectrin and is a **vertical** interaction. |\n| B. Sialic acid is anchored on band 3 proteins | **F** | Sialic acid is carried mainly on **glycophorins**. |\n| C. Membrane cholesterol is in equilibrium with plasma cholesterol | **T** | Red cell cholesterol exchanges freely with plasma (e.g. target cells in liver disease). |\n| D. Presence of Band 4.2 proteins confers a net negative charge to red blood cells | **F** | The negative charge (zeta potential) comes from sialic acid on glycophorins. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Vertical** interactions (bilayer to skeleton): band 3–ankyrin–β-spectrin, protein 4.2, glycophorin C–4.1R; defects cause hereditary spherocytosis. **Horizontal** interactions (within the skeleton): spectrin heterodimer self-association and spectrin–actin–protein 4.1; defects cause elliptocytosis/pyropoikilocytosis. **Sialic acid** on glycophorins gives the red cell its negative surface charge (zeta potential). Membrane **cholesterol** equilibrates with plasma lipoproteins, so raised plasma cholesterol/bile acids (obstructive jaundice) expands the membrane and forms target cells.\n\n## Simplified explanation\n\nAnkyrin makes vertical links, sialic acid sits on glycophorins and gives the negative charge, and red-cell cholesterol swaps with plasma cholesterol. Only C is true.",
+  "hint": "Vertical = bilayer to skeleton; horizontal = within the skeleton.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Red Cell Membrane",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn describing red cells on peripheral smear ...\n\nA. Acanthocytosis refers to variation in cell shapes\nB. Anisocytosis refers to cell sizes\nC. Variation in cell staining is referred to as hypochromasia\nD. Presence of sickle cell is referred to as acanthocytosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Acanthocytosis refers to variation in cell shapes | **F** | Variation in shape is **poikilocytosis**; acanthocytes are cells with irregular spiky projections. |\n| B. Anisocytosis refers to cell sizes | **T** | Anisocytosis = variation in red cell size. |\n| C. Variation in cell staining is referred to as hypochromasia | **F** | Variation in staining is **anisochromasia**; hypochromasia is reduced staining (low Hb). |\n| D. Presence of sickle cell is referred to as acanthocytosis | **F** | Sickle cells are **drepanocytes**. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nTerminology: **anisocytosis** (size variation), **poikilocytosis** (shape variation), **anisochromasia** (variation in staining), **hypochromia** (pale cells, increased central pallor, low MCH), **acanthocytes** (few irregular spicules; abetalipoproteinaemia, liver disease), **echinocytes** (regular crenation), **drepanocytes** (sickle cells).\n\n## Simplified explanation\n\nAniso = size, poikilo = shape, hypochromia = pale. Sickle cells are called drepanocytes.",
+  "hint": "Learn the Greek prefixes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Red Cell Morphology",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe primary granules of granulocytes contain ...\n\nA. Lactoferrin\nB. Acid phosphatase\nC. Collagenase\nD. Myeloperoxidase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Lactoferrin | **F** | A marker of **secondary (specific)** granules. |\n| B. Acid phosphatase | **T** | Primary (azurophilic) granules are lysosomal and contain acid hydrolases. |\n| C. Collagenase | **F** | Collagenase is in **secondary** granules. |\n| D. Myeloperoxidase | **T** | MPO is the marker enzyme of primary granules. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\n**Primary (azurophilic)** granules (formed at the promyelocyte stage): **myeloperoxidase**, acid phosphatase and other acid hydrolases, elastase, cathepsin G, defensins, lysozyme. **Secondary (specific)** granules (myelocyte stage): **lactoferrin**, **collagenase**, lysozyme, vitamin B12-binding protein. **Tertiary** granules: gelatinase. The NAP enzyme is in secretory vesicles.\n\n## Simplified explanation\n\nPrimary granules are lysosome-like: MPO and acid phosphatase. Lactoferrin and collagenase belong to secondary granules.",
+  "hint": "MPO marks the primary granule; lactoferrin marks the secondary.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Granules",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe storage pool of granulocytes includes ...\n\nA. Promyelocytes\nB. Myelocytes\nC. Metamyelocytes\nD. Blast cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Promyelocytes | **F** | Promyelocytes divide: mitotic (proliferating) pool. |\n| B. Myelocytes | **F** | Myelocytes are the last dividing stage: mitotic pool. |\n| C. Metamyelocytes | **T** | Non-dividing metamyelocytes, bands and segmented neutrophils form the maturation-storage pool. |\n| D. Blast cells | **F** | Myeloblasts belong to the mitotic pool. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nMarrow neutrophil compartments: **mitotic (proliferating) pool**: myeloblasts, promyelocytes, myelocytes (~3–5 days); **maturation-storage pool**: **metamyelocytes**, bands and segmented neutrophils (~5–7 days), a reserve of several days' supply released under stress (infection, steroids). Blood has a **circulating** and a **marginating** pool of roughly equal size.\n\n## Simplified explanation\n\nCells that can no longer divide (from the metamyelocyte on) wait in the marrow as a store, ready for release.",
+  "hint": "Storage = non-dividing cells.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Granulocyte Kinetics",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nGrowth factors responsible for eosinophil formation include ...\n\nA. Eosinopoietin\nB. IL-6\nC. G-CSF\nD. M-CSF",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Eosinopoietin | **T** | Eosinopoietin is the old name for **IL-5**, the main eosinophil growth factor. |\n| B. IL-6 | **F** | IL-6 is mainly an acute-phase and thrombopoietic cytokine. |\n| C. G-CSF | **F** | G-CSF drives neutrophil production. |\n| D. M-CSF | **F** | M-CSF drives monocyte/macrophage production. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nEosinophil production is driven by **IL-5** (historically 'eosinopoietin'), helped by IL-3 and GM-CSF, mainly from Th2 lymphocytes. G-CSF → neutrophils; M-CSF → monocytes; IL-6 → acute phase response, megakaryopoiesis.\n\n## Simplified explanation\n\nIL-5 (eosinopoietin) is the growth factor for eosinophils.",
+  "hint": "Each CSF is named for the cell it makes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Granulopoiesis",
+   "2019/20 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nSources of haematopoietic stem cells (HSCs) includes ...\n\nA. Bone marrow in adults\nB. Spleen in adults\nC. Umbilical cord blood in at-term babies\nD. Peripheral blood in adults",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Bone marrow in adults | **T** | The main HSC reservoir in adults. |\n| B. Spleen in adults | **F** | The adult spleen is not a normal source of HSCs. |\n| C. Umbilical cord blood in at-term babies | **T** | Cord blood is rich in HSCs and used for transplantation. |\n| D. Peripheral blood in adults | **T** | Small numbers circulate, and G-CSF-mobilised peripheral blood is the commonest transplant source. |\n\n> [!answer]\n> **A T, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nHSCs for transplantation are collected from **bone marrow** (aspiration from the iliac crest), **peripheral blood** after mobilisation with G-CSF (± plerixafor) by apheresis, and **umbilical cord blood**. The adult spleen does not normally harbour HSCs (only in extramedullary haematopoiesis).\n\n## Simplified explanation\n\nStem cells can be collected from bone marrow, from blood after G-CSF injections, and from cord blood, but not from the normal adult spleen.",
+  "hint": "Think of the three sources used for stem-cell transplants.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Stem Cells",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCells in the bone marrow niche includes ...\n\nA. Macrophages\nB. Osteoblasts\nC. Osteoclasts\nD. Mast cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Macrophages | **T** | Niche macrophages help retain HSCs. |\n| B. Osteoblasts | **T** | Endosteal niche cells. |\n| C. Osteoclasts | **T** | Bone remodelling by osteoclasts contributes to the endosteal niche. |\n| D. Mast cells | **F** | Not a recognised structural component of the HSC niche. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nThe HSC niche comprises **endosteal** cells (osteoblasts, osteoclasts) and **perivascular** cells (sinusoidal endothelium, CXCL12/SCF-producing mesenchymal stromal cells), with macrophages, megakaryocytes, adipocytes and sympathetic nerve fibres. Mast cells are marrow residents but are not considered niche cells.\n\n## Simplified explanation\n\nThe stem-cell niche is made of bone-lining cells, stromal and vessel cells and macrophages. Mast cells are not part of it.",
+  "hint": "Endosteal and perivascular niches.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Bone Marrow Niche",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe differences between basophilic normoblast (BN) and orthochromatophilic normoblast (ON) includes ...\n\nA. BN has a high nuclear-to-cytoplasmic (N:C) ratio compared to ON\nB. ON has more condensed nuclear chromatin compared to BN\nC. BN has a high haemoglobin content compared to ON\nD. ON lacks nucleus whereas BN has a nucleus",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. BN has a high nuclear-to-cytoplasmic (N:C) ratio compared to ON | **T** | N:C falls as the nucleus condenses and shrinks. |\n| B. ON has more condensed nuclear chromatin compared to BN | **T** | The ON nucleus is small and pyknotic. |\n| C. BN has a high haemoglobin content compared to ON | **F** | Haemoglobin increases with maturity; the ON has the most. |\n| D. ON lacks nucleus whereas BN has a nucleus | **F** | The ON still has a (pyknotic) nucleus; the reticulocyte is the first anucleate stage. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nAs normoblasts mature: cell size ↓, **N:C ratio ↓**, chromatin becomes **more condensed** (pyknotic in ON), cytoplasm changes from deep blue (ribosomes) to pink (**haemoglobin ↑**). The **orthochromatic normoblast** is the last nucleated stage; it extrudes its nucleus to become a reticulocyte.\n\n## Simplified explanation\n\nYounger cells have bigger nuclei and less haemoglobin. The orthochromatic normoblast still has a small dark nucleus.",
+  "hint": "The ON is the last nucleated stage.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Erythropoiesis",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nErythropoietin (EPO) ...\n\nA. Is produced exclusively in kidneys in the unborn\nB. Causes increased expression of BCL-2 in erythroblast\nC. Increases apoptosis in burst-forming unit-erythroid (BFU-E) cells\nD. Levels in peripheral blood is directly related to RBC count",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Is produced exclusively in kidneys in the unborn | **F** | In the fetus EPO comes mainly from the **liver**. |\n| B. Causes increased expression of BCL-2 in erythroblast | **T** | EPO-R/JAK2/STAT5 signalling up-regulates anti-apoptotic BCL-2 family proteins (BCL-xL). |\n| C. Increases apoptosis in burst-forming unit-erythroid (BFU-E) cells | **F** | EPO **prevents** apoptosis of erythroid progenitors. |\n| D. Levels in peripheral blood is directly related to RBC count | **F** | EPO is **inversely** related to red cell mass/Hb (high in anaemia). |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nEPO is a glycoprotein hormone made by renal peritubular interstitial cells in adults (~90%; liver ~10%) and mainly by the **fetal liver** before birth. Binding to EPO-R on CFU-E and late BFU-E activates **JAK2–STAT5**, inducing anti-apoptotic **BCL-xL (BCL-2 family)**, GATA-1 and transferrin receptor expression; it is primarily a **survival** factor. Its level rises as Hb falls (except in renal failure).\n\n## Simplified explanation\n\nEPO keeps young red cells alive by switching on anti-death proteins like BCL-2/BCL-xL. Before birth the liver makes it, and the lower the red cell count the more EPO you have.",
+  "hint": "EPO is a survival signal; it is made in the fetal liver.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythropoietin",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nProcesses that occur during erythroblast differentiation include ...\n\nA. Haemoglobinization beginning at basophilic erythroblast stage\nB. Enucleation at reticulocyte stage\nC. Proliferation peaking at the polychromatophilic stage\nD. Regulated organelle degradation in reticulocyte stage by lipoxygenase activity",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Haemoglobinization beginning at basophilic erythroblast stage | **F** | Haemoglobin first becomes evident at the polychromatic stage. |\n| B. Enucleation at reticulocyte stage | **F** | The orthochromatic normoblast enucleates to become the reticulocyte. |\n| C. Proliferation peaking at the polychromatophilic stage | **T** | The polychromatic normoblast is the last and most numerous dividing stage. |\n| D. Regulated organelle degradation in reticulocyte stage by lipoxygenase activity | **T** | 15-lipoxygenase degrades mitochondrial membranes in maturing reticulocytes. |\n\n> [!answer]\n> **A F, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nPronormoblast → basophilic → **polychromatic** (last stage able to divide; the largest pool of dividing cells) → orthochromatic normoblast (**enucleates**) → reticulocyte → red cell. Haemoglobin becomes visible from the polychromatic stage. In the reticulocyte, mitochondria and ribosomes are removed by autophagy (NIX-dependent mitophagy) and **15-lipoxygenase**, which attacks organelle membranes.\n\n## Simplified explanation\n\nRed-cell precursors divide most at the polychromatic stage. Reticulocytes clear out their mitochondria using lipoxygenase.",
+  "hint": "Which stage is the last that can divide?",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Erythropoiesis",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nReticulocytes ...\n\nA. Have a larger surface area compared to red blood cells\nB. Lack haemoglobin synthesizing ability\nC. Count is indicative of the overall bone marrow haematopoietic activity\nD. Are enucleated",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Have a larger surface area compared to red blood cells | **T** | They are larger and lose ~20% of membrane as they mature. |\n| B. Lack haemoglobin synthesizing ability | **F** | They still synthesise Hb from residual mRNA. |\n| C. Count is indicative of the overall bone marrow haematopoietic activity | **T** | The reticulocyte count reflects marrow erythropoietic output. |\n| D. Are enucleated | **T** | Reticulocytes have no nucleus. |\n\n> [!answer]\n> **A T, B F, C T, D T**",
+  "explanation": "## Advanced explanation\n\nReticulocytes are anucleate, ~20% larger than mature red cells (higher MCV), with excess membrane that is remodelled in the spleen. Residual ribosomal RNA allows **continued Hb synthesis**. The (corrected) reticulocyte count/index is the best simple measure of **effective erythropoiesis**.\n\n## Simplified explanation\n\nReticulocytes are big young red cells with no nucleus that still make haemoglobin; counting them shows how hard the marrow is working.",
+  "hint": "Reticulocytes = young, bigger, still making Hb.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Reticulocytes",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the metabolism of red blood cells ...\n\nA. Embden-Meyerhof pathway maintains haemoglobin iron in +2 state\nB. deficiency of glucose 6-phosphate dehydrogenase produces the similar symptoms as deficiency of glutathione reductase deficiency\nC. 2,3-diphosphoglycerate functions to enhance O2 loading to haemoglobin molecule\nD. Glucose 6-phosphate dehydrogenase enzyme is required to generate 2,3-diphosphoglycerate",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Embden-Meyerhof pathway maintains haemoglobin iron in +2 state | **T** | Glycolysis supplies NADH for methaemoglobin (cytochrome b5) reductase. |\n| B. deficiency of glucose 6-phosphate dehydrogenase produces the similar symptoms as deficiency of glutathione reductase deficiency | **T** | Both impair GSH regeneration, giving oxidant haemolysis. |\n| C. 2,3-diphosphoglycerate functions to enhance O2 loading to haemoglobin molecule | **F** | 2,3-DPG promotes O₂ **unloading**. |\n| D. Glucose 6-phosphate dehydrogenase enzyme is required to generate 2,3-diphosphoglycerate | **F** | 2,3-DPG comes from the Rapoport-Luebering shunt (bisphosphoglycerate mutase). |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nThe **Embden-Meyerhof pathway** produces ATP and **NADH**; NADH is used by **methaemoglobin reductase** to keep haem iron as Fe²⁺. The **hexose monophosphate shunt** (G6PD) produces **NADPH**, which **glutathione reductase** uses to regenerate GSH; deficiency of either enzyme leaves red cells vulnerable to oxidants (Heinz bodies, haemolysis). **2,3-DPG** from the Rapoport-Luebering shunt reduces O₂ affinity.\n\n## Simplified explanation\n\nGlycolysis keeps iron in the ferrous form, G6PD and glutathione reductase work in the same antioxidant chain, and 2,3-DPG helps oxygen leave haemoglobin.",
+  "hint": "Match each pathway to its product.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Metabolism",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe functions of erythropoietin on erythroid precursors include ...\n\nA. Activation of GATA-1 transcription factor expression\nB. Increased expression of CD71 receptors\nC. Increased expression of anti-apoptotic factors\nD. Activation of CEBP-α transcription factors",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Activation of GATA-1 transcription factor expression | **T** | EPO signalling sustains GATA-1 expression/activity. |\n| B. Increased expression of CD71 receptors | **T** | CD71 (transferrin receptor 1) rises to import iron for haem. |\n| C. Increased expression of anti-apoptotic factors | **T** | e.g. BCL-xL via STAT5. |\n| D. Activation of CEBP-α transcription factors | **F** | C/EBPα is a granulocytic transcription factor. |\n\n> [!answer]\n> **A T, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nEPO binding to EPO-R activates **JAK2/STAT5, PI3K/AKT and MAPK**, which promote survival (BCL-xL), proliferation and differentiation: up-regulation of **GATA-1**, **transferrin receptor (CD71)** and haem/globin synthesis. C/EBPα directs myeloid (granulocytic) differentiation and is not an EPO target.\n\n## Simplified explanation\n\nEPO turns on red-cell genes (GATA-1), iron uptake (CD71) and survival signals. C/EBPα belongs to granulocytes.",
+  "hint": "Which factor belongs to a different lineage?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Erythropoietin",
+   "2018/19 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nLaboratory findings in May-Hegglin anomaly includes ...\n\nA. thrombocytopenia\nB. agranular platelet\nC. prolonged bleeding time\nD. impaired neutrophil phagocytic function",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. thrombocytopenia | **T** | Mild-moderate thrombocytopenia with giant platelets. |\n| B. agranular platelet | **F** | Platelets are giant, not agranular. |\n| C. prolonged bleeding time | **F** | Most patients have normal platelet function and bleeding time. |\n| D. impaired neutrophil phagocytic function | **F** | Neutrophil function is normal despite Döhle-like inclusions. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**May-Hegglin anomaly** (MYH9-related disorder, autosomal dominant): **thrombocytopenia**, **giant platelets**, and Döhle-like basophilic inclusions (aggregated non-muscle myosin heavy chain IIA) in neutrophils. Most patients are asymptomatic; platelet and neutrophil **function are normal**. Some MYH9 disorders have nephritis, deafness or cataracts.\n\n## Simplified explanation\n\nMay-Hegglin gives few but giant platelets and blue inclusions in neutrophils; the cells still work normally.",
+  "hint": "MYH9: big platelets, low count, normal function.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Inherited Leucocyte Anomalies",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nNon-disease conditions that can cause neutrophilia includes ...\n\nA. exercise\nB. electrical shock\nC. pregnancy\nD. burns",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. exercise | **T** | Demargination during exercise raises the count. |\n| B. electrical shock | **T** | Physical stress causes neutrophilia. |\n| C. pregnancy | **T** | Physiological neutrophilia of pregnancy. |\n| D. burns | **T** | Tissue injury produces neutrophilia. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nNeutrophilia occurs with physiological and physical stimuli: **exercise**, **pregnancy** and labour, the newborn, emotional stress, heat, cold, **electric shock**, trauma, surgery and **burns** (stress hormones and cytokines cause demargination and marrow release), as well as infection, inflammation, haemorrhage, malignancy and drugs.\n\n## Simplified explanation\n\nExercise, pregnancy, electric shock and burns all push neutrophils out of storage, so all four are true.",
+  "hint": "Stress and tissue injury raise the neutrophil count.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Neutrophilia",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of peripheral blood left shift neutrophilia includes ...\n\nA. bacterial infections\nB. corticosteroid therapy\nC. acute haemorrhage\nD. tissue necrosis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. bacterial infections | **T** | The classic cause. |\n| B. corticosteroid therapy | **T** | Steroids release cells from the marrow storage pool. |\n| C. acute haemorrhage | **T** | Acute bleeding mobilises the marrow reserve. |\n| D. tissue necrosis | **T** | e.g. myocardial infarction, trauma. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nA neutrophilia with **left shift** (bands, metamyelocytes) occurs whenever the marrow storage pool is mobilised: **bacterial infection**, sepsis, **tissue necrosis** (infarction, burns, trauma), **acute haemorrhage** or haemolysis, and drugs such as **corticosteroids** and G-CSF.\n\n## Simplified explanation\n\nInfection, bleeding, tissue death and steroids all release young neutrophils from the marrow, so all four are true.",
+  "hint": "What empties the marrow storage pool?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Left Shift",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBasophils ...\n\nA. contain granules that stain orange-pink in Leishman stain\nB. are tri-lobed\nC. contain heparin in their granules\nD. develops into macrophages in tissues",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. contain granules that stain orange-pink in Leishman stain | **F** | Basophil granules stain **deep purple/blue-black**. |\n| B. are tri-lobed | **F** | The nucleus is usually bilobed/irregular and obscured by granules. |\n| C. contain heparin in their granules | **T** | Heparin and histamine are the main granule contents. |\n| D. develops into macrophages in tissues | **F** | **Monocytes** become macrophages; basophils have a tissue counterpart in mast cells but do not become macrophages. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nBasophils (<1% of WBCs) have a bilobed or irregular nucleus obscured by large **purple-black** granules containing **heparin**, **histamine**, and other mediators; they carry high-affinity IgE receptors (FcεRI) and mediate immediate hypersensitivity. Orange-pink granules belong to eosinophils. Monocytes, not basophils, differentiate into macrophages.\n\n## Simplified explanation\n\nBasophils have dark purple granules full of heparin and histamine. Orange granules are eosinophils, and macrophages come from monocytes.",
+  "hint": "Remember what is inside basophil granules.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Basophils",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn Pelger-Huet anomaly ...\n\nA. neutrophils are hypersegmented\nB. the inheritance is autosomal recessive\nC. neutrophils have impaired chemotactic response\nD. neutrophils have enhanced phagocytic activity",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. neutrophils are hypersegmented | **F** | They are **hyposegmented** (bilobed 'pince-nez' or round nuclei). |\n| B. the inheritance is autosomal recessive | **F** | Inheritance is **autosomal dominant** (lamin B receptor gene). |\n| C. neutrophils have impaired chemotactic response | **F** | Function is normal. |\n| D. neutrophils have enhanced phagocytic activity | **F** | Function is normal, not enhanced. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Pelger-Huët anomaly** is an **autosomal dominant** defect of the **lamin B receptor**: heterozygotes have bilobed 'spectacle' (pince-nez) neutrophils with coarse chromatin; homozygotes have round nuclei. Neutrophil function is **normal**. **Pseudo-Pelger** cells occur in MDS, AML and with some drugs. The main importance is not to mistake the cells for a left shift.\n\n## Simplified explanation\n\nPelger-Huët neutrophils have too few lobes, it is autosomal dominant, and the cells work normally. All four statements are false.",
+  "hint": "Pelger = fewer lobes, normal function.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Inherited Leucocyte Anomalies",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe laboratory findings in leukaemoid reaction includes ...\n\nA. right shift granulocytic cells in peripheral blood\nB. leucoerythroblastosis\nC. presence of myeloblast in peripheral blood\nD. reduced neutrophil alkaline phosphatase score",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. right shift granulocytic cells in peripheral blood | **F** | There is a **left** shift. |\n| B. leucoerythroblastosis | **F** | Nucleated red cells with immature granulocytes point to marrow infiltration, not a leukaemoid reaction. |\n| C. presence of myeloblast in peripheral blood | **F** | Blasts are rare or absent; cells are mostly mature neutrophils and bands. |\n| D. reduced neutrophil alkaline phosphatase score | **F** | NAP score is **raised** (low in CML). |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\nA **leukaemoid reaction** is a reactive leucocytosis (>50 × 10⁹/L) resembling leukaemia, due to severe infection, haemorrhage, haemolysis or malignancy. Findings: neutrophilia with a **left shift** (bands, metamyelocytes, a few myelocytes), **toxic granulation and Döhle bodies**, and a **high NAP score**. Basophilia, blasts and leucoerythroblastic features suggest CML or marrow infiltration instead.\n\n## Simplified explanation\n\nIn a leukaemoid reaction you see lots of mature and band neutrophils (left shift), toxic changes and a high NAP. All four statements are false.",
+  "hint": "Leukaemoid reaction is reactive, so NAP goes up.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Leukaemoid Reaction",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nHypersegmented neutrophils ...\n\nA. have 4 – 5 lobes\nB. occurs in Vitamin B12 deficiency\nC. occurs in chronic nephritis\nD. occur in viral infections in children",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. have 4 – 5 lobes | **F** | Normal neutrophils have 2–5 lobes; hypersegmentation means ≥6 lobes, or >5% with 5 lobes. |\n| B. occurs in Vitamin B12 deficiency | **T** | A classic early sign of megaloblastic anaemia. |\n| C. occurs in chronic nephritis | **T** | Seen in uraemia/chronic renal failure. |\n| D. occur in viral infections in children | **F** | Not a feature of viral infection. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Hypersegmentation (right shift)**: >5% of neutrophils with 5 lobes or any with ≥6 lobes. Causes: **vitamin B12 or folate deficiency** (megaloblastic anaemia, often the earliest sign), **uraemia/chronic renal disease**, iron deficiency, hereditary hypersegmentation, and drugs (methotrexate, hydroxycarbamide).\n\n## Simplified explanation\n\nNeutrophils with 6 or more lobes are seen in B12/folate deficiency and kidney failure. Having 4–5 lobes is normal.",
+  "hint": "Right shift = too many lobes.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Morphology",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe enzymes that are responsible for detoxification in neutrophils during phagocytosis include ...\n\nA. superoxide dismutase\nB. catalase\nC. NADPH oxidase\nD. glucose 6-phosphate dehydrogenase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. superoxide dismutase | **T** | Converts toxic superoxide to H₂O₂. |\n| B. catalase | **T** | Breaks H₂O₂ down to water and oxygen. |\n| C. NADPH oxidase | **F** | It **generates** superoxide (the respiratory burst); it is not a detoxifying enzyme. |\n| D. glucose 6-phosphate dehydrogenase | **F** | It supplies NADPH but does not itself detoxify oxidants. |\n\n> [!answer]\n> **A T, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nDuring the respiratory burst **NADPH oxidase** makes O₂⁻, which forms H₂O₂ and (with MPO) HOCl to kill microbes. To protect the neutrophil itself, **superoxide dismutase**, **catalase** and the glutathione system (glutathione peroxidase/reductase) detoxify leaking ROS. G6PD provides the NADPH for both oxidase and glutathione reductase but is not a detoxifying enzyme.\n\n## Simplified explanation\n\nSOD and catalase clean up harmful oxygen products. NADPH oxidase makes them, and G6PD just supplies fuel.",
+  "hint": "Separate the enzymes that make ROS from those that destroy them.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Function",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe secondary granules of neutrophils ...\n\nA. contain collagenase\nB. are formed at the metamyelocyte stage\nC. contain lysozyme\nD. contain acid hydrolase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. contain collagenase | **T** | A specific-granule enzyme. |\n| B. are formed at the metamyelocyte stage | **F** | They first appear at the **myelocyte** stage. |\n| C. contain lysozyme | **T** | Lysozyme is present in both primary and secondary granules. |\n| D. contain acid hydrolase | **F** | Acid hydrolases are in the primary (azurophilic, lysosomal) granules. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Secondary (specific)** granules appear at the **myelocyte** stage and contain **lactoferrin, collagenase, lysozyme**, vitamin B12-binding protein (transcobalamin), and NADPH oxidase components (cytochrome b558). **Primary** granules contain MPO, acid hydrolases, elastase, defensins and also lysozyme.\n\n## Simplified explanation\n\nSecondary granules hold lactoferrin, collagenase and lysozyme and start at the myelocyte. Acid hydrolases sit in primary granules.",
+  "hint": "Myelocyte = specific granules appear.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Granules",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nBasophilic granules stain blue-black in Leishman staining procedure due to its ...\n\nA. acidic nature\nB. alkaline nature\nC. neutral nature\nD. heparin constituent",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. acidic nature | **T** | Acidic granules bind the basic thiazine dyes. |\n| B. alkaline nature | **F** | Alkaline (basic) structures bind eosin and stain orange. |\n| C. neutral nature | **F** | Neutral granules (neutrophil specific granules) stain lilac. |\n| D. heparin constituent | **T** | Highly sulphated heparin gives the strong acidity. |\n\n> [!answer]\n> **A T, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nLeishman stain contains basic methylene blue/azure dyes and acidic eosin. Basophil granules contain **heparin** (heavily sulphated glycosaminoglycan) and are strongly **acidic**, so they bind the basic dyes intensely (blue-black, metachromatic). Eosinophil granules are basic and bind eosin.\n\n## Simplified explanation\n\nBasophil granules are acidic because of heparin, so they take up the blue basic dye.",
+  "hint": "Acidic structures bind basic dyes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Romanowsky Stains",
+   "2018/19 Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two (2) sentences, explain the roles of transcription factors and growth factors in haematopoiesis.",
+  "media": [],
+  "answer": "- **Growth factors** (cytokines such as SCF, IL-3, GM-CSF, G-CSF, EPO, TPO) bind receptors on the cell surface of stem/progenitor cells and signal them to **survive, proliferate and differentiate** (and functionally activate mature cells).\n- **Transcription factors** (e.g. GATA-1, PU.1, C/EBPα, GATA-2, RUNX1) are nuclear proteins that switch lineage-specific genes on or off and so **determine lineage commitment and the programme of differentiation**.\n\n> [!answer]\n> Growth factors are external signals for survival/proliferation/differentiation; transcription factors inside the nucleus decide which lineage the cell becomes.",
+  "explanation": "## Advanced explanation\n\nHaematopoiesis is regulated extrinsically by **cytokines/growth factors** (from stroma, T cells, macrophages, liver, kidney) acting through receptors (JAK-STAT) mostly as survival and mitogenic signals, and intrinsically by **transcription factor networks**. Cross-antagonism (e.g. GATA-1 vs PU.1) enforces lineage choice: GATA-1/FOG-1/KLF1 → erythroid/megakaryocyte; PU.1, C/EBPα → myeloid; E2A/EBF/PAX5 → B cells.\n\n## Simplified explanation\n\nGrowth factors are messages from outside that tell cells to grow and mature. Transcription factors inside the nucleus pick which type of blood cell the cell becomes.",
+  "hint": "Outside signal vs inside gene switch.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Regulation of Haematopoiesis",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences explain why the balance between BAX and BCL-2 molecules expression is important in erythroblast during erythropoietic differentiation.",
+  "media": [],
+  "answer": "**BAX** is pro-apoptotic and **BCL-2** (and BCL-xL) is anti-apoptotic; their ratio decides whether an erythroblast **survives and matures or undergoes apoptosis**. This balance (regulated by EPO) controls the number of red cells produced, and too much BAX relative to BCL-2 gives **ineffective erythropoiesis**.\n\n> [!answer]\n> The BAX:BCL-2 ratio determines erythroblast survival vs apoptosis and hence red cell output.",
+  "explanation": "## Advanced explanation\n\nBAX oligomerises in the mitochondrial outer membrane, releasing cytochrome c and activating caspases; BCL-2/BCL-xL block this. EPO (via STAT5) induces BCL-xL, rescuing CFU-E/proerythroblasts from apoptosis; in hypoxia high EPO saves more progenitors (increased output), while low EPO lets surplus cells die. Excess apoptosis (e.g. thalassaemia, MDS) causes ineffective erythropoiesis.\n\n## Simplified explanation\n\nBAX tells the cell to die, BCL-2 tells it to live. The balance decides how many young red cells survive to become red cells.",
+  "hint": "One promotes death, the other survival.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Apoptosis in Erythropoiesis",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Erythropoietin stimulates erythropoiesis but cannot stimulate granulopoiesis. Briefly explain why this is so.",
+  "media": [],
+  "answer": "Only **erythroid progenitors** (mainly CFU-E and late BFU-E, pronormoblasts) express the **EPO receptor**; granulocytic progenitors lack EPO receptors, so they cannot respond to EPO.\n\n> [!answer]\n> EPO receptors are expressed on erythroid, not granulocytic, progenitors.",
+  "explanation": "## Advanced explanation\n\nCytokine action depends on **receptor expression**. EPO-R (a type I cytokine receptor signalling via JAK2) is expressed from the late BFU-E to the early normoblast, peaking at the CFU-E stage. Granulocyte progenitors express G-CSF and GM-CSF receptors instead.\n\n## Simplified explanation\n\nA hormone only works on cells that have its receptor. Granulocyte precursors have no EPO receptor.",
+  "hint": "Think receptors.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Erythropoietin",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences explain the difference between totipotency and pluripotency as applied to stem cells.",
+  "media": [],
+  "answer": "- **Totipotent** stem cells (the zygote and early blastomeres) can give rise to **all cell types of the embryo and the extra-embryonic tissues** (placenta, membranes), i.e. a whole organism.\n- **Pluripotent** stem cells (inner cell mass/embryonic stem cells, iPS cells) can form **all three germ layers** (ectoderm, mesoderm, endoderm) but **not extra-embryonic tissues**.\n\n> [!answer]\n> Totipotent = whole organism including placenta; pluripotent = all embryonic germ layers but not placenta.",
+  "explanation": "## Advanced explanation\n\nPotency hierarchy: totipotent > pluripotent > multipotent (e.g. HSC: all blood cells) > oligopotent (e.g. common myeloid progenitor) > unipotent. Potency declines as development proceeds.\n\n## Simplified explanation\n\nTotipotent cells can make everything, even the placenta. Pluripotent cells can make every body tissue but not the placenta.",
+  "hint": "The difference is the placenta.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Stem Cells",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than one sentence explain why nuclear-to-cytoplasmic ratio (N:C) reduces during erythropoiesis.",
+  "media": [],
+  "answer": "As the erythroblast matures the **nucleus condenses and shrinks** (chromatin condensation, eventually pyknosis and extrusion) while the **cytoplasm accumulates haemoglobin**, so the N:C ratio falls.\n\n> [!answer]\n> Nuclear condensation/shrinkage with relative increase in Hb-filled cytoplasm.",
+  "explanation": "## Advanced explanation\n\nPronormoblast N:C ~8:1; basophilic ~6:1; polychromatic ~4:1; orthochromatic ~1:2 before enucleation. Transcription shuts down as chromatin condenses (histone deacetylation), preparing for enucleation.\n\n## Simplified explanation\n\nThe nucleus gets smaller and denser while the cytoplasm fills with haemoglobin.",
+  "hint": "What happens to the nucleus as the cell matures?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Erythropoiesis",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain the effect of excessive production of HIF-1α on erythropoiesis.",
+  "media": [],
+  "answer": "Excess HIF-1α (HIF) switches on the **erythropoietin gene** (and iron-absorption genes), so EPO levels rise and **erythropoiesis increases**, leading to **erythrocytosis/secondary polycythaemia**.\n\n> [!answer]\n> More HIF → more EPO → more red cells (polycythaemia).",
+  "explanation": "## Advanced explanation\n\nHIF-α/β heterodimers bind hypoxia response elements in the EPO enhancer; HIF also up-regulates DMT1, duodenal cytochrome b, transferrin and transferrin receptor to supply iron. Stabilised HIF (VHL or PHD2 mutations, HIF-2α gain-of-function) causes congenital erythrocytosis.\n\n## Simplified explanation\n\nHIF is the switch for EPO. Too much HIF means too much EPO and too many red cells.",
+  "hint": "HIF controls the EPO gene.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Erythropoietin & Oxygen Sensing",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences, explain the role of NADPH in the maintenance of red cell functional integrity.",
+  "media": [],
+  "answer": "NADPH (from the G6PD/hexose monophosphate shunt) is used by **glutathione reductase** to regenerate **reduced glutathione (GSH)**, which with glutathione peroxidase removes H₂O₂ and keeps haemoglobin and membrane **sulphydryl groups reduced**. This protects the red cell from **oxidant damage** (Heinz bodies, membrane damage, haemolysis).\n\n> [!answer]\n> NADPH keeps glutathione reduced, protecting Hb and the membrane from oxidation.",
+  "explanation": "## Advanced explanation\n\nThe red cell's only source of NADPH is the pentose phosphate pathway. NADPH also stabilises catalase. In G6PD deficiency, oxidant stress (drugs, fava beans, infection) oxidises Hb to methaemoglobin and denatured Heinz bodies, which are removed in the spleen (bite cells), causing haemolysis.\n\n## Simplified explanation\n\nNADPH recharges glutathione, the red cell's antioxidant, so oxidants cannot damage haemoglobin or the membrane.",
+  "hint": "Think glutathione.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Red Cell Metabolism",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two sentences explain why reticulocytes stain as polychromatophilic cells.",
+  "media": [],
+  "answer": "Reticulocytes contain both **residual ribosomal RNA**, which takes up the **basic (blue) dye**, and **haemoglobin**, which takes up the **acidic dye eosin**; the mixture gives a **blue-grey (polychromatic)** colour on a Romanowsky stain.\n\n> [!answer]\n> RNA (basophilic) + haemoglobin (acidophilic) = mixed blue-grey colour.",
+  "explanation": "## Advanced explanation\n\nPolychromasia on a Romanowsky film corresponds to reticulocytes (especially young 'shift' reticulocytes) seen with supravital stains, where the RNA is precipitated as a blue reticulum.\n\n## Simplified explanation\n\nReticulocytes still have some RNA (blue) and lots of haemoglobin (pink), so they look bluish-grey.",
+  "hint": "Two dyes, two components.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Reticulocytes",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In one sentence, explain the main difference between storage pool and marginating pool as relates to granulopoiesis.",
+  "media": [],
+  "answer": "The **storage pool** is the reserve of mature neutrophils (with bands and metamyelocytes) held in the **bone marrow** awaiting release, whereas the **marginating pool** is neutrophils already **in the blood vessels** loosely adherent to the endothelium of small vessels (not counted in the WBC count).\n\n> [!answer]\n> Storage pool = in the marrow; marginating pool = in blood, stuck to vessel walls.",
+  "explanation": "## Advanced explanation\n\nBlood neutrophils are split roughly 50:50 between the **circulating** pool (measured in the count) and the **marginating** pool. Exercise, adrenaline and steroids cause demargination (rapid rise in count); infection and G-CSF mobilise the **marrow storage pool**, often with a left shift.\n\n## Simplified explanation\n\nThe storage pool waits in the marrow. The marginating pool is already in the blood but stuck to vessel walls.",
+  "hint": "Where is each pool located?",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Granulocyte Kinetics",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In two sentences explain the role of Glucose 6-phosphate dehydrogenase in the phagocytic function of neutrophils.",
+  "media": [],
+  "answer": "G6PD (hexose monophosphate shunt) generates the **NADPH** that **NADPH oxidase** uses to reduce oxygen to **superoxide** during the **respiratory burst**. Superoxide is converted to H₂O₂ and, by myeloperoxidase, to **hypochlorous acid**, which kill ingested microbes (NADPH also protects the neutrophil via glutathione).\n\n> [!answer]\n> G6PD supplies NADPH for NADPH oxidase → reactive oxygen species for microbial killing.",
+  "explanation": "## Advanced explanation\n\nPhagocytosis triggers assembly of NADPH oxidase (gp91phox/p22phox with p47, p67, p40phox, Rac). Severe G6PD deficiency (<5% activity) can impair the respiratory burst and mimic chronic granulomatous disease.\n\n## Simplified explanation\n\nG6PD makes NADPH, the fuel the neutrophil burns to make bleach-like chemicals that kill bacteria.",
+  "hint": "Link G6PD → NADPH → respiratory burst.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Function",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State two conditions that can cause \"right shift\" in peripheral blood neutrophil count.",
+  "media": [],
+  "answer": "Any two: **vitamin B12 deficiency**, **folate deficiency** (megaloblastic anaemia), **uraemia/chronic renal failure**, iron deficiency, drugs (methotrexate, hydroxycarbamide), hereditary hypersegmentation.\n\n> [!answer]\n> Vitamin B12 deficiency and folate deficiency.",
+  "explanation": "## Advanced explanation\n\nA **right shift** means increased hypersegmented neutrophils (≥5 lobes). Impaired DNA synthesis in megaloblastic anaemia delays nuclear maturation and gives hypersegmentation, often before macrocytosis appears.\n\n## Simplified explanation\n\nRight shift (too many lobes) is typical of B12 or folate deficiency.",
+  "hint": "Right shift = hypersegmentation.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Neutrophil Morphology",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In two sentences, explain why neutrophil alkaline phosphatase score go up in inflammation.",
+  "media": [],
+  "answer": "In inflammation, cytokines such as **G-CSF and IFN-γ** activate neutrophils and stimulate synthesis of alkaline phosphatase in their secretory vesicles, and young activated neutrophils are released from the marrow. Therefore more neutrophils stain strongly for ALP, and the **NAP score rises**.\n\n> [!answer]\n> Cytokine (G-CSF) activation increases neutrophil ALP synthesis, so NAP score rises.",
+  "explanation": "## Advanced explanation\n\nNAP is scored by staining 100 neutrophils (0–4+) with naphthol AS phosphate and a diazonium salt (normal ~20–100). G-CSF is a strong inducer of NAP, so the score is high in infection, inflammation and G-CSF therapy, and low in CML (BCR-ABL1 neutrophils).\n\n## Simplified explanation\n\nInflammation signals switch neutrophils on, and active neutrophils make more alkaline phosphatase.",
+  "hint": "G-CSF induces NAP.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Neutrophil Alkaline Phosphatase",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In one sentence, state the effect of excess IL-5 on haematopoietic cells production.",
+  "media": [],
+  "answer": "Excess IL-5 stimulates **eosinophil** production, differentiation, activation and survival, causing **eosinophilia**.\n\n> [!answer]\n> Eosinophilia.",
+  "explanation": "## Advanced explanation\n\nIL-5 (from Th2 cells, ILC2s) acts on IL-5Rα on eosinophil progenitors and mature eosinophils; it also supports B-cell IgA responses. Anti-IL-5 (mepolizumab) reduces eosinophils in eosinophilic asthma.\n\n## Simplified explanation\n\nToo much IL-5 means too many eosinophils.",
+  "hint": "IL-5 is the eosinophil cytokine.",
+  "difficulty": "easy",
+  "marks": 2,
+  "tags": [
+   "Granulopoiesis",
+   "2017/18 Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State three (3) issues/conditions that constitute medical negligence in phlebotomy.",
+  "media": [],
+  "answer": "Any three:\n\n- Failure to **identify the patient** correctly or **mislabelling** the sample.\n- Drawing blood **without informed consent** (or against a refusal).\n- **Injury** from poor technique: nerve injury, arterial puncture, large haematoma, repeated probing.\n- Failure to follow **aseptic technique**/reuse of needles, causing infection; needle-stick or sharps-disposal failures.\n- Leaving the patient **unattended** (fainting, falls) or ignoring complaints of pain.\n- Drawing from an inappropriate site (arm with IV line, mastectomy side, fistula).\n\n> [!answer]\n> e.g. wrong patient/mislabelling, no consent, injury from improper technique.",
+  "explanation": "## Advanced explanation\n\nNegligence = breach of the duty of care that causes harm. Phlebotomy standards (CLSI GP41, WHO guidelines) cover two-identifier patient identification, consent, site selection, tourniquet time <1 min, asepsis, safe sharps disposal and monitoring the patient.\n\n## Simplified explanation\n\nNegligence means not doing what a careful phlebotomist should: wrong patient, no consent, causing injury or infection.",
+  "hint": "Think identification, consent, injury, infection.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Phlebotomy",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Explain why the following sites are not suitable for dermal puncture in adults:\n\n(i) heel\n\n(ii) thumb",
+  "media": [],
+  "answer": "- **(i) Heel:** in adults the heel skin is **thick and calloused**, so it is hard to obtain free-flowing blood; heel puncture is designed for infants. Deep puncture risks hitting the **calcaneus** (osteomyelitis).\n- **(ii) Thumb:** it has a **pulse** (risk of arterial blood), **thick calloused skin**, and the bone is close to the surface, giving a poor and painful sample.\n\n> [!answer]\n> Heel: thick skin and risk to bone; recommended only for infants. Thumb: has a pulse and thick skin.",
+  "explanation": "## Advanced explanation\n\nAdult capillary puncture uses the palmar surface of the distal phalanx of the **middle or ring finger** of the non-dominant hand, perpendicular to the fingerprint lines. Avoid the thumb (pulse, thick skin), index finger (calloused, sensitive), little finger (thin tissue over bone). Heel puncture is restricted to infants <1 year, on the medial or lateral plantar surface.\n\n## Simplified explanation\n\nIn adults, use the middle or ring finger. The heel skin is too thick and the thumb has a pulse.",
+  "hint": "Which fingers are recommended for adults?",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Phlebotomy",
+   "Capillary Sampling",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In what instance will a blood culture be requested STAT?",
+  "media": [],
+  "answer": "When **sepsis/septicaemia (bacteraemia)** is suspected and treatment is urgent, e.g. a patient with **fever with chills/rigors**, hypotension or septic shock, suspected **meningitis**, **infective endocarditis**, **neonatal sepsis**, or **febrile neutropenia**, ideally **before antibiotics are started** (or at the temperature spike).\n\n> [!answer]\n> Suspected septicaemia (e.g. fever with rigors, septic shock), before the first dose of antibiotics.",
+  "explanation": "## Advanced explanation\n\nSTAT = immediately. Blood cultures guide life-saving antimicrobial therapy, so they are drawn at once when sepsis is suspected, ideally 2–3 sets from separate sites with strict aseptic technique, before antibiotics (which reduce yield), and without delaying empirical treatment.\n\n## Simplified explanation\n\nIf a patient may have a blood infection, especially before antibiotics start, blood culture is taken right away.",
+  "hint": "Why would delay be dangerous?",
+  "difficulty": "easy",
+  "marks": 5,
+  "tags": [
+   "Specimen Collection",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Mrs. Mensah was rushed to the hospital during your night shift, unconscious. As the laboratory scientist on duty, a request form was sent by the doctor through a nurse to you to perform certain blood tests on Mrs. Mensah. How would you seek her consent to perform the procedure?",
+  "media": [],
+  "answer": "- An unconscious patient cannot give consent, so in an **emergency** the procedure proceeds on **implied consent** (presumed that a reasonable person would agree to life-saving investigations).\n- Where possible, obtain consent from the **next of kin/legal guardian** or relatives present, and rely on the **doctor's request/authorisation** (documented on the form).\n- **Document** the circumstances, and inform the patient once she regains consciousness.\n\n> [!answer]\n> Implied (emergency) consent, with consent sought from next of kin/guardian where available, and documentation.",
+  "explanation": "## Advanced explanation\n\nConsent may be expressed (verbal/written) or implied. For incapacitated patients in an emergency, the doctrine of necessity/implied consent applies; surrogate consent from next of kin or legal representative is sought when available. The phlebotomist should still identify the patient (wristband, nurse confirmation) and record how consent was obtained.\n\n## Simplified explanation\n\nIf the patient can't speak, treat it as emergency (implied) consent, ask the family if present, and write it down.",
+  "hint": "Who can consent for an unconscious patient?",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Phlebotomy",
+   "Consent",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Critically enumerate the procedural steps you would take to ensure reliability of tests to be undertaken on a patient suspected to have cold agglutinins if you are required to draw blood sample.",
+  "media": [],
+  "answer": "1. **Pre-warm** the collection tubes (and syringe/needle) to **37 °C**.\n2. If possible warm the patient's arm/limb before venepuncture.\n3. Collect the sample and immediately place it in a **37 °C** water bath or warm flask/insulated container.\n4. **Transport at 37 °C** without delay; do not refrigerate.\n5. For serum tests, allow clotting and **separate serum at 37 °C**; for FBC, **incubate the EDTA sample at 37 °C** (~15–30 min) and analyse while warm (repeat after warming if MCHC is high).\n6. Prepare blood films from the warmed sample.\n\n> [!answer]\n> Keep the sample at 37 °C from collection to separation/analysis (pre-warmed tubes, warm transport, warm separation/analysis).",
+  "explanation": "## Advanced explanation\n\nCold agglutinins (usually IgM anti-I) agglutinate red cells below 37 °C. In vitro agglutination gives a **falsely low RBC count and Hct**, **falsely high MCV and MCHC** (>370 g/L), and clumps on the film; for cold agglutinin titres, letting the sample cool before separation lets the antibody absorb onto red cells, giving a falsely low titre.\n\n## Simplified explanation\n\nKeep the blood warm (37 °C) the whole time, from the needle to the analyser, so the antibody can't clump the red cells.",
+  "hint": "Cold antibodies act at low temperature.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Specimen Collection",
+   "Cold Agglutinins",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State three adverse effects that storage of blood in EDTA for >6 hours (at room temperature) can have on haematological analyses.",
+  "media": [],
+  "answer": "Any three:\n\n- **Red cell swelling**: rise in **MCV and PCV/Hct**, fall in MCHC.\n- Morphological artefacts: **crenated/spherocytic red cells**, **neutrophil vacuolation**/pyknosis, **lobulated lymphocytes**, disintegrating cells (smear cells).\n- **Platelet** swelling/clumping and change in platelet count and MPV.\n- Falsely **low ESR**.\n- Changes in WBC differential on analysers (degenerating neutrophils misclassified).\n\n> [!answer]\n> e.g. raised MCV/PCV, morphological artefacts in films, altered platelet count/ESR.",
+  "explanation": "## Advanced explanation\n\nICSH recommends making films within 3 hours and running FBC within 6 hours (or within 24 h if stored at 4 °C). EDTA causes progressive red cell swelling and leucocyte degeneration; the ESR must be done within 4 hours (or 24 h at 4 °C).\n\n## Simplified explanation\n\nOld EDTA blood gives bigger red cells (higher MCV), messy-looking white cells, wrong platelet counts and a falsely low ESR.",
+  "hint": "Think indices, morphology and ESR.",
+  "difficulty": "medium",
+  "marks": 6,
+  "tags": [
+   "Storage Artefacts",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In not more than two (2) sentences, explain how blood sample for arterial blood gas measurements are to be transported to the laboratory.",
+  "media": [],
+  "answer": "The heparinised syringe should be **free of air bubbles**, **capped** (needle removed) and **mixed**, then transported **immediately** and analysed within ~15–30 minutes (at room temperature for plastic syringes, or on **ice/iced water** for glass syringes if delay is expected) to stop cellular metabolism changing pO₂, pCO₂ and pH.\n\n> [!answer]\n> Anaerobically (no air, capped), promptly, cooled if delay is expected.",
+  "explanation": "## Advanced explanation\n\nAir bubbles equilibrate with the sample (raising pO₂ towards ~150 mmHg and lowering pCO₂). Leucocytes and platelets keep consuming O₂ and producing CO₂/lactate, so pO₂ and pH fall with time. Plastic syringes are gas-permeable, so icing them is no longer recommended; analyse within 30 min.\n\n## Simplified explanation\n\nKeep air out, cap the syringe and get it to the lab fast (on ice if there will be a delay).",
+  "hint": "Air and time both change blood gases.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Specimen Collection",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A ward nurse brought a venous blood sample that had been drawn from patient Asante Apietu for full blood count estimation. The MLS at the reception rejected the sample and requested a fresh sample to be drawn. State three situations which might have informed rejection of the specimen.",
+  "media": [],
+  "answer": "Any three:\n\n- Sample **unlabelled or mislabelled**, or details not matching the request form.\n- Sample **clotted** (or contains microclots).\n- Sample **haemolysed**.\n- **Wrong container/anticoagulant** (e.g. citrate or plain tube for FBC).\n- **Under- or over-filled** tube (wrong blood:EDTA ratio) or insufficient volume.\n- Sample **too old**/delayed in transport, or leaking container.\n\n> [!answer]\n> e.g. mislabelled, clotted, haemolysed (also wrong tube, wrong volume, delayed).",
+  "explanation": "## Advanced explanation\n\nSpecimen rejection criteria are part of the laboratory's pre-analytical quality system (ISO 15189): patient identification errors, inappropriate container, insufficient/excess volume, clotting, haemolysis, lipaemia (for some tests), excessive delay or inappropriate storage.\n\n## Simplified explanation\n\nA lab rejects a sample if it isn't labelled properly, is clotted or haemolysed, or is in the wrong tube or amount.",
+  "hint": "Identification, container, sample quality.",
+  "difficulty": "easy",
+  "marks": 6,
+  "tags": [
+   "Specimen Rejection",
+   "2019/20 Practical Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "The standard EDTA-to-blood anticoagulant ratio is 2 mg/ml. An MLS took 3 ml of blood into EDTA tube that contained 4 mg EDTA.\n\n(I) Explain (with reasons) whether this is an appropriate blood-to-anticoagulant ratio.\n\n(II) State two impact of this blood-to-anticoagulant ratio on haematological analyses.",
+  "media": [],
+  "answer": "**(I)** Not appropriate: 4 mg EDTA ÷ 3 ml = **1.33 mg/ml**, below the 2 mg/ml standard. The tube is **overfilled** (4 mg should take **2 ml** of blood), so there is **too little anticoagulant** for the volume of blood.\n\n**(II)** Any two:\n\n- Incomplete anticoagulation → **microclots/clots**, with **falsely low platelet count** (and low WBC/RBC counts).\n- **Platelet clumping/aggregation** (pseudothrombocytopenia, falsely raised WBC from clumps).\n- Clots may **block the analyser**.\n- Unreliable results; sample may have to be rejected.\n\n> [!answer]\n> 1.33 mg/ml: too little EDTA (should be 2 ml blood). Effects: microclots → low platelet/cell counts, analyser blockage.",
+  "explanation": "## Advanced explanation\n\nEDTA chelates Ca²⁺ to prevent clotting; the ICSH-recommended concentration is ~1.5–2.2 mg/ml blood. Too **little** EDTA (overfilled tube) → clotting and platelet clumping. Too **much** EDTA (underfilled tube) → red cell shrinkage (low PCV, high MCHC), and degenerative changes in leucocytes and platelets.\n\n## Simplified explanation\n\n4 mg of EDTA is enough for only 2 ml of blood. With 3 ml, there isn't enough anticoagulant, so tiny clots form and counts (especially platelets) come out falsely low.",
+  "hint": "Divide the EDTA by the blood volume.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Anticoagulants",
+   "2019/20 Practical Exam"
+  ]
+ }
+]

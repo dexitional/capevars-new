@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "code": "MLINST",
+      "title": "Medical Laboratory Instrumentation",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast Medical Laboratory Instrumentation examination papers: identification and uses of laboratory instruments, the light microscope and oil immersion, centrifuges and centrifugation faults, sterilisation methods, cuvettes and spectrophotometry, light sources in photometric instruments, ion selective electrodes, equipment calibration and laboratory safety. Every question has a worked solution.",
+      "examQuestions": 10,
+      "examMinutes": 90,
+      "tags": [
+        "UCC",
+        "Medical Laboratory Science"
+      ],
+      "files": [
+        "mlinst-medical-laboratory-instrumentation.json"
+      ]
+    },
+    {
+      "code": "MLS218",
+      "title": "Pharmacology I",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 218 Pharmacology I quizzes: scope of pharmacology, sources of drugs, drug nomenclature, excipients and dosage forms, routes of administration, absorption and the pH-partition hypothesis, bioavailability, volume of distribution, ED50 and LD50, and drug information sources. Every question has a worked solution.",
+      "examQuestions": 11,
+      "examMinutes": 50,
+      "tags": [
+        "UCC",
+        "Pharmacology"
+      ],
+      "files": [
+        "mls218-pharmacology-i.json"
+      ]
+    },
+    {
+      "code": "MLS319",
+      "title": "Pharmacology II",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 319 Pharmacology II examinations and quizzes (2018/19 and 2019/20): autonomic pharmacology and the catecholamines, neurotransmitters and their biosynthesis, ionotropic and metabotropic receptors, excitotoxicity and CNS pharmacology, neuromuscular blocking agents, NSAIDs and corticosteroids, opioid analgesics, methylxanthines, diuretics and the renin-angiotensin system. Every question has a worked solution.",
+      "examQuestions": 17,
+      "examMinutes": 120,
+      "tags": [
+        "UCC",
+        "Pharmacology"
+      ],
+      "files": [
+        "mls319-pharmacology-ii.json"
+      ]
+    },
+    {
+      "code": "MLS360",
+      "title": "Drug Metabolism and Toxicology",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 360 / MLT 360 Drug Metabolism and Toxicology examinations and quizzes (2017/18 and 2018/19): first-pass metabolism, phase I and phase II enzymes, cytochrome P450, bioactivation and toxic metabolites, prodrugs, enterohepatic recirculation, routes of exposure, dose-response and the chronicity index, NOAEL, LOAEL and reference doses, xenobiotic receptors, antidotes and biomagnification. Every question has a worked solution.",
+      "examQuestions": 12,
+      "examMinutes": 120,
+      "tags": [
+        "UCC",
+        "Toxicology"
+      ],
+      "files": [
+        "mls360-drug-metabolism-and-toxicology.json"
+      ]
+    },
+    {
+      "code": "MLS413",
+      "title": "Professional Ethics (Health Ethics and Law)",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLS 413 / MLT 413 Professional Ethics, Health Ethics and Law examinations and quizzes (2018/19 and 2020/21): medical negligence and the standard of care, consent, confidentiality and its limits, the practitioner-patient relationship, respect and equal treatment, ethical decision-making, resource allocation, dual loyalty, conflict management and communication. Every question has a worked solution.",
+      "examQuestions": 8,
+      "examMinutes": 120,
+      "tags": [
+        "UCC",
+        "Professional Ethics"
+      ],
+      "files": [
+        "mls413-professional-ethics.json"
+      ]
+    },
+    {
+      "code": "MLT326",
+      "title": "Biostatistics",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast MLT 326 Biostatistics examinations and quizzes: types of data and scales of measurement, sampling methods, frequency distributions and cumulative frequency, measures of central tendency and dispersion, the coefficient of variation, skewness and kurtosis, probability, screening test characteristics, estimation, hypothesis testing with type I and type II errors, degrees of freedom and the odds ratio. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 45,
+      "tags": [
+        "UCC",
+        "Biostatistics"
+      ],
+      "files": [
+        "mlt326-biostatistics.json"
+      ]
+    },
+    {
+      "code": "ENTREP",
+      "title": "Entrepreneurship",
+      "level": "tertiary",
+      "description": "Past questions from University of Cape Coast (Centre for Entrepreneurship and Small Enterprise Development) Entrepreneurship papers and quizzes: the nature of entrepreneurship, entrepreneurial motivation and personality, types of entrepreneurs, opportunity recognition and the window of opportunity, creativity and the types of innovation, feasibility analysis, the business model canvas, business plans, franchising and avoiding business pitfalls. Every question has a worked solution.",
+      "examQuestions": 20,
+      "examMinutes": 60,
+      "tags": [
+        "UCC",
+        "Entrepreneurship"
+      ],
+      "files": [
+        "entrep-entrepreneurship.json"
+      ]
+    },
+    {
+      "code": "PPMGT",
+      "title": "Principles and Practice of Management",
+      "level": "tertiary",
+      "description": "Past questions from the Principles and Practice of Management examination paper for medical laboratory science: the business environment, levels of management and managerial skills, planning and types of plans, organising the laboratory, leadership styles and sources of power, motivation and compensation, forms of business ownership, and quality and reputation in diagnostic practice. Every question has a worked solution.",
+      "examQuestions": 6,
+      "examMinutes": 120,
+      "tags": [
+        "Management",
+        "Medical Laboratory Science"
+      ],
+      "files": [
+        "ppmgt-principles-and-practice-of-management.json"
+      ]
+    }
+  ]
+}

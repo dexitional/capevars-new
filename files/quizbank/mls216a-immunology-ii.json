@@ -1,0 +1,554 @@
+[
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe double diffusion method allows for disease identification and diagnosis and is an application of ...\n\nA. Agglutination\nB. Precipitation\nC. Immunoassay\nD. Fluorescent antibody test",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Agglutination | **F** | Agglutination involves particulate antigens. |\n| B. Precipitation | **T** | Soluble antigen and antibody form precipitin lines in gel. |\n| C. Immunoassay | **F** | Labelled immunoassays (ELISA, RIA) use tags; double diffusion is an unlabelled precipitation method. |\n| D. Fluorescent antibody test | **F** | Uses fluorochrome-labelled antibodies. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Ouchterlony double diffusion**: antigen and antibody diffuse from separate wells in agar and form **precipitin lines** where they meet at equivalence. Line patterns show identity, partial identity or non-identity (used e.g. for fungal, ENA antibodies).\n\n## Simplified explanation\n\nDouble diffusion is a precipitation test: soluble antigen and antibody meet in gel and form a visible line.",
+  "hint": "Soluble antigen + antibody → precipitate.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Immunodiffusion",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe ability of a single cytokine to alter the expression of several genes is called ...\n\nA. Redundancy\nB. Pleiotropy.\nC. Autocrine stimulation\nD. Endocrine effect.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Redundancy | **F** | Several cytokines having the same effect. |\n| B. Pleiotropy. | **T** | One cytokine, many effects. |\n| C. Autocrine stimulation | **F** | A cytokine acting on the cell that produced it. |\n| D. Endocrine effect. | **F** | Action at a distant site via the circulation. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nCytokine properties: **pleiotropy** (one cytokine, multiple actions/targets), **redundancy** (different cytokines, same effect), **synergy**, **antagonism**, **cascade induction**; modes of action: autocrine, paracrine, endocrine.\n\n## Simplified explanation\n\nPleiotropy means one cytokine does many things.",
+  "hint": "Pleio = many.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Cytokines",
+   "Quiz 1",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe following is/are also known as the T-cell growth factor\n\nA. IFN-γ\nB. IL-12\nC. IL-2\nD. IL-10",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IFN-γ | **F** | Macrophage-activating cytokine (Th1). |\n| B. IL-12 | **F** | Drives Th1 differentiation. |\n| C. IL-2 | **T** | Originally named T-cell growth factor. |\n| D. IL-10 | **F** | Anti-inflammatory/regulatory cytokine. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**IL-2** (T-cell growth factor), produced by activated CD4⁺ T cells, drives clonal expansion of T cells via the IL-2 receptor (CD25 = α chain) and supports Treg survival. Ciclosporin/tacrolimus block IL-2 transcription.\n\n## Simplified explanation\n\nIL-2 is the T-cell growth factor.",
+  "hint": "Think of what activated T cells secrete to multiply.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Cytokines",
+   "Quiz 1",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe chemokine receptor(s) needed for cell specific binding in HIV is/are ...\n\nA. CCR1\nB. CCDR3\nC. CCR4\nD. CCR5",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. CCR1 | **F** | Not an HIV co-receptor. |\n| B. CCDR3 | **F** | Not a recognised receptor name. |\n| C. CCR4 | **F** | Not an HIV co-receptor. |\n| D. CCR5 | **T** | Main co-receptor for macrophage-tropic (R5) HIV. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nHIV entry needs **CD4** plus a chemokine co-receptor: **CCR5** (R5 strains, early infection, macrophages/memory T cells) or **CXCR4** (X4 strains, later). Homozygous CCR5-Δ32 confers resistance; maraviroc blocks CCR5.\n\n## Simplified explanation\n\nHIV uses CD4 plus CCR5 (or CXCR4) to get into cells.",
+  "hint": "Think maraviroc.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "HIV",
+   "Quiz 1",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe best assay(s) to measure specific cytokines(s) include ...\n\nA. Blast formation\nB. T-cell proliferation\nC. Measurement of leukocyte chemotaxis\nD. ELISA testing",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Blast formation | **F** | Measures lymphocyte transformation, not a specific cytokine. |\n| B. T-cell proliferation | **F** | A functional assay, not cytokine-specific. |\n| C. Measurement of leukocyte chemotaxis | **F** | Not specific for a cytokine. |\n| D. ELISA testing | **T** | Sandwich ELISA quantifies a specific cytokine. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nSpecific cytokines are measured by **immunoassays** (sandwich ELISA, multiplex bead arrays, ELISpot for secreting cells, intracellular cytokine flow cytometry). Bioassays (proliferation, chemotaxis) are less specific.\n\n## Simplified explanation\n\nELISA uses antibodies against the exact cytokine, so it measures it specifically.",
+  "hint": "Specific antibody = specific assay.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Immunoassays",
+   "Quiz 1",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIL-10 acts as an antagonist to ...\n\nA. IL-4\nB. TNF-α\nC. IFN-γ\nD. TGF-β",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IL-4 | **F** | IL-10 and IL-4 are both Th2-associated; not antagonists. |\n| B. TNF-α | **T** | IL-10 suppresses macrophage production of TNF-α. |\n| C. IFN-γ | **T** | IL-10 inhibits IFN-γ production and Th1 responses. |\n| D. TGF-β | **F** | Both are regulatory/anti-inflammatory. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**IL-10** (from Tregs, Th2, macrophages) is anti-inflammatory: it inhibits Th1 cytokine synthesis (**IFN-γ**, IL-2), down-regulates MHC II and co-stimulators on APCs, and suppresses macrophage **TNF-α**, IL-1, IL-12 production.\n\n## Simplified explanation\n\nIL-10 calms inflammation by blocking IFN-γ and TNF-α.",
+  "hint": "IL-10 opposes Th1/inflammatory cytokines.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Cytokines",
+   "Quiz 1",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe force of attraction between a pentavalent antibody and a single antigenic determinant is characterized by ...\n\nA. Affinity\nB. Avidity\nC. Van der Waals attraction\nD. Covalence",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Affinity | **T** | Affinity = strength of binding between one binding site and one epitope. |\n| B. Avidity | **F** | Avidity is the total binding strength of all sites with a multivalent antigen. |\n| C. Van der Waals attraction | **F** | One of the non-covalent forces contributing to affinity, not the term that characterises it. |\n| D. Covalence | **F** | Antigen-antibody binding is non-covalent. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Affinity**: intrinsic strength of a single antibody-combining site for a single epitope (non-covalent: hydrogen bonds, electrostatic, van der Waals, hydrophobic). **Avidity**: overall strength of multivalent binding (e.g. pentameric IgM to a multivalent antigen), greater than the sum of affinities.\n\n## Simplified explanation\n\nBinding to one epitope is affinity; binding through many sites at once is avidity.",
+  "hint": "Single site vs total.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Antigen-Antibody Interaction",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe following technique(s) is/are typified by radial immunodiffusion combined with electrophoresis ...\n\nA. Countercurrent electrophoresis\nB. Rocket electrophoresis\nC. Immunoelectrophoresis\nD. Southern blotting",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Countercurrent electrophoresis | **F** | Antigen and antibody move towards each other (double diffusion + electrophoresis). |\n| B. Rocket electrophoresis | **T** | Laurell rocket: antigen electrophoresed into antibody-containing gel (single radial diffusion + electrophoresis). |\n| C. Immunoelectrophoresis | **F** | Electrophoresis followed by double diffusion. |\n| D. Southern blotting | **F** | DNA hybridisation technique. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Rocket (Laurell) immunoelectrophoresis** drives antigen into agarose containing antibody; rocket height is proportional to antigen concentration (quantitative, like radial immunodiffusion). Counterimmunoelectrophoresis and immunoelectrophoresis are based on double diffusion.\n\n## Simplified explanation\n\nRocket electrophoresis is radial immunodiffusion sped up with an electric field.",
+  "hint": "Rocket height ∝ concentration.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Immunodiffusion",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhen soluble antigens diffuse in a gel that contains antibody, the zone in which optimum precipitation occurs is/are ...\n\nA. Prozone\nB. Zone of equivalence\nC. Postzone\nD. Prezone",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Prozone | **F** | Antibody excess: little precipitation. |\n| B. Zone of equivalence | **T** | Optimal lattice formation. |\n| C. Postzone | **F** | Antigen excess: little precipitation. |\n| D. Prezone | **F** | Same as prozone (antibody excess). |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nPrecipitin curve: **prozone** (antibody excess), **zone of equivalence** (maximal lattice and precipitation), **postzone** (antigen excess). Prozone can cause false negatives (e.g. syphilis serology), corrected by dilution.\n\n## Simplified explanation\n\nMaximum precipitation happens at equivalence, when antigen and antibody are balanced.",
+  "hint": "Lattice needs balance.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Antigen-Antibody Interaction",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe following is/are primary lymphoid organ(s) ...\n\nA. Lymph node\nB. Spleen\nC. Thymus\nD. MALT",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Lymph node | **F** | Secondary lymphoid organ. |\n| B. Spleen | **F** | Secondary lymphoid organ. |\n| C. Thymus | **T** | Primary lymphoid organ (T-cell maturation). |\n| D. MALT | **F** | Secondary lymphoid tissue. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\n**Primary (central)** lymphoid organs: **bone marrow** (B-cell development) and **thymus** (T-cell maturation), where lymphocytes acquire receptors and tolerance. **Secondary**: lymph nodes, spleen, MALT/tonsils, Peyer's patches, where immune responses are initiated.\n\n## Simplified explanation\n\nThe thymus (and bone marrow) are where lymphocytes are made and educated; the others are where they meet antigen.",
+  "hint": "Where lymphocytes mature vs where they work.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Lymphoid Organs",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe type of cell(s) that would be found in a primary follicle is/are ...\n\nA. Unstimulated B cells\nB. Germinal centers\nC. Plasma cells\nD. Memory cells",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Unstimulated B cells | **T** | Primary follicles contain resting naive B cells. |\n| B. Germinal centers | **F** | Germinal centres define secondary follicles. |\n| C. Plasma cells | **F** | Found in medullary cords/red pulp. |\n| D. Memory cells | **F** | Generated in germinal centres of secondary follicles. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**Primary follicles** = aggregates of resting, unstimulated (naive) B cells with follicular dendritic cells. After antigen stimulation they become **secondary follicles** with **germinal centres** (proliferation, somatic hypermutation, class switching, memory and plasma cell generation).\n\n## Simplified explanation\n\nPrimary follicles hold resting B cells; germinal centres, plasma cells and memory cells come after stimulation.",
+  "hint": "Primary = unstimulated.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Lymphoid Organs",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhich of the following is/are true of NK cells?\n\nA. They rely on memory for antigen recognition\nB. They share antigens with B cells\nC. They are found mainly in lymph nodes\nD. They recognize a lack of MHC proteins",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. They rely on memory for antigen recognition | **F** | NK cells are innate; classically no antigen-specific memory. |\n| B. They share antigens with B cells | **F** | They share markers with **T cells** (CD2, CD7). |\n| C. They are found mainly in lymph nodes | **F** | Mainly in blood, spleen and liver. |\n| D. They recognize a lack of MHC proteins | **T** | 'Missing self': loss of MHC class I removes inhibitory signals. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nNK cells (CD56⁺CD16⁺CD3⁻, large granular lymphocytes) kill virus-infected and tumour cells without prior sensitisation. Inhibitory receptors (KIR, CD94/NKG2A) recognise **MHC class I**; cells that lose MHC I ('missing self') are killed via perforin/granzyme. They also mediate ADCC via CD16.\n\n## Simplified explanation\n\nNK cells kill cells that have lost their MHC class I 'ID card'; they don't need memory.",
+  "hint": "Missing self.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Natural Killer Cells",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the thymus, positive selection of immature T cells is/are based upon the recognition of which of the following ...\n\nA. Self-antigens\nB. Stress proteins\nC. MHC antigens\nD. µ chains",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Self-antigens | **F** | Strong self-antigen recognition causes deletion (negative selection). |\n| B. Stress proteins | **F** | Not the basis of selection. |\n| C. MHC antigens | **T** | Thymocytes that bind self-MHC survive (MHC restriction). |\n| D. µ chains | **F** | B-cell heavy chains. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nIn the thymic cortex, **positive selection** keeps double-positive thymocytes whose TCR binds **self-MHC** with low/moderate affinity (MHC restriction; CD4 for class II, CD8 for class I). In the medulla, **negative selection** deletes cells that bind **self-antigen** strongly (central tolerance, AIRE).\n\n## Simplified explanation\n\nPositive selection keeps T cells that can recognise self MHC; negative selection removes those that react strongly to self-antigens.",
+  "hint": "Positive = MHC; negative = self-antigen.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "T-cell Development",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhich receptor(s) on T cells is responsible for rosetting with sheep red blood cells.\n\nA. CD2\nB. CD3\nC. CD4\nD. CD8",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. CD2 | **T** | The E-rosette receptor (binds LFA-3 homologue on SRBC). |\n| B. CD3 | **F** | TCR signalling complex. |\n| C. CD4 | **F** | Co-receptor for MHC II. |\n| D. CD8 | **F** | Co-receptor for MHC I. |\n\n> [!answer]\n> **A T, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**CD2** (LFA-2) on T cells binds CD58 (LFA-3) and its sheep homologue on sheep red cells, the basis of the historical **E-rosette** test for enumerating T cells.\n\n## Simplified explanation\n\nCD2 makes T cells form rosettes with sheep red cells.",
+  "hint": "E-rosettes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "T Cells",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nWhich of the following can be attributed to antigen-stimulated T cells.\n\nA. Humoral response\nB. Plasma cells\nC. Cytokines\nD. Antibody",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Humoral response | **F** | Humoral immunity is antibody (B-cell) mediated. |\n| B. Plasma cells | **F** | Derived from B cells. |\n| C. Cytokines | **T** | Activated T cells secrete cytokines (IL-2, IFN-γ, IL-4...). |\n| D. Antibody | **F** | Produced by plasma cells. |\n\n> [!answer]\n> **A F, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nAntigen-stimulated T cells proliferate and secrete **cytokines** (helper functions), and CD8⁺ cells become cytotoxic. Antibodies and plasma cells belong to the B-cell (humoral) arm, although T-cell help is required for most antibody responses.\n\n## Simplified explanation\n\nActivated T cells make cytokines; antibodies and plasma cells come from B cells.",
+  "hint": "Cell-mediated vs humoral.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "T Cells",
+   "Quiz 1"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the classical pathway, activation of the C3 fragment is by ...\n\nA. C1 inhibitor\nB. C3 convertase\nC. C4b2a\nD. C5 convertase",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. C1 inhibitor | **F** | C1-INH inactivates C1r/C1s; it does not activate C3. |\n| B. C3 convertase | **T** | C3 convertase cleaves C3 into C3a and C3b. |\n| C. C4b2a | **T** | C4b2a is the classical-pathway C3 convertase. |\n| D. C5 convertase | **F** | C5 convertase (C4b2a3b) cleaves C5. |\n\n> [!answer]\n> **A F, B T, C T, D F**",
+  "explanation": "## Advanced explanation\n\nClassical pathway: antigen-antibody → C1q binding → C1r/C1s activation → C1s cleaves **C4** and **C2** → **C4b2a** (classical **C3 convertase**) cleaves C3 → C3a + C3b; C3b joins to form **C4b2a3b** (C5 convertase) → C5b-9 membrane attack complex. (Some newer texts call the larger C2 fragment C2b.)\n\n## Simplified explanation\n\nC3 is split by the C3 convertase, which in the classical pathway is C4b2a.",
+  "hint": "C4b2a = classical C3 convertase.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Complement",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nGenerally, complement proteins function is ...\n\nA. bacteria lysis\nB. neutralization of viral pathogens\nC. opsonization of pathogen complexes\nD. parasite clearance",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. bacteria lysis | **T** | Membrane attack complex lyses Gram-negative bacteria. |\n| B. neutralization of viral pathogens | **T** | Complement coats and neutralises/lyses enveloped viruses. |\n| C. opsonization of pathogen complexes | **T** | C3b/iC3b opsonise for phagocytosis. |\n| D. parasite clearance | **T** | Complement (esp. alternative pathway) helps kill and clear some parasites. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nComplement functions: **cell lysis** (MAC), **opsonisation** (C3b, iC3b, C4b), **inflammation** (anaphylatoxins C3a, C5a; C5a chemotaxis), **clearance of immune complexes** (CR1 on red cells), **virus neutralisation**, and helping B-cell responses (C3d-CR2). These contribute to defence against bacteria, viruses and parasites.\n\n## Simplified explanation\n\nComplement punches holes in microbes, coats them for phagocytes, neutralises viruses and helps clear parasites.",
+  "hint": "Lysis, opsonisation, inflammation, clearance.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Complement",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe function of the C1q is/are ...\n\nA. cleavage of C1r\nB. cleavage of C1s\nC. cleavage of C2\nD. cleavage of C4",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. cleavage of C1r | **F** | C1q has no enzyme activity; binding of C1q to antibody triggers C1r auto-activation. |\n| B. cleavage of C1s | **F** | Activated C1r cleaves C1s. |\n| C. cleavage of C2 | **F** | C1s cleaves C2. |\n| D. cleavage of C4 | **F** | C1s cleaves C4. |\n\n> [!answer]\n> **A F, B F, C F, D F**",
+  "explanation": "## Advanced explanation\n\n**C1q** is the recognition molecule: its globular heads bind the Fc regions of ≥2 IgG or one IgM (bound to antigen). This conformational change auto-activates **C1r**, which cleaves **C1s**; C1s is the serine protease that cleaves **C4 and C2**. C1q itself cleaves nothing.\n\n## Simplified explanation\n\nC1q only binds antibody and switches on C1r; the cutting is done by C1r and C1s. All four are false.",
+  "hint": "Recognition vs enzyme subunits.",
+  "difficulty": "hard",
+  "marks": 4,
+  "tags": [
+   "Complement",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nProteolysis of C3 results in the release of ...\n\nA. C2a\nB. C3a\nC. C4a\nD. C5a",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. C2a | **F** | From C2 cleavage. |\n| B. C3a | **T** | The small anaphylatoxin fragment of C3. |\n| C. C4a | **F** | From C4 cleavage. |\n| D. C5a | **F** | From C5 cleavage. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nC3 convertase cleaves C3 into **C3a** (released, anaphylatoxin) and **C3b** (binds surfaces, opsonin, part of C5 convertase).\n\n## Simplified explanation\n\nSplitting C3 gives C3a and C3b.",
+  "hint": "Fragments are named after their parent.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Complement",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCytokines which modulate inflammation because they have anti-inflammatory effects include ...\n\nA. IL-10\nB. IL-6\nC. TNF\nD. TGF-β",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IL-10 | **T** | Inhibits macrophage and Th1 cytokine production. |\n| B. IL-6 | **F** | Mainly pro-inflammatory (acute-phase response, fever). |\n| C. TNF | **F** | Major pro-inflammatory cytokine. |\n| D. TGF-β | **T** | Suppresses lymphocyte proliferation and inflammation; promotes repair. |\n\n> [!answer]\n> **A T, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\nAnti-inflammatory/regulatory cytokines: **IL-10, TGF-β**, IL-1Ra, IL-35, IL-37. Pro-inflammatory: IL-1, **IL-6**, **TNF-α**, IL-8, IL-12, IL-17, IFN-γ.\n\n## Simplified explanation\n\nIL-10 and TGF-β calm inflammation; IL-6 and TNF drive it.",
+  "hint": "Regulatory T-cell cytokines.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Cytokines",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe best test to perform to determine if a patient is allergic to rye grass is/are ...\n\nA. total IgE testing.\nB. skin prick test.\nC. direct antigen test.\nD. complement fixation.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. total IgE testing. | **F** | Total IgE is non-specific. |\n| B. skin prick test. | **T** | Detects allergen-specific IgE on skin mast cells (wheal and flare). |\n| C. direct antigen test. | **F** | Not an allergy test. |\n| D. complement fixation. | **F** | Type I allergy does not involve complement. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nDiagnosis of type I allergy to a specific allergen: **skin prick testing** or **allergen-specific IgE** (RAST/ImmunoCAP). Total IgE is raised in many conditions (atopy, parasites) and does not identify the allergen.\n\n## Simplified explanation\n\nA skin prick test with rye grass extract shows whether the patient has IgE against it.",
+  "hint": "Allergen-specific tests.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCentral tolerance occurs during ...\n\nA. Lymphocyte activation\nB. Lymphocyte development\nC. Myeloid activation\nD. Thymic selection",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Lymphocyte activation | **F** | Tolerance during activation in the periphery is peripheral tolerance. |\n| B. Lymphocyte development | **T** | In primary lymphoid organs while lymphocytes mature. |\n| C. Myeloid activation | **F** | Not related. |\n| D. Thymic selection | **T** | Negative selection of T cells in the thymus. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\n**Central tolerance** is established in the **thymus** (T cells) and **bone marrow** (B cells) during development: strongly self-reactive cells are deleted (negative selection), B cells may undergo receptor editing, and some T cells become Tregs. **Peripheral tolerance** (anergy, Tregs, deletion, ignorance) controls cells that escape.\n\n## Simplified explanation\n\nCentral tolerance happens while lymphocytes are developing, e.g. thymic selection.",
+  "hint": "Central = primary lymphoid organs.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Immunological Tolerance",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nImmunological tolerance is/are ...\n\nA. antibody dependent\nB. antigen dependent\nC. non-specific\nD. specific",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. antibody dependent | **F** | Tolerance is a state of unresponsiveness, not mediated by antibody. |\n| B. antigen dependent | **T** | Induced by exposure to the specific antigen. |\n| C. non-specific | **F** | It is antigen-specific. |\n| D. specific | **T** | Unresponsiveness to one antigen while other responses remain intact. |\n\n> [!answer]\n> **A F, B T, C F, D T**",
+  "explanation": "## Advanced explanation\n\nTolerance is an **antigen-induced, antigen-specific** unresponsiveness of lymphocytes, as opposed to non-specific immunosuppression.\n\n## Simplified explanation\n\nTolerance is triggered by a particular antigen and applies only to that antigen.",
+  "hint": "Specific, like immunity itself.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Immunological Tolerance",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nRegulatory T-cells induce immunosuppression by secreting ...\n\nA. IL-10\nB. IFN-γ\nC. TGF-β\nD. Macrophages",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IL-10 | **T** | Inhibitory cytokine. |\n| B. IFN-γ | **F** | A Th1 effector cytokine. |\n| C. TGF-β | **T** | Inhibitory cytokine. |\n| D. Macrophages | **F** | Macrophages are cells, not secreted products. |\n\n> [!answer]\n> **A T, B F, C T, D F**",
+  "explanation": "## Advanced explanation\n\nCD4⁺CD25⁺FOXP3⁺ **Tregs** suppress through **IL-10**, **TGF-β**, IL-35, CTLA-4 (removes CD80/86 from APCs), IL-2 consumption and cytolysis.\n\n## Simplified explanation\n\nTregs release IL-10 and TGF-β to quieten other immune cells.",
+  "hint": "Suppressive cytokines.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Regulatory T Cells",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nPossible causes of autoimmunity in man include ...\n\nA. cytokine dysregulation\nB. inappropriate MHC expression\nC. modification of self-antigens\nD. sequestered antigens",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. cytokine dysregulation | **T** | Imbalance of cytokines can break tolerance. |\n| B. inappropriate MHC expression | **T** | Aberrant MHC class II on non-APCs presents self-antigen. |\n| C. modification of self-antigens | **T** | Drugs, infection or chemicals can create neo-antigens. |\n| D. sequestered antigens | **T** | Release of hidden antigens (lens, sperm) triggers responses. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nMechanisms of autoimmunity: release of **sequestered antigens**, **molecular mimicry**, **modified self-antigens**, **inappropriate MHC class II expression**, polyclonal B-cell activation, **cytokine dysregulation**, defective Tregs/apoptosis, genetic factors (HLA), hormones.\n\n## Simplified explanation\n\nAll four can break tolerance and cause autoimmunity.",
+  "hint": "Ways self becomes a target.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Autoimmunity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nFemales have a higher incidence of autoimmunity than males perhaps due to ...\n\nA. anatomical structure\nB. hormonal influences.\nC. microchimerism\nD. sex chromosomes",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. anatomical structure | **F** | Not a recognised explanation. |\n| B. hormonal influences. | **T** | Oestrogens enhance immune responses; androgens suppress. |\n| C. microchimerism | **T** | Fetal cells persisting after pregnancy may trigger autoimmunity. |\n| D. sex chromosomes | **T** | X-linked immune genes, escape from X inactivation. |\n\n> [!answer]\n> **A F, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nFemale predominance (e.g. SLE ~9:1) is attributed to **sex hormones** (oestrogen promotes B-cell survival and antibody production), **X chromosome** effects (e.g. TLR7 escaping X-inactivation) and **fetal microchimerism**.\n\n## Simplified explanation\n\nHormones, the X chromosome and fetal cells left after pregnancy may explain why women get more autoimmune disease.",
+  "hint": "Hormones, chromosomes, pregnancy.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Autoimmunity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nAutoimmune conditions include ...\n\nA. Grave's disease\nB. Pernicious anaemia\nC. Rheumatoid arthritis\nD. Vitiligo",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Grave's disease | **T** | Stimulating anti-TSH receptor antibodies. |\n| B. Pernicious anaemia | **T** | Anti-parietal cell and anti-IF antibodies. |\n| C. Rheumatoid arthritis | **T** | Systemic autoimmune arthritis. |\n| D. Vitiligo | **T** | Autoimmune destruction of melanocytes. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nOrgan-specific: Graves' disease, Hashimoto's thyroiditis, pernicious anaemia, type 1 diabetes, vitiligo, myasthenia gravis. Systemic: SLE, rheumatoid arthritis, Sjögren's, scleroderma.\n\n## Simplified explanation\n\nAll four are autoimmune diseases.",
+  "hint": "Organ-specific and systemic.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Autoimmunity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn the diagnosis of rheumatoid arthritis, agglutination tests can be used to detect ...\n\nA. IgA\nB. IgE\nC. IgG\nD. IgM",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IgA | **F** | IgA RF exists but is not detected by routine agglutination. |\n| B. IgE | **F** | Not relevant. |\n| C. IgG | **F** | IgG RF agglutinates poorly and is not what agglutination tests detect. |\n| D. IgM | **T** | IgM rheumatoid factor agglutinates IgG-coated latex/sheep cells. |\n\n> [!answer]\n> **A F, B F, C F, D T**",
+  "explanation": "## Advanced explanation\n\n**Rheumatoid factor** is an autoantibody against the Fc of IgG. Latex agglutination (IgG-coated latex) and Rose-Waaler (IgG-sensitised sheep red cells) tests mainly detect **IgM RF** because pentameric IgM agglutinates efficiently. Anti-CCP antibodies (ELISA) are more specific for RA.\n\n## Simplified explanation\n\nAgglutination tests pick up IgM rheumatoid factor.",
+  "hint": "Pentameric IgM agglutinates best.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Rheumatoid Factor",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nGeneral characteristic(s) of hypersensitivity reaction(s) include ...\n\nA. antibody is involved in all reactions.\nB. either self-antigen or heterologous antigen may be involved.\nC. immune responsiveness is depressed.\nD. the antigen triggering the reaction is a harmful one.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. antibody is involved in all reactions. | **F** | Type IV is T-cell mediated. |\n| B. either self-antigen or heterologous antigen may be involved. | **T** | Both foreign and self antigens can trigger hypersensitivity. |\n| C. immune responsiveness is depressed. | **F** | Responsiveness is exaggerated. |\n| D. the antigen triggering the reaction is a harmful one. | **F** | Usually harmless antigens (pollen, food). |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nHypersensitivity = exaggerated or inappropriate immune response causing tissue damage, to **foreign (often harmless)** or **self** antigens. Gell and Coombs: type I (IgE), II (IgG/IgM to cell-bound antigen), III (immune complexes), IV (T cell, delayed).\n\n## Simplified explanation\n\nHypersensitivity is an over-reaction, often to harmless or self antigens, and type IV doesn't need antibody.",
+  "hint": "Over-reaction, not under-reaction.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe following is/are associated with type I hypersensitivity ...\n\nA. activation of complement.\nB. an inherited tendency to respond to allergens.\nC. cell-bound antibody bridged by antigen.\nD. release of preformed mediators from mast cells.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. activation of complement. | **F** | Type I is IgE/mast cell mediated. |\n| B. an inherited tendency to respond to allergens. | **T** | Atopy. |\n| C. cell-bound antibody bridged by antigen. | **T** | Allergen cross-links IgE on FcεRI. |\n| D. release of preformed mediators from mast cells. | **T** | Histamine, proteases, heparin. |\n\n> [!answer]\n> **A F, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nType I: sensitisation produces **IgE**, which binds FcεRI on mast cells/basophils; re-exposure **cross-links** bound IgE → degranulation (preformed **histamine**, tryptase, heparin) and synthesis of leukotrienes, prostaglandins, PAF, cytokines. **Atopy** is the genetic predisposition.\n\n## Simplified explanation\n\nType I is allergy: atopy, allergen bridging IgE on mast cells and histamine release; complement isn't involved.",
+  "hint": "IgE + mast cells.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nSecondary pharmacological agents that mediate type I hypersensitivity reactions include ...\n\nA. Bradykinins\nB. Leukotrienes\nC. Prostaglandins\nD. Some cytokines",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Bradykinins | **T** | Generated secondarily (kinin system). |\n| B. Leukotrienes | **T** | Newly synthesised lipid mediators. |\n| C. Prostaglandins | **T** | Newly synthesised lipid mediators. |\n| D. Some cytokines | **T** | e.g. IL-4, IL-5, IL-13, TNF. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\n**Primary** (preformed) mediators: histamine, serotonin, heparin, proteases, eosinophil/neutrophil chemotactic factors. **Secondary** (newly synthesised): **leukotrienes**, **prostaglandins**, PAF, **bradykinins**, **cytokines**.\n\n## Simplified explanation\n\nAll four are made after activation, so they are secondary mediators.",
+  "hint": "Preformed vs newly made.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nThe following explains the difference(s) between type II and type III hypersensitivity reactions.\n\nA. IgG is involved only in type III reactions.\nB. Type II involves cellular antigens.\nC. Type II reactions involve no antibody.\nD. Type III involves IgE.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. IgG is involved only in type III reactions. | **F** | IgG is involved in both. |\n| B. Type II involves cellular antigens. | **T** | Type II targets cell-surface/matrix antigens; type III involves soluble antigen in immune complexes. |\n| C. Type II reactions involve no antibody. | **F** | Type II is antibody mediated. |\n| D. Type III involves IgE. | **F** | IgE is type I. |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nType II: IgG/IgM against antigens on **cells** or tissue (transfusion reactions, HDFN, AIHA, Goodpasture). Type III: IgG/IgM + **soluble** antigen form immune complexes that deposit and activate complement (serum sickness, SLE nephritis, Arthus).\n\n## Simplified explanation\n\nBoth use antibodies; type II hits antigens on cells, type III uses free-floating complexes.",
+  "hint": "Cell-bound vs soluble antigen.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIn type II hypersensitivity reactions ...\n\nA. antigens induce cross linking between IgE and mast cells\nB. antibodies directed against cell surface antigens mediate cell destruction\nC. antigen-antibody complexes are deposited in various tissues\nD. antigens are directed against activated macrophages",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. antigens induce cross linking between IgE and mast cells | **F** | That is type I. |\n| B. antibodies directed against cell surface antigens mediate cell destruction | **T** | Defining feature. |\n| C. antigen-antibody complexes are deposited in various tissues | **F** | That is type III. |\n| D. antigens are directed against activated macrophages | **F** | Describes nothing in type II (type IV involves activated macrophages). |\n\n> [!answer]\n> **A F, B T, C F, D F**",
+  "explanation": "## Advanced explanation\n\nType II (cytotoxic) hypersensitivity: IgG/IgM bind cell-surface antigens → complement lysis, opsonisation and phagocytosis, ADCC, or receptor stimulation/blocking (Graves', myasthenia gravis).\n\n## Simplified explanation\n\nType II means antibodies attack antigens on cells and destroy them.",
+  "hint": "Cytotoxic.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nTypical manifestations of type III hypersensitivity reactions include ...\n\nA. serum sickness\nB. necrotizing vasculitis\nC. rheumatoid arthritis\nD. glomerulonephritis",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. serum sickness | **T** | Classic systemic immune complex disease. |\n| B. necrotizing vasculitis | **T** | Immune complex deposition in vessels. |\n| C. rheumatoid arthritis | **T** | Immune complexes (RF-IgG) in joints. |\n| D. glomerulonephritis | **T** | Immune complex deposition in glomeruli. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nType III: serum sickness, Arthus reaction, post-streptococcal **glomerulonephritis**, SLE, **vasculitis** (polyarteritis), **rheumatoid arthritis** (immune complex component), farmer's lung.\n\n## Simplified explanation\n\nAll four are caused by immune complexes depositing in tissues.",
+  "hint": "Immune complexes.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Hypersensitivity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nCauses of chronic inflammation includes ...\n\nA. obesity\nB. infections\nC. autoimmunity\nD. tissue damage",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. obesity | **T** | Adipose tissue produces inflammatory cytokines (low-grade inflammation). |\n| B. infections | **T** | Persistent infections (TB, H. pylori). |\n| C. autoimmunity | **T** | Persistent self-antigen. |\n| D. tissue damage | **T** | Persistent injury/foreign material. |\n\n> [!answer]\n> **A T, B T, C T, D T**",
+  "explanation": "## Advanced explanation\n\nChronic inflammation results from persistent **infections**, prolonged exposure to toxic agents or **tissue damage**, **autoimmunity**, and metabolic/low-grade inflammation in **obesity** (adipokines, TNF, IL-6).\n\n## Simplified explanation\n\nAll four keep inflammation going.",
+  "hint": "Persistent stimulus.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Inflammation",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State whether each option is **true (T)** or **false (F)**.\n\nIndicate whether each of the following statements is true or false:\n\nA. Transplacental transfer of maternal IgG antibodies against measles confers short-term immunity on the fetus.\nB. Attenuated vaccines are more likely to induce cell-mediated immunity than killed vaccines are.\nC. One disadvantage of DNA vaccines is that they don't generate significant immunologic memory.\nD. Macromolecules generally contain a large number of potential epitopes.\nE. A DNA vaccine only induces a response to a single epitope.\nF. Hereditary retinoblastoma results from overexpression of a cellular oncogene.\nG. Multiple copies of cellular oncogenes are sometimes observed in cancer cells.\nH. Viral integration into the cellular genome may convert a proto-oncogene into a transforming oncogene.\nI. All oncogenic retroviruses carry viral oncogenes.\nJ. The immune response against a virus-induced tumor protects against another tumor induced by the same virus.",
+  "media": [],
+  "answer": "| Option | T/F | Why |\n|---|---|---|\n| A. Transplacental transfer of maternal IgG antibodies against measles confers short-term immunity on the fetus. | **T** | Natural passive immunity lasting months. |\n| B. Attenuated vaccines are more likely to induce cell-mediated immunity than killed vaccines are. | **T** | Live organisms replicate intracellularly and present via MHC I. |\n| C. One disadvantage of DNA vaccines is that they don't generate significant immunologic memory. | **F** | DNA vaccines do generate memory. |\n| D. Macromolecules generally contain a large number of potential epitopes. | **T** | Large molecules are multi-epitope. |\n| E. A DNA vaccine only induces a response to a single epitope. | **F** | The encoded protein contains many epitopes. |\n| F. Hereditary retinoblastoma results from overexpression of a cellular oncogene. | **F** | It results from loss of the RB1 tumour-suppressor gene. |\n| G. Multiple copies of cellular oncogenes are sometimes observed in cancer cells. | **T** | Gene amplification (e.g. MYCN, HER2). |\n| H. Viral integration into the cellular genome may convert a proto-oncogene into a transforming oncogene. | **T** | Insertional activation. |\n| I. All oncogenic retroviruses carry viral oncogenes. | **F** | Some act by insertional mutagenesis without carrying an oncogene. |\n| J. The immune response against a virus-induced tumor protects against another tumor induced by the same virus. | **T** | Virus-induced tumours share viral antigens. |\n\n> [!answer]\n> **A T, B T, C F, D T, E F, F F, G T, H T, I F, J T**",
+  "explanation": "## Advanced explanation\n\nPassive maternal IgG protects infants for months. Live attenuated vaccines induce both humoral and cell-mediated immunity; DNA vaccines express whole proteins (many epitopes) and induce memory. Retinoblastoma is due to loss of the **RB1 tumour suppressor** ('two hits'). Oncogene activation: point mutation, **amplification**, translocation, **retroviral insertion**. Virus-induced tumours share viral antigens, so immunity cross-protects (unlike chemically induced tumours).\n\n## Simplified explanation\n\nMaternal IgG and live vaccines give the immunity described; DNA vaccines do make memory and many epitopes; retinoblastoma is a lost brake (RB1), not an overactive oncogene; not all oncogenic retroviruses carry oncogenes; tumours from the same virus share antigens.",
+  "hint": "Tumour suppressor vs oncogene.",
+  "difficulty": "hard",
+  "marks": 10,
+  "tags": [
+   "Vaccines & Tumour Immunology",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "State any TWO (2) disadvantages of using live attenuated organisms as vaccines.",
+  "media": [],
+  "answer": "Any two:\n\n- **Reversion to virulence** (e.g. vaccine-derived poliovirus from OPV).\n- **Unsafe in immunocompromised** people and pregnancy (can cause disease).\n- Need a **cold chain**: heat-labile, short shelf life.\n- Risk of **contamination** with other agents during production.\n- Possible **spread** to unvaccinated contacts; interference by maternal antibody.\n\n> [!answer]\n> Possible reversion to virulence and danger in immunocompromised recipients (also cold-chain requirement).",
+  "explanation": "## Advanced explanation\n\nLive attenuated vaccines (MMR, BCG, OPV, yellow fever, varicella, rotavirus) give strong, long-lasting humoral and cell-mediated immunity, often after a single dose, but carry these safety and logistic drawbacks compared with inactivated/subunit vaccines.\n\n## Simplified explanation\n\nLive vaccines can occasionally become harmful again or cause disease in people with weak immunity, and they must be kept cold.",
+  "hint": "Safety and storage.",
+  "difficulty": "easy",
+  "marks": 4,
+  "tags": [
+   "Vaccines",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A young girl who had never been immunized to tetanus stepped on a rusty nail and got a deep puncture wound. The doctor cleaned out the wound and gave the child an injection of tetanus antitoxin. If the girl receives no further treatment and steps on a rusty nail again 3 years later, will she be immune to tetanus?",
+  "media": [],
+  "answer": "**No.** Tetanus antitoxin is **passive immunisation** (preformed antibody). It neutralises toxin immediately but is catabolised within weeks (IgG half-life ~3 weeks), and it does **not stimulate her own B and T cells**, so **no memory** forms. Three years later she would have no protective antibody; she needs active immunisation with **tetanus toxoid** (plus antitoxin/TIG for the new wound).\n\n> [!answer]\n> No: antitoxin gives short-lived passive immunity without memory; she needs tetanus toxoid.",
+  "explanation": "## Advanced explanation\n\nPassive immunity (antitoxins, immunoglobulins, maternal IgG) is immediate but temporary; active immunity (infection or vaccination, e.g. toxoid) takes time to develop but induces memory. Tetanus infection itself does not reliably confer immunity because the toxic dose is below the immunogenic dose.\n\n## Simplified explanation\n\nThe antitoxin only lent her antibodies for a few weeks; her body made no memory, so she isn't protected 3 years later.",
+  "hint": "Passive vs active.",
+  "difficulty": "medium",
+  "marks": 4,
+  "tags": [
+   "Vaccines",
+   "Passive Immunity",
+   "2018/19 End of Second Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "For each of the following descriptions, choose the most appropriate term from: *Sarcoma; Carcinoma; Metastasis; Neoplasm; Malignant; Leukemia; Transformation; Lymphoma; Benign*.\n\n133. A benign or malignant tumor\n134. A tumor that has arisen from endodermal tissue\n135. A tumor that is invasive and continues to grow\n136. A tumor that has arisen from lymphoid cells\n137. A tumor that is noninvasive\n138. A permanent change in the genome of a cell that results in abnormal growth\n139. Cancer cells that have arisen from hematopoietic cells that do not grow as a solid tumor\n140. A tumor that has arisen from mesodermal connective tissue",
+  "media": [],
+  "answer": "| # | Term |\n|---|---|\n| 133 | **Neoplasm** |\n| 134 | **Carcinoma** |\n| 135 | **Malignant** |\n| 136 | **Lymphoma** |\n| 137 | **Benign** |\n| 138 | **Transformation** |\n| 139 | **Leukemia** |\n| 140 | **Sarcoma** |\n\n(Metastasis, the spread of tumour cells to distant sites, is not used.)\n\n> [!answer]\n> Neoplasm, Carcinoma, Malignant, Lymphoma, Benign, Transformation, Leukemia, Sarcoma.",
+  "explanation": "## Advanced explanation\n\nCarcinomas arise from endodermal or ectodermal epithelia; sarcomas from mesodermal connective tissue; leukaemias from haematopoietic cells growing as single cells in blood/marrow; lymphomas from lymphoid cells as solid tumours. Benign tumours do not invade; malignant ones invade and may metastasise. Transformation is the heritable change converting a normal cell into a cancer cell.\n\n## Simplified explanation\n\nMatch each description: any tumour = neoplasm, epithelial = carcinoma, invasive = malignant, lymphoid = lymphoma, non-invasive = benign, genetic change = transformation, blood cancer = leukaemia, connective tissue = sarcoma.",
+  "hint": "Carcinoma = epithelium; sarcoma = connective tissue.",
+  "difficulty": "easy",
+  "marks": 8,
+  "tags": [
+   "Tumour Immunology",
+   "2018/19 End of Second Semester Exam"
+  ]
+ }
+]

@@ -1,0 +1,1374 @@
+[
+ {
+  "type": "choice",
+  "body": "The ideal tumour marker must .....\n\nI. Be absent or in low concentrations in the non-diseased person\nII. Correlate with tumour size and burden\nIII. Be less specific but more sensitive",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Both sensitive and specific.",
+  "explanation": "## Advanced explanation\n\nAn ideal tumour marker is **absent/very low in health**, **specific** to one tumour type, **sensitive** enough to detect small tumours, **correlates with tumour burden** and stage, and responds to treatment. Trading specificity for sensitivity is not ideal.\n\n## Simplified explanation\n\nLow in healthy people and proportional to tumour size – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the management of breast cancer the following tumour markers are relevant.\n\nI. CA 19-9\nII. HER-2\nIII. Oestrogen and progesterone receptors",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement II."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Tissue receptors guide therapy.",
+  "explanation": "## Advanced explanation\n\nBreast cancer markers: tissue **ER/PR** and **HER-2** (predict response to hormone therapy and trastuzumab) and serum **CA 15-3/CA 27.29** for monitoring. **CA 19-9** is a pancreatic/biliary marker.\n\n## Simplified explanation\n\nHER-2 and ER/PR are breast cancer markers; CA 19-9 is for pancreas.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider the following statements on prostate specific antigen (PSA).\n\nI. PSA is useful in monitoring, diagnosing and staging prostate cancer\nII. Decreased free PSA is more suggestive of prostatitis\nIII. Elevated bound (complexed) PSA is suggestive of prostate cancer",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Correct. Matches the true statements."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Free PSA fraction.",
+  "explanation": "## Advanced explanation\n\nPSA is organ- but not cancer-specific (raised in BPH, prostatitis, after instrumentation), so it cannot alone **diagnose or stage** cancer; it is mainly used for **monitoring** and as an aid to detection. In cancer, a greater proportion of PSA is **bound** (complexed to α1-antichymotrypsin), so the **free:total ratio is low**; benign conditions give a higher free fraction.\n\n## Simplified explanation\n\nOnly III: cancer raises bound PSA (low free fraction).",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "To improve the diagnostic precision of plasma enzymes...\n\nI. More than one enzyme should be measured\nII. There should be serial enzyme estimations\nIII. Only highly sensitive enzymes should be measured",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Patterns and time course.",
+  "explanation": "## Advanced explanation\n\nDiagnostic precision improves by measuring **several enzymes** (an enzyme pattern, e.g. ALP + GGT), **isoenzymes**, and by **serial measurements** to follow the time course. Sensitivity alone is not enough – **specificity** also matters.\n\n## Simplified explanation\n\nMeasure several enzymes, repeatedly – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Clinical Enzymology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "To improve the diagnostic precision of PSA in the early diagnosis of prostate cancer, ...\n\nI. PSA velocity should be estimated\nII. Total, free and bound PSA should be measured\nIII. Age-specific reference ranges are only useful in newly diagnosed cases",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Velocity, density, free fraction, age ranges.",
+  "explanation": "## Advanced explanation\n\nRefinements of PSA: **PSA velocity** (rate of rise), **PSA density** (per prostate volume), **free:total ratio** (free/complexed forms) and **age-specific reference ranges** (used in screening/early detection, not only in newly diagnosed cases).\n\n## Simplified explanation\n\nVelocity and free/bound PSA help – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The 5' nucleotidase is useful in the investigation of ....\n\nI. Bone disease\nII. Pancreatitis\nIII. Hepatobiliary disorder",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Correct. Matches the true statements."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Confirms hepatic origin of ALP.",
+  "explanation": "## Advanced explanation\n\n**5'-Nucleotidase** rises in **hepatobiliary (cholestatic) disease** but not in bone disease, so it helps decide whether a raised ALP is of hepatic or bone origin. It is not used for pancreatitis.\n\n## Simplified explanation\n\n5'NT is for liver/biliary disease only.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Clinical Enzymology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the differential biochemical diagnosis of acute pancreatitis it is relevant to assay serum...\n\nI. Salivary amylase\nII. Total amylase\nIII. Lipase",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement II."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Pancreatic enzymes.",
+  "explanation": "## Advanced explanation\n\nAcute pancreatitis is diagnosed by **serum lipase** (more specific, stays raised longer) or **total amylase** (> 3× ULN). **Pancreatic** (not salivary) amylase isoenzyme may help; salivary amylase points away from the pancreas.\n\n## Simplified explanation\n\nTotal amylase and lipase – II and III.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The ideal marker for myocardial infarction must ...\n\nI. increase early\nII. be specific to the cardiac tissue\nIII. remain elevated in blood for a good length of time",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Early, specific, long window.",
+  "explanation": "## Advanced explanation\n\nAn ideal MI marker is **cardiac-specific**, **rises early** after injury (early diagnosis), **remains elevated** long enough for late presenters, is proportional to infarct size and easily measured. Cardiac troponins come closest.\n\n## Simplified explanation\n\nAll three are wanted.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiac Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Cardiac biomarkers in diagnosis of heart conditions include ...\n\nI. Cardiac muscle enzymes\nII. Cardiac muscle proteins\nIII. Metabolised lipids in the heart",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Released from damaged myocytes.",
+  "explanation": "## Advanced explanation\n\nCardiac biomarkers are **enzymes** (CK-MB, AST, LDH-1) and **proteins** (troponin I/T, myoglobin, natriuretic peptides BNP/NT-proBNP) released by the myocardium. Metabolised lipids are not cardiac biomarkers.\n\n## Simplified explanation\n\nEnzymes and proteins – I and II.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Cardiac Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "A classic example of measuring more than one enzyme in clinical enzymology is the use of ...\n\nI. CK-MB and AST in muscle dystrophy\nII. ALP and GGT in liver disease\nIII. CK-total, CK-MB, LDH-3 and AST in myocardial infarction",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Check each isoenzyme.",
+  "explanation": "## Advanced explanation\n\n**ALP + GGT** is the classic pair: a raised ALP with raised GGT indicates hepatobiliary origin. The cardiac panel uses **LDH-1** (not LDH-3), and muscular dystrophy is assessed with total CK (CK-MM).\n\n## Simplified explanation\n\nALP with GGT in liver disease is the classic pair.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Clinical Enzymology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Zollinger-Ellison syndrome:\n\nI. Is diagnosed by estimating serum elastase\nII. The tumours (gastrinomas) are found in the stomach only\nIII. Symptoms include acid reflux and heartburn",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Correct. Matches the true statements."
+   }
+  ],
+  "correctIndex": 4,
+  "hint": "Gastrin excess.",
+  "explanation": "## Advanced explanation\n\n**Zollinger–Ellison syndrome** is caused by **gastrinomas**, usually in the **duodenum or pancreas** (gastrinoma triangle), not the stomach. Hypergastrinaemia causes massive acid secretion → severe/recurrent peptic ulcers, **reflux, heartburn** and diarrhoea. Diagnosis: **fasting serum gastrin** (with gastric pH) and secretin stimulation test.\n\n## Simplified explanation\n\nOnly III is right; diagnose with gastrin, tumours in duodenum/pancreas.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Peptic ulcer:\n\nI. Can develop due to gastrinomas\nII. Develops when there is more mucus than acid in the stomach\nIII. Results when H. pylori exposes the stomach lining to HCl and pepsin",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Imbalance of aggressive vs protective factors.",
+  "explanation": "## Advanced explanation\n\nPeptic ulcers arise when **aggressive factors** (acid, pepsin) overcome **mucosal defences** (mucus, bicarbonate, prostaglandins). Causes: **H. pylori** (damages the mucus layer), NSAIDs, and **gastrinoma** (Zollinger–Ellison). More mucus than acid would be protective.\n\n## Simplified explanation\n\nGastrinomas and H. pylori cause ulcers; more mucus protects – I and III.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Vitamin B₁₂ deficiency should be suspected in ...\n\nI. Patients with intestinal diseases\nII. Elderly patients with hyperchlorhydria\nIII. Patients who have undergone total gastrectomy",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Intrinsic factor and terminal ileum.",
+  "explanation": "## Advanced explanation\n\nB₁₂ absorption needs gastric **intrinsic factor** and a healthy **terminal ileum**. Deficiency occurs after **gastrectomy**, in pernicious anaemia/atrophic gastritis (**achlorhydria**, not hyperchlorhydria), and **intestinal disease** (Crohn's, ileal resection, bacterial overgrowth, fish tapeworm).\n\n## Simplified explanation\n\nGut disease and gastrectomy – I and III.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Chronic pancreatitis:\n\nI. May be caused by long-term alcohol abuse\nII. Does not affect the volume of enzyme and pancreatic secretions\nIII. Becomes only evident when there is malabsorption and steatorrhoea",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Exocrine insufficiency is late.",
+  "explanation": "## Advanced explanation\n\n**Chronic pancreatitis** is commonly due to **alcohol**; progressive fibrosis **reduces** enzyme and bicarbonate secretion. It usually presents with **recurrent pain**; malabsorption/steatorrhoea appear only when > 90% of exocrine function is lost, so it is not 'only evident' then.\n\n## Simplified explanation\n\nOnly I is true.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Soluble transferrin receptor:\n\nI. Is normal in anaemia of chronic disease\nII. Is not affected by the acute phase response\nIII. Is increased together with ferritin in iron deficiency anaemia",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Distinguishes IDA from ACD.",
+  "explanation": "## Advanced explanation\n\n**sTfR** reflects tissue iron need/erythropoietic activity. It is **raised in iron deficiency** (while **ferritin is low**) and **normal in anaemia of chronic disease**; unlike ferritin, it is **not an acute phase reactant**, so it helps when inflammation coexists.\n\n## Simplified explanation\n\nNormal in ACD and not an acute phase protein – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The characteristics of ferritin include\n\nI. Circulating ferritin is in equilibrium with stored ferritin\nII. Misleading results when there is co-existing inflammation\nIII. High ferritin may also occur in alcoholism",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Store marker but acute phase reactant.",
+  "explanation": "## Advanced explanation\n\nPlasma ferritin is in **equilibrium with tissue stores** and is the best single test of iron stores; but it is an **acute phase reactant** (falsely normal/high in inflammation) and is raised in **liver disease and alcoholism**, malignancy and iron overload.\n\n## Simplified explanation\n\nAll three are true.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In the assessment of iron overload;\n\nI. It is enough to measure plasma iron, transferrin and ferritin\nII. Low iron and percentage saturation may be lower when there is an infection\nIII. Plasma ferritin is almost always elevated",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement II."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Saturation, ferritin, then confirmation.",
+  "explanation": "## Advanced explanation\n\nIron overload is assessed with **transferrin saturation** and **ferritin** (almost always raised), then confirmed with **HFE genotyping**, liver MRI or **liver biopsy**; plasma tests alone are not enough. Infection lowers serum iron and saturation (and raises ferritin), confusing interpretation.\n\n## Simplified explanation\n\nII and III are true; basic plasma tests alone are not enough.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "The following are relevant in the demonstration of increased iron stores.\n\nI. Liver biopsy\nII. Bone marrow iron content\nIII. Peripheral blood smear",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Tissue iron.",
+  "explanation": "## Advanced explanation\n\nIron stores are demonstrated directly by **liver biopsy** (hepatic iron concentration, Perls' stain) and **bone marrow aspirate iron (Perls')**; the blood film shows red cell morphology, not stores.\n\n## Simplified explanation\n\nLiver biopsy and marrow iron – I and II.",
+  "difficulty": "easy",
+  "marks": 1,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Consider the following statements on anaemia of chronic disease.\n\nI. There are normal levels of hepcidin and soluble transferrin receptor\nII. In anaemia of chronic disease there is increased level of TNF-alpha\nIII. Cytokines impair red cell proliferation and blunt erythropoietin response",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement I."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement I and II."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement II."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Hepcidin is raised.",
+  "explanation": "## Advanced explanation\n\nIn **anaemia of chronic disease**, IL-6 increases **hepcidin**, which blocks iron release from macrophages and gut absorption; **TNF-α**, IL-1 and IFN-γ suppress erythroid proliferation and **blunt the EPO response**. sTfR is normal but hepcidin is high.\n\n## Simplified explanation\n\nII and III are true; hepcidin is raised, not normal.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Deficiency of lipoprotein lipase...\n\nI. Results in elevated levels of triglycerides\nII. Affects the metabolism of apo B-dependent lipoproteins\nIII. Causes familial hypertriglyceridaemia",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Familial chylomicronaemia.",
+  "explanation": "## Advanced explanation\n\n**LPL deficiency** prevents hydrolysis of triglyceride in **chylomicrons (apo B-48)** and **VLDL (apo B-100)**, causing severe hypertriglyceridaemia – **familial chylomicronaemia syndrome (type I)**. **Familial hypertriglyceridaemia (type IV)** is a different disorder of VLDL overproduction.\n\n## Simplified explanation\n\nHigh triglycerides from apoB lipoproteins – I and II; it causes chylomicronaemia, not familial hypertriglyceridaemia.",
+  "difficulty": "hard",
+  "marks": 1,
+  "tags": [
+   "Lipid Disorders",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Obesity-associated dyslipidaemia results in...\n\nI. Low HDL levels\nII. Increased VLDL\nIII. Familial hypertriglyceridaemia",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Secondary, not familial.",
+  "explanation": "## Advanced explanation\n\nObesity (insulin resistance) increases hepatic **VLDL** production and triglycerides, lowers **HDL** and produces small dense LDL. 'Familial' hypertriglyceridaemia is a **primary (genetic)** disorder, not caused by obesity.\n\n## Simplified explanation\n\nLow HDL and high VLDL – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Lipid Disorders",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "In Tangier disease,\n\nI. There is reduced HDL in plasma\nII. There is a defect in ABCA1 transporter protein\nIII. The serum is rich in LDL cholesterol",
+  "media": [],
+  "options": [
+   {
+    "text": "(I), (II) and (III) are correct",
+    "hint": "Check statement III."
+   },
+   {
+    "text": "(I) and (II) only are correct",
+    "hint": "Correct. Matches the true statements."
+   },
+   {
+    "text": "(II) and (III) only are correct",
+    "hint": "Check statement I and III."
+   },
+   {
+    "text": "(I) and (III) only are correct",
+    "hint": "Check statement II and III."
+   },
+   {
+    "text": "(III) only is correct",
+    "hint": "Check statement I and II and III."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "ABCA1 and cholesterol efflux.",
+  "explanation": "## Advanced explanation\n\n**Tangier disease** is caused by mutations in **ABCA1**, which effluxes cellular cholesterol to apoA-I. Nascent HDL cannot form, so **HDL is almost absent**; LDL is usually **low**; cholesteryl esters accumulate in tonsils (orange), liver, spleen and nerves.\n\n## Simplified explanation\n\nVery low HDL due to ABCA1 defect – I and II.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Lipid Disorders",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the tumour marker with its main use: **CA 15-3**",
+  "media": [],
+  "options": [
+   {
+    "text": "Monitoring therapy",
+    "hint": "Correct. **CA 15-3** (and CA 27.29) is used mainly to **monitor treatment** and detect recurrence of metastatic breast cancer; it is not sensitive enough for screening or diagnosis."
+   },
+   {
+    "text": "Screening",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Diagnosis",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Prognosis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**CA 15-3** (and CA 27.29) is used mainly to **monitor treatment** and detect recurrence of metastatic breast cancer; it is not sensitive enough for screening or diagnosis.\n\n## Simplified explanation\n\nCA 15-3 → monitoring breast cancer.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the tumour marker with its main use: **Gastrin**",
+  "media": [],
+  "options": [
+   {
+    "text": "Monitoring therapy",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Screening",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Diagnosis",
+    "hint": "Correct. Fasting serum **gastrin** (with secretin test) is used to **diagnose** gastrinoma (Zollinger–Ellison syndrome)."
+   },
+   {
+    "text": "Prognosis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nFasting serum **gastrin** (with secretin test) is used to **diagnose** gastrinoma (Zollinger–Ellison syndrome).\n\n## Simplified explanation\n\nGastrin → diagnosis of gastrinoma.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the tumour marker with its main use: **Thyroglobulin**",
+  "media": [],
+  "options": [
+   {
+    "text": "Monitoring therapy",
+    "hint": "Correct. After total thyroidectomy and radioiodine ablation, **thyroglobulin** should be undetectable; a rise indicates recurrence – it is used to **monitor** differentiated thyroid cancer."
+   },
+   {
+    "text": "Screening",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Diagnosis",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Prognosis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nAfter total thyroidectomy and radioiodine ablation, **thyroglobulin** should be undetectable; a rise indicates recurrence – it is used to **monitor** differentiated thyroid cancer.\n\n## Simplified explanation\n\nThyroglobulin → monitoring thyroid cancer.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the enzyme(s)/protein with the condition it is used to investigate: **AST / CK-MM / CK-total**",
+  "media": [],
+  "options": [
+   {
+    "text": "Myocardial infarction",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Chronic pancreatitis",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Myositis",
+    "hint": "Correct. Skeletal muscle injury (**myositis**, myopathy, rhabdomyolysis) raises **CK-MM**, total CK and AST."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nSkeletal muscle injury (**myositis**, myopathy, rhabdomyolysis) raises **CK-MM**, total CK and AST.\n\n## Simplified explanation\n\nCK-MM → muscle (myositis).",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Clinical Enzymology",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the enzyme(s)/protein with the condition it is used to investigate: **Troponin**",
+  "media": [],
+  "options": [
+   {
+    "text": "Myocardial infarction",
+    "hint": "Correct. Cardiac **troponin I/T** is the marker of choice for **myocardial infarction**."
+   },
+   {
+    "text": "Chronic pancreatitis",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Myositis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nCardiac **troponin I/T** is the marker of choice for **myocardial infarction**.\n\n## Simplified explanation\n\nTroponin → MI.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Cardiac Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the enzyme(s)/protein with the condition it is used to investigate: **Amylase / lipase**",
+  "media": [],
+  "options": [
+   {
+    "text": "Myocardial infarction",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Chronic pancreatitis",
+    "hint": "Correct. Pancreatic enzymes **amylase and lipase** are used to investigate **pancreatitis** (of the options given, chronic pancreatitis)."
+   },
+   {
+    "text": "Myositis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nPancreatic enzymes **amylase and lipase** are used to investigate **pancreatitis** (of the options given, chronic pancreatitis).\n\n## Simplified explanation\n\nAmylase/lipase → pancreas.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Elastase (serum)**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Correct. **Serum elastase-1** rises in **acute pancreatitis** and stays raised longer than amylase (faecal elastase assesses exocrine insufficiency)."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**Serum elastase-1** rises in **acute pancreatitis** and stays raised longer than amylase (faecal elastase assesses exocrine insufficiency).\n\n## Simplified explanation\n\nSerum elastase → acute pancreatitis.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Gastrin**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Correct. Raised fasting **gastrin** indicates **gastrinoma**."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 0,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nRaised fasting **gastrin** indicates **gastrinoma**.\n\n## Simplified explanation\n\nGastrin → gastrinoma.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Amylase**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Correct. Serum **amylase** > 3× upper limit supports **acute pancreatitis**."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nSerum **amylase** > 3× upper limit supports **acute pancreatitis**.\n\n## Simplified explanation\n\nAmylase → acute pancreatitis.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Lipase**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Correct. Serum **lipase** is the more specific marker of **acute pancreatitis**."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nSerum **lipase** is the more specific marker of **acute pancreatitis**.\n\n## Simplified explanation\n\nLipase → acute pancreatitis.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Vitamin B₁₂**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Correct. Low **B₁₂** indicates ileal **malabsorption** (or lack of intrinsic factor)."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nLow **B₁₂** indicates ileal **malabsorption** (or lack of intrinsic factor).\n\n## Simplified explanation\n\nB₁₂ → malabsorption.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Urea breath test**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Correct. The **¹³C/¹⁴C-urea breath test** detects *H. pylori* urease – used in **peptic ulcer** disease."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 1,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nThe **¹³C/¹⁴C-urea breath test** detects *H. pylori* urease – used in **peptic ulcer** disease.\n\n## Simplified explanation\n\nUrea breath test → H. pylori/peptic ulcer.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Lipase/amylase ratio**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Correct. A high **lipase:amylase ratio** (> 2–5) suggests **alcoholic acute pancreatitis**."
+   }
+  ],
+  "correctIndex": 3,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nA high **lipase:amylase ratio** (> 2–5) suggests **alcoholic acute pancreatitis**.\n\n## Simplified explanation\n\nLipase/amylase ratio → acute pancreatitis.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Hydrogen breath test**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Correct. **Hydrogen breath tests** detect carbohydrate **malabsorption** (lactose intolerance) and bacterial overgrowth."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\n**Hydrogen breath tests** detect carbohydrate **malabsorption** (lactose intolerance) and bacterial overgrowth.\n\n## Simplified explanation\n\nHydrogen breath → malabsorption.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "choice",
+  "body": "Match the diagnostic biomarker with the gastrointestinal condition it is used to investigate: **Lactose tolerance test**",
+  "media": [],
+  "options": [
+   {
+    "text": "Gastrinoma",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Peptic ulcer",
+    "hint": "Not the best match."
+   },
+   {
+    "text": "Malabsorption",
+    "hint": "Correct. Failure of blood glucose to rise after lactose indicates lactase deficiency – a **malabsorption** disorder."
+   },
+   {
+    "text": "Acute pancreatitis",
+    "hint": "Not the best match."
+   }
+  ],
+  "correctIndex": 2,
+  "hint": "Each option may be used once, more than once or not at all.",
+  "explanation": "## Advanced explanation\n\nFailure of blood glucose to rise after lactose indicates lactase deficiency – a **malabsorption** disorder.\n\n## Simplified explanation\n\nLactose tolerance → malabsorption.",
+  "difficulty": "medium",
+  "marks": 1,
+  "tags": [
+   "Gastrointestinal Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "In the diagnosis and management of patients with carcinoma of the colon, plasma carcinoembryonic antigen (CEA) is:\n\na. a sensitive indicator of tumour recurrence\nb. a tumour marker with high specificity for carcinoma of the colon\nc. used as a screening test for early detection of carcinoma of the colon in people over 40 years\nd. a useful post-operative confirmatory test that the tumour has been completely removed\ne. a sensitive and specific indicator of spread of colonic carcinoma prior to operation to remove the primary tumour\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. a sensitive indicator of tumour recurrence | **T** | Serial CEA detects recurrence. |\n| b. a tumour marker with high specificity for carcinoma of the colon | **F** | Raised in other cancers, smokers, liver disease, IBD. |\n| c. used as a screening test for early detection of carcinoma of the colon in people over 40 years | **F** | Too insensitive and non-specific for screening. |\n| d. a useful post-operative confirmatory test that the tumour has been completely removed | **T** | Raised CEA should fall to normal after complete resection. |\n| e. a sensitive and specific indicator of spread of colonic carcinoma prior to operation to remove the primary tumour | **F** | Pre-operative CEA has prognostic value but is neither sensitive nor specific for spread. |\n\n> [!answer]\n> a T, b F, c F, d T, e F.",
+  "explanation": "## Advanced explanation\n\n**CEA** is mainly used to **monitor** colorectal cancer: it should normalise after complete resection and a later rise signals **recurrence**. It is **not specific** (smoking, cirrhosis, IBD, other carcinomas) or sensitive enough for **screening** or staging.\n\n## Simplified explanation\n\nCEA monitors colon cancer (recurrence, complete removal) but is not for screening or staging.",
+  "hint": "Monitoring marker.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Human chorionic gonadotrophin (hCG):\n\na. consists of three subunits\nb. is elevated in pancreatitis\nc. levels are reduced in molar pregnancy\nd. is the ideal marker for choriocarcinoma\ne. is used to monitor treatment of testicular tumours\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. consists of three subunits | **F** | Two subunits (α and β). |\n| b. is elevated in pancreatitis | **F** | Not a feature of pancreatitis. |\n| c. levels are reduced in molar pregnancy | **F** | Very high in molar pregnancy. |\n| d. is the ideal marker for choriocarcinoma | **T** | Produced by virtually all choriocarcinomas. |\n| e. is used to monitor treatment of testicular tumours | **T** | With AFP in non-seminomatous germ cell tumours. |\n\n> [!answer]\n> a F, b F, c F, d T, e T.",
+  "explanation": "## Advanced explanation\n\n**hCG** is a glycoprotein with an **α subunit** (shared with LH, FSH, TSH) and a specific **β subunit**. It is very high in **hydatidiform mole** and **choriocarcinoma** (near-ideal marker) and, with AFP, is used to diagnose and monitor **testicular germ cell tumours**.\n\n## Simplified explanation\n\nhCG has two subunits, is high in molar pregnancy and is the marker for choriocarcinoma and testicular tumours.",
+  "hint": "Trophoblast marker.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the following statements on measures to improve the sensitivity and specificity of PSA measurements.\n\na. Measuring free or bound PSA\nb. By measuring free and bound PSA\nc. Relating PSA concentration to the prostate volume\nd. Age-specific reference ranges have been developed\ne. Measuring the rate of change of PSA levels periodically\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. Measuring free or bound PSA | **F** | Either one alone does not help; the ratio is needed. |\n| b. By measuring free and bound PSA | **T** | Free:total (or complexed) ratio. |\n| c. Relating PSA concentration to the prostate volume | **T** | PSA density. |\n| d. Age-specific reference ranges have been developed | **T** | PSA rises with age. |\n| e. Measuring the rate of change of PSA levels periodically | **T** | PSA velocity. |\n\n> [!answer]\n> a F, b T, c T, d T, e T.",
+  "explanation": "## Advanced explanation\n\nPSA refinements: **free:total ratio**, **PSA density** (PSA/prostate volume), **age-specific reference ranges**, **PSA velocity/doubling time**; newer tests include PCA3 and the Prostate Health Index.\n\n## Simplified explanation\n\nUse both free and bound PSA, PSA density, age ranges and PSA velocity.",
+  "hint": "Refinements.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Consider the following statements on secondary iron overload.\n\na. No anaemia is associated with iron overload\nb. Multiple transfusions in anaemia can cause iron overload\nc. TIBC and ferritin are low or normal in secondary iron overload\nd. Liver biopsy and bone marrow studies are of no value in iron overload\ne. Iron overload is associated with thalassaemia and sideroblastic anaemia\n\n*Mark each option True (T) or False (F).*",
+  "media": [],
+  "answer": "| Option | T/F | Reason |\n|---|---|---|\n| a. No anaemia is associated with iron overload | **F** | Secondary overload often accompanies anaemia (thalassaemia, sideroblastic). |\n| b. Multiple transfusions in anaemia can cause iron overload | **T** | Each unit adds ~200–250 mg iron. |\n| c. TIBC and ferritin are low or normal in secondary iron overload | **F** | Ferritin is high; TIBC low with high saturation. |\n| d. Liver biopsy and bone marrow studies are of no value in iron overload | **F** | They quantify tissue iron. |\n| e. Iron overload is associated with thalassaemia and sideroblastic anaemia | **T** | Ineffective erythropoiesis and transfusion. |\n\n> [!answer]\n> a F, b T, c F, d F, e T.",
+  "explanation": "## Advanced explanation\n\n**Secondary iron overload** follows **repeated transfusion** and **ineffective erythropoiesis** (thalassaemia, sideroblastic anaemia), which suppresses hepcidin and increases absorption. **Ferritin and transferrin saturation are high**; liver biopsy/MRI quantifies iron.\n\n## Simplified explanation\n\nTransfusions and thalassaemia overload iron; ferritin is high.",
+  "hint": "Transfusional siderosis.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Iron Metabolism",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "A specialist hospital in Accra employed Joe Boy, a BSc medical laboratory science graduate, to ensure that the laboratory is well equipped and stocked with reagents for the diagnosis and management of (i) malignancies and (ii) dyslipidaemias.\n\na. Explain why you will **NOT** advocate for the use of **ONLY** tumour markers in the laboratory assessment of malignancies. *(5 marks)*\n\nb. The specialist requested a serum lipid profile and apolipoprotein profile for a patient with dyslipidaemia. Discuss the relevance of the estimation of the apolipoproteins. *(5 marks)*",
+  "media": [],
+  "answer": "**a.** Tumour markers alone are inadequate because:\n- **Poor specificity** – most are raised in benign conditions (PSA in BPH/prostatitis; CEA in smokers, cirrhosis, IBD; CA 125 in endometriosis, pregnancy, ascites; AFP in hepatitis).\n- **Poor sensitivity** – often normal in early/small tumours, so they cannot exclude cancer and are unsuitable for population screening (except few, e.g. hCG).\n- Few are **organ-specific**; one marker may be raised by several cancers.\n- **Diagnosis requires histology/cytology** (tissue biopsy, IHC), supported by imaging; markers mainly help **monitoring treatment, detecting recurrence and prognosis**.\n- Analytical problems: assay differences, hook effect, heterophile antibodies.\n\n**b.** Apolipoprotein estimation:\n- **Apo B** reflects the **number of atherogenic particles** (one apo B per VLDL, IDL, LDL, Lp(a)) and predicts cardiovascular risk better than LDL-cholesterol, especially in hypertriglyceridaemia, diabetes and metabolic syndrome; useful as a treatment target.\n- **Apo A-I** reflects HDL particles (anti-atherogenic); the **apo B/apo A-I ratio** is a strong risk predictor.\n- Helps **classify/diagnose primary dyslipidaemias**: abetalipoproteinaemia (absent apo B), familial dysbetalipoproteinaemia (**apo E2/E2** phenotype), apo C-II deficiency (familial chylomicronaemia), apo A-I deficiency/Tangier disease, **Lp(a)** excess.\n- Measurable in non-fasting samples and not affected by the errors of the Friedewald formula.\n\n> [!answer]\n> Markers lack sensitivity/specificity and cannot replace histology; best for monitoring. Apolipoproteins give particle number and CV risk (apo B, apo A-I, ratio) and identify specific genetic disorders (apo E2, apo C-II, apo B, Lp(a)).",
+  "explanation": "## Advanced explanation\n\nNo tumour marker is perfect; laboratories combine markers with **histopathology, imaging and clinical data**. Lipid profiles measure cholesterol content, while apolipoproteins measure the **proteins/particles** that drive atherosclerosis and define genetic defects.\n\n## Simplified explanation\n\nTumour markers can be raised without cancer and normal with cancer, so they can't stand alone. Apolipoproteins show particle numbers and pinpoint genetic lipid disorders.",
+  "hint": "Markers support, histology diagnoses.",
+  "difficulty": "medium",
+  "marks": 10,
+  "tags": [
+   "Tumour Markers",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Kwame Abe, a 45-year-old alcoholic, was rushed to a referral hospital with an acute abdomen, severe epigastric pain and nausea. On examination he was hypotensive with abdominal guarding. The physician on duty requested **serum amylase** estimation.\n\ni. Is the physician justified in requesting only serum amylase for the investigation of Kwame's condition? *(1 mark)*\n\nii. Explain your answer in (i), giving specific reasons for your choice.",
+  "media": [],
+  "answer": "**i.** **No.**\n\n**ii.**\n- **Amylase is not specific**: it rises in other acute abdominal emergencies (perforated peptic ulcer, intestinal obstruction/infarction, ruptured ectopic pregnancy), salivary disease, renal failure and **macroamylasaemia**.\n- **Amylase may be normal** in alcohol-induced pancreatitis, in hypertriglyceridaemia (assay interference) and if the patient presents late (amylase falls within 3–5 days).\n- **Serum lipase** is more **specific** and stays raised longer; a high **lipase:amylase ratio** suggests alcoholic pancreatitis. Urine amylase/amylase:creatinine clearance ratio may help.\n- Severity and complications need other tests: **glucose, calcium, urea/creatinine, LFTs (AST, bilirubin), LDH, CRP, FBC, arterial blood gases, triglycerides** (Ranson/Glasgow criteria), plus imaging (CT/ultrasound).\n\n> [!answer]\n> No – amylase is neither specific nor always raised (especially in alcoholic pancreatitis or late presentation); add lipase and tests for severity (glucose, calcium, U&E, LFTs, LDH, CRP, gases).",
+  "explanation": "## Advanced explanation\n\nDiagnosis of acute pancreatitis needs two of: typical pain, **amylase or lipase > 3× ULN**, imaging findings. Prognosis is assessed with severity scores using several biochemical tests.\n\n## Simplified explanation\n\nAmylase alone can mislead; measure lipase too and tests to judge severity.",
+  "hint": "Lipase and severity markers.",
+  "difficulty": "medium",
+  "marks": 5,
+  "tags": [
+   "Pancreatic Disease",
+   "2019/20 End of Semester Exam"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Kweku Kepler, a 57-year-old businessman, reported to the hospital with weight loss, dizziness and fatigue. He appeared pale and emaciated, with no history of peptic ulcer or parasitic infection. Investigations: Hb 9.3 g/dL (13.6–18.0); MCV, MCHC and MCH normal; plasma Fe 4.2 µmol/L (9–30); stool occult blood **positive**.\n\ni. Is it enough to measure serum iron only in the assessment of his condition? *(2 marks)*\nii. Explain the reasons for your answer in (i). *(3 marks)*\niii. Mention four tests (other than serum iron, full blood count and stool occult blood) that could help establish a final diagnosis. *(3 marks)*",
+  "media": [],
+  "answer": "**i.** **No.**\n\n**ii.** Serum iron alone is unreliable: it shows **diurnal variation** (higher in the morning), changes with recent iron intake/supplements, the menstrual cycle and oral contraceptives, and falls in **both iron deficiency and anaemia of chronic disease/inflammation/malignancy** – so it cannot tell whether body iron stores are depleted. It must be interpreted with transferrin/TIBC, saturation and ferritin.\n\n**iii.** Any four:\n- **Serum ferritin** – iron stores (low in iron deficiency; normal/high in chronic disease).\n- **Transferrin/TIBC and transferrin saturation** – high TIBC in iron deficiency, low in chronic disease.\n- **Soluble transferrin receptor** (and sTfR/log ferritin index) – raised in iron deficiency, unaffected by inflammation.\n- **CRP/ESR** – inflammation affecting ferritin.\n- **CEA** and **colonoscopy/endoscopy with biopsy** – occult GI bleeding with weight loss in a 57-year-old suggests **colorectal (or gastric) carcinoma**.\n- Reticulocyte count, blood film, hepcidin.\n\n> [!answer]\n> No – serum iron varies and is low in both iron deficiency and chronic disease; add ferritin, TIBC/saturation, sTfR, CRP (and CEA/endoscopy for a GI source of bleeding).",
+  "explanation": "## Advanced explanation\n\nThe pattern of **ferritin, transferrin/TIBC, saturation and sTfR** distinguishes iron deficiency from anaemia of chronic disease. Occult blood with weight loss in an older adult demands investigation for **GI malignancy**.\n\n## Simplified explanation\n\nSerum iron alone can't tell you about iron stores; do ferritin, TIBC, sTfR and look for a bleeding bowel cancer.",
+  "hint": "Iron studies as a panel.",
+  "difficulty": "medium",
+  "marks": 8,
+  "tags": [
+   "Iron Metabolism",
+   "Quiz 2"
+  ]
+ },
+ {
+  "type": "text",
+  "body": "Two years after onset of treatment, Kweku Kepler was diagnosed with **type 2 diabetes mellitus**. The physician requested a serum lipid profile and apolipoprotein profile.\n\ni. Describe his likely lipid profile, in terms of the levels of total cholesterol, triglycerides, HDL-c, LDL-c and VLDL. *(4 marks)*\n\nii. Discuss the relevance of the estimation of apolipoproteins in the investigation of his condition. *(3 marks)*",
+  "media": [],
+  "answer": "**i.** Diabetic dyslipidaemia:\n| Lipid | Level |\n|---|---|\n| Triglycerides | **Increased** |\n| VLDL | **Increased** |\n| HDL-c | **Decreased** |\n| LDL-c | Normal or mildly increased (but **small dense**, more atherogenic LDL) |\n| Total cholesterol | Normal or increased |\n\n(Insulin resistance increases lipolysis and FFA flux to the liver → VLDL overproduction; reduced LPL activity slows clearance; CETP exchange lowers HDL and creates small dense LDL.)\n\n**ii.** **Apo B** measures the number of atherogenic particles and reveals risk that LDL-c underestimates (small dense LDL, high TG); **apo A-I** reflects HDL; the **apo B/A-I ratio** predicts cardiovascular risk and guides lipid-lowering targets; apolipoproteins help separate primary (e.g. apo E2/E2, apo C-II defects) from secondary dyslipidaemia.\n\n> [!answer]\n> High TG and VLDL, low HDL, normal/mildly raised LDL (small dense) and total cholesterol; apo B and apo A-I quantify atherogenic particles and CV risk and help distinguish primary from secondary causes.",
+  "explanation": "## Advanced explanation\n\nThe **atherogenic lipid triad** of type 2 diabetes – high TG, low HDL, small dense LDL – explains increased cardiovascular risk despite near-normal LDL-c; apo B captures this.\n\n## Simplified explanation\n\nIn type 2 diabetes triglycerides and VLDL go up, HDL goes down, LDL becomes small and dense; apo B shows the true risk.",
+  "hint": "Atherogenic triad.",
+  "difficulty": "medium",
+  "marks": 7,
+  "tags": [
+   "Lipid Disorders",
+   "Quiz 2"
+  ]
+ }
+]
